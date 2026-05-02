@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #E7E9EE;
   --foreground: #171717;
+  --neon-color: oklch(0.55 0.18 250 / 0.25);
+  --logo-color: 
 }
 
 @theme inline {
@@ -10,12 +12,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --shadow-neon: 0 0 30px -10px var(--neon-color);
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --neon-color: oklch(0.45 0.12 250 / 0.4);
   }
 }
 
