@@ -13,3 +13,10 @@
 - [x] Asegurar la aplicación con Server Actions y Middleware (Proxy)
 - [x] Refactorizar componentes UI para consumir la nueva capa de auth
 - [x] Corregir fugas de código de servidor en el bundle del cliente
+
+# Pruebas y Calidad (Testing Infrastructure)
+
+- [x] Configurar Vitest y Testing Library
+- [x] Implementar Unit Tests para `AuthRepository` y `AuthService`
+- [x] Implementar Tests para el Middleware Proxy (Seguridad de Rutas)
+- [ ] Configurar Playwright para pruebas E2E de flujos críticos
