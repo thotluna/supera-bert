@@ -1,9 +1,9 @@
 'use client'
 
-import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import Image from 'next/image'
+import { signoutAction } from '@/libs/auth/actions/signout'
 
 interface UserMenuClientProps {
   avatarUrl: string | undefined
@@ -13,11 +13,10 @@ interface UserMenuClientProps {
 
 export default function UserMenuClient({ avatarUrl, userName, emailFirstLetter }: UserMenuClientProps) {
   const [isOpen, setIsOpen] = useState(false)
-  const supabase = createClient()
   const router = useRouter()
 
   const handleSignOut = async () => {
-    await supabase.auth.signOut()
+    await signoutAction()
     router.refresh()
   }
 

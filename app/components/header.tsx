@@ -1,9 +1,10 @@
-// import { getUser } from "@/lib/auth/getUser";
+import { verifyUser } from "@/libs/auth/actions/verify-user";
 import { ButtonStats } from "./ButtonStats";
-// import UserMenu from "./UserMenu";
+import UserMenu from "./UserMenu";
 
 export async function Header() {
-  // const user = await getUser();
+  const { data: user, error } = await verifyUser()
+
   return (
     <header className="grid grid-cols-2 md:flex md:justify-between items-center border-b border-border p-4 pb-4 relative w-full ">
 
@@ -17,12 +18,12 @@ export async function Header() {
       </div>
 
       <div className="flex justify-end items-center gap-2">
-        {/* {user && ( */}
-        <>
-          <ButtonStats />
-          {/* <UserMenu /> */}
-        </>
-        {/* )} */}
+        {user && (
+          <>
+            <ButtonStats />
+            <UserMenu />
+          </>
+        )}
       </div>
     </header>
   );
