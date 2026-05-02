@@ -20,3 +20,7 @@
 - [x] Implementar Unit Tests para `AuthRepository` y `AuthService`
 - [x] Implementar Tests para el Middleware Proxy (Seguridad de Rutas)
 - [ ] Configurar Playwright para pruebas E2E de flujos críticos
+
+# Refactorización de Datos (JSON Data)
+
+- [x] Renombrar claves de español a inglés en `data/*.json` (`pregunta` -> `question`, etc.)

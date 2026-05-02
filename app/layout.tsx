@@ -38,7 +38,7 @@ export default async function RootLayout({
           <div className="flex-1 flex flex-col items-center justify-center  ">
             {children}
           </div>
-          <footer className="py-2 border-t border-border max-w-5xl mx-auto">
+          <footer className="py-2 border-t border-border w-full mx-auto">
             <p className="text-[8px] font-bold text-center text-foreground/20 uppercase tracking-[0.3em]">
               Powered by Thot Luna · 2026
             </p>
