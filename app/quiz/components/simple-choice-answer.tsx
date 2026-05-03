@@ -33,7 +33,7 @@ export function SimpleChoiceAnswers() {
                 name="answer"
                 checked={isSelected}
                 disabled={isFeedbacking}
-                onChange={() => toggleOption(option, false)}
+                onChange={() => toggleOption(option)}
               />
 
               <div className="flex items-center gap-3">

@@ -35,7 +35,7 @@ export function MultipleChoiceAnswer() {
               name="answer"
               checked={isSelected}
               disabled={isFeedbacking}
-              onChange={() => toggleOption(option, true)}
+              onChange={() => toggleOption(option)}
             />
 
             <div className="flex items-center gap-3">
