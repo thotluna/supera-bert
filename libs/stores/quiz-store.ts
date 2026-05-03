@@ -83,7 +83,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         if (!currentQuestion || !startTime || isFeedbacking) return;
 
         // 1. Validar en el servidor
-        const { validatedOptions, isCorrect, points } = await validateAnswer(
+        const { options, isCorrect, points } = await validateAnswer(
           currentQuestion.id, 
           currentSelection.map(o => o.id)
         );
@@ -93,7 +93,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         const response: ResponseQuestion = {
           id: currentQuestion.id,
           question: currentQuestion.question,
-          selectedOptions: validatedOptions,
+          options,
           time: timeTaken,
           points,
           isCorrect,
@@ -104,7 +104,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         const updatedQuestion = currentQuestion ? {
           ...currentQuestion,
           options: currentQuestion.options.map(opt => {
-            const validated = validatedOptions.find(v => v.id === opt.id);
+            const validated = options.find(v => v.id === opt.id);
             return validated ? { ...opt, isCorrect: validated.isCorrect, explanation: validated.explanation } : opt;
           })
         } : null;

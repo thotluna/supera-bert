@@ -35,3 +35,11 @@
 
 - [x] Renombrar claves de español a inglés en `data/*.json` (`pregunta` -> `question`, etc.)
 - [x] Crear semillas de datos mock para validación de tests
+
+# Motor de Quiz y Resultados
+
+- [x] Implementar motor de quiz con Zustand y persistencia
+- [x] Crear componentes de interfaz de quiz (Header, Footer, Answers)
+- [x] Implementar página de resultados con Server Composition
+- [x] Diseñar visualización de métricas y revisión de preguntas
+- [x] Integrar acciones de post-quiz (reintentar, volver)

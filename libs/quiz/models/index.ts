@@ -40,10 +40,14 @@ export interface QuestionClient {
   itc?: string;
 }
 
+export interface ResponseOption extends Option {
+  selected: boolean;
+}
+
 export interface ResponseQuestion {
   id: string;
   question: string;
-  selectedOptions: Option[]; // Opciones validadas con explicación e isCorrect
+  options: ResponseOption[];
   time: number;
   points: number;
   isCorrect: boolean;
