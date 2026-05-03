@@ -52,7 +52,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         const firstQuestion = questions[0];
         const remainingQuestions = questions.slice(1);
         const now = Date.now();
-        const duration = (config.time || 0) * 60 * 1000;
+        const duration = (config.time || 0) * 1000;
 
         set({
           questions: remainingQuestions,
