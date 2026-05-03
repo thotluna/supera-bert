@@ -22,6 +22,9 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    extraHTTPHeaders: {
+      'x-e2e-test-auth': 'true'
+    }
   },
 
   /* Configure projects for major browsers */
@@ -37,6 +40,9 @@ export default defineConfig({
     command: 'pnpm run dev',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
+    env: {
+      NEXT_PUBLIC_APP_ENV: 'test',
+    },
     timeout: 120000,
   },
 });

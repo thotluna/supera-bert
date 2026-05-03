@@ -29,7 +29,41 @@ export async function proxy(request: NextRequest) {
     }
   )
 
-  const { data: { user } } = await supabase.auth.getUser()
+  // 1. Detección de bypass para pruebas E2E
+  // Priorizamos headers de Playwright o la cookie de sesión de test
+  const hasTestCookie = request.cookies.get('e2e-test-auth')?.value === 'true'
+  const hasTestHeader = request.headers.get('x-e2e-test-auth') === 'true'
+  const isBypassActive = hasTestCookie || hasTestHeader
+
+  let user = null
+
+  if (isBypassActive) {
+    // Inyectamos usuario de prueba inmediatamente
+    // Definimos la estructura mínima para cumplir con el tipo User de Supabase
+    user = {
+      id: 'e2e-test-id',
+      email: 'test@example.com',
+      user_metadata: { full_name: 'Test User' },
+      app_metadata: {},
+      aud: 'authenticated',
+      role: 'authenticated',
+      created_at: new Date().toISOString(),
+      updated_at: new Date().toISOString(),
+      confirmed_at: new Date().toISOString(),
+      last_sign_in_at: new Date().toISOString(),
+      factors: [],
+      phone: '',
+    } as unknown as ReturnType<typeof supabase.auth.getUser> extends Promise<{ data: { user: infer U } }> ? U : null
+  } else {
+    // Solo consultamos a Supabase si no hay bypass activo
+    try {
+      const { data } = await supabase.auth.getUser()
+      user = data.user
+    } catch {
+      // En producción, si falla getUser, el usuario seguirá siendo null
+      user = null
+    }
+  }
 
   const isPublicRoute = request.nextUrl.pathname.startsWith('/login') || 
                         request.nextUrl.pathname.startsWith('/auth')
