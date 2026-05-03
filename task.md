@@ -19,8 +19,19 @@
 - [x] Configurar Vitest y Testing Library
 - [x] Implementar Unit Tests para `AuthRepository` y `AuthService`
 - [x] Implementar Tests para el Middleware Proxy (Seguridad de Rutas)
-- [ ] Configurar Playwright para pruebas E2E de flujos críticos
+- [x] Configurar Playwright para pruebas E2E de flujos críticos
+- [x] Implementar Tests Unitarios y E2E para la configuración del Quiz (Happy paths & Corner cases)
+- [x] Implementar Auth Bypass para entorno de testing (E2E) sin comprometer producción
+
+# Configuración del Quiz (UX/UI Premium)
+
+- [x] Implementar Dashboard compacto (Bento Grid) sin scroll
+- [x] Integrar Server Actions para navegación nativa
+- [x] Implementar Renderizado Granular con Suspense y Skeletons
+- [x] Corregir bugs de estado concurrente en el hook de selección
+- [x] Asegurar cumplimiento de reglas de ingeniería TS (No any, SOLID)
 
 # Refactorización de Datos (JSON Data)
 
 - [x] Renombrar claves de español a inglés en `data/*.json` (`pregunta` -> `question`, etc.)
+- [x] Crear semillas de datos mock para validación de tests
