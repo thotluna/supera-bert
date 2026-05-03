@@ -19,7 +19,7 @@ interface QuizState {
 interface QuizActions {
   setQuestions: (questions: QuestionClient[]) => void;
   setConfig: (config: ConfigQuiz) => void;
-  startQuiz: (questions: QuestionClient[], config: ConfigQuiz) => void;
+  initialize: (questions: QuestionClient[], config: ConfigQuiz) => void;
   toggleOption: (option: OptionClient) => void;
   nextQuestion: () => Promise<void>;
   skipQuestion: () => void;
@@ -44,7 +44,11 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       setQuestions: (questions) => set({ questions }),
       setConfig: (config) => set({ config }),
       
-      startQuiz: (questions, config) => {
+      initialize: (questions, config) => {
+        // Protección de persistencia: si ya hay progreso, no reiniciamos
+        const state = get();
+        if (state.currentQuestion || state.answers.length > 0) return;
+
         const firstQuestion = questions[0];
         const remainingQuestions = questions.slice(1);
         const now = Date.now();
