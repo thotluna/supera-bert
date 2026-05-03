@@ -1,13 +1,13 @@
 import { ModeQuiz, ITCTopic, ConfigQuiz } from "../models";
 
-export function getConfigQuiz({ userId, mode, topic }: {
+export function getConfigQuiz({ userId, mode, topics }: {
   userId: string,
   mode: ModeQuiz,
-  topic: ITCTopic
+  topics: ITCTopic[]
 }): ConfigQuiz {
 
   if (!userId) throw new Error('User ID is required');
-  if (!topic) throw new Error('Topic is required');
+  if (!topics) throw new Error('Topics are required');
 
   const modeSettings: Record<ModeQuiz, { time: number, questionCount: number }> = {
     timed: {
@@ -33,7 +33,7 @@ export function getConfigQuiz({ userId, mode, topic }: {
   return {
     userId,
     mode,
-    topic,
+    topics,
     time: settings.time,
     questionCount: settings.questionCount
   };
