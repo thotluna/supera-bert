@@ -20,6 +20,7 @@ export function Header() {
   const answers = useQuizStore(state => state.answers);
   const currentQuestion = useQuizStore(state => state.currentQuestion);
   const expiresAt = useQuizStore(state => state.expiresAt);
+  const score = useQuizStore(state => state.score);
   const finish = useQuizStore(state => state.finish);
   const isFeedbacking = useQuizStore(state => state.isFeedbacking);
 
@@ -53,7 +54,7 @@ export function Header() {
 
   const topicsLabel = config?.topics.length === 0 ? 'Todo el reglamento' : config?.topics.join(', ');
   const progress = answers.length + (currentQuestion ? 1 : 0);
-  const totalPoints = Number(answers.reduce((acc, curr) => acc + (curr.points || 0), 0).toFixed(2));
+  const totalPoints = score;
 
   return (
     <header className="w-full flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pb-4 border-b border-foreground/5">

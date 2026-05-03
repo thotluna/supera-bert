@@ -11,6 +11,7 @@ interface QuizState {
   startTime: number | null;
   expiresAt: number | null; // Timestamp de finalización
   isFeedbacking: boolean;
+  score: number;
   isFinished: boolean;
 }
 
@@ -32,6 +33,7 @@ export const useQuizStore = create<QuizState & QuizActions>()((set, get) => ({
   startTime: null,
   expiresAt: null,
   isFeedbacking: false,
+  score: 0,
   isFinished: false,
 
   // Acciones
@@ -103,7 +105,8 @@ export const useQuizStore = create<QuizState & QuizActions>()((set, get) => ({
     set({ 
       isFeedbacking: true,
       currentQuestion: updatedQuestion,
-      answers: [...answers, response]
+      answers: [...answers, response],
+      score: Number((get().score + points).toFixed(2))
     });
 
     // 3. Esperar 3 segundos antes de pasar a la siguiente
