@@ -35,7 +35,7 @@ export default async function RootLayout({
         <Background />
         <div className="flex flex-col h-full max-w-5xl mx-auto gap-2">
           <Header />
-          <div className="flex-1 flex flex-col items-center justify-center  ">
+          <div className="flex-1 h-full flex flex-col items-center justify-center  ">
             {children}
           </div>
           <footer className="py-2 w-full mx-auto">

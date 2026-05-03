@@ -17,11 +17,16 @@ export interface Option {
   explanation: string;
 }
 
-export type OptionClient = Omit<Option, 'isCorrect' | 'explanation'>;
+export type OptionClient = Omit<Option, 'isCorrect' | 'explanation'> & {
+  isCorrect?: boolean;
+  explanation?: string;
+};
+
+export type QuestionType = 'simple' | 'multiple';
 
 export interface Question {
   id: string;
-  type: 'simple' | 'multiple';
+  type: QuestionType;
   question: string;
   options: Option[];
   itc?: string;
@@ -29,16 +34,27 @@ export interface Question {
 
 export interface QuestionClient {
   id: string;
-  type: 'simple' | 'multiple';
+  type: QuestionType;
   question: string;
   options: OptionClient[];
   itc?: string;
 }
+
+export interface ResponseQuestion {
+  id: string;
+  question: string;
+  selectedOptions: Option[]; // Opciones validadas con explicación e isCorrect
+  time: number;
+  points: number;
+  isCorrect: boolean;
+  itc?: string;
+}
+
 
 export interface ConfigQuiz {
   userId: string;
   mode: ModeQuiz;
   time?: number;
   questionCount: number;
-  topic: ITCTopic;
+  topics: ITCTopic[];
 }
