@@ -13,7 +13,7 @@ export function Initialization({ config, questions }: Props) {
   const initialize = useQuizStore(state => state.initialize)
 
   useEffect(() => {
-    initialize(config, questions)
+    initialize(questions, config)
   }, [initialize, config, questions])
 
   return null
