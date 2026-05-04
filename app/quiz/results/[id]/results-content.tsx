@@ -166,13 +166,6 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                               <div className="flex flex-col gap-1">
                                 <div className="flex items-center gap-2">
                                   <span>{opt.answer}</span>
-                                  {isSelected && (
-                                    <span className={`text-[8px] px-1.5 py-0.5 rounded-full font-black uppercase tracking-tighter ${
-                                      isCorrect ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
-                                    }`}>
-                                      Tu elección
-                                    </span>
-                                  )}
                                 </div>
                               </div>
                               
