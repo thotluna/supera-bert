@@ -1,21 +1,18 @@
 'use client'
 
-import { createClient } from "@/lib/supabase/client";
+
+import { AuthService } from "@/libs/auth/services/auth.service";
+import { Factory } from "@/libs/shape/factory";
 import { useState } from "react";
 
 export const GoogleSignInButton = () => {
   const [loading, setLoading] = useState(false)
-  const supabase = createClient()
+  const service: AuthService = Factory.getAuthService()
 
   const handleSignIn = async () => {
     setLoading(true)
     try {
-      await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo: `${window.location.origin}/auth/callback`,
-        },
-      })
+      await service.signInWithGoogle()
     } catch (error) {
       console.error('Error signing in:', error)
     } finally {
