@@ -1,5 +1,5 @@
 import { DomainResponse } from "@/libs/shape/auth/types";
-import { Quiz, QuizCreate, QuizFinish } from "../domain/quiz";
+import { Quiz, QuizAnswer, QuizCreate, QuizFinish } from "../domain/quiz";
 import { QuizzesRepository } from "../repository/quizzes-repository";
 import { QuestionRepository } from "../repository/question-repository";
 import { ConfigQuiz, Option, Question, ResponseQuestion, TopicOption } from "../models";
@@ -81,5 +81,33 @@ export class QuizService {
       finishedAt: new Date().toISOString(),
       isCompleted: true,
     });
+  }
+
+  async getQuizResult(id: string): Promise<DomainResponse<{
+    quiz: Quiz;
+    answers: QuizAnswer[];
+    questions: Question[];
+  }>> {
+    const quizResult = await this.quizzesRepository.findById(id);
+    if (quizResult.error || !quizResult.data) {
+      return { data: null, error: quizResult.error || new Error("Quiz not found") };
+    }
+
+    const answersResult = await this.answersRepository.getByQuizId(id);
+    if (answersResult.error) {
+      return { data: null, error: answersResult.error };
+    }
+
+    const questionIds = answersResult.data?.map(a => a.questionId) || [];
+    const questions = await this.questionsRepository.getCorrectAnswer(questionIds);
+
+    return {
+      data: {
+        quiz: quizResult.data,
+        answers: answersResult.data || [],
+        questions
+      },
+      error: null
+    };
   }
 }
