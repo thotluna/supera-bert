@@ -27,11 +27,11 @@ export default function ModeConfig(): JSX.Element {
   ];
 
   return (
-    <article className="grid grid-cols-2 sm:flex sm:flex-row gap-3 md:gap-4">
-      {modes.map((mode, index) => (
+    <article className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+      {modes.map((mode) => (
         <div
           key={mode.mode}
-          className={`${index === modes.length - 1 ? 'col-span-2' : 'col-span-1'} flex`}
+          className="flex"
         >
           <OptionsMode {...mode} />
         </div>
