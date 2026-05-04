@@ -39,3 +39,7 @@
 # Documentación y Análisis
 
 - [x] Definir y documentar estructura de datos obtenibles del Quiz
+- [x] Implementar esquema de base de datos en Supabase (4 tablas y triggers)
+- [x] Definir entidades de dominio puras para Quiz, Answer y Progress
+- [x] Implementar arquitectura de 4 capas (Action -> Service -> Repository -> DataSource)
+- [x] Documentar y diseñar arquitectura de Fábrica Dinámica (Plug-and-Play)

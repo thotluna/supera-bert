@@ -1,52 +1,53 @@
-# Datos del Quiz
+# Arquitectura de Persistencia (Supabase)
 
-Este documento detalla toda la información que actualmente podemos obtener y rastrear durante y después de un quiz en Supera-BERT.
+Este documento define la estructura de datos para el proyecto **supera-bert**. La base de datos se utiliza exclusivamente para gestionar la identidad del usuario y el seguimiento de sesiones, manteniendo el banco de preguntas y el cálculo de estadísticas desacoplado (en el código).
 
-## 1. Configuración del Quiz (`ConfigQuiz`)
-Esta información se define al inicio del quiz y determina las reglas del mismo.
+## 1. Identidad de Usuario
+Propósito: Mantener un perfil persistente vinculado a la autenticación de Google.
 
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `userId` | `string` | Identificador único del usuario que realiza el quiz. |
-| `mode` | `ModeQuiz` | Modo de juego: `timed` (con tiempo global), `standard` (por defecto), `untimed` (sin límites). |
-| `time` | `number` (opcional) | Tiempo total asignado para el quiz en segundos (si aplica). |
-| `questionCount` | `number` | Cantidad total de preguntas solicitadas para la sesión. |
-| `topics` | `ITCTopic[]` | Lista de temas seleccionados (ej: `ITC-BT-03`, `ITC-BT-04`). |
+### Tabla: `users`
+*   `id`: UUID (Primary Key, referencia a `auth.users`).
+*   `email`: Correo electrónico del usuario.
+*   `full_name`: Nombre completo extraído de Google.
+*   `avatar_url`: Imagen de perfil de Google.
 
-## 2. Estado en Tiempo Real (`QuizState`)
-Datos gestionados por el store de Zustand para mantener la reactividad y persistencia en el navegador.
+---
 
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `questions` | `QuestionClient[]` | Cola de preguntas restantes por responder. |
-| `currentQuestion` | `QuestionClient` | La pregunta que el usuario está viendo actualmente. |
-| `currentSelection` | `OptionClient[]` | Opciones que el usuario ha marcado pero aún no ha confirmado. |
-| `answers` | `ResponseQuestion[]` | Historial detallado de todas las preguntas ya respondidas. |
-| `startTime` | `number` | Timestamp (ms) de cuándo se inició la pregunta actual. |
-| `expiresAt` | `number` | Timestamp (ms) de cuándo expira el quiz completo (modo `timed`). |
-| `isFeedbacking` | `boolean` | Indica si se está mostrando la corrección (feedback) de la pregunta actual. |
-| `score` | `number` | Puntuación acumulada del usuario (soporta decimales). |
-| `isFinished` | `boolean` | Estado que indica si el quiz ha llegado a su fin. |
+## 2. Motor de Quiz (Actividad)
+Propósito: Registrar cada sesión y cada respuesta individual para permitir la recuperación de estado y auditoría. Las estadísticas globales se calculan en caliente a partir de estos datos.
 
-## 3. Detalle de Respuestas (`ResponseQuestion`)
-Cada entrada en el array de `answers` contiene información detallada sobre el desempeño en esa pregunta específica.
+### Tabla: `quizzes` (Cabecera de Sesión)
+*   `id`: UUID (Primary Key).
+*   `user_id`: Referencia a `users.id`.
+*   `mode`: Modo de examen (`standard`, `timed`, `infinite`).
+*   `itc_codes`: Array de ITCs seleccionadas para esta sesión.
+*   `total_questions`: Número de preguntas configuradas.
+*   `total_score`: Puntuación final obtenida.
+*   `started_at` / `finished_at`: Control de tiempo global.
+*   `is_completed`: Flag que indica si el examen se terminó formalmente.
 
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `id` | `string` | ID único de la pregunta. |
-| `question` | `string` | Enunciado de la pregunta. |
-| `selectedOptions` | `Option[]` | Opciones seleccionadas por el usuario, enriquecidas con `isCorrect` y `explanation`. |
-| `time` | `number` | Tiempo invertido en responder esta pregunta específica (en milisegundos). |
-| `points` | `number` | Puntos obtenidos (positivos por aciertos, negativos por errores si aplica). |
-| `isCorrect` | `boolean` | Indica si el resultado global de la respuesta fue correcto. |
-| `itc` | `string` | Referencia a la Instrucción Técnica Complementaria relacionada. |
+### Tabla: `quiz_answers` (Detalle de Interacción)
+*   `id`: UUID (Primary Key).
+*   `quiz_id`: Referencia a `quizzes.id`.
+*   `question_id`: ID de la pregunta (corresponde al ID en el JSON).
+*   `itc_code`: Código de la ITC a la que pertenece la pregunta.
+*   `selected_option_ids`: Array de IDs de las opciones marcadas.
+*   `is_correct`: Booleano que indica acierto total.
+*   `points`: Puntos obtenidos en esta respuesta.
+*   `time_ms`: Tiempo invertido en esta pregunta específica.
 
-## 4. Estructura de Opciones (`Option`)
-Detalle de las opciones dentro de una pregunta.
+### Tabla: `user_itc_stats` (Optimización de Lectura)
+*   `user_id`: Referencia a `users.id`.
+*   `itc_code`: Código de la ITC.
+*   `total_attempts`: Contador de respuestas totales.
+*   `correct_answers`: Contador de aciertos.
+*   `accuracy_rate`: Porcentaje de éxito (calculado por trigger).
+*   `avg_time_ms`: Tiempo medio de respuesta (calculado por trigger).
+*   **Por qué**: Evita agregaciones pesadas en el dashboard, permitiendo lecturas instantáneas del progreso del usuario.
 
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `id` | `number` | ID de la opción dentro de la pregunta. |
-| `answer` | `string` | Texto de la opción. |
-| `isCorrect` | `boolean` | Indica si la opción es correcta (solo disponible tras validación o en servidor). |
-| `explanation` | `string` | Justificación de por qué la opción es correcta o incorrecta. |
+---
+
+## 🏗️ Resumen de Decisiones
+1.  **Desacople de Contenido**: No existen tablas de banco de preguntas en la BD.
+2.  **Cálculo Asíncrono (Triggers)**: Se utilizan triggers en la BD para mantener la tabla de estadísticas actualizada en tiempo real, optimizando el rendimiento del dashboard.
+3.  **Simplicidad y Rendimiento**: Equilibrio entre una BD mínima y una estructura que soporte consultas rápidas para el usuario final.
