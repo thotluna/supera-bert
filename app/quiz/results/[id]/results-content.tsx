@@ -176,9 +176,16 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                                 </div>
                               </div>
                               
-                              <div className="flex items-center gap-2">
-                                {isCorrect && <CheckCircle2 size={16} className={isSelected ? "text-green-400" : "text-green-500/30"} />}
-                                {isSelected && !isCorrect && <XCircle size={16} className="text-red-400" />}
+                              <div className="flex items-center gap-3">
+                                {isCorrect && !isSelected && (
+                                  <CheckCircle2 size={16} className="text-green-500/30" />
+                                )}
+                                
+                                {isSelected && (
+                                  <div className={`p-1.5 rounded-full ${isCorrect ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
+                                    {isCorrect ? <CheckCircle2 size={24} strokeWidth={3} /> : <XCircle size={24} strokeWidth={3} />}
+                                  </div>
+                                )}
                               </div>
                             </div>
                           );
