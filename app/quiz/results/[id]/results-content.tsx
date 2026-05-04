@@ -2,7 +2,7 @@
 
 import { Quiz, QuizAnswer } from "@/libs/quiz/domain/quiz";
 import { Question } from "@/libs/quiz/models";
-import { CheckCircle2, XCircle, Clock, Trophy, ArrowLeft, RotateCcw, ChevronDown, ChevronUp } from "lucide-react";
+import { CheckCircle2, XCircle, Clock, Trophy, ArrowLeft, RotateCcw, ChevronDown, ChevronUp, Check, X } from "lucide-react";
 import Link from "next/link";
 import { useState, JSX } from "react";
 
@@ -176,14 +176,17 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                                 </div>
                               </div>
                               
-                              <div className="flex items-center gap-3">
+                              <div className="flex items-center">
                                 {isCorrect && !isSelected && (
-                                  <CheckCircle2 size={16} className="text-green-500/30" />
+                                  <Check size={20} className="text-green-500/20" />
                                 )}
                                 
                                 {isSelected && (
-                                  <div className={`p-1.5 rounded-full ${isCorrect ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
-                                    {isCorrect ? <CheckCircle2 size={24} strokeWidth={3} /> : <XCircle size={24} strokeWidth={3} />}
+                                  <div className="flex items-center animate-in zoom-in duration-300">
+                                    {isCorrect 
+                                      ? <Check size={32} strokeWidth={3} className="text-green-400" /> 
+                                      : <X size={32} strokeWidth={3} className="text-red-400" />
+                                    }
                                   </div>
                                 )}
                               </div>
