@@ -8,7 +8,7 @@ import { QuizTopicsSkeleton } from "./components/config/topics-quiz/quiz-topics-
 
 export default async function Home(): Promise<JSX.Element> {
   return (
-    <main className="w-full max-w-5xl bg-subface/40 backdrop-blur-xl border border-white/20 dark:border-white/5 rounded-3xl md:rounded-[2.5rem] p-6 md:px-10 md:py-6 shadow-2xl shadow-black/5">
+    <main className="w-full max-w-5xl bg-subface/40 backdrop-blur-xl border border-white/20 dark:border-white/5 rounded-3xl md:rounded-[2.5rem] p-4 md:px-10 md:py-6 shadow-2xl shadow-black/5">
       <form action={startQuizAction} className="flex flex-col gap-6">
         <header className="mb-1">
           <h1 className="text-2xl md:text-3xl font-black tracking-tighter uppercase italic text-transparent bg-clip-text bg-linear-to-r from-foreground via-foreground to-foreground/50">
