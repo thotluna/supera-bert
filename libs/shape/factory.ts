@@ -1,18 +1,52 @@
-import { AuthService } from "@/libs/auth/services/auth.service"
-import { AuthRepositorySupabase } from "../auth/repository/auth-repository"
-import { JSONDataSource } from "../quiz/repository/data-source-json"
-import { QuizService } from "../quiz/services/quiz-service"
-import { QuestionRepository } from "../quiz/repository/question-repository"
+import { AuthService } from "@/libs/auth/services/auth.service";
+import { AuthRepositorySupabase } from "../auth/repository/auth-repository";
+import { QuizService } from "../quiz/services/quiz.service";
+import { AnswerService } from "../quiz/services/answer.service";
+import { QuizzesDataSource } from "../quiz/repository/quizzes-data-source";
+import { AnswersDataSource } from "../quiz/repository/answers-data-source";
+import { ProgressService } from "../progress/services/progress.service";
+import { ProgressDataSource } from "../progress/repository/progress-data-source";
+import { StartQuizAction } from "../quiz/actions/start-quiz.action";
+import { SubmitAnswerAction } from "../quiz/actions/submit-answer.action";
+import { FinishQuizAction } from "../quiz/actions/finish-quiz.action";
+import { GetUserStatsAction } from "../progress/actions/get-user-stats.action";
+import { JSONDataSource } from "../quiz/repository/data-source-json";
 
 export class Factory {
-
   static getAuthService() {
-    const authRepository: AuthRepositorySupabase = new AuthRepositorySupabase()
-    return new AuthService(authRepository)
+    const authRepository = new AuthRepositorySupabase();
+    return new AuthService(authRepository);
   }
 
   static getQuizService() {
-    const dataSource: QuestionRepository = new JSONDataSource()
-    return new QuizService(dataSource)
+    const quizzesRepository = new QuizzesDataSource();
+    const questionsRepository = new JSONDataSource();
+    return new QuizService(questionsRepository, quizzesRepository);
+  }
+
+  static getAnswerService() {
+    const repository = new AnswersDataSource();
+    return new AnswerService(repository);
+  }
+
+  static getProgressService() {
+    const repository = new ProgressDataSource();
+    return new ProgressService(repository);
+  }
+
+  static getStartQuizAction() {
+    return new StartQuizAction(this.getQuizService());
+  }
+
+  static getSubmitAnswerAction() {
+    return new SubmitAnswerAction(this.getAnswerService());
+  }
+
+  static getFinishQuizAction() {
+    return new FinishQuizAction(this.getQuizService());
+  }
+
+  static getGetUserStatsAction() {
+    return new GetUserStatsAction(this.getProgressService());
   }
 }

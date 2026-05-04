@@ -20,8 +20,3 @@ export interface OAuthResponse {
   url: string
 }
 
-export interface DomainResponse<T> {
-  data: T | null
-  error: Error | null
-}
-

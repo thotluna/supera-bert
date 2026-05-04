@@ -5,8 +5,8 @@ import {
   AuthUser,
   AuthResponse,
   OAuthResponse,
-  DomainResponse,
 } from '../types'
+import { DomainResponse } from '@/libs/shape/auth/types'
 
 export interface AuthRepository {
   exchangeCodeForSession(code: string): Promise<DomainResponse<AuthResponse>>
