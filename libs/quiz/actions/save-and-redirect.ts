@@ -1,10 +1,10 @@
 'use server'
 import { redirect } from "next/navigation"
-import { ConfigQuiz, QuestionClient, ResponseQuestion } from "../models"
+import { ConfigQuiz, Question, ResponseQuestion } from "../models"
 import { Factory } from "@/libs/shape/factory"
 
 export async function saveAndRedirect({ answers, config, score }: {
-  questions: QuestionClient[]
+  questions: Question[]
   answers: ResponseQuestion[]
   config: ConfigQuiz | null
   startTime: number | null

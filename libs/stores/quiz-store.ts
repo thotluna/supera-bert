@@ -1,13 +1,12 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import { QuestionClient, ResponseQuestion, ConfigQuiz, OptionClient } from '../quiz/models';
-import { validateAnswer } from '../quiz/actions/validate-answer';
+import { Question, ResponseQuestion, ConfigQuiz, Option } from '../quiz/models';
 import { saveAndRedirect } from '../quiz/actions/save-and-redirect';
 
 interface QuizState {
-  questions: QuestionClient[];
-  currentQuestion: QuestionClient | null;
-  currentSelection: OptionClient[];
+  questions: Question[];
+  currentQuestion: Question | null;
+  currentSelection: Option[];
   answers: ResponseQuestion[];
   config: ConfigQuiz | null;
   startTime: number | null;
@@ -25,10 +24,10 @@ interface QuizState {
 }
 
 interface QuizActions {
-  setQuestions: (questions: QuestionClient[]) => void;
+  setQuestions: (questions: Question[]) => void;
   setConfig: (config: ConfigQuiz) => void;
-  initialize: (questions: QuestionClient[], config: ConfigQuiz) => void;
-  toggleOption: (option: OptionClient) => void;
+  initialize: (questions: Question[], config: ConfigQuiz) => void;
+  toggleOption: (option: Option) => void;
   nextQuestion: () => Promise<void>;
   skipQuestion: () => void;
   finish: () => void;
@@ -101,10 +100,22 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         const { currentQuestion, currentSelection, answers, startTime, isFeedbacking } = get();
         if (!currentQuestion || !startTime || isFeedbacking) return;
 
-        const { validatedOptions, isCorrect, points } = await validateAnswer(
-          currentQuestion.id,
-          currentSelection.map(o => o.id)
-        );
+        // Local Validation Logic
+        const totalCorrectInQuestion = currentQuestion.options.filter(o => o.isCorrect).length;
+        const selectedIds = currentSelection.map(o => o.id);
+        const validatedOptions = currentQuestion.options.filter(opt => selectedIds.includes(opt.id));
+
+        let points = 0;
+        const correctSelected = validatedOptions.filter(o => o.isCorrect).length;
+        const incorrectSelected = validatedOptions.filter(o => !o.isCorrect).length;
+
+        if (totalCorrectInQuestion > 0) {
+          points += (correctSelected * (1 / totalCorrectInQuestion));
+        }
+        points -= (incorrectSelected * 0.20);
+
+        const isCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;
+        const finalPoints = Number(points.toFixed(2));
 
         const timeTaken = Date.now() - startTime;
 
@@ -113,24 +124,16 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           question: currentQuestion.question,
           selectedOptions: validatedOptions,
           time: timeTaken,
-          points,
+          points: finalPoints,
           isCorrect,
           itc: currentQuestion.itc,
         };
 
-        const updatedQuestion = currentQuestion ? {
-          ...currentQuestion,
-          options: currentQuestion.options.map(opt => {
-            const validated = validatedOptions.find(v => v.id === opt.id);
-            return validated ? { ...opt, isCorrect: validated.isCorrect, explanation: validated.explanation } : opt;
-          })
-        } : null;
-
         set({
           isFeedbacking: true,
-          currentQuestion: updatedQuestion,
+          currentQuestion: { ...currentQuestion }, // No need to map anymore as it already has everything
           answers: [...answers, response],
-          score: Number((get().score + points).toFixed(2))
+          score: Number((get().score + finalPoints).toFixed(2))
         });
 
         setTimeout(() => {

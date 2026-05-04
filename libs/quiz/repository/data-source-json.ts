@@ -1,12 +1,12 @@
 import fs from 'fs';
 import path from 'path';
-import { Question, QuestionClient, ITCTopic, OptionClient, TopicOption } from '../models';
+import { Question, ITCTopic, TopicOption } from '../models';
 import { QuestionRepository } from './question-repository';
 
 export class JSONDataSource implements QuestionRepository {
   private static readonly DATA_PATH = path.join(process.cwd(), 'data');
 
-  async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<QuestionClient[]> {
+  async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
     const allData = await this.loadFromFiles(itcs);
     let combinedQuestions: Question[] = Object.values(allData).flat();
 
@@ -20,7 +20,7 @@ export class JSONDataSource implements QuestionRepository {
       combinedQuestions = combinedQuestions.slice(0, count);
     }
 
-    return combinedQuestions.map(q => this.mapToClient(q));
+    return combinedQuestions;
   }
 
   async checkAnswer(questionId: string, answerId: number): Promise<boolean> {
@@ -103,14 +103,5 @@ export class JSONDataSource implements QuestionRepository {
     return array.sort(() => Math.random() - 0.5);
   }
 
-  private mapToClient(question: Question): QuestionClient {
-    const { options, ...rest } = question;
-    return {
-      ...rest,
-      options: options.map((opt): OptionClient => ({
-        id: opt.id,
-        answer: opt.answer
-      }))
-    };
-  }
+
 }

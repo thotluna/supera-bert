@@ -49,7 +49,13 @@ export class QuizService {
       return { data: null, error: new Error("No configuration found for persistence") };
     }
 
-    // 1. Crear la cabecera del examen
+    // 1. Obtener las preguntas originales para validación de integridad
+    const questionIds = data.answers.map(a => a.id);
+    const fullQuestions = await this.questionsRepository.getCorrectAnswer(questionIds);
+    
+    let totalRecalculatedScore = 0;
+
+    // 2. Crear la cabecera del examen
     const quizResult = await this.quizzesRepository.create({
       userId: data.config.userId,
       mode: data.config.mode,
@@ -61,23 +67,47 @@ export class QuizService {
 
     const quizId = quizResult.data.id;
 
-    // 2. Guardar todas las respuestas en lote
-    const answersToCreate = data.answers.map(ans => ({
-      quizId,
-      questionId: ans.id,
-      itcCode: ans.itc || "",
-      selectedOptionIds: ans.selectedOptions.map(o => o.id),
-      isCorrect: ans.isCorrect,
-      points: ans.points,
-      timeMs: ans.time,
-    }));
+    // 3. Preparar respuestas con validación de servidor
+    const answersToCreate = data.answers.map(ans => {
+      const originalQuestion = fullQuestions.find(q => q.id === ans.id);
+      
+      let finalPoints = 0;
+      let finalIsCorrect = false;
+
+      if (originalQuestion) {
+        const totalCorrectInQuestion = originalQuestion.options.filter(o => o.isCorrect).length;
+        const selectedIds = ans.selectedOptions.map(o => o.id);
+        const correctSelected = originalQuestion.options.filter(o => o.isCorrect && selectedIds.includes(o.id)).length;
+        const incorrectSelected = originalQuestion.options.filter(o => !o.isCorrect && selectedIds.includes(o.id)).length;
+
+        let points = 0;
+        if (totalCorrectInQuestion > 0) {
+          points += (correctSelected * (1 / totalCorrectInQuestion));
+        }
+        points -= (incorrectSelected * 0.20);
+        
+        finalPoints = Number(points.toFixed(2));
+        finalIsCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;
+        totalRecalculatedScore += finalPoints;
+      }
+
+      return {
+        quizId,
+        questionId: ans.id,
+        itcCode: ans.itc || "",
+        selectedOptionIds: ans.selectedOptions.map(o => o.id),
+        isCorrect: finalIsCorrect,
+        points: finalPoints,
+        timeMs: ans.time,
+      };
+    });
 
     const answersResult = await this.answersRepository.createMany(answersToCreate);
     if (answersResult.error) return { data: null, error: answersResult.error };
 
-    // 3. Finalizar el examen con el score real
+    // 4. Finalizar el examen con el score RECALCULADO (no confiamos en el cliente)
     return this.quizzesRepository.finish(quizId, {
-      totalScore: data.score,
+      totalScore: Number(totalRecalculatedScore.toFixed(2)),
       finishedAt: new Date().toISOString(),
       isCompleted: true,
     });

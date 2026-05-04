@@ -1,12 +1,12 @@
 "use client"
 
-import { ConfigQuiz, QuestionClient } from "@/libs/quiz/models"
+import { ConfigQuiz, Question } from "@/libs/quiz/models"
 import { useQuizStore } from "@/libs/stores/quiz-store"
 import { useEffect } from "react"
 
 interface Props {
   config: ConfigQuiz
-  questions: QuestionClient[]
+  questions: Question[]
 }
 
 export function Initialization({ config, questions }: Props) {
