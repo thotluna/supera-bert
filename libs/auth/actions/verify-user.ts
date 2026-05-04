@@ -1,7 +1,8 @@
 'use server'
 
 import { Factory } from "@/libs/shape/factory";
-import { AuthUser, DomainResponse } from "../types";
+import { AuthUser } from "../types";
+import { DomainResponse } from "@/libs/shape/auth/types";
 
 export async function verifyUser(): Promise<DomainResponse<AuthUser>> {
 

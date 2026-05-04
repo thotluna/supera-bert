@@ -1,5 +1,6 @@
 import { AuthRepository } from "../repository/auth-repository"
-import { AuthResponse, AuthUser, DomainResponse, OAuthResponse } from "../types"
+import { AuthResponse, AuthUser, OAuthResponse } from "../types"
+import { DomainResponse } from "@/libs/shape/auth/types"
 
 export class AuthService {
   constructor(private readonly repo: AuthRepository) {}
