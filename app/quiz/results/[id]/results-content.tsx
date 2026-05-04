@@ -149,20 +149,37 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                           const isSelected = answer?.selectedOptionIds.includes(opt.id);
                           const isCorrect = opt.isCorrect;
 
+                          let statusStyles = "border-white/5 bg-white/5 text-foreground/40";
+                          if (isSelected && isCorrect) {
+                            statusStyles = "border-green-500 bg-green-500/20 text-green-200 shadow-[0_0_15px_rgba(34,197,94,0.1)]";
+                          } else if (isSelected && !isCorrect) {
+                            statusStyles = "border-red-500 bg-red-500/20 text-red-200";
+                          } else if (!isSelected && isCorrect) {
+                            statusStyles = "border-green-500/30 bg-transparent text-green-400/50 border-dashed";
+                          }
+
                           return (
                             <div 
                               key={opt.id}
-                              className={`p-3 rounded-xl border text-sm flex items-center justify-between ${
-                                isCorrect 
-                                  ? 'border-green-500/50 bg-green-500/10 text-green-200' 
-                                  : isSelected 
-                                    ? 'border-red-500/50 bg-red-500/10 text-red-200' 
-                                    : 'border-white/5 bg-white/5 text-foreground/50'
-                              }`}
+                              className={`group relative p-4 rounded-xl border text-sm flex items-center justify-between transition-all duration-300 ${statusStyles}`}
                             >
-                              <span>{opt.answer}</span>
-                              {isCorrect && <CheckCircle2 size={14} className="text-green-400" />}
-                              {isSelected && !isCorrect && <XCircle size={14} className="text-red-400" />}
+                              <div className="flex flex-col gap-1">
+                                <div className="flex items-center gap-2">
+                                  <span>{opt.answer}</span>
+                                  {isSelected && (
+                                    <span className={`text-[8px] px-1.5 py-0.5 rounded-full font-black uppercase tracking-tighter ${
+                                      isCorrect ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
+                                    }`}>
+                                      Tu elección
+                                    </span>
+                                  )}
+                                </div>
+                              </div>
+                              
+                              <div className="flex items-center gap-2">
+                                {isCorrect && <CheckCircle2 size={16} className={isSelected ? "text-green-400" : "text-green-500/30"} />}
+                                {isSelected && !isCorrect && <XCircle size={16} className="text-red-400" />}
+                              </div>
                             </div>
                           );
                         })}
