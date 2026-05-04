@@ -10,6 +10,7 @@ import { StartQuizAction } from "../quiz/actions/start-quiz.action";
 import { SubmitAnswerAction } from "../quiz/actions/submit-answer.action";
 import { FinishQuizAction } from "../quiz/actions/finish-quiz.action";
 import { GetUserStatsAction } from "../progress/actions/get-user-stats.action";
+import { JSONDataSource } from "../quiz/repository/data-source-json";
 
 export class Factory {
   static getAuthService() {
@@ -18,8 +19,9 @@ export class Factory {
   }
 
   static getQuizService() {
-    const repository = new QuizzesDataSource();
-    return new QuizService(repository);
+    const quizzesRepository = new QuizzesDataSource();
+    const questionsRepository = new JSONDataSource();
+    return new QuizService(questionsRepository, quizzesRepository);
   }
 
   static getAnswerService() {
