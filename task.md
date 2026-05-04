@@ -43,3 +43,8 @@
 - [x] Definir entidades de dominio puras para Quiz, Answer y Progress
 - [x] Implementar arquitectura de 4 capas (Action -> Service -> Repository -> DataSource)
 - [x] Documentar y diseñar arquitectura de Fábrica Dinámica (Plug-and-Play)
+
+# Limpieza de Código
+
+- [x] Eliminar acciones y métodos de Factory no utilizados (`StartQuizAction`, `SubmitAnswerAction`, `FinishQuizAction`)
+- [x] Eliminar servicios redundantes (`AnswerService`)
