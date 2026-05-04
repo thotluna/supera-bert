@@ -35,3 +35,7 @@
 
 - [x] Renombrar claves de español a inglés en `data/*.json` (`pregunta` -> `question`, etc.)
 - [x] Crear semillas de datos mock para validación de tests
+
+# Documentación y Análisis
+
+- [x] Definir y documentar estructura de datos obtenibles del Quiz

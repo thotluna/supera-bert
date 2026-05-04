@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "ITC-BT-07-01",
+    "type": "simple",
+    "question": "Según la ITC-BT-07, ¿cuáles son los materiales permitidos para los conductores de los cables en redes subterráneas?",
+    "options": [
+      { "id": 1, "answer": "Exclusivamente cobre.", "isCorrect": false, "explanation": "El aluminio también está expresamente permitido en la normativa." },
+      { "id": 2, "answer": "Cobre o aluminio.", "isCorrect": true, "explanation": "El apartado 1 indica que los conductores de los cables utilizados serán de cobre o de aluminio[cite: 1]." },
+      { "id": 3, "answer": "Aluminio con alma de acero.", "isCorrect": false, "explanation": "Este material es propio de redes aéreas, no se especifica para estas redes subterráneas." },
+      { "id": 4, "answer": "Cualquier material conductor desnudo.", "isCorrect": false, "explanation": "Los conductores deben estar obligatoriamente aislados con compuestos poliméricos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-02",
+    "type": "simple",
+    "question": "¿Cuál es la tensión asignada mínima para los cables aislados utilizados en líneas subterráneas?",
+    "options": [
+      { "id": 1, "answer": "400 V.", "isCorrect": false, "explanation": "Es la tensión de servicio, pero no el nivel de aislamiento mínimo del cable." },
+      { "id": 2, "answer": "750 V.", "isCorrect": false, "explanation": "El aislamiento requerido para estas redes de distribución es superior." },
+      { "id": 3, "answer": "0,6/1 kV.", "isCorrect": true, "explanation": "El apartado 1 estipula que los cables serán de tensión asignada no inferior a 0,6/1 kV[cite: 1]." },
+      { "id": 4, "answer": "12/20 kV.", "isCorrect": false, "explanation": "Corresponde a niveles de tensión de redes de alta o media tensión." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-03",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima permitida para los conductores de cobre en estas líneas subterráneas?",
+    "options": [
+      { "id": 1, "answer": "2,5 mm².", "isCorrect": false, "explanation": "Es un valor común en circuitos interiores, insuficiente para distribución subterránea." },
+      { "id": 2, "answer": "4 mm².", "isCorrect": false, "explanation": "Sección insuficiente según los requisitos de seguridad de la norma." },
+      { "id": 3, "answer": "6 mm².", "isCorrect": true, "explanation": "El apartado 1 señala que esta sección no será inferior a 6 mm² para conductores de cobre[cite: 1]." },
+      { "id": 4, "answer": "10 mm².", "isCorrect": false, "explanation": "Supera el mínimo legal exigido por el reglamento." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-04",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima permitida para los conductores de aluminio en estas redes?",
+    "options": [
+      { "id": 1, "answer": "6 mm².", "isCorrect": false, "explanation": "Este es el valor de sección mínima aplicado exclusivamente al cobre." },
+      { "id": 2, "answer": "10 mm².", "isCorrect": false, "explanation": "Sección insuficiente para conductores de aluminio en redes subterráneas." },
+      { "id": 3, "answer": "16 mm².", "isCorrect": true, "explanation": "El apartado 1 especifica un mínimo de 16 mm² para los conductores de aluminio[cite: 1]." },
+      { "id": 4, "answer": "25 mm².", "isCorrect": false, "explanation": "Valor superior al requerimiento mínimo de la instrucción." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-05",
+    "type": "simple",
+    "question": "En una distribución con dos o tres conductores, ¿cuál debe ser la sección del conductor neutro?",
+    "options": [
+      { "id": 1, "answer": "La mitad de la sección de las fases.", "isCorrect": false, "explanation": "La reducción del neutro no está permitida en distribuciones de 2 o 3 hilos." },
+      { "id": 2, "answer": "Igual a la de los conductores de fase.", "isCorrect": true, "explanation": "Con dos o tres conductores, la sección del neutro será igual a la de las fases[cite: 1]." },
+      { "id": 3, "answer": "El doble de la sección de las fases.", "isCorrect": false, "explanation": "No se requiere sobredimensionar el neutro por encima de la fase reglamentariamente." },
+      { "id": 4, "answer": "Siempre 16 mm².", "isCorrect": false, "explanation": "La sección del neutro depende directamente de la sección de la fase instalada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-06",
+    "type": "simple",
+    "question": "Según la Tabla 1, si los conductores de fase son de cobre de 16 mm², ¿cuál es el neutro mínimo?",
+    "options": [
+      { "id": 1, "answer": "6 mm².", "isCorrect": false, "explanation": "Valor inferior al mínimo permitido en la tabla de correspondencias." },
+      { "id": 2, "answer": "10 mm².", "isCorrect": true, "explanation": "La Tabla 1 indica para fase 16 (Cu) una sección de neutro de 10 mm²[cite: 1]." },
+      { "id": 3, "answer": "16 mm².", "isCorrect": false, "explanation": "Esta sería la sección requerida si la fase fuera de aluminio de 16 mm²." },
+      { "id": 4, "answer": "25 mm².", "isCorrect": false, "explanation": "Sección excesiva para el requerimiento de la fase indicada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-07",
+    "type": "simple",
+    "question": "Si se utiliza una red de cuatro conductores de fase de 50 mm², ¿cuál será el neutro mínimo?",
+    "options": [
+      { "id": 1, "answer": "16 mm².", "isCorrect": false, "explanation": "Sección correspondiente a fases de 25 o 35 mm²." },
+      { "id": 2, "answer": "25 mm².", "isCorrect": true, "explanation": "La Tabla 1 establece 25 mm² de neutro para conductores de fase de 50 mm²[cite: 1]." },
+      { "id": 3, "answer": "35 mm².", "isCorrect": false, "explanation": "Sección correspondiente a conductores de fase de 70 mm²." },
+      { "id": 4, "answer": "50 mm².", "isCorrect": false, "explanation": "No es obligatorio que el neutro sea igual a la fase en este calibre." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-08",
+    "type": "simple",
+    "question": "En una red de cuatro conductores con fases de 150 mm², ¿qué sección mínima tendrá el neutro?",
+    "options": [
+      { "id": 1, "answer": "50 mm².", "isCorrect": false, "explanation": "Sección correspondiente a conductores de fase de 95 mm²." },
+      { "id": 2, "answer": "70 mm².", "isCorrect": true, "explanation": "La Tabla 1 asigna 70 mm² de neutro para fases de 120 y 150 mm²[cite: 1]." },
+      { "id": 3, "answer": "95 mm².", "isCorrect": false, "explanation": "Sección correspondiente a conductores de fase de 185 mm²." },
+      { "id": 4, "answer": "150 mm².", "isCorrect": false, "explanation": "Se permite la reducción de sección según los valores de la tabla." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-09",
+    "type": "simple",
+    "question": "¿Por dónde se dispondrán preferentemente las canalizaciones subterráneas?",
+    "options": [
+      { "id": 1, "answer": "Bajo las calzadas de circulación rápida.", "isCorrect": false, "explanation": "Se evitan las calzadas para reducir las cargas mecánicas del tráfico." },
+      { "id": 2, "answer": "En terrenos privados colindantes.", "isCorrect": false, "explanation": "La red de distribución debe discurrir por zonas de dominio público." },
+      { "id": 3, "answer": "Por terrenos de dominio público, bajo las aceras.", "isCorrect": true, "explanation": "El apartado 2.1 indica que se dispondrán por dominio público, preferentemente bajo aceras[cite: 1]." },
+      { "id": 4, "answer": "En el centro exacto de las calles.", "isCorrect": false, "explanation": "Esta zona suele ser calzada, lo cual es menos preferible que la acera." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-10",
+    "type": "simple",
+    "question": "Antes de abrir zanjas, ¿qué se debe realizar para confirmar el trazado de otros servicios?",
+    "options": [
+      { "id": 1, "answer": "Galerías visitables de 2x2 metros.", "isCorrect": false, "explanation": "Las galerías son un tipo de instalación, no un método de prospección." },
+      { "id": 2, "answer": "Calas de reconocimiento.", "isCorrect": true, "explanation": "El apartado 2.1 exige abrir calas de reconocimiento para confirmar o rectificar el trazado[cite: 1]." },
+      { "id": 3, "answer": "Zanjas paralelas de 1 metro.", "isCorrect": false, "explanation": "No se requiere la apertura de zanjas paralelas para el reconocimiento." },
+      { "id": 4, "answer": "Pozos de registro de hormigón.", "isCorrect": false, "explanation": "Los pozos son para mantenimiento, no para reconocimiento previo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-11",
+    "type": "simple",
+    "question": "Para cables directamente enterrados bajo acera, ¿cuál es la profundidad mínima?",
+    "options": [
+      { "id": 1, "answer": "0,40 m.", "isCorrect": false, "explanation": "Profundidad insuficiente para la protección del cable bajo acera." },
+      { "id": 2, "answer": "0,60 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 dicta que la profundidad no será menor de 0,60 m en acera[cite: 1]." },
+      { "id": 3, "answer": "0,80 m.", "isCorrect": false, "explanation": "Este es el límite de profundidad establecido para calzadas." },
+      { "id": 4, "answer": "1,00 m.", "isCorrect": false, "explanation": "Supera la profundidad mínima exigida por la normativa." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-12",
+    "type": "simple",
+    "question": "Si el cable se entierra directamente bajo calzada, la profundidad mínima es de:",
+    "options": [
+      { "id": 1, "answer": "0,60 m.", "isCorrect": false, "explanation": "Esta es la profundidad mínima requerida para aceras." },
+      { "id": 2, "answer": "0,80 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 especifica una profundidad mínima de 0,80 m en calzada[cite: 1]." },
+      { "id": 3, "answer": "1,00 m.", "isCorrect": false, "explanation": "Valor superior al mínimo obligatorio." },
+      { "id": 4, "answer": "1,20 m.", "isCorrect": false, "explanation": "Valor superior al mínimo obligatorio." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-13",
+    "type": "simple",
+    "question": "¿Se puede reducir la profundidad de enterramiento ante impedimentos físicos?",
+    "options": [
+      { "id": 1, "answer": "No, bajo ninguna circunstancia.", "isCorrect": false, "explanation": "La normativa contempla soluciones técnicas para excepciones justificadas." },
+      { "id": 2, "answer": "Sí, reduciendo la sección del cable.", "isCorrect": false, "explanation": "La sección del conductor no influye en su protección mecánica exterior." },
+      { "id": 3, "answer": "Sí, disponiendo protecciones mecánicas suficientes.", "isCorrect": true, "explanation": "Se permite la reducción si se disponen protecciones mecánicas suficientes como tubos[cite: 1]." },
+      { "id": 4, "answer": "Sólo si se solicita un permiso municipal.", "isCorrect": false, "explanation": "La solución es técnica y está regulada por la ITC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-14",
+    "type": "simple",
+    "question": "¿Qué espesor mínimo debe tener la capa de arena lavada bajo el cable?",
+    "options": [
+      { "id": 1, "answer": "0,05 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 exige una capa de arena lavada de espesor mínimo 0,05 m bajo el cable[cite: 1]." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "Este es el espesor de la capa protectora que va sobre el cable." },
+      { "id": 3, "answer": "0,15 m.", "isCorrect": false, "explanation": "Espesor excesivo respecto al requerimiento mínimo." },
+      { "id": 4, "answer": "0,20 m.", "isCorrect": false, "explanation": "Espesor excesivo respecto al requerimiento mínimo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-15",
+    "type": "simple",
+    "question": "¿Qué espesor debe tener la capa de arena o tierra cribada sobre el cable?",
+    "options": [
+      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Este es el espesor mínimo de la base inferior." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 indica que por encima del cable irá otra capa de arena de unos 0,10 m[cite: 1]." },
+      { "id": 3, "answer": "0,15 m.", "isCorrect": false, "explanation": "Espesor superior al valor normativo estándar." },
+      { "id": 4, "answer": "0,20 m.", "isCorrect": false, "explanation": "Espesor superior al valor normativo estándar." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-16",
+    "type": "simple",
+    "question": "¿Qué distancia lateral mínima debe haber entre cables y paredes de la zanja?",
+    "options": [
+      { "id": 1, "answer": "0,02 m.", "isCorrect": false, "explanation": "Separación insuficiente para asegurar el recubrimiento de arena." },
+      { "id": 2, "answer": "0,05 m.", "isCorrect": true, "explanation": "La zanja debe permitir mantener 0,05 m entre los cables y las paredes laterales[cite: 1]." },
+      { "id": 3, "answer": "0,10 m.", "isCorrect": false, "explanation": "Supera la separación mínima exigida." },
+      { "id": 4, "answer": "0,15 m.", "isCorrect": false, "explanation": "Supera la separación mínima exigida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-17",
+    "type": "simple",
+    "question": "Todos los cables directamente enterrados deben tener por encima de la arena:",
+    "options": [
+      { "id": 1, "answer": "Un tubo de acero galvanizado.", "isCorrect": false, "explanation": "Los tubos se exigen solo en condiciones especiales." },
+      { "id": 2, "answer": "Una malla de cobre a tierra.", "isCorrect": false, "explanation": "No se requiere una malla de cobre para la protección física." },
+      { "id": 3, "answer": "Una protección mecánica (losetas, placas, etc.).", "isCorrect": true, "explanation": "Se especifica una protección mecánica como losetas de hormigón o placas de plástico[cite: 1]." },
+      { "id": 4, "answer": "Un revestimiento de plomo.", "isCorrect": false, "explanation": "No se menciona el plomo como elemento de protección de la zanja." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-18",
+    "type": "simple",
+    "question": "¿A qué distancia mínima del suelo (superficie) debe ir la cinta de señalización?",
+    "options": [
+      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Estaría demasiado cerca de la superficie." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 especifica que la distancia mínima al suelo será de 0,10 m[cite: 1]." },
+      { "id": 3, "answer": "0,25 m.", "isCorrect": false, "explanation": "Este valor es la distancia respecto al cable." },
+      { "id": 4, "answer": "0,50 m.", "isCorrect": false, "explanation": "Profundidad excesiva para la función de aviso." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-19",
+    "type": "simple",
+    "question": "¿A qué distancia de la parte superior del cable debe situarse la cinta de aviso?",
+    "options": [
+      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Es la distancia mínima respecto al nivel del suelo exterior." },
+      { "id": 2, "answer": "0,15 m.", "isCorrect": false, "explanation": "Valor no contemplado en las medidas de seguridad." },
+      { "id": 3, "answer": "0,20 m.", "isCorrect": false, "explanation": "Valor no contemplado en las medidas de seguridad." },
+      { "id": 4, "answer": "0,25 m.", "isCorrect": true, "explanation": "El apartado 2.1.1 dicta una distancia a la parte superior del cable de 0,25 m[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-20",
+    "type": "simple",
+    "question": "En canalizaciones entubadas, ¿cuántos circuitos se permite por cada tubo?",
+    "options": [
+      { "id": 1, "answer": "Uno, no se instalará más de un circuito por tubo.", "isCorrect": true, "explanation": "El apartado 2.1.2 prohíbe explícitamente instalar más de un circuito por tubo[cite: 1]." },
+      { "id": 2, "answer": "Dos, si los cables son unipolares.", "isCorrect": false, "explanation": "La prohibición es estricta independientemente del cable." },
+      { "id": 3, "answer": "Tres, si comparten el neutro.", "isCorrect": false, "explanation": "La prohibición es estricta independientemente de la configuración." },
+      { "id": 4, "answer": "Sin límite, según el diámetro.", "isCorrect": false, "explanation": "El límite reglamentario es de un único circuito." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-21",
+    "type": "simple",
+    "question": "¿Cada qué distancia máxima se instalan arquetas intermedias en tramos rectos?",
+    "options": [
+      { "id": 1, "answer": "20 m.", "isCorrect": false, "explanation": "Distancia inferior al límite máximo permitido." },
+      { "id": 2, "answer": "30 m.", "isCorrect": false, "explanation": "Distancia inferior al límite máximo permitido." },
+      { "id": 3, "answer": "40 m.", "isCorrect": true, "explanation": "El apartado 2.1.2 establece arquetas intermedias como máximo cada 40 m[cite: 1]." },
+      { "id": 4, "answer": "50 m.", "isCorrect": false, "explanation": "Supera la distancia máxima reglamentaria." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-22",
+    "type": "simple",
+    "question": "¿Qué precaución debe tomarse en los extremos de los tubos en las arquetas?",
+    "options": [
+      { "id": 1, "answer": "Ensanchar el tubo un 20%.", "isCorrect": false, "explanation": "No se requiere el ensanchamiento físico." },
+      { "id": 2, "answer": "Quedar debidamente sellados.", "isCorrect": true, "explanation": "Deben quedar sellados para evitar la entrada de agua y roedores[cite: 1]." },
+      { "id": 3, "answer": "Dejarse abiertos para ventilación.", "isCorrect": false, "explanation": "Expondría la instalación a humedad y plagas." },
+      { "id": 4, "answer": "Pintarse de color rojo.", "isCorrect": false, "explanation": "No se exige señalización por colores." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-23",
+    "type": "simple",
+    "question": "¿Cuáles son los dos tipos de galerías contemplados en la ITC-BT-07?",
+    "options": [
+      { "id": 1, "answer": "Galerías aéreas y enterradas.", "isCorrect": false, "explanation": "La instrucción trata exclusivamente de redes subterráneas." },
+      { "id": 2, "answer": "Galerías visitables y registrables.", "isCorrect": true, "explanation": "El apartado 2.1.3 clasifica las galerías en visitables y registrables[cite: 1]." },
+      { "id": 3, "answer": "Galerías de hormigón y PVC.", "isCorrect": false, "explanation": "Se clasifican por accesibilidad, no solo por material." },
+      { "id": 4, "answer": "Galerías urbanas y rurales.", "isCorrect": false, "explanation": "Clasificación no contemplada en la norma." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-24",
+    "type": "simple",
+    "question": "En galerías visitables, ¿qué instalaciones NO podrán coexistir con las eléctricas?",
+    "options": [
+      { "id": 1, "answer": "Canalizaciones de telecomunicaciones.", "isCorrect": false, "explanation": "Su convivencia es recomendada bajo condiciones." },
+      { "id": 2, "answer": "Cables de control.", "isCorrect": false, "explanation": "Están permitidos junto a los cables de potencia." },
+      { "id": 3, "answer": "Instalaciones de gas.", "isCorrect": true, "explanation": "El apartado 2.1.3.1 prohíbe la coexistencia con instalaciones de gas[cite: 1]." },
+      { "id": 4, "answer": "Tuberías de saneamiento.", "isCorrect": false, "explanation": "Pueden coexistir bajo condiciones estrictas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-25",
+    "type": "simple",
+    "question": "Si excepcionalmente hay una canalización de agua en una galería, ¿dónde se sitúa?",
+    "options": [
+      { "id": 1, "answer": "A un nivel superior al resto.", "isCorrect": false, "explanation": "Las fugas afectarían directamente a los cables." },
+      { "id": 2, "answer": "A un nivel inferior y con desagüe.", "isCorrect": true, "explanation": "Se situarán a un nivel inferior y la galería debe tener un desagüe[cite: 1]." },
+      { "id": 3, "answer": "En el mismo plano que la baja tensión.", "isCorrect": false, "explanation": "Deben mantenerse separadas en altura." },
+      { "id": 4, "answer": "Suspendida del techo.", "isCorrect": false, "explanation": "Riesgo de vertido accidental sobre las redes." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-26",
+    "type": "simple",
+    "question": "¿Cuáles son las dimensiones mínimas para los pasillos en galerías visitables?",
+    "options": [
+      { "id": 1, "answer": "0,60 m de anchura y 1,80 m de altura.", "isCorrect": false, "explanation": "Medidas insuficientes para el tránsito seguro." },
+      { "id": 2, "answer": "0,80 m de anchura y 2 m de altura.", "isCorrect": false, "explanation": "La anchura requerida es superior." },
+      { "id": 3, "answer": "0,90 m de anchura y 2 m de altura.", "isCorrect": true, "explanation": "Se exigen pasillos de 0,90 m de anchura mínima y 2 m de altura mínima[cite: 1]." },
+      { "id": 4, "answer": "1,00 m de anchura y 2,20 m de altura.", "isCorrect": false, "explanation": "Supera las dimensiones mínimas exigidas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-27",
+    "type": "simple",
+    "question": "¿Qué capacidad de renovación de aire debe tener una galería visitable?",
+    "options": [
+      { "id": 1, "answer": "2 veces por hora.", "isCorrect": false, "explanation": "Renovación insuficiente para estos locales." },
+      { "id": 2, "answer": "4 veces por hora.", "isCorrect": false, "explanation": "Renovación insuficiente para estos locales." },
+      { "id": 3, "answer": "6 veces por hora.", "isCorrect": true, "explanation": "La ventilación debe asegurar que el aire se renueve 6 veces por hora[cite: 1]." },
+      { "id": 4, "answer": "10 veces por hora.", "isCorrect": false, "explanation": "Valor superior al mínimo reglamentario." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-28",
+    "type": "simple",
+    "question": "¿Cuál es la temperatura máxima permitida en el interior de las galerías visitables?",
+    "options": [
+      { "id": 1, "answer": "30ºC.", "isCorrect": false, "explanation": "La normativa permite un margen térmico superior." },
+      { "id": 2, "answer": "40ºC.", "isCorrect": true, "explanation": "La instrucción indica que la temperatura no sobrepasará los 40ºC[cite: 1]." },
+      { "id": 3, "answer": "50ºC.", "isCorrect": false, "explanation": "Dañaría la capacidad de transporte de los cables." },
+      { "id": 4, "answer": "60ºC.", "isCorrect": false, "explanation": "Temperatura excesivamente alta." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-29",
+    "type": "simple",
+    "question": "En galerías visitables, ¿cómo se conectarán las masas metálicas accesibles?",
+    "options": [
+      { "id": 1, "answer": "Cada una a una pica independiente.", "isCorrect": false, "explanation": "Se requiere una red de equipotencialidad unificada." },
+      { "id": 2, "answer": "Se dejarán aisladas.", "isCorrect": false, "explanation": "Representaría un riesgo de seguridad." },
+      { "id": 3, "answer": "Al conductor de tierra de la galería.", "isCorrect": true, "explanation": "Se conectarán eléctricamente al conductor de tierra de la galería[cite: 1]." },
+      { "id": 4, "answer": "Al neutro de la red de baja tensión.", "isCorrect": false, "explanation": "Deben conectarse a tierra, nunca al neutro." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-30",
+    "type": "simple",
+    "question": "Para galerías > 400 m, ¿cuál es la sensibilidad mínima del detector de gases?",
+    "options": [
+      { "id": 1, "answer": "100 ppm.", "isCorrect": false, "explanation": "Sensibilidad no especificada en los requisitos." },
+      { "id": 2, "answer": "300 ppm.", "isCorrect": true, "explanation": "Se exige una sensibilidad mínima de 300 ppm para gases tóxicos[cite: 1]." },
+      { "id": 3, "answer": "500 ppm.", "isCorrect": false, "explanation": "Sensibilidad inferior a la requerida." },
+      { "id": 4, "answer": "1000 ppm.", "isCorrect": false, "explanation": "Sensibilidad inferior a la requerida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-31",
+    "type": "simple",
+    "question": "En galerías > 400 m, ¿cada cuánto debe haber accesos de personas como máximo?",
+    "options": [
+      { "id": 1, "answer": "100 m.", "isCorrect": false, "explanation": "Distancia inferior al límite máximo." },
+      { "id": 2, "answer": "200 m.", "isCorrect": false, "explanation": "Distancia inferior al límite máximo." },
+      { "id": 3, "answer": "300 m.", "isCorrect": false, "explanation": "Distancia inferior al límite máximo." },
+      { "id": 4, "answer": "400 m.", "isCorrect": true, "explanation": "La norma exige accesos de personas cada 400 m, como máximo[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-32",
+    "type": "simple",
+    "question": "¿Qué resistencia al fuego deben tener las puertas cortafuegos en galerías > 400 m?",
+    "options": [
+      { "id": 1, "answer": "RF 30.", "isCorrect": false, "explanation": "Resistencia insuficiente según el estándar." },
+      { "id": 2, "answer": "RF 60.", "isCorrect": false, "explanation": "Resistencia insuficiente según el estándar." },
+      { "id": 3, "answer": "RF 90.", "isCorrect": true, "explanation": "Se exigen puertas cortafuegos con clasificación RF 90[cite: 1]." },
+      { "id": 4, "answer": "RF 120.", "isCorrect": false, "explanation": "Esta clasificación corresponde a tabiques, no a puertas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-33",
+    "type": "simple",
+    "question": "¿Qué diseño se exige para agua y electricidad en galerías registrables?",
+    "options": [
+      { "id": 1, "answer": "Contacto directo.", "isCorrect": false, "explanation": "Disposición extremadamente peligrosa." },
+      { "id": 2, "answer": "Cuerpo hermético único.", "isCorrect": false, "explanation": "Las fugas afectarían a los conductores." },
+      { "id": 3, "answer": "Diseño de doble cuerpo con estanqueidad relativa.", "isCorrect": true, "explanation": "Se admite un diseño de doble cuerpo donde el cable sea estanco respecto al agua[cite: 1]." },
+      { "id": 4, "answer": "El agua está prohibida.", "isCorrect": false, "explanation": "La norma permite su presencia bajo estanqueidad." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-34",
+    "type": "simple",
+    "question": "¿Qué nivel de acceso físico tienen las 'atarjeas o canales revisables'?",
+    "options": [
+      { "id": 1, "answer": "Acceso libre al público.", "isCorrect": false, "explanation": "No se permiten en zonas abiertas sin restricciones." },
+      { "id": 2, "answer": "Acceso restringido a personas adiestradas (ej. industrias).", "isCorrect": true, "explanation": "Su uso se limita a ubicaciones con personal adiestrado[cite: 1]." },
+      { "id": 3, "answer": "Completamente sellado.", "isCorrect": false, "explanation": "Son revisables, pueden abrirse para inspección." },
+      { "id": 4, "answer": "Acceso sólo para vehículos.", "isCorrect": false, "explanation": "Su clasificación depende del personal, no del tráfico." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-35",
+    "type": "simple",
+    "question": "Al instalar circuitos con cables en paralelo por fase, los conductores deben:",
+    "options": [
+      { "id": 1, "answer": "Ser de diferente material.", "isCorrect": false, "explanation": "Causaría un desequilibrio de impedancias." },
+      { "id": 2, "answer": "Ser del mismo material, sección y longitud.", "isCorrect": true, "explanation": "La norma exige emplear conductores de iguales características[cite: 1]." },
+      { "id": 3, "answer": "Ir en tubos separados.", "isCorrect": false, "explanation": "La agrupación compensada suele mezclar fases." },
+      { "id": 4, "answer": "Cruzarse en cada arqueta.", "isCorrect": false, "explanation": "Práctica no requerida por la ITC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-36",
+    "type": "simple",
+    "question": "En agrupaciones de cables paralelos (3 ternas), el orden recomendado es:",
+    "options": [
+      { "id": 1, "answer": "R S T - R S T - R S T.", "isCorrect": false, "explanation": "Disposición que no compensa campos magnéticos." },
+      { "id": 2, "answer": "R R R - S S S - T T T.", "isCorrect": false, "explanation": "Disposición que maximiza pérdidas por inducción." },
+      { "id": 3, "answer": "R S T - T S R - R S T.", "isCorrect": true, "explanation": "El apartado ilustra el montaje compensado al tresbolillo: R S T, T S R, R S T[cite: 1]." },
+      { "id": 4, "answer": "T S R - T S R - T S R.", "isCorrect": false, "explanation": "Disposición que no optimiza la compensación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-37",
+    "type": "simple",
+    "question": "¿Qué tecnología permite el cruce de calles sin abrir zanjas?",
+    "options": [
+      { "id": 1, "answer": "Excavadoras de cuchara.", "isCorrect": false, "explanation": "Requieren la apertura de zanjas a cielo abierto." },
+      { "id": 2, "answer": "Máquinas perforadoras 'topo'.", "isCorrect": true, "explanation": "Se pueden utilizar máquinas perforadoras tipo topo de impacto o hincadoras[cite: 1]." },
+      { "id": 3, "answer": "Vuelos aéreos temporales.", "isCorrect": false, "explanation": "La ITC-BT-07 se limita a instalaciones subterráneas." },
+      { "id": 4, "answer": "Zanjas de micro-corte.", "isCorrect": false, "explanation": "Son zanjas superficiales, no técnicas sin zanja." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-38",
+    "type": "simple",
+    "question": "En cruce subterráneo de calles convencionales, los tubos deben estar:",
+    "options": [
+      { "id": 1, "answer": "Con poliuretano.", "isCorrect": false, "explanation": "Material no apto para protección mecánica." },
+      { "id": 2, "answer": "Recubiertos de hormigón en toda su longitud.", "isCorrect": true, "explanation": "Deben estar recubiertos de hormigón a profundidad mínima de 0,80 m[cite: 1]." },
+      { "id": 3, "answer": "Con arena de río.", "isCorrect": false, "explanation": "El hormigonado es obligatorio en calzadas." },
+      { "id": 4, "answer": "Con planchas de plomo.", "isCorrect": false, "explanation": "Material no utilizado para esta función." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-39",
+    "type": "simple",
+    "question": "¿Qué profundidad mínima se exige al cruzar ferrocarriles?",
+    "options": [
+      { "id": 1, "answer": "0,80 m.", "isCorrect": false, "explanation": "Es la profundidad mínima para cruce de carreteras." },
+      { "id": 2, "answer": "1,00 m.", "isCorrect": false, "explanation": "Profundidad insuficiente para seguridad ferroviaria." },
+      { "id": 3, "answer": "1,30 m.", "isCorrect": true, "explanation": "Se establece una profundidad de 1,3 m respecto a la cara inferior de la traviesa[cite: 1]." },
+      { "id": 4, "answer": "1,50 m.", "isCorrect": false, "explanation": "Este valor corresponde al rebase lateral." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-40",
+    "type": "simple",
+    "question": "Al cruzar vías férreas, ¿cuánto deben rebasar los tubos las vías?",
+    "options": [
+      { "id": 1, "answer": "0,5 m.", "isCorrect": false, "explanation": "Distancia de seguridad insuficiente." },
+      { "id": 2, "answer": "1,0 m.", "isCorrect": false, "explanation": "Distancia de seguridad insuficiente." },
+      { "id": 3, "answer": "1,5 m.", "isCorrect": true, "explanation": "La norma indica que los tubos rebasarán las vías férreas en 1,5 m[cite: 1]." },
+      { "id": 4, "answer": "2,0 m.", "isCorrect": false, "explanation": "Supera el requerimiento de rebase mínimo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-41",
+    "type": "simple",
+    "question": "En cruce de BT y AT subterráneo, ¿cuál es la disposición preferente?",
+    "options": [
+      { "id": 1, "answer": "BT por debajo de AT.", "isCorrect": false, "explanation": "Regla aplicada en redes aéreas." },
+      { "id": 2, "answer": "BT por encima de AT.", "isCorrect": true, "explanation": "Se procurará que los cables de baja tensión discurran por encima[cite: 1]." },
+      { "id": 3, "answer": "Misma cota.", "isCorrect": false, "explanation": "Deben mantener una separación vertical." },
+      { "id": 4, "answer": "Mismo tubo.", "isCorrect": false, "explanation": "Disposición prohibida por riesgo de transferencia." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-42",
+    "type": "simple",
+    "question": "¿Cuál es la distancia mínima en cruce entre cable de BT y cable de AT?",
+    "options": [
+      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Distancia mínima entre cables de BT." },
+      { "id": 2, "answer": "0,20 m.", "isCorrect": false, "explanation": "Distancia para servicios como telecom, gas y agua." },
+      { "id": 3, "answer": "0,25 m.", "isCorrect": true, "explanation": "Se fija una separación mínima de 0,25 m con alta tensión[cite: 1]." },
+      { "id": 4, "answer": "0,50 m.", "isCorrect": false, "explanation": "Valor superior al mínimo reglamentario." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-43",
+    "type": "simple",
+    "question": "¿Cuál es la distancia mínima en un cruce subterráneo entre dos cables de BT?",
+    "options": [
+      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Separación insuficiente para cruzamientos." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": true, "explanation": "La norma indica una distancia mínima de 0,10 m entre cables BT[cite: 1]." },
+      { "id": 3, "answer": "0,20 m.", "isCorrect": false, "explanation": "Supera la separación mínima obligatoria." },
+      { "id": 4, "answer": "0,25 m.", "isCorrect": false, "explanation": "Supera la separación mínima obligatoria." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-44",
+    "type": "simple",
+    "question": "¿Qué distancia mínima debe haber entre el punto de cruce y los empalmes?",
+    "options": [
+      { "id": 1, "answer": "0,25 m.", "isCorrect": false, "explanation": "Distancia insuficiente por seguridad operativa." },
+      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Distancia insuficiente por seguridad operativa." },
+      { "id": 3, "answer": "1,00 m.", "isCorrect": true, "explanation": "La distancia del punto de cruce a los empalmes será superior a 1 m[cite: 1]." },
+      { "id": 4, "answer": "2,00 m.", "isCorrect": false, "explanation": "Supera el requerimiento mínimo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-45",
+    "type": "simple",
+    "question": "Si no pueden respetarse las distancias en un cruce, ¿qué se debe hacer?",
+    "options": [
+      { "id": 1, "answer": "Reubicar la red.", "isCorrect": false, "explanation": "Medida desproporcionada que la norma evita." },
+      { "id": 2, "answer": "Entubar el cable instalado más recientemente.", "isCorrect": true, "explanation": "El cable instalado más recientemente se dispondrá en canalización entubada[cite: 1]." },
+      { "id": 3, "answer": "Envolver en cinta.", "isCorrect": false, "explanation": "La cinta no ofrece protección mecánica." },
+      { "id": 4, "answer": "Obviar la distancia.", "isCorrect": false, "explanation": "El incumplimiento sin medidas compensatorias es ilegal." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-46",
+    "type": "simple",
+    "question": "En cruces entre cables eléctricos y telecomunicación, la separación es:",
+    "options": [
+      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Es la distancia de cruce entre dos cables de BT." },
+      { "id": 2, "answer": "0,20 m.", "isCorrect": true, "explanation": "La separación mínima con cables de telecomunicación será de 0,20 m[cite: 1]." },
+      { "id": 3, "answer": "0,25 m.", "isCorrect": false, "explanation": "Distancia requerida para el cruce con alta tensión." },
+      { "id": 4, "answer": "0,40 m.", "isCorrect": false, "explanation": "Valor superior al mínimo reglamentario." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-47",
+    "type": "simple",
+    "question": "Las restricciones de cruce con telecomunicación NO se aplican a:",
+    "options": [
+      { "id": 1, "answer": "Pares de cobre.", "isCorrect": false, "explanation": "Sujetos a las reglas de distancia." },
+      { "id": 2, "answer": "Cables coaxiales.", "isCorrect": false, "explanation": "Sujetos a las reglas de distancia." },
+      { "id": 3, "answer": "Fibra óptica con cubiertas dieléctricas.", "isCorrect": true, "explanation": "Estas restricciones no se aplican a fibras dieléctricas[cite: 1]." },
+      { "id": 4, "answer": "Cables modernos.", "isCorrect": false, "explanation": "Cualquier cable con metal sigue sujeto a la norma." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-48",
+    "type": "simple",
+    "question": "Al cruzar tuberías de agua y cables, ¿qué disposición se procurará?",
+    "options": [
+      { "id": 1, "answer": "Cables bajo agua.", "isCorrect": false, "explanation": "Aumenta el riesgo ante filtraciones." },
+      { "id": 2, "answer": "Cables por encima del agua.", "isCorrect": true, "explanation": "Se procurará que los cables se instalen por encima[cite: 1]." },
+      { "id": 3, "answer": "Misma cota.", "isCorrect": false, "explanation": "Debe mantenerse separación vertical." },
+      { "id": 4, "answer": "Tubo compartido.", "isCorrect": false, "explanation": "Disposición prohibida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-49",
+    "type": "simple",
+    "question": "¿Qué distancia debe haber entre empalmes y juntas de agua/gas?",
+    "options": [
+      { "id": 1, "answer": "0,20 m.", "isCorrect": false, "explanation": "Distancia transversal mínima." },
+      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Separación insuficiente." },
+      { "id": 3, "answer": "Superior a 1 m.", "isCorrect": true, "explanation": "Se deben situar a una distancia superior a 1 m del cruce[cite: 1]." },
+      { "id": 4, "answer": "Superior a 2 m.", "isCorrect": false, "explanation": "Supera el margen mínimo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-50",
+    "type": "simple",
+    "question": "¿Qué prohibición marca la ITC-BT-07 sobre alcantarillado?",
+    "options": [
+      { "id": 1, "answer": "Cruce no perpendicular.", "isCorrect": false, "explanation": "La perpendicularidad es recomendada." },
+      { "id": 2, "answer": "Cruce por arriba.", "isCorrect": false, "explanation": "Es la disposición recomendada." },
+      { "id": 3, "answer": "No se admitirá incidir en su interior.", "isCorrect": true, "explanation": "La norma indica que no se admitirá incidir en su interior[cite: 1]." },
+      { "id": 4, "answer": "Distancia de 5 metros.", "isCorrect": false, "explanation": "No se establece esta restricción." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-51",
+    "type": "simple",
+    "question": "Varios cables de un mismo propietario en paralelo, ¿a qué distancia?",
+    "options": [
+      { "id": 1, "answer": "0,25 m.", "isCorrect": false, "explanation": "Separación no requerida entre cables del mismo titular." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "Es la distancia entre cables de distintos propietarios." },
+      { "id": 3, "answer": "A menor distancia, incluso en contacto.", "isCorrect": true, "explanation": "Si son del mismo propietario, podrá instalarlos incluso en contacto[cite: 1]." },
+      { "id": 4, "answer": "Distancia de 1 m.", "isCorrect": false, "explanation": "Alejamiento excesivo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-52",
+    "type": "simple",
+    "question": "¿Cuál es la distancia a asegurar con arterias principales de agua?",
+    "options": [
+      { "id": 1, "answer": "0,20 m.", "isCorrect": false, "explanation": "Distancia para canalizaciones de agua comunes." },
+      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Distancia insuficiente para infraestructuras críticas." },
+      { "id": 3, "answer": "Superior a 1 m.", "isCorrect": true, "explanation": "Las arterias se dispondrán asegurando distancias superiores a 1 m[cite: 1]." },
+      { "id": 4, "answer": "Superior a 2 m.", "isCorrect": false, "explanation": "Supera el requerimiento." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-53",
+    "type": "simple",
+    "question": "Línea paralela a gas de baja presión, la distancia mínima es:",
+    "options": [
+      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Distancia insuficiente." },
+      { "id": 2, "answer": "0,20 m.", "isCorrect": true, "explanation": "La distancia general a tuberías de gas es de 0,20 m[cite: 1]." },
+      { "id": 3, "answer": "0,40 m.", "isCorrect": false, "explanation": "Distancia para alta presión." },
+      { "id": 4, "answer": "1,00 m.", "isCorrect": false, "explanation": "Valor superior al mínimo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-54",
+    "type": "simple",
+    "question": "Paralelismos con gas de alta presión (> 4 bar), ¿distancia mínima?",
+    "options": [
+      { "id": 1, "answer": "0,20 m.", "isCorrect": false, "explanation": "Es la distancia para gas de baja presión." },
+      { "id": 2, "answer": "0,30 m.", "isCorrect": false, "explanation": "Valor no contemplado." },
+      { "id": 3, "answer": "0,40 m.", "isCorrect": true, "explanation": "Para gas de alta presión la distancia mínima será de 0,40 m[cite: 1]." },
+      { "id": 4, "answer": "1,00 m.", "isCorrect": false, "explanation": "Distancia para arterias principales." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-55",
+    "type": "simple",
+    "question": "En paralelismo de acometida con gas o agua, la distancia mínima es:",
+    "options": [
+      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Separación insuficiente." },
+      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "Separación insuficiente." },
+      { "id": 3, "answer": "0,20 m.", "isCorrect": true, "explanation": "En acometidas deberá mantenerse una distancia mínima de 0,20 m[cite: 1]." },
+      { "id": 4, "answer": "0,40 m.", "isCorrect": false, "explanation": "Valor superior al requerimiento." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-56",
+    "type": "simple",
+    "question": "Para la entrada de la acometida al edificio, la norma estipula:",
+    "options": [
+      { "id": 1, "answer": "Arqueta exterior obligatoria.", "isCorrect": false, "explanation": "No es obligatoria para todas las formas." },
+      { "id": 2, "answer": "Debe taponarse para asegurar estanqueidad.", "isCorrect": true, "explanation": "La canalización deberá taponarse hasta conseguir estanqueidad adecuada[cite: 1]." },
+      { "id": 3, "answer": "Dejarse holgada.", "isCorrect": false, "explanation": "Favorecería la entrada de gases al interior." },
+      { "id": 4, "answer": "Pintarse de amarillo.", "isCorrect": false, "explanation": "No existe este requerimiento." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-57",
+    "type": "simple",
+    "question": "¿A qué ITC remite la puesta a tierra y continuidad del neutro?",
+    "options": [
+      { "id": 1, "answer": "ITC-BT-06.", "isCorrect": true, "explanation": "Se atendrá a lo establecido en los capítulos 3.6 y 3.7 de la ITC-BT-06[cite: 1]." },
+      { "id": 2, "answer": "ITC-BT-08.", "isCorrect": false, "explanation": "Trata sobre sistemas de conexión a tierra general." },
+      { "id": 3, "answer": "ITC-BT-09.", "isCorrect": false, "explanation": "Trata sobre alumbrado exterior." },
+      { "id": 4, "answer": "ITC-BT-24.", "isCorrect": false, "explanation": "Trata sobre contactos indirectos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-58",
+    "type": "simple",
+    "question": "¿Cuál es la temperatura máxima en servicio permanente para PVC?",
+    "options": [
+      { "id": 1, "answer": "60ºC.", "isCorrect": false, "explanation": "Valor por debajo del límite." },
+      { "id": 2, "answer": "70ºC.", "isCorrect": true, "explanation": "La Tabla 2 marca 70ºC en servicio permanente para PVC[cite: 1]." },
+      { "id": 3, "answer": "90ºC.", "isCorrect": false, "explanation": "Temperatura límite para XLPE o EPR." },
+      { "id": 4, "answer": "105ºC.", "isCorrect": false, "explanation": "Valor superior al límite estándar." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-59",
+    "type": "simple",
+    "question": "¿Cuál es la temperatura máxima en servicio permanente para XLPE o EPR?",
+    "options": [
+      { "id": 1, "answer": "70ºC.", "isCorrect": false, "explanation": "Temperatura límite correspondiente al PVC." },
+      { "id": 2, "answer": "90ºC.", "isCorrect": true, "explanation": "La Tabla 2 marca 90ºC para XLPE y EPR en servicio permanente[cite: 1]." },
+      { "id": 3, "answer": "105ºC.", "isCorrect": false, "explanation": "Valor superior al límite estándar." },
+      { "id": 4, "answer": "120ºC.", "isCorrect": false, "explanation": "Valor superior al límite estándar." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-60",
+    "type": "simple",
+    "question": "Temperatura de cortocircuito para PVC ≤ 300 mm²:",
+    "options": [
+      { "id": 1, "answer": "140ºC.", "isCorrect": false, "explanation": "Temperatura para cables de PVC > 300 mm²." },
+      { "id": 2, "answer": "160ºC.", "isCorrect": true, "explanation": "La Tabla 2 asigna 160ºC para PVC con sección ≤ 300 mm²[cite: 1]." },
+      { "id": 3, "answer": "200ºC.", "isCorrect": false, "explanation": "Valor no contemplado." },
+      { "id": 4, "answer": "250ºC.", "isCorrect": false, "explanation": "Temperatura de cortocircuito para XLPE." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-61",
+    "type": "simple",
+    "question": "¿Cuál es la temperatura máxima admisible en cortocircuito para XLPE?",
+    "options": [
+      { "id": 1, "answer": "140ºC.", "isCorrect": false, "explanation": "Corresponde a PVC grandes secciones." },
+      { "id": 2, "answer": "160ºC.", "isCorrect": false, "explanation": "Corresponde a PVC secciones estándar." },
+      { "id": 3, "answer": "200ºC.", "isCorrect": false, "explanation": "Valor inferior al límite del XLPE." },
+      { "id": 4, "answer": "250ºC.", "isCorrect": true, "explanation": "La Tabla 2 establece 250ºC como límite en cortocircuito para XLPE[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-62",
+    "type": "simple",
+    "question": "¿Cuál es la temperatura ambiente del terreno base para las tablas?",
+    "options": [
+      { "id": 1, "answer": "15ºC.", "isCorrect": false, "explanation": "Valor inferior al estándar del suelo español." },
+      { "id": 2, "answer": "20ºC.", "isCorrect": false, "explanation": "Valor inferior al estándar del suelo español." },
+      { "id": 3, "answer": "25ºC.", "isCorrect": true, "explanation": "Se considera una temperatura ambiente del terreno de 25ºC[cite: 1]." },
+      { "id": 4, "answer": "30ºC.", "isCorrect": false, "explanation": "Temperatura base aplicada solo a aire." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-63",
+    "type": "simple",
+    "question": "La profundidad estándar considerada en las tablas de intensidad es:",
+    "options": [
+      { "id": 1, "answer": "0,50 m.", "isCorrect": false, "explanation": "Profundidad inferior a la base de cálculo." },
+      { "id": 2, "answer": "0,60 m.", "isCorrect": false, "explanation": "Profundidad inferior a la base de cálculo." },
+      { "id": 3, "answer": "0,70 m.", "isCorrect": true, "explanation": "Las tablas consideran una zanja de 0,70 m de profundidad[cite: 1]." },
+      { "id": 4, "answer": "0,80 m.", "isCorrect": false, "explanation": "Profundidad superior a la base." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-64",
+    "type": "simple",
+    "question": "¿Qué resistividad térmica media del terreno se asume en las tablas?",
+    "options": [
+      { "id": 1, "answer": "0,8 K.m/W.", "isCorrect": false, "explanation": "Sobreestimaría la capacidad del cable." },
+      { "id": 2, "answer": "1,0 K.m/W.", "isCorrect": true, "explanation": "Se asume un terreno de resistividad térmica media de 1 K.m/W[cite: 1]." },
+      { "id": 3, "answer": "1,5 K.m/W.", "isCorrect": false, "explanation": "Penalizaría en exceso la capacidad base." },
+      { "id": 4, "answer": "2,0 K.m/W.", "isCorrect": false, "explanation": "Penalizaría en exceso la capacidad base." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-65",
+    "type": "simple",
+    "question": "¿Cuál es la relación mínima entre diámetro de tubo y circuito?",
+    "options": [
+      { "id": 1, "answer": "1,2.", "isCorrect": false, "explanation": "Relación insuficiente para el tendido seguro." },
+      { "id": 2, "answer": "Superior a 2 (mín. excepcional 1,5).", "isCorrect": true, "explanation": "La relación será superior a 2, aceptándose excepcionalmente 1,5[cite: 1]." },
+      { "id": 3, "answer": "2,5.", "isCorrect": false, "explanation": "Supera la relación mínima exigida." },
+      { "id": 4, "answer": "3,0.", "isCorrect": false, "explanation": "Supera la relación mínima exigida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-66",
+    "type": "simple",
+    "question": "¿Qué factor se aplica a un tripolar en tubo frente a enterrado directo?",
+    "options": [
+      { "id": 1, "answer": "0,7.", "isCorrect": false, "explanation": "Factor excesivo de penalización." },
+      { "id": 2, "answer": "0,8.", "isCorrect": true, "explanation": "Se aplicará un factor de corrección de 0,8 para cable tripolar en tubo[cite: 1]." },
+      { "id": 3, "answer": "0,9.", "isCorrect": false, "explanation": "Factor para unipolares en tubos independientes." },
+      { "id": 4, "answer": "1,0.", "isCorrect": false, "explanation": "El aire en el tubo dificulta la disipación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-67",
+    "type": "simple",
+    "question": "En tramos < 15 m en tubo, ¿se puede evitar el factor de corrección?",
+    "options": [
+      { "id": 1, "answer": "No, siempre es obligatorio.", "isCorrect": false, "explanation": "Existen excepciones por disipación térmica." },
+      { "id": 2, "answer": "Sí, con aire a presión.", "isCorrect": false, "explanation": "El aire no mejora la evacuación." },
+      { "id": 3, "answer": "Sí, si se rellena con aglomerados especiales.", "isCorrect": true, "explanation": "No será necesario aplicar factor si se rellena con aglomerados especiales[cite: 1]." },
+      { "id": 4, "answer": "Sí, por ser tramo corto.", "isCorrect": false, "explanation": "La longitud sola no justifica omitir la corrección." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-68",
+    "type": "simple",
+    "question": "Las tablas de intensidades 'al aire' asumen temperatura de:",
+    "options": [
+      { "id": 1, "answer": "25ºC.", "isCorrect": false, "explanation": "Base para instalaciones enterradas." },
+      { "id": 2, "answer": "30ºC.", "isCorrect": false, "explanation": "Valor no utilizado como base estándar." },
+      { "id": 3, "answer": "40ºC.", "isCorrect": true, "explanation": "Se define la temperatura del medio ambiente al aire en 40ºC[cite: 1]." },
+      { "id": 4, "answer": "50ºC.", "isCorrect": false, "explanation": "Temperatura excesivamente alta para la base." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-69",
+    "type": "simple",
+    "question": "¿Cómo se obtiene la intensidad del bipolar a partir de la del tripolar?",
+    "options": [
+      { "id": 1, "answer": "Son iguales.", "isCorrect": false, "explanation": "El bipolar disipa mejor el calor." },
+      { "id": 2, "answer": "Bipolar es menor (x0,8).", "isCorrect": false, "explanation": "Penalización incorrecta." },
+      { "id": 3, "answer": "Multiplicando la del tripolar por 1,225.", "isCorrect": true, "explanation": "Se obtendrá multiplicando la del tripolar por 1,225[cite: 1]." },
+      { "id": 4, "answer": "El doble.", "isCorrect": false, "explanation": "Aumento desproporcionado." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-70",
+    "type": "simple",
+    "question": "¿Y para dos unipolares respecto a la terna de unipolares?",
+    "options": [
+      { "id": 1, "answer": "0,9.", "isCorrect": false, "explanation": "Penalización incorrecta." },
+      { "id": 2, "answer": "1,0.", "isCorrect": false, "explanation": "La menor carga permite mayor intensidad." },
+      { "id": 3, "answer": "1,225.", "isCorrect": true, "explanation": "Se obtendrá multiplicando la de la terna por 1,225[cite: 1]." },
+      { "id": 4, "answer": "1,5.", "isCorrect": false, "explanation": "Aumento desproporcionado." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-71",
+    "type": "simple",
+    "question": "Cable enterrado XLPE con terreno a 30ºC, ¿factor de corrección?",
+    "options": [
+      { "id": 1, "answer": "1,04.", "isCorrect": false, "explanation": "Factor para 20ºC." },
+      { "id": 2, "answer": "1,00.", "isCorrect": false, "explanation": "Factor para la base de 25ºC." },
+      { "id": 3, "answer": "0,96.", "isCorrect": true, "explanation": "Según Tabla 6, para 90ºC y terreno a 30ºC el factor es 0,96[cite: 1]." },
+      { "id": 4, "answer": "0,88.", "isCorrect": false, "explanation": "Factor para 40ºC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-72",
+    "type": "simple",
+    "question": "Cable enterrado PVC con terreno a 20ºC, ¿factor de corrección?",
+    "options": [
+      { "id": 1, "answer": "1,11.", "isCorrect": false, "explanation": "Factor para 15ºC." },
+      { "id": 2, "answer": "1,05.", "isCorrect": true, "explanation": "Según Tabla 6, para 70ºC y terreno a 20ºC el factor es 1,05[cite: 1]." },
+      { "id": 3, "answer": "1,00.", "isCorrect": false, "explanation": "Factor para la base de 25ºC." },
+      { "id": 4, "answer": "0,94.", "isCorrect": false, "explanation": "Factor para 30ºC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-73",
+    "type": "simple",
+    "question": "En la fórmula de corrección térmica enterrada, el numerador es:",
+    "options": [
+      { "id": 1, "answer": "Θs - Θt.", "isCorrect": true, "explanation": "La fórmula utiliza la diferencia entre temperatura máxima y ambiente[cite: 1]." },
+      { "id": 2, "answer": "Θt - Θs.", "isCorrect": false, "explanation": "Daría resultado negativo." },
+      { "id": 3, "answer": "Θs - 25.", "isCorrect": false, "explanation": "Este valor es el denominador." },
+      { "id": 4, "answer": "Θt + 25.", "isCorrect": false, "explanation": "Relación no válida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-74",
+    "type": "simple",
+    "question": "Cable unipolar enterrado en terreno con resistividad 1,2 K.m/W:",
+    "options": [
+      { "id": 1, "answer": "1,04.", "isCorrect": false, "explanation": "Factor que mejoraría la disipación." },
+      { "id": 2, "answer": "1,00.", "isCorrect": false, "explanation": "Factor para la base de 1 K.m/W." },
+      { "id": 3, "answer": "0,93.", "isCorrect": true, "explanation": "Según Tabla 7, para unipolar y resistividad 1,20 el factor es 0,93[cite: 1]." },
+      { "id": 4, "answer": "0,81.", "isCorrect": false, "explanation": "Factor para resistividad de 1,50 K.m/W." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-75",
+    "type": "simple",
+    "question": "Factor para 2 ternas de unipolares enterradas en contacto (D=0):",
+    "options": [
+      { "id": 1, "answer": "0,85.", "isCorrect": false, "explanation": "Si estuviesen separadas." },
+      { "id": 2, "answer": "0,80.", "isCorrect": true, "explanation": "Según Tabla 8, para 2 ternas en contacto el factor es 0,80[cite: 1]." },
+      { "id": 3, "answer": "0,70.", "isCorrect": false, "explanation": "Factor para agrupación de 3 ternas." },
+      { "id": 4, "answer": "0,64.", "isCorrect": false, "explanation": "Factor para agrupación de 4 ternas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-76",
+    "type": "simple",
+    "question": "¿Cuál es el factor al aumentar la profundidad a 1,00 m?",
+    "options": [
+      { "id": 1, "answer": "1,01.", "isCorrect": false, "explanation": "Factor si se enterrase a 0,60 m." },
+      { "id": 2, "answer": "1,00.", "isCorrect": false, "explanation": "Factor para la base de 0,70 m." },
+      { "id": 3, "answer": "0,97.", "isCorrect": true, "explanation": "Según Tabla 9, a 1,00 m de profundidad el factor es 0,97[cite: 1]." },
+      { "id": 4, "answer": "0,95.", "isCorrect": false, "explanation": "Factor para profundidad de 1,20 m." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-77",
+    "type": "simple",
+    "question": "¿Cuál es el factor si se entierra a poca profundidad (0,40 m)?",
+    "options": [
+      { "id": 1, "answer": "1,03.", "isCorrect": true, "explanation": "Según Tabla 9, a 0,40 m de profundidad el factor es 1,03[cite: 1]." },
+      { "id": 2, "answer": "1,01.", "isCorrect": false, "explanation": "Factor para profundidad de 0,60 m." },
+      { "id": 3, "answer": "0,99.", "isCorrect": false, "explanation": "Factor para profundidad de 0,80 m." },
+      { "id": 4, "answer": "0,95.", "isCorrect": false, "explanation": "Factor para profundidad de 1,20 m." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-78",
+    "type": "simple",
+    "question": "En galerías sin renovación, ¿qué incremento térmico se estima?",
+    "options": [
+      { "id": 1, "answer": "5 K.", "isCorrect": false, "explanation": "Incremento muy bajo." },
+      { "id": 2, "answer": "10 K.", "isCorrect": false, "explanation": "Incremento bajo." },
+      { "id": 3, "answer": "15 K.", "isCorrect": true, "explanation": "Se estima un incremento de temperatura por falta de renovación de 15 K[cite: 1]." },
+      { "id": 4, "answer": "25 K.", "isCorrect": false, "explanation": "Valor superior al promedio estimado." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-79",
+    "type": "simple",
+    "question": "Al aire, cable PVC con ambiente a 30ºC, ¿factor de corrección?",
+    "options": [
+      { "id": 1, "answer": "1,22.", "isCorrect": false, "explanation": "Factor para 25ºC." },
+      { "id": 2, "answer": "1,15.", "isCorrect": true, "explanation": "Según Tabla 13, para 70ºC y ambiente de 30ºC el factor es 1,15[cite: 1]." },
+      { "id": 3, "answer": "1,00.", "isCorrect": false, "explanation": "Factor base para la base de 40ºC." },
+      { "id": 4, "answer": "0,91.", "isCorrect": false, "explanation": "Factor para 45ºC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-80",
+    "type": "simple",
+    "question": "Factor para XLPE en galería a 50ºC según Tabla 13:",
+    "options": [
+      { "id": 1, "answer": "0,95.", "isCorrect": false, "explanation": "Factor para 45ºC." },
+      { "id": 2, "answer": "0,90.", "isCorrect": true, "explanation": "Según Tabla 13, para 90ºC y ambiente de 50ºC el factor es 0,90[cite: 1]." },
+      { "id": 3, "answer": "0,84.", "isCorrect": false, "explanation": "Factor para 55ºC." },
+      { "id": 4, "answer": "0,77.", "isCorrect": false, "explanation": "Factor para 60ºC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-81",
+    "type": "simple",
+    "question": "¿Qué densidad de cortocircuito soporta Al-XLPE en 1,0 s?",
+    "options": [
+      { "id": 1, "answer": "132.", "isCorrect": false, "explanation": "Soportada durante 0,5 segundos." },
+      { "id": 2, "answer": "93.", "isCorrect": true, "explanation": "La Tabla 16 indica 93 A/mm² para XLPE/EPR en 1,0 segundo[cite: 1]." },
+      { "id": 3, "answer": "76.", "isCorrect": false, "explanation": "Soportada durante 1,5 segundos." },
+      { "id": 4, "answer": "59.", "isCorrect": false, "explanation": "Soportada durante 2,5 segundos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-82",
+    "type": "simple",
+    "question": "¿Densidad de cortocircuito para Cu-PVC (≤ 300) en 0,5 s?",
+    "options": [
+      { "id": 1, "answer": "259.", "isCorrect": false, "explanation": "Valor para XLPE en 0,3 segundos." },
+      { "id": 2, "answer": "228.", "isCorrect": true, "explanation": "La Tabla 17 indica 228 A/mm² para PVC en 0,5 segundos[cite: 1]." },
+      { "id": 3, "answer": "186.", "isCorrect": false, "explanation": "Corresponde a PVC de secciones mayores." },
+      { "id": 4, "answer": "163.", "isCorrect": false, "explanation": "Corresponde a PVC durante 1,0 segundo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-83",
+    "type": "simple",
+    "question": "La densidad admisible de cortocircuito es siempre mayor en:",
+    "options": [
+      { "id": 1, "answer": "PVC respecto a XLPE.", "isCorrect": false, "explanation": "El PVC tiene menor resistencia térmica." },
+      { "id": 2, "answer": "XLPE respecto a PVC.", "isCorrect": true, "explanation": "El XLPE resiste hasta 250ºC frente a los 160ºC del PVC[cite: 1]." },
+      { "id": 3, "answer": "Idénticas.", "isCorrect": false, "explanation": "El tipo de aislamiento es determinante." },
+      { "id": 4, "answer": "Depende solo del metal.", "isCorrect": false, "explanation": "Depende del metal y del aislante." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-84",
+    "type": "simple",
+    "question": "¿Qué norma UNE se consulta para cables no tabulados?",
+    "options": [
+      { "id": 1, "answer": "UNE 20.460.", "isCorrect": false, "explanation": "Norma sobre instalaciones en edificios." },
+      { "id": 2, "answer": "UNE 20.435.", "isCorrect": true, "explanation": "La instrucción remite a la norma UNE 20.435 o UNE 21.144[cite: 1]." },
+      { "id": 3, "answer": "UNE-EN 60898.", "isCorrect": false, "explanation": "Norma sobre interruptores." },
+      { "id": 4, "answer": "NBE-CPI-96.", "isCorrect": false, "explanation": "Antigua norma contra incendios." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-85",
+    "type": "simple",
+    "question": "Intensidad para tetrapolar 3x50 Al + 16 Cu enterrado a 25ºC:",
+    "options": [
+      { "id": 1, "answer": "160 A.", "isCorrect": true, "explanation": "Según la Tabla 3, la intensidad para esa composición es de 160 A[cite: 1]." },
+      { "id": 2, "answer": "235 A.", "isCorrect": false, "explanation": "Valor para sección de 3 x 95 mm²." },
+      { "id": 3, "answer": "305 A.", "isCorrect": false, "explanation": "Valor para sección de 3 x 150 mm²." },
+      { "id": 4, "answer": "395 A.", "isCorrect": false, "explanation": "Valor para sección de 3 x 240 mm²." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-86",
+    "type": "simple",
+    "question": "Con fase de Al-240 enterrada, ¿qué neutro de Cu concéntrico lleva?",
+    "options": [
+      { "id": 1, "answer": "30 mm².", "isCorrect": false, "explanation": "Corresponde a fase de 95 mm²." },
+      { "id": 2, "answer": "50 mm².", "isCorrect": false, "explanation": "Corresponde a fase de 150 mm²." },
+      { "id": 3, "answer": "80 mm².", "isCorrect": true, "explanation": "La Tabla 3 especifica para fase 240 Al un neutro de 80 Cu[cite: 1]." },
+      { "id": 4, "answer": "120 mm².", "isCorrect": false, "explanation": "No se utiliza para la fase indicada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-87",
+    "type": "simple",
+    "question": "Intensidad de terna de unipolares XLPE-150 Al enterrada:",
+    "options": [
+      { "id": 1, "answer": "255 A.", "isCorrect": false, "explanation": "Intensidad para PVC o tripolar XLPE-120." },
+      { "id": 2, "answer": "295 A.", "isCorrect": true, "explanation": "La Tabla 4 indica para sección 150 XLPE 295 A[cite: 1]." },
+      { "id": 3, "answer": "325 A.", "isCorrect": false, "explanation": "Intensidad para tripolar XLPE de 185 mm²." },
+      { "id": 4, "answer": "365 A.", "isCorrect": false, "explanation": "Intensidad para tripolar EPR de 185 mm²." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-88",
+    "type": "simple",
+    "question": "¿Qué intensidad soporta un tripolar Cu-PVC de 50 mm² enterrado?",
+    "options": [
+      { "id": 1, "answer": "175 A.", "isCorrect": true, "explanation": "Tabla 5, tripolar bajo PVC de 50 mm² indica 175 A[cite: 1]." },
+      { "id": 2, "answer": "205 A.", "isCorrect": false, "explanation": "Intensidad para EPR." },
+      { "id": 3, "answer": "150 A.", "isCorrect": false, "explanation": "Intensidad para sección de 35 mm²." },
+      { "id": 4, "answer": "250 A.", "isCorrect": false, "explanation": "Intensidad para XLPE." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-89",
+    "type": "simple",
+    "question": "Ventaja de disipación entre enterrada y aire a 40ºC:",
+    "options": [
+      { "id": 1, "answer": "Al aire es mucho mayor.", "isCorrect": false, "explanation": "El aire a 40ºC disipa peor que el terreno a 25ºC." },
+      { "id": 2, "answer": "Enterrada es mayor por el terreno a 25ºC.", "isCorrect": true, "explanation": "El terreno (205A) permite más corriente que el aire (160A)[cite: 1]." },
+      { "id": 3, "answer": "Son idénticas.", "isCorrect": false, "explanation": "Los valores difieren notablemente." },
+      { "id": 4, "answer": "Al aire sólo por roca.", "isCorrect": false, "explanation": "La elección depende de múltiples factores." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-90",
+    "type": "simple",
+    "question": "La norma remite entubar cables refiriéndose en última instancia a:",
+    "options": [
+      { "id": 1, "answer": "Redes aéreas.", "isCorrect": false, "explanation": "No rigen sobre tubos enterrados." },
+      { "id": 2, "answer": "ITC-BT-21.", "isCorrect": true, "explanation": "Remite a las especificaciones de la ITC-BT-21[cite: 1]." },
+      { "id": 3, "answer": "Telecomunicaciones.", "isCorrect": false, "explanation": "No utiliza estas normas para tubos eléctricos." },
+      { "id": 4, "answer": "Gas.", "isCorrect": false, "explanation": "No utiliza estas normas para tubos eléctricos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-91",
+    "type": "simple",
+    "question": "¿Qué espesor mínimo debe tener la cinta de señalización?",
+    "options": [
+      { "id": 1, "answer": "No se especifica.", "isCorrect": true, "explanation": "Se indican distancias, pero no un espesor de material[cite: 1]." },
+      { "id": 2, "answer": "2 mm.", "isCorrect": false, "explanation": "Dato no presente en los requisitos." },
+      { "id": 3, "answer": "5 mm.", "isCorrect": false, "explanation": "Dato no presente en los requisitos." },
+      { "id": 4, "answer": "10 mm.", "isCorrect": false, "explanation": "Dato no presente en los requisitos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-92",
+    "type": "simple",
+    "question": "Las galerías de hormigón deben ser construidas con:",
+    "options": [
+      { "id": 1, "answer": "Hormigón en masa.", "isCorrect": false, "explanation": "Se requiere estructura armada." },
+      { "id": 2, "answer": "Hormigón armado u otros de rigidez equivalente.", "isCorrect": true, "explanation": "Serán de hormigón armado o materiales equivalentes[cite: 1]." },
+      { "id": 3, "answer": "Plástico de alta densidad.", "isCorrect": false, "explanation": "Se permite solo si garantiza rigidez equivalente." },
+      { "id": 4, "answer": "Ladrillo visto.", "isCorrect": false, "explanation": "No garantiza estanqueidad y rigidez." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-93",
+    "type": "simple",
+    "question": "En cruces de BT enterrada que deben entubarse, ¿cuál se entuba?",
+    "options": [
+      { "id": 1, "answer": "Siempre la Alta Tensión.", "isCorrect": false, "explanation": "Depende de la cronología de instalación." },
+      { "id": 2, "answer": "El instalado más recientemente.", "isCorrect": true, "explanation": "El cable instalado más recientemente será el entubado[cite: 1]." },
+      { "id": 3, "answer": "El más antiguo.", "isCorrect": false, "explanation": "La intervención es sobre la red nueva." },
+      { "id": 4, "answer": "Ambos en el mismo tubo.", "isCorrect": false, "explanation": "Disposición prohibida." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-94",
+    "type": "simple",
+    "question": "Al aumentar el nº de bandejas verticales, el factor de corrección:",
+    "options": [
+      { "id": 1, "answer": "Se mantiene igual.", "isCorrect": false, "explanation": "La proximidad afecta a la disipación térmica." },
+      { "id": 2, "answer": "Disminuye penalizando la intensidad.", "isCorrect": true, "explanation": "Al haber más bandejas, el calor se evacua peor[cite: 1]." },
+      { "id": 3, "answer": "Aumenta.", "isCorrect": false, "explanation": "Físicamente la capacidad disponible disminuye." },
+      { "id": 4, "answer": "Sube un 20%.", "isCorrect": false, "explanation": "Afirmación opuesta al comportamiento físico." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-95",
+    "type": "simple",
+    "question": "Distancia horizontal dorso con dorso en bandejas verticales:",
+    "options": [
+      { "id": 1, "answer": "100 mm.", "isCorrect": false, "explanation": "Separación insuficiente para la base." },
+      { "id": 2, "answer": "225 mm.", "isCorrect": true, "explanation": "Los valores están indicados para distancia horizontal de 225 mm[cite: 1]." },
+      { "id": 3, "answer": "300 mm.", "isCorrect": false, "explanation": "Separación vertical para bandejas horizontales." },
+      { "id": 4, "answer": "400 mm.", "isCorrect": false, "explanation": "Separación superior a la base." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-96",
+    "type": "simple",
+    "question": "Separación vertical asumida entre bandejas horizontales:",
+    "options": [
+      { "id": 1, "answer": "100 mm.", "isCorrect": false, "explanation": "Separación insuficiente." },
+      { "id": 2, "answer": "150 mm.", "isCorrect": false, "explanation": "Separación insuficiente." },
+      { "id": 3, "answer": "300 mm.", "isCorrect": true, "explanation": "Los valores están indicados para distancia vertical de 300 mm[cite: 1]." },
+      { "id": 4, "answer": "500 mm.", "isCorrect": false, "explanation": "Separación superior a la base." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-97",
+    "type": "simple",
+    "question": "En galerías visitables, ¿qué se reserva en el lateral opuesto a BT?",
+    "options": [
+      { "id": 1, "answer": "Tuberías de gas.", "isCorrect": false, "explanation": "El gas está prohibido en estas galerías." },
+      { "id": 2, "answer": "Agua principal.", "isCorrect": false, "explanation": "El agua debe ir en la zona inferior." },
+      { "id": 3, "answer": "Cables de alta tensión.", "isCorrect": true, "explanation": "Se sugiere reservar un lateral para cables de alta tensión[cite: 1]." },
+      { "id": 4, "answer": "Cinta reflectante.", "isCorrect": false, "explanation": "No define la zonificación de la galería." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-98",
+    "type": "simple",
+    "question": "¿Qué función cumplen las 'galerías registrables'?",
+    "options": [
+      { "id": 1, "answer": "Circulación de patrullas.", "isCorrect": false, "explanation": "Función propia de visitables." },
+      { "id": 2, "answer": "Zanjas sin tránsito y tapas con medios mecánicos.", "isCorrect": true, "explanation": "No hay tránsito humano y requieren medios mecánicos para abrirse[cite: 1]." },
+      { "id": 3, "answer": "Sólo para alcantarillado.", "isCorrect": false, "explanation": "Tienen funciones eléctricas de transporte." },
+      { "id": 4, "answer": "Alojar gas a alta presión.", "isCorrect": false, "explanation": "El gas está prohibido en estas galerías." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-99",
+    "type": "simple",
+    "question": "Geométricamente, instalar cables 'Al tresbolillo' significa:",
+    "options": [
+      { "id": 1, "answer": "En línea plana.", "isCorrect": false, "explanation": "Denominado disposición en capa." },
+      { "id": 2, "answer": "Agrupación triangular o alternada en ternas.", "isCorrect": true, "explanation": "Implica disposición compensada para evitar campos asimétricos[cite: 1]." },
+      { "id": 3, "answer": "Forma de trenza.", "isCorrect": false, "explanation": "Configuración de cables en haz." },
+      { "id": 4, "answer": "Separación de 1 metro.", "isCorrect": false, "explanation": "Contrario al concepto de agrupación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-07-100",
+    "type": "simple",
+    "question": "Sobre el neutro en redes subterráneas, ¿cuál es su regulación?",
+    "options": [
+      { "id": 1, "answer": "Nunca inferior a la fase.", "isCorrect": false, "explanation": "La normativa permite reducciones según la sección." },
+      { "id": 2, "answer": "Podrá ser inferior a fases según calibres en red de 4 hilos.", "isCorrect": true, "explanation": "Con 4 conductores la sección podrá ser inferior según Tabla 1[cite: 1]." },
+      { "id": 3, "answer": "Siempre la mitad de fase.", "isCorrect": false, "explanation": "La reducción no sigue una proporción fija del 50%." },
+      { "id": 4, "answer": "Siempre será desnudo.", "isCorrect": false, "explanation": "Debe estar aislado como el resto." }
+    ]
+  }
+]
