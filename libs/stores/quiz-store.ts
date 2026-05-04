@@ -81,8 +81,13 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       },
 
       toggleOption: (option) => {
-        const { currentSelection, isFeedbacking } = get();
-        if (isFeedbacking) return;
+        const { currentSelection, currentQuestion, isFeedbacking } = get();
+        if (isFeedbacking || !currentQuestion) return;
+
+        if (currentQuestion.type === 'simple') {
+          set({ currentSelection: [option] });
+          return;
+        }
 
         const isSelected = currentSelection.some(o => o.id === option.id);
         if (isSelected) {
