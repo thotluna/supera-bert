@@ -35,7 +35,7 @@ export function Header() {
       const now = Date.now();
       const diff = Math.max(0, Math.floor((expiresAt - now) / 1000));
       setTimeLeft(diff);
-      
+
       if (diff === 0) {
         finish();
       }

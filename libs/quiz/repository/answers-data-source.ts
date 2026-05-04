@@ -13,7 +13,7 @@ export class AnswersDataSource implements AnswersRepository {
       .from("quiz_answers")
       .insert({
         quiz_id: answer.quizId,
-        question_id: answer.questionId,
+        question_id: answer.questionId as unknown as number, // Cast temporal hasta regenerar tipos
         itc_code: answer.itcCode,
         selected_option_ids: answer.selectedOptionIds,
         is_correct: answer.isCorrect,
@@ -25,6 +25,29 @@ export class AnswersDataSource implements AnswersRepository {
 
     if (error) return { data: null, error: new Error(error.message) };
     return { data: AnswersMapper.toAnswer(data as QuizAnswerResponseDto), error: null };
+  }
+
+  async createMany(answers: QuizAnswerCreate[]): Promise<DomainResponse<QuizAnswer[]>> {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase
+      .from("quiz_answers")
+      .insert(answers.map(answer => ({
+        quiz_id: answer.quizId,
+        question_id: answer.questionId as unknown as number, // Cast temporal hasta regenerar tipos
+        itc_code: answer.itcCode,
+        selected_option_ids: answer.selectedOptionIds,
+        is_correct: answer.isCorrect,
+        points: answer.points,
+        time_ms: answer.timeMs,
+      })))
+      .select();
+
+    if (error) return { data: null, error: new Error(error.message) };
+    return {
+      data: (data as QuizAnswerResponseDto[]).map(AnswersMapper.toAnswer),
+      error: null,
+    };
   }
 
   async getByQuizId(quizId: string): Promise<DomainResponse<QuizAnswer[]>> {

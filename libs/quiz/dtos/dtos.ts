@@ -26,7 +26,7 @@ export type QuizResponseDto = Tables<"quizzes">;
 
 export interface CreateQuizAnswerDto {
   quizId: string;
-  questionId: number;
+  questionId: string;
   itcCode: string;
   selectedOptionIds: number[];
   isCorrect: boolean;
@@ -36,6 +36,3 @@ export interface CreateQuizAnswerDto {
 
 export type QuizAnswerResponseDto = Tables<"quiz_answers">;
 
-// --- User ITC Stats ---
-
-export type UserItcStatsResponseDto = Tables<"user_itc_stats">;

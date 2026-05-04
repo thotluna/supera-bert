@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import { QuestionClient, ResponseQuestion, ConfigQuiz, OptionClient } from '../quiz/models';
 import { validateAnswer } from '../quiz/actions/validate-answer';
+import { saveAndRedirect } from '../quiz/actions/save-and-redirect';
 
 interface QuizState {
   questions: QuestionClient[];
@@ -10,10 +11,17 @@ interface QuizState {
   answers: ResponseQuestion[];
   config: ConfigQuiz | null;
   startTime: number | null;
-  expiresAt: number | null; // Timestamp de finalización
+  expiresAt: number | null;
   isFeedbacking: boolean;
   score: number;
   isFinished: boolean;
+  lastQuizState: {
+    answers: ResponseQuestion[];
+    config: ConfigQuiz | null;
+    startTime: number | null;
+    expiresAt: number | null;
+    score: number;
+  }
 }
 
 interface QuizActions {
@@ -40,12 +48,18 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       isFeedbacking: false,
       score: 0,
       isFinished: false,
+      lastQuizState: {
+        answers: [],
+        config: null,
+        startTime: null,
+        expiresAt: null,
+        score: 0,
+      },
 
       setQuestions: (questions) => set({ questions }),
       setConfig: (config) => set({ config }),
-      
+
       initialize: (questions, config) => {
-        // Protección de persistencia: si ya hay progreso, no reiniciamos
         const state = get();
         if (state.currentQuestion || state.answers.length > 0) return;
 
@@ -82,9 +96,8 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         const { currentQuestion, currentSelection, answers, startTime, isFeedbacking } = get();
         if (!currentQuestion || !startTime || isFeedbacking) return;
 
-        // 1. Validar en el servidor
         const { validatedOptions, isCorrect, points } = await validateAnswer(
-          currentQuestion.id, 
+          currentQuestion.id,
           currentSelection.map(o => o.id)
         );
 
@@ -100,7 +113,6 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           itc: currentQuestion.itc,
         };
 
-        // 2. Activar feedback y guardar respuesta
         const updatedQuestion = currentQuestion ? {
           ...currentQuestion,
           options: currentQuestion.options.map(opt => {
@@ -109,14 +121,13 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           })
         } : null;
 
-        set({ 
+        set({
           isFeedbacking: true,
           currentQuestion: updatedQuestion,
           answers: [...answers, response],
           score: Number((get().score + points).toFixed(2))
         });
 
-        // 3. Esperar 3 segundos antes de pasar a la siguiente
         setTimeout(() => {
           const { questions: currentQuestionsQueue, expiresAt: currentExpiresAt } = get();
           const nextQuestions = [...currentQuestionsQueue];
@@ -132,6 +143,12 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             isFinished: !nextQuestion,
           });
         }, 3000);
+
+        const { questions } = get()
+        if (questions.length === 0) {
+          const { finish } = get()
+          finish()
+        }
       },
 
       skipQuestion: () => {
@@ -150,7 +167,33 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         });
       },
 
-      finish: () => set({ isFinished: true }),
+      finish: async () => {
+        const state = get();
+
+        const snapshot = {
+          questions: [...state.questions],
+          answers: [...state.answers],
+          config: state.config ? { ...state.config } : null,
+          startTime: state.startTime,
+          expiresAt: state.expiresAt,
+          score: state.score,
+        };
+
+        set({
+          lastQuizState: {
+            answers: snapshot.answers,
+            config: snapshot.config,
+            startTime: snapshot.startTime,
+            expiresAt: snapshot.expiresAt,
+            score: snapshot.score,
+          },
+          isFinished: true
+        });
+
+        state.reset();
+
+        await saveAndRedirect(snapshot);
+      },
       reset: () => set({
         questions: [],
         currentQuestion: null,

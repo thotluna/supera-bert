@@ -17,7 +17,7 @@ export type QuizFinish = Pick<Quiz, "totalScore" | "finishedAt" | "isCompleted">
 export interface QuizAnswer {
   id: string;
   quizId: string;
-  questionId: number;
+  questionId: string;
   itcCode: string;
   selectedOptionIds: number[];
   isCorrect: boolean;
