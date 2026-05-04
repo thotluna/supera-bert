@@ -1,6 +1,6 @@
 import { Factory } from "@/libs/shape/factory";
 import { notFound } from "next/navigation";
-import { ResultsContent } from "./results-content";
+import { ResultsContent } from "@/app/quiz/results/[id]/results-content";
 
 interface PageProps {
   params: Promise<{ id: string }>;
