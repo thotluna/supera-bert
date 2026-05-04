@@ -2,7 +2,7 @@
 
 import { Quiz, QuizAnswer } from "@/libs/quiz/domain/quiz";
 import { Question } from "@/libs/quiz/models";
-import { CheckCircle2, XCircle, Clock, Trophy, ArrowLeft, RotateCcw, ChevronDown, ChevronUp, Check, X } from "lucide-react";
+import { CheckCircle2, XCircle, Clock, Trophy, RotateCcw, ChevronDown, ChevronUp, Check, X } from "lucide-react";
 import Link from "next/link";
 import { useState, JSX } from "react";
 
@@ -206,17 +206,10 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
       </section>
 
       {/* Final Actions */}
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 py-10">
+      <div className="flex items-center justify-center py-10">
         <Link 
           href="/"
-          className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all flex items-center justify-center gap-3 font-bold uppercase tracking-widest text-sm"
-        >
-          <ArrowLeft size={18} />
-          Volver al Inicio
-        </Link>
-        <Link 
-          href="/"
-          className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-accent text-white hover:bg-accent/90 transition-all flex items-center justify-center gap-3 font-black uppercase tracking-widest text-sm shadow-neon-sm shadow-accent/40"
+          className="w-full sm:w-auto px-12 py-4 rounded-2xl bg-accent text-white hover:bg-accent/90 transition-all flex items-center justify-center gap-3 font-black uppercase tracking-widest text-sm shadow-neon-sm shadow-accent/40"
         >
           <RotateCcw size={18} />
           Nuevo Simulacro
