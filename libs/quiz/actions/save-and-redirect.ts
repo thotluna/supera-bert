@@ -20,9 +20,10 @@ export async function saveAndRedirect({ answers, config, score }: {
     score
   });
 
-  if (result.error) {
+  if (result.error || !result.data) {
     console.error("Error saving quiz session:", result.error);
+    return;
   }
 
-  redirect('/result')
+  redirect(`/quiz/results/${result.data.id}`)
 }

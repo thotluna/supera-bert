@@ -44,4 +44,17 @@ export class QuizzesDataSource implements QuizzesRepository {
       error: null,
     };
   }
+
+  async findById(id: string): Promise<DomainResponse<Quiz>> {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase
+      .from("quizzes")
+      .select()
+      .eq("id", id)
+      .single();
+
+    if (error) return { data: null, error: new Error(error.message) };
+    return { data: QuizzesMapper.toQuiz(data as QuizResponseDto), error: null };
+  }
 }
