@@ -4,13 +4,10 @@ import { QuizService } from "../quiz/services/quiz.service";
 import { AnswerService } from "../quiz/services/answer.service";
 import { QuizzesDataSource } from "../quiz/repository/quizzes-data-source";
 import { AnswersDataSource } from "../quiz/repository/answers-data-source";
-import { ProgressService } from "../progress/services/progress.service";
-import { ProgressDataSource } from "../progress/repository/progress-data-source";
+import { JSONDataSource } from "../quiz/repository/data-source-json";
 import { StartQuizAction } from "../quiz/actions/start-quiz.action";
 import { SubmitAnswerAction } from "../quiz/actions/submit-answer.action";
 import { FinishQuizAction } from "../quiz/actions/finish-quiz.action";
-import { GetUserStatsAction } from "../progress/actions/get-user-stats.action";
-import { JSONDataSource } from "../quiz/repository/data-source-json";
 
 export class Factory {
   static getAuthService() {
@@ -21,17 +18,13 @@ export class Factory {
   static getQuizService() {
     const quizzesRepository = new QuizzesDataSource();
     const questionsRepository = new JSONDataSource();
-    return new QuizService(questionsRepository, quizzesRepository);
+    const answersRepository = new AnswersDataSource();
+    return new QuizService(questionsRepository, quizzesRepository, answersRepository);
   }
 
   static getAnswerService() {
     const repository = new AnswersDataSource();
     return new AnswerService(repository);
-  }
-
-  static getProgressService() {
-    const repository = new ProgressDataSource();
-    return new ProgressService(repository);
   }
 
   static getStartQuizAction() {
@@ -44,9 +37,5 @@ export class Factory {
 
   static getFinishQuizAction() {
     return new FinishQuizAction(this.getQuizService());
-  }
-
-  static getGetUserStatsAction() {
-    return new GetUserStatsAction(this.getProgressService());
   }
 }
