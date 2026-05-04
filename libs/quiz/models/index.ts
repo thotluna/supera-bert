@@ -16,12 +16,6 @@ export interface Option {
   isCorrect: boolean;
   explanation: string;
 }
-
-export type OptionClient = Omit<Option, 'isCorrect' | 'explanation'> & {
-  isCorrect?: boolean;
-  explanation?: string;
-};
-
 export type QuestionType = 'simple' | 'multiple';
 
 export interface Question {
@@ -32,13 +26,6 @@ export interface Question {
   itc?: string;
 }
 
-export interface QuestionClient {
-  id: string;
-  type: QuestionType;
-  question: string;
-  options: OptionClient[];
-  itc?: string;
-}
 
 export interface ResponseQuestion {
   id: string;

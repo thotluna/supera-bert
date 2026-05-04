@@ -1,7 +1,7 @@
 import { verifyUser } from "@/libs/auth/actions/verify-user";
 import { createConfig } from "@/libs/quiz/actions/create-config";
 import { getAllQuestions } from "@/libs/quiz/actions/get-all-questions";
-import { ModeQuiz, ITCTopic, QuestionClient } from "@/libs/quiz/models";
+import { ModeQuiz, ITCTopic, Question } from "@/libs/quiz/models";
 import { redirect } from "next/navigation";
 import { JSX } from "react";
 import { Header } from "./components/header";
@@ -46,7 +46,7 @@ export default async function QuizPage({ searchParams }: QuizPageProps): Promise
     topics: topicsArray
   })
 
-  const questions: QuestionClient[] = await getAllQuestions(topicsArray, config.questionCount)
+  const questions: Question[] = await getAllQuestions(topicsArray, config.questionCount)
 
   return (
     <>

@@ -48,3 +48,11 @@
 
 - [x] Eliminar acciones y métodos de Factory no utilizados (`StartQuizAction`, `SubmitAnswerAction`, `FinishQuizAction`)
 - [x] Eliminar servicios redundantes (`AnswerService`)
+
+# Optimización de Rendimiento y Costos (Validación en Cliente)
+
+- [x] Etapa 1: Unificar modelos de datos (eliminar interfaces `Client`)
+- [x] Etapa 2: Modificar `getAllQuestions` para devolver objeto completo `Question[]`
+- [x] Etapa 3: Refactorizar `quiz-store.ts` para validación síncrona local
+- [x] Etapa 4: Eliminar Server Action `validate-answer.ts`
+- [x] Etapa 5: Implementar validación de integridad en `saveAndRedirect`
