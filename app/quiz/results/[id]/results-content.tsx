@@ -149,13 +149,13 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                           const isSelected = answer?.selectedOptionIds.includes(opt.id);
                           const isCorrect = opt.isCorrect;
 
-                          let statusStyles = "border-white/5 bg-white/5 text-foreground/40";
+                          let statusStyles = "border-white/10 bg-white/5 text-foreground/70";
                           if (isSelected && isCorrect) {
-                            statusStyles = "border-green-500 bg-green-500/20 text-green-200 shadow-[0_0_15px_rgba(34,197,94,0.1)]";
+                            statusStyles = "border-success bg-success-bg/20 text-success shadow-[0_0_15px_rgba(34,197,94,0.1)]";
                           } else if (isSelected && !isCorrect) {
-                            statusStyles = "border-red-500 bg-red-500/20 text-red-200";
+                            statusStyles = "border-error bg-error-bg/20 text-error";
                           } else if (!isSelected && isCorrect) {
-                            statusStyles = "border-green-500/30 bg-transparent text-green-400/50 border-dashed";
+                            statusStyles = "border-success/40 bg-transparent text-success border-dashed";
                           }
 
                           return (
@@ -171,14 +171,14 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                               
                               <div className="flex items-center">
                                 {isCorrect && !isSelected && (
-                                  <Check size={20} className="text-green-500/20" />
+                                  <Check size={20} className="text-success/40" />
                                 )}
                                 
                                 {isSelected && (
                                   <div className="flex items-center animate-in zoom-in duration-300">
                                     {isCorrect 
-                                      ? <Check size={32} strokeWidth={3} className="text-green-400" /> 
-                                      : <X size={32} strokeWidth={3} className="text-red-400" />
+                                      ? <Check size={32} strokeWidth={3} className="text-success" /> 
+                                      : <X size={32} strokeWidth={3} className="text-error" />
                                     }
                                   </div>
                                 )}
@@ -189,8 +189,10 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
                       </div>
 
                       {question.options.find(o => o.isCorrect)?.explanation && (
-                        <div className="bg-accent/5 rounded-xl p-4 border border-accent/10">
-                          <span className="text-[10px] font-black uppercase tracking-widest text-accent mb-2 block">Explicación REBT</span>
+                        <div className="bg-subface/50 rounded-xl p-4 border border-foreground/10">
+                          <span className={`text-[10px] font-black uppercase tracking-widest mb-2 block ${answer?.isCorrect ? 'text-success' : 'text-error'}`}>
+                            Explicación REBT
+                          </span>
                           <p className="text-sm text-foreground/70 leading-relaxed italic">
                             {question.options.find(o => o.isCorrect)?.explanation}
                           </p>

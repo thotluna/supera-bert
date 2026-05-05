@@ -67,6 +67,7 @@
   - [x] Corregir contador de progreso (11/10)
   - [x] Evitar pantalla en blanco al finalizar el store
   - [x] Implementar test unitario de validación
+- [x] Corregir race condition del timer y sesiones 'zombie' que provocaban redirecciones prematuras
 
 # Accesibilidad y Contraste (WCAG compliance)
 
