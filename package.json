@@ -9,7 +9,9 @@
     "lint": "eslint",
     "test": "dotenv -e .env.test -- vitest",
     "test:e2e": "dotenv -e .env.test -- playwright test",
-    "test:ui": "dotenv -e .env.test -- playwright test --ui"
+    "test:ui": "dotenv -e .env.test -- playwright test --ui",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
@@ -23,6 +25,15 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.11.3",
     "@playwright/test": "^1.59.1",
+    "@storybook/addon-a11y": "^10.3.6",
+    "@storybook/addon-docs": "^10.3.6",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/addon-links": "^10.3.6",
+    "@storybook/addon-onboarding": "^10.3.6",
+    "@storybook/nextjs-vite": "^10.3.6",
+    "@storybook/react": "^10.3.6",
+    "@storybook/test": "^8.6.15",
     "@tailwindcss/postcss": "^4",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -35,9 +46,13 @@
     "dotenv-cli": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "eslint-plugin-storybook": "^10.3.6",
+    "essentials": "^1.2.0",
     "jsdom": "^29.1.1",
+    "storybook": "^10.3.6",
     "tailwindcss": "^4",
     "typescript": "^5",
+    "vite": "^8.0.10",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.1.5"
   },

@@ -23,6 +23,10 @@
 - [x] Implementar Tests Unitarios y E2E para la configuración del Quiz (Happy paths & Corner cases)
 - [x] Implementar Auth Bypass para entorno de testing (E2E) sin comprometer producción
 - [x] Sincronizar mocks de Quizzes, Answers y Questions para cubrir todos los escenarios de resultados
+- [x] Instalar y configurar Storybook con addons de accesibilidad (`a11y`) y esenciales
+- [x] Configurar Storybook para soportar Next.js, Tailwind v4 y tokens semánticos (CSS variables)
+- [x] Implementar componentes atómicos (`Button`, `OptionsMode`) y sus historias en Storybook
+- [x] Estandarizar el componente `Button` premium en toda la aplicación (Home, Resultados, Auth)
 
 # Configuración del Quiz (UX/UI Premium)
 
@@ -75,3 +79,10 @@
 - [x] Corregir violaciones de contraste en botones (Sky/Accent) en modo claro y oscuro
 - [x] Implementar sistema de tokens semánticos (`--success`, `--error`) para feedback visual expresivo y accesible
 - [x] Asegurar cumplimiento de ratios WCAG AA (4.5:1) en todos los estados (Acierto, Fallo, No contestada)
+
+# Migración de Componentes a Storybook (Pattern Container/Presenter)
+
+- [x] Crear e integrar `OptionsMode` a Storybook
+- [x] Refactorizar `QuizTopics` (Container/Presenter) e integrar a Storybook
+- [x] Refactorizar `SimpleChoice` y `MultipleChoice` (shared View) e integrar a Storybook
+- [x] Refactorizar Resultados (Summary & ReviewItem) e integrar a Storybook

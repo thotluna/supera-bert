@@ -34,8 +34,10 @@
   --font-mono: var(--font-geist-mono);
   --shadow-neon: 0 0 15px 2px var(--neon-color);
   --shadow-neon-sm: 0 0 8px 1px var(--neon-color);
+  --animate-shimmer: shimmer 2s infinite;
 }
 
+/* Dark Mode (System Preference) */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #020617;
@@ -54,6 +56,42 @@
     --error-bg: #450a0a;
   }
 }
+
+/* Explicit Overrides (for Storybook and Manual Toggle) */
+.light {
+  --background: #f1f5f9;
+  --subface: #ffffff;
+  --foreground: #0f172a;
+  --accent: #0ea5e9;
+  --accent-foreground: #0f172a;
+  --neon-color: oklch(0.6 0.2 250 / 0.1);
+
+  --success: #15803d;
+  --success-foreground: #14532d;
+  --success-bg: #dcfce7;
+
+  --error: #b91c1c;
+  --error-foreground: #7f1d1d;
+  --error-bg: #fee2e2;
+}
+
+.dark {
+  --background: #020617;
+  --subface: #0f172a;
+  --foreground: #f8fafc;
+  --accent: #38bdf8;
+  --accent-foreground: #020617;
+  --neon-color: oklch(0.7 0.2 250 / 0.5);
+
+  --success: #22c55e;
+  --success-foreground: #f0fdf4;
+  --success-bg: #052e16;
+
+  --error: #ef4444;
+  --error-foreground: #fef2f2;
+  --error-bg: #450a0a;
+}
+
 
 body {
   background: var(--background);
