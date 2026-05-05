@@ -53,7 +53,7 @@ export function Header() {
   };
 
   const topicsLabel = config?.topics.length === 0 ? 'Todo el reglamento' : config?.topics.join(', ');
-  const progress = answers.length + (currentQuestion ? 1 : 0);
+  const progress = isFeedbacking ? answers.length : answers.length + (currentQuestion ? 1 : 0);
   const totalPoints = score;
 
   return (
