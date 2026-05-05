@@ -1,3 +1,5 @@
+'use client';
+
 import { useFormStatus } from "react-dom";
 import { Play } from "lucide-react";
 import { JSX } from "react";

@@ -1,9 +1,9 @@
-import { type ButtonHTMLAttributes, type ReactNode, type ElementType } from "react";
+import { type ReactNode, type ElementType, type ComponentPropsWithoutRef } from "react";
 
 type ButtonVariant = "primary" | "secondary" | "outline" | "ghost" | "destructive" | "success";
 type ButtonSize = "sm" | "md" | "lg";
 
-interface ButtonProps<T extends ElementType = "button"> extends ButtonHTMLAttributes<HTMLButtonElement> {
+type ButtonProps<T extends ElementType> = {
   as?: T;
   variant?: ButtonVariant;
   size?: ButtonSize;
@@ -11,8 +11,7 @@ interface ButtonProps<T extends ElementType = "button"> extends ButtonHTMLAttrib
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
   children: ReactNode;
-  href?: string; // Support for Links
-}
+} & ComponentPropsWithoutRef<T>;
 
 export function Button<T extends ElementType = "button">({
   as,
@@ -25,9 +24,9 @@ export function Button<T extends ElementType = "button">({
   className = "",
   disabled,
   ...props
-}: ButtonProps<T>) {
+}: ButtonProps<T>): ReactNode {
   const Component = as || "button";
-  const baseStyles = "relative inline-flex items-center justify-center gap-3 font-black uppercase tracking-[0.25em] transition-all duration-300 rounded-[2rem] disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 text-center overflow-hidden cursor-pointer";
+  const baseStyles = "relative inline-flex items-center justify-center gap-3 font-black uppercase tracking-[0.15em] transition-all duration-300 rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 text-center overflow-hidden cursor-pointer whitespace-nowrap";
   
   const variants: Record<ButtonVariant, string> = {
     primary: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-neon shadow-accent/40 border border-white/10",
@@ -41,14 +40,14 @@ export function Button<T extends ElementType = "button">({
   const sizes: Record<ButtonSize, string> = {
     sm: "px-6 py-2.5 text-[9px]",
     md: "px-10 py-4 text-[10px]",
-    lg: "px-14 py-5 text-xs",
+    lg: "px-12 py-4 text-xs",
   };
 
   return (
     <Component
       className={`group ${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
       disabled={isLoading || disabled}
-      {...(props as any)}
+      {...props}
     >
       {/* Shine effect on hover */}
       <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
@@ -65,6 +64,7 @@ export function Button<T extends ElementType = "button">({
     </Component>
   );
 }
+
 
 
 
