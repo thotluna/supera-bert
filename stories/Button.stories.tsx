@@ -30,17 +30,19 @@ type Story = StoryObj<typeof Button>;
 export const Primary: Story = {
   args: {
     variant: 'primary',
-    children: 'Confirmar selección',
-    size: 'md',
+    children: 'Nuevo Simulacro',
+    size: 'lg',
   },
 };
 
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
-    children: 'Volver al inicio',
+    children: 'Continuar con Google',
+    size: 'lg',
   },
 };
+
 
 export const Outline: Story = {
   args: {
