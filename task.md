@@ -73,4 +73,5 @@
 
 - [x] Implementar suite de tests de contraste con Playwright + Axe-core
 - [x] Corregir violaciones de contraste en botones (Sky/Accent) en modo claro y oscuro
-- [x] Asegurar cumplimiento de ratios WCAG AA (4.5:1) para elementos interactivos
+- [x] Implementar sistema de tokens semánticos (`--success`, `--error`) para feedback visual expresivo y accesible
+- [x] Asegurar cumplimiento de ratios WCAG AA (4.5:1) en todos los estados (Acierto, Fallo, No contestada)
