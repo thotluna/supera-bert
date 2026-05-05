@@ -60,7 +60,11 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
       initialize: (questions, config) => {
         const state = get();
-        if (state.currentQuestion || state.answers.length > 0) return;
+        // Si ya hay una pregunta actual y no hemos marcado el fin, ignoramos (evita re-init en re-renders)
+        if (state.currentQuestion && !state.isFinished) return;
+
+        // Limpiamos cualquier estado previo antes de iniciar el nuevo
+        state.reset();
 
         const firstQuestion = questions[0];
         const remainingQuestions = questions.slice(1);
@@ -141,22 +145,21 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           const nextQuestions = [...currentQuestionsQueue];
           const nextQuestion = nextQuestions.shift() ?? null;
 
+          if (!nextQuestion) {
+            get().finish();
+            return;
+          }
+
           set({
             questions: nextQuestions,
             currentQuestion: nextQuestion,
             currentSelection: [],
             isFeedbacking: false,
-            startTime: nextQuestion ? Date.now() : null,
+            startTime: Date.now(),
             expiresAt: currentExpiresAt ? currentExpiresAt + 3000 : null,
-            isFinished: !nextQuestion,
+            isFinished: false,
           });
         }, 3000);
-
-        const { questions } = get()
-        if (questions.length === 0) {
-          const { finish } = get()
-          finish()
-        }
       },
 
       skipQuestion: () => {
@@ -197,8 +200,6 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           },
           isFinished: true
         });
-
-        state.reset();
 
         await saveAndRedirect(snapshot);
       },

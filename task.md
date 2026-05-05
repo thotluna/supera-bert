@@ -60,4 +60,10 @@
 # Correcciones de UI/UX
 
 - [x] Corregir deformación de círculos de opciones en móvil (Issue #21)
+- [x] Ajustar feedback de resultados al 80% (Issue #25)
+- [x] Corregir navegación y feedback en la última pregunta (Issue #24)
+  - [x] Mantener pregunta visible durante 3s de feedback
+  - [x] Corregir contador de progreso (11/10)
+  - [x] Evitar pantalla en blanco al finalizar el store
+  - [x] Implementar test unitario de validación
 
