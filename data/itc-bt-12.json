@@ -1,0 +1,777 @@
+[
+  {
+    "id": "ITC-BT-12-01",
+    "type": "simple",
+    "question": "Según el apartado 1.1 de la ITC-BT-12, ¿cuál es la definición reglamentaria exacta de las instalaciones de enlace?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aquellas que unen la red de distribución de alta tensión con los transformadores del edificio.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el REBT y la ITC-BT-12 regulan la baja tensión, y la red de distribución de AT no forma parte de las instalaciones de enlace (apartado 1.1)."
+      },
+      {
+        "id": 2,
+        "answer": "Aquellas que unen la acometida directamente con el contador de energía, omitiendo elementos intermedios.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la instalación de enlace incluye múltiples partes intermedias como la CGP o la LGA, no va directamente de la acometida al contador (apartado 1.2)."
+      },
+      {
+        "id": 3,
+        "answer": "Aquellas que unen la caja general de protección (o cajas), incluidas éstas, con las instalaciones interiores o receptoras del usuario.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 establece literalmente: 'Se denominan instalaciones de enlace, aquellas que unen la caja general de protección o cajas generales de protección, incluidas éstas, con las instalaciones interiores o receptoras del usuario'."
+      },
+      {
+        "id": 4,
+        "answer": "El conjunto de cables que discurren exclusivamente por el interior de la vivienda del abonado.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el cableado del interior de la vivienda se denomina 'instalación interior', la cual es el destino de la instalación de enlace, no la instalación de enlace en sí (apartado 1.1)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-02",
+    "type": "simple",
+    "question": "¿Dónde marcan los límites físicos de inicio y fin las instalaciones de enlace según la normativa?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Comienzan en el final de la acometida y terminan en los dispositivos generales de mando y protección.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 detalla explícitamente: 'Comenzarán, por tanto, en el final de la acometida y terminarán en los dispositivos generales de mando y protección'."
+      },
+      {
+        "id": 2,
+        "answer": "Comienzan en la red de distribución pública y terminan en la Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque ese tramo (de la red a la CGP) corresponde a la acometida exterior (elemento 2 de la leyenda), que es previa a la instalación de enlace."
+      },
+      {
+        "id": 3,
+        "answer": "Comienzan en el contador y terminan en el primer receptor eléctrico.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el contador es un elemento intermedio (apartado 1.2) y la instalación termina antes de los receptores (en los dispositivos de mando y protección)."
+      },
+      {
+        "id": 4,
+        "answer": "Comienzan en la Línea General de Alimentación y terminan en el Interruptor de Control de Potencia (ICP).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque omite la CGP que está antes de la LGA, y el punto final son los Dispositivos Generales de Mando y Protección (elemento 12), no solo la caja del ICP (elemento 11)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-03",
+    "type": "simple",
+    "question": "(Caso práctico) En un edificio de viviendas, se produce una avería en la Línea General de Alimentación (LGA) que discurre por el hueco de la escalera. ¿Quién es el responsable normativo de su reparación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La compañía suministradora de energía, ya que está antes de los contadores.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la compañía eléctrica solo es responsable hasta el final de la acometida. A partir de la CGP es instalación de enlace (apartado 1.1)."
+      },
+      {
+        "id": 2,
+        "answer": "El Ayuntamiento, al considerarse infraestructura básica.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el Ayuntamiento no tiene jurisdicción sobre las instalaciones eléctricas de enlace dentro de un edificio privado."
+      },
+      {
+        "id": 3,
+        "answer": "El usuario (o la comunidad de propietarios), ya que las instalaciones de enlace son de su propiedad y responsabilidad.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 especifica que las instalaciones de enlace 'quedarán de propiedad del usuario, que se responsabilizará de su conservación y mantenimiento'. En un edificio, el 'usuario' de la LGA es la comunidad."
+      },
+      {
+        "id": 4,
+        "answer": "La empresa instaladora de forma vitalicia.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque aunque el instalador la ejecuta y ofrece garantía legal, la propiedad y la responsabilidad reglamentaria a lo largo del tiempo recaen en el usuario (apartado 1.1)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-04",
+    "type": "simple",
+    "question": "De acuerdo con el apartado 1.2 de la ITC-BT-12, ¿cuál de los siguientes elementos NO constituye una parte de las instalaciones de enlace?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Caja General de Protección (CGP).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP es el primer elemento listado en el apartado 1.2 como parte de la instalación de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Línea General de Alimentación (LGA).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la LGA sí está explícitamente listada en el apartado 1.2."
+      },
+      {
+        "id": 3,
+        "answer": "Acometida.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque la acometida es la red de la compañía distribuidora que llega hasta la CGP. El apartado 1.1 dice que las instalaciones de enlace comienzan 'en el final de la acometida', por lo que la acometida en sí queda excluida."
+      },
+      {
+        "id": 4,
+        "answer": "Derivación Individual (DI).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la Derivación Individual sí es una parte fundamental enumerada en el apartado 1.2."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-05",
+    "type": "simple",
+    "question": "Según la nota aclaratoria bajo la Leyenda de los esquemas, ¿qué elementos conforman exactamente lo que se denomina 'instalación privada'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Caja General de Protección y la Línea General de Alimentación.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP y la LGA son elementos comunes del edificio (instalación de enlace comunitaria), no de la instalación privada de un usuario específico."
+      },
+      {
+        "id": 2,
+        "answer": "El conjunto de derivación individual e instalación interior.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque la nota bajo la leyenda establece textualmente: 'Nota: El conjunto de derivación individual e instalación interior constituye la instalación privada'."
+      },
+      {
+        "id": 3,
+        "answer": "Solo los dispositivos generales de mando y protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque aunque son parte de la vivienda, la definición normativa incluye también toda la derivación individual y la instalación interior (receptores y cableado interno)."
+      },
+      {
+        "id": 4,
+        "answer": "Los contadores y la línea general de alimentación.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque los contadores (suplidos en centralización) y la LGA pertenecen al esquema general de la comunidad, no a la parcela privada del usuario final."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-06",
+    "type": "simple",
+    "question": "Al diseñar el esquema 2.1 ('Para un solo usuario') en una vivienda unifamiliar, ¿qué parte de la instalación de enlace desaparece al coincidir la CGP y el equipo de medida en el mismo lugar?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Derivación Individual.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la derivación individual sigue siendo necesaria para llevar la corriente desde el contador exterior hasta el cuadro eléctrico interior de la vivienda (apartado 2.1)."
+      },
+      {
+        "id": 2,
+        "answer": "La Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP sigue existiendo, aunque se simplifique y comparta envolvente/lugar con la medida."
+      },
+      {
+        "id": 3,
+        "answer": "La Línea General de Alimentación.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 2.1 indica: 'se podrán simplificar las instalaciones... y no existir, por tanto, la Línea general de alimentación'."
+      },
+      {
+        "id": 4,
+        "answer": "El Contador.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el equipo de medida (contador) es imprescindible para el suministro y facturación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-07",
+    "type": "simple",
+    "question": "(Caso práctico) En un suministro para un solo usuario (Esquema 2.1), el técnico necesita localizar el 'fusible de seguridad' del contador. Según la norma, ¿donde se encuentra este elemento en este esquema específico?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "En un cuadro independiente situado en el interior de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el interior de la vivienda alberga los dispositivos de mando y protección (DGMP), no el fusible previo al contador."
+      },
+      {
+        "id": 2,
+        "answer": "Coincide con el fusible de la Caja General de Protección (CGP).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque al desaparecer la LGA y unirse el bloque de la CGP con la medida, el apartado 2.1 especifica: 'En consecuencia, el fusible de seguridad (9) coincide con el fusible de la CGP'."
+      },
+      {
+        "id": 3,
+        "answer": "Ubicado en el poste de la red de distribución eléctrica.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la red de distribución tiene sus propias protecciones, que no forman parte de la instalación de enlace del usuario."
+      },
+      {
+        "id": 4,
+        "answer": "Se elimina, ya que en un solo usuario no se exige fusible de seguridad.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el fusible es obligatorio para proteger el contador contra cortocircuitos; no se elimina, sino que asume una doble función (CGP y Seguridad)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-08",
+    "type": "simple",
+    "question": "El Esquema 2.2.1 representa la colocación de contadores para 'dos usuarios alimentados desde el mismo lugar'. Según el apartado 2.2.1, ¿de qué otro esquema es una generalización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Es una generalización del esquema de contadores centralizados en más de un lugar.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el esquema centralizado en más de un lugar (2.2.3) es mucho más complejo y orientado a grandes superficies o industrias."
+      },
+      {
+        "id": 2,
+        "answer": "Es un esquema completamente independiente sin relación con los demás.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el reglamento vincula explícitamente su diseño al de otro esquema previo."
+      },
+      {
+        "id": 3,
+        "answer": "Es una generalización del esquema 2.1 (para un solo usuario).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el texto del apartado 2.2.1 señala literalmente: 'El esquema 2.1 puede generalizarse para dos usuarios alimentados desde el mismo lugar'."
+      },
+      {
+        "id": 4,
+        "answer": "Es una derivación de las canalizaciones eléctricas prefabricadas.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque las canalizaciones prefabricadas aplican al esquema de centralización distribuida (2.2.3), no al de dos usuarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-09",
+    "type": "simple",
+    "question": "Observando el diagrama del 'Esquema 2.2.1. Para dos usuarios alimentados desde el mismo lugar', ¿qué elemento específico (número 6 en la leyenda) se introduce para separar el flujo de corriente hacia los dos contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un interruptor general de maniobra.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el interruptor de maniobra (elemento 5) se utiliza en los esquemas de centralización a partir de 3 usuarios, no en este de 2 usuarios."
+      },
+      {
+        "id": 2,
+        "answer": "Una caja de derivación.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque gráficamente en el esquema 2.2.1, después de la CGP (3) y la corta LGA (4), aparece el recuadro marcado con el número 6, que la leyenda identifica unívocamente como 'Caja de derivación'."
+      },
+      {
+        "id": 3,
+        "answer": "Un transformador de aislamiento.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque no existen transformadores en las instalaciones de enlace de baja tensión reguladas por esta ITC."
+      },
+      {
+        "id": 4,
+        "answer": "Un segundo fusible de la CGP.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP sigue siendo única y común en el punto de entrega de la red."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-10",
+    "type": "simple",
+    "question": "Según la ITC-BT-12 (Apartado 2.2.2), ¿en qué tipo de edificaciones se utilizará 'normalmente' el esquema de 'Colocación de contadores en forma centralizada en un lugar'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "En agrupaciones de viviendas en distribución horizontal dentro de un recinto privado inmenso.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque si es una agrupación horizontal grande con recintos privados, se aplica el esquema 2.2.3 (más de un lugar) por consejo de previsión de cargas y distancias."
+      },
+      {
+        "id": 2,
+        "answer": "Únicamente en instalaciones industriales de alta tensión.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el REBT regula solo baja tensión, y este esquema aplica a viviendas y comercio, no exclusivo de industrias AT."
+      },
+      {
+        "id": 3,
+        "answer": "En conjuntos de edificación vertical u horizontal, destinados principalmente a viviendas, comerciales, de oficinas o concentración de industrias.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 2.2.2 establece: 'Este esquema es el que se utilizará normalmente en conjuntos de edificación vertical u horizontal, destinados principalmente a viviendas, edificios comerciales, de oficinas o destinados a una concentración de industrias'."
+      },
+      {
+        "id": 4,
+        "answer": "Solo en chalets individuales.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque para chalets individuales se usa el esquema 2.1 de 'un solo usuario'."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-11",
+    "type": "simple",
+    "question": "(Caso práctico) Se proyecta un gran edificio comercial con 8 plantas de enorme superficie (10.000 m2 por planta). La previsión de cargas es muy elevada. ¿Qué esquema de instalaciones de enlace resulta 'aconsejable' implementar según la ITC-BT-12?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 2.1 (Un solo usuario), uniendo todos los locales a un mismo contador.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque un centro comercial con múltiples locales requiere facturación individualizada, no un esquema de un solo usuario."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 2.2.2 (Colocación de contadores centralizada en un lugar), ubicando cientos de contadores en el sótano.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque agrupar cientos de contadores en una sola planta para superficies tan vastas generaría problemas de derivaciones individuales kilométricas y altísimas caídas de tensión."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 2.2.3 (Colocación de contadores en forma centralizada en más de un lugar o planta).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 2.2.3 dicta: 'se utilizará en edificios... donde la previsión de cargas haga aconsejable la centralización de contadores en más de un lugar o planta. Igualmente... en una misma planta... cuando la superficie de la misma y la previsión de cargas lo aconseje'."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema sin Caja General de Protección por ser de gran tamaño.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP es el punto fronterizo obligatorio con la compañía distribuidora y nunca se elimina."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-12",
+    "type": "simple",
+    "question": "Cuando se aplica el esquema 2.2.3 (centralización distribuida en más de un lugar), es posible realizar la línea general o distribuciones mediante 'canalizaciones eléctricas prefabricadas'. ¿Qué normativa UNE deben cumplir estas canalizaciones?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 50.102",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque esta norma define los grados de protección IK contra impactos mecánicos, no las canalizaciones prefabricadas en sí."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.598-2",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque esta norma aplica a luminarias de alumbrado exterior."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.439-2",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 2.2.3 finaliza especificando que es de aplicación 'mediante canalizaciones eléctricas prefabricadas, que cumplan lo establecido en la norma UNE-EN 60.439 -2'."
+      },
+      {
+        "id": 4,
+        "answer": "UNE 20.460",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque aunque es una norma de instalaciones eléctricas en edificios, la especificación exigida explícitamente en el texto para el prefabricado es la 60.439-2."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-13",
+    "type": "simple",
+    "question": "Según la leyenda común a todos los esquemas de la ITC-BT-12, ¿qué componente es identificado con el número 5?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Caja general de protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la Caja General de Protección corresponde al número 3 de la leyenda."
+      },
+      {
+        "id": 2,
+        "answer": "Interruptor general de maniobra.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque la leyenda general enumera explícitamente: '5 Interruptor general de maniobra'."
+      },
+      {
+        "id": 3,
+        "answer": "Fusible de seguridad.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el fusible de seguridad es el número 9."
+      },
+      {
+        "id": 4,
+        "answer": "Instalación interior.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la instalación interior finaliza la lista con el número 13."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-14",
+    "type": "simple",
+    "question": "En el 'Esquema 2.2.2' (Centralización en un lugar), la línea que sube desde la Caja General de Protección (3) hasta el bloque de centralización, ¿qué nombre y número recibe en la leyenda?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Acometida (2).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la acometida precede a la CGP, no le sigue."
+      },
+      {
+        "id": 2,
+        "answer": "Derivación individual (8).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la derivación individual es el tramo que va desde la salida del contador hacia la vivienda, no desde la CGP hacia la centralización."
+      },
+      {
+        "id": 3,
+        "answer": "Línea general de alimentación (4).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque en el gráfico del esquema 2.2.2, la línea que conecta la CGP (3) con el interruptor general de maniobra (5) de la centralización está numerada con el '4', que la leyenda identifica como 'Línea general de alimentación'."
+      },
+      {
+        "id": 4,
+        "answer": "Instalación privada (13).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la instalación privada está aguas abajo del contador."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-15",
+    "type": "simple",
+    "question": "(Análisis de diagramas) Dentro del bloque etiquetado como 'Emplazamiento de contadores (7)' en los esquemas centralizados, ¿cuál es el orden correcto del flujo de energía por cada derivación de usuario?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Entra al Contador (10), pasa por el Fusible de seguridad (9) y sale a la Derivación Individual (8).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el fusible de seguridad (9) debe estar aguas arriba del contador para protegerlo frente a cortocircuitos."
+      },
+      {
+        "id": 2,
+        "answer": "Entra al Fusible de seguridad (9), pasa por el Contador (10) y sale a la Derivación Individual (8).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque observando los esquemas (2.2.2 y 2.2.3), dentro del recuadro (7), las líneas derivan pasando primero por el recuadro del Fusible (9), luego suben al bloque del Contador (10), y finalmente emergen del emplazamiento como Derivación Individual (8)."
+      },
+      {
+        "id": 3,
+        "answer": "Entra a la Derivación Individual (8) directamente saltándose el fusible.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la protección (fusible) y la medida (contador) son obligatorias según el esquema."
+      },
+      {
+        "id": 4,
+        "answer": "Entra al Interruptor de Control de Potencia (11) y luego al Contador (10).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el ICP (11) se sitúa dentro del local o vivienda del usuario, fuera del emplazamiento de contadores (7)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-16",
+    "type": "simple",
+    "question": "¿Qué dos elementos numerados en la leyenda representan el límite final absoluto de la instalación de enlace y el inicio de la instalación interior privada del usuario?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Elemento 10 (Contador) y Elemento 11 (Caja para ICP).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque tras el contador, la Derivación Individual sigue siendo instalación de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Elemento 3 (CGP) y Elemento 4 (LGA).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque son los elementos de inicio tras la acometida, no los finales."
+      },
+      {
+        "id": 3,
+        "answer": "Elemento 11 (Caja para ICP) y Elemento 12 (Dispositivos generales de mando y protección).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 especifica que terminan en los 'dispositivos generales de mando y protección' (12), y la caja del ICP (11) está justo antes de ellos en el cuadro. A partir de la salida del elemento 12, comienza el elemento 13 (Instalación interior)."
+      },
+      {
+        "id": 4,
+        "answer": "Elemento 8 (Derivación Individual) y Elemento 9 (Fusible de seguridad).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la derivación individual es un tramo intermedio de la instalación de enlace, no su frontera final."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-17",
+    "type": "simple",
+    "question": "En el esquema 2.2.3 (Contadores centralizados en más de un lugar), la Línea General de Alimentación (LGA) es un eje principal o columna montante vertical. ¿Qué elemento se instala repetidamente en esta LGA para permitir extraer las ramas hacia cada emplazamiento de contadores de planta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Fusibles de seguridad (9).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque los fusibles protegen los contadores individualmente dentro de cada armario de centralización, no bifurcan la LGA."
+      },
+      {
+        "id": 2,
+        "answer": "Interruptores generales de maniobra (5).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el interruptor de maniobra está a la entrada del armario, no en el punto de corte (bifurcación) de la línea montante principal."
+      },
+      {
+        "id": 2,
+        "answer": "Cajas de derivación (6).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque en el gráfico del Esquema 2.2.3 se aprecia cómo la línea principal (4) atraviesa las 'Cajas de derivación (6)', de las cuales salen las derivaciones secundarias horizontales hacia el 'Interruptor general de maniobra (5)' de cada centralización de planta."
+      },
+      {
+        "id": 4,
+        "answer": "Cajas para interruptor de control de potencia (11).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la caja de ICP está en la vivienda del usuario final."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-18",
+    "type": "simple",
+    "question": "(Teoría reglamentaria) ¿A quién responsabiliza la ITC-BT-12 de la conservación y mantenimiento de la Derivación Individual y los Elementos para Ubicación de Contadores en un edificio de viviendas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A la compañía distribuidora local.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la red de la distribuidora termina en la acometida, antes de las instalaciones de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Al propietario o comunidad de usuarios.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 indica explícitamente sobre las instalaciones de enlace: 'quedarán de propiedad del usuario, que se responsabilizará de su conservación y mantenimiento'."
+      },
+      {
+        "id": 3,
+        "answer": "Al instalador autorizado que firmó el boletín inicial.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el instalador no asume la propiedad del inmueble ni el coste de conservación de por vida, esa es obligación legal del titular/usuario."
+      },
+      {
+        "id": 4,
+        "answer": "A la administración pública (Ayuntamiento o Industria).",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la instalación está en dominio de uso común privado (el edificio), no público."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-19",
+    "type": "simple",
+    "question": "Al observar el 'Esquema 2.2.2' (Centralización en un lugar), ¿cuántas Líneas Generales de Alimentación (LGA) se identifican partiendo de la Caja General de Protección para dar servicio al armario centralizado general?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una por cada usuario final.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la línea que es individual por usuario se llama 'Derivación Individual' (DI), no LGA."
+      },
+      {
+        "id": 2,
+        "answer": "Dos, para tener redundancia.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque los esquemas reglamentarios base no muestran topologías redundantes de la línea de alimentación."
+      },
+      {
+        "id": 3,
+        "answer": "No existe LGA en este esquema.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el único esquema donde no existe LGA es en el 2.1 (Para un solo usuario)."
+      },
+      {
+        "id": 4,
+        "answer": "Una sola LGA principal (línea número 4) hasta el interruptor general.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el gráfico 2.2.2 muestra un único cableado ascendente, marcado con el '4' (Línea general de alimentación), que va desde la CGP (3) hasta el interruptor de maniobra común (5)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-20",
+    "type": "simple",
+    "question": "¿Qué requerimiento de ubicación establece el apartado 1.1 para TODAS las partes que componen las instalaciones de enlace comunitarias (CGP, LGA, CC)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se situarán y discurrirán siempre por lugares de uso común.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 1.1 establece como norma imperativa: 'Estas instalaciones se situarán y discurrirán siempre por lugares de uso común'. Esto asegura accesibilidad para lectura o emergencias sin invadir propiedades individuales."
+      },
+      {
+        "id": 2,
+        "answer": "Se situarán obligatoriamente en el interior del garaje más profundo.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el garaje es solo un posible lugar común, pero no es el único lugar obligatorio (pueden ser cuartos de contadores en planta baja, zaguanes, etc.)."
+      },
+      {
+        "id": 3,
+        "answer": "Deben discurrir siempre por el interior de las viviendas o locales por seguridad.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque es ilegal hacer discurrir una LGA o un cuarto de contadores por el interior de una propiedad privada ajena debido a las servidumbres e inaccesibilidad."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ir enterradas en el exterior de la parcela.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la norma las sitúa en lugares de uso común dentro de los edificios, no exige enterrarlas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-21",
+    "type": "simple",
+    "question": "Según la leyenda, la 'Caja para interruptor de control de potencia' (ICP) tiene asignado el número 11. ¿En qué lugar geométrico de los esquemas se ubica este elemento respecto a la frontera de la vivienda (rectángulo rallado)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se sitúa en el cuarto de contadores, junto al fusible de seguridad.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque en el cuarto de contadores se encuentran los fusibles (9) y los contadores (10)."
+      },
+      {
+        "id": 2,
+        "answer": "Se ubica en la calle, incrustado en la Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP (3) es un elemento comunitario general, mientras que el ICP limita la potencia contratada de un usuario particular."
+      },
+      {
+        "id": 3,
+        "answer": "Se sitúa en el límite de entrada al interior de cada local o vivienda del usuario.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque en todos los esquemas (2.1, 2.2.1, 2.2.2, 2.2.3), el cuadrado número 11 está dibujado justo en la línea de demarcación del recinto privado (el recuadro grande que envuelve la vivienda), marcando el punto de recepción y control de la Derivación Individual."
+      },
+      {
+        "id": 4,
+        "answer": "Se ubica al final de la instalación interior, junto a los enchufes.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el ICP es el primer dispositivo que se encuentra al entrar a la vivienda, no está al final de los circuitos interiores."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-22",
+    "type": "simple",
+    "question": "(Teoría de partes) Si analizamos el esquema eléctrico de una Derivación Individual, ¿qué dos partes de las instalaciones de enlace interconecta directamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Acometida con la Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque esos dos elementos se unen de forma natural al inicio del suministro, y no forman la Derivación Individual."
+      },
+      {
+        "id": 2,
+        "answer": "La Caja General de Protección con el Emplazamiento de contadores.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la línea que interconecta la CGP con el emplazamiento de contadores es la Línea General de Alimentación (LGA)."
+      },
+      {
+        "id": 3,
+        "answer": "El Contador (ubicado en el CC) con los Dispositivos Generales de Mando y Protección (o la caja de ICP).",
+        "isCorrect": true,
+        "explanation": "Correcta, porque en los esquemas gráficos se observa que la línea número 8 (Derivación individual) parte desde la salida del Contador (10) y viaja físicamente hasta entrar a la Caja para ICP (11) y los Dispositivos Generales de Mando y Protección (12)."
+      },
+      {
+        "id": 4,
+        "answer": "El Cuadro eléctrico con la Red de Distribución.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el cuadro interior no se conecta directamente a la red de distribución (omitiendo CGP, LGA y contadores)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-23",
+    "type": "simple",
+    "question": "(Caso práctico) Se va a ejecutar una urbanización formada por chalets adosados de 2 plantas. No es un gran edificio vertical, sino que es una distribución horizontal amplia dentro de un recinto privado. A nivel de diseño reglamentario (ITC-BT-12), ¿qué esquema permite aplicarse para optimizar el tendido de las derivaciones?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Únicamente el esquema 2.1 para cada casa por separado, siendo ilegal agruparlos.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque al estar dentro de un recinto privado cerrado, se pueden centralizar contadores para evitar múltiples CGP en fachadas externas continuas."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 2.2.3 (Colocación de contadores en más de un lugar), que prevé la aplicación en agrupaciones de viviendas en distribución horizontal dentro de un recinto privado.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque el apartado 2.2.3 lo contempla de forma literal como caso de aplicación aconsejable: 'También podrá ser de aplicación en las agrupaciones de viviendas en distribución horizontal dentro de un recinto privado', instalando armarios de contadores repartidos estratégicamente."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 2.2.1 (Para dos usuarios) multiplicando el esquema hasta cubrir la urbanización.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el esquema de dos usuarios carece de interruptor general de maniobra y no escala arquitectónicamente para una urbanización completa."
+      },
+      {
+        "id": 4,
+        "answer": "Cualquier esquema es válido siempre que lo autorice el promotor.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el promotor no tiene potestad para evadir las directrices de diseño marcadas por el Reglamento Electrotécnico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-24",
+    "type": "simple",
+    "question": "Según la leyenda, el elemento número 13 es la 'Instalación interior'. ¿Forma parte este elemento de las instalaciones de enlace según el listado del apartado 1.2?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, es la parte final y más importante de las instalaciones de enlace.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el listado oficial de 'partes que constituyen las instalaciones de enlace' del apartado 1.2 no incluye la instalación interior."
+      },
+      {
+        "id": 2,
+        "answer": "No, las instalaciones de enlace terminan antes, exactamente en los dispositivos generales de mando y protección.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque la definición 1.1 aclara que unen la CGP 'CON' las instalaciones interiores, las cuales son el destino final. El texto dice explícitamente: 'terminarán en los dispositivos generales de mando y protección'. Por lo tanto, el circuito interior (13) queda fuera del dominio técnico de la 'instalación de enlace'."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, siempre que esté protegida por un diferencial de 30 mA.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la inclusión normativa no depende de la sensibilidad del diferencial, sino de la frontera de diseño establecida en el reglamento."
+      },
+      {
+        "id": 4,
+        "answer": "No, forma parte exclusivamente de la red de distribución.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la instalación interior pertenece al dominio privado del usuario final, no a la distribuidora pública (apartado nota leyenda)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-12-25",
+    "type": "simple",
+    "question": "Dentro del 'Esquema 2.2.3' (Centralización en más de un lugar), antes de entrar al bloque (7) 'Emplazamiento de contadores' de cada planta, existe un componente de corte general de seguridad marcado con el número 5. ¿De qué elemento se trata?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Fusible de seguridad.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque los fusibles de seguridad (9) están aguas abajo, protegiendo cada contador individual dentro del bloque 7."
+      },
+      {
+        "id": 2,
+        "answer": "Caja general de protección.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque la CGP (3) está ubicada al inicio del edificio, enlazando con la acometida subterránea o aérea."
+      },
+      {
+        "id": 3,
+        "answer": "Interruptor general de maniobra.",
+        "isCorrect": true,
+        "explanation": "Correcta, porque la leyenda general establece que el número 5 corresponde al 'Interruptor general de maniobra'. En el esquema 2.2.3 se observa que de la caja de derivación (6) de la LGA, se deriva un ramal que entra en el armario (7) a través del interruptor (5), permitiendo dejar sin tensión toda esa subcentralización de planta entera de una sola vez."
+      },
+      {
+        "id": 4,
+        "answer": "Interruptor de Control de Potencia.",
+        "isCorrect": false,
+        "explanation": "Incorrecta, porque el ICP (11) es individual y se ubica en el interior de la vivienda de cada abonado."
+      }
+    ]
+  }
+]

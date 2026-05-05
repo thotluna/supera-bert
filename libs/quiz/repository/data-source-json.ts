@@ -1,21 +1,24 @@
 import { Question, ITCTopic, TopicOption } from '../models';
 import { QuestionRepository } from './question-repository';
-
-// Map of statically available ITC data files to ensure they are bundled by Next.js
-const ITC_DATA_MAP: Record<string, () => Promise<unknown>> = {
-  'ITC-BT-01': () => import('@/data/itc-bt-01.json'),
-  'ITC-BT-03': () => import('@/data/itc-bt-03.json'),
-  'ITC-BT-04': () => import('@/data/itc-bt-04.json'),
-  'ITC-BT-05': () => import('@/data/itc-bt-05.json'),
-  'ITC-BT-06': () => import('@/data/itc-bt-06.json'),
-  'ITC-BT-07': () => import('@/data/itc-bt-07.json'),
-  'ITC-BT-08': () => import('@/data/itc-bt-08.json'),
-  'ITC-BT-09': () => import('@/data/itc-bt-09.json'),
-  'ITC-BT-10': () => import('@/data/itc-bt-10.json'),
-  'ITC-BT-11': () => import('@/data/itc-bt-11.json'),
-};
+import itcManifest from '@/data/itc-manifest.json';
 
 export class JSONDataSource implements QuestionRepository {
+  /**
+   * Dynamically imports ITC data. 
+   * Next.js/Webpack will bundle all JSON files in the data folder 
+   * because of the template literal pattern.
+   */
+  private async importITCData(itc: string): Promise<unknown> {
+    try {
+      // The template literal informs the bundler to include all matching files in the data directory
+      const dataModule = await import(`@/data/${itc.toLowerCase()}.json`) as { default?: unknown };
+      return dataModule.default || dataModule;
+    } catch (error) {
+      console.error(`Error dynamically importing ${itc}:`, error);
+      return null;
+    }
+  }
+
   async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
     const allData = await this.loadFromImports(itcs);
     let combinedQuestions: Question[] = Object.values(allData).flat();
@@ -49,9 +52,8 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    const availableITCs = Object.keys(ITC_DATA_MAP);
-
-    return availableITCs.map(itcName => ({
+    // itcManifest is an array of strings like ["ITC-BT-01", "ITC-BT-03", ...]
+    return itcManifest.map(itcName => ({
       name: itcName as ITCTopic,
       available: true
     })).sort((a, b) => a.name.localeCompare(b.name));
@@ -60,19 +62,15 @@ export class JSONDataSource implements QuestionRepository {
   private async loadFromImports(itcs?: ITCTopic[]): Promise<Record<string, Question[]>> {
     const allQuestions: Record<string, Question[]> = {};
 
-    // Determine which ITCs to load
+    // Determine which ITCs to load from the manifest
     const itcsToLoad = itcs && itcs.length > 0
-      ? itcs.filter(itc => ITC_DATA_MAP[itc])
-      : Object.keys(ITC_DATA_MAP) as ITCTopic[];
+      ? itcs.filter(itc => itcManifest.includes(itc))
+      : itcManifest as ITCTopic[];
 
     for (const itc of itcsToLoad) {
-      const importFn = ITC_DATA_MAP[itc];
-      if (!importFn) continue;
-
       try {
-        const dataModule = await importFn() as { default?: unknown };
-        // Handle different JSON structures (wrapped in default or direct)
-        const json = dataModule.default || dataModule;
+        const json = await this.importITCData(itc);
+        if (!json) continue;
         
         let questions: Question[] = [];
 
@@ -88,7 +86,7 @@ export class JSONDataSource implements QuestionRepository {
 
         allQuestions[itc] = questions.map(q => ({ ...q, itc }));
       } catch (error) {
-        console.error(`Error loading data for ${itc}:`, error);
+        console.error(`Error processing data for ${itc}:`, error);
       }
     }
 

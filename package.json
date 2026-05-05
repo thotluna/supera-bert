@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate:manifest": "node scripts/generate-itc-manifest.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,7 +12,8 @@
     "test:e2e": "dotenv -e .env.test -- playwright test",
     "test:ui": "dotenv -e .env.test -- playwright test --ui",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
@@ -48,6 +50,7 @@
     "eslint-config-next": "16.2.4",
     "eslint-plugin-storybook": "^10.3.6",
     "essentials": "^1.2.0",
+    "husky": "^9.1.7",
     "jsdom": "^29.1.1",
     "storybook": "^10.3.6",
     "tailwindcss": "^4",

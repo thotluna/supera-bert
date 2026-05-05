@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm run generate:manifest
+git add data/itc-manifest.json
+pnpm test
+pnpm build
+

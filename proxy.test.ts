@@ -40,7 +40,10 @@ describe('Auth Proxy Middleware', () => {
       nextUrl: { pathname: '/dashboard' },
       url: 'http://localhost:3000/dashboard',
       headers: new Headers(),
-      cookies: { getAll: vi.fn().mockReturnValue([]) },
+      cookies: { 
+        getAll: vi.fn().mockReturnValue([]),
+        get: vi.fn().mockReturnValue(undefined)
+      },
     } as unknown as NextRequest
 
     await proxy(request)
@@ -57,7 +60,10 @@ describe('Auth Proxy Middleware', () => {
       nextUrl: { pathname: '/login' },
       url: 'http://localhost:3000/login',
       headers: new Headers(),
-      cookies: { getAll: vi.fn().mockReturnValue([]) },
+      cookies: { 
+        getAll: vi.fn().mockReturnValue([]),
+        get: vi.fn().mockReturnValue(undefined)
+      },
     } as unknown as NextRequest
 
     await proxy(request)
@@ -74,7 +80,10 @@ describe('Auth Proxy Middleware', () => {
       nextUrl: { pathname: '/login' },
       url: 'http://localhost:3000/login',
       headers: new Headers(),
-      cookies: { getAll: vi.fn().mockReturnValue([]) },
+      cookies: { 
+        getAll: vi.fn().mockReturnValue([]),
+        get: vi.fn().mockReturnValue(undefined)
+      },
     } as unknown as NextRequest
 
     await proxy(request)

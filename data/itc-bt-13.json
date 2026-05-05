@@ -1,0 +1,277 @@
+[
+  {
+    "id": "ITC-BT-13-01",
+    "type": "simple",
+    "question": "Según la ITC-BT-13, ¿cuál es la función principal que define a las Cajas Generales de Protección (CGP)?",
+    "options": [
+      { "id": 1, "answer": "Alojamiento de los contadores de energía para su lectura por la compañía.", "isCorrect": false, "explanation": "El alojamiento de contadores corresponde a las centralizaciones o cajas de protección y medida, no estrictamente a la CGP estándar aislada." },
+      { "id": 2, "answer": "Son las cajas que alojan los elementos de protección de las líneas generales de alimentación.", "isCorrect": true, "explanation": "El apartado 1 establece textualmente: 'Son las cajas que alojan los elementos de protección de las líneas generales de alimentación'[cite: 1]." },
+      { "id": 3, "answer": "Servir de punto de empalme exclusivo entre la red de alta tensión y el centro de transformación.", "isCorrect": false, "explanation": "La ITC-BT-13 regula instalaciones de baja tensión, no la conexión en alta tensión." },
+      { "id": 4, "answer": "Alojar el interruptor de control de potencia (ICP) de la instalación interior.", "isCorrect": false, "explanation": "El ICP se ubica en el interior del local o vivienda del usuario, no en la CGP exterior." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-02",
+    "type": "simple",
+    "question": "¿Cuál es el emplazamiento preferente establecido por la norma para las Cajas Generales de Protección?",
+    "options": [
+      { "id": 1, "answer": "Sobre las fachadas exteriores de los edificios, en lugares de libre y permanente acceso.", "isCorrect": true, "explanation": "El apartado 1.1 indica: 'Se instalarán preferentemente sobre las fachadas exteriores de los edificios, en lugares de libre y permanente acceso'[cite: 1]." },
+      { "id": 2, "answer": "En el interior del garaje, para protegerlas del vandalismo.", "isCorrect": false, "explanation": "El garaje no suele ofrecer libre y permanente acceso desde el exterior a la compañía suministradora." },
+      { "id": 3, "answer": "En el cuarto de contadores obligatoriamente.", "isCorrect": false, "explanation": "La CGP precede a la LGA, por lo que suele ir en la frontera del edificio, no en el cuarto de contadores interior." },
+      { "id": 4, "answer": "En la azotea del edificio, cerca de la antena comunitaria.", "isCorrect": false, "explanation": "Dificultaría el acceso y alejaría la caja de la red de distribución pública." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-03",
+    "type": "simple",
+    "question": "En edificios con Centro de Transformación (CT) interior, ¿qué elemento puede desempeñar la función de CGP?",
+    "options": [
+      { "id": 1, "answer": "Se debe instalar siempre una CGP externa adicional en la fachada.", "isCorrect": false, "explanation": "La norma permite explícitamente aprovechar los elementos del centro de transformación interior." },
+      { "id": 2, "answer": "Los fusibles del cuadro de baja tensión de dicho centro de transformación.", "isCorrect": true, "explanation": "El apartado 1.1 establece que los fusibles del cuadro de BT de dicho centro podrán utilizarse desempeñando la función de CGP[cite: 1]." },
+      { "id": 3, "answer": "El seccionador de alta tensión del transformador.", "isCorrect": false, "explanation": "Los elementos de alta tensión no protegen la línea general de alimentación de baja tensión." },
+      { "id": 4, "answer": "No existe CGP en edificios con transformador propio.", "isCorrect": false, "explanation": "La función de protección sigue existiendo, asimilada por los fusibles del cuadro de BT del CT." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-04",
+    "type": "simple",
+    "question": "Si los fusibles del CT hacen de CGP, ¿de quién será la propiedad y el mantenimiento de esta protección?",
+    "options": [
+      { "id": 1, "answer": "De la comunidad de propietarios del edificio.", "isCorrect": false, "explanation": "Al estar integrados en el cuadro del transformador de la red pública, no se transfieren al usuario privado." },
+      { "id": 2, "answer": "De la empresa suministradora.", "isCorrect": true, "explanation": "El apartado 1.1 especifica: 'En este caso, la propiedad y el mantenimiento de la protección serán de la empresa suministradora'[cite: 1]." },
+      { "id": 3, "answer": "Del Ayuntamiento.", "isCorrect": false, "explanation": "Los ayuntamientos no mantienen las redes de distribución eléctricas." },
+      { "id": 4, "answer": "Compartido al 50% entre usuario y distribuidora.", "isCorrect": false, "explanation": "La norma asigna la titularidad y responsabilidad íntegra a la empresa suministradora." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-05",
+    "type": "simple",
+    "question": "Con acometida AÉREA, ¿a qué altura debe instalarse la CGP en montaje superficial?",
+    "options": [
+      { "id": 1, "answer": "Entre 0,5 m y 1,5 m.", "isCorrect": false, "explanation": "Esta altura expondría una línea aérea de bajada a contactos directos y vandalismo." },
+      { "id": 2, "answer": "Entre 1,5 m y 2,5 m.", "isCorrect": false, "explanation": "No cumple el rango de seguridad estipulado en la ITC-BT-13." },
+      { "id": 3, "answer": "Entre 3 m y 4 m.", "isCorrect": true, "explanation": "El apartado 1.1 dicta: 'podrán instalarse en montaje superficial a una altura sobre el suelo comprendida entre 3 m y 4 m'[cite: 1]." },
+      { "id": 4, "answer": "A más de 5 m de altura.", "isCorrect": false, "explanation": "A más de 5 m se imposibilitarían las labores de mantenimiento o sustitución de fusibles de forma segura." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-06",
+    "type": "simple",
+    "question": "(Caso práctico) Se instala una CGP aérea donde se prevé paso a red subterránea a corto plazo. ¿Cómo se debe preparar?",
+    "options": [
+      { "id": 1, "answer": "Se situará como si se tratase de una acometida subterránea desde el principio.", "isCorrect": true, "explanation": "El apartado 1.1 indica que en estos casos la CGP se situará como si se tratase de una acometida subterránea[cite: 1]." },
+      { "id": 2, "answer": "Se pondrá en montaje superficial a 4 metros y se cambiará después.", "isCorrect": false, "explanation": "Implicaría un doble coste de obra civil innecesario y contraviene la directriz de previsión." },
+      { "id": 3, "answer": "Se instalará en el tejado para facilitar la conexión aérea actual.", "isCorrect": false, "explanation": "El tejado no es el lugar indicado normativamente; se priorizan fachadas a nivel de calle." },
+      { "id": 4, "answer": "No se instalará CGP hasta que el soterramiento finalice.", "isCorrect": false, "explanation": "El edificio necesita suministro eléctrico inmediato con sus protecciones normativas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-07",
+    "type": "simple",
+    "question": "Cuando la acometida sea SUBTERRÁNEA, ¿qué exige la normativa para la colocación de la CGP?",
+    "options": [
+      { "id": 1, "answer": "Se instalará siempre en montaje superficial.", "isCorrect": false, "explanation": "Para acometidas subterráneas se busca que el conjunto quede enrasado y protegido." },
+      { "id": 2, "answer": "Se instalará siempre en un nicho en pared.", "isCorrect": true, "explanation": "El apartado 1.1 obliga: 'Cuando la acometida sea subterránea se instalará siempre en un nicho en pared'[cite: 1]." },
+      { "id": 3, "answer": "Se enterrará bajo la acera junto a la cimentación.", "isCorrect": false, "explanation": "Requiere acceso permanente mediante puerta para manipular fusibles." },
+      { "id": 4, "answer": "Puede instalarse colgada de la acometida.", "isCorrect": false, "explanation": "La CGP debe estar firmemente sujeta a la obra civil." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-08",
+    "type": "simple",
+    "question": "¿Cuál es el grado IK exigido para la puerta del nicho de la CGP subterránea?",
+    "options": [
+      { "id": 1, "answer": "IK 07", "isCorrect": false, "explanation": "No ofrece la resistencia exigida a impactos en vía pública." },
+      { "id": 2, "answer": "IK 08", "isCorrect": false, "explanation": "IK 08 es exigible a la envolvente interna de la caja, pero no a la puerta del nicho." },
+      { "id": 3, "answer": "IK 09", "isCorrect": false, "explanation": "Grado aplicable a las Cajas de Protección y Medida (CPM), no a la puerta del nicho." },
+      { "id": 4, "answer": "IK 10", "isCorrect": true, "explanation": "El apartado 1.1 especifica para la puerta del nicho: 'grado de protección IK 10 según UNE-EN 50.102'[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-09",
+    "type": "simple",
+    "question": "¿A qué distancia mínima del suelo debe estar la parte inferior de la puerta del nicho?",
+    "options": [
+      { "id": 1, "answer": "Al ras del suelo (0 cm).", "isCorrect": false, "explanation": "Propiciaría la entrada de agua por charcos y lluvia directa al nicho." },
+      { "id": 2, "answer": "A un mínimo de 15 cm.", "isCorrect": false, "explanation": "No alcanza el margen de seguridad mínimo estipulado." },
+      { "id": 3, "answer": "A un mínimo de 30 cm.", "isCorrect": true, "explanation": "El apartado 1.1 indica textualmente: 'La parte inferior de la puerta se encontrará a un mínimo de 30 cm del suelo'[cite: 1]." },
+      { "id": 4, "answer": "A un mínimo de 100 cm.", "isCorrect": false, "explanation": "Aunque es válido por ser mayor, el límite mínimo normativo es 30 cm." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-10",
+    "type": "simple",
+    "question": "(Caso práctico) Si la fachada NO linda con la vía pública, ¿dónde se sitúa la CGP?",
+    "options": [
+      { "id": 1, "answer": "En la fachada de la vivienda, atravesando el jardín privado.", "isCorrect": false, "explanation": "La distribuidora no debe mantener su red atravesando terrenos privados." },
+      { "id": 2, "answer": "En el límite entre las propiedades públicas y privadas.", "isCorrect": true, "explanation": "El apartado 1.1 dicta: 'la caja general de protección se situará en el límite entre las propiedades públicas y privadas'[cite: 1]." },
+      { "id": 3, "answer": "En el poste de luz de la calle más lejana.", "isCorrect": false, "explanation": "Debe estar lo más próxima posible sirviendo de frontera a la propiedad." },
+      { "id": 4, "answer": "Se exime al propietario de colocar CGP.", "isCorrect": false, "explanation": "La CGP es un elemento obligatorio en toda instalación de enlace." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-11",
+    "type": "simple",
+    "question": "¿Cuántas CGP permite la normativa alojar como máximo en un mismo nicho?",
+    "options": [
+      { "id": 1, "answer": "Solo una en cualquier circunstancia.", "isCorrect": false, "explanation": "La norma permite alojar hasta dos en un mismo nicho." },
+      { "id": 2, "answer": "No se alojarán más de dos cajas generales de protección.", "isCorrect": true, "explanation": "El apartado 1.1 limita: 'No se alojarán más de dos cajas generales de protección en el interior del mismo nicho'[cite: 1]." },
+      { "id": 3, "answer": "Hasta un máximo de cuatro cajas.", "isCorrect": false, "explanation": "El límite explícito es dos; para más se requieren otras soluciones técnicas." },
+      { "id": 4, "answer": "No hay límite.", "isCorrect": false, "explanation": "El reglamento impone una restricción numérica explícita de dos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-12",
+    "type": "simple",
+    "question": "¿Qué acceso tienen los usuarios o el instalador autorizado al interior de la CGP?",
+    "options": [
+      { "id": 1, "answer": "Acceso total para modificar la acometida libremente.", "isCorrect": false, "explanation": "La parte de la acometida es competencia exclusiva de la distribuidora." },
+      { "id": 2, "answer": "Ninguno, solo personal de la compañía.", "isCorrect": false, "explanation": "El instalador necesita conectar la LGA, por lo que se le permite acceso condicionado." },
+      { "id": 3, "answer": "Acceso a las conexiones con la LGA, previa comunicación a la empresa.", "isCorrect": true, "explanation": "Tendrán acceso y podrán actuar sobre las conexiones con la LGA, previa comunicación a la empresa[cite: 1]." },
+      { "id": 4, "answer": "Pueden cambiar fusibles sin avisar.", "isCorrect": false, "explanation": "Siempre se exige comunicación previa dado que la caja está precintada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-13",
+    "type": "simple",
+    "question": "¿En qué conductores deben instalarse los fusibles de la CGP?",
+    "options": [
+      { "id": 1, "answer": "Solamente en el conductor neutro.", "isCorrect": false, "explanation": "Dejaría las fases en tensión ante un cortocircuito, riesgo crítico." },
+      { "id": 2, "answer": "En todos los conductores de fase y en el neutro.", "isCorrect": false, "explanation": "Cortar el neutro con fusibles puede provocar sobretensiones peligrosas." },
+      { "id": 3, "answer": "En todos los conductores de fase o polares.", "isCorrect": true, "explanation": "El apartado 1.2 especifica: 'se instalarán cortacircuitos fusibles en todos los conductores de fase o polares'[cite: 1]." },
+      { "id": 4, "answer": "En la fase principal y en el hilo de tierra.", "isCorrect": false, "explanation": "La tierra es protección y nunca debe ser seccionada mediante un fusible." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-14",
+    "type": "simple",
+    "question": "¿Cómo debe constituirse y situarse el conductor Neutro en la CGP?",
+    "options": [
+      { "id": 1, "answer": "Por un fusible idéntico al de fase, a la derecha.", "isCorrect": false, "explanation": "El neutro no lleva fusible y su posición normativa no es la derecha." },
+      { "id": 2, "answer": "Por una conexión amovible situada a la izquierda de las fases.", "isCorrect": true, "explanation": "El neutro estará constituido por una conexión amovible situada a la izquierda de las fases[cite: 1]." },
+      { "id": 3, "answer": "Por una bornera fija no desmontable en el centro.", "isCorrect": false, "explanation": "Debe ser amovible para comprobaciones de aislamiento." },
+      { "id": 4, "answer": "Por una conexión amovible situada a la derecha.", "isCorrect": false, "explanation": "La posición reglamentaria exigida es la izquierda." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-15",
+    "type": "simple",
+    "question": "¿Qué poder de corte deben tener los fusibles de la CGP?",
+    "options": [
+      { "id": 1, "answer": "Debe ser siempre fijo e igual a 50 kA.", "isCorrect": false, "explanation": "El valor de cortocircuito varía según el punto de la instalación." },
+      { "id": 2, "answer": "Al menos igual a la corriente de cortocircuito prevista en el punto.", "isCorrect": true, "explanation": "Debe ser al menos igual a la corriente de cortocircuito prevista en el punto de su instalación[cite: 1]." },
+      { "id": 3, "answer": "Igual a la corriente nominal de la vivienda por dos.", "isCorrect": false, "explanation": "El poder de corte depende de la red exterior, no de la carga nominal." },
+      { "id": 4, "answer": "No se exige poder de corte.", "isCorrect": false, "explanation": "Sin poder de corte adecuado, el fusible estallaría sin extinguir el arco." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-16",
+    "type": "simple",
+    "question": "¿Qué grados IP e IK debe tener la envolvente de la CGP?",
+    "options": [
+      { "id": 1, "answer": "IP 30 e IK 07", "isCorrect": false, "explanation": "Grados insuficientes para equipos en exteriores." },
+      { "id": 2, "answer": "IP 43 e IK 08", "isCorrect": true, "explanation": "Tendrán un grado de protección IP43 e IK 08 y serán precintables[cite: 1]." },
+      { "id": 3, "answer": "IP 55 e IK 09", "isCorrect": false, "explanation": "El IK 09 es para las CPM, no para las CGP estándar." },
+      { "id": 4, "answer": "IP 65 e IK 10", "isCorrect": false, "explanation": "IK 10 aplica a la puerta del nicho, no a la envolvente de la caja." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-17",
+    "type": "simple",
+    "question": "¿Cuándo se permite utilizar 'Cajas de Protección y Medida' (CPM)?",
+    "options": [
+      { "id": 1, "answer": "En todos los edificios de viviendas.", "isCorrect": false, "explanation": "En edificios de muchos usuarios se necesita LGA y centralización." },
+      { "id": 2, "answer": "Solo en locales comerciales de gran potencia.", "isCorrect": false, "explanation": "Depende del número de usuarios, no solo de la potencia." },
+      { "id": 3, "answer": "Para suministros de uno o dos usuarios desde el mismo lugar.", "isCorrect": true, "explanation": "Se permite cuando no existe LGA al alimentar a uno o dos usuarios[cite: 1]." },
+      { "id": 4, "answer": "Exclusivamente en instalaciones generadoras.", "isCorrect": false, "explanation": "No está restringido únicamente a ese uso." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-18",
+    "type": "simple",
+    "question": "¿Qué prohibición de montaje tienen las CPM respecto a las CGP?",
+    "options": [
+      { "id": 1, "answer": "No se admitirá su montaje en nicho.", "isCorrect": false, "explanation": "El montaje en nicho es el estándar promovido." },
+      { "id": 2, "answer": "No se admitirá el montaje superficial.", "isCorrect": true, "explanation": "El apartado 2.1 establece que no se admitirá el montaje superficial para las CPM[cite: 1]." },
+      { "id": 3, "answer": "No se permite en la fachada del límite de propiedad.", "isCorrect": false, "explanation": "La fachada sigue siendo el lugar preferente." },
+      { "id": 4, "answer": "No se permite alojarlas en recintos sin techo.", "isCorrect": false, "explanation": "La limitación explícita es el montaje superficial." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-19",
+    "type": "simple",
+    "question": "¿A qué altura deben situarse los dispositivos de lectura de las CPM?",
+    "options": [
+      { "id": 1, "answer": "A un mínimo de 30 cm del suelo.", "isCorrect": false, "explanation": "30 cm es el mínimo para la puerta del nicho, no para la lectura visual." },
+      { "id": 2, "answer": "Entre 0,5 m y 1,5 m.", "isCorrect": false, "explanation": "No se ajusta al margen normativo de ergonomía visual." },
+      { "id": 3, "answer": "Entre 0,7 m e 1,80 m.", "isCorrect": true, "explanation": "Los dispositivos de lectura de medida deberán estar a una altura entre 0,7 m y 1,80 m[cite: 1]." },
+      { "id": 4, "answer": "Entre 1,0 m y 2,5 m.", "isCorrect": false, "explanation": "A 2,5 m la lectura del contador sería inaccesible sin medios auxiliares." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-20",
+    "type": "simple",
+    "question": "¿Qué grado IK exige la norma específicamente para la CPM?",
+    "options": [
+      { "id": 1, "answer": "IK 08", "isCorrect": false, "explanation": "Este es el valor para la CGP estándar; la CPM requiere más protección." },
+      { "id": 2, "answer": "IK 09", "isCorrect": true, "explanation": "Las CPM una vez instaladas tendrán un grado de protección IP43 e IK09[cite: 1]." },
+      { "id": 3, "answer": "IK 10", "isCorrect": false, "explanation": "Es el grado de la puerta metálica externa del nicho de obra." },
+      { "id": 4, "answer": "IK 07", "isCorrect": false, "explanation": "Protección demasiado débil para equipos en vía pública." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-21",
+    "type": "simple",
+    "question": "¿Qué indica el término 'LGA' en el contexto de la CGP?",
+    "options": [
+      { "id": 1, "answer": "Línea General de Acometida.", "isCorrect": false, "explanation": "No es un acrónimo estándar del reglamento." },
+      { "id": 2, "answer": "Lugar de Gestión de Aperturas.", "isCorrect": false, "explanation": "No es la designación técnica correcta." },
+      { "id": 3, "answer": "Línea General de Acometida.", "isCorrect": true, "explanation": "LGA es el acrónimo normalizado para Línea General de Acometida[cite: 1]." },
+      { "id": 4, "answer": "Local General de Acompañamiento.", "isCorrect": false, "explanation": "La LGA es una línea, no un local." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-22",
+    "type": "simple",
+    "question": "¿Cuál es la función principal de la LGA según la ITC-BT-13?",
+    "options": [
+      { "id": 1, "answer": "Conectar el contador con el Interruptor General del usuario.", "isCorrect": false, "explanation": "Esa es la función de la derivación individual." },
+      { "id": 2, "answer": "Alimentar a todos los usuarios desde un único punto de medida.", "isCorrect": false, "explanation": "La LGA alimenta a todos los usuarios, pero cada uno tiene su CGP." },
+      { "id": 3, "answer": "Conducir la energía desde la Red de Distribución hasta la CGP o CPM.", "isCorrect": true, "explanation": "La LGA constituye el tramo que conduce la energía desde el punto de conexión con la red hasta la CGP o CPM[cite: 1]." },
+      { "id": 4, "answer": "Llevar la señal de telemedida a la distribuidora.", "isCorrect": false, "explanation": "La telemedida es una función específica posterior, no la función de la LGA." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-23",
+    "type": "simple",
+    "question": "En edificios de viviendas, ¿qué exige la ITC-BT-13 respecto al número de acometidas?",
+    "options": [
+      { "id": 1, "answer": "Mínimo una acometida por piso.", "isCorrect": false, "explanation": "El criterio es por usuario, no por piso." },
+      { "id": 2, "answer": "Una por cada fase de la red de baja tensión.", "isCorrect": false, "explanation": "Se refiere al número de acometidas para usuarios, no al número de fases." },
+      { "id": 3, "answer": "Una por usuario, salvo que se justifique lo contrario.", "isCorrect": false, "explanation": "La norma exige una por usuario, pero luego matiza que si hay más usuarios..." },
+      { "id": 4, "answer": "Como mínimo, una para todos los usuarios del edificio.", "isCorrect": true, "explanation": "Salvo que por disposición de la empresa suministradora se requiera para cada usuario una acometida, debe existir como mínimo una acometida para todos los usuarios del edificio[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-24",
+    "type": "simple",
+    "question": "¿Cuándo se permite conectar dos usuarios distintos a una única LGA?",
+    "options": [
+      { "id": 1, "answer": "Cuando ambos usuarios comparten la misma puerta de entrada.", "isCorrect": false, "explanation": "El criterio no es compartido físico, sino técnico/normativo." },
+      { "id": 2, "answer": "Siempre que la LGA tenga capacidad para ambos.", "isCorrect": false, "explanation": "La capacidad es una condición necesaria, pero no suficiente." },
+      { "id": 3, "answer": "Cuando ambos usuarios se encuentren en un único emplazamiento.", "isCorrect": true, "explanation": "Cuando dos usuarios se encuentran en un único emplazamiento, se permite el uso de una única LGA (con sus CGP o CPM correspondientes)[cite: 1]." },
+      { "id": 4, "answer": "Cuando la compañía suministradora lo autorice explícitamente.", "isCorrect": false, "explanation": "Es una condición necesaria, pero la pregunta busca la razón técnica principal recogida en el reglamento." }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-25",
+    "type": "simple",
+    "question": "En caso de varios usuarios, ¿dónde debe ubicarse la LGA?",
+    "options": [
+      { "id": 1, "answer": "En el límite de la propiedad.", "isCorrect": true, "explanation": "La LGA estará situada en el límite de la propiedad o, en su defecto, lo más próximo posible a él[cite: 1]." },
+      { "id": 2, "answer": "En el interior del portal.", "isCorrect": false, "explanation": "El interior del portal puede estar a una gran distancia del límite." },
+      { "id": 3, "answer": "En el subsuelo de la acera.", "isCorrect": false, "explanation": "El subsuelo es una opción para canalizaciones, pero la norma exige ubicación en el límite o próximo." },
+      { "id": 4, "answer": "En la caja de contadores centralizada.", "isCorrect": false, "explanation": "La caja de contadores está al final de la LGA, no en su ubicación general." }
+    ]
+  }
+]

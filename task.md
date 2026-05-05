@@ -31,9 +31,12 @@
 # Configuración del Quiz (UX/UI Premium)
 
 - [x] Implementar Dashboard compacto (Bento Grid) sin scroll
-- [x] Integrar Server Actions para navegación nativa
-- [x] Implementar Renderizado Granular con Suspense y Skeletons
-- [x] Corregir bugs de estado concurrente en el hook de selección
+- [x] Solucionar error 500/404 en Vercel por carga de datos.
+- [x] Implementar arquitectura de manifiesto dinámico (Plug-and-Play).
+- [x] Configurar Husky pre-commit para auto-sincronización de datos.
+- [x] Añadir contenido de ITC-BT-12 (25 preguntas).
+- [x] Corregir regresiones en tests de Store y Proxy.
+- [ ] Merge a rama main y validación final en producción.
 - [x] Asegurar cumplimiento de reglas de ingeniería TS (No any, SOLID)
 
 # Refactorización de Datos (JSON Data)
