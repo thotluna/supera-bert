@@ -57,4 +57,21 @@ export class QuizzesDataSource implements QuizzesRepository {
     if (error) return { data: null, error: new Error(error.message) };
     return { data: QuizzesMapper.toQuiz(data as QuizResponseDto), error: null };
   }
+
+  async getByUserId(userId: string): Promise<DomainResponse<Quiz[]>> {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase
+      .from("quizzes")
+      .select()
+      .eq("user_id", userId)
+      .order("started_at", { ascending: false });
+
+    if (error) return { data: null, error: new Error(error.message) };
+
+    return {
+      data: data.map((row) => QuizzesMapper.toQuiz(row as QuizResponseDto)),
+      error: null,
+    };
+  }
 }

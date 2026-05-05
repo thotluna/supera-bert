@@ -39,24 +39,16 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    const existingFiles = fs.existsSync(JSONDataSource.DATA_PATH)
-      ? fs.readdirSync(JSONDataSource.DATA_PATH).map(f => f.toLowerCase())
-      : [];
+    if (!fs.existsSync(JSONDataSource.DATA_PATH)) return [];
 
-    const topics: TopicOption[] = [];
+    const files = fs.readdirSync(JSONDataSource.DATA_PATH)
+      .filter(f => f.endsWith('.json'))
+      .map(f => f.replace('.json', '').toUpperCase());
 
-    for (let i = 1; i <= 52; i++) {
-      const num = i.toString().padStart(2, '0');
-      const name = `ITC-BT-${num}` as ITCTopic;
-      const fileName = `itc-bt-${num}.json`;
-
-      topics.push({
-        name,
-        available: existingFiles.includes(fileName)
-      });
-    }
-
-    return topics;
+    return files.map(itcName => ({
+      name: itcName as ITCTopic,
+      available: true
+    })).sort((a, b) => a.name.localeCompare(b.name));
   }
 
   private async loadFromFiles(itcs?: ITCTopic[]): Promise<Record<string, Question[]>> {

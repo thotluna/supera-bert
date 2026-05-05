@@ -48,4 +48,34 @@ export class QuizzesDataSource implements QuizzesRepository {
       error: null 
     };
   }
+
+  async getByUserId(userId: string): Promise<DomainResponse<Quiz[]>> {
+    return {
+      data: [
+        {
+          id: "q1",
+          userId,
+          mode: "timed",
+          itcCodes: ["ITC-BT-19"],
+          totalQuestions: 5,
+          startedAt: new Date(Date.now() - 86400000).toISOString(),
+          finishedAt: new Date(Date.now() - 86400000 + 60000).toISOString(),
+          isCompleted: true,
+          totalScore: 8.5
+        },
+        {
+          id: "q2",
+          userId,
+          mode: "timed",
+          itcCodes: ["ITC-BT-19"],
+          totalQuestions: 5,
+          startedAt: new Date().toISOString(),
+          finishedAt: new Date(Date.now() + 60000).toISOString(),
+          isCompleted: true,
+          totalScore: 9.2
+        }
+      ],
+      error: null,
+    };
+  }
 }
