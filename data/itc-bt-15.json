@@ -1,0 +1,552 @@
+[
+  {
+    "id": "ITC-BT-15-01",
+    "type": "simple",
+    "question": "Según la ITC-BT-15, ¿cómo se define la derivación individual?",
+    "options": [
+      { "id": 1, "answer": "La línea que conecta la acometida con la caja general de protección.", "isCorrect": false, "explanation": "Esa definición corresponde a la acometida o red de distribución, no a la derivación individual." },
+      { "id": 2, "answer": "La parte de la instalación que, partiendo de la LGA, suministra energía a un usuario.", "isCorrect": true, "explanation": "El texto indica que es la parte que, partiendo de la línea general de alimentación, suministra energía eléctrica a una instalación de usuario[cite: 1]." },
+      { "id": 3, "answer": "El cableado que va desde el interruptor de potencia hasta los enchufes.", "isCorrect": false, "explanation": "Eso se considera instalación interior o receptora, no derivación individual." },
+      { "id": 4, "answer": "La línea exclusiva para los servicios comunes del edificio.", "isCorrect": false, "explanation": "La derivación individual alimenta instalaciones de usuarios particulares (viviendas o locales), no solo servicios comunes." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-02",
+    "type": "simple",
+    "question": "¿Dónde se inicia y qué elementos comprende la derivación individual?",
+    "options": [
+      { "id": 1, "answer": "Se inicia en la fachada y comprende la caja general de protección.", "isCorrect": false, "explanation": "La caja general de protección es el punto donde finaliza la acometida, previo a la derivación individual." },
+      { "id": 2, "answer": "Se inicia en el cuadro de la vivienda y comprende los circuitos interiores.", "isCorrect": false, "explanation": "El cuadro de la vivienda es el destino final de la derivación, no su punto de inicio." },
+      { "id": 3, "answer": "Inicia en el embarrado general y comprende fusibles, medida y mando y protección.", "isCorrect": true, "explanation": "El reglamento especifica que se inicia en el embarrado general y comprende fusibles de seguridad, medida y dispositivos de mando y protección[cite: 1]." },
+      { "id": 4, "answer": "Se inicia en la red de distribución y comprende la acometida.", "isCorrect": false, "explanation": "La red de distribución y la acometida son tramos previos a las instalaciones de enlace de los usuarios." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-03",
+    "type": "simple",
+    "question": "De los siguientes sistemas, ¿cuál NO está permitido para instalar derivaciones individuales?",
+    "options": [
+      { "id": 1, "answer": "Conductores aislados en canales cuya tapa se abra con la mano sin útiles.", "isCorrect": true, "explanation": "La norma exige que las tapas de las canales protectoras sólo se puedan abrir con la ayuda de un útil[cite: 1]." },
+      { "id": 2, "answer": "Conductores aislados en el interior de tubos empotrados.", "isCorrect": false, "explanation": "Este es un sistema de instalación estándar y permitido para las derivaciones individuales." },
+      { "id": 3, "answer": "Conductores aislados en el interior de tubos enterrados.", "isCorrect": false, "explanation": "Los conductores aislados en tubos enterrados están expresamente permitidos por la normativa." },
+      { "id": 4, "answer": "Canalizaciones eléctricas prefabricadas.", "isCorrect": false, "explanation": "Las canalizaciones eléctricas prefabricadas son un sistema válido y permitido según la instrucción." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-04",
+    "type": "simple",
+    "question": "¿Qué norma UNE deben cumplir las canalizaciones prefabricadas en derivaciones individuales?",
+    "options": [
+      { "id": 1, "answer": "UNE 20.324", "isCorrect": false, "explanation": "Esta norma refiere a los grados de protección (IP) y no a la fabricación de canalizaciones prefabricadas." },
+      { "id": 2, "answer": "UNE-EN 60.439-2", "isCorrect": true, "explanation": "El reglamento estipula que las canalizaciones eléctricas prefabricadas deberán cumplir la norma UNE-EN 60.439-2[cite: 1]." },
+      { "id": 3, "answer": "UNE 21.123", "isCorrect": false, "explanation": "La norma UNE 21.123 aplica a las características de los cables eléctricos, no a la canalización prefabricada." },
+      { "id": 4, "answer": "UNE-EN 50.102", "isCorrect": false, "explanation": "Esta norma regula la protección contra impactos mecánicos (IK), no es la norma de fabricación citada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-05",
+    "type": "simple",
+    "question": "¿Qué conductor debe estar incluido en 'cualquier caso' dentro de las canalizaciones?",
+    "options": [
+      { "id": 1, "answer": "El conductor de protección.", "isCorrect": true, "explanation": "La norma indica expresamente que las canalizaciones incluirán, en cualquier caso, el conductor de protección[cite: 1]." },
+      { "id": 2, "answer": "Un cable de acero fiador.", "isCorrect": false, "explanation": "No se exigen cables fiadores mecánicos para estas canalizaciones de enlace interior." },
+      { "id": 3, "answer": "Un conductor de fibra óptica.", "isCorrect": false, "explanation": "Las infraestructuras de telecomunicaciones no forman parte de la derivación individual eléctrica." },
+      { "id": 4, "answer": "Una fase de reserva.", "isCorrect": false, "explanation": "El reglamento no establece la obligatoriedad de instalar fases de reserva en este tramo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-06",
+    "type": "simple",
+    "question": "Respecto a las derivaciones de distintos usuarios, la norma exige que cada una sea:",
+    "options": [
+      { "id": 1, "answer": "Enlazada entre sí para compartir el neutro.", "isCorrect": false, "explanation": "Compartir el conductor neutro entre distintos usuarios está estrictamente prohibido." },
+      { "id": 2, "answer": "Totalmente independiente de las derivaciones de otros usuarios.", "isCorrect": true, "explanation": "El texto dictamina que cada derivación individual será totalmente independiente de las de otros usuarios[cite: 1]." },
+      { "id": 3, "answer": "Conectada a un mismo dispositivo de mando común.", "isCorrect": false, "explanation": "Cada usuario debe disponer de independencia en sus líneas de alimentación y dispositivos de protección." },
+      { "id": 4, "answer": "Mezclada en la misma tubería sin aislamiento adicional.", "isCorrect": false, "explanation": "Deben mantener independencia total; el uso de tubería compartida requiere condiciones de aislamiento especiales." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-07",
+    "type": "simple",
+    "question": "¿Qué porcentaje de ampliación de sección deben permitir los tubos y canales de la LGA?",
+    "options": [
+      { "id": 1, "answer": "25%", "isCorrect": false, "explanation": "El 25% es un margen de previsión inferior al mínimo exigido por la normativa." },
+      { "id": 2, "answer": "50%", "isCorrect": false, "explanation": "El 50% de capacidad de reserva no cumple con el requerimiento de la instrucción técnica." },
+      { "id": 3, "answer": "100%", "isCorrect": true, "explanation": "La norma exige una sección nominal que permita ampliar la sección de los conductores inicialmente instalados en un 100%[cite: 1]." },
+      { "id": 4, "answer": "200%", "isCorrect": false, "explanation": "Aunque es un margen superior y válido, el porcentaje legal mínimo establecido es del 100%." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-08",
+    "type": "simple",
+    "question": "¿Cuál es el diámetro exterior nominal mínimo de los tubos en derivaciones individuales?",
+    "options": [
+      { "id": 1, "answer": "16 mm", "isCorrect": false, "explanation": "Diámetro insuficiente para permitir la reserva de ampliación exigida para derivaciones." },
+      { "id": 2, "answer": "20 mm", "isCorrect": false, "explanation": "Este diámetro no alcanza el umbral mínimo de seguridad y capacidad de la instrucción." },
+      { "id": 3, "answer": "25 mm", "isCorrect": false, "explanation": "Valor inferior al límite legal establecido para este tramo de la instalación de enlace." },
+      { "id": 4, "answer": "32 mm", "isCorrect": true, "explanation": "La instrucción establece que los diámetros exteriores nominales mínimos de los tubos serán de 32 mm[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-09",
+    "type": "simple",
+    "question": "Al agrupar derivaciones en un canal protector, ¿cómo deben tenderse los cables?",
+    "options": [
+      { "id": 1, "answer": "Mediante cables sin cubierta, mezclando las fases.", "isCorrect": false, "explanation": "El uso de cables sin cubierta en el interior de una misma canal compromete la separación eléctrica." },
+      { "id": 2, "answer": "Mediante cable con cubierta, asegurando la separación necesaria.", "isCorrect": true, "explanation": "Se permite el tendido en canal protector mediante cable con cubierta para asegurar la separación entre derivaciones[cite: 1]." },
+      { "id": 3, "answer": "Compartiendo un mismo tubo interior de 32 mm.", "isCorrect": false, "explanation": "Cada derivación requiere su propia separación física; no pueden agruparse dentro de un mismo tubo mínimo." },
+      { "id": 4, "answer": "Está totalmente prohibido agrupar derivaciones en un canal.", "isCorrect": false, "explanation": "La norma permite esta agrupación siempre que se utilicen cables con cubierta y se garantice la separación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-10",
+    "type": "simple",
+    "question": "¿Cuál es la ratio exigida de tubos de reserva hasta las viviendas o locales?",
+    "options": [
+      { "id": 1, "answer": "Un tubo de reserva por cada vivienda.", "isCorrect": false, "explanation": "Esta proporción sobredimensionaría innecesariamente la infraestructura común del edificio." },
+      { "id": 2, "answer": "Un tubo de reserva por cada cinco derivaciones.", "isCorrect": false, "explanation": "Esta ratio no coincide con la proporción mínima establecida reglamentariamente." },
+      { "id": 3, "answer": "Un tubo de reserva por cada diez derivaciones o fracción.", "isCorrect": true, "explanation": "Se dispondrá de un tubo de reserva por cada diez derivaciones individuales o fracción para posibles ampliaciones[cite: 1]." },
+      { "id": 4, "answer": "No se exigen tubos de reserva.", "isCorrect": false, "explanation": "La instalación de tubos de reserva es obligatoria para garantizar la escalabilidad de la red." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-11",
+    "type": "simple",
+    "question": "En locales sin partición definida, ¿cuántos tubos se instalarán como mínimo?",
+    "options": [
+      { "id": 1, "answer": "Un tubo por cada 25 m2.", "isCorrect": false, "explanation": "Es una densidad de canalización superior al requerimiento mínimo exigido." },
+      { "id": 2, "answer": "Un tubo por cada 50 m2 de superficie.", "isCorrect": true, "explanation": "En locales donde no esté definida su partición, se instalará como mínimo un tubo por cada 50 m2[cite: 1]." },
+      { "id": 3, "answer": "Un tubo por cada 100 m2.", "isCorrect": false, "explanation": "Supondría una cantidad de tubos inferior a la requerida normativamente para la previsión de cargas." },
+      { "id": 4, "answer": "Depende de la altura del local exclusivamente.", "isCorrect": false, "explanation": "El parámetro técnico a considerar para la previsión es la superficie en m2, no la altura." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-12",
+    "type": "simple",
+    "question": "¿Cómo deben ejecutarse las uniones de los tubos rígidos de la derivación?",
+    "options": [
+      { "id": 1, "answer": "Pegadas con silicona.", "isCorrect": false, "explanation": "La silicona no es un método de unión mecánica aceptado por la normativa técnica." },
+      { "id": 2, "answer": "Abiertas para permitir ventilación.", "isCorrect": false, "explanation": "Los tubos deben estar sólidamente unidos para garantizar la protección mecánica continua." },
+      { "id": 3, "answer": "Roscadas o embutidas, de modo que no se separen los extremos.", "isCorrect": true, "explanation": "Las uniones de los tubos rígidos serán roscadas o embutidas de manera que no puedan separarse[cite: 1]." },
+      { "id": 4, "answer": "Atadas con abrazaderas plásticas.", "isCorrect": false, "explanation": "Las abrazaderas exteriores no garantizan la integridad de una unión roscada o embutida interna." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-13",
+    "type": "simple",
+    "question": "¿Por dónde deben discurrir preferentemente las derivaciones individuales?",
+    "options": [
+      { "id": 1, "answer": "Por el interior de otras viviendas privadas.", "isCorrect": false, "explanation": "Invadir recintos privados ajenos generaría conflictos de acceso y servidumbre innecesarios." },
+      { "id": 2, "answer": "Por las fachadas exteriores del edificio.", "isCorrect": false, "explanation": "Las derivaciones deben discurrir desde los contadores hacia el interior, no por el exterior." },
+      { "id": 3, "answer": "Por lugares de uso común o con servidumbres determinadas.", "isCorrect": true, "explanation": "Las derivaciones deberán discurrir por lugares de uso común o quedar determinadas sus servidumbres[cite: 1]." },
+      { "id": 4, "answer": "Por el interior de las chimeneas de ventilación.", "isCorrect": false, "explanation": "El uso de chimeneas o conductos de ventilación está prohibido por seguridad contra incendios." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-14",
+    "type": "simple",
+    "question": "¿Qué RF mínima deben tener las paredes de la canaladura vertical de obra?",
+    "options": [
+      { "id": 1, "answer": "RF 30", "isCorrect": false, "explanation": "RF 30 es el valor mínimo para las tapas de registro, no para las paredes estructurales." },
+      { "id": 2, "answer": "RF 60", "isCorrect": false, "explanation": "Grado de resistencia al fuego insuficiente para el conducto de obra vertical." },
+      { "id": 3, "answer": "RF 90", "isCorrect": false, "explanation": "No alcanza el nivel de protección estructural mínima exigido por el reglamento." },
+      { "id": 4, "answer": "RF 120", "isCorrect": true, "explanation": "El conducto de obra de fábrica donde se alojan las derivaciones debe tener paredes de RF 120[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-15",
+    "type": "simple",
+    "question": "¿Cuándo NO se permite que la LGA vaya adosada al hueco de escalera?",
+    "options": [
+      { "id": 1, "answer": "Cuando el edificio tenga más de 10 plantas.", "isCorrect": false, "explanation": "La altura total del inmueble no es el factor limitante para esta disposición." },
+      { "id": 2, "answer": "Cuando sean recintos protegidos conforme a la NBE-CPI-96.", "isCorrect": true, "explanation": "No podrá ir empotrado o adosado a la escalera cuando sean recintos protegidos según la NBE-CPI-96[cite: 1]." },
+      { "id": 3, "answer": "Cuando la canaladura tenga tapas metálicas.", "isCorrect": false, "explanation": "Las tapas de registro son un requerimiento obligatorio independientemente del emplazamiento." },
+      { "id": 4, "answer": "Cuando la escalera sea exterior.", "isCorrect": false, "explanation": "La normativa no especifica una prohibición basada únicamente en la ubicación exterior de la escalera." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-16",
+    "type": "simple",
+    "question": "¿Cada cuánto se deben disponer elementos cortafuegos en el conducto vertical?",
+    "options": [
+      { "id": 1, "answer": "En cada planta del edificio.", "isCorrect": false, "explanation": "Aunque es una práctica segura, el reglamento permite una frecuencia menor como mínimo." },
+      { "id": 2, "answer": "Como mínimo cada tres plantas.", "isCorrect": true, "explanation": "Para evitar la propagación de llamas se dispondrán cortafuegos como mínimo cada tres plantas[cite: 1]." },
+      { "id": 3, "answer": "Como mínimo cada cinco plantas.", "isCorrect": false, "explanation": "Exceder las tres plantas sin cortafuegos incumple las medidas de seguridad contra incendios." },
+      { "id": 4, "answer": "Únicamente en la planta baja y la última.", "isCorrect": false, "explanation": "Dejaría un hueco vertical excesivo que favorecería el efecto chimenea en caso de incendio." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-17",
+    "type": "simple",
+    "question": "¿Qué RF mínima exige la normativa para las tapas de registro del conducto?",
+    "options": [
+      { "id": 1, "answer": "RF 15", "isCorrect": false, "explanation": "Resistencia al fuego insuficiente para garantizar la sectorización en caso de incendio." },
+      { "id": 2, "answer": "RF 30", "isCorrect": true, "explanation": "Las tapas de registro del conducto de derivaciones deberán tener una resistencia mínima RF 30[cite: 1]." },
+      { "id": 3, "answer": "RF 60", "isCorrect": false, "explanation": "Aunque es un valor más seguro, el requerimiento mínimo normativo es de 30." },
+      { "id": 4, "answer": "RF 120", "isCorrect": false, "explanation": "Este valor es el exigido para las paredes de obra del conducto, no para las tapas de registro." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-18",
+    "type": "simple",
+    "question": "Para canaladura de una fila (P=0,15 m) y hasta 12 derivaciones, la anchura L es:",
+    "options": [
+      { "id": 1, "answer": "0,50 m", "isCorrect": false, "explanation": "Esta es la anchura requerida cuando la canaladura se dispone en dos filas, no en una." },
+      { "id": 2, "answer": "0,65 m", "isCorrect": true, "explanation": "La Tabla 1 indica que para hasta 12 derivaciones en una sola fila, la anchura L será de 0,65 m[cite: 1]." },
+      { "id": 3, "answer": "1,25 m", "isCorrect": false, "explanation": "Esta anchura corresponde a una canaladura de una sola fila que albergue entre 13 y 24 derivaciones." },
+      { "id": 4, "answer": "1,85 m", "isCorrect": false, "explanation": "Esta anchura corresponde a una canaladura de una sola fila que albergue entre 25 y 36 derivaciones." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-19",
+    "type": "simple",
+    "question": "Anchura L para 40 derivaciones en dos filas (P=0,30 m) según Tabla 1:",
+    "options": [
+      { "id": 1, "answer": "0,65 m", "isCorrect": false, "explanation": "Anchura correspondiente al tramo de 13 a 24 derivaciones dispuestas en dos filas." },
+      { "id": 2, "answer": "0,95 m", "isCorrect": false, "explanation": "Anchura correspondiente al tramo de 25 a 36 derivaciones dispuestas en dos filas." },
+      { "id": 3, "answer": "1,35 m", "isCorrect": true, "explanation": "Para el tramo de 37 a 48 derivaciones en dos filas (P=0,30 m), la anchura L es de 1,35 m[cite: 1]." },
+      { "id": 4, "answer": "2,45 m", "isCorrect": false, "explanation": "Esta es la anchura requerida para ese número de derivaciones si se instalan en una sola fila." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-20",
+    "type": "simple",
+    "question": "Si un edificio requiere 60 derivaciones individuales, ¿qué indica la norma?",
+    "options": [
+      { "id": 1, "answer": "Se debe duplicar la profundidad a P = 0,60 m.", "isCorrect": false, "explanation": "La norma no contempla el aumento de profundidad para crear un único conducto masivo." },
+      { "id": 2, "answer": "Se dispondrá el número de conductos o canaladuras necesario.", "isCorrect": true, "explanation": "El reglamento establece que para más derivaciones se instalarán los conductos adicionales necesarios[cite: 1]." },
+      { "id": 3, "answer": "Se utilizará una única canaladura de 3,50 m de ancho.", "isCorrect": false, "explanation": "La solución normativa prioriza la creación de múltiples conductos manejables." },
+      { "id": 4, "answer": "Se instalarán sin canaladura por el patinillo.", "isCorrect": false, "explanation": "La protección mediante canaladura de obra sigue siendo obligatoria para este tipo de instalaciones." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-21",
+    "type": "simple",
+    "question": "¿A qué altura mínima sobre el suelo deben estar las tapas de registro?",
+    "options": [
+      { "id": 1, "answer": "A 0,10 m", "isCorrect": false, "explanation": "Esta altura está demasiado cerca del suelo y dificultaría el acceso técnico." },
+      { "id": 2, "answer": "A 0,30 m", "isCorrect": true, "explanation": "La altura mínima sobre el nivel del suelo de las tapas de registro será de 0,30 m[cite: 1]." },
+      { "id": 3, "answer": "A 0,50 m", "isCorrect": false, "explanation": "Este valor excede el requerimiento mínimo legal marcado por el reglamento." },
+      { "id": 4, "answer": "A 1,00 m", "isCorrect": false, "explanation": "No es la cota mínima especificada en las instrucciones técnicas de enlace." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-22",
+    "type": "simple",
+    "question": "¿A qué distancia mínima del techo debe quedar la parte superior de la tapa?",
+    "options": [
+      { "id": 1, "answer": "A 0,10 m", "isCorrect": false, "explanation": "Dejaría un espacio insuficiente para la correcta maniobra de los cables en el registro." },
+      { "id": 2, "answer": "A 0,20 m", "isCorrect": true, "explanation": "La parte superior de la tapa quedará instalada, como mínimo, a 0,20 m del techo[cite: 1]." },
+      { "id": 3, "answer": "A 0,40 m", "isCorrect": false, "explanation": "Este valor excede innecesariamente el requisito mínimo de instalación." },
+      { "id": 4, "answer": "A 0,50 m", "isCorrect": false, "explanation": "Reduciría el tamaño útil disponible para la tapa de registro sin beneficio normativo." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-23",
+    "type": "simple",
+    "question": "¿Cada cuántos metros se pueden colocar cajas de registro comunes?",
+    "options": [
+      { "id": 1, "answer": "Cada 5 m", "isCorrect": false, "explanation": "Sería una densidad excesiva de cajas según el margen de flexibilidad de la norma." },
+      { "id": 2, "answer": "Cada 10 m", "isCorrect": false, "explanation": "Valor que no coincide con la distancia máxima permitida por el reglamento." },
+      { "id": 3, "answer": "Cada 15 m", "isCorrect": true, "explanation": "Cada 15 m se podrán colocar cajas de registro precintables comunes a todos los tubos[cite: 1]." },
+      { "id": 4, "answer": "Cada 25 m", "isCorrect": false, "explanation": "Una distancia tan amplia dificultaría el tendido de los cables a través de los conductos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-24",
+    "type": "simple",
+    "question": "En cajas de registro comunes cada 15 m, ¿se permiten empalmes?",
+    "options": [
+      { "id": 1, "answer": "Sí, si se encintan correctamente.", "isCorrect": false, "explanation": "La prohibición de realizar empalmes en el tramo de la derivación es absoluta." },
+      { "id": 2, "answer": "Sí, mediante regletas ignífugas.", "isCorrect": false, "explanation": "El uso de regletas no anula la prohibición de empalmar el cable principal de enlace." },
+      { "id": 3, "answer": "No, en dichas cajas no se realizarán empalmes de conductores.", "isCorrect": true, "explanation": "El texto especifica que en dichas cajas no se realizarán empalmes de conductores[cite: 1]." },
+      { "id": 4, "answer": "Solo para el conductor de protección.", "isCorrect": false, "explanation": "La prohibición de empalmes aplica por igual a todos los conductores de la línea." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-25",
+    "type": "simple",
+    "question": "¿Qué grado de inflamabilidad deben cumplir las cajas de registro aislantes?",
+    "options": [
+      { "id": 1, "answer": "V-0", "isCorrect": false, "explanation": "Aunque es un grado más estricto, no es el valor específico requerido por esta ITC." },
+      { "id": 2, "answer": "V-1", "isCorrect": true, "explanation": "Las cajas serán de material aislante, no propagadoras y de grado de inflamabilidad V-1[cite: 1]." },
+      { "id": 3, "answer": "V-2", "isCorrect": false, "explanation": "El grado V-2 permite el goteo de partículas inflamadas, lo que no cumple con el nivel de seguridad exigido." },
+      { "id": 4, "answer": "HB", "isCorrect": false, "explanation": "Este grado corresponde a combustión horizontal lenta, insuficiente para esta aplicación eléctrica." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-26",
+    "type": "simple",
+    "question": "Si la derivación va por tubos enterrados, ¿qué ITC regula su instalación?",
+    "options": [
+      { "id": 1, "answer": "ITC-BT-06", "isCorrect": false, "explanation": "La ITC-BT-06 está dedicada a las redes de distribución aéreas." },
+      { "id": 2, "answer": "ITC-BT-07", "isCorrect": true, "explanation": "Para cables en tubos enterrados, la derivación cumplirá lo indicado en la ITC-BT-07[cite: 1]." },
+      { "id": 3, "answer": "ITC-BT-09", "isCorrect": false, "explanation": "La ITC-BT-09 regula exclusivamente las instalaciones de alumbrado exterior." },
+      { "id": 4, "answer": "ITC-BT-14", "isCorrect": false, "explanation": "La ITC-BT-14 regula el tramo previo de las líneas generales de alimentación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-27",
+    "type": "simple",
+    "question": "¿Qué conductores componen obligatoriamente una derivación individual?",
+    "options": [
+      { "id": 1, "answer": "Sólo un cable coaxial.", "isCorrect": false, "explanation": "El cable coaxial es para telecomunicaciones, no para el suministro de energía de enlace." },
+      { "id": 2, "answer": "Los de fase y neutro sin protección.", "isCorrect": false, "explanation": "La inclusión del conductor de protección es obligatoria para la seguridad del usuario." },
+      { "id": 3, "answer": "Fases, neutro, conductor de protección e hilo de mando.", "isCorrect": true, "explanation": "Cada línea llevará sus fases, neutro, conductor de protección e hilo de mando[cite: 1]." },
+      { "id": 4, "answer": "Tres fases exclusivamente.", "isCorrect": false, "explanation": "Faltarían los conductores de neutro y tierra indispensables para un servicio seguro." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-28",
+    "type": "simple",
+    "question": "¿Qué función tiene el 'hilo de mando' incluido en la derivación individual?",
+    "options": [
+      { "id": 1, "answer": "Activar la alarma de incendios.", "isCorrect": false, "explanation": "Los sistemas de detección de incendios cuentan con su propio cableado independiente." },
+      { "id": 2, "answer": "Enviar la señal del telefonillo.", "isCorrect": false, "explanation": "La intercomunicación no forma parte del tendido de potencia de la derivación." },
+      { "id": 3, "answer": "Posibilitar la aplicación de diferentes tarifas.", "isCorrect": true, "explanation": "Se incluye para posibilitar la aplicación de diferentes tarifas según el consumo[cite: 1]." },
+      { "id": 4, "answer": "Proteger contra sobretensiones.", "isCorrect": false, "explanation": "Esa función de seguridad la realizan los protectores modulares del cuadro interior." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-29",
+    "type": "simple",
+    "question": "¿Se permite usar un neutro o protección común para distintos suministros?",
+    "options": [
+      { "id": 1, "answer": "Sí, para ahorrar cable en el edificio.", "isCorrect": false, "explanation": "Comprometería gravemente la seguridad y el equilibrio de la instalación comunitaria." },
+      { "id": 2, "answer": "Sí, si comparten el mismo tubo.", "isCorrect": false, "explanation": "El uso de una canalización común no justifica el uso compartido de conductores activos." },
+      { "id": 3, "answer": "No se admitirá el empleo de conductor neutro ni de protección común.", "isCorrect": true, "explanation": "No se admitirá el empleo de conductor neutro común ni de protección común para distintos suministros[cite: 1]." },
+      { "id": 4, "answer": "Solo está permitido para el de protección.", "isCorrect": false, "explanation": "La prohibición de uso compartido aplica también al conductor de protección (tierra)." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-30",
+    "type": "simple",
+    "question": "Si un usuario solicita suministro monofásico, ¿está la empresa obligada?",
+    "options": [
+      { "id": 1, "answer": "No, las derivaciones deben ser trifásicas.", "isCorrect": false, "explanation": "El reglamento ampara el derecho al suministro monofásico para instalaciones domésticas." },
+      { "id": 2, "answer": "Sí, se tendrá en cuenta la potencia que en monofásico está obligada.", "isCorrect": true, "explanation": "Se tendrá en cuenta la potencia que en monofásico está obligada a suministrar la empresa si el usuario lo desea[cite: 1]." },
+      { "id": 3, "answer": "Solo si paga un recargo adicional.", "isCorrect": false, "explanation": "No se contemplan recargos reglamentarios por la elección de un suministro monofásico estándar." },
+      { "id": 4, "answer": "No, el suministro estándar es corriente continua.", "isCorrect": false, "explanation": "La red de distribución eléctrica nacional opera en corriente alterna." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-31",
+    "type": "simple",
+    "question": "¿En qué puntos se permiten conexiones o empalmes en la derivación?",
+    "options": [
+      { "id": 1, "answer": "En cualquier caja de registro.", "isCorrect": false, "explanation": "La instrucción prohíbe explícitamente realizar empalmes en las cajas de registro intermedio." },
+      { "id": 2, "answer": "En el cuarto de contadores y caja de escalera.", "isCorrect": false, "explanation": "En las cajas de registro de la escalera no se permiten dispositivos de conexión del enlace." },
+      { "id": 3, "answer": "En la ubicación de contadores y en dispositivos de protección.", "isCorrect": true, "explanation": "Se exceptúan de la prohibición de empalmes las conexiones en contadores y dispositivos de protección[cite: 1]." },
+      { "id": 4, "answer": "Nunca están permitidos bajo ningún concepto.", "isCorrect": false, "explanation": "Es técnicamente necesario conectar el cable a los bornes del contador y del interruptor general." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-32",
+    "type": "simple",
+    "question": "¿Qué materiales conductores están permitidos para las derivaciones?",
+    "options": [
+      { "id": 1, "answer": "Exclusivamente cobre.", "isCorrect": false, "explanation": "La normativa vigente también permite el empleo de aluminio para este fin." },
+      { "id": 2, "answer": "Cobre o aluminio.", "isCorrect": true, "explanation": "Los conductores a utilizar para las derivaciones individuales serán de cobre o aluminio[cite: 1]." },
+      { "id": 3, "answer": "Cobre, aluminio o acero galvanizado.", "isCorrect": false, "explanation": "El acero galvanizado no está permitido como material para conductores activos de enlace." },
+      { "id": 4, "answer": "Exclusivamente aluminio.", "isCorrect": false, "explanation": "El cobre es un material permitido y el más frecuentemente utilizado en interiores." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-33",
+    "type": "simple",
+    "question": "¿Qué formato físico tienen habitualmente los cables de derivación?",
+    "options": [
+      { "id": 1, "answer": "Mangueras apantalladas obligatoriamente.", "isCorrect": false, "explanation": "No se requiere protección contra interferencias para derivaciones individuales estándar." },
+      { "id": 2, "answer": "Conductores desnudos en todo su recorrido.", "isCorrect": false, "explanation": "El uso de conductores desnudos está prohibido en las instalaciones de enlace." },
+      { "id": 3, "answer": "Aislados y normalmente unipolares.", "isCorrect": true, "explanation": "La norma señala que los conductores serán aislados y normalmente de tipo unipolar[cite: 1]." },
+      { "id": 4, "answer": "Conductores trenzados con cubierta de plomo.", "isCorrect": false, "explanation": "El revestimiento de plomo es una tecnología obsoleta no contemplada como estándar actual." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-34",
+    "type": "simple",
+    "question": "¿Cuál es la tensión asignada de los cables unipolares estándar?",
+    "options": [
+      { "id": 1, "answer": "300/500 V", "isCorrect": false, "explanation": "Este nivel de aislamiento es insuficiente para derivaciones, usándose en mangueras de control menores." },
+      { "id": 2, "answer": "450/750 V", "isCorrect": true, "explanation": "Para conductores aislados normalmente unipolares su tensión asignada será de 450/750 V[cite: 1]." },
+      { "id": 3, "answer": "0,6/1 kV", "isCorrect": false, "explanation": "Este aislamiento se exige para cables multiconductores o enterrados, no para el caso general unipolar." },
+      { "id": 4, "answer": "12/20 kV", "isCorrect": false, "explanation": "Este nivel de tensión corresponde a redes de transporte o distribución en media tensión." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-35",
+    "type": "simple",
+    "question": "¿Qué tensión se exige para cables multiconductores o enterrados?",
+    "options": [
+      { "id": 1, "answer": "300/500 V", "isCorrect": false, "explanation": "Nivel de aislamiento insuficiente para soportar las condiciones de una instalación subterránea." },
+      { "id": 2, "answer": "450/750 V", "isCorrect": false, "explanation": "Este valor se limita a conductores unipolares en montajes de conducto o superficie." },
+      { "id": 3, "answer": "0,6/1 kV", "isCorrect": true, "explanation": "Para cables multiconductores o enterrados la tensión asignada será de 0,6/1 kV[cite: 1]." },
+      { "id": 4, "answer": "3 kV", "isCorrect": false, "explanation": "Representa un nivel de aislamiento superior al requerido reglamentariamente en baja tensión." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-36",
+    "type": "simple",
+    "question": "¿Qué ITC dicta el código de colores para identificar los cables?",
+    "options": [
+      { "id": 1, "answer": "ITC-BT-09", "isCorrect": false, "explanation": "La ITC-BT-09 está dedicada a la regulación de instalaciones de alumbrado exterior." },
+      { "id": 2, "answer": "ITC-BT-14", "isCorrect": false, "explanation": "La ITC-BT-14 regula el tramo de las líneas generales de alimentación." },
+      { "id": 3, "answer": "ITC-BT-19", "isCorrect": true, "explanation": "Se seguirá el código de colores indicado en la ITC-BT-19 para la identificación de conductores[cite: 1]." },
+      { "id": 4, "answer": "ITC-BT-21", "isCorrect": false, "explanation": "La ITC-BT-21 regula las características de tubos y canales protectoras." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-37",
+    "type": "simple",
+    "question": "Frente al fuego, ¿qué características deben tener los cables?",
+    "options": [
+      { "id": 1, "answer": "Resistentes al fuego 120 minutos.", "isCorrect": false, "explanation": "No se exige la propiedad RF (resistencia) para el cable de derivación de uso general." },
+      { "id": 2, "answer": "Intumescentes con propagación controlada.", "isCorrect": false, "explanation": "La intumescencia se aplica a sellos pasamuros, no al comportamiento del conductor." },
+      { "id": 3, "answer": "No propagadores, baja emisión de humos y opacidad reducida.", "isCorrect": true, "explanation": "Deben ser no propagadores del incendio y con emisión de humos y opacidad reducida[cite: 1]." },
+      { "id": 4, "answer": "Altamente opacos.", "isCorrect": false, "explanation": "Se exige 'opacidad reducida' para facilitar la visibilidad y evacuación durante un incendio." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-38",
+    "type": "simple",
+    "question": "¿Qué normas UNE determinan el cumplimiento de alta seguridad?",
+    "options": [
+      { "id": 1, "answer": "UNE 20.324", "isCorrect": false, "explanation": "Esta norma define los grados de protección IP frente a sólidos y líquidos." },
+      { "id": 2, "answer": "UNE 21.123 parte 4 ó 5, o UNE 211002.", "isCorrect": true, "explanation": "Cables bajo norma UNE 21.123 parte 4 ó 5, o UNE 211002 cumplen esta prescripción[cite: 1]." },
+      { "id": 3, "answer": "UNE-EN 50.102", "isCorrect": false, "explanation": "Esta norma refiere a la resistencia de las envolventes frente a impactos mecánicos (IK)." },
+      { "id": 4, "answer": "UNE 60.598", "isCorrect": false, "explanation": "Esta norma no pertenece a la clasificación de conductores de enlace de esta ITC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-39",
+    "type": "simple",
+    "question": "¿Qué característica deben cumplir las canales plásticas de conducción?",
+    "options": [
+      { "id": 1, "answer": "Ser fluorescentes.", "isCorrect": false, "explanation": "La fluorescencia no aporta propiedades de seguridad pasiva contra incendios." },
+      { "id": 2, "answer": "Clasificados como 'no propagadores de la llama'.", "isCorrect": true, "explanation": "Los elementos de conducción deben ser clasificados como 'no propagadores de la llama'[cite: 1]." },
+      { "id": 3, "answer": "Resistir inmersión continuada (IP68).", "isCorrect": false, "explanation": "La norma prioriza la protección ignífuga frente a la estanqueidad subacuática para estos canales." },
+      { "id": 4, "answer": "No requieren comportamiento ignífugo.", "isCorrect": false, "explanation": "Si el conducto propaga el fuego, anula la ventaja de utilizar cables libres de halógenos." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-40",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima obligatoria para los cables de la derivación?",
+    "options": [
+      { "id": 1, "answer": "2,5 mm2", "isCorrect": false, "explanation": "Sección mínima para circuitos interiores de fuerza, insuficiente para la derivación principal." },
+      { "id": 2, "answer": "4 mm2", "isCorrect": false, "explanation": "Corresponde a normativas antiguas; actualmente es insuficiente para el enlace principal." },
+      { "id": 3, "answer": "6 mm2", "isCorrect": true, "explanation": "La sección mínima será de 6 mm2 para los cables polares, neutro y de protección[cite: 1]." },
+      { "id": 4, "answer": "10 mm2", "isCorrect": false, "explanation": "Aunque es una sección más segura, el mínimo legal reglamentario se fija en 6 mm2." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-41",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima y el color del 'hilo de mando'?",
+    "options": [
+      { "id": 1, "answer": "1,5 mm2 y será de color rojo.", "isCorrect": true, "explanation": "La norma indica una sección de 1,5 mm2 para el hilo de mando y que será de color rojo[cite: 1]." },
+      { "id": 2, "answer": "2,5 mm2 y será de color azul.", "isCorrect": false, "explanation": "La sección y el código de color no se ajustan a las exigencias del reglamento para este hilo." },
+      { "id": 3, "answer": "6 mm2 y será de color negro.", "isCorrect": false, "explanation": "Sección excesiva para un hilo destinado únicamente a funciones de señalización tarifaria." },
+      { "id": 4, "answer": "1,5 mm2 y será verde-amarillo.", "isCorrect": false, "explanation": "El color verde-amarillo está reservado exclusivamente para el conductor de protección." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-42",
+    "type": "simple",
+    "question": "¿Qué ITC fija la demanda mínima para calcular la sección térmica?",
+    "options": [
+      { "id": 1, "answer": "ITC-BT-07", "isCorrect": false, "explanation": "Esta instrucción regula las redes subterráneas, no la previsión de cargas interiores." },
+      { "id": 2, "answer": "ITC-BT-09", "isCorrect": false, "explanation": "Esta instrucción está dedicada exclusivamente a las instalaciones de alumbrado exterior." },
+      { "id": 3, "answer": "ITC-BT-10", "isCorrect": true, "explanation": "La demanda prevista será como mínimo la fijada por la ITC-BT-10[cite: 1]." },
+      { "id": 4, "answer": "ITC-BT-21", "isCorrect": false, "explanation": "Esta instrucción técnica regula el diseño e instalación de los tubos protectores." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-43",
+    "type": "simple",
+    "question": "La intensidad de la derivación quedará controlada físicamente por:",
+    "options": [
+      { "id": 1, "answer": "Los fusibles de la centralización.", "isCorrect": false, "explanation": "Estos protegen contra cortocircuitos graves, no limitan la demanda fina del contrato." },
+      { "id": 2, "answer": "Los dispositivos privados de mando y protección.", "isCorrect": true, "explanation": "La intensidad estará controlada por los dispositivos privados de mando y protección[cite: 1]." },
+      { "id": 3, "answer": "El transformador de distribución.", "isCorrect": false, "explanation": "El transformador de red no realiza la función de regular el consumo individual del usuario." },
+      { "id": 4, "answer": "El propio medidor digital.", "isCorrect": false, "explanation": "Aunque incluya relé, reglamentariamente el control recae en el diseño del cuadro privado." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-44",
+    "type": "simple",
+    "question": "¿Qué ITC rige las intensidades admisibles según el montaje?",
+    "options": [
+      { "id": 1, "answer": "ITC-BT-09", "isCorrect": false, "explanation": "Instrucción técnica dedicada a las instalaciones de alumbrado exterior." },
+      { "id": 2, "answer": "ITC-BT-12", "isCorrect": false, "explanation": "Referente a la teoría de esquemas de enlace y no a la capacidad térmica de conductores." },
+      { "id": 3, "answer": "ITC-BT-14", "isCorrect": false, "explanation": "Esta instrucción regula específicamente las líneas generales de alimentación." },
+      { "id": 4, "answer": "ITC-BT-19", "isCorrect": true, "explanation": "A efectos de intensidades admisibles se tendrá en cuenta lo indicado en la ITC-BT-19[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-45",
+    "type": "simple",
+    "question": "Caída de tensión máxima para contadores 'totalmente concentrados':",
+    "options": [
+      { "id": 1, "answer": "0,5%", "isCorrect": false, "explanation": "Este valor aplica a las líneas generales de alimentación en este escenario de centralización." },
+      { "id": 2, "answer": "1,0%", "isCorrect": true, "explanation": "Para el caso de contadores totalmente concentrados, la caída permitida es del 1%[cite: 1]." },
+      { "id": 3, "answer": "1,5%", "isCorrect": false, "explanation": "Este es el límite aplicable al escenario de suministros para un único usuario." },
+      { "id": 4, "answer": "3,0%", "isCorrect": false, "explanation": "Este valor superaría el límite de eficiencia energética permitido por la ITC-15 para el enlace." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-46",
+    "type": "simple",
+    "question": "Caída máxima para contadores concentrados en más de un lugar:",
+    "options": [
+      { "id": 1, "answer": "0,5%", "isCorrect": true, "explanation": "En el caso de contadores concentrados en más de un lugar, el límite es del 0,5%[cite: 1]." },
+      { "id": 2, "answer": "1,0%", "isCorrect": false, "explanation": "Límite establecido para cuando la centralización de contadores es única y total." },
+      { "id": 3, "answer": "1,5%", "isCorrect": false, "explanation": "Valor que excede los límites reglamentarios estipulados para este tipo de trazado." },
+      { "id": 4, "answer": "2,0%", "isCorrect": false, "explanation": "Incumple el límite de caída de tensión exigido por la normativa para derivaciones cortas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-47",
+    "type": "simple",
+    "question": "¿Caída de tensión máxima para usuario único sin LGA?",
+    "options": [
+      { "id": 1, "answer": "0,5%", "isCorrect": false, "explanation": "No se aplica esta restricción tan severa al no acumular caídas de tramos previos." },
+      { "id": 2, "answer": "1,0%", "isCorrect": false, "explanation": "Valor reglamentado para los sistemas con contadores centralizados en un punto." },
+      { "id": 3, "answer": "1,5%", "isCorrect": true, "explanation": "Para un único usuario en que no existe LGA, se permite una caída del 1,5%[cite: 1]." },
+      { "id": 4, "answer": "3,0%", "isCorrect": false, "explanation": "Límite para circuitos interiores finales, excesivamente alto para el tramo de enlace." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-48",
+    "type": "simple",
+    "question": "¿Por qué motivo se disponen tubos de reserva en las canalizaciones?",
+    "options": [
+      { "id": 1, "answer": "Para usarlos como chimenea de ventilación.", "isCorrect": false, "explanation": "Los conductos eléctricos no pueden compartirse con sistemas de evacuación de aire." },
+      { "id": 2, "answer": "Para drenar agua en caso de inundación.", "isCorrect": false, "explanation": "El diseño de la red eléctrica no contempla funciones de fontanería o saneamiento." },
+      { "id": 3, "answer": "Para poder atender fácilmente posibles ampliaciones futuras.", "isCorrect": true, "explanation": "Se dispondrán desde los contadores hasta los locales para atender fácilmente ampliaciones[cite: 1]." },
+      { "id": 4, "answer": "Para reducir el peso estructural del edificio.", "isCorrect": false, "explanation": "La reducción de carga estructural no es la función técnica de los conductos de reserva." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-49",
+    "type": "simple",
+    "question": "¿Qué directriz cumplen derivaciones enterradas en exteriores?",
+    "options": [
+      { "id": 1, "answer": "Lo dispuesto en la NBE-CPI-96.", "isCorrect": false, "explanation": "Se trata de la normativa de protección contra incendios en la edificación." },
+      { "id": 2, "answer": "Lo indicado exclusivamente en la ITC-BT-19.", "isCorrect": false, "explanation": "Aunque es la norma general, los conductos enterrados disponen de una regulación específica." },
+      { "id": 3, "answer": "Lo dispuesto en la ITC-BT-07.", "isCorrect": true, "explanation": "Para cables aislados en el interior de tubos enterrados se aplicará la ITC-BT-07[cite: 1]." },
+      { "id": 4, "answer": "La tensión no afecta a cables enterrados.", "isCorrect": false, "explanation": "Todo conductor experimenta calentamiento por el paso de corriente eléctrica." }
+    ]
+  },
+  {
+    "id": "ITC-BT-15-50",
+    "type": "simple",
+    "question": "¿Qué elemento precede a la conexión de la derivación al embarrado?",
+    "options": [
+      { "id": 1, "answer": "El ICP privado.", "isCorrect": false, "explanation": "El ICP se sitúa aguas abajo, en el cuadro de mando de la propia vivienda." },
+      { "id": 2, "answer": "Los fusibles de seguridad de cada usuario.", "isCorrect": true, "explanation": "La derivación inicia en el embarrado e incluye los fusibles de seguridad previos a la medida[cite: 1]." },
+      { "id": 3, "answer": "El diferencial del edificio.", "isCorrect": false, "explanation": "El interruptor diferencial no es el elemento fronterizo que corta el origen de la derivación." },
+      { "id": 4, "answer": "El transformador exterior.", "isCorrect": false, "explanation": "Se ubica en la red de media/alta tensión, ajeno al punto de centralización de contadores." }
+    ]
+  }
+]
