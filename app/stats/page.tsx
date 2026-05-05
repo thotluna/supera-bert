@@ -99,19 +99,19 @@ export default async function StatsPage(): Promise<JSX.Element> {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-        {/* Main Stats Area */}
+        {/* Left Area (2/3) */}
         <div className="lg:col-span-2 flex flex-col gap-8">
           <EvolutionChart data={evolution} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <TopicPerformance stats={byTopic} />
+            <RadarChart stats={byTopic} />
             <StudyRecommendations recommendations={recommendations} />
           </div>
         </div>
 
-        {/* Right Column: Mastery Map (Radar) */}
+        {/* Right Column (1/3) */}
         <div className="lg:col-span-1">
-          <RadarChart stats={byTopic} />
+          <TopicPerformance stats={byTopic} />
         </div>
       </div>
     </div>
