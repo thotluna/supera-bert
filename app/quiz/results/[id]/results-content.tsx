@@ -5,6 +5,7 @@ import { Question } from "@/libs/quiz/models";
 import { CheckCircle2, XCircle, Clock, Trophy, RotateCcw, ChevronDown, ChevronUp, Check, X } from "lucide-react";
 import Link from "next/link";
 import { useState, JSX } from "react";
+import { Button } from "../../components/ui/button";
 
 interface ResultsContentProps {
   quiz: Quiz;
@@ -209,13 +210,16 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
 
       {/* Final Actions */}
       <div className="flex items-center justify-center py-10">
-        <Link 
+        <Button
+          as={Link}
           href="/"
-          className="w-full sm:w-auto px-12 py-4 rounded-2xl bg-accent text-accent-foreground hover:bg-accent/90 transition-all flex items-center justify-center gap-3 font-black uppercase tracking-widest text-sm shadow-neon-sm shadow-accent/40"
+          variant="primary"
+          size="lg"
+          leftIcon={<RotateCcw size={18} />}
+          className="w-full sm:w-auto"
         >
-          <RotateCcw size={18} />
           Nuevo Simulacro
-        </Link>
+        </Button>
       </div>
     </div>
   );
