@@ -103,3 +103,12 @@
 
 - [x] Extraer y formatear datos de ITC-BT-10 (100/100 preguntas)
 
+# Despliegue y Producción (Vercel Fixes)
+
+- [x] Corregir Error 500 en Vercel al cargar el Quiz (Issue #31)
+  - [x] Eliminar dependencia de `fs` en el entorno serverless
+  - [x] Implementar mapeo de importaciones dinámicas para archivos JSON de datos
+- [x] Refinar layout Bento del Dashboard de Estadísticas
+  - [x] Intercambiar posiciones de RadarChart y TopicPerformance para mejor equilibrio visual
+  - [x] Ajustar contenedores para evitar deformación de gráficos (Radar)
+

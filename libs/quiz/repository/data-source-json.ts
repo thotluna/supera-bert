@@ -1,13 +1,23 @@
-import fs from 'fs';
-import path from 'path';
 import { Question, ITCTopic, TopicOption } from '../models';
 import { QuestionRepository } from './question-repository';
 
-export class JSONDataSource implements QuestionRepository {
-  private static readonly DATA_PATH = path.join(process.cwd(), 'data');
+// Map of statically available ITC data files to ensure they are bundled by Next.js
+const ITC_DATA_MAP: Record<string, () => Promise<unknown>> = {
+  'ITC-BT-01': () => import('@/data/itc-bt-01.json'),
+  'ITC-BT-03': () => import('@/data/itc-bt-03.json'),
+  'ITC-BT-04': () => import('@/data/itc-bt-04.json'),
+  'ITC-BT-05': () => import('@/data/itc-bt-05.json'),
+  'ITC-BT-06': () => import('@/data/itc-bt-06.json'),
+  'ITC-BT-07': () => import('@/data/itc-bt-07.json'),
+  'ITC-BT-08': () => import('@/data/itc-bt-08.json'),
+  'ITC-BT-09': () => import('@/data/itc-bt-09.json'),
+  'ITC-BT-10': () => import('@/data/itc-bt-10.json'),
+  'ITC-BT-11': () => import('@/data/itc-bt-11.json'),
+};
 
+export class JSONDataSource implements QuestionRepository {
   async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
-    const allData = await this.loadFromFiles(itcs);
+    const allData = await this.loadFromImports(itcs);
     let combinedQuestions: Question[] = Object.values(allData).flat();
 
     if (excludeIds && excludeIds.length > 0) {
@@ -32,68 +42,65 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getCorrectAnswer(questionIds: string[]): Promise<Question[]> {
-    const allData = await this.loadFromFiles();
+    const allData = await this.loadFromImports();
     const flattened = Object.values(allData).flat();
 
     return flattened.filter(q => questionIds.includes(q.id));
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    if (!fs.existsSync(JSONDataSource.DATA_PATH)) return [];
+    const availableITCs = Object.keys(ITC_DATA_MAP);
 
-    const files = fs.readdirSync(JSONDataSource.DATA_PATH)
-      .filter(f => f.endsWith('.json'))
-      .map(f => f.replace('.json', '').toUpperCase());
-
-    return files.map(itcName => ({
+    return availableITCs.map(itcName => ({
       name: itcName as ITCTopic,
       available: true
     })).sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  private async loadFromFiles(itcs?: ITCTopic[]): Promise<Record<string, Question[]>> {
-    if (!fs.existsSync(JSONDataSource.DATA_PATH)) {
-      throw new Error(`Data directory not found at: ${JSONDataSource.DATA_PATH}`);
-    }
-
-    const files = fs.readdirSync(JSONDataSource.DATA_PATH)
-      .filter(f => f.endsWith('.json'))
-      .filter(f => {
-        if (!itcs || itcs.length === 0) return true;
-        const fileITC = f.replace('.json', '').toUpperCase();
-        return itcs.includes(fileITC as ITCTopic);
-      });
-
+  private async loadFromImports(itcs?: ITCTopic[]): Promise<Record<string, Question[]>> {
     const allQuestions: Record<string, Question[]> = {};
 
-    for (const file of files) {
-      const filePath = path.join(JSONDataSource.DATA_PATH, file);
-      const content = fs.readFileSync(filePath, 'utf-8');
-      const json = JSON.parse(content);
-      const itcKey = file.replace('.json', '').toUpperCase();
+    // Determine which ITCs to load
+    const itcsToLoad = itcs && itcs.length > 0
+      ? itcs.filter(itc => ITC_DATA_MAP[itc])
+      : Object.keys(ITC_DATA_MAP) as ITCTopic[];
 
-      let questions: Question[] = [];
+    for (const itc of itcsToLoad) {
+      const importFn = ITC_DATA_MAP[itc];
+      if (!importFn) continue;
 
-      if (Array.isArray(json) && json.length > 0 && json[0].questions) {
-        questions = json[0].questions;
-      } else if (Array.isArray(json)) {
-        questions = json;
+      try {
+        const dataModule = await importFn() as { default?: unknown };
+        // Handle different JSON structures (wrapped in default or direct)
+        const json = dataModule.default || dataModule;
+        
+        let questions: Question[] = [];
+
+        if (json && typeof json === 'object') {
+          if (Array.isArray(json)) {
+            if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
+              questions = (json[0] as { questions: Question[] }).questions;
+            } else {
+              questions = json as Question[];
+            }
+          }
+        }
+
+        allQuestions[itc] = questions.map(q => ({ ...q, itc }));
+      } catch (error) {
+        console.error(`Error loading data for ${itc}:`, error);
       }
-
-      allQuestions[itcKey] = questions.map(q => ({ ...q, itc: itcKey }));
     }
 
     return allQuestions;
   }
 
   private async findFullQuestionById(id: string): Promise<Question | undefined> {
-    const allData = await this.loadFromFiles();
+    const allData = await this.loadFromImports();
     return Object.values(allData).flat().find(q => q.id === id);
   }
 
   private shuffle<T>(array: T[]): T[] {
-    return array.sort(() => Math.random() - 0.5);
+    return [...array].sort(() => Math.random() - 0.5);
   }
-
-
 }
