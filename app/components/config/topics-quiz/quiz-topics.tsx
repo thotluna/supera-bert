@@ -16,7 +16,7 @@ export function QuizTopics({ topics }: QuizTopicsProps): JSX.Element {
       <label
         className={`col-span-2 h-9 flex items-center justify-center gap-3 px-4 rounded-lg border transition-all duration-300 cursor-pointer text-[10px] font-bold uppercase tracking-widest ${isAllSelected
           ? 'border-accent bg-accent/20 shadow-neon-sm text-foreground'
-          : 'border-foreground/10 bg-subface hover:border-accent/50 text-foreground/40'
+          : 'border-foreground/10 bg-subface hover:border-accent/50 text-foreground/70'
           }`}
       >
         <input
@@ -27,7 +27,7 @@ export function QuizTopics({ topics }: QuizTopicsProps): JSX.Element {
           onChange={handleToggleAll}
           className="sr-only"
         />
-        <div className={`w-1.5 h-1.5 rounded-full transition-all duration-500 ${isAllSelected ? 'bg-accent shadow-[0_0_8px_var(--neon-color)]' : 'bg-foreground/20'}`} />
+        <div className={`w-1.5 h-1.5 rounded-full transition-all duration-500 ${isAllSelected ? 'bg-accent shadow-[0_0_8px_var(--neon-color)]' : 'bg-foreground/40'}`} />
         Todo REBT
       </label>
 
@@ -43,7 +43,7 @@ export function QuizTopics({ topics }: QuizTopicsProps): JSX.Element {
                 ? 'opacity-20 cursor-not-allowed border-dashed border-foreground/20 bg-transparent'
                 : isSelected && !isAllSelected
                   ? 'border-accent bg-accent/20 text-foreground shadow-neon-sm scale-105 z-10'
-                  : 'border-foreground/10 bg-subface hover:border-accent/40 text-foreground/40 hover:text-foreground cursor-pointer'
+                  : 'border-foreground/10 bg-subface hover:border-accent/40 text-foreground/70 hover:text-foreground cursor-pointer'
               }
             `}
           >

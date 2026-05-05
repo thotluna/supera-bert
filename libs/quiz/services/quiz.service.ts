@@ -2,7 +2,7 @@ import { DomainResponse } from "@/libs/shape/auth/types";
 import { Quiz, QuizAnswer, QuizCreate, QuizFinish } from "../domain/quiz";
 import { QuizzesRepository } from "../repository/quizzes-repository";
 import { QuestionRepository } from "../repository/question-repository";
-import { ConfigQuiz, Option, Question, ResponseQuestion, TopicOption } from "../models";
+import { ConfigQuiz, ITCTopic, Option, Question, ResponseQuestion, TopicOption } from "../models";
 import { AnswersRepository } from "../repository/answers-repository";
 
 export class QuizService {
@@ -22,6 +22,10 @@ export class QuizService {
 
   async getTopics(): Promise<TopicOption[]> {
     return this.questionsRepository.getTopicsAvailability();
+  }
+
+  async getAll(topics: ITCTopic[], count: number): Promise<Question[]> {
+    return this.questionsRepository.getAll(topics, count);
   }
 
   async validateAnswer(questionId: string, answerId: number): Promise<boolean> {

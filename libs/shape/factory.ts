@@ -2,12 +2,6 @@ import { AuthService } from "@/libs/auth/services/auth.service";
 import { AuthRepositorySupabase } from "../auth/repository/auth-repository";
 import { QuizService } from "../quiz/services/quiz.service";
 
-import { QuizzesDataSource } from "../quiz/repository/quizzes-data-source";
-import { AnswersDataSource } from "../quiz/repository/answers-data-source";
-import { JSONDataSource } from "../quiz/repository/data-source-json";
-
-
-
 
 export class Factory {
   static getAuthService() {
@@ -15,14 +9,25 @@ export class Factory {
     return new AuthService(authRepository);
   }
 
-  static getQuizService() {
-    const quizzesRepository = new QuizzesDataSource();
-    const questionsRepository = new JSONDataSource();
-    const answersRepository = new AnswersDataSource();
+  static async getQuizService() {
+
+    const jsonDataSource = process.env.QUESTIONS_REPO_PATH || "data-source-json";
+    const repoModule = await import(`../quiz/repository/${jsonDataSource}`);
+    const Implementation = repoModule.JSONDataSource;
+    const questionsRepository = new Implementation();
+
+
+    const answersDataSource = process.env.ANSWERS_REPO_PATH || "answers-data-source";
+    const repoModuleAnswers = await import(`../quiz/repository/${answersDataSource}`);
+    const ImplementationAnswers = repoModuleAnswers.AnswersDataSource;
+    const answersRepository = new ImplementationAnswers();
+
+    const quizzesDataSource = process.env.QUIZZES_REPO_PATH || "quizzes-data-source";
+    const repoModuleQuizzes = await import(`../quiz/repository/${quizzesDataSource}`);
+    const ImplementationQuizzes = repoModuleQuizzes.QuizzesDataSource;
+    const quizzesRepository = new ImplementationQuizzes();
+
+
     return new QuizService(questionsRepository, quizzesRepository, answersRepository);
   }
-
-
-
-
 }

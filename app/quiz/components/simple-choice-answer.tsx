@@ -14,11 +14,11 @@ export function SimpleChoiceAnswers() {
     <ul className="w-full flex flex-col gap-2">
       {currentQuestion.options.map((option) => {
         const isSelected = currentSelection.some(o => o.id === option.id);
-        
+
         let feedbackStyles = "border-foreground/10 bg-foreground/5 hover:bg-foreground/10";
         if (isFeedbacking && isSelected) {
-          feedbackStyles = option.isCorrect 
-            ? "border-green-500/50 bg-green-500/10" 
+          feedbackStyles = option.isCorrect
+            ? "border-green-500/50 bg-green-500/10"
             : "border-red-500/50 bg-red-500/10";
         } else if (isSelected) {
           feedbackStyles = "border-accent bg-accent/5";
@@ -48,9 +48,9 @@ export function SimpleChoiceAnswers() {
 
               {isFeedbacking && isSelected && option.explanation && (
                 <div className="pl-8 animate-in fade-in slide-in-from-top-1 duration-500">
-                   <p className={`text-sm italic leading-relaxed ${option.isCorrect ? 'text-green-200/70' : 'text-red-200/70'}`}>
+                  <p className={`text-sm italic leading-relaxed ${option.isCorrect ? 'text-green-500/70' : 'text-red-500/70'}`}>
                     {option.explanation}
-                   </p>
+                  </p>
                 </div>
               )}
 

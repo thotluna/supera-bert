@@ -12,7 +12,7 @@ export async function saveAndRedirect({ answers, config, score }: {
   score: number
 }) {
 
-  const service = Factory.getQuizService();
+  const service = await Factory.getQuizService();
   
   const result = await service.persistFullSession({
     answers,

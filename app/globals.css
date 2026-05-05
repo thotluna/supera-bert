@@ -5,6 +5,7 @@
   --subface: #ffffff;
   --foreground: #0f172a;
   --accent: #0ea5e9;
+  --accent-foreground: #0f172a;
   --neon-color: oklch(0.6 0.2 250 / 0.1);
 }
 
@@ -13,6 +14,7 @@
   --color-subface: var(--subface);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-neon: var(--neon-color);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -26,6 +28,7 @@
     --subface: #0f172a;
     --foreground: #f8fafc;
     --accent: #38bdf8;
+    --accent-foreground: #020617;
     --neon-color: oklch(0.7 0.2 250 / 0.5);
   }
 }

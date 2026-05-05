@@ -41,7 +41,7 @@ export default async function RootLayout({
             </div>
           </main>
           <footer className="py-2 w-full mx-auto">
-            <p className="text-[8px] font-bold text-center text-foreground/20 uppercase tracking-[0.3em]">
+            <p className="text-[8px] font-bold text-center text-foreground/60 uppercase tracking-[0.3em]">
               Powered by Thot Luna · 2026
             </p>
           </footer>

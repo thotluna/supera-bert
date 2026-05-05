@@ -209,7 +209,7 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
       <div className="flex items-center justify-center py-10">
         <Link 
           href="/"
-          className="w-full sm:w-auto px-12 py-4 rounded-2xl bg-accent text-white hover:bg-accent/90 transition-all flex items-center justify-center gap-3 font-black uppercase tracking-widest text-sm shadow-neon-sm shadow-accent/40"
+          className="w-full sm:w-auto px-12 py-4 rounded-2xl bg-accent text-accent-foreground hover:bg-accent/90 transition-all flex items-center justify-center gap-3 font-black uppercase tracking-widest text-sm shadow-neon-sm shadow-accent/40"
         >
           <RotateCcw size={18} />
           Nuevo Simulacro
