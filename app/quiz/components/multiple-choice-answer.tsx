@@ -39,7 +39,7 @@ export function MultipleChoiceAnswer() {
             />
 
             <div className="flex items-center gap-3">
-              <div className={`w-5 h-5 rounded-lg border-2 flex items-center justify-center transition-all duration-200 ${isSelected ? 'border-accent bg-accent/20' : 'border-foreground/20'}`}>
+              <div className={`shrink-0 w-5 h-5 rounded-lg border-2 flex items-center justify-center transition-all duration-200 ${isSelected ? 'border-accent bg-accent/20' : 'border-foreground/20'}`}>
                 <svg
                   className={`w-3.5 h-3.5 text-accent transition-transform duration-200 ${isSelected ? 'scale-100' : 'scale-0'}`}
                   fill="none"
