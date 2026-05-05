@@ -17,19 +17,21 @@ export default async function Home(): Promise<JSX.Element> {
           <div className="h-1 w-20 bg-accent/30 rounded-full mt-2" />
         </header>
 
-        <SectionConfig title="Modos de Entrenamiento">
+        <SectionConfig title="Modos de Entrenamiento" className="order-1">
           <ModeConfig />
         </SectionConfig>
 
-        <SectionConfig title="Tópicos de Entrenamiento">
+        <SectionConfig title="Tópicos de Entrenamiento" className="order-3 md:order-2">
           <Suspense fallback={<QuizTopicsSkeleton />}>
             <TopicsDataWrapper />
           </Suspense>
         </SectionConfig>
 
-        <div className="flex justify-center mt-2">
+        <div className="flex order-2 md:order-3 justify-center mt-2">
           <SubmitQuizButton />
         </div>
+
+
       </form>
     </main>
   );

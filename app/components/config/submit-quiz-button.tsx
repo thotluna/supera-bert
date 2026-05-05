@@ -8,7 +8,7 @@ export function SubmitQuizButton(): JSX.Element {
   const { pending } = useFormStatus();
 
   return (
-    <div className="md:relative md:bottom-0 fixed bottom-0 left-0 md:left-auto md:translate-x-0 w-full md:w-auto z-50 p-4 md:p-0 bg-background/80 md:bg-transparent backdrop-blur-lg md:backdrop-blur-none border-t border-white/5 md:border-none">
+    <div className="w-full md:w-auto z-50 p-4 md:p-0 bg-background/80 md:bg-transparent backdrop-blur-lg md:backdrop-blur-none border-t border-white/5 md:border-none">
       <button
         type="submit"
         disabled={pending}
