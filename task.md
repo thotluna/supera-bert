@@ -23,6 +23,8 @@
 - [x] Implementar Tests Unitarios y E2E para la configuración del Quiz (Happy paths & Corner cases)
 - [x] Implementar Auth Bypass para entorno de testing (E2E) sin comprometer producción
 - [x] Sincronizar mocks de Quizzes, Answers y Questions para cubrir todos los escenarios de resultados
+- [x] Instalar y configurar Storybook con addons de accesibilidad (`a11y`) y esenciales
+- [x] Configurar Storybook para soportar Next.js, Tailwind v4 y tokens semánticos (CSS variables)
 
 # Configuración del Quiz (UX/UI Premium)
 
