@@ -60,8 +60,11 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
       initialize: (questions, config) => {
         const state = get();
-        // Si ya hay una pregunta actual y no hemos marcado el fin, ignoramos (evita re-init en re-renders)
-        if (state.currentQuestion && !state.isFinished) return;
+
+        // Si hay una sesión activa, verificamos si es válida (no expirada)
+        const isZombie = state.expiresAt && state.expiresAt < Date.now();
+
+        if (state.currentQuestion && !state.isFinished && !isZombie) return;
 
         // Limpiamos cualquier estado previo antes de iniciar el nuevo
         state.reset();
@@ -159,7 +162,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             expiresAt: currentExpiresAt ? currentExpiresAt + 3000 : null,
             isFinished: false,
           });
-        }, 3000);
+        }, 5000);
       },
 
       skipQuestion: () => {
@@ -198,7 +201,10 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             expiresAt: snapshot.expiresAt,
             score: snapshot.score,
           },
-          isFinished: true
+          isFinished: true,
+          expiresAt: null, // Evitamos que timers huérfanos se activen
+          startTime: null,
+          currentQuestion: null,
         });
 
         await saveAndRedirect(snapshot);

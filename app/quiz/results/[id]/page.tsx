@@ -8,7 +8,7 @@ interface PageProps {
 
 export default async function ResultsPage({ params }: PageProps) {
   const { id } = await params;
-  const quizService = Factory.getQuizService();
+  const quizService = await Factory.getQuizService();
   const result = await quizService.getQuizResult(id);
 
   if (result.error || !result.data) {

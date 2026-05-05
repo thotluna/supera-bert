@@ -22,6 +22,7 @@
 - [x] Configurar Playwright para pruebas E2E de flujos críticos
 - [x] Implementar Tests Unitarios y E2E para la configuración del Quiz (Happy paths & Corner cases)
 - [x] Implementar Auth Bypass para entorno de testing (E2E) sin comprometer producción
+- [x] Sincronizar mocks de Quizzes, Answers y Questions para cubrir todos los escenarios de resultados
 
 # Configuración del Quiz (UX/UI Premium)
 
@@ -66,4 +67,11 @@
   - [x] Corregir contador de progreso (11/10)
   - [x] Evitar pantalla en blanco al finalizar el store
   - [x] Implementar test unitario de validación
+- [x] Corregir race condition del timer y sesiones 'zombie' que provocaban redirecciones prematuras
 
+# Accesibilidad y Contraste (WCAG compliance)
+
+- [x] Implementar suite de tests de contraste con Playwright + Axe-core
+- [x] Corregir violaciones de contraste en botones (Sky/Accent) en modo claro y oscuro
+- [x] Implementar sistema de tokens semánticos (`--success`, `--error`) para feedback visual expresivo y accesible
+- [x] Asegurar cumplimiento de ratios WCAG AA (4.5:1) en todos los estados (Acierto, Fallo, No contestada)

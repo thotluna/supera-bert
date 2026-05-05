@@ -34,7 +34,7 @@ export const OptionsMode = ({ name, description, icon, mode }: IMode): JSX.Eleme
         </span>
       </div>
 
-      <p className="relative z-10 text-xs text-foreground/50 leading-snug font-medium transition-colors group-has-checked:text-foreground/70">
+      <p className="relative z-10 text-xs text-foreground/70 leading-snug font-medium transition-colors group-has-checked:text-foreground/90">
         {description}
       </p>
     </label>

@@ -23,14 +23,15 @@ export function Header() {
   const score = useQuizStore(state => state.score);
   const finish = useQuizStore(state => state.finish);
   const isFeedbacking = useQuizStore(state => state.isFeedbacking);
+  const isFinished = useQuizStore(state => state.isFinished);
 
   const [timeLeft, setTimeLeft] = useState(0);
 
   useEffect(() => {
-    if (!expiresAt) return;
+    if (!expiresAt || isFinished) return;
 
     const updateTimer = () => {
-      if (isFeedbacking) return; // Congelamos el reloj visualmente
+      if (isFeedbacking || isFinished) return; 
 
       const now = Date.now();
       const diff = Math.max(0, Math.floor((expiresAt - now) / 1000));
@@ -44,7 +45,7 @@ export function Header() {
     updateTimer();
     const interval = setInterval(updateTimer, 1000);
     return () => clearInterval(interval);
-  }, [expiresAt, finish, isFeedbacking]);
+  }, [expiresAt, finish, isFeedbacking, isFinished]);
 
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);

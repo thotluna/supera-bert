@@ -6,9 +6,10 @@ export function ButtonStats() {
   return (
     <Link
       href="/stats"
-      className="text-[9px] font-black text-foreground/40 hover:text-primary transition-colors uppercase tracking-widest px-2 py-1.5 rounded-lg hover:bg-primary/5 border border-transparent hover:border-primary/10"
+      aria-label="Ver estadísticas de entrenamiento"
+      className="text-[9px] font-black text-foreground/70 hover:text-primary transition-colors uppercase tracking-widest px-2 py-1.5 rounded-lg hover:bg-primary/5 border border-transparent hover:border-primary/10"
     >
-      <ChartNoAxesColumn />
+      <ChartNoAxesColumn className="w-4 h-4" />
     </Link>
   );
 }

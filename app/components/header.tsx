@@ -12,7 +12,7 @@ export async function Header() {
         <h1 className="text-xl md:text-2xl font-black tracking-tighter uppercase italic text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-400 drop-shadow-[0_0_10px_var(--neon-color)] leading-none">
           SuperaREBT
         </h1>
-        <p className="hidden md:block text-[8px] font-bold text-foreground/30 uppercase tracking-[0.2em] mt-0.5">
+        <p className="hidden md:block text-[8px] font-bold text-foreground/60 uppercase tracking-[0.2em] mt-0.5">
           REBT · Nivel Profesional
         </p>
       </div>
