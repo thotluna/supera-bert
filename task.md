@@ -86,3 +86,20 @@
 - [x] Refactorizar `QuizTopics` (Container/Presenter) e integrar a Storybook
 - [x] Refactorizar `SimpleChoice` y `MultipleChoice` (shared View) e integrar a Storybook
 - [x] Refactorizar Resultados (Summary & ReviewItem) e integrar a Storybook
+
+# Estadísticas de Usuario (UX/UI Premium)
+
+- [x] Implementar arquitectura base para Estadísticas de Usuario
+  - [x] Definir entidad de dominio `UserStats`
+  - [x] Crear `StatsRepository` y `StatsDataSource` (Supabase)
+  - [x] Implementar `StatsService` con lógica de agregación
+  - [x] Registrar `StatsService` en la `Factory`
+- [x] Crear página de Estadísticas (`/stats`)
+- [x] Implementar componentes visuales (Gráficos, Bento Grid de métricas, Radar Chart)
+- [x] Integrar Server Actions para obtención de datos
+- [x] Asegurar diseño premium y responsivo
+
+# Generación de Datos (ITCs)
+
+- [x] Extraer y formatear datos de ITC-BT-10 (100/100 preguntas)
+

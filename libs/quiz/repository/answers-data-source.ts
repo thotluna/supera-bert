@@ -64,4 +64,20 @@ export class AnswersDataSource implements AnswersRepository {
       error: null,
     };
   }
+
+  async getByUserId(userId: string): Promise<DomainResponse<QuizAnswer[]>> {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase
+      .from("quiz_answers")
+      .select("*, quizzes!inner(user_id)")
+      .eq("quizzes.user_id", userId);
+
+    if (error) return { data: null, error: new Error(error.message) };
+
+    return {
+      data: (data as unknown as QuizAnswerResponseDto[]).map(AnswersMapper.toAnswer),
+      error: null,
+    };
+  }
 }

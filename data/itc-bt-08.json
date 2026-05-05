@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ITC-BT-08-01",
+    "type": "simple",
+    "question": "En la codificación de los esquemas de distribución, ¿qué indica la primera letra cuando es una 'T'?",
+    "options": [
+      { "id": 1, "answer": "Que todas las partes activas están aisladas de tierra.", "isCorrect": false, "explanation": "Esto corresponde a la primera letra 'I'." },
+      { "id": 2, "answer": "Que las masas están conectadas directamente a tierra.", "isCorrect": false, "explanation": "Esto corresponde a la segunda letra 'T'." },
+      { "id": 3, "answer": "La conexión directa de un punto de la alimentación a tierra.", "isCorrect": true, "explanation": "La primera letra 'T' significa: 'Conexión directa de un punto de la alimentación a tierra'[cite: 1]." },
+      { "id": 4, "answer": "Que las funciones de neutro y protección están combinadas.", "isCorrect": false, "explanation": "Esto corresponde a la letra eventual 'C'." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-02",
+    "type": "simple",
+    "question": "¿Qué significa la primera letra 'I' en la denominación de un esquema de distribución?",
+    "options": [
+      { "id": 1, "answer": "Interruptor diferencial obligatorio.", "isCorrect": false, "explanation": "La letra no se refiere a la aparamenta de protección sino al estado de la alimentación." },
+      { "id": 2, "answer": "Aislamiento de todas las partes activas de la alimentación con respecto a tierra o conexión a través de impedancia.", "isCorrect": true, "explanation": "La primera letra 'I' indica el aislamiento de las partes activas o conexión a través de una impedancia[cite: 1]." },
+      { "id": 3, "answer": "Instalación independiente de la red pública.", "isCorrect": false, "explanation": "El código no define la dependencia administrativa de la red." },
+      { "id": 4, "answer": "Conexión directa del neutro a la toma de tierra.", "isCorrect": false, "explanation": "Esto se define con la letra 'T'." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-03",
+    "type": "simple",
+    "question": "En el código de letras de los esquemas, ¿a qué hace referencia la segunda letra?",
+    "options": [
+      { "id": 1, "answer": "A la situación de la alimentación con respecto a tierra.", "isCorrect": false, "explanation": "Esto lo indica la primera letra del código." },
+      { "id": 2, "answer": "A la situación relativa del conductor neutro y de protección.", "isCorrect": false, "explanation": "Esto lo indican las letras eventuales adicionales (S o C)." },
+      { "id": 3, "answer": "Al tipo de corriente (Alterna o Continua).", "isCorrect": false, "explanation": "El código de letras no define el tipo de corriente eléctrica." },
+      { "id": 4, "answer": "A la situación de las masas de la instalación receptora con respecto a tierra.", "isCorrect": true, "explanation": "La segunda letra se refiere a la situación de las masas de la instalación receptora con respecto a tierra[cite: 1]." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-04",
+    "type": "simple",
+    "question": "¿Qué significa la segunda letra 'N' en la clasificación de los esquemas?",
+    "options": [
+      { "id": 1, "answer": "Masas conectadas directamente a tierra.", "isCorrect": false, "explanation": "Esto corresponde a la segunda letra 'T'." },
+      { "id": 2, "answer": "Funciones de neutro y protección separadas.", "isCorrect": false, "explanation": "Esto corresponde a la letra eventual 'S'." },
+      { "id": 3, "answer": "Masas conectadas directamente al punto de la alimentación puesto a tierra.", "isCorrect": true, "explanation": "La segunda letra 'N' significa: 'Masas conectadas directamente al punto de la alimentación puesto a tierra'[cite: 1]." },
+      { "id": 4, "answer": "Neutro aislado.", "isCorrect": false, "explanation": "El estado del neutro en origen se define con la primera letra del esquema." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-05",
+    "type": "simple",
+    "question": "Cuando en la denominación del esquema aparece la letra eventual 'S', ¿qué indica?",
+    "options": [
+      { "id": 1, "answer": "Que las funciones de neutro y de protección están aseguradas por conductores separados.", "isCorrect": true, "explanation": "La letra 'S' indica: 'Las funciones de neutro y de protección, aseguradas por conductores separados'[cite: 1]." },
+      { "id": 2, "answer": "Que las funciones de neutro y protección están combinadas en un solo conductor.", "isCorrect": false, "explanation": "Esto se define con la letra 'C'." },
+      { "id": 3, "answer": "Que no existe conductor neutro.", "isCorrect": false, "explanation": "La letra 'S' asume que existe neutro y está separado físicamente de la protección." },
+      { "id": 4, "answer": "Que el conductor de protección está seccionado.", "isCorrect": false, "explanation": "El reglamento no indica esta condición para la letra 'S'." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-06",
+    "type": "simple",
+    "question": "¿Cómo se denomina al conductor único que combina las funciones de neutro y protección?",
+    "options": [
+      { "id": 1, "answer": "Conductor PEN.", "isCorrect": false, "explanation": "Aunque es habitual en otra literatura, el REBT lo nombra explícitamente CPN en este apartado." },
+      { "id": 2, "answer": "Conductor CPN.", "isCorrect": true, "explanation": "La letra 'C' indica que las funciones están combinadas en un solo 'conductor CPN'[cite: 1]." },
+      { "id": 3, "answer": "Conductor PE.", "isCorrect": false, "explanation": "PE es el conductor de protección exclusivo, no combinado con el neutro." },
+      { "id": 4, "answer": "Conductor N-T.", "isCorrect": false, "explanation": "Esta nomenclatura no existe en el texto reglamentario." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-07",
+    "type": "simple",
+    "question": "¿Cuál es la principal característica del esquema TN a nivel de conexionado?",
+    "options": [
+      { "id": 1, "answer": "Las masas están conectadas a una tierra independiente.", "isCorrect": false, "explanation": "Esto es propio del esquema TT." },
+      { "id": 2, "answer": "La alimentación no tiene conexión a tierra.", "isCorrect": false, "explanation": "Esto es propio del esquema IT." },
+      { "id": 3, "answer": "Punto de alimentación a tierra y masas conectadas a dicho punto mediante conductores de protección.", "isCorrect": true, "explanation": "Los esquemas TN tienen un punto de alimentación a tierra y las masas conectadas a dicho punto[cite: 1]." },
+      { "id": 4, "answer": "Combina corriente alterna y continua.", "isCorrect": false, "explanation": "No tiene relación con la definición técnica del esquema." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-08",
+    "type": "simple",
+    "question": "En un esquema TN-S, ¿cómo se distribuyen el conductor neutro y el de protección?",
+    "options": [
+      { "id": 1, "answer": "Están combinados en todo el esquema.", "isCorrect": false, "explanation": "Esto describe la variante TN-C." },
+      { "id": 2, "answer": "Son distintos en todo el esquema.", "isCorrect": true, "explanation": "En el esquema TN-S, el conductor neutro y el de protección son distintos en todo el esquema[cite: 1]." },
+      { "id": 3, "answer": "Son distintos solo en la instalación receptora.", "isCorrect": false, "explanation": "Deben ser conductores separados en toda la extensión del esquema." },
+      { "id": 4, "answer": "No existe conductor de protección.", "isCorrect": false, "explanation": "Ambos conductores existen y están separados físicamente." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-09",
+    "type": "simple",
+    "question": "Si un esquema combina las funciones de neutro y protección en un solo conductor en todo el esquema, se denomina:",
+    "options": [
+      { "id": 1, "answer": "TN-S.", "isCorrect": false, "explanation": "En el esquema TN-S los conductores están separados." },
+      { "id": 2, "answer": "TN-C.", "isCorrect": true, "explanation": "El TN-C combina las funciones de neutro y protección en un solo conductor en todo el esquema[cite: 1]." },
+      { "id": 3, "answer": "TN-C-S.", "isCorrect": false, "explanation": "En el esquema TN-C-S están combinados solo en una parte de la instalación." },
+      { "id": 4, "answer": "TT.", "isCorrect": false, "explanation": "En el esquema TT las masas van conectadas a una tierra local propia." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-10",
+    "type": "simple",
+    "question": "¿Qué define a un esquema TN-C-S?",
+    "options": [
+      { "id": 1, "answer": "Combina las funciones de neutro y protección en una parte del esquema.", "isCorrect": true, "explanation": "Es aquel en el que las funciones de neutro y protección están combinadas en un solo conductor en una parte[cite: 1]." },
+      { "id": 2, "answer": "Separa las funciones en el transformador y las une en el receptor.", "isCorrect": false, "explanation": "Es al revés: suelen venir combinadas y separarse después; nunca se vuelven a unir." },
+      { "id": 3, "answer": "Las masas de la instalación están conectadas a una tierra independiente.", "isCorrect": false, "explanation": "Esta es la definición del esquema TT." },
+      { "id": 4, "answer": "El punto neutro está aislado.", "isCorrect": false, "explanation": "Esta es la definición del esquema IT." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-11",
+    "type": "simple",
+    "question": "En cualquier variante de los esquemas TN, ¿en qué se convierte una intensidad de defecto franco fase-masa?",
+    "options": [
+      { "id": 1, "answer": "En una sobretensión transitoria.", "isCorrect": false, "explanation": "Se convierte en una corriente de valor elevado, no en una tensión de pico." },
+      { "id": 2, "answer": "En una corriente capacitiva nula.", "isCorrect": false, "explanation": "Esto puede ocurrir en esquemas IT bajo condiciones específicas." },
+      { "id": 3, "answer": "En una intensidad de cortocircuito.", "isCorrect": true, "explanation": "En los esquemas TN cualquier intensidad de defecto franco fase-masa es una intensidad de cortocircuito[cite: 1]." },
+      { "id": 4, "answer": "En una intensidad reducida no peligrosa.", "isCorrect": false, "explanation": "Esto es característico del esquema IT." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-12",
+    "type": "simple",
+    "question": "¿De qué elementos está constituido el bucle de defecto en los esquemas TN?",
+    "options": [
+      { "id": 1, "answer": "De resistencias de paso a tierra.", "isCorrect": false, "explanation": "Las resistencias de paso forman parte del bucle en los esquemas TT." },
+      { "id": 2, "answer": "De elementos conductores metálicos.", "isCorrect": true, "explanation": "En los esquemas TN el bucle de defecto está constituido exclusivamente por elementos conductores metálicos[cite: 1]." },
+      { "id": 3, "answer": "De impedancias capacitivas.", "isCorrect": false, "explanation": "No participan impedancias capacitivas de forma relevante en este bucle metálico." },
+      { "id": 4, "answer": "De puestas a tierra independientes.", "isCorrect": false, "explanation": "Las masas están unidas al neutro por cable, no por tierras separadas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-13",
+    "type": "simple",
+    "question": "En el esquema TT, ¿cómo se conectan las masas de la instalación receptora?",
+    "options": [
+      { "id": 1, "answer": "Al conductor neutro de la alimentación.", "isCorrect": false, "explanation": "Esa conexión es propia de un esquema TN." },
+      { "id": 2, "answer": "A la misma toma de tierra mediante un conductor CPN.", "isCorrect": false, "explanation": "Esa conexión corresponde al esquema TN-C." },
+      { "id": 3, "answer": "A una toma de tierra separada de la toma de tierra de la alimentación.", "isCorrect": true, "explanation": "En el esquema TT las masas están conectadas a una toma de tierra separada de la de alimentación[cite: 1]." },
+      { "id": 4, "answer": "No se conectan a tierra.", "isCorrect": false, "explanation": "Deben estar conectadas obligatoriamente a su propia toma de tierra local." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-14",
+    "type": "simple",
+    "question": "En un esquema TT, ¿cómo son los valores de las intensidades de defecto fase-masa?",
+    "options": [
+      { "id": 1, "answer": "Siempre son exactamente iguales a un cortocircuito franco.", "isCorrect": false, "explanation": "Esto ocurre exclusivamente en el esquema TN." },
+      { "id": 2, "answer": "Inferiores a cortocircuito, pero suficientes para provocar tensiones peligrosas.", "isCorrect": true, "explanation": "Las intensidades pueden ser inferiores a las de cortocircuito pero suficientes para provocar tensiones peligrosas[cite: 1]." },
+      { "id": 3, "answer": "Tan reducidos que nunca provocan tensiones peligrosas.", "isCorrect": false, "explanation": "Esta es la característica de diseño del esquema IT." },
+      { "id": 4, "answer": "Nulos.", "isCorrect": false, "explanation": "Siempre existe un camino de retorno por tierra con cierta intensidad." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-15",
+    "type": "simple",
+    "question": "En general, en el esquema TT el bucle de defecto incluye:",
+    "options": [
+      { "id": 1, "answer": "Exclusivamente elementos metálicos.", "isCorrect": false, "explanation": "Esta definición es aplicable al esquema TN." },
+      { "id": 2, "answer": "Una impedancia de alto valor instalada en origen.", "isCorrect": false, "explanation": "Esta configuración es propia del esquema IT." },
+      { "id": 3, "answer": "Resistencia de paso a tierra en alguna parte del circuito.", "isCorrect": true, "explanation": "En el esquema TT el bucle de defecto incluye resistencia de paso a tierra en alguna parte[cite: 1]." },
+      { "id": 4, "answer": "Un conductor CPN.", "isCorrect": false, "explanation": "El conductor CPN es propio del esquema TN-C." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-16",
+    "type": "simple",
+    "question": "Si en un esquema TT se unen las tierras de masas y alimentación, ¿deja de ser TT?",
+    "options": [
+      { "id": 1, "answer": "Sí, pasa automáticamente a ser TN.", "isCorrect": false, "explanation": "Para ser TN debe cumplir todas las prescripciones específicas de dicho esquema." },
+      { "id": 2, "answer": "Sí, pasa a ser IT.", "isCorrect": false, "explanation": "El esquema IT implica que la alimentación esté aislada o por impedancia." },
+      { "id": 3, "answer": "No, sigue siendo TT si no se cumplen todas las condiciones del esquema TN.", "isCorrect": true, "explanation": "Sigue siendo un esquema TT si no se cumplen todas las condiciones del esquema TN[cite: 1]." },
+      { "id": 4, "answer": "Depende de la intensidad del cortocircuito.", "isCorrect": false, "explanation": "La clasificación depende del cumplimiento de condiciones normativas, no solo de la intensidad." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-17",
+    "type": "simple",
+    "question": "¿Qué particularidad tiene el esquema IT respecto a la conexión de la alimentación?",
+    "options": [
+      { "id": 1, "answer": "Tiene el neutro conectado rígidamente a tierra.", "isCorrect": false, "explanation": "Esto aplica a los esquemas TN y TT." },
+      { "id": 2, "answer": "Todas sus fases están puestas a tierra.", "isCorrect": false, "explanation": "Esta conexión provocaría un cortocircuito inmediato en la red." },
+      { "id": 3, "answer": "No tiene ningún punto de la alimentación conectado directamente a tierra.", "isCorrect": true, "explanation": "El esquema IT no tiene ningún punto de la alimentación conectado directamente a tierra[cite: 1]." },
+      { "id": 4, "answer": "Obliga a unir la tierra de alimentación con la de las masas.", "isCorrect": false, "explanation": "En IT las masas están puestas directamente a tierra de forma independiente." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-18",
+    "type": "simple",
+    "question": "En un esquema IT, ¿qué ocurre ante un primer defecto fase-masa?",
+    "options": [
+      { "id": 1, "answer": "La intensidad es tan elevada que dispara las protecciones al instante.", "isCorrect": false, "explanation": "Este fenómeno es característico de los esquemas TN." },
+      { "id": 2, "answer": "Se produce un cortocircuito metálico.", "isCorrect": false, "explanation": "Falta el camino de retorno sólido necesario para el cortocircuito." },
+      { "id": 3, "answer": "Intensidad reducida que no provoca tensiones de contacto peligrosas.", "isCorrect": true, "explanation": "La intensidad resultante de un primer defecto tiene un valor reducido que no provoca tensiones peligrosas[cite: 1]." },
+      { "id": 4, "answer": "La tensión de la red se duplica instantáneamente.", "isCorrect": false, "explanation": "Este efecto no se describe en el apartado correspondiente de la ITC." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-19",
+    "type": "simple",
+    "question": "¿Cómo se logra la limitación de la intensidad del primer defecto en esquema IT?",
+    "options": [
+      { "id": 1, "answer": "Mediante el uso de fusibles ultrarrápidos.", "isCorrect": false, "explanation": "La limitación es fruto del diseño de tierras, no de los dispositivos de corte." },
+      { "id": 2, "answer": "Por ausencia de conexión a tierra o inserción de impedancia suficiente.", "isCorrect": true, "explanation": "Se obtiene por la ausencia de conexión a tierra o por la inserción de una impedancia suficiente[cite: 1]." },
+      { "id": 3, "answer": "Utilizando un conductor CPN muy grueso.", "isCorrect": false, "explanation": "El conductor CPN pertenece exclusivamente al esquema TN-C." },
+      { "id": 4, "answer": "Conectando directamente las masas al neutro.", "isCorrect": false, "explanation": "Esta configuración es característica del esquema TN." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-20",
+    "type": "simple",
+    "question": "En un esquema IT, ¿por qué puede resultar necesario limitar la extensión de la red?",
+    "options": [
+      { "id": 1, "answer": "Para ahorrar costes en conductores.", "isCorrect": false, "explanation": "La limitación técnica no responde a criterios de ahorro económico." },
+      { "id": 2, "answer": "Para disminuir el efecto capacitivo de los cables respecto a tierra.", "isCorrect": true, "explanation": "Puede ser necesario limitar la extensión para disminuir el efecto capacitivo de los cables[cite: 1]." },
+      { "id": 3, "answer": "Para que los diferenciales funcionen más rápido.", "isCorrect": false, "explanation": "En el primer defecto de un esquema IT, los diferenciales no suelen disparar." },
+      { "id": 4, "answer": "Para evitar la caída de tensión al final de la línea.", "isCorrect": false, "explanation": "La caída de tensión no es la razón técnica citada para esta limitación." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-21",
+    "type": "simple",
+    "question": "¿Qué recomendación hace la ITC-BT-08 sobre el neutro en el esquema IT?",
+    "options": [
+      { "id": 1, "answer": "Que tenga la misma sección que la fase.", "isCorrect": false, "explanation": "Aunque es una norma de sección genérica, en IT la prioridad es otra." },
+      { "id": 2, "answer": "Que siempre se distribuya en instalaciones trifásicas.", "isCorrect": false, "explanation": "La norma recomienda justamente evitar su distribución en este esquema." },
+      { "id": 3, "answer": "Se recomienda no distribuir el neutro.", "isCorrect": true, "explanation": "En este tipo de esquema se recomienda no distribuir el neutro[cite: 1]." },
+      { "id": 4, "answer": "Que sea un conductor desnudo.", "isCorrect": false, "explanation": "El reglamento no exige el uso de conductores desnudos para el neutro." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-22",
+    "type": "simple",
+    "question": "¿Qué esquema es obligatorio para instalaciones alimentadas directamente de red pública?",
+    "options": [
+      { "id": 1, "answer": "Esquema TN.", "isCorrect": false, "explanation": "No es el esquema estándar para la distribución pública de baja tensión." },
+      { "id": 2, "answer": "Esquema TT.", "isCorrect": true, "explanation": "El esquema para instalaciones alimentadas de una red de distribución pública es el esquema TT[cite: 1]." },
+      { "id": 3, "answer": "Esquema IT.", "isCorrect": false, "explanation": "No se aplica de forma directa desde la red de distribución pública general." },
+      { "id": 4, "answer": "Esquema TN-C-S.", "isCorrect": false, "explanation": "No es la modalidad de esquema utilizada para el suministro público." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-23",
+    "type": "simple",
+    "question": "¿Por qué es el esquema TT el exigido para instalaciones desde la red pública?",
+    "options": [
+      { "id": 1, "answer": "Porque las redes públicas no tienen toma de tierra.", "isCorrect": false, "explanation": "Las redes públicas cuentan con tomas de tierra reglamentarias obligatorias." },
+      { "id": 2, "answer": "Porque es la opción de instalación más económica.", "isCorrect": false, "explanation": "La justificación técnica de la norma no se basa en criterios económicos." },
+      { "id": 3, "answer": "Porque las redes tienen el punto neutro puesto a tierra por prescripción reglamentaria.", "isCorrect": true, "explanation": "Las redes tienen un punto puesto directamente a tierra por prescripción reglamentaria[cite: 1]." },
+      { "id": 4, "answer": "Porque no requiere conductores de protección en el receptor.", "isCorrect": false, "explanation": "Las masas de la instalación receptora sí requieren conexión a su propia tierra." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-24",
+    "type": "simple",
+    "question": "Si una instalación tiene centro de transformación propio, ¿qué esquema puede elegir?",
+    "options": [
+      { "id": 1, "answer": "Solamente el esquema TT.", "isCorrect": false, "explanation": "No existe la obligación de usar únicamente TT si el CT es de abonado." },
+      { "id": 2, "answer": "Solamente el esquema IT.", "isCorrect": false, "explanation": "No existe la obligación de usar únicamente el esquema IT." },
+      { "id": 3, "answer": "Cualquiera de los tres esquemas citados (TN, TT, IT).", "isCorrect": true, "explanation": "A partir de un centro de transformación de abonado, se podrá elegir cualquiera de los tres esquemas[cite: 1]." },
+      { "id": 4, "answer": "Ninguno de los tres.", "isCorrect": false, "explanation": "La normativa obliga a seleccionar uno de los tres sistemas de conexión." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-25",
+    "type": "simple",
+    "question": "¿Es posible establecer un esquema IT en una instalación alimentada por red pública (TT)?",
+    "options": [
+      { "id": 1, "answer": "No, está totalmente prohibido.", "isCorrect": false, "explanation": "La normativa permite esta configuración bajo una excepción técnica específica." },
+      { "id": 2, "answer": "Sí, mediante el uso de transformadores adecuados de aislamiento.", "isCorrect": true, "explanation": "Puede establecerse un esquema IT mediante el uso de transformadores adecuados[cite: 1]." },
+      { "id": 3, "answer": "Sí, eliminando el cable de tierra del edificio.", "isCorrect": false, "explanation": "Se trata de una práctica ilegal y extremadamente peligrosa." },
+      { "id": 4, "answer": "Solo si la instalación es de corriente continua.", "isCorrect": false, "explanation": "La posibilidad técnica no depende del tipo de corriente utilizada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-26",
+    "type": "simple",
+    "question": "Según Tabla 1, para red aérea TN con fases de 25 mm², ¿cuál es el neutro mínimo?",
+    "options": [
+      { "id": 1, "answer": "10 mm².", "isCorrect": false, "explanation": "La tabla no contempla este valor como sección mínima para redes." },
+      { "id": 2, "answer": "16 mm².", "isCorrect": false, "explanation": "Este valor corresponde a la sección para una fase de 16 mm²." },
+      { "id": 3, "answer": "25 mm².", "isCorrect": true, "explanation": "La Tabla 1 indica para Redes aéreas con fase de 25, una sección del neutro de 25 mm²[cite: 1]." },
+      { "id": 4, "answer": "35 mm².", "isCorrect": false, "explanation": "Corresponde a la sección para una fase de 35 mm²." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-27",
+    "type": "simple",
+    "question": "Según Tabla 1, para red subterránea TN con fases de 25 mm², ¿cuál es el neutro mínimo?",
+    "options": [
+      { "id": 1, "answer": "10 mm².", "isCorrect": false, "explanation": "Valor no presente en la tabla para redes de distribución." },
+      { "id": 2, "answer": "16 mm².", "isCorrect": true, "explanation": "Para Redes subterráneas con fase de 25, la sección del neutro exigida es 16 mm²[cite: 1]." },
+      { "id": 3, "answer": "25 mm².", "isCorrect": false, "explanation": "Esta sería la sección requerida si se tratara de una red aérea." },
+      { "id": 4, "answer": "35 mm².", "isCorrect": false, "explanation": "Sección excesiva para el requerimiento de la red subterránea indicada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-28",
+    "type": "simple",
+    "question": "En red aérea TN con fases de 70 mm², ¿qué sección debe tener el neutro según Tabla 1?",
+    "options": [
+      { "id": 1, "answer": "35 mm².", "isCorrect": false, "explanation": "Corresponde a redes subterráneas con fase de 50 mm²." },
+      { "id": 2, "answer": "50 mm².", "isCorrect": true, "explanation": "En Redes aéreas, para fase de 70, la sección del neutro es 50 mm²[cite: 1]." },
+      { "id": 3, "answer": "70 mm².", "isCorrect": false, "explanation": "Este valor se aplica a fases de 120 mm² en redes aéreas." },
+      { "id": 4, "answer": "95 mm².", "isCorrect": false, "explanation": "Sección superior a la mínima exigida por la normativa." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-29",
+    "type": "simple",
+    "question": "En red subterránea TN con fases de 150 mm², la sección del neutro no será inferior a:",
+    "options": [
+      { "id": 1, "answer": "50 mm².", "isCorrect": false, "explanation": "Sección mínima correspondiente a una fase de 95 mm²." },
+      { "id": 2, "answer": "70 mm².", "isCorrect": true, "explanation": "La Tabla 1 para Redes subterráneas con fase de 150, marca un neutro de 70 mm²[cite: 1]." },
+      { "id": 3, "answer": "95 mm².", "isCorrect": false, "explanation": "Valor correspondiente a una red aérea con fases de 150 mm²." },
+      { "id": 4, "answer": "150 mm².", "isCorrect": false, "explanation": "La normativa permite la reducción de la sección según los calibres de tabla." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-30",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima del neutro para red aérea TN con fases de 300 mm²?",
+    "options": [
+      { "id": 1, "answer": "95 mm².", "isCorrect": false, "explanation": "Corresponde a fases de 185 mm² en red aérea." },
+      { "id": 2, "answer": "120 mm².", "isCorrect": false, "explanation": "Corresponde a fases de 240 mm² en red aérea." },
+      { "id": 3, "answer": "150 mm².", "isCorrect": true, "explanation": "La Tabla 1 indica para Redes aéreas con fase de 300, un neutro de 150 mm²[cite: 1]." },
+      { "id": 4, "answer": "185 mm².", "isCorrect": false, "explanation": "Corresponde a fases de 400 mm² en red aérea." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-31",
+    "type": "simple",
+    "question": "Para red subterránea TN con fase de 400 mm², la sección nominal del neutro será:",
+    "options": [
+      { "id": 1, "answer": "120 mm².", "isCorrect": false, "explanation": "Corresponde a fases de 240 mm² en red subterránea." },
+      { "id": 2, "answer": "150 mm².", "isCorrect": false, "explanation": "Corresponde a fases de 300 mm² en red subterránea." },
+      { "id": 3, "answer": "185 mm².", "isCorrect": true, "explanation": "Para Redes subterráneas con fase de 400, la sección del neutro será de 185 mm²[cite: 1]." },
+      { "id": 4, "answer": "240 mm².", "isCorrect": false, "explanation": "Sección superior a la mínima requerida para este calibre." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-32",
+    "type": "simple",
+    "question": "¿Qué precaución de instalación debe tener el neutro en líneas aéreas TN?",
+    "options": [
+      { "id": 1, "answer": "Debe ir siempre aislado con recubrimiento rojo.", "isCorrect": false, "explanation": "La ITC no exige un color de identificación específico en este apartado." },
+      { "id": 2, "answer": "Se tenderá con las mismas precauciones que los conductores de fase.", "isCorrect": true, "explanation": "En las líneas aéreas, el conductor neutro se tenderá con las mismas precauciones que las fases[cite: 1]." },
+      { "id": 3, "answer": "Debe estar separado al menos 1 metro de las fases.", "isCorrect": false, "explanation": "Debe seguir las distancias habituales de diseño de redes aéreas." },
+      { "id": 4, "answer": "Debe ir directamente enterrado.", "isCorrect": false, "explanation": "Si se trata de una línea aérea, su instalación no es enterrada." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-33",
+    "type": "simple",
+    "question": "¿En qué punto deben conectarse a tierra las líneas TN si superan los 200 m?",
+    "options": [
+      { "id": 1, "answer": "En cada poste o arqueta.", "isCorrect": false, "explanation": "No se establece la obligación de conexión en todos los soportes." },
+      { "id": 2, "answer": "Únicamente en el cuadro de contadores.", "isCorrect": false, "explanation": "La norma regula la red de distribución general, no solo el punto de consumo." },
+      { "id": 3, "answer": "En los extremos cuando la longitud sea superior a 200 metros.", "isCorrect": true, "explanation": "Serán puestos a tierra igualmente en los extremos cuando la longitud sea superior a 200 m[cite: 1]." },
+      { "id": 4, "answer": "Cada 50 metros exactamente.", "isCorrect": false, "explanation": "La condición reglamentaria se basa en el extremo de líneas largas." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-34",
+    "type": "simple",
+    "question": "¿Cuál es la resistencia máxima de tierra del neutro cerca del transformador en TN?",
+    "options": [
+      { "id": 1, "answer": "2 ohmios.", "isCorrect": false, "explanation": "Este es el valor límite para la resistencia global de todas las tomas." },
+      { "id": 2, "answer": "5 ohmios.", "isCorrect": true, "explanation": "La resistencia de tierra del neutro no será superior a 5 ohmios en las proximidades del transformador[cite: 1]." },
+      { "id": 3, "answer": "10 ohmios.", "isCorrect": false, "explanation": "Valor superior al límite máximo permitido por la instrucción." },
+      { "id": 4, "answer": "20 ohmios.", "isCorrect": false, "explanation": "Valor superior al límite máximo permitido por la instrucción." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-35",
+    "type": "simple",
+    "question": "¿Dónde más es exigible la resistencia máxima de 5 ohmios para el neutro en red TN?",
+    "options": [
+      { "id": 1, "answer": "En el interior de las viviendas.", "isCorrect": false, "explanation": "La ITC-BT-08 regula las redes de distribución, no las instalaciones interiores." },
+      { "id": 2, "answer": "En las derivaciones individuales de los edificios.", "isCorrect": false, "explanation": "Aplica a las redes de distribución, no a los tramos de enlace del edificio." },
+      { "id": 3, "answer": "En los 200 últimos metros de cualquier derivación de la red.", "isCorrect": true, "explanation": "Es exigible en las proximidades del CT y en los 200 últimos metros de cualquier derivación[cite: 1]." },
+      { "id": 4, "answer": "En los primeros 50 metros desde el transformador.", "isCorrect": false, "explanation": "La limitación se aplica específicamente en los tramos finales indicados." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-36",
+    "type": "simple",
+    "question": "En esquema TN, ¿qué resistencia global de tierra no debe superar los 2 ohmios?",
+    "options": [
+      { "id": 1, "answer": "La resistencia individual del poste más alejado.", "isCorrect": false, "explanation": "Esta toma individual puede tener un valor de hasta 5 ohmios." },
+      { "id": 2, "answer": "La resistencia de la jabalina del transformador.", "isCorrect": false, "explanation": "De forma aislada puede ser de hasta 5 ohmios." },
+      { "id": 3, "answer": "La resistencia global de todas las tomas de tierra del neutro en paralelo.", "isCorrect": true, "explanation": "La resistencia global de tierra de todas las tomas del neutro no será superior a 2 ohmios[cite: 1]." },
+      { "id": 4, "answer": "La resistencia del propio conductor CPN.", "isCorrect": false, "explanation": "No se refiere a la impedancia del cable, sino a la conexión con el terreno." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-37",
+    "type": "simple",
+    "question": "En una red de distribución TN-C, ¿cómo deben conectarse las masas receptoras?",
+    "options": [
+      { "id": 1, "answer": "Directamente a picas de tierra locales independientes.", "isCorrect": false, "explanation": "Esta configuración transformaría el sistema en un esquema TT." },
+      { "id": 2, "answer": "Al conductor neutro mediante conductores de protección.", "isCorrect": true, "explanation": "En el esquema TN-C, las masas deberán conectarse al conductor neutro mediante conductores de protección[cite: 1]." },
+      { "id": 3, "answer": "Directamente a las fases mediante impedancias.", "isCorrect": false, "explanation": "Provocaría un cortocircuito o la presencia de tensión peligrosa en la masa." },
+      { "id": 4, "answer": "Quedarán aisladas galvánicamente de la instalación.", "isCorrect": false, "explanation": "Invalida el principio de seguridad contra contactos indirectos del esquema." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-38",
+    "type": "simple",
+    "question": "En esquema TN, ¿qué protección despeja un fallo fase-masa franco?",
+    "options": [
+      { "id": 1, "answer": "La protección contra sobretensiones transitorias.", "isCorrect": false, "explanation": "Un cortocircuito a tierra no es despejado por un descargador de picos de tensión." },
+      { "id": 2, "answer": "La protección contra sobreintensidades (automático o fusible).", "isCorrect": true, "explanation": "Como el defecto fase-masa es un cortocircuito, las protecciones contra sobreintensidades actuarán[cite: 1]." },
+      { "id": 3, "answer": "Un relé de control de asimetría de fases.", "isCorrect": false, "explanation": "No constituye el mecanismo principal para el despeje de fallos metálicos." },
+      { "id": 4, "answer": "Ninguna, el fallo no representa peligro.", "isCorrect": false, "explanation": "La corriente de cortocircuito es destructiva y genera riesgo de choque eléctrico." }
+    ]
+  },
+  {
+    "id": "ITC-BT-08-39",
+    "type": "simple",
+    "question": "¿Cuál es el objetivo principal de definir correctamente el esquema (ITC-BT-08)?",
+    "options": [
+      { "id": 1, "answer": "Reducir las pérdidas de energía en los conductores.", "isCorrect": false, "explanation": "La eficiencia energética no es el objeto de esta instrucción técnica." },
+      { "id": 2, "answer": "Determinar medidas de protección contra choques eléctricos y sobreintensidades.", "isCorrect": true, "explanation": "Sirve para la determinación de medidas de protección contra choques eléctricos y contra sobreintensidades[cite: 1]." },
+      { "id": 3, "answer": "Mitigar interferencias electromagnéticas de alta frecuencia.", "isCorrect": false, "explanation": "Es un objetivo de compatibilidad electromagnética ajeno al núcleo de esta ITC." },
+      { "id": 4, "answer": "Eliminar armónicos en la red pública.", "isCorrect": false, "explanation": "Los esquemas de conexión no tienen como función primaria la mitigación de armónicos." }
+    ]
+  }
+]
