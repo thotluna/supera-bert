@@ -162,7 +162,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             expiresAt: currentExpiresAt ? currentExpiresAt + 3000 : null,
             isFinished: false,
           });
-        }, 5000);
+        }, 3000);
       },
 
       skipQuestion: () => {
@@ -204,7 +204,6 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           isFinished: true,
           expiresAt: null, // Evitamos que timers huérfanos se activen
           startTime: null,
-          currentQuestion: null,
         });
 
         await saveAndRedirect(snapshot);
