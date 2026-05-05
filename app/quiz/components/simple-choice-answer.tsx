@@ -37,7 +37,7 @@ export function SimpleChoiceAnswers() {
               />
 
               <div className="flex items-center gap-3">
-                <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all duration-200 ${isSelected ? 'border-accent bg-accent/20' : 'border-foreground/20'}`}>
+                <div className={`shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all duration-200 ${isSelected ? 'border-accent bg-accent/20' : 'border-foreground/20'}`}>
                   <div className={`w-2.5 h-2.5 rounded-full bg-accent transition-transform duration-200 ${isSelected ? 'scale-100' : 'scale-0'}`} />
                 </div>
 

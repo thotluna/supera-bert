@@ -56,3 +56,8 @@
 - [x] Etapa 3: Refactorizar `quiz-store.ts` para validación síncrona local
 - [x] Etapa 4: Eliminar Server Action `validate-answer.ts`
 - [x] Etapa 5: Implementar validación de integridad en `saveAndRedirect`
+
+# Correcciones de UI/UX
+
+- [x] Corregir deformación de círculos de opciones en móvil (Issue #21)
+
