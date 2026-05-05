@@ -25,6 +25,7 @@
 - [x] Sincronizar mocks de Quizzes, Answers y Questions para cubrir todos los escenarios de resultados
 - [x] Instalar y configurar Storybook con addons de accesibilidad (`a11y`) y esenciales
 - [x] Configurar Storybook para soportar Next.js, Tailwind v4 y tokens semánticos (CSS variables)
+- [x] Implementar primer componente atómico (`Button`) y su historia en Storybook
 
 # Configuración del Quiz (UX/UI Premium)
 
