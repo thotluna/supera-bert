@@ -107,6 +107,9 @@
 # Generación de Datos (ITCs)
 
 - [x] Extraer y formatear datos de ITC-BT-10 (100/100 preguntas)
+- [x] Cargar y limpiar contenido de ITC-BT-20 al ITC-BT-32
+- [x] Generar 100 preguntas para ITC-BT-22 al ITC-BT-32 basadas en el PDF
+- [x] Sincronizar manifiesto de datos (31 tópicos registrados)
 
 # Despliegue y Producción (Vercel Fixes)
 

@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "quiz-itc-bt-32",
+    "itc": "ITC-BT-32",
+    "questions": [
+      {
+        "id": "ITC-BT-32-01",
+        "question": "¿A qué tipo de máquinas se aplica la ITC-BT-32?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aparatos de elevación y transporte, como grúas, puentes-grúa, montacargas, etc.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1 establece que se aplica a las instalaciones eléctricas de estos aparatos. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Solo a ascensores de personas en edificios de viviendas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los ascensores de personas tienen su propia normativa específica (ITC-AEM 1)."
+          },
+          {
+            "id": 3,
+            "answer": "Solo a cintas transportadoras de minería.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es más general para elevación y transporte."
+          },
+          {
+            "id": 4,
+            "answer": "A cualquier máquina industrial con motor eléctrico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-02",
+        "question": "¿Qué grado de protección mínimo deben tener los anillos colectores o barras de alimentación si están después de los interruptores de desconexión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 4.1 exige al menos IP2X contra contacto directo no intencionado. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 3,
+            "answer": "IP44.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-03",
+        "question": "¿Se permite el uso de los carriles de rodadura como conductor de protección (tierra)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se garantiza la continuidad eléctrica mediante puentes flexibles.",
+            "isCorrect": true,
+            "explanation": "Correcto. Los carriles pueden usarse como conductores de protección si se asegura la continuidad en las juntas. Fuente: ITC-BT-32, apartado 3.2."
+          },
+          {
+            "id": 2,
+            "answer": "No, está estrictamente prohibido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la tensión es inferior a 50 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, sin necesidad de ninguna medida adicional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-04",
+        "question": "¿Cómo debe ser el interruptor de desconexión para mantenimiento mecánico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Unipolar.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "De corte omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 4.1 exige corte omnipolar para asegurar la desconexión total de la máquina. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 3,
+            "answer": "Solo de mando a distancia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier fusible es válido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-05",
+        "question": "¿Qué requisitos debe cumplir el dispositivo de parada de emergencia (seta)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser de color rojo sobre fondo amarillo.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la codificación estándar de seguridad. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe interrumpir todos los movimientos peligrosos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es su función principal. Fuente: ITC-BT-32, apartado 4.2."
+          },
+          {
+            "id": 3,
+            "answer": "Debe ser de rearme manual.",
+            "isCorrect": true,
+            "explanation": "Correcto. No debe reanudarse el movimiento solo por soltar el botón. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar oculto para evitar pulsaciones accidentales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe ser fácilmente accesible."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-32-06",
+        "question": "¿Qué protección es obligatoria contra la caída de tensión en máquinas de elevación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un dispositivo que impida el arranque automático al restablecerse la tensión.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar arranques imprevistos peligrosos tras un corte de suministro. Fuente: ITC-BT-32, apartado 3.3."
+          },
+          {
+            "id": 2,
+            "answer": "Un sistema de baterías que mantenga el movimiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No es necesaria ninguna protección específica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un pararrayos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-07",
+        "question": "En motores con frenado por contracorriente, ¿qué medida debe tomarse ante un fallo de fase?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe producirse el frenado mecánico inmediato.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la carga caiga sin control. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe avisarse mediante una sirena.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente)."
+          },
+          {
+            "id": 3,
+            "answer": "El motor debe seguir funcionando con dos fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No afecta al funcionamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-08",
+        "question": "¿Qué función tienen los interruptores de final de carrera?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitar el recorrido de los elementos móviles para evitar choques.",
+            "isCorrect": true,
+            "explanation": "Correcto. Son dispositivos de seguridad fundamentales. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Regular la velocidad del motor.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Pesar la carga.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Contar el número de ciclos de trabajo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-09",
+        "question": "¿Qué elementos deben estar conectados a la red de tierra en una grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La estructura metálica de la grúa.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "La cabina de mando (si es metálica).",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 3,
+            "answer": "Los carriles de rodadura.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 4,
+            "answer": "El gancho de carga.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (suele estar aislado por el cable o poleas, aunque no es obligatorio conectarlo permanentemente)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-32-10",
+        "question": "¿Cuál es la tensión máxima de seguridad permitida para los circuitos de mando portátiles (botoneras colgantes)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50 V.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se recomienda el uso de tensiones de seguridad para botoneras accesibles al operario. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "400 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "1000 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-11",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-12",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-13",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-14",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-15",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-16",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-17",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-18",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-19",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-20",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-21",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-22",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-23",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-24",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-25",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-26",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-27",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-28",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-29",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-30",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-31",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-32",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-33",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-34",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-35",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-36",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-37",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-38",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-39",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-40",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-41",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-42",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-43",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-44",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-45",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-46",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-47",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-48",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-49",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-50",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-51",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-52",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-53",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-54",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-55",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-56",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-57",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-58",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-59",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-60",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-61",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-62",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-63",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-64",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-65",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-66",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-67",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-68",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-69",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-70",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-71",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-72",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-73",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-74",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-75",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-76",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-77",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-78",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-79",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-80",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-81",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-82",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-83",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-84",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-85",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-86",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-87",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-88",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-89",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-90",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-91",
+        "question": "¿Cómo deben instalarse los conductores flexibles que alimentan un carro móvil (tipo festón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sujetos mediante carros o anillas que se deslicen sobre un cable o carril.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar esfuerzos de tracción sobre el cobre. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Colgando libremente sin ningún soporte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo tubo rígido de acero.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (impediría el movimiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Enterrados en el suelo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-92",
+        "question": "¿Qué conductores debe interrumpir el interruptor general de la grúa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todas las fases y el neutro (si existe).",
+            "isCorrect": true,
+            "explanation": "Correcto. El corte debe ser omnipolar. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "Solo las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo el conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (la tierra NO se corta)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-93",
+        "question": "¿Qué debe indicarse en los aparatos de maniobra de la máquina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Su función de forma clara y duradera (ej. SUBIR, BAJAR).",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar errores de maniobra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "El nombre del fabricante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El precio de la máquina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesaria ninguna identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-94",
+        "question": "Para usar los carriles como conductor de protección, ¿qué se requiere en las juntas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puentes de cobre flexibles u otros medios que aseguren la continuidad.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que la oxidación o el juego mecánico rompan la tierra. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica obligatoria.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Basta con los tornillos de la junta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden usar los carriles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (sí se pueden si se cumplen condiciones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-95",
+        "question": "¿Es obligatorio proteger cada motor individualmente contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cada motor debe tener su propia protección térmica.",
+            "isCorrect": true,
+            "explanation": "Correcto. Salvo excepciones muy justificadas por continuidad de servicio crítico. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "No, basta con una protección general para toda la grúa.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el motor es de más de 50 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-96",
+        "question": "¿Qué seguridad mecánica debe tener una botonera colgante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cable de acero o cadena que soporte los esfuerzos de tracción, aliviando al cable eléctrico.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para evitar que se rompan los conductores eléctricos por tirones. Fuente: ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de plomo para que pese.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere ninguna medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar pegada a la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-97",
+        "question": "En mandos por radio control, ¿qué ocurre si se pierde la señal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La máquina debe detenerse de forma segura inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad ante fallos de comunicación. Fuente: ITC-BT-32 / Normas de seguridad de máquinas."
+          },
+          {
+            "id": 2,
+            "answer": "La máquina sigue el último movimiento ordenado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (muy peligroso)."
+          },
+          {
+            "id": 3,
+            "answer": "Se activa una luz de aviso pero sigue funcionando.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La máquina vuelve sola a su posición inicial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-98",
+        "question": "¿Cuál es la protección mínima exigida contra contactos directos en cuadros de maniobra abiertos para mantenimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IP2X.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para proteger contra dedos o herramientas pequeñas durante ajustes. Fuente: ITC-BT-32, apartado 4.1."
+          },
+          {
+            "id": 2,
+            "answer": "IP00.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Capa de barniz aislante solamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-99",
+        "question": "¿Qué dispositivo protege a la máquina contra el levantamiento de cargas superiores a su capacidad nominal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limitador de carga o par.",
+            "isCorrect": true,
+            "explanation": "Correcto. Dispositivo electromecánico que corta la elevación si hay sobrecarga. Fuente: Normativa de grúas vinculada a ITC-BT-32."
+          },
+          {
+            "id": 2,
+            "answer": "Un fusible rápido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "El operario visualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Un contrapeso de hormigón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es un elemento de equilibrio, no de corte)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-32-100",
+        "question": "Las barras colectoras de alimentación deben estar dispuestas de modo que:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sea imposible el contacto accidental con personas u objetos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por diseño o ubicación. Fuente: ITC-BT-32, apartado 3.1."
+          },
+          {
+            "id": 2,
+            "answer": "Estén siempre pintadas de azul.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Sean de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Estén al alcance de la mano para limpieza.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (deben estar fuera del alcance)."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]
