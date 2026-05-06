@@ -2,12 +2,32 @@
   {
     "id": "ITC-BT-16-01",
     "type": "simple",
-    "question": "Según la ITC-BT-16, ¿en qué elementos pueden estar ubicados los contadores?",
+    "question": "¿En qué elementos pueden estar ubicados los contadores?",
     "options": [
-      { "id": 1, "answer": "Únicamente en armarios metálicos.", "isCorrect": false, "explanation": "La norma no restringe la ubicación únicamente a armarios metálicos." },
-      { "id": 2, "answer": "En módulos, paneles o armarios.", "isCorrect": true, "explanation": "El apartado 1 de 'Generalidades' indica textualmente que podrán estar ubicados en módulos (cajas con tapas precintables), paneles o armarios[cite: 1]." },
-      { "id": 3, "answer": "Directamente atornillados a la pared sin envolvente.", "isCorrect": false, "explanation": "Requieren conjuntos que cumplan normativas UNE específicas y no pueden ir sin envolvente." },
-      { "id": 4, "answer": "En bandejas de cables colgantes.", "isCorrect": false, "explanation": "Las bandejas no son envolventes válidas para albergar equipos de medida según la norma." }
+      {
+        "id": 1,
+        "answer": "Únicamente en armarios metálicos.",
+        "isCorrect": false,
+        "explanation": "La norma no restringe la ubicación únicamente a armarios metálicos."
+      },
+      {
+        "id": 2,
+        "answer": "En módulos, paneles o armarios.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-16, el apartado 1 de 'Generalidades' indica textualmente que podrán estar ubicados en módulos (cajas con tapas precintables), paneles o armarios[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Directamente atornillados a la pared sin envolvente.",
+        "isCorrect": false,
+        "explanation": "Requieren conjuntos que cumplan normativas UNE específicas y no pueden ir sin envolvente."
+      },
+      {
+        "id": 4,
+        "answer": "En bandejas de cables colgantes.",
+        "isCorrect": false,
+        "explanation": "Las bandejas no son envolventes válidas para albergar equipos de medida según la norma."
+      }
     ]
   },
   {
@@ -15,10 +35,30 @@
     "type": "simple",
     "question": "¿Qué norma UNE deben cumplir los conjuntos de módulos o armarios para contadores?",
     "options": [
-      { "id": 1, "answer": "UNE-EN 60.439 partes 1, 2 y 3.", "isCorrect": true, "explanation": "El apartado 1 especifica que constituirán conjuntos que deberán cumplir la norma UNE-EN 60.439 partes 1, 2 y 3[cite: 1]." },
-      { "id": 2, "answer": "UNE 20.324.", "isCorrect": false, "explanation": "Esta es la norma que rige los grados de protección IP." },
-      { "id": 3, "answer": "UNE-EN 50.102.", "isCorrect": false, "explanation": "Esta es la norma que rige los grados de protección contra impactos (IK)." },
-      { "id": 4, "answer": "NBE-CPI-96.", "isCorrect": false, "explanation": "Esta norma rige la protección contra incendios de los locales, no de los conjuntos eléctricos." }
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.439 partes 1, 2 y 3.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 especifica que constituirán conjuntos que deberán cumplir la norma UNE-EN 60.439 partes 1, 2 y 3[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "UNE 20.324.",
+        "isCorrect": false,
+        "explanation": "Esta es la norma que rige los grados de protección IP."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 50.102.",
+        "isCorrect": false,
+        "explanation": "Esta es la norma que rige los grados de protección contra impactos (IK)."
+      },
+      {
+        "id": 4,
+        "answer": "NBE-CPI-96.",
+        "isCorrect": false,
+        "explanation": "Esta norma rige la protección contra incendios de los locales, no de los conjuntos eléctricos."
+      }
     ]
   },
   {
@@ -26,10 +66,30 @@
     "type": "simple",
     "question": "Para instalaciones de tipo INTERIOR, ¿cuál es el grado IP mínimo exigido?",
     "options": [
-      { "id": 1, "answer": "IP30", "isCorrect": false, "explanation": "Este valor no alcanza el grado de protección mínimo exigido para interiores." },
-      { "id": 2, "answer": "IP40", "isCorrect": true, "explanation": "El apartado 1 establece textualmente para instalaciones de tipo interior el grado IP40[cite: 1]." },
-      { "id": 3, "answer": "IP43", "isCorrect": false, "explanation": "Este es el grado de protección mínimo exigido para instalaciones de tipo exterior." },
-      { "id": 4, "answer": "IP55", "isCorrect": false, "explanation": "Aunque es un grado superior, el mínimo reglamentario para interiores es IP40." }
+      {
+        "id": 1,
+        "answer": "IP30",
+        "isCorrect": false,
+        "explanation": "Este valor no alcanza el grado de protección mínimo exigido para interiores."
+      },
+      {
+        "id": 2,
+        "answer": "IP40",
+        "isCorrect": true,
+        "explanation": "El apartado 1 establece textualmente para instalaciones de tipo interior el grado IP40[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "IP43",
+        "isCorrect": false,
+        "explanation": "Este es el grado de protección mínimo exigido para instalaciones de tipo exterior."
+      },
+      {
+        "id": 4,
+        "answer": "IP55",
+        "isCorrect": false,
+        "explanation": "Aunque es un grado superior, el mínimo reglamentario para interiores es IP40."
+      }
     ]
   },
   {
@@ -37,10 +97,30 @@
     "type": "simple",
     "question": "¿Cuál es el grado IK mínimo exigido para los conjuntos de medida?",
     "options": [
-      { "id": 1, "answer": "IK 07", "isCorrect": false, "explanation": "Grado de protección insuficiente según las especificaciones de la norma." },
-      { "id": 2, "answer": "IK 08", "isCorrect": false, "explanation": "Este es el valor para las CGP, pero no alcanza el mínimo exigido para conjuntos de medida." },
-      { "id": 3, "answer": "IK 09", "isCorrect": true, "explanation": "El apartado 1 exige el grado IK 09 tanto para instalaciones de tipo interior como exterior[cite: 1]." },
-      { "id": 4, "answer": "IK 10", "isCorrect": false, "explanation": "Aunque ofrece mayor seguridad, el límite legal mínimo establecido es IK 09." }
+      {
+        "id": 1,
+        "answer": "IK 07",
+        "isCorrect": false,
+        "explanation": "Grado de protección insuficiente según las especificaciones de la norma."
+      },
+      {
+        "id": 2,
+        "answer": "IK 08",
+        "isCorrect": false,
+        "explanation": "Este es el valor para las CGP, pero no alcanza el mínimo exigido para conjuntos de medida."
+      },
+      {
+        "id": 3,
+        "answer": "IK 09",
+        "isCorrect": true,
+        "explanation": "El apartado 1 exige el grado IK 09 tanto para instalaciones de tipo interior como exterior[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "IK 10",
+        "isCorrect": false,
+        "explanation": "Aunque ofrece mayor seguridad, el límite legal mínimo establecido es IK 09."
+      }
     ]
   },
   {
@@ -48,10 +128,30 @@
     "type": "simple",
     "question": "Para instalaciones de tipo EXTERIOR, ¿cuál es el grado IP mínimo exigido?",
     "options": [
-      { "id": 1, "answer": "IP40", "isCorrect": false, "explanation": "Este es el grado exigido para interiores, insuficiente para la intemperie." },
-      { "id": 2, "answer": "IP43", "isCorrect": true, "explanation": "El apartado 1 exige específicamente para instalaciones de tipo exterior el grado IP43[cite: 1]." },
-      { "id": 3, "answer": "IP54", "isCorrect": false, "explanation": "Valor que supera el requerimiento mínimo normativo." },
-      { "id": 4, "answer": "IP65", "isCorrect": false, "explanation": "Valor que excede significativamente el requerimiento reglamentario mínimo." }
+      {
+        "id": 1,
+        "answer": "IP40",
+        "isCorrect": false,
+        "explanation": "Este es el grado exigido para interiores, insuficiente para la intemperie."
+      },
+      {
+        "id": 2,
+        "answer": "IP43",
+        "isCorrect": true,
+        "explanation": "El apartado 1 exige específicamente para instalaciones de tipo exterior el grado IP43[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "IP54",
+        "isCorrect": false,
+        "explanation": "Valor que supera el requerimiento mínimo normativo."
+      },
+      {
+        "id": 4,
+        "answer": "IP65",
+        "isCorrect": false,
+        "explanation": "Valor que excede significativamente el requerimiento reglamentario mínimo."
+      }
     ]
   },
   {
@@ -59,10 +159,30 @@
     "type": "simple",
     "question": "¿Qué característica deben tener las partes transparentes para lectura directa?",
     "options": [
-      { "id": 1, "answer": "Deben ser de cristal templado obligatoriamente.", "isCorrect": false, "explanation": "La norma permite materiales plásticos, no obliga al cristal templado." },
-      { "id": 2, "answer": "Deben tener efecto lupa.", "isCorrect": false, "explanation": "No existe un requerimiento de aumento óptico en el reglamento." },
-      { "id": 3, "answer": "Deben ser resistentes a los rayos ultravioleta.", "isCorrect": true, "explanation": "El apartado 1 indica que las partes transparentes de lectura directa deben ser resistentes a los rayos ultravioleta[cite: 1]." },
-      { "id": 4, "answer": "Deben ser oscurecidas.", "isCorrect": false, "explanation": "Oscurecerlas dificultaría la función de lectura directa exigida por la norma." }
+      {
+        "id": 1,
+        "answer": "Deben ser de cristal templado obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "La norma permite materiales plásticos, no obliga al cristal templado."
+      },
+      {
+        "id": 2,
+        "answer": "Deben tener efecto lupa.",
+        "isCorrect": false,
+        "explanation": "No existe un requerimiento de aumento óptico en el reglamento."
+      },
+      {
+        "id": 3,
+        "answer": "Deben ser resistentes a los rayos ultravioleta.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 indica que las partes transparentes de lectura directa deben ser resistentes a los rayos ultravioleta[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ser oscurecidas.",
+        "isCorrect": false,
+        "explanation": "Oscurecerlas dificultaría la función de lectura directa exigida por la norma."
+      }
     ]
   },
   {
@@ -70,10 +190,30 @@
     "type": "simple",
     "question": "¿Qué disposición deben tener los armarios para evitar condensaciones internas?",
     "options": [
-      { "id": 1, "answer": "Resistencias calefactoras internas.", "isCorrect": false, "explanation": "La normativa técnica no exige el uso de calefacción eléctrica para este fin." },
-      { "id": 2, "answer": "Ventilación interna sin disminuir su grado de protección.", "isCorrect": true, "explanation": "El apartado 1 establece que deberán disponer de ventilación interna para evitar condensaciones[cite: 1]." },
-      { "id": 3, "answer": "Gel de sílice en el interior.", "isCorrect": false, "explanation": "El reglamento no contempla el uso de desecantes químicos como método de prevención." },
-      { "id": 4, "answer": "Cierre al vacío.", "isCorrect": false, "explanation": "Estos conjuntos de medida no se diseñan ni se instalan sellados al vacío." }
+      {
+        "id": 1,
+        "answer": "Resistencias calefactoras internas.",
+        "isCorrect": false,
+        "explanation": "La normativa técnica no exige el uso de calefacción eléctrica para este fin."
+      },
+      {
+        "id": 2,
+        "answer": "Ventilación interna sin disminuir su grado de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 establece que deberán disponer de ventilación interna para evitar condensaciones[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Gel de sílice en el interior.",
+        "isCorrect": false,
+        "explanation": "El reglamento no contempla el uso de desecantes químicos como método de prevención."
+      },
+      {
+        "id": 4,
+        "answer": "Cierre al vacío.",
+        "isCorrect": false,
+        "explanation": "Estos conjuntos de medida no se diseñan ni se instalan sellados al vacío."
+      }
     ]
   },
   {
@@ -81,10 +221,30 @@
     "type": "simple",
     "question": "¿Dónde se ubican los fusibles de seguridad respecto al contador?",
     "options": [
-      { "id": 1, "answer": "Después del contador (aguas abajo).", "isCorrect": false, "explanation": "Si estuvieran después, el contador quedaría desprotegido ante fallos internos." },
-      { "id": 2, "answer": "Dentro de la vivienda del abonado.", "isCorrect": false, "explanation": "Los fusibles de seguridad protegen el inicio de la derivación individual, no el interior del local." },
-      { "id": 3, "answer": "En el Centro de Transformación.", "isCorrect": false, "explanation": "En el CT se ubican las protecciones de la red de distribución pública." },
-      { "id": 4, "answer": "Antes del contador y en cada hilo de fase o polar.", "isCorrect": true, "explanation": "La norma indica que se instalarán antes del contador y en cada uno de los hilos de fase que van al mismo[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "Después del contador (aguas abajo).",
+        "isCorrect": false,
+        "explanation": "Si estuvieran después, el contador quedaría desprotegido ante fallos internos."
+      },
+      {
+        "id": 2,
+        "answer": "Dentro de la vivienda del abonado.",
+        "isCorrect": false,
+        "explanation": "Los fusibles de seguridad protegen el inicio de la derivación individual, no el interior del local."
+      },
+      {
+        "id": 3,
+        "answer": "En el Centro de Transformación.",
+        "isCorrect": false,
+        "explanation": "En el CT se ubican las protecciones de la red de distribución pública."
+      },
+      {
+        "id": 4,
+        "answer": "Antes del contador y en cada hilo de fase o polar.",
+        "isCorrect": true,
+        "explanation": "La norma indica que se instalarán antes del contador y en cada uno de los hilos de fase que van al mismo[cite: 1]."
+      }
     ]
   },
   {
@@ -92,10 +252,30 @@
     "type": "simple",
     "question": "¿Quién es el responsable de colocar los precintos en los fusibles de seguridad?",
     "options": [
-      { "id": 1, "answer": "El instalador electricista.", "isCorrect": false, "explanation": "El instalador realiza la obra, pero el precinto de control de fraude es de la distribuidora." },
-      { "id": 2, "answer": "La empresa distribuidora.", "isCorrect": true, "explanation": "El apartado 1 dictamina que los fusibles de seguridad estarán precintados por la empresa distribuidora[cite: 1]." },
-      { "id": 3, "answer": "El usuario.", "isCorrect": false, "explanation": "El usuario no tiene potestad legal para colocar precintos oficiales de medida." },
-      { "id": 4, "answer": "El Ministerio de Industria.", "isCorrect": false, "explanation": "El Ministerio legisla, pero la ejecución del precinto recae en la distribuidora." }
+      {
+        "id": 1,
+        "answer": "El instalador electricista.",
+        "isCorrect": false,
+        "explanation": "El instalador realiza la obra, pero el precinto de control de fraude es de la distribuidora."
+      },
+      {
+        "id": 2,
+        "answer": "La empresa distribuidora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 dictamina que los fusibles de seguridad estarán precintados por la empresa distribuidora[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "El usuario.",
+        "isCorrect": false,
+        "explanation": "El usuario no tiene potestad legal para colocar precintos oficiales de medida."
+      },
+      {
+        "id": 4,
+        "answer": "El Ministerio de Industria.",
+        "isCorrect": false,
+        "explanation": "El Ministerio legisla, pero la ejecución del precinto recae en la distribuidora."
+      }
     ]
   },
   {
@@ -103,10 +283,30 @@
     "type": "simple",
     "question": "Como norma general, ¿cuál es la sección de los cables que unen embarrado y contadores?",
     "options": [
-      { "id": 1, "answer": "1,5 mm2", "isCorrect": false, "explanation": "Es una sección demasiado baja, reservada habitualmente para el hilo de mando." },
-      { "id": 2, "answer": "2,5 mm2", "isCorrect": false, "explanation": "Valor inferior al estándar mínimo de seguridad para estas conexiones." },
-      { "id": 3, "answer": "4 mm2", "isCorrect": false, "explanation": "No es la sección mínima reglamentada para este tramo de la centralización." },
-      { "id": 4, "answer": "6 mm2", "isCorrect": true, "explanation": "El apartado 1 señala que los cables serán de 6 mm2 de sección como norma general[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "1,5 mm2",
+        "isCorrect": false,
+        "explanation": "Es una sección demasiado baja, reservada habitualmente para el hilo de mando."
+      },
+      {
+        "id": 2,
+        "answer": "2,5 mm2",
+        "isCorrect": false,
+        "explanation": "Valor inferior al estándar mínimo de seguridad para estas conexiones."
+      },
+      {
+        "id": 3,
+        "answer": "4 mm2",
+        "isCorrect": false,
+        "explanation": "No es la sección mínima reglamentada para este tramo de la centralización."
+      },
+      {
+        "id": 4,
+        "answer": "6 mm2",
+        "isCorrect": true,
+        "explanation": "El apartado 1 señala que los cables serán de 6 mm2 de sección como norma general[cite: 1]."
+      }
     ]
   },
   {
@@ -114,21 +314,61 @@
     "type": "simple",
     "question": "¿Qué tensión asignada deben tener los cables de alimentación del conjunto de medida?",
     "options": [
-      { "id": 1, "answer": "300/500 V", "isCorrect": false, "explanation": "Nivel de aislamiento insuficiente para esta parte crítica de la instalación." },
-      { "id": 2, "answer": "450/750 V", "isCorrect": true, "explanation": "El apartado 1 establece que los cables serán de una tensión asignada de 450/750 V[cite: 1]." },
-      { "id": 3, "answer": "0,6/1 kV", "isCorrect": false, "explanation": "Este nivel de aislamiento se exige para tramos de red externa como la LGA." },
-      { "id": 4, "answer": "12/20 kV", "isCorrect": false, "explanation": "Nivel de aislamiento propio de redes de media tensión." }
+      {
+        "id": 1,
+        "answer": "300/500 V",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento insuficiente para esta parte crítica de la instalación."
+      },
+      {
+        "id": 2,
+        "answer": "450/750 V",
+        "isCorrect": true,
+        "explanation": "El apartado 1 establece que los cables serán de una tensión asignada de 450/750 V[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "0,6/1 kV",
+        "isCorrect": false,
+        "explanation": "Este nivel de aislamiento se exige para tramos de red externa como la LGA."
+      },
+      {
+        "id": 4,
+        "answer": "12/20 kV",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento propio de redes de media tensión."
+      }
     ]
   },
   {
     "id": "ITC-BT-16-12",
     "type": "simple",
-    "question": "Según la ITC-BT-16, ¿cómo deben ser físicamente los conductores de cobre?",
+    "question": "¿Cómo deben ser físicamente los conductores de cobre?",
     "options": [
-      { "id": 1, "answer": "Clase 2 según norma UNE 21.022.", "isCorrect": true, "explanation": "El texto especifica el uso de conductores de cobre de clase 2 según UNE 21.022[cite: 1]." },
-      { "id": 2, "answer": "Rígidos macizos de clase 1.", "isCorrect": false, "explanation": "La norma exige clase 2, que corresponde a conductores cableados, no macizos." },
-      { "id": 3, "answer": "Trenzados y desnudos.", "isCorrect": false, "explanation": "Deben ser conductores aislados mediante procesos de extrusión." },
-      { "id": 4, "answer": "Flexibles clase 5 exclusivamente.", "isCorrect": false, "explanation": "No se requiere el uso de conductores de clase 5 de alta flexibilidad." }
+      {
+        "id": 1,
+        "answer": "Clase 2 según norma UNE 21.022.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-16, el texto especifica el uso de conductores de cobre de clase 2 según UNE 21.022[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Rígidos macizos de clase 1.",
+        "isCorrect": false,
+        "explanation": "La norma exige clase 2, que corresponde a conductores cableados, no macizos."
+      },
+      {
+        "id": 3,
+        "answer": "Trenzados y desnudos.",
+        "isCorrect": false,
+        "explanation": "Deben ser conductores aislados mediante procesos de extrusión."
+      },
+      {
+        "id": 4,
+        "answer": "Flexibles clase 5 exclusivamente.",
+        "isCorrect": false,
+        "explanation": "No se requiere el uso de conductores de clase 5 de alta flexibilidad."
+      }
     ]
   },
   {
@@ -136,10 +376,30 @@
     "type": "simple",
     "question": "¿Qué característica al fuego deben tener los cables de la centralización?",
     "options": [
-      { "id": 1, "answer": "Resistentes al fuego 120 minutos.", "isCorrect": false, "explanation": "No se exige la propiedad de mantener el servicio (RF) a estos cables." },
-      { "id": 2, "answer": "No propagadores del incendio y con opacidad reducida de humos.", "isCorrect": true, "explanation": "El apartado 1 indica que serán no propagadores con emisión de humos y opacidad reducida[cite: 1]." },
-      { "id": 3, "answer": "Deben estar envueltos en amianto.", "isCorrect": false, "explanation": "El amianto está prohibido y no forma parte de los requisitos del REBT." },
-      { "id": 4, "answer": "Intumescentes.", "isCorrect": false, "explanation": "La intumescencia no es una propiedad exigida para el aislamiento de estos conductores." }
+      {
+        "id": 1,
+        "answer": "Resistentes al fuego 120 minutos.",
+        "isCorrect": false,
+        "explanation": "No se exige la propiedad de mantener el servicio (RF) a estos cables."
+      },
+      {
+        "id": 2,
+        "answer": "No propagadores del incendio y con opacidad reducida de humos.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 indica que serán no propagadores con emisión de humos y opacidad reducida[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Deben estar envueltos en amianto.",
+        "isCorrect": false,
+        "explanation": "El amianto está prohibido y no forma parte de los requisitos del REBT."
+      },
+      {
+        "id": 4,
+        "answer": "Intumescentes.",
+        "isCorrect": false,
+        "explanation": "La intumescencia no es una propiedad exigida para el aislamiento de estos conductores."
+      }
     ]
   },
   {
@@ -147,10 +407,30 @@
     "type": "simple",
     "question": "¿Cuál es la sección y color obligatorios para el cable de mando y control?",
     "options": [
-      { "id": 1, "answer": "1,5 mm2 y color azul.", "isCorrect": false, "explanation": "El color azul se reserva exclusivamente para la identificación del neutro." },
-      { "id": 2, "answer": "2,5 mm2 y color verde.", "isCorrect": false, "explanation": "No cumple con los requisitos de sección ni con el código de color de mando." },
-      { "id": 3, "answer": "1,5 mm2 y color rojo.", "isCorrect": true, "explanation": "La norma dicta que su color será rojo y con una sección de 1,5 mm2[cite: 1]." },
-      { "id": 4, "answer": "6 mm2 y color rojo.", "isCorrect": false, "explanation": "La sección de 6 mm2 se aplica a potencia; el mando utiliza 1,5 mm2." }
+      {
+        "id": 1,
+        "answer": "1,5 mm2 y color azul.",
+        "isCorrect": false,
+        "explanation": "El color azul se reserva exclusivamente para la identificación del neutro."
+      },
+      {
+        "id": 2,
+        "answer": "2,5 mm2 y color verde.",
+        "isCorrect": false,
+        "explanation": "No cumple con los requisitos de sección ni con el código de color de mando."
+      },
+      {
+        "id": 3,
+        "answer": "1,5 mm2 y color rojo.",
+        "isCorrect": true,
+        "explanation": "La norma dicta que su color será rojo y con una sección de 1,5 mm2[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "6 mm2 y color rojo.",
+        "isCorrect": false,
+        "explanation": "La sección de 6 mm2 se aplica a potencia; el mando utiliza 1,5 mm2."
+      }
     ]
   },
   {
@@ -158,10 +438,30 @@
     "type": "simple",
     "question": "¿Se requiere usar terminales especiales en los bornes de la centralización?",
     "options": [
-      { "id": 1, "answer": "Sí, siempre punteras preaisladas.", "isCorrect": false, "explanation": "El reglamento exime explícitamente de la preparación especial de conductores." },
-      { "id": 2, "answer": "No requerirán preparación especial o terminales.", "isCorrect": true, "explanation": "El apartado 1 indica que las conexiones serán directas sin preparación especial o terminales[cite: 1]." },
-      { "id": 3, "answer": "Sí, deben soldarse obligatoriamente.", "isCorrect": false, "explanation": "La soldadura de estos conductores está descartada por los requisitos técnicos del texto." },
-      { "id": 4, "answer": "Sí, requieren terminales de ojal.", "isCorrect": false, "explanation": "No se requiere el uso de terminales de ojal para realizar estas conexiones." }
+      {
+        "id": 1,
+        "answer": "Sí, siempre punteras preaisladas.",
+        "isCorrect": false,
+        "explanation": "El reglamento exime explícitamente de la preparación especial de conductores."
+      },
+      {
+        "id": 2,
+        "answer": "No requerirán preparación especial o terminales.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 indica que las conexiones serán directas sin preparación especial o terminales[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, deben soldarse obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "La soldadura de estos conductores está descartada por los requisitos técnicos del texto."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, requieren terminales de ojal.",
+        "isCorrect": false,
+        "explanation": "No se requiere el uso de terminales de ojal para realizar estas conexiones."
+      }
     ]
   },
   {
@@ -169,10 +469,30 @@
     "type": "simple",
     "question": "¿Cuándo es aplicable la disposición de 'Colocación en forma individual'?",
     "options": [
-      { "id": 1, "answer": "Suministro a uno o dos usuarios alimentados desde un mismo lugar.", "isCorrect": true, "explanation": "Se utilizará sólo para suministros a un usuario independiente o a dos desde un mismo lugar[cite: 1]." },
-      { "id": 2, "answer": "Un edificio con máximo 4 viviendas.", "isCorrect": false, "explanation": "Para más de dos usuarios se utiliza habitualmente la colocación concentrada." },
-      { "id": 3, "answer": "Exclusivamente a chalets adosados.", "isCorrect": false, "explanation": "La norma no restringe el tipo de edificación para esta topología." },
-      { "id": 4, "answer": "Una industria con más de 100 kW.", "isCorrect": false, "explanation": "El criterio definitorio es el número de usuarios, no la potencia en baja tensión." }
+      {
+        "id": 1,
+        "answer": "Suministro a uno o dos usuarios alimentados desde un mismo lugar.",
+        "isCorrect": true,
+        "explanation": "Se utilizará sólo para suministros a un usuario independiente o a dos desde un mismo lugar[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Un edificio con máximo 4 viviendas.",
+        "isCorrect": false,
+        "explanation": "Para más de dos usuarios se utiliza habitualmente la colocación concentrada."
+      },
+      {
+        "id": 3,
+        "answer": "Exclusivamente a chalets adosados.",
+        "isCorrect": false,
+        "explanation": "La norma no restringe el tipo de edificación para esta topología."
+      },
+      {
+        "id": 4,
+        "answer": "Una industria con más de 100 kW.",
+        "isCorrect": false,
+        "explanation": "El criterio definitorio es el número de usuarios, no la potencia en baja tensión."
+      }
     ]
   },
   {
@@ -180,10 +500,30 @@
     "type": "simple",
     "question": "En colocación individual, ¿qué elemento agrupa fusibles, contador y mando?",
     "options": [
-      { "id": 1, "answer": "La Caja General de Protección (CGP).", "isCorrect": false, "explanation": "La CGP aloja únicamente fusibles de protección, no equipos de medida." },
-      { "id": 2, "answer": "La Caja de Protección y Medida (CPM).", "isCorrect": true, "explanation": "La CPM reúne bajo una misma envolvente los fusibles, el contador y el mando[cite: 1]." },
-      { "id": 3, "answer": "El Cuadro General de Mando y Protección.", "isCorrect": false, "explanation": "Este dispositivo se ubica en el interior de la propiedad del usuario." },
-      { "id": 4, "answer": "El Interruptor General de Maniobra.", "isCorrect": false, "explanation": "Se trata de un elemento de corte utilizado en centralizaciones colectivas." }
+      {
+        "id": 1,
+        "answer": "La Caja General de Protección (CGP).",
+        "isCorrect": false,
+        "explanation": "La CGP aloja únicamente fusibles de protección, no equipos de medida."
+      },
+      {
+        "id": 2,
+        "answer": "La Caja de Protección y Medida (CPM).",
+        "isCorrect": true,
+        "explanation": "La CPM reúne bajo una misma envolvente los fusibles, el contador y el mando[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "El Cuadro General de Mando y Protección.",
+        "isCorrect": false,
+        "explanation": "Este dispositivo se ubica en el interior de la propiedad del usuario."
+      },
+      {
+        "id": 4,
+        "answer": "El Interruptor General de Maniobra.",
+        "isCorrect": false,
+        "explanation": "Se trata de un elemento de corte utilizado en centralizaciones colectivas."
+      }
     ]
   },
   {
@@ -191,10 +531,30 @@
     "type": "simple",
     "question": "En las CPM de colocación individual, ¿qué ocurre con los fusibles?",
     "options": [
-      { "id": 1, "answer": "Se instalan duplicados en serie.", "isCorrect": false, "explanation": "Instalación redundante no contemplada ni necesaria en la normativa." },
-      { "id": 2, "answer": "No existen.", "isCorrect": false, "explanation": "Las protecciones mediante fusibles son obligatorias en este punto." },
-      { "id": 3, "answer": "Los de seguridad coinciden con los generales de protección.", "isCorrect": true, "explanation": "El apartado 2.1 especifica que en este caso ambos fusibles coinciden[cite: 1]." },
-      { "id": 4, "answer": "Se ubican en el interior de la vivienda.", "isCorrect": false, "explanation": "Deben situarse en la CPM exterior para proteger el enlace completo." }
+      {
+        "id": 1,
+        "answer": "Se instalan duplicados en serie.",
+        "isCorrect": false,
+        "explanation": "Instalación redundante no contemplada ni necesaria en la normativa."
+      },
+      {
+        "id": 2,
+        "answer": "No existen.",
+        "isCorrect": false,
+        "explanation": "Las protecciones mediante fusibles son obligatorias en este punto."
+      },
+      {
+        "id": 3,
+        "answer": "Los de seguridad coinciden con los generales de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 especifica que en este caso ambos fusibles coinciden[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Se ubican en el interior de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Deben situarse en la CPM exterior para proteger el enlace completo."
+      }
     ]
   },
   {
@@ -202,10 +562,30 @@
     "type": "simple",
     "question": "Para suministros de medida indirecta, ¿quién define la solución a adoptar?",
     "options": [
-      { "id": 1, "answer": "El Ministerio de Industria.", "isCorrect": false, "explanation": "El REBT delega esta decisión debido a la variabilidad técnica de los casos." },
-      { "id": 2, "answer": "Los requisitos particulares de la empresa suministradora.", "isCorrect": true, "explanation": "La solución será la que especifiquen los requisitos particulares de la distribuidora[cite: 1]." },
-      { "id": 3, "answer": "Exclusivamente el propietario del negocio.", "isCorrect": false, "explanation": "El usuario no tiene potestad para diseñar los equipos de tarificación de la red." },
-      { "id": 4, "answer": "El ayuntamiento correspondiente.", "isCorrect": false, "explanation": "La competencia técnica sobre la medida recae en la empresa distribuidora." }
+      {
+        "id": 1,
+        "answer": "El Ministerio de Industria.",
+        "isCorrect": false,
+        "explanation": "El REBT delega esta decisión debido a la variabilidad técnica de los casos."
+      },
+      {
+        "id": 2,
+        "answer": "Los requisitos particulares de la empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "La solución será la que especifiquen los requisitos particulares de la distribuidora[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Exclusivamente el propietario del negocio.",
+        "isCorrect": false,
+        "explanation": "El usuario no tiene potestad para diseñar los equipos de tarificación de la red."
+      },
+      {
+        "id": 4,
+        "answer": "El ayuntamiento correspondiente.",
+        "isCorrect": false,
+        "explanation": "La competencia técnica sobre la medida recae en la empresa distribuidora."
+      }
     ]
   },
   {
@@ -213,10 +593,30 @@
     "type": "simple",
     "question": "Si el contador está DENTRO de la vivienda, ¿quién responde del precinto?",
     "options": [
-      { "id": 1, "answer": "El presidente de la comunidad.", "isCorrect": false, "explanation": "Al estar en un área privada, la responsabilidad no es comunitaria." },
-      { "id": 2, "answer": "El instalador eléctrico original.", "isCorrect": false, "explanation": "Su responsabilidad sobre la custodia termina tras la entrega de la obra." },
-      { "id": 3, "answer": "El usuario.", "isCorrect": true, "explanation": "El apartado 2.1 indica que el usuario será responsable si el contador está dentro de su local[cite: 1]." },
-      { "id": 4, "answer": "El lector de contadores.", "isCorrect": false, "explanation": "Su función se limita a la lectura de datos, no a la custodia física." }
+      {
+        "id": 1,
+        "answer": "El presidente de la comunidad.",
+        "isCorrect": false,
+        "explanation": "Al estar en un área privada, la responsabilidad no es comunitaria."
+      },
+      {
+        "id": 2,
+        "answer": "El instalador eléctrico original.",
+        "isCorrect": false,
+        "explanation": "Su responsabilidad sobre la custodia termina tras la entrega de la obra."
+      },
+      {
+        "id": 3,
+        "answer": "El usuario.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 indica que el usuario será responsable si el contador está dentro de su local[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "El lector de contadores.",
+        "isCorrect": false,
+        "explanation": "Su función se limita a la lectura de datos, no a la custodia física."
+      }
     ]
   },
   {
@@ -224,10 +624,30 @@
     "type": "simple",
     "question": "Si el contador está FUERA de la vivienda, ¿quién responde del precinto?",
     "options": [
-      { "id": 1, "answer": "La compañía suministradora de energía.", "isCorrect": false, "explanation": "La distribuidora realiza el precinto pero no custodia físicamente el edificio." },
-      { "id": 2, "answer": "El propietario del edificio.", "isCorrect": true, "explanation": "La norma indica que si el contador se instala fuera, el responsable es el propietario del edificio[cite: 1]." },
-      { "id": 3, "answer": "El inquilino de la vivienda afectada.", "isCorrect": false, "explanation": "La responsabilidad de los elementos comunes recae sobre la propiedad/comunidad." },
-      { "id": 4, "answer": "El ayuntamiento.", "isCorrect": false, "explanation": "Se trata de una instalación privada de carácter comunitario ajena al municipio." }
+      {
+        "id": 1,
+        "answer": "La compañía suministradora de energía.",
+        "isCorrect": false,
+        "explanation": "La distribuidora realiza el precinto pero no custodia físicamente el edificio."
+      },
+      {
+        "id": 2,
+        "answer": "El propietario del edificio.",
+        "isCorrect": true,
+        "explanation": "La norma indica que si el contador se instala fuera, el responsable es el propietario del edificio[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "El inquilino de la vivienda afectada.",
+        "isCorrect": false,
+        "explanation": "La responsabilidad de los elementos comunes recae sobre la propiedad/comunidad."
+      },
+      {
+        "id": 4,
+        "answer": "El ayuntamiento.",
+        "isCorrect": false,
+        "explanation": "Se trata de una instalación privada de carácter comunitario ajena al municipio."
+      }
     ]
   },
   {
@@ -235,10 +655,30 @@
     "type": "simple",
     "question": "¿A partir de cuántos contadores es OBLIGATORIO su ubicación en local?",
     "options": [
-      { "id": 1, "answer": "Superior a 4", "isCorrect": false, "explanation": "Con esta cantidad se permite el uso de armarios o CPM colectivas." },
-      { "id": 2, "answer": "Superior a 10", "isCorrect": false, "explanation": "Este número aún entra dentro del margen permitido para la ubicación en armarios." },
-      { "id": 3, "answer": "Superior a 16", "isCorrect": true, "explanation": "El apartado 2.2 determina que si el número de contadores es superior a 16, la ubicación en local es obligatoria[cite: 1]." },
-      { "id": 4, "answer": "Superior a 24", "isCorrect": false, "explanation": "La obligación legal de habilitar un local se activa a partir de superar los 16 contadores." }
+      {
+        "id": 1,
+        "answer": "Superior a 4",
+        "isCorrect": false,
+        "explanation": "Con esta cantidad se permite el uso de armarios o CPM colectivas."
+      },
+      {
+        "id": 2,
+        "answer": "Superior a 10",
+        "isCorrect": false,
+        "explanation": "Este número aún entra dentro del margen permitido para la ubicación en armarios."
+      },
+      {
+        "id": 3,
+        "answer": "Superior a 16",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 determina que si el número de contadores es superior a 16, la ubicación en local es obligatoria[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Superior a 24",
+        "isCorrect": false,
+        "explanation": "La obligación legal de habilitar un local se activa a partir de superar los 16 contadores."
+      }
     ]
   },
   {
@@ -246,10 +686,30 @@
     "type": "simple",
     "question": "En edificios de hasta 12 plantas, ¿dónde se sitúa la concentración?",
     "options": [
-      { "id": 1, "answer": "Repartida en cada planta.", "isCorrect": false, "explanation": "Para edificios de esta altura se requiere la unificación en las zonas inferiores." },
-      { "id": 2, "answer": "En la azotea del edificio.", "isCorrect": false, "explanation": "Dificultaría el acceso técnico y aumentaría las longitudes de las líneas de enlace." },
-      { "id": 3, "answer": "En planta baja, entresuelo o primer sótano.", "isCorrect": true, "explanation": "En edificios de hasta 12 plantas se colocarán en planta baja, entresuelo o primer sótano[cite: 1]." },
-      { "id": 4, "answer": "En el rellano de la planta 6.", "isCorrect": false, "explanation": "No se ajusta a la ubicación reglamentaria para edificios de esta categoría de altura." }
+      {
+        "id": 1,
+        "answer": "Repartida en cada planta.",
+        "isCorrect": false,
+        "explanation": "Para edificios de esta altura se requiere la unificación en las zonas inferiores."
+      },
+      {
+        "id": 2,
+        "answer": "En la azotea del edificio.",
+        "isCorrect": false,
+        "explanation": "Dificultaría el acceso técnico y aumentaría las longitudes de las líneas de enlace."
+      },
+      {
+        "id": 3,
+        "answer": "En planta baja, entresuelo o primer sótano.",
+        "isCorrect": true,
+        "explanation": "En edificios de hasta 12 plantas se colocarán en planta baja, entresuelo o primer sótano[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "En el rellano de la planta 6.",
+        "isCorrect": false,
+        "explanation": "No se ajusta a la ubicación reglamentaria para edificios de esta categoría de altura."
+      }
     ]
   },
   {
@@ -257,10 +717,30 @@
     "type": "simple",
     "question": "En edificios > 12 plantas, ¿cómo permite el reglamento agrupar contadores?",
     "options": [
-      { "id": 1, "answer": "Obliga a un solo local inmenso en el sótano.", "isCorrect": false, "explanation": "La norma ofrece alternativas para optimizar las longitudes de las derivaciones." },
-      { "id": 2, "answer": "Por plantas intermedias que comprendan 6 o más plantas.", "isCorrect": true, "explanation": "Se podrá concentrar por plantas intermedias, abarcando cada una 6 o más plantas[cite: 1]." },
-      { "id": 3, "answer": "Un contador por cada puerta de vivienda obligatoriamente.", "isCorrect": false, "explanation": "Es una configuración descentralizada que requiere justificación técnica adicional." },
-      { "id": 4, "answer": "Se instalarán en la cubierta exterior.", "isCorrect": false, "explanation": "No es la directriz técnica establecida para la centralización en grandes alturas." }
+      {
+        "id": 1,
+        "answer": "Obliga a un solo local inmenso en el sótano.",
+        "isCorrect": false,
+        "explanation": "La norma ofrece alternativas para optimizar las longitudes de las derivaciones."
+      },
+      {
+        "id": 2,
+        "answer": "Por plantas intermedias que comprendan 6 o más plantas.",
+        "isCorrect": true,
+        "explanation": "Se podrá concentrar por plantas intermedias, abarcando cada una 6 o más plantas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Un contador por cada puerta de vivienda obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "Es una configuración descentralizada que requiere justificación técnica adicional."
+      },
+      {
+        "id": 4,
+        "answer": "Se instalarán en la cubierta exterior.",
+        "isCorrect": false,
+        "explanation": "No es la directriz técnica establecida para la centralización en grandes alturas."
+      }
     ]
   },
   {
@@ -268,10 +748,30 @@
     "type": "simple",
     "question": "¿Cuándo se pueden colocar concentraciones por plantas individualmente?",
     "options": [
-      { "id": 1, "answer": "Siempre que lo pida la comunidad.", "isCorrect": false, "explanation": "La decisión técnica debe basarse en los requisitos normativos, no solo en peticiones." },
-      { "id": 2, "answer": "Si la escalera es en espiral.", "isCorrect": false, "explanation": "La morfología de la escalera no condiciona este parámetro de centralización." },
-      { "id": 3, "answer": "Cuando haya más de 16 contadores en cada concentración.", "isCorrect": true, "explanation": "Podrán disponerse concentraciones por plantas cuando cada una tenga más de 16 contadores[cite: 1]." },
-      { "id": 4, "answer": "Solo si la instalación es trifásica.", "isCorrect": false, "explanation": "La arquitectura de fases no influye en la topología de la centralización." }
+      {
+        "id": 1,
+        "answer": "Siempre que lo pida la comunidad.",
+        "isCorrect": false,
+        "explanation": "La decisión técnica debe basarse en los requisitos normativos, no solo en peticiones."
+      },
+      {
+        "id": 2,
+        "answer": "Si la escalera es en espiral.",
+        "isCorrect": false,
+        "explanation": "La morfología de la escalera no condiciona este parámetro de centralización."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando haya más de 16 contadores en cada concentración.",
+        "isCorrect": true,
+        "explanation": "Podrán disponerse concentraciones por plantas cuando cada una tenga más de 16 contadores[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Solo si la instalación es trifásica.",
+        "isCorrect": false,
+        "explanation": "La arquitectura de fases no influye en la topología de la centralización."
+      }
     ]
   },
   {
@@ -279,10 +779,30 @@
     "type": "simple",
     "question": "¿Qué otros equipos se pueden instalar en el local de contadores?",
     "options": [
-      { "id": 1, "answer": "Calderas de gas comunitarias.", "isCorrect": false, "explanation": "Mezclar instalaciones de gas y electricidad centralizada está prohibido por seguridad." },
-      { "id": 2, "answer": "Equipos de telecom de la compañía y el cuadro de servicios comunes.", "isCorrect": true, "explanation": "Se permite albergar equipos de comunicación de datos y el cuadro de servicios comunes[cite: 1]." },
-      { "id": 3, "answer": "Maquinaria de ascensores.", "isCorrect": false, "explanation": "Los elementos motrices y de control de elevación requieren su propio recinto específico." },
-      { "id": 4, "answer": "Contadores de agua y gas.", "isCorrect": false, "explanation": "El agua y el gas están expresamente excluidos de los locales de contadores eléctricos." }
+      {
+        "id": 1,
+        "answer": "Calderas de gas comunitarias.",
+        "isCorrect": false,
+        "explanation": "Mezclar instalaciones de gas y electricidad centralizada está prohibido por seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "Equipos de telecom de la compañía y el cuadro de servicios comunes.",
+        "isCorrect": true,
+        "explanation": "Se permite albergar equipos de comunicación de datos y el cuadro de servicios comunes[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Maquinaria de ascensores.",
+        "isCorrect": false,
+        "explanation": "Los elementos motrices y de control de elevación requieren su propio recinto específico."
+      },
+      {
+        "id": 4,
+        "answer": "Contadores de agua y gas.",
+        "isCorrect": false,
+        "explanation": "El agua y el gas están expresamente excluidos de los locales de contadores eléctricos."
+      }
     ]
   },
   {
@@ -290,10 +810,30 @@
     "type": "simple",
     "question": "¿Qué nivel de riesgo de incendio tiene el local de contadores?",
     "options": [
-      { "id": 1, "answer": "Riesgo especial bajo.", "isCorrect": true, "explanation": "El apartado 2.2.1 lo califica para cumplir las condiciones de riesgo especial bajo según NBE-CPI-96[cite: 1]." },
-      { "id": 2, "answer": "Riesgo especial medio.", "isCorrect": false, "explanation": "No alcanza esta categoría según la carga térmica promedio del local." },
-      { "id": 3, "answer": "Riesgo especial alto.", "isCorrect": false, "explanation": "Un cuarto de contadores de baja tensión no se clasifica como riesgo alto." },
-      { "id": 4, "answer": "Nulo riesgo de incendio.", "isCorrect": false, "explanation": "La presencia de tensión eléctrica implica intrínsecamente un riesgo de incendio." }
+      {
+        "id": 1,
+        "answer": "Riesgo especial bajo.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 lo califica para cumplir las condiciones de riesgo especial bajo según NBE-CPI-96[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Riesgo especial medio.",
+        "isCorrect": false,
+        "explanation": "No alcanza esta categoría según la carga térmica promedio del local."
+      },
+      {
+        "id": 3,
+        "answer": "Riesgo especial alto.",
+        "isCorrect": false,
+        "explanation": "Un cuarto de contadores de baja tensión no se clasifica como riesgo alto."
+      },
+      {
+        "id": 4,
+        "answer": "Nulo riesgo de incendio.",
+        "isCorrect": false,
+        "explanation": "La presencia de tensión eléctrica implica intrínsecamente un riesgo de incendio."
+      }
     ]
   },
   {
@@ -301,10 +841,30 @@
     "type": "simple",
     "question": "¿Qué prohíbe el reglamento respecto al uso del local de contadores?",
     "options": [
-      { "id": 1, "answer": "Que tenga puerta de cierre.", "isCorrect": false, "explanation": "Al contrario, es obligatorio que el local cuente con una puerta de acceso segura." },
-      { "id": 2, "answer": "Que no servirá nunca de paso ni de acceso a otros locales.", "isCorrect": true, "explanation": "El apartado 2.2.1 establece la prohibición de que sirva de paso o acceso a otros recintos[cite: 1]." },
-      { "id": 3, "answer": "Que esté cerca de la entrada.", "isCorrect": false, "explanation": "Debe situarse lo más próximo posible a la entrada para facilitar el acceso técnico." },
-      { "id": 4, "answer": "Que sea pintado de blanco.", "isCorrect": false, "explanation": "La normativa de baja tensión no impone restricciones sobre el acabado estético cromático." }
+      {
+        "id": 1,
+        "answer": "Que tenga puerta de cierre.",
+        "isCorrect": false,
+        "explanation": "Al contrario, es obligatorio que el local cuente con una puerta de acceso segura."
+      },
+      {
+        "id": 2,
+        "answer": "Que no servirá nunca de paso ni de acceso a otros locales.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 establece la prohibición de que sirva de paso o acceso a otros recintos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Que esté cerca de la entrada.",
+        "isCorrect": false,
+        "explanation": "Debe situarse lo más próximo posible a la entrada para facilitar el acceso técnico."
+      },
+      {
+        "id": 4,
+        "answer": "Que sea pintado de blanco.",
+        "isCorrect": false,
+        "explanation": "La normativa de baja tensión no impone restricciones sobre el acabado estético cromático."
+      }
     ]
   },
   {
@@ -312,10 +872,30 @@
     "type": "simple",
     "question": "Las paredes y el suelo del local deben ser de clases:",
     "options": [
-      { "id": 1, "answer": "Paredes clase M1 y suelos clase M2.", "isCorrect": false, "explanation": "Estas clasificaciones no cumplen con los niveles de seguridad al fuego exigidos." },
-      { "id": 2, "answer": "Paredes clase M0 y suelos clase M1.", "isCorrect": true, "explanation": "El local estará construido con paredes de clase M0 y suelos de clase M1[cite: 1]." },
-      { "id": 3, "answer": "Paredes clase M2 y suelos clase M0.", "isCorrect": false, "explanation": "Esta configuración invierte erróneamente los grados de reacción al fuego requeridos." },
-      { "id": 4, "answer": "Ambas de clase M0.", "isCorrect": false, "explanation": "La norma permite que el suelo sea de clase M1 (no propagador aunque sea combustible)." }
+      {
+        "id": 1,
+        "answer": "Paredes clase M1 y suelos clase M2.",
+        "isCorrect": false,
+        "explanation": "Estas clasificaciones no cumplen con los niveles de seguridad al fuego exigidos."
+      },
+      {
+        "id": 2,
+        "answer": "Paredes clase M0 y suelos clase M1.",
+        "isCorrect": true,
+        "explanation": "El local estará construido con paredes de clase M0 y suelos de clase M1[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Paredes clase M2 y suelos clase M0.",
+        "isCorrect": false,
+        "explanation": "Esta configuración invierte erróneamente los grados de reacción al fuego requeridos."
+      },
+      {
+        "id": 4,
+        "answer": "Ambas de clase M0.",
+        "isCorrect": false,
+        "explanation": "La norma permite que el suelo sea de clase M1 (no propagador aunque sea combustible)."
+      }
     ]
   },
   {
@@ -323,10 +903,30 @@
     "type": "simple",
     "question": "¿Cuándo es OBLIGATORIO disponer sumideros en el local?",
     "options": [
-      { "id": 1, "answer": "Siempre, en todos los locales.", "isCorrect": false, "explanation": "Solo es obligatorio bajo condiciones topográficas específicas del inmueble." },
-      { "id": 2, "answer": "Nunca.", "isCorrect": false, "explanation": "Deben instalarse si existe riesgo de inundación exterior para proteger la red." },
-      { "id": 3, "answer": "Cuando la cota del suelo sea inferior o igual a locales colindantes.", "isCorrect": true, "explanation": "Deben disponerse sumideros si la cota es inferior o igual a pasillos o locales colindantes[cite: 1]." },
-      { "id": 4, "answer": "Cuando el edificio tenga piscina.", "isCorrect": false, "explanation": "El requisito depende del nivel del suelo del local, no de los servicios del edificio." }
+      {
+        "id": 1,
+        "answer": "Siempre, en todos los locales.",
+        "isCorrect": false,
+        "explanation": "Solo es obligatorio bajo condiciones topográficas específicas del inmueble."
+      },
+      {
+        "id": 2,
+        "answer": "Nunca.",
+        "isCorrect": false,
+        "explanation": "Deben instalarse si existe riesgo de inundación exterior para proteger la red."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando la cota del suelo sea inferior o igual a locales colindantes.",
+        "isCorrect": true,
+        "explanation": "Deben disponerse sumideros si la cota es inferior o igual a pasillos o locales colindantes[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Cuando el edificio tenga piscina.",
+        "isCorrect": false,
+        "explanation": "El requisito depende del nivel del suelo del local, no de los servicios del edificio."
+      }
     ]
   },
   {
@@ -334,10 +934,30 @@
     "type": "simple",
     "question": "¿Qué resistencia mecánica mínima deben tener las paredes de fijación?",
     "options": [
-      { "id": 1, "answer": "De tabique de cartón yeso.", "isCorrect": false, "explanation": "Este material no ofrece el soporte mecánico necesario para el peso del conjunto." },
-      { "id": 2, "answer": "De bloque de hormigón de 50 cm.", "isCorrect": false, "explanation": "Es una resistencia muy superior al mínimo legal establecido." },
-      { "id": 3, "answer": "No inferior a la del tabicón de medio pie de ladrillo hueco.", "isCorrect": true, "explanation": "Tendrán una resistencia no inferior a la del tabicón de medio pie de ladrillo hueco[cite: 1]." },
-      { "id": 4, "answer": "Solo a pilares maestros.", "isCorrect": false, "explanation": "No se requiere anclaje exclusivo a elementos de soporte estructural primario." }
+      {
+        "id": 1,
+        "answer": "De tabique de cartón yeso.",
+        "isCorrect": false,
+        "explanation": "Este material no ofrece el soporte mecánico necesario para el peso del conjunto."
+      },
+      {
+        "id": 2,
+        "answer": "De bloque de hormigón de 50 cm.",
+        "isCorrect": false,
+        "explanation": "Es una resistencia muy superior al mínimo legal establecido."
+      },
+      {
+        "id": 3,
+        "answer": "No inferior a la del tabicón de medio pie de ladrillo hueco.",
+        "isCorrect": true,
+        "explanation": "Tendrán una resistencia no inferior a la del tabicón de medio pie de ladrillo hueco[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Solo a pilares maestros.",
+        "isCorrect": false,
+        "explanation": "No se requiere anclaje exclusivo a elementos de soporte estructural primario."
+      }
     ]
   },
   {
@@ -345,10 +965,30 @@
     "type": "simple",
     "question": "¿Dimensiones mínimas de altura y anchura en paredes ocupadas?",
     "options": [
-      { "id": 1, "answer": "Altura 2,00 m y Anchura 1,00 m.", "isCorrect": false, "explanation": "Estas medidas impedirían la ergonomía de trabajo y el alojamiento de los equipos." },
-      { "id": 2, "answer": "Altura 2,30 m y Anchura 1,50 m.", "isCorrect": true, "explanation": "El local tendrá una altura mínima de 2,30 m y una anchura mínima ocupada de 1,50 m[cite: 1]." },
-      { "id": 3, "answer": "Altura 2,50 m y Anchura 2,00 m.", "isCorrect": false, "explanation": "Medidas superiores al requerimiento mínimo normativo establecido." },
-      { "id": 4, "answer": "Altura 3,00 m y Anchura 1,50 m.", "isCorrect": false, "explanation": "La altura de 3 metros no es una exigencia mínima de la normativa de enlace." }
+      {
+        "id": 1,
+        "answer": "Altura 2,00 m y Anchura 1,00 m.",
+        "isCorrect": false,
+        "explanation": "Estas medidas impedirían la ergonomía de trabajo y el alojamiento de los equipos."
+      },
+      {
+        "id": 2,
+        "answer": "Altura 2,30 m y Anchura 1,50 m.",
+        "isCorrect": true,
+        "explanation": "El local tendrá una altura mínima de 2,30 m y una anchura mínima ocupada de 1,50 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Altura 2,50 m y Anchura 2,00 m.",
+        "isCorrect": false,
+        "explanation": "Medidas superiores al requerimiento mínimo normativo establecido."
+      },
+      {
+        "id": 4,
+        "answer": "Altura 3,00 m y Anchura 1,50 m.",
+        "isCorrect": false,
+        "explanation": "La altura de 3 metros no es una exigencia mínima de la normativa de enlace."
+      }
     ]
   },
   {
@@ -356,10 +996,30 @@
     "type": "simple",
     "question": "¿Qué pasillo de operación debe respetarse frente a la concentración?",
     "options": [
-      { "id": 1, "answer": "0,50 m", "isCorrect": false, "explanation": "Espacio insuficiente para realizar labores de mantenimiento de forma segura." },
-      { "id": 2, "answer": "0,80 m", "isCorrect": false, "explanation": "Valor que no cumple con el estándar de seguridad del reglamento de baja tensión." },
-      { "id": 3, "answer": "1,10 m", "isCorrect": true, "explanation": "La distancia hasta el primer obstáculo que tenga enfrente será de 1,10 m[cite: 1]." },
-      { "id": 4, "answer": "1,50 m", "isCorrect": false, "explanation": "Este es el pasillo requerido para armarios en zonas comunes, no en locales." }
+      {
+        "id": 1,
+        "answer": "0,50 m",
+        "isCorrect": false,
+        "explanation": "Espacio insuficiente para realizar labores de mantenimiento de forma segura."
+      },
+      {
+        "id": 2,
+        "answer": "0,80 m",
+        "isCorrect": false,
+        "explanation": "Valor que no cumple con el estándar de seguridad del reglamento de baja tensión."
+      },
+      {
+        "id": 3,
+        "answer": "1,10 m",
+        "isCorrect": true,
+        "explanation": "La distancia hasta el primer obstáculo que tenga enfrente será de 1,10 m[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "1,50 m",
+        "isCorrect": false,
+        "explanation": "Este es el pasillo requerido para armarios en zonas comunes, no en locales."
+      }
     ]
   },
   {
@@ -367,10 +1027,30 @@
     "type": "simple",
     "question": "¿Distancia lateral mínima entre la concentración y las paredes?",
     "options": [
-      { "id": 1, "answer": "0 cm (pegado).", "isCorrect": false, "explanation": "No permitiría la ventilación necesaria ni el acceso para mantenimiento técnico." },
-      { "id": 2, "answer": "10 cm", "isCorrect": false, "explanation": "Separación inferior a la estipulada por la instrucción técnica." },
-      { "id": 3, "answer": "20 cm", "isCorrect": true, "explanation": "La distancia entre los laterales de la concentración y sus paredes será de 20 cm[cite: 1]." },
-      { "id": 4, "answer": "50 cm", "isCorrect": false, "explanation": "Sobredimensionaría el recinto sin una justificación técnica o normativa clara." }
+      {
+        "id": 1,
+        "answer": "0 cm (pegado).",
+        "isCorrect": false,
+        "explanation": "No permitiría la ventilación necesaria ni el acceso para mantenimiento técnico."
+      },
+      {
+        "id": 2,
+        "answer": "10 cm",
+        "isCorrect": false,
+        "explanation": "Separación inferior a la estipulada por la instrucción técnica."
+      },
+      {
+        "id": 3,
+        "answer": "20 cm",
+        "isCorrect": true,
+        "explanation": "La distancia entre los laterales de la concentración y sus paredes será de 20 cm[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "50 cm",
+        "isCorrect": false,
+        "explanation": "Sobredimensionaría el recinto sin una justificación técnica o normativa clara."
+      }
     ]
   },
   {
@@ -378,10 +1058,30 @@
     "type": "simple",
     "question": "¿Dimensiones y sentido de apertura mínimos de la puerta del local?",
     "options": [
-      { "id": 1, "answer": "0,60 x 1,80 m y hacia el interior.", "isCorrect": false, "explanation": "Medida pequeña y apertura hacia el interior prohibida por seguridad." },
-      { "id": 2, "answer": "0,70 x 2,00 m y hacia el exterior.", "isCorrect": true, "explanation": "La puerta abrirá hacia el exterior y tendrá una dimensión mínima de 0,70 x 2 m[cite: 1]." },
-      { "id": 3, "answer": "0,80 x 2,10 m y corredera.", "isCorrect": false, "explanation": "Una puerta corredera no facilita la evacuación rápida por empuje en caso de emergencia." },
-      { "id": 4, "answer": "1,00 x 2,00 m y hacia el interior.", "isCorrect": false, "explanation": "La apertura hacia el interior está prohibida en recintos de riesgo eléctrico." }
+      {
+        "id": 1,
+        "answer": "0,60 x 1,80 m y hacia el interior.",
+        "isCorrect": false,
+        "explanation": "Medida pequeña y apertura hacia el interior prohibida por seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "0,70 x 2,00 m y hacia el exterior.",
+        "isCorrect": true,
+        "explanation": "La puerta abrirá hacia el exterior y tendrá una dimensión mínima de 0,70 x 2 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "0,80 x 2,10 m y corredera.",
+        "isCorrect": false,
+        "explanation": "Una puerta corredera no facilita la evacuación rápida por empuje en caso de emergencia."
+      },
+      {
+        "id": 4,
+        "answer": "1,00 x 2,00 m y hacia el interior.",
+        "isCorrect": false,
+        "explanation": "La apertura hacia el interior está prohibida en recintos de riesgo eléctrico."
+      }
     ]
   },
   {
@@ -389,10 +1089,30 @@
     "type": "simple",
     "question": "¿Qué equipo de emergencia se exige dentro del local?",
     "options": [
-      { "id": 1, "answer": "Autónomo de emergencia, 1 hora y 5 lux.", "isCorrect": true, "explanation": "Se instalará un equipo autónomo con autonomía de 1 hora y nivel mínimo de 5 lux[cite: 1]." },
-      { "id": 2, "answer": "Una linterna manual.", "isCorrect": false, "explanation": "Se requiere un sistema fijo y automático de iluminación ante fallos de red." },
-      { "id": 3, "answer": "Un tragaluz obligatorio.", "isCorrect": false, "explanation": "No sustituye a la iluminación de emergencia y no es una exigencia de la norma." },
-      { "id": 4, "answer": "Señales fotoluminiscentes.", "isCorrect": false, "explanation": "La señalética no aporta el nivel de iluminación necesario para la maniobra de cuadros." }
+      {
+        "id": 1,
+        "answer": "Autónomo de emergencia, 1 hora y 5 lux.",
+        "isCorrect": true,
+        "explanation": "Se instalará un equipo autónomo con autonomía de 1 hora y nivel mínimo de 5 lux[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Una linterna manual.",
+        "isCorrect": false,
+        "explanation": "Se requiere un sistema fijo y automático de iluminación ante fallos de red."
+      },
+      {
+        "id": 3,
+        "answer": "Un tragaluz obligatorio.",
+        "isCorrect": false,
+        "explanation": "No sustituye a la iluminación de emergencia y no es una exigencia de la norma."
+      },
+      {
+        "id": 4,
+        "answer": "Señales fotoluminiscentes.",
+        "isCorrect": false,
+        "explanation": "La señalética no aporta el nivel de iluminación necesario para la maniobra de cuadros."
+      }
     ]
   },
   {
@@ -400,10 +1120,30 @@
     "type": "simple",
     "question": "¿Cuál es la eficacia mínima del extintor exigido y quién lo mantiene?",
     "options": [
-      { "id": 1, "answer": "Eficacia 13A, por el instalador.", "isCorrect": false, "explanation": "La clase A no es la adecuada y el mantenimiento corresponde a la propiedad." },
-      { "id": 2, "answer": "Eficacia 21B, por la empresa.", "isCorrect": false, "explanation": "La distribuidora eléctrica no asume el mantenimiento del PCI privado del edificio." },
-      { "id": 3, "answer": "Eficacia 21B, por la propiedad del edificio.", "isCorrect": true, "explanation": "Existirá un extintor de eficacia 21B cuyo mantenimiento será a cargo de la propiedad[cite: 1]." },
-      { "id": 4, "answer": "Eficacia 34B, por el ayuntamiento.", "isCorrect": false, "explanation": "El mantenimiento de equipos de protección contra incendios privados no es municipal." }
+      {
+        "id": 1,
+        "answer": "Eficacia 13A, por el instalador.",
+        "isCorrect": false,
+        "explanation": "La clase A no es la adecuada y el mantenimiento corresponde a la propiedad."
+      },
+      {
+        "id": 2,
+        "answer": "Eficacia 21B, por la empresa.",
+        "isCorrect": false,
+        "explanation": "La distribuidora eléctrica no asume el mantenimiento del PCI privado del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "Eficacia 21B, por la propiedad del edificio.",
+        "isCorrect": true,
+        "explanation": "Existirá un extintor de eficacia 21B cuyo mantenimiento será a cargo de la propiedad[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Eficacia 34B, por el ayuntamiento.",
+        "isCorrect": false,
+        "explanation": "El mantenimiento de equipos de protección contra incendios privados no es municipal."
+      }
     ]
   },
   {
@@ -411,10 +1151,30 @@
     "type": "simple",
     "question": "¿Cuál es el número MÁXIMO de contadores permitidos en un armario?",
     "options": [
-      { "id": 1, "answer": "4 contadores.", "isCorrect": false, "explanation": "El reglamento permite centralizar una cantidad superior de contadores en armario." },
-      { "id": 2, "answer": "12 contadores.", "isCorrect": false, "explanation": "Cantidad por debajo del límite máximo reglamentario para el uso de armarios." },
-      { "id": 3, "answer": "16 contadores.", "isCorrect": true, "explanation": "Si el número de contadores es igual o inferior a 16, podrán ubicarse en armario[cite: 1]." },
-      { "id": 4, "answer": "24 contadores.", "isCorrect": false, "explanation": "Con esta cantidad de suministros es obligatoria la habilitación de un local técnico." }
+      {
+        "id": 1,
+        "answer": "4 contadores.",
+        "isCorrect": false,
+        "explanation": "El reglamento permite centralizar una cantidad superior de contadores en armario."
+      },
+      {
+        "id": 2,
+        "answer": "12 contadores.",
+        "isCorrect": false,
+        "explanation": "Cantidad por debajo del límite máximo reglamentario para el uso de armarios."
+      },
+      {
+        "id": 3,
+        "answer": "16 contadores.",
+        "isCorrect": true,
+        "explanation": "Si el número de contadores es igual o inferior a 16, podrán ubicarse en armario[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "24 contadores.",
+        "isCorrect": false,
+        "explanation": "Con esta cantidad de suministros es obligatoria la habilitación de un local técnico."
+      }
     ]
   },
   {
@@ -422,10 +1182,30 @@
     "type": "simple",
     "question": "¿Qué prohibición de diseño estructural tiene el armario de contadores?",
     "options": [
-      { "id": 1, "answer": "No tendrá cerradura.", "isCorrect": false, "explanation": "Es requisito indispensable que cuente con cerradura normalizada." },
-      { "id": 2, "answer": "No tendrá bastidores intermedios que dificulten la lectura.", "isCorrect": true, "explanation": "No tendrá bastidores intermedios que dificulten la instalación o lectura[cite: 1]." },
-      { "id": 3, "answer": "No tendrá toma de tierra.", "isCorrect": false, "explanation": "La conexión a tierra es obligatoria en todos los elementos metálicos del conjunto." },
-      { "id": 4, "answer": "No podrá ser metálico.", "isCorrect": false, "explanation": "Los armarios metálicos son válidos siempre que cumplan con la seguridad eléctrica." }
+      {
+        "id": 1,
+        "answer": "No tendrá cerradura.",
+        "isCorrect": false,
+        "explanation": "Es requisito indispensable que cuente con cerradura normalizada."
+      },
+      {
+        "id": 2,
+        "answer": "No tendrá bastidores intermedios que dificulten la lectura.",
+        "isCorrect": true,
+        "explanation": "No tendrá bastidores intermedios que dificulten la instalación o lectura[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "No tendrá toma de tierra.",
+        "isCorrect": false,
+        "explanation": "La conexión a tierra es obligatoria en todos los elementos metálicos del conjunto."
+      },
+      {
+        "id": 4,
+        "answer": "No podrá ser metálico.",
+        "isCorrect": false,
+        "explanation": "Los armarios metálicos son válidos siempre que cumplan con la seguridad eléctrica."
+      }
     ]
   },
   {
@@ -433,10 +1213,30 @@
     "type": "simple",
     "question": "¿Qué pasillo mínimo debe haber desde el armario hasta la pared opuesta?",
     "options": [
-      { "id": 1, "answer": "0,80 m", "isCorrect": false, "explanation": "Distancia insuficiente para la apertura total de puertas y el tránsito de personas." },
-      { "id": 2, "answer": "1,10 m", "isCorrect": false, "explanation": "Este es el valor para armarios dentro de locales, no en pasillos comunes." },
-      { "id": 3, "answer": "1,50 m", "isCorrect": true, "explanation": "Desde la parte más saliente hasta la pared opuesta habrá un pasillo de 1,5 m como mínimo[cite: 1]." },
-      { "id": 4, "answer": "2,00 m", "isCorrect": false, "explanation": "Espacio que excede el requerimiento reglamentario mínimo de seguridad." }
+      {
+        "id": 1,
+        "answer": "0,80 m",
+        "isCorrect": false,
+        "explanation": "Distancia insuficiente para la apertura total de puertas y el tránsito de personas."
+      },
+      {
+        "id": 2,
+        "answer": "1,10 m",
+        "isCorrect": false,
+        "explanation": "Este es el valor para armarios dentro de locales, no en pasillos comunes."
+      },
+      {
+        "id": 3,
+        "answer": "1,50 m",
+        "isCorrect": true,
+        "explanation": "Desde la parte más saliente hasta la pared opuesta habrá un pasillo de 1,5 m como mínimo[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2,00 m",
+        "isCorrect": false,
+        "explanation": "Espacio que excede el requerimiento reglamentario mínimo de seguridad."
+      }
     ]
   },
   {
@@ -444,10 +1244,30 @@
     "type": "simple",
     "question": "¿Qué característica contra incendios deben tener los armarios?",
     "options": [
-      { "id": 1, "answer": "Parallamas mínima PF 30.", "isCorrect": true, "explanation": "La instrucción establece que los armarios tendrán una característica parallamas PF 30[cite: 1]." },
-      { "id": 2, "answer": "Resistente al fuego RF 60.", "isCorrect": false, "explanation": "Se exige característica parallamas (PF), no resistencia total al fuego (RF)." },
-      { "id": 3, "answer": "Incombustible M0 absoluto.", "isCorrect": false, "explanation": "Existen materiales que cumplen la norma sin ser necesariamente incombustibles M0." },
-      { "id": 4, "answer": "Intumescentes de doble capa.", "isCorrect": false, "explanation": "No se especifica este requerimiento material en las instrucciones técnicas." }
+      {
+        "id": 1,
+        "answer": "Parallamas mínima PF 30.",
+        "isCorrect": true,
+        "explanation": "La instrucción establece que los armarios tendrán una característica parallamas PF 30[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Resistente al fuego RF 60.",
+        "isCorrect": false,
+        "explanation": "Se exige característica parallamas (PF), no resistencia total al fuego (RF)."
+      },
+      {
+        "id": 3,
+        "answer": "Incombustible M0 absoluto.",
+        "isCorrect": false,
+        "explanation": "Existen materiales que cumplen la norma sin ser necesariamente incombustibles M0."
+      },
+      {
+        "id": 4,
+        "answer": "Intumescentes de doble capa.",
+        "isCorrect": false,
+        "explanation": "No se especifica este requerimiento material en las instrucciones técnicas."
+      }
     ]
   },
   {
@@ -455,10 +1275,30 @@
     "type": "simple",
     "question": "¿Qué elemento auxiliar de mantenimiento debe instalarse junto al armario?",
     "options": [
-      { "id": 1, "answer": "Un grifo de agua.", "isCorrect": false, "explanation": "El agua es incompatible con la seguridad de los cuadros eléctricos en este entorno." },
-      { "id": 2, "answer": "Una toma de corriente con tierra de 16 A.", "isCorrect": true, "explanation": "Se colocará una base de enchufe con toma de tierra de 16 A para mantenimiento[cite: 1]." },
-      { "id": 3, "answer": "Un teléfono de emergencia.", "isCorrect": false, "explanation": "No es un requerimiento exigido por la normativa de baja tensión." },
-      { "id": 4, "answer": "Una banqueta dieléctrica.", "isCorrect": false, "explanation": "Los elementos de seguridad personales los aporta el técnico especializado." }
+      {
+        "id": 1,
+        "answer": "Un grifo de agua.",
+        "isCorrect": false,
+        "explanation": "El agua es incompatible con la seguridad de los cuadros eléctricos en este entorno."
+      },
+      {
+        "id": 2,
+        "answer": "Una toma de corriente con tierra de 16 A.",
+        "isCorrect": true,
+        "explanation": "Se colocará una base de enchufe con toma de tierra de 16 A para mantenimiento[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Un teléfono de emergencia.",
+        "isCorrect": false,
+        "explanation": "No es un requerimiento exigido por la normativa de baja tensión."
+      },
+      {
+        "id": 4,
+        "answer": "Una banqueta dieléctrica.",
+        "isCorrect": false,
+        "explanation": "Los elementos de seguridad personales los aporta el técnico especializado."
+      }
     ]
   },
   {
@@ -466,10 +1306,30 @@
     "type": "simple",
     "question": "Temperatura del ensayo de hilo incandescente para partes activas:",
     "options": [
-      { "id": 1, "answer": "650 °C", "isCorrect": false, "explanation": "Temperatura insuficiente para el ensayo de partes en contacto con corriente." },
-      { "id": 2, "answer": "850 °C", "isCorrect": false, "explanation": "Esta es la temperatura para envolventes que no transportan corriente." },
-      { "id": 3, "answer": "960 °C", "isCorrect": true, "explanation": "Se exige el ensayo a 960°C para materiales en contacto con partes que transportan corriente[cite: 1]." },
-      { "id": 4, "answer": "1200 °C", "isCorrect": false, "explanation": "Valor superior al estándar de ensayo marcado por la norma UNE-EN 60.695-2-1." }
+      {
+        "id": 1,
+        "answer": "650 °C",
+        "isCorrect": false,
+        "explanation": "Temperatura insuficiente para el ensayo de partes en contacto con corriente."
+      },
+      {
+        "id": 2,
+        "answer": "850 °C",
+        "isCorrect": false,
+        "explanation": "Esta es la temperatura para envolventes que no transportan corriente."
+      },
+      {
+        "id": 3,
+        "answer": "960 °C",
+        "isCorrect": true,
+        "explanation": "Se exige el ensayo a 960°C para materiales en contacto con partes que transportan corriente[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "1200 °C",
+        "isCorrect": false,
+        "explanation": "Valor superior al estándar de ensayo marcado por la norma UNE-EN 60.695-2-1."
+      }
     ]
   },
   {
@@ -477,10 +1337,30 @@
     "type": "simple",
     "question": "¿A qué temperatura se ensayan envolventes y tapas de la concentración?",
     "options": [
-      { "id": 1, "answer": "650 °C", "isCorrect": false, "explanation": "Valor no contemplado en los escalones térmicos de este ensayo." },
-      { "id": 2, "answer": "750 °C", "isCorrect": false, "explanation": "Valor que no se corresponde con la exigencia técnica de la instrucción." },
-      { "id": 3, "answer": "850 °C", "isCorrect": true, "explanation": "El ensayo será de 850°C para el resto de materiales como envolventes y tapas[cite: 1]." },
-      { "id": 4, "answer": "960 °C", "isCorrect": false, "explanation": "Esta temperatura se reserva exclusivamente para materiales en contacto con la corriente." }
+      {
+        "id": 1,
+        "answer": "650 °C",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en los escalones térmicos de este ensayo."
+      },
+      {
+        "id": 2,
+        "answer": "750 °C",
+        "isCorrect": false,
+        "explanation": "Valor que no se corresponde con la exigencia técnica de la instrucción."
+      },
+      {
+        "id": 3,
+        "answer": "850 °C",
+        "isCorrect": true,
+        "explanation": "El ensayo será de 850°C para el resto de materiales como envolventes y tapas[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "960 °C",
+        "isCorrect": false,
+        "explanation": "Esta temperatura se reserva exclusivamente para materiales en contacto con la corriente."
+      }
     ]
   },
   {
@@ -488,10 +1368,30 @@
     "type": "simple",
     "question": "¿Qué identificación deben incluir los elementos de la concentración?",
     "options": [
-      { "id": 1, "answer": "Marcado visible que identifique el suministro correspondiente.", "isCorrect": true, "explanation": "Estarán marcados visiblemente para permitir identificar el suministro a que corresponde[cite: 1]." },
-      { "id": 2, "answer": "Un código QR con el DNI.", "isCorrect": false, "explanation": "La normativa original del REBT no exige el uso de tecnologías QR ni datos privados." },
-      { "id": 3, "answer": "Logotipo de la distribuidora grabado.", "isCorrect": false, "explanation": "Los conjuntos son universales y no requieren grabados de marca específicos." },
-      { "id": 4, "answer": "Pintura de colores por usuario.", "isCorrect": false, "explanation": "La identificación es por marcado, no por códigos de colores cromáticos estructurales." }
+      {
+        "id": 1,
+        "answer": "Marcado visible que identifique el suministro correspondiente.",
+        "isCorrect": true,
+        "explanation": "Estarán marcados visiblemente para permitir identificar el suministro a que corresponde[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Un código QR con el DNI.",
+        "isCorrect": false,
+        "explanation": "La normativa original del REBT no exige el uso de tecnologías QR ni datos privados."
+      },
+      {
+        "id": 3,
+        "answer": "Logotipo de la distribuidora grabado.",
+        "isCorrect": false,
+        "explanation": "Los conjuntos son universales y no requieren grabados de marca específicos."
+      },
+      {
+        "id": 4,
+        "answer": "Pintura de colores por usuario.",
+        "isCorrect": false,
+        "explanation": "La identificación es por marcado, no por códigos de colores cromáticos estructurales."
+      }
     ]
   },
   {
@@ -499,10 +1399,30 @@
     "type": "simple",
     "question": "¿Cuál es la altura mínima al suelo desde la base de la concentración?",
     "options": [
-      { "id": 1, "answer": "0,10 m", "isCorrect": false, "explanation": "Cota demasiado baja que dificultaría las conexiones eléctricas inferiores." },
-      { "id": 2, "answer": "0,25 m", "isCorrect": true, "explanation": "Desde la parte inferior de la misma al suelo habrá como mínimo una altura de 0,25 m[cite: 1]." },
-      { "id": 3, "answer": "0,50 m", "isCorrect": false, "explanation": "Excedería la cota mínima requerida reglamentariamente para la instalación." },
-      { "id": 4, "answer": "1,00 m", "isCorrect": false, "explanation": "Altura que desaprovecharía el espacio útil vertical del local técnico." }
+      {
+        "id": 1,
+        "answer": "0,10 m",
+        "isCorrect": false,
+        "explanation": "Cota demasiado baja que dificultaría las conexiones eléctricas inferiores."
+      },
+      {
+        "id": 2,
+        "answer": "0,25 m",
+        "isCorrect": true,
+        "explanation": "Desde la parte inferior de la misma al suelo habrá como mínimo una altura de 0,25 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "0,50 m",
+        "isCorrect": false,
+        "explanation": "Excedería la cota mínima requerida reglamentariamente para la instalación."
+      },
+      {
+        "id": 4,
+        "answer": "1,00 m",
+        "isCorrect": false,
+        "explanation": "Altura que desaprovecharía el espacio útil vertical del local técnico."
+      }
     ]
   },
   {
@@ -510,10 +1430,30 @@
     "type": "simple",
     "question": "¿Qué altura máxima no debe superar el cuadrante del contador más alto?",
     "options": [
-      { "id": 1, "answer": "1,50 m", "isCorrect": false, "explanation": "Límite que desaprovecharía el espacio superior del panel de contadores." },
-      { "id": 2, "answer": "1,80 m", "isCorrect": true, "explanation": "El cuadrante de lectura del aparato situado más alto no superará el 1,80 m[cite: 1]." },
-      { "id": 3, "answer": "2,00 m", "isCorrect": false, "explanation": "Dificultaría la lectura visual a personas de estatura media sin medios auxiliares." },
-      { "id": 4, "answer": "2,30 m", "isCorrect": false, "explanation": "Esta es la altura mínima del techo del local, no la del equipo de medida." }
+      {
+        "id": 1,
+        "answer": "1,50 m",
+        "isCorrect": false,
+        "explanation": "Límite que desaprovecharía el espacio superior del panel de contadores."
+      },
+      {
+        "id": 2,
+        "answer": "1,80 m",
+        "isCorrect": true,
+        "explanation": "El cuadrante de lectura del aparato situado más alto no superará el 1,80 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "2,00 m",
+        "isCorrect": false,
+        "explanation": "Dificultaría la lectura visual a personas de estatura media sin medios auxiliares."
+      },
+      {
+        "id": 4,
+        "answer": "2,30 m",
+        "isCorrect": false,
+        "explanation": "Esta es la altura mínima del techo del local, no la del equipo de medida."
+      }
     ]
   },
   {
@@ -521,10 +1461,30 @@
     "type": "simple",
     "question": "¿Dónde debe instalarse el Interruptor General de Maniobra (IGM)?",
     "options": [
-      { "id": 1, "answer": "En el mismo cajón de los contadores.", "isCorrect": false, "explanation": "La norma prohíbe mezclar el corte general con la medida sin separación física." },
-      { "id": 2, "answer": "En una envolvente de doble aislamiento independiente.", "isCorrect": true, "explanation": "Esta unidad se instalará en una envolvente de doble aislamiento independiente[cite: 1]." },
-      { "id": 3, "answer": "Al exterior del edificio.", "isCorrect": false, "explanation": "El IGM se sitúa en el interior, formando parte de la centralización." },
-      { "id": 4, "answer": "Oculto tras un panel ciego.", "isCorrect": false, "explanation": "Su función requiere accesibilidad para realizar maniobras de corte de carga." }
+      {
+        "id": 1,
+        "answer": "En el mismo cajón de los contadores.",
+        "isCorrect": false,
+        "explanation": "La norma prohíbe mezclar el corte general con la medida sin separación física."
+      },
+      {
+        "id": 2,
+        "answer": "En una envolvente de doble aislamiento independiente.",
+        "isCorrect": true,
+        "explanation": "Esta unidad se instalará en una envolvente de doble aislamiento independiente[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Al exterior del edificio.",
+        "isCorrect": false,
+        "explanation": "El IGM se sitúa en el interior, formando parte de la centralización."
+      },
+      {
+        "id": 4,
+        "answer": "Oculto tras un panel ciego.",
+        "isCorrect": false,
+        "explanation": "Su función requiere accesibilidad para realizar maniobras de corte de carga."
+      }
     ]
   },
   {
@@ -532,10 +1492,30 @@
     "type": "simple",
     "question": "¿Cuál es el requisito del neutro en la maniobra del IGM?",
     "options": [
-      { "id": 1, "answer": "Cortarse antes que las fases.", "isCorrect": false, "explanation": "Dejaría fases activas causando desequilibrios de tensión peligrosos." },
-      { "id": 2, "answer": "No será cortado nunca.", "isCorrect": false, "explanation": "La normativa exige un corte omnipolar que incluya obligatoriamente al neutro." },
-      { "id": 3, "answer": "Que el neutro no sea cortado antes que los otros polos.", "isCorrect": true, "explanation": "Debe garantizar que el neutro no sea cortado antes que los otros polos[cite: 1]." },
-      { "id": 4, "answer": "Corta primero la tierra.", "isCorrect": false, "explanation": "El conductor de protección (tierra) nunca debe ser seccionado en el enlace." }
+      {
+        "id": 1,
+        "answer": "Cortarse antes que las fases.",
+        "isCorrect": false,
+        "explanation": "Dejaría fases activas causando desequilibrios de tensión peligrosos."
+      },
+      {
+        "id": 2,
+        "answer": "No será cortado nunca.",
+        "isCorrect": false,
+        "explanation": "La normativa exige un corte omnipolar que incluya obligatoriamente al neutro."
+      },
+      {
+        "id": 3,
+        "answer": "Que el neutro no sea cortado antes que los otros polos.",
+        "isCorrect": true,
+        "explanation": "Debe garantizar que el neutro no sea cortado antes que los otros polos[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Corta primero la tierra.",
+        "isCorrect": false,
+        "explanation": "El conductor de protección (tierra) nunca debe ser seccionado en el enlace."
+      }
     ]
   },
   {
@@ -543,10 +1523,30 @@
     "type": "simple",
     "question": "¿A partir de cuántos usuarios es OBLIGATORIO instalar el IGM?",
     "options": [
-      { "id": 1, "answer": "Siempre que haya más de un usuario.", "isCorrect": false, "explanation": "Para concentraciones de solo dos usuarios no es una exigencia obligatoria." },
-      { "id": 2, "answer": "Para concentraciones de más de dos usuarios.", "isCorrect": true, "explanation": "Será obligatoria la unidad de interruptor general de maniobra para más de dos usuarios[cite: 1]." },
-      { "id": 3, "answer": "Solo si hay más de 16 usuarios.", "isCorrect": false, "explanation": "Este umbral rige para el uso de local o armario, no para la presencia del IGM." },
-      { "id": 4, "answer": "Es completamente opcional.", "isCorrect": false, "explanation": "Se trata de un elemento imperativo superado el límite de dos usuarios." }
+      {
+        "id": 1,
+        "answer": "Siempre que haya más de un usuario.",
+        "isCorrect": false,
+        "explanation": "Para concentraciones de solo dos usuarios no es una exigencia obligatoria."
+      },
+      {
+        "id": 2,
+        "answer": "Para concentraciones de más de dos usuarios.",
+        "isCorrect": true,
+        "explanation": "Será obligatoria la unidad de interruptor general de maniobra para más de dos usuarios[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si hay más de 16 usuarios.",
+        "isCorrect": false,
+        "explanation": "Este umbral rige para el uso de local o armario, no para la presencia del IGM."
+      },
+      {
+        "id": 4,
+        "answer": "Es completamente opcional.",
+        "isCorrect": false,
+        "explanation": "Se trata de un elemento imperativo superado el límite de dos usuarios."
+      }
     ]
   },
   {
@@ -554,10 +1554,30 @@
     "type": "simple",
     "question": "¿Qué calibre mínimo de IGM se exige para una carga de 80 kW?",
     "options": [
-      { "id": 1, "answer": "63 A", "isCorrect": false, "explanation": "Calibre insuficiente para soportar la potencia indicada en trifásica." },
-      { "id": 2, "answer": "100 A", "isCorrect": false, "explanation": "Valor inferior al umbral de protección mínima exigido por el reglamento." },
-      { "id": 3, "answer": "160 A", "isCorrect": true, "explanation": "El interruptor será como mínimo de 160 A para previsiones de carga hasta 90 kW[cite: 1]." },
-      { "id": 4, "answer": "250 A", "isCorrect": false, "explanation": "Calibre reservado reglamentariamente para el siguiente escalón de potencia." }
+      {
+        "id": 1,
+        "answer": "63 A",
+        "isCorrect": false,
+        "explanation": "Calibre insuficiente para soportar la potencia indicada en trifásica."
+      },
+      {
+        "id": 2,
+        "answer": "100 A",
+        "isCorrect": false,
+        "explanation": "Valor inferior al umbral de protección mínima exigido por el reglamento."
+      },
+      {
+        "id": 3,
+        "answer": "160 A",
+        "isCorrect": true,
+        "explanation": "El interruptor será como mínimo de 160 A para previsiones de carga hasta 90 kW[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "250 A",
+        "isCorrect": false,
+        "explanation": "Calibre reservado reglamentariamente para el siguiente escalón de potencia."
+      }
     ]
   },
   {
@@ -565,10 +1585,30 @@
     "type": "simple",
     "question": "¿Qué calibre de IGM exige la norma para una carga de 130 kW?",
     "options": [
-      { "id": 1, "answer": "160 A", "isCorrect": false, "explanation": "Este calibre tiene un límite legal de carga de hasta 90 kW." },
-      { "id": 2, "answer": "250 A", "isCorrect": true, "explanation": "Se exige 250 A para previsiones superiores a 90 kW y hasta 150 kW[cite: 1]." },
-      { "id": 3, "answer": "400 A", "isCorrect": false, "explanation": "Valor que excede el requerimiento mínimo para el rango de potencia indicado." },
-      { "id": 4, "answer": "630 A", "isCorrect": false, "explanation": "Corresponde a instalaciones de potencia muy superior a los 150 kW." }
+      {
+        "id": 1,
+        "answer": "160 A",
+        "isCorrect": false,
+        "explanation": "Este calibre tiene un límite legal de carga de hasta 90 kW."
+      },
+      {
+        "id": 2,
+        "answer": "250 A",
+        "isCorrect": true,
+        "explanation": "Se exige 250 A para previsiones superiores a 90 kW y hasta 150 kW[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "400 A",
+        "isCorrect": false,
+        "explanation": "Valor que excede el requerimiento mínimo para el rango de potencia indicado."
+      },
+      {
+        "id": 4,
+        "answer": "630 A",
+        "isCorrect": false,
+        "explanation": "Corresponde a instalaciones de potencia muy superior a los 150 kW."
+      }
     ]
   },
   {
@@ -576,21 +1616,61 @@
     "type": "simple",
     "question": "¿Qué seguridad se exige para acceder a los fusibles en el embarrado?",
     "options": [
-      { "id": 1, "answer": "Uso de guantes de clase 4.", "isCorrect": false, "explanation": "La norma impone protecciones físicas integradas, no solo equipos personales." },
-      { "id": 2, "answer": "Protección aislante que evite contactos accidentales con embarrado.", "isCorrect": true, "explanation": "Dispondrá de protección aislante que evite contactos accidentales con el embarrado general[cite: 1]." },
-      { "id": 3, "answer": "Apagar desde la CGP exterior.", "isCorrect": false, "explanation": "La protección integrada permite operar sin desconectar todo el edificio." },
-      { "id": 4, "answer": "Corte de red en vía pública.", "isCorrect": false, "explanation": "Medida desproporcionada para la operación de mantenimiento de fusibles." }
+      {
+        "id": 1,
+        "answer": "Uso de guantes de clase 4.",
+        "isCorrect": false,
+        "explanation": "La norma impone protecciones físicas integradas, no solo equipos personales."
+      },
+      {
+        "id": 2,
+        "answer": "Protección aislante que evite contactos accidentales con embarrado.",
+        "isCorrect": true,
+        "explanation": "Dispondrá de protección aislante que evite contactos accidentales con el embarrado general[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Apagar desde la CGP exterior.",
+        "isCorrect": false,
+        "explanation": "La protección integrada permite operar sin desconectar todo el edificio."
+      },
+      {
+        "id": 4,
+        "answer": "Corte de red en vía pública.",
+        "isCorrect": false,
+        "explanation": "Medida desproporcionada para la operación de mantenimiento de fusibles."
+      }
     ]
   },
   {
     "id": "ITC-BT-16-54",
     "type": "simple",
-    "question": "Según la ITC-BT-16, ¿qué función tiene la 'Unidad funcional de mando'?",
+    "question": "¿Qué función tiene la 'Unidad funcional de mando'?",
     "options": [
-      { "id": 1, "answer": "Registrar los cortes de luz diarios.", "isCorrect": false, "explanation": "Esta no es una función asignada reglamentariamente a esta unidad." },
-      { "id": 2, "answer": "Contener el autómata de escalera.", "isCorrect": false, "explanation": "Los controles de servicios comunes van en cuadros auxiliares separados." },
-      { "id": 3, "answer": "Dispositivos de mando para el cambio de tarifa.", "isCorrect": true, "explanation": "Contiene los dispositivos de mando para el cambio de tarifa de cada suministro[cite: 1]." },
-      { "id": 4, "answer": "Gestión de extinción de incendios.", "isCorrect": false, "explanation": "Función ajena a la centralización de equipos de medida de energía." }
+      {
+        "id": 1,
+        "answer": "Registrar los cortes de luz diarios.",
+        "isCorrect": false,
+        "explanation": "Esta no es una función asignada reglamentariamente a esta unidad."
+      },
+      {
+        "id": 2,
+        "answer": "Contener el autómata de escalera.",
+        "isCorrect": false,
+        "explanation": "Los controles de servicios comunes van en cuadros auxiliares separados."
+      },
+      {
+        "id": 3,
+        "answer": "Dispositivos de mando para el cambio de tarifa.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-16, contiene los dispositivos de mando para el cambio de tarifa de cada suministro[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Gestión de extinción de incendios.",
+        "isCorrect": false,
+        "explanation": "Función ajena a la centralización de equipos de medida de energía."
+      }
     ]
   },
   {
@@ -598,10 +1678,30 @@
     "type": "simple",
     "question": "¿Cómo se señaliza el embarrado de protección en las concentraciones?",
     "options": [
-      { "id": 1, "answer": "No requiere señalización.", "isCorrect": false, "explanation": "Toda toma de protección debe identificarse visualmente por seguridad." },
-      { "id": 2, "answer": "Símbolo normalizado de puesta a tierra y conectada a tierra.", "isCorrect": true, "explanation": "Deberá estar señalizada con el símbolo normalizado de puesta a tierra y conectada a tierra[cite: 1]." },
-      { "id": 3, "answer": "Rayas negras y rojas.", "isCorrect": false, "explanation": "Este código visual no corresponde a la señalización normativa de tierra." },
-      { "id": 4, "answer": "Aislada galvánicamente del suelo.", "isCorrect": false, "explanation": "Debe estar vinculada sólidamente a la tierra del edificio, nunca aislada." }
+      {
+        "id": 1,
+        "answer": "No requiere señalización.",
+        "isCorrect": false,
+        "explanation": "Toda toma de protección debe identificarse visualmente por seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "Símbolo normalizado de puesta a tierra y conectada a tierra.",
+        "isCorrect": true,
+        "explanation": "Deberá estar señalizada con el símbolo normalizado de puesta a tierra y conectada a tierra[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Rayas negras y rojas.",
+        "isCorrect": false,
+        "explanation": "Este código visual no corresponde a la señalización normativa de tierra."
+      },
+      {
+        "id": 4,
+        "answer": "Aislada galvánicamente del suelo.",
+        "isCorrect": false,
+        "explanation": "Debe estar vinculada sólidamente a la tierra del edificio, nunca aislada."
+      }
     ]
   },
   {
@@ -609,10 +1709,30 @@
     "type": "simple",
     "question": "¿Para qué sirve la 'Unidad funcional de telecomunicaciones'?",
     "options": [
-      { "id": 1, "answer": "Instalar fibra óptica vecinal.", "isCorrect": false, "explanation": "La fibra para usuarios pertenece al RITI del edificio, no al cuadro eléctrico." },
-      { "id": 2, "answer": "Alojar las antenas de TDT.", "isCorrect": false, "explanation": "La infraestructura de captación de TV se ubica habitualmente en cubierta." },
-      { "id": 3, "answer": "Equipo de comunicación y adquisición de datos de contadores.", "isCorrect": true, "explanation": "Contiene el espacio para el equipo de comunicación y adquisición de datos[cite: 1]." },
-      { "id": 4, "answer": "Centralita del portero automático.", "isCorrect": false, "explanation": "Equipo ajeno a las funciones de suministro y facturación de energía." }
+      {
+        "id": 1,
+        "answer": "Instalar fibra óptica vecinal.",
+        "isCorrect": false,
+        "explanation": "La fibra para usuarios pertenece al RITI del edificio, no al cuadro eléctrico."
+      },
+      {
+        "id": 2,
+        "answer": "Alojar las antenas de TDT.",
+        "isCorrect": false,
+        "explanation": "La infraestructura de captación de TV se ubica habitualmente en cubierta."
+      },
+      {
+        "id": 3,
+        "answer": "Equipo de comunicación y adquisición de datos de contadores.",
+        "isCorrect": true,
+        "explanation": "Contiene el espacio para el equipo de comunicación y adquisición de datos[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Centralita del portero automático.",
+        "isCorrect": false,
+        "explanation": "Equipo ajeno a las funciones de suministro y facturación de energía."
+      }
     ]
   },
   {
@@ -620,10 +1740,30 @@
     "type": "simple",
     "question": "¿Quiénes deben elegir el sistema final a aplicar?",
     "options": [
-      { "id": 1, "answer": "Arquitecto y constructor.", "isCorrect": false, "explanation": "Ellos ejecutan, pero el diseño del enlace depende de la distribuidora." },
-      { "id": 2, "answer": "Empresa Suministradora y propiedad.", "isCorrect": true, "explanation": "La Empresa Suministradora, de común acuerdo con la propiedad, elegirá la solución[cite: 1]." },
-      { "id": 3, "answer": "Alcalde y comunidad.", "isCorrect": false, "explanation": "El municipio no regula diseños eléctricos privados que cumplan el REBT." },
-      { "id": 4, "answer": "Instalador y fabricante.", "isCorrect": false, "explanation": "No tienen potestad para decidir sobre los criterios de la distribuidora." }
+      {
+        "id": 1,
+        "answer": "Arquitecto y constructor.",
+        "isCorrect": false,
+        "explanation": "Ellos ejecutan, pero el diseño del enlace depende de la distribuidora."
+      },
+      {
+        "id": 2,
+        "answer": "Empresa Suministradora y propiedad.",
+        "isCorrect": true,
+        "explanation": "La Empresa Suministradora, de común acuerdo con la propiedad, elegirá la solución[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Alcalde y comunidad.",
+        "isCorrect": false,
+        "explanation": "El municipio no regula diseños eléctricos privados que cumplan el REBT."
+      },
+      {
+        "id": 4,
+        "answer": "Instalador y fabricante.",
+        "isCorrect": false,
+        "explanation": "No tienen potestad para decidir sobre los criterios de la distribuidora."
+      }
     ]
   },
   {
@@ -631,10 +1771,30 @@
     "type": "simple",
     "question": "¿Quién resuelve en caso de discrepancia sobre el sistema elegido?",
     "options": [
-      { "id": 1, "answer": "El juzgado de lo civil.", "isCorrect": false, "explanation": "Se debe agotar la vía administrativa de Industria antes de procesos judiciales." },
-      { "id": 2, "answer": "La asociación de instaladores.", "isCorrect": false, "explanation": "Las asociaciones profesionales no poseen potestad legal resolutiva en este punto." },
-      { "id": 3, "answer": "El Organismo Competente de la Administración.", "isCorrect": true, "explanation": "En caso de discrepancia resolverá el Organismo Competente de la Administración[cite: 1]." },
-      { "id": 4, "answer": "El defensor del consumidor.", "isCorrect": false, "explanation": "Carece de competencias técnicas ejecutivas sobre la aplicación del REBT." }
+      {
+        "id": 1,
+        "answer": "El juzgado de lo civil.",
+        "isCorrect": false,
+        "explanation": "Se debe agotar la vía administrativa de Industria antes de procesos judiciales."
+      },
+      {
+        "id": 2,
+        "answer": "La asociación de instaladores.",
+        "isCorrect": false,
+        "explanation": "Las asociaciones profesionales no poseen potestad legal resolutiva en este punto."
+      },
+      {
+        "id": 3,
+        "answer": "El Organismo Competente de la Administración.",
+        "isCorrect": true,
+        "explanation": "En caso de discrepancia resolverá el Organismo Competente de la Administración[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "El defensor del consumidor.",
+        "isCorrect": false,
+        "explanation": "Carece de competencias técnicas ejecutivas sobre la aplicación del REBT."
+      }
     ]
   },
   {
@@ -642,10 +1802,30 @@
     "type": "simple",
     "question": "¿Bajo qué pretexto se admiten contadores individuales descentralizados?",
     "options": [
-      { "id": 1, "answer": "Por estética de la propiedad.", "isCorrect": false, "explanation": "Criterios estéticos no eximen del cumplimiento de normas de enlace." },
-      { "id": 2, "answer": "Por falta de espacio para un local.", "isCorrect": false, "explanation": "La falta de previsión arquitectónica no justifica incumplir la norma base." },
-      { "id": 3, "answer": "Cuando se incorporen nuevas técnicas de telegestión.", "isCorrect": true, "explanation": "Se admitirán contadores individuales cuando se incorporen nuevas técnicas de telegestión[cite: 1]." },
-      { "id": 4, "answer": "Si el cobre sale más barato.", "isCorrect": false, "explanation": "El ahorro económico del instalador no es un criterio de exención técnica." }
+      {
+        "id": 1,
+        "answer": "Por estética de la propiedad.",
+        "isCorrect": false,
+        "explanation": "Criterios estéticos no eximen del cumplimiento de normas de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Por falta de espacio para un local.",
+        "isCorrect": false,
+        "explanation": "La falta de previsión arquitectónica no justifica incumplir la norma base."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando se incorporen nuevas técnicas de telegestión.",
+        "isCorrect": true,
+        "explanation": "Se admitirán contadores individuales cuando se incorporen nuevas técnicas de telegestión[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Si el cobre sale más barato.",
+        "isCorrect": false,
+        "explanation": "El ahorro económico del instalador no es un criterio de exención técnica."
+      }
     ]
   },
   {
@@ -653,10 +1833,30 @@
     "type": "simple",
     "question": "(Caso Práctico) Bloque de 8 plantas con 24 viviendas. ¿Solución obligatoria?",
     "options": [
-      { "id": 1, "answer": "CPM individual en cada puerta.", "isCorrect": false, "explanation": "Las CPM se utilizan para suministros de uno o dos usuarios." },
-      { "id": 2, "answer": "Concentración en ARMARIO en planta baja.", "isCorrect": false, "explanation": "Al superar los 16 suministros, el uso de armario está prohibido." },
-      { "id": 3, "answer": "Concentración en LOCAL en planta baja o sótano.", "isCorrect": true, "explanation": "Al superar 16 contadores y tener hasta 12 plantas, la ubicación en local es obligatoria[cite: 1]." },
-      { "id": 4, "answer": "Concentraciones por plantas.", "isCorrect": false, "explanation": "Requeriría más de 16 contadores por planta o superar las 12 plantas." }
+      {
+        "id": 1,
+        "answer": "CPM individual en cada puerta.",
+        "isCorrect": false,
+        "explanation": "Las CPM se utilizan para suministros de uno o dos usuarios."
+      },
+      {
+        "id": 2,
+        "answer": "Concentración en ARMARIO en planta baja.",
+        "isCorrect": false,
+        "explanation": "Al superar los 16 suministros, el uso de armario está prohibido."
+      },
+      {
+        "id": 3,
+        "answer": "Concentración en LOCAL en planta baja o sótano.",
+        "isCorrect": true,
+        "explanation": "Al superar 16 contadores y tener hasta 12 plantas, la ubicación en local es obligatoria[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Concentraciones por plantas.",
+        "isCorrect": false,
+        "explanation": "Requeriría más de 16 contadores por planta o superar las 12 plantas."
+      }
     ]
   }
 ]
