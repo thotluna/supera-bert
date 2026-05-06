@@ -43,6 +43,8 @@
 
 - [x] Renombrar claves de español a inglés en `data/*.json` (`pregunta` -> `question`, etc.)
 - [x] Crear semillas de datos mock para validación de tests
+- [x] Refinar metadatos de preguntas (Mover referencias de ITC a explicaciones) en todos los archivos
+- [x] Cargar y limpiar contenido de ITC-BT-18 y ITC-BT-19
 
 # Documentación y Análisis
 

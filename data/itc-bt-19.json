@@ -1,0 +1,3077 @@
+[
+  {
+    "id": "quiz-itc-bt-19",
+    "itc": "ITC-BT-19",
+    "questions": [
+      {
+        "id": "ITC-BT-19-01",
+        "question": "¿A qué tipo de instalaciones se extienden las prescripciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente a instalaciones industriales de alta tensión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Según el apartado 1 (Campo de Aplicación), la ITC-BT-19 se aplica a instalaciones interiores o receptoras de baja tensión, no de alta tensión."
+          },
+          {
+            "id": 2,
+            "answer": "A instalaciones interiores con tensión asignada dentro de los márgenes del REBT para Baja Tensión.",
+            "isCorrect": true,
+            "explanation": "Según ITC-BT-19, correcto. El apartado 1 establece textualmente que las prescripciones se extienden a instalaciones interiores dentro del campo de aplicación del artículo 2 y con tensión asignada dentro de los márgenes fijados en el artículo 4 del REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Solo a instalaciones de viviendas unifamiliares.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El campo de aplicación es más amplio e incluye todo tipo de instalaciones interiores o receptoras de baja tensión, no solo viviendas."
+          },
+          {
+            "id": 4,
+            "answer": "Exclusivamente a instalaciones exteriores de alumbrado público.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La ITC-BT-19 se refiere a instalaciones interiores, no exteriores como el alumbrado público."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-02",
+        "question": "¿Según qué norma se deben determinar las características de la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Norma UNE-HD 60.364-1.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 (Regla general) establece textualmente: 'La determinación de las características de la instalación deberá efectuarse de acuerdo con lo señalado en la Norma UNE-HD 60.364-1 (Antigua UNE 20.460-3)'."
+          },
+          {
+            "id": 2,
+            "answer": "Norma UNE 20.460-5-523.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma se refiere a intensidades máximas admisibles (apartado 2.2.3), no a la determinación general de características."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La UNE 20315 se refiere a bases de toma de corriente (apartado 2.10), no a características generales de la instalación."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE-EN 60.998-2-1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma se menciona para dispositivos de conexión de conductores de protección, no para características generales de instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-03",
+        "question": "¿De qué materiales pueden ser los conductores empleados en las instalaciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente de cobre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El apartado 2.2.1 permite tanto cobre como aluminio para los conductores."
+          },
+          {
+            "id": 2,
+            "answer": "De cobre o aluminio, y siempre aislados excepto cuando vayan montados sobre aisladores.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.1 establece: 'Los conductores y cables que se empleen en las instalaciones serán de cobre o aluminio y serán siempre aislados, excepto cuando vayan montados sobre aisladores, tal como se indica en la ITC-BT 20'."
+          },
+          {
+            "id": 3,
+            "answer": "De cualquier material metálico conductor.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El reglamento limita expresamente los materiales a cobre o aluminio."
+          },
+          {
+            "id": 4,
+            "answer": "Pueden ser desnudos en cualquier circunstancia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo pueden ir sin aislamiento cuando estén montados sobre aisladores según ITC-BT 20."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-04",
+        "question": "¿Cuál es la caída de tensión máxima admisible para circuitos interiores de viviendas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "5% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 5% es para otros usos en instalaciones distintas de viviendas."
+          },
+          {
+            "id": 2,
+            "answer": "3% de la tensión nominal.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'menor del 3% de la tensión nominal para cualquier circuito interior de viviendas'."
+          },
+          {
+            "id": 3,
+            "answer": "4,5% para alumbrado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 4,5% aplica solo para instalaciones industriales con transformador propio, no para viviendas."
+          },
+          {
+            "id": 4,
+            "answer": "1,5% en todos los casos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este valor en la normativa para caídas de tensión en viviendas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-05",
+        "question": "¿Qué caída de tensión máxima se admite para alumbrado en instalaciones interiores distintas de viviendas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor establecido en el reglamento."
+          },
+          {
+            "id": 2,
+            "answer": "3% de la tensión nominal.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 indica: 'para otras instalaciones interiores o receptoras, del 3% para alumbrado y del 5% para los demás usos'."
+          },
+          {
+            "id": 3,
+            "answer": "5% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 5% es para los demás usos, no para alumbrado."
+          },
+          {
+            "id": 4,
+            "answer": "6,5% para alumbrado industrial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 6,5% aplica para otros usos en instalaciones industriales con transformador propio, no para alumbrado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-06",
+        "question": "¿Qué caída de tensión máxima se admite para usos distintos de alumbrado en instalaciones interiores generales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "3% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 3% es exclusivamente para alumbrado."
+          },
+          {
+            "id": 2,
+            "answer": "4% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es un valor contemplado en la normativa."
+          },
+          {
+            "id": 3,
+            "answer": "5% de la tensión nominal.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'para otras instalaciones interiores o receptoras, del 3% para alumbrado y del 5% para los demás usos'."
+          },
+          {
+            "id": 4,
+            "answer": "6,5% en todos los casos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El 6,5% solo aplica para instalaciones industriales con transformador propio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-07",
+        "question": "¿Qué caídas de tensión máximas se admiten en instalaciones industriales alimentadas directamente en alta tensión mediante transformador propio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "3% para alumbrado y 5% para demás usos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Estos valores son para instalaciones interiores generales, no industriales con transformador propio."
+          },
+          {
+            "id": 2,
+            "answer": "4,5% para alumbrado y 6,5% para los demás usos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'En instalaciones industriales que se alimenten directamente en alta tensión mediante un transformador de distribución propio... las caídas de tensión máximas admisibles serán del 4,5% para alumbrado y del 6,5% para los demás usos'."
+          },
+          {
+            "id": 3,
+            "answer": "5% para alumbrado y 7% para demás usos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No son los valores reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "2% para alumbrado y 4% para demás usos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Valores demasiado restrictivos no contemplados en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-08",
+        "question": "¿Cómo se debe calcular la caída de tensión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Considerando solo los aparatos que funcionan simultáneamente en hora punta.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma exige considerar todos los aparatos susceptibles de funcionar simultáneamente, no solo los de hora punta."
+          },
+          {
+            "id": 2,
+            "answer": "Considerando alimentados todos los aparatos de utilización susceptibles de funcionar simultáneamente.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-19, correcto. El apartado 2.2.2 establece: 'Esta caída de tensión se calculará considerando alimentados todos los aparatos de utilización susceptibles de funcionar simultáneamente'."
+          },
+          {
+            "id": 3,
+            "answer": "Considerando solo el 50% de los aparatos instalados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el criterio establecido en la normativa."
+          },
+          {
+            "id": 4,
+            "answer": "Considerando únicamente la potencia máxima contratada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El cálculo debe basarse en los aparatos susceptibles de funcionamiento simultáneo, no en la potencia contratada."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-09",
+        "question": "¿Qué sección mínima debe tener el conductor neutro en instalaciones interiores con cargas no lineales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La mitad de la sección de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para cargas no lineales se requiere mayor sección, no menor."
+          },
+          {
+            "id": 2,
+            "answer": "Igual a la sección de las fases, salvo justificación por cálculo.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'para tener en cuenta las corrientes armónicas debidas a cargas no lineales y posibles desequilibrios, salvo justificación por cálculo, la sección del conductor neutro será como mínimo igual a la de las fases'."
+          },
+          {
+            "id": 3,
+            "answer": "El doble de la sección de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma no exige el doble, sino como mínimo igual."
+          },
+          {
+            "id": 4,
+            "answer": "Siempre 16 mm² independientemente de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La sección depende de la de las fases, no es un valor fijo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-10",
+        "question": "¿?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Norma UNE 20.460-3.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma es para determinación de características generales de la instalación."
+          },
+          {
+            "id": 2,
+            "answer": "Norma UNE-HD 60.364-5-52 (Antigua UNE 20.460-5-523) y su anexo Nacional.",
+            "isCorrect": true,
+            "explanation": "Según qué norma se rigen las intensidades máximas admisibles de los conductores, correcto. El apartado 2.2.3 establece: 'Las intensidades máximas admisibles, se regirán en su totalidad por lo indicado en la Norma UNE-HD 60.364-5-52 y su anexo Nacional'."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20.460-5-54.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma se refiere a conductores de protección, no a intensidades admisibles."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre bases de toma de corriente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-11",
+        "question": "¿Para qué temperatura ambiente del aire se indican las intensidades admisibles en la Tabla 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "25°C.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es la temperatura de referencia de la tabla."
+          },
+          {
+            "id": 2,
+            "answer": "30°C.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor de referencia."
+          },
+          {
+            "id": 3,
+            "answer": "40°C.",
+            "isCorrect": true,
+            "explanation": "Según ITC-BT-19, correcto. El apartado 2.2.3 indica: 'En la siguiente tabla se indican las intensidades admisibles para una temperatura ambiente del aire de 40°C'."
+          },
+          {
+            "id": 4,
+            "answer": "50°C.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es la temperatura de referencia de la tabla."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-12",
+        "question": "¿Qué color debe identificar al conductor neutro en una instalación eléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Verde-amarillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El verde-amarillo identifica al conductor de protección, no al neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Azul claro.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.4 establece: 'Cuando exista conductor neutro en la instalación o se prevea para un conductor de fase su pase posterior a conductor neutro, se identificarán éstos por el color azul claro'."
+          },
+          {
+            "id": 3,
+            "answer": "Marrón.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El marrón se usa para conductores de fase."
+          },
+          {
+            "id": 4,
+            "answer": "Negro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El negro se usa para conductores de fase."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-13",
+        "question": "¿Qué color debe identificar al conductor de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Azul claro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El azul claro es para el conductor neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Verde-amarillo.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.4 establece: 'Al conductor de protección se le identificará por el color verde-amarillo'."
+          },
+          {
+            "id": 3,
+            "answer": "Gris.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El gris se puede usar para identificar una tercera fase, no para protección."
+          },
+          {
+            "id": 4,
+            "answer": "Blanco.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El blanco no está contemplado para identificación de conductores en esta norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-14",
+        "question": "¿Qué colores se utilizan para identificar los conductores de fase?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Azul claro y verde-amarillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Estos colores son para neutro y protección respectivamente."
+          },
+          {
+            "id": 2,
+            "answer": "Marrón o negro.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.4 establece: 'Todos los conductores de fase, o en su caso, aquellos para los que no se prevea su pase posterior a neutro, se identificarán por los colores marrón o negro'."
+          },
+          {
+            "id": 3,
+            "answer": "Rojo y amarillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Estos colores no están contemplados en la ITC-BT-19 para identificación de fases."
+          },
+          {
+            "id": 4,
+            "answer": "Solo negro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten tanto marrón como negro para fases."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-15",
+        "question": "¿Qué color adicional se puede utilizar cuando es necesario identificar tres fases diferentes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Rojo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El rojo no está contemplado en la norma para este fin."
+          },
+          {
+            "id": 2,
+            "answer": "Amarillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el color adicional permitido."
+          },
+          {
+            "id": 3,
+            "answer": "Gris.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.4 establece: 'Cuando se considere necesario identificar tres fases diferentes, se utilizará también el color gris'."
+          },
+          {
+            "id": 4,
+            "answer": "Blanco.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El blanco no está contemplado para identificación de fases."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-16",
+        "question": "¿?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Norma UNE 20.460-3.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma es para características generales de la instalación."
+          },
+          {
+            "id": 2,
+            "answer": "Norma UNE-HD 60.364-5-54 (Antigua UNE 20.460-5-54).",
+            "isCorrect": true,
+            "explanation": "Según qué norma se aplican las prescripciones para conductores de protección, correcto. El apartado 2.3 establece: 'Se aplicará lo indicado en la Norma UNE-HD 60.364-5-54 en su apartado 543'."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20.460-5-523.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre intensidades máximas admisibles."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma se refiere a bases de toma de corriente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-17",
+        "question": "¿Qué sección mínima debe tener un conductor de protección cuando la sección de fase S es menor de 16 mm²?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5 mm² en todos los casos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La sección mínima depende de si forma parte de la canalización y de la protección mecánica."
+          },
+          {
+            "id": 2,
+            "answer": "S (igual a la sección de fase), con mínimo de 2,5 mm² o 4 mm² según condiciones.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 2 del apartado 2.3, para S < 16 mm², la sección del conductor de protección es S, con un mínimo de 2,5 mm² si tiene protección mecánica o 4 mm² si no la tiene, cuando no forma parte de la canalización de alimentación."
+          },
+          {
+            "id": 3,
+            "answer": "16 mm² siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica para otros rangos de sección de fase."
+          },
+          {
+            "id": 4,
+            "answer": "La mitad de la sección de fase.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esto aplica solo cuando S > 35 mm²."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-18",
+        "question": "¿Qué sección mínima debe tener un conductor de protección cuando la sección de fase S está entre 16 y 35 mm²?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "S (igual a la sección de fase).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica cuando S < 16 mm²."
+          },
+          {
+            "id": 2,
+            "answer": "16 mm².",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 2 del apartado 2.3, para 16 < S ≤ 35 mm², la sección mínima del conductor de protección es 16 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "S/2 (la mitad de la sección de fase).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este criterio aplica cuando S > 35 mm²."
+          },
+          {
+            "id": 4,
+            "answer": "25 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor establecido en la tabla."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-19",
+        "question": "¿Qué sección mínima debe tener un conductor de protección cuando la sección de fase S es mayor de 35 mm²?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "S (igual a la sección de fase).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica cuando S < 16 mm²."
+          },
+          {
+            "id": 2,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica cuando 16 < S ≤ 35 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "S/2 (la mitad de la sección de fase).",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 2 del apartado 2.3, para S > 35 mm², la sección mínima del conductor de protección es S/2."
+          },
+          {
+            "id": 4,
+            "answer": "35 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor establecido en la tabla."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-20",
+        "question": "¿Cuál es la sección mínima de un conductor de protección de cobre que NO forma parte de la canalización de alimentación y TIENE protección mecánica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es un valor contemplado en la norma para este caso."
+          },
+          {
+            "id": 2,
+            "answer": "2,5 mm².",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la nota de la Tabla 2 del apartado 2.3: 'Con un mínimo de: 2,5 mm² si los conductores de protección no forman parte de la canalización de alimentación y tienen una protección mecánica'."
+          },
+          {
+            "id": 3,
+            "answer": "4 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica cuando NO tienen protección mecánica."
+          },
+          {
+            "id": 4,
+            "answer": "6 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el mínimo establecido para este caso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-21",
+        "question": "¿Cuál es la sección mínima de un conductor de protección de cobre que NO forma parte de la canalización de alimentación y NO tiene protección mecánica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica cuando SÍ tienen protección mecánica."
+          },
+          {
+            "id": 2,
+            "answer": "4 mm².",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la nota de la Tabla 2 del apartado 2.3: '4 mm² si los conductores de protección no forman parte de la canalización de alimentación y no tienen una protección mecánica'."
+          },
+          {
+            "id": 3,
+            "answer": "6 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el mínimo establecido para este caso."
+          },
+          {
+            "id": 4,
+            "answer": "10 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor contemplado en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-22",
+        "question": "¿Qué precaución debe tomarse cuando se aplican diferentes sistemas de protección en instalaciones próximas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Utilizar un único conductor de protección común para todos los sistemas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma exige lo contrario: conductores de protección distintos para cada sistema."
+          },
+          {
+            "id": 2,
+            "answer": "Emplear para cada sistema un conductor de protección distinto.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Si se aplican diferentes sistemas de protección en instalaciones próximas, se empleará para cada uno de los sistemas un conductor de protección distinto'."
+          },
+          {
+            "id": 3,
+            "answer": "Interconectar todos los conductores de protección entre sí.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esto podría comprometer la selectividad de las protecciones."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario tomar ninguna precaución especial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece requisitos específicos para este caso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-23",
+        "question": "¿Se puede utilizar un conductor de protección común para instalaciones de tensiones nominales diferentes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre que sea de cobre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El material no es el factor determinante para esta prohibición."
+          },
+          {
+            "id": 2,
+            "answer": "No, está prohibido.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'No se utilizará un conductor de protección común para instalaciones de tensiones nominales diferentes'."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si las instalaciones están en el mismo edificio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La prohibición es absoluta, independientemente de la ubicación."
+          },
+          {
+            "id": 4,
+            "answer": "Solo se permite en instalaciones temporales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe excepción para instalaciones temporales en este punto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-24",
+        "question": "¿Dónde se recomienda instalar el conductor de protección cuando los conductores activos van en una envolvente común?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Fuera de la envolvente, por un recorrido independiente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma recomienda incluirlo dentro de la misma envolvente."
+          },
+          {
+            "id": 2,
+            "answer": "Dentro de la misma envolvente, con el mismo aislamiento que los otros conductores.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Si los conductores activos van en el interior de una envolvente común, se recomienda incluir también dentro de ella el conductor de protección, en cuyo caso presentará el mismo aislamiento que los otros conductores'."
+          },
+          {
+            "id": 3,
+            "answer": "Dentro de la envolvente pero sin aislamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe presentar el mismo aislamiento que los otros conductores."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario conductor de protección en este caso.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El conductor de protección es preceptivo independientemente del tipo de canalización."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-25",
+        "question": "¿Cómo deben instalarse los conductores en una canalización móvil?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El conductor de protección puede ir por un recorrido diferente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Todos los conductores deben ir juntos en canalizaciones móviles."
+          },
+          {
+            "id": 2,
+            "answer": "Todos los conductores, incluido el de protección, irán por la misma canalización.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'En una canalización móvil todos los conductores incluyendo el conductor de protección, irán por la misma canalización'."
+          },
+          {
+            "id": 3,
+            "answer": "El conductor de protección no es necesario en canalizaciones móviles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El conductor de protección es siempre necesario."
+          },
+          {
+            "id": 4,
+            "answer": "Solo los conductores de fase deben ir en la canalización.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Todos los conductores deben compartir la misma canalización."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-26",
+        "question": "¿En qué condiciones puede utilizarse la cubierta exterior de conductores con aislamiento mineral como conductor de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En cualquier caso, por ser metálica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben cumplirse condiciones específicas de continuidad y conductividad."
+          },
+          {
+            "id": 2,
+            "answer": "Siempre que su continuidad quede perfectamente asegurada y su conductividad sea como mínimo igual a la que resulte de aplicar la Norma UNE 20.460-5-54, apartado 543.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece estas condiciones específicas para el uso de la cubierta como conductor de protección."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la cubierta es de cobre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El material no es el único factor; se exige continuidad y conductividad adecuadas."
+          },
+          {
+            "id": 4,
+            "answer": "Nunca puede utilizarse como conductor de protección.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma permite su uso bajo condiciones específicas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-27",
+        "question": "¿Dónde deben colocarse los conductores de protección cuando los conductores activos van bajo tubos de material ferromagnético?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En tubos independientes separados al menos 30 cm.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma exige que vayan en los mismos tubos."
+          },
+          {
+            "id": 2,
+            "answer": "En los mismos tubos o formando parte de los mismos cables que los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Cuando las canalizaciones estén constituidas por conductores aislados colocados bajo tubos de material ferromagnético, o por cables que contienen una armadura metálica, los conductores de protección se colocarán en los mismos tubos o formarán parte de los mismos cables que los conductores activos'."
+          },
+          {
+            "id": 3,
+            "answer": "Pueden ir por el exterior de los tubos ferromagnéticos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben compartir la misma canalización que los conductores activos."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario conductor de protección con tubos ferromagnéticos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El conductor de protección es siempre preceptivo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-28",
+        "question": "¿Cómo deben realizarse las conexiones en los conductores de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mediante soldadura con ácido o piezas de conexión no accesibles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se permite el uso de ácido y las conexiones deben ser accesibles."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante uniones soldadas sin empleo de ácido o por piezas de conexión de apriete por rosca, accesibles para verificación y ensayo.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece estos requisitos para las conexiones de conductores de protección, incluyendo que sean accesibles y de material inoxidable."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier método que asegure la continuidad eléctrica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma especifica métodos concretos y requisitos adicionales."
+          },
+          {
+            "id": 4,
+            "answer": "Solo mediante soldadura fuerte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten también piezas de conexión de apriete por rosca."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-29",
+        "question": "¿Qué precaución debe tomarse al conectar metales diferentes en conductores de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario tomar precauciones especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los efectos electroquímicos pueden deteriorar las conexiones."
+          },
+          {
+            "id": 2,
+            "answer": "Tomar precauciones para evitar deterioro por efectos electroquímicos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Se tomarán las precauciones necesarias para evitar el deterioro causado por efectos electroquímicos cuando las conexiones sean entre metales diferentes (por ejemplo cobre-aluminio)'."
+          },
+          {
+            "id": 3,
+            "answer": "Usar siempre conectores de plástico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es la solución indicada en la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Evitar cualquier conexión entre metales diferentes.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten con las precauciones adecuadas, no se prohíben."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-30",
+        "question": "¿Cuál es el objetivo principal de subdividir las instalaciones eléctricas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Reducir el coste de los materiales de instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La subdivisión busca seguridad y funcionalidad, no reducción de costes."
+          },
+          {
+            "id": 2,
+            "answer": "Que las perturbaciones por averías afecten solo a ciertas partes de la instalación.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.4 establece: 'Las instalaciones se subdividirán de forma que las perturbaciones originadas por averías que puedan producirse en un punto de ellas, afecten solamente a ciertas partes de la instalación'."
+          },
+          {
+            "id": 3,
+            "answer": "Facilitar la estética de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La estética no es el criterio de subdivisión según la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Aumentar la capacidad de transporte de corriente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La subdivisión no tiene este objetivo principal."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-31",
+        "question": "¿Cómo deben estar coordinados los dispositivos de protección en una instalación subdividida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "De forma que actúen simultáneamente todos ante cualquier avería.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se busca selectividad, no actuación simultánea."
+          },
+          {
+            "id": 2,
+            "answer": "Adecuadamente coordinados y selectivos con los dispositivos generales de protección que les precedan.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.4 establece: 'los dispositivos de protección de cada circuito estarán adecuadamente coordinados y serán selectivos con los dispositivos generales de protección que les precedan'."
+          },
+          {
+            "id": 3,
+            "answer": "Independientes entre sí, sin coordinación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La coordinación y selectividad son requisitos esenciales."
+          },
+          {
+            "id": 4,
+            "answer": "Solo los dispositivos generales deben ser selectivos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Todos los dispositivos deben estar coordinados entre sí."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-32",
+        "question": "¿Cuál NO es una razón para dividir una instalación en varios circuitos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Evitar interrupciones innecesarias de todo el circuito.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta SÍ es una razón válida según el apartado 2.4."
+          },
+          {
+            "id": 2,
+            "answer": "Facilitar las verificaciones, ensayos y mantenimientos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta SÍ es una razón válida según el apartado 2.4."
+          },
+          {
+            "id": 3,
+            "answer": "Reducir el número de conductores necesarios en la instalación.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-19, correcto. Esta NO es una razón mencionada en el apartado 2.4. Las razones son: evitar interrupciones innecesarias, limitar consecuencias de fallos, facilitar verificaciones y evitar riesgos por fallo de un solo circuito."
+          },
+          {
+            "id": 4,
+            "answer": "Evitar riesgos por fallo de un solo circuito que pudiera dividirse.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta SÍ es una razón válida según el apartado 2.4."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-33",
+        "question": "¿Cómo debe repartirse la carga en una instalación para mantener el equilibrio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Concentrando toda la carga en una sola fase para simplificar.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esto provocaría desequilibrio, lo contrario de lo que se busca."
+          },
+          {
+            "id": 2,
+            "answer": "Repartida entre sus fases o conductores polares.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.5 establece: 'se procurará que aquella quede repartida entre sus fases o conductores polares'."
+          },
+          {
+            "id": 3,
+            "answer": "Asignando cargas aleatoriamente sin criterio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere un reparto equilibrado intencional."
+          },
+          {
+            "id": 4,
+            "answer": "Solo en instalaciones trifásicas es necesario equilibrar.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El principio de equilibrio aplica a cualquier instalación con múltiples fases o conductores polares."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-34",
+        "question": "¿Qué instalaciones pueden desconectarse de la fuente de alimentación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo las instalaciones con origen en línea general de alimentación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. También pueden desconectarse las que tengan origen en cuadro de mando o distribución."
+          },
+          {
+            "id": 2,
+            "answer": "Toda instalación cuyo origen esté en línea general de alimentación o en un cuadro de mando o de distribución.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.6 establece ambas posibilidades: 'a) Toda instalación cuyo origen esté en una línea general de alimentación b) Toda instalación con origen en un cuadro de mando o de distribución'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo las instalaciones industriales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La posibilidad de desconexión aplica a todo tipo de instalaciones interiores."
+          },
+          {
+            "id": 4,
+            "answer": "Ninguna instalación puede desconectarse completamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece explícitamente esta posibilidad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-35",
+        "question": "¿Qué tipo de separación garantizan los dispositivos de desconexión admitidos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Separación unipolar en todos los conductores.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere separación omnipolar, excepto en el neutro de redes TN-C."
+          },
+          {
+            "id": 2,
+            "answer": "Separación omnipolar excepto en el neutro de las redes TN-C.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.6 establece: 'Los dispositivos admitidos para esta desconexión, que garantizarán la separación omnipolar excepto en el neutro de las redes TN-C'."
+          },
+          {
+            "id": 3,
+            "answer": "Separación solo en los conductores de fase.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere omnipolaridad, no solo en fases."
+          },
+          {
+            "id": 4,
+            "answer": "Separación bipolar en todos los casos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere omnipolar, no solo bipolar."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-36",
+        "question": "¿Cuál de los siguientes dispositivos NO está admitido para la desconexión de la alimentación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cortacircuitos fusibles.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los cortacircuitos fusibles SÍ están admitidos según el apartado 2.6."
+          },
+          {
+            "id": 2,
+            "answer": "Seccionadores.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los seccionadores SÍ están admitidos según el apartado 2.6."
+          },
+          {
+            "id": 3,
+            "answer": "Interruptores con separación de contactos mayor de 3 mm o nivel de seguridad equivalente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este tipo de interruptores SÍ está admitido según el apartado 2.6."
+          },
+          {
+            "id": 4,
+            "answer": "Interruptores automáticos magnetotérmicos sin capacidad de seccionamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Los dispositivos listados en el apartado 2.6 son: cortacircuitos fusibles, seccionadores, interruptores con separación >3mm, y bornes de conexión solo en derivación. Los interruptores automáticos sin capacidad de seccionamiento no están explícitamente admitidos para esta función específica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-37",
+        "question": "¿Dónde deben situarse los dispositivos de desconexión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En lugares no accesibles para evitar manipulaciones indebidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben ser accesibles para su operación."
+          },
+          {
+            "id": 2,
+            "answer": "En un mismo punto de la instalación, accesibles y que permitan fácil identificación de la parte que separan.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.6 establece: 'Los dispositivos de desconexión se situarán y actuarán en un mismo punto de la instalación... Los dispositivos deberán ser accesibles y estarán dispuestos de forma que permitan la fácil identificación de la parte de la instalación que separan'."
+          },
+          {
+            "id": 3,
+            "answer": "Distribuidos por toda la instalación sin criterio de ubicación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben actuar en un mismo punto para facilitar la operación."
+          },
+          {
+            "id": 4,
+            "answer": "Exclusivamente en el cuadro general de mando y protección.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Pueden ubicarse en otros puntos según el origen de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-38",
+        "question": "¿En qué lugares es preceptivo instalar dispositivos para conectar y desconectar en carga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo en el origen de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El apartado 2.7 enumera múltiples lugares donde es preceptivo."
+          },
+          {
+            "id": 2,
+            "answer": "En el origen, circuitos principales, cuadros secundarios, receptores, circuitos auxiliares, instalaciones de elevación, etc., según lista del apartado 2.7.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 enumera exhaustivamente los lugares donde se instalarán estos dispositivos: origen de instalación, circuitos principales, cuadros secundarios, receptores, circuitos auxiliares, instalaciones de elevación, circuitos de tubos luminosos, locales con riesgo, instalaciones a la intemperie, cuadros de distribución, acumuladores y salida de generadores."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en instalaciones con riesgo de incendio o explosión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Aunque estos locales están incluidos, no son los únicos."
+          },
+          {
+            "id": 4,
+            "answer": "Exclusivamente en circuitos de potencia superior a 10 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este límite de potencia en el apartado 2.7."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-39",
+        "question": "¿Qué circuitos pueden exceptuarse de la prescripción de conectar y desconectar en carga en el origen?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ningún circuito puede exceptuarse.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El apartado 2.7 establece excepciones específicas."
+          },
+          {
+            "id": 2,
+            "answer": "Circuitos para relojes, rectificadores telefónicos ≤500 VA y circuitos de mando/control cuya desconexión impida funciones de seguridad.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece: 'Podrán exceptuarse de esta prescripción los circuitos destinados a relojes, a rectificadores para instalaciones telefónicas cuya potencia nominal no exceda de 500 VA y los circuitos de mando o control, siempre que su desconexión impida cumplir alguna función importante para la seguridad de la instalación'."
+          },
+          {
+            "id": 3,
+            "answer": "Todos los circuitos de alumbrado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los circuitos de alumbrado no están exceptuados."
+          },
+          {
+            "id": 4,
+            "answer": "Circuitos con potencia inferior a 100 W.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este criterio de excepción en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-40",
+        "question": "¿Qué dispositivos están admitidos para la conexión y desconexión en carga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo interruptores automáticos magnetotérmicos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma enumera dispositivos específicos diferentes."
+          },
+          {
+            "id": 2,
+            "answer": "Interruptores manuales, cortacircuitos fusibles de accionamiento manual con poder de corte adecuado, y clavijas de tomas de corriente ≤16 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece: 'Los dispositivos admitidos para la conexión y desconexión en carga son: - Los interruptores manuales. - Los cortacircuitos fusibles de accionamiento manual, o cualquier otro sistema aislado que permita estas maniobras siempre que tengan poder de corte y de cierre adecuado e independiente del operador. - Las clavijas de las tomas de corriente de intensidad nominal no superior a 16 A'."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier dispositivo que interrumpa el circuito.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo están admitidos los dispositivos específicamente listados."
+          },
+          {
+            "id": 4,
+            "answer": "Solo dispositivos electrónicos de estado sólido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma admite dispositivos electromecánicos convencionales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-41",
+        "question": "¿Qué dispositivos deben ser de corte omnipolar obligatoriamente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todos los dispositivos de conexión/desconexión sin excepción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo ciertos dispositivos requieren corte omnipolar según el apartado 2.7."
+          },
+          {
+            "id": 2,
+            "answer": "Los situados en cuadro general y secundarios, destinados a circuitos (excepto TN-C), receptores >1000W, circuitos de lámparas de descarga y tubos de alta tensión.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 enumera exhaustivamente los dispositivos que deben ser de corte omnipolar, incluyendo las excepciones para sistemas TN-C y TN-S."
+          },
+          {
+            "id": 3,
+            "answer": "Solo los dispositivos de potencia superior a 5 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El límite es 1000 W, no 5 kW, y hay más criterios además de la potencia."
+          },
+          {
+            "id": 4,
+            "answer": "Exclusivamente los interruptores diferenciales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los diferenciales tienen requisitos propios, pero la omnipolaridad aplica a otros dispositivos también."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-42",
+        "question": "¿Cuándo puede interrumpirse el conductor neutro o compensador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En cualquier circunstancia con cualquier dispositivo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existen restricciones específicas para la interrupción del neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Solo cuando el corte se establezca por interruptores omnipolares.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece al final: 'El conductor neutro o compensador no podrá ser interrumpido salvo cuando el corte se establezca por interruptores omnipolares'."
+          },
+          {
+            "id": 3,
+            "answer": "Nunca puede interrumpirse bajo ninguna circunstancia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Puede interrumpirse con interruptores omnipolares."
+          },
+          {
+            "id": 4,
+            "answer": "Solo en sistemas TT, no en TN.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La condición es el tipo de interruptor, no el esquema de distribución."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-43",
+        "question": "¿Qué deben garantizar las instalaciones eléctricas respecto a personas y animales domésticos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que no supongan riesgo tanto en servicio normal como con averías previsibles.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.8 establece: 'Las instalaciones eléctricas se establecerán de forma que no supongan riesgo para las personas y los animales domésticos tanto en servicio normal como cuando puedan presentarse averías previsibles'."
+          },
+          {
+            "id": 2,
+            "answer": "Que solo sean seguras en servicio normal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad debe garantizarse también ante averías previsibles."
+          },
+          {
+            "id": 3,
+            "answer": "Que eliminen completamente cualquier posibilidad de contacto.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se aplican medidas de protección, pero no se exige eliminación total de posibilidades de contacto."
+          },
+          {
+            "id": 4,
+            "answer": "Que solo protejan a personas, no a animales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma menciona explícitamente tanto personas como animales domésticos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-44",
+        "question": "¿?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente según criterio del instalador.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existen normas reglamentarias específicas que deben seguirse."
+          },
+          {
+            "id": 2,
+            "answer": "Instrucción ITC-BT-24 y UNE-HD 60.364-4-41 (Antigua UNE 20.460, parte 4-41 y parte 4-47).",
+            "isCorrect": true,
+            "explanation": "Según qué instrucciones y normas deben aplicarse las medidas de protección contra contactos, correcto. El apartado 2.8 establece: 'Estas medidas de protección son las señaladas en la Instrucción ITC-BT-24 y deberán cumplir lo indicado en la UNE-HD 60.364-4-41 (Antigua UNE 20.460, parte 4-41 y parte 4-47) y su anexo nacional'."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20315 exclusivamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre bases de toma de corriente, no sobre protección contra contactos."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20.460-5-523.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre intensidades admisibles, no sobre protección contra contactos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-45",
+        "question": "¿Qué resistencia de aislamiento mínima debe presentar una instalación con tensión nominal ≤500 V (excepto MBTS/MBTP)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "≥ 0,25 MΩ.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor es para MBTS/MBTP con tensión de ensayo de 250 V."
+          },
+          {
+            "id": 2,
+            "answer": "≥ 0,5 MΩ.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 3 del apartado 2.9, para instalaciones con tensión nominal inferior o igual a 500 V (excepto MBTS/MBTP), la resistencia de aislamiento mínima es ≥ 0,5 MΩ con tensión de ensayo de 500 V."
+          },
+          {
+            "id": 3,
+            "answer": "≥ 1,0 MΩ.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica para instalaciones con tensión superior a 500 V."
+          },
+          {
+            "id": 4,
+            "answer": "≥ 2,0 MΩ.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es un valor contemplado en la Tabla 3."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-46",
+        "question": "¿Qué tensión de ensayo en corriente continua se aplica para medir resistencia de aislamiento en instalaciones de tensión nominal superior a 500 V?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "250 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta tensión es para MBTS/MBTP."
+          },
+          {
+            "id": 2,
+            "answer": "500 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta tensión es para instalaciones ≤500 V."
+          },
+          {
+            "id": 3,
+            "answer": "1000 V.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 3 del apartado 2.9, para instalaciones con tensión nominal superior a 500 V, la tensión de ensayo es 1000 V en corriente continua."
+          },
+          {
+            "id": 4,
+            "answer": "1500 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta tensión se refiere al ensayo de rigidez dieléctrica, no al de resistencia de aislamiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-47",
+        "question": "¿Para qué longitud máxima de canalizaciones se entiende el valor de resistencia de aislamiento especificado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor de referencia de la norma."
+          },
+          {
+            "id": 2,
+            "answer": "100 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Este aislamiento se entiende para una instalación en la cual la longitud del conjunto de canalizaciones y cualquiera que sea el número de conductores que las componen no exceda de 100 metros'."
+          },
+          {
+            "id": 3,
+            "answer": "150 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor de referencia."
+          },
+          {
+            "id": 4,
+            "answer": "200 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor de referencia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-48",
+        "question": "¿Qué se admite cuando la longitud de canalizaciones excede 100 metros y no es posible fraccionar la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la resistencia de aislamiento sea la misma independientemente de la longitud.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La resistencia admisible varía con la longitud."
+          },
+          {
+            "id": 2,
+            "answer": "Que el valor de resistencia de aislamiento sea inversamente proporcional a la longitud total en hectómetros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Cuando no sea posible efectuar el fraccionamiento citado, se admite que el valor de la resistencia de aislamiento de toda la instalación sea, con relación al mínimo que le corresponda, inversamente proporcional a la longitud total, en hectómetros, de las canalizaciones'."
+          },
+          {
+            "id": 3,
+            "answer": "Que no sea necesario medir la resistencia de aislamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La medición sigue siendo obligatoria."
+          },
+          {
+            "id": 4,
+            "answer": "Que se duplique el valor mínimo de resistencia exigido.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se admite una reducción proporcional, no un aumento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-49",
+        "question": "¿Con qué corriente debe ser capaz de suministrar el generador para medir resistencia de aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,1 mA.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor especificado en la norma."
+          },
+          {
+            "id": 2,
+            "answer": "1 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'El aislamiento se medirá... mediante un generador de corriente continua capaz de suministrar las tensiones de ensayo especificadas en la tabla anterior con una corriente de 1 mA para una carga igual a la mínima resistencia de aislamiento especificada para cada tensión'."
+          },
+          {
+            "id": 3,
+            "answer": "10 mA.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor especificado."
+          },
+          {
+            "id": 4,
+            "answer": "100 mA.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor especificado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-50",
+        "question": "¿Cómo deben estar los conductores durante la medida de resistencia de aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conectados a tierra y a la fuente de alimentación habitual.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben estar aislados de ambos."
+          },
+          {
+            "id": 2,
+            "answer": "Aislados de tierra y de la fuente de alimentación habitual.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Durante la medida, los conductores, incluido el conductor neutro o compensador, estarán aislados de tierra, así como de la fuente de alimentación de energía a la cual están unidos habitualmente'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo aislados de tierra, pero conectados a la fuente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben aislarse de ambos elementos."
+          },
+          {
+            "id": 4,
+            "answer": "Solo aislados de la fuente, pero conectados a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben aislarse de ambos elementos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-51",
+        "question": "¿Cómo deben conectarse los conductores en circuitos con dispositivos electrónicos durante la medida de aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Totalmente aislados entre sí.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En circuitos con electrónica se requiere una conexión específica."
+          },
+          {
+            "id": 2,
+            "answer": "Los conductores de fases y el neutro unidos entre sí.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Cuando la instalación tenga circuitos con dispositivos electrónicos, en dichos circuitos los conductores de fases y el neutro estarán unidos entre sí durante las medidas'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro conectado a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el procedimiento indicado para circuitos con electrónica."
+          },
+          {
+            "id": 4,
+            "answer": "Todos los conductores desconectados completamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere la unión entre fases y neutro en estos casos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-52",
+        "question": "¿Cómo se efectúa la medida de aislamiento con relación a tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uniendo el polo negativo del generador a tierra y el positivo a los conductores.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La polaridad es la contraria."
+          },
+          {
+            "id": 2,
+            "answer": "Uniendo a tierra el polo positivo del generador y conectando todos los conductores entre sí al polo negativo en el origen.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 describe este procedimiento: 'La medida de aislamiento con relación a tierra, se efectuará uniendo a ésta el polo positivo del generador... Todos los conductores se conectarán entre sí incluyendo el conductor neutro o compensador, en el origen de la instalación que se verifica y a este punto se conectará el polo negativo del generador'."
+          },
+          {
+            "id": 3,
+            "answer": "Midendo cada conductor individualmente sin conectarlos entre sí.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los conductores deben conectarse entre sí para esta medida."
+          },
+          {
+            "id": 4,
+            "answer": "Con los receptores desconectados y los interruptores abiertos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para la medida con relación a tierra, los receptores permanecen conectados y los interruptores en posición cerrado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-53",
+        "question": "¿Cuándo se admite que una instalación es correcta aunque su resistencia de aislamiento sea inferior al mínimo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Nunca se admite, siempre debe cumplirse el mínimo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece condiciones específicas bajo las cuales se puede admitir."
+          },
+          {
+            "id": 2,
+            "answer": "Si cada aparato receptor tiene aislamiento ≥ valor de su norma o 0,5 MΩ, y desconectados los receptores la instalación cumple el mínimo.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece estas dos condiciones: '- Cada aparato receptor presenta una resistencia de aislamiento por lo menos igual al valor señalado por la Norma UNE que le concierna o en su defecto 0,5 MΩ. - Desconectados los aparatos receptores, la instalación presenta la resistencia de aislamiento que le corresponda'."
+          },
+          {
+            "id": 3,
+            "answer": "Si la instalación tiene menos de 5 años de antigüedad.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La antigüedad no es un criterio para esta admisión."
+          },
+          {
+            "id": 4,
+            "answer": "Si la resistencia es al menos el 50% del valor mínimo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este criterio porcentual en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-54",
+        "question": "¿Cómo se efectúa la medida de resistencia de aislamiento entre conductores polares?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Con todos los receptores conectados y en funcionamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para esta medida los receptores deben desconectarse."
+          },
+          {
+            "id": 2,
+            "answer": "Después de desconectar todos los receptores, con interruptores y cortacircuitos en la misma posición que para la medida con tierra, midiendo sucesivamente entre conductores tomados dos a dos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'La medida de la resistencia de aislamiento entre conductores polares, se efectúa después de haber desconectado todos los receptores... La medida de la resistencia de aislamiento se efectuará sucesivamente entre los conductores tomados dos a dos, comprendiendo el conductor neutro o compensador'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo entre fases, sin incluir el neutro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El neutro o compensador debe incluirse en las medidas."
+          },
+          {
+            "id": 4,
+            "answer": "Con los interruptores en posición abierto.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Los interruptores deben mantenerse en la misma posición que para la medida con tierra (cerrado)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-55",
+        "question": "¿Qué requisitos debe cumplir el ensayo de rigidez dieléctrica de una instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Resistir 1 minuto una tensión de U+500 V, siendo U la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La fórmula es diferente."
+          },
+          {
+            "id": 2,
+            "answer": "Resistir 1 minuto una prueba de tensión de 2U+1000 V a frecuencia industrial, con mínimo de 1500 V, con receptores desconectados.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'ha de ser tal, que desconectados los aparatos de utilización(receptores), resista durante 1 minuto una prueba de tensión de 2U+ 1000 voltios a frecuencia industrial, siendo U la tensión máxima de servicio expresada en voltios y con un mínimo de 1.500 voltios'."
+          },
+          {
+            "id": 3,
+            "answer": "Resistir 5 minutos una tensión de 3U a frecuencia industrial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ni el tiempo ni la fórmula coinciden con la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Resistir 30 segundos una tensión de 1000 V independientemente de U.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El tiempo mínimo es 1 minuto y la tensión depende de U."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-56",
+        "question": "¿En qué tipo de instalaciones NO se realizará el ensayo de rigidez dieléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En instalaciones de viviendas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En viviendas sí se realiza este ensayo."
+          },
+          {
+            "id": 2,
+            "answer": "En instalaciones correspondientes a locales que presenten riesgo de incendio o explosión.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece al final del párrafo sobre rigidez dieléctrica: 'Este ensayo no se realizará en instalaciones correspondientes a locales que presenten riesgo de incendio o explosión'."
+          },
+          {
+            "id": 3,
+            "answer": "En instalaciones industriales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En instalaciones industriales sí se realiza, salvo riesgo de incendio/explosión."
+          },
+          {
+            "id": 4,
+            "answer": "En instalaciones con tensión superior a 500 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La tensión no es criterio de exclusión para este ensayo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-57",
+        "question": "¿Qué límite deben cumplir las corrientes de fuga en una instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No superar el 10% de la intensidad nominal del circuito.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El criterio es diferente según la norma."
+          },
+          {
+            "id": 2,
+            "answer": "No ser superiores a la sensibilidad de los interruptores diferenciales instalados como protección contra contactos indirectos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece al final: 'Las corrientes de fuga no serán superiores para el conjunto de la instalación o para cada uno de los circuitos en que ésta pueda dividirse a efectos de su protección, a la sensibilidad que presenten los interruptores diferenciales instalados como protección contra los contactos indirectos'."
+          },
+          {
+            "id": 3,
+            "answer": "Ser siempre inferiores a 30 mA en cualquier caso.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El límite depende de la sensibilidad de los diferenciales instalados, no es un valor fijo."
+          },
+          {
+            "id": 4,
+            "answer": "No existe límite reglamentario para corrientes de fuga.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece un límite específico relacionado con los diferenciales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-58",
+        "question": "¿Qué tipos de bases de toma de corriente se indican como permitidos en la ITC-BT-19 para instalaciones interiores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente las de la norma UNE EN 60309.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma aplica para instalaciones distintas de viviendas, no es la única permitida."
+          },
+          {
+            "id": 2,
+            "answer": "Las indicadas en las figuras C2a, C3a o ESB 25-5a de la norma UNE 20.315-1 parte 1 y 2 (Antigua norma UNE 20.315).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.10 establece: 'Las bases de toma de corriente utilizadas en las instalaciones interiores o receptoras serán del tipo indicado en las figuras C2a, C3a o ESB 25-5a de la norma UNE 20.315, partes 1 y 2 (Antigua norma UNE 20.315)."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier tipo comercializado en el mercado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se permiten tipos específicos según norma."
+          },
+          {
+            "id": 4,
+            "answer": "Solo las de tipo C1a.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las de tipo C1a solo pueden comercializarse para reposición, no para nuevas instalaciones."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-59",
+        "question": "¿Para qué tipo de instalaciones queda reservado el tipo de base de toma de corriente C3a?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente para instalaciones industriales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La reserva no es por tipo de instalación sino por necesidad técnica."
+          },
+          {
+            "id": 2,
+            "answer": "Para instalaciones en las que se requiera distinguir la fase del neutro, o disponer de una red de tierras específica.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.10 establece: 'El tipo indicado en la figura C3a queda reservado para instalaciones en las que se requiera distinguir la fase del neutro, o disponer de una red de tierras específica'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo para instalaciones de locales húmedos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La reserva no está vinculada a la humedad del local."
+          },
+          {
+            "id": 4,
+            "answer": "Para cualquier instalación sin restricción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe una restricción específica para su uso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-60",
+        "question": "¿Qué bases de toma de corriente se admiten adicionalmente en instalaciones distintas de viviendas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Las de la serie de normas UNE EN 60.309.",
+            "isCorrect": true,
+            "explanation": "Según ITC-BT-19, correcto. El apartado 2.10 establece: 'En instalaciones diferentes de las indicadas en la ITC-BT 25 para viviendas, además se admitirán las bases de toma de corriente indicadas en la serie de normas UNE EN 60.309'."
+          },
+          {
+            "id": 2,
+            "answer": "Las de tipo C1a sin restricción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las de tipo C1a solo pueden comercializarse para reposición."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier tipo de base internacional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se admiten tipos normalizados específicamente."
+          },
+          {
+            "id": 4,
+            "answer": "Solo las de intensidad superior a 16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe esta restricción por intensidad en este apartado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-61",
+        "question": "¿Qué tipos de bases móviles se permiten?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Exclusivamente las de la figura C2a.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten varios tipos, no solo uno."
+          },
+          {
+            "id": 2,
+            "answer": "Las indicadas en las figuras ESC 10-1a, C2a o C3a de la Norma UNE 20.315-1.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-19, correcto. El apartado 2.10 establece: 'Las bases móviles deberán ser del tipo indicado en las figuras ESC 10-1a, C2a o C3a de la Norma UNE 20.315-1'."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier base móvil comercializada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se permiten tipos normalizados específicos."
+          },
+          {
+            "id": 4,
+            "answer": "Solo las de intensidad nominal superior a 16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe esta restricción por intensidad para bases móviles."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-62",
+        "question": "¿Qué tipos de clavijas se permiten para cordones prolongadores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo las de la figura C2b.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten varios tipos de clavijas."
+          },
+          {
+            "id": 2,
+            "answer": "Las indicadas en las figuras ESC 10-1b, C2b, C4, C6 o ESB 25-5b.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.10 establece: 'Las clavijas utilizadas en los cordones prolongadores deberán ser del tipo indicado en las figuras ESC 10-1b, C2b, C4, C6 o ESB 25-5b'."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier clavija compatible mecánicamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se permiten tipos normalizados específicos."
+          },
+          {
+            "id": 4,
+            "answer": "Exclusivamente las de tipo C1b.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las de tipo C1b solo pueden comercializarse para reposición."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-63",
+        "question": "¿Qué tipos de bases y clavijas solo pueden comercializarse e instalarse para reposición de las existentes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Todos los tipos de la norma UNE 20.315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo tipos específicos tienen esta restricción."
+          },
+          {
+            "id": 2,
+            "answer": "Bases tipo C1a, ejecuciones fijas de ESB 10-5a y ESC 10-1a, y clavijas de ESB 10-5b y C1b.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.10 establece: 'Las bases de toma de corriente del tipo indicado en las figuras C1a, las ejecuciones fijas de las figuras ESB 10-5a y ESC 10-1a, así como las clavijas de las figuras ESB 10-5b y C1b, recogidas en la norma UNE 20315, solo podrán comercializarse e instalarse para reposición de las existentes'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo las de intensidad inferior a 10 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La restricción es por tipo, no por intensidad."
+          },
+          {
+            "id": 4,
+            "answer": "Ningún tipo tiene esta restricción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existen tipos específicos con restricción de reposición."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-64",
+        "question": "¿Cómo NO se permite realizar la unión de conductores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mediante bornes de conexión montados individualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este método SÍ está permitido."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante conexiones por simple retorcimiento o arrollamiento entre sí de los conductores.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.11 establece: 'En ningún caso se permitirá la unión de conductores mediante conexiones y/o derivaciones por simple retorcimiento o arrollamiento entre sí de los conductores'."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizando bloques o regletas de conexión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este método SÍ está permitido."
+          },
+          {
+            "id": 4,
+            "answer": "Utilizando bridas de conexión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este método SÍ está permitido según el apartado 2.11."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-65",
+        "question": "¿Dónde deben realizarse las conexiones de conductores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En cualquier punto accesible de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existen requisitos específicos de ubicación."
+          },
+          {
+            "id": 2,
+            "answer": "Siempre en el interior de cajas de empalme y/o de derivación, salvo casos indicados en ITC-BT-21 apartado 3.1.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.11 establece: 'Siempre deberán realizarse en el interior de cajas de empalme y/o de derivación salvo en los casos indicados en el apartado 3.1. de la ITC-BT-21'."
+          },
+          {
+            "id": 3,
+            "answer": "Exclusivamente en cuadros de distribución.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Pueden realizarse en cajas de empalme/derivación en general."
+          },
+          {
+            "id": 4,
+            "answer": "Pueden quedar al aire si están bien aisladas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben realizarse dentro de cajas, salvo excepciones específicas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-66",
+        "question": "¿Cómo deben conectarse los conductores de varios alambres cableados?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "De forma que solo algunos alambres conduzcan la corriente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe asegurarse la participación de todos los alambres."
+          },
+          {
+            "id": 2,
+            "answer": "De forma que la corriente se reparta por todos los alambres componentes.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.11 establece: 'Si se trata de conductores de varios alambres cableados, las conexiones se realizarán de forma que la corriente se reparta por todos los alambres componentes'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo es necesario conectar el alambre central.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Todos los alambres deben participar en la conducción."
+          },
+          {
+            "id": 4,
+            "answer": "Pueden conectarse de cualquier forma si la sección total es adecuada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere distribución uniforme de corriente por todos los alambres."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-67",
+        "question": "¿Qué requisito adicional existe para conectar conductores de sección superior a 6 mm² con sistema de tornillo de apriete?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No existe requisito adicional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe un requisito específico para secciones grandes."
+          },
+          {
+            "id": 2,
+            "answer": "Deben conectarse por medio de terminales adecuados para que las conexiones no queden sometidas a esfuerzos mecánicos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.11 establece: 'si el sistema adoptado es de tornillo de apriete entre una arandela metálica bajo su cabeza y una superficie metálica, los conductores de sección superior a 6 mm² deberán conectarse por medio de terminales adecuados, de forma que las conexiones no queden sometidas a esfuerzos mecánicos'."
+          },
+          {
+            "id": 3,
+            "answer": "Deben soldarse previamente antes de apretar el tornillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se exige soldadura, sino uso de terminales adecuados."
+          },
+          {
+            "id": 4,
+            "answer": "Deben usarse exclusivamente conectores de presión sin tornillo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten sistemas de tornillo con terminales adecuados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-68",
+        "question": "¿Qué métodos de conexión SÍ están permitidos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo bornes individuales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se permiten varios métodos."
+          },
+          {
+            "id": 2,
+            "answer": "Bornes individuales, bloques o regletas de conexión, y bridas de conexión.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.11 establece: 'deberá realizarse siempre utilizando bornes de conexión montados individualmente o constituyendo bloques o regletas de conexión; puede permitirse asimismo, la utilización de bridas de conexión'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo soldadura fuerte.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La soldadura no se menciona como método principal en este apartado."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier método que asegure continuidad eléctrica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se permiten métodos específicamente indicados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-69",
+        "question": "¿Qué caída de tensión total se admite cuando se compensa entre instalación interior y derivaciones individuales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La suma exacta de los valores límites de ambas partes.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se admite una compensación que permita no superar la suma."
+          },
+          {
+            "id": 2,
+            "answer": "Inferior a la suma de los valores límites especificados para ambas, según el tipo de esquema utilizado.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'El valor de la caída de tensión podrá compensarse entre la de la instalación interior y la de las derivaciones individuales, de forma que la caída de tensión total sea inferior a la suma de los valores límites especificados para ambas, según el tipo de esquema utilizado'."
+          },
+          {
+            "id": 3,
+            "answer": "El doble del valor límite de la instalación interior.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se permite duplicar los valores límite."
+          },
+          {
+            "id": 4,
+            "answer": "Siempre 3% independientemente del esquema.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Depende del esquema de distribución y del tipo de instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-70",
+        "question": "¿Cómo se determina el número de aparatos susceptibles de funcionar simultáneamente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre se considera el 100% de los aparatos instalados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se determina caso por caso, no automáticamente el 100%."
+          },
+          {
+            "id": 2,
+            "answer": "Se determinará en cada caso particular, según instrucciones del reglamento o indicaciones del usuario considerando utilización racional.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'El número de aparatos susceptibles de funcionar simultáneamente, se determinará en cada caso particular, de acuerdo con las indicaciones incluidas en las instrucciones del presente reglamento y en su defecto con las indicaciones facilitadas por el usuario considerando una utilización racional de los aparatos'."
+          },
+          {
+            "id": 3,
+            "answer": "Siempre se considera el 50% de los aparatos instalados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe un porcentaje fijo establecido."
+          },
+          {
+            "id": 4,
+            "answer": "Lo decide exclusivamente el instalador sin criterio reglamentario.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe seguirse el criterio del reglamento o indicaciones del usuario con utilización racional."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-71",
+        "question": "¿Cuál es el origen de la instalación interior de baja tensión en instalaciones industriales con transformador propio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El cuadro general de mando y protección del edificio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En este caso específico el origen es diferente."
+          },
+          {
+            "id": 2,
+            "answer": "La salida del transformador de distribución propio.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece: 'Para instalaciones industriales que se alimenten directamente en alta tensión mediante un transformador de distribución propio, se considerará que la instalación interior de baja tensión tiene su origen en la salida del transformador'."
+          },
+          {
+            "id": 3,
+            "answer": "El punto de entrega de la compañía distribuidora.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En este caso con transformador propio, el origen es la salida del transformador."
+          },
+          {
+            "id": 4,
+            "answer": "El primer cuadro secundario de distribución.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El origen se define en la salida del transformador."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-72",
+        "question": "¿Qué norma debe consultarse para intensidades admisibles con condiciones diferentes a las de la Tabla 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Norma UNE 20315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre bases de toma de corriente."
+          },
+          {
+            "id": 2,
+            "answer": "Norma UNE-HD 60.364-5-52.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.3 establece: 'Para otras temperaturas, métodos de instalación, agrupamientos y tipos de cable, así como para conductores enterrados, consultar la Norma UNE-HD 60.364-5-52 (Antigua UNE 20.460-5-523)'."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20.460-5-54.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre conductores de protección."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20.460-3.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre características generales de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-73",
+        "question": "¿Qué color se puede utilizar adicionalmente para identificar una tercera fase?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Rojo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El rojo no está contemplado en la ITC-BT-19 para este fin."
+          },
+          {
+            "id": 2,
+            "answer": "Gris.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.4 establece: 'Cuando se considere necesario identificar tres fases diferentes, se utilizará también el color gris'."
+          },
+          {
+            "id": 3,
+            "answer": "Azul oscuro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El azul (claro) está reservado para el neutro."
+          },
+          {
+            "id": 4,
+            "answer": "Blanco.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El blanco no está contemplado para identificación de fases."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-74",
+        "question": "¿Qué debe hacerse con las conexiones de masas de aparatos receptores al neutro durante la medida de aislamiento con relación a tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mantenerlas conectadas durante toda la medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben desconectarse temporalmente."
+          },
+          {
+            "id": 2,
+            "answer": "Suprimir estas conexiones durante la medida, restableciéndolas una vez terminada.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Si las masas de los aparatos receptores están unidas al conductor neutro, se suprimirán estas conexiones durante la medida, restableciéndose una vez terminada ésta'."
+          },
+          {
+            "id": 3,
+            "answer": "Conectarlas a tierra adicionalmente durante la medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esto alteraría los resultados de la medida."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario tomar ninguna precaución con estas conexiones.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece una precaución específica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-75",
+        "question": "¿En qué posición deben estar los dispositivos de interrupción durante la medida de aislamiento con relación a tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En posición de abierto.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben estar en posición de cerrado."
+          },
+          {
+            "id": 2,
+            "answer": "En posición de cerrado.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'los dispositivos de interrupción se pondrán en posición de cerrado y los cortacircuitos instalados como en servicio normal'."
+          },
+          {
+            "id": 3,
+            "answer": "Retirados completamente de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben permanecer instalados en posición de cerrado."
+          },
+          {
+            "id": 4,
+            "answer": "En posición intermedia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe esta posición; deben estar cerrados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-76",
+        "question": "¿Qué conductores se conectarán entre sí en el origen durante la medida de aislamiento con relación a tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo los conductores de fase.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben incluirse todos los conductores activos."
+          },
+          {
+            "id": 2,
+            "answer": "Todos los conductores incluyendo el conductor neutro o compensador.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Todos los conductores se conectarán entre sí incluyendo el conductor neutro o compensador, en el origen de la instalación que se verifica'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo el neutro y los conductores de protección.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben conectarse todos los conductores activos entre sí."
+          },
+          {
+            "id": 4,
+            "answer": "Ningún conductor debe conectarse a otro durante esta medida.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere la interconexión de todos los conductores activos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-77",
+        "question": "¿Qué tensión mínima se aplica en el ensayo de rigidez dieléctrica independientemente del valor de 2U+1000 V?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1000 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este es el valor de ensayo de resistencia de aislamiento para instalaciones >500V."
+          },
+          {
+            "id": 2,
+            "answer": "1500 V.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece que el ensayo de rigidez dieléctrica se realiza 'con un mínimo de 1.500 voltios'."
+          },
+          {
+            "id": 3,
+            "answer": "2000 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el mínimo establecido."
+          },
+          {
+            "id": 4,
+            "answer": "2500 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el mínimo establecido."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-78",
+        "question": "¿Qué ocurre con los cortacircuitos durante el ensayo de rigidez dieléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se retiran completamente de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben permanecer instalados."
+          },
+          {
+            "id": 2,
+            "answer": "Se instalan como en servicio normal.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Durante este ensayo los dispositivos de interrupción se pondrán en la posición de cerrado y los cortacircuitos instalados como en servicio normal'."
+          },
+          {
+            "id": 3,
+            "answer": "Se sustituyen por puentes de prueba.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se indica esta sustitución en la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Se ponen en posición abierto.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No aplica posición abierto a cortacircuitos; se instalan como en servicio normal."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-79",
+        "question": "¿Para qué materiales no es necesario realizar el ensayo de rigidez dieléctrica en instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para todos los materiales aislantes convencionales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se exceptúan materiales con ensayo previo justificado."
+          },
+          {
+            "id": 2,
+            "answer": "Para aquellos materiales en los que se justifique que haya sido realizado dicho ensayo previamente por el fabricante.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece: 'Este ensayo se realizará... salvo para aquellos materiales en los que se justifique que haya sido realizado dicho ensayo previamente por el fabricante'."
+          },
+          {
+            "id": 3,
+            "answer": "Para materiales con tensión nominal inferior a 250 V.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La excepción no depende de la tensión nominal."
+          },
+          {
+            "id": 4,
+            "answer": "Para materiales certificados por cualquier organismo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere justificación específica de que el fabricante realizó el ensayo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-80",
+        "question": "¿Qué ocurre si al medir aislamiento entre conductores polares se obtiene un valor inferior al mínimo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La instalación se considera automáticamente defectuosa sin excepción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existen condiciones bajo las cuales se puede admitir la instalación."
+          },
+          {
+            "id": 2,
+            "answer": "Se aplican las mismas condiciones de admisión que para la medida con relación a tierra.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque no se repite explícitamente para la medida entre conductores, el apartado 2.9 establece condiciones generales de admisión cuando la resistencia es inferior al mínimo, aplicables a ambas medidas."
+          },
+          {
+            "id": 3,
+            "answer": "Se duplica el valor mínimo exigido para futuras medidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este criterio en la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Se permite un margen del 20% por debajo del mínimo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe este margen porcentual establecido."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-81",
+        "question": "¿Qué tipo de aislamiento deben presentar los conductores empleados en instalaciones interiores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre aislados, sin excepción.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe una excepción específica."
+          },
+          {
+            "id": 2,
+            "answer": "Siempre aislados, excepto cuando vayan montados sobre aisladores según ITC-BT 20.",
+            "isCorrect": true,
+            "explanation": "Según ITC-BT-19, correcto. El apartado 2.2.1 establece: 'serán siempre aislados, excepto cuando vayan montados sobre aisladores, tal como se indica en la ITC-BT 20'."
+          },
+          {
+            "id": 3,
+            "answer": "Pueden ser desnudos en canalizaciones bajo tubo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Solo se permite sin aislamiento cuando están sobre aisladores."
+          },
+          {
+            "id": 4,
+            "answer": "El aislamiento es opcional según criterio del instalador.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El aislamiento es preceptivo salvo la excepción indicada."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-82",
+        "question": "¿Qué se entiende por 'caída de tensión total' cuando se compensa entre instalación interior y derivaciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La suma aritmética de ambas caídas sin límite.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe un límite para la suma compensada."
+          },
+          {
+            "id": 2,
+            "answer": "La caída resultante que debe ser inferior a la suma de los valores límites especificados para ambas partes.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 establece que la compensación permite que 'la caída de tensión total sea inferior a la suma de los valores límites especificados para ambas'."
+          },
+          {
+            "id": 3,
+            "answer": "El valor máximo de las dos caídas individuales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el criterio de compensación establecido."
+          },
+          {
+            "id": 4,
+            "answer": "El promedio de ambas caídas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el criterio establecido en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-83",
+        "question": "¿Qué debe garantizarse en los pasos de conductores de protección a través de paredes o techos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que pasen directamente sin protección adicional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere protección mecánica en estos pasos."
+          },
+          {
+            "id": 2,
+            "answer": "Que estén protegidos por un tubo de adecuada resistencia mecánica según ITC-BT 21 para canalizaciones empotradas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'En los pasos a través de paredes o techos estarán protegidos por un tubo de adecuada resistencia mecánica, según ITC-BT 21 para canalizaciones empotradas'."
+          },
+          {
+            "id": 3,
+            "answer": "Que se aíslen térmicamente para evitar condensaciones.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma exige protección mecánica, no térmica."
+          },
+          {
+            "id": 4,
+            "answer": "Que se pinten de color verde-amarillo para identificación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La identificación por color es general, pero en pasos se exige protección mecánica específica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-84",
+        "question": "¿Qué debe hacerse con el conductor de protección cuando se instala fuera de la canalización de conductores activos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puede seguir un recorrido completamente independiente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe seguir el curso de la canalización de activos."
+          },
+          {
+            "id": 2,
+            "answer": "Seguirá el curso de la misma canalización que los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Cuando el conductor de protección se instale fuera de esta canalización seguirá el curso de la misma'."
+          },
+          {
+            "id": 3,
+            "answer": "Debe enterrarse directamente en el terreno.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se indica esta opción en la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Debe conectarse directamente a tierra sin seguir canalización.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe seguir el curso de la canalización de conductores activos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-85",
+        "question": "¿Contra qué tipos de deterioro deben protegerse especialmente los conductores de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo contra deterioro mecánico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. También se exige protección contra deterioro químico."
+          },
+          {
+            "id": 2,
+            "answer": "Contra deterioro mecánico y químico, especialmente en pasos a través de elementos de la construcción.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Los conductores de protección estarán convenientemente protegidos contra el deterioro mecánicos y químicos, especialmente en los pasos a través de los elementos de la construcción'."
+          },
+          {
+            "id": 3,
+            "answer": "Solo contra deterioro por humedad.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se exigen protecciones más amplias."
+          },
+          {
+            "id": 4,
+            "answer": "No requieren protección especial adicional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma establece requisitos específicos de protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-86",
+        "question": "¿Qué característica deben tener los tornillos de apriete en piezas de conexión de conductores de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben ser de plástico para evitar corrosión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No se especifica material plástico; se exige que eviten desapriete."
+          },
+          {
+            "id": 2,
+            "answer": "Estar previstos para evitar su desapriete.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'los tornillos de apriete, si se usan, estarán previstos para evitar su desapriete'."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de acero inoxidable obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las piezas deben ser de material inoxidable, pero para tornillos se exige específicamente que eviten desapriete."
+          },
+          {
+            "id": 4,
+            "answer": "No tienen requisitos especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe un requisito específico para evitar desapriete."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-87",
+        "question": "¿Qué norma se considera que cumple la prescripción sobre piezas de conexión de conductores de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Norma UNE 20.460-5-523.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre intensidades admisibles."
+          },
+          {
+            "id": 2,
+            "answer": "Norma UNE-EN 60.998-2-1.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.3 establece: 'Se considera que los dispositivos que cumplan con la norma UNE-EN 60.998-2-1 cumplen con esta prescripción'."
+          },
+          {
+            "id": 3,
+            "answer": "Norma UNE 20315.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre bases de toma de corriente."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20.460-3.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esta norma trata sobre características generales de instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-88",
+        "question": "¿Qué se busca con la subdivisión de instalaciones además de limitar consecuencias de fallos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Reducir el coste de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La reducción de costes no es un objetivo reglamentario de subdivisión."
+          },
+          {
+            "id": 2,
+            "answer": "Facilitar verificaciones, ensayos y mantenimientos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.4 enumera como objetivos: 'evitar interrupciones innecesarias... facilitar las verificaciones, ensayos y mantenimientos - evitar los riesgos que podrían resultar del fallo de un solo circuito'."
+          },
+          {
+            "id": 3,
+            "answer": "Aumentar la capacidad de transporte de corriente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La subdivisión no tiene este objetivo."
+          },
+          {
+            "id": 4,
+            "answer": "Mejorar la estética de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La estética no es criterio de subdivisión según la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-89",
+        "question": "¿Qué riesgo se busca evitar específicamente con la subdivisión de circuitos de alumbrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El sobrecalentamiento de conductores.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este riesgo se controla con dimensionamiento, no con subdivisión específica."
+          },
+          {
+            "id": 2,
+            "answer": "El riesgo de quedar sin alumbrado completo por fallo de un solo circuito.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.4 establece como ejemplo: 'evitar los riesgos que podrían resultar del fallo de un solo circuito que pudiera dividirse, como por ejemplo si solo hay un circuito de alumbrado'."
+          },
+          {
+            "id": 3,
+            "answer": "El riesgo de contactos directos en luminarias.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este riesgo se controla con medidas de protección, no con subdivisión."
+          },
+          {
+            "id": 4,
+            "answer": "El riesgo de sobretensiones en circuitos de alumbrado.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las sobretensiones se controlan con otros dispositivos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-90",
+        "question": "¿Qué se prohíbe hacer con el conductor neutro en sistemas TN-C?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Identificarlo con color azul claro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La identificación por color sí aplica al neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Cortar el conductor neutro en dispositivos de separación omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.6 establece que la separación omnipolar se garantiza 'excepto en el neutro de las redes TN-C'. Asimismo, el apartado 2.7 indica que los dispositivos omnipolares son obligatorios 'excepto en sistemas de distribución TN-C, en los que el corte del conductor neutro esta prohibido'."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizarlo como conductor de protección.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TN-C el neutro y protección están combinados (PEN), pero no se prohíbe su uso."
+          },
+          {
+            "id": 4,
+            "answer": "Conectarlo a bornes de conexión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe esta prohibición."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-91",
+        "question": "¿Qué condición permite que dispositivos de conexión/desconexión no sean omnipolares?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la potencia del receptor sea inferior a 500 W.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El límite para obligación de omnipolaridad es 1000 W, pero hay más condiciones."
+          },
+          {
+            "id": 2,
+            "answer": "En los demás casos no listados como obligatoriamente omnipolares.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece la lista de dispositivos que deben ser omnipolares y añade: 'En los demás casos, los dispositivos podrán no ser de corte omnipolar'."
+          },
+          {
+            "id": 3,
+            "answer": "Que la instalación sea monofásica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La omnipolaridad puede requerirse también en monofásicas."
+          },
+          {
+            "id": 4,
+            "answer": "Que el instalador lo considere innecesario.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe seguirse el criterio reglamentario, no el del instalador."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-92",
+        "question": "¿Qué debe asegurarse en sistemas TN-S para permitir corte no omnipolar del neutro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el neutro tenga sección mayor que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el criterio establecido."
+          },
+          {
+            "id": 2,
+            "answer": "Que se pueda asegurar que el conductor neutro está al potencial de tierra.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece que los dispositivos deben ser omnipolares 'excepto en los TN-S en los que se pueda asegurar que el conductor neutro esta al potencial de tierra'."
+          },
+          {
+            "id": 3,
+            "answer": "Que el neutro esté identificado con color gris.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El gris es para tercera fase; el neutro es azul claro."
+          },
+          {
+            "id": 4,
+            "answer": "Que el neutro no lleve corriente en condiciones normales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El criterio es el potencial respecto a tierra, no la circulación de corriente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-93",
+        "question": "¿Qué receptores están exceptuados de requerir dispositivo omnipolar aunque superen 1000 W?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguno, siempre es obligatorio si superan 1000 W.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Existe una excepción específica."
+          },
+          {
+            "id": 2,
+            "answer": "Aquellos para los que prescripciones particulares admitan corte no omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.7 establece: 'Los destinados a receptores cuya potencia sea superior a 1.000 W, salvo que prescripciones particulares admitan corte no omnipolar'."
+          },
+          {
+            "id": 3,
+            "answer": "Receptores de alumbrado exclusivamente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No existe esta excepción general para alumbrado."
+          },
+          {
+            "id": 4,
+            "answer": "Receptores con aislamiento doble.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El aislamiento doble no exceptúa de la omnipolaridad según este apartado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-94",
+        "question": "¿Qué tipo de instalaciones deben cumplir medidas de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo instalaciones de viviendas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Aplica a todas las instalaciones interiores o receptoras."
+          },
+          {
+            "id": 2,
+            "answer": "Todas las instalaciones eléctricas para proteger contra contactos directos e indirectos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.8 establece que las instalaciones deben proyectarse aplicando medidas de protección contra contactos directos e indirectos, señaladas en ITC-BT-24 y UNE-HD 60364-4-41."
+          },
+          {
+            "id": 3,
+            "answer": "Solo instalaciones industriales de alta potencia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Aplica a todo tipo de instalaciones de baja tensión."
+          },
+          {
+            "id": 4,
+            "answer": "Solo instalaciones con riesgo de incendio o explosión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las medidas de protección contra contactos son generales para todas las instalaciones."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-95",
+        "question": "¿Qué tensión de ensayo se aplica para medir resistencia de aislamiento en instalaciones MBTS/MBTP?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100 V en corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es el valor especificado en la Tabla 3."
+          },
+          {
+            "id": 2,
+            "answer": "250 V en corriente continua.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la Tabla 3 del apartado 2.9, para instalaciones MBTS/MBTP la tensión de ensayo es 250 V en corriente continua, con resistencia mínima ≥ 0,25 MΩ."
+          },
+          {
+            "id": 3,
+            "answer": "500 V en corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica para instalaciones ≤500 V excepto MBTS/MBTP."
+          },
+          {
+            "id": 4,
+            "answer": "1000 V en corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este valor aplica para instalaciones >500 V."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-96",
+        "question": "¿Qué se indica en la Nota de la Tabla 3 respecto a instalaciones MBTS y MBTP?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que no requieren medida de resistencia de aislamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Sí requieren medida, con valores específicos."
+          },
+          {
+            "id": 2,
+            "answer": "Que para estas instalaciones debe consultarse la ITC-BT-36.",
+            "isCorrect": true,
+            "explanation": "Correcto. La Nota de la Tabla 3 del apartado 2.9 establece: 'Para instalaciones a MBTS y MBTP, véase la ITC-BT-36'."
+          },
+          {
+            "id": 3,
+            "answer": "Que la resistencia mínima es siempre 1 MΩ.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La Tabla 3 indica ≥ 0,25 MΩ para MBTS/MBTP."
+          },
+          {
+            "id": 4,
+            "answer": "Que no se aplica ensayo de rigidez dieléctrica.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La nota solo remite a ITC-BT-36 para más información."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-97",
+        "question": "¿Qué longitud en hectómetros se utiliza como factor de proporcionalidad para resistencia de aislamiento cuando no se puede fraccionar la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La longitud en metros dividida por 10.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El factor es la longitud en hectómetros (1 hectómetro = 100 metros)."
+          },
+          {
+            "id": 2,
+            "answer": "La longitud total expresada en hectómetros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece que la resistencia admisible es 'inversamente proporcional a la longitud total, en hectómetros, de las canalizaciones'."
+          },
+          {
+            "id": 3,
+            "answer": "La longitud en kilómetros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La unidad de referencia es el hectómetro, no el kilómetro."
+          },
+          {
+            "id": 4,
+            "answer": "La longitud en decámetros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La unidad especificada es el hectómetro."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-99",
+        "question": "¿Qué frecuencia se utiliza para el ensayo de rigidez dieléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Corriente continua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La rigidez dieléctrica se ensaya en corriente alterna."
+          },
+          {
+            "id": 2,
+            "answer": "Frecuencia industrial (50 Hz en España).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.9 establece que el ensayo de rigidez dieléctrica se realiza 'a frecuencia industrial'."
+          },
+          {
+            "id": 3,
+            "answer": "1000 Hz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es la frecuencia especificada."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier frecuencia entre 40 y 60 Hz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se especifica frecuencia industrial, que en España es 50 Hz."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-19-100",
+        "question": "¿Qué se entiende por 'utilización racional de los aparatos' al determinar aparatos susceptibles de funcionar simultáneamente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que todos los aparatos funcionen al máximo de potencia siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La utilización racional implica criterio de uso realista, no máximo permanente."
+          },
+          {
+            "id": 2,
+            "answer": "Considerar un patrón de uso realista y no la suma teórica máxima de todos los aparatos.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 indica que el número de aparatos simultáneos se determina 'considerando una utilización racional de los aparatos', lo que implica evaluar el uso real esperado, no la suma teórica máxima."
+          },
+          {
+            "id": 3,
+            "answer": "Que solo funcionen los aparatos de iluminación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La utilización racional aplica a todo tipo de aparatos."
+          },
+          {
+            "id": 4,
+            "answer": "Que el usuario decida arbitrariamente cuáles funcionan.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe ser una consideración técnica fundamentada, no arbitraria."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

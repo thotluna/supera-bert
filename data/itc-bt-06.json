@@ -2,23 +2,63 @@
   {
     "id": "ITC-BT-06-01",
     "type": "simple",
-    "question": "¿Cuál es el ámbito de aplicación de la ITC-BT-06?",
+    "question": "¿Cuál es el ámbito de aplicación?",
     "options": [
-      { "id": 1, "answer": "Redes subterráneas de baja tensión.", "isCorrect": false, "explanation": "Las redes subterráneas se rigen por la ITC-BT-07." },
-      { "id": 2, "answer": "Instalaciones interiores de viviendas.", "isCorrect": false, "explanation": "Las interiores tienen su propia normativa a partir de la ITC-BT-19." },
-      { "id": 3, "answer": "Redes aéreas para distribución en baja tensión.", "isCorrect": true, "explanation": "El título y objeto explícito de esta instrucción es regular las redes aéreas de distribución[cite: 1]." },
-      { "id": 4, "answer": "Centros de transformación.", "isCorrect": false, "explanation": "Los centros de transformación se rigen por el Reglamento sobre Centrales Eléctricas y Centros de Transformación." }
+      {
+        "id": 1,
+        "answer": "Redes subterráneas de baja tensión.",
+        "isCorrect": false,
+        "explanation": "Las redes subterráneas se rigen por la ITC-BT-07."
+      },
+      {
+        "id": 2,
+        "answer": "Instalaciones interiores de viviendas.",
+        "isCorrect": false,
+        "explanation": "Las interiores tienen su propia normativa a partir de la ITC-BT-19."
+      },
+      {
+        "id": 3,
+        "answer": "Redes aéreas para distribución en baja tensión.",
+        "isCorrect": true,
+        "explanation": "Según ITC-BT-06, el título y objeto explícito de esta instrucción es regular las redes aéreas de distribución[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Centros de transformación.",
+        "isCorrect": false,
+        "explanation": "Los centros de transformación se rigen por el Reglamento sobre Centrales Eléctricas y Centros de Transformación."
+      }
     ]
   },
   {
     "id": "ITC-BT-06-02",
     "type": "simple",
-    "question": "Según la ITC-BT-06, ¿qué materiales pueden usarse para los conductores en redes aéreas?",
+    "question": "¿Qué materiales pueden usarse para los conductores en redes aéreas?",
     "options": [
-      { "id": 1, "answer": "Exclusivamente cobre.", "isCorrect": false, "explanation": "El reglamento permite el uso de otros metales conductores." },
-      { "id": 2, "answer": "Sólo aluminio con alma de acero.", "isCorrect": false, "explanation": "Es una opción, pero no la única permitida." },
-      { "id": 3, "answer": "Cobre, aluminio u otros materiales o aleaciones con características adecuadas.", "isCorrect": true, "explanation": "La norma permite cobre, aluminio u otras aleaciones que posean características eléctricas y mecánicas adecuadas[cite: 1]." },
-      { "id": 4, "answer": "Cualquier metal, siempre que no esté aislado.", "isCorrect": false, "explanation": "Se prefieren y regulan específicamente los cables aislados sobre los desnudos." }
+      {
+        "id": 1,
+        "answer": "Exclusivamente cobre.",
+        "isCorrect": false,
+        "explanation": "El reglamento permite el uso de otros metales conductores."
+      },
+      {
+        "id": 2,
+        "answer": "Sólo aluminio con alma de acero.",
+        "isCorrect": false,
+        "explanation": "Es una opción, pero no la única permitida."
+      },
+      {
+        "id": 3,
+        "answer": "Cobre, aluminio u otros materiales o aleaciones con características adecuadas.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-06, la norma permite cobre, aluminio u otras aleaciones que posean características eléctricas y mecánicas adecuadas[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Cualquier metal, siempre que no esté aislado.",
+        "isCorrect": false,
+        "explanation": "Se prefieren y regulan específicamente los cables aislados sobre los desnudos."
+      }
     ]
   },
   {
@@ -26,10 +66,30 @@
     "type": "simple",
     "question": "La tensión asignada mínima para los conductores aislados de estas redes no será inferior a:",
     "options": [
-      { "id": 1, "answer": "400 V.", "isCorrect": false, "explanation": "Es la tensión de servicio, pero no el nivel de aislamiento del cable." },
-      { "id": 2, "answer": "0,6/1 kV.", "isCorrect": true, "explanation": "La norma especifica que los conductores aislados serán de tensión asignada no inferior a 0,6/1 kV[cite: 1]." },
-      { "id": 3, "answer": "12/20 kV.", "isCorrect": false, "explanation": "Este es un valor propio de redes de media tensión." },
-      { "id": 4, "answer": "750 V.", "isCorrect": false, "explanation": "El aislamiento estándar exigido para distribución aérea es superior." }
+      {
+        "id": 1,
+        "answer": "400 V.",
+        "isCorrect": false,
+        "explanation": "Es la tensión de servicio, pero no el nivel de aislamiento del cable."
+      },
+      {
+        "id": 2,
+        "answer": "0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "La norma especifica que los conductores aislados serán de tensión asignada no inferior a 0,6/1 kV[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "12/20 kV.",
+        "isCorrect": false,
+        "explanation": "Este es un valor propio de redes de media tensión."
+      },
+      {
+        "id": 4,
+        "answer": "750 V.",
+        "isCorrect": false,
+        "explanation": "El aislamiento estándar exigido para distribución aérea es superior."
+      }
     ]
   },
   {
@@ -37,10 +97,30 @@
     "type": "simple",
     "question": "¿Cuál es la sección mínima permitida para los conductores aislados de aluminio en redes aéreas?",
     "options": [
-      { "id": 1, "answer": "10 mm².", "isCorrect": false, "explanation": "Este es el mínimo permitido para el cobre, no para el aluminio." },
-      { "id": 2, "answer": "16 mm².", "isCorrect": true, "explanation": "La sección mínima establecida para conductores de aluminio aislados es de 16 mm²[cite: 1]." },
-      { "id": 3, "answer": "25 mm².", "isCorrect": false, "explanation": "Aunque es una sección común, el mínimo reglamentario es inferior." },
-      { "id": 4, "answer": "6 mm².", "isCorrect": false, "explanation": "Es una sección insuficiente para redes de distribución aérea según la norma." }
+      {
+        "id": 1,
+        "answer": "10 mm².",
+        "isCorrect": false,
+        "explanation": "Este es el mínimo permitido para el cobre, no para el aluminio."
+      },
+      {
+        "id": 2,
+        "answer": "16 mm².",
+        "isCorrect": true,
+        "explanation": "La sección mínima establecida para conductores de aluminio aislados es de 16 mm²[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "25 mm².",
+        "isCorrect": false,
+        "explanation": "Aunque es una sección común, el mínimo reglamentario es inferior."
+      },
+      {
+        "id": 4,
+        "answer": "6 mm².",
+        "isCorrect": false,
+        "explanation": "Es una sección insuficiente para redes de distribución aérea según la norma."
+      }
     ]
   },
   {
@@ -48,10 +128,30 @@
     "type": "simple",
     "question": "¿Cuál es la sección mínima permitida para los conductores aislados de cobre?",
     "options": [
-      { "id": 1, "answer": "6 mm².", "isCorrect": false, "explanation": "Valor inferior al mínimo de seguridad para distribución." },
-      { "id": 2, "answer": "10 mm².", "isCorrect": true, "explanation": "La sección mínima obligatoria para conductores de cobre en estas redes es de 10 mm²[cite: 1]." },
-      { "id": 3, "answer": "16 mm².", "isCorrect": false, "explanation": "Este es el límite mínimo aplicado al aluminio." },
-      { "id": 4, "answer": "25 mm².", "isCorrect": false, "explanation": "Supera el requerimiento mínimo legal." }
+      {
+        "id": 1,
+        "answer": "6 mm².",
+        "isCorrect": false,
+        "explanation": "Valor inferior al mínimo de seguridad para distribución."
+      },
+      {
+        "id": 2,
+        "answer": "10 mm².",
+        "isCorrect": true,
+        "explanation": "La sección mínima obligatoria para conductores de cobre en estas redes es de 10 mm²[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "16 mm².",
+        "isCorrect": false,
+        "explanation": "Este es el límite mínimo aplicado al aluminio."
+      },
+      {
+        "id": 4,
+        "answer": "25 mm².",
+        "isCorrect": false,
+        "explanation": "Supera el requerimiento mínimo legal."
+      }
     ]
   },
   {
@@ -59,10 +159,30 @@
     "type": "simple",
     "question": "Para los conductores desnudos, ¿cuál debe ser su carga de rotura mínima a la tracción?",
     "options": [
-      { "id": 1, "answer": "280 daN.", "isCorrect": false, "explanation": "Valor aplicable solo a ciertas acometidas aisladas." },
-      { "id": 2, "answer": "410 daN.", "isCorrect": true, "explanation": "La carga de rotura mínima a la tracción para conductores desnudos será de 410 daN[cite: 1]." },
-      { "id": 3, "answer": "800 daN.", "isCorrect": false, "explanation": "Este valor aplica a los cables fiadores de acero." },
-      { "id": 4, "answer": "1400 daN.", "isCorrect": false, "explanation": "Este valor corresponde a los tirantes de la instalación." }
+      {
+        "id": 1,
+        "answer": "280 daN.",
+        "isCorrect": false,
+        "explanation": "Valor aplicable solo a ciertas acometidas aisladas."
+      },
+      {
+        "id": 2,
+        "answer": "410 daN.",
+        "isCorrect": true,
+        "explanation": "La carga de rotura mínima a la tracción para conductores desnudos será de 410 daN[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "800 daN.",
+        "isCorrect": false,
+        "explanation": "Este valor aplica a los cables fiadores de acero."
+      },
+      {
+        "id": 4,
+        "answer": "1400 daN.",
+        "isCorrect": false,
+        "explanation": "Este valor corresponde a los tirantes de la instalación."
+      }
     ]
   },
   {
@@ -70,10 +190,30 @@
     "type": "simple",
     "question": "¿Qué conductores se consideran normativamente como 'desnudos' aunque tengan cierta cubierta?",
     "options": [
-      { "id": 1, "answer": "Todos los de aluminio.", "isCorrect": false, "explanation": "El material no determina la clasificación de aislamiento." },
-      { "id": 2, "answer": "Los aislados para una tensión nominal inferior a 0,6/1 kV.", "isCorrect": true, "explanation": "A efectos de instalación, los cables con aislamiento inferior a 0,6/1 kV se consideran desnudos[cite: 1]." },
-      { "id": 3, "answer": "Los que tienen neutro fiador.", "isCorrect": false, "explanation": "La presencia de fiador no altera la consideración de aislamiento de las fases." },
-      { "id": 4, "answer": "Los instalados en zonas de arbolado.", "isCorrect": false, "explanation": "En estas zonas el uso de cables desnudos está expresamente restringido." }
+      {
+        "id": 1,
+        "answer": "Todos los de aluminio.",
+        "isCorrect": false,
+        "explanation": "El material no determina la clasificación de aislamiento."
+      },
+      {
+        "id": 2,
+        "answer": "Los aislados para una tensión nominal inferior a 0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "A efectos de instalación, los cables con aislamiento inferior a 0,6/1 kV se consideran desnudos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Los que tienen neutro fiador.",
+        "isCorrect": false,
+        "explanation": "La presencia de fiador no altera la consideración de aislamiento de las fases."
+      },
+      {
+        "id": 4,
+        "answer": "Los instalados en zonas de arbolado.",
+        "isCorrect": false,
+        "explanation": "En estas zonas el uso de cables desnudos está expresamente restringido."
+      }
     ]
   },
   {
@@ -81,10 +221,30 @@
     "type": "simple",
     "question": "¿En qué lugares está excluido el uso de conductores desnudos?",
     "options": [
-      { "id": 1, "answer": "En zonas urbanas.", "isCorrect": false, "explanation": "No están prohibidos, aunque se prefiere el cable trenzado." },
-      { "id": 2, "answer": "En cruces de ferrocarril.", "isCorrect": false, "explanation": "Se permiten con medidas de seguridad adicionales." },
-      { "id": 3, "answer": "En zonas de arbolado o con peligro de incendio.", "isCorrect": true, "explanation": "La norma excluye el uso de conductores desnudos en zonas de arbolado o con riesgo de incendio[cite: 1]." },
-      { "id": 4, "answer": "Cerca de los ríos.", "isCorrect": false, "explanation": "Se permiten respetando los gálibos de altura establecidos." }
+      {
+        "id": 1,
+        "answer": "En zonas urbanas.",
+        "isCorrect": false,
+        "explanation": "No están prohibidos, aunque se prefiere el cable trenzado."
+      },
+      {
+        "id": 2,
+        "answer": "En cruces de ferrocarril.",
+        "isCorrect": false,
+        "explanation": "Se permiten con medidas de seguridad adicionales."
+      },
+      {
+        "id": 3,
+        "answer": "En zonas de arbolado o con peligro de incendio.",
+        "isCorrect": true,
+        "explanation": "La norma excluye el uso de conductores desnudos en zonas de arbolado o con riesgo de incendio[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Cerca de los ríos.",
+        "isCorrect": false,
+        "explanation": "Se permiten respetando los gálibos de altura establecidos."
+      }
     ]
   },
   {
@@ -92,10 +252,30 @@
     "type": "simple",
     "question": "¿Qué materiales son adecuados para los aisladores según la norma?",
     "options": [
-      { "id": 1, "answer": "Exclusivamente plástico.", "isCorrect": false, "explanation": "El plástico estándar no garantiza la durabilidad a la intemperie requerida." },
-      { "id": 2, "answer": "Porcelana, vidrio o materiales aislantes equivalentes que resistan a la intemperie.", "isCorrect": true, "explanation": "Se exige porcelana, vidrio u otros materiales resistentes a la corrosión y temperatura[cite: 1]." },
-      { "id": 3, "answer": "Madera tratada.", "isCorrect": false, "explanation": "La madera se utiliza para los apoyos, no como aislante eléctrico principal." },
-      { "id": 4, "answer": "Goma vulcanizada.", "isCorrect": false, "explanation": "No ofrece la resistencia mecánica necesaria para este fin." }
+      {
+        "id": 1,
+        "answer": "Exclusivamente plástico.",
+        "isCorrect": false,
+        "explanation": "El plástico estándar no garantiza la durabilidad a la intemperie requerida."
+      },
+      {
+        "id": 2,
+        "answer": "Porcelana, vidrio o materiales aislantes equivalentes que resistan a la intemperie.",
+        "isCorrect": true,
+        "explanation": "Se exige porcelana, vidrio u otros materiales resistentes a la corrosión y temperatura[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Madera tratada.",
+        "isCorrect": false,
+        "explanation": "La madera se utiliza para los apoyos, no como aislante eléctrico principal."
+      },
+      {
+        "id": 4,
+        "answer": "Goma vulcanizada.",
+        "isCorrect": false,
+        "explanation": "No ofrece la resistencia mecánica necesaria para este fin."
+      }
     ]
   },
   {
@@ -103,10 +283,30 @@
     "type": "simple",
     "question": "¿Cómo debe efectuarse la fijación de los aisladores a sus soportes?",
     "options": [
-      { "id": 1, "answer": "Mediante soldadura directa.", "isCorrect": false, "explanation": "Los materiales cerámicos o vítreos no permiten soldadura directa al metal." },
-      { "id": 2, "answer": "Con abrazaderas de plástico.", "isCorrect": false, "explanation": "No aseguran la estabilidad mecánica a largo plazo." },
-      { "id": 3, "answer": "Mediante roscado o cementación con sustancias que no ataquen ninguna parte.", "isCorrect": true, "explanation": "El reglamento exige fijación por roscado o cementación sin variaciones de volumen[cite: 1]." },
-      { "id": 4, "answer": "Únicamente mediante cuñas de madera.", "isCorrect": false, "explanation": "Método no contemplado por la normativa técnica actual." }
+      {
+        "id": 1,
+        "answer": "Mediante soldadura directa.",
+        "isCorrect": false,
+        "explanation": "Los materiales cerámicos o vítreos no permiten soldadura directa al metal."
+      },
+      {
+        "id": 2,
+        "answer": "Con abrazaderas de plástico.",
+        "isCorrect": false,
+        "explanation": "No aseguran la estabilidad mecánica a largo plazo."
+      },
+      {
+        "id": 3,
+        "answer": "Mediante roscado o cementación con sustancias que no ataquen ninguna parte.",
+        "isCorrect": true,
+        "explanation": "El reglamento exige fijación por roscado o cementación sin variaciones de volumen[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Únicamente mediante cuñas de madera.",
+        "isCorrect": false,
+        "explanation": "Método no contemplado por la normativa técnica actual."
+      }
     ]
   },
   {
@@ -114,10 +314,30 @@
     "type": "simple",
     "question": "¿Cuál es la carga de rotura mínima que deben tener los tirantes?",
     "options": [
-      { "id": 1, "answer": "410 daN.", "isCorrect": false, "explanation": "Es la carga para conductores desnudos." },
-      { "id": 2, "answer": "800 daN.", "isCorrect": false, "explanation": "Es la carga para cables fiadores de acero." },
-      { "id": 3, "answer": "1400 daN.", "isCorrect": true, "explanation": "Los tirantes deben tener una carga de rotura mínima de 1.400 daN[cite: 1]." },
-      { "id": 4, "answer": "2500 daN.", "isCorrect": false, "explanation": "Valor superior al requerimiento mínimo legal." }
+      {
+        "id": 1,
+        "answer": "410 daN.",
+        "isCorrect": false,
+        "explanation": "Es la carga para conductores desnudos."
+      },
+      {
+        "id": 2,
+        "answer": "800 daN.",
+        "isCorrect": false,
+        "explanation": "Es la carga para cables fiadores de acero."
+      },
+      {
+        "id": 3,
+        "answer": "1400 daN.",
+        "isCorrect": true,
+        "explanation": "Los tirantes deben tener una carga de rotura mínima de 1.400 daN[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2500 daN.",
+        "isCorrect": false,
+        "explanation": "Valor superior al requerimiento mínimo legal."
+      }
     ]
   },
   {
@@ -125,10 +345,30 @@
     "type": "simple",
     "question": "En el cálculo mecánico, ¿qué valor de sobrecarga de viento se asume para los conductores?",
     "options": [
-      { "id": 1, "answer": "50 daN/m².", "isCorrect": true, "explanation": "La sobrecarga por presión del viento sobre conductores se fija en 50 daN/m²[cite: 1]." },
-      { "id": 2, "answer": "70 daN/m².", "isCorrect": false, "explanation": "Este es el valor para superficies cilíndricas de los apoyos." },
-      { "id": 3, "answer": "100 daN/m².", "isCorrect": false, "explanation": "Este es el valor para superficies planas de los apoyos." },
-      { "id": 4, "answer": "120 daN/m².", "isCorrect": false, "explanation": "Valor no contemplado en las hipótesis de viento del REBT." }
+      {
+        "id": 1,
+        "answer": "50 daN/m².",
+        "isCorrect": true,
+        "explanation": "La sobrecarga por presión del viento sobre conductores se fija en 50 daN/m²[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "70 daN/m².",
+        "isCorrect": false,
+        "explanation": "Este es el valor para superficies cilíndricas de los apoyos."
+      },
+      {
+        "id": 3,
+        "answer": "100 daN/m².",
+        "isCorrect": false,
+        "explanation": "Este es el valor para superficies planas de los apoyos."
+      },
+      {
+        "id": 4,
+        "answer": "120 daN/m².",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en las hipótesis de viento del REBT."
+      }
     ]
   },
   {
@@ -136,10 +376,30 @@
     "type": "simple",
     "question": "¿Qué sobrecarga por viento se aplica a las superficies planas de los apoyos?",
     "options": [
-      { "id": 1, "answer": "50 daN/m².", "isCorrect": false, "explanation": "Corresponde a la carga sobre conductores." },
-      { "id": 2, "answer": "70 daN/m².", "isCorrect": false, "explanation": "Corresponde a superficies cilíndricas." },
-      { "id": 3, "answer": "100 daN/m².", "isCorrect": true, "explanation": "La carga sobre superficies planas de apoyos es de 100 daN/m²[cite: 1]." },
-      { "id": 4, "answer": "150 daN/m².", "isCorrect": false, "explanation": "Valor superior al estándar normativo." }
+      {
+        "id": 1,
+        "answer": "50 daN/m².",
+        "isCorrect": false,
+        "explanation": "Corresponde a la carga sobre conductores."
+      },
+      {
+        "id": 2,
+        "answer": "70 daN/m².",
+        "isCorrect": false,
+        "explanation": "Corresponde a superficies cilíndricas."
+      },
+      {
+        "id": 3,
+        "answer": "100 daN/m².",
+        "isCorrect": true,
+        "explanation": "La carga sobre superficies planas de apoyos es de 100 daN/m²[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "150 daN/m².",
+        "isCorrect": false,
+        "explanation": "Valor superior al estándar normativo."
+      }
     ]
   },
   {
@@ -147,10 +407,30 @@
     "type": "simple",
     "question": "¿Qué sobrecarga de viento se considera para los apoyos de superficie cilíndrica?",
     "options": [
-      { "id": 1, "answer": "50 daN/m².", "isCorrect": false, "explanation": "Corresponde a la carga sobre conductores." },
-      { "id": 2, "answer": "70 daN/m².", "isCorrect": true, "explanation": "La carga sobre superficies cilíndricas de apoyos es de 70 daN/m²[cite: 1]." },
-      { "id": 3, "answer": "100 daN/m².", "isCorrect": false, "explanation": "Corresponde a superficies planas." },
-      { "id": 4, "answer": "180 daN/m².", "isCorrect": false, "explanation": "Este valor se asocia al cálculo de hielo en ciertas zonas, no al viento." }
+      {
+        "id": 1,
+        "answer": "50 daN/m².",
+        "isCorrect": false,
+        "explanation": "Corresponde a la carga sobre conductores."
+      },
+      {
+        "id": 2,
+        "answer": "70 daN/m².",
+        "isCorrect": true,
+        "explanation": "La carga sobre superficies cilíndricas de apoyos es de 70 daN/m²[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "100 daN/m².",
+        "isCorrect": false,
+        "explanation": "Corresponde a superficies planas."
+      },
+      {
+        "id": 4,
+        "answer": "180 daN/m².",
+        "isCorrect": false,
+        "explanation": "Este valor se asocia al cálculo de hielo en ciertas zonas, no al viento."
+      }
     ]
   },
   {
@@ -158,10 +438,30 @@
     "type": "simple",
     "question": "¿A qué altitud corresponde la 'Zona A' para efectos del cálculo de hielo?",
     "options": [
-      { "id": 1, "answer": "Menos de 500 m sobre el nivel del mar.", "isCorrect": true, "explanation": "La Zona A comprende los territorios situados a menos de 500 m de altitud[cite: 1]." },
-      { "id": 2, "answer": "Entre 500 y 1000 m.", "isCorrect": false, "explanation": "Esto corresponde a la Zona B." },
-      { "id": 3, "answer": "Más de 1000 m.", "isCorrect": false, "explanation": "Esto corresponde a la Zona C." },
-      { "id": 4, "answer": "Zonas costeras independientemente de su altitud.", "isCorrect": false, "explanation": "La clasificación se basa estrictamente en la altitud sobre el nivel del mar." }
+      {
+        "id": 1,
+        "answer": "Menos de 500 m sobre el nivel del mar.",
+        "isCorrect": true,
+        "explanation": "La Zona A comprende los territorios situados a menos de 500 m de altitud[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Entre 500 y 1000 m.",
+        "isCorrect": false,
+        "explanation": "Esto corresponde a la Zona B."
+      },
+      {
+        "id": 3,
+        "answer": "Más de 1000 m.",
+        "isCorrect": false,
+        "explanation": "Esto corresponde a la Zona C."
+      },
+      {
+        "id": 4,
+        "answer": "Zonas costeras independientemente de su altitud.",
+        "isCorrect": false,
+        "explanation": "La clasificación se basa estrictamente en la altitud sobre el nivel del mar."
+      }
     ]
   },
   {
@@ -169,10 +469,30 @@
     "type": "simple",
     "question": "En la Zona A, ¿qué sobrecarga de hielo se considera en el cálculo?",
     "options": [
-      { "id": 1, "answer": "60√d.", "isCorrect": false, "explanation": "Valor para cables en haz en Zona B." },
-      { "id": 2, "answer": "180√d.", "isCorrect": false, "explanation": "Valor para conductores desnudos en Zona B." },
-      { "id": 3, "answer": "360√d.", "isCorrect": false, "explanation": "Valor para conductores desnudos en Zona C." },
-      { "id": 4, "answer": "Ninguna.", "isCorrect": true, "explanation": "En la Zona A no se tendrá en cuenta sobrecarga alguna motivada por el hielo[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "60√d.",
+        "isCorrect": false,
+        "explanation": "Valor para cables en haz en Zona B."
+      },
+      {
+        "id": 2,
+        "answer": "180√d.",
+        "isCorrect": false,
+        "explanation": "Valor para conductores desnudos en Zona B."
+      },
+      {
+        "id": 3,
+        "answer": "360√d.",
+        "isCorrect": false,
+        "explanation": "Valor para conductores desnudos en Zona C."
+      },
+      {
+        "id": 4,
+        "answer": "Ninguna.",
+        "isCorrect": true,
+        "explanation": "En la Zona A no se tendrá en cuenta sobrecarga alguna motivada por el hielo[cite: 1]."
+      }
     ]
   },
   {
@@ -180,10 +500,30 @@
     "type": "simple",
     "question": "¿Qué sobrecarga por hielo se asume para conductores desnudos en la Zona B?",
     "options": [
-      { "id": 1, "answer": "60√d gramos/m.", "isCorrect": false, "explanation": "Corresponde a cables en haz en Zona B." },
-      { "id": 2, "answer": "120√d gramos/m.", "isCorrect": false, "explanation": "Corresponde a cables en haz en Zona C." },
-      { "id": 3, "answer": "180√d gramos/m.", "isCorrect": true, "explanation": "En Zona B (500-1000m) se asume 180√d gramos por metro para desnudos[cite: 1]." },
-      { "id": 4, "answer": "360√d gramos/m.", "isCorrect": false, "explanation": "Corresponde a conductores desnudos en Zona C." }
+      {
+        "id": 1,
+        "answer": "60√d gramos/m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a cables en haz en Zona B."
+      },
+      {
+        "id": 2,
+        "answer": "120√d gramos/m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a cables en haz en Zona C."
+      },
+      {
+        "id": 3,
+        "answer": "180√d gramos/m.",
+        "isCorrect": true,
+        "explanation": "En Zona B (500-1000m) se asume 180√d gramos por metro para desnudos[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "360√d gramos/m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a conductores desnudos en Zona C."
+      }
     ]
   },
   {
@@ -191,10 +531,30 @@
     "type": "simple",
     "question": "Para cables en haz en la Zona C (altitud > 1000m), ¿cuál es la sobrecarga de hielo?",
     "options": [
-      { "id": 1, "answer": "60√d.", "isCorrect": false, "explanation": "Corresponde a haz en Zona B." },
-      { "id": 2, "answer": "120√d.", "isCorrect": true, "explanation": "En la Zona C, la sobrecarga para cables en haz se considera de 120√d[cite: 1]." },
-      { "id": 3, "answer": "180√d.", "isCorrect": false, "explanation": "Corresponde a desnudo en Zona B." },
-      { "id": 4, "answer": "360√d.", "isCorrect": false, "explanation": "Corresponde a desnudo en Zona C." }
+      {
+        "id": 1,
+        "answer": "60√d.",
+        "isCorrect": false,
+        "explanation": "Corresponde a haz en Zona B."
+      },
+      {
+        "id": 2,
+        "answer": "120√d.",
+        "isCorrect": true,
+        "explanation": "En la Zona C, la sobrecarga para cables en haz se considera de 120√d[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "180√d.",
+        "isCorrect": false,
+        "explanation": "Corresponde a desnudo en Zona B."
+      },
+      {
+        "id": 4,
+        "answer": "360√d.",
+        "isCorrect": false,
+        "explanation": "Corresponde a desnudo en Zona C."
+      }
     ]
   },
   {
@@ -202,10 +562,30 @@
     "type": "simple",
     "question": "A efectos del cálculo de hielo en haz, ¿cómo se determina su diámetro equivalente (d)?",
     "options": [
-      { "id": 1, "answer": "Es igual al diámetro exterior total medido.", "isCorrect": false, "explanation": "No se usa la medición directa del haz completo." },
-      { "id": 2, "answer": "Es 1,5 veces el diámetro del conductor neutro.", "isCorrect": false, "explanation": "El neutro no es la base del cálculo." },
-      { "id": 3, "answer": "Es 2,5 veces el diámetro del conductor de fase.", "isCorrect": true, "explanation": "Se considera como diámetro del cable en haz 2,5 veces el diámetro del conductor de fase[cite: 1]." },
-      { "id": 4, "answer": "Es la suma de los diámetros de todos los conductores.", "isCorrect": false, "explanation": "Se utiliza un factor multiplicador teórico fijo." }
+      {
+        "id": 1,
+        "answer": "Es igual al diámetro exterior total medido.",
+        "isCorrect": false,
+        "explanation": "No se usa la medición directa del haz completo."
+      },
+      {
+        "id": 2,
+        "answer": "Es 1,5 veces el diámetro del conductor neutro.",
+        "isCorrect": false,
+        "explanation": "El neutro no es la base del cálculo."
+      },
+      {
+        "id": 3,
+        "answer": "Es 2,5 veces el diámetro del conductor de fase.",
+        "isCorrect": true,
+        "explanation": "Se considera como diámetro del cable en haz 2,5 veces el diámetro del conductor de fase[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Es la suma de los diámetros de todos los conductores.",
+        "isCorrect": false,
+        "explanation": "Se utiliza un factor multiplicador teórico fijo."
+      }
     ]
   },
   {
@@ -213,10 +593,30 @@
     "type": "simple",
     "question": "La tracción máxima admisible de un conductor no debe superar su carga de rotura dividida por:",
     "options": [
-      { "id": 1, "answer": "1,5.", "isCorrect": false, "explanation": "Coeficiente para apoyos metálicos." },
-      { "id": 2, "answer": "2.", "isCorrect": false, "explanation": "Coeficiente para apoyos de hormigón ensayados." },
-      { "id": 3, "answer": "2,5.", "isCorrect": true, "explanation": "La tracción máxima admisible no será superior a su carga de rotura dividida por 2,5[cite: 1]." },
-      { "id": 4, "answer": "3,5.", "isCorrect": false, "explanation": "Coeficiente para apoyos de madera." }
+      {
+        "id": 1,
+        "answer": "1,5.",
+        "isCorrect": false,
+        "explanation": "Coeficiente para apoyos metálicos."
+      },
+      {
+        "id": 2,
+        "answer": "2.",
+        "isCorrect": false,
+        "explanation": "Coeficiente para apoyos de hormigón ensayados."
+      },
+      {
+        "id": 3,
+        "answer": "2,5.",
+        "isCorrect": true,
+        "explanation": "La tracción máxima admisible no será superior a su carga de rotura dividida por 2,5[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "3,5.",
+        "isCorrect": false,
+        "explanation": "Coeficiente para apoyos de madera."
+      }
     ]
   },
   {
@@ -224,10 +624,30 @@
     "type": "simple",
     "question": "En la Zona A, la hipótesis 'a' de peso y viento asume una temperatura de:",
     "options": [
-      { "id": 1, "answer": "-5°C.", "isCorrect": false, "explanation": "Valor no utilizado en cálculos de baja tensión." },
-      { "id": 2, "answer": "0°C.", "isCorrect": false, "explanation": "Corresponde a la hipótesis 'b'." },
-      { "id": 3, "answer": "15°C.", "isCorrect": true, "explanation": "La hipótesis 'a' establece la acción del peso y viento a una temperatura de 15°C[cite: 1]." },
-      { "id": 4, "answer": "50°C.", "isCorrect": false, "explanation": "Temperatura utilizada para el cálculo de la flecha máxima." }
+      {
+        "id": 1,
+        "answer": "-5°C.",
+        "isCorrect": false,
+        "explanation": "Valor no utilizado en cálculos de baja tensión."
+      },
+      {
+        "id": 2,
+        "answer": "0°C.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la hipótesis 'b'."
+      },
+      {
+        "id": 3,
+        "answer": "15°C.",
+        "isCorrect": true,
+        "explanation": "La hipótesis 'a' establece la acción del peso y viento a una temperatura de 15°C[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "50°C.",
+        "isCorrect": false,
+        "explanation": "Temperatura utilizada para el cálculo de la flecha máxima."
+      }
     ]
   },
   {
@@ -235,10 +655,30 @@
     "type": "simple",
     "question": "En Zona A, la hipótesis 'b' (0°C) considera la sobrecarga de viento:",
     "options": [
-      { "id": 1, "answer": "Íntegra.", "isCorrect": false, "explanation": "A 0°C no se asume la presión máxima de viento." },
-      { "id": 2, "answer": "Dividida por 2.", "isCorrect": false, "explanation": "El factor de reducción es distinto." },
-      { "id": 3, "answer": "Dividida por 3.", "isCorrect": true, "explanation": "La hipótesis 'b' en Zona A estipula la sobrecarga del viento dividida por 3[cite: 1]." },
-      { "id": 4, "answer": "Sin viento.", "isCorrect": false, "explanation": "Sí se considera una fracción de la carga de viento." }
+      {
+        "id": 1,
+        "answer": "Íntegra.",
+        "isCorrect": false,
+        "explanation": "A 0°C no se asume la presión máxima de viento."
+      },
+      {
+        "id": 2,
+        "answer": "Dividida por 2.",
+        "isCorrect": false,
+        "explanation": "El factor de reducción es distinto."
+      },
+      {
+        "id": 3,
+        "answer": "Dividida por 3.",
+        "isCorrect": true,
+        "explanation": "La hipótesis 'b' en Zona A estipula la sobrecarga del viento dividida por 3[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Sin viento.",
+        "isCorrect": false,
+        "explanation": "Sí se considera una fracción de la carga de viento."
+      }
     ]
   },
   {
@@ -246,10 +686,30 @@
     "type": "simple",
     "question": "En Zonas B y C, la hipótesis 'b' (0°C) asume peso propio y:",
     "options": [
-      { "id": 1, "answer": "Viento dividido por 3.", "isCorrect": false, "explanation": "Esto es específico de la Zona A." },
-      { "id": 2, "answer": "Sobrecarga de hielo correspondiente a la zona.", "isCorrect": true, "explanation": "En estas zonas se considera el peso más la sobrecarga de hielo a 0°C[cite: 1]." },
-      { "id": 3, "answer": "Viento máximo.", "isCorrect": false, "explanation": "Viento y hielo máximos simultáneos no se contemplan en esta hipótesis." },
-      { "id": 4, "answer": "Sólo peso propio.", "isCorrect": false, "explanation": "Debe incluirse obligatoriamente la carga por hielo." }
+      {
+        "id": 1,
+        "answer": "Viento dividido por 3.",
+        "isCorrect": false,
+        "explanation": "Esto es específico de la Zona A."
+      },
+      {
+        "id": 2,
+        "answer": "Sobrecarga de hielo correspondiente a la zona.",
+        "isCorrect": true,
+        "explanation": "En estas zonas se considera el peso más la sobrecarga de hielo a 0°C[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Viento máximo.",
+        "isCorrect": false,
+        "explanation": "Viento y hielo máximos simultáneos no se contemplan en esta hipótesis."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo peso propio.",
+        "isCorrect": false,
+        "explanation": "Debe incluirse obligatoriamente la carga por hielo."
+      }
     ]
   },
   {
@@ -257,10 +717,30 @@
     "type": "simple",
     "question": "La temperatura máxima para calcular la 'flecha máxima' no será inferior a:",
     "options": [
-      { "id": 1, "answer": "40°C.", "isCorrect": false, "explanation": "Es la temperatura ambiente para el cálculo de intensidades." },
-      { "id": 2, "answer": "45°C.", "isCorrect": false, "explanation": "Valor por debajo del mínimo reglamentario." },
-      { "id": 3, "answer": "50°C.", "isCorrect": true, "explanation": "El reglamento exige que esta temperatura no sea inferior a 50°C[cite: 1]." },
-      { "id": 4, "answer": "70°C.", "isCorrect": false, "explanation": "Aunque es posible, la norma permite tomar 50°C como base." }
+      {
+        "id": 1,
+        "answer": "40°C.",
+        "isCorrect": false,
+        "explanation": "Es la temperatura ambiente para el cálculo de intensidades."
+      },
+      {
+        "id": 2,
+        "answer": "45°C.",
+        "isCorrect": false,
+        "explanation": "Valor por debajo del mínimo reglamentario."
+      },
+      {
+        "id": 3,
+        "answer": "50°C.",
+        "isCorrect": true,
+        "explanation": "El reglamento exige que esta temperatura no sea inferior a 50°C[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "70°C.",
+        "isCorrect": false,
+        "explanation": "Aunque es posible, la norma permite tomar 50°C como base."
+      }
     ]
   },
   {
@@ -268,10 +748,30 @@
     "type": "simple",
     "question": "En apoyos de alineación, ¿cuándo pueden despreciarse las cargas permanentes?",
     "options": [
-      { "id": 1, "answer": "Si el desequilibrio de tracciones es nulo.", "isCorrect": false, "explanation": "El desequilibrio siempre debe evaluarse." },
-      { "id": 2, "answer": "Cuando los vanos sean inferiores a 15 m.", "isCorrect": true, "explanation": "En vanos < 15 m las cargas permanentes influyen poco y puede prescindirse de ellas[cite: 1]." },
-      { "id": 3, "answer": "Cuando actúe el viento máximo.", "isCorrect": false, "explanation": "El viento es una carga variable, no permanente." },
-      { "id": 4, "answer": "Si el apoyo es de madera.", "isCorrect": false, "explanation": "El material del apoyo no exime del cálculo de cargas permanentes." }
+      {
+        "id": 1,
+        "answer": "Si el desequilibrio de tracciones es nulo.",
+        "isCorrect": false,
+        "explanation": "El desequilibrio siempre debe evaluarse."
+      },
+      {
+        "id": 2,
+        "answer": "Cuando los vanos sean inferiores a 15 m.",
+        "isCorrect": true,
+        "explanation": "En vanos < 15 m las cargas permanentes influyen poco y puede prescindirse de ellas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando actúe el viento máximo.",
+        "isCorrect": false,
+        "explanation": "El viento es una carga variable, no permanente."
+      },
+      {
+        "id": 4,
+        "answer": "Si el apoyo es de madera.",
+        "isCorrect": false,
+        "explanation": "El material del apoyo no exime del cálculo de cargas permanentes."
+      }
     ]
   },
   {
@@ -279,10 +779,30 @@
     "type": "simple",
     "question": "¿Qué coeficiente de seguridad a la rotura se exige para un apoyo metálico?",
     "options": [
-      { "id": 1, "answer": "1,5.", "isCorrect": true, "explanation": "Según la Tabla 2, el coeficiente de seguridad para material metálico es 1,5[cite: 1]." },
-      { "id": 2, "answer": "2,5.", "isCorrect": false, "explanation": "Coeficiente estándar para hormigón." },
-      { "id": 3, "answer": "3,5.", "isCorrect": false, "explanation": "Coeficiente estándar para madera." },
-      { "id": 4, "answer": "4,0.", "isCorrect": false, "explanation": "Valor no contemplado en la tabla de coeficientes." }
+      {
+        "id": 1,
+        "answer": "1,5.",
+        "isCorrect": true,
+        "explanation": "Según la Tabla 2, el coeficiente de seguridad para material metálico es 1,5[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "2,5.",
+        "isCorrect": false,
+        "explanation": "Coeficiente estándar para hormigón."
+      },
+      {
+        "id": 3,
+        "answer": "3,5.",
+        "isCorrect": false,
+        "explanation": "Coeficiente estándar para madera."
+      },
+      {
+        "id": 4,
+        "answer": "4,0.",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en la tabla de coeficientes."
+      }
     ]
   },
   {
@@ -290,10 +810,30 @@
     "type": "simple",
     "question": "¿Cuál es el coeficiente de seguridad para un apoyo de madera?",
     "options": [
-      { "id": 1, "answer": "1,5.", "isCorrect": false, "explanation": "Corresponde a material metálico." },
-      { "id": 2, "answer": "2,0.", "isCorrect": false, "explanation": "Corresponde a hormigón ensayado." },
-      { "id": 3, "answer": "2,5.", "isCorrect": false, "explanation": "Corresponde a hormigón vibrado estándar." },
-      { "id": 4, "answer": "3,5.", "isCorrect": true, "explanation": "La Tabla 2 establece un coeficiente de 3,5 para la madera[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "1,5.",
+        "isCorrect": false,
+        "explanation": "Corresponde a material metálico."
+      },
+      {
+        "id": 2,
+        "answer": "2,0.",
+        "isCorrect": false,
+        "explanation": "Corresponde a hormigón ensayado."
+      },
+      {
+        "id": 3,
+        "answer": "2,5.",
+        "isCorrect": false,
+        "explanation": "Corresponde a hormigón vibrado estándar."
+      },
+      {
+        "id": 4,
+        "answer": "3,5.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 establece un coeficiente de 3,5 para la madera[cite: 1]."
+      }
     ]
   },
   {
@@ -301,10 +841,30 @@
     "type": "simple",
     "question": "Si un apoyo de hormigón se comprueba mediante ensayos, su coeficiente se reduce a:",
     "options": [
-      { "id": 1, "answer": "1,45.", "isCorrect": false, "explanation": "Es el valor reducido para apoyos metálicos." },
-      { "id": 2, "answer": "1,5.", "isCorrect": false, "explanation": "Es el valor genérico para metálicos." },
-      { "id": 3, "answer": "2.", "isCorrect": true, "explanation": "Mediante ensayos en verdadera magnitud, el coeficiente del hormigón puede reducirse a 2[cite: 1]." },
-      { "id": 4, "answer": "2,2.", "isCorrect": false, "explanation": "Valor no contemplado como reducción oficial." }
+      {
+        "id": 1,
+        "answer": "1,45.",
+        "isCorrect": false,
+        "explanation": "Es el valor reducido para apoyos metálicos."
+      },
+      {
+        "id": 2,
+        "answer": "1,5.",
+        "isCorrect": false,
+        "explanation": "Es el valor genérico para metálicos."
+      },
+      {
+        "id": 3,
+        "answer": "2.",
+        "isCorrect": true,
+        "explanation": "Mediante ensayos en verdadera magnitud, el coeficiente del hormigón puede reducirse a 2[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2,2.",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado como reducción oficial."
+      }
     ]
   },
   {
@@ -312,10 +872,30 @@
     "type": "simple",
     "question": "Los conductores aislados posados en fachada deben respetar una altura mínima de:",
     "options": [
-      { "id": 1, "answer": "2 metros.", "isCorrect": false, "explanation": "Altura insuficiente según normativa." },
-      { "id": 2, "answer": "2,5 metros.", "isCorrect": true, "explanation": "En general, debe respetarse una altura mínima al suelo de 2,5 metros[cite: 1]." },
-      { "id": 3, "answer": "4 metros.", "isCorrect": false, "explanation": "Esta altura aplica a conductores tensados o desnudos." },
-      { "id": 4, "answer": "6 metros.", "isCorrect": false, "explanation": "Altura requerida para el cruce de vías de circulación." }
+      {
+        "id": 1,
+        "answer": "2 metros.",
+        "isCorrect": false,
+        "explanation": "Altura insuficiente según normativa."
+      },
+      {
+        "id": 2,
+        "answer": "2,5 metros.",
+        "isCorrect": true,
+        "explanation": "En general, debe respetarse una altura mínima al suelo de 2,5 metros[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "4 metros.",
+        "isCorrect": false,
+        "explanation": "Esta altura aplica a conductores tensados o desnudos."
+      },
+      {
+        "id": 4,
+        "answer": "6 metros.",
+        "isCorrect": false,
+        "explanation": "Altura requerida para el cruce de vías de circulación."
+      }
     ]
   },
   {
@@ -323,10 +903,30 @@
     "type": "simple",
     "question": "Si un cable posado baja a menos de 2,5 m (ej. acometida), ¿qué exige la norma?",
     "options": [
-      { "id": 1, "answer": "Sustituirlo por cobre desnudo.", "isCorrect": false, "explanation": "El conductor desnudo está prohibido a esa altura accesible." },
-      { "id": 2, "answer": "Enterrarlo obligatoriamente.", "isCorrect": false, "explanation": "Puede instalarse en superficie si se protege adecuadamente." },
-      { "id": 3, "answer": "Protegerlo mediante elementos adecuados (tubos) según ITC-BT-11.", "isCorrect": true, "explanation": "Deberán protegerse mecánicamente conforme a lo indicado en la ITC-BT-11[cite: 1]." },
-      { "id": 4, "answer": "Colocar un cartel de peligro.", "isCorrect": false, "explanation": "La señalización no sustituye a la protección física obligatoria." }
+      {
+        "id": 1,
+        "answer": "Sustituirlo por cobre desnudo.",
+        "isCorrect": false,
+        "explanation": "El conductor desnudo está prohibido a esa altura accesible."
+      },
+      {
+        "id": 2,
+        "answer": "Enterrarlo obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "Puede instalarse en superficie si se protege adecuadamente."
+      },
+      {
+        "id": 3,
+        "answer": "Protegerlo mediante elementos adecuados (tubos) según ITC-BT-11.",
+        "isCorrect": true,
+        "explanation": "Deberán protegerse mecánicamente conforme a lo indicado en la ITC-BT-11[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Colocar un cartel de peligro.",
+        "isCorrect": false,
+        "explanation": "La señalización no sustituye a la protección física obligatoria."
+      }
     ]
   },
   {
@@ -334,10 +934,30 @@
     "type": "simple",
     "question": "Para un cable posado, ¿qué distancia mínima debe haber al borde superior de una ventana?",
     "options": [
-      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Corresponde a la separación entre cables agrupados." },
-      { "id": 2, "answer": "0,20 m.", "isCorrect": false, "explanation": "Corresponde a la distancia a la pared para cables desnudos." },
-      { "id": 3, "answer": "0,30 m.", "isCorrect": true, "explanation": "Se exigen 0,30 metros de distancia al borde superior de la abertura[cite: 1]." },
-      { "id": 4, "answer": "0,50 m.", "isCorrect": false, "explanation": "Distancia requerida para los laterales y fondo de la ventana." }
+      {
+        "id": 1,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la separación entre cables agrupados."
+      },
+      {
+        "id": 2,
+        "answer": "0,20 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la distancia a la pared para cables desnudos."
+      },
+      {
+        "id": 3,
+        "answer": "0,30 m.",
+        "isCorrect": true,
+        "explanation": "Se exigen 0,30 metros de distancia al borde superior de la abertura[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Distancia requerida para los laterales y fondo de la ventana."
+      }
     ]
   },
   {
@@ -345,10 +965,30 @@
     "type": "simple",
     "question": "La distancia mínima a bordes laterales e inferior de una ventana debe ser de:",
     "options": [
-      { "id": 1, "answer": "0,30 m.", "isCorrect": false, "explanation": "Aplica específicamente al borde superior." },
-      { "id": 2, "answer": "0,50 m.", "isCorrect": true, "explanation": "La distancia debe ser de 0,50 metros al borde inferior y bordes laterales[cite: 1]." },
-      { "id": 3, "answer": "1,00 m.", "isCorrect": false, "explanation": "Aplica a los laterales de balcones." },
-      { "id": 4, "answer": "1,50 m.", "isCorrect": false, "explanation": "Valor excesivo para una ventana estándar." }
+      {
+        "id": 1,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Aplica específicamente al borde superior."
+      },
+      {
+        "id": 2,
+        "answer": "0,50 m.",
+        "isCorrect": true,
+        "explanation": "La distancia debe ser de 0,50 metros al borde inferior y bordes laterales[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Aplica a los laterales de balcones."
+      },
+      {
+        "id": 4,
+        "answer": "1,50 m.",
+        "isCorrect": false,
+        "explanation": "Valor excesivo para una ventana estándar."
+      }
     ]
   },
   {
@@ -356,10 +996,30 @@
     "type": "simple",
     "question": "Si el cable posado discurre cerca de un balcón, la distancia lateral mínima será:",
     "options": [
-      { "id": 1, "answer": "0,30 m.", "isCorrect": false, "explanation": "Corresponde al borde superior de ventanas." },
-      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Corresponde a laterales de ventanas." },
-      { "id": 3, "answer": "1,00 m.", "isCorrect": true, "explanation": "Para balcones se exige una separación de 1,00 metro a los bordes laterales[cite: 1]." },
-      { "id": 4, "answer": "2,00 m.", "isCorrect": false, "explanation": "Distancia superior al requerimiento mínimo normativo." }
+      {
+        "id": 1,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde al borde superior de ventanas."
+      },
+      {
+        "id": 2,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a laterales de ventanas."
+      },
+      {
+        "id": 3,
+        "answer": "1,00 m.",
+        "isCorrect": true,
+        "explanation": "Para balcones se exige una separación de 1,00 metro a los bordes laterales[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2,00 m.",
+        "isCorrect": false,
+        "explanation": "Distancia superior al requerimiento mínimo normativo."
+      }
     ]
   },
   {
@@ -367,10 +1027,30 @@
     "type": "simple",
     "question": "¿A qué distancia mínima deben quedar los cables posados de elementos metálicos?",
     "options": [
-      { "id": 1, "answer": "0,05 m.", "isCorrect": true, "explanation": "Se respetará una distancia mínima de 0,05 metros a los elementos metálicos de fachada[cite: 1]." },
-      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "No es el mínimo requerido por la instrucción." },
-      { "id": 3, "answer": "0,20 m.", "isCorrect": false, "explanation": "Corresponde a la separación de la pared para cables desnudos." },
-      { "id": 4, "answer": "0,50 m.", "isCorrect": false, "explanation": "Distancia aplicada a los perímetros de ventanas." }
+      {
+        "id": 1,
+        "answer": "0,05 m.",
+        "isCorrect": true,
+        "explanation": "Se respetará una distancia mínima de 0,05 metros a los elementos metálicos de fachada[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "No es el mínimo requerido por la instrucción."
+      },
+      {
+        "id": 3,
+        "answer": "0,20 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la separación de la pared para cables desnudos."
+      },
+      {
+        "id": 4,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Distancia aplicada a los perímetros de ventanas."
+      }
     ]
   },
   {
@@ -378,10 +1058,30 @@
     "type": "simple",
     "question": "Si un cable tensado no posee neutro fiador, ¿qué se debe utilizar?",
     "options": [
-      { "id": 1, "answer": "Abrazaderas de plástico.", "isCorrect": false, "explanation": "No soportan mecánicamente la tensión de un vano." },
-      { "id": 2, "answer": "Cable fiador de acero galvanizado (rotura mín. 800 daN).", "isCorrect": true, "explanation": "Se utilizarán fiadores de acero galvanizado con resistencia mínima de 800 daN[cite: 1]." },
-      { "id": 3, "answer": "Tirantes de madera.", "isCorrect": false, "explanation": "Material no apto para la función de fiador mecánico." },
-      { "id": 4, "answer": "No se permite tensar cables sin neutro fiador.", "isCorrect": false, "explanation": "Se permite siempre que se añada un fiador de acero externo." }
+      {
+        "id": 1,
+        "answer": "Abrazaderas de plástico.",
+        "isCorrect": false,
+        "explanation": "No soportan mecánicamente la tensión de un vano."
+      },
+      {
+        "id": 2,
+        "answer": "Cable fiador de acero galvanizado (rotura mín. 800 daN).",
+        "isCorrect": true,
+        "explanation": "Se utilizarán fiadores de acero galvanizado con resistencia mínima de 800 daN[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Tirantes de madera.",
+        "isCorrect": false,
+        "explanation": "Material no apto para la función de fiador mecánico."
+      },
+      {
+        "id": 4,
+        "answer": "No se permite tensar cables sin neutro fiador.",
+        "isCorrect": false,
+        "explanation": "Se permite siempre que se añada un fiador de acero externo."
+      }
     ]
   },
   {
@@ -389,10 +1089,30 @@
     "type": "simple",
     "question": "Para los cables tensados (aislados), la distancia general mínima al suelo es de:",
     "options": [
-      { "id": 1, "answer": "2,5 m.", "isCorrect": false, "explanation": "Altura para cables posados en pared." },
-      { "id": 2, "answer": "4 m.", "isCorrect": true, "explanation": "La distancia general al suelo para cables tensados es de 4 metros[cite: 1]." },
-      { "id": 3, "answer": "5 m.", "isCorrect": false, "explanation": "Aplica a carreteras sin tráfico rodado." },
-      { "id": 4, "answer": "6 m.", "isCorrect": false, "explanation": "Aplica a vías de circulación rodada." }
+      {
+        "id": 1,
+        "answer": "2,5 m.",
+        "isCorrect": false,
+        "explanation": "Altura para cables posados en pared."
+      },
+      {
+        "id": 2,
+        "answer": "4 m.",
+        "isCorrect": true,
+        "explanation": "La distancia general al suelo para cables tensados es de 4 metros[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "5 m.",
+        "isCorrect": false,
+        "explanation": "Aplica a carreteras sin tráfico rodado."
+      },
+      {
+        "id": 4,
+        "answer": "6 m.",
+        "isCorrect": false,
+        "explanation": "Aplica a vías de circulación rodada."
+      }
     ]
   },
   {
@@ -400,10 +1120,30 @@
     "type": "simple",
     "question": "En conductores desnudos, ¿cómo se debe fijar en los ángulos de la línea?",
     "options": [
-      { "id": 1, "answer": "Que el esfuerzo tire hacia fuera del aislador.", "isCorrect": false, "explanation": "Esta disposición facilitaría el desprendimiento del cable." },
-      { "id": 2, "answer": "Rodeando el aislador tres veces.", "isCorrect": false, "explanation": "Método de fijación no indicado en la norma." },
-      { "id": 3, "answer": "Que el esfuerzo mecánico esté dirigido hacia el aislador.", "isCorrect": true, "explanation": "La fijación debe hacerse de manera que el esfuerzo mecánico apriete contra el aislador[cite: 1]." },
-      { "id": 4, "answer": "Mediante un nudo directo.", "isCorrect": false, "explanation": "Las ataduras deben seguir técnicas específicas, no simples nudos." }
+      {
+        "id": 1,
+        "answer": "Que el esfuerzo tire hacia fuera del aislador.",
+        "isCorrect": false,
+        "explanation": "Esta disposición facilitaría el desprendimiento del cable."
+      },
+      {
+        "id": 2,
+        "answer": "Rodeando el aislador tres veces.",
+        "isCorrect": false,
+        "explanation": "Método de fijación no indicado en la norma."
+      },
+      {
+        "id": 3,
+        "answer": "Que el esfuerzo mecánico esté dirigido hacia el aislador.",
+        "isCorrect": true,
+        "explanation": "La fijación debe hacerse de manera que el esfuerzo mecánico apriete contra el aislador[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Mediante un nudo directo.",
+        "isCorrect": false,
+        "explanation": "Las ataduras deben seguir técnicas específicas, no simples nudos."
+      }
     ]
   },
   {
@@ -411,10 +1151,30 @@
     "type": "simple",
     "question": "Si una red desnuda pasa sobre una edificación, ¿cómo varía su cálculo?",
     "options": [
-      { "id": 1, "answer": "Debe usarse obligatoriamente cobre.", "isCorrect": false, "explanation": "Sigue permitiéndose el uso de aluminio." },
-      { "id": 2, "answer": "El coeficiente de seguridad de tracción se aumenta un 25%.", "isCorrect": true, "explanation": "El coeficiente de seguridad deberá ser superior en un 25% a los valores estándar[cite: 1]." },
-      { "id": 3, "answer": "Se disminuye el coeficiente a la mitad.", "isCorrect": false, "explanation": "Debilitar la línea sobre un edificio aumentaría el riesgo." },
-      { "id": 4, "answer": "No sufre modificación.", "isCorrect": false, "explanation": "Exige un recalculo mecánico reforzado por seguridad." }
+      {
+        "id": 1,
+        "answer": "Debe usarse obligatoriamente cobre.",
+        "isCorrect": false,
+        "explanation": "Sigue permitiéndose el uso de aluminio."
+      },
+      {
+        "id": 2,
+        "answer": "El coeficiente de seguridad de tracción se aumenta un 25%.",
+        "isCorrect": true,
+        "explanation": "El coeficiente de seguridad deberá ser superior en un 25% a los valores estándar[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Se disminuye el coeficiente a la mitad.",
+        "isCorrect": false,
+        "explanation": "Debilitar la línea sobre un edificio aumentaría el riesgo."
+      },
+      {
+        "id": 4,
+        "answer": "No sufre modificación.",
+        "isCorrect": false,
+        "explanation": "Exige un recalculo mecánico reforzado por seguridad."
+      }
     ]
   },
   {
@@ -422,10 +1182,30 @@
     "type": "simple",
     "question": "La distancia general mínima de los conductores desnudos al suelo será de:",
     "options": [
-      { "id": 1, "answer": "2,5 m.", "isCorrect": false, "explanation": "Altura para cables aislados posados." },
-      { "id": 2, "answer": "3 m.", "isCorrect": false, "explanation": "Corresponde a la distancia sobre terrazas transitables." },
-      { "id": 3, "answer": "4 m.", "isCorrect": true, "explanation": "La regla general de altura al suelo para conductores desnudos es de 4 metros[cite: 1]." },
-      { "id": 4, "answer": "6 m.", "isCorrect": false, "explanation": "Requisito específico para el cruce de carreteras." }
+      {
+        "id": 1,
+        "answer": "2,5 m.",
+        "isCorrect": false,
+        "explanation": "Altura para cables aislados posados."
+      },
+      {
+        "id": 2,
+        "answer": "3 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la distancia sobre terrazas transitables."
+      },
+      {
+        "id": 3,
+        "answer": "4 m.",
+        "isCorrect": true,
+        "explanation": "La regla general de altura al suelo para conductores desnudos es de 4 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "6 m.",
+        "isCorrect": false,
+        "explanation": "Requisito específico para el cruce de carreteras."
+      }
     ]
   },
   {
@@ -433,10 +1213,30 @@
     "type": "simple",
     "question": "Si el desnudo está a tierra, la distancia vertical al tejado plano será de:",
     "options": [
-      { "id": 1, "answer": "1,00 m.", "isCorrect": false, "explanation": "Aplica si el tejado tiene inclinación superior a 45°." },
-      { "id": 2, "answer": "1,50 m.", "isCorrect": true, "explanation": "La distancia vertical es de 1,50 metros cuando los conductores están puestos a tierra[cite: 1]." },
-      { "id": 3, "answer": "1,80 m.", "isCorrect": false, "explanation": "Distancia para conductores no puestos a tierra." },
-      { "id": 4, "answer": "3,00 m.", "isCorrect": false, "explanation": "Distancia requerida para terrazas transitables." }
+      {
+        "id": 1,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Aplica si el tejado tiene inclinación superior a 45°."
+      },
+      {
+        "id": 2,
+        "answer": "1,50 m.",
+        "isCorrect": true,
+        "explanation": "La distancia vertical es de 1,50 metros cuando los conductores están puestos a tierra[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "1,80 m.",
+        "isCorrect": false,
+        "explanation": "Distancia para conductores no puestos a tierra."
+      },
+      {
+        "id": 4,
+        "answer": "3,00 m.",
+        "isCorrect": false,
+        "explanation": "Distancia requerida para terrazas transitables."
+      }
     ]
   },
   {
@@ -444,10 +1244,30 @@
     "type": "simple",
     "question": "Si el conductor desnudo NO está puesto a tierra, la distancia vertical al tejado es:",
     "options": [
-      { "id": 1, "answer": "1,50 m.", "isCorrect": false, "explanation": "Aplica cuando el conductor está puesto a tierra." },
-      { "id": 2, "answer": "1,80 m.", "isCorrect": true, "explanation": "La zona de protección vertical es de 1,80 metros para conductores no puestos a tierra[cite: 1]." },
-      { "id": 3, "answer": "2,00 m.", "isCorrect": false, "explanation": "Valor no normado para esta situación." },
-      { "id": 4, "answer": "3,00 m.", "isCorrect": false, "explanation": "Corresponde a la altura sobre terrazas." }
+      {
+        "id": 1,
+        "answer": "1,50 m.",
+        "isCorrect": false,
+        "explanation": "Aplica cuando el conductor está puesto a tierra."
+      },
+      {
+        "id": 2,
+        "answer": "1,80 m.",
+        "isCorrect": true,
+        "explanation": "La zona de protección vertical es de 1,80 metros para conductores no puestos a tierra[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "2,00 m.",
+        "isCorrect": false,
+        "explanation": "Valor no normado para esta situación."
+      },
+      {
+        "id": 4,
+        "answer": "3,00 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la altura sobre terrazas."
+      }
     ]
   },
   {
@@ -455,10 +1275,30 @@
     "type": "simple",
     "question": "¿A cuánto se reduce la protección sobre tejado si la inclinación es > 45°?",
     "options": [
-      { "id": 1, "answer": "0,5 m.", "isCorrect": false, "explanation": "Valor demasiado reducido para la seguridad." },
-      { "id": 2, "answer": "1 metro.", "isCorrect": true, "explanation": "Con inclinación > 45°, el plano limitante de protección se considera a 1 metro[cite: 1]." },
-      { "id": 3, "answer": "1,5 metros.", "isCorrect": false, "explanation": "Es la distancia para tejados planos con cables a tierra." },
-      { "id": 4, "answer": "1,8 metros.", "isCorrect": false, "explanation": "Es la distancia para tejados planos sin cables a tierra." }
+      {
+        "id": 1,
+        "answer": "0,5 m.",
+        "isCorrect": false,
+        "explanation": "Valor demasiado reducido para la seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "1 metro.",
+        "isCorrect": true,
+        "explanation": "Con inclinación > 45°, el plano limitante de protección se considera a 1 metro[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "1,5 metros.",
+        "isCorrect": false,
+        "explanation": "Es la distancia para tejados planos con cables a tierra."
+      },
+      {
+        "id": 4,
+        "answer": "1,8 metros.",
+        "isCorrect": false,
+        "explanation": "Es la distancia para tejados planos sin cables a tierra."
+      }
     ]
   },
   {
@@ -466,10 +1306,30 @@
     "type": "simple",
     "question": "Para desnudos sobre terrazas o balcones, el plano paralelo al suelo está a:",
     "options": [
-      { "id": 1, "answer": "1,80 m.", "isCorrect": false, "explanation": "Corresponde a tejados inclinados." },
-      { "id": 2, "answer": "2,00 m.", "isCorrect": false, "explanation": "Valor aproximado pero inexacto normativamente." },
-      { "id": 3, "answer": "2,50 m.", "isCorrect": false, "explanation": "Altura para cables posados." },
-      { "id": 4, "answer": "3 metros.", "isCorrect": true, "explanation": "Sobre terrazas y balcones se establece una distancia de seguridad de 3 metros[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "1,80 m.",
+        "isCorrect": false,
+        "explanation": "Corresponde a tejados inclinados."
+      },
+      {
+        "id": 2,
+        "answer": "2,00 m.",
+        "isCorrect": false,
+        "explanation": "Valor aproximado pero inexacto normativamente."
+      },
+      {
+        "id": 3,
+        "answer": "2,50 m.",
+        "isCorrect": false,
+        "explanation": "Altura para cables posados."
+      },
+      {
+        "id": 4,
+        "answer": "3 metros.",
+        "isCorrect": true,
+        "explanation": "Sobre terrazas y balcones se establece una distancia de seguridad de 3 metros[cite: 1]."
+      }
     ]
   },
   {
@@ -477,10 +1337,30 @@
     "type": "simple",
     "question": "¿Qué separación mínima debe mantener un desnudo paralelo a un muro ciego?",
     "options": [
-      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Separación a elementos metálicos para cables posados aislados." },
-      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "Separación mínima entre cables para vanos muy cortos." },
-      { "id": 3, "answer": "0,20 m.", "isCorrect": true, "explanation": "La zona de protección se limita por un plano situado a 0,20 metros del muro ciego[cite: 1]." },
-      { "id": 4, "answer": "1,00 m.", "isCorrect": false, "explanation": "Distancia horizontal requerida para ventanas y balcones." }
+      {
+        "id": 1,
+        "answer": "0,05 m.",
+        "isCorrect": false,
+        "explanation": "Separación a elementos metálicos para cables posados aislados."
+      },
+      {
+        "id": 2,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Separación mínima entre cables para vanos muy cortos."
+      },
+      {
+        "id": 3,
+        "answer": "0,20 m.",
+        "isCorrect": true,
+        "explanation": "La zona de protección se limita por un plano situado a 0,20 metros del muro ciego[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Distancia horizontal requerida para ventanas y balcones."
+      }
     ]
   },
   {
@@ -488,10 +1368,30 @@
     "type": "simple",
     "question": "Para desnudos en fachadas, la distancia horizontal a ventanas debe ser:",
     "options": [
-      { "id": 1, "answer": "0,20 m.", "isCorrect": false, "explanation": "Distancia mínima al muro sin aberturas." },
-      { "id": 2, "answer": "0,30 m.", "isCorrect": false, "explanation": "Distancia vertical superior requerida." },
-      { "id": 3, "answer": "0,50 m.", "isCorrect": false, "explanation": "Distancia para cables aislados posados." },
-      { "id": 4, "answer": "1 metro.", "isCorrect": true, "explanation": "Se establece un plano de protección a una distancia de 1 metro horizontal de las ventanas[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "0,20 m.",
+        "isCorrect": false,
+        "explanation": "Distancia mínima al muro sin aberturas."
+      },
+      {
+        "id": 2,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Distancia vertical superior requerida."
+      },
+      {
+        "id": 3,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Distancia para cables aislados posados."
+      },
+      {
+        "id": 4,
+        "answer": "1 metro.",
+        "isCorrect": true,
+        "explanation": "Se establece un plano de protección a una distancia de 1 metro horizontal de las ventanas[cite: 1]."
+      }
     ]
   },
   {
@@ -499,10 +1399,30 @@
     "type": "simple",
     "question": "¿Cuál es la protección horizontal bajo los antepechos para conductores desnudos?",
     "options": [
-      { "id": 1, "answer": "0,30 m.", "isCorrect": false, "explanation": "Distancia por encima de la abertura." },
-      { "id": 2, "answer": "1,00 m.", "isCorrect": false, "explanation": "Distancia lateral a la abertura." },
-      { "id": 3, "answer": "2,00 m.", "isCorrect": false, "explanation": "Valor no contemplado en esta regla." },
-      { "id": 4, "answer": "3 metros.", "isCorrect": true, "explanation": "Se define un plano horizontal situado a 3 metros por debajo de los antepechos[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Distancia por encima de la abertura."
+      },
+      {
+        "id": 2,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Distancia lateral a la abertura."
+      },
+      {
+        "id": 3,
+        "answer": "2,00 m.",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en esta regla."
+      },
+      {
+        "id": 4,
+        "answer": "3 metros.",
+        "isCorrect": true,
+        "explanation": "Se define un plano horizontal situado a 3 metros por debajo de los antepechos[cite: 1]."
+      }
     ]
   },
   {
@@ -510,10 +1430,30 @@
     "type": "simple",
     "question": "En vanos de entre 6 y 30 metros, la separación mínima (D) entre desnudos es:",
     "options": [
-      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Para vanos de hasta 4 m." },
-      { "id": 2, "answer": "0,15 m.", "isCorrect": false, "explanation": "Para vanos de entre 4 y 6 m." },
-      { "id": 3, "answer": "0,20 m.", "isCorrect": true, "explanation": "En vanos de 6 a 30 metros la separación mínima es de 0,20 metros[cite: 1]." },
-      { "id": 4, "answer": "0,30 m.", "isCorrect": false, "explanation": "Para vanos superiores de 30 a 50 m." }
+      {
+        "id": 1,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Para vanos de hasta 4 m."
+      },
+      {
+        "id": 2,
+        "answer": "0,15 m.",
+        "isCorrect": false,
+        "explanation": "Para vanos de entre 4 y 6 m."
+      },
+      {
+        "id": 3,
+        "answer": "0,20 m.",
+        "isCorrect": true,
+        "explanation": "En vanos de 6 a 30 metros la separación mínima es de 0,20 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Para vanos superiores de 30 a 50 m."
+      }
     ]
   },
   {
@@ -521,10 +1461,30 @@
     "type": "simple",
     "question": "¿Qué fórmula rige la separación mínima de desnudos para vanos > 50 metros?",
     "options": [
-      { "id": 1, "answer": "D = 0,15 + F.", "isCorrect": false, "explanation": "Fórmula no existente en el reglamento." },
-      { "id": 2, "answer": "D = 0,55 √F.", "isCorrect": true, "explanation": "Para vanos mayores de 50 m se aplicará la fórmula D=0,55√F[cite: 1]." },
-      { "id": 3, "answer": "D = 0,70 √F.", "isCorrect": false, "explanation": "El coeficiente es incorrecto." },
-      { "id": 4, "answer": "D = F / 2.", "isCorrect": false, "explanation": "Relación no válida normativamente." }
+      {
+        "id": 1,
+        "answer": "D = 0,15 + F.",
+        "isCorrect": false,
+        "explanation": "Fórmula no existente en el reglamento."
+      },
+      {
+        "id": 2,
+        "answer": "D = 0,55 √F.",
+        "isCorrect": true,
+        "explanation": "Para vanos mayores de 50 m se aplicará la fórmula D=0,55√F[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "D = 0,70 √F.",
+        "isCorrect": false,
+        "explanation": "El coeficiente es incorrecto."
+      },
+      {
+        "id": 4,
+        "answer": "D = F / 2.",
+        "isCorrect": false,
+        "explanation": "Relación no válida normativamente."
+      }
     ]
   },
   {
@@ -532,10 +1492,30 @@
     "type": "simple",
     "question": "Al derivar en un apoyo, la distancia entre desnudos puede reducirse hasta:",
     "options": [
-      { "id": 1, "answer": "Un 25% de tabla (mín. 0,05 m).", "isCorrect": false, "explanation": "Valores inferiores a los permitidos." },
-      { "id": 2, "answer": "Un 50% de tabla (mín. 0,10 m).", "isCorrect": true, "explanation": "Puede disminuirse hasta un 50% de los valores indicados con un mínimo de 0,10 m[cite: 1]." },
-      { "id": 3, "answer": "No se puede disminuir.", "isCorrect": false, "explanation": "La norma permite expresamente la reducción en puntos de derivación." },
-      { "id": 4, "answer": "Un 75% si van aislados.", "isCorrect": false, "explanation": "La regla para conductores aislados es distinta." }
+      {
+        "id": 1,
+        "answer": "Un 25% de tabla (mín. 0,05 m).",
+        "isCorrect": false,
+        "explanation": "Valores inferiores a los permitidos."
+      },
+      {
+        "id": 2,
+        "answer": "Un 50% de tabla (mín. 0,10 m).",
+        "isCorrect": true,
+        "explanation": "Puede disminuirse hasta un 50% de los valores indicados con un mínimo de 0,10 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "No se puede disminuir.",
+        "isCorrect": false,
+        "explanation": "La norma permite expresamente la reducción en puntos de derivación."
+      },
+      {
+        "id": 4,
+        "answer": "Un 75% si van aislados.",
+        "isCorrect": false,
+        "explanation": "La regla para conductores aislados es distinta."
+      }
     ]
   },
   {
@@ -543,10 +1523,30 @@
     "type": "simple",
     "question": "Un empalme de conductores debe asegurar una resistencia mecánica del:",
     "options": [
-      { "id": 1, "answer": "50% de la rotura.", "isCorrect": false, "explanation": "Resistencia insuficiente para la seguridad de la red." },
-      { "id": 2, "answer": "75% de la rotura.", "isCorrect": false, "explanation": "Valor por debajo del requerimiento normativo." },
-      { "id": 3, "answer": "90% de la rotura.", "isCorrect": true, "explanation": "Los empalmes deberán soportar el 90% de la carga de rotura del conductor[cite: 1]." },
-      { "id": 4, "answer": "100% de la rotura.", "isCorrect": false, "explanation": "La norma permite una leve tolerancia hasta el 90%." }
+      {
+        "id": 1,
+        "answer": "50% de la rotura.",
+        "isCorrect": false,
+        "explanation": "Resistencia insuficiente para la seguridad de la red."
+      },
+      {
+        "id": 2,
+        "answer": "75% de la rotura.",
+        "isCorrect": false,
+        "explanation": "Valor por debajo del requerimiento normativo."
+      },
+      {
+        "id": 3,
+        "answer": "90% de la rotura.",
+        "isCorrect": true,
+        "explanation": "Los empalmes deberán soportar el 90% de la carga de rotura del conductor[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "100% de la rotura.",
+        "isCorrect": false,
+        "explanation": "La norma permite una leve tolerancia hasta el 90%."
+      }
     ]
   },
   {
@@ -554,10 +1554,30 @@
     "type": "simple",
     "question": "Sobre los empalmes en la red aérea, la norma prohíbe expresamente:",
     "options": [
-      { "id": 1, "answer": "El uso de prensas hidráulicas.", "isCorrect": false, "explanation": "Las prensas son herramientas estándar para conectores homologados." },
-      { "id": 2, "answer": "Empalmar en el centro del vano.", "isCorrect": false, "explanation": "Se permite si se usan manguitos de tracción adecuados." },
-      { "id": 3, "answer": "Realizar empalmes por soldadura o torsión directa.", "isCorrect": true, "explanation": "No es admisible realizar empalmes por soldadura o por torsión directa de los conductores[cite: 1]." },
-      { "id": 4, "answer": "Hacer derivaciones cerca de los aisladores.", "isCorrect": false, "explanation": "Es el lugar preferente para realizarlas." }
+      {
+        "id": 1,
+        "answer": "El uso de prensas hidráulicas.",
+        "isCorrect": false,
+        "explanation": "Las prensas son herramientas estándar para conectores homologados."
+      },
+      {
+        "id": 2,
+        "answer": "Empalmar en el centro del vano.",
+        "isCorrect": false,
+        "explanation": "Se permite si se usan manguitos de tracción adecuados."
+      },
+      {
+        "id": 3,
+        "answer": "Realizar empalmes por soldadura o torsión directa.",
+        "isCorrect": true,
+        "explanation": "No es admisible realizar empalmes por soldadura o por torsión directa de los conductores[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Hacer derivaciones cerca de los aisladores.",
+        "isCorrect": false,
+        "explanation": "Es el lugar preferente para realizarlas."
+      }
     ]
   },
   {
@@ -565,10 +1585,30 @@
     "type": "simple",
     "question": "En distribución con dos conductores, la sección del neutro debe ser:",
     "options": [
-      { "id": 1, "answer": "La mitad de la fase.", "isCorrect": false, "explanation": "No se permite reducción en sistemas bifilares." },
-      { "id": 2, "answer": "Igual a la de los conductores de fase.", "isCorrect": true, "explanation": "Con dos o tres conductores, la sección del neutro será igual a la de las fases[cite: 1]." },
-      { "id": 3, "answer": "Siempre 16 mm².", "isCorrect": false, "explanation": "La sección es dependiente del conductor de fase." },
-      { "id": 4, "answer": "Una tercera parte de la fase.", "isCorrect": false, "explanation": "Reducción inexistente en la normativa." }
+      {
+        "id": 1,
+        "answer": "La mitad de la fase.",
+        "isCorrect": false,
+        "explanation": "No se permite reducción en sistemas bifilares."
+      },
+      {
+        "id": 2,
+        "answer": "Igual a la de los conductores de fase.",
+        "isCorrect": true,
+        "explanation": "Con dos o tres conductores, la sección del neutro será igual a la de las fases[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Siempre 16 mm².",
+        "isCorrect": false,
+        "explanation": "La sección es dependiente del conductor de fase."
+      },
+      {
+        "id": 4,
+        "answer": "Una tercera parte de la fase.",
+        "isCorrect": false,
+        "explanation": "Reducción inexistente en la normativa."
+      }
     ]
   },
   {
@@ -576,10 +1616,30 @@
     "type": "simple",
     "question": "¿Cuál es la sección mínima del neutro de aluminio en red de 4 hilos?",
     "options": [
-      { "id": 1, "answer": "10 mm².", "isCorrect": false, "explanation": "Es el mínimo general para conductores de cobre." },
-      { "id": 2, "answer": "16 mm².", "isCorrect": true, "explanation": "La norma pide un mínimo de 16 mm² para conductores de aluminio[cite: 1]." },
-      { "id": 3, "answer": "25 mm².", "isCorrect": false, "explanation": "Supera el requerimiento mínimo legal." },
-      { "id": 4, "answer": "50 mm².", "isCorrect": false, "explanation": "Valor muy superior al mínimo exigido." }
+      {
+        "id": 1,
+        "answer": "10 mm².",
+        "isCorrect": false,
+        "explanation": "Es el mínimo general para conductores de cobre."
+      },
+      {
+        "id": 2,
+        "answer": "16 mm².",
+        "isCorrect": true,
+        "explanation": "La norma pide un mínimo de 16 mm² para conductores de aluminio[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "25 mm².",
+        "isCorrect": false,
+        "explanation": "Supera el requerimiento mínimo legal."
+      },
+      {
+        "id": 4,
+        "answer": "50 mm².",
+        "isCorrect": false,
+        "explanation": "Valor muy superior al mínimo exigido."
+      }
     ]
   },
   {
@@ -587,10 +1647,30 @@
     "type": "simple",
     "question": "¿Cómo se identifica el conductor neutro en las líneas de distribución aérea?",
     "options": [
-      { "id": 1, "answer": "Pintándolo de rojo.", "isCorrect": false, "explanation": "El rojo no es el color normalizado para el neutro." },
-      { "id": 2, "answer": "Mediante sistema adecuado, salvo desnudos con distinta sección o posición.", "isCorrect": true, "explanation": "Se admite no identificar desnudos si se diferencian claramente por sección o posición[cite: 1]." },
-      { "id": 3, "answer": "Con cinta verde/amarilla.", "isCorrect": false, "explanation": "Este color se reserva exclusivamente para conductores de protección." },
-      { "id": 4, "answer": "Sólo en principio y fin de línea.", "isCorrect": false, "explanation": "La identificación debe ser sistemática en toda la red." }
+      {
+        "id": 1,
+        "answer": "Pintándolo de rojo.",
+        "isCorrect": false,
+        "explanation": "El rojo no es el color normalizado para el neutro."
+      },
+      {
+        "id": 2,
+        "answer": "Mediante sistema adecuado, salvo desnudos con distinta sección o posición.",
+        "isCorrect": true,
+        "explanation": "Se admite no identificar desnudos si se diferencian claramente por sección o posición[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Con cinta verde/amarilla.",
+        "isCorrect": false,
+        "explanation": "Este color se reserva exclusivamente para conductores de protección."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo en principio y fin de línea.",
+        "isCorrect": false,
+        "explanation": "La identificación debe ser sistemática en toda la red."
+      }
     ]
   },
   {
@@ -598,10 +1678,30 @@
     "type": "simple",
     "question": "Para interrumpir el neutro en la red, el dispositivo de corte debe:",
     "options": [
-      { "id": 1, "answer": "Cortar el neutro antes que las fases.", "isCorrect": false, "explanation": "Esto podría causar sobretensiones peligrosas en las cargas." },
-      { "id": 2, "answer": "Actuar simultáneamente o conectar neutro antes y desconectar después.", "isCorrect": true, "explanation": "Deben actuar a la vez o asegurar que el neutro es el primero en entrar y último en salir[cite: 1]." },
-      { "id": 3, "answer": "Ser un fusible de cartucho.", "isCorrect": false, "explanation": "El neutro no se protege con fusibles de corte individual." },
-      { "id": 4, "answer": "Estar soldado.", "isCorrect": false, "explanation": "Debe ser un elemento que permita la maniobra de desconexión." }
+      {
+        "id": 1,
+        "answer": "Cortar el neutro antes que las fases.",
+        "isCorrect": false,
+        "explanation": "Esto podría causar sobretensiones peligrosas en las cargas."
+      },
+      {
+        "id": 2,
+        "answer": "Actuar simultáneamente o conectar neutro antes y desconectar después.",
+        "isCorrect": true,
+        "explanation": "Deben actuar a la vez o asegurar que el neutro es el primero en entrar y último en salir[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Ser un fusible de cartucho.",
+        "isCorrect": false,
+        "explanation": "El neutro no se protege con fusibles de corte individual."
+      },
+      {
+        "id": 4,
+        "answer": "Estar soldado.",
+        "isCorrect": false,
+        "explanation": "Debe ser un elemento que permita la maniobra de desconexión."
+      }
     ]
   },
   {
@@ -609,10 +1709,30 @@
     "type": "simple",
     "question": "En sistemas TT o TN, ¿cada cuánto debe ponerse el neutro a tierra?",
     "options": [
-      { "id": 1, "answer": "En cada apoyo.", "isCorrect": false, "explanation": "No es un requerimiento obligatorio en todos los soportes." },
-      { "id": 2, "answer": "Cada 100 metros.", "isCorrect": false, "explanation": "Periodicidad superior a la exigida por norma." },
-      { "id": 3, "answer": "Como mínimo una vez cada 500 metros.", "isCorrect": true, "explanation": "El neutro deberá estar puesto a tierra como mínimo una vez cada 500 metros[cite: 1]." },
-      { "id": 4, "answer": "Sólo en el centro de transformación.", "isCorrect": false, "explanation": "Se exigen puestas a tierra adicionales a lo largo de la línea." }
+      {
+        "id": 1,
+        "answer": "En cada apoyo.",
+        "isCorrect": false,
+        "explanation": "No es un requerimiento obligatorio en todos los soportes."
+      },
+      {
+        "id": 2,
+        "answer": "Cada 100 metros.",
+        "isCorrect": false,
+        "explanation": "Periodicidad superior a la exigida por norma."
+      },
+      {
+        "id": 3,
+        "answer": "Como mínimo una vez cada 500 metros.",
+        "isCorrect": true,
+        "explanation": "El neutro deberá estar puesto a tierra como mínimo una vez cada 500 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo en el centro de transformación.",
+        "isCorrect": false,
+        "explanation": "Se exigen puestas a tierra adicionales a lo largo de la línea."
+      }
     ]
   },
   {
@@ -620,10 +1740,30 @@
     "type": "simple",
     "question": "Si la tierra del neutro se hace en un apoyo de madera, ¿qué se exige?",
     "options": [
-      { "id": 1, "answer": "Envolver el poste en malla de cobre.", "isCorrect": false, "explanation": "Requisito no contemplado en el reglamento." },
-      { "id": 2, "answer": "Unir los soportes metálicos de los aisladores de fase al neutro.", "isCorrect": true, "explanation": "En este caso, los soportes metálicos de los aisladores de fase se unirán al neutro[cite: 1]." },
-      { "id": 3, "answer": "Se prohíbe en postes de madera.", "isCorrect": false, "explanation": "La norma permite y regula el procedimiento." },
-      { "id": 4, "answer": "Se requiere doble pica de tierra.", "isCorrect": false, "explanation": "La configuración de la toma depende de la resistencia, no del material del poste." }
+      {
+        "id": 1,
+        "answer": "Envolver el poste en malla de cobre.",
+        "isCorrect": false,
+        "explanation": "Requisito no contemplado en el reglamento."
+      },
+      {
+        "id": 2,
+        "answer": "Unir los soportes metálicos de los aisladores de fase al neutro.",
+        "isCorrect": true,
+        "explanation": "En este caso, los soportes metálicos de los aisladores de fase se unirán al neutro[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Se prohíbe en postes de madera.",
+        "isCorrect": false,
+        "explanation": "La norma permite y regula el procedimiento."
+      },
+      {
+        "id": 4,
+        "answer": "Se requiere doble pica de tierra.",
+        "isCorrect": false,
+        "explanation": "La configuración de la toma depende de la resistencia, no del material del poste."
+      }
     ]
   },
   {
@@ -631,10 +1771,30 @@
     "type": "simple",
     "question": "La instalación de postes de madera en el terreno requiere:",
     "options": [
-      { "id": 1, "answer": "Empotrarse en macizos de hormigón.", "isCorrect": false, "explanation": "El hormigón acelera la pudrición de la madera al retener humedad." },
-      { "id": 2, "answer": "Retacados en el suelo o sobre bases metálicas separándolo 0,15 m.", "isCorrect": true, "explanation": "Se colocarán retacados directamente en el suelo, separados de este 0,15 m[cite: 1]." },
-      { "id": 3, "answer": "Clavarse a menos de 1 metro.", "isCorrect": false, "explanation": "Profundidad insuficiente para la estabilidad mecánica." },
-      { "id": 4, "answer": "No usarse en redes definitivas.", "isCorrect": false, "explanation": "Son materiales perfectamente válidos y reglamentarios." }
+      {
+        "id": 1,
+        "answer": "Empotrarse en macizos de hormigón.",
+        "isCorrect": false,
+        "explanation": "El hormigón acelera la pudrición de la madera al retener humedad."
+      },
+      {
+        "id": 2,
+        "answer": "Retacados en el suelo o sobre bases metálicas separándolo 0,15 m.",
+        "isCorrect": true,
+        "explanation": "Se colocarán retacados directamente en el suelo, separados de este 0,15 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Clavarse a menos de 1 metro.",
+        "isCorrect": false,
+        "explanation": "Profundidad insuficiente para la estabilidad mecánica."
+      },
+      {
+        "id": 4,
+        "answer": "No usarse en redes definitivas.",
+        "isCorrect": false,
+        "explanation": "Son materiales perfectamente válidos y reglamentarios."
+      }
     ]
   },
   {
@@ -642,10 +1802,30 @@
     "type": "simple",
     "question": "En un cruzamiento de BT bajo AT, ¿qué disposición se adopta?",
     "options": [
-      { "id": 1, "answer": "La BT cruzará por encima de la AT.", "isCorrect": false, "explanation": "Riesgo extremo si la BT cayera sobre la alta tensión." },
-      { "id": 2, "answer": "La BT deberá cruzar por debajo de la AT.", "isCorrect": true, "explanation": "Como norma general, la línea de baja tensión cruzará por debajo de la de alta tensión[cite: 1]." },
-      { "id": 3, "answer": "Compartir un apoyo común.", "isCorrect": false, "explanation": "Deben mantener distancias de seguridad vertical." },
-      { "id": 4, "answer": "Soterramiento obligatorio.", "isCorrect": false, "explanation": "El cruce aéreo es posible cumpliendo las medidas de seguridad." }
+      {
+        "id": 1,
+        "answer": "La BT cruzará por encima de la AT.",
+        "isCorrect": false,
+        "explanation": "Riesgo extremo si la BT cayera sobre la alta tensión."
+      },
+      {
+        "id": 2,
+        "answer": "La BT deberá cruzar por debajo de la AT.",
+        "isCorrect": true,
+        "explanation": "Como norma general, la línea de baja tensión cruzará por debajo de la de alta tensión[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Compartir un apoyo común.",
+        "isCorrect": false,
+        "explanation": "Deben mantener distancias de seguridad vertical."
+      },
+      {
+        "id": 4,
+        "answer": "Soterramiento obligatorio.",
+        "isCorrect": false,
+        "explanation": "El cruce aéreo es posible cumpliendo las medidas de seguridad."
+      }
     ]
   },
   {
@@ -653,10 +1833,30 @@
     "type": "simple",
     "question": "Si es imprescindible que la BT pase sobre la AT, ¿qué se precisa?",
     "options": [
-      { "id": 1, "answer": "Avisar al Ayuntamiento.", "isCorrect": false, "explanation": "La competencia es industrial y energética, no municipal." },
-      { "id": 2, "answer": "Instalar un cable de guarda.", "isCorrect": false, "explanation": "Es una medida técnica, pero no sustituye al permiso oficial." },
-      { "id": 3, "answer": "Recabar autorización expresa del Organismo competente.", "isCorrect": true, "explanation": "Es necesario obtener autorización expresa de la Administración para este caso excepcional[cite: 1]." },
-      { "id": 4, "answer": "Está absolutamente prohibido.", "isCorrect": false, "explanation": "Es posible de forma excepcional bajo autorización administrativa específica." }
+      {
+        "id": 1,
+        "answer": "Avisar al Ayuntamiento.",
+        "isCorrect": false,
+        "explanation": "La competencia es industrial y energética, no municipal."
+      },
+      {
+        "id": 2,
+        "answer": "Instalar un cable de guarda.",
+        "isCorrect": false,
+        "explanation": "Es una medida técnica, pero no sustituye al permiso oficial."
+      },
+      {
+        "id": 3,
+        "answer": "Recabar autorización expresa del Organismo competente.",
+        "isCorrect": true,
+        "explanation": "Es necesario obtener autorización expresa de la Administración para este caso excepcional[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Está absolutamente prohibido.",
+        "isCorrect": false,
+        "explanation": "Es posible de forma excepcional bajo autorización administrativa específica."
+      }
     ]
   },
   {
@@ -664,10 +1864,30 @@
     "type": "simple",
     "question": "Si la AT no cumple condiciones especiales en el cruce, la BT se protege con:",
     "options": [
-      { "id": 1, "answer": "Un techo de uralita.", "isCorrect": false, "explanation": "No ofrece la protección mecánica o eléctrica necesaria." },
-      { "id": 2, "answer": "Un haz de cables de acero puesto a tierra entre ambas líneas.", "isCorrect": true, "explanation": "Se protegerá mediante un haz de cables de acero galvanizado puestos a tierra[cite: 1]." },
-      { "id": 3, "answer": "Mallas de nylon.", "isCorrect": false, "explanation": "Material no conductor e incapaz de asegurar la puesta a tierra." },
-      { "id": 4, "answer": "Conductores aislados obligatoriamente.", "isCorrect": false, "explanation": "El aislamiento no protege de la rotura física de un cable de AT." }
+      {
+        "id": 1,
+        "answer": "Un techo de uralita.",
+        "isCorrect": false,
+        "explanation": "No ofrece la protección mecánica o eléctrica necesaria."
+      },
+      {
+        "id": 2,
+        "answer": "Un haz de cables de acero puesto a tierra entre ambas líneas.",
+        "isCorrect": true,
+        "explanation": "Se protegerá mediante un haz de cables de acero galvanizado puestos a tierra[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Mallas de nylon.",
+        "isCorrect": false,
+        "explanation": "Material no conductor e incapaz de asegurar la puesta a tierra."
+      },
+      {
+        "id": 4,
+        "answer": "Conductores aislados obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "El aislamiento no protege de la rotura física de un cable de AT."
+      }
     ]
   },
   {
@@ -675,10 +1895,30 @@
     "type": "simple",
     "question": "Cruzamiento de dos líneas BT donde ambas son aisladas:",
     "options": [
-      { "id": 1, "answer": "0,50 metros.", "isCorrect": false, "explanation": "Separación requerida para conductores desnudos." },
-      { "id": 2, "answer": "1 metro.", "isCorrect": false, "explanation": "Separación innecesaria entre cables con aislamiento nominal." },
-      { "id": 3, "answer": "Pueden estar en contacto.", "isCorrect": true, "explanation": "Cuando ambas líneas son aisladas, se permite que estén en contacto físico[cite: 1]." },
-      { "id": 4, "answer": "2 metros.", "isCorrect": false, "explanation": "Distancia muy superior a la mínima requerida." }
+      {
+        "id": 1,
+        "answer": "0,50 metros.",
+        "isCorrect": false,
+        "explanation": "Separación requerida para conductores desnudos."
+      },
+      {
+        "id": 2,
+        "answer": "1 metro.",
+        "isCorrect": false,
+        "explanation": "Separación innecesaria entre cables con aislamiento nominal."
+      },
+      {
+        "id": 3,
+        "answer": "Pueden estar en contacto.",
+        "isCorrect": true,
+        "explanation": "Cuando ambas líneas son aisladas, se permite que estén en contacto físico[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2 metros.",
+        "isCorrect": false,
+        "explanation": "Distancia muy superior a la mínima requerida."
+      }
     ]
   },
   {
@@ -686,10 +1926,30 @@
     "type": "simple",
     "question": "Cruce entre BT desnuda y línea de telecomunicación:",
     "options": [
-      { "id": 1, "answer": "La BT pasará siempre por debajo.", "isCorrect": false, "explanation": "Regla invertida: la de mayor riesgo va arriba." },
-      { "id": 2, "answer": "La BT deberá cruzar por encima de telecomunicación.", "isCorrect": true, "explanation": "Las líneas de baja tensión con conductores desnudos cruzarán por encima de las de telecomunicación[cite: 1]." },
-      { "id": 3, "answer": "Deben compartir aisladores.", "isCorrect": false, "explanation": "Incompatible por ser servicios de distinta naturaleza." },
-      { "id": 4, "answer": "Deben cruzarse a 90 grados.", "isCorrect": false, "explanation": "Es el ideal de diseño, pero no una obligación matemática estricta." }
+      {
+        "id": 1,
+        "answer": "La BT pasará siempre por debajo.",
+        "isCorrect": false,
+        "explanation": "Regla invertida: la de mayor riesgo va arriba."
+      },
+      {
+        "id": 2,
+        "answer": "La BT deberá cruzar por encima de telecomunicación.",
+        "isCorrect": true,
+        "explanation": "Las líneas de baja tensión con conductores desnudos cruzarán por encima de las de telecomunicación[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Deben compartir aisladores.",
+        "isCorrect": false,
+        "explanation": "Incompatible por ser servicios de distinta naturaleza."
+      },
+      {
+        "id": 4,
+        "answer": "Deben cruzarse a 90 grados.",
+        "isCorrect": false,
+        "explanation": "Es el ideal de diseño, pero no una obligación matemática estricta."
+      }
     ]
   },
   {
@@ -697,10 +1957,30 @@
     "type": "simple",
     "question": "Si una BT desnuda pasa por debajo de telecomunicación, una solución es:",
     "options": [
-      { "id": 1, "answer": "Instalar repetidores.", "isCorrect": false, "explanation": "No mitiga el riesgo de contacto eléctrico accidental." },
-      { "id": 2, "answer": "Emplear conductores aislados (0,6/1 kV) en el vano de cruce.", "isCorrect": true, "explanation": "El uso de conductores aislados reduce el riesgo ante caídas de hilos superiores[cite: 1]." },
-      { "id": 3, "answer": "Bajar el voltaje a 24V.", "isCorrect": false, "explanation": "Inviable para una red de distribución pública." },
-      { "id": 4, "answer": "Cortar la línea de telecomunicación.", "isCorrect": false, "explanation": "Acción inadmisible." }
+      {
+        "id": 1,
+        "answer": "Instalar repetidores.",
+        "isCorrect": false,
+        "explanation": "No mitiga el riesgo de contacto eléctrico accidental."
+      },
+      {
+        "id": 2,
+        "answer": "Emplear conductores aislados (0,6/1 kV) en el vano de cruce.",
+        "isCorrect": true,
+        "explanation": "El uso de conductores aislados reduce el riesgo ante caídas de hilos superiores[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Bajar el voltaje a 24V.",
+        "isCorrect": false,
+        "explanation": "Inviable para una red de distribución pública."
+      },
+      {
+        "id": 4,
+        "answer": "Cortar la línea de telecomunicación.",
+        "isCorrect": false,
+        "explanation": "Acción inadmisible."
+      }
     ]
   },
   {
@@ -708,10 +1988,30 @@
     "type": "simple",
     "question": "Cruzamiento sobre carretera (excluyendo acometidas aisladas):",
     "options": [
-      { "id": 1, "answer": "280 daN.", "isCorrect": false, "explanation": "Mínimo permitido solo para ciertas acometidas aisladas." },
-      { "id": 2, "answer": "410 daN.", "isCorrect": true, "explanation": "Los conductores tendrán una carga de rotura no inferior a 410 daN[cite: 1]." },
-      { "id": 3, "answer": "800 daN.", "isCorrect": false, "explanation": "Corresponde a la rotura mínima de fiadores de acero." },
-      { "id": 4, "answer": "1000 daN.", "isCorrect": false, "explanation": "Supera el requerimiento mínimo reglamentario." }
+      {
+        "id": 1,
+        "answer": "280 daN.",
+        "isCorrect": false,
+        "explanation": "Mínimo permitido solo para ciertas acometidas aisladas."
+      },
+      {
+        "id": 2,
+        "answer": "410 daN.",
+        "isCorrect": true,
+        "explanation": "Los conductores tendrán una carga de rotura no inferior a 410 daN[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "800 daN.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la rotura mínima de fiadores de acero."
+      },
+      {
+        "id": 4,
+        "answer": "1000 daN.",
+        "isCorrect": false,
+        "explanation": "Supera el requerimiento mínimo reglamentario."
+      }
     ]
   },
   {
@@ -719,10 +2019,30 @@
     "type": "simple",
     "question": "¿Cuál es la altura mínima al cruzar una carretera en flecha máxima?",
     "options": [
-      { "id": 1, "answer": "4 m.", "isCorrect": false, "explanation": "Altura estándar en terreno libre." },
-      { "id": 2, "answer": "5 m.", "isCorrect": false, "explanation": "Altura para conductores desnudos en zonas no rodadas." },
-      { "id": 3, "answer": "6 m.", "isCorrect": true, "explanation": "La altura mínima del conductor más bajo en cruce de carreteras será de 6 metros[cite: 1]." },
-      { "id": 4, "answer": "7 m.", "isCorrect": false, "explanation": "Valor superior al mínimo legal exigido." }
+      {
+        "id": 1,
+        "answer": "4 m.",
+        "isCorrect": false,
+        "explanation": "Altura estándar en terreno libre."
+      },
+      {
+        "id": 2,
+        "answer": "5 m.",
+        "isCorrect": false,
+        "explanation": "Altura para conductores desnudos en zonas no rodadas."
+      },
+      {
+        "id": 3,
+        "answer": "6 m.",
+        "isCorrect": true,
+        "explanation": "La altura mínima del conductor más bajo en cruce de carreteras será de 6 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "7 m.",
+        "isCorrect": false,
+        "explanation": "Valor superior al mínimo legal exigido."
+      }
     ]
   },
   {
@@ -730,10 +2050,30 @@
     "type": "simple",
     "question": "¿Cuántos empalmes se permiten en el vano de cruce de una carretera en obra nueva?",
     "options": [
-      { "id": 1, "answer": "Cero (ninguno).", "isCorrect": true, "explanation": "Los conductores no presentarán ningún empalme en el vano de cruce original[cite: 1]." },
-      { "id": 2, "answer": "Un empalme por cada fase.", "isCorrect": false, "explanation": "Prohibido durante la fase inicial de tendido." },
-      { "id": 3, "answer": "Dos empalmes en total.", "isCorrect": false, "explanation": "Prohibido durante el montaje original." },
-      { "id": 4, "answer": "No hay restricción.", "isCorrect": false, "explanation": "El vano debe ser íntegro por seguridad mecánica y eléctrica." }
+      {
+        "id": 1,
+        "answer": "Cero (ninguno).",
+        "isCorrect": true,
+        "explanation": "Los conductores no presentarán ningún empalme en el vano de cruce original[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Un empalme por cada fase.",
+        "isCorrect": false,
+        "explanation": "Prohibido durante la fase inicial de tendido."
+      },
+      {
+        "id": 3,
+        "answer": "Dos empalmes en total.",
+        "isCorrect": false,
+        "explanation": "Prohibido durante el montaje original."
+      },
+      {
+        "id": 4,
+        "answer": "No hay restricción.",
+        "isCorrect": false,
+        "explanation": "El vano debe ser íntegro por seguridad mecánica y eléctrica."
+      }
     ]
   },
   {
@@ -741,10 +2081,30 @@
     "type": "simple",
     "question": "¿Qué altura mínima debe haber sobre el hilo de contacto de un tranvía?",
     "options": [
-      { "id": 1, "answer": "0,5 m.", "isCorrect": false, "explanation": "Distancia muy peligrosa para la operación del trole." },
-      { "id": 2, "answer": "1 m.", "isCorrect": false, "explanation": "Separación insuficiente por seguridad." },
-      { "id": 3, "answer": "2 m.", "isCorrect": true, "explanation": "La altura mínima sobre los cables o hilos del tranvía será de 2 metros[cite: 1]." },
-      { "id": 4, "answer": "4 m.", "isCorrect": false, "explanation": "Supera el doble del requerimiento mínimo." }
+      {
+        "id": 1,
+        "answer": "0,5 m.",
+        "isCorrect": false,
+        "explanation": "Distancia muy peligrosa para la operación del trole."
+      },
+      {
+        "id": 2,
+        "answer": "1 m.",
+        "isCorrect": false,
+        "explanation": "Separación insuficiente por seguridad."
+      },
+      {
+        "id": 3,
+        "answer": "2 m.",
+        "isCorrect": true,
+        "explanation": "La altura mínima sobre los cables o hilos del tranvía será de 2 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "4 m.",
+        "isCorrect": false,
+        "explanation": "Supera el doble del requerimiento mínimo."
+      }
     ]
   },
   {
@@ -752,10 +2112,30 @@
     "type": "simple",
     "question": "El trole del tranvía no debe alcanzar una separación con la BT inferior a:",
     "options": [
-      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Distancia crítica insuficiente." },
-      { "id": 2, "answer": "0,30 m.", "isCorrect": true, "explanation": "La línea se situará de modo que el trole no alcance una separación inferior a 0,30 metros[cite: 1]." },
-      { "id": 3, "answer": "1,00 m.", "isCorrect": false, "explanation": "Valor superior al límite mínimo de aproximación accidental." },
-      { "id": 4, "answer": "1,50 m.", "isCorrect": false, "explanation": "Excede el margen de seguridad reglamentado." }
+      {
+        "id": 1,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Distancia crítica insuficiente."
+      },
+      {
+        "id": 2,
+        "answer": "0,30 m.",
+        "isCorrect": true,
+        "explanation": "La línea se situará de modo que el trole no alcance una separación inferior a 0,30 metros[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Valor superior al límite mínimo de aproximación accidental."
+      },
+      {
+        "id": 4,
+        "answer": "1,50 m.",
+        "isCorrect": false,
+        "explanation": "Excede el margen de seguridad reglamentado."
+      }
     ]
   },
   {
@@ -763,10 +2143,30 @@
     "type": "simple",
     "question": "Distancia mínima de BT pasando sobre un teleférico:",
     "options": [
-      { "id": 1, "answer": "1 m.", "isCorrect": false, "explanation": "Separación insuficiente para instalaciones en movimiento." },
-      { "id": 2, "answer": "2 m.", "isCorrect": true, "explanation": "Cuando la línea de baja tensión pase por encima, la distancia mínima será de 2 metros[cite: 1]." },
-      { "id": 3, "answer": "3 m.", "isCorrect": false, "explanation": "Es la distancia si la BT pasara por debajo del teleférico." },
-      { "id": 4, "answer": "5 m.", "isCorrect": false, "explanation": "Supera el requerimiento de seguridad mínimo." }
+      {
+        "id": 1,
+        "answer": "1 m.",
+        "isCorrect": false,
+        "explanation": "Separación insuficiente para instalaciones en movimiento."
+      },
+      {
+        "id": 2,
+        "answer": "2 m.",
+        "isCorrect": true,
+        "explanation": "Cuando la línea de baja tensión pase por encima, la distancia mínima será de 2 metros[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "3 m.",
+        "isCorrect": false,
+        "explanation": "Es la distancia si la BT pasara por debajo del teleférico."
+      },
+      {
+        "id": 4,
+        "answer": "5 m.",
+        "isCorrect": false,
+        "explanation": "Supera el requerimiento de seguridad mínimo."
+      }
     ]
   },
   {
@@ -774,10 +2174,30 @@
     "type": "simple",
     "question": "En cruce de río sin gálibo oficial definido, se tomará como base:",
     "options": [
-      { "id": 1, "answer": "3 metros.", "isCorrect": false, "explanation": "Altura peligrosa para embarcaciones." },
-      { "id": 2, "answer": "4 metros.", "isCorrect": false, "explanation": "Insuficiente para garantizar navegación segura." },
-      { "id": 3, "answer": "6 metros.", "isCorrect": true, "explanation": "Si no existe gálibo definido, se considerará este igual a 6 metros[cite: 1]." },
-      { "id": 4, "answer": "8 metros.", "isCorrect": false, "explanation": "Valor superior al estándar de cálculo subsidiario." }
+      {
+        "id": 1,
+        "answer": "3 metros.",
+        "isCorrect": false,
+        "explanation": "Altura peligrosa para embarcaciones."
+      },
+      {
+        "id": 2,
+        "answer": "4 metros.",
+        "isCorrect": false,
+        "explanation": "Insuficiente para garantizar navegación segura."
+      },
+      {
+        "id": 3,
+        "answer": "6 metros.",
+        "isCorrect": true,
+        "explanation": "Si no existe gálibo definido, se considerará este igual a 6 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "8 metros.",
+        "isCorrect": false,
+        "explanation": "Valor superior al estándar de cálculo subsidiario."
+      }
     ]
   },
   {
@@ -785,10 +2205,30 @@
     "type": "simple",
     "question": "Distancia mínima de BT desnuda a antenas, tirantes o bajantes:",
     "options": [
-      { "id": 1, "answer": "0,30 m.", "isCorrect": false, "explanation": "Distancia crítica insuficiente ante oscilaciones." },
-      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Valor inferior al margen de seguridad reglamentario." },
-      { "id": 3, "answer": "1 m.", "isCorrect": true, "explanation": "Deben presentar, como mínimo, una distancia igual a 1 metro con respecto a la antena[cite: 1]." },
-      { "id": 4, "answer": "2 m.", "isCorrect": false, "explanation": "Supera el mínimo legal exigido para la convivencia de instalaciones." }
+      {
+        "id": 1,
+        "answer": "0,30 m.",
+        "isCorrect": false,
+        "explanation": "Distancia crítica insuficiente ante oscilaciones."
+      },
+      {
+        "id": 2,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Valor inferior al margen de seguridad reglamentario."
+      },
+      {
+        "id": 3,
+        "answer": "1 m.",
+        "isCorrect": true,
+        "explanation": "Deben presentar, como mínimo, una distancia igual a 1 metro con respecto a la antena[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2 m.",
+        "isCorrect": false,
+        "explanation": "Supera el mínimo legal exigido para la convivencia de instalaciones."
+      }
     ]
   },
   {
@@ -796,10 +2236,30 @@
     "type": "simple",
     "question": "¿Está permitido sujetar una antena en un apoyo de la línea de BT?",
     "options": [
-      { "id": 1, "answer": "Sí, si se usa aislador.", "isCorrect": false, "explanation": "No se permite el uso compartido por motivos de seguridad." },
-      { "id": 2, "answer": "Sí, si es más baja que los cables.", "isCorrect": false, "explanation": "La posición relativa no valida la fijación prohibida." },
-      { "id": 3, "answer": "Queda terminantemente prohibido.", "isCorrect": true, "explanation": "Está prohibida la utilización de apoyos de BT para fijación de antenas[cite: 1]." },
-      { "id": 4, "answer": "Sólo si es de la misma compañía.", "isCorrect": false, "explanation": "La prohibición es absoluta independientemente de la propiedad." }
+      {
+        "id": 1,
+        "answer": "Sí, si se usa aislador.",
+        "isCorrect": false,
+        "explanation": "No se permite el uso compartido por motivos de seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, si es más baja que los cables.",
+        "isCorrect": false,
+        "explanation": "La posición relativa no valida la fijación prohibida."
+      },
+      {
+        "id": 3,
+        "answer": "Queda terminantemente prohibido.",
+        "isCorrect": true,
+        "explanation": "Está prohibida la utilización de apoyos de BT para fijación de antenas[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo si es de la misma compañía.",
+        "isCorrect": false,
+        "explanation": "La prohibición es absoluta independientemente de la propiedad."
+      }
     ]
   },
   {
@@ -807,10 +2267,30 @@
     "type": "simple",
     "question": "Distancia mínima entre cables de energía y tuberías de agua o gas:",
     "options": [
-      { "id": 1, "answer": "0,05 m.", "isCorrect": false, "explanation": "Distancia insuficiente ante posibles fugas o averías." },
-      { "id": 2, "answer": "0,10 m.", "isCorrect": false, "explanation": "Margen inferior al estándar de seguridad industrial." },
-      { "id": 3, "answer": "0,20 m.", "isCorrect": true, "explanation": "La distancia mínima entre cables eléctricos y canalizaciones de agua o gas será de 0,20 m[cite: 1]." },
-      { "id": 4, "answer": "0,50 m.", "isCorrect": false, "explanation": "Supera el requerimiento mínimo normativo." }
+      {
+        "id": 1,
+        "answer": "0,05 m.",
+        "isCorrect": false,
+        "explanation": "Distancia insuficiente ante posibles fugas o averías."
+      },
+      {
+        "id": 2,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Margen inferior al estándar de seguridad industrial."
+      },
+      {
+        "id": 3,
+        "answer": "0,20 m.",
+        "isCorrect": true,
+        "explanation": "La distancia mínima entre cables eléctricos y canalizaciones de agua o gas será de 0,20 m[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Supera el requerimiento mínimo normativo."
+      }
     ]
   },
   {
@@ -818,10 +2298,30 @@
     "type": "simple",
     "question": "Las juntas de tuberías deben separarse del cruce eléctrico al menos:",
     "options": [
-      { "id": 1, "answer": "0,20 m.", "isCorrect": false, "explanation": "Es la distancia transversal del cruce, no la lateral a la junta." },
-      { "id": 2, "answer": "0,50 m.", "isCorrect": false, "explanation": "Separación insuficiente para seguridad ante fugas." },
-      { "id": 3, "answer": "1 m.", "isCorrect": true, "explanation": "Se situarán a una distancia superior a 1 metro del cruce[cite: 1]." },
-      { "id": 4, "answer": "2 m.", "isCorrect": false, "explanation": "Valor superior al margen de alejamiento exigido." }
+      {
+        "id": 1,
+        "answer": "0,20 m.",
+        "isCorrect": false,
+        "explanation": "Es la distancia transversal del cruce, no la lateral a la junta."
+      },
+      {
+        "id": 2,
+        "answer": "0,50 m.",
+        "isCorrect": false,
+        "explanation": "Separación insuficiente para seguridad ante fugas."
+      },
+      {
+        "id": 3,
+        "answer": "1 m.",
+        "isCorrect": true,
+        "explanation": "Se situarán a una distancia superior a 1 metro del cruce[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "2 m.",
+        "isCorrect": false,
+        "explanation": "Valor superior al margen de alejamiento exigido."
+      }
     ]
   },
   {
@@ -829,10 +2329,30 @@
     "type": "simple",
     "question": "En paralelismo de BT con línea de AT (≤ 66 kV), la separación mínima es:",
     "options": [
-      { "id": 1, "answer": "1 m.", "isCorrect": false, "explanation": "Distancia peligrosa para este nivel de tensión." },
-      { "id": 2, "answer": "2 metros.", "isCorrect": true, "explanation": "En paralelismos con líneas ≤ 66 kV no habrá separación inferior a 2 metros[cite: 1]." },
-      { "id": 3, "answer": "3 metros.", "isCorrect": false, "explanation": "Distancia exigida para líneas de AT > 66 kV." },
-      { "id": 4, "answer": "5 metros.", "isCorrect": false, "explanation": "Margen superior al requerimiento mínimo legal." }
+      {
+        "id": 1,
+        "answer": "1 m.",
+        "isCorrect": false,
+        "explanation": "Distancia peligrosa para este nivel de tensión."
+      },
+      {
+        "id": 2,
+        "answer": "2 metros.",
+        "isCorrect": true,
+        "explanation": "En paralelismos con líneas ≤ 66 kV no habrá separación inferior a 2 metros[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "3 metros.",
+        "isCorrect": false,
+        "explanation": "Distancia exigida para líneas de AT > 66 kV."
+      },
+      {
+        "id": 4,
+        "answer": "5 metros.",
+        "isCorrect": false,
+        "explanation": "Margen superior al requerimiento mínimo legal."
+      }
     ]
   },
   {
@@ -840,10 +2360,30 @@
     "type": "simple",
     "question": "Al montar BT y AT en mismos apoyos, ¿dónde van los de BT?",
     "options": [
-      { "id": 1, "answer": "Por encima de los de AT.", "isCorrect": false, "explanation": "Riesgo de que la BT caiga sobre la AT en caso de rotura." },
-      { "id": 2, "answer": "A los lados de la torre.", "isCorrect": false, "explanation": "Disposición no estandarizada por seguridad." },
-      { "id": 3, "answer": "Los de AT irán colocados por encima de los de BT.", "isCorrect": true, "explanation": "Los conductores de alta tensión irán siempre por encima de los de baja tensión[cite: 1]." },
-      { "id": 4, "answer": "Mezclados si son aislados.", "isCorrect": false, "explanation": "Prohibido mezclarlos sin respetar la geometría de seguridad." }
+      {
+        "id": 1,
+        "answer": "Por encima de los de AT.",
+        "isCorrect": false,
+        "explanation": "Riesgo de que la BT caiga sobre la AT en caso de rotura."
+      },
+      {
+        "id": 2,
+        "answer": "A los lados de la torre.",
+        "isCorrect": false,
+        "explanation": "Disposición no estandarizada por seguridad."
+      },
+      {
+        "id": 3,
+        "answer": "Los de AT irán colocados por encima de los de BT.",
+        "isCorrect": true,
+        "explanation": "Los conductores de alta tensión irán siempre por encima de los de baja tensión[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Mezclados si son aislados.",
+        "isCorrect": false,
+        "explanation": "Prohibido mezclarlos sin respetar la geometría de seguridad."
+      }
     ]
   },
   {
@@ -851,10 +2391,30 @@
     "type": "simple",
     "question": "Con BT y AT en el mismo apoyo, debe advertirse al operario con:",
     "options": [
-      { "id": 1, "answer": "Cinta roja en cables.", "isCorrect": false, "explanation": "Medida ineficaz y no normada." },
-      { "id": 2, "answer": "Una indicación entre líneas que advierta del peligro de AT superior.", "isCorrect": true, "explanation": "Deberá colocarse una indicación entre ambas líneas que advierta del peligro[cite: 1]." },
-      { "id": 3, "answer": "Un vallado en la base.", "isCorrect": false, "explanation": "No previene accidentes durante el ascenso o trabajo en altura." },
-      { "id": 4, "answer": "Una bocina sonora.", "isCorrect": false, "explanation": "Medida no contemplada en el reglamento técnico." }
+      {
+        "id": 1,
+        "answer": "Cinta roja en cables.",
+        "isCorrect": false,
+        "explanation": "Medida ineficaz y no normada."
+      },
+      {
+        "id": 2,
+        "answer": "Una indicación entre líneas que advierta del peligro de AT superior.",
+        "isCorrect": true,
+        "explanation": "Deberá colocarse una indicación entre ambas líneas que advierta del peligro[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Un vallado en la base.",
+        "isCorrect": false,
+        "explanation": "No previene accidentes durante el ascenso o trabajo en altura."
+      },
+      {
+        "id": 4,
+        "answer": "Una bocina sonora.",
+        "isCorrect": false,
+        "explanation": "Medida no contemplada en el reglamento técnico."
+      }
     ]
   },
   {
@@ -862,10 +2422,30 @@
     "type": "simple",
     "question": "Si un cable aislado no vuela sobre zona de rodadura, la altura se reduce a:",
     "options": [
-      { "id": 1, "answer": "2 m.", "isCorrect": false, "explanation": "Altura accesible y peligrosa." },
-      { "id": 2, "answer": "3 m.", "isCorrect": false, "explanation": "Valor intermedio no contemplado en esta regla." },
-      { "id": 3, "answer": "4 metros.", "isCorrect": true, "explanation": "Esta distancia podrá reducirse a 4 m cuando no vuelen sobre zonas de circulación rodada[cite: 1]." },
-      { "id": 4, "answer": "6 metros.", "isCorrect": false, "explanation": "Es el requisito obligatorio para zonas de rodadura." }
+      {
+        "id": 1,
+        "answer": "2 m.",
+        "isCorrect": false,
+        "explanation": "Altura accesible y peligrosa."
+      },
+      {
+        "id": 2,
+        "answer": "3 m.",
+        "isCorrect": false,
+        "explanation": "Valor intermedio no contemplado en esta regla."
+      },
+      {
+        "id": 3,
+        "answer": "4 metros.",
+        "isCorrect": true,
+        "explanation": "Esta distancia podrá reducirse a 4 m cuando no vuelen sobre zonas de circulación rodada[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "6 metros.",
+        "isCorrect": false,
+        "explanation": "Es el requisito obligatorio para zonas de rodadura."
+      }
     ]
   },
   {
@@ -873,10 +2453,30 @@
     "type": "simple",
     "question": "Distancia mínima a canalización de gas de alta presión (> 4 bar):",
     "options": [
-      { "id": 1, "answer": "0,10 m.", "isCorrect": false, "explanation": "Distancia crítica insuficiente ante el riesgo de alta presión." },
-      { "id": 2, "answer": "0,20 m.", "isCorrect": false, "explanation": "Es la distancia para gas de baja/media presión o agua." },
-      { "id": 3, "answer": "0,40 m.", "isCorrect": true, "explanation": "Para canalizaciones de gas de alta presión, la distancia será de 0,40 m[cite: 1]." },
-      { "id": 4, "answer": "1,00 m.", "isCorrect": false, "explanation": "Supera el margen mínimo de seguridad exigido." }
+      {
+        "id": 1,
+        "answer": "0,10 m.",
+        "isCorrect": false,
+        "explanation": "Distancia crítica insuficiente ante el riesgo de alta presión."
+      },
+      {
+        "id": 2,
+        "answer": "0,20 m.",
+        "isCorrect": false,
+        "explanation": "Es la distancia para gas de baja/media presión o agua."
+      },
+      {
+        "id": 3,
+        "answer": "0,40 m.",
+        "isCorrect": true,
+        "explanation": "Para canalizaciones de gas de alta presión, la distancia será de 0,40 m[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "1,00 m.",
+        "isCorrect": false,
+        "explanation": "Supera el margen mínimo de seguridad exigido."
+      }
     ]
   },
   {
@@ -884,10 +2484,30 @@
     "type": "simple",
     "question": "Las intensidades admisibles base se calculan para temperatura ambiente de:",
     "options": [
-      { "id": 1, "answer": "20°C.", "isCorrect": false, "explanation": "Temperatura de referencia para medidas de resistencia, no de capacidad térmica." },
-      { "id": 2, "answer": "25°C.", "isCorrect": false, "explanation": "Valor no utilizado como base en esta ITC." },
-      { "id": 3, "answer": "30°C.", "isCorrect": false, "explanation": "Temperatura base para cables enterrados, no al aire." },
-      { "id": 4, "answer": "40°C.", "isCorrect": true, "explanation": "Las condiciones normales de instalación corresponden a una temperatura ambiente de 40°C[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "20°C.",
+        "isCorrect": false,
+        "explanation": "Temperatura de referencia para medidas de resistencia, no de capacidad térmica."
+      },
+      {
+        "id": 2,
+        "answer": "25°C.",
+        "isCorrect": false,
+        "explanation": "Valor no utilizado como base en esta ITC."
+      },
+      {
+        "id": 3,
+        "answer": "30°C.",
+        "isCorrect": false,
+        "explanation": "Temperatura base para cables enterrados, no al aire."
+      },
+      {
+        "id": 4,
+        "answer": "40°C.",
+        "isCorrect": true,
+        "explanation": "Las condiciones normales de instalación corresponden a una temperatura ambiente de 40°C[cite: 1]."
+      }
     ]
   },
   {
@@ -895,10 +2515,30 @@
     "type": "simple",
     "question": "Si el cable está expuesto directamente al sol, el factor de corrección es:",
     "options": [
-      { "id": 1, "answer": "1,18.", "isCorrect": false, "explanation": "Aumentaría la intensidad, causando sobrecalentamiento." },
-      { "id": 2, "answer": "1,00.", "isCorrect": false, "explanation": "Valor sin penalización por radiación solar." },
-      { "id": 3, "answer": "0,9 o inferior.", "isCorrect": true, "explanation": "En casos de exposición directa al sol se aplica un factor de 0,9 o inferior[cite: 1]." },
-      { "id": 4, "answer": "0,5.", "isCorrect": false, "explanation": "Penalización excesiva sin justificación técnica de cálculo." }
+      {
+        "id": 1,
+        "answer": "1,18.",
+        "isCorrect": false,
+        "explanation": "Aumentaría la intensidad, causando sobrecalentamiento."
+      },
+      {
+        "id": 2,
+        "answer": "1,00.",
+        "isCorrect": false,
+        "explanation": "Valor sin penalización por radiación solar."
+      },
+      {
+        "id": 3,
+        "answer": "0,9 o inferior.",
+        "isCorrect": true,
+        "explanation": "En casos de exposición directa al sol se aplica un factor de 0,9 o inferior[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,5.",
+        "isCorrect": false,
+        "explanation": "Penalización excesiva sin justificación técnica de cálculo."
+      }
     ]
   },
   {
@@ -906,10 +2546,30 @@
     "type": "simple",
     "question": "Factor de corrección para agrupación de 3 cables en haz al aire:",
     "options": [
-      { "id": 1, "answer": "1,00.", "isCorrect": false, "explanation": "Valor para un solo cable." },
-      { "id": 2, "answer": "0,89.", "isCorrect": false, "explanation": "Valor para 2 cables." },
-      { "id": 3, "answer": "0,80.", "isCorrect": true, "explanation": "Según la Tabla 6, para 3 cables el factor de corrección es 0,80[cite: 1]." },
-      { "id": 4, "answer": "0,75.", "isCorrect": false, "explanation": "Valor para agrupaciones de más de 3 cables." }
+      {
+        "id": 1,
+        "answer": "1,00.",
+        "isCorrect": false,
+        "explanation": "Valor para un solo cable."
+      },
+      {
+        "id": 2,
+        "answer": "0,89.",
+        "isCorrect": false,
+        "explanation": "Valor para 2 cables."
+      },
+      {
+        "id": 3,
+        "answer": "0,80.",
+        "isCorrect": true,
+        "explanation": "Según la Tabla 6, para 3 cables el factor de corrección es 0,80[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,75.",
+        "isCorrect": false,
+        "explanation": "Valor para agrupaciones de más de 3 cables."
+      }
     ]
   },
   {
@@ -917,10 +2577,30 @@
     "type": "simple",
     "question": "Si la temperatura baja a 20°C, el factor para cable XLPE es:",
     "options": [
-      { "id": 1, "answer": "0,90.", "isCorrect": false, "explanation": "Corresponde a una temperatura ambiente de 50°C." },
-      { "id": 2, "answer": "1,00.", "isCorrect": false, "explanation": "Corresponde a la temperatura base de 40°C." },
-      { "id": 3, "answer": "1,18.", "isCorrect": true, "explanation": "La Tabla 7 marca un factor de 1,18 para 20°C en cables aislados con XLPE[cite: 1]." },
-      { "id": 4, "answer": "1,50.", "isCorrect": false, "explanation": "Valor fuera de los márgenes de la tabla." }
+      {
+        "id": 1,
+        "answer": "0,90.",
+        "isCorrect": false,
+        "explanation": "Corresponde a una temperatura ambiente de 50°C."
+      },
+      {
+        "id": 2,
+        "answer": "1,00.",
+        "isCorrect": false,
+        "explanation": "Corresponde a la temperatura base de 40°C."
+      },
+      {
+        "id": 3,
+        "answer": "1,18.",
+        "isCorrect": true,
+        "explanation": "La Tabla 7 marca un factor de 1,18 para 20°C en cables aislados con XLPE[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "1,50.",
+        "isCorrect": false,
+        "explanation": "Valor fuera de los márgenes de la tabla."
+      }
     ]
   },
   {
@@ -928,10 +2608,30 @@
     "type": "simple",
     "question": "¿Qué es 'Almelec'?",
     "options": [
-      { "id": 1, "answer": "Un aislante cerámico.", "isCorrect": false, "explanation": "El Almelec es una aleación metálica, no un cerámico." },
-      { "id": 2, "answer": "Aleación Aluminio-Magnesio-Silicio para neutro fiador.", "isCorrect": true, "explanation": "Se define como la aleación utilizada frecuentemente para el neutro fiador[cite: 1]." },
-      { "id": 3, "answer": "Fabricante homologado.", "isCorrect": false, "explanation": "Es el nombre de la aleación, no de una marca o empresa." },
-      { "id": 4, "answer": "Barniz para madera.", "isCorrect": false, "explanation": "No tiene relación con la protección de postes." }
+      {
+        "id": 1,
+        "answer": "Un aislante cerámico.",
+        "isCorrect": false,
+        "explanation": "El Almelec es una aleación metálica, no un cerámico."
+      },
+      {
+        "id": 2,
+        "answer": "Aleación Aluminio-Magnesio-Silicio para neutro fiador.",
+        "isCorrect": true,
+        "explanation": "Se define como la aleación utilizada frecuentemente para el neutro fiador[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Fabricante homologado.",
+        "isCorrect": false,
+        "explanation": "Es el nombre de la aleación, no de una marca o empresa."
+      },
+      {
+        "id": 4,
+        "answer": "Barniz para madera.",
+        "isCorrect": false,
+        "explanation": "No tiene relación con la protección de postes."
+      }
     ]
   },
   {
@@ -939,10 +2639,30 @@
     "type": "simple",
     "question": "¿Cuánto mide el diámetro virtual de un haz respecto al de fase para hielo?",
     "options": [
-      { "id": 1, "answer": "Lo mismo.", "isCorrect": false, "explanation": "Un haz tiene mayor superficie de captación que una fase aislada." },
-      { "id": 2, "answer": "El doble.", "isCorrect": false, "explanation": "Factor inferior al estipulado por seguridad." },
-      { "id": 3, "answer": "2,5 veces.", "isCorrect": true, "explanation": "Se considera como diámetro de un cable en haz 2,5 veces el del conductor de fase[cite: 1]." },
-      { "id": 4, "answer": "4 veces.", "isCorrect": false, "explanation": "Factor excesivo para el cálculo mecánico." }
+      {
+        "id": 1,
+        "answer": "Lo mismo.",
+        "isCorrect": false,
+        "explanation": "Un haz tiene mayor superficie de captación que una fase aislada."
+      },
+      {
+        "id": 2,
+        "answer": "El doble.",
+        "isCorrect": false,
+        "explanation": "Factor inferior al estipulado por seguridad."
+      },
+      {
+        "id": 3,
+        "answer": "2,5 veces.",
+        "isCorrect": true,
+        "explanation": "Se considera como diámetro de un cable en haz 2,5 veces el del conductor de fase[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "4 veces.",
+        "isCorrect": false,
+        "explanation": "Factor excesivo para el cálculo mecánico."
+      }
     ]
   },
   {
@@ -950,10 +2670,30 @@
     "type": "simple",
     "question": "A mayor duración del cortocircuito, la intensidad máxima soportada:",
     "options": [
-      { "id": 1, "answer": "Aumenta exponencialmente.", "isCorrect": false, "explanation": "El calor acumulado destruiría el cable." },
-      { "id": 2, "answer": "Se mantiene constante.", "isCorrect": false, "explanation": "El tiempo es un factor clave en el calentamiento adiabático." },
-      { "id": 3, "answer": "Disminuye.", "isCorrect": true, "explanation": "A medida que aumenta el tiempo, la intensidad permitida cae drásticamente para evitar daños[cite: 1]." },
-      { "id": 4, "answer": "Se multiplica por 10.", "isCorrect": false, "explanation": "Afirmación opuesta al comportamiento físico del conductor." }
+      {
+        "id": 1,
+        "answer": "Aumenta exponencialmente.",
+        "isCorrect": false,
+        "explanation": "El calor acumulado destruiría el cable."
+      },
+      {
+        "id": 2,
+        "answer": "Se mantiene constante.",
+        "isCorrect": false,
+        "explanation": "El tiempo es un factor clave en el calentamiento adiabático."
+      },
+      {
+        "id": 3,
+        "answer": "Disminuye.",
+        "isCorrect": true,
+        "explanation": "A medida que aumenta el tiempo, la intensidad permitida cae drásticamente para evitar daños[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Se multiplica por 10.",
+        "isCorrect": false,
+        "explanation": "Afirmación opuesta al comportamiento físico del conductor."
+      }
     ]
   },
   {
@@ -961,10 +2701,30 @@
     "type": "simple",
     "question": "La capacidad de conductores desnudos (Tabla 10) se define por:",
     "options": [
-      { "id": 1, "answer": "Fórmula térmica.", "isCorrect": false, "explanation": "No es el método directo de las tablas del REBT." },
-      { "id": 2, "answer": "Densidad de corriente en A/mm².", "isCorrect": true, "explanation": "Se rigen por la densidad de corriente admisible en A/mm² al aire[cite: 1]." },
-      { "id": 3, "answer": "Longitud del vano.", "isCorrect": false, "explanation": "Afecta a la mecánica, no a la capacidad de corriente." },
-      { "id": 4, "answer": "Color de oxidación.", "isCorrect": false, "explanation": "No es un criterio técnico de diseño." }
+      {
+        "id": 1,
+        "answer": "Fórmula térmica.",
+        "isCorrect": false,
+        "explanation": "No es el método directo de las tablas del REBT."
+      },
+      {
+        "id": 2,
+        "answer": "Densidad de corriente en A/mm².",
+        "isCorrect": true,
+        "explanation": "Se rigen por la densidad de corriente admisible en A/mm² al aire[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Longitud del vano.",
+        "isCorrect": false,
+        "explanation": "Afecta a la mecánica, no a la capacidad de corriente."
+      },
+      {
+        "id": 4,
+        "answer": "Color de oxidación.",
+        "isCorrect": false,
+        "explanation": "No es un criterio técnico de diseño."
+      }
     ]
   },
   {
@@ -972,10 +2732,30 @@
     "type": "simple",
     "question": "Densidad de corriente para 50 mm² desnudo comparando Cu y Al:",
     "options": [
-      { "id": 1, "answer": "Mayor en cobre que en aluminio.", "isCorrect": true, "explanation": "La Tabla 10 muestra mayor capacidad para el cobre (5,10 A/mm²) frente al aluminio (4,00 A/mm²)[cite: 1]." },
-      { "id": 2, "answer": "Mayor en aluminio que en cobre.", "isCorrect": false, "explanation": "El aluminio tiene mayor resistividad que el cobre." },
-      { "id": 3, "answer": "Idéntica en ambos.", "isCorrect": false, "explanation": "Sus propiedades eléctricas son distintas." },
-      { "id": 4, "answer": "No se fabrican.", "isCorrect": false, "explanation": "Ambas secciones figuran y son comunes en la red." }
+      {
+        "id": 1,
+        "answer": "Mayor en cobre que en aluminio.",
+        "isCorrect": true,
+        "explanation": "La Tabla 10 muestra mayor capacidad para el cobre (5,10 A/mm²) frente al aluminio (4,00 A/mm²)[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Mayor en aluminio que en cobre.",
+        "isCorrect": false,
+        "explanation": "El aluminio tiene mayor resistividad que el cobre."
+      },
+      {
+        "id": 3,
+        "answer": "Idéntica en ambos.",
+        "isCorrect": false,
+        "explanation": "Sus propiedades eléctricas son distintas."
+      },
+      {
+        "id": 4,
+        "answer": "No se fabrican.",
+        "isCorrect": false,
+        "explanation": "Ambas secciones figuran y son comunes en la red."
+      }
     ]
   },
   {
@@ -983,10 +2763,30 @@
     "type": "simple",
     "question": "¿Cómo calcular cables con aislamiento que no figuran en las tablas?",
     "options": [
-      { "id": 1, "answer": "No se pueden instalar.", "isCorrect": false, "explanation": "La norma permite el uso de otros tipos bajo cálculo." },
-      { "id": 2, "answer": "Ensayo destructivo.", "isCorrect": false, "explanation": "No es el procedimiento reglamentario para el diseño." },
-      { "id": 3, "answer": "Consultar serie UNE 20.435 o calcular según UNE 21.144.", "isCorrect": true, "explanation": "El reglamento remite a estas normas específicas para casos no contemplados[cite: 1]." },
-      { "id": 4, "answer": "Usar la peor tabla.", "isCorrect": false, "explanation": "Método no técnico ni aceptado por la instrucción." }
+      {
+        "id": 1,
+        "answer": "No se pueden instalar.",
+        "isCorrect": false,
+        "explanation": "La norma permite el uso de otros tipos bajo cálculo."
+      },
+      {
+        "id": 2,
+        "answer": "Ensayo destructivo.",
+        "isCorrect": false,
+        "explanation": "No es el procedimiento reglamentario para el diseño."
+      },
+      {
+        "id": 3,
+        "answer": "Consultar serie UNE 20.435 o calcular según UNE 21.144.",
+        "isCorrect": true,
+        "explanation": "El reglamento remite a estas normas específicas para casos no contemplados[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Usar la peor tabla.",
+        "isCorrect": false,
+        "explanation": "Método no técnico ni aceptado por la instrucción."
+      }
     ]
   },
   {
@@ -994,10 +2794,30 @@
     "type": "simple",
     "question": "¿A qué temperatura se considera el viento dividido por 3?",
     "options": [
-      { "id": 1, "answer": "-5°C.", "isCorrect": false, "explanation": "Temperatura no utilizada en este escenario de BT." },
-      { "id": 2, "answer": "0°C.", "isCorrect": true, "explanation": "La hipótesis de viento fraccionado se evalúa a una temperatura de 0°C[cite: 1]." },
-      { "id": 3, "answer": "15°C.", "isCorrect": false, "explanation": "A 15°C el viento se considera en su totalidad en la hipótesis 'a'." },
-      { "id": 4, "answer": "40°C.", "isCorrect": false, "explanation": "Valor no relacionado con las hipótesis mecánicas frías." }
+      {
+        "id": 1,
+        "answer": "-5°C.",
+        "isCorrect": false,
+        "explanation": "Temperatura no utilizada en este escenario de BT."
+      },
+      {
+        "id": 2,
+        "answer": "0°C.",
+        "isCorrect": true,
+        "explanation": "La hipótesis de viento fraccionado se evalúa a una temperatura de 0°C[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "15°C.",
+        "isCorrect": false,
+        "explanation": "A 15°C el viento se considera en su totalidad en la hipótesis 'a'."
+      },
+      {
+        "id": 4,
+        "answer": "40°C.",
+        "isCorrect": false,
+        "explanation": "Valor no relacionado con las hipótesis mecánicas frías."
+      }
     ]
   },
   {
@@ -1005,10 +2825,30 @@
     "type": "simple",
     "question": "Si el viento actúa en sentido longitudinal exacto a la línea:",
     "options": [
-      { "id": 1, "answer": "Se multiplica por 2.", "isCorrect": false, "explanation": "No se produce un aumento de carga transversal." },
-      { "id": 2, "answer": "No se tendrá en cuenta.", "isCorrect": true, "explanation": "No se tendrá en cuenta cuando actúe en sentido longitudinal de la línea[cite: 1]." },
-      { "id": 3, "answer": "Obliga a fiador de acero.", "isCorrect": false, "explanation": "La necesidad de fiador depende del tipo de vano y cable, no del viento longitudinal." },
-      { "id": 4, "answer": "Genera manguitos de hielo.", "isCorrect": false, "explanation": "El hielo depende de la humedad y temperatura, no de la dirección del viento." }
+      {
+        "id": 1,
+        "answer": "Se multiplica por 2.",
+        "isCorrect": false,
+        "explanation": "No se produce un aumento de carga transversal."
+      },
+      {
+        "id": 2,
+        "answer": "No se tendrá en cuenta.",
+        "isCorrect": true,
+        "explanation": "No se tendrá en cuenta cuando actúe en sentido longitudinal de la línea[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Obliga a fiador de acero.",
+        "isCorrect": false,
+        "explanation": "La necesidad de fiador depende del tipo de vano y cable, no del viento longitudinal."
+      },
+      {
+        "id": 4,
+        "answer": "Genera manguitos de hielo.",
+        "isCorrect": false,
+        "explanation": "El hielo depende de la humedad y temperatura, no de la dirección del viento."
+      }
     ]
   },
   {
@@ -1016,10 +2856,30 @@
     "type": "simple",
     "question": "Cables posados < 2,5 m, ¿pueden pasar por delante de ventanas?",
     "options": [
-      { "id": 1, "answer": "Sí, si son grandes.", "isCorrect": false, "explanation": "La sección no valida la obstrucción o riesgo." },
-      { "id": 2, "answer": "No, deberá evitarse pasar por delante de cualquier abertura.", "isCorrect": true, "explanation": "Deberá evitarse que los conductores pasen por delante de aberturas en las fachadas[cite: 1]." },
-      { "id": 3, "answer": "Con permiso del dueño.", "isCorrect": false, "explanation": "Es una restricción de seguridad técnica del diseño." },
-      { "id": 4, "answer": "Sólo con protección UV.", "isCorrect": false, "explanation": "La protección UV no mitiga el riesgo de contacto o interferencia." }
+      {
+        "id": 1,
+        "answer": "Sí, si son grandes.",
+        "isCorrect": false,
+        "explanation": "La sección no valida la obstrucción o riesgo."
+      },
+      {
+        "id": 2,
+        "answer": "No, deberá evitarse pasar por delante de cualquier abertura.",
+        "isCorrect": true,
+        "explanation": "Deberá evitarse que los conductores pasen por delante de aberturas en las fachadas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Con permiso del dueño.",
+        "isCorrect": false,
+        "explanation": "Es una restricción de seguridad técnica del diseño."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo con protección UV.",
+        "isCorrect": false,
+        "explanation": "La protección UV no mitiga el riesgo de contacto o interferencia."
+      }
     ]
   },
   {
@@ -1027,10 +2887,30 @@
     "type": "simple",
     "question": "Altura de BT sobre río navegable con gálibo G:",
     "options": [
-      { "id": 1, "answer": "Soterramiento obligatorio.", "isCorrect": false, "explanation": "El cruce aéreo está permitido bajo condiciones." },
-      { "id": 2, "answer": "H = G + 1 m.", "isCorrect": true, "explanation": "La altura mínima sobre el nivel máximo del agua será de G + 1 metro[cite: 1]." },
-      { "id": 3, "answer": "15 metros.", "isCorrect": false, "explanation": "Valor arbitrario no fijado como norma general." },
-      { "id": 4, "answer": "Con boyas.", "isCorrect": false, "explanation": "La señalización no sustituye al gálibo de altura." }
+      {
+        "id": 1,
+        "answer": "Soterramiento obligatorio.",
+        "isCorrect": false,
+        "explanation": "El cruce aéreo está permitido bajo condiciones."
+      },
+      {
+        "id": 2,
+        "answer": "H = G + 1 m.",
+        "isCorrect": true,
+        "explanation": "La altura mínima sobre el nivel máximo del agua será de G + 1 metro[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "15 metros.",
+        "isCorrect": false,
+        "explanation": "Valor arbitrario no fijado como norma general."
+      },
+      {
+        "id": 4,
+        "answer": "Con boyas.",
+        "isCorrect": false,
+        "explanation": "La señalización no sustituye al gálibo de altura."
+      }
     ]
   },
   {
@@ -1038,10 +2918,30 @@
     "type": "simple",
     "question": "En ángulos fuertes, ¿cómo se fija el desnudo al aislador?",
     "options": [
-      { "id": 1, "answer": "Solo bridas metálicas.", "isCorrect": false, "explanation": "No ofrecen el aislamiento eléctrico necesario." },
-      { "id": 2, "answer": "En la cabeza superior.", "isCorrect": false, "explanation": "La garganta lateral ofrece mejor sujeción mecánica en ángulos." },
-      { "id": 3, "answer": "En la garganta lateral, tirando hacia el aislador.", "isCorrect": true, "explanation": "Se fijará de forma que el esfuerzo mecánico apriete el cable contra el aislador[cite: 1]." },
-      { "id": 4, "answer": "Empalme soldado.", "isCorrect": false, "explanation": "Prohibido expresamente por la norma." }
+      {
+        "id": 1,
+        "answer": "Solo bridas metálicas.",
+        "isCorrect": false,
+        "explanation": "No ofrecen el aislamiento eléctrico necesario."
+      },
+      {
+        "id": 2,
+        "answer": "En la cabeza superior.",
+        "isCorrect": false,
+        "explanation": "La garganta lateral ofrece mejor sujeción mecánica en ángulos."
+      },
+      {
+        "id": 3,
+        "answer": "En la garganta lateral, tirando hacia el aislador.",
+        "isCorrect": true,
+        "explanation": "Se fijará de forma que el esfuerzo mecánico apriete el cable contra el aislador[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Empalme soldado.",
+        "isCorrect": false,
+        "explanation": "Prohibido expresamente por la norma."
+      }
     ]
   },
   {
@@ -1049,10 +2949,30 @@
     "type": "simple",
     "question": "El 'desequilibrio de tracciones' debe dimensionarse especialmente en:",
     "options": [
-      { "id": 1, "answer": "Cables posados.", "isCorrect": false, "explanation": "Los cables posados no están sometidos a tracción de vano." },
-      { "id": 2, "answer": "Cimentaciones de centros.", "isCorrect": false, "explanation": "No es una carga directa de esta instrucción." },
-      { "id": 3, "answer": "Apoyos de alineación, ángulo y estrellamiento.", "isCorrect": true, "explanation": "Estos apoyos deben calcularse para soportar esfuerzos por desequilibrio de tracciones[cite: 1]." },
-      { "id": 4, "answer": "Contadores.", "isCorrect": false, "explanation": "Equipos de medida ajenos al esfuerzo mecánico de la red." }
+      {
+        "id": 1,
+        "answer": "Cables posados.",
+        "isCorrect": false,
+        "explanation": "Los cables posados no están sometidos a tracción de vano."
+      },
+      {
+        "id": 2,
+        "answer": "Cimentaciones de centros.",
+        "isCorrect": false,
+        "explanation": "No es una carga directa de esta instrucción."
+      },
+      {
+        "id": 3,
+        "answer": "Apoyos de alineación, ángulo y estrellamiento.",
+        "isCorrect": true,
+        "explanation": "Estos apoyos deben calcularse para soportar esfuerzos por desequilibrio de tracciones[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Contadores.",
+        "isCorrect": false,
+        "explanation": "Equipos de medida ajenos al esfuerzo mecánico de la red."
+      }
     ]
   },
   {
@@ -1060,10 +2980,30 @@
     "type": "simple",
     "question": "Las cimentaciones monolíticas de hormigón se prescriben para:",
     "options": [
-      { "id": 1, "answer": "Cuadros en fachada.", "isCorrect": false, "explanation": "Se anclan a la pared, no requieren cimentación de este tipo." },
-      { "id": 2, "answer": "Postes de hormigón.", "isCorrect": true, "explanation": "Los postes de hormigón se colocarán obligatoriamente en cimentaciones monolíticas de hormigón[cite: 1]." },
-      { "id": 3, "answer": "Postes de madera.", "isCorrect": false, "explanation": "Su empotramiento en hormigón está expresamente prohibido." },
-      { "id": 4, "answer": "Apoyos metálicos.", "isCorrect": false, "explanation": "Aunque pueden usarlas, la especificación monolítica destaca para los de hormigón." }
+      {
+        "id": 1,
+        "answer": "Cuadros en fachada.",
+        "isCorrect": false,
+        "explanation": "Se anclan a la pared, no requieren cimentación de este tipo."
+      },
+      {
+        "id": 2,
+        "answer": "Postes de hormigón.",
+        "isCorrect": true,
+        "explanation": "Los postes de hormigón se colocarán obligatoriamente en cimentaciones monolíticas de hormigón[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Postes de madera.",
+        "isCorrect": false,
+        "explanation": "Su empotramiento en hormigón está expresamente prohibido."
+      },
+      {
+        "id": 4,
+        "answer": "Apoyos metálicos.",
+        "isCorrect": false,
+        "explanation": "Aunque pueden usarlas, la especificación monolítica destaca para los de hormigón."
+      }
     ]
   },
   {
@@ -1071,10 +3011,30 @@
     "type": "simple",
     "question": "¿Cuándo pueden despreciarse las cargas permanentes de una línea aérea?",
     "options": [
-      { "id": 1, "answer": "Si transcurre por parque.", "isCorrect": false, "explanation": "La ubicación no altera el cálculo de cargas físicas." },
-      { "id": 2, "answer": "En apoyos de madera.", "isCorrect": false, "explanation": "Deben calcularse independientemente del material del soporte." },
-      { "id": 3, "answer": "Cuando los vanos sean inferiores a 15 metros.", "isCorrect": true, "explanation": "En vanos < 15 m su influencia es mínima y puede prescindirse de ellas[cite: 1]." },
-      { "id": 4, "answer": "Si es en Zona A.", "isCorrect": false, "explanation": "Aplica a cualquier zona si el vano es corto." }
+      {
+        "id": 1,
+        "answer": "Si transcurre por parque.",
+        "isCorrect": false,
+        "explanation": "La ubicación no altera el cálculo de cargas físicas."
+      },
+      {
+        "id": 2,
+        "answer": "En apoyos de madera.",
+        "isCorrect": false,
+        "explanation": "Deben calcularse independientemente del material del soporte."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando los vanos sean inferiores a 15 metros.",
+        "isCorrect": true,
+        "explanation": "En vanos < 15 m su influencia es mínima y puede prescindirse de ellas[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Si es en Zona A.",
+        "isCorrect": false,
+        "explanation": "Aplica a cualquier zona si el vano es corto."
+      }
     ]
   },
   {
@@ -1082,10 +3042,30 @@
     "type": "simple",
     "question": "Altura al suelo de desnudos en zonas con circulación rodada:",
     "options": [
-      { "id": 1, "answer": "4 m.", "isCorrect": false, "explanation": "Altura para conductores aislados sin circulación rodada." },
-      { "id": 2, "answer": "5 m.", "isCorrect": false, "explanation": "Altura para conductores desnudos fuera de zonas de rodadura." },
-      { "id": 3, "answer": "6 m.", "isCorrect": true, "explanation": "Debe mantenerse una distancia mínima de 6 m en zonas de posible circulación rodada[cite: 1]." },
-      { "id": 4, "answer": "8 m.", "isCorrect": false, "explanation": "Superior al requerimiento mínimo de seguridad exigido." }
+      {
+        "id": 1,
+        "answer": "4 m.",
+        "isCorrect": false,
+        "explanation": "Altura para conductores aislados sin circulación rodada."
+      },
+      {
+        "id": 2,
+        "answer": "5 m.",
+        "isCorrect": false,
+        "explanation": "Altura para conductores desnudos fuera de zonas de rodadura."
+      },
+      {
+        "id": 3,
+        "answer": "6 m.",
+        "isCorrect": true,
+        "explanation": "Debe mantenerse una distancia mínima de 6 m en zonas de posible circulación rodada[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "8 m.",
+        "isCorrect": false,
+        "explanation": "Superior al requerimiento mínimo de seguridad exigido."
+      }
     ]
   },
   {
@@ -1093,10 +3073,30 @@
     "type": "simple",
     "question": "En un vano de 30 metros, ¿cuál es la separación entre desnudos?",
     "options": [
-      { "id": 1, "answer": "0,10 metros.", "isCorrect": false, "explanation": "Para vanos de longitud inferior a 4 m." },
-      { "id": 2, "answer": "0,15 metros.", "isCorrect": false, "explanation": "Para vanos entre 4 y 6 metros." },
-      { "id": 3, "answer": "0,20 metros.", "isCorrect": true, "explanation": "Para vanos de 6 a 30 metros la separación mínima requerida es de 0,20 metros[cite: 1]." },
-      { "id": 4, "answer": "0,30 metros.", "isCorrect": false, "explanation": "Aplica para vanos mayores de 30 metros." }
+      {
+        "id": 1,
+        "answer": "0,10 metros.",
+        "isCorrect": false,
+        "explanation": "Para vanos de longitud inferior a 4 m."
+      },
+      {
+        "id": 2,
+        "answer": "0,15 metros.",
+        "isCorrect": false,
+        "explanation": "Para vanos entre 4 y 6 metros."
+      },
+      {
+        "id": 3,
+        "answer": "0,20 metros.",
+        "isCorrect": true,
+        "explanation": "Para vanos de 6 a 30 metros la separación mínima requerida es de 0,20 metros[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "0,30 metros.",
+        "isCorrect": false,
+        "explanation": "Aplica para vanos mayores de 30 metros."
+      }
     ]
   }
 ]

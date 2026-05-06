@@ -2,23 +2,63 @@
   {
     "id": "ITC-BT-05-01",
     "type": "simple",
-    "question": "Según la ITC-BT-05, ¿cuándo se emite una calificación de inspección 'Negativa'?",
+    "question": "¿Cuándo se emite una calificación de inspección 'Negativa'?",
     "options": [
-      { "id": 1, "answer": "Cuando la instalación acumula más de tres defectos leves.", "isCorrect": false, "explanation": "La norma no indica que tres defectos leves den lugar a una calificación negativa automática de este tipo." },
-      { "id": 2, "answer": "Cuando se observe, al menos, un defecto muy grave.", "isCorrect": true, "explanation": "El apartado 5.2.3 especifica textualmente: 'Negativa: Cuando se observe, al menos, un defecto muy grave'[cite: 1]." },
-      { "id": 3, "answer": "Cuando la instalación no disponga de manual de instrucciones.", "isCorrect": false, "explanation": "Esta condición no se menciona en los criterios para calificación negativa en la ITC-BT-05." },
-      { "id": 4, "answer": "Cuando el titular rechace pagar las tasas de inspección.", "isCorrect": false, "explanation": "El reglamento no asocia las tasas con el resultado técnico de la calificación de la instalación." }
+      {
+        "id": 1,
+        "answer": "Cuando la instalación acumula más de tres defectos leves.",
+        "isCorrect": false,
+        "explanation": "La norma no indica que tres defectos leves den lugar a una calificación negativa automática de este tipo."
+      },
+      {
+        "id": 2,
+        "answer": "Cuando se observe, al menos, un defecto muy grave.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-05, el apartado 5.2.3 especifica textualmente: 'Negativa: Cuando se observe, al menos, un defecto muy grave'[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando la instalación no disponga de manual de instrucciones.",
+        "isCorrect": false,
+        "explanation": "Esta condición no se menciona en los criterios para calificación negativa en la ITC-BT-05."
+      },
+      {
+        "id": 4,
+        "answer": "Cuando el titular rechace pagar las tasas de inspección.",
+        "isCorrect": false,
+        "explanation": "El reglamento no asocia las tasas con el resultado técnico de la calificación de la instalación."
+      }
     ]
   },
   {
     "id": "ITC-BT-05-02",
     "type": "simple",
-    "question": "¿Qué consecuencia tiene una calificación 'Negativa' en una instalación NUEVA, según la ITC-BT-05?",
+    "question": "¿Qué consecuencia tiene una calificación 'Negativa' en una instalación NUEVA?",
     "options": [
-      { "id": 1, "answer": "La instalación podrá funcionar provisionalmente durante 30 días.", "isCorrect": false, "explanation": "No se permite el funcionamiento provisional bajo una calificación negativa." },
-      { "id": 2, "answer": "El instalador perderá su habilitación automáticamente.", "isCorrect": false, "explanation": "La ITC-BT-05 no contempla sanciones directas de inhabilitación en este apartado." },
-      { "id": 3, "answer": "Las nuevas instalaciones no podrán entrar en servicio, en tanto no se hayan corregido los defectos y obtengan calificación favorable.", "isCorrect": true, "explanation": "El apartado 5.2.3 a) establece explícitamente que no podrán entrar en servicio hasta obtener la calificación favorable[cite: 1]." },
-      { "id": 4, "answer": "Se deberá redactar un nuevo Proyecto eléctrico obligatoriamente.", "isCorrect": false, "explanation": "Se exige corregir los defectos, no necesariamente rehacer todo el diseño del proyecto." }
+      {
+        "id": 1,
+        "answer": "La instalación podrá funcionar provisionalmente durante 30 días.",
+        "isCorrect": false,
+        "explanation": "No se permite el funcionamiento provisional bajo una calificación negativa."
+      },
+      {
+        "id": 2,
+        "answer": "El instalador perderá su habilitación automáticamente.",
+        "isCorrect": false,
+        "explanation": "La ITC-BT-05 no contempla sanciones directas de inhabilitación en este apartado."
+      },
+      {
+        "id": 3,
+        "answer": "Las nuevas instalaciones no podrán entrar en servicio, en tanto no se hayan corregido los defectos y obtengan calificación favorable.",
+        "isCorrect": true,
+        "explanation": "Según , según la ITC-BT-05, el apartado 5.2.3 a) establece explícitamente que no podrán entrar en servicio hasta obtener la calificación favorable[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Se deberá redactar un nuevo Proyecto eléctrico obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "Se exige corregir los defectos, no necesariamente rehacer todo el diseño del proyecto."
+      }
     ]
   },
   {
@@ -26,10 +66,30 @@
     "type": "simple",
     "question": "Si una instalación YA EN SERVICIO recibe una calificación 'Negativa' en su inspección, ¿cuál es el procedimiento?",
     "options": [
-      { "id": 1, "answer": "Se cortará el suministro eléctrico de forma inmediata e irrevocable.", "isCorrect": false, "explanation": "El inspector no realiza el corte inmediato, sino que emite el certificado para el Órgano competente." },
-      { "id": 2, "answer": "Se le emitirá Certificado negativo, que se remitirá inmediatamente al Órgano competente de la Comunidad Autónoma.", "isCorrect": true, "explanation": "Así lo establece literalmente el apartado 5.2.3 b) de la ITC-BT-05[cite: 1]." },
-      { "id": 3, "answer": "Se otorgará un plazo de gracia de seis meses para subsanar los errores sin notificar.", "isCorrect": false, "explanation": "El certificado negativo debe remitirse 'inmediatamente' a las autoridades." },
-      { "id": 4, "answer": "El Organismo de Control reparará el defecto durante la misma visita.", "isCorrect": false, "explanation": "Los Organismos de Control tienen prohibido realizar reparaciones o instalaciones." }
+      {
+        "id": 1,
+        "answer": "Se cortará el suministro eléctrico de forma inmediata e irrevocable.",
+        "isCorrect": false,
+        "explanation": "El inspector no realiza el corte inmediato, sino que emite el certificado para el Órgano competente."
+      },
+      {
+        "id": 2,
+        "answer": "Se le emitirá Certificado negativo, que se remitirá inmediatamente al Órgano competente de la Comunidad Autónoma.",
+        "isCorrect": true,
+        "explanation": "Así lo establece literalmente el apartado 5.2.3 b) de la ITC-BT-05[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Se otorgará un plazo de gracia de seis meses para subsanar los errores sin notificar.",
+        "isCorrect": false,
+        "explanation": "El certificado negativo debe remitirse 'inmediatamente' a las autoridades."
+      },
+      {
+        "id": 4,
+        "answer": "El Organismo de Control reparará el defecto durante la misma visita.",
+        "isCorrect": false,
+        "explanation": "Los Organismos de Control tienen prohibido realizar reparaciones o instalaciones."
+      }
     ]
   },
   {
@@ -37,21 +97,61 @@
     "type": "simple",
     "question": "De acuerdo con el apartado 6 de la ITC-BT-05, ¿cómo se clasifican los defectos en las instalaciones?",
     "options": [
-      { "id": 1, "answer": "Críticos, Mayores y Menores.", "isCorrect": false, "explanation": "Es una terminología ajena a la clasificación del REBT." },
-      { "id": 2, "answer": "Defectos de diseño, de ejecución y de mantenimiento.", "isCorrect": false, "explanation": "La clasificación reglamentaria no se basa en el origen del error de esta forma." },
-      { "id": 3, "answer": "Defectos penalizables y defectos subsanables.", "isCorrect": false, "explanation": "No es la terminología técnica utilizada por la instrucción." },
-      { "id": 4, "answer": "Defectos muy graves, defectos graves y defectos leves.", "isCorrect": true, "explanation": "El apartado 6 'Clasificación de defectos' los divide explícitamente en estas tres categorías[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "Críticos, Mayores y Menores.",
+        "isCorrect": false,
+        "explanation": "Es una terminología ajena a la clasificación del REBT."
+      },
+      {
+        "id": 2,
+        "answer": "Defectos de diseño, de ejecución y de mantenimiento.",
+        "isCorrect": false,
+        "explanation": "La clasificación reglamentaria no se basa en el origen del error de esta forma."
+      },
+      {
+        "id": 3,
+        "answer": "Defectos penalizables y defectos subsanables.",
+        "isCorrect": false,
+        "explanation": "No es la terminología técnica utilizada por la instrucción."
+      },
+      {
+        "id": 4,
+        "answer": "Defectos muy graves, defectos graves y defectos leves.",
+        "isCorrect": true,
+        "explanation": "El apartado 6 'Clasificación de defectos' los divide explícitamente en estas tres categorías[cite: 1]."
+      }
     ]
   },
   {
     "id": "ITC-BT-05-05",
     "type": "simple",
-    "question": "En lo referido a los conductores, ¿qué situación se considera un defecto según la ITC-BT-05?",
+    "question": "En lo referido a los conductores, ¿qué situación se considera un defecto?",
     "options": [
-      { "id": 1, "answer": "Utilizar conductores de aislamiento libre de halógenos.", "isCorrect": false, "explanation": "Estos cables son obligatorios en muchos casos por seguridad." },
-      { "id": 2, "answer": "La naturaleza o características no adecuadas de los conductores utilizados.", "isCorrect": true, "explanation": "Se enuncia textualmente en el listado de defectos de la ITC-BT-05[cite: 1]." },
-      { "id": 3, "answer": "Usar conductores de cobre rígido en lugar de flexible.", "isCorrect": false, "explanation": "El REBT admite conductores rígidos según la ubicación e instalación." },
-      { "id": 4, "answer": "Instalar conductores de sección superior a la calculada.", "isCorrect": false, "explanation": "Sobredimensionar por seguridad no constituye un defecto reglamentario." }
+      {
+        "id": 1,
+        "answer": "Utilizar conductores de aislamiento libre de halógenos.",
+        "isCorrect": false,
+        "explanation": "Estos cables son obligatorios en muchos casos por seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "La naturaleza o características no adecuadas de los conductores utilizados.",
+        "isCorrect": true,
+        "explanation": "Se enuncia textualmente en el listado de defectos de la ITC-BT-05[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Usar conductores de cobre rígido en lugar de flexible.",
+        "isCorrect": false,
+        "explanation": "El REBT admite conductores rígidos según la ubicación e instalación."
+      },
+      {
+        "id": 4,
+        "answer": "Instalar conductores de sección superior a la calculada.",
+        "isCorrect": false,
+        "explanation": "Sobredimensionar por seguridad no constituye un defecto reglamentario."
+      }
     ]
   },
   {
@@ -59,10 +159,30 @@
     "type": "simple",
     "question": "En relación a la caída de tensión, ¿qué circunstancia está tipificada como defecto?",
     "options": [
-      { "id": 1, "answer": "La falta de sección de los conductores, en relación con las caídas de tensión admisibles.", "isCorrect": true, "explanation": "Aparece listado literalmente como un defecto técnico en la instrucción[cite: 1]." },
-      { "id": 2, "answer": "Que todos los circuitos de una vivienda tengan la misma sección.", "isCorrect": false, "explanation": "El defecto es la insuficiencia de sección, no la uniformidad si cumplen el mínimo." },
-      { "id": 3, "answer": "Instalar líneas generales de alimentación de más de 50 metros.", "isCorrect": false, "explanation": "No hay límite de longitud siempre que se cumplan las caídas de tensión y protecciones." },
-      { "id": 4, "answer": "Que la sección del neutro sea exactamente igual a la de las fases.", "isCorrect": false, "explanation": "El neutro igual a la fase es normativo en la mayoría de secciones de baja tensión." }
+      {
+        "id": 1,
+        "answer": "La falta de sección de los conductores, en relación con las caídas de tensión admisibles.",
+        "isCorrect": true,
+        "explanation": "Aparece listado literalmente como un defecto técnico en la instrucción[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Que todos los circuitos de una vivienda tengan la misma sección.",
+        "isCorrect": false,
+        "explanation": "El defecto es la insuficiencia de sección, no la uniformidad si cumplen el mínimo."
+      },
+      {
+        "id": 3,
+        "answer": "Instalar líneas generales de alimentación de más de 50 metros.",
+        "isCorrect": false,
+        "explanation": "No hay límite de longitud siempre que se cumplan las caídas de tensión y protecciones."
+      },
+      {
+        "id": 4,
+        "answer": "Que la sección del neutro sea exactamente igual a la de las fases.",
+        "isCorrect": false,
+        "explanation": "El neutro igual a la fase es normativo en la mayoría de secciones de baja tensión."
+      }
     ]
   },
   {
@@ -70,10 +190,30 @@
     "type": "simple",
     "question": "Respecto a la identificación del cableado, la ITC-BT-05 considera defecto:",
     "options": [
-      { "id": 1, "answer": "No etiquetar cada cable con su número de circuito.", "isCorrect": false, "explanation": "La norma exige identificar funciones específicas, no numeración individual obligatoria." },
-      { "id": 2, "answer": "Utilizar colores diferentes al negro, marrón o gris para las fases.", "isCorrect": false, "explanation": "Aunque existen colores recomendados, el listado de defectos se enfoca en neutro y tierra." },
-      { "id": 3, "answer": "La falta de identificación de los conductores 'neutro' y 'de protección'.", "isCorrect": true, "explanation": "El texto cita específicamente la falta de identificación de estos conductores como defecto[cite: 1]." },
-      { "id": 4, "answer": "No rotular el cuadro eléctrico.", "isCorrect": false, "explanation": "Es obligatorio, pero el listado de defectos de la ITC-05 resalta la identificación física de los conductores." }
+      {
+        "id": 1,
+        "answer": "No etiquetar cada cable con su número de circuito.",
+        "isCorrect": false,
+        "explanation": "La norma exige identificar funciones específicas, no numeración individual obligatoria."
+      },
+      {
+        "id": 2,
+        "answer": "Utilizar colores diferentes al negro, marrón o gris para las fases.",
+        "isCorrect": false,
+        "explanation": "Aunque existen colores recomendados, el listado de defectos se enfoca en neutro y tierra."
+      },
+      {
+        "id": 3,
+        "answer": "La falta de identificación de los conductores 'neutro' y 'de protección'.",
+        "isCorrect": true,
+        "explanation": "El texto cita específicamente la falta de identificación de estos conductores como defecto[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "No rotular el cuadro eléctrico.",
+        "isCorrect": false,
+        "explanation": "Es obligatorio, pero el listado de defectos de la ITC-05 resalta la identificación física de los conductores."
+      }
     ]
   },
   {
@@ -81,10 +221,30 @@
     "type": "simple",
     "question": "¿Qué indica la ITC-BT-05 sobre el material eléctrico empleado?",
     "options": [
-      { "id": 1, "answer": "Debe ser íntegramente de fabricación europea.", "isCorrect": false, "explanation": "Se exige cumplimiento de normativa (como marcado CE), no lugar de fabricación." },
-      { "id": 2, "answer": "Constituye defecto el empleo de materiales o aparatos que no se ajusten a las especificaciones.", "isCorrect": true, "explanation": "Se incluye en el listado explícito de defectos del reglamento[cite: 1]." },
-      { "id": 3, "answer": "Está prohibido el uso de material de clase II.", "isCorrect": false, "explanation": "El material Clase II está permitido y es común en instalaciones de baja tensión." },
-      { "id": 4, "answer": "Sólo se permite la instalación de receptores que figuren en la MTD original.", "isCorrect": false, "explanation": "Se pueden añadir equipos si la instalación está dimensionada correctamente para ellos." }
+      {
+        "id": 1,
+        "answer": "Debe ser íntegramente de fabricación europea.",
+        "isCorrect": false,
+        "explanation": "Se exige cumplimiento de normativa (como marcado CE), no lugar de fabricación."
+      },
+      {
+        "id": 2,
+        "answer": "Constituye defecto el empleo de materiales o aparatos que no se ajusten a las especificaciones.",
+        "isCorrect": true,
+        "explanation": "Se incluye en el listado explícito de defectos del reglamento[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Está prohibido el uso de material de clase II.",
+        "isCorrect": false,
+        "explanation": "El material Clase II está permitido y es común en instalaciones de baja tensión."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo se permite la instalación de receptores que figuren en la MTD original.",
+        "isCorrect": false,
+        "explanation": "Se pueden añadir equipos si la instalación está dimensionada correctamente para ellos."
+      }
     ]
   },
   {
@@ -92,10 +252,30 @@
     "type": "simple",
     "question": "¿Cómo contempla la ITC-BT-05 las ampliaciones de una instalación existente?",
     "options": [
-      { "id": 1, "answer": "Considera un defecto las que no se hubieran tramitado según la ITC-BT-04.", "isCorrect": true, "explanation": "Es un defecto administrativo y técnico recogido textualmente en la instrucción[cite: 1]." },
-      { "id": 2, "answer": "Prohíbe cualquier ampliación que supere los 50 kW.", "isCorrect": false, "explanation": "Las ampliaciones de esa potencia se pueden realizar mediante Proyecto." },
-      { "id": 3, "answer": "Permite ampliaciones sin límite siempre que no se cambie la CGP.", "isCorrect": false, "explanation": "Cualquier modificación debe ser tramitada y adecuada técnicamente." },
-      { "id": 4, "answer": "Obliga a que sean ejecutadas por la misma empresa original.", "isCorrect": false, "explanation": "Cualquier empresa instaladora habilitada puede realizar modificaciones." }
+      {
+        "id": 1,
+        "answer": "Considera un defecto las que no se hubieran tramitado según la ITC-BT-04.",
+        "isCorrect": true,
+        "explanation": "Es un defecto administrativo y técnico recogido textualmente en la instrucción[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Prohíbe cualquier ampliación que supere los 50 kW.",
+        "isCorrect": false,
+        "explanation": "Las ampliaciones de esa potencia se pueden realizar mediante Proyecto."
+      },
+      {
+        "id": 3,
+        "answer": "Permite ampliaciones sin límite siempre que no se cambie la CGP.",
+        "isCorrect": false,
+        "explanation": "Cualquier modificación debe ser tramitada y adecuada técnicamente."
+      },
+      {
+        "id": 4,
+        "answer": "Obliga a que sean ejecutadas por la misma empresa original.",
+        "isCorrect": false,
+        "explanation": "Cualquier empresa instaladora habilitada puede realizar modificaciones."
+      }
     ]
   },
   {
@@ -103,10 +283,30 @@
     "type": "simple",
     "question": "En lo relativo a la distribución de circuitos, la ITC-BT-05 establece como defecto:",
     "options": [
-      { "id": 1, "answer": "Agrupar varios enchufes en la misma pared.", "isCorrect": false, "explanation": "Es una práctica permitida mediante bases múltiples." },
-      { "id": 2, "answer": "La carencia del número de circuitos mínimos estipulados.", "isCorrect": true, "explanation": "El reglamento cita la falta de circuitos mínimos como un defecto de diseño y ejecución[cite: 1]." },
-      { "id": 3, "answer": "Utilizar tubos de 20 mm para iluminación.", "isCorrect": false, "explanation": "El tubo de 20 mm cumple y supera el diámetro mínimo exigido." },
-      { "id": 4, "answer": "Instalar un único cuadro de mando y protección por vivienda.", "isCorrect": false, "explanation": "Es la configuración estándar para la mayoría de las viviendas." }
+      {
+        "id": 1,
+        "answer": "Agrupar varios enchufes en la misma pared.",
+        "isCorrect": false,
+        "explanation": "Es una práctica permitida mediante bases múltiples."
+      },
+      {
+        "id": 2,
+        "answer": "La carencia del número de circuitos mínimos estipulados.",
+        "isCorrect": true,
+        "explanation": "El reglamento cita la falta de circuitos mínimos como un defecto de diseño y ejecución[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Utilizar tubos de 20 mm para iluminación.",
+        "isCorrect": false,
+        "explanation": "El tubo de 20 mm cumple y supera el diámetro mínimo exigido."
+      },
+      {
+        "id": 4,
+        "answer": "Instalar un único cuadro de mando y protección por vivienda.",
+        "isCorrect": false,
+        "explanation": "Es la configuración estándar para la mayoría de las viviendas."
+      }
     ]
   },
   {
@@ -114,10 +314,30 @@
     "type": "simple",
     "question": "¿Qué tratamiento recibe la acumulación de problemas de menor importancia?",
     "options": [
-      { "id": 1, "answer": "Si son menores, no se tienen en cuenta para el acta final.", "isCorrect": false, "explanation": "La normativa obliga a registrarlos." },
-      { "id": 2, "answer": "Se sancionan con multas económicas inmediatas.", "isCorrect": false, "explanation": "Las sanciones económicas no son parte de la calificación técnica de inspección." },
-      { "id": 3, "answer": "Se cataloga como defecto 'La sucesiva reiteración o acumulación de defectos leves'.", "isCorrect": true, "explanation": "La reiteración de fallos leves puede agravar la calificación final de la instalación[cite: 1]." },
-      { "id": 4, "answer": "El inspector debe corregirlos personalmente.", "isCorrect": false, "explanation": "El inspector solo tiene funciones de verificación, nunca de ejecución." }
+      {
+        "id": 1,
+        "answer": "Si son menores, no se tienen en cuenta para el acta final.",
+        "isCorrect": false,
+        "explanation": "La normativa obliga a registrarlos."
+      },
+      {
+        "id": 2,
+        "answer": "Se sancionan con multas económicas inmediatas.",
+        "isCorrect": false,
+        "explanation": "Las sanciones económicas no son parte de la calificación técnica de inspección."
+      },
+      {
+        "id": 3,
+        "answer": "Se cataloga como defecto 'La sucesiva reiteración o acumulación de defectos leves'.",
+        "isCorrect": true,
+        "explanation": "La reiteración de fallos leves puede agravar la calificación final de la instalación[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "El inspector debe corregirlos personalmente.",
+        "isCorrect": false,
+        "explanation": "El inspector solo tiene funciones de verificación, nunca de ejecución."
+      }
     ]
   },
   {
@@ -125,10 +345,30 @@
     "type": "simple",
     "question": "Según el apartado 6.3, ¿cómo se define un 'Defecto Leve'?",
     "options": [
-      { "id": 1, "answer": "Aquel que provoca caídas esporádicas del interruptor automático.", "isCorrect": false, "explanation": "Si perturba el funcionamiento, no es considerado leve." },
-      { "id": 2, "answer": "Todo aquel que no supone peligro, no perturba el funcionamiento y cuya desviación no es significativa.", "isCorrect": true, "explanation": "Es la definición literal establecida en el apartado 6.3 de la ITC-BT-05[cite: 1]." },
-      { "id": 3, "answer": "Cualquier defecto que se pueda reparar en menos de 24 horas.", "isCorrect": false, "explanation": "La gravedad no se mide por el tiempo estimado de reparación." },
-      { "id": 4, "answer": "Una irregularidad exclusiva de los planos o la documentación.", "isCorrect": false, "explanation": "Puede ser un defecto físico menor que no comprometa la seguridad." }
+      {
+        "id": 1,
+        "answer": "Aquel que provoca caídas esporádicas del interruptor automático.",
+        "isCorrect": false,
+        "explanation": "Si perturba el funcionamiento, no es considerado leve."
+      },
+      {
+        "id": 2,
+        "answer": "Todo aquel que no supone peligro, no perturba el funcionamiento y cuya desviación no es significativa.",
+        "isCorrect": true,
+        "explanation": "Es la definición literal establecida en el apartado 6.3 de la ITC-BT-05[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cualquier defecto que se pueda reparar en menos de 24 horas.",
+        "isCorrect": false,
+        "explanation": "La gravedad no se mide por el tiempo estimado de reparación."
+      },
+      {
+        "id": 4,
+        "answer": "Una irregularidad exclusiva de los planos o la documentación.",
+        "isCorrect": false,
+        "explanation": "Puede ser un defecto físico menor que no comprometa la seguridad."
+      }
     ]
   },
   {
@@ -136,10 +376,30 @@
     "type": "simple",
     "question": "¿Quién debe realizar las verificaciones tras finalizar la ejecución de la obra?",
     "options": [
-      { "id": 1, "answer": "El propietario del edificio.", "isCorrect": false, "explanation": "No posee la habilitación técnica requerida." },
-      { "id": 2, "answer": "El fabricante de los equipos.", "isCorrect": false, "explanation": "Su responsabilidad termina en el equipo, no en su integración en la obra." },
-      { "id": 3, "answer": "La empresa distribuidora de energía.", "isCorrect": false, "explanation": "La distribuidora verifica el enlace, pero el instalador es responsable de la instalación interna." },
-      { "id": 4, "answer": "La empresa instaladora.", "isCorrect": true, "explanation": "Según la ITC-BT-05, el instalador debe verificar su propio trabajo al concluirlo[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "El propietario del edificio.",
+        "isCorrect": false,
+        "explanation": "No posee la habilitación técnica requerida."
+      },
+      {
+        "id": 2,
+        "answer": "El fabricante de los equipos.",
+        "isCorrect": false,
+        "explanation": "Su responsabilidad termina en el equipo, no en su integración en la obra."
+      },
+      {
+        "id": 3,
+        "answer": "La empresa distribuidora de energía.",
+        "isCorrect": false,
+        "explanation": "La distribuidora verifica el enlace, pero el instalador es responsable de la instalación interna."
+      },
+      {
+        "id": 4,
+        "answer": "La empresa instaladora.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-05, el instalador debe verificar su propio trabajo al concluirlo[cite: 1]."
+      }
     ]
   },
   {
@@ -147,10 +407,30 @@
     "type": "simple",
     "question": "¿Qué requisito adicional exige la reglamentación para ciertas instalaciones específicas?",
     "options": [
-      { "id": 1, "answer": "Deberán ser objeto de la correspondiente Inspección Inicial por Organismo de Control.", "isCorrect": true, "explanation": "Las instalaciones de mayor riesgo o potencia requieren inspección de un tercero independiente (OCA)[cite: 1]." },
-      { "id": 2, "answer": "Deberán pasar un periodo de prueba de 6 meses desconectadas.", "isCorrect": false, "explanation": "No se requiere tal periodo de inactividad." },
-      { "id": 3, "answer": "Sólo podrán conectarse tras la aprobación del Ministerio.", "isCorrect": false, "explanation": "La gestión es autonómica a través de los registros de industria." },
-      { "id": 4, "answer": "Deberán someterse a ensayos destructivos.", "isCorrect": false, "explanation": "Los ensayos de verificación reglamentaria no deben dañar la instalación." }
+      {
+        "id": 1,
+        "answer": "Deberán ser objeto de la correspondiente Inspección Inicial por Organismo de Control.",
+        "isCorrect": true,
+        "explanation": "Las instalaciones de mayor riesgo o potencia requieren inspección de un tercero independiente (OCA)[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Deberán pasar un periodo de prueba de 6 meses desconectadas.",
+        "isCorrect": false,
+        "explanation": "No se requiere tal periodo de inactividad."
+      },
+      {
+        "id": 3,
+        "answer": "Sólo podrán conectarse tras la aprobación del Ministerio.",
+        "isCorrect": false,
+        "explanation": "La gestión es autonómica a través de los registros de industria."
+      },
+      {
+        "id": 4,
+        "answer": "Deberán someterse a ensayos destructivos.",
+        "isCorrect": false,
+        "explanation": "Los ensayos de verificación reglamentaria no deben dañar la instalación."
+      }
     ]
   }
 ]

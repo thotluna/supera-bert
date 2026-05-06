@@ -2,23 +2,63 @@
   {
     "id": "ITC-BT-11-01",
     "type": "simple",
-    "question": "Según la ITC-BT-11, ¿cómo se define una 'acometida'?",
+    "question": "¿Cómo se define una 'acometida'?",
     "options": [
-      { "id": 1, "answer": "La línea que une el contador con el cuadro general de la vivienda.", "isCorrect": false, "explanation": "Esa es la definición de derivación individual, no de acometida." },
-      { "id": 2, "answer": "La parte de la instalación de la red de distribución que alimenta la CGP.", "isCorrect": true, "explanation": "El apartado 1.1 define la acometida como la parte de la red de distribución que alimenta la caja o cajas generales de protección[cite: 1]." },
-      { "id": 3, "answer": "La red de alta tensión que llega al centro de transformación.", "isCorrect": false, "explanation": "La ITC-BT-11 trata sobre baja tensión y la conexión al usuario." },
-      { "id": 4, "answer": "El cableado interior exclusivo de los garajes.", "isCorrect": false, "explanation": "La acometida pertenece a la red de distribución y precede a la instalación interior del edificio." }
+      {
+        "id": 1,
+        "answer": "La línea que une el contador con el cuadro general de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Esa es la definición de derivación individual, no de acometida."
+      },
+      {
+        "id": 2,
+        "answer": "La parte de la instalación de la red de distribución que alimenta la CGP.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-11, el apartado 1.1 define la acometida como la parte de la red de distribución que alimenta la caja o cajas generales de protección[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "La red de alta tensión que llega al centro de transformación.",
+        "isCorrect": false,
+        "explanation": "La ITC-BT-11 trata sobre baja tensión y la conexión al usuario."
+      },
+      {
+        "id": 4,
+        "answer": "El cableado interior exclusivo de los garajes.",
+        "isCorrect": false,
+        "explanation": "La acometida pertenece a la red de distribución y precede a la instalación interior del edificio."
+      }
     ]
   },
   {
     "id": "ITC-BT-11-02",
     "type": "simple",
-    "question": "Según la Tabla 1, ¿cómo se clasifican las acometidas por su sistema de instalación?",
+    "question": "¿Cómo se clasifican las acometidas por su sistema de instalación?",
     "options": [
-      { "id": 1, "answer": "En primarias, secundarias y terciarias.", "isCorrect": false, "explanation": "Esta clasificación no existe en el reglamento para acometidas." },
-      { "id": 2, "answer": "En de alta, media y baja tensión.", "isCorrect": false, "explanation": "La norma clasifica por sistema físico de instalación, no por nivel de tensión." },
-      { "id": 3, "answer": "En aéreas, subterráneas y mixtas (aero-subterráneas).", "isCorrect": true, "explanation": "La Tabla 1 detalla claramente estos tres sistemas de instalación: Aéreas, Subterráneas y Mixtas[cite: 1]." },
-      { "id": 4, "answer": "En urbanas y rurales.", "isCorrect": false, "explanation": "Aunque el entorno afecte al trazado, no es la clasificación reglamentaria del sistema." }
+      {
+        "id": 1,
+        "answer": "En primarias, secundarias y terciarias.",
+        "isCorrect": false,
+        "explanation": "Esta clasificación no existe en el reglamento para acometidas."
+      },
+      {
+        "id": 2,
+        "answer": "En de alta, media y baja tensión.",
+        "isCorrect": false,
+        "explanation": "La norma clasifica por sistema físico de instalación, no por nivel de tensión."
+      },
+      {
+        "id": 3,
+        "answer": "En aéreas, subterráneas y mixtas (aero-subterráneas).",
+        "isCorrect": true,
+        "explanation": "La Tabla 1 detalla claramente estos tres sistemas de instalación: Aéreas, Subterráneas y Mixtas[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "En urbanas y rurales.",
+        "isCorrect": false,
+        "explanation": "Aunque el entorno afecte al trazado, no es la clasificación reglamentaria del sistema."
+      }
     ]
   },
   {
@@ -26,10 +66,30 @@
     "type": "simple",
     "question": "Dentro de las acometidas aéreas, ¿qué dos modalidades contempla la Tabla 1?",
     "options": [
-      { "id": 1, "answer": "Con entrada y salida, o en derivación.", "isCorrect": false, "explanation": "Estos tipos corresponden a las acometidas subterráneas." },
-      { "id": 2, "answer": "Posada sobre fachada o tensada sobre poste.", "isCorrect": true, "explanation": "La Tabla 1 especifica para las Aéreas los tipos: 'Posada sobre fachada' y 'Tensada sobre poste'[cite: 1]." },
-      { "id": 3, "answer": "Directamente enterrada o entubada.", "isCorrect": false, "explanation": "Enterrar o entubar corresponde a canalizaciones subterráneas." },
-      { "id": 4, "answer": "Abierta o cerrada.", "isCorrect": false, "explanation": "No es una terminología empleada en la tabla de la ITC-BT-11." }
+      {
+        "id": 1,
+        "answer": "Con entrada y salida, o en derivación.",
+        "isCorrect": false,
+        "explanation": "Estos tipos corresponden a las acometidas subterráneas."
+      },
+      {
+        "id": 2,
+        "answer": "Posada sobre fachada o tensada sobre poste.",
+        "isCorrect": true,
+        "explanation": "La Tabla 1 especifica para las Aéreas los tipos: 'Posada sobre fachada' y 'Tensada sobre poste'[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Directamente enterrada o entubada.",
+        "isCorrect": false,
+        "explanation": "Enterrar o entubar corresponde a canalizaciones subterráneas."
+      },
+      {
+        "id": 4,
+        "answer": "Abierta o cerrada.",
+        "isCorrect": false,
+        "explanation": "No es una terminología empleada en la tabla de la ITC-BT-11."
+      }
     ]
   },
   {
@@ -37,10 +97,30 @@
     "type": "simple",
     "question": "En una acometida posada sobre fachada, ¿cómo deben instalarse los cables?",
     "options": [
-      { "id": 1, "answer": "Empotrados directamente bajo el revoque.", "isCorrect": false, "explanation": "La norma habla de cables posados y distanciados, no empotrados." },
-      { "id": 2, "answer": "Distanciados de la pared mediante accesorios apropiados.", "isCorrect": true, "explanation": "El apartado 1.2.1 indica que los cables se instalarán distanciados de la pared con accesorios apropiados[cite: 1]." },
-      { "id": 3, "answer": "Pegados fuertemente con adhesivos de poliuretano.", "isCorrect": false, "explanation": "El reglamento exige fijación con accesorios mecánicos apropiados y distanciamiento." },
-      { "id": 4, "answer": "Colgando libremente a 1 metro de la pared.", "isCorrect": false, "explanation": "Dejarlos colgando libremente no cumple el requisito de fijación con accesorios." }
+      {
+        "id": 1,
+        "answer": "Empotrados directamente bajo el revoque.",
+        "isCorrect": false,
+        "explanation": "La norma habla de cables posados y distanciados, no empotrados."
+      },
+      {
+        "id": 2,
+        "answer": "Distanciados de la pared mediante accesorios apropiados.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 indica que los cables se instalarán distanciados de la pared con accesorios apropiados[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Pegados fuertemente con adhesivos de poliuretano.",
+        "isCorrect": false,
+        "explanation": "El reglamento exige fijación con accesorios mecánicos apropiados y distanciamiento."
+      },
+      {
+        "id": 4,
+        "answer": "Colgando libremente a 1 metro de la pared.",
+        "isCorrect": false,
+        "explanation": "Dejarlos colgando libremente no cumple el requisito de fijación con accesorios."
+      }
     ]
   },
   {
@@ -48,10 +128,30 @@
     "type": "simple",
     "question": "¿Cuál es la tensión asignada que deben tener los cables de acometidas aéreas?",
     "options": [
-      { "id": 1, "answer": "300/500 V.", "isCorrect": false, "explanation": "Nivel de aislamiento insuficiente para una red de distribución exterior." },
-      { "id": 2, "answer": "450/750 V.", "isCorrect": false, "explanation": "Aunque se use en interiores, la acometida exterior exige mayor aislamiento." },
-      { "id": 3, "answer": "0,6/1 kV.", "isCorrect": true, "explanation": "Tanto el apartado 1.2.1 como el 1.2.2 exigen cables aislados de tensión asignada 0,6/1 kV[cite: 1]." },
-      { "id": 4, "answer": "12/20 kV.", "isCorrect": false, "explanation": "Corresponde a cables de media/alta tensión, no de baja tensión." }
+      {
+        "id": 1,
+        "answer": "300/500 V.",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento insuficiente para una red de distribución exterior."
+      },
+      {
+        "id": 2,
+        "answer": "450/750 V.",
+        "isCorrect": false,
+        "explanation": "Aunque se use en interiores, la acometida exterior exige mayor aislamiento."
+      },
+      {
+        "id": 3,
+        "answer": "0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "Tanto el apartado 1.2.1 como el 1.2.2 exigen cables aislados de tensión asignada 0,6/1 kV[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "12/20 kV.",
+        "isCorrect": false,
+        "explanation": "Corresponde a cables de media/alta tensión, no de baja tensión."
+      }
     ]
   },
   {
@@ -59,21 +159,61 @@
     "type": "simple",
     "question": "Si la acometida posada baja de 2,5 m de altura, ¿qué protección exige la norma?",
     "options": [
-      { "id": 1, "answer": "No se permite en ningún caso bajar de 3 metros.", "isCorrect": false, "explanation": "La norma permite bajar de esa altura siempre que se apliquen medidas de protección." },
-      { "id": 2, "answer": "Los cables deben enterrarse inmediatamente.", "isCorrect": false, "explanation": "No se exige enterrarlos, sino protegerlos adecuadamente en superficie." },
-      { "id": 3, "answer": "Deberán protegerse con tubos o canales rígidos específicos.", "isCorrect": true, "explanation": "El apartado 1.2.1 dicta que deben protegerse con tubos o canales rígidos si la altura es inferior a 2,5 m[cite: 1]." },
-      { "id": 4, "answer": "Se debe colocar un cartel de advertencia.", "isCorrect": false, "explanation": "El reglamento exige una barrera física (tubo rígido), no meramente visual." }
+      {
+        "id": 1,
+        "answer": "No se permite en ningún caso bajar de 3 metros.",
+        "isCorrect": false,
+        "explanation": "La norma permite bajar de esa altura siempre que se apliquen medidas de protección."
+      },
+      {
+        "id": 2,
+        "answer": "Los cables deben enterrarse inmediatamente.",
+        "isCorrect": false,
+        "explanation": "No se exige enterrarlos, sino protegerlos adecuadamente en superficie."
+      },
+      {
+        "id": 3,
+        "answer": "Deberán protegerse con tubos o canales rígidos específicos.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 dicta que deben protegerse con tubos o canales rígidos si la altura es inferior a 2,5 m[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Se debe colocar un cartel de advertencia.",
+        "isCorrect": false,
+        "explanation": "El reglamento exige una barrera física (tubo rígido), no meramente visual."
+      }
     ]
   },
   {
     "id": "ITC-BT-11-07",
     "type": "simple",
-    "question": "Según la Tabla 2, ¿cuál debe ser la resistencia al impacto de los tubos de protección?",
+    "question": "¿Cuál debe ser la resistencia al impacto de los tubos de protección?",
     "options": [
-      { "id": 1, "answer": "Muy ligero (1 julio).", "isCorrect": false, "explanation": "No soporta los posibles golpes accidentales en la vía pública." },
-      { "id": 2, "answer": "Ligero (2 julios).", "isCorrect": false, "explanation": "Grado de impacto insuficiente según la normativa técnica." },
-      { "id": 3, "answer": "Fuerte (6 julios).", "isCorrect": true, "explanation": "La Tabla 2 marca específicamente para la resistencia al impacto el grado 'Fuerte (6 julios)'[cite: 1]." },
-      { "id": 4, "answer": "Muy fuerte (20 julios).", "isCorrect": false, "explanation": "Aunque superior, el valor reglamentario estricto exigido es de 6 julios." }
+      {
+        "id": 1,
+        "answer": "Muy ligero (1 julio).",
+        "isCorrect": false,
+        "explanation": "No soporta los posibles golpes accidentales en la vía pública."
+      },
+      {
+        "id": 2,
+        "answer": "Ligero (2 julios).",
+        "isCorrect": false,
+        "explanation": "Grado de impacto insuficiente según la normativa técnica."
+      },
+      {
+        "id": 3,
+        "answer": "Fuerte (6 julios).",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 marca específicamente para la resistencia al impacto el grado 'Fuerte (6 julios)'[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Muy fuerte (20 julios).",
+        "isCorrect": false,
+        "explanation": "Aunque superior, el valor reglamentario estricto exigido es de 6 julios."
+      }
     ]
   },
   {
@@ -81,10 +221,30 @@
     "type": "simple",
     "question": "¿Cuál es el rango de temperatura de servicio que deben soportar estos tubos?",
     "options": [
-      { "id": 1, "answer": "De -5ºC a +40ºC.", "isCorrect": false, "explanation": "El límite superior de temperatura es superior en los requisitos de la tabla." },
-      { "id": 2, "answer": "De -5ºC a +60ºC.", "isCorrect": true, "explanation": "La Tabla 2 marca temperatura mínima de -5ºC y máxima de +60ºC para instalación y servicio[cite: 1]." },
-      { "id": 3, "answer": "De 0ºC a +90ºC.", "isCorrect": false, "explanation": "Valores que no se ajustan a las especificaciones térmicas de la tabla." },
-      { "id": 4, "answer": "De -15ºC a +70ºC.", "isCorrect": false, "explanation": "Valores que no se ajustan a las especificaciones térmicas de la tabla." }
+      {
+        "id": 1,
+        "answer": "De -5ºC a +40ºC.",
+        "isCorrect": false,
+        "explanation": "El límite superior de temperatura es superior en los requisitos de la tabla."
+      },
+      {
+        "id": 2,
+        "answer": "De -5ºC a +60ºC.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 marca temperatura mínima de -5ºC y máxima de +60ºC para instalación y servicio[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "De 0ºC a +90ºC.",
+        "isCorrect": false,
+        "explanation": "Valores que no se ajustan a las especificaciones térmicas de la tabla."
+      },
+      {
+        "id": 4,
+        "answer": "De -15ºC a +70ºC.",
+        "isCorrect": false,
+        "explanation": "Valores que no se ajustan a las especificaciones térmicas de la tabla."
+      }
     ]
   },
   {
@@ -92,10 +252,30 @@
     "type": "simple",
     "question": "¿Qué precaución constructiva se indica para los tubos de protección en fachada?",
     "options": [
-      { "id": 1, "answer": "Rellenar el interior con espuma de poliuretano.", "isCorrect": false, "explanation": "La norma no exige rellenarlos, lo cual dificultaría el mantenimiento de cables." },
-      { "id": 2, "answer": "Tomar medidas para evitar el almacenamiento de agua en ellos.", "isCorrect": true, "explanation": "El apartado 1.2.1 indica que se tomarán medidas para evitar el almacenamiento de agua en estos tubos[cite: 1]." },
-      { "id": 3, "answer": "Pintarlos obligatoriamente de color negro.", "isCorrect": false, "explanation": "No existe un requerimiento normativo sobre el color en este apartado." },
-      { "id": 4, "answer": "Utilizar tubos metálicos sin protección anticorrosión.", "isCorrect": false, "explanation": "La Tabla 2 exige que los conductos metálicos tengan protección contra la corrosión." }
+      {
+        "id": 1,
+        "answer": "Rellenar el interior con espuma de poliuretano.",
+        "isCorrect": false,
+        "explanation": "La norma no exige rellenarlos, lo cual dificultaría el mantenimiento de cables."
+      },
+      {
+        "id": 2,
+        "answer": "Tomar medidas para evitar el almacenamiento de agua en ellos.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 indica que se tomarán medidas para evitar el almacenamiento de agua en estos tubos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Pintarlos obligatoriamente de color negro.",
+        "isCorrect": false,
+        "explanation": "No existe un requerimiento normativo sobre el color en este apartado."
+      },
+      {
+        "id": 4,
+        "answer": "Utilizar tubos metálicos sin protección anticorrosión.",
+        "isCorrect": false,
+        "explanation": "La Tabla 2 exige que los conductos metálicos tengan protección contra la corrosión."
+      }
     ]
   },
   {
@@ -103,10 +283,30 @@
     "type": "simple",
     "question": "En cruce de vía pública aérea, ¿cuál es la altura mínima del cable?",
     "options": [
-      { "id": 1, "answer": "4 m.", "isCorrect": false, "explanation": "Altura insuficiente que permitiría impactos de vehículos de transporte." },
-      { "id": 2, "answer": "5 m.", "isCorrect": false, "explanation": "Valor inferior al límite legal de seguridad establecido." },
-      { "id": 3, "answer": "6 m.", "isCorrect": true, "explanation": "Tanto el apartado 1.2.1 como el 1.2.2 recalcan que la altura mínima no será inferior a 6 m[cite: 1]." },
-      { "id": 4, "answer": "7 m.", "isCorrect": false, "explanation": "Aunque es más seguro, el límite mínimo normativo está fijado en 6 m." }
+      {
+        "id": 1,
+        "answer": "4 m.",
+        "isCorrect": false,
+        "explanation": "Altura insuficiente que permitiría impactos de vehículos de transporte."
+      },
+      {
+        "id": 2,
+        "answer": "5 m.",
+        "isCorrect": false,
+        "explanation": "Valor inferior al límite legal de seguridad establecido."
+      },
+      {
+        "id": 3,
+        "answer": "6 m.",
+        "isCorrect": true,
+        "explanation": "Tanto el apartado 1.2.1 como el 1.2.2 recalcan que la altura mínima no será inferior a 6 m[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "7 m.",
+        "isCorrect": false,
+        "explanation": "Aunque es más seguro, el límite mínimo normativo está fijado en 6 m."
+      }
     ]
   },
   {
@@ -114,10 +314,30 @@
     "type": "simple",
     "question": "¿Qué indica la ITC sobre acometidas aéreas en edificios de interés histórico?",
     "options": [
-      { "id": 1, "answer": "Que son la única opción permitida.", "isCorrect": false, "explanation": "La norma establece precisamente lo contrario por motivos estéticos y de conservación." },
-      { "id": 2, "answer": "Que se tratará de evitar este tipo de acometidas.", "isCorrect": true, "explanation": "El apartado 1.2.1 finaliza indicando que en edificios históricos se tratará de evitar estas acometidas[cite: 1]." },
-      { "id": 3, "answer": "Que deben ser de color mimetizado obligatoriamente.", "isCorrect": false, "explanation": "La prioridad es evitar el sistema posado, no solamente camuflarlo." },
-      { "id": 4, "answer": "Que no aplica el reglamento en estos edificios.", "isCorrect": false, "explanation": "El reglamento es de aplicación general y da directrices específicas para estos casos." }
+      {
+        "id": 1,
+        "answer": "Que son la única opción permitida.",
+        "isCorrect": false,
+        "explanation": "La norma establece precisamente lo contrario por motivos estéticos y de conservación."
+      },
+      {
+        "id": 2,
+        "answer": "Que se tratará de evitar este tipo de acometidas.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 finaliza indicando que en edificios históricos se tratará de evitar estas acometidas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Que deben ser de color mimetizado obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "La prioridad es evitar el sistema posado, no solamente camuflarlo."
+      },
+      {
+        "id": 4,
+        "answer": "Que no aplica el reglamento en estos edificios.",
+        "isCorrect": false,
+        "explanation": "El reglamento es de aplicación general y da directrices específicas para estos casos."
+      }
     ]
   },
   {
@@ -125,10 +345,30 @@
     "type": "simple",
     "question": "¿De qué elementos pueden suspenderse los cables en acometidas sobre postes?",
     "options": [
-      { "id": 1, "answer": "Solamente de la propia tensión del cobre desnudo.", "isCorrect": false, "explanation": "Los cables deben ser aislados y requieren soporte mecánico adicional." },
-      { "id": 2, "answer": "De un cable fiador independiente o un conductor neutro fiador.", "isCorrect": true, "explanation": "Se permite instalarlos suspendidos de un cable fiador independiente o usando un neutro fiador[cite: 1]." },
-      { "id": 3, "answer": "Mediante hilos de nylon trenzado.", "isCorrect": false, "explanation": "El nylon no aporta las garantías mecánicas necesarias para la distribución eléctrica." },
-      { "id": 4, "answer": "Únicamente apoyados en ramas de árboles.", "isCorrect": false, "explanation": "Está prohibido sustentar redes eléctricas en vegetación." }
+      {
+        "id": 1,
+        "answer": "Solamente de la propia tensión del cobre desnudo.",
+        "isCorrect": false,
+        "explanation": "Los cables deben ser aislados y requieren soporte mecánico adicional."
+      },
+      {
+        "id": 2,
+        "answer": "De un cable fiador independiente o un conductor neutro fiador.",
+        "isCorrect": true,
+        "explanation": "Se permite instalarlos suspendidos de un cable fiador independiente o usando un neutro fiador[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Mediante hilos de nylon trenzado.",
+        "isCorrect": false,
+        "explanation": "El nylon no aporta las garantías mecánicas necesarias para la distribución eléctrica."
+      },
+      {
+        "id": 4,
+        "answer": "Únicamente apoyados en ramas de árboles.",
+        "isCorrect": false,
+        "explanation": "Está prohibido sustentar redes eléctricas en vegetación."
+      }
     ]
   },
   {
@@ -136,10 +376,30 @@
     "type": "simple",
     "question": "¿A qué ITC remite la ITC-BT-11 para realizar acometidas subterráneas?",
     "options": [
-      { "id": 1, "answer": "ITC-BT-06.", "isCorrect": false, "explanation": "La ITC-BT-06 rige para redes aéreas, no subterráneas." },
-      { "id": 2, "answer": "ITC-BT-07.", "isCorrect": true, "explanation": "El texto indica que este tipo de instalación se realizará de acuerdo con la ITC-BT-07[cite: 1]." },
-      { "id": 3, "answer": "ITC-BT-08.", "isCorrect": false, "explanation": "Trata sobre sistemas de conexión a tierra y el neutro." },
-      { "id": 4, "answer": "ITC-BT-09.", "isCorrect": false, "explanation": "Regula las instalaciones de alumbrado exterior." }
+      {
+        "id": 1,
+        "answer": "ITC-BT-06.",
+        "isCorrect": false,
+        "explanation": "La ITC-BT-06 rige para redes aéreas, no subterráneas."
+      },
+      {
+        "id": 2,
+        "answer": "ITC-BT-07.",
+        "isCorrect": true,
+        "explanation": "El texto indica que este tipo de instalación se realizará de acuerdo con la ITC-BT-07[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "ITC-BT-08.",
+        "isCorrect": false,
+        "explanation": "Trata sobre sistemas de conexión a tierra y el neutro."
+      },
+      {
+        "id": 4,
+        "answer": "ITC-BT-09.",
+        "isCorrect": false,
+        "explanation": "Regula las instalaciones de alumbrado exterior."
+      }
     ]
   },
   {
@@ -147,10 +407,30 @@
     "type": "simple",
     "question": "¿Cómo se define una acometida 'aero-subterránea'?",
     "options": [
-      { "id": 1, "answer": "La que pasa por el interior de una galería transitable.", "isCorrect": false, "explanation": "Eso describe un tipo de trazado subterráneo, no mixto." },
-      { "id": 2, "answer": "Aquella que cruza un río o cuerpo de agua.", "isCorrect": false, "explanation": "No define la combinación de métodos de instalación aero-subterránea." },
-      { "id": 3, "answer": "Las que se realizan parte en instalación aérea y parte en subterránea.", "isCorrect": true, "explanation": "El apartado 1.2.4 especifica que son las que se realizan parte en aérea y parte en subterránea[cite: 1]." },
-      { "id": 4, "answer": "Las que utilizan un cable de fibra óptica asociado.", "isCorrect": false, "explanation": "No hace referencia a la naturaleza mixta de la canalización de energía." }
+      {
+        "id": 1,
+        "answer": "La que pasa por el interior de una galería transitable.",
+        "isCorrect": false,
+        "explanation": "Eso describe un tipo de trazado subterráneo, no mixto."
+      },
+      {
+        "id": 2,
+        "answer": "Aquella que cruza un río o cuerpo de agua.",
+        "isCorrect": false,
+        "explanation": "No define la combinación de métodos de instalación aero-subterránea."
+      },
+      {
+        "id": 3,
+        "answer": "Las que se realizan parte en instalación aérea y parte en subterránea.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.4 especifica que son las que se realizan parte en aérea y parte en subterránea[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Las que utilizan un cable de fibra óptica asociado.",
+        "isCorrect": false,
+        "explanation": "No hace referencia a la naturaleza mixta de la canalización de energía."
+      }
     ]
   },
   {
@@ -158,10 +438,30 @@
     "type": "simple",
     "question": "En el paso de subterráneo a aéreo, ¿hasta qué altura se protege el cable?",
     "options": [
-      { "id": 1, "answer": "1,5 m.", "isCorrect": false, "explanation": "Altura inferior al mínimo reglamentario de protección mecánica." },
-      { "id": 2, "answer": "2,0 m.", "isCorrect": false, "explanation": "No alcanza el umbral de seguridad exigido en la transición." },
-      { "id": 3, "answer": "2,5 m por encima del nivel del suelo.", "isCorrect": true, "explanation": "El cable irá protegido hasta una altura mínima de 2,5 m mediante un conducto rígido[cite: 1]." },
-      { "id": 4, "answer": "3,0 m.", "isCorrect": false, "explanation": "Aunque es más seguro, el requisito reglamentario mínimo es de 2,5 m." }
+      {
+        "id": 1,
+        "answer": "1,5 m.",
+        "isCorrect": false,
+        "explanation": "Altura inferior al mínimo reglamentario de protección mecánica."
+      },
+      {
+        "id": 2,
+        "answer": "2,0 m.",
+        "isCorrect": false,
+        "explanation": "No alcanza el umbral de seguridad exigido en la transición."
+      },
+      {
+        "id": 3,
+        "answer": "2,5 m por encima del nivel del suelo.",
+        "isCorrect": true,
+        "explanation": "El cable irá protegido hasta una altura mínima de 2,5 m mediante un conducto rígido[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "3,0 m.",
+        "isCorrect": false,
+        "explanation": "Aunque es más seguro, el requisito reglamentario mínimo es de 2,5 m."
+      }
     ]
   },
   {
@@ -169,10 +469,30 @@
     "type": "simple",
     "question": "Con carácter general, ¿cómo se deben elegir los trazados?",
     "options": [
-      { "id": 1, "answer": "Los trazados más largos para evitar empalmes.", "isCorrect": false, "explanation": "Incrementaría la caída de tensión y el coste innecesariamente." },
-      { "id": 2, "answer": "Siguiendo los límites de parcelas en zig-zag.", "isCorrect": false, "explanation": "No cumple con los principios de brevedad y economía del trazado." },
-      { "id": 3, "answer": "Siguiendo los trazados más cortos.", "isCorrect": true, "explanation": "El apartado 1.3 establece que las acometidas se realizarán siguiendo los trazados más cortos[cite: 1]." },
-      { "id": 4, "answer": "Por el tejado de las edificaciones vecinas.", "isCorrect": false, "explanation": "Implicaría servidumbres complejas y riesgos innecesarios." }
+      {
+        "id": 1,
+        "answer": "Los trazados más largos para evitar empalmes.",
+        "isCorrect": false,
+        "explanation": "Incrementaría la caída de tensión y el coste innecesariamente."
+      },
+      {
+        "id": 2,
+        "answer": "Siguiendo los límites de parcelas en zig-zag.",
+        "isCorrect": false,
+        "explanation": "No cumple con los principios de brevedad y economía del trazado."
+      },
+      {
+        "id": 3,
+        "answer": "Siguiendo los trazados más cortos.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.3 establece que las acometidas se realizarán siguiendo los trazados más cortos[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Por el tejado de las edificaciones vecinas.",
+        "isCorrect": false,
+        "explanation": "Implicaría servidumbres complejas y riesgos innecesarios."
+      }
     ]
   },
   {
@@ -180,10 +500,30 @@
     "type": "simple",
     "question": "¿Hasta qué punto se debe mantener el aislamiento de los conductores?",
     "options": [
-      { "id": 1, "answer": "Hasta el muro exterior del edificio únicamente.", "isCorrect": false, "explanation": "Supondría un riesgo de electrocución grave en la entrada." },
-      { "id": 2, "answer": "Hasta el primer empalme subterráneo.", "isCorrect": false, "explanation": "El aislamiento debe mantenerse en toda la red de acometida." },
-      { "id": 3, "answer": "Hasta el cuadro general en el interior.", "isCorrect": false, "explanation": "Ese recorrido corresponde ya a la instalación interior del edificio." },
-      { "id": 4, "answer": "Hasta los elementos de conexión de la CGP.", "isCorrect": true, "explanation": "El apartado 1.3 dicta que el aislamiento se mantendrá hasta los elementos de conexión de la CGP[cite: 1]." }
+      {
+        "id": 1,
+        "answer": "Hasta el muro exterior del edificio únicamente.",
+        "isCorrect": false,
+        "explanation": "Supondría un riesgo de electrocución grave en la entrada."
+      },
+      {
+        "id": 2,
+        "answer": "Hasta el primer empalme subterráneo.",
+        "isCorrect": false,
+        "explanation": "El aislamiento debe mantenerse en toda la red de acometida."
+      },
+      {
+        "id": 3,
+        "answer": "Hasta el cuadro general en el interior.",
+        "isCorrect": false,
+        "explanation": "Ese recorrido corresponde ya a la instalación interior del edificio."
+      },
+      {
+        "id": 4,
+        "answer": "Hasta los elementos de conexión de la CGP.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.3 dicta que el aislamiento se mantendrá hasta los elementos de conexión de la CGP[cite: 1]."
+      }
     ]
   },
   {
@@ -191,10 +531,30 @@
     "type": "simple",
     "question": "¿Por qué tipo de terrenos se evitará el paso de las acometidas?",
     "options": [
-      { "id": 1, "answer": "Terrenos de dominio público.", "isCorrect": false, "explanation": "La norma indica que discurrirá preferentemente por dominio público." },
-      { "id": 2, "answer": "Patios interiores, garajes y jardines privados.", "isCorrect": true, "explanation": "El texto prohíbe expresamente acometidas por patios, garajes o jardines privados[cite: 1]." },
-      { "id": 3, "answer": "Debajo de las aceras municipales.", "isCorrect": false, "explanation": "Las aceras son el lugar habitual de trazado para redes subterráneas." },
-      { "id": 4, "answer": "Fachadas a la calle principal.", "isCorrect": false, "explanation": "Son lugares permitidos para el trazado aéreo de acometidas." }
+      {
+        "id": 1,
+        "answer": "Terrenos de dominio público.",
+        "isCorrect": false,
+        "explanation": "La norma indica que discurrirá preferentemente por dominio público."
+      },
+      {
+        "id": 2,
+        "answer": "Patios interiores, garajes y jardines privados.",
+        "isCorrect": true,
+        "explanation": "El texto prohíbe expresamente acometidas por patios, garajes o jardines privados[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Debajo de las aceras municipales.",
+        "isCorrect": false,
+        "explanation": "Las aceras son el lugar habitual de trazado para redes subterráneas."
+      },
+      {
+        "id": 4,
+        "answer": "Fachadas a la calle principal.",
+        "isCorrect": false,
+        "explanation": "Son lugares permitidos para el trazado aéreo de acometidas."
+      }
     ]
   },
   {
@@ -202,10 +562,30 @@
     "type": "simple",
     "question": "¿Cuántas acometidas se dispondrán por edificio o finca por regla general?",
     "options": [
-      { "id": 1, "answer": "Una sola acometida por edificio o finca.", "isCorrect": true, "explanation": "El apartado 1.3 señala que en general se dispondrá de una sola acometida por edificio[cite: 1]." },
-      { "id": 2, "answer": "Dos acometidas por redundancia.", "isCorrect": false, "explanation": "La redundancia no es un requisito por defecto para suministros estándar." },
-      { "id": 3, "answer": "Una acometida por cada vecino.", "isCorrect": false, "explanation": "Multiplicaría innecesariamente la infraestructura en la vía pública." },
-      { "id": 4, "answer": "Tres acometidas para más de 10 viviendas.", "isCorrect": false, "explanation": "No existe tal regla basada en el número de viviendas para la acometida." }
+      {
+        "id": 1,
+        "answer": "Una sola acometida por edificio o finca.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.3 señala que en general se dispondrá de una sola acometida por edificio[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Dos acometidas por redundancia.",
+        "isCorrect": false,
+        "explanation": "La redundancia no es un requisito por defecto para suministros estándar."
+      },
+      {
+        "id": 3,
+        "answer": "Una acometida por cada vecino.",
+        "isCorrect": false,
+        "explanation": "Multiplicaría innecesariamente la infraestructura en la vía pública."
+      },
+      {
+        "id": 4,
+        "answer": "Tres acometidas para más de 10 viviendas.",
+        "isCorrect": false,
+        "explanation": "No existe tal regla basada en el número de viviendas para la acometida."
+      }
     ]
   },
   {
@@ -213,10 +593,30 @@
     "type": "simple",
     "question": "¿En qué caso se permiten varias acometidas independientes para un edificio?",
     "options": [
-      { "id": 1, "answer": "Nunca, está totalmente prohibido.", "isCorrect": false, "explanation": "El reglamento contempla excepciones explícitas para casos particulares." },
-      { "id": 2, "answer": "Para suministros complementarios o potencias elevadas.", "isCorrect": true, "explanation": "Podrán establecerse para suministros complementarios o características especiales como potencias elevadas[cite: 1]." },
-      { "id": 3, "answer": "Solo cuando el edificio tenga jardines muy amplios.", "isCorrect": false, "explanation": "El tamaño del jardín no es una justificación técnica para doble acometida." },
-      { "id": 4, "answer": "Siempre que el propietario lo solicite.", "isCorrect": false, "explanation": "El número de conexiones está regulado por la ITC y la distribuidora." }
+      {
+        "id": 1,
+        "answer": "Nunca, está totalmente prohibido.",
+        "isCorrect": false,
+        "explanation": "El reglamento contempla excepciones explícitas para casos particulares."
+      },
+      {
+        "id": 2,
+        "answer": "Para suministros complementarios o potencias elevadas.",
+        "isCorrect": true,
+        "explanation": "Podrán establecerse para suministros complementarios o características especiales como potencias elevadas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Solo cuando el edificio tenga jardines muy amplios.",
+        "isCorrect": false,
+        "explanation": "El tamaño del jardín no es una justificación técnica para doble acometida."
+      },
+      {
+        "id": 4,
+        "answer": "Siempre que el propietario lo solicite.",
+        "isCorrect": false,
+        "explanation": "El número de conexiones está regulado por la ITC y la distribuidora."
+      }
     ]
   },
   {
@@ -224,10 +624,30 @@
     "type": "simple",
     "question": "(Caso práctico) Una acometida de fachada baja para entrar a la CGP quedando a 1,8 m del suelo. ¿Qué es obligatorio?",
     "options": [
-      { "id": 1, "answer": "Instalar cable desnudo para disipar calor.", "isCorrect": false, "explanation": "Los cables desnudos están prohibidos en acometidas; deben ser aislados." },
-      { "id": 2, "answer": "Proteger el cable con un tubo o canal rígido.", "isCorrect": true, "explanation": "Al estar a menos de 2,5 m, la norma exige protección con tubos o canales rígidos[cite: 1]." },
-      { "id": 3, "answer": "Enterrar el cable al bajar de los 3 metros.", "isCorrect": false, "explanation": "La norma exige protección con tubo rígido si baja de 2,5 m, no enterrar." },
-      { "id": 4, "answer": "Dejar el cable directamente sobre la pared.", "isCorrect": false, "explanation": "Si está a menos de 2,5 m del suelo requiere protección mecánica adicional obligatoria." }
+      {
+        "id": 1,
+        "answer": "Instalar cable desnudo para disipar calor.",
+        "isCorrect": false,
+        "explanation": "Los cables desnudos están prohibidos en acometidas; deben ser aislados."
+      },
+      {
+        "id": 2,
+        "answer": "Proteger el cable con un tubo o canal rígido.",
+        "isCorrect": true,
+        "explanation": "Al estar a menos de 2,5 m, la norma exige protección con tubos o canales rígidos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Enterrar el cable al bajar de los 3 metros.",
+        "isCorrect": false,
+        "explanation": "La norma exige protección con tubo rígido si baja de 2,5 m, no enterrar."
+      },
+      {
+        "id": 4,
+        "answer": "Dejar el cable directamente sobre la pared.",
+        "isCorrect": false,
+        "explanation": "Si está a menos de 2,5 m del suelo requiere protección mecánica adicional obligatoria."
+      }
     ]
   },
   {
@@ -235,10 +655,30 @@
     "type": "simple",
     "question": "(Caso práctico) En el cruce de una carretera, el punto más bajo del cable queda a 5,5 m. ¿Es correcto?",
     "options": [
-      { "id": 1, "answer": "Sí, supera los 5 metros de gálibo estándar.", "isCorrect": false, "explanation": "El límite legal de la instrucción es superior a 5 metros para este caso." },
-      { "id": 2, "answer": "No, la altura sobre calles y carreteras no será inferior a 6 m.", "isCorrect": true, "explanation": "La norma establece que en ningún caso la altura sobre calles será inferior a 6 m[cite: 1]." },
-      { "id": 3, "answer": "Sí, si se coloca un cartel reflectante.", "isCorrect": false, "explanation": "La señalización visual no exime de cumplir el gálibo físico de 6 metros." },
-      { "id": 4, "answer": "No, el cable debe ir obligatoriamente bajo tierra.", "isCorrect": false, "explanation": "El reglamento permite cruces aéreos siempre que se respete la altura mínima." }
+      {
+        "id": 1,
+        "answer": "Sí, supera los 5 metros de gálibo estándar.",
+        "isCorrect": false,
+        "explanation": "El límite legal de la instrucción es superior a 5 metros para este caso."
+      },
+      {
+        "id": 2,
+        "answer": "No, la altura sobre calles y carreteras no será inferior a 6 m.",
+        "isCorrect": true,
+        "explanation": "La norma establece que en ningún caso la altura sobre calles será inferior a 6 m[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, si se coloca un cartel reflectante.",
+        "isCorrect": false,
+        "explanation": "La señalización visual no exime de cumplir el gálibo físico de 6 metros."
+      },
+      {
+        "id": 4,
+        "answer": "No, el cable debe ir obligatoriamente bajo tierra.",
+        "isCorrect": false,
+        "explanation": "El reglamento permite cruces aéreos siempre que se respete la altura mínima."
+      }
     ]
   },
   {
@@ -246,10 +686,30 @@
     "type": "simple",
     "question": "(Caso práctico) Se debe elegir el nivel de aislamiento para una acometida aérea. ¿Qué tensión elegir?",
     "options": [
-      { "id": 1, "answer": "300/500 V.", "isCorrect": false, "explanation": "Nivel de aislamiento insuficiente para redes de distribución exterior." },
-      { "id": 2, "answer": "450/750 V.", "isCorrect": false, "explanation": "Se utiliza para instalaciones interiores o tierras, no para acometidas aéreas." },
-      { "id": 3, "answer": "0,6/1 kV.", "isCorrect": true, "explanation": "La norma indica para acometidas aéreas que los cables serán de tensión asignada 0,6/1 kV[cite: 1]." },
-      { "id": 4, "answer": "12/20 kV.", "isCorrect": false, "explanation": "Corresponde a redes de media/alta tensión, ajenas a esta instrucción de BT." }
+      {
+        "id": 1,
+        "answer": "300/500 V.",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento insuficiente para redes de distribución exterior."
+      },
+      {
+        "id": 2,
+        "answer": "450/750 V.",
+        "isCorrect": false,
+        "explanation": "Se utiliza para instalaciones interiores o tierras, no para acometidas aéreas."
+      },
+      {
+        "id": 3,
+        "answer": "0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "La norma indica para acometidas aéreas que los cables serán de tensión asignada 0,6/1 kV[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "12/20 kV.",
+        "isCorrect": false,
+        "explanation": "Corresponde a redes de media/alta tensión, ajenas a esta instrucción de BT."
+      }
     ]
   },
   {
@@ -257,10 +717,30 @@
     "type": "simple",
     "question": "(Caso práctico) Se ofrece un tubo para fachada con resistencia al impacto 'Ligero (2 julios)'. ¿Es válido?",
     "options": [
-      { "id": 1, "answer": "Sí, es suficiente para fachadas sin tráfico.", "isCorrect": false, "explanation": "La norma no distingue tipos de tráfico para rebajar la resistencia de tabla." },
-      { "id": 2, "answer": "Sí, siempre que se pinte con protección UV.", "isCorrect": false, "explanation": "La pintura no aporta la resistencia mecánica al impacto requerida por ley." },
-      { "id": 3, "answer": "No, debe tener una resistencia 'Fuerte (6 julios)'.", "isCorrect": true, "explanation": "La Tabla 2 exige un grado de resistencia al impacto Fuerte (6 julios)[cite: 1]." },
-      { "id": 4, "answer": "No, el tubo debe soportar 'Muy fuerte (20 julios)'.", "isCorrect": false, "explanation": "La norma exige estrictamente 6 julios; no hay obligación de usar 20 julios." }
+      {
+        "id": 1,
+        "answer": "Sí, es suficiente para fachadas sin tráfico.",
+        "isCorrect": false,
+        "explanation": "La norma no distingue tipos de tráfico para rebajar la resistencia de tabla."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, siempre que se pinte con protección UV.",
+        "isCorrect": false,
+        "explanation": "La pintura no aporta la resistencia mecánica al impacto requerida por ley."
+      },
+      {
+        "id": 3,
+        "answer": "No, debe tener una resistencia 'Fuerte (6 julios)'.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 exige un grado de resistencia al impacto Fuerte (6 julios)[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "No, el tubo debe soportar 'Muy fuerte (20 julios)'.",
+        "isCorrect": false,
+        "explanation": "La norma exige estrictamente 6 julios; no hay obligación de usar 20 julios."
+      }
     ]
   },
   {
@@ -268,10 +748,30 @@
     "type": "simple",
     "question": "(Caso práctico) Entre una ruta recta por jardín privado y una recta por acera más corta. ¿Cuál elegir?",
     "options": [
-      { "id": 1, "answer": "La del jardín privado por ser línea recta.", "isCorrect": false, "explanation": "Se prohíbe pasar por jardines privados si no hay servidumbre autorizada." },
-      { "id": 2, "answer": "La de la acera por ser dominio público y trazado corto.", "isCorrect": true, "explanation": "Cumple las directrices de trazado más corto, dominio público y evitar jardines privados[cite: 1]." },
-      { "id": 3, "answer": "La más larga para usar más cable.", "isCorrect": false, "explanation": "Contradice el principio normativo de realizar los trazados más cortos." },
-      { "id": 4, "answer": "Cualquiera si el dueño paga el cable.", "isCorrect": false, "explanation": "El diseño está regulado por ley por seguridad e invasión de propiedades." }
+      {
+        "id": 1,
+        "answer": "La del jardín privado por ser línea recta.",
+        "isCorrect": false,
+        "explanation": "Se prohíbe pasar por jardines privados si no hay servidumbre autorizada."
+      },
+      {
+        "id": 2,
+        "answer": "La de la acera por ser dominio público y trazado corto.",
+        "isCorrect": true,
+        "explanation": "Cumple las directrices de trazado más corto, dominio público y evitar jardines privados[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "La más larga para usar más cable.",
+        "isCorrect": false,
+        "explanation": "Contradice el principio normativo de realizar los trazados más cortos."
+      },
+      {
+        "id": 4,
+        "answer": "Cualquiera si el dueño paga el cable.",
+        "isCorrect": false,
+        "explanation": "El diseño está regulado por ley por seguridad e invasión de propiedades."
+      }
     ]
   },
   {
@@ -279,10 +779,30 @@
     "type": "simple",
     "question": "(Caso práctico) En una acometida aérea tensada de gran vano, ¿qué solución mecánica implementar?",
     "options": [
-      { "id": 1, "answer": "Utilizar únicamente cable de cobre macizo.", "isCorrect": false, "explanation": "El cobre macizo no tiene resistencia estructural para grandes vanos sin soporte." },
-      { "id": 2, "answer": "Instalar cables suspendidos de un cable fiador o neutro fiador.", "isCorrect": true, "explanation": "El apartado 1.2.2 indica el uso de cable fiador o neutro fiador con resistencia mecánica[cite: 1]." },
-      { "id": 3, "answer": "Instalar un poste cada 5 metros obligatoriamente.", "isCorrect": false, "explanation": "No se fija esa distancia; se permite calcular vanos con el fiador adecuado." },
-      { "id": 4, "answer": "Usar bridas de plástico uniendo las fases.", "isCorrect": false, "explanation": "Las bridas no aportan la resistencia a la tracción requerida para el tendido." }
+      {
+        "id": 1,
+        "answer": "Utilizar únicamente cable de cobre macizo.",
+        "isCorrect": false,
+        "explanation": "El cobre macizo no tiene resistencia estructural para grandes vanos sin soporte."
+      },
+      {
+        "id": 2,
+        "answer": "Instalar cables suspendidos de un cable fiador o neutro fiador.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.2 indica el uso de cable fiador o neutro fiador con resistencia mecánica[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Instalar un poste cada 5 metros obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "No se fija esa distancia; se permite calcular vanos con el fiador adecuado."
+      },
+      {
+        "id": 4,
+        "answer": "Usar bridas de plástico uniendo las fases.",
+        "isCorrect": false,
+        "explanation": "Las bridas no aportan la resistencia a la tracción requerida para el tendido."
+      }
     ]
   },
   {
@@ -290,10 +810,30 @@
     "type": "simple",
     "question": "(Caso práctico) Instalación en fachada de iglesia histórica. ¿Qué dictamina la norma?",
     "options": [
-      { "id": 1, "answer": "Está permitido y es la práctica recomendada.", "isCorrect": false, "explanation": "La norma indica explícitamente lo contrario para edificios históricos." },
-      { "id": 2, "answer": "Se permite si se pinta del color de la piedra.", "isCorrect": false, "explanation": "La prioridad es evitar el sistema posado en fachada, no solo camuflarlo." },
-      { "id": 3, "answer": "Se tratará de evitar este tipo de acometidas posadas.", "isCorrect": true, "explanation": "El apartado 1.2.1 establece que en edificios de interés histórico se evitará este sistema[cite: 1]." },
-      { "id": 4, "answer": "No debe existir suministro eléctrico.", "isCorrect": false, "explanation": "La norma regula el método de instalación, no prohíbe el suministro básico." }
+      {
+        "id": 1,
+        "answer": "Está permitido y es la práctica recomendada.",
+        "isCorrect": false,
+        "explanation": "La norma indica explícitamente lo contrario para edificios históricos."
+      },
+      {
+        "id": 2,
+        "answer": "Se permite si se pinta del color de la piedra.",
+        "isCorrect": false,
+        "explanation": "La prioridad es evitar el sistema posado en fachada, no solo camuflarlo."
+      },
+      {
+        "id": 3,
+        "answer": "Se tratará de evitar este tipo de acometidas posadas.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 establece que en edificios de interés histórico se evitará este sistema[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "No debe existir suministro eléctrico.",
+        "isCorrect": false,
+        "explanation": "La norma regula el método de instalación, no prohíbe el suministro básico."
+      }
     ]
   },
   {
@@ -301,10 +841,30 @@
     "type": "simple",
     "question": "(Caso práctico) Promotor pide 4 acometidas para 4 bloques en una sola finca. ¿Qué procede?",
     "options": [
-      { "id": 1, "answer": "Es correcto poner una por cada escalera.", "isCorrect": false, "explanation": "El reglamento establece como norma general una única acometida por finca." },
-      { "id": 2, "answer": "Se dispondrá de una sola acometida, salvo casos justificados.", "isCorrect": true, "explanation": "En general se dispondrá de una sola acometida por edificio o finca[cite: 1]." },
-      { "id": 3, "answer": "Se exigen mínimo dos acometidas por seguridad.", "isCorrect": false, "explanation": "La redundancia no es obligatoria para suministros domésticos estándar." },
-      { "id": 4, "answer": "Es decisión exclusiva de la constructora.", "isCorrect": false, "explanation": "El número de conexiones está regulado por la ITC y la distribuidora." }
+      {
+        "id": 1,
+        "answer": "Es correcto poner una por cada escalera.",
+        "isCorrect": false,
+        "explanation": "El reglamento establece como norma general una única acometida por finca."
+      },
+      {
+        "id": 2,
+        "answer": "Se dispondrá de una sola acometida, salvo casos justificados.",
+        "isCorrect": true,
+        "explanation": "En general se dispondrá de una sola acometida por edificio o finca[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Se exigen mínimo dos acometidas por seguridad.",
+        "isCorrect": false,
+        "explanation": "La redundancia no es obligatoria para suministros domésticos estándar."
+      },
+      {
+        "id": 4,
+        "answer": "Es decisión exclusiva de la constructora.",
+        "isCorrect": false,
+        "explanation": "El número de conexiones está regulado por la ITC y la distribuidora."
+      }
     ]
   },
   {
@@ -312,10 +872,30 @@
     "type": "simple",
     "question": "(Caso práctico) Zona de -15ºC con tubo marcado de -5ºC a +60ºC. ¿Es apto?",
     "options": [
-      { "id": 1, "answer": "Cumple el mínimo legal (-5ºC) pero fallará técnicamente a -15ºC.", "isCorrect": true, "explanation": "Aunque cumpla el ensayo base de la Tabla 2 (-5ºC), el frío real de -15ºC superaría su capacidad[cite: 1]." },
-      { "id": 2, "answer": "Soportará -15ºC porque las cifras son orientativas.", "isCorrect": false, "explanation": "Los rangos térmicos no son orientativos; determinan la fragilidad del material." },
-      { "id": 3, "answer": "La norma exige tubos que soporten -40ºC.", "isCorrect": false, "explanation": "La Tabla 2 exige como mínimo de ensayo los -5ºC, no -40ºC." },
-      { "id": 4, "answer": "La temperatura no afecta a los tubos.", "isCorrect": false, "explanation": "Los materiales pierden resistencia al impacto y se degradan con temperaturas extremas." }
+      {
+        "id": 1,
+        "answer": "Cumple el mínimo legal (-5ºC) pero fallará técnicamente a -15ºC.",
+        "isCorrect": true,
+        "explanation": "Aunque cumpla el ensayo base de la Tabla 2 (-5ºC), el frío real de -15ºC superaría su capacidad[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Soportará -15ºC porque las cifras son orientativas.",
+        "isCorrect": false,
+        "explanation": "Los rangos térmicos no son orientativos; determinan la fragilidad del material."
+      },
+      {
+        "id": 3,
+        "answer": "La norma exige tubos que soporten -40ºC.",
+        "isCorrect": false,
+        "explanation": "La Tabla 2 exige como mínimo de ensayo los -5ºC, no -40ºC."
+      },
+      {
+        "id": 4,
+        "answer": "La temperatura no afecta a los tubos.",
+        "isCorrect": false,
+        "explanation": "Los materiales pierden resistencia al impacto y se degradan con temperaturas extremas."
+      }
     ]
   },
   {
@@ -323,10 +903,30 @@
     "type": "simple",
     "question": "(Caso práctico) Protección anticorrosión para conducto metálico en fachada según Tabla 2:",
     "options": [
-      { "id": 1, "answer": "Protección interior baja, exterior baja.", "isCorrect": false, "explanation": "Nivel de protección insuficiente y contrario a las exigencias de la tabla." },
-      { "id": 2, "answer": "Protección interior media, exterior media.", "isCorrect": false, "explanation": "La cara exterior expuesta requiere un nivel de protección más exigente." },
-      { "id": 3, "answer": "Protección interior media, exterior alta.", "isCorrect": true, "explanation": "La Tabla 2 especifica para conductos metálicos protección interior media y exterior alta[cite: 1]." },
-      { "id": 4, "answer": "No requiere protección si es galvanizado.", "isCorrect": false, "explanation": "El galvanizado es el método para alcanzar el grado de protección exigido." }
+      {
+        "id": 1,
+        "answer": "Protección interior baja, exterior baja.",
+        "isCorrect": false,
+        "explanation": "Nivel de protección insuficiente y contrario a las exigencias de la tabla."
+      },
+      {
+        "id": 2,
+        "answer": "Protección interior media, exterior media.",
+        "isCorrect": false,
+        "explanation": "La cara exterior expuesta requiere un nivel de protección más exigente."
+      },
+      {
+        "id": 3,
+        "answer": "Protección interior media, exterior alta.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 especifica para conductos metálicos protección interior media y exterior alta[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "No requiere protección si es galvanizado.",
+        "isCorrect": false,
+        "explanation": "El galvanizado es el método para alcanzar el grado de protección exigido."
+      }
     ]
   },
   {
@@ -334,10 +934,30 @@
     "type": "simple",
     "question": "(Caso práctico) ¿Cómo se define el conducto en transición subterránea a aérea?",
     "options": [
-      { "id": 1, "answer": "Debe cubrir los primeros 50 cm.", "isCorrect": false, "explanation": "50 cm no cubre la altura de riesgo de impacto para transeúntes." },
-      { "id": 2, "answer": "Protegido desde la zanja hasta 2,5 m sobre el suelo.", "isCorrect": true, "explanation": "El cable irá protegido desde la profundidad de zanja hasta 2,5 m mediante conducto rígido[cite: 1]." },
-      { "id": 3, "answer": "No requiere tubo si el cable es reforzado.", "isCorrect": false, "explanation": "El reglamento exige conducto rígido independiente de las capas del cable." },
-      { "id": 4, "answer": "Tubo metálico hasta el tejado.", "isCorrect": false, "explanation": "La protección es obligatoria solo hasta los 2,5 m de altura accesible." }
+      {
+        "id": 1,
+        "answer": "Debe cubrir los primeros 50 cm.",
+        "isCorrect": false,
+        "explanation": "50 cm no cubre la altura de riesgo de impacto para transeúntes."
+      },
+      {
+        "id": 2,
+        "answer": "Protegido desde la zanja hasta 2,5 m sobre el suelo.",
+        "isCorrect": true,
+        "explanation": "El cable irá protegido desde la profundidad de zanja hasta 2,5 m mediante conducto rígido[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "No requiere tubo si el cable es reforzado.",
+        "isCorrect": false,
+        "explanation": "El reglamento exige conducto rígido independiente de las capas del cable."
+      },
+      {
+        "id": 4,
+        "answer": "Tubo metálico hasta el tejado.",
+        "isCorrect": false,
+        "explanation": "La protección es obligatoria solo hasta los 2,5 m de altura accesible."
+      }
     ]
   },
   {
@@ -345,10 +965,30 @@
     "type": "simple",
     "question": "(Caso práctico) Tubo vertical sellado por abajo y abierto por arriba. ¿Vulneración?",
     "options": [
-      { "id": 1, "answer": "Ninguna, evita la entrada de insectos.", "isCorrect": false, "explanation": "Al estar abierto arriba y sellado abajo acumulará agua de lluvia." },
-      { "id": 2, "answer": "No evita el almacenamiento de agua en su interior.", "isCorrect": true, "explanation": "La norma exige tomar medidas para evitar el almacenamiento de agua en los tubos[cite: 1]." },
-      { "id": 3, "answer": "Debe rellenarse de cemento.", "isCorrect": false, "explanation": "Rellenar el tubo anula la canalización y está prohibido." },
-      { "id": 4, "answer": "Vulnera la visión directa del cable.", "isCorrect": false, "explanation": "No se exige visión directa de los conductores internos del tubo." }
+      {
+        "id": 1,
+        "answer": "Ninguna, evita la entrada de insectos.",
+        "isCorrect": false,
+        "explanation": "Al estar abierto arriba y sellado abajo acumulará agua de lluvia."
+      },
+      {
+        "id": 2,
+        "answer": "No evita el almacenamiento de agua en su interior.",
+        "isCorrect": true,
+        "explanation": "La norma exige tomar medidas para evitar el almacenamiento de agua en los tubos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Debe rellenarse de cemento.",
+        "isCorrect": false,
+        "explanation": "Rellenar el tubo anula la canalización y está prohibido."
+      },
+      {
+        "id": 4,
+        "answer": "Vulnera la visión directa del cable.",
+        "isCorrect": false,
+        "explanation": "No se exige visión directa de los conductores internos del tubo."
+      }
     ]
   },
   {
@@ -356,10 +996,30 @@
     "type": "simple",
     "question": "(Caso práctico) Se pela la cubierta exterior del cable 1 m antes de entrar a la CGP. ¿Se permite?",
     "options": [
-      { "id": 1, "answer": "Sí, a voluntad del instalador.", "isCorrect": false, "explanation": "Compromete la seguridad y protección dieléctrica antes de la caja." },
-      { "id": 2, "answer": "Sí, encintándolo después.", "isCorrect": false, "explanation": "La cinta no sustituye las propiedades de aislamiento y cubierta originales." },
-      { "id": 3, "answer": "No, el aislamiento se mantendrá hasta la conexión de la CGP.", "isCorrect": true, "explanation": "La norma exige que el aislamiento se mantenga hasta los elementos de conexión de la CGP[cite: 1]." },
-      { "id": 4, "answer": "Sí, en recintos cerrados y secos.", "isCorrect": false, "explanation": "No se establecen excepciones basadas en la humedad del recinto." }
+      {
+        "id": 1,
+        "answer": "Sí, a voluntad del instalador.",
+        "isCorrect": false,
+        "explanation": "Compromete la seguridad y protección dieléctrica antes de la caja."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, encintándolo después.",
+        "isCorrect": false,
+        "explanation": "La cinta no sustituye las propiedades de aislamiento y cubierta originales."
+      },
+      {
+        "id": 3,
+        "answer": "No, el aislamiento se mantendrá hasta la conexión de la CGP.",
+        "isCorrect": true,
+        "explanation": "La norma exige que el aislamiento se mantenga hasta los elementos de conexión de la CGP[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, en recintos cerrados y secos.",
+        "isCorrect": false,
+        "explanation": "No se establecen excepciones basadas en la humedad del recinto."
+      }
     ]
   },
   {
@@ -367,10 +1027,30 @@
     "type": "simple",
     "question": "(Caso práctico) Ensayo de penetración de sólidos en canaleta según Tabla 2:",
     "options": [
-      { "id": 1, "answer": "Diámetro ≥ 1 mm.", "isCorrect": true, "explanation": "La Tabla 2 exige que el envolvente rechace objetos sólidos de diámetro mayor o igual a 1 mm[cite: 1]." },
-      { "id": 2, "answer": "Diámetro ≥ 2,5 mm.", "isCorrect": false, "explanation": "La norma es más estricta y exige rechazar objetos de hasta 1 mm." },
-      { "id": 3, "answer": "Diámetro ≥ 12 mm.", "isCorrect": false, "explanation": "Equivaldría a IP2X, pero la tabla exige protección contra objetos mucho más finos." },
-      { "id": 4, "answer": "Diámetro ≥ 50 mm.", "isCorrect": false, "explanation": "Valor no contemplado en los ensayos reglados de la tabla." }
+      {
+        "id": 1,
+        "answer": "Diámetro ≥ 1 mm.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 exige que el envolvente rechace objetos sólidos de diámetro mayor o igual a 1 mm[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Diámetro ≥ 2,5 mm.",
+        "isCorrect": false,
+        "explanation": "La norma es más estricta y exige rechazar objetos de hasta 1 mm."
+      },
+      {
+        "id": 3,
+        "answer": "Diámetro ≥ 12 mm.",
+        "isCorrect": false,
+        "explanation": "Equivaldría a IP2X, pero la tabla exige protección contra objetos mucho más finos."
+      },
+      {
+        "id": 4,
+        "answer": "Diámetro ≥ 50 mm.",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en los ensayos reglados de la tabla."
+      }
     ]
   },
   {
@@ -378,10 +1058,30 @@
     "type": "simple",
     "question": "(Caso práctico) Instalador empotra acometida posada en roza con yeso. ¿Correcto?",
     "options": [
-      { "id": 1, "answer": "Sí, es más seguro y estético.", "isCorrect": false, "explanation": "Para este sistema constructivo específico la norma no contempla empotrar." },
-      { "id": 2, "answer": "No, deben ir distanciados de la pared con accesorios.", "isCorrect": true, "explanation": "El apartado 1.2.1 exige que los cables se instalen distanciados con accesorios apropiados[cite: 1]." },
-      { "id": 3, "answer": "Sí, usando cemento en vez de yeso.", "isCorrect": false, "explanation": "El problema es el concepto de empotrado frente a instalación separada de superficie." },
-      { "id": 4, "answer": "No, porque es tarea del albañil.", "isCorrect": false, "explanation": "La justificación es técnica según el reglamento, no gremial." }
+      {
+        "id": 1,
+        "answer": "Sí, es más seguro y estético.",
+        "isCorrect": false,
+        "explanation": "Para este sistema constructivo específico la norma no contempla empotrar."
+      },
+      {
+        "id": 2,
+        "answer": "No, deben ir distanciados de la pared con accesorios.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.1 exige que los cables se instalen distanciados con accesorios apropiados[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, usando cemento en vez de yeso.",
+        "isCorrect": false,
+        "explanation": "El problema es el concepto de empotrado frente a instalación separada de superficie."
+      },
+      {
+        "id": 4,
+        "answer": "No, porque es tarea del albañil.",
+        "isCorrect": false,
+        "explanation": "La justificación es técnica según el reglamento, no gremial."
+      }
     ]
   },
   {
@@ -389,10 +1089,30 @@
     "type": "simple",
     "question": "(Caso práctico) Propiedad de fuego exigida para el tubo protector (Tabla 2):",
     "options": [
-      { "id": 1, "answer": "Debe ser intumescente.", "isCorrect": false, "explanation": "Propiedad no requerida para el propio tubo protector en esta tabla." },
-      { "id": 2, "answer": "Resistencia RF-120.", "isCorrect": false, "explanation": "La resistencia de elementos constructivos no aplica directamente al tubo." },
-      { "id": 3, "answer": "No propagador de la llama.", "isCorrect": true, "explanation": "La Tabla 2 detalla específicamente 'Resistencia a la propagación de la llama: No propagador'[cite: 1]." },
-      { "id": 4, "answer": "Que libere agua al calentarse.", "isCorrect": false, "explanation": "No es una propiedad físico-química contemplada en la normativa." }
+      {
+        "id": 1,
+        "answer": "Debe ser intumescente.",
+        "isCorrect": false,
+        "explanation": "Propiedad no requerida para el propio tubo protector en esta tabla."
+      },
+      {
+        "id": 2,
+        "answer": "Resistencia RF-120.",
+        "isCorrect": false,
+        "explanation": "La resistencia de elementos constructivos no aplica directamente al tubo."
+      },
+      {
+        "id": 3,
+        "answer": "No propagador de la llama.",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 detalla específicamente 'Resistencia a la propagación de la llama: No propagador'[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Que libere agua al calentarse.",
+        "isCorrect": false,
+        "explanation": "No es una propiedad físico-química contemplada en la normativa."
+      }
     ]
   },
   {
@@ -400,21 +1120,61 @@
     "type": "simple",
     "question": "(Caso práctico) Red que entra a una CGP y sale a la siguiente. ¿Clasificación?",
     "options": [
-      { "id": 1, "answer": "Aérea posada.", "isCorrect": false, "explanation": "El escenario describe cables enterrados, no por el aire." },
-      { "id": 2, "answer": "Subterránea en derivación.", "isCorrect": false, "explanation": "En derivación implica un ramal único desde un tronco común en la calle." },
-      { "id": 3, "answer": "Subterránea con entrada y salida.", "isCorrect": true, "explanation": "La Tabla 1 clasifica este sistema donde la red entra y sale de la caja como 'Con entrada y salida'[cite: 1]." },
-      { "id": 4, "answer": "Mixta.", "isCorrect": false, "explanation": "No se combinan instalaciones aéreas y subterráneas en la descripción." }
+      {
+        "id": 1,
+        "answer": "Aérea posada.",
+        "isCorrect": false,
+        "explanation": "El escenario describe cables enterrados, no por el aire."
+      },
+      {
+        "id": 2,
+        "answer": "Subterránea en derivación.",
+        "isCorrect": false,
+        "explanation": "En derivación implica un ramal único desde un tronco común en la calle."
+      },
+      {
+        "id": 3,
+        "answer": "Subterránea con entrada y salida.",
+        "isCorrect": true,
+        "explanation": "La Tabla 1 clasifica este sistema donde la red entra y sale de la caja como 'Con entrada y salida'[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Mixta.",
+        "isCorrect": false,
+        "explanation": "No se combinan instalaciones aéreas y subterráneas en la descripción."
+      }
     ]
   },
   {
     "id": "ITC-BT-11-C18",
     "type": "simple",
-    "question": "(Caso práctico) ¿Se pueden usar tanto tubos metálicos como de PVC según Tabla 2?",
+    "question": "(Caso práctico) ¿Se pueden usar tanto tubos metálicos como de PVC?",
     "options": [
-      { "id": 1, "answer": "Solo aislantes de PVC.", "isCorrect": false, "explanation": "La tabla permite explícitamente ambas opciones de materiales." },
-      { "id": 2, "answer": "Sí, permite códigos 1 (Continuidad) o 2 (Aislante).", "isCorrect": true, "explanation": "La Tabla 2 indica Propiedades eléctricas: Continuidad eléctrica/aislante 1 / 2[cite: 1]." },
-      { "id": 3, "answer": "Solo metálicos porque plásticos se derriten.", "isCorrect": false, "explanation": "Los plásticos homologados 'No propagadores' son reglamentarios." },
-      { "id": 4, "answer": "Deben tener ambas propiedades a la vez.", "isCorrect": false, "explanation": "La norma marca una opción u otra según el ensayo estándar." }
+      {
+        "id": 1,
+        "answer": "Solo aislantes de PVC.",
+        "isCorrect": false,
+        "explanation": "La tabla permite explícitamente ambas opciones de materiales."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, permite códigos 1 (Continuidad) o 2 (Aislante).",
+        "isCorrect": true,
+        "explanation": "La Tabla 2 indica Propiedades eléctricas: Continuidad eléctrica/aislante 1 / 2[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Solo metálicos porque plásticos se derriten.",
+        "isCorrect": false,
+        "explanation": "Los plásticos homologados 'No propagadores' son reglamentarios."
+      },
+      {
+        "id": 4,
+        "answer": "Deben tener ambas propiedades a la vez.",
+        "isCorrect": false,
+        "explanation": "La norma marca una opción u otra según el ensayo estándar."
+      }
     ]
   },
   {
@@ -422,10 +1182,30 @@
     "type": "simple",
     "question": "(Caso práctico) Separación en zanja con gas y telecom. ¿Qué directriz seguir?",
     "options": [
-      { "id": 1, "answer": "Juntarlas todas en el mismo tubo.", "isCorrect": false, "explanation": "Prohibido por seguridad juntar gas y electricidad en contacto." },
-      { "id": 2, "answer": "Aplicar lo indicado íntegramente en la ITC-BT-07.", "isCorrect": true, "explanation": "El apartado 1.2.3 remite a las separaciones mínimas indicadas en la ITC-BT-07[cite: 1]." },
-      { "id": 3, "answer": "Dejar 5 metros de separación.", "isCorrect": false, "explanation": "Las distancias de la ITC-07 son muy inferiores (centímetros)." },
-      { "id": 4, "answer": "Consultar el Reglamento del Gas.", "isCorrect": false, "explanation": "La ITC-11 redirige explícitamente a la ITC-BT-07 para esta comprobación." }
+      {
+        "id": 1,
+        "answer": "Juntarlas todas en el mismo tubo.",
+        "isCorrect": false,
+        "explanation": "Prohibido por seguridad juntar gas y electricidad en contacto."
+      },
+      {
+        "id": 2,
+        "answer": "Aplicar lo indicado íntegramente en la ITC-BT-07.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2.3 remite a las separaciones mínimas indicadas en la ITC-BT-07[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Dejar 5 metros de separación.",
+        "isCorrect": false,
+        "explanation": "Las distancias de la ITC-07 son muy inferiores (centímetros)."
+      },
+      {
+        "id": 4,
+        "answer": "Consultar el Reglamento del Gas.",
+        "isCorrect": false,
+        "explanation": "La ITC-11 redirige explícitamente a la ITC-BT-07 para esta comprobación."
+      }
     ]
   },
   {
@@ -433,10 +1213,30 @@
     "type": "simple",
     "question": "(Caso práctico) Límite legal de la 'acometida' en la tirada al contador.",
     "options": [
-      { "id": 1, "answer": "Incluye el cable hasta el contador.", "isCorrect": false, "explanation": "La acometida acaba reglamentariamente en la CGP." },
-      { "id": 2, "answer": "Finaliza en la CGP; lo demás es instalación interior.", "isCorrect": true, "explanation": "El apartado 1.1 define que la acometida alimenta y finaliza en la CGP[cite: 1]." },
-      { "id": 3, "answer": "Depende de cálculos de caída de tensión.", "isCorrect": false, "explanation": "No depende de cálculos, sino del límite legal de definición de las partes." },
-      { "id": 4, "answer": "Depende de si es aérea o subterránea.", "isCorrect": false, "explanation": "Independientemente del tipo, el límite final de la acometida es la CGP." }
+      {
+        "id": 1,
+        "answer": "Incluye el cable hasta el contador.",
+        "isCorrect": false,
+        "explanation": "La acometida acaba reglamentariamente en la CGP."
+      },
+      {
+        "id": 2,
+        "answer": "Finaliza en la CGP; lo demás es instalación interior.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 define que la acometida alimenta y finaliza en la CGP[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Depende de cálculos de caída de tensión.",
+        "isCorrect": false,
+        "explanation": "No depende de cálculos, sino del límite legal de definición de las partes."
+      },
+      {
+        "id": 4,
+        "answer": "Depende de si es aérea o subterránea.",
+        "isCorrect": false,
+        "explanation": "Independientemente del tipo, el límite final de la acometida es la CGP."
+      }
     ]
   }
 ]
