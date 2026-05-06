@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "quiz-itc-bt-31",
+    "itc": "ITC-BT-31",
+    "questions": [
+      {
+        "id": "ITC-BT-31-01",
+        "question": "¿Cómo se define el Volumen 0 en una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El interior del recipiente, incluyendo canales y huecos bajo el suelo.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 de la ITC-BT-31 define el volumen 0 como el interior del vaso y cualquier hueco en sus paredes o fondo accesible a los bañistas."
+          },
+          {
+            "id": 2,
+            "answer": "El espacio sobre la piscina hasta 2,25 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese es el volumen 1."
+          },
+          {
+            "id": 3,
+            "answer": "La zona hasta 2 metros alrededor del borde.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese es el volumen 2."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier zona con agua.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-02",
+        "question": "¿Cuál es la anchura horizontal del Volumen 1 medida desde el borde del vaso?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,25 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "2,00 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 establece que el volumen 1 se extiende horizontalmente 2 metros desde el borde del vaso."
+          },
+          {
+            "id": 3,
+            "answer": "3,50 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 3,50m es el límite exterior del volumen 2."
+          },
+          {
+            "id": 4,
+            "answer": "0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-03",
+        "question": "¿Qué grado de protección IP mínimo se exige para luminarias instaladas en el Volumen 0 (sumergidas)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Al estar sumergidas de forma permanente, se exige IPX8 según el apartado 2.1 de la ITC-BT-31."
+          },
+          {
+            "id": 4,
+            "answer": "IPX7.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. IPX7 es para inmersión temporal, insuficiente para piscinas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-04",
+        "question": "¿Qué grado de protección IP se exige en el Volumen 1 de una piscina donde se limpie con chorros de agua?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. IPX4 es el básico."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. Si hay riesgo de proyección de agua para limpieza, se eleva a IPX5. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-05",
+        "question": "¿Cuál es la tensión máxima permitida para circuitos MBTS en los Volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "24 V CA / 60 V CC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "12 V CA / 30 V CC.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 especifica estas tensiones de seguridad para las zonas de mayor riesgo de inmersión. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "50 V CA / 120 V CC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "230 V CA.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-06",
+        "question": "¿Dónde debe ubicarse la fuente de alimentación (transformador) de seguridad para los circuitos de la piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Fuera de los volúmenes 0, 1 y 2.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para garantizar que la fuente de seguridad no se vea afectada por el agua. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "En el interior del Volumen 2 si está en una caja IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Debe estar fuera del volumen 2."
+          },
+          {
+            "id": 3,
+            "answer": "En un local técnico anexo fuera de las zonas de protección.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la ubicación recomendada. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 4,
+            "answer": "Dentro de la arqueta de la depuradora (Volumen 1) si es estanca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las arquetas de depuración se consideran Volumen 1 o 2 y no deben alojar el transformador."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-07",
+        "question": "¿Se permiten canalizaciones con cubiertas metálicas accesibles en los Volúmenes 0, 1 o 2?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si están conectadas a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, las canalizaciones no tendrán cubiertas metálicas accesibles en estos volúmenes.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.1 de la ITC-BT-31 prohíbe partes metálicas accesibles en canalizaciones para evitar tensiones de paso."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en el Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si el cable es de 0,6/1 kV.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-08",
+        "question": "¿Qué sección mínima debe tener el conductor de unión equipotencial suplementaria en una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "4 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "6 mm².",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 de la ITC-BT-31 exige una sección mínima de 6 mm² de cobre para esta unión."
+          },
+          {
+            "id": 4,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-09",
+        "question": "¿Qué elementos deben conectarse a la red de tierra mediante la unión equipotencial suplementaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Escaleras metálicas y trampolines.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Armaduras metálicas del vaso (si existen).",
+            "isCorrect": true,
+            "explanation": "Correcto. Fundamental para evitar gradientes de tensión. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Canalizaciones metálicas de agua y gas.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier objeto metálico pequeño como tornillos o marcos decorativos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No es obligatorio para partes metálicas aisladas de pequeña dimensión."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-10",
+        "question": "¿Qué medidas de protección se permiten para alimentar equipos en el Volumen 2?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección por MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Protección por corte automático mediante diferencial de ≤ 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Protección por separación eléctrica (un solo equipo por transformador).",
+            "isCorrect": true,
+            "explanation": "Correcto. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Basta con que el equipo sea de Clase I.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Se requiere una de las medidas adicionales de protección del circuito mencionadas."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-11",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-12",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-13",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-14",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-15",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-16",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-17",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-18",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-19",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-20",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-21",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-22",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-23",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-24",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-25",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-26",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-27",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-28",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-29",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-30",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-31",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-32",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-33",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-34",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-35",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-36",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-37",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-38",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-39",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-40",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-41",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-42",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-43",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-44",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-45",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-46",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-47",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-48",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-49",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-50",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-51",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-52",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-53",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-54",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-55",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-56",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-57",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-58",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-59",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-60",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-61",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-62",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-63",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-64",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-65",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-66",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-67",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-68",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-69",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-70",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-71",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-72",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-73",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-74",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-75",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-76",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-77",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-78",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-79",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-80",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-81",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-82",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-83",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-84",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-85",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-86",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-87",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-88",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-89",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-90",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-91",
+        "question": "¿Se permite la instalación de cajas de conexión en los Volúmenes 0 o 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están prohibidas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (existen excepciones para MBTS)."
+          },
+          {
+            "id": 2,
+            "answer": "Solo para circuitos MBTS y deben quedar fuera del alcance de los bañistas.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2.2 de la ITC-BT-31 permite esta excepción bajo condiciones estrictas de IP y ubicación."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si son IP68.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si son de material cerámico.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-92",
+        "question": "¿Cuál es el grado de protección IP mínimo para equipos en el Volumen 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "IPX5.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.1 exige IPX5 para el volumen 1 (salpicaduras directas)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-93",
+        "question": "¿Qué requisitos de alimentación deben cumplir las bombas de depuración instaladas en locales técnicos bajo el nivel de la piscina (Volumen 1)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Alimentación a 230 V con protección diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Se permite si están en local protegido. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de barreras de seguridad intrínseca.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentación mediante MBTS.",
+            "isCorrect": true,
+            "explanation": "Correcto. Es la opción más segura. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Puesta a tierra mediante cable de 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto (insuficiente sección)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-94",
+        "question": "¿A qué distancia mínima del borde del vaso (Volumen 2) pueden instalarse tomas de corriente de uso general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A más de 2 metros (fuera del Volumen 1).",
+            "isCorrect": true,
+            "explanation": "Correcto. Las tomas solo se permiten a partir del Volumen 2 (2 metros desde el borde). Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 2,
+            "answer": "A más de 0,60 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "A más de 5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido en todo el recinto de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-95",
+        "question": "¿Qué tipo de cable se exige para las instalaciones en los volúmenes 0 y 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores aislados bajo tubo rígido de PVC.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento y cubierta para locales mojados (ej. RZ1-K 0,6/1 kV).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2.2 remite a las características de locales mojados de la ITC-BT-30. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tipo manguera plana.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cables de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-96",
+        "question": "En fuentes ornamentales, ¿qué protección deben tener las luminarias sumergidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grado IPX8.",
+            "isCorrect": true,
+            "explanation": "Correcto. Igual que en piscinas por inmersión permanente. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Alimentación obligatoria mediante MBTS ≤ 12 V CA.",
+            "isCorrect": true,
+            "explanation": "Correcto. Por seguridad de las personas. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Protección mediante rejilla metálica conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier luminaria si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-31-97",
+        "question": "¿Cuál es la profundidad mínima para cables enterrados alrededor de una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,30 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. Siguiendo las normas generales de canalizaciones enterradas aplicables a este entorno. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "1,00 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden ir enterrados.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-98",
+        "question": "¿Cada cuánto tiempo deben realizarse las inspecciones oficiales en piscinas de uso público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Anualmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las piscinas (excepto privadas) deben pasar inspección por OCA cada 5 años. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Cada 10 años.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Antes de cada temporada de baño.",
+            "isCorrect": false,
+            "explanation": "Incorrecto (es recomendable, pero no la inspección oficial)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-99",
+        "question": "¿Es necesario conectar a la unión equipotencial suplementaria los marcos de puertas y ventanas metálicos de los vestuarios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No, a menos que estén unidos a la estructura metálica del edificio.",
+            "isCorrect": true,
+            "explanation": "Correcto. Solo se conectan las partes conductoras externas que puedan introducir potenciales. Fuente: ITC-BT-31, apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están a menos de 1 metro de la piscina.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Está prohibido conectarlos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-31-100",
+        "question": "En una fuente ornamental, ¿qué volumen se define como el interior del vaso y el espacio sobre el mismo hasta 2,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Volumen 0.",
+            "isCorrect": true,
+            "explanation": "Correcto. En fuentes, el volumen 0 abarca el vaso y la zona sobre él. Fuente: ITC-BT-31, apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Volumen 1.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 3,
+            "answer": "Volumen 2.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Zona de aspersión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

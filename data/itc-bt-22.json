@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "quiz-itc-bt-22",
+    "itc": "ITC-BT-22",
+    "questions": [
+      {
+        "id": "ITC-BT-22-01",
+        "question": "¿Cuál es la condición fundamental que debe cumplirse para la protección contra sobrecargas en cuanto a la intensidad nominal del dispositivo (In)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "In debe ser menor que la intensidad de diseño (Ib).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La intensidad nominal del dispositivo debe ser mayor o igual a la de diseño para evitar disparos intempestivos."
+          },
+          {
+            "id": 2,
+            "answer": "In debe ser mayor o igual que la intensidad admisible del conductor (Iz).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Si In fuera mayor que Iz, el cable podría dañarse antes de que el dispositivo actúe."
+          },
+          {
+            "id": 3,
+            "answer": "La intensidad de diseño (Ib) debe ser menor o igual a In, y esta a su vez menor o igual a la intensidad admisible (Iz).",
+            "isCorrect": true,
+            "explanation": "Correcto. Según la ITC-BT-22, apartado 1.1, se debe cumplir la relación Ib ≤ In ≤ Iz para garantizar que el dispositivo no dispare en condiciones normales pero proteja al cable de daños."
+          },
+          {
+            "id": 4,
+            "answer": "In debe ser exactamente igual a 1,45 veces Iz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 1,45 es un factor para la intensidad de funcionamiento, no para la nominal."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-02",
+        "question": "¿Qué relación debe cumplirse entre la intensidad de funcionamiento (I2) del dispositivo de protección y la intensidad admisible del conductor (Iz)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "I2 debe ser menor o igual a 1,45 · Iz.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.1 de la ITC-BT-22 establece la condición I2 ≤ 1,45 · Iz para asegurar que el dispositivo actúe antes de que el conductor alcance temperaturas peligrosas ante una sobrecarga moderada."
+          },
+          {
+            "id": 2,
+            "answer": "I2 debe ser mayor que 1,45 · Iz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esto permitiría que el cable se sobrecalentara en exceso antes de la desconexión."
+          },
+          {
+            "id": 3,
+            "answer": "I2 debe ser igual a la intensidad de diseño (Ib).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. I2 es la intensidad que asegura el disparo, mucho mayor que la de carga normal (Ib)."
+          },
+          {
+            "id": 4,
+            "answer": "I2 debe ser siempre menor que Iz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La norma permite que I2 sea hasta un 45% superior a Iz durante el tiempo de actuación convencional."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-03",
+        "question": "¿Qué parámetros son determinantes para la selección de un dispositivo de protección contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La intensidad de diseño Ib del circuito.",
+            "isCorrect": true,
+            "explanation": "Correcto. Ib es el límite inferior para la selección de In (Ib ≤ In). Fuente: ITC-BT-22, apartado 1.1."
+          },
+          {
+            "id": 2,
+            "answer": "La intensidad admisible Iz del conductor.",
+            "isCorrect": true,
+            "explanation": "Correcto. Iz es el límite superior para la selección de In (In ≤ Iz). Fuente: ITC-BT-22, apartado 1.1."
+          },
+          {
+            "id": 3,
+            "answer": "La corriente de funcionamiento convencional I2 del dispositivo.",
+            "isCorrect": true,
+            "explanation": "Correcto. Debe cumplir que I2 ≤ 1,45 · Iz. Fuente: ITC-BT-22, apartado 1.1."
+          },
+          {
+            "id": 4,
+            "answer": "El tipo de aislamiento térmico de la pared.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Aunque afecta indirectamente a Iz, no es un parámetro directo del dispositivo de protección."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-22-04",
+        "question": "¿Para qué tipo de receptores es más adecuada la curva D de disparo magnético?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Iluminación incandescente convencional.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para iluminación general se suele usar la curva C."
+          },
+          {
+            "id": 2,
+            "answer": "Grandes longitudes de cable con baja Icc.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para estos casos se usa la curva B para asegurar el disparo rápido."
+          },
+          {
+            "id": 3,
+            "answer": "Receptores con fuertes corrientes de arranque como transformadores o motores industriales.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las normas de producto citadas en el Manual del REBT (ITC-BT-22), la curva D (10-20 In) evita disparos intempestivos durante los picos de arranque de estas máquinas."
+          },
+          {
+            "id": 4,
+            "answer": "Circuitos de señalización de baja potencia.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. No requieren curvas de disparo tan retardadas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-05",
+        "question": "¿En qué rango de intensidad nominal (In) se produce el disparo magnético de un automático curva B?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Entre 3 y 5 veces In.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 referencia la norma UNE-EN 60898, donde se define que la curva B dispara entre 3 In y 5 In, ideal para proteger a personas y cables largos."
+          },
+          {
+            "id": 2,
+            "answer": "Entre 5 y 10 veces In.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese es el rango de la curva C."
+          },
+          {
+            "id": 3,
+            "answer": "Entre 10 y 20 veces In.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese es el rango de la curva D."
+          },
+          {
+            "id": 4,
+            "answer": "Entre 1 y 2 veces In.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso solaparía con la zona de disparo térmico."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-06",
+        "question": "¿Qué requisito debe cumplir el poder de corte de un dispositivo de protección contra cortocircuitos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser menor que la intensidad de cortocircuito máxima prevista.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El dispositivo podría explotar o no abrir el arco si el poder de corte es insuficiente."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser al menos igual a la intensidad de cortocircuito máxima en el punto de su instalación.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 de la ITC-BT-22 establece que el poder de corte debe ser no inferior a la corriente de cortocircuito prevista en el punto donde se instala el dispositivo."
+          },
+          {
+            "id": 3,
+            "answer": "Debe ser igual a la intensidad admisible del cable (Iz).",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Iz es para carga permanente, el cortocircuito maneja intensidades mucho mayores."
+          },
+          {
+            "id": 4,
+            "answer": "Debe ser siempre de 6.000 A independientemente de la instalación.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 6 kA es un valor común en viviendas, pero debe calcularse según la red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-07",
+        "question": "¿Qué representa el valor 'k' en la fórmula de la ecuación adiabática (I²t ≤ k²S²)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La conductividad térmica del aire.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Un factor que depende de la resistividad, coeficiente de temperatura y capacidad térmica del material conductor y sus aislamientos.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 1.2 de la ITC-BT-22 y la norma UNE-HD 60364-4-43, 'k' es una constante que aglutina las propiedades físicas del cable para soportar el calor generado por un cortocircuito."
+          },
+          {
+            "id": 3,
+            "answer": "El coeficiente de rozamiento del cable con el tubo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "La constante de tiempo del interruptor diferencial.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La fórmula se aplica a protecciones magnetotérmicas y fusibles, no diferenciales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-08",
+        "question": "¿Qué características definen a un fusible de tipo gG?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Es de rango completo (protege contra sobrecargas y cortocircuitos).",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'g' indica rango completo según la norma UNE-EN 60269 citada en ITC-BT-22."
+          },
+          {
+            "id": 2,
+            "answer": "Se utiliza para uso general.",
+            "isCorrect": true,
+            "explanation": "Correcto. La segunda letra 'G' (o 'g') indica uso general. Fuente: ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "Solo protege contra cortocircuitos en motores.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese sería el tipo aM."
+          },
+          {
+            "id": 4,
+            "answer": "Tiene una capacidad de ruptura limitada a 100A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Pueden tener poderes de corte muy elevados (ej. 120 kA)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-22-09",
+        "question": "¿Cuál es la función principal de un fusible tipo 'aM'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección general de viviendas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para viviendas se usan gG."
+          },
+          {
+            "id": 2,
+            "answer": "Protección de motores contra cortocircuitos únicamente.",
+            "isCorrect": true,
+            "explanation": "Correcto. La 'a' indica rango parcial (cortocircuito) y la 'M' indica motores. Según la ITC-BT-22, deben complementarse con un relé térmico para la sobrecarga."
+          },
+          {
+            "id": 3,
+            "answer": "Protección de circuitos electrónicos de alta precisión.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Para eso se usan fusibles tipo R."
+          },
+          {
+            "id": 4,
+            "answer": "Protección de líneas muy largas.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-10",
+        "question": "¿En qué situación se permite omitir el dispositivo de protección contra sobrecargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En cualquier circuito de alumbrado de una vivienda.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Deben estar protegidos."
+          },
+          {
+            "id": 2,
+            "answer": "En circuitos cuya interrupción inesperada pueda provocar un peligro mayor que la propia sobrecarga (ej. bombas contra incendios).",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.3 de la ITC-BT-22 permite esta omisión por razones de seguridad de personas o procesos críticos, recomendando en su lugar el uso de dispositivos de aviso de sobrecarga."
+          },
+          {
+            "id": 3,
+            "answer": "Cuando la longitud de la línea es inferior a 10 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Si el usuario firma un documento de responsabilidad.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La normativa es de obligado cumplimiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-11",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-12",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-13",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-14",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-15",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-16",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-17",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-18",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-19",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-20",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-21",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-22",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-23",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-24",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-25",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-26",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-27",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-28",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-29",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-30",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-31",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-32",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-33",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-34",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-35",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-36",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-37",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-38",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-39",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-40",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-41",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-42",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-43",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-44",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-45",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-46",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-47",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-48",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-49",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-50",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-51",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-52",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-53",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-54",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-55",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-56",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-57",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-58",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-59",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-60",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-61",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-62",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-63",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-64",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-65",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-66",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-67",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-68",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-69",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-70",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-71",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-72",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-73",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-74",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-75",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-76",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-77",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-78",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-79",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-80",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-81",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-82",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-83",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-84",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-85",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-86",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-87",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-88",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-89",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-90",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-91",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-92",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-93",
+        "question": "En un esquema de conexión TN-C, ¿cómo debe tratarse el conductor PEN (Protección y Neutro)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe protegerse y seccionarse como una fase más.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "No debe ser nunca seccionado ni llevar ningún dispositivo de protección en serie.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 2 de la ITC-BT-22 prohíbe el corte del conductor PEN para evitar la pérdida de la puesta a tierra de protección de las masas."
+          },
+          {
+            "id": 3,
+            "answer": "Debe llevar un fusible de mayor calibre que las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo puede seccionarse mediante herramientas especiales.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-94",
+        "question": "¿Qué tipo de fusible se utiliza para la protección de semiconductores de potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tipo gG.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Tipo aR o gR.",
+            "isCorrect": true,
+            "explanation": "Correcto. La letra 'R' indica protección de dispositivos semiconductores. La ITC-BT-22 referencia estos tipos para aplicaciones de electrónica de potencia (UNE-EN 60269)."
+          },
+          {
+            "id": 3,
+            "answer": "Tipo gM.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para motores."
+          },
+          {
+            "id": 4,
+            "answer": "Tipo aTr.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Es para transformadores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-95",
+        "question": "¿Cuál es el valor de I2 (intensidad de funcionamiento convencional) para un interruptor automático magnetotérmico de uso doméstico de 16A?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Esa es la nominal In."
+          },
+          {
+            "id": 2,
+            "answer": "23,2 A.",
+            "isCorrect": true,
+            "explanation": "Correcto. Para uso doméstico (UNE-EN 60898), I2 = 1,45 · In. Entonces, 1,45 · 16 = 23,2 A. Esta condición se cita en el apartado 1.1 de la ITC-BT-22."
+          },
+          {
+            "id": 3,
+            "answer": "20,8 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Eso sería 1,30 · In, aplicado en uso industrial."
+          },
+          {
+            "id": 4,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-96",
+        "question": "¿Cómo debe ser la protección del conductor neutro en un esquema TT si su sección es igual a la de las fases?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No es necesario protegerlo ni seccionarlo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. En TT debe seccionarse siempre."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar protegido contra cortocircuitos y sobrecargas de forma omnipolar.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según el apartado 2 de la ITC-BT-22, en esquemas TT el neutro debe ser seccionado y, si transporta armónicos o tiene secciones reducidas, debe protegerse. Si es igual a la fase, la protección de fase suele cubrirlo, pero el corte debe ser simultáneo."
+          },
+          {
+            "id": 3,
+            "answer": "Solo debe protegerse si el cable es de aluminio.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Debe tener un automático independiente del de las fases.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El corte debe ser conjunto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-97",
+        "question": "¿Qué sucede con la intensidad admisible (Iz) si aumentamos el número de circuitos que van por el mismo tubo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta proporcionalmente.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "Disminuye debido a los factores de corrección por agrupamiento.",
+            "isCorrect": true,
+            "explanation": "Correcto. Aunque es un concepto de la ITC-BT-19, la ITC-BT-22 depende directamente de este valor Iz para la condición Ib ≤ In ≤ Iz (apartado 1.1)."
+          },
+          {
+            "id": 3,
+            "answer": "No varía.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo varía si los cables son de diferente material.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-98",
+        "question": "¿Cuál es la distancia máxima permitida para desplazar una protección contra cortocircuitos tras una reducción de sección, según la ITC-BT-22?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "3 metros.",
+            "isCorrect": true,
+            "explanation": "Correcto. El apartado 1.2 permite este desplazamiento siempre que se garantice una protección mínima contra fallos y se minimice el riesgo de incendio en ese tramo sin protección completa."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite ningún desplazamiento.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-99",
+        "question": "¿Cuál es el valor de 'k' para un conductor de cobre con aislamiento de XLPE en un cortocircuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "115.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 115 es para PVC."
+          },
+          {
+            "id": 2,
+            "answer": "143.",
+            "isCorrect": true,
+            "explanation": "Correcto. Según las tablas del apartado 1.2 de la ITC-BT-22 (Manual), para cobre con aislamiento termoestable (XLPE/EPR) el valor de k es 143."
+          },
+          {
+            "id": 3,
+            "answer": "76.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 76 es para aluminio con PVC."
+          },
+          {
+            "id": 4,
+            "answer": "94.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 94 es para aluminio con XLPE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-22-100",
+        "question": "¿Hasta qué tiempo máximo de duración de cortocircuito se considera válida la ecuación adiabática?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-22 y la norma UNE-HD 60364-4-43 limitan el uso de la fórmula simplificada a cortocircuitos de duración inferior o igual a 5 segundos (apartado 1.2)."
+          },
+          {
+            "id": 3,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]
