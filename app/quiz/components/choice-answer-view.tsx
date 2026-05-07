@@ -20,7 +20,7 @@ export function ChoiceAnswerView({
     <div className="w-full flex flex-col gap-3">
       {options.map((option) => {
         const isSelected = selectedIds.has(option.id);
-        
+
         // Base styles
         let containerStyles = "border-foreground/10 bg-subface/40 hover:bg-subface/60 hover:border-accent/30";
         let indicatorStyles = isSelected ? 'border-accent bg-accent/20 shadow-neon-sm' : 'border-foreground/20 bg-transparent';
@@ -90,14 +90,14 @@ export function ChoiceAnswerView({
             </div>
 
             {/* Explanation / Feedback */}
-            {isFeedbacking && isSelected && option.explanation && (
+            {/* {isFeedbacking && isSelected && option.explanation && (
               <div className="pl-10 mt-1 animate-in fade-in slide-in-from-top-2 duration-700">
                 <div className={`h-px w-12 mb-3 ${option.isCorrect ? 'bg-success/30' : 'bg-error/30'}`} />
                 <p className={`text-sm italic leading-relaxed font-medium ${option.isCorrect ? 'text-success-foreground/90' : 'text-error-foreground/90'}`}>
                   {option.explanation}
                 </p>
               </div>
-            )}
+            )} */}
           </label>
         );
       })}

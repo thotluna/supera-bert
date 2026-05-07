@@ -12,6 +12,7 @@ interface QuizState {
   startTime: number | null;
   expiresAt: number | null;
   isFeedbacking: boolean;
+  disabledNext: boolean;
   score: number;
   isFinished: boolean;
   lastQuizState: {
@@ -47,6 +48,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       isFeedbacking: false,
       score: 0,
       isFinished: false,
+      disabledNext: true,
       lastQuizState: {
         answers: [],
         config: null,
@@ -83,6 +85,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           answers: [],
           score: 0,
           isFinished: false,
+          disabledNext: true,
         });
       },
 
@@ -91,16 +94,22 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         if (isFeedbacking || !currentQuestion) return;
 
         if (currentQuestion.type === 'simple') {
-          set({ currentSelection: [option] });
+          set({
+            currentSelection: [option],
+            disabledNext: false
+          });
           return;
         }
 
         const isSelected = currentSelection.some(o => o.id === option.id);
-        if (isSelected) {
-          set({ currentSelection: currentSelection.filter(o => o.id !== option.id) });
-        } else {
-          set({ currentSelection: [...currentSelection, option] });
-        }
+        const newSelection = isSelected
+          ? currentSelection.filter(o => o.id !== option.id)
+          : [...currentSelection, option];
+
+        set({
+          currentSelection: newSelection,
+          disabledNext: newSelection.length === 0
+        });
       },
 
       nextQuestion: async () => {
@@ -159,10 +168,11 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             currentSelection: [],
             isFeedbacking: false,
             startTime: Date.now(),
-            expiresAt: currentExpiresAt ? currentExpiresAt + 3000 : null,
+            expiresAt: currentExpiresAt ? currentExpiresAt + 900 : null,
             isFinished: false,
+            disabledNext: true,
           });
-        }, 3000);
+        }, 900);
       },
 
       skipQuestion: () => {
@@ -178,6 +188,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           currentQuestion: nextQuestion,
           currentSelection: [],
           startTime: Date.now(),
+          disabledNext: true,
         });
       },
 
@@ -219,6 +230,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         isFeedbacking: false,
         score: 0,
         isFinished: false,
+        disabledNext: true,
       }),
     }),
     {
