@@ -72,9 +72,9 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         // Limpiamos cualquier estado previo antes de iniciar el nuevo
         state.reset();
 
-        const firstQuestion = { 
-          ...questions[0], 
-          options: shuffle(questions[0].options) 
+        const firstQuestion = {
+          ...questions[0],
+          options: shuffle(questions[0].options)
         };
         const remainingQuestions = questions.slice(1).map(q => ({
           ...q,
