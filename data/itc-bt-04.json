@@ -621,125 +621,125 @@
   },
   {
     "id": "ITC-BT-04-21",
-    "type": "simple",
-    "question": "¿Qué documentación precisan las instalaciones destinadas a rótulos luminosos (que no caen en ITC-BT-44)?",
+    "type": "multiple",
+    "question": "Se le encarga la instalación de un rótulo luminoso de alta tensión para la fachada de un hotel. ¿Qué documentación técnica debe presentar para su legalización según el REBT?",
     "options": [
       {
         "id": 1,
-        "answer": "Proyecto, sin límite de potencia.",
+        "answer": "Es obligatorio presentar un Proyecto técnico redactado por un técnico competente.",
         "isCorrect": true,
-        "explanation": "El Grupo (j) exige Proyecto 'Sin límite' para rótulos luminosos (salvo exenciones de ITC-BT-44)."
+        "explanation": "El apartado 3.1 (Grupo j) de la ITC-BT-04 especifica que las instalaciones de rótulos luminosos requieren Proyecto sin límite de potencia."
       },
       {
         "id": 2,
-        "answer": "MTD si P < 10 kW.",
+        "answer": "Basta con una Memoria Técnica de Diseño si la potencia es inferior a 5 kW.",
         "isCorrect": false,
-        "explanation": "No hay límite de 10 kW."
+        "explanation": "Falso; el apartado 3.1 de la ITC-BT-04 no establece umbral de potencia para este tipo de instalaciones, exigiendo Proyecto siempre."
       },
       {
         "id": 3,
-        "answer": "MTD siempre.",
-        "isCorrect": false,
-        "explanation": "Requieren Proyecto."
+        "answer": "Debe incluir en el proyecto la referencia al cumplimiento de la ITC-BT-44.",
+        "isCorrect": true,
+        "explanation": "Correcto; aunque la ITC-BT-04 (apartado 3.1) regula la documentación, la ejecución debe seguir las normas específicas de la ITC-BT-44."
       },
       {
         "id": 4,
-        "answer": "Depende de su ubicación.",
+        "answer": "Solo requiere MTD si el rótulo es de baja tensión (LED).",
         "isCorrect": false,
-        "explanation": "El criterio es la tipología de la instalación."
+        "explanation": "Incorrecto; la clasificación en el Grupo (j) del apartado 3.1 de la ITC-BT-04 obliga a Proyecto independientemente de la tecnología."
       }
     ]
   },
   {
     "id": "ITC-BT-04-22",
-    "type": "simple",
-    "question": "Una cerca eléctrica (Grupo j) requiere Proyecto:",
+    "type": "multiple",
+    "question": "Un cliente solicita la instalación de una cerca eléctrica para protección perimetral en una finca ganadera. ¿Cuál es el requisito documental según la ITC-BT-04?",
     "options": [
       {
         "id": 1,
-        "answer": "Solo si es para animales peligrosos.",
-        "isCorrect": false,
-        "explanation": "El uso no condiciona el requisito técnico."
+        "answer": "Se requiere obligatoriamente un Proyecto técnico firmado por técnico competente.",
+        "isCorrect": true,
+        "explanation": "Las cercas eléctricas para ganado u otros usos (Grupo j) requieren Proyecto sin límite de potencia según el apartado 3.1 de la ITC-BT-04."
       },
       {
         "id": 2,
-        "answer": "Sin límite de potencia.",
-        "isCorrect": true,
-        "explanation": "Está listada en el Grupo (j) que requiere Proyecto sin límite de potencia."
+        "answer": "Puede legalizarse con MTD si el electrificador cumple la normativa de seguridad.",
+        "isCorrect": false,
+        "explanation": "No; el cumplimiento del equipo es necesario, pero el apartado 3.1 de la ITC-BT-04 exige Proyecto para la instalación."
       },
       {
         "id": 3,
-        "answer": "Nunca.",
+        "answer": "No requiere documentación técnica por ser una instalación de muy baja potencia.",
         "isCorrect": false,
-        "explanation": "Sí requiere documentación técnica."
+        "explanation": "Incorrecto; el REBT en su ITC-BT-04 (apartado 3.1) clasifica estas instalaciones como sujetas a Proyecto obligatorio."
       },
       {
         "id": 4,
-        "answer": "Si P > 5 kW.",
-        "isCorrect": false,
-        "explanation": "No tiene límite de potencia inferior."
+        "answer": "El proyecto debe contemplar las medidas de seguridad para evitar contactos accidentales.",
+        "isCorrect": true,
+        "explanation": "Es parte fundamental de la justificación técnica exigida por el apartado 3.1 de la ITC-BT-04 para este grupo de riesgo."
       }
     ]
   },
   {
     "id": "ITC-BT-04-23",
-    "type": "simple",
-    "question": "¿A partir de qué potencia precisan Proyecto las instalaciones de alumbrado exterior (Grupo k)?",
+    "type": "multiple",
+    "question": "En el diseño de una instalación de alumbrado exterior para una calle peatonal, el técnico prevé una potencia de 6 kW. ¿Qué trámite técnico es preceptivo?",
     "options": [
       {
         "id": 1,
-        "answer": "P > 1 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "answer": "Es obligatoria la redacción de un Proyecto técnico por superar los 5 kW.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 3.1 (Grupo k) de la ITC-BT-04, las instalaciones de alumbrado exterior requieren Proyecto a partir de 5 kW."
       },
       {
         "id": 2,
-        "answer": "P > 5 kW",
-        "isCorrect": true,
-        "explanation": "El límite indicado en el Grupo (k) es P > 5 kW."
+        "answer": "Basta con una Memoria Técnica de Diseño (MTD) hasta los 10 kW.",
+        "isCorrect": false,
+        "explanation": "Falso; para el Grupo (k) de alumbrado exterior, el apartado 3.1 de la ITC-BT-04 fija el límite en 5 kW."
       },
       {
         "id": 3,
-        "answer": "P > 10 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "answer": "El Proyecto debe ser redactado y firmado por un técnico titulado competente.",
+        "isCorrect": true,
+        "explanation": "Es el requisito legal derivado de la necesidad de Proyecto según el apartado 3.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
+        "answer": "Si la potencia fuera de 4 kW, se legalizaría mediante MTD.",
+        "isCorrect": true,
+        "explanation": "Efectivamente, al no superar los 5 kW, el apartado 3.1 de la ITC-BT-04 permitiría MTD."
       }
     ]
   },
   {
     "id": "ITC-BT-04-24",
-    "type": "simple",
-    "question": "Una instalación de alumbrado exterior de 4 kW requiere:",
+    "type": "multiple",
+    "question": "Se instala un alumbrado para un pequeño parque público con una potencia total instalada de 3 kW. ¿Cómo debe documentarse esta instalación?",
     "options": [
       {
         "id": 1,
-        "answer": "Proyecto.",
-        "isCorrect": false,
-        "explanation": "No supera los 5 kW."
+        "answer": "Mediante una Memoria Técnica de Diseño (MTD) firmada por el instalador.",
+        "isCorrect": true,
+        "explanation": "Al no superar los 5 kW en alumbrado exterior (Grupo k), el apartado 3.1 de la ITC-BT-04 permite el uso de MTD."
       },
       {
         "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "Al ser menor o igual a 5 kW, requiere MTD."
+        "answer": "Requiere Proyecto técnico por estar en vía pública.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; el criterio de ubicación no anula el umbral de potencia del apartado 3.1 de la ITC-BT-04 para este grupo."
       },
       {
         "id": 3,
-        "answer": "Nada.",
-        "isCorrect": false,
-        "explanation": "Toda instalación requiere diseño."
+        "answer": "Si en el futuro se amplía a 6 kW, deberá redactarse un Proyecto técnico.",
+        "isCorrect": true,
+        "explanation": "Correcto; al superar el umbral del apartado 3.1 de la ITC-BT-04, la ampliación requeriría Proyecto."
       },
       {
         "id": 4,
-        "answer": "Proyecto visado.",
+        "answer": "No requiere documentación técnica al ser de muy baja potencia.",
         "isCorrect": false,
-        "explanation": "No alcanza el umbral de Proyecto."
+        "explanation": "Falso; toda instalación requiere al menos MTD según el apartado 3.2 de la ITC-BT-04."
       }
     ]
   },
@@ -776,1396 +776,776 @@
   },
   {
     "id": "ITC-BT-04-26",
-    "type": "simple",
-    "question": "Una sala de intervención (quirófano) tiene una potencia prevista de 3 kW. ¿Precisa Proyecto?",
+    "type": "multiple",
+    "question": "Se proyecta una pequeña clínica dental que incluye una sala de intervenciones menores con una potencia prevista de 4 kW. ¿Es obligatorio redactar un Proyecto técnico?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, sin límite de potencia.",
+        "answer": "Sí, es obligatorio independientemente de la potencia de la sala.",
         "isCorrect": true,
-        "explanation": "Quirófanos y salas de intervención (Grupo m) precisan Proyecto 'Sin límite'."
+        "explanation": "El apartado 3.1 (Grupo m) de la ITC-BT-04 exige Proyecto para quirófanos y salas de intervención sin límite de potencia."
       },
       {
         "id": 2,
-        "answer": "No, al ser menor de 5 kW basta MTD.",
+        "answer": "No, al no superar los 10 kW de locales húmedos, basta con una MTD.",
         "isCorrect": false,
-        "explanation": "No hay límite inferior para este tipo de locales."
+        "explanation": "Falso; la clasificación del Grupo (m) en el apartado 3.1 de la ITC-BT-04 prevalece sobre otros criterios de potencia."
       },
       {
         "id": 3,
-        "answer": "Solo si se ubica en un hospital general.",
-        "isCorrect": false,
-        "explanation": "Aplica a cualquier sala de intervención técnica."
+        "answer": "El diseño debe contemplar las medidas de seguridad específicas de la ITC-BT-38.",
+        "isCorrect": true,
+        "explanation": "Correcto; al requerir Proyecto por el apartado 3.1 de la ITC-BT-04, se deben aplicar las prescripciones técnicas para quirófanos."
       },
       {
         "id": 4,
-        "answer": "No.",
+        "answer": "Solo sería obligatorio si la clínica estuviera dentro de un gran hospital.",
         "isCorrect": false,
-        "explanation": "Sí lo precisa por seguridad."
+        "explanation": "Incorrecto; el requisito del apartado 3.1 de la ITC-BT-04 aplica a cualquier sala de intervención técnica independientemente de su ubicación."
       }
     ]
   },
   {
     "id": "ITC-BT-04-27",
-    "type": "simple",
-    "question": "¿A partir de qué potencia precisan Proyecto las piscinas y fuentes (Grupo n)?",
+    "type": "multiple",
+    "question": "¿Cuál es el límite de potencia que marca el REBT para que una piscina de uso público requiera la firma de un Proyecto técnico para su instalación eléctrica?",
     "options": [
       {
         "id": 1,
-        "answer": "P > 1 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "answer": "Cuando la potencia prevista sea superior a 5 kW.",
+        "isCorrect": true,
+        "explanation": "El apartado 3.1 (Grupo n) de la ITC-BT-04 establece el umbral de 5 kW para piscinas y fuentes."
       },
       {
         "id": 2,
-        "answer": "P > 5 kW",
-        "isCorrect": true,
-        "explanation": "El Grupo (n) especifica P > 5 kW."
+        "answer": "A partir de 10 kW, como en los locales húmedos.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; para el Grupo (n) de piscinas, el apartado 3.1 de la ITC-BT-04 es más restrictivo (5 kW)."
       },
       {
         "id": 3,
-        "answer": "P > 10 kW",
+        "answer": "Toda piscina climatizada requiere Proyecto independientemente de la potencia.",
         "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "explanation": "No; la normativa del apartado 3.1 de la ITC-BT-04 se basa en el umbral de potencia de 5 kW."
       },
       {
         "id": 4,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
+        "answer": "Si la instalación tiene 6 kW, debe ser proyectada por un técnico titulado competente.",
+        "isCorrect": true,
+        "explanation": "Correcto; al superar los 5 kW fijados en el apartado 3.1 de la ITC-BT-04, el diseño requiere titulación competente."
       }
     ]
   },
   {
     "id": "ITC-BT-04-28",
-    "type": "simple",
-    "question": "Una fuente ornamental de 4 kW requiere:",
+    "type": "multiple",
+    "question": "Se instala un sistema de filtrado y depuración para una piscina residencial con una potencia de 3 kW. ¿Qué documentación técnica es necesaria?",
     "options": [
       {
         "id": 1,
-        "answer": "Proyecto.",
-        "isCorrect": false,
-        "explanation": "No supera los 5 kW."
+        "answer": "Basta con una Memoria Técnica de Diseño (MTD) firmada por el instalador.",
+        "isCorrect": true,
+        "explanation": "Al no superar los 5 kW (Grupo n), el apartado 3.1 de la ITC-BT-04 permite el uso de MTD."
       },
       {
         "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "Al no superar 5 kW (Grupo n), requiere MTD."
+        "answer": "Requiere Proyecto técnico por tratarse de un local con riesgo por humedad.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; para piscinas prima el criterio del Grupo (n) del apartado 3.1 de la ITC-BT-04 (límite 5 kW)."
       },
       {
         "id": 3,
-        "answer": "Aprobación de sanidad.",
-        "isCorrect": false,
-        "explanation": "Es un trámite ajeno al REBT."
+        "answer": "Debe cumplir en todo caso las prescripciones de seguridad de la ITC-BT-31.",
+        "isCorrect": true,
+        "explanation": "Correcto; aunque se legalice con MTD según la ITC-BT-04, la ejecución técnica debe seguir la ITC-BT-31."
       },
       {
         "id": 4,
-        "answer": "Nada.",
+        "answer": "No requiere documentación si la piscina es para una sola vivienda unifamiliar.",
         "isCorrect": false,
-        "explanation": "Requiere documentación técnica."
+        "explanation": "Falso; el REBT y su ITC-BT-04 aplican a toda instalación eléctrica de baja tensión."
       }
     ]
   },
   {
     "id": "ITC-BT-04-29",
-    "type": "simple",
-    "question": "¿A partir de qué potencia global requieren Proyecto las infraestructuras para recarga de Vehículo Eléctrico (VE) en general (Grupo z)?",
+    "type": "multiple",
+    "question": "Una comunidad de vecinos decide instalar 10 puntos de recarga para vehículos eléctricos en su garaje comunitario, con una potencia total de 55 kW. ¿Qué trámite es necesario?",
     "options": [
       {
         "id": 1,
-        "answer": "P > 10 kW",
-        "isCorrect": false,
-        "explanation": "Aplica en exteriores."
+        "answer": "Es obligatorio presentar un Proyecto técnico.",
+        "isCorrect": true,
+        "explanation": "El apartado 3.1 (Grupo z) de la ITC-BT-04 exige Proyecto para infraestructuras de recarga que superen los 50 kW en interiores."
       },
       {
         "id": 2,
-        "answer": "P > 50 kW",
-        "isCorrect": true,
-        "explanation": "El Grupo (z) establece P > 50 kW de manera general."
+        "answer": "Basta con MTD si la instalación es comunitaria.",
+        "isCorrect": false,
+        "explanation": "No; el umbral de potencia de 50 kW del apartado 3.1 de la ITC-BT-04 prevalece."
       },
       {
         "id": 3,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límites definidos."
+        "answer": "Si la potencia fuera 40 kW, se permitiría MTD.",
+        "isCorrect": true,
+        "explanation": "Correcto; por debajo de 50 kW en interiores, el apartado 3.1 de la ITC-BT-04 permite el uso de MTD."
       },
       {
         "id": 4,
-        "answer": "P > 100 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "answer": "El proyecto debe incluir el esquema unifilar según el apartado 3.1.",
+        "isCorrect": true,
+        "explanation": "Es obligatorio para justificar el diseño técnico exigido por la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-30",
-    "type": "simple",
-    "question": "Si una instalación de recarga de VE se sitúa en el exterior, ¿cuál es su límite para requerir Proyecto?",
+    "type": "multiple",
+    "question": "Se instala un punto de recarga rápida de 12 kW en la zona de parking exterior de un supermercado. ¿Qué documentación técnica se debe elaborar?",
     "options": [
       {
         "id": 1,
-        "answer": "P > 10 kW",
+        "answer": "Un Proyecto técnico redactado por técnico competente.",
         "isCorrect": true,
-        "explanation": "El Grupo (z) baja el límite a P > 10 kW si está situada en el exterior."
+        "explanation": "Para instalaciones de recarga en exterior (Grupo z), el apartado 3.1 de la ITC-BT-04 fija el umbral de Proyecto en 10 kW."
       },
       {
         "id": 2,
-        "answer": "P > 50 kW",
+        "answer": "Basta con una MTD al no superar los 50 kW generales.",
         "isCorrect": false,
-        "explanation": "Ese es el límite general en interior."
+        "explanation": "Incorrecto; al estar situada en el exterior, el apartado 3.1 de la ITC-BT-04 baja el límite de Proyecto a 10 kW."
       },
       {
         "id": 3,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
+        "answer": "Si el punto de recarga fuera de 7 kW, se legalizaría mediante MTD.",
+        "isCorrect": true,
+        "explanation": "Efectivamente, al ser inferior a 10 kW en exterior, el apartado 3.1 de la ITC-BT-04 permitiría MTD."
       },
       {
         "id": 4,
-        "answer": "P > 20 kW",
+        "answer": "Solo requiere Proyecto si se conectan más de tres cargadores.",
         "isCorrect": false,
-        "explanation": "Límite incorrecto."
+        "explanation": "Falso; el criterio es la potencia total en el punto de suministro según el apartado 3.1 de la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-31",
-    "type": "simple",
-    "question": "Una estación de recarga para VE está prevista para el modo de carga 4. ¿Cuándo requiere Proyecto?",
+    "type": "multiple",
+    "question": "Se proyecta una estación de servicio que incorporará cargadores ultra-rápidos mediante el Modo de Carga 4 (en corriente continua). ¿Qué documentación técnica es necesaria?",
     "options": [
       {
         "id": 1,
-        "answer": "P > 10 kW.",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto para modo 4."
+        "answer": "Es obligatorio redactar un Proyecto técnico independientemente de la potencia.",
+        "isCorrect": true,
+        "explanation": "El apartado 3.1 (Grupo z) de la ITC-BT-04 establece que las instalaciones con Modo de Carga 4 requieren Proyecto sin límite de potencia."
       },
       {
         "id": 2,
-        "answer": "P > 50 kW.",
+        "answer": "Basta con una MTD si la potencia del cargador no supera los 50 kW.",
         "isCorrect": false,
-        "explanation": "Límite incorrecto para modo 4."
+        "explanation": "Incorrecto; para el Modo 4, el apartado 3.1 de la ITC-BT-04 anula el umbral de 50 kW, exigiendo Proyecto siempre."
       },
       {
         "id": 3,
-        "answer": "Sin límite (siempre).",
+        "answer": "El Proyecto debe contemplar las protecciones específicas contra contactos directos e indirectos.",
         "isCorrect": true,
-        "explanation": "El Grupo (z) establece 'Sin límite' para estaciones modo 4."
+        "explanation": "Es una obligación de diseño técnico derivada del requisito de Proyecto del apartado 3.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Nunca.",
+        "answer": "Solo requiere Proyecto si se instalan más de dos cargadores ultra-rápidos.",
         "isCorrect": false,
-        "explanation": "Requiere Proyecto por su complejidad técnica."
+        "explanation": "Falso; el apartado 3.1 de la ITC-BT-04 vincula la necesidad de Proyecto al modo de carga, no al número de equipos."
       }
     ]
   },
   {
     "id": "ITC-BT-04-32",
-    "type": "simple",
-    "question": "¿Es necesario redactar un nuevo Proyecto si se instala un punto de recarga VE en un garaje de edificio de viviendas existente?",
+    "type": "multiple",
+    "question": "Un propietario desea instalar un punto de recarga de 7,4 kW en su plaza de garaje de un edificio de viviendas ya construido. ¿Debe presentar un Proyecto técnico?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, siempre.",
-        "isCorrect": false,
-        "explanation": "Hay una exención expresa."
+        "answer": "No, existe una exención para instalaciones en edificios de viviendas existentes que no entren en los grupos de riesgo.",
+        "isCorrect": true,
+        "explanation": "La nota al final del apartado 3.1 de la ITC-BT-04 exime de Proyecto a estas instalaciones si no superan los umbrales del Grupo z."
       },
       {
         "id": 2,
-        "answer": "No, siempre que la nueva instalación no esté incluida en el grupo z (>50kW, exterior >10kW, o modo 4).",
-        "isCorrect": true,
-        "explanation": "La ITC-BT-04 indica que no será necesario proyecto si no entra en los umbrales del grupo z."
+        "answer": "Sí, toda nueva instalación de recarga en garajes requiere Proyecto según la ITC-BT-52.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; aunque se aplique la ITC-BT-52, la ITC-BT-04 establece excepciones documentales para edificios existentes."
       },
       {
         "id": 3,
-        "answer": "Solo si se instalan cargadores modo 3.",
-        "isCorrect": false,
-        "explanation": "El modo no es el único factor."
+        "answer": "Basta con una Memoria Técnica de Diseño (MTD) firmada por el instalador.",
+        "isCorrect": true,
+        "explanation": "Efectivamente, al estar exenta de Proyecto por la nota del apartado 3.1 de la ITC-BT-04, se legaliza mediante MTD."
       },
       {
         "id": 4,
-        "answer": "Sí, la ITC-BT-52 lo exige en todos los casos.",
+        "answer": "Solo requiere MTD si el cargador es de Modo 3.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-04 establece excepciones para viviendas existentes."
+        "explanation": "El modo de carga condiciona la necesidad de Proyecto, pero en este caso la exención de la ITC-BT-04 (apartado 3.1) es por el tipo de edificio."
       }
     ]
   },
   {
     "id": "ITC-BT-04-33",
-    "type": "simple",
-    "question": "Si una instalación está comprendida en más de un grupo de los especificados, ¿qué criterio aplica?",
+    "type": "multiple",
+    "question": "Se proyecta un local que funcionará como industria (25 kW) y que a su vez tendrá una zona de atención al público con aforo superior a 50 personas. ¿Qué criterio de documentación técnica debe aplicarse?",
     "options": [
       {
         "id": 1,
-        "answer": "El de menor potencia.",
-        "isCorrect": false,
-        "explanation": "Se busca la mayor seguridad."
+        "answer": "Se debe aplicar el criterio más exigente de los establecidos para cada grupo.",
+        "isCorrect": true,
+        "explanation": "El apartado 3.3 de la ITC-BT-04 indica que si una instalación cae en varios grupos, se aplicará siempre el criterio más exigente."
       },
       {
         "id": 2,
-        "answer": "El criterio más exigente de los establecidos para dichos grupos.",
-        "isCorrect": true,
-        "explanation": "El punto 3.3 indica que 'se le aplicará el criterio más exigente'."
+        "answer": "Se aplica el criterio industrial (25 kW) por ser la actividad principal.",
+        "isCorrect": false,
+        "explanation": "Falso; el apartado 3.3 de la ITC-BT-04 obliga a seguir el criterio más restrictivo, que en este caso sería el de pública concurrencia."
       },
       {
         "id": 3,
-        "answer": "Se suman los límites.",
-        "isCorrect": false,
-        "explanation": "No se realiza suma de umbrales."
+        "answer": "Debe redactarse un Proyecto técnico que cubra ambas clasificaciones.",
+        "isCorrect": true,
+        "explanation": "Correcto; al requerir Proyecto por pública concurrencia (Grupo c), el diseño debe cumplir lo más exigente según el apartado 3.3 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Requiere dos proyectos distintos.",
+        "answer": "Basta con una MTD si se presentan documentos por separado para cada zona.",
         "isCorrect": false,
-        "explanation": "Un solo proyecto que cubra lo más exigente es suficiente."
+        "explanation": "Incorrecto; la instalación se considera un conjunto y el apartado 3.3 de la ITC-BT-04 no permite fragmentar para evitar el Proyecto."
       }
     ]
   },
   {
     "id": "ITC-BT-04-34",
-    "type": "simple",
-    "question": "¿Qué documento técnico precisan las instalaciones que no superan los límites indicados para Proyecto?",
+    "type": "multiple",
+    "question": "Un instalador debe legalizar una pequeña reforma en una vivienda unifamiliar que no requiere Proyecto. ¿Qué documento de diseño es preceptivo según el REBT?",
     "options": [
       {
         "id": 1,
-        "answer": "Certificado de Instalación únicamente.",
-        "isCorrect": false,
-        "explanation": "El diseño requiere documentación previa."
+        "answer": "Es obligatoria la elaboración de una Memoria Técnica de Diseño (MTD).",
+        "isCorrect": true,
+        "explanation": "El apartado 4 de la ITC-BT-04 establece que todas las instalaciones que no requieran Proyecto deben contar con una MTD."
       },
       {
         "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "El apartado 4 establece que requerirán MTD todas las instalaciones no incluidas en Proyecto."
+        "answer": "Basta con el Certificado de Instalación Eléctrica (CIE).",
+        "isCorrect": false,
+        "explanation": "No; el CIE es el documento final, pero el apartado 4 de la ITC-BT-04 exige la MTD como fase previa de diseño."
       },
       {
         "id": 3,
-        "answer": "Croquis a mano alzada.",
-        "isCorrect": false,
-        "explanation": "Forma parte de la MTD pero no es el documento completo."
+        "answer": "La MTD puede ser redactada y firmada por el instalador autorizado de la obra.",
+        "isCorrect": true,
+        "explanation": "Correcto; según el apartado 4 de la ITC-BT-04, el instalador es competente para firmar este documento de diseño."
       },
       {
         "id": 4,
-        "answer": "No precisan ningún documento técnico de diseño.",
+        "answer": "Las viviendas unifamiliares están exentas de documentación de diseño previo.",
         "isCorrect": false,
-        "explanation": "Toda instalación bajo REBT requiere diseño previo."
+        "explanation": "Falso; el apartado 4 de la ITC-BT-04 no contempla exenciones de diseño para instalaciones bajo el REBT."
       }
     ]
   },
   {
     "id": "ITC-BT-04-35",
-    "type": "simple",
-    "question": "Las instalaciones en el ámbito del REBT deben ser efectuadas por:",
+    "type": "multiple",
+    "question": "¿Quién es el responsable legal de ejecutar las instalaciones eléctricas de baja tensión siguiendo lo proyectado o diseñado?",
     "options": [
       {
         "id": 1,
-        "answer": "Cualquier electricista.",
-        "isCorrect": false,
-        "explanation": "Deben tener habilitación oficial."
+        "answer": "La ejecución debe ser llevada a cabo por una empresa instaladora habilitada.",
+        "isCorrect": true,
+        "explanation": "El apartado 5.1 de la ITC-BT-04 especifica que las instalaciones deben ser efectuadas por empresas instaladoras autorizadas."
       },
       {
         "id": 2,
-        "answer": "Empresas instaladoras en baja tensión (según ITC-BT-03).",
-        "isCorrect": true,
-        "explanation": "El apartado 5.1 obliga a que sean efectuadas por empresas instaladoras habilitadas."
+        "answer": "El técnico titulado que redactó el Proyecto.",
+        "isCorrect": false,
+        "explanation": "No; el técnico proyecta y dirige, pero la ejecución es responsabilidad de la empresa instaladora (apartado 5.1 de la ITC-BT-04)."
       },
       {
         "id": 3,
-        "answer": "Ingenieros técnicos.",
-        "isCorrect": false,
-        "explanation": "Ellos diseñan, pero la ejecución es de la empresa instaladora."
+        "answer": "La empresa instaladora debe estar inscrita en el registro correspondiente (según ITC-BT-03).",
+        "isCorrect": true,
+        "explanation": "Es el requisito formal para poder efectuar los trabajos según indica el apartado 5.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Inspectores OCA.",
+        "answer": "Cualquier oficial de primera con experiencia demostrable.",
         "isCorrect": false,
-        "explanation": "Ellos realizan la inspección posterior."
+        "explanation": "Incorrecto; la ley exige que sea una empresa instaladora habilitada bajo los requisitos del apartado 5.1 de la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-36",
-    "type": "simple",
-    "question": "En el caso de instalaciones que requirieron Proyecto, su ejecución debe contar con:",
+    "type": "multiple",
+    "question": "En una obra que requiere Proyecto técnico (por ejemplo, una industria de 30 kW), ¿qué supervisión técnica es obligatoria durante la ejecución?",
     "options": [
       {
         "id": 1,
-        "answer": "La dirección de un técnico titulado competente.",
+        "answer": "La ejecución debe contar con la dirección de un técnico titulado competente.",
         "isCorrect": true,
-        "explanation": "El apartado 5.1 exige la 'dirección de un técnico titulado competente'."
+        "explanation": "El apartado 5.1 de la ITC-BT-04 exige que las instalaciones proyectadas cuenten con dirección técnica durante su ejecución."
       },
       {
         "id": 2,
-        "answer": "La presencia del propietario.",
+        "answer": "Basta con que el instalador autorizado supervise a sus operarios.",
         "isCorrect": false,
-        "explanation": "No es un requisito técnico."
+        "explanation": "No; el apartado 5.1 de la ITC-BT-04 obliga a una dirección facultativa externa a la empresa instaladora para obras con Proyecto."
       },
       {
         "id": 3,
-        "answer": "Un notario.",
-        "isCorrect": false,
-        "explanation": "No interviene en la ejecución técnica."
+        "answer": "El técnico director de obra debe asegurar que se cumple lo diseñado en el Proyecto.",
+        "isCorrect": true,
+        "explanation": "Es la función principal de la dirección técnica requerida por el apartado 5.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Tres instaladores de categoría especialista.",
+        "answer": "Solo es obligatoria la dirección técnica si la potencia supera los 100 kW.",
         "isCorrect": false,
-        "explanation": "Depende del tipo de instalación, no de la cantidad."
+        "explanation": "Falso; el apartado 5.1 de la ITC-BT-04 vincula la dirección técnica a la existencia de Proyecto, no a un umbral de potencia adicional."
       }
     ]
   },
   {
     "id": "ITC-BT-04-37",
-    "type": "simple",
-    "question": "Si la empresa instaladora considera que el Proyecto no se ajusta al Reglamento, ¿qué debe hacer?",
+    "type": "multiple",
+    "question": "Durante la ejecución de una instalación, la empresa instaladora detecta que el Proyecto técnico no cumple con una prescripción del REBT. ¿Cómo debe proceder?",
     "options": [
       {
         "id": 1,
-        "answer": "Paralizar la obra indefinidamente.",
-        "isCorrect": false,
-        "explanation": "Debe seguir un cauce de comunicación."
+        "answer": "Debe ponerlo en conocimiento, por escrito, del autor del Proyecto y del propietario.",
+        "isCorrect": true,
+        "explanation": "El apartado 5.1 de la ITC-BT-04 obliga a la empresa instaladora a comunicar formalmente cualquier discrepancia normativa detectada en el Proyecto."
       },
       {
         "id": 2,
-        "answer": "Cambiar el diseño a su criterio.",
+        "answer": "Debe corregir el diseño sobre la marcha y reflejarlo en el certificado final.",
         "isCorrect": false,
-        "explanation": "No puede alterar un proyecto de técnico titulado."
+        "explanation": "No; la empresa instaladora no puede alterar el Proyecto de un técnico titulado sin seguir el procedimiento del apartado 5.1 de la ITC-BT-04."
       },
       {
         "id": 3,
-        "answer": "Ponerlo en conocimiento por escrito del autor del Proyecto y del propietario.",
+        "answer": "Si el autor del Proyecto no rectifica, se debe someter la cuestión al Órgano Competente de la Comunidad Autónoma.",
         "isCorrect": true,
-        "explanation": "Según el apdo. 5.1, debe comunicarlo formalmente a ambas partes."
+        "explanation": "Es el cauce de resolución de conflictos técnicos establecido en el apartado 5.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Avisar a la policía.",
+        "answer": "La responsabilidad del diseño es exclusiva del técnico, por lo que el instalador debe ejecutarlo tal cual.",
         "isCorrect": false,
-        "explanation": "Es una discrepancia técnica administrativa."
+        "explanation": "Falso; el apartado 5.1 de la ITC-BT-04 otorga al instalador la responsabilidad de advertir sobre incumplimientos reglamentarios."
       }
     ]
   },
   {
     "id": "ITC-BT-04-38",
-    "type": "simple",
-    "question": "Si no hay acuerdo entre el autor del proyecto y la empresa instaladora, ¿quién resuelve?",
+    "type": "multiple",
+    "question": "Ante una discrepancia técnica entre el Director de Obra y la Empresa Instaladora sobre la interpretación del REBT en un Proyecto, ¿quién tiene la potestad final para resolver?",
     "options": [
       {
         "id": 1,
-        "answer": "El Ministerio de Industria.",
-        "isCorrect": false,
-        "explanation": "La competencia es autonómica."
+        "answer": "El Órgano competente de la Comunidad Autónoma.",
+        "isCorrect": true,
+        "explanation": "El apartado 5.1 de la ITC-BT-04 establece que la administración autonómica resolverá las controversias técnicas entre las partes."
       },
       {
         "id": 2,
-        "answer": "El Órgano competente de la Comunidad Autónoma.",
-        "isCorrect": true,
-        "explanation": "El apartado 5.1 indica que se someterá la cuestión a la C.A. para que resuelva."
+        "answer": "El Colegio Profesional del técnico proyectista.",
+        "isCorrect": false,
+        "explanation": "No; los colegios no tienen potestad resolutiva en la legalización de instalaciones según el apartado 5.1 de la ITC-BT-04."
       },
       {
         "id": 3,
-        "answer": "Un juez civil.",
-        "isCorrect": false,
-        "explanation": "Es un procedimiento administrativo técnico."
+        "answer": "La decisión administrativa debe ser vinculante para ambas partes.",
+        "isCorrect": true,
+        "explanation": "Correcto; la resolución del órgano competente cierra el procedimiento técnico administrativo fijado por la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "El colegio de ingenieros.",
+        "answer": "El propietario del edificio, por ser quien paga la instalación.",
         "isCorrect": false,
-        "explanation": "Pueden asesorar, pero no tienen potestad resolutiva administrativa."
+        "explanation": "Incorrecto; los criterios de seguridad industrial del REBT (apartado 5.1 de la ITC-BT-04) prevalecen sobre decisiones del propietario."
       }
     ]
   },
   {
     "id": "ITC-BT-04-39",
-    "type": "simple",
-    "question": "El Proyecto de una instalación eléctrica debe ser redactado y firmado por:",
+    "type": "multiple",
+    "question": "Un promotor inmobiliario necesita legalizar la instalación de un edificio de 25 viviendas. ¿Qué cualificación debe tener el autor del diseño técnico?",
     "options": [
       {
         "id": 1,
-        "answer": "El instalador autorizado.",
-        "isCorrect": false,
-        "explanation": "Ellos firman la MTD."
+        "answer": "Debe ser un técnico titulado competente (Ingeniero o Ingeniero Técnico).",
+        "isCorrect": true,
+        "explanation": "Para edificios de viviendas que superen los 100 kW (apartado 3.1, Grupo f), se requiere Proyecto firmado por técnico titulado."
       },
       {
         "id": 2,
-        "answer": "El propietario del edificio.",
+        "answer": "Basta con que el instalador autorizado firme una Memoria Técnica de Diseño.",
         "isCorrect": false,
-        "explanation": "Solo es el titular de la instalación."
+        "explanation": "No; al superar los umbrales del apartado 3.1 de la ITC-BT-04, la MTD no es legalmente válida para el edificio."
       },
       {
         "id": 3,
-        "answer": "Técnico titulado competente.",
+        "answer": "El autor debe estar colegiado y tener sus atribuciones profesionales vigentes.",
         "isCorrect": true,
-        "explanation": "El apdo. 2.1 especifica que el Proyecto requiere técnico titulado."
+        "explanation": "Es una condición implícita para ser considerado 'técnico titulado competente' según el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "El alcalde del municipio.",
+        "answer": "Cualquier persona con un título de FP de Grado Superior en Electricidad.",
         "isCorrect": false,
-        "explanation": "No tiene competencia técnica en diseño."
+        "explanation": "Falso; el apartado 2.1 de la ITC-BT-04 reserva la redacción de Proyectos a técnicos titulados universitarios competentes."
       }
     ]
   },
   {
     "id": "ITC-BT-04-40",
-    "type": "simple",
-    "question": "¿Puede el proyecto eléctrico formar parte del proyecto general de un edificio?",
+    "type": "multiple",
+    "question": "En el caso de una nave industrial nueva, ¿cómo puede presentarse la documentación técnica eléctrica ante la Administración?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, bien como parte del proyecto general o en forma de proyecto específico.",
+        "answer": "Como un Proyecto específico de electricidad o integrado en el Proyecto general de la nave.",
         "isCorrect": true,
-        "explanation": "El texto permite ambas modalidades documentalmente."
+        "explanation": "El apartado 2.1 de la ITC-BT-04 permite que el Proyecto eléctrico sea independiente o forme parte de uno general."
       },
       {
         "id": 2,
-        "answer": "No, debe ser siempre un documento aislado.",
+        "answer": "Es obligatorio que sea un documento separado para facilitar su revisión.",
         "isCorrect": false,
-        "explanation": "Puede integrarse en el proyecto de edificación."
+        "explanation": "Incorrecto; el apartado 2.1 de la ITC-BT-04 otorga flexibilidad en la forma de presentación documental."
       },
       {
         "id": 3,
-        "answer": "Solo si el edificio es de viviendas.",
-        "isCorrect": false,
-        "explanation": "Aplica a cualquier tipo de edificio."
-      },
-      {
-        "id": 4,
-        "answer": "Solo si la potencia es menor a 100 kW.",
-        "isCorrect": false,
-        "explanation": "No hay límite de potencia para esta integración."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-21",
-    "type": "simple",
-    "question": "¿Qué documentación precisan las instalaciones destinadas a rótulos luminosos (que no caen en ITC-BT-44)?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Proyecto, sin límite de potencia.",
+        "answer": "Si está integrado, el apartado de electricidad debe estar claramente diferenciado y firmado por técnico competente.",
         "isCorrect": true,
-        "explanation": "El Grupo (j) exige Proyecto 'Sin límite' para rótulos luminosos (salvo exenciones de ITC-BT-44)."
-      },
-      {
-        "id": 2,
-        "answer": "MTD si P < 10 kW.",
-        "isCorrect": false,
-        "explanation": "No hay límite de 10 kW."
-      },
-      {
-        "id": 3,
-        "answer": "MTD siempre.",
-        "isCorrect": false,
-        "explanation": "Requieren Proyecto."
+        "explanation": "Es un requisito para asegurar la responsabilidad técnica exigida por el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Depende de su ubicación.",
+        "answer": "Solo puede integrarse si el autor del proyecto general es también el de la instalación eléctrica.",
         "isCorrect": false,
-        "explanation": "El criterio es la tipología de la instalación."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-22",
-    "type": "simple",
-    "question": "Una cerca eléctrica (Grupo j) requiere Proyecto:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Solo si es para animales peligrosos.",
-        "isCorrect": false,
-        "explanation": "El uso no condiciona el requisito técnico."
-      },
-      {
-        "id": 2,
-        "answer": "Sin límite de potencia.",
-        "isCorrect": true,
-        "explanation": "Está listada en el Grupo (j) que requiere Proyecto sin límite de potencia."
-      },
-      {
-        "id": 3,
-        "answer": "Nunca.",
-        "isCorrect": false,
-        "explanation": "Sí requiere documentación técnica."
-      },
-      {
-        "id": 4,
-        "answer": "Si P > 5 kW.",
-        "isCorrect": false,
-        "explanation": "No tiene límite de potencia inferior."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-23",
-    "type": "simple",
-    "question": "¿A partir de qué potencia precisan Proyecto las instalaciones de alumbrado exterior (Grupo k)?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "P > 1 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 2,
-        "answer": "P > 5 kW",
-        "isCorrect": true,
-        "explanation": "El límite indicado en el Grupo (k) es P > 5 kW."
-      },
-      {
-        "id": 3,
-        "answer": "P > 10 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 4,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-24",
-    "type": "simple",
-    "question": "Una instalación de alumbrado exterior de 4 kW requiere:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Proyecto.",
-        "isCorrect": false,
-        "explanation": "No supera los 5 kW."
-      },
-      {
-        "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "Al ser menor o igual a 5 kW, requiere MTD."
-      },
-      {
-        "id": 3,
-        "answer": "Nada.",
-        "isCorrect": false,
-        "explanation": "Toda instalación requiere diseño."
-      },
-      {
-        "id": 4,
-        "answer": "Proyecto visado.",
-        "isCorrect": false,
-        "explanation": "No alcanza el umbral de Proyecto."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-25",
-    "type": "simple",
-    "question": "Los locales con riesgo de incendio o explosión (Grupo l) requieren Proyecto:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Si P > 10 kW.",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 2,
-        "answer": "Si P > 50 kW.",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 3,
-        "answer": "Sin límite de potencia.",
-        "isCorrect": true,
-        "explanation": "El Grupo (l) indica 'Sin límite' para requerir Proyecto."
-      },
-      {
-        "id": 4,
-        "answer": "Nunca, requiere inspección OCA.",
-        "isCorrect": false,
-        "explanation": "La inspección es complementaria al diseño."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-26",
-    "type": "simple",
-    "question": "Una sala de intervención (quirófano) tiene una potencia prevista de 3 kW. ¿Precisa Proyecto?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Sí, sin límite de potencia.",
-        "isCorrect": true,
-        "explanation": "Quirófanos y salas de intervención (Grupo m) precisan Proyecto 'Sin límite'."
-      },
-      {
-        "id": 2,
-        "answer": "No, al ser menor de 5 kW basta MTD.",
-        "isCorrect": false,
-        "explanation": "No hay límite inferior para este tipo de locales."
-      },
-      {
-        "id": 3,
-        "answer": "Solo si se ubica en un hospital general.",
-        "isCorrect": false,
-        "explanation": "Aplica a cualquier sala de intervención técnica."
-      },
-      {
-        "id": 4,
-        "answer": "No.",
-        "isCorrect": false,
-        "explanation": "Sí lo precisa por seguridad."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-27",
-    "type": "simple",
-    "question": "¿A partir de qué potencia precisan Proyecto las piscinas y fuentes (Grupo n)?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "P > 1 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 2,
-        "answer": "P > 5 kW",
-        "isCorrect": true,
-        "explanation": "El Grupo (n) especifica P > 5 kW."
-      },
-      {
-        "id": 3,
-        "answer": "P > 10 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      },
-      {
-        "id": 4,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-28",
-    "type": "simple",
-    "question": "Una fuente ornamental de 4 kW requiere:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Proyecto.",
-        "isCorrect": false,
-        "explanation": "No supera los 5 kW."
-      },
-      {
-        "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "Al no superar 5 kW (Grupo n), requiere MTD."
-      },
-      {
-        "id": 3,
-        "answer": "Aprobación de sanidad.",
-        "isCorrect": false,
-        "explanation": "Es un trámite ajeno al REBT."
-      },
-      {
-        "id": 4,
-        "answer": "Nada.",
-        "isCorrect": false,
-        "explanation": "Requiere documentación técnica."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-29",
-    "type": "simple",
-    "question": "¿A partir de qué potencia global requieren Proyecto las infraestructuras para recarga de Vehículo Eléctrico (VE) en general (Grupo z)?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "P > 10 kW",
-        "isCorrect": false,
-        "explanation": "Aplica en exteriores."
-      },
-      {
-        "id": 2,
-        "answer": "P > 50 kW",
-        "isCorrect": true,
-        "explanation": "El Grupo (z) establece P > 50 kW de manera general."
-      },
-      {
-        "id": 3,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límites definidos."
-      },
-      {
-        "id": 4,
-        "answer": "P > 100 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-30",
-    "type": "simple",
-    "question": "Si una instalación de recarga de VE se sitúa en el exterior, ¿cuál es su límite para requerir Proyecto?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "P > 10 kW",
-        "isCorrect": true,
-        "explanation": "El Grupo (z) baja el límite a P > 10 kW si está situada en el exterior."
-      },
-      {
-        "id": 2,
-        "answer": "P > 50 kW",
-        "isCorrect": false,
-        "explanation": "Ese es el límite general en interior."
-      },
-      {
-        "id": 3,
-        "answer": "Sin límite",
-        "isCorrect": false,
-        "explanation": "Tiene límite definido."
-      },
-      {
-        "id": 4,
-        "answer": "P > 20 kW",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-31",
-    "type": "simple",
-    "question": "Una estación de recarga para VE está prevista para el modo de carga 4. ¿Cuándo requiere Proyecto?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "P > 10 kW.",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto para modo 4."
-      },
-      {
-        "id": 2,
-        "answer": "P > 50 kW.",
-        "isCorrect": false,
-        "explanation": "Límite incorrecto para modo 4."
-      },
-      {
-        "id": 3,
-        "answer": "Sin límite (siempre).",
-        "isCorrect": true,
-        "explanation": "El Grupo (z) establece 'Sin límite' para estaciones modo 4."
-      },
-      {
-        "id": 4,
-        "answer": "Nunca.",
-        "isCorrect": false,
-        "explanation": "Requiere Proyecto por su complejidad técnica."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-32",
-    "type": "simple",
-    "question": "¿Es necesario redactar un nuevo Proyecto si se instala un punto de recarga VE en un garaje de edificio de viviendas existente?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Sí, siempre.",
-        "isCorrect": false,
-        "explanation": "Hay una exención expresa."
-      },
-      {
-        "id": 2,
-        "answer": "No, siempre que la nueva instalación no esté incluida en el grupo z (>50kW, exterior >10kW, o modo 4).",
-        "isCorrect": true,
-        "explanation": "La ITC-BT-04 indica que no será necesario proyecto si no entra en los umbrales del grupo z."
-      },
-      {
-        "id": 3,
-        "answer": "Solo si se instalan cargadores modo 3.",
-        "isCorrect": false,
-        "explanation": "El modo no es el único factor."
-      },
-      {
-        "id": 4,
-        "answer": "Sí, la ITC-BT-52 lo exige en todos los casos.",
-        "isCorrect": false,
-        "explanation": "La ITC-BT-04 establece excepciones para viviendas existentes."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-33",
-    "type": "simple",
-    "question": "Si una instalación está comprendida en más de un grupo de los especificados, ¿qué criterio aplica?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "El de menor potencia.",
-        "isCorrect": false,
-        "explanation": "Se busca la mayor seguridad."
-      },
-      {
-        "id": 2,
-        "answer": "El criterio más exigente de los establecidos para dichos grupos.",
-        "isCorrect": true,
-        "explanation": "El punto 3.3 indica que 'se le aplicará el criterio más exigente'."
-      },
-      {
-        "id": 3,
-        "answer": "Se suman los límites.",
-        "isCorrect": false,
-        "explanation": "No se realiza suma de umbrales."
-      },
-      {
-        "id": 4,
-        "answer": "Requiere dos proyectos distintos.",
-        "isCorrect": false,
-        "explanation": "Un solo proyecto que cubra lo más exigente es suficiente."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-34",
-    "type": "simple",
-    "question": "¿Qué documento técnico precisan las instalaciones que no superan los límites indicados para Proyecto?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Certificado de Instalación únicamente.",
-        "isCorrect": false,
-        "explanation": "El diseño requiere documentación previa."
-      },
-      {
-        "id": 2,
-        "answer": "Memoria Técnica de Diseño (MTD).",
-        "isCorrect": true,
-        "explanation": "El apartado 4 establece que requerirán MTD todas las instalaciones no incluidas en Proyecto."
-      },
-      {
-        "id": 3,
-        "answer": "Croquis a mano alzada.",
-        "isCorrect": false,
-        "explanation": "Forma parte de la MTD pero no es el documento completo."
-      },
-      {
-        "id": 4,
-        "answer": "No precisan ningún documento técnico de diseño.",
-        "isCorrect": false,
-        "explanation": "Toda instalación bajo REBT requiere diseño previo."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-35",
-    "type": "simple",
-    "question": "Las instalaciones en el ámbito del REBT deben ser efectuadas por:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Cualquier electricista.",
-        "isCorrect": false,
-        "explanation": "Deben tener habilitación oficial."
-      },
-      {
-        "id": 2,
-        "answer": "Empresas instaladoras en baja tensión (según ITC-BT-03).",
-        "isCorrect": true,
-        "explanation": "El apartado 5.1 obliga a que sean efectuadas por empresas instaladoras habilitadas."
-      },
-      {
-        "id": 3,
-        "answer": "Ingenieros técnicos.",
-        "isCorrect": false,
-        "explanation": "Ellos diseñan, pero la ejecución es de la empresa instaladora."
-      },
-      {
-        "id": 4,
-        "answer": "Inspectores OCA.",
-        "isCorrect": false,
-        "explanation": "Ellos realizan la inspección posterior."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-36",
-    "type": "simple",
-    "question": "En el caso de instalaciones que requirieron Proyecto, su ejecución debe contar con:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "La dirección de un técnico titulado competente.",
-        "isCorrect": true,
-        "explanation": "El apartado 5.1 exige la 'dirección de un técnico titulado competente'."
-      },
-      {
-        "id": 2,
-        "answer": "La presencia del propietario.",
-        "isCorrect": false,
-        "explanation": "No es un requisito técnico."
-      },
-      {
-        "id": 3,
-        "answer": "Un notario.",
-        "isCorrect": false,
-        "explanation": "No interviene en la ejecución técnica."
-      },
-      {
-        "id": 4,
-        "answer": "Tres instaladores de categoría especialista.",
-        "isCorrect": false,
-        "explanation": "Depende del tipo de instalación, no de la cantidad."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-37",
-    "type": "simple",
-    "question": "Si la empresa instaladora considera que el Proyecto no se ajusta al Reglamento, ¿qué debe hacer?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Paralizar la obra indefinidamente.",
-        "isCorrect": false,
-        "explanation": "Debe seguir un cauce de comunicación."
-      },
-      {
-        "id": 2,
-        "answer": "Cambiar el diseño a su criterio.",
-        "isCorrect": false,
-        "explanation": "No puede alterar un proyecto de técnico titulado."
-      },
-      {
-        "id": 3,
-        "answer": "Ponerlo en conocimiento por escrito del autor del Proyecto y del propietario.",
-        "isCorrect": true,
-        "explanation": "Según el apdo. 5.1, debe comunicarlo formalmente a ambas partes."
-      },
-      {
-        "id": 4,
-        "answer": "Avisar a la policía.",
-        "isCorrect": false,
-        "explanation": "Es una discrepancia técnica administrativa."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-38",
-    "type": "simple",
-    "question": "Si no hay acuerdo entre el autor del proyecto y la empresa instaladora, ¿quién resuelve?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "El Ministerio de Industria.",
-        "isCorrect": false,
-        "explanation": "La competencia es autonómica."
-      },
-      {
-        "id": 2,
-        "answer": "El Órgano competente de la Comunidad Autónoma.",
-        "isCorrect": true,
-        "explanation": "El apartado 5.1 indica que se someterá la cuestión a la C.A. para que resuelva."
-      },
-      {
-        "id": 3,
-        "answer": "Un juez civil.",
-        "isCorrect": false,
-        "explanation": "Es un procedimiento administrativo técnico."
-      },
-      {
-        "id": 4,
-        "answer": "El colegio de ingenieros.",
-        "isCorrect": false,
-        "explanation": "Pueden asesorar, pero no tienen potestad resolutiva administrativa."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-39",
-    "type": "simple",
-    "question": "El Proyecto de una instalación eléctrica debe ser redactado y firmado por:",
-    "options": [
-      {
-        "id": 1,
-        "answer": "El instalador autorizado.",
-        "isCorrect": false,
-        "explanation": "Ellos firman la MTD."
-      },
-      {
-        "id": 2,
-        "answer": "El propietario del edificio.",
-        "isCorrect": false,
-        "explanation": "Solo es el titular de la instalación."
-      },
-      {
-        "id": 3,
-        "answer": "Técnico titulado competente.",
-        "isCorrect": true,
-        "explanation": "El apdo. 2.1 especifica que el Proyecto requiere técnico titulado."
-      },
-      {
-        "id": 4,
-        "answer": "El alcalde del municipio.",
-        "isCorrect": false,
-        "explanation": "No tiene competencia técnica en diseño."
-      }
-    ]
-  },
-  {
-    "id": "ITC-BT-04-40",
-    "type": "simple",
-    "question": "¿Puede el proyecto eléctrico formar parte del proyecto general de un edificio?",
-    "options": [
-      {
-        "id": 1,
-        "answer": "Sí, bien como parte del proyecto general o en forma de proyecto específico.",
-        "isCorrect": true,
-        "explanation": "El texto permite ambas modalidades documentalmente."
-      },
-      {
-        "id": 2,
-        "answer": "No, debe ser siempre un documento aislado.",
-        "isCorrect": false,
-        "explanation": "Puede integrarse en el proyecto de edificación."
-      },
-      {
-        "id": 3,
-        "answer": "Solo si el edificio es de viviendas.",
-        "isCorrect": false,
-        "explanation": "Aplica a cualquier tipo de edificio."
-      },
-      {
-        "id": 4,
-        "answer": "Solo si la potencia es menor a 100 kW.",
-        "isCorrect": false,
-        "explanation": "No hay límite de potencia para esta integración."
+        "explanation": "Falso; pueden ser autores distintos siempre que se cumpla la competencia técnica del apartado 2.1 de la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-41",
-    "type": "simple",
-    "question": "¿Qué datos personales se deben expresar en la memoria del proyecto?",
+    "type": "multiple",
+    "question": "Al redactar la Memoria descriptiva de un Proyecto eléctrico, ¿qué información relativa a la titularidad es obligatorio incluir según la ITC-BT-04?",
     "options": [
       {
         "id": 1,
-        "answer": "Historial médico del propietario.",
-        "isCorrect": false,
-        "explanation": "No es un dato relevante para la instalación eléctrica."
+        "answer": "Los datos identificativos del propietario o titular de la instalación.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 (Memoria) de la ITC-BT-04 establece como requisito obligatorio la inclusión de los datos del propietario."
       },
       {
         "id": 2,
-        "answer": "Datos relativos al propietario.",
-        "isCorrect": true,
-        "explanation": "La memoria debe contener obligatoriamente los datos identificativos del propietario[cite: 1]."
+        "answer": "El historial de reformas del inmueble de los últimos diez años.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; la ITC-BT-04 (apartado 2.1) se centra en la identificación actual de los responsables de la instalación."
       },
       {
         "id": 3,
-        "answer": "Currículum del instalador.",
-        "isCorrect": false,
-        "explanation": "Se requiere su identificación, no su currículum completo."
+        "answer": "La identificación del técnico titulado competente que redacta el documento.",
+        "isCorrect": true,
+        "explanation": "Es un dato esencial exigido en el apartado 2.1 de la ITC-BT-04 para establecer la responsabilidad del diseño."
       },
       {
         "id": 4,
-        "answer": "Titulación de los albañiles.",
+        "answer": "Los datos bancarios del titular para el pago de tasas.",
         "isCorrect": false,
-        "explanation": "Solo se identifica al técnico titulado competente del proyecto."
+        "explanation": "Falso; los trámites administrativos de pago son ajenos al contenido técnico del Proyecto definido en el apartado 2.1 de la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-42",
-    "type": "simple",
-    "question": "Sobre las canalizaciones, la memoria del proyecto debe expresar específicamente:",
+    "type": "multiple",
+    "question": "Dentro del apartado de canalizaciones de la Memoria de un Proyecto, ¿qué detalles técnicos deben quedar plenamente justificados?",
     "options": [
       {
         "id": 1,
-        "answer": "El color exacto del tubo.",
-        "isCorrect": false,
-        "explanation": "El color no suele ser una prescripción técnica obligatoria en la memoria."
+        "answer": "Las características y secciones de los conductores a emplear.",
+        "isCorrect": true,
+        "explanation": "Es una prescripción obligatoria del contenido de la Memoria técnica según el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 2,
-        "answer": "Las marcas comerciales a utilizar.",
-        "isCorrect": false,
-        "explanation": "El REBT define características técnicas, no marcas específicas."
+        "answer": "Las características y diámetros de los tubos y canaletas de protección.",
+        "isCorrect": true,
+        "explanation": "Correcto; el apartado 2.1 de la ITC-BT-04 exige detallar las envolventes de los conductores para asegurar su protección."
       },
       {
         "id": 3,
-        "answer": "Características y secciones de conductores, características y diámetros de los tubos.",
-        "isCorrect": true,
-        "explanation": "Es un requisito explícito de la memoria técnica del proyecto según la ITC-BT-04[cite: 1]."
+        "answer": "El listado de proveedores y marcas comerciales sugeridas.",
+        "isCorrect": false,
+        "explanation": "No; la ITC-BT-04 (apartado 2.1) pide características técnicas objetivas, no marcas comerciales específicas."
       },
       {
         "id": 4,
-        "answer": "La vida útil del cobre.",
+        "answer": "El color de los tubos para que armonicen con la estética del local.",
         "isCorrect": false,
-        "explanation": "No se solicita este cálculo en la memoria descriptiva."
+        "explanation": "Falso; el diseño técnico del apartado 2.1 de la ITC-BT-04 se centra en la seguridad y funcionalidad, no en la estética."
       }
     ]
   },
   {
     "id": "ITC-BT-04-43",
-    "type": "simple",
-    "question": "En la memoria del proyecto, ¿qué debe figurar respecto a los receptores?",
+    "type": "multiple",
+    "question": "Al describir los receptores en la Memoria del Proyecto, ¿cuál es el requerimiento mínimo que exige el REBT?",
     "options": [
       {
         "id": 1,
-        "answer": "Relación nominal de los que se prevean instalar y su potencia.",
+        "answer": "Incluir la relación nominal de los receptores previstos y su potencia individual.",
         "isCorrect": true,
-        "explanation": "La ITC exige listar los receptores previstos y la potencia de cada uno[cite: 1]."
+        "explanation": "El apartado 2.1 de la ITC-BT-04 obliga a listar los equipos previstos para justificar la carga total de la instalación."
       },
       {
         "id": 2,
-        "answer": "Marca y modelo exacto de los electrodomésticos.",
+        "answer": "Basta con indicar la potencia total del local sin detallar receptores.",
         "isCorrect": false,
-        "explanation": "Basta con la potencia y el tipo de receptor."
+        "explanation": "Incorrecto; para un Proyecto técnico, el apartado 2.1 de la ITC-BT-04 exige el desglose nominal de los receptores."
       },
       {
         "id": 3,
-        "answer": "Año de fabricación de cada uno.",
-        "isCorrect": false,
-        "explanation": "Dato irrelevante para el diseño de la instalación fija."
+        "answer": "Se debe especificar el uso al que se destina cada receptor (calefacción, fuerza, alumbrado, etc.).",
+        "isCorrect": true,
+        "explanation": "Es necesario para la correcta aplicación de los coeficientes de simultaneidad según el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Solo los que superen los 10 kW.",
+        "answer": "Deben indicarse los números de serie de los electrodomésticos a conectar.",
         "isCorrect": false,
-        "explanation": "Se deben incluir todos los receptores que formen parte de la previsión de carga."
+        "explanation": "Falso; el Proyecto se redacta antes de la compra de equipos, por lo que el apartado 2.1 de la ITC-BT-04 pide potencias previstas, no datos de fabricación."
       }
     ]
   },
   {
     "id": "ITC-BT-04-44",
-    "type": "simple",
-    "question": "¿Qué documento gráfico incluye el proyecto para mostrar los dispositivos de corte y protección?",
+    "type": "multiple",
+    "question": "Como parte de los documentos gráficos de un Proyecto, se debe presentar un esquema unifilar. ¿Qué información técnica debe mostrar este plano?",
     "options": [
       {
         "id": 1,
-        "answer": "Croquis topográfico.",
-        "isCorrect": false,
-        "explanation": "El croquis topográfico no muestra la jerarquía eléctrica."
+        "answer": "Las características de los dispositivos de corte y protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 (Planos) de la ITC-BT-04 exige que el esquema unifilar detalle todas las protecciones de la instalación."
       },
       {
         "id": 2,
-        "answer": "Esquema unifilar de la instalación.",
-        "isCorrect": true,
-        "explanation": "Debe incluir el esquema unifilar y las características de los dispositivos de protección[cite: 1]."
+        "answer": "La ubicación exacta de las cajas de registro en la vivienda.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; esa información corresponde a los planos de planta, no al esquema unifilar definido en el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 3,
-        "answer": "Plano 3D del edificio.",
-        "isCorrect": false,
-        "explanation": "No es un requerimiento normativo del REBT."
+        "answer": "La jerarquía eléctrica y derivaciones desde el cuadro general.",
+        "isCorrect": true,
+        "explanation": "Es la función básica del esquema unifilar requerido por el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Diagrama de bloques de telecomunicaciones.",
+        "answer": "Un diagrama detallado de la red de fontanería para evitar cruces.",
         "isCorrect": false,
-        "explanation": "Corresponde a la normativa de ICT, no a la eléctrica."
+        "explanation": "Falso; el Proyecto eléctrico se centra en su competencia según el apartado 2.1 de la ITC-BT-04."
       }
     ]
   },
   {
     "id": "ITC-BT-04-45",
-    "type": "simple",
-    "question": "Además del esquema unifilar, ¿qué cálculos requiere el proyecto?",
+    "type": "multiple",
+    "question": "¿Por qué es obligatorio incluir cálculos justificativos en la documentación del Proyecto técnico?",
     "options": [
       {
         "id": 1,
-        "answer": "Cálculos justificativos del diseño.",
+        "answer": "Para demostrar que las secciones de los conductores cumplen con la caída de tensión máxima permitida.",
         "isCorrect": true,
-        "explanation": "El proyecto debe incluir los cálculos que justifiquen las soluciones adoptadas[cite: 1]."
+        "explanation": "El apartado 2.1 (Cálculos) de la ITC-BT-04 exige justificar técnicamente todas las soluciones adoptadas."
       },
       {
         "id": 2,
-        "answer": "Cálculos estructurales del edificio.",
-        "isCorrect": false,
-        "explanation": "Corresponden al proyecto arquitectónico."
+        "answer": "Para justificar que las protecciones actúan correctamente en caso de cortocircuito.",
+        "isCorrect": true,
+        "explanation": "Correcto; la seguridad de la instalación debe estar avalada por los cálculos requeridos en el apartado 2.1 de la ITC-BT-04."
       },
       {
         "id": 3,
-        "answer": "Presupuesto exacto al céntimo.",
+        "answer": "Es un trámite opcional si el técnico tiene mucha experiencia.",
         "isCorrect": false,
-        "explanation": "Se requiere un presupuesto, pero el REBT se enfoca en la seguridad técnica."
+        "explanation": "Falso; el apartado 2.1 de la ITC-BT-04 establece los cálculos justificativos como parte integrante y obligatoria del Proyecto."
       },
       {
         "id": 4,
-        "answer": "No requiere cálculos, solo esquemas.",
+        "answer": "Sirven únicamente para calcular el coste final de los materiales.",
         "isCorrect": false,
-        "explanation": "Los cálculos son obligatorios para justificar secciones y protecciones."
+        "explanation": "Incorrecto; el objetivo de los cálculos en el apartado 2.1 de la ITC-BT-04 es la seguridad técnica, no el presupuesto económico."
       }
     ]
   },
   {
     "id": "ITC-BT-04-46",
-    "type": "simple",
-    "question": "Los planos del proyecto deben ser:",
+    "type": "multiple",
+    "question": "Un instalador recibe los planos de un Proyecto eléctrico para una nave industrial. ¿Qué requisitos deben cumplir estos planos para considerarse reglamentarios?",
     "options": [
       {
         "id": 1,
-        "answer": "Únicamente uno general a escala 1:1000.",
-        "isCorrect": false,
-        "explanation": "Una sola escala general suele ser insuficiente."
+        "answer": "Deben ser suficientes en número y detalle para que el instalador pueda ejecutar la obra.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 (Planos) de la ITC-BT-04 especifica que los planos deben proporcionar todos los datos necesarios para la ejecución."
       },
       {
         "id": 2,
-        "answer": "Suficientes en número y detalle para dar una idea clara de las disposiciones.",
-        "isCorrect": true,
-        "explanation": "Deben permitir que la Empresa Instaladora disponga de todos los datos necesarios para la ejecución[cite: 1]."
+        "answer": "Es obligatorio que estén visados digitalmente en cada una de sus páginas.",
+        "isCorrect": false,
+        "explanation": "No; el visado es un trámite administrativo externo, mientras que la ITC-BT-04 (apartado 2.1) define la calidad del contenido técnico."
       },
       {
         "id": 3,
-        "answer": "Visados por el ayuntamiento antes de dibujarse.",
-        "isCorrect": false,
-        "explanation": "El visado es colegial o administrativo, posterior al dibujo."
+        "answer": "Deben incluir, como mínimo, planos de planta, esquemas unifilares y detalles de cuadros.",
+        "isCorrect": true,
+        "explanation": "Correcto; son los elementos gráficos básicos requeridos por el apartado 2.1 de la ITC-BT-04 para una correcta definición técnica."
       },
       {
         "id": 4,
-        "answer": "En formato A3 obligatoriamente.",
+        "answer": "Basta con un croquis general a escala si la potencia es inferior a 50 kW.",
         "isCorrect": false,
-        "explanation": "No se especifica un formato de papel rígido en la ITC."
+        "explanation": "Falso; si la instalación requiere Proyecto, el apartado 2.1 de la ITC-BT-04 no permite sustituir los planos por croquis simplificados."
       }
     ]
   },
   {
     "id": "ITC-BT-04-47",
-    "type": "simple",
-    "question": "La Memoria Técnica de Diseño (MTD) se redactará sobre impresos según el modelo determinado por:",
+    "type": "multiple",
+    "question": "Usted debe redactar una Memoria Técnica de Diseño (MTD) para una vivienda unifamiliar. ¿Qué modelo de impreso debe utilizar obligatoriamente?",
     "options": [
       {
         "id": 1,
-        "answer": "El instalador a su gusto.",
-        "isCorrect": false,
-        "explanation": "Se debe usar un modelo oficial."
+        "answer": "El modelo oficial determinado por el Órgano competente de la Comunidad Autónoma.",
+        "isCorrect": true,
+        "explanation": "El apartado 4 de la ITC-BT-04 establece que la MTD debe redactarse sobre los impresos específicos de cada autonomía."
       },
       {
         "id": 2,
-        "answer": "El Ministerio de Industria para toda España.",
+        "answer": "Cualquier documento PDF que incluya los datos de potencia y protecciones.",
         "isCorrect": false,
-        "explanation": "La competencia para el modelo está delegada en las comunidades autónomas."
+        "explanation": "No; la ITC-BT-04 (apartado 4) exige el uso de formatos normalizados por la administración competente."
       },
       {
         "id": 3,
-        "answer": "El Órgano competente de la Comunidad Autónoma.",
+        "answer": "El impreso debe permitir recopilar los datos básicos y características de diseño de la instalación.",
         "isCorrect": true,
-        "explanation": "Cada Comunidad Autónoma determina el impreso oficial para la MTD[cite: 1]."
+        "explanation": "Es el objeto fundamental del documento definido en el apartado 4 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "El propietario.",
+        "answer": "Un modelo estándar del Ministerio de Industria, igual para todo el territorio nacional.",
         "isCorrect": false,
-        "explanation": "El propietario no tiene potestad normativa."
+        "explanation": "Falso; las competencias están transferidas y el apartado 4 de la ITC-BT-04 remite a los modelos autonómicos."
       }
     ]
   },
   {
     "id": "ITC-BT-04-48",
-    "type": "simple",
-    "question": "¿Para qué sirven los impresos de la MTD?",
+    "type": "multiple",
+    "question": "¿Cuál es la finalidad administrativa y técnica de presentar una Memoria Técnica de Diseño (MTD) antes de la ejecución?",
     "options": [
       {
         "id": 1,
-        "answer": "Para solicitar un préstamo.",
-        "isCorrect": false,
-        "explanation": "No tienen esa finalidad financiera."
+        "answer": "Legalizar el diseño de instalaciones sencillas que no alcanzan los límites del Proyecto.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 4 de la ITC-BT-04, la MTD es el documento de diseño preceptivo para instalaciones no sujetas a Proyecto."
       },
       {
         "id": 2,
-        "answer": "Para proporcionar los principales datos y características de diseño.",
-        "isCorrect": true,
-        "explanation": "Tienen por objeto documentar técnicamente la instalación ante la administración[cite: 1]."
+        "answer": "Sustituir al Certificado de Instalación Eléctrica para ahorrar costes.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; el apartado 4 de la ITC-BT-04 define la MTD como un documento de diseño previo, no como un certificado final."
       },
       {
         "id": 3,
-        "answer": "Para certificar el fin de obra.",
-        "isCorrect": false,
-        "explanation": "El fin de obra se documenta con el Certificado de Instalación."
+        "answer": "Servir de base técnica para que el instalador ejecute la obra conforme al REBT.",
+        "isCorrect": true,
+        "explanation": "Es la función técnica del diseño documentado exigido en el apartado 4 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Para sustituir al certificado de instalación.",
+        "answer": "Es un documento opcional que solo se entrega si el cliente lo solicita.",
         "isCorrect": false,
-        "explanation": "Son documentos complementarios y necesarios ambos."
+        "explanation": "Falso; el apartado 4 de la ITC-BT-04 establece la MTD como un requisito reglamentario obligatorio para la legalización."
       }
     ]
   },
   {
     "id": "ITC-BT-04-49",
-    "type": "simple",
-    "question": "En montajes repetidos idénticos, ¿se puede prescindir de la documentación múltiple?",
+    "type": "multiple",
+    "question": "En una promoción de 50 chalets con instalaciones eléctricas idénticas, ¿qué simplificación documental permite la ITC-BT-04?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, indefinidamente.",
-        "isCorrect": false,
-        "explanation": "Tiene una limitación temporal."
+        "answer": "Se permite el uso de una documentación común, válida durante el plazo de un año.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-04 permite simplificar trámites en montajes repetidos idénticos con esta limitación temporal."
       },
       {
         "id": 2,
-        "answer": "Sí, haciendo constar la circunstancia en el certificado, válida durante un año.",
-        "isCorrect": true,
-        "explanation": "Se permite para simplificar trámites en instalaciones idénticas durante un año[cite: 1]."
+        "answer": "Se puede usar el mismo Proyecto para siempre si el arquitecto es el mismo.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; el apartado 2.2 de la ITC-BT-04 limita la validez de esta modalidad a un año desde el primer registro."
       },
       {
         "id": 3,
-        "answer": "No, hay que imprimir el proyecto para cada vivienda.",
-        "isCorrect": false,
-        "explanation": "La ITC permite esta simplificación administrativa."
+        "answer": "Debe hacerse constar esta circunstancia en cada uno de los certificados de instalación.",
+        "isCorrect": true,
+        "explanation": "Es el requisito formal exigido por el apartado 2.2 de la ITC-BT-04 para vincular cada vivienda a la documentación común."
       },
       {
         "id": 4,
-        "answer": "Solo en el caso de MTD, nunca con Proyecto.",
+        "answer": "Esta simplificación solo es válida para edificios de pisos, no para chalets unifamiliares.",
         "isCorrect": false,
-        "explanation": "Aplica a la documentación de diseño en general."
+        "explanation": "Falso; el apartado 2.2 de la ITC-BT-04 aplica a cualquier montaje repetido idéntico bajo el mismo diseño."
       }
     ]
   },
   {
     "id": "ITC-BT-04-50",
-    "type": "simple",
-    "question": "¿Qué se considera 'modificación significativa' en montajes repetidos?",
+    "type": "multiple",
+    "question": "Si en un bloque de viviendas se decide aumentar la potencia de contratación prevista inicialmente, ¿qué impacto tiene en la documentación repetida (ITC-BT-04)?",
     "options": [
       {
         "id": 1,
-        "answer": "Cambiar el color de los enchufes.",
-        "isCorrect": false,
-        "explanation": "Es un cambio estético no técnico."
+        "answer": "Se considera una modificación significativa que invalida el uso de la documentación común.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-04 indica que cambios en potencia, tensiones o protecciones requieren nueva documentación."
       },
       {
         "id": 2,
-        "answer": "Alterar la potencia prevista, tensiones o elementos de protección.",
-        "isCorrect": true,
-        "explanation": "Estos cambios invalidan el uso de la documentación repetida y requieren nuevo registro[cite: 1]."
+        "answer": "Basta con una nota aclaratoria en el certificado final de cada vivienda.",
+        "isCorrect": false,
+        "explanation": "Incorrecto; al ser un cambio técnico sustancial según el apartado 2.2 de la ITC-BT-04, se requiere un nuevo registro documental."
       },
       {
         "id": 3,
-        "answer": "Retrasar la obra 2 semanas.",
-        "isCorrect": false,
-        "explanation": "No afecta al diseño técnico de la instalación."
+        "answer": "Se debe redactar y registrar una nueva documentación de diseño que recoja el cambio.",
+        "isCorrect": true,
+        "explanation": "Correcto; cualquier alteración de los parámetros básicos del diseño rompe la identidad del montaje según el apartado 2.2 de la ITC-BT-04."
       },
       {
         "id": 4,
-        "answer": "Cambiar de marca de cables manteniendo la sección.",
+        "answer": "No afecta, siempre que los cables ya instalados soporten la nueva potencia.",
         "isCorrect": false,
-        "explanation": "Si las características técnicas son iguales, no es significativo."
+        "explanation": "Falso; el apartado 2.2 de la ITC-BT-04 exige coherencia documental con lo realmente ejecutado, independientemente de la sección del cable."
       }
     ]
   },
