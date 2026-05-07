@@ -16,7 +16,7 @@ export function RadarChart({ stats }: RadarChartProps): JSX.Element {
       if (a.totalQuestions === 0 && b.totalQuestions > 0) return 1;
       return a.itcCode.localeCompare(b.itcCode);
     })
-    .slice(0, 15);
+  // .slice(0, 15);
 
   if (displayStats.length < 3) {
     return (
@@ -145,12 +145,12 @@ export function RadarChart({ stats }: RadarChartProps): JSX.Element {
       <div className="mt-8 flex flex-col items-center gap-3">
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
-             <div className="w-3 h-3 rounded-full bg-[#10b981]/20 border border-[#10b981]/50 border-dashed" />
-             <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Potencial</span>
+            <div className="w-3 h-3 rounded-full bg-[#10b981]/20 border border-[#10b981]/50 border-dashed" />
+            <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Potencial</span>
           </div>
           <div className="flex items-center gap-2">
-             <div className="w-3 h-3 rounded-full bg-primary/40 border border-primary" />
-             <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Consolidado</span>
+            <div className="w-3 h-3 rounded-full bg-primary/40 border border-primary" />
+            <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Consolidado</span>
           </div>
         </div>
         <p className="text-[9px] font-bold text-foreground/25 uppercase tracking-wider text-center max-w-[240px] leading-relaxed italic">

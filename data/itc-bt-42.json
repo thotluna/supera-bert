@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-42",
+    "itc": "ITC-BT-42",
+    "questions": [
+      {
+        "id": "ITC-BT-42-01",
+        "question": "¿Cuál es el campo de aplicación de la ITC-BT-42?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Instalaciones eléctricas en puertos y marinas para la alimentación de barcos de recreo.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-42 regula específicamente las instalaciones en puertos y marinas destinadas a suministrar energía a embarcaciones de recreo. Fuente: ITC-BT-42, Apartado 1."
+          },
+          {
+            "id": 2,
+            "answer": "Instalaciones eléctricas interiores de barcos de guerra.",
+            "isCorrect": false,
+            "explanation": "Los barcos militares no entran en el ámbito de barcos de recreo regulados por esta ITC."
+          },
+          {
+            "id": 3,
+            "answer": "Puertos comerciales destinados exclusivamente a buques de carga.",
+            "isCorrect": false,
+            "explanation": "Se aplica a barcos de recreo, no a buques comerciales de gran calado."
+          },
+          {
+            "id": 4,
+            "answer": "Instalaciones de alumbrado público en zonas costeras.",
+            "isCorrect": false,
+            "explanation": "El alumbrado exterior se rige por la ITC-BT-09, no por la 42."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-02",
+        "question": "¿Qué embarcaciones están EXCLUIDAS del campo de aplicación de la ITC-BT-42?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Casas flotantes.",
+            "isCorrect": false,
+            "explanation": "Las casas flotantes se consideran barcos de recreo a efectos de esta instrucción."
+          },
+          {
+            "id": 2,
+            "answer": "Aquellas embarcaciones afectadas por la Directiva 94/25/CEE.",
+            "isCorrect": true,
+            "explanation": "La norma excluye explícitamente a las embarcaciones que ya están reguladas por dicha directiva europea. Fuente: ITC-BT-42, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Yates de gran consumo eléctrico.",
+            "isCorrect": false,
+            "explanation": "Están incluidos, aunque tengan prescripciones especiales para su alimentación."
+          },
+          {
+            "id": 4,
+            "answer": "Pequeñas lanchas de pesca deportiva.",
+            "isCorrect": false,
+            "explanation": "Están incluidas como unidades flotantes para deportes y ocio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-03",
+        "question": "¿Cómo define la ITC-BT-42 un 'puerto marino'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cualquier zona de amarre sin instalaciones eléctricas.",
+            "isCorrect": false,
+            "explanation": "La definición se centra en la infraestructura de fondeo o amarre."
+          },
+          {
+            "id": 2,
+            "answer": "Todo malecón, escollera o pontón flotante apropiado para el fondeo o amarre de barcos de recreo.",
+            "isCorrect": true,
+            "explanation": "Esta definición abarca tanto las estructuras fijas como las flotantes destinadas al amarre de estas embarcaciones. Fuente: ITC-BT-42, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Instalaciones exclusivamente destinadas a la reparación de barcos.",
+            "isCorrect": false,
+            "explanation": "Los astilleros tienen su propia normativa de seguridad industrial."
+          },
+          {
+            "id": 4,
+            "answer": "Unidades de transporte marítimo de pasajeros.",
+            "isCorrect": false,
+            "explanation": "No se ajusta a la definición de puerto dada por la instrucción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-04",
+        "question": "¿Cuál es la tensión asignada máxima general para la alimentación de barcos de recreo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "400 V en corriente alterna trifásica.",
+            "isCorrect": false,
+            "explanation": "Este valor es excepcional, no el general."
+          },
+          {
+            "id": 2,
+            "answer": "230 V en corriente alterna monofásica.",
+            "isCorrect": true,
+            "explanation": "Con carácter general, la tensión no debe ser superior a 230 V en monofásica para estos suministros. Fuente: ITC-BT-42, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "1000 V en corriente alterna.",
+            "isCorrect": false,
+            "explanation": "Límite superior de baja tensión, pero no aplicable como nominal general aquí."
+          },
+          {
+            "id": 4,
+            "answer": "24 V para evitar riesgos de electrocución en el agua.",
+            "isCorrect": false,
+            "explanation": "La alimentación desde el puerto es a tensión de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-05",
+        "question": "¿Cuándo se permite alimentar barcos a una tensión de 400 V en corriente alterna trifásica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En todos los amarres que tengan más de 10 metros de longitud.",
+            "isCorrect": false,
+            "explanation": "La longitud del amarre no es el criterio determinante."
+          },
+          {
+            "id": 2,
+            "answer": "Excepcionalmente para barcos o yates de gran consumo eléctrico.",
+            "isCorrect": true,
+            "explanation": "La alimentación trifásica se reserva para casos especiales de alta demanda energética. Fuente: ITC-BT-42, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el puerto está en aguas internacionales.",
+            "isCorrect": false,
+            "explanation": "La normativa española del REBT se aplica en el ámbito nacional."
+          },
+          {
+            "id": 4,
+            "answer": "Nunca, la tensión máxima absoluta es 230 V.",
+            "isCorrect": false,
+            "explanation": "Existe la excepción mencionada para grandes consumidores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-06",
+        "question": "En el uso de Muy Baja Tensión de Seguridad (MBTS), ¿qué ensayo dieléctrico debe soportar el aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "230 V durante un minuto.",
+            "isCorrect": false,
+            "explanation": "Es insuficiente para garantizar el aislamiento de seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "500 V durante un minuto.",
+            "isCorrect": true,
+            "explanation": "Cualquiera que sea la tensión asignada en MBTS, el aislamiento debe soportar este ensayo específico. Fuente: ITC-BT-42, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "1000 V durante 10 minutos.",
+            "isCorrect": false,
+            "explanation": "Es un requisito superior al estándar marcado por la instrucción."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere ensayo si la tensión es inferior a 24 V.",
+            "isCorrect": false,
+            "explanation": "El ensayo es obligatorio independientemente de la tensión asignada."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-07",
+        "question": "¿Qué variante del esquema TN es la única permitida en instalaciones de puertos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Esquema TN-C.",
+            "isCorrect": false,
+            "explanation": "Está prohibido debido al riesgo de corrientes de defecto por el neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Esquema TN-S.",
+            "isCorrect": true,
+            "explanation": "Se debe utilizar solo la variante TN-S para separar protección y neutro. Fuente: ITC-BT-42, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Esquema TN-C-S.",
+            "isCorrect": false,
+            "explanation": "Tampoco se permite por la parte común de los conductores."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier variante siempre que se usen diferenciales.",
+            "isCorrect": false,
+            "explanation": "La norma restringe específicamente a la variante TN-S."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-08",
+        "question": "¿Cuáles de las siguientes medidas de protección contra contactos directos NO se admiten en puertos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aislamiento de las partes activas.",
+            "isCorrect": false,
+            "explanation": "Es una medida básica y permitida."
+          },
+          {
+            "id": 2,
+            "answer": "Protección por obstáculos y por puesta fuera del alcance.",
+            "isCorrect": true,
+            "explanation": "Estas medidas se consideran insuficientes para un entorno público y húmedo como un puerto. Fuente: ITC-BT-42, Apartado 3.3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de envolventes con grado IP elevado.",
+            "isCorrect": false,
+            "explanation": "Es una medida recomendada y requerida por la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Pequeños interruptores automáticos.",
+            "isCorrect": false,
+            "explanation": "Son dispositivos de protección válidos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-09",
+        "question": "¿Cuál es el grado de protección IP mínimo exigido para los equipos eléctricos en puertos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para la exposición a chorros de agua potentes en el mar."
+          },
+          {
+            "id": 2,
+            "answer": "IPX6.",
+            "isCorrect": true,
+            "explanation": "Los equipos deben soportar chorros de agua potentes, salvo si están en armarios específicos. Fuente: ITC-BT-42, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Es para inmersión, no es el mínimo general."
+          },
+          {
+            "id": 4,
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "Nivel de interiores secos, totalmente inadecuado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-10",
+        "question": "¿Qué tipo de canalización está estrictamente prohibida para la alimentación de instalaciones flotantes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Canalizaciones enterradas.",
+            "isCorrect": false,
+            "explanation": "No es posible enterrar cables en el agua, pero se usan en la parte terrestre."
+          },
+          {
+            "id": 2,
+            "answer": "Cualquier tipo de línea aérea.",
+            "isCorrect": true,
+            "explanation": "No se permite el uso de líneas aéreas para alimentar pantalanes o escolleras. Fuente: ITC-BT-42, Apartado 4.2."
+          },
+          {
+            "id": 3,
+            "answer": "Conductos galvanizados.",
+            "isCorrect": false,
+            "explanation": "Están permitidos siempre que tengan resistencia media o elevada."
+          },
+          {
+            "id": 4,
+            "answer": "Cables con aislamiento mineral.",
+            "isCorrect": false,
+            "explanation": "Están permitidos con cubierta de PVC."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-11",
+        "question": "¿A qué altura mínima deben fijarse los cuadros de distribución y bases de toma sobre instalaciones flotantes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,5 metros.",
+            "isCorrect": false,
+            "explanation": "La norma establece una cota superior como regla general."
+          },
+          {
+            "id": 2,
+            "answer": "1 metro por encima de las aceras o pasarelas.",
+            "isCorrect": true,
+            "explanation": "Esta altura busca evitar salpicaduras y facilitar el acceso seguro. Fuente: ITC-BT-42, Apartado 4.3.1."
+          },
+          {
+            "id": 3,
+            "answer": "2 metros para evitar actos vandálicos.",
+            "isCorrect": false,
+            "explanation": "Dificultaría enormemente la conexión y desconexión por los usuarios."
+          },
+          {
+            "id": 4,
+            "answer": "A nivel de suelo para reducir el impacto visual.",
+            "isCorrect": false,
+            "explanation": "Extremadamente peligroso en entornos marinos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-12",
+        "question": "¿En qué caso se puede reducir la altura de los cuadros a 0,3 metros sobre el pantalán?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Si el puerto es de agua dulce.",
+            "isCorrect": false,
+            "explanation": "La norma no distingue por el tipo de agua."
+          },
+          {
+            "id": 2,
+            "answer": "Si se toman medidas complementarias de protección.",
+            "isCorrect": true,
+            "explanation": "Bajo condiciones de protección adicionales, se permite reducir la altura mínima. Fuente: ITC-BT-42, Apartado 4.3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Nunca, la altura de 1 metro es innegociable.",
+            "isCorrect": false,
+            "explanation": "Existe la posibilidad de reducción bajo condiciones específicas."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si las tomas son de 12 V.",
+            "isCorrect": false,
+            "explanation": "La medida aplica a los cuadros de distribución generales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-13",
+        "question": "¿Cuántas bases de toma de corriente debe incorporar el cuadro de distribución para cada punto de amarre?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Dos bases (una monofásica y otra trifásica).",
+            "isCorrect": false,
+            "explanation": "No es obligatorio suministrar ambas en todos los puntos."
+          },
+          {
+            "id": 2,
+            "answer": "Al menos una base de toma de corriente.",
+            "isCorrect": true,
+            "explanation": "Cada amarre debe tener garantizado al menos un punto de conexión individual. Fuente: ITC-BT-42, Apartado 4.3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Ninguna, el barco debe llevar su propio generador.",
+            "isCorrect": false,
+            "explanation": "El puerto tiene la función de suministrar energía a las embarcaciones amarradas."
+          },
+          {
+            "id": 4,
+            "answer": "Cuatro bases para permitir varios servicios por barco.",
+            "isCorrect": false,
+            "explanation": "El mínimo reglamentario es una base por amarre."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-14",
+        "question": "¿Qué norma deben cumplir las bases de toma de corriente en los puertos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 20315 (Schuko).",
+            "isCorrect": false,
+            "explanation": "No se consideran aptas para el entorno marino agresivo."
+          },
+          {
+            "id": 2,
+            "answer": "UNE-EN 60.309.",
+            "isCorrect": true,
+            "explanation": "Se requiere el uso de tomas industriales que garanticen estanqueidad y robustez. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "UNE-EN 60.898.",
+            "isCorrect": false,
+            "explanation": "Esta norma es para interruptores automáticos."
+          },
+          {
+            "id": 4,
+            "answer": "UNE-EN 61008.",
+            "isCorrect": false,
+            "explanation": "Esta norma es para interruptores diferenciales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-15",
+        "question": "¿Cuál es la intensidad asignada estándar para las bases de toma de corriente monofásicas en puertos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 A.",
+            "isCorrect": false,
+            "explanation": "Valor insuficiente para la mayoría de consumos a bordo."
+          },
+          {
+            "id": 2,
+            "answer": "16 A.",
+            "isCorrect": true,
+            "explanation": "Es el estándar de suministro para tomas de corriente individuales. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "32 A.",
+            "isCorrect": false,
+            "explanation": "Aunque permitidas para barcos grandes, no es el valor estándar general."
+          },
+          {
+            "id": 4,
+            "answer": "6 A.",
+            "isCorrect": false,
+            "explanation": "Totalmente insuficiente para una embarcación de recreo moderna."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-16",
+        "question": "¿Qué requisito de protección individual se exige para cada base de toma de corriente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un fusible de 16 A únicamente.",
+            "isCorrect": false,
+            "explanation": "Falta la protección diferencial."
+          },
+          {
+            "id": 2,
+            "answer": "Un dispositivo individual contra sobreintensidades y un DDR no mayor a 30 mA.",
+            "isCorrect": true,
+            "explanation": "Cada toma debe ser totalmente independiente en sus protecciones para garantizar la seguridad. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Un diferencial de 300 mA para evitar disparos falsos por humedad.",
+            "isCorrect": false,
+            "explanation": "La norma exige 30 mA para protección de personas, independientemente de la humedad."
+          },
+          {
+            "id": 4,
+            "answer": "Protección magnetotérmica común para cada grupo de 4 tomas.",
+            "isCorrect": false,
+            "explanation": "La protección debe ser individual por cada base."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-17",
+        "question": "¿Está permitido que un mismo dispositivo diferencial proteja a más de una base de toma de corriente en un puerto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, hasta un máximo de 4 tomas.",
+            "isCorrect": false,
+            "explanation": "Está prohibido para evitar que un fallo en un barco afecte a otros."
+          },
+          {
+            "id": 2,
+            "answer": "No, un mismo dispositivo no debe proteger más de una base.",
+            "isCorrect": true,
+            "explanation": "La independencia de las protecciones diferenciales es un requisito de seguridad crítico en puertos. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instalan en un pantalán fijo.",
+            "isCorrect": false,
+            "explanation": "La restricción aplica a todas las instalaciones de suministro en el puerto."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que la suma de intensidades no supere los 40 A.",
+            "isCorrect": false,
+            "explanation": "La limitación no es por carga, sino por selectividad y seguridad individual."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-18",
+        "question": "¿Qué condición de fase deben cumplir las tomas de corriente dispuestas sobre una misma escollera o pantalán?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben estar equilibradas entre las tres fases.",
+            "isCorrect": false,
+            "explanation": "Aunque es deseable para la red, la norma impone otra restricción por seguridad galvánica."
+          },
+          {
+            "id": 2,
+            "answer": "Deben estar realizadas sobre la misma fase (salvo uso de transformadores).",
+            "isCorrect": true,
+            "explanation": "Se busca evitar diferencias de potencial peligrosas entre barcos adyacentes. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "No pueden compartir la misma fase para evitar sobrecargas.",
+            "isCorrect": false,
+            "explanation": "Al contrario, deben estar en la misma fase por motivos técnicos de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Deben conectarse a fases distintas de forma alterna.",
+            "isCorrect": false,
+            "explanation": "Esta práctica común en edificios está restringida en pantalanes."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-19",
+        "question": "¿Qué tipo de cable se exige para la conexión entre el puerto y el barco de recreo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cable rígido de cobre.",
+            "isCorrect": false,
+            "explanation": "Se rompería por el movimiento del barco y el agua."
+          },
+          {
+            "id": 2,
+            "answer": "Cable flexible tipo H07RN-F.",
+            "isCorrect": true,
+            "explanation": "Este tipo de cable tiene la flexibilidad y resistencia a la intemperie necesarias. Fuente: ITC-BT-42, Apartado 4.3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Manguera de PVC doméstico.",
+            "isCorrect": false,
+            "explanation": "No resiste la radiación solar ni el ambiente marino."
+          },
+          {
+            "id": 4,
+            "answer": "Cable unipolar bajo tubo de acero.",
+            "isCorrect": false,
+            "explanation": "Incompatible con el carácter móvil de la conexión."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-20",
+        "question": "¿Cuál es la longitud máxima permitida para el cable de conexión del barco al puerto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 metros.",
+            "isCorrect": false,
+            "explanation": "Podría ser corto para barcos alejados del cuadro."
+          },
+          {
+            "id": 2,
+            "answer": "25 metros.",
+            "isCorrect": true,
+            "explanation": "Es la longitud máxima para garantizar una caída de tensión aceptable y evitar enredos peligrosos. Fuente: ITC-BT-42, Apartado 4.3.3."
+          },
+          {
+            "id": 3,
+            "answer": "50 metros.",
+            "isCorrect": false,
+            "explanation": "Longitud excesiva prohibida por la norma."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite si el cable está certificado.",
+            "isCorrect": false,
+            "explanation": "La norma impone un límite físico de 25 metros."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-21",
+        "question": "¿Se permiten conexiones intermedias o empalmes en el cable de conexión del barco?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre que sean estancos (IP68).",
+            "isCorrect": false,
+            "explanation": "La norma prohíbe cualquier tipo de empalme en esta línea."
+          },
+          {
+            "id": 2,
+            "answer": "No, el cable no debe tener ninguna conexión intermedia o empalme.",
+            "isCorrect": true,
+            "explanation": "Se exige un cable continuo para maximizar la fiabilidad y seguridad eléctrica. Fuente: ITC-BT-42, Apartado 4.3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, pero solo un máximo de dos empalmes.",
+            "isCorrect": false,
+            "explanation": "Está totalmente prohibido."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se realizan con conectores rápidos homologados.",
+            "isCorrect": false,
+            "explanation": "Tampoco se permite, el cable debe ser de una sola pieza."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-22",
+        "question": "En canalizaciones que prevean contacto con el agua, ¿qué norma deben cumplir los cables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 21.150 o UNE-EN 50.525-2-21.",
+            "isCorrect": true,
+            "explanation": "Estas normas especifican cables resistentes a la humedad y ambientes marinos. Fuente: ITC-BT-42, Apartado 4.2."
+          },
+          {
+            "id": 2,
+            "answer": "UNE 20.460-1.",
+            "isCorrect": false,
+            "explanation": "Es una norma general de instalaciones, no específica de cables para agua."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier cable con cubierta de color azul.",
+            "isCorrect": false,
+            "explanation": "El color no determina las propiedades técnicas de resistencia al agua."
+          },
+          {
+            "id": 4,
+            "answer": "Solo cables submarinos de alta tensión.",
+            "isCorrect": false,
+            "explanation": "Se refiere a cables de baja tensión para uso en puertos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-23",
+        "question": "¿Qué conductores debe tener una base de toma de corriente monofásica estándar en un puerto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Fase y Neutro únicamente.",
+            "isCorrect": false,
+            "explanation": "Falta el conductor de protección, esencial para la seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "Dos polos y toma de tierra (2P+T).",
+            "isCorrect": true,
+            "explanation": "La conexión a tierra es obligatoria para todas las tomas de corriente en el puerto. Fuente: ITC-BT-42, Apartado 4.3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Tres fases y toma de tierra.",
+            "isCorrect": false,
+            "explanation": "Eso correspondería a una toma trifásica."
+          },
+          {
+            "id": 4,
+            "answer": "Fase y toma de tierra, sin neutro.",
+            "isCorrect": false,
+            "explanation": "No funcionaría para receptores estándar de 230 V."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-24",
+        "question": "¿Por qué no se permiten líneas aéreas para alimentar las instalaciones flotantes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Por el riesgo de contacto con mástiles de barcos y corrosión por salinidad.",
+            "isCorrect": true,
+            "explanation": "La proximidad de mástiles metálicos y el ambiente agresivo desaconsejan totalmente el uso de tendidos aéreos. Fuente: ITC-BT-42, Apartado 4.2."
+          },
+          {
+            "id": 2,
+            "answer": "Porque las aves marinas podrían electrocutarse.",
+            "isCorrect": false,
+            "explanation": "Aunque ocurra, la razón principal es la seguridad de las personas y la navegación."
+          },
+          {
+            "id": 3,
+            "answer": "Porque el viento siempre rompe los cables.",
+            "isCorrect": false,
+            "explanation": "Las líneas aéreas pueden diseñarse contra el viento, pero el riesgo eléctrico en puertos es excesivo."
+          },
+          {
+            "id": 4,
+            "answer": "Porque no se pueden clavar postes en el agua.",
+            "isCorrect": false,
+            "explanation": "Es posible técnicamente, pero está prohibido normativamente por seguridad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-42-25",
+        "question": "¿Cómo deben protegerse los cables contra riesgos de tracción en la entrada al barco?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mediante nudos en el cable.",
+            "isCorrect": false,
+            "explanation": "Está expresamente prohibido anudar los cables."
+          },
+          {
+            "id": 2,
+            "answer": "Por medio de dispositivos apropiados constituidos por materiales aislantes (prensaestopas o similares).",
+            "isCorrect": true,
+            "explanation": "Se deben usar elementos mecánicos diseñados para aliviar la tensión sin dañar el aislamiento. Fuente: ITC-BT-42, Apartado 4.3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Atando el cable firmemente a una cornamusa del barco.",
+            "isCorrect": false,
+            "explanation": "Los amarres mecánicos del barco no deben usarse para sujetar cables eléctricos."
+          },
+          {
+            "id": 4,
+            "answer": "No requieren protección si el cable es de 2,5 mm².",
+            "isCorrect": false,
+            "explanation": "La protección mecánica es independiente de la sección eléctrica."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

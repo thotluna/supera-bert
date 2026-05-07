@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-47",
+    "itc": "ITC-BT-47",
+    "questions": [
+      {
+        "id": "ITC-BT-47-01",
+        "question": "¿Cuál es el coeficiente multiplicador para calcular la intensidad de los conductores de conexión de un solo motor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,0 veces la intensidad a plena carga (In).",
+            "isCorrect": false,
+            "explanation": "No deja margen para el calentamiento y las sobrecargas moderadas permitidas."
+          },
+          {
+            "id": 2,
+            "answer": "1,25 veces la intensidad a plena carga (In).",
+            "isCorrect": true,
+            "explanation": "Los conductores deben dimensionarse al 125% de la intensidad nominal del motor. Fuente: ITC-BT-47, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "1,5 veces la intensidad a plena carga (In).",
+            "isCorrect": false,
+            "explanation": "Es un valor sobredimensionado respecto al mínimo reglamentario."
+          },
+          {
+            "id": 4,
+            "answer": "2,0 veces la intensidad a plena carga (In).",
+            "isCorrect": false,
+            "explanation": "Se usa a veces para el arranque, pero no para la sección de los conductores de alimentación general."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-02",
+        "question": "¿Cómo se calcula la intensidad para los conductores que alimentan a varios motores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sumando todas las intensidades nominales (In) simplemente.",
+            "isCorrect": false,
+            "explanation": "No tiene en cuenta el margen de seguridad para el motor de mayor potencia."
+          },
+          {
+            "id": 2,
+            "answer": "Sumando las intensidades a plena carga más el 25% de la del motor de mayor potencia.",
+            "isCorrect": true,
+            "explanation": "Se aplica el coeficiente 1,25 solo al motor más grande y el resto se suman por su valor nominal. Fuente: ITC-BT-47, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Aplicando 1,25 a todos los motores de la línea.",
+            "isCorrect": false,
+            "explanation": "Resultaría en secciones excesivas innecesarias."
+          },
+          {
+            "id": 4,
+            "answer": "Multiplicando la suma total por 1,5.",
+            "isCorrect": false,
+            "explanation": "Criterio no contemplado por el REBT para líneas de motores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-03",
+        "question": "¿Qué riesgo específico debe cubrir la protección contra sobrecargas en motores trifásicos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El exceso de velocidad (embalamiento).",
+            "isCorrect": false,
+            "explanation": "Es un riesgo mecánico/control, no el eléctrico principal citado en la instrucción."
+          },
+          {
+            "id": 2,
+            "answer": "La falta de tensión en una de sus fases.",
+            "isCorrect": true,
+            "explanation": "Si una fase falla, las otras dos se sobrecargan rápidamente intentando mantener el par, lo que debe detectar la protección térmica. Fuente: ITC-BT-47, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "La inversión accidental del sentido de giro.",
+            "isCorrect": false,
+            "explanation": "Se protege mediante relés de secuencia, no específicamente por el de sobrecarga."
+          },
+          {
+            "id": 4,
+            "answer": "El funcionamiento a baja frecuencia.",
+            "isCorrect": false,
+            "explanation": "No es el riesgo reglamentario primario de la protección contra sobrecargas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-04",
+        "question": "En motores con arrancador estrella-triángulo, ¿qué se debe asegurar respecto a la protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que solo actúe en la conexión en triángulo.",
+            "isCorrect": false,
+            "explanation": "El motor podría quemarse durante un arranque prolongado en estrella."
+          },
+          {
+            "id": 2,
+            "answer": "Que esté asegurada tanto para la conexión en estrella como en triángulo.",
+            "isCorrect": true,
+            "explanation": "Ambas etapas de funcionamiento deben estar bajo la vigilancia del dispositivo de protección. Fuente: ITC-BT-47, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Que se desconecte durante el cambio de estrella a triángulo.",
+            "isCorrect": false,
+            "explanation": "Peligroso, el motor quedaría desprotegido en el momento crítico de transición."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere protección especial si el tiempo de arranque es menor a 2 segundos.",
+            "isCorrect": false,
+            "explanation": "La protección es obligatoria independientemente del tiempo de arranque."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-05",
+        "question": "¿Cuándo es obligatorio un dispositivo de protección contra la falta de tensión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre, en todos los motores de la instalación.",
+            "isCorrect": false,
+            "explanation": "Existen excepciones basadas en la potencia y la seguridad de rearranque."
+          },
+          {
+            "id": 2,
+            "answer": "Cuando el arranque espontáneo tras restablecerse la tensión pueda provocar accidentes o daños.",
+            "isCorrect": true,
+            "explanation": "Se evita que una máquina se ponga en marcha de forma inesperada tras un apagón. Fuente: ITC-BT-47, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en motores de más de 100 kW.",
+            "isCorrect": false,
+            "explanation": "El riesgo de accidente no depende solo de la potencia."
+          },
+          {
+            "id": 4,
+            "answer": "Cuando el motor sea de Corriente Continua solamente.",
+            "isCorrect": false,
+            "explanation": "Aplica tanto a CA como a CC."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-06",
+        "question": "¿Cuál es la potencia máxima sumada para exceptuar el dispositivo de falta de tensión en un local?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 kW.",
+            "isCorrect": false,
+            "explanation": "Límite demasiado bajo."
+          },
+          {
+            "id": 2,
+            "answer": "10 kW.",
+            "isCorrect": true,
+            "explanation": "Si la suma de potencias absorbidas no supera los 10 kW en un mismo local, se puede permitir la falta de este dispositivo bajo ciertas condiciones. Fuente: ITC-BT-47, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "50 kW.",
+            "isCorrect": false,
+            "explanation": "Potencia elevada que requeriría protecciones individuales de seguridad obligatorias."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite de potencia, depende solo del tipo de motor.",
+            "isCorrect": false,
+            "explanation": "El REBT establece un límite claro de 10 kW para esta excepción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-07",
+        "question": "En un motor de C.A. de 3 kW, ¿cuál es la relación máxima permitida entre la corriente de arranque y la de plena carga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "4,5.",
+            "isCorrect": false,
+            "explanation": "Este valor es para motores más pequeños, de 0,75 a 1,5 kW."
+          },
+          {
+            "id": 2,
+            "answer": "3,0.",
+            "isCorrect": true,
+            "explanation": "Para la gama de 1,5 kW a 5 kW en alterna, el límite es 3 veces la intensidad nominal. Fuente: ITC-BT-47, Tabla 1."
+          },
+          {
+            "id": 3,
+            "answer": "2,0.",
+            "isCorrect": false,
+            "explanation": "Este límite aplica a motores de entre 5 y 15 kW."
+          },
+          {
+            "id": 4,
+            "answer": "1,5.",
+            "isCorrect": false,
+            "explanation": "Es el límite para motores grandes, de más de 15 kW."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-08",
+        "question": "¿Qué coeficiente se aplica a la intensidad normal para calcular la carga en motores de ascensores y grúas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,0.",
+            "isCorrect": false,
+            "explanation": "No considera los esfuerzos adicionales del régimen de elevación."
+          },
+          {
+            "id": 2,
+            "answer": "1,3.",
+            "isCorrect": true,
+            "explanation": "Para aparatos de elevación, se incrementa la intensidad de régimen un 30% a efectos de las constantes de arranque. Fuente: ITC-BT-47, Apartado 6."
+          },
+          {
+            "id": 3,
+            "answer": "1,5.",
+            "isCorrect": false,
+            "explanation": "Valor superior al coeficiente reglamentario de 1,3."
+          },
+          {
+            "id": 4,
+            "answer": "2,5.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo para el cálculo de intensidad nominal en elevación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-09",
+        "question": "¿A qué distancia mínima deben separarse los reóstatos de arranque de los muros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 cm.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para una correcta disipación de calor y evitar daños al muro."
+          },
+          {
+            "id": 2,
+            "answer": "5 cm.",
+            "isCorrect": true,
+            "explanation": "Se requiere este espacio mínimo para ventilación y seguridad térmica. Fuente: ITC-BT-47, Apartado 7."
+          },
+          {
+            "id": 3,
+            "answer": "10 cm.",
+            "isCorrect": false,
+            "explanation": "Aunque es mejor, la norma fija el mínimo en 5 cm."
+          },
+          {
+            "id": 4,
+            "answer": "No hay distancia mínima si el muro es de piedra.",
+            "isCorrect": false,
+            "explanation": "La norma no distingue el material del muro para esta distancia de separación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-10",
+        "question": "¿De qué clase deben ser las herramientas portátiles utilizadas en el exterior (como obras)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Clase I únicamente.",
+            "isCorrect": false,
+            "explanation": "Requieren medidas adicionales como transformador de separación para ser seguras en exteriores."
+          },
+          {
+            "id": 2,
+            "answer": "Clase II o Clase III.",
+            "isCorrect": true,
+            "explanation": "Son las clases de aislamiento que garantizan seguridad sin depender exclusivamente de la puesta a tierra en entornos húmedos o de obra. Fuente: ITC-BT-47, Apartado 8."
+          },
+          {
+            "id": 3,
+            "answer": "Clase 0 (Sin toma de tierra).",
+            "isCorrect": false,
+            "explanation": "Están totalmente prohibidas en cualquier ámbito profesional por su peligrosidad."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier clase si se usa casco de seguridad.",
+            "isCorrect": false,
+            "explanation": "El equipo de protección personal no exime de usar herramientas con el aislamiento adecuado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-11",
+        "question": "¿Bajo qué condición se pueden usar herramientas de Clase I en una obra de construcción?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Si el suelo está seco.",
+            "isCorrect": false,
+            "explanation": "La condición del suelo no cambia la exigencia reglamentaria de aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Si se alimentan a través de un transformador de separación de circuitos.",
+            "isCorrect": true,
+            "explanation": "El transformador aísla galvánicamente la herramienta de la red, eliminando el riesgo de electrocución por defecto a tierra. Fuente: ITC-BT-47, Apartado 8."
+          },
+          {
+            "id": 3,
+            "answer": "Si se conectan a un diferencial de 10 mA.",
+            "isCorrect": false,
+            "explanation": "Aunque es una buena medida, el REBT exige transformador de separación para Clase I en obras."
+          },
+          {
+            "id": 4,
+            "answer": "Si la potencia de la herramienta es menor de 500 W.",
+            "isCorrect": false,
+            "explanation": "La potencia no determina la permisibilidad de la Clase I en este entorno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-12",
+        "question": "¿Qué clase de herramienta portátil a mano es obligatoria en el interior de calderas metálicas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Clase I.",
+            "isCorrect": false,
+            "explanation": "Riesgo extremo de contacto con las paredes metálicas del depósito."
+          },
+          {
+            "id": 2,
+            "answer": "Clase III.",
+            "isCorrect": true,
+            "explanation": "Al funcionar a Muy Baja Tensión de Seguridad (MBTS), es la única permitida en recintos tan conductores. Fuente: ITC-BT-47, Apartado 8."
+          },
+          {
+            "id": 3,
+            "answer": "Clase II.",
+            "isCorrect": false,
+            "explanation": "No es suficiente para recintos muy conductores según este apartado específico."
+          },
+          {
+            "id": 4,
+            "answer": "Ninguna, está prohibido el uso de herramientas eléctricas en calderas.",
+            "isCorrect": false,
+            "explanation": "Se permite su uso siempre que sean de Clase III."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-13",
+        "question": "En un motor de C.C. de más de 5 kW, ¿cuál es el límite de la constante de proporcionalidad de arranque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5.",
+            "isCorrect": false,
+            "explanation": "Para motores de CC de 0,75 a 1,5 kW."
+          },
+          {
+            "id": 2,
+            "answer": "1,5.",
+            "isCorrect": true,
+            "explanation": "En corriente continua, los motores grandes (> 5 kW) tienen el límite de arranque más restrictivo. Fuente: ITC-BT-47, Tabla 1."
+          },
+          {
+            "id": 3,
+            "answer": "2,0.",
+            "isCorrect": false,
+            "explanation": "Aplica a la gama intermedia de 1,5 a 5 kW en CC."
+          },
+          {
+            "id": 4,
+            "answer": "4,5.",
+            "isCorrect": false,
+            "explanation": "Este valor no existe para motores de corriente continua en la tabla."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-14",
+        "question": "¿Cómo deben protegerse los muros si no se puede mantener la distancia mínima de los reóstatos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pintándolos con pintura plástica.",
+            "isCorrect": false,
+            "explanation": "La pintura plástica es inflamable y no ofrece protección térmica."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante un revestimiento ignífugo.",
+            "isCorrect": true,
+            "explanation": "Se interpone una barrera que no propague el fuego ni se degrade por el calor. Fuente: ITC-BT-47, Apartado 7."
+          },
+          {
+            "id": 3,
+            "answer": "Instalando un ventilador de gran potencia.",
+            "isCorrect": false,
+            "explanation": "Medida activa que puede fallar, la norma exige protección pasiva o distancia."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite su instalación si no hay distancia.",
+            "isCorrect": false,
+            "explanation": "Se permite si se usa el revestimiento ignífugo adecuado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-15",
+        "question": "¿Qué elemento debe permitir la separación de reóstatos y resistencias de la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un interruptor diferencial.",
+            "isCorrect": false,
+            "explanation": "Protege contra fugas, no es el elemento de separación funcional y de corte."
+          },
+          {
+            "id": 2,
+            "answer": "Dispositivos de corte omnipolar.",
+            "isCorrect": true,
+            "explanation": "Pueden ser los propios interruptores generales del motor. Fuente: ITC-BT-47, Apartado 7."
+          },
+          {
+            "id": 3,
+            "answer": "Un fusible unipolar.",
+            "isCorrect": false,
+            "explanation": "No permite el corte omnipolar simultáneo exigido."
+          },
+          {
+            "id": 4,
+            "answer": "Una clavija de enchufe de 10 A.",
+            "isCorrect": false,
+            "explanation": "Inadecuado para la mayoría de reóstatos industriales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-16",
+        "question": "¿Cuándo se requiere conformidad de la empresa distribuidora para motores en red pública?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre que la potencia supere 0,75 kW.",
+            "isCorrect": false,
+            "explanation": "Superar 0,75 kW solo obliga a limitar el arranque, no siempre a pedir conformidad."
+          },
+          {
+            "id": 2,
+            "answer": "En motores de gran inercia, frenado o inversión de marcha frecuente.",
+            "isCorrect": true,
+            "explanation": "Son casos que provocan perturbaciones importantes en la red de distribución. Fuente: ITC-BT-47, Apartado 6."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instalan en zonas rurales.",
+            "isCorrect": false,
+            "explanation": "Aplica a cualquier red pública de distribución."
+          },
+          {
+            "id": 4,
+            "answer": "Nunca, el usuario es libre de conectar lo que quiera bajo su responsabilidad.",
+            "isCorrect": false,
+            "explanation": "Existen limitaciones legales para proteger la calidad del suministro eléctrico."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-17",
+        "question": "¿Qué ocurre con la protección contra falta de tensión si el motor vuelve automáticamente a la posición de arranque inicial?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se exige con mayor rigor.",
+            "isCorrect": false,
+            "explanation": "Al contrario, el rearranque controlado es más seguro."
+          },
+          {
+            "id": 2,
+            "answer": "No se exigirá, siempre que se excluya la posibilidad de accidente.",
+            "isCorrect": true,
+            "explanation": "El retorno a la posición inicial garantiza que el motor arrancará suavemente tras el corte. Fuente: ITC-BT-47, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "Se debe sustituir por un relé de frecuencia.",
+            "isCorrect": false,
+            "explanation": "No tiene relación con la protección por falta de tensión."
+          },
+          {
+            "id": 4,
+            "answer": "No influye en el requisito reglamentario.",
+            "isCorrect": false,
+            "explanation": "Es una de las excepciones contempladas para el uso del dispositivo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-18",
+        "question": "¿Cuál es el ajuste máximo de protección contra sobrecargas para un aparato de soldadura si no hay otro protector?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100 % de In.",
+            "isCorrect": false,
+            "explanation": "Valor muy ajustado para las características de la soldadura."
+          },
+          {
+            "id": 2,
+            "answer": "200 % de In.",
+            "isCorrect": true,
+            "explanation": "Se permite este margen para evitar disparos durante el proceso de cebado y soldadura. Fuente: ITC-BT-47 (aunque se cita en 45, es común a motores industriales)."
+          },
+          {
+            "id": 3,
+            "answer": "125 % de In.",
+            "isCorrect": false,
+            "explanation": "Es el coeficiente para conductores de motores, no el ajuste de sobrecarga en soldadura."
+          },
+          {
+            "id": 4,
+            "answer": "500 % de In.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que no protegería la máquina."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-19",
+        "question": "¿Qué disposición deben tener las ranuras de ventilación en los aparatos de motores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Estar abiertas hacia arriba para que salga el calor.",
+            "isCorrect": false,
+            "explanation": "Podría entrar suciedad o agua, no es el requisito de seguridad eléctrica."
+          },
+          {
+            "id": 2,
+            "answer": "Que no se pueda alcanzar partes bajo tensión en su interior.",
+            "isCorrect": true,
+            "explanation": "Garantiza la protección contra contactos directos según el grado IP. Fuente: ITC-BT-47, Apartado 8."
+          },
+          {
+            "id": 3,
+            "answer": "Tener filtros de papel intercambiables.",
+            "isCorrect": false,
+            "explanation": "No es un requisito reglamentario del REBT."
+          },
+          {
+            "id": 4,
+            "answer": "Estar cerradas con cristal templado.",
+            "isCorrect": false,
+            "explanation": "Impediría la ventilación necesaria."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-20",
+        "question": "En motores de C.A. de más de 15 kW, ¿cuál es la relación de intensidad de arranque máxima?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5.",
+            "isCorrect": true,
+            "explanation": "Los motores de gran potencia deben tener los arranques más limitados proporcionalmente. Fuente: ITC-BT-47, Tabla 1."
+          },
+          {
+            "id": 2,
+            "answer": "2,0.",
+            "isCorrect": false,
+            "explanation": "Este es el límite para motores de 5 a 15 kW."
+          },
+          {
+            "id": 3,
+            "answer": "4,5.",
+            "isCorrect": false,
+            "explanation": "Es el límite para los motores más pequeños."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite para motores de alta potencia.",
+            "isCorrect": false,
+            "explanation": "Es precisamente donde las limitaciones son más estrictas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-21",
+        "question": "¿Cuál es la constante de proporcionalidad para motores de CC entre 1,5 y 5 kW?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5.",
+            "isCorrect": false,
+            "explanation": "Para motores de 0,75 a 1,5 kW."
+          },
+          {
+            "id": 2,
+            "answer": "2,0.",
+            "isCorrect": true,
+            "explanation": "Valor reglamentario para la gama media de motores de corriente continua. Fuente: ITC-BT-47, Tabla 1."
+          },
+          {
+            "id": 3,
+            "answer": "1,5.",
+            "isCorrect": false,
+            "explanation": "Para motores de más de 5 kW."
+          },
+          {
+            "id": 4,
+            "answer": "3,0.",
+            "isCorrect": false,
+            "explanation": "Este valor no corresponde a la tabla de corriente continua."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-22",
+        "question": "¿Qué ocurre si un motor arranca automáticamente bajo condiciones preestablecidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe tener un diferencial de 10 mA.",
+            "isCorrect": false,
+            "explanation": "No es una consecuencia directa del arranque automático."
+          },
+          {
+            "id": 2,
+            "answer": "No se exigirá dispositivo contra falta de tensión, si se excluye el accidente.",
+            "isCorrect": true,
+            "explanation": "Se entiende que el proceso está diseñado para rearrancar de forma segura. Fuente: ITC-BT-47, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "Debe tener un operario vigilándolo permanentemente.",
+            "isCorrect": false,
+            "explanation": "La automatización busca precisamente evitar la intervención humana constante."
+          },
+          {
+            "id": 4,
+            "answer": "Se prohíbe el arranque automático en baja tensión.",
+            "isCorrect": false,
+            "explanation": "Está permitido y es muy común en la industria."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-23",
+        "question": "¿Qué intensidad se considera 'normal' en motores de elevación para aplicar las tablas de arranque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La de placa directamente.",
+            "isCorrect": false,
+            "explanation": "En elevación el régimen es intermitente y requiere un ajuste."
+          },
+          {
+            "id": 2,
+            "answer": "La necesaria para elevar cargas normales multiplicada por 1,3.",
+            "isCorrect": true,
+            "explanation": "Se compensa el esfuerzo de par necesario en el régimen de trabajo. Fuente: ITC-BT-47, Apartado 6."
+          },
+          {
+            "id": 3,
+            "answer": "La mitad de la de placa.",
+            "isCorrect": false,
+            "explanation": "Subestimaría la carga real y las perturbaciones de arranque."
+          },
+          {
+            "id": 4,
+            "answer": "La máxima intensidad de pico registrada.",
+            "isCorrect": false,
+            "explanation": "No es el criterio técnico del REBT."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-24",
+        "question": "En un motor de C.A. de 10 kW, ¿cuál es el límite de intensidad de arranque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "4,5 veces In.",
+            "isCorrect": false,
+            "explanation": "Valor para motores muy pequeños."
+          },
+          {
+            "id": 2,
+            "answer": "2,0 veces In.",
+            "isCorrect": true,
+            "explanation": "En la gama de 5 a 15 kW en alterna, el coeficiente es 2. Fuente: ITC-BT-47, Tabla 1."
+          },
+          {
+            "id": 3,
+            "answer": "1,5 veces In.",
+            "isCorrect": false,
+            "explanation": "Para motores de más de 15 kW."
+          },
+          {
+            "id": 4,
+            "answer": "3,0 veces In.",
+            "isCorrect": false,
+            "explanation": "Para motores de 1,5 a 5 kW."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-47-25",
+        "question": "¿Cuál es el límite de potencia para motores que NO requieren limitación de arranque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,75 kW.",
+            "isCorrect": true,
+            "explanation": "Los motores de potencia igual o inferior a 0,75 kW no están obligados a limitar la relación de corriente de arranque. Fuente: ITC-BT-47, Apartado 6."
+          },
+          {
+            "id": 2,
+            "answer": "1,5 kW.",
+            "isCorrect": false,
+            "explanation": "A partir de 0,75 kW ya empiezan las limitaciones."
+          },
+          {
+            "id": 3,
+            "answer": "5 kW.",
+            "isCorrect": false,
+            "explanation": "A esta potencia las limitaciones son estrictas (3,0 en CA)."
+          },
+          {
+            "id": 4,
+            "answer": "Todos los motores deben limitar su arranque sin excepción.",
+            "isCorrect": false,
+            "explanation": "Los pequeños (<= 0,75 kW) están exentos de esta tabla específica."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

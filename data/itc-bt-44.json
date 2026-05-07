@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-44",
+    "itc": "ITC-BT-44",
+    "questions": [
+      {
+        "id": "ITC-BT-44-01",
+        "question": "¿Qué instalaciones de alumbrado están EXCLUIDAS del campo de aplicación de la ITC-BT-44?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Las de alumbrado interior de viviendas.",
+            "isCorrect": false,
+            "explanation": "Están incluidas dentro del objeto de esta instrucción."
+          },
+          {
+            "id": 2,
+            "answer": "Las de alumbrado exterior (ITC-BT-09) y las de emergencia (ITC-BT-28).",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-44 remite a otras instrucciones específicas para el alumbrado exterior y de emergencia. Fuente: ITC-BT-44, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Las de locales comerciales con lámparas de descarga.",
+            "isCorrect": false,
+            "explanation": "Están reguladas por esta ITC, con requisitos específicos de carga y compensación."
+          },
+          {
+            "id": 4,
+            "answer": "Las instalaciones de rótulos luminosos de baja tensión.",
+            "isCorrect": false,
+            "explanation": "Están incluidas, aunque los de alta tensión sigan normas adicionales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-02",
+        "question": "¿Cuál es la masa máxima de una luminaria que puede suspenderse de cables flexibles?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2 kg.",
+            "isCorrect": false,
+            "explanation": "Límite demasiado bajo según la instrucción."
+          },
+          {
+            "id": 2,
+            "answer": "5 kg.",
+            "isCorrect": true,
+            "explanation": "Excepcionalmente se admite la suspensión de luminarias de hasta 5 kg mediante cables flexibles. Fuente: ITC-BT-44, Apartado 2.1.1."
+          },
+          {
+            "id": 3,
+            "answer": "10 kg.",
+            "isCorrect": false,
+            "explanation": "Supera el límite de seguridad para suspensión directa por cable."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite si el cable es de 2,5 mm².",
+            "isCorrect": false,
+            "explanation": "La norma impone un límite de masa independientemente de la sección eléctrica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-03",
+        "question": "¿Qué tracción máxima se permite sobre los conductores que soportan una luminaria suspendida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "5 N/mm².",
+            "isCorrect": false,
+            "explanation": "Es un valor muy conservador, la norma permite algo más."
+          },
+          {
+            "id": 2,
+            "answer": "15 N/mm².",
+            "isCorrect": true,
+            "explanation": "La tracción máxima a la que pueden estar sometidos los conductores no debe superar este valor. Fuente: ITC-BT-44, Apartado 2.1.1."
+          },
+          {
+            "id": 3,
+            "answer": "50 N/mm².",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que podría dañar el cobre y el aislamiento."
+          },
+          {
+            "id": 4,
+            "answer": "La que indique el fabricante de la luminaria.",
+            "isCorrect": false,
+            "explanation": "El REBT marca un límite reglamentario general de 15 N/mm²."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-04",
+        "question": "¿Cuál es la tensión asignada mínima para los cables del cableado interno de las luminarias?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100/100 V.",
+            "isCorrect": false,
+            "explanation": "Inadecuado para tensiones de red."
+          },
+          {
+            "id": 2,
+            "answer": "300/300 V.",
+            "isCorrect": true,
+            "explanation": "La tensión mínima nunca debe ser inferior a 300/300 V y siempre adecuada a la de alimentación. Fuente: ITC-BT-44, Apartado 2.1.2."
+          },
+          {
+            "id": 3,
+            "answer": "450/750 V.",
+            "isCorrect": false,
+            "explanation": "Es un nivel superior muy común, pero el mínimo reglamentario es 300/300 V."
+          },
+          {
+            "id": 4,
+            "answer": "No importa la tensión si el cable es de silicona.",
+            "isCorrect": false,
+            "explanation": "El tipo de material no exime de cumplir con la tensión de aislamiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-05",
+        "question": "¿Qué conductores deben conectarse al contacto central en portalámparas de este tipo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El conductor Neutro.",
+            "isCorrect": false,
+            "explanation": "El neutro debe ir a la parte exterior para minimizar el riesgo de contacto accidental."
+          },
+          {
+            "id": 2,
+            "answer": "El conductor de Fase o polar.",
+            "isCorrect": true,
+            "explanation": "Por seguridad, el contacto central debe ser el que lleve la tensión activa. Fuente: ITC-BT-44, Apartado 2.3."
+          },
+          {
+            "id": 3,
+            "answer": "El conductor de Protección.",
+            "isCorrect": false,
+            "explanation": "La tierra no se conecta a los contactos de alimentación de la lámpara."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquiera, los portalámparas son bidireccionales.",
+            "isCorrect": false,
+            "explanation": "Aunque funcionen, la norma exige una conexión específica por seguridad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-06",
+        "question": "¿Dónde está prohibido el uso de lámparas de gases con descarga a alta tensión (como neón)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En fachadas de edificios comerciales.",
+            "isCorrect": false,
+            "explanation": "Están permitidas siguiendo normas de seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "En el interior de las viviendas.",
+            "isCorrect": true,
+            "explanation": "El uso de alta tensión para iluminación decorativa de gas está prohibido en viviendas. Fuente: ITC-BT-44, Apartado 2.2."
+          },
+          {
+            "id": 3,
+            "answer": "En escaparates de tiendas.",
+            "isCorrect": false,
+            "explanation": "Están permitidas si están fuera del volumen de accesibilidad o protegidas."
+          },
+          {
+            "id": 4,
+            "answer": "En cualquier local con concurrencia de público.",
+            "isCorrect": false,
+            "explanation": "Están permitidas bajo ciertas condiciones de instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-07",
+        "question": "¿Qué medida debe tomarse en talleres con máquinas rápidas alimentados por lámparas de descarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Usar solo lámparas de filamento.",
+            "isCorrect": false,
+            "explanation": "No es obligatorio, se pueden usar medidas correctivas."
+          },
+          {
+            "id": 2,
+            "answer": "Evitar la posibilidad de accidentes causados por efecto estroboscópico.",
+            "isCorrect": true,
+            "explanation": "El parpadeo de las lámparas de descarga puede hacer parecer que una máquina está parada cuando está en movimiento. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Instalar un interruptor diferencial de 300 mA.",
+            "isCorrect": false,
+            "explanation": "El diferencial no soluciona el problema óptico del estroboscopio."
+          },
+          {
+            "id": 4,
+            "answer": "Pintar las máquinas de colores fluorescentes.",
+            "isCorrect": false,
+            "explanation": "No elimina la ilusión óptica causada por la frecuencia de la luz."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-08",
+        "question": "¿Cómo se calcula la carga mínima en VA para receptores con lámparas de descarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Igual a la potencia en vatios (W).",
+            "isCorrect": false,
+            "explanation": "No tiene en cuenta el consumo del equipo auxiliar ni el factor de potencia."
+          },
+          {
+            "id": 2,
+            "answer": "1,8 veces la potencia en vatios de las lámparas.",
+            "isCorrect": true,
+            "explanation": "Este coeficiente cubre las pérdidas de balastos y corrientes armónicas. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "1,25 veces la potencia en vatios.",
+            "isCorrect": false,
+            "explanation": "Coeficiente insuficiente según el REBT para este tipo de lámparas."
+          },
+          {
+            "id": 4,
+            "answer": "2,5 veces la potencia en vatios.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que sobredimensionaría la instalación innecesariamente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-09",
+        "question": "¿Cuál es el valor mínimo de factor de potencia exigido para lámparas de descarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,8.",
+            "isCorrect": false,
+            "explanation": "Valor inferior al mínimo reglamentario."
+          },
+          {
+            "id": 2,
+            "answer": "0,9.",
+            "isCorrect": true,
+            "explanation": "Es obligatoria la compensación del factor de potencia hasta un valor mínimo de 0,9. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "1,0 (Factor de potencia unidad).",
+            "isCorrect": false,
+            "explanation": "Sería el ideal, pero la norma solo exige llegar a 0,9."
+          },
+          {
+            "id": 4,
+            "answer": "No es obligatorio compensar si la potencia es menor a 100 W.",
+            "isCorrect": false,
+            "explanation": "La obligación de compensación es general para este tipo de receptores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-10",
+        "question": "¿Se admite la compensación en conjunto para un grupo de receptores de carga variable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, siempre que se use una batería de condensadores fija.",
+            "isCorrect": false,
+            "explanation": "Podría causar sobrecompensación capacitiva cuando la carga baja."
+          },
+          {
+            "id": 2,
+            "answer": "No, salvo que dispongan de un sistema de compensación automático.",
+            "isCorrect": true,
+            "explanation": "Para cargas variables, la compensación debe ajustarse dinámicamente al régimen de carga. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, en instalaciones industriales únicamente.",
+            "isCorrect": false,
+            "explanation": "La restricción aplica a cualquier instalación bajo esta ITC."
+          },
+          {
+            "id": 4,
+            "answer": "No, la compensación debe ser siempre individual por cada lámpara.",
+            "isCorrect": false,
+            "explanation": "Se permite la colectiva si es automática o si la carga es constante."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-11",
+        "question": "¿Cuál debe ser la tensión en bornes de un condensador tras 60 segundos de su desconexión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No mayor de 50 V.",
+            "isCorrect": true,
+            "explanation": "Los condensadores deben llevar resistencias de descarga para garantizar la seguridad tras el apagado. Fuente: ITC-BT-44, Apartado 3.2."
+          },
+          {
+            "id": 2,
+            "answer": "0 V exactamente.",
+            "isCorrect": false,
+            "explanation": "Es difícil de alcanzar físicamente en ese tiempo con resistencias estándar, la norma permite hasta 50 V."
+          },
+          {
+            "id": 3,
+            "answer": "No mayor de 230 V.",
+            "isCorrect": false,
+            "explanation": "Esa tensión sigue siendo peligrosa para el contacto directo."
+          },
+          {
+            "id": 4,
+            "answer": "No hay requisito de descarga para alumbrado.",
+            "isCorrect": false,
+            "explanation": "Es un requisito de seguridad obligatorio según la ITC-BT-44."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-12",
+        "question": "¿A qué tensión máxima deben alimentarse luminarias portátiles en caldererías o depósitos metálicos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "Es el límite de tensión de contacto en locales secos, pero insuficiente aquí."
+          },
+          {
+            "id": 2,
+            "answer": "24 V.",
+            "isCorrect": true,
+            "explanation": "En lugares conductores como cascos navales o depósitos, la tensión de seguridad se limita a 24 V. Fuente: ITC-BT-44, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "12 V.",
+            "isCorrect": false,
+            "explanation": "Es una tensión segura, pero el límite reglamentario es de 24 V."
+          },
+          {
+            "id": 4,
+            "answer": "230 V siempre que se usen guantes de goma.",
+            "isCorrect": false,
+            "explanation": "Totalmente prohibido en recintos conductores por el alto riesgo de electrocución."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-13",
+        "question": "¿Qué normativa específica se aplica a rótulos luminosos entre 1 kV y 10 kV?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE-EN 50.107.",
+            "isCorrect": true,
+            "explanation": "Es la norma de referencia para instalaciones de rótulos con tubos de descarga de alta tensión. Fuente: ITC-BT-44, Apartado 5."
+          },
+          {
+            "id": 2,
+            "answer": "UNE 20.460.",
+            "isCorrect": false,
+            "explanation": "Norma general de baja tensión, no específica de alta tensión de neón."
+          },
+          {
+            "id": 3,
+            "answer": "ITC-BT-52.",
+            "isCorrect": false,
+            "explanation": "Referente a vehículos eléctricos."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite el uso de tales tensiones en baja tensión.",
+            "isCorrect": false,
+            "explanation": "Se permiten bajo la consideración de instalaciones especiales reguladas por esta ITC."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-14",
+        "question": "¿Dónde debe situarse el interruptor de corte para una instalación de rótulos de alta tensión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En el lado de alta tensión (salida del transformador).",
+            "isCorrect": false,
+            "explanation": "Está prohibido maniobrar en la parte de alta tensión del conjunto."
+          },
+          {
+            "id": 2,
+            "answer": "En la parte de baja tensión, y debe ser de corte omnipolar.",
+            "isCorrect": true,
+            "explanation": "El mando debe realizarse siempre sobre la alimentación de baja tensión. Fuente: ITC-BT-44, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "No requiere interruptor si tiene enclavamiento mecánico.",
+            "isCorrect": false,
+            "explanation": "El interruptor de maniobra es obligatorio independientemente de los sistemas de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "En el exterior del edificio en una caja de emergencia.",
+            "isCorrect": false,
+            "explanation": "Puede haber un interruptor de bomberos, pero la instalación requiere un mando omnipolar funcional."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-15",
+        "question": "¿Qué sección debe tener el conductor neutro en circuitos monofásicos de lámparas de descarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La mitad que los conductores de fase.",
+            "isCorrect": false,
+            "explanation": "Los armónicos de tercer orden pueden sobrecargar el neutro, por lo que no debe reducirse."
+          },
+          {
+            "id": 2,
+            "answer": "La misma sección que los de fase.",
+            "isCorrect": true,
+            "explanation": "En distribuciones monofásicas para estas lámparas, el neutro no se reduce. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Doble sección que la fase para evitar incendios.",
+            "isCorrect": false,
+            "explanation": "No es necesario si se calcula correctamente, la norma exige igualdad de sección."
+          },
+          {
+            "id": 4,
+            "answer": "Sección mínima de 10 mm².",
+            "isCorrect": false,
+            "explanation": "La sección dependerá de la carga, manteniendo la igualdad con la fase."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-16",
+        "question": "¿Cuándo se considera una instalación de rótulos de alta tensión como de 'Baja Tensión'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre que la potencia sea inferior a 1000 VA.",
+            "isCorrect": false,
+            "explanation": "La potencia no determina la clasificación de tensión."
+          },
+          {
+            "id": 2,
+            "answer": "Cuando constituyen una unidad con sus transformadores y solo presentan al exterior conductores de baja tensión.",
+            "isCorrect": true,
+            "explanation": "Si los componentes de alta tensión están inaccesibles y el conjunto está cerrado, se trata como equipo de baja tensión. Fuente: ITC-BT-44, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Si los transformadores son de tipo seco.",
+            "isCorrect": false,
+            "explanation": "Es un detalle constructivo, pero no el criterio de clasificación normativa."
+          },
+          {
+            "id": 4,
+            "answer": "Nunca, la alta tensión siempre requiere proyectos de media tensión.",
+            "isCorrect": false,
+            "explanation": "Existen excepciones para rótulos y equipos específicos integrados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-17",
+        "question": "¿Qué está prohibido colocar entre las lámparas de descarga y su dispositivo de alimentación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cables de más de 2 metros.",
+            "isCorrect": false,
+            "explanation": "La longitud puede estar limitada técnicamente, pero no prohibida por norma general."
+          },
+          {
+            "id": 2,
+            "answer": "Interruptores, conmutadores o cortocircuitos (fusibles).",
+            "isCorrect": true,
+            "explanation": "No debe haber elementos de maniobra o protección en el secundario del transformador/balasto de alta tensión. Fuente: ITC-BT-44, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Condensadores de corrección.",
+            "isCorrect": false,
+            "explanation": "Se colocan habitualmente en el primario, pero no están prohibidos por seguridad en este contexto específico."
+          },
+          {
+            "id": 4,
+            "answer": "Transformadores de intensidad.",
+            "isCorrect": false,
+            "explanation": "No se menciona esta prohibición en la instrucción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-18",
+        "question": "¿A qué tensiones de seguridad se asocia el uso de lámparas de muy baja tensión según esta ITC?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A 230 V.",
+            "isCorrect": false,
+            "explanation": "Es tensión de red, no muy baja tensión."
+          },
+          {
+            "id": 2,
+            "answer": "A tensiones como p.e. 12 V, mediante transformadores adecuados.",
+            "isCorrect": true,
+            "explanation": "El uso de dicroicas u halógenos de 12 V es común y requiere transformadores de seguridad. Fuente: ITC-BT-44, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "A tensiones de 1000 V.",
+            "isCorrect": false,
+            "explanation": "Es alta tensión."
+          },
+          {
+            "id": 4,
+            "answer": "A 110 V de corriente continua.",
+            "isCorrect": false,
+            "explanation": "No se considera MBT de iluminación estándar según este apartado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-19",
+        "question": "¿Qué conductores deben conectarse de manera fiable y permanente al conductor de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo los conductores de fase.",
+            "isCorrect": false,
+            "explanation": "Las fases nunca se conectan a tierra."
+          },
+          {
+            "id": 2,
+            "answer": "Las partes metálicas accesibles de luminarias que no sean Clase II o III.",
+            "isCorrect": true,
+            "explanation": "Las luminarias de Clase I deben estar puestas a tierra de forma obligatoria por seguridad. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Los portalámparas de plástico.",
+            "isCorrect": false,
+            "explanation": "Los materiales aislantes no se conectan a tierra."
+          },
+          {
+            "id": 4,
+            "answer": "El borne neutro de todas las luminarias.",
+            "isCorrect": false,
+            "explanation": "El neutro se pone a tierra en el transformador o cabecera, no en cada luminaria (salvo esquema TN-C prohibido aquí)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-20",
+        "question": "¿Qué se entiende como partes 'accesibles' de una luminaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aquellas que se pueden ver desde la calle.",
+            "isCorrect": false,
+            "explanation": "La accesibilidad es un concepto de distancia física, no de visibilidad."
+          },
+          {
+            "id": 2,
+            "answer": "Las partes incluidas dentro del volumen de accesibilidad definido en la ITC-BT-24.",
+            "isCorrect": true,
+            "explanation": "El REBT remite a la definición estándar de volumen de accesibilidad para personas. Fuente: ITC-BT-44, Apartado 2.1.4."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier parte que no esté bajo llave.",
+            "isCorrect": false,
+            "explanation": "La definición es más precisa y geométrica según la ITC-BT-24."
+          },
+          {
+            "id": 4,
+            "answer": "Solo las bombillas.",
+            "isCorrect": false,
+            "explanation": "Las carcasas y soportes metálicos suelen ser las partes accesibles críticas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-21",
+        "question": "¿Es obligatorio el uso de un interruptor de corte omnipolar en instalaciones de tubos de descarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, basta con desconectar la fase.",
+            "isCorrect": false,
+            "explanation": "Por seguridad en mantenimiento de equipos de alta tensión, se requiere el corte de todos los polos."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, situado en la parte de baja tensión.",
+            "isCorrect": true,
+            "explanation": "El corte omnipolar asegura la desenergización total del equipo auxiliar. Fuente: ITC-BT-44, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la instalación es de más de 5000 VA.",
+            "isCorrect": false,
+            "explanation": "La exigencia de corte omnipolar es independiente de la potencia para estos equipos."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se instala en un cuarto de baño.",
+            "isCorrect": false,
+            "explanation": "Es un requisito general para este tipo de receptores de alumbrado especial."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-22",
+        "question": "En portalámparas con varios contactos, ¿cuál debe tener la mayor protección de aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El contacto de tierra.",
+            "isCorrect": false,
+            "explanation": "La tierra no lleva tensión activa."
+          },
+          {
+            "id": 2,
+            "answer": "El contacto central (fase).",
+            "isCorrect": true,
+            "explanation": "Al ser el punto de mayor peligro, debe estar más protegido y conectado a la fase. Fuente: ITC-BT-44, Apartado 2.3."
+          },
+          {
+            "id": 3,
+            "answer": "El casquillo exterior.",
+            "isCorrect": false,
+            "explanation": "El casquillo se conecta al neutro, que tiene menor potencial respecto a tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Todos por igual.",
+            "isCorrect": false,
+            "explanation": "Aunque el aislamiento general es importante, la posición del contacto central es una medida de seguridad específica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-23",
+        "question": "¿Qué coeficiente de cálculo se permite si el factor de potencia es >= 0,9 y se conocen las cargas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre debe usarse 1,8.",
+            "isCorrect": false,
+            "explanation": "Existe la excepción mencionada en la norma."
+          },
+          {
+            "id": 2,
+            "answer": "El que resulte del cálculo real de las corrientes de los elementos asociados y de arranque.",
+            "isCorrect": true,
+            "explanation": "Si hay datos técnicos precisos y buena compensación, se puede usar el valor real calculado. Fuente: ITC-BT-44, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Se puede reducir a 1,0.",
+            "isCorrect": false,
+            "explanation": "Nunca será 1,0 debido a las pérdidas propias del equipo auxiliar (balasto)."
+          },
+          {
+            "id": 4,
+            "answer": "Un coeficiente fijo de 1,5.",
+            "isCorrect": false,
+            "explanation": "No es un valor reglamentario; se debe calcular el real si no se usa el 1,8."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-24",
+        "question": "¿Qué se recomienda cuando en una instalación hay distintas tensiones de alumbrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Marcar los cables con etiquetas adhesivas.",
+            "isCorrect": false,
+            "explanation": "Es una buena práctica de mantenimiento, pero la recomendación técnica es otra."
+          },
+          {
+            "id": 2,
+            "answer": "Que los portalámparas respectivos sean diferentes entre sí.",
+            "isCorrect": true,
+            "explanation": "Se evita la inserción accidental de una lámpara en un circuito de tensión incompatible. Fuente: ITC-BT-44, Apartado 2.3."
+          },
+          {
+            "id": 3,
+            "answer": "Usar bombillas de colores distintos.",
+            "isCorrect": false,
+            "explanation": "No previene el error eléctrico de conexión."
+          },
+          {
+            "id": 4,
+            "answer": "No se permite tener distintas tensiones de alumbrado.",
+            "isCorrect": false,
+            "explanation": "Es común en instalaciones con MBT (12 V) y tensión de red (230 V)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-44-25",
+        "question": "¿En qué condiciones se permite el neón en locales comerciales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo si se instala a menos de 1 metro del suelo.",
+            "isCorrect": false,
+            "explanation": "Estaría en el volumen de accesibilidad y sería peligroso."
+          },
+          {
+            "id": 2,
+            "answer": "Ubicado fuera del volumen de accesibilidad o con barreras separadoras.",
+            "isCorrect": true,
+            "explanation": "La seguridad se basa en el alejamiento o la interposición de obstáculos. Fuente: ITC-BT-44, Apartado 2.2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la potencia es inferior a 50 W.",
+            "isCorrect": false,
+            "explanation": "La potencia no exime del riesgo de la alta tensión de descarga."
+          },
+          {
+            "id": 4,
+            "answer": "Sin ninguna restricción especial.",
+            "isCorrect": false,
+            "explanation": "Tiene restricciones importantes de ubicación y seguridad."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]
