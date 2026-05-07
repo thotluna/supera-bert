@@ -1,8 +1,7 @@
 # supera-bert
 
-## Tareas Completadas
-- [x] Refactorizar preguntas 1-50 (Escenarios profesionales + Citas ITC-BT-04)
-- [x] Refactorizar preguntas 51-100 (Escenarios profesionales + Citas ITC-BT-04)
-- [x] Validar integridad JSON final itc-bt-04.json
-- [x] Eliminar duplicados y corregir IDs de la itc-bt-04.json
-- [x] Refactorización completa de ITC-BT-03 (Anteriormente completada)
+- [x] Refactorización completa de ITC-BT-03 (Acreditaciones y competencias)
+- [x] Reparación de corrupción estructural y duplicidades en itc-bt-04.json
+- [x] Estandarización de Grupos Normativos (a-p) para alineación con el BOE consolidado
+- [x] Validación técnica y sintáctica de datasets itc-bt-03.json e itc-bt-04.json
+
