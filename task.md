@@ -120,3 +120,9 @@
   - [x] Intercambiar posiciones de RadarChart y TopicPerformance para mejor equilibrio visual
   - [x] Ajustar contenedores para evitar deformación de gráficos (Radar)
 
+
+# Navegación y UX
+
+- [x] Evitar navegación hacia atrás al Quiz desde Resultados o Estadísticas
+  - [x] Usar `RedirectType.replace` al finalizar el quiz
+  - [x] Implementar guardián de navegación en `/stats` y `/quiz/results/[id]` para redirigir a `/` en `popstate`

@@ -1,5 +1,5 @@
 'use server'
-import { redirect } from "next/navigation"
+import { redirect, RedirectType } from "next/navigation"
 import { ConfigQuiz, Question, ResponseQuestion } from "../models"
 import { Factory } from "@/libs/shape/factory"
 
@@ -25,5 +25,5 @@ export async function saveAndRedirect({ answers, config, score }: {
     return;
   }
 
-  redirect(`/quiz/results/${result.data.id}`)
+  redirect(`/quiz/results/${result.data.id}`, RedirectType.replace)
 }

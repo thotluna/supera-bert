@@ -7,6 +7,7 @@ import { StudyRecommendations } from "./components/study-recommendations";
 import { Trophy, Target, Clock, Zap, BookOpen, ArrowLeft, Timer, Coffee } from "lucide-react";
 import Link from "next/link";
 import { JSX } from "react";
+import { NavigationGuard } from "@/app/components/navigation-guard";
 
 export default async function StatsPage(): Promise<JSX.Element> {
   const { data: stats, error } = await getUserStatsAction();
@@ -14,6 +15,7 @@ export default async function StatsPage(): Promise<JSX.Element> {
   if (error || !stats) {
     return (
       <div className="flex flex-col items-center justify-center p-12 bg-subface/40 backdrop-blur-3xl border border-white/10 rounded-3xl min-h-[400px]">
+        <NavigationGuard />
         <div className="p-4 bg-red-500/10 rounded-full mb-4">
           <Zap className="w-10 h-10 text-red-500" />
         </div>
@@ -35,6 +37,7 @@ export default async function StatsPage(): Promise<JSX.Element> {
 
   return (
     <div className="w-full max-w-5xl flex flex-col gap-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 ease-out p-4 md:p-0">
+      <NavigationGuard />
       <header className="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div className="flex flex-col gap-3">
           <Link
