@@ -1,0 +1,1868 @@
+[
+  {
+    "id": "quiz-itc-bt-41",
+    "itc": "ITC-BT-41",
+    "questions": [
+      {
+        "id": "ITC-BT-41-01",
+        "question": "¿Cuál es el objeto y campo de aplicación de la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Instalaciones eléctricas en caravanas y parques de caravanas.",
+            "isCorrect": true,
+            "explanation": "Esta instrucción se aplica específicamente a las instalaciones eléctricas en caravanas y a las instalaciones de alimentación en parques de caravanas. Fuente: ITC-BT-41, Apartado 1."
+          },
+          {
+            "id": 2,
+            "answer": "Instalaciones en autocaravanas donde la instalación eléctrica comparte espacio con la propulsión.",
+            "isCorrect": false,
+            "explanation": "La instrucción excluye explícitamente a las autocaravanas cuando su instalación eléctrica no es independiente de la del vehículo motorizado."
+          },
+          {
+            "id": 3,
+            "answer": "Instalaciones en barcos de recreo y puertos deportivos.",
+            "isCorrect": false,
+            "explanation": "Los puertos deportivos y barcos de recreo se rigen por la ITC-BT-42, no por la 41."
+          },
+          {
+            "id": 4,
+            "answer": "Instalaciones en edificios destinados al estacionamiento de vehículos.",
+            "isCorrect": false,
+            "explanation": "Los garajes se rigen por la ITC-BT-29 por ser locales con riesgo de incendio o explosión."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-02",
+        "question": "¿Qué tipo de esquema de conexión a tierra está prohibido para los circuitos finales que alimentan caravanas en parques de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Esquema TT.",
+            "isCorrect": false,
+            "explanation": "El esquema TT es aceptable siempre que se cumplan las condiciones de protección mediante diferenciales."
+          },
+          {
+            "id": 2,
+            "answer": "Esquema TN-S.",
+            "isCorrect": false,
+            "explanation": "El esquema TN-S es válido ya que separa el conductor de protección del neutro."
+          },
+          {
+            "id": 3,
+            "answer": "Esquema TN-C.",
+            "isCorrect": true,
+            "explanation": "En los circuitos que alimentan a las caravanas no se admite el uso del conductor PEN (combinación de neutro y protección), por lo que el esquema TN-C queda prohibido. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier esquema con puesta a tierra de las masas.",
+            "isCorrect": false,
+            "explanation": "La puesta a tierra de las masas es obligatoria para garantizar la seguridad frente a contactos indirectos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-03",
+        "question": "¿Cuál es la tensión nominal máxima permitida para la alimentación de caravanas en un parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "127 V en corriente alterna.",
+            "isCorrect": false,
+            "explanation": "Esta tensión está en desuso y no es el estándar de suministro para estas instalaciones."
+          },
+          {
+            "id": 2,
+            "answer": "230 V en corriente alterna monofásica y 400 V en trifásica.",
+            "isCorrect": true,
+            "explanation": "La instrucción establece que la tensión nominal de alimentación no debe exceder de 230 V en monofásica o 400 V en trifásica. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "1000 V en corriente alterna.",
+            "isCorrect": false,
+            "explanation": "Es el límite de baja tensión, pero excesivo para una instalación de consumo doméstico en caravanas."
+          },
+          {
+            "id": 4,
+            "answer": "24 V en corriente continua por seguridad.",
+            "isCorrect": false,
+            "explanation": "Aunque se use para servicios internos, la alimentación desde el parque es a tensión de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-04",
+        "question": "¿Qué medida de protección contra contactos indirectos NO está permitida en las instalaciones de caravanas y parques?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uso de obstáculos para evitar el contacto.",
+            "isCorrect": true,
+            "explanation": "Las medidas de protección mediante obstáculos, puesta fuera de alcance por alejamiento o locales no conductores están prohibidas en este ámbito. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "Puesta a tierra y dispositivos de corte automático de la alimentación.",
+            "isCorrect": false,
+            "explanation": "Esta es la medida estándar y obligatoria de protección."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de interruptores diferenciales de alta sensibilidad.",
+            "isCorrect": false,
+            "explanation": "Es una medida complementaria esencial y requerida por la norma."
+          },
+          {
+            "id": 4,
+            "answer": "Doble aislamiento en los equipos receptores.",
+            "isCorrect": false,
+            "explanation": "Los equipos de clase II son válidos y recomendables por su seguridad intrínseca."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-05",
+        "question": "¿Cuál es el grado de protección mínimo contra el agua para el equipo instalado en un parque de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX0.",
+            "isCorrect": false,
+            "explanation": "No ofrece ninguna protección contra líquidos, lo cual es inaceptable en exteriores."
+          },
+          {
+            "id": 2,
+            "answer": "IPX1.",
+            "isCorrect": false,
+            "explanation": "Solo protege contra goteo vertical, insuficiente para condiciones de lluvia o riego."
+          },
+          {
+            "id": 3,
+            "answer": "IPX4 (AD4).",
+            "isCorrect": true,
+            "explanation": "El equipo instalado en el exterior debe tener un grado de protección mínimo contra el agua de IPX4, equivalente a la clasificación AD4 (proyecciones de agua). Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 4,
+            "answer": "IPX8.",
+            "isCorrect": false,
+            "explanation": "Es para inmersión prolongada, un nivel de protección superior al mínimo exigido."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-06",
+        "question": "¿Qué protección debe tener cada base de toma de corriente destinada a alimentar una caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un interruptor diferencial común para cada diez tomas.",
+            "isCorrect": false,
+            "explanation": "La norma exige protección individual para evitar que un fallo en una caravana afecte a las demás."
+          },
+          {
+            "id": 2,
+            "answer": "Protección individual contra sobreintensidades y un interruptor diferencial de sensibilidad no mayor a 30 mA.",
+            "isCorrect": true,
+            "explanation": "Cada base debe estar protegida individualmente por un dispositivo contra sobreintensidades y por un diferencial de alta sensibilidad (≤ 30 mA). Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Únicamente un fusible de 16 A.",
+            "isCorrect": false,
+            "explanation": "Es insuficiente, ya que falta la protección contra contactos indirectos (diferencial)."
+          },
+          {
+            "id": 4,
+            "answer": "Un relé de tensión para evitar subidas de red.",
+            "isCorrect": false,
+            "explanation": "No es un requisito obligatorio de la ITC-BT-41, aunque pueda ser una buena práctica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-07",
+        "question": "¿Cuál es el número máximo de bases de toma de corriente que pueden agruparse en un mismo cuadro de distribución en el parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2 bases.",
+            "isCorrect": false,
+            "explanation": "Se pueden agrupar más según la normativa."
+          },
+          {
+            "id": 2,
+            "answer": "4 bases.",
+            "isCorrect": true,
+            "explanation": "La norma limita a 4 el número máximo de bases de toma de corriente que pueden estar contenidas en un mismo cuadro o envolvente. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "6 bases.",
+            "isCorrect": false,
+            "explanation": "Excede el límite establecido para garantizar la accesibilidad y orden en la conexión."
+          },
+          {
+            "id": 4,
+            "answer": "10 bases.",
+            "isCorrect": false,
+            "explanation": "Es un número excesivo que complicaría la distribución de cables de alimentación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-08",
+        "question": "¿A qué altura deben situarse las bases de toma de corriente respecto al suelo en el parque de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A ras de suelo para facilitar la conexión.",
+            "isCorrect": false,
+            "explanation": "Es peligroso por humedad y posibles inundaciones."
+          },
+          {
+            "id": 2,
+            "answer": "Entre 0,5 y 1,5 metros de altura.",
+            "isCorrect": true,
+            "explanation": "Las bases deben instalarse a una altura comprendida entre 0,5 y 1,5 metros sobre el nivel del suelo para evitar daños y facilitar el uso. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "A una altura mínima de 2 metros.",
+            "isCorrect": false,
+            "explanation": "Dificulta el acceso manual para la conexión y desconexión por parte del usuario."
+          },
+          {
+            "id": 4,
+            "answer": "A cualquier altura siempre que la envolvente sea IP67.",
+            "isCorrect": false,
+            "explanation": "La norma prescribe un rango de altura específico independientemente del IP."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-09",
+        "question": "¿Qué norma deben cumplir las bases de toma de corriente utilizadas para alimentar las caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE-EN 60309-2.",
+            "isCorrect": true,
+            "explanation": "Las bases de toma de corriente deben ajustarse a la norma UNE-EN 60309-2, que define las tomas de corriente industriales para facilitar la interoperabilidad. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "UNE 20315 (estándar doméstico tipo Schuko).",
+            "isCorrect": false,
+            "explanation": "No se permite el uso de bases domésticas estándar para la alimentación exterior de caravanas."
+          },
+          {
+            "id": 3,
+            "answer": "UNE-EN 60898.",
+            "isCorrect": false,
+            "explanation": "Esta norma aplica a interruptores automáticos para instalaciones domésticas, no a tomas de corriente."
+          },
+          {
+            "id": 4,
+            "answer": "UNE-EN 61008.",
+            "isCorrect": false,
+            "explanation": "Esta norma aplica a interruptores diferenciales, no a bases de toma de corriente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-10",
+        "question": "¿Cuál es la altura mínima de los cables aéreos en zonas con movimiento de vehículos dentro del parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "4 metros.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para permitir el paso seguro de vehículos altos o caravanas."
+          },
+          {
+            "id": 2,
+            "answer": "6 metros.",
+            "isCorrect": true,
+            "explanation": "En las zonas donde exista movimiento de vehículos, los cables aéreos deben estar situados a una altura mínima de 6 metros. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "3,5 metros.",
+            "isCorrect": false,
+            "explanation": "Esta es la altura para zonas sin movimiento de vehículos."
+          },
+          {
+            "id": 4,
+            "answer": "8 metros.",
+            "isCorrect": false,
+            "explanation": "Es una altura superior a la requerida, lo que encarecería innecesariamente los apoyos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-11",
+        "question": "En el interior de la caravana, ¿cómo debe ser el corte del interruptor principal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe cortar únicamente la fase activa.",
+            "isCorrect": false,
+            "explanation": "No garantiza la desconexión segura en caso de inversión de polaridad en la alimentación exterior."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser un corte omnipolar (fase y neutro simultáneamente).",
+            "isCorrect": true,
+            "explanation": "El interruptor principal debe realizar un corte omnipolar para asegurar que todos los conductores activos queden aislados al desconectar. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "No es necesario un interruptor principal si hay fusibles.",
+            "isCorrect": false,
+            "explanation": "El interruptor de corte general es obligatorio para el control de la instalación por el usuario."
+          },
+          {
+            "id": 4,
+            "answer": "Debe ser de mando a distancia obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "La norma no exige que el mando sea remoto, sino que sea accesible y efectivo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-12",
+        "question": "¿Qué tipo de cable se debe utilizar para la conexión entre la base de toma de corriente del parque y la caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cable rígido de cobre bajo tubo.",
+            "isCorrect": false,
+            "explanation": "Un cable rígido se rompería con el movimiento y la manipulación constante."
+          },
+          {
+            "id": 2,
+            "answer": "Cable flexible con cubierta de policloropreno o equivalente (H07RN-F).",
+            "isCorrect": true,
+            "explanation": "El cable de conexión debe ser flexible, resistente a la intemperie y a esfuerzos mecánicos, típicamente del tipo H07RN-F. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Manguera plana de uso doméstico.",
+            "isCorrect": false,
+            "explanation": "No tiene la resistencia mecánica ni a la intemperie necesaria para uso exterior."
+          },
+          {
+            "id": 4,
+            "answer": "Cable unipolar sin cubierta.",
+            "isCorrect": false,
+            "explanation": "Carece de protección contra contactos directos y daños mecánicos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-13",
+        "question": "¿Cuál es la longitud máxima permitida para el cable de conexión flexible de la caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 metros.",
+            "isCorrect": false,
+            "explanation": "Podría ser insuficiente para alcanzar el punto de suministro desde la parcela."
+          },
+          {
+            "id": 2,
+            "answer": "25 metros.",
+            "isCorrect": true,
+            "explanation": "La longitud del cable flexible para la conexión de la caravana al punto de suministro no debe exceder los 25 metros. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "50 metros.",
+            "isCorrect": false,
+            "explanation": "Una longitud excesiva aumentaría la caída de tensión y el riesgo de daños en el cable."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite siempre que la sección sea suficiente.",
+            "isCorrect": false,
+            "explanation": "La norma impone un límite físico para garantizar la seguridad y control de la línea."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-14",
+        "question": "¿Cuál es la sección mínima permitida para los conductores del cable de conexión flexible de 25 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Sección insuficiente para soportar la intensidad nominal y las caídas de tensión."
+          },
+          {
+            "id": 2,
+            "answer": "2,5 mm\u00b2.",
+            "isCorrect": true,
+            "explanation": "Los conductores del cable flexible deben tener una sección mínima de 2,5 mm\u00b2 para asegurar la resistencia mecánica y capacidad eléctrica. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "1,5 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Aunque es común en interiores, para la manguera exterior de conexión se exige mayor sección."
+          },
+          {
+            "id": 4,
+            "answer": "4 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Es una sección superior a la mínima requerida, aunque permitida."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-15",
+        "question": "¿Cómo deben instalarse las canalizaciones eléctricas respecto a las tuberías de gas dentro de la caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pueden ir juntas en el mismo compartimento para ahorrar espacio.",
+            "isCorrect": false,
+            "explanation": "Supone un riesgo crítico de incendio o explosión en caso de arco eléctrico o fuga."
+          },
+          {
+            "id": 2,
+            "answer": "Deben instalarse de forma que no se produzca contacto y se minimice el riesgo de daño mutuo.",
+            "isCorrect": true,
+            "explanation": "Las canalizaciones eléctricas deben estar separadas de las de gas para evitar riesgos, no debiendo compartir compartimentos si no están debidamente protegidas. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Las de gas deben ir siempre por debajo de las eléctricas.",
+            "isCorrect": false,
+            "explanation": "La norma no especifica arriba/abajo, sino separación física efectiva."
+          },
+          {
+            "id": 4,
+            "answer": "Deben estar separadas al menos 1 metro.",
+            "isCorrect": false,
+            "explanation": "No se exige una distancia tan grande en espacios reducidos como una caravana, sino separación funcional."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-16",
+        "question": "¿Qué requisito debe cumplir el conductor de protección en la instalación interior de la caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe estar conectado obligatoriamente a las partes metálicas del chasis y la carrocería.",
+            "isCorrect": true,
+            "explanation": "Todas las masas metálicas de la caravana, incluyendo chasis y carrocería, deben estar conectadas al conductor de protección de la instalación. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de color rojo para distinguirlo de las fases.",
+            "isCorrect": false,
+            "explanation": "El código de colores exige que sea verde-amarillo."
+          },
+          {
+            "id": 3,
+            "answer": "No debe conectarse al chasis para evitar derivaciones.",
+            "isCorrect": false,
+            "explanation": "La conexión al chasis es fundamental para que actúen las protecciones ante un fallo."
+          },
+          {
+            "id": 4,
+            "answer": "Puede tener una sección inferior a 0,75 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Las secciones mínimas deben respetarse para garantizar la integridad en caso de cortocircuito."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-17",
+        "question": "¿Cuál es la sección mínima del conductor de protección que conecta la masa del chasis con el borne de tierra de la caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Es insuficiente para asegurar la equipotencialidad del conjunto metálico."
+          },
+          {
+            "id": 2,
+            "answer": "4 mm\u00b2.",
+            "isCorrect": true,
+            "explanation": "El conductor de conexión equipotencial entre el chasis y el borne de tierra debe tener una sección mínima de 4 mm\u00b2 de cobre. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "10 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Es un valor muy elevado que suele reservarse para acometidas principales de edificios."
+          },
+          {
+            "id": 4,
+            "answer": "2,5 mm\u00b2.",
+            "isCorrect": false,
+            "explanation": "Aunque es la sección de fase, la norma especifica 4 mm\u00b2 para esta conexión de seguridad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-18",
+        "question": "¿Qué grado de protección mecánica mínima deben tener los cuadros y equipos situados en el exterior?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "AG1.",
+            "isCorrect": false,
+            "explanation": "Corresponde a impactos débiles, insuficiente para un entorno de camping."
+          },
+          {
+            "id": 2,
+            "answer": "AG2.",
+            "isCorrect": true,
+            "explanation": "Los equipos exteriores deben estar protegidos contra impactos mecánicos de severidad media, clasificados como AG2. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "AG5.",
+            "isCorrect": false,
+            "explanation": "Es una protección contra impactos muy elevados, superior al estándar exigido."
+          },
+          {
+            "id": 4,
+            "answer": "IK01.",
+            "isCorrect": false,
+            "explanation": "Es el nivel más bajo de la escala IK, no apto para exteriores desprotegidos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-19",
+        "question": "¿Qué información debe figurar obligatoriamente junto a cada base de toma de corriente en un parque de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un cartel con el número de teléfono del servicio técnico.",
+            "isCorrect": false,
+            "explanation": "No es una exigencia de seguridad de la ITC-BT-41."
+          },
+          {
+            "id": 2,
+            "answer": "Instrucciones detalladas de seguridad para la conexión y desconexión.",
+            "isCorrect": true,
+            "explanation": "Se debe colocar una placa o cartel con las instrucciones de seguridad para el usuario en cada punto de suministro. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "El precio por kilovatio hora consumido.",
+            "isCorrect": false,
+            "explanation": "Es información comercial, no técnica ni de seguridad normativa."
+          },
+          {
+            "id": 4,
+            "answer": "El nombre del fabricante del cuadro eléctrico.",
+            "isCorrect": false,
+            "explanation": "Aunque figure en el equipo, no es la instrucción de seguridad para el usuario."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-20",
+        "question": "¿Qué condición deben cumplir las canalizaciones que atraviesan los compartimentos de las botellas de gas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No se permite que ninguna canalización eléctrica atraviese estos compartimentos.",
+            "isCorrect": true,
+            "explanation": "Está prohibido el paso de cables o canalizaciones eléctricas a través de compartimentos destinados a botellas de gas. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 2,
+            "answer": "Pueden pasar si van protegidas por un tubo de acero.",
+            "isCorrect": false,
+            "explanation": "La prohibición es absoluta para evitar cualquier riesgo de ignición en zona de gas."
+          },
+          {
+            "id": 3,
+            "answer": "Solo pueden pasar si alimentan la válvula del gas.",
+            "isCorrect": false,
+            "explanation": "Incluso en ese caso, la conexión debe ser externa al compartimento estanco de las botellas."
+          },
+          {
+            "id": 4,
+            "answer": "Pueden pasar si la caravana es de fibra de vidrio.",
+            "isCorrect": false,
+            "explanation": "El material de la carrocería no anula el riesgo de explosión por gas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-21",
+        "question": "¿Cómo define la ITC-BT-41 un 'Vehículo de ocio'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Unidad equipada para alojamiento, para ocupación temporal o estacionaria, que satisface los requisitos para la construcción y utilización de vehículos de carretera.",
+            "isCorrect": true,
+            "explanation": "Esta es la definición formal que incluye tanto la función de alojamiento como el cumplimiento de la normativa vial. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "Cualquier vehículo que se utilice para acampar independientemente de su homologación.",
+            "isCorrect": false,
+            "explanation": "La definición exige que satisfaga los requisitos para la construcción y utilización de vehículos de carretera."
+          },
+          {
+            "id": 3,
+            "answer": "Un vehículo destinado exclusivamente al transporte de personas en vacaciones.",
+            "isCorrect": false,
+            "explanation": "La definición se centra en su equipamiento para alojamiento y ocupación temporal o estacionaria."
+          },
+          {
+            "id": 4,
+            "answer": "Un remolque destinado al transporte de equipaje deportivo.",
+            "isCorrect": false,
+            "explanation": "Un remolque de carga no se considera vehículo de ocio bajo esta definición técnica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-22",
+        "question": "¿Qué caracteriza a una 'Caravana' frente a otros vehículos de ocio según las definiciones de la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Es un vehículo de ocio remolcado.",
+            "isCorrect": true,
+            "explanation": "La distinción principal es su carácter de remolque frente a los vehículos autopropulsados. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "Es un vehículo que siempre tiene motor propio.",
+            "isCorrect": false,
+            "explanation": "Si tiene motor propio se define como caravana con motor o automóvil de camping."
+          },
+          {
+            "id": 3,
+            "answer": "Es una unidad que no puede circular por carretera.",
+            "isCorrect": false,
+            "explanation": "Debe satisfacer los requisitos para la construcción y utilización de vehículos de carretera."
+          },
+          {
+            "id": 4,
+            "answer": "Es una estructura fija que no se puede desplazar.",
+            "isCorrect": false,
+            "explanation": "Se define explícitamente como un vehículo, lo que implica movilidad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-23",
+        "question": "¿Cuál de los siguientes términos es sinónimo de 'Caravana con motor' según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Remolque de camping.",
+            "isCorrect": false,
+            "explanation": "Un remolque no es autopropulsado."
+          },
+          {
+            "id": 2,
+            "answer": "Automóvil de camping.",
+            "isCorrect": true,
+            "explanation": "La norma equipara ambos términos para referirse al vehículo de ocio autopropulsado. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Residencia móvil.",
+            "isCorrect": false,
+            "explanation": "La residencia móvil es un concepto distinto que no cumple necesariamente los requisitos de vehículos de carretera."
+          },
+          {
+            "id": 4,
+            "answer": "Habitación de parque residencial.",
+            "isCorrect": false,
+            "explanation": "Se refiere a habitaciones desplazables diseñadas en fábrica, no necesariamente a vehículos autopropulsados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-24",
+        "question": "¿Qué define a una 'Residencia móvil' según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Vehículo de ocio transportable que incluye medios de movimiento pero NO satisface los requisitos para vehículos de carretera.",
+            "isCorrect": true,
+            "explanation": "Esta es la característica clave: tiene movilidad pero no cumple la normativa para circular por carretera de forma autónoma. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "Cualquier caravana que permanece más de seis meses en un mismo sitio.",
+            "isCorrect": false,
+            "explanation": "La definición técnica no depende del tiempo de estancia, sino de sus características constructivas y viales."
+          },
+          {
+            "id": 3,
+            "answer": "Un vehículo de ocio autopropulsado de grandes dimensiones.",
+            "isCorrect": false,
+            "explanation": "Los vehículos autopropulsados que cumplen la normativa vial son 'caravanas con motor'."
+          },
+          {
+            "id": 4,
+            "answer": "Una vivienda construida con materiales ligeros sobre cimientos de hormigón.",
+            "isCorrect": false,
+            "explanation": "La residencia móvil debe ser transportable e incluir medios de movimiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-25",
+        "question": "En esquemas de conexión TN, ¿qué conductor está estrictamente prohibido en el circuito final de alimentación a caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductor de fase.",
+            "isCorrect": false,
+            "explanation": "Es necesario para el suministro eléctrico."
+          },
+          {
+            "id": 2,
+            "answer": "Conductor neutro.",
+            "isCorrect": false,
+            "explanation": "Se requiere para circuitos monofásicos de 230V."
+          },
+          {
+            "id": 3,
+            "answer": "Conductor PEN.",
+            "isCorrect": true,
+            "explanation": "La norma prohíbe que el conductor de protección y el neutro estén combinados en los circuitos finales de alimentación. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 4,
+            "answer": "Conductor de protección (PE).",
+            "isCorrect": false,
+            "explanation": "Es obligatorio para garantizar la seguridad de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-26",
+        "question": "¿Cuáles de las siguientes medidas de protección contra choques eléctricos están prohibidas según la ITC-BT-41? (Seleccione varias)",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección por obstáculos.",
+            "isCorrect": true,
+            "explanation": "Esta medida no se considera segura para este tipo de instalaciones. Fuente: ITC-BT-41, Apartado 4."
+          },
+          {
+            "id": 2,
+            "answer": "Protección por puesta fuera de alcance.",
+            "isCorrect": true,
+            "explanation": "Debido a la naturaleza del entorno, esta medida está prohibida. Fuente: ITC-BT-41, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Protección por emplazamientos no conductores.",
+            "isCorrect": true,
+            "explanation": "No se puede garantizar la naturaleza no conductora del suelo o alrededores. Fuente: ITC-BT-41, Apartado 4."
+          },
+          {
+            "id": 4,
+            "answer": "Protección por corte automático de la alimentación.",
+            "isCorrect": false,
+            "explanation": "Esta es precisamente la medida de protección principal requerida."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-41-27",
+        "question": "¿Está permitido el uso de equipos de 'clase 0' en las instalaciones de parques de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se instalan en el interior de envolventes estancas.",
+            "isCorrect": false,
+            "explanation": "La prohibición es general debido al riesgo que representan."
+          },
+          {
+            "id": 2,
+            "answer": "No, está expresamente prohibido.",
+            "isCorrect": true,
+            "explanation": "La utilización de equipos de clase 0 no ofrece las garantías de seguridad necesarias para estas instalaciones. Fuente: ITC-BT-41, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la tensión de alimentación es inferior a 50 V.",
+            "isCorrect": false,
+            "explanation": "Incluso en muy baja tensión, se prefieren otros métodos de protección."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que el parque disponga de vigilancia 24 horas.",
+            "isCorrect": false,
+            "explanation": "La seguridad técnica es independiente de la vigilancia del recinto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-28",
+        "question": "¿Cuáles son los requisitos mínimos de protección (IP) para equipos instalados en exteriores según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX4 (agua) e IP4X (sólidos).",
+            "isCorrect": true,
+            "explanation": "Se exigen niveles de protección AD4 (proyecciones de agua) y AE3 (cuerpos sólidos extraños). Fuente: ITC-BT-41, Apartado 5."
+          },
+          {
+            "id": 2,
+            "answer": "IP20 en todos los casos.",
+            "isCorrect": false,
+            "explanation": "Este grado no protege contra agua ni contra objetos pequeños, siendo insuficiente para exteriores."
+          },
+          {
+            "id": 3,
+            "answer": "IP68 para permitir la limpieza con mangueras a presión.",
+            "isCorrect": false,
+            "explanation": "Es un nivel de protección muy superior al mínimo requerido."
+          },
+          {
+            "id": 4,
+            "answer": "IPX1 e IP2X.",
+            "isCorrect": false,
+            "explanation": "Son niveles básicos para interiores, no aptos para las condiciones de un parque de caravanas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-29",
+        "question": "¿Qué grado de severidad contra choques mecánicos se exige para los equipos según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "AG1 (impactos débiles).",
+            "isCorrect": false,
+            "explanation": "No ofrece resistencia suficiente para el trasiego habitual de vehículos y personas."
+          },
+          {
+            "id": 2,
+            "answer": "AG2 (severidad media).",
+            "isCorrect": true,
+            "explanation": "Es el requisito para garantizar que los equipos soporten golpes accidentales comunes en el camping. Fuente: ITC-BT-41, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "AG3 (impactos fuertes).",
+            "isCorrect": false,
+            "explanation": "Es un nivel superior al mínimo exigido."
+          },
+          {
+            "id": 4,
+            "answer": "No se especifica ningún grado contra choques.",
+            "isCorrect": false,
+            "explanation": "La norma indica claramente el parámetro AG2."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-30",
+        "question": "¿Cuál es el método preferido de alimentación para los emplazamientos de caravanas según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Líneas aéreas sobre postes de madera.",
+            "isCorrect": false,
+            "explanation": "Aunque permitidas, no son el método preferido por razones de estética y seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "Canalizaciones enterradas.",
+            "isCorrect": true,
+            "explanation": "Se establece explícitamente que es el método preferido para la distribución eléctrica en el parque. Fuente: ITC-BT-41, Apartado 5.2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Cables tendidos directamente sobre el terreno.",
+            "isCorrect": false,
+            "explanation": "Está prohibido por riesgo de daños mecánicos y eléctricos."
+          },
+          {
+            "id": 4,
+            "answer": "Canaletas de PVC en superficie.",
+            "isCorrect": false,
+            "explanation": "No ofrecen la protección necesaria en zonas de paso de vehículos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-31",
+        "question": "¿A qué profundidad mínima deben enterrarse los cables de distribución si no cuentan con protección mecánica complementaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,3 metros.",
+            "isCorrect": false,
+            "explanation": "Profundidad insuficiente para evitar daños por herramientas manuales o pequeñas estacas."
+          },
+          {
+            "id": 2,
+            "answer": "0,5 metros.",
+            "isCorrect": true,
+            "explanation": "Es la profundidad mínima reglamentaria para garantizar la seguridad del cableado enterrado. Fuente: ITC-BT-41, Apartado 5.2.1.1."
+          },
+          {
+            "id": 3,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Es una profundidad mayor a la mínima exigida por la instrucción."
+          },
+          {
+            "id": 4,
+            "answer": "0,1 metros.",
+            "isCorrect": false,
+            "explanation": "Es extremadamente peligroso y no cumple con la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-32",
+        "question": "En canalizaciones enterradas, ¿dónde debe evitarse el tendido de cables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Bajo los caminos asfaltados.",
+            "isCorrect": false,
+            "explanation": "Es una zona común de paso para canalizaciones."
+          },
+          {
+            "id": 2,
+            "answer": "En las zonas donde se prevea el clavado de picas de tiendas o anclajes.",
+            "isCorrect": true,
+            "explanation": "Se debe buscar trazados fuera de las zonas de acampada propiamente dichas para evitar perforaciones accidentales. Fuente: ITC-BT-41, Apartado 5.2.1.1."
+          },
+          {
+            "id": 3,
+            "answer": "Cerca de los árboles.",
+            "isCorrect": false,
+            "explanation": "No hay una prohibición específica, aunque deben evitarse las raíces para facilitar el mantenimiento."
+          },
+          {
+            "id": 4,
+            "answer": "A menos de 2 metros de las tuberías de agua.",
+            "isCorrect": false,
+            "explanation": "La normativa de canalizaciones enterradas permite proximidad respetando distancias mínimas, pero no es la restricción clave aquí."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-33",
+        "question": "¿Qué condición deben cumplir todos los conductores de las líneas aéreas en un parque de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben ser conductores desnudos para mejorar la refrigeración.",
+            "isCorrect": false,
+            "explanation": "Los conductores desnudos suponen un riesgo inaceptable de electrocución por contacto accidental."
+          },
+          {
+            "id": 2,
+            "answer": "Deben estar aislados.",
+            "isCorrect": true,
+            "explanation": "El aislamiento es obligatorio para todos los conductores en líneas aéreas dentro del parque. Fuente: ITC-BT-41, Apartado 5.2.1.2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de aluminio obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Se pueden usar diferentes materiales siempre que cumplan las especificaciones técnicas."
+          },
+          {
+            "id": 4,
+            "answer": "Solo es obligatorio el aislamiento del conductor neutro.",
+            "isCorrect": false,
+            "explanation": "Todos los conductores, incluyendo fases y neutro, deben estar aislados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-34",
+        "question": "¿Cuál es la altura mínima reglamentaria para líneas aéreas en zonas sin movimiento de vehículos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5 metros.",
+            "isCorrect": false,
+            "explanation": "Altura insuficiente que podría permitir contactos accidentales con la mano o herramientas."
+          },
+          {
+            "id": 2,
+            "answer": "3,5 metros.",
+            "isCorrect": true,
+            "explanation": "Es la altura mínima permitida para zonas exclusivamente peatonales o sin tráfico. Fuente: ITC-BT-41, Apartado 5.2.1.2."
+          },
+          {
+            "id": 3,
+            "answer": "6 metros.",
+            "isCorrect": false,
+            "explanation": "Esta es la altura exigida para zonas con movimiento de vehículos."
+          },
+          {
+            "id": 4,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "No coincide con los valores específicos marcados por la instrucción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-35",
+        "question": "¿Cómo deben protegerse los postes de las líneas aéreas en el parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pintándolos de color rojo fluorescente.",
+            "isCorrect": false,
+            "explanation": "La señalización visual es útil pero no sustituye a la protección física contra impactos."
+          },
+          {
+            "id": 2,
+            "answer": "De forma que no puedan ser dañados por movimientos previsibles de los vehículos.",
+            "isCorrect": true,
+            "explanation": "Se deben prever defensas o ubicaciones seguras para evitar colisiones. Fuente: ITC-BT-41, Apartado 5.2.1.2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser siempre de hormigón armado.",
+            "isCorrect": false,
+            "explanation": "La norma no impone el material, sino la seguridad frente a daños."
+          },
+          {
+            "id": 4,
+            "answer": "No requieren protección si están en zonas de césped.",
+            "isCorrect": false,
+            "explanation": "Cualquier zona accesible a vehículos requiere protección de los apoyos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-36",
+        "question": "¿Qué requisito deben cumplir los dispositivos diferenciales (DDR) elegidos para proteger las tomas de corriente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben desconectar todos los polos, incluido el neutro.",
+            "isCorrect": true,
+            "explanation": "El corte omnipolar es fundamental para garantizar que no existan conductores activos tras el disparo. Fuente: ITC-BT-41, Apartado 6.1."
+          },
+          {
+            "id": 2,
+            "answer": "Deben desconectar solo las fases.",
+            "isCorrect": false,
+            "explanation": "En caso de fallo a neutro o inversión de polaridad, esto dejaría conductores con tensión."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de tipo 'S' (retardados) obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Al contrario, se requiere alta sensibilidad y disparo rápido para protección de personas."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario que corten el neutro si hay toma de tierra.",
+            "isCorrect": false,
+            "explanation": "La norma exige el corte de todos los polos independientemente de la tierra."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-37",
+        "question": "¿Se permite que un solo interruptor diferencial proteja a más de una caravana?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, cada caravana debe tener su propio diferencial independiente.",
+            "isCorrect": false,
+            "explanation": "La norma permite agrupaciones bajo ciertas condiciones específicas."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, si alimentan en conjunto el mismo emplazamiento de caravanas.",
+            "isCorrect": true,
+            "explanation": "Se permite la protección por grupos cuando estos sirven a un mismo emplazamiento. Fuente: ITC-BT-41, Apartado 6.1."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, se permite un solo diferencial para todo el parque.",
+            "isCorrect": false,
+            "explanation": "Es inaceptable, ya que un fallo en un punto dejaría sin suministro a todo el recinto."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si la sensibilidad es de 300 mA.",
+            "isCorrect": false,
+            "explanation": "Se exige una sensibilidad máxima de 30 mA para protección de personas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-38",
+        "question": "¿Qué protección se exige para los circuitos terminales de 'residencias móviles'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben estar protegidos individualmente por un DDR de máximo 30 mA.",
+            "isCorrect": true,
+            "explanation": "Al igual que las caravanas, requieren protección diferencial de alta sensibilidad individual. Fuente: ITC-BT-41, Apartado 6.1."
+          },
+          {
+            "id": 2,
+            "answer": "Pueden carecer de diferencial si están en zona vigilada.",
+            "isCorrect": false,
+            "explanation": "La protección eléctrica es un requisito técnico ineludible."
+          },
+          {
+            "id": 3,
+            "answer": "Solo requieren un interruptor magnetotérmico de 25 A.",
+            "isCorrect": false,
+            "explanation": "Falta la protección contra contactos indirectos que proporciona el diferencial."
+          },
+          {
+            "id": 4,
+            "answer": "Deben conectarse a través de un transformador de aislamiento.",
+            "isCorrect": false,
+            "explanation": "No es el método de protección requerido por la ITC-BT-41."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-39",
+        "question": "¿Qué conductores deben desconectar los dispositivos de protección contra sobreintensidades?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo los conductores de fase.",
+            "isCorrect": false,
+            "explanation": "No garantiza la seguridad total en instalaciones donde el neutro puede portar tensión."
+          },
+          {
+            "id": 2,
+            "answer": "Todos los conductores en tensión, incluido el neutro.",
+            "isCorrect": true,
+            "explanation": "El corte de todos los conductores activos asegura la desconexión total del circuito. Fuente: ITC-BT-41, Apartado 6.2."
+          },
+          {
+            "id": 3,
+            "answer": "Únicamente el conductor neutro.",
+            "isCorrect": false,
+            "explanation": "Cortar solo el neutro es extremadamente peligroso."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario que corten el neutro si la red es de 400 V.",
+            "isCorrect": false,
+            "explanation": "La norma exige el corte de todos los conductores activos en cualquier caso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-40",
+        "question": "¿Qué norma de referencia deben cumplir los dispositivos de protección contra sobreintensidades?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE-EN 60309-2.",
+            "isCorrect": false,
+            "explanation": "Esta norma aplica a las tomas de corriente, no a las protecciones."
+          },
+          {
+            "id": 2,
+            "answer": "Documento de Armonización HD 60.364-4-43.",
+            "isCorrect": true,
+            "explanation": "Es la referencia normativa para la protección contra sobreintensidades en estas instalaciones. Fuente: ITC-BT-41, Apartado 6.2."
+          },
+          {
+            "id": 3,
+            "answer": "Reglamento de Instalaciones Térmicas.",
+            "isCorrect": false,
+            "explanation": "No tiene aplicación en la protección de circuitos eléctricos de potencia."
+          },
+          {
+            "id": 4,
+            "answer": "Norma UNE 20460-7-701.",
+            "isCorrect": false,
+            "explanation": "Esta parte de la norma se refiere a baños y duchas, no a sobreintensidades generales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-41",
+        "question": "¿Cuál es el grado de protección (IP) mínimo exigido para una toma de corriente si no está protegida por una envolvente adicional?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "Es un grado para interiores secos, sin protección contra líquidos."
+          },
+          {
+            "id": 2,
+            "answer": "IP44.",
+            "isCorrect": true,
+            "explanation": "Es el mínimo necesario para resistir salpicaduras de agua y entrada de cuerpos sólidos pequeños. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Protección contra inmersión temporal, superior al mínimo exigido."
+          },
+          {
+            "id": 4,
+            "answer": "IPX0.",
+            "isCorrect": false,
+            "explanation": "No ofrece ninguna protección contra el agua."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-42",
+        "question": "¿Dónde deben instalarse preferentemente las tomas de corriente en el parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tan cerca como sea posible del emplazamiento de la caravana o tienda a alimentar.",
+            "isCorrect": true,
+            "explanation": "Se busca minimizar la longitud de los cables flexibles de conexión para reducir riesgos. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 2,
+            "answer": "Agrupadas todas en la entrada del camping.",
+            "isCorrect": false,
+            "explanation": "Obligaría a usar cables de conexión excesivamente largos y peligrosos."
+          },
+          {
+            "id": 3,
+            "answer": "En lo alto de los postes de iluminación.",
+            "isCorrect": false,
+            "explanation": "Dificulta el acceso del usuario y aumenta el riesgo de caídas."
+          },
+          {
+            "id": 4,
+            "answer": "Bajo arquetas estancas a nivel de suelo.",
+            "isCorrect": false,
+            "explanation": "Aunque es posible, la norma prefiere que estén cerca y accesibles, evitando riesgos de inundación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-43",
+        "question": "¿Está permitido el uso de tomas de corriente conformes con las normas nacionales (clase nacional)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, están estrictamente prohibidas.",
+            "isCorrect": false,
+            "explanation": "Al contrario, su presencia es un requisito adicional en ciertos casos."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, como complemento, para tomas de corriente asignada ≤ 16 A.",
+            "isCorrect": true,
+            "explanation": "Se permite su uso además de las tomas industriales EN 60.309-2. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instalan dentro de la caravana.",
+            "isCorrect": false,
+            "explanation": "La norma permite su suministro también en el punto de alimentación exterior."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pueden sustituir a las tomas industriales EN 60.309-2.",
+            "isCorrect": false,
+            "explanation": "Deben suministrarse además de, no en lugar de las tomas industriales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-44",
+        "question": "¿Por qué se limita a cuatro el número máximo de tomas reagrupadas en una misma envolvente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para evitar los peligros debidos a largas conexiones.",
+            "isCorrect": true,
+            "explanation": "Una mayor concentración obligaría a que las caravanas alejadas usaran cables excesivamente largos. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 2,
+            "answer": "Porque no existen cuadros de mayor tamaño en el mercado.",
+            "isCorrect": false,
+            "explanation": "Es una limitación de seguridad, no comercial o técnica del fabricante."
+          },
+          {
+            "id": 3,
+            "answer": "Para que los diferenciales no disparen por simpatía.",
+            "isCorrect": false,
+            "explanation": "El disparo por simpatía se evita con una correcta selección de las protecciones, no por el número de tomas."
+          },
+          {
+            "id": 4,
+            "answer": "Para limitar el peso de los cuadros en los postes.",
+            "isCorrect": false,
+            "explanation": "La razón principal es la gestión segura de las longitudes de conexión."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-45",
+        "question": "¿Cuáles son las características generales de las tomas monofásicas que deben suministrarse?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tensión de 110 V a 130 V.",
+            "isCorrect": false,
+            "explanation": "No es la tensión estándar del REBT para suministros monofásicos."
+          },
+          {
+            "id": 2,
+            "answer": "Tensión de 200 V a 250 V y corriente de 16 A.",
+            "isCorrect": true,
+            "explanation": "Son los valores estándar para garantizar la compatibilidad con la mayoría de caravanas. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Corriente asignada de 6 A únicamente.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para los equipos receptores comunes de una caravana (calefacción, cocina, etc.)."
+          },
+          {
+            "id": 4,
+            "answer": "Tensión de 400 V siempre.",
+            "isCorrect": false,
+            "explanation": "400 V es para suministros trifásicos, no monofásicos estándar."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-46",
+        "question": "¿Se permite la instalación de tomas de corriente de más de 16 A en el parque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, bajo ninguna circunstancia.",
+            "isCorrect": false,
+            "explanation": "Existen casos donde se requiere mayor potencia."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, si están previstas demandas más importantes de corriente.",
+            "isCorrect": true,
+            "explanation": "La norma permite instalar tomas de características superiores según la demanda. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instalan bajo supervisión de un ingeniero.",
+            "isCorrect": false,
+            "explanation": "Cualquier instalación del parque requiere proyecto/memoria, pero la norma permite la instalación basándose en la demanda."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero solo en la cafetería del camping.",
+            "isCorrect": false,
+            "explanation": "Se refiere a las tomas destinadas a la alimentación de los emplazamientos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-47",
+        "question": "¿Cuál es el punto de referencia para medir la altura de las tomas de corriente (0,5 m - 1,5 m)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La parte más alta de la envolvente.",
+            "isCorrect": false,
+            "explanation": "No garantiza que el enchufe sea accesible de forma segura."
+          },
+          {
+            "id": 2,
+            "answer": "La parte más baja del enchufe (toma) respecto al terreno.",
+            "isCorrect": true,
+            "explanation": "Esta medida asegura que el punto de conexión esté a una altura cómoda y protegida. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "El centro del interruptor diferencial.",
+            "isCorrect": false,
+            "explanation": "La cota se refiere a la base de la toma de corriente."
+          },
+          {
+            "id": 4,
+            "answer": "El borde superior de la cimentación del poste.",
+            "isCorrect": false,
+            "explanation": "La medida debe ser respecto al terreno terminado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-48",
+        "question": "¿En qué caso se permite que la altura máxima de una toma sea superior a 1,5 metros?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debido a condiciones medioambientales extremas (inundaciones, nieve).",
+            "isCorrect": true,
+            "explanation": "Es una excepción de seguridad para evitar que la toma quede sumergida o enterrada en nieve. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 2,
+            "answer": "Si el poste es compartido con el alumbrado público.",
+            "isCorrect": false,
+            "explanation": "El uso del poste no justifica variar las cotas de seguridad del enchufe."
+          },
+          {
+            "id": 3,
+            "answer": "Para evitar que los niños alcancen las tomas.",
+            "isCorrect": false,
+            "explanation": "La protección infantil debe basarse en el diseño de la toma (obturadores), no en su inaccesibilidad."
+          },
+          {
+            "id": 4,
+            "answer": "Si el suelo es de arena de playa.",
+            "isCorrect": false,
+            "explanation": "La naturaleza del suelo no es el factor determinante, sino las condiciones extremas de inundación o nieve."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-49",
+        "question": "Además de las tomas industriales EN 60.309-2, ¿qué otra toma debe suministrarse según la ITC-BT-41?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una toma USB para carga de dispositivos.",
+            "isCorrect": false,
+            "explanation": "No es un requisito del REBT."
+          },
+          {
+            "id": 2,
+            "answer": "Una toma de corriente de clase nacional.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio suministrar al menos una toma nacional para facilitar la conexión de diversos equipos. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Una toma de corriente trifásica de 32 A.",
+            "isCorrect": false,
+            "explanation": "Solo se requiere si la demanda específica lo justifica, no como regla general adicional."
+          },
+          {
+            "id": 4,
+            "answer": "Una toma de telefonía o internet.",
+            "isCorrect": false,
+            "explanation": "Son servicios ajenos a la instalación de baja tensión reglada por la ITC-BT-41."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-50",
+        "question": "¿Qué medida debe tomarse si se instala una toma a más de 1,5 metros de altura?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser de color verde brillante.",
+            "isCorrect": false,
+            "explanation": "El color no garantiza una operación segura."
+          },
+          {
+            "id": 2,
+            "answer": "Medidas especiales para garantizar una inserción y retirada segura de las clavijas.",
+            "isCorrect": true,
+            "explanation": "Se debe asegurar que el usuario pueda operar la toma sin riesgo de caídas o tirones peligrosos. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Es obligatorio disponer de una escalera fija al lado.",
+            "isCorrect": false,
+            "explanation": "No se especifica el método, pero debe garantizarse la seguridad de la operación."
+          },
+          {
+            "id": 4,
+            "answer": "La toma debe ser de accionamiento automático por Bluetooth.",
+            "isCorrect": false,
+            "explanation": "La norma no contempla estas tecnologías para la operación básica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-51",
+        "question": "¿Cuál de las siguientes es la definición correcta de 'Emplazamiento de caravana/tienda'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Espacio del parque destinado a la instalación de un solo vehículo de ocio o tienda.",
+            "isCorrect": true,
+            "explanation": "Es la unidad básica de división del parque de caravanas. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "Cualquier zona de sombra bajo los árboles.",
+            "isCorrect": false,
+            "explanation": "La definición es técnica y se refiere a la zona destinada a la acampada reglada."
+          },
+          {
+            "id": 3,
+            "answer": "La plaza de aparcamiento a la entrada del recinto.",
+            "isCorrect": false,
+            "explanation": "Es el lugar destinado a la instalación (vivienda temporal), no solo al aparcamiento."
+          },
+          {
+            "id": 4,
+            "answer": "Una zona común para el montaje de barbacoas.",
+            "isCorrect": false,
+            "explanation": "Se refiere específicamente a la ubicación del vehículo de ocio o tienda."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-52",
+        "question": "¿Qué se entiende por 'Habitación de parque residencial'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una habitación de hotel situada dentro del camping.",
+            "isCorrect": false,
+            "explanation": "No coincide con la definición técnica del REBT."
+          },
+          {
+            "id": 2,
+            "answer": "Habitación desplazable diseñada en fábrica.",
+            "isCorrect": true,
+            "explanation": "Son unidades habitacionales modulares y transportables que se instalan en parques. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Un bungalow de ladrillo y cemento.",
+            "isCorrect": false,
+            "explanation": "La definición implica que sea desplazable y fabricada fuera de su ubicación final."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier habitación con instalación eléctrica de 12 V.",
+            "isCorrect": false,
+            "explanation": "La definición no depende de la tensión, sino de su construcción modular y movilidad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-53",
+        "question": "¿Cuál es la tensión máxima de alimentación en trifásico para un parque de caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Esa es la tensión máxima para suministros monofásicos."
+          },
+          {
+            "id": 2,
+            "answer": "400 V.",
+            "isCorrect": true,
+            "explanation": "Es el límite superior para la tensión nominal de alimentación trifásica en el parque. Fuente: ITC-BT-41, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "1000 V.",
+            "isCorrect": false,
+            "explanation": "Límite de BT, pero no el valor nominal específico para estas instalaciones de consumo."
+          },
+          {
+            "id": 4,
+            "answer": "690 V.",
+            "isCorrect": false,
+            "explanation": "Tensión industrial no común en parques de caravanas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-54",
+        "question": "¿Qué grado de protección contra impactos (AG) se requiere para los cables en canalizaciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "AG1.",
+            "isCorrect": false,
+            "explanation": "Protección insuficiente para cables expuestos a tráfico de vehículos."
+          },
+          {
+            "id": 2,
+            "answer": "AG2.",
+            "isCorrect": true,
+            "explanation": "Garantiza una resistencia mecánica media adecuada para el entorno. Fuente: ITC-BT-41, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "AG4.",
+            "isCorrect": false,
+            "explanation": "Impactos muy fuertes, no es el mínimo exigido."
+          },
+          {
+            "id": 4,
+            "answer": "IK10.",
+            "isCorrect": false,
+            "explanation": "Es una nomenclatura diferente y un nivel muy alto de protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-55",
+        "question": "¿Qué altura deben respetar las líneas aéreas en zonas que NO son de paso de vehículos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "6 metros.",
+            "isCorrect": false,
+            "explanation": "Esta es la altura para zonas con tráfico."
+          },
+          {
+            "id": 2,
+            "answer": "3,5 metros.",
+            "isCorrect": true,
+            "explanation": "Es la altura de seguridad suficiente para zonas exclusivamente peatonales. Fuente: ITC-BT-41, Apartado 5.2.1.2."
+          },
+          {
+            "id": 3,
+            "answer": "2 metros.",
+            "isCorrect": false,
+            "explanation": "Peligrosamente baja, permitiendo el contacto con objetos portados por personas."
+          },
+          {
+            "id": 4,
+            "answer": "4,5 metros.",
+            "isCorrect": false,
+            "explanation": "No es un valor estándar especificado en la instrucción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-56",
+        "question": "¿Qué sensibilidad máxima debe tener el diferencial (DDR) de las tomas de corriente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "300 mA.",
+            "isCorrect": false,
+            "explanation": "No protege eficazmente contra choques eléctricos letales para las personas."
+          },
+          {
+            "id": 2,
+            "answer": "30 mA.",
+            "isCorrect": true,
+            "explanation": "Es la sensibilidad de 'alta sensibilidad' requerida para la protección de personas en estas instalaciones. Fuente: ITC-BT-41, Apartado 6.1."
+          },
+          {
+            "id": 3,
+            "answer": "100 mA.",
+            "isCorrect": false,
+            "explanation": "Sensibilidad media insuficiente para la seguridad exigida."
+          },
+          {
+            "id": 4,
+            "answer": "500 mA.",
+            "isCorrect": false,
+            "explanation": "Solo se usa para protección de incendios o en cascada, nunca para tomas finales de este tipo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-57",
+        "question": "¿Qué característica deben tener los dispositivos de protección contra sobreintensidades respecto al neutro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No deben actuar sobre el neutro.",
+            "isCorrect": false,
+            "explanation": "Es peligroso, ya que el neutro podría quedar con tensión."
+          },
+          {
+            "id": 2,
+            "answer": "Deben desconectar todos los conductores en tensión, incluido el neutro.",
+            "isCorrect": true,
+            "explanation": "Asegura la desconexión total y segura del circuito terminal. Fuente: ITC-BT-41, Apartado 6.2."
+          },
+          {
+            "id": 3,
+            "answer": "El neutro solo se corta si la instalación es trifásica.",
+            "isCorrect": false,
+            "explanation": "En monofásico también es obligatorio el corte del neutro en estas instalaciones."
+          },
+          {
+            "id": 4,
+            "answer": "Solo deben cortar el neutro si detectan corriente en él.",
+            "isCorrect": false,
+            "explanation": "La desconexión debe ser simultánea para todos los polos activos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-58",
+        "question": "¿Cuál es la tensión asignada habitual de las tomas monofásicas suministradas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "125 V.",
+            "isCorrect": false,
+            "explanation": "Tensión antigua ya no estándar en España."
+          },
+          {
+            "id": 2,
+            "answer": "200 V a 250 V.",
+            "isCorrect": true,
+            "explanation": "Rango estándar que cubre el suministro habitual de 230 V. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "380 V a 415 V.",
+            "isCorrect": false,
+            "explanation": "Corresponde a tomas trifásicas."
+          },
+          {
+            "id": 4,
+            "answer": "48 V.",
+            "isCorrect": false,
+            "explanation": "Tensión de seguridad para otros usos específicos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-59",
+        "question": "¿Qué se debe prever para evitar peligros debidos a largas conexiones de las caravanas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Usar cables de 10 mm² de sección.",
+            "isCorrect": false,
+            "explanation": "La sección no soluciona el peligro de tropiezos o daños mecánicos en cables largos."
+          },
+          {
+            "id": 2,
+            "answer": "Instalar las tomas tan cerca como sea posible del emplazamiento y limitar su reagrupamiento a máximo 4.",
+            "isCorrect": true,
+            "explanation": "Esta disposición física minimiza la longitud de los cables volantes. Fuente: ITC-BT-41, Apartado 6.3."
+          },
+          {
+            "id": 3,
+            "answer": "Obligar al uso de enrollacables automáticos.",
+            "isCorrect": false,
+            "explanation": "No es un requisito normativo para el diseño del parque."
+          },
+          {
+            "id": 4,
+            "answer": "Prohibir el uso de electricidad en parcelas lejanas.",
+            "isCorrect": false,
+            "explanation": "La solución es técnica (distribución de tomas), no restrictiva del servicio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-41-60",
+        "question": "En el contexto de la ITC-BT-41, ¿qué norma rige las prescripciones particulares de estas instalaciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 20460-5-523.",
+            "isCorrect": false,
+            "explanation": "Se refiere a intensidades admisibles, no es la norma específica de caravanas."
+          },
+          {
+            "id": 2,
+            "answer": "UNE-HD 60.364-7-708.",
+            "isCorrect": true,
+            "explanation": "Es la norma de referencia actualizada citada por la ITC-BT-41 para este tipo de instalaciones. Fuente: ITC-BT-41, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "UNE-EN 61439.",
+            "isCorrect": false,
+            "explanation": "Se refiere a cuadros eléctricos, pero no es la norma específica de la instrucción."
+          },
+          {
+            "id": 4,
+            "answer": "REEE 2002.",
+            "isCorrect": false,
+            "explanation": "Es el reglamento general, no la norma particular de referencia citada en el apartado."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

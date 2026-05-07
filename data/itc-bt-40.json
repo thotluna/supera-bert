@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "quiz-itc-bt-40",
+    "itc": "ITC-BT-40",
+    "questions": [
+      {
+        "id": "ITC-BT-40-01",
+        "question": "¿Cómo se define una instalación generadora asistida según la ITC-BT-40?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aquella que funciona siempre en paralelo con la red de distribución pública.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las instalaciones que funcionan permanentemente en paralelo se denominan 'interconectadas'."
+          },
+          {
+            "id": 2,
+            "answer": "Aquella que puede conectarse a la red pero cuenta con dispositivos de conmutación que impiden el funcionamiento en paralelo.",
+            "isCorrect": true,
+            "explanation": "Correcto. Las instalaciones asistidas son aquellas que, pudiendo conectarse a la red, disponen de sistemas de conmutación que aseguran que nunca funcionen en paralelo con la red de distribución pública."
+          },
+          {
+            "id": 3,
+            "answer": "Aquella que no tiene posibilidad física de conexión con la red.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Ese tipo de instalación se define como 'aislada'."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier instalación con paneles solares.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La definición depende del modo de conexión a la red, no de la tecnología de generación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-02",
+        "question": "En instalaciones interconectadas, ¿en qué rango de tensión debe permanecer el sistema para no desconectarse automáticamente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Entre el 90% y el 110% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El límite inferior de funcionamiento según la ITC-BT-40 es más amplio (85%)."
+          },
+          {
+            "id": 2,
+            "answer": "Entre el 85% y el 110% de la tensión nominal.",
+            "isCorrect": true,
+            "explanation": "Correcto. La ITC-BT-40 establece que la protección de interconexión debe actuar si la tensión cae por debajo del 85% o sube por encima del 110% de la nominal."
+          },
+          {
+            "id": 3,
+            "answer": "Entre el 80% y el 120% de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este rango es demasiado amplio y podría comprometer la estabilidad de la red de distribución."
+          },
+          {
+            "id": 4,
+            "answer": "Debe mantenerse exactamente en la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las redes eléctricas tienen variaciones naturales que los generadores deben tolerar dentro de ciertos márgenes."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-03",
+        "question": "¿Cuál es el rango de frecuencia permitido para el funcionamiento en paralelo con la red?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "47 Hz a 52 Hz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El rango establecido por la ITC-BT-40 es más estricto para evitar problemas de sincronismo."
+          },
+          {
+            "id": 2,
+            "answer": "48 Hz a 51 Hz.",
+            "isCorrect": true,
+            "explanation": "Correcto. El sistema de protección de interconexión debe desconectar el generador si la frecuencia sale del rango comprendido entre 48 Hz y 51 Hz."
+          },
+          {
+            "id": 3,
+            "answer": "49 Hz a 50 Hz.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Este margen es excesivamente estrecho y provocaría desconexiones constantes ante pequeñas fluctuaciones de red."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier frecuencia es válida si el inversor es bueno.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El inversor debe sincronizarse con la frecuencia de red y desconectarse si esta se vuelve inestable."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-04",
+        "question": "En caso de pérdida de tensión en la red de distribución pública, ¿en cuánto tiempo debe desconectarse automáticamente el generador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En menos de 5 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 5 segundos es el límite para maniobras de conmutación, pero para pérdida de red se requiere rapidez inmediata."
+          },
+          {
+            "id": 2,
+            "answer": "En menos de 1 segundo.",
+            "isCorrect": true,
+            "explanation": "Correcto. La protección de interconexión debe asegurar la desconexión automática del generador en un tiempo no superior a 1 segundo tras la pérdida de tensión en la red (protección anti-isla)."
+          },
+          {
+            "id": 3,
+            "answer": "En menos de 0,1 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Aunque la rapidez es buena, la norma establece el límite legal en 1 segundo."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario desconectarse si hay baterías.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Si hay baterías, el sistema debe pasar a modo aislado para no alimentar la red pública y poner en peligro a los operarios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-05",
+        "question": "¿A partir de qué potencia nominal requiere una instalación generadora la presentación de un proyecto técnico según la ITC-BT-04?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Superior a 5 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 5 kW es el límite para otros tipos de locales, pero para generadoras el límite es mayor."
+          },
+          {
+            "id": 2,
+            "answer": "Superior a 10 kW.",
+            "isCorrect": true,
+            "explanation": "Correcto. De acuerdo con la ITC-BT-04, las instalaciones generadoras de baja tensión requieren proyecto técnico si su potencia nominal es superior a 10 kW."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier potencia requiere proyecto.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Por debajo de 10 kW suele bastar con una Memoria Técnica de Diseño (MTD)."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si es superior a 100 kW.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El límite de 10 kW es para asegurar que las instalaciones generadoras (que inyectan energía) tengan un diseño supervisado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-06",
+        "question": "¿Cuál es el tiempo máximo permitido para el funcionamiento en paralelo durante una maniobra de transferencia de carga en instalaciones asistidas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. El reglamento permite un margen un poco mayor para asegurar la sincronización suave."
+          },
+          {
+            "id": 2,
+            "answer": "5 segundos.",
+            "isCorrect": true,
+            "explanation": "Correcto. En instalaciones asistidas que realicen transferencia de carga sin interrupción, el tiempo de funcionamiento en paralelo no debe exceder los 5 segundos."
+          },
+          {
+            "id": 3,
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. 10 segundos se considera excesivo para una maniobra de conmutación temporal."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite de tiempo.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Sin un límite de tiempo, la instalación podría considerarse interconectada permanente sin cumplir sus requisitos específicos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-07",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-08",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-09",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-10",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-11",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-12",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-13",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-14",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-15",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-16",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-17",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-18",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-19",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-20",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-21",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-22",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-23",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-24",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-25",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-26",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-27",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-28",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-29",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-30",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-31",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-32",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-33",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-34",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-35",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-36",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-37",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-38",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-39",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-40",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-41",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-42",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-43",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-44",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-45",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-46",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-47",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-48",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-49",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-50",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-51",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-52",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-53",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-54",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-55",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-56",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-57",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-58",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-59",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-60",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-61",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-62",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-63",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-64",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-65",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-66",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-67",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-68",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-69",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-70",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-71",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-72",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-73",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-74",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-75",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-76",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-77",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-78",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-79",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-80",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-81",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-82",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-83",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-84",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-85",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-86",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-87",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-88",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-89",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-90",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-91",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-92",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-93",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-94",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-95",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-96",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-97",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-98",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-99",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 2 segundo/s ante pérdida de red.",
+            "isCorrect": false,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-40-100",
+        "question": "Sobre las instalaciones generadoras (ITC-BT-40), ¿cuál de los siguientes requisitos de protección es crítico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cumplir con el tiempo de desconexión de 1 segundo/s ante pérdida de red.",
+            "isCorrect": true,
+            "explanation": "La protección anti-isla es fundamental para evitar que el generador inyecte tensión en una red pública que ha sido desconectada para mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Tener un interruptor de corte omnipolar con apertura de todos los conductores activos.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio disponer de un elemento de corte que asegure la separación física total de la fuente de generación respecto a la red."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar cables de sección inferior a 1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Incorrecto. Las secciones deben dimensionarse según la potencia y caída de tensión, respetando siempre los mínimos reglamentarios."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a tierra.",
+            "isCorrect": false,
+            "explanation": "Incorrecto. La seguridad contra contactos indirectos exige una puesta a tierra adecuada y compatible con el esquema de red."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

@@ -107,9 +107,9 @@
 # Generación de Datos (ITCs)
 
 - [x] Extraer y formatear datos de ITC-BT-10 (100/100 preguntas)
-- [x] Cargar y limpiar contenido de ITC-BT-20 al ITC-BT-39
-- [x] Generar 100 preguntas para ITC-BT-22 al ITC-BT-39 basadas en el PDF
-- [x] Sincronizar manifiesto de datos (38 tópicos registrados)
+- [x] Cargar y limpiar contenido de ITC-BT-20 al ITC-BT-40
+- [x] Generar 100 preguntas para ITC-BT-22 al ITC-BT-40 basadas en el PDF
+- [x] Sincronizar manifiesto de datos (39 tópicos registrados)
 
 # Despliegue y Producción (Vercel Fixes)
 
@@ -125,4 +125,25 @@
 
 - [x] Evitar navegación hacia atrás al Quiz desde Resultados o Estadísticas
   - [x] Usar `RedirectType.replace` al finalizar el quiz
-  - [x] Implementar guardián de navegación en `/stats` y `/quiz/results/[id]` para redirigir a `/` en `popstate`
+- [x] Implementar guardián de navegación en `/stats` y `/quiz/results/[id]` para redirigir a `/` en `popstate`
+
+# Automatización de Datasets (REBT Fuente de Verdad)
+
+- [x] Extraer texto completo del REBT desde PDF local (`/docs/rebt_full.txt`)
+- [x] Generar preguntas para ITC-BT-41 (60 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-42 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-43 (30 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-44 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-45 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-46 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-47 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-48 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-49 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-50 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-51 (25 preguntas validadas por PDF)
+- [x] Generar preguntas para ITC-BT-52 (25 preguntas validadas por PDF)
+- [x] Generar dataset conceptual del Reglamento de Eficiencia Energética (REE) (100 preguntas validadas por PDF)
+- [x] Generar dataset práctico del Anexo 1 de la Guía BT (Grados IP/IK) (25 preguntas validadas por PDF)
+- [x] Generar dataset de alcances de todas las ITCs (REBT-SCOPES) (104 preguntas)
+- [x] Implementar inyección automática del 10% de preguntas generales (REE, Anexo 1, Scopes) en cada quiz
+- [ ] Revisar consistencia global de los datasets generados

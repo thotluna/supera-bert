@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-50",
+    "itc": "ITC-BT-50",
+    "questions": [
+      {
+        "id": "ITC-BT-50-01",
+        "question": "¿Cuál es la norma de referencia para las instalaciones eléctricas en saunas según la ITC-BT-50?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 20.460-7-703.",
+            "isCorrect": true,
+            "explanation": "Es la norma específica que regula los requisitos técnicos para locales con radiadores para saunas. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 2,
+            "answer": "UNE 21.031.",
+            "isCorrect": false,
+            "explanation": "Esta norma trata sobre cables, no sobre locales especiales como saunas."
+          },
+          {
+            "id": 3,
+            "answer": "ITC-BT-27.",
+            "isCorrect": false,
+            "explanation": "Aplica a locales con bañera o ducha, no específicamente a saunas."
+          },
+          {
+            "id": 4,
+            "answer": "Reglamento de Seguridad en Máquinas.",
+            "isCorrect": false,
+            "explanation": "No es la norma de referencia para la instalación eléctrica fija de la sauna."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-02",
+        "question": "¿Qué grado de protección IP mínimo deben tener los materiales eléctricos en una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "Grado básico insuficiente para un entorno con humedad y calor."
+          },
+          {
+            "id": 2,
+            "answer": "IP24.",
+            "isCorrect": true,
+            "explanation": "Protege contra objetos de más de 12,5 mm y contra proyecciones de agua. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "IP44.",
+            "isCorrect": false,
+            "explanation": "Grado superior recomendado pero el mínimo obligatorio es IP24."
+          },
+          {
+            "id": 4,
+            "answer": "IP67.",
+            "isCorrect": false,
+            "explanation": "Grado para inmersión, excesivo para una sauna seca."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-03",
+        "question": "En caso de usar Muy Baja Tensión de Seguridad (MBTS), ¿qué aislamiento mínimo deben soportar los cables si no tienen envolvente IP2X?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100 V durante 10 segundos.",
+            "isCorrect": false,
+            "explanation": "Tensión y tiempo insuficientes para garantizar la seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "500 V durante 1 minuto.",
+            "isCorrect": true,
+            "explanation": "Es el ensayo de rigidez dieléctrica requerido para asegurar la protección contra contactos directos. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "1.000 V permanentemente.",
+            "isCorrect": false,
+            "explanation": "Valor de ensayo fuera de escala para MBTS en saunas."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario ensayo si el cable es de color rojo.",
+            "isCorrect": false,
+            "explanation": "El color no garantiza las propiedades de aislamiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-04",
+        "question": "¿Qué métodos de protección contra contactos directos NO se admiten en saunas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El aislamiento de las partes activas.",
+            "isCorrect": false,
+            "explanation": "El aislamiento es el método básico y sí se admite."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante obstáculos o por fuera de alcance por alejamiento.",
+            "isCorrect": true,
+            "explanation": "Debido al espacio reducido y la movilidad del usuario desnudo, estos métodos no son fiables. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de interruptores diferenciales.",
+            "isCorrect": false,
+            "explanation": "Es una protección complementaria contra contactos indirectos y sí se usa."
+          },
+          {
+            "id": 4,
+            "answer": "Las envolventes con grado IP2X.",
+            "isCorrect": false,
+            "explanation": "Se admiten como método de protección física."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-05",
+        "question": "¿Qué característica deben tener las canalizaciones en una sauna respecto a su revestimiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben tener revestimiento metálico para disipar calor.",
+            "isCorrect": false,
+            "explanation": "El metal podría conducir tensiones peligrosas y calentarse excesivamente por el ambiente."
+          },
+          {
+            "id": 2,
+            "answer": "No deben incluir revestimiento metálico y tener aislamiento Clase II.",
+            "isCorrect": true,
+            "explanation": "Se busca evitar masas metálicas accesibles que puedan dar lugar a contactos indirectos. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de cobre desnudo.",
+            "isCorrect": false,
+            "explanation": "Totalmente prohibido, los conductores deben estar aislados."
+          },
+          {
+            "id": 4,
+            "answer": "Deben ser cables tipo manguera de PVC normal.",
+            "isCorrect": false,
+            "explanation": "El PVC normal no soporta las temperaturas de la sauna (125°C en zonas altas)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-06",
+        "question": "¿Dónde debe situarse la aparamenta que no forma parte del radiador de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debajo del radiador para que esté fría.",
+            "isCorrect": false,
+            "explanation": "Sigue estando dentro del local y sujeta a condiciones extremas."
+          },
+          {
+            "id": 2,
+            "answer": "Fuera del local de la sauna.",
+            "isCorrect": true,
+            "explanation": "Para proteger los mecanismos (interruptores, protecciones) de la temperatura y humedad. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "En el techo, en la zona 4.",
+            "isCorrect": false,
+            "explanation": "La zona 4 es la más caliente (125°C), lo cual dañaría los mecanismos."
+          },
+          {
+            "id": 4,
+            "answer": "Detrás de los bancos de madera.",
+            "isCorrect": false,
+            "explanation": "Acceso difícil y exposición a calor."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-07",
+        "question": "¿Está permitida la instalación de bases de toma de corriente dentro de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si tienen tapa IP44.",
+            "isCorrect": false,
+            "explanation": "El riesgo de contacto y la degradación por calor prohíben su uso."
+          },
+          {
+            "id": 2,
+            "answer": "No se debe instalar ninguna base de toma de corriente.",
+            "isCorrect": true,
+            "explanation": "Prohibición absoluta para evitar el uso de aparatos eléctricos portátiles en el interior. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en la zona 2 (cerca del suelo).",
+            "isCorrect": false,
+            "explanation": "Aunque es la zona más fría, la prohibición es general para todo el local."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, para conectar equipos de música.",
+            "isCorrect": false,
+            "explanation": "Los equipos de música deben estar fuera o ser específicos y estar cableados sin tomas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-08",
+        "question": "¿Qué materiales se admiten en la Zona 1 de una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cualquier luminaria de emergencia.",
+            "isCorrect": false,
+            "explanation": "La Zona 1 es la zona del radiador y solo admite sus propios componentes."
+          },
+          {
+            "id": 2,
+            "answer": "Solamente los materiales pertenecientes a los radiadores para saunas.",
+            "isCorrect": true,
+            "explanation": "Es la zona de máxima temperatura y riesgo térmico directo del aparato. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Tomas de corriente IP65.",
+            "isCorrect": false,
+            "explanation": "Las tomas están prohibidas en toda la sauna."
+          },
+          {
+            "id": 4,
+            "answer": "Interruptores de ventilación.",
+            "isCorrect": false,
+            "explanation": "Deben estar fuera del local o integrados en el radiador."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-09",
+        "question": "¿Qué requisito de resistencia al calor tienen los materiales en la Zona 2 de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben soportar 125 ºC.",
+            "isCorrect": false,
+            "explanation": "Este requisito es para las zonas 3 y 4."
+          },
+          {
+            "id": 2,
+            "answer": "No es necesaria ninguna prescripción especial desde el punto de vista de resistencia al calor.",
+            "isCorrect": true,
+            "explanation": "Al ser la zona más baja (hasta 0,5 m), la temperatura es moderada. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de materiales cerámicos obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "No se exige material específico si no hay requerimiento térmico especial."
+          },
+          {
+            "id": 4,
+            "answer": "Deben soportar 170 ºC.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que no se contempla en la norma."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-10",
+        "question": "¿Qué temperatura deben poder soportar los materiales en la Zona 3 y Zona 4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "70 ºC.",
+            "isCorrect": false,
+            "explanation": "Temperatura que puede alcanzarse fácilmente; se requiere más resistencia."
+          },
+          {
+            "id": 2,
+            "answer": "125 ºC.",
+            "isCorrect": true,
+            "explanation": "Es la temperatura de diseño para equipos en zonas de acumulación de aire caliente (techo). Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "200 ºC.",
+            "isCorrect": false,
+            "explanation": "Temperatura de ignición de maderas; los equipos no necesitan llegar a tanto."
+          },
+          {
+            "id": 4,
+            "answer": "La temperatura ambiente más 20 grados.",
+            "isCorrect": false,
+            "explanation": "La norma fija un valor absoluto de 125 ºC."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-11",
+        "question": "¿Qué equipos se pueden instalar en la Zona 4 de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Altavoces de música convencionales.",
+            "isCorrect": false,
+            "explanation": "Se derretirían por el calor del techo."
+          },
+          {
+            "id": 2,
+            "answer": "Luminarias con protección de sobrecalentamiento y dispositivos de mando del radiador (termostatos).",
+            "isCorrect": true,
+            "explanation": "Son elementos necesarios para el funcionamiento y control de la sauna. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo cables de alimentación, sin equipos.",
+            "isCorrect": false,
+            "explanation": "Se permiten luminarias y mandos específicos."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier equipo con marcado 'CE'.",
+            "isCorrect": false,
+            "explanation": "El marcado CE no garantiza resistencia a 125 ºC."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-12",
+        "question": "¿A qué distancia del techo empieza la Zona 4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A 1 metro.",
+            "isCorrect": false,
+            "explanation": "Distancia excesiva; la zona 4 es solo la franja superior."
+          },
+          {
+            "id": 2,
+            "answer": "A 0,3 metros (30 cm).",
+            "isCorrect": true,
+            "explanation": "Es la profundidad de la zona de máximo calor pegada al techo. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+          },
+          {
+            "id": 3,
+            "answer": "A 0,5 metros.",
+            "isCorrect": false,
+            "explanation": "Esta es la altura de la zona 2 desde el suelo."
+          },
+          {
+            "id": 4,
+            "answer": "Ocupa todo el local si la sauna es pequeña.",
+            "isCorrect": false,
+            "explanation": "Las zonas se definen por dimensiones fijas independientemente del tamaño total."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-13",
+        "question": "¿Cuál es la altura de la Zona 2 desde el suelo de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,2 metros.",
+            "isCorrect": false,
+            "explanation": "Valor muy bajo que no coincide con la norma."
+          },
+          {
+            "id": 2,
+            "answer": "0,5 metros (50 cm).",
+            "isCorrect": true,
+            "explanation": "Cubre la parte inferior del local donde el aire está más frío. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+          },
+          {
+            "id": 3,
+            "answer": "1,0 metro.",
+            "isCorrect": false,
+            "explanation": "A esa altura la temperatura ya empieza a ser considerable."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite de altura en la Zona 2.",
+            "isCorrect": false,
+            "explanation": "El límite es precisamente 0,5 metros."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-14",
+        "question": "¿Qué anchura tiene la Zona 1 alrededor del radiador de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La que indique el fabricante del radiador.",
+            "isCorrect": false,
+            "explanation": "Aunque es importante, el REBT define una zona estándar en su esquema."
+          },
+          {
+            "id": 2,
+            "answer": "0,5 metros alrededor del radiador.",
+            "isCorrect": true,
+            "explanation": "Es el volumen reservado exclusivamente para el equipo de caldeo. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+          },
+          {
+            "id": 3,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Distancia mayor a la fijada por el esquema de zonas de la ITC."
+          },
+          {
+            "id": 4,
+            "answer": "No hay zona de exclusión si el radiador es de infrarrojos.",
+            "isCorrect": false,
+            "explanation": "Aplica a todos los radiadores para saunas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-15",
+        "question": "En la Zona 4, ¿qué característica adicional deben tener las luminarias?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ser de bajo consumo.",
+            "isCorrect": false,
+            "explanation": "Recomendable por ahorro, pero no por seguridad térmica."
+          },
+          {
+            "id": 2,
+            "answer": "Estar instaladas con sistemas de sobrecalentamiento (protección térmica).",
+            "isCorrect": true,
+            "explanation": "Evita que el propio calor de la lámpara sumado al de la sauna cause un incendio. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Tener bombillas de cristal de cuarzo.",
+            "isCorrect": false,
+            "explanation": "Es una característica constructiva, pero el requisito es la protección."
+          },
+          {
+            "id": 4,
+            "answer": "Funcionar a 12 V obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Se permite 230 V si cumplen los requisitos de aislamiento y protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-16",
+        "question": "¿Qué elemento de seguridad es crítico en los radiadores de saunas para evitar el exceso de calor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un fusible de 16 A.",
+            "isCorrect": false,
+            "explanation": "Protege contra sobreintensidad, no contra sobretemperatura ambiente."
+          },
+          {
+            "id": 2,
+            "answer": "Un limitador de temperatura (termostato de seguridad).",
+            "isCorrect": true,
+            "explanation": "Corta la alimentación si se superan los límites de seguridad (normalmente 140°C). Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Un avisador acústico.",
+            "isCorrect": false,
+            "explanation": "Avisa pero no detiene el proceso de calentamiento."
+          },
+          {
+            "id": 4,
+            "answer": "Un reloj de arena.",
+            "isCorrect": false,
+            "explanation": "Es para el usuario, no es un elemento de seguridad eléctrica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-17",
+        "question": "¿Se permite el uso de cables con aislamiento de PVC normal en las zonas 3 y 4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se meten por tubo corrugado.",
+            "isCorrect": false,
+            "explanation": "El PVC se degradaría y fundiría a los 125 ºC requeridos."
+          },
+          {
+            "id": 2,
+            "answer": "No, se deben usar cables con aislamiento resistente al calor (ej. silicona).",
+            "isCorrect": true,
+            "explanation": "Los cables deben soportar la temperatura ambiente de diseño (125 ºC). Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la sauna no se usa más de 1 hora al día.",
+            "isCorrect": false,
+            "explanation": "La instalación debe ser segura para uso continuado."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si son cables de 6 mm² de sección.",
+            "isCorrect": false,
+            "explanation": "La sección no mejora la resistencia térmica del aislamiento."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-18",
+        "question": "¿Cómo se define la Zona 3 en una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Es el volumen por encima de 0,5 m hasta el límite de la zona 4.",
+            "isCorrect": true,
+            "explanation": "Es la zona intermedia de temperatura alta donde los materiales deben aguantar 125 ºC. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+          },
+          {
+            "id": 2,
+            "answer": "Es el pasillo de acceso a la sauna.",
+            "isCorrect": false,
+            "explanation": "Esa zona está fuera del local de la sauna."
+          },
+          {
+            "id": 3,
+            "answer": "Es el espacio debajo de los bancos.",
+            "isCorrect": false,
+            "explanation": "Eso formaría parte de la zona 2 si está por debajo de 0,5 m."
+          },
+          {
+            "id": 4,
+            "answer": "Es la zona de ventilación natural.",
+            "isCorrect": false,
+            "explanation": "Las zonas se definen geométricamente, no por función de aire."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-19",
+        "question": "¿Qué protección se exige si se limpian los locales de sauna con chorros de agua?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cerrar la llave de paso del agua.",
+            "isCorrect": false,
+            "explanation": "No es una medida de protección eléctrica."
+          },
+          {
+            "id": 2,
+            "answer": "Los equipos deben tener un grado de protección mínimo IPX5.",
+            "isCorrect": true,
+            "explanation": "El grado IPX5 garantiza protección contra chorros de agua. Fuente: Reglas generales de grados IP."
+          },
+          {
+            "id": 3,
+            "answer": "Usar solo equipos a 12 V.",
+            "isCorrect": false,
+            "explanation": "Incluso a 12 V se requiere estanqueidad para evitar la corrosión y fallos."
+          },
+          {
+            "id": 4,
+            "answer": "Prohibir la limpieza con agua.",
+            "isCorrect": false,
+            "explanation": "La norma permite la limpieza si los equipos están preparados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-20",
+        "question": "¿Pueden los termostatos de la sauna estar situados en la Zona 4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, se quemarían.",
+            "isCorrect": false,
+            "explanation": "Deben estar diseñados para soportar 125 ºC precisamente porque se ubican ahí."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, se permite su instalación junto con sus canalizaciones.",
+            "isCorrect": true,
+            "explanation": "Es la ubicación lógica para medir la temperatura máxima del aire. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si son inalámbricos.",
+            "isCorrect": false,
+            "explanation": "Se permiten canalizaciones cableadas si soportan la temperatura."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se instalan en saunas públicas.",
+            "isCorrect": false,
+            "explanation": "Aplica a cualquier instalación de sauna."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-21",
+        "question": "¿Qué ocurre si un material eléctrico en la zona 3 no soporta los 125 ºC?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Nada, se puede usar si el local está ventilado.",
+            "isCorrect": false,
+            "explanation": "Incumplimiento grave por riesgo de incendio y fallo de aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Está prohibido su uso en esa zona.",
+            "isCorrect": true,
+            "explanation": "La seguridad térmica es un pilar fundamental de esta instrucción. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Se debe pintar con pintura ignífuga.",
+            "isCorrect": false,
+            "explanation": "La pintura no cambia las propiedades térmicas internas del equipo."
+          },
+          {
+            "id": 4,
+            "answer": "Se permite si se protege con un fusible más pequeño.",
+            "isCorrect": false,
+            "explanation": "El fusible no protege contra el calor ambiental."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-22",
+        "question": "¿Cuál es el propósito del aislamiento Clase II en las canalizaciones de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que pesen menos.",
+            "isCorrect": false,
+            "explanation": "El peso no es relevante para la seguridad eléctrica aquí."
+          },
+          {
+            "id": 2,
+            "answer": "Proporcionar una doble protección contra contactos indirectos sin depender de la puesta a tierra.",
+            "isCorrect": true,
+            "explanation": "Vital en entornos donde el usuario tiene la piel húmeda y poca resistencia eléctrica. Fuente: Principios de seguridad del REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Permitir el uso de cables más finos.",
+            "isCorrect": false,
+            "explanation": "La clase de aislamiento no determina la sección del conductor."
+          },
+          {
+            "id": 4,
+            "answer": "Es solo para que los cables sean de color gris.",
+            "isCorrect": false,
+            "explanation": "La Clase II es un nivel de seguridad, no un color."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-23",
+        "question": "¿Se permite la instalación de interruptores de luz dentro de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si son estancos IP65.",
+            "isCorrect": false,
+            "explanation": "La aparamenta debe estar fuera para evitar manipulaciones en condiciones extremas."
+          },
+          {
+            "id": 2,
+            "answer": "No, la aparamenta debe estar fuera del local.",
+            "isCorrect": true,
+            "explanation": "Evita el riesgo de choque eléctrico y el deterioro del mecanismo por calor. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si son de madera.",
+            "isCorrect": false,
+            "explanation": "La madera no es un material apto para mecanismos eléctricos de maniobra."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero solo en la Zona 2.",
+            "isCorrect": false,
+            "explanation": "La restricción de aparamenta fuera del local es general."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-24",
+        "question": "En la Zona 4, ¿pueden instalarse luminarias que no tengan nada que ver con la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si son bonitas.",
+            "isCorrect": false,
+            "explanation": "Deben cumplir estrictamente los requisitos de la instrucción."
+          },
+          {
+            "id": 2,
+            "answer": "No, solo se admiten luminarias y dispositivos de mando propios del servicio de la sauna.",
+            "isCorrect": true,
+            "explanation": "Se limita el equipamiento al mínimo necesario para reducir riesgos. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si funcionan con pilas.",
+            "isCorrect": false,
+            "explanation": "Las pilas podrían explotar con el calor de la Zona 4 (125 ºC)."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero deben ser de Clase III.",
+            "isCorrect": false,
+            "explanation": "Incluso las de Clase III deben ser para uso en saunas y aguantar la temperatura."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-50-25",
+        "question": "¿Cómo se asegura la protección contra contactos directos en MBTS mediante aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Usando cables de 10 mm².",
+            "isCorrect": false,
+            "explanation": "La sección no es aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Soportando un ensayo de 500 V durante 1 minuto.",
+            "isCorrect": true,
+            "explanation": "Es la prueba reglamentaria para validar la integridad del aislamiento en estas condiciones. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Envolviendo el cable en papel de aluminio.",
+            "isCorrect": false,
+            "explanation": "El aluminio es conductor y aumentaría el riesgo."
+          },
+          {
+            "id": 4,
+            "answer": "No se requiere nada especial si la tensión es de 12 V.",
+            "isCorrect": false,
+            "explanation": "En saunas, las condiciones extremas exigen validar el aislamiento incluso en MBT."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-46",
+    "itc": "ITC-BT-46",
+    "questions": [
+      {
+        "id": "ITC-BT-46-01",
+        "question": "¿Cuál es el campo de aplicación de la ITC-BT-46?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Instalaciones de cables eléctricos y folios radiantes calefactores empotrados en suelos y techos.",
+            "isCorrect": true,
+            "explanation": "La instrucción regula los sistemas de calefacción por resistencia eléctrica integrados en la estructura de la edificación. Fuente: ITC-BT-46, Apartado 1."
+          },
+          {
+            "id": 2,
+            "answer": "Calderas eléctricas de agua para calefacción central.",
+            "isCorrect": false,
+            "explanation": "Eso se regula por la ITC-BT-45 (Aparatos de caldeo)."
+          },
+          {
+            "id": 3,
+            "answer": "Radiadores eléctricos portátiles.",
+            "isCorrect": false,
+            "explanation": "Son aparatos de caldeo individuales regulados por la ITC-BT-45."
+          },
+          {
+            "id": 4,
+            "answer": "Sistemas de aire acondicionado por conductos.",
+            "isCorrect": false,
+            "explanation": "La ITC-BT-46 se centra exclusivamente en elementos radiantes por cable o folio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-02",
+        "question": "¿Dónde está prohibido instalar cables calefactores o folios radiantes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En el suelo de los salones de viviendas.",
+            "isCorrect": false,
+            "explanation": "Es uno de sus usos principales."
+          },
+          {
+            "id": 2,
+            "answer": "En los volúmenes de prohibición (0, 1 y 2) de los cuartos de baño.",
+            "isCorrect": true,
+            "explanation": "Por seguridad ante la presencia de agua y humedad extrema, no pueden instalarse en estas zonas. Fuente: ITC-BT-46, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "En techos de locales comerciales.",
+            "isCorrect": false,
+            "explanation": "La norma permite la instalación en techos."
+          },
+          {
+            "id": 4,
+            "answer": "Debajo de suelos de madera o parqué.",
+            "isCorrect": false,
+            "explanation": "Se pueden instalar siempre que se respeten las temperaturas máximas admisibles."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-03",
+        "question": "¿Cuál es la intensidad máxima permitida por fase y circuito de calefacción?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "16 A.",
+            "isCorrect": false,
+            "explanation": "Es el límite para circuitos de tomas de corriente, pero no el específico para este caso."
+          },
+          {
+            "id": 2,
+            "answer": "25 A.",
+            "isCorrect": true,
+            "explanation": "Cada circuito de calefacción se limitará a un máximo de 25 A por fase. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "40 A.",
+            "isCorrect": false,
+            "explanation": "Supera el límite de diseño de circuitos individuales establecido por la instrucción."
+          },
+          {
+            "id": 4,
+            "answer": "10 A.",
+            "isCorrect": false,
+            "explanation": "Valor demasiado bajo para la potencia requerida habitualmente en calefacción radiante."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-04",
+        "question": "¿Qué sensibilidad de protección diferencial se exige para cada circuito de calefacción radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "300 mA.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para la protección de personas en caso de contacto indirecto con el suelo."
+          },
+          {
+            "id": 2,
+            "answer": "30 mA.",
+            "isCorrect": true,
+            "explanation": "Es obligatoria una protección diferencial de alta sensibilidad para garantizar la seguridad. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "500 mA.",
+            "isCorrect": false,
+            "explanation": "Valor de uso industrial que no ofrece protección frente a contactos indirectos en viviendas."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere diferencial si el cable tiene armadura conectada a tierra.",
+            "isCorrect": false,
+            "explanation": "El diferencial de 30 mA es obligatorio en todos los casos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-05",
+        "question": "¿Qué valor mínimo de aislamiento eléctrico respecto a tierra debe medirse una vez cubierto el cable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1.000 ohmios.",
+            "isCorrect": false,
+            "explanation": "Valor extremadamente bajo que indicaría un fallo grave de aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "250.000 ohmios.",
+            "isCorrect": true,
+            "explanation": "Antes de colocar el pavimento final, se debe verificar que el aislamiento sea al menos de este valor. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "500.000 ohmios.",
+            "isCorrect": false,
+            "explanation": "Es el valor para instalaciones de 230 V, pero la ITC específica marca 250k para este momento del proceso."
+          },
+          {
+            "id": 4,
+            "answer": "1 megaohmio.",
+            "isCorrect": false,
+            "explanation": "Es un valor óptimo, pero el mínimo reglamentario tras el vertido es de 250.000 ohmios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-06",
+        "question": "¿Qué requisito se establece para las 'uniones frías' (conexión del cable calefactor con la alimentación)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben realizarse en obra por el instalador mediante regletas.",
+            "isCorrect": false,
+            "explanation": "Está prohibido debido al riesgo de fallo por dilataciones térmicas."
+          },
+          {
+            "id": 2,
+            "answer": "Deberán venir realizadas de fábrica, no autorizándose su ejecución en obra.",
+            "isCorrect": true,
+            "explanation": "La fiabilidad de la unión debe estar garantizada por el proceso industrial de fabricación. Fuente: ITC-BT-46, Apartado 3.2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Se pueden soldar con estaño y proteger con cinta aislante.",
+            "isCorrect": false,
+            "explanation": "Totalmente prohibido para elementos que van a ser empotrados permanentemente."
+          },
+          {
+            "id": 4,
+            "answer": "Solo pueden ser mecánicas por tornillo.",
+            "isCorrect": false,
+            "explanation": "Deben ser integradas de fábrica, independientemente del método interno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-07",
+        "question": "¿Cuál es el radio de curvatura mínimo para cables calefactores SIN armadura?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "3 veces el diámetro exterior.",
+            "isCorrect": false,
+            "explanation": "Radio demasiado cerrado que podría dañar el conductor o el aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "6 veces el diámetro exterior.",
+            "isCorrect": true,
+            "explanation": "Se debe respetar este radio mínimo para evitar fatiga mecánica en las curvas. Fuente: ITC-BT-46, Apartado 3.4."
+          },
+          {
+            "id": 3,
+            "answer": "10 veces el diámetro exterior.",
+            "isCorrect": false,
+            "explanation": "Este valor aplica a los cables que SÍ tienen armadura metálica."
+          },
+          {
+            "id": 4,
+            "answer": "No hay radio de curvatura si el cable es de silicona.",
+            "isCorrect": false,
+            "explanation": "Todos los cables deben respetar radios de curvatura mínimos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-08",
+        "question": "¿A qué distancia mínima de las paredes exteriores deben situarse los cables calefactores en el suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,1 metros.",
+            "isCorrect": false,
+            "explanation": "Distancia insuficiente por el puente térmico de la pared exterior."
+          },
+          {
+            "id": 2,
+            "answer": "0,2 metros.",
+            "isCorrect": true,
+            "explanation": "Se exige este margen para evitar pérdidas excesivas hacia el exterior del edificio. Fuente: ITC-BT-46, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "0,5 metros.",
+            "isCorrect": false,
+            "explanation": "Es una recomendación para paredes interiores con muebles, no el mínimo para exteriores."
+          },
+          {
+            "id": 4,
+            "answer": "Se pueden pegar a la pared para calentar el cerramiento.",
+            "isCorrect": false,
+            "explanation": "Está prohibido por la ineficiencia térmica y riesgo de daños."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-09",
+        "question": "¿Qué espesor mínimo debe tener la capa de hormigón en la que se empotran los cables calefactores del suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 mm.",
+            "isCorrect": false,
+            "explanation": "Espesor insuficiente para garantizar la inercia térmica y protección del cable."
+          },
+          {
+            "id": 2,
+            "answer": "30 mm.",
+            "isCorrect": true,
+            "explanation": "La segunda capa de hormigón (no aislante) debe tener al menos este espesor. Fuente: ITC-BT-46, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "50 mm.",
+            "isCorrect": false,
+            "explanation": "Valor superior al mínimo, aunque recomendable en algunos proyectos."
+          },
+          {
+            "id": 4,
+            "answer": "20 mm.",
+            "isCorrect": false,
+            "explanation": "La norma exige un mínimo estricto de 30 mm."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-10",
+        "question": "¿Se puede utilizar el elemento calefactor para acelerar el fraguado del hormigón?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, ayuda a que el suelo esté listo antes.",
+            "isCorrect": false,
+            "explanation": "El calor excesivo durante el fraguado debilita la estructura del hormigón."
+          },
+          {
+            "id": 2,
+            "answer": "No, aunque sí se permite utilizarlo para el secado posterior.",
+            "isCorrect": true,
+            "explanation": "El fraguado debe ser natural; una vez finalizado, el cable puede ayudar a eliminar la humedad residual. Fuente: ITC-BT-46, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se pone a media potencia.",
+            "isCorrect": false,
+            "explanation": "La prohibición de uso durante el fraguado es total."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que se riegue el suelo con agua constantemente.",
+            "isCorrect": false,
+            "explanation": "Inútil y peligroso; el proceso químico del fraguado no debe alterarse térmicamente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-11",
+        "question": "¿Qué característica debe tener el 'zócalo aislante' perimetral?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser de material conductor como aluminio.",
+            "isCorrect": false,
+            "explanation": "Provocaría pérdidas térmicas masivas hacia las paredes."
+          },
+          {
+            "id": 2,
+            "answer": "Espesor igual o superior a 1 cm y altura igual a la capa de mortero.",
+            "isCorrect": true,
+            "explanation": "Aísla térmicamente la losa radiante de las paredes y permite dilataciones. Fuente: ITC-BT-46, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "Espesor de 1 mm únicamente.",
+            "isCorrect": false,
+            "explanation": "Valor insuficiente para la función de aislamiento y dilatación requerida."
+          },
+          {
+            "id": 4,
+            "answer": "Solo es obligatorio en plantas bajas.",
+            "isCorrect": false,
+            "explanation": "Es obligatorio en todo el perímetro del local independientemente de la planta."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-12",
+        "question": "¿Cuál es el límite de capacidad térmica para los materiales situados sobre el aislamiento térmico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50 kJ/m² K.",
+            "isCorrect": false,
+            "explanation": "Valor inferior al límite máximo permitido."
+          },
+          {
+            "id": 2,
+            "answer": "120 kJ/m² K.",
+            "isCorrect": true,
+            "explanation": "La masa térmica por encima del aislamiento no debe exceder este valor para mantener la eficiencia del sistema. Fuente: ITC-BT-46, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "200 kJ/m² K.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que dificultaría la respuesta térmica del sistema."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite si el cable es de 30 W/m.",
+            "isCorrect": false,
+            "explanation": "El límite es una propiedad del diseño del sistema de calefacción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-13",
+        "question": "¿De qué material deben ser los distanciadores para la fijación de los cables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Acero galvanizado.",
+            "isCorrect": false,
+            "explanation": "Los metales pueden dañar el aislamiento del cable por presión o corrosión."
+          },
+          {
+            "id": 2,
+            "answer": "Materiales no metálicos resistentes a la corrosión.",
+            "isCorrect": true,
+            "explanation": "Deben ser neutros para no producir daños mecánicos ni químicos al aislamiento. Fuente: ITC-BT-46, Apartado 3.4."
+          },
+          {
+            "id": 3,
+            "answer": "Cobre desnudo.",
+            "isCorrect": false,
+            "explanation": "Totalmente inadecuado para la fijación mecánica de cables calefactores."
+          },
+          {
+            "id": 4,
+            "answer": "Madera tratada.",
+            "isCorrect": false,
+            "explanation": "No es un material estándar ni recomendado por su degradación en el hormigón."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-14",
+        "question": "¿A qué distancia de las paredes interiores se recomienda alejar el cable del suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,2 metros.",
+            "isCorrect": false,
+            "explanation": "Es el mínimo para exteriores, pero para interiores con muebles hay otra recomendación."
+          },
+          {
+            "id": 2,
+            "answer": "0,6 metros.",
+            "isCorrect": true,
+            "explanation": "Se busca evitar que los muebles instalados sobre las paredes dificulten la emisión de calor. Fuente: ITC-BT-46, Apartado 3.3."
+          },
+          {
+            "id": 3,
+            "answer": "1 metro.",
+            "isCorrect": false,
+            "explanation": "Distancia excesiva que reduciría demasiado la superficie calefactada."
+          },
+          {
+            "id": 4,
+            "answer": "No hay recomendación para paredes interiores.",
+            "isCorrect": false,
+            "explanation": "Existe la recomendación de 0,6 metros por motivos de eficiencia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-15",
+        "question": "¿Qué ensayo es obligatorio realizar ANTES de cubrir el elemento calefactor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ensayo de rigidez dieléctrica a 2.500 V.",
+            "isCorrect": false,
+            "explanation": "Ensayo excesivo para una comprobación en obra."
+          },
+          {
+            "id": 2,
+            "answer": "Comprobar la continuidad del circuito.",
+            "isCorrect": true,
+            "explanation": "Es vital asegurar que el cable no tiene cortes antes de proceder al vertido del hormigón. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Medir el consumo en amperios con una pinza.",
+            "isCorrect": false,
+            "explanation": "Solo se puede hacer una vez alimentado a tensión real tras el secado."
+          },
+          {
+            "id": 4,
+            "answer": "Verificar el color del revestimiento.",
+            "isCorrect": false,
+            "explanation": "No tiene ninguna relevancia técnica para la seguridad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-16",
+        "question": "¿Dónde NO debe instalarse el elemento calefactor respecto a otras instalaciones hidráulicas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A menos de 1 metro de los radiadores de agua.",
+            "isCorrect": false,
+            "explanation": "No hay una distancia fija prohibida respecto a radiadores."
+          },
+          {
+            "id": 2,
+            "answer": "Por debajo de ninguna unión de las tuberías de distribución de agua o desagües.",
+            "isCorrect": true,
+            "explanation": "Se previene que una posible fuga de agua en las uniones afecte directamente al sistema eléctrico. Fuente: ITC-BT-46, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "En el mismo plano que las tuberías de gas.",
+            "isCorrect": false,
+            "explanation": "Aunque requiere precaución, la prohibición específica es sobre uniones de agua/desagüe."
+          },
+          {
+            "id": 4,
+            "answer": "Cerca de los sifones de los lavabos.",
+            "isCorrect": false,
+            "explanation": "La prohibición aplica a las uniones ocultas en la estructura."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-17",
+        "question": "¿Qué tipo de dispositivo de mando deben tener los termostatos o controles de calefacción?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Siempre deben ser de corte omnipolar.",
+            "isCorrect": false,
+            "explanation": "Se permite que los dispositivos de control específicos no lo sean."
+          },
+          {
+            "id": 2,
+            "answer": "Los dispositivos de mando y maniobra deben ser de corte omnipolar, pero los de control (termostatos) pueden no serlo.",
+            "isCorrect": true,
+            "explanation": "La desconexión general del circuito debe ser total, pero la regulación fina puede actuar solo sobre la fase. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser exclusivamente manuales mediante manivela.",
+            "isCorrect": false,
+            "explanation": "Los sistemas electrónicos son los más habituales y permitidos."
+          },
+          {
+            "id": 4,
+            "answer": "Solo pueden actuar sobre el conductor neutro.",
+            "isCorrect": false,
+            "explanation": "Está prohibido maniobrar exclusivamente sobre el neutro por seguridad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-18",
+        "question": "¿Qué sección debe tener el conductor de protección de la armadura del cable calefactor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mínimo 1,5 mm² siempre.",
+            "isCorrect": false,
+            "explanation": "La sección debe estar coordinada con la alimentación del aparato."
+          },
+          {
+            "id": 2,
+            "answer": "Igual a la sección del conductor de fase.",
+            "isCorrect": true,
+            "explanation": "Se garantiza que el conductor de tierra pueda soportar la misma corriente que el de fase en caso de defecto. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "La mitad de la sección de fase.",
+            "isCorrect": false,
+            "explanation": "Valor insuficiente según los requisitos específicos de esta instrucción."
+          },
+          {
+            "id": 4,
+            "answer": "Siempre 6 mm² para mayor seguridad.",
+            "isCorrect": false,
+            "explanation": "Valor innecesario si la fase es de menor sección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-19",
+        "question": "¿En qué franja se recomienda reforzar la emisión de calor disminuyendo el paso entre espiras?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En el centro del local para crear confort.",
+            "isCorrect": false,
+            "explanation": "El centro suele ser la zona más cálida por inercia."
+          },
+          {
+            "id": 2,
+            "answer": "En la franja de 0,5 m a 0,6 m más cercana al cerramiento exterior.",
+            "isCorrect": true,
+            "explanation": "Se compensan las mayores pérdidas térmicas que se producen cerca de las fachadas. Fuente: ITC-BT-46, Apartado 3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Bajo la alfombra principal.",
+            "isCorrect": false,
+            "explanation": "Peligroso por la acumulación excesiva de calor (efecto aislamiento)."
+          },
+          {
+            "id": 4,
+            "answer": "Solo en las esquinas orientadas al norte.",
+            "isCorrect": false,
+            "explanation": "La recomendación es general para todo el perímetro exterior."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-20",
+        "question": "Si el cable calefactor tiene armadura, ¿cuál es su radio de curvatura mínimo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "6 veces el diámetro.",
+            "isCorrect": false,
+            "explanation": "Este es el valor para cables SIN armadura."
+          },
+          {
+            "id": 2,
+            "answer": "10 veces el diámetro exterior.",
+            "isCorrect": true,
+            "explanation": "La armadura metálica rigidiza el cable y exige curvas más amplias para no quebrarse. Fuente: ITC-BT-46, Apartado 3.4."
+          },
+          {
+            "id": 3,
+            "answer": "15 veces el diámetro.",
+            "isCorrect": false,
+            "explanation": "Es un radio muy seguro, pero el mínimo reglamentario es 10 veces."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden doblar los cables con armadura.",
+            "isCorrect": false,
+            "explanation": "Se pueden doblar respetando los límites de radio establecidos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-21",
+        "question": "¿Qué se debe instalar en todo el perímetro del local si existe peligro de humedad?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una canaleta de drenaje.",
+            "isCorrect": false,
+            "explanation": "No es una medida eléctrica de la ITC-BT-46."
+          },
+          {
+            "id": 2,
+            "answer": "Una barrera contra la humedad y/o barrera anti-vapor.",
+            "isCorrect": true,
+            "explanation": "Protege el sistema eléctrico y el aislamiento térmico de la degradación por agua. Fuente: ITC-BT-46, Apartado 4.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo un diferencial de 10 mA.",
+            "isCorrect": false,
+            "explanation": "La protección diferencial es obligatoria, pero no sustituye a las barreras físicas contra humedad."
+          },
+          {
+            "id": 4,
+            "answer": "Una bomba de achique automática.",
+            "isCorrect": false,
+            "explanation": "Totalmente ajeno a la normativa de suelos radiantes eléctricos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-22",
+        "question": "¿Cómo debe terminar el tubo o canalización de la unión fría respecto a la conexión del cable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Directamente en el borne de conexión.",
+            "isCorrect": false,
+            "explanation": "Debe haber una separación embebida en hormigón."
+          },
+          {
+            "id": 2,
+            "answer": "Deberá terminar a 0,20 m como mínimo de la conexión.",
+            "isCorrect": true,
+            "explanation": "Se asegura que la unión crítica esté totalmente protegida por la masa de hormigón. Fuente: ITC-BT-46, Apartado 3.2.1."
+          },
+          {
+            "id": 3,
+            "answer": "A 1 metro de distancia por seguridad.",
+            "isCorrect": false,
+            "explanation": "Valor excesivo que dejaría demasiado cable de alimentación sin protección de tubo."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere tubo si el cable es de 300/500 V.",
+            "isCorrect": false,
+            "explanation": "La canalización es necesaria para el tramo de alimentación hasta la unión fría."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-23",
+        "question": "En techos radiantes, ¿qué disposición se recomienda para las espiras del cable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En espiral desde el centro hacia afuera.",
+            "isCorrect": false,
+            "explanation": "No es la recomendación específica de la norma para techos/suelos."
+          },
+          {
+            "id": 2,
+            "answer": "Dispuestas paralelamente a la pared que tenga mayores pérdidas.",
+            "isCorrect": true,
+            "explanation": "Facilita el refuerzo de calor en las zonas más frías del local. Fuente: ITC-BT-46, Apartado 3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Cruzadas en forma de malla de gallinero.",
+            "isCorrect": false,
+            "explanation": "Prohibido por el riesgo de puntos calientes en los cruces de cables."
+          },
+          {
+            "id": 4,
+            "answer": "Verticalmente siguiendo las vigas del techo.",
+            "isCorrect": false,
+            "explanation": "La disposición recomendada es paralela a la fachada más fría."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-24",
+        "question": "¿Qué tensión nominal deben tener los cables y folios radiantes según esta ITC?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "230 V eficaces únicamente.",
+            "isCorrect": false,
+            "explanation": "Es la tensión de servicio, pero la nominal del cable debe ser superior."
+          },
+          {
+            "id": 2,
+            "answer": "300/500 V.",
+            "isCorrect": true,
+            "explanation": "Es el nivel de aislamiento nominal requerido para estos elementos calefactores empotrados. Fuente: ITC-BT-46, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "450/750 V.",
+            "isCorrect": false,
+            "explanation": "Nivel superior permitido, pero el mínimo reglamentario es 300/500 V."
+          },
+          {
+            "id": 4,
+            "answer": "Muy Baja Tensión (12 V).",
+            "isCorrect": false,
+            "explanation": "Existen sistemas de 12 V, pero la ITC-BT-46 se centra en los de tensión de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-46-25",
+        "question": "Respecto a cables de fuerza y alumbrado próximos, ¿cuál es la recomendación de instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben ir por el mismo tubo para ahorrar espacio.",
+            "isCorrect": false,
+            "explanation": "Peligro de sobrecalentamiento de los cables de fuerza por el calefactor."
+          },
+          {
+            "id": 2,
+            "answer": "Instalarse lo más lejos posible para que no reciban calor del elemento calefactor.",
+            "isCorrect": true,
+            "explanation": "El calor emitido por la calefacción degradaría la capacidad de carga de los otros circuitos. Fuente: ITC-BT-46, Apartado 3.5."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se cruzan a 90 grados exactos.",
+            "isCorrect": false,
+            "explanation": "El problema no es la inducción magnética, sino la transferencia de calor térmica."
+          },
+          {
+            "id": 4,
+            "answer": "Deben ser de mayor sección (mínimo 10 mm²).",
+            "isCorrect": false,
+            "explanation": "Podría ser una solución de cálculo, pero la recomendación prioritaria es el alejamiento."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

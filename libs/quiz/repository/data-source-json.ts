@@ -2,6 +2,8 @@ import { Question, ITCTopic, TopicOption } from '../models';
 import { QuestionRepository } from './question-repository';
 import itcManifest from '@/data/itc-manifest.json';
 
+const GENERAL_POOL_IDS = ["ree-general", "itc-bt-anexo-1", "itc-bt-scopes"];
+
 export class JSONDataSource implements QuestionRepository {
   /**
    * Dynamically imports ITC data. 
@@ -20,20 +22,32 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
-    const allData = await this.loadFromImports(itcs);
-    let combinedQuestions: Question[] = Object.values(allData).flat();
+    const totalCount = count || 20; // Default count if not provided
+    const generalCount = Math.floor(totalCount * 0.1);
+    const topicCount = totalCount - generalCount;
 
+    // 1. Load topic-specific questions
+    const topicData = await this.loadFromImports(itcs);
+    let topicQuestions: Question[] = Object.values(topicData).flat();
+    
     if (excludeIds && excludeIds.length > 0) {
-      combinedQuestions = combinedQuestions.filter(q => !excludeIds.includes(q.id));
+      topicQuestions = topicQuestions.filter(q => !excludeIds.includes(q.id));
     }
+    topicQuestions = this.shuffle(topicQuestions).slice(0, topicCount);
 
-    combinedQuestions = this.shuffle(combinedQuestions);
-
-    if (count && count > 0) {
-      combinedQuestions = combinedQuestions.slice(0, count);
+    // 2. Load general pool questions (10%)
+    const generalData = await this.loadGeneralPool();
+    let generalQuestions: Question[] = Object.values(generalData).flat();
+    
+    if (excludeIds && excludeIds.length > 0) {
+      generalQuestions = generalQuestions.filter(q => !excludeIds.includes(q.id));
     }
+    generalQuestions = this.shuffle(generalQuestions).slice(0, generalCount);
 
-    return combinedQuestions;
+    // 3. Combine and shuffle again
+    const finalQuestions = this.shuffle([...topicQuestions, ...generalQuestions]);
+
+    return finalQuestions;
   }
 
   async checkAnswer(questionId: string, answerId: number): Promise<boolean> {
@@ -45,8 +59,12 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getCorrectAnswer(questionIds: string[]): Promise<Question[]> {
-    const allData = await this.loadFromImports();
-    const flattened = Object.values(allData).flat();
+    const topicData = await this.loadFromImports();
+    const generalData = await this.loadGeneralPool();
+    const flattened = [
+      ...Object.values(topicData).flat(),
+      ...Object.values(generalData).flat()
+    ];
 
     return flattened.filter(q => questionIds.includes(q.id));
   }
@@ -93,9 +111,43 @@ export class JSONDataSource implements QuestionRepository {
     return allQuestions;
   }
 
+  private async loadGeneralPool(): Promise<Record<string, Question[]>> {
+    const allQuestions: Record<string, Question[]> = {};
+
+    for (const itc of GENERAL_POOL_IDS) {
+      try {
+        const json = await this.importITCData(itc);
+        if (!json) continue;
+        
+        let questions: Question[] = [];
+
+        if (json && typeof json === 'object') {
+          if (Array.isArray(json)) {
+            if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
+              questions = (json[0] as { questions: Question[] }).questions;
+            } else {
+              questions = json as Question[];
+            }
+          }
+        }
+
+        allQuestions[itc] = questions.map(q => ({ ...q, itc: itc as ITCTopic }));
+      } catch (error) {
+        console.error(`Error processing general pool data for ${itc}:`, error);
+      }
+    }
+
+    return allQuestions;
+  }
+
   private async findFullQuestionById(id: string): Promise<Question | undefined> {
-    const allData = await this.loadFromImports();
-    return Object.values(allData).flat().find(q => q.id === id);
+    const topicData = await this.loadFromImports();
+    const generalData = await this.loadGeneralPool();
+    const allQuestions = [
+      ...Object.values(topicData).flat(),
+      ...Object.values(generalData).flat()
+    ];
+    return allQuestions.find(q => q.id === id);
   }
 
   private shuffle<T>(array: T[]): T[] {

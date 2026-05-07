@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-bt-anexo-1",
+    "itc": "GUIA-BT-ANEXO-1",
+    "questions": [
+      {
+        "id": "BT-ANEXO-1-001",
+        "question": "¿Qué significan las siglas 'IP' en el código de protección de una envolvente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Internal Protection (Protección Interna).",
+            "isCorrect": false,
+            "explanation": "No es el término correcto."
+          },
+          {
+            "id": 2,
+            "answer": "Ingress Protection (Grado de Protección).",
+            "isCorrect": true,
+            "explanation": "El código IP clasifica el nivel de protección proporcionado contra la intrusión de objetos sólidos, polvo y agua."
+          },
+          {
+            "id": 3,
+            "answer": "Installation Priority (Prioridad de Instalación).",
+            "isCorrect": false,
+            "explanation": "Término inventado."
+          },
+          {
+            "id": 4,
+            "answer": "Insulated Panel (Panel Aislado).",
+            "isCorrect": false,
+            "explanation": "No tiene relación con el código IP."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-002",
+        "question": "¿A qué se refiere la primera cifra característica en un código IP (ej. IP54)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra la penetración de agua.",
+            "isCorrect": false,
+            "explanation": "Esa es la segunda cifra."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra el acceso a partes peligrosas y contra la penetración de cuerpos sólidos extraños.",
+            "isCorrect": true,
+            "explanation": "La primera cifra indica la protección contra objetos sólidos y el acceso de personas a partes activas."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra impactos mecánicos externos.",
+            "isCorrect": false,
+            "explanation": "Eso se mide con el código IK."
+          },
+          {
+            "id": 4,
+            "answer": "La temperatura máxima de funcionamiento.",
+            "isCorrect": false,
+            "explanation": "No forma parte del código IP."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-003",
+        "question": "En el código IP45, ¿qué nivel de protección contra sólidos ofrece la cifra '4'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra cuerpos sólidos con un diámetro superior a 50 mm.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 1."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra cuerpos sólidos con un diámetro superior a 1 mm.",
+            "isCorrect": true,
+            "explanation": "La cifra 4 indica protección contra objetos de más de 1 mm, como la mayoría de los alambres o herramientas pequeñas."
+          },
+          {
+            "id": 3,
+            "answer": "Protección total contra la entrada de polvo.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 6."
+          },
+          {
+            "id": 4,
+            "answer": "Sin protección particular.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 0."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-004",
+        "question": "En el código IP45, ¿qué protección contra líquidos ofrece la cifra '5'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra la caída vertical de gotas de agua.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 1."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra proyecciones de agua en todas direcciones.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 4."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra los chorros de agua en todas las direcciones.",
+            "isCorrect": true,
+            "explanation": "La cifra 5 indica que el agua proyectada con boquilla desde cualquier dirección no debe tener efectos perjudiciales."
+          },
+          {
+            "id": 4,
+            "answer": "Protección contra la inmersión prolongada.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 8."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-005",
+        "question": "Si una envolvente tiene un código IP2X, ¿qué significa la 'X'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que tiene protección máxima contra el agua.",
+            "isCorrect": false,
+            "explanation": "La X no indica protección máxima."
+          },
+          {
+            "id": 2,
+            "answer": "Que la envolvente es apta para atmósferas explosivas.",
+            "isCorrect": false,
+            "explanation": "Eso sería la certificación ATEX."
+          },
+          {
+            "id": 3,
+            "answer": "Que no ha sido ensayada o no es necesaria la clasificación para ese aspecto (en este caso, el agua).",
+            "isCorrect": true,
+            "explanation": "La X sustituye a una cifra característica cuando no se requiere especificar ese nivel de protección."
+          },
+          {
+            "id": 4,
+            "answer": "Que la envolvente es transparente.",
+            "isCorrect": false,
+            "explanation": "No tiene ninguna relación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-006",
+        "question": "¿Qué grado IP indica que un equipo es totalmente estanco al polvo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IP5X",
+            "isCorrect": false,
+            "explanation": "El 5 indica protección contra polvo, pero permite cierta entrada que no perjudique el funcionamiento."
+          },
+          {
+            "id": 2,
+            "answer": "IP6X",
+            "isCorrect": true,
+            "explanation": "La cifra 6 es el nivel máximo de protección contra sólidos, indicando que es totalmente estanco al polvo."
+          },
+          {
+            "id": 3,
+            "answer": "IP4X",
+            "isCorrect": false,
+            "explanation": "El 4 solo protege contra objetos de más de 1 mm."
+          },
+          {
+            "id": 4,
+            "answer": "IPX8",
+            "isCorrect": false,
+            "explanation": "El 8 se refiere a la inmersión en agua, no al polvo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-007",
+        "question": "¿Qué protección ofrece la segunda cifra característica '7'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra inmersión temporal en agua.",
+            "isCorrect": true,
+            "explanation": "La cifra 7 indica que no debe entrar agua en cantidades perjudiciales al sumergir la envolvente en condiciones determinadas de presión y tiempo."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra fuertes chorros de agua.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 6."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra la lluvia ácida.",
+            "isCorrect": false,
+            "explanation": "El código IP no cubre la composición química del agua."
+          },
+          {
+            "id": 4,
+            "answer": "Protección contra la humedad ambiental.",
+            "isCorrect": false,
+            "explanation": "Se refiere a agua líquida, no a vapor o humedad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-008",
+        "question": "¿Qué significa la letra adicional 'B' colocada después de las cifras IP (ej. IP20B)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra el acceso con herramientas.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la letra C."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra el acceso con los dedos.",
+            "isCorrect": true,
+            "explanation": "La letra B indica que la envolvente impide el acceso a partes peligrosas con un dedo de 12 mm de diámetro y 80 mm de largo."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra el acceso con el dorso de la mano.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la letra A."
+          },
+          {
+            "id": 4,
+            "answer": "Protección contra el acceso con un alambre.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la letra D."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-009",
+        "question": "¿Para qué sirve el Código IK?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para indicar la protección contra la radiación ultravioleta.",
+            "isCorrect": false,
+            "explanation": "No es la función del código IK."
+          },
+          {
+            "id": 2,
+            "answer": "Para indicar el grado de protección contra impactos mecánicos externos nocivos.",
+            "isCorrect": true,
+            "explanation": "El código IK clasifica la resistencia de la envolvente ante golpes o impactos físicos."
+          },
+          {
+            "id": 3,
+            "answer": "Para medir la conductividad de la envolvente.",
+            "isCorrect": false,
+            "explanation": "No tiene relación."
+          },
+          {
+            "id": 4,
+            "answer": "Para clasificar el peso total del equipo.",
+            "isCorrect": false,
+            "explanation": "El código IK no indica el peso del equipo, sino la energía de impacto que soporta."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-010",
+        "question": "¿Cuál es la energía de impacto asociada a un grado de protección IK07?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,5 Julios.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a IK04."
+          },
+          {
+            "id": 2,
+            "answer": "2 Julios.",
+            "isCorrect": true,
+            "explanation": "El grado IK07 equivale a un impacto de 2 Julios (por ejemplo, una masa de 500g cayendo desde 400mm)."
+          },
+          {
+            "id": 3,
+            "answer": "5 Julios.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a IK08."
+          },
+          {
+            "id": 4,
+            "answer": "20 Julios.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a IK10."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-011",
+        "question": "Si una envolvente debe soportar un impacto de una masa de 5 kg cayendo desde 400 mm (20 Julios), ¿qué grado IK debe tener?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IK08",
+            "isCorrect": false,
+            "explanation": "IK08 son 5 Julios."
+          },
+          {
+            "id": 2,
+            "answer": "IK09",
+            "isCorrect": false,
+            "explanation": "IK09 son 10 Julios."
+          },
+          {
+            "id": 3,
+            "answer": "IK10",
+            "isCorrect": true,
+            "explanation": "IK10 es el nivel máximo (normalmente) y equivale a 20 Julios de energía de impacto."
+          },
+          {
+            "id": 4,
+            "answer": "IK05",
+            "isCorrect": false,
+            "explanation": "IK05 son solo 0,7 Julios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-012",
+        "question": "¿Qué símbolo se utiliza normalmente para representar el grado de protección IPX4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una gota de agua sola.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IPX1."
+          },
+          {
+            "id": 2,
+            "answer": "Una gota dentro de un cuadrado.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IPX3."
+          },
+          {
+            "id": 3,
+            "answer": "Una gota dentro de un triángulo.",
+            "isCorrect": true,
+            "explanation": "El símbolo de una gota dentro de un triángulo representa la protección contra proyecciones de agua (IPX4)."
+          },
+          {
+            "id": 4,
+            "answer": "Dos gotas seguidas de un número.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IPX8."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-013",
+        "question": "¿Qué grado de protección se requiere para impedir el acceso a partes peligrosas con una varilla de 2,5 mm de diámetro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Primera cifra IP igual a 2.",
+            "isCorrect": false,
+            "explanation": "El 2 solo protege contra objetos > 12 mm."
+          },
+          {
+            "id": 2,
+            "answer": "Primera cifra IP igual a 3 o letra adicional C.",
+            "isCorrect": true,
+            "explanation": "Tanto la cifra 3 como la letra C garantizan la protección contra objetos o herramientas de más de 2,5 mm."
+          },
+          {
+            "id": 3,
+            "answer": "Segunda cifra IP igual a 3.",
+            "isCorrect": false,
+            "explanation": "La segunda cifra es para agua."
+          },
+          {
+            "id": 4,
+            "answer": "Código IK03.",
+            "isCorrect": false,
+            "explanation": "El código IK es para impactos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-014",
+        "question": "¿Es posible que una envolvente tenga diferentes grados IP según su posición de montaje?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, el grado IP es único e invariable.",
+            "isCorrect": false,
+            "explanation": "Existen envolventes cuyo grado de protección cambia según cómo se instalen."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, y en ese caso el fabricante debe indicarlo en las instrucciones.",
+            "isCorrect": true,
+            "explanation": "Por ejemplo, una luminaria puede ser IP54 si se instala horizontalmente pero IP20 si se instala verticalmente."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si es una envolvente de plástico.",
+            "isCorrect": false,
+            "explanation": "No depende del material."
+          },
+          {
+            "id": 4,
+            "answer": "Solo en instalaciones de alta tensión.",
+            "isCorrect": false,
+            "explanation": "Aplica a cualquier envolvente bajo estas normas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-015",
+        "question": "En el código IP23, ¿cuál es la descripción de la protección contra el agua (cifra 3)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra lluvia fina (pulverizada) hasta 60º de la vertical.",
+            "isCorrect": true,
+            "explanation": "La cifra 3 indica que el agua pulverizada en un ángulo de hasta 60º no debe tener efectos perjudiciales."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra gotas de agua con inclinación de 15º.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 2."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra chorros potentes.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la cifra 6."
+          },
+          {
+            "id": 4,
+            "answer": "Protección contra salpicaduras de barro.",
+            "isCorrect": false,
+            "explanation": "El código IP no contempla el barro específicamente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-016",
+        "question": "¿Qué significa una letra adicional 'D' en un código IP?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra el acceso con una herramienta de 2,5 mm.",
+            "isCorrect": false,
+            "explanation": "Eso es la letra C."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra el acceso con un alambre de 1 mm de diámetro.",
+            "isCorrect": true,
+            "explanation": "La letra D especifica la protección contra el acceso a partes peligrosas con un alambre o cinta de 1 mm de espesor y 100 mm de largo."
+          },
+          {
+            "id": 3,
+            "answer": "Protección contra daños mecánicos.",
+            "isCorrect": false,
+            "explanation": "No es la función de la letra adicional."
+          },
+          {
+            "id": 4,
+            "answer": "Doble aislamiento térmico.",
+            "isCorrect": false,
+            "explanation": "No tiene relación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-017",
+        "question": "El grado de protección IK00 indica:",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección mínima (0,15 Julios).",
+            "isCorrect": false,
+            "explanation": "0,15 Julios es IK01."
+          },
+          {
+            "id": 2,
+            "answer": "Sin protección contra impactos mecánicos.",
+            "isCorrect": true,
+            "explanation": "IK00 significa que el equipo no ha sido ensayado o no ofrece protección contra impactos."
+          },
+          {
+            "id": 3,
+            "answer": "Protección total contra vandalismo.",
+            "isCorrect": false,
+            "explanation": "Eso requeriría IK10 o superior."
+          },
+          {
+            "id": 4,
+            "answer": "Que la envolvente es de cristal.",
+            "isCorrect": false,
+            "explanation": "No tiene relación con el material."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-018",
+        "question": "¿Cuál es la norma de referencia para el Código IP en España?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 20324.",
+            "isCorrect": true,
+            "explanation": "Es la norma nacional equivalente a la internacional CEI 60529 y la europea EN 60529."
+          },
+          {
+            "id": 2,
+            "answer": "UNE-EN 50102.",
+            "isCorrect": false,
+            "explanation": "Esta es la norma para el Código IK."
+          },
+          {
+            "id": 3,
+            "answer": "ISO 9001.",
+            "isCorrect": false,
+            "explanation": "Es una norma de calidad general."
+          },
+          {
+            "id": 4,
+            "answer": "REBT Art. 18.",
+            "isCorrect": false,
+            "explanation": "El REBT cita la norma, pero no es la norma técnica en sí."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-019",
+        "question": "¿A qué se refiere la descripción 'Protegida contra la mar gruesa' en el código IP?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Segunda cifra IP igual a 8.",
+            "isCorrect": false,
+            "explanation": "El 8 es inmersión prolongada."
+          },
+          {
+            "id": 2,
+            "answer": "Segunda cifra IP igual a 6.",
+            "isCorrect": true,
+            "explanation": "La cifra 6 indica protección contra fuertes chorros de agua o mar gruesa (el agua no debe penetrar en cantidades perjudiciales)."
+          },
+          {
+            "id": 3,
+            "answer": "Letra adicional M.",
+            "isCorrect": false,
+            "explanation": "La letra M existe pero se refiere a ensayos con el equipo en movimiento."
+          },
+          {
+            "id": 4,
+            "answer": "Primera cifra IP igual a 6.",
+            "isCorrect": false,
+            "explanation": "La primera cifra es para sólidos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-020",
+        "question": "En un ensayo IK08, ¿desde qué altura debe caer la pieza de golpeo de 1,7 kg?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100 mm.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IK02."
+          },
+          {
+            "id": 2,
+            "answer": "200 mm.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IK06 (con 0,5kg)."
+          },
+          {
+            "id": 3,
+            "answer": "295 mm.",
+            "isCorrect": true,
+            "explanation": "Para IK08 (5 Julios), se utiliza una pieza de 1,7 kg cayendo desde una altura de 295 mm."
+          },
+          {
+            "id": 4,
+            "answer": "400 mm.",
+            "isCorrect": false,
+            "explanation": "Corresponde a IK07 o IK10 dependiendo de la masa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-021",
+        "question": "¿Qué ocurre si una envolvente no impide totalmente la entrada de polvo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No puede tener un grado IP superior a 3.",
+            "isCorrect": false,
+            "explanation": "Puede tener un grado 5."
+          },
+          {
+            "id": 2,
+            "answer": "Puede tener un grado IP5X si el polvo no perjudica el funcionamiento satisfactorio del equipo.",
+            "isCorrect": true,
+            "explanation": "La cifra 5 permite entrada de polvo siempre que no afecte a la seguridad o funcionamiento."
+          },
+          {
+            "id": 3,
+            "answer": "Es obligatoriamente IP0X.",
+            "isCorrect": false,
+            "explanation": "IP0X es sin protección."
+          },
+          {
+            "id": 4,
+            "answer": "Debe ser de color negro.",
+            "isCorrect": false,
+            "explanation": "No tiene relación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-022",
+        "question": "¿Qué indica la primera cifra característica '5' respecto a la protección de personas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección contra el acceso con la mano.",
+            "isCorrect": false,
+            "explanation": "Eso es la cifra 1."
+          },
+          {
+            "id": 2,
+            "answer": "Protección contra el acceso con un alambre.",
+            "isCorrect": true,
+            "explanation": "A partir de la cifra 4 (incluida la 5 y 6), se garantiza la protección contra el acceso a partes peligrosas con un alambre (objeto de 1 mm)."
+          },
+          {
+            "id": 3,
+            "answer": "No ofrece protección a las personas.",
+            "isCorrect": false,
+            "explanation": "Sí la ofrece y es superior a los niveles bajos."
+          },
+          {
+            "id": 4,
+            "answer": "Protección contra impactos.",
+            "isCorrect": false,
+            "explanation": "Eso es el código IK."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-023",
+        "question": "¿Cuál es el peso de la pieza de golpeo para el grado IK06?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "200 g.",
+            "isCorrect": false,
+            "explanation": "Es el peso para IK01 a IK05."
+          },
+          {
+            "id": 2,
+            "answer": "500 g.",
+            "isCorrect": true,
+            "explanation": "Para IK06 e IK07 se utiliza una masa de 0,5 kg."
+          },
+          {
+            "id": 3,
+            "answer": "1,7 kg.",
+            "isCorrect": false,
+            "explanation": "Es el peso para IK08."
+          },
+          {
+            "id": 4,
+            "answer": "5 kg.",
+            "isCorrect": false,
+            "explanation": "Es el peso para IK09 e IK10."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-024",
+        "question": "En el marcado de una envolvente, ¿qué significa el símbolo de 'dos gotas'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "IPX1",
+            "isCorrect": false,
+            "explanation": "IPX1 es una gota."
+          },
+          {
+            "id": 2,
+            "answer": "IPX7",
+            "isCorrect": true,
+            "explanation": "El símbolo de dos gotas representa el grado IPX7 (protección contra inmersión temporal)."
+          },
+          {
+            "id": 3,
+            "answer": "IPX5",
+            "isCorrect": false,
+            "explanation": "IPX5 son dos gotas dentro de triángulos."
+          },
+          {
+            "id": 4,
+            "answer": "Equipo para usar bajo el agua.",
+            "isCorrect": false,
+            "explanation": "Es una descripción imprecisa, el símbolo técnico es para IPX7."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "BT-ANEXO-1-025",
+        "question": "¿Cuál es la principal diferencia entre la primera cifra característica y las letras adicionales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La cifra indica protección contra objetos y la letra protección contra el agua.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 2,
+            "answer": "La cifra indica cómo la envolvente previene la penetración de sólidos, mientras que la letra se centra en la accesibilidad de partes del cuerpo a partes peligrosas.",
+            "isCorrect": true,
+            "explanation": "Las letras adicionales proporcionan una información más precisa sobre la protección de las personas."
+          },
+          {
+            "id": 3,
+            "answer": "La cifra es obligatoria y la letra es solo para equipos industriales.",
+            "isCorrect": false,
+            "explanation": "La letra es opcional pero puede usarse en cualquier equipo."
+          },
+          {
+            "id": 4,
+            "answer": "No hay ninguna diferencia real.",
+            "isCorrect": false,
+            "explanation": "Son sistemas complementarios con matices distintos."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]

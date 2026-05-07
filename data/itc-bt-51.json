@@ -1,0 +1,783 @@
+[
+  {
+    "id": "quiz-itc-bt-51",
+    "itc": "ITC-BT-51",
+    "questions": [
+      {
+        "id": "ITC-BT-51-01",
+        "question": "¿Cuál es el objeto principal de la ITC-BT-51?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Regular las instalaciones de pararrayos.",
+            "isCorrect": false,
+            "explanation": "Los pararrayos se regulan en normas específicas y otras ITCs, no en la 51."
+          },
+          {
+            "id": 2,
+            "answer": "Establecer los requisitos de los sistemas de automatización, gestión técnica de la energía y seguridad (domótica).",
+            "isCorrect": true,
+            "explanation": "Aplica a sistemas que centralizan el control de receptores, energía y seguridad en edificios. Fuente: ITC-BT-51, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Definir las tarifas eléctricas para hogares inteligentes.",
+            "isCorrect": false,
+            "explanation": "El REBT no regula tarifas económicas, sino seguridad técnica."
+          },
+          {
+            "id": 4,
+            "answer": "Obligar al uso de robots de limpieza en todas las viviendas.",
+            "isCorrect": false,
+            "explanation": "Los robots de limpieza son electrodomésticos independientes, no parte de la instalación fija domótica."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-02",
+        "question": "¿Qué sistemas quedan EXCLUIDOS del campo de aplicación de la ITC-BT-51?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Los sistemas de gestión de energía centralizados.",
+            "isCorrect": false,
+            "explanation": "Están incluidos como parte fundamental de la domótica."
+          },
+          {
+            "id": 2,
+            "answer": "Sistemas independientes considerados 'aparatos', como motores de persianas o toldos con sus propios requisitos europeos.",
+            "isCorrect": true,
+            "explanation": "Si son equipos autónomos que no forman parte de una red de automatización compleja, se rigen por directivas de producto. Fuente: ITC-BT-51, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Las alarmas de incendio conectadas a la red general.",
+            "isCorrect": false,
+            "explanation": "Los sistemas de seguridad en edificios están incluidos en esta ITC."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier equipo que funcione a 230 V.",
+            "isCorrect": false,
+            "explanation": "La tensión no determina la exclusión, sino la función y la independencia del sistema."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-03",
+        "question": "¿En qué rango de frecuencias deben inyectar señales los nodos que usan la propia red eléctrica (PLC)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "De 50 Hz a 60 Hz.",
+            "isCorrect": false,
+            "explanation": "Estas son las frecuencias de potencia, no de datos."
+          },
+          {
+            "id": 2,
+            "answer": "De 3 kHz a 148,5 kHz.",
+            "isCorrect": true,
+            "explanation": "Es el rango normalizado para la transmisión de señales de control sobre cables de baja tensión. Fuente: ITC-BT-51, Apartado 5.1."
+          },
+          {
+            "id": 3,
+            "answer": "De 2,4 GHz a 5 GHz.",
+            "isCorrect": false,
+            "explanation": "Estas son frecuencias de radio (Wi-Fi), no de inyección en cable."
+          },
+          {
+            "id": 4,
+            "answer": "Solo a 1 MHz exactamente.",
+            "isCorrect": false,
+            "explanation": "La norma establece una banda ancha de frecuencias kilométricas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-04",
+        "question": "¿Qué requisito de aislamiento deben cumplir los cables de señal si comparten canalización con cables de baja tensión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No pueden compartir canalización bajo ninguna circunstancia.",
+            "isCorrect": false,
+            "explanation": "Se permite si se cumplen requisitos de aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Su nivel de aislamiento debe ser equivalente al de los cables de baja tensión adyacentes.",
+            "isCorrect": true,
+            "explanation": "Garantiza que un fallo en la red de potencia no se transmita peligrosamente a la red de datos por contacto accidental. Fuente: ITC-BT-51, Apartado 5.2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser cables desnudos para mejorar la señal.",
+            "isCorrect": false,
+            "explanation": "Totalmente prohibido por seguridad eléctrica."
+          },
+          {
+            "id": 4,
+            "answer": "Basta con que el cable de datos sea de color azul.",
+            "isCorrect": false,
+            "explanation": "El color no sustituye al nivel de aislamiento dieléctrico."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-05",
+        "question": "¿Qué normativa deben cumplir los emisores de radiofrecuencia en sistemas domóticos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La norma UNE de fontanería.",
+            "isCorrect": false,
+            "explanation": "No tiene relación con equipos de radio."
+          },
+          {
+            "id": 2,
+            "answer": "El Cuadro Nacional de Atribución de Frecuencias (CNAF).",
+            "isCorrect": true,
+            "explanation": "Asegura que los sistemas domóticos no interfieran con otros servicios de telecomunicaciones legales. Fuente: ITC-BT-51, Apartado 5.3."
+          },
+          {
+            "id": 3,
+            "answer": "Solo las normas del fabricante del router.",
+            "isCorrect": false,
+            "explanation": "La legislación nacional prevalece sobre las especificaciones privadas del fabricante."
+          },
+          {
+            "id": 4,
+            "answer": "No hay regulación para radiofrecuencias de baja potencia.",
+            "isCorrect": false,
+            "explanation": "Todos los emisores RF están sujetos al CNAF."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-06",
+        "question": "¿Qué se recomienda instalar en proyectos de obra nueva que no contemplen inicialmente domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un robot de cocina inteligente.",
+            "isCorrect": false,
+            "explanation": "No es parte de la preinstalación eléctrica del edificio."
+          },
+          {
+            "id": 2,
+            "answer": "Una preinstalación domótica básica (canalizaciones y cajas).",
+            "isCorrect": true,
+            "explanation": "Facilita la futura automatización sin necesidad de obras costosas. Fuente: ITC-BT-51, Recomendaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Un servidor de datos en el sótano.",
+            "isCorrect": false,
+            "explanation": "La preinstalación se centra en la infraestructura de paso (tubos)."
+          },
+          {
+            "id": 4,
+            "answer": "No se recomienda nada para ahorrar costes.",
+            "isCorrect": false,
+            "explanation": "El REBT recomienda explícitamente la preinstalación para edificios modernos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-07",
+        "question": "¿Cuántos módulos DIN se recomiendan para la caja de distribución domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "4 módulos.",
+            "isCorrect": false,
+            "explanation": "Espacio insuficiente para cualquier sistema domótico real."
+          },
+          {
+            "id": 2,
+            "answer": "24 módulos DIN por cada 100 m² o por planta.",
+            "isCorrect": true,
+            "explanation": "Asegura espacio suficiente para actuadores, fuentes de alimentación y protecciones adicionales. Fuente: ITC-BT-51, Recomendaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Solo se recomienda si la vivienda es de lujo.",
+            "isCorrect": false,
+            "explanation": "La recomendación es general basada en superficie o plantas."
+          },
+          {
+            "id": 4,
+            "answer": "No se usan módulos DIN en domótica.",
+            "isCorrect": false,
+            "explanation": "La mayoría de componentes profesionales (KNX, etc.) se montan en carril DIN."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-08",
+        "question": "¿Qué porcentaje se recomienda ampliar las cajas de empalme si se comparten con domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un 10 %.",
+            "isCorrect": false,
+            "explanation": "Espacio muy ajustado que dificultaría el mantenimiento."
+          },
+          {
+            "id": 2,
+            "answer": "Al menos un 50 % en superficie.",
+            "isCorrect": true,
+            "explanation": "Permite alojar pastillas de control, sensores o bornes de bus sin apretar el cableado existente. Fuente: ITC-BT-51, Recomendaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Un 200 %.",
+            "isCorrect": false,
+            "explanation": "Sería una caja excesivamente grande, la recomendación es del 50%."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden compartir cajas bajo ninguna condición.",
+            "isCorrect": false,
+            "explanation": "Se permite ampliando el volumen de la caja."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-09",
+        "question": "¿Qué sección equivalente mínima se recomienda para una canalización independiente domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un tubo de 10 mm de diámetro.",
+            "isCorrect": false,
+            "explanation": "Demasiado pequeño para pasar cables con conector o bus."
+          },
+          {
+            "id": 2,
+            "answer": "Un tubo de 20 mm de diámetro.",
+            "isCorrect": true,
+            "explanation": "Es la medida estándar mínima para asegurar el paso de nuevos circuitos de señal. Fuente: ITC-BT-51, Recomendaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Un tubo de 40 mm.",
+            "isCorrect": false,
+            "explanation": "Tubo para servicios generales de edificio, no para distribución interior domótica."
+          },
+          {
+            "id": 4,
+            "answer": "Se recomienda usar canaleta adhesiva.",
+            "isCorrect": false,
+            "explanation": "La recomendación para obra nueva es siempre tubo empotrado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-10",
+        "question": "¿A qué se deben acoplar los nodos que inyectan señales de hasta 148,5 kHz?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A la instalación de calefacción.",
+            "isCorrect": false,
+            "explanation": "No es una red de comunicación eléctrica."
+          },
+          {
+            "id": 2,
+            "answer": "A la instalación eléctrica de baja tensión.",
+            "isCorrect": true,
+            "explanation": "Utilizan los cables de corriente como medio físico de transmisión de datos. Fuente: ITC-BT-51, Apartado 5.1."
+          },
+          {
+            "id": 3,
+            "answer": "A la antena de televisión.",
+            "isCorrect": false,
+            "explanation": "Las señales PLC van por la red de energía, no por la de TV."
+          },
+          {
+            "id": 4,
+            "answer": "A la tubería del gas.",
+            "isCorrect": false,
+            "explanation": "Totalmente prohibido y peligroso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-11",
+        "question": "¿Qué debe incluir obligatoriamente el fabricante de dispositivos domóticos en sus instrucciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El precio de venta al público.",
+            "isCorrect": false,
+            "explanation": "Dato comercial, no técnico."
+          },
+          {
+            "id": 2,
+            "answer": "Condiciones de instalación para garantizar la seguridad y compatibilidad electromagnética (EMC).",
+            "isCorrect": true,
+            "explanation": "Es vital saber qué tipo de cable o aislamiento requiere el equipo para no generar interferencias o riesgos. Fuente: ITC-BT-51, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Una foto en color del ingeniero que lo diseñó.",
+            "isCorrect": false,
+            "explanation": "Información irrelevante para la seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "No es obligatorio incluir instrucciones si el equipo es pequeño.",
+            "isCorrect": false,
+            "explanation": "Todos los nodos y dispositivos deben incluirlas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-12",
+        "question": "En sistemas domóticos alimentados por Muy Baja Tensión, ¿qué ITC se debe seguir adicionalmente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "ITC-BT-36.",
+            "isCorrect": true,
+            "explanation": "Regula las instalaciones a muy baja tensión para asegurar que no haya riesgos de choque o incendio. Fuente: ITC-BT-51, Apartado 4."
+          },
+          {
+            "id": 2,
+            "answer": "ITC-BT-01.",
+            "isCorrect": false,
+            "explanation": "Es la de terminología general."
+          },
+          {
+            "id": 3,
+            "answer": "ITC-BT-29.",
+            "isCorrect": false,
+            "explanation": "Trata sobre locales con riesgo de incendio o explosión."
+          },
+          {
+            "id": 4,
+            "answer": "Norma ISO 9000.",
+            "isCorrect": false,
+            "explanation": "Norma de calidad, no técnica de baja tensión."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-13",
+        "question": "¿Cuál es el propósito de la 'Simulación de Presencia' en un sistema domótico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ahorrar energía.",
+            "isCorrect": false,
+            "explanation": "Al contrario, consume algo de energía al encender luces para fingir que hay gente."
+          },
+          {
+            "id": 2,
+            "answer": "Seguridad contra intrusión.",
+            "isCorrect": true,
+            "explanation": "Disuade a posibles ladrones al simular que la vivienda está habitada mediante el control de luces y persianas. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Entretener a las mascotas.",
+            "isCorrect": false,
+            "explanation": "No es la función reglamentaria o de seguridad prevista."
+          },
+          {
+            "id": 4,
+            "answer": "Evitar que se fundan las bombillas.",
+            "isCorrect": false,
+            "explanation": "No tiene impacto en la vida útil de las lámparas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-14",
+        "question": "¿Qué detectores técnicos se recomiendan en zonas húmedas como cocinas y baños?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Detectores de viento.",
+            "isCorrect": false,
+            "explanation": "Se usan en toldos exteriores."
+          },
+          {
+            "id": 2,
+            "answer": "Detectores de inundación.",
+            "isCorrect": true,
+            "explanation": "Permiten detectar fugas de agua y actuar sobre una electroválvula de corte. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Sensores de CO2.",
+            "isCorrect": false,
+            "explanation": "Son para calidad de aire, no específicamente para fugas de agua."
+          },
+          {
+            "id": 4,
+            "answer": "Cámaras de vigilancia acuática.",
+            "isCorrect": false,
+            "explanation": "No es un sensor técnico de inundación reglamentario."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-15",
+        "question": "¿Qué elemento es necesario instalar junto con una electroválvula de corte de gas o agua?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un candado de acero.",
+            "isCorrect": false,
+            "explanation": "Impediría el uso en emergencia."
+          },
+          {
+            "id": 2,
+            "answer": "Una instalación para 'bypass' manual.",
+            "isCorrect": true,
+            "explanation": "Asegura que el suministro pueda restablecerse manualmente si falla el sistema domótico. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Una batería de coche.",
+            "isCorrect": false,
+            "explanation": "No es el requisito reglamentario de bypass."
+          },
+          {
+            "id": 4,
+            "answer": "Un contador secundario.",
+            "isCorrect": false,
+            "explanation": "Innecesario para la función de seguridad y corte."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-16",
+        "question": "¿Qué norma se aplica a los cables coaxiales usados en domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Serie UNE-EN 61.196.",
+            "isCorrect": true,
+            "explanation": "Regula las características de los cables de radiofrecuencia y coaxiales. Fuente: ITC-BT-51, Apartado 5.2."
+          },
+          {
+            "id": 2,
+            "answer": "UNE 20.460.",
+            "isCorrect": false,
+            "explanation": "Es la de instalaciones eléctricas de edificios en general."
+          },
+          {
+            "id": 3,
+            "answer": "ISO 9001.",
+            "isCorrect": false,
+            "explanation": "Norma de calidad, no de cables físicos."
+          },
+          {
+            "id": 4,
+            "answer": "No hay norma, depende del instalador.",
+            "isCorrect": false,
+            "explanation": "El REBT especifica normas técnicas claras."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-17",
+        "question": "¿Cómo se deben tratar los niveles de emisiones voluntarias de señal en domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben ser lo más potentes posibles para que no fallen.",
+            "isCorrect": false,
+            "explanation": "Interferirían con otros equipos y violarían la EMC."
+          },
+          {
+            "id": 2,
+            "answer": "Deben ser conformes a las normas armonizadas de compatibilidad electromagnética.",
+            "isCorrect": true,
+            "explanation": "Se garantiza que el sistema no 'ensucie' la red eléctrica ni el espectro radioeléctrico. Fuente: ITC-BT-51, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "No están reguladas si no salen de la vivienda.",
+            "isCorrect": false,
+            "explanation": "Todas las señales voluntarias están reguladas para evitar interferencias mutuas."
+          },
+          {
+            "id": 4,
+            "answer": "Solo importa si afectan a la radio FM.",
+            "isCorrect": false,
+            "explanation": "Afectan a cualquier aparato electrónico sensible del entorno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-18",
+        "question": "¿A qué se refiere el término 'Nodo' en un sistema domótico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A un nudo en los cables.",
+            "isCorrect": false,
+            "explanation": "Confusión lingüística; un nodo es un elemento lógico."
+          },
+          {
+            "id": 2,
+            "answer": "A una unidad funcional capaz de comunicarse con otras a través de la red.",
+            "isCorrect": true,
+            "explanation": "Es cualquier dispositivo inteligente del sistema (sensor, actuador, controlador). Fuente: ITC-BT-51, Terminología."
+          },
+          {
+            "id": 3,
+            "answer": "Al interruptor diferencial general.",
+            "isCorrect": false,
+            "explanation": "Es un elemento de protección, no un nodo de comunicación domótica necesariamente."
+          },
+          {
+            "id": 4,
+            "answer": "A la empresa suministradora de electricidad.",
+            "isCorrect": false,
+            "explanation": "Es un ente externo, no un componente del sistema de control interno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-19",
+        "question": "¿Qué función realiza un 'Actuador' domótico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Medir la temperatura.",
+            "isCorrect": false,
+            "explanation": "Esa es la función de un sensor o detector."
+          },
+          {
+            "id": 2,
+            "answer": "Ejecutar una acción física (encender luz, mover motor) tras recibir una orden.",
+            "isCorrect": true,
+            "explanation": "Es el elemento que 'actúa' sobre la carga eléctrica. Fuente: ITC-BT-51, Terminología."
+          },
+          {
+            "id": 3,
+            "answer": "Transmitir señales de radio solamente.",
+            "isCorrect": false,
+            "explanation": "La transmisión es comunicación; el actuador realiza el trabajo final."
+          },
+          {
+            "id": 4,
+            "answer": "Cobrar la factura de la luz.",
+            "isCorrect": false,
+            "explanation": "Dato absurdo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-20",
+        "question": "En la preinstalación recomendada, ¿qué tramo debe cubrir la canalización principal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Desde la calle hasta el tejado.",
+            "isCorrect": false,
+            "explanation": "No es el tramo domótico interno."
+          },
+          {
+            "id": 2,
+            "answer": "Desde el Punto de Acceso de Usuario (PAU) hasta la caja de distribución.",
+            "isCorrect": true,
+            "explanation": "Permite la entrada de servicios externos (Internet, Alarmas) al sistema de control central. Fuente: ITC-BT-51, Recomendaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Solo entre las habitaciones.",
+            "isCorrect": false,
+            "explanation": "Incompleto, falta el enlace con el punto de entrada de telecomunicaciones."
+          },
+          {
+            "id": 4,
+            "answer": "Desde el garaje hasta la cocina.",
+            "isCorrect": false,
+            "explanation": "Tramo específico que no define la preinstalación general."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-21",
+        "question": "¿Qué es un 'Gestor Energético' en el contexto de esta ITC?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una persona contratada para apagar las luces.",
+            "isCorrect": false,
+            "explanation": "Hablamos de sistemas automáticos."
+          },
+          {
+            "id": 2,
+            "answer": "Un dispositivo o sistema que optimiza el consumo de energía según tarifas o presencia.",
+            "isCorrect": true,
+            "explanation": "Permite reducir la factura eléctrica y mejorar la eficiencia del edificio. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Un contador de agua inteligente.",
+            "isCorrect": false,
+            "explanation": "Se centra principalmente en la gestión eléctrica y térmica."
+          },
+          {
+            "id": 4,
+            "answer": "La placa solar del tejado.",
+            "isCorrect": false,
+            "explanation": "Es un generador, el gestor es el cerebro que decide qué hacer con la energía."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-22",
+        "question": "¿Cuál es la norma para los pares trenzados usados en domótica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "UNE 212.002-2.",
+            "isCorrect": true,
+            "explanation": "Establece las características de los cables de pares para telecomunicaciones e informática. Fuente: ITC-BT-51, Apartado 5.2."
+          },
+          {
+            "id": 2,
+            "answer": "UNE-EN 50.065.",
+            "isCorrect": false,
+            "explanation": "Es para señales sobre la red eléctrica, no para cables específicos de pares."
+          },
+          {
+            "id": 3,
+            "answer": "UNE 20.315.",
+            "isCorrect": false,
+            "explanation": "Es para tomas de corriente."
+          },
+          {
+            "id": 4,
+            "answer": "Reglamento de ICT.",
+            "isCorrect": false,
+            "explanation": "Regula la infraestructura común, pero la ITC-BT-51 cita la norma técnica del cable."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-23",
+        "question": "¿Qué debe indicarse expresamente en las instrucciones si un equipo no requiere condiciones especiales de instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que es un producto milagroso.",
+            "isCorrect": false,
+            "explanation": "Dato comercial prohibido."
+          },
+          {
+            "id": 2,
+            "answer": "Esta circunstancia deberá indicarse expresamente en las instrucciones.",
+            "isCorrect": true,
+            "explanation": "El instalador debe estar seguro de que no hay omisiones por olvido del fabricante. Fuente: ITC-BT-51, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "No hace falta indicar nada.",
+            "isCorrect": false,
+            "explanation": "El silencio no es suficiente, se requiere la mención expresa."
+          },
+          {
+            "id": 4,
+            "answer": "Que se puede instalar bajo el agua.",
+            "isCorrect": false,
+            "explanation": "Sería una condición especial de uso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-24",
+        "question": "En el control de iluminación domótico, ¿qué se entiende por 'Escena'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una película proyectada en la pared.",
+            "isCorrect": false,
+            "explanation": "Confusión con cine."
+          },
+          {
+            "id": 2,
+            "answer": "Un estado predefinido de varios puntos de luz con diferentes intensidades.",
+            "isCorrect": true,
+            "explanation": "Ejemplo: Escena 'Cine' baja luces de salón y apaga pasillo con un solo botón. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Cuando una bombilla parpadea antes de fundirse.",
+            "isCorrect": false,
+            "explanation": "Es una avería, no una escena controlada."
+          },
+          {
+            "id": 4,
+            "answer": "La parte metálica de una lámpara.",
+            "isCorrect": false,
+            "explanation": "Componente físico, no funcional."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-51-25",
+        "question": "¿Qué medio de comunicación permite el control de la domótica desde fuera de la vivienda según la ITC?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Gritos desde la ventana.",
+            "isCorrect": false,
+            "explanation": "No es un sistema de gestión técnica."
+          },
+          {
+            "id": 2,
+            "answer": "Interfaz de internet, WAP o equivalente.",
+            "isCorrect": true,
+            "explanation": "Permite la gestión remota y la recepción de alertas en dispositivos móviles. Fuente: ITC-BT-51, Material Complementario."
+          },
+          {
+            "id": 3,
+            "answer": "Solo mediante cable de fibra óptica propio.",
+            "isCorrect": false,
+            "explanation": "Se usan las redes públicas existentes para el acceso remoto."
+          },
+          {
+            "id": 4,
+            "answer": "Mediante señales de humo electrónicas.",
+            "isCorrect": false,
+            "explanation": "Dato absurdo."
+          }
+        ],
+        "type": "simple"
+      }
+    ]
+  }
+]
