@@ -43,7 +43,7 @@ export function QuizTopicsView({
           <label
             key={topic.name}
             className={`
-              relative h-9 flex items-center justify-center rounded-lg border text-[9px] font-bold transition-all duration-300
+              relative h-9 flex items-center justify-center rounded-lg border text-[10px] md:text-[9px] font-bold transition-all duration-300
               ${!topic.available
                 ? 'opacity-20 cursor-not-allowed border-dashed border-foreground/20 bg-transparent'
                 : isSelected && !isAllSelected
