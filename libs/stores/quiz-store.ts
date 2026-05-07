@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import { Question, ResponseQuestion, ConfigQuiz, Option } from '../quiz/models';
 import { saveAndRedirect } from '../quiz/actions/save-and-redirect';
+import { shuffle } from '../quiz/utils/shuffle';
 
 interface QuizState {
   questions: Question[];
@@ -71,8 +72,14 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         // Limpiamos cualquier estado previo antes de iniciar el nuevo
         state.reset();
 
-        const firstQuestion = questions[0];
-        const remainingQuestions = questions.slice(1);
+        const firstQuestion = { 
+          ...questions[0], 
+          options: shuffle(questions[0].options) 
+        };
+        const remainingQuestions = questions.slice(1).map(q => ({
+          ...q,
+          options: shuffle(q.options)
+        }));
         const now = Date.now();
         const duration = (config.time || 0) * 1000;
 
@@ -162,6 +169,8 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             return;
           }
 
+          nextQuestion.options = shuffle(nextQuestion.options);
+
           set({
             questions: nextQuestions,
             currentQuestion: nextQuestion,
@@ -181,6 +190,9 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
         const nextQuestions = [...questions];
         const nextQuestion = nextQuestions.shift() ?? null;
+        if (nextQuestion) {
+          nextQuestion.options = shuffle(nextQuestion.options);
+        }
         const newQuestions = [...nextQuestions, currentQuestion];
 
         set({
