@@ -12,7 +12,9 @@ interface QuizState {
   config: ConfigQuiz | null;
   startTime: number | null;
   expiresAt: number | null;
+  pausedAt: number | null;
   isFeedbacking: boolean;
+  isPaused: boolean;
   disabledNext: boolean;
   score: number;
   isFinished: boolean;
@@ -34,6 +36,7 @@ interface QuizActions {
   skipQuestion: () => void;
   finish: () => void;
   reset: () => void;
+  setPaused: (paused: boolean) => void;
 }
 
 export const useQuizStore = create<QuizState & QuizActions>()(
@@ -46,7 +49,9 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       config: null,
       startTime: null,
       expiresAt: null,
+      pausedAt: null,
       isFeedbacking: false,
+      isPaused: false,
       score: 0,
       isFinished: false,
       disabledNext: true,
@@ -64,13 +69,26 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       initialize: (questions, config) => {
         const state = get();
 
-        // Si hay una sesión activa, verificamos si es válida (no expirada)
+        // Check if config has changed to force re-initialization
+        const configChanged = JSON.stringify(state.config) !== JSON.stringify(config);
         const isZombie = state.expiresAt && state.expiresAt < Date.now();
 
-        if (state.currentQuestion && !state.isFinished && !isZombie) return;
+        if (state.currentQuestion && !state.isFinished && !isZombie && !configChanged) return;
 
-        // Limpiamos cualquier estado previo antes de iniciar el nuevo
-        state.reset();
+        // Reset state before starting new quiz
+        set({
+          questions: [],
+          currentQuestion: null,
+          currentSelection: [],
+          answers: [],
+          config: null,
+          startTime: null,
+          expiresAt: null,
+          isFeedbacking: false,
+          score: 0,
+          isFinished: false,
+          disabledNext: true,
+        });
 
         const firstQuestion = {
           ...questions[0],
@@ -92,8 +110,27 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           answers: [],
           score: 0,
           isFinished: false,
+          isPaused: false,
           disabledNext: true,
         });
+      },
+
+      setPaused: (paused) => {
+        const { isPaused, expiresAt } = get();
+        if (isPaused === paused) return;
+
+        const now = Date.now();
+
+        if (paused) {
+          set({ isPaused: true, pausedAt: now });
+        } else {
+          const pauseDuration = now - (get().pausedAt || now);
+          set({ 
+            isPaused: false, 
+            expiresAt: expiresAt ? expiresAt + pauseDuration : null,
+            pausedAt: null
+          });
+        }
       },
 
       toggleOption: (option) => {
@@ -177,7 +214,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             currentSelection: [],
             isFeedbacking: false,
             startTime: Date.now(),
-            expiresAt: currentExpiresAt ? currentExpiresAt + 900 : null,
+            expiresAt: currentExpiresAt,
             isFinished: false,
             disabledNext: true,
           });

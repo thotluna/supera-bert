@@ -10,4 +10,6 @@
 - [x] Saneamiento integral de la Sección 5 (Habilitación) sobre plazos y efectos de la declaración responsable (Puntos 5.5 y 5.7)
 - [x] Refactorización pedagógica de la identidad y habilitación empresarial (ITC-BT-03-46) bajo el nuevo protocolo docs/question.md
 - [x] Finalización de auditoría ITC-BT-03: Especialidades técnicas (Rótulos - Unidad 6), Obligaciones de registro (Apartado 7) y Libre Prestación UE (Apartado 6).
-
+- [x] Refactorización integral y auditoría pedagógica de ITC-BT-04: Transformación a escenarios situacionales, saneamiento de citas en opciones y validación técnica de umbrales (100 preguntas).
+- [x] Limpieza técnica de último minuto ITC-BT-04: Sincronización final de grupos (a-n) y umbrales de potencia según la fuente de verdad (rebt_full.txt).
+- [x] Auditoría de seguridad de base de datos Supabase: Identificación de vulnerabilidades RLS y propuesta de remediación SQL.

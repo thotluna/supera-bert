@@ -2,6 +2,7 @@ import { AuthService } from "@/libs/auth/services/auth.service";
 import { AuthRepositorySupabase } from "../auth/repository/auth-repository";
 import { QuizService } from "../quiz/services/quiz.service";
 import { StatsService } from "../quiz/services/stats-service";
+import { ReportService } from "../quiz/services/report-service";
 
 export class Factory {
   static getAuthService(): AuthService {
@@ -48,5 +49,13 @@ export class Factory {
 
     const questionRepository = await this.getQuestionRepository();
     return new StatsService(quizzesRepository, answersRepository, questionRepository);
+  }
+
+  static async getReportService(): Promise<ReportService> {
+    const reportDataSource = process.env.REPORT_REPO_PATH || "report-data-source";
+    const repoModule = await import(`../quiz/repository/${reportDataSource}`);
+    const Implementation = repoModule.ReportDataSource;
+    const reportRepository = new Implementation();
+    return new ReportService(reportRepository);
   }
 }
