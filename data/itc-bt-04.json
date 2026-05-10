@@ -8,7 +8,7 @@
         "id": 1,
         "answer": "La determinación de los requisitos mínimos y categorías de los instaladores autorizados.",
         "isCorrect": false,
-        "explanation": "Este aspecto está regulado en el Apartado 4 de la ITC-BT-03 (Empresas instaladoras)."
+        "explanation": "Este aspecto está regulado en los Apartados 2 y 3 de la ITC-BT-03 (Empresas instaladoras)."
       },
       {
         "id": 2,
@@ -82,7 +82,7 @@
         "id": 3,
         "answer": "Solo si la potencia instalada es superior a 50 kW.",
         "isCorrect": false,
-        "explanation": "El límite de 50 kW aplica a garajes con ventilación forzada o edificios de viviendas (Grupo e)."
+        "explanation": "El límite de 50 kW aplica a viviendas unifamiliares (Grupo e) o instalaciones temporales de obra (Grupo d)."
       },
       {
         "id": 4,
@@ -200,19 +200,19 @@
         "id": 2,
         "answer": "Cuando la potencia sea superior a 20 kW.",
         "isCorrect": false,
-        "explanation": "20 kW es el límite para industrias generales, no para el Grupo (c)."
+        "explanation": "20 kW es el límite para industrias generales, no para el Grupo d."
       },
       {
         "id": 3,
         "answer": "Cuando la potencia prevista sea superior a 50 kW.",
         "isCorrect": true,
-        "explanation": "Las instalaciones temporales para alimentación de maquinaria de obras en construcción (Grupo c) requieren Proyecto para P > 50 kW según la ITC-BT-04."
+        "explanation": "Las instalaciones temporales para alimentación de maquinaria de obras en construcción (Grupo d) requieren Proyecto para P > 50 kW según la ITC-BT-04."
       },
       {
         "id": 4,
         "answer": "Solo si el suministro supera los 100 kW por caja general de protección.",
         "isCorrect": false,
-        "explanation": "El límite de 100 kW por CGP es específico para edificios de viviendas o comerciales (Grupo d)."
+        "explanation": "El límite de 100 kW por CGP es específico para edificios de viviendas o comerciales (Grupo f)."
       }
     ]
   },
@@ -231,7 +231,7 @@
         "id": 2,
         "answer": "Un Proyecto firmado por técnico titulado competente y dirección de obra.",
         "isCorrect": true,
-        "explanation": "Las instalaciones temporales en emplazamientos abiertos (Grupo c) requieren Proyecto si la potencia es superior a 50 kW."
+        "explanation": "Las instalaciones temporales en emplazamientos abiertos (Grupo d) requieren Proyecto si la potencia es superior a 50 kW."
       },
       {
         "id": 3,
@@ -262,7 +262,7 @@
         "id": 2,
         "answer": "Que la potencia prevista sea superior a 100 kW por cada Caja General de Protección (CGP).",
         "isCorrect": true,
-        "explanation": "Según el Apartado 3.1 de la ITC-BT-04, los edificios de viviendas (Grupo d) precisan Proyecto cuando P > 100 kW por CGP."
+        "explanation": "Según el Apartado 3.1 de la ITC-BT-04, los edificios de viviendas (Grupo f) precisan Proyecto cuando P > 100 kW por CGP."
       },
       {
         "id": 3,
@@ -293,7 +293,7 @@
         "id": 2,
         "answer": "No, puede legalizarse mediante Memoria Técnica de Diseño al no superar los 100 kW por CGP.",
         "isCorrect": true,
-        "explanation": "Al tratarse de una sola CGP con 90 kW (P <= 100 kW), el Grupo (d) de la ITC-BT-04 permite el uso de MTD."
+        "explanation": "Al tratarse de una sola CGP con 90 kW (P <= 100 kW), el Grupo f de la ITC-BT-04 permite el uso de MTD."
       },
       {
         "id": 3,
@@ -324,7 +324,7 @@
         "id": 2,
         "answer": "Cuando la potencia prevista para el conjunto de la vivienda sea superior a 50 kW.",
         "isCorrect": true,
-        "explanation": "Según la Tabla del Apartado 3.1 de la ITC-BT-04, las viviendas unifamiliares (Grupo f) requieren Proyecto si P > 50 kW."
+        "explanation": "Según la Tabla del Apartado 3.1 de la ITC-BT-04, las viviendas unifamiliares (Grupo e) requieren Proyecto si P > 50 kW."
       },
       {
         "id": 3,
@@ -349,13 +349,13 @@
         "id": 1,
         "answer": "Una Memoria Técnica de Diseño redactada por el instalador.",
         "isCorrect": false,
-        "explanation": "Al superar el límite de 50 kW del Grupo (f), la MTD es insuficiente."
+        "explanation": "Al superar el límite de 50 kW del Grupo e, la MTD es insuficiente."
       },
       {
         "id": 2,
         "answer": "Un Proyecto firmado por técnico titulado competente y dirección de obra.",
         "isCorrect": true,
-        "explanation": "Las viviendas unifamiliares requieren Proyecto cuando la potencia supera los 50 kW según el Apartado 3.1 de la ITC-BT-04."
+        "explanation": "Las viviendas unifamiliares requieren Proyecto cuando la potencia supera los 50 kW según el Apartado 3.1 de la ITC-BT-04 (Grupo e)."
       },
       {
         "id": 3,
@@ -386,7 +386,7 @@
         "id": 2,
         "answer": "Obliga a la realización de un Proyecto, independientemente del número de plazas.",
         "isCorrect": true,
-        "explanation": "Según la ITC-BT-04, los garajes con ventilación forzada (Grupo g) requieren Proyecto siempre, 'cualquiera que sea su ocupación'."
+        "explanation": "Según la ITC-BT-04, los garajes con ventilación forzada (Grupo h) requieren Proyecto siempre, 'cualquiera que sea su ocupación'."
       },
       {
         "id": 3,
@@ -448,7 +448,7 @@
         "id": 2,
         "answer": "Cuando el aparcamiento disponga de más de 5 plazas de estacionamiento.",
         "isCorrect": true,
-        "explanation": "Para garajes con ventilación natural (Grupo h), la ITC-BT-04 exige Proyecto a partir de la sexta plaza (> 5 plazas)."
+        "explanation": "Para garajes con ventilación natural (Grupo i), la ITC-BT-04 exige Proyecto a partir de la sexta plaza (> 5 plazas)."
       },
       {
         "id": 3,
@@ -473,7 +473,7 @@
         "id": 1,
         "answer": "Sí, al ser una instalación de uso común para varios propietarios.",
         "isCorrect": false,
-        "explanation": "El carácter comunitario no obliga a Proyecto si no se superan los límites técnicos del Grupo (g)."
+        "explanation": "El carácter comunitario no obliga a Proyecto si no se superan los límites técnicos del Grupo i."
       },
       {
         "id": 2,
@@ -510,7 +510,7 @@
         "id": 2,
         "answer": "Al ser un local de pública concurrencia, requiere Proyecto obligatoriamente sin límite de potencia.",
         "isCorrect": true,
-        "explanation": "Según la Tabla del Apartado 3.1 de la ITC-BT-04, los locales de pública concurrencia (Grupo i) requieren Proyecto 'Sin límite' de potencia."
+        "explanation": "Según la Tabla del Apartado 3.1 de la ITC-BT-04, los locales de pública concurrencia (Grupo j) requieren Proyecto 'Sin límite' de potencia."
       },
       {
         "id": 3,
@@ -541,7 +541,7 @@
         "id": 2,
         "answer": "No, debe redactarse un Proyecto por técnico titulado al tratarse de un local de pública concurrencia.",
         "isCorrect": true,
-        "explanation": "Cualquier bar (local de pública concurrencia) está incluido en el Grupo (i) de la ITC-BT-04, que exige Proyecto 'Sin límite' de potencia."
+        "explanation": "Cualquier bar (local de pública concurrencia) está incluido en el Grupo j de la ITC-BT-04, que exige Proyecto 'Sin límite' de potencia."
       },
       {
         "id": 3,
