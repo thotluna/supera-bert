@@ -1,7 +1,8 @@
-import { Question, Option } from "@/libs/quiz/models";
+import { Question } from "@/libs/quiz/models";
 import { QuizAnswer } from "@/libs/quiz/domain/quiz";
-import { Check, X, ChevronDown, ChevronUp } from "lucide-react";
+import { Check, X, ChevronDown } from "lucide-react";
 import { JSX } from "react";
+import { ReportButton } from "../../components/report-button";
 
 interface ReviewItemProps {
   question: Question;
@@ -119,6 +120,15 @@ export function ReviewItem({
                 <p className="text-sm text-foreground/70 leading-relaxed italic font-medium">
                   {question.options.find(o => o.isCorrect)?.explanation}
                 </p>
+              </div>
+            )}
+
+            {question.itc && (
+              <div className="flex justify-end pt-4">
+                <ReportButton 
+                  questionId={question.id} 
+                  itcCode={question.itc} 
+                />
               </div>
             )}
           </div>

@@ -24,6 +24,7 @@ export function Header() {
   const finish = useQuizStore(state => state.finish);
   const isFeedbacking = useQuizStore(state => state.isFeedbacking);
   const isFinished = useQuizStore(state => state.isFinished);
+  const isPaused = useQuizStore(state => state.isPaused);
 
   const [timeLeft, setTimeLeft] = useState(0);
 
@@ -31,7 +32,7 @@ export function Header() {
     if (!expiresAt || isFinished) return;
 
     const updateTimer = () => {
-      if (isFeedbacking || isFinished) return; 
+      if (isFeedbacking || isFinished || isPaused) return; 
 
       const now = Date.now();
       const diff = Math.max(0, Math.floor((expiresAt - now) / 1000));
@@ -45,7 +46,7 @@ export function Header() {
     updateTimer();
     const interval = setInterval(updateTimer, 1000);
     return () => clearInterval(interval);
-  }, [expiresAt, finish, isFeedbacking, isFinished]);
+  }, [expiresAt, finish, isFeedbacking, isFinished, isPaused]);
 
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
