@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Meta, StoryObj } from '@storybook/react';
 import { QuizTopicsView } from '../app/components/config/topics-quiz/quiz-topics-view';
 import { ITCTopic, TopicOption } from '@/libs/quiz/models';
 

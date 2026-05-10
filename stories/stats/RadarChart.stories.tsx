@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Meta, StoryObj } from '@storybook/react';
 import { RadarChart } from '../../app/stats/components/radar-chart';
 import { TopicStats } from '@/libs/quiz/domain/stats';
 
