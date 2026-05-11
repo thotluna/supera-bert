@@ -13,3 +13,5 @@
 - [x] Refactorización integral y auditoría pedagógica de ITC-BT-04: Transformación a escenarios situacionales, saneamiento de citas en opciones y validación técnica de umbrales (100 preguntas).
 - [x] Limpieza técnica de último minuto ITC-BT-04: Sincronización final de grupos (a-n) y umbrales de potencia según la fuente de verdad (rebt_full.txt).
 - [x] Auditoría de seguridad de base de datos Supabase: Identificación de vulnerabilidades RLS y propuesta de remediación SQL.
+- [x] Implementación del Sistema de Reporte de Errores: Creación de componente UI, Server Actions y persistencia en Supabase.
+- [x] Resolución de conflictos en Storybook: Downgrade a v8 estable y migración a framework react-vite para compatibilidad con React 19/Next 16.

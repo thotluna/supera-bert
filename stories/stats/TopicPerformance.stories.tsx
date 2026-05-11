@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Meta, StoryObj } from '@storybook/react';
 import { TopicPerformance } from '../../app/stats/components/topic-performance';
 import { TopicStats } from '@/libs/quiz/domain/stats';
 

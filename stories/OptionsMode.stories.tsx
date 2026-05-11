@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Meta, StoryObj } from '@storybook/react';
 import { OptionsMode } from '../app/components/config/mode-quiz/options-mode';
 import { Trophy, Timer, Brain } from 'lucide-react';
 
