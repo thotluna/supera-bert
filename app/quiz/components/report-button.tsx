@@ -17,6 +17,7 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
   const [isPending, setIsPending] = useState(false);
   const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null);
   const setPaused = useQuizStore(state => state.setPaused);
+  const excludeCurrentQuestion = useQuizStore(state => state.excludeCurrentQuestion);
 
   const toggleModal = (open: boolean) => {
     setIsOpen(open);
@@ -31,7 +32,8 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
 
     if (result.success) {
       setStatus({ type: "success", message: "Reporte enviado con éxito." });
-      setTimeout(() => {
+      setTimeout(async () => {
+        await excludeCurrentQuestion();
         toggleModal(false);
         setStatus(null);
       }, 2000);

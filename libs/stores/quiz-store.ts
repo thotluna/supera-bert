@@ -37,6 +37,7 @@ interface QuizActions {
   finish: () => void;
   reset: () => void;
   setPaused: (paused: boolean) => void;
+  excludeCurrentQuestion: () => Promise<void>;
 }
 
 export const useQuizStore = create<QuizState & QuizActions>()(
@@ -267,6 +268,25 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         });
 
         await saveAndRedirect(snapshot);
+      },
+      excludeCurrentQuestion: async () => {
+        const { questions, finish } = get();
+        const nextQuestions = [...questions];
+        const nextQuestion = nextQuestions.shift() ?? null;
+
+        if (nextQuestion) {
+          nextQuestion.options = shuffle(nextQuestion.options);
+          set({
+            questions: nextQuestions,
+            currentQuestion: nextQuestion,
+            currentSelection: [],
+            isFeedbacking: false,
+            startTime: Date.now(),
+            disabledNext: true,
+          });
+        } else {
+          await finish();
+        }
       },
       reset: () => set({
         questions: [],

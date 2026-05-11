@@ -15,3 +15,4 @@
 - [x] Auditoría de seguridad de base de datos Supabase: Identificación de vulnerabilidades RLS y propuesta de remediación SQL.
 - [x] Implementación del Sistema de Reporte de Errores: Creación de componente UI, Server Actions y persistencia en Supabase.
 - [x] Resolución de conflictos en Storybook: Downgrade a v8 estable y migración a framework react-vite para compatibilidad con React 19/Next 16.
+- [x] Implementación de exclusión de preguntas reportadas: Descarte automático de preguntas erróneas durante la sesión del quiz sin afectar el pool original.
