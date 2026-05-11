@@ -10,6 +10,7 @@ import { MultipleChoiceAnswer } from "./components/multiple-choice-answer";
 import { SimpleChoiceAnswers } from "./components/simple-choice-answer";
 import { QuizFooter } from "./components/footer";
 import { Initialization } from "./components/initialization";
+import { VisibilityTracker } from "./components/visibility-tracker";
 
 interface QuizPageProps {
   searchParams: Promise<{
@@ -51,6 +52,7 @@ export default async function QuizPage({ searchParams }: QuizPageProps): Promise
   return (
     <>
       <Initialization config={config} questions={questions} />
+      <VisibilityTracker />
       <main className="w-full md:max-w-5xl md:max-h-[98vh] flex flex-col p-4 md:p-6 bg-subface/40 backdrop-blur-xl border border-foreground/10 rounded-2xl md:rounded-3xl shadow-2xl overflow-y-auto md:overflow-hidden">
         <Header />
 

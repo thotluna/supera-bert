@@ -50,7 +50,7 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
         <div className="flex flex-col gap-4">
           {questions.map((question, index) => (
             <ReviewItem
-              key={question.id}
+              key={`${question.id}-${index}`}
               question={question}
               answer={answers.find(a => a.questionId === question.id)}
               index={index}

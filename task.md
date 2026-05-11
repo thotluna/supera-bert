@@ -16,3 +16,7 @@
 - [x] Implementación del Sistema de Reporte de Errores: Creación de componente UI, Server Actions y persistencia en Supabase.
 - [x] Resolución de conflictos en Storybook: Downgrade a v8 estable y migración a framework react-vite para compatibilidad con React 19/Next 16.
 - [x] Implementación de exclusión de preguntas reportadas: Descarte automático de preguntas erróneas durante la sesión del quiz sin afectar el pool original.
+- [x] Sistema centralizado de pausas: Implementación de Pause Stack para gestionar visibilidad del browser, modales y feedback sin conflictos de tiempo.
+- [x] Validación y testing del sistema de pausas: Creación de tests unitarios para escenarios de solapamiento y precisión del cronómetro.
+- [x] Resolución de warnings de Vite: Optimización de importaciones dinámicas en el Factory para análisis estático.
+- [x] Corrección de duplicados en resultados: Deduplicación de preguntas por ID en el repositorio y estabilización de keys en la UI.

@@ -45,3 +45,5 @@ export interface ConfigQuiz {
   questionCount: number;
   topics: ITCTopic[];
 }
+
+export type PauseReason = 'visibility' | 'modal' | 'feedback' | 'manual';

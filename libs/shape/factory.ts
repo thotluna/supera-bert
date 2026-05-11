@@ -12,17 +12,17 @@ export class Factory {
 
   static async getQuizService(): Promise<QuizService> {
     const jsonDataSource = process.env.QUESTIONS_REPO_PATH || "data-source-json";
-    const repoModule = await import(`../quiz/repository/${jsonDataSource}`);
+    const repoModule = await import(`../quiz/repository/${jsonDataSource}.ts`);
     const Implementation = repoModule.JSONDataSource;
     const questionsRepository = new Implementation();
 
     const answersDataSource = process.env.ANSWERS_REPO_PATH || "answers-data-source";
-    const repoModuleAnswers = await import(`../quiz/repository/${answersDataSource}`);
+    const repoModuleAnswers = await import(`../quiz/repository/${answersDataSource}.ts`);
     const ImplementationAnswers = repoModuleAnswers.AnswersDataSource;
     const answersRepository = new ImplementationAnswers();
 
     const quizzesDataSource = process.env.QUIZZES_REPO_PATH || "quizzes-data-source";
-    const repoModuleQuizzes = await import(`../quiz/repository/${quizzesDataSource}`);
+    const repoModuleQuizzes = await import(`../quiz/repository/${quizzesDataSource}.ts`);
     const ImplementationQuizzes = repoModuleQuizzes.QuizzesDataSource;
     const quizzesRepository = new ImplementationQuizzes();
 
@@ -31,19 +31,19 @@ export class Factory {
 
   private static async getQuestionRepository() {
     const jsonDataSource = process.env.QUESTIONS_REPO_PATH || "data-source-json";
-    const repoModule = await import(`../quiz/repository/${jsonDataSource}`);
+    const repoModule = await import(`../quiz/repository/${jsonDataSource}.ts`);
     const Implementation = repoModule.JSONDataSource;
     return new Implementation();
   }
 
   static async getStatsService(): Promise<StatsService> {
     const answersDataSource = process.env.ANSWERS_REPO_PATH || "answers-data-source";
-    const repoModuleAnswers = await import(`../quiz/repository/${answersDataSource}`);
+    const repoModuleAnswers = await import(`../quiz/repository/${answersDataSource}.ts`);
     const ImplementationAnswers = repoModuleAnswers.AnswersDataSource;
     const answersRepository = new ImplementationAnswers();
 
     const quizzesDataSource = process.env.QUIZZES_REPO_PATH || "quizzes-data-source";
-    const repoModuleQuizzes = await import(`../quiz/repository/${quizzesDataSource}`);
+    const repoModuleQuizzes = await import(`../quiz/repository/${quizzesDataSource}.ts`);
     const ImplementationQuizzes = repoModuleQuizzes.QuizzesDataSource;
     const quizzesRepository = new ImplementationQuizzes();
 
@@ -53,7 +53,7 @@ export class Factory {
 
   static async getReportService(): Promise<ReportService> {
     const reportDataSource = process.env.REPORT_REPO_PATH || "report-data-source";
-    const repoModule = await import(`../quiz/repository/${reportDataSource}`);
+    const repoModule = await import(`../quiz/repository/${reportDataSource}.ts`);
     const Implementation = repoModule.ReportDataSource;
     const reportRepository = new Implementation();
     return new ReportService(reportRepository);
