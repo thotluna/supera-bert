@@ -20,3 +20,6 @@
 - [x] Validación y testing del sistema de pausas: Creación de tests unitarios para escenarios de solapamiento y precisión del cronómetro.
 - [x] Resolución de warnings de Vite: Optimización de importaciones dinámicas en el Factory para análisis estático.
 - [x] Corrección de duplicados en resultados: Deduplicación de preguntas por ID en el repositorio y estabilización de keys en la UI.
+- [x] Expansión y auditoría técnica de ITC-BT-05: Creación de 50 preguntas situacionales basadas en la fuente de verdad y cumplimiento de estándares pedagógicos.
+
+
