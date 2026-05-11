@@ -94,32 +94,32 @@
   },
   {
     "id": "ITC-BT-05-04",
-    "type": "simple",
-    "question": "De acuerdo con el apartado 6 de la ITC-BT-05, ¿cómo se clasifican los defectos en las instalaciones?",
+    "type": "multiple",
+    "question": "De acuerdo con el apartado 6 de la ITC-BT-05, ¿qué categorías se utilizan para clasificar los defectos encontrados en las instalaciones?",
     "options": [
       {
         "id": 1,
-        "answer": "Críticos, Mayores y Menores.",
-        "isCorrect": false,
-        "explanation": "Es una terminología ajena a la clasificación del REBT."
+        "answer": "Defectos muy graves.",
+        "isCorrect": true,
+        "explanation": "Es una de las tres categorías oficiales según el apartado 6[cite: 1]."
       },
       {
         "id": 2,
-        "answer": "Defectos de diseño, de ejecución y de mantenimiento.",
-        "isCorrect": false,
-        "explanation": "La clasificación reglamentaria no se basa en el origen del error de esta forma."
+        "answer": "Defectos graves.",
+        "isCorrect": true,
+        "explanation": "Es una de las tres categorías oficiales según el apartado 6[cite: 1]."
       },
       {
         "id": 3,
-        "answer": "Defectos penalizables y defectos subsanables.",
+        "answer": "Defectos críticos.",
         "isCorrect": false,
-        "explanation": "No es la terminología técnica utilizada por la instrucción."
+        "explanation": "Esta terminología no se utiliza en el REBT."
       },
       {
         "id": 4,
-        "answer": "Defectos muy graves, defectos graves y defectos leves.",
+        "answer": "Defectos leves.",
         "isCorrect": true,
-        "explanation": "El apartado 6 'Clasificación de defectos' los divide explícitamente en estas tres categorías[cite: 1]."
+        "explanation": "Es una de las tres categorías oficiales según el apartado 6[cite: 1]."
       }
     ]
   },
@@ -430,6 +430,1122 @@
         "answer": "Deberán someterse a ensayos destructivos.",
         "isCorrect": false,
         "explanation": "Los ensayos de verificación reglamentaria no deben dañar la instalación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-15",
+    "type": "simple",
+    "question": "En una obra de nueva planta, se finaliza la instalación eléctrica de un local comercial. ¿Qué agente tiene la obligación legal de realizar las verificaciones previas a su puesta en servicio?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El Organismo de Control que realice la inspección inicial.",
+        "isCorrect": false,
+        "explanation": "El Organismo de Control realiza inspecciones, no las verificaciones previas que son responsabilidad del ejecutor."
+      },
+      {
+        "id": 2,
+        "answer": "La empresa instaladora que haya ejecutado la instalación.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-05, apartado 2.a, las verificaciones previas deben ser realizadas por las empresas instaladoras que ejecuten la instalación[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "La Dirección Facultativa de la obra.",
+        "isCorrect": false,
+        "explanation": "Aunque supervisa, la responsabilidad de realizar físicamente la verificación recae en el instalador."
+      },
+      {
+        "id": 4,
+        "answer": "El gestor de la red de distribución de la zona.",
+        "isCorrect": false,
+        "explanation": "La distribuidora no realiza las verificaciones internas de la instalación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-16",
+    "type": "simple",
+    "question": "Un titular desea realizar la inspección periódica de su industria. ¿Qué condición legal debe cumplir el agente que lleve a cabo dicha inspección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ser una empresa instaladora de categoría Especialista.",
+        "isCorrect": false,
+        "explanation": "Las inspecciones reglamentarias están reservadas a Organismos de Control."
+      },
+      {
+        "id": 2,
+        "answer": "Tener la condición de Organismo de Control acreditado para este campo reglamentario.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 2.b, establece que los agentes que realicen las inspecciones deberán ser Organismos de Control según el RD 2200/1995[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Ser un ingeniero colegiado con seguro de responsabilidad civil.",
+        "isCorrect": false,
+        "explanation": "Un técnico titulado puede proyectar o dirigir, pero la inspección reglamentaria requiere la acreditación como Organismo de Control."
+      },
+      {
+        "id": 4,
+        "answer": "Ser personal técnico directo de la Administración Pública.",
+        "isCorrect": false,
+        "explanation": "Aunque la Administración ostenta atribuciones, las inspecciones suelen delegarse en Organismos de Control acreditados."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-17",
+    "type": "multiple",
+    "question": "Durante el proceso de verificación de una instalación, el técnico debe seguir un protocolo estructurado. ¿Qué fases comprende reglamentariamente esta verificación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Verificación por examen (visual).",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 3, especifica que la primera fase es por examen, sin medidas[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Verificación administrativa de tasas.",
+        "isCorrect": false,
+        "explanation": "Los aspectos administrativos no forman parte de la verificación técnica de seguridad."
+      },
+      {
+        "id": 3,
+        "answer": "Verificación mediante medida.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 3, establece que la segunda fase incluye medidas y ensayos[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "Verificación mediante ensayo.",
+        "isCorrect": true,
+        "explanation": "Al igual que las medidas, los ensayos forman parte integral de la segunda fase de verificación[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-18",
+    "type": "simple",
+    "question": "Al realizar la verificación por examen de un cuadro de distribución, ¿en qué estado debe encontrarse preferiblemente la instalación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Bajo tensión para comprobar el funcionamiento de los pilotos.",
+        "isCorrect": false,
+        "explanation": "El examen visual se realiza precisamente para garantizar que es seguro aplicar tensión después."
+      },
+      {
+        "id": 2,
+        "answer": "Sin tensión y para el conjunto de la instalación.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-05, punto 3.1, la verificación por examen debe preceder a los ensayos y normalmente se efectuará para el conjunto de la instalación estando ésta sin tensión[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Con la mitad de la carga nominal conectada.",
+        "isCorrect": false,
+        "explanation": "No se recomienda realizar el examen visual inicial con la instalación cargada."
+      },
+      {
+        "id": 4,
+        "answer": "Conectada exclusivamente a una fuente de alimentación de seguridad.",
+        "isCorrect": false,
+        "explanation": "La norma indica que el examen debe ser, como norma general, sin tensión."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-19",
+    "type": "multiple",
+    "question": "Durante la inspección visual, se comprueba la protección contra contactos directos. ¿Qué métodos son aceptados reglamentariamente para esta protección según la ITC-BT-05?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Empleo de envolventes.",
+        "isCorrect": true,
+        "explanation": "El punto 3.1 de la ITC-BT-05 cita el empleo de envolventes como medida a verificar contra contactos directos[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Colocación de barreras.",
+        "isCorrect": true,
+        "explanation": "Las barreras son un método físico reconocido para impedir el contacto con partes activas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Uso de calzado aislante por el usuario.",
+        "isCorrect": false,
+        "explanation": "La protección debe residir en la instalación, no en el equipo de protección individual del usuario final."
+      },
+      {
+        "id": 4,
+        "answer": "Aislamiento de las partes activas.",
+        "isCorrect": true,
+        "explanation": "El aislamiento es la medida fundamental de protección contra contactos directos que debe verificarse[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-20",
+    "type": "simple",
+    "question": "En el examen de una instalación que utiliza exclusivamente receptores de clase II, ¿qué medida de protección contra choques eléctricos se está validando principalmente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Protección contra contactos directos mediante obstáculos.",
+        "isCorrect": false,
+        "explanation": "La clase II es un sistema de protección frente a fallos de aislamiento (contactos indirectos)."
+      },
+      {
+        "id": 2,
+        "answer": "Protección contra contactos indirectos por fallo de aislamiento de las partes activas.",
+        "isCorrect": true,
+        "explanation": "El punto 3.1 de la ITC-BT-05 cita la utilización de equipos de clase II como una medida de protección contra contactos indirectos a verificar por examen[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Protección por puesta a tierra de las masas.",
+        "isCorrect": false,
+        "explanation": "Los equipos de clase II no se conectan a tierra, ya que su seguridad reside en el doble aislamiento."
+      },
+      {
+        "id": 4,
+        "answer": "Protección contra efectos térmicos en el cableado.",
+        "isCorrect": false,
+        "explanation": "La clase II se refiere al aislamiento del equipo, no a la protección térmica del cable."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-21",
+    "type": "multiple",
+    "question": "Dentro del conjunto de verificaciones por examen en los cuadros de mando y protección, ¿qué aspectos deben comprobarse respecto a los dispositivos de protección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Su existencia física en los circuitos proyectados.",
+        "isCorrect": true,
+        "explanation": "Es obligatorio verificar que todos los dispositivos previstos están instalados[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "El calibrado nominal de los interruptores.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, punto 3.1, establece que debe comprobarse el calibrado de los dispositivos de protección[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "La marca comercial obligatoria del fabricante.",
+        "isCorrect": false,
+        "explanation": "El reglamento no impone marcas comerciales, solo cumplimiento de especificaciones."
+      },
+      {
+        "id": 4,
+        "answer": "La presencia de dispositivos de señalización si proceden.",
+        "isCorrect": true,
+        "explanation": "El punto 3.1 también menciona la verificación de los dispositivos de señalización[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-22",
+    "type": "simple",
+    "question": "Se inspecciona visualmente una instalación de alumbrado en un muelle de carga (exterior). ¿Qué aspecto cualitativo debe verificar el técnico según la ITC-BT-05?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que el nivel de iluminación sea superior a 500 lux.",
+        "isCorrect": false,
+        "explanation": "Los niveles de iluminación son competencia de otras normativas de eficiencia o seguridad laboral, no de la ITC-BT-05."
+      },
+      {
+        "id": 2,
+        "answer": "La utilización de materiales y medidas de protección apropiadas a las influencias externas.",
+        "isCorrect": true,
+        "explanation": "El punto 3.1 de la ITC-BT-05 exige verificar que los materiales sean apropiados a las influencias externas (como humedad o intemperie)[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Que el cableado sea obligatoriamente de aluminio.",
+        "isCorrect": false,
+        "explanation": "No existe tal obligación; se permite cobre o aluminio según el caso."
+      },
+      {
+        "id": 4,
+        "answer": "La presencia de protecciones contra impactos de aves.",
+        "isCorrect": false,
+        "explanation": "No es un requisito específico recogido en el apartado de verificaciones por examen de esta instrucción."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-23",
+    "type": "multiple",
+    "question": "En la fase de verificación por examen, se debe validar la correcta identificación de los componentes. ¿Qué elementos deben estar claramente identificados según la ITC-BT-05?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los circuitos individuales.",
+        "isCorrect": true,
+        "explanation": "La identificación de circuitos es un requisito explícito del punto 3.1[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Los bornes de conexión.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 recoge específicamente la identificación de bornes como parte del examen[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Los fusibles e interruptores.",
+        "isCorrect": true,
+        "explanation": "Tanto los fusibles como los interruptores deben estar debidamente señalizados e identificados[cite: 1]."
+      },
+      {
+        "id": 4,
+        "answer": "El color de la pintura de las canalizaciones.",
+        "isCorrect": false,
+        "explanation": "No es un requisito de identificación técnica de seguridad recogido en este apartado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-24",
+    "type": "simple",
+    "question": "Un instalador coloca el cuadro general de mando y protección detrás de una estantería fija de difícil acceso. ¿Qué criterio de verificación por examen está vulnerando?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La protección contra incendios de la estantería.",
+        "isCorrect": false,
+        "explanation": "Es un problema, pero la infracción directa es la falta de accesibilidad al cuadro."
+      },
+      {
+        "id": 2,
+        "answer": "La accesibilidad para comodidad de funcionamiento, seguridad y mantenimiento.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, punto 3.1, exige verificar la accesibilidad para funcionamiento y mantenimiento[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "El equilibrio de fases en el interior del cuadro.",
+        "isCorrect": false,
+        "explanation": "El acceso difícil no afecta directamente al equilibrio eléctrico, sino a la operación."
+      },
+      {
+        "id": 4,
+        "answer": "La identificación de los interruptores.",
+        "isCorrect": false,
+        "explanation": "Aunque estén identificados, si no son accesibles, la verificación es negativa."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-25",
+    "type": "simple",
+    "question": "¿Cuál es la primera medida o ensayo que debe realizarse reglamentariamente en la segunda fase de la verificación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Medida de la rigidez dieléctrica de los transformadores.",
+        "isCorrect": false,
+        "explanation": "No es la prueba inicial de la secuencia reglamentaria."
+      },
+      {
+        "id": 2,
+        "answer": "Medida de continuidad de los conductores de protección.",
+        "isCorrect": true,
+        "explanation": "Tanto la ITC-BT-05 como la ITC-BT-19 sitúan la medida de continuidad de los conductores de protección como la primera prueba de la lista[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Medida de la impedancia de bucle con tensión.",
+        "isCorrect": false,
+        "explanation": "Las pruebas con tensión deben realizarse tras comprobar la integridad de las puestas a tierra."
+      },
+      {
+        "id": 4,
+        "answer": "Comprobación de la secuencia de fases en los receptores.",
+        "isCorrect": false,
+        "explanation": "Es de las últimas comprobaciones a realizar antes de la puesta en marcha."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-26",
+    "type": "simple",
+    "question": "Al realizar la medida de la resistencia de aislamiento, ¿qué norma de metodología se debe seguir según la instrucción?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La norma UNE-EN 60204 para seguridad de máquinas.",
+        "isCorrect": false,
+        "explanation": "Dicha norma es para equipos, no para la instalación fija de baja tensión."
+      },
+      {
+        "id": 2,
+        "answer": "La metodología de la norma UNE-HD 60.364-6.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 3, indica que las verificaciones deben seguir la metodología de la norma UNE-HD 60.364-6[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Las instrucciones de mantenimiento del fabricante del cable.",
+        "isCorrect": false,
+        "explanation": "Se debe seguir la norma reglamentaria de verificación de instalaciones."
+      },
+      {
+        "id": 4,
+        "answer": "El protocolo de ensayos de la empresa suministradora.",
+        "isCorrect": false,
+        "explanation": "La suministradora no define el protocolo de aislamiento de la instalación interior."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-27",
+    "type": "simple",
+    "question": "Se utiliza un sistema de protección consistente en un local con suelos y paredes no conductores. ¿Qué ensayo adicional exige la ITC-BT-05 en este caso?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Medida de la humedad relativa del aire.",
+        "isCorrect": false,
+        "explanation": "No es el ensayo reglamentario exigido por la ITC-BT-05."
+      },
+      {
+        "id": 2,
+        "answer": "Medida de la resistencia de aislamiento de suelos y paredes.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 lista este ensayo específicamente cuando se utilice este sistema de protección[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Medida de la permeabilidad magnética del suelo.",
+        "isCorrect": false,
+        "explanation": "Es un ensayo irrelevante para la seguridad eléctrica por contactos indirectos."
+      },
+      {
+        "id": 4,
+        "answer": "Comprobación de la conductividad del agua sanitaria.",
+        "isCorrect": false,
+        "explanation": "No tiene relación con la protección por suelos y paredes aislantes."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-28",
+    "type": "simple",
+    "question": "¿Para qué tipo de instalaciones menciona la ITC-BT-05 la posibilidad de realizar medidas de rigidez dieléctrica?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para todas las viviendas de electrificación básica.",
+        "isCorrect": false,
+        "explanation": "En viviendas no es un ensayo habitual ni obligatorio por defecto en la ITC-05."
+      },
+      {
+        "id": 2,
+        "answer": "Para las verificaciones descritas en las ITC-BT 19 e ITC-BT 18.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 incluye la medida de rigidez dieléctrica en el listado de verificaciones técnicas referenciadas[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Únicamente para líneas aéreas de alta tensión.",
+        "isCorrect": false,
+        "explanation": "La ITC-BT-05 regula baja tensión; la alta tensión tiene su propio reglamento."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo para equipos que hayan sufrido una inundación.",
+        "isCorrect": false,
+        "explanation": "Es un caso particular, pero la norma lo contempla como parte del conjunto de verificaciones técnicas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-29",
+    "type": "simple",
+    "question": "En instalaciones donde no es posible el corte de alimentación, se opta por vigilar las corrientes de fuga. ¿Qué indica la ITC-BT-05 al respecto?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que la medida de la corriente de fuga es un ensayo adicional a considerar.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 incluye la medida de la corriente de fuga en el apartado 3.2 de ensayos adicionales según el sistema de protección[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Que está prohibido medir corrientes de fuga en baja tensión.",
+        "isCorrect": false,
+        "explanation": "Al contrario, es una medida técnica de seguridad válida y contemplada."
+      },
+      {
+        "id": 3,
+        "answer": "Que las fugas deben ser siempre superiores a 300 mA.",
+        "isCorrect": false,
+        "explanation": "Las fugas deben ser lo más bajas posible; un valor alto indica defecto."
+      },
+      {
+        "id": 4,
+        "answer": "Que sólo se pueden medir en corriente continua.",
+        "isCorrect": false,
+        "explanation": "Se miden habitualmente en alterna, que es la naturaleza de la red de BT."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-30",
+    "type": "simple",
+    "question": "Se está verificando un cuadro de protección que cuenta con varios interruptores diferenciales. ¿Qué comprobación es obligatoria según la fase de ensayos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Pulsar el botón de test una vez al año.",
+        "isCorrect": false,
+        "explanation": "Esa es una recomendación de mantenimiento para el usuario, no el ensayo técnico de verificación previa."
+      },
+      {
+        "id": 2,
+        "answer": "Comprobación de la intensidad de disparo de los diferenciales.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 3.2, exige la comprobación de la intensidad de disparo de los diferenciales como ensayo para garantizar la protección contra choques eléctricos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sustituir los diferenciales por otros de mayor sensibilidad.",
+        "isCorrect": false,
+        "explanation": "La verificación consiste en comprobar los instalados, no en cambiarlos arbitrariamente."
+      },
+      {
+        "id": 4,
+        "answer": "Medir la temperatura de la carcasa del diferencial en carga.",
+        "isCorrect": false,
+        "explanation": "No es un ensayo reglamentario de la ITC-BT-05."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-31",
+    "type": "simple",
+    "question": "En la puesta en marcha de un motor trifásico, el instalador debe asegurar el sentido de giro correcto. ¿Qué comprobación técnica se cita en la ITC-BT-05 para este fin?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Medida de la potencia reactiva en vacío.",
+        "isCorrect": false,
+        "explanation": "No tiene relación directa con el sentido de giro del motor."
+      },
+      {
+        "id": 2,
+        "answer": "Comprobación de la secuencia de fases.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 3.2, establece la comprobación de la secuencia de fases como parte de los ensayos técnicos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Medida de la resistencia de los devanados.",
+        "isCorrect": false,
+        "explanation": "Es una prueba de estado del motor, no de la instalación de alimentación y su secuencia."
+      },
+      {
+        "id": 4,
+        "answer": "Ensayo de rotor bloqueado.",
+        "isCorrect": false,
+        "explanation": "Es un ensayo de laboratorio para motores, no una verificación de la instalación según ITC-BT-05."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-32",
+    "type": "multiple",
+    "question": "¿Cuáles de las siguientes instalaciones están obligadas a superar una Inspección Inicial por un Organismo de Control antes de su puesta en servicio?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Instalaciones industriales que precisen proyecto, con potencia superior a 100 kW.",
+        "isCorrect": true,
+        "explanation": "Este tipo de industrias requieren inspección inicial obligatoria[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Locales de pública concurrencia.",
+        "isCorrect": true,
+        "explanation": "Todos los locales de pública concurrencia deben pasar inspección inicial sin excepción de potencia[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Viviendas unifamiliares con electrificación básica.",
+        "isCorrect": false,
+        "explanation": "Las viviendas normales no requieren inspección inicial por OCA."
+      },
+      {
+        "id": 4,
+        "answer": "Locales con riesgo de incendio o explosión de clase I.",
+        "isCorrect": true,
+        "explanation": "Los locales ATEX requieren inspección inicial por su peligrosidad intrínseca[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-33",
+    "type": "multiple",
+    "question": "En el contexto de las inspecciones reglamentarias, ¿qué establecimientos se consideran locales de pública concurrencia y, por tanto, sujetos a inspección inicial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Restaurantes y cafeterías.",
+        "isCorrect": true,
+        "explanation": "Son locales de pública concurrencia según la ITC-BT-28 y requieren inspección inicial por ITC-BT-05[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Bibliotecas y centros culturales.",
+        "isCorrect": true,
+        "explanation": "Al albergar público de forma habitual, entran en la categoría de locales sujetos[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Trasteros de uso particular en un sótano.",
+        "isCorrect": false,
+        "explanation": "Son locales de uso privado y no se consideran de pública concurrencia."
+      },
+      {
+        "id": 4,
+        "answer": "Hospitales y centros de salud.",
+        "isCorrect": true,
+        "explanation": "Los centros sanitarios son casos críticos de pública concurrencia con requisitos estrictos de inspección[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-34",
+    "type": "multiple",
+    "question": "La ITC-BT-05 identifica ciertos locales con riesgo de incendio o explosión como sujetos a inspección inicial. ¿Cuáles de los siguientes están incluidos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cabinas de pintura.",
+        "isCorrect": true,
+        "explanation": "Se consideran locales con riesgo de incendio o explosión (clase I) sujetos a inspección[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Almacenes de gasolinas o líquidos inflamables.",
+        "isCorrect": true,
+        "explanation": "El riesgo intrínseco de explosión obliga a la inspección inicial por OCA[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Garajes con menos de 5 plazas.",
+        "isCorrect": false,
+        "explanation": "Los garajes pequeños no se consideran automáticamente locales de riesgo en esta clasificación."
+      },
+      {
+        "id": 4,
+        "answer": "Talleres de reparación de vehículos (zonas de trabajo).",
+        "isCorrect": true,
+        "explanation": "Determinadas áreas de estos talleres se clasifican con riesgo de incendio o explosión[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-35",
+    "type": "multiple",
+    "question": "En el ámbito de los garajes y aparcamientos, ¿en qué supuestos es obligatoria la inspección inicial según el REBT?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aparcamientos con más de 25 plazas de estacionamiento.",
+        "isCorrect": true,
+        "explanation": "La tabla del apartado 4.1 de la ITC-BT-05 marca este umbral específico[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Cualquier aparcamiento que disponga de sistema de recarga de vehículos eléctricos con proyecto.",
+        "isCorrect": true,
+        "explanation": "Las instalaciones de recarga que requieren proyecto están sujetas a inspección inicial[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Garajes particulares de viviendas unifamiliares para 2 coches.",
+        "isCorrect": false,
+        "explanation": "No alcanzan el umbral de plazas ni de riesgo para inspección por OCA."
+      },
+      {
+        "id": 4,
+        "answer": "Garajes con ventilación mecánica forzada independientemente de sus plazas.",
+        "isCorrect": false,
+        "explanation": "El criterio principal son las plazas (>25) o la necesidad de proyecto por otros motivos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-36",
+    "type": "multiple",
+    "question": "La ITC-BT-05 señala ciertos 'locales mojados' como obligatorios para inspección inicial. ¿Cuáles de los siguientes se mencionan explícitamente en la norma?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Lavaderos públicos.",
+        "isCorrect": true,
+        "explanation": "Están citados en la nota (c) del apartado 4.1 como locales mojados sujetos a inspección[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Tintorerías.",
+        "isCorrect": true,
+        "explanation": "Las tintorerías también figuran en la lista de locales mojados reglamentarios[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cocinas de viviendas particulares.",
+        "isCorrect": false,
+        "explanation": "Las cocinas domésticas no tienen esta consideración a efectos de inspección inicial."
+      },
+      {
+        "id": 4,
+        "answer": "Instalaciones de bombeo de agua para riego.",
+        "isCorrect": true,
+        "explanation": "Determinadas salas de bombeo por su naturaleza de local mojado pueden estar sujetas[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-37",
+    "type": "multiple",
+    "question": "¿Qué tipo de instalaciones acuáticas o recreativas requieren obligatoriamente una Inspección Inicial por OCA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Piscinas públicas o comunitarias.",
+        "isCorrect": true,
+        "explanation": "Todas las piscinas están sujetas a inspección inicial sin importar su potencia[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Fuentes ornamentales.",
+        "isCorrect": true,
+        "explanation": "Al igual que las piscinas, las fuentes requieren inspección inicial obligatoria por el riesgo de inmersión y contacto[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Duchas de gimnasios privados.",
+        "isCorrect": false,
+        "explanation": "Aunque son zonas húmedas, no requieren inspección inicial por este apartado específico de piscinas."
+      },
+      {
+        "id": 4,
+        "answer": "Instalaciones de depuración de aguas residuales urbanas.",
+        "isCorrect": true,
+        "explanation": "Por su naturaleza industrial y de mojado, estas plantas suelen requerir inspección[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-38",
+    "type": "multiple",
+    "question": "En el ámbito hospitalario, ¿qué áreas críticas están sujetas a inspección inicial obligatoria por Organismo de Control?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Quirófanos.",
+        "isCorrect": true,
+        "explanation": "Es obligatorio para todos los quirófanos por la seguridad del paciente[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Salas de intervención médica.",
+        "isCorrect": true,
+        "explanation": "Cualquier sala donde se realicen intervenciones quirúrgicas o similares está sujeta[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Salas de espera de pediatría.",
+        "isCorrect": false,
+        "explanation": "Son zonas de uso general y no se consideran áreas críticas a este efecto."
+      },
+      {
+        "id": 4,
+        "answer": "Unidades de cuidados intensivos (UCI).",
+        "isCorrect": true,
+        "explanation": "Por su criticidad y el uso de equipos de soporte vital, requieren inspección inicial[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-39",
+    "type": "multiple",
+    "question": "Se proyecta una instalación de alumbrado exterior. ¿Bajo qué circunstancias debe superar una Inspección Inicial por OCA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Si la potencia instalada es superior a 5 kW.",
+        "isCorrect": true,
+        "explanation": "Es el umbral de potencia fijado en la ITC-BT-05 para alumbrado exterior[cite: 1]."
+      },
+      {
+        "id": 2,
+        "answer": "Si se trata de iluminación de una autopista de gran tránsito.",
+        "isCorrect": true,
+        "explanation": "Al superar generalmente los 5 kW y ser exterior, requiere inspección[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Si es la iluminación de un pequeño jardín privado de 1 kW.",
+        "isCorrect": false,
+        "explanation": "Al no superar los 5 kW no tiene obligación de inspección inicial por OCA."
+      },
+      {
+        "id": 4,
+        "answer": "Instalaciones de iluminación de túneles y pasos subterráneos.",
+        "isCorrect": true,
+        "explanation": "Se consideran instalaciones críticas que suelen superar los umbrales y requieren inspección[cite: 1]."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-40",
+    "type": "simple",
+    "question": "¿En qué caso una estación de recarga para vehículos eléctricos debe pasar inspección inicial por un Organismo de Control?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "En todos los casos, independientemente de la ubicación.",
+        "isCorrect": false,
+        "explanation": "Las estaciones pequeñas en viviendas unifamiliares no siempre requieren proyecto ni inspección."
+      },
+      {
+        "id": 2,
+        "answer": "Siempre que la instalación requiera la elaboración de un proyecto.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 establece que las estaciones de recarga que requieran proyecto deben pasar inspección inicial[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sólo si la estación cuenta con carga ultra-rápida en corriente continua.",
+        "isCorrect": false,
+        "explanation": "El criterio es la necesidad de proyecto técnico, no el modo de carga."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo si se instala en un garaje de más de 5 plazas.",
+        "isCorrect": false,
+        "explanation": "Este no es el criterio específico de la ITC-BT-05 para estaciones de recarga."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-41",
+    "type": "simple",
+    "question": "Se construye un bloque de oficinas con una potencia total prevista de 120 kW. ¿Cuál es el requisito de inspección según la ITC-BT-05?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "No requiere inspección inicial por no ser una industria.",
+        "isCorrect": false,
+        "explanation": "Cualquier instalación que supere los 100 kW requiere inspección inicial."
+      },
+      {
+        "id": 2,
+        "answer": "Requiere inspección inicial por superar los 100 kW de potencia instalada.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05 incluye de forma genérica las instalaciones de potencia superior a 100 kW como sujetas a inspección inicial[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Sólo requiere inspección si tiene más de 4 plantas.",
+        "isCorrect": false,
+        "explanation": "La potencia es el factor determinante en este caso, no la altura del edificio."
+      },
+      {
+        "id": 4,
+        "answer": "La inspección es voluntaria si los inquilinos son empresas de seguros.",
+        "isCorrect": false,
+        "explanation": "El tipo de actividad administrativa no exime del cumplimiento por potencia."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-42",
+    "type": "simple",
+    "question": "Un local de pública concurrencia superó su inspección inicial hace tiempo. ¿Con qué periodicidad debe volver a ser inspeccionado?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cada 10 años, coincidiendo con la revisión de incendios.",
+        "isCorrect": false,
+        "explanation": "El plazo de 10 años es para las zonas comunes de edificios de viviendas."
+      },
+      {
+        "id": 2,
+        "answer": "Cada 5 años.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, punto 4.2, establece que todas las instalaciones que precisaron inspección inicial deben pasar inspección periódica cada 5 años[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cada 2 años al ser un local de alto riesgo.",
+        "isCorrect": false,
+        "explanation": "El reglamento establece un plazo general de 5 años para estos casos."
+      },
+      {
+        "id": 4,
+        "answer": "No requiere inspecciones periódicas si no hay cambios en la instalación.",
+        "isCorrect": false,
+        "explanation": "La inspección periódica es obligatoria para garantizar que la instalación no se ha degradado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-43",
+    "type": "simple",
+    "question": "Un edificio de viviendas tiene una potencia total instalada de 115 kW en sus servicios comunes. ¿Qué obligación de inspección periódica tiene?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ninguna, los edificios de viviendas están exentos de inspecciones periódicas.",
+        "isCorrect": false,
+        "explanation": "Están sujetos si superan un umbral determinado de potencia."
+      },
+      {
+        "id": 2,
+        "answer": "Debe pasar una inspección periódica cada 10 años.",
+        "isCorrect": true,
+        "explanation": "Según la ITC-BT-05, punto 4.2, las instalaciones comunes de edificios de viviendas de potencia superior a 100 kW deben inspeccionarse cada 10 años[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Debe inspeccionarse cada 5 años por superar los 100 kW.",
+        "isCorrect": false,
+        "explanation": "Para edificios de viviendas el plazo se amplía a 10 años, a diferencia del resto de locales sujetos."
+      },
+      {
+        "id": 4,
+        "answer": "Sólo si el edificio tiene más de 20 años de antigüedad.",
+        "isCorrect": false,
+        "explanation": "La obligación depende de la potencia instalada, no de la antigüedad del edificio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-44",
+    "type": "simple",
+    "question": "El Organismo de Control emite un acta con varios 'Defectos Leves'. ¿Qué calificación recibirá la instalación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Condicionada, hasta que se arreglen los defectos.",
+        "isCorrect": false,
+        "explanation": "La calificación condicionada requiere al menos un defecto grave."
+      },
+      {
+        "id": 2,
+        "answer": "Favorable.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, punto 5.2.1, define como Favorable cuando no existen defectos graves ni muy graves, aunque haya leves[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Pendiente de revisión administrativa.",
+        "isCorrect": false,
+        "explanation": "No es una categoría de calificación recogida en la instrucción."
+      },
+      {
+        "id": 4,
+        "answer": "Favorable con reserva de dominio.",
+        "isCorrect": false,
+        "explanation": "Es un término jurídico ajeno a la inspección técnica reglamentaria."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-45",
+    "type": "simple",
+    "question": "Una inspección periódica detecta la falta de continuidad en un conductor de protección. ¿Qué calificación obtendrá la instalación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Negativa, por riesgo inminente de descarga.",
+        "isCorrect": false,
+        "explanation": "La falta de continuidad es un defecto grave, no muy grave, salvo en casos extremos."
+      },
+      {
+        "id": 2,
+        "answer": "Condicionada.",
+        "isCorrect": true,
+        "explanation": "Al ser la falta de continuidad un defecto grave, la calificación de la inspección será Condicionada según el punto 5.2.2[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Favorable con advertencia de subsanación inmediata.",
+        "isCorrect": false,
+        "explanation": "Un defecto grave impide la calificación favorable."
+      },
+      {
+        "id": 4,
+        "answer": "Nula, debiendo repetirse la inspección completa.",
+        "isCorrect": false,
+        "explanation": "La inspección es válida y su resultado es 'Condicionada'."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-46",
+    "type": "simple",
+    "question": "Se emite un certificado de inspección 'Condicionado' para una instalación en servicio. ¿De qué plazo dispone el titular para corregir los defectos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "De 15 días hábiles.",
+        "isCorrect": false,
+        "explanation": "Es un plazo insuficiente para reformas eléctricas de calado."
+      },
+      {
+        "id": 2,
+        "answer": "Un plazo fijado que no podrá superar los 6 meses.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, punto 5.2.2 b), limita el plazo de corrección a un máximo de 6 meses[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Hasta la próxima inspección periódica (5 años).",
+        "isCorrect": false,
+        "explanation": "Ese plazo sólo se aplica a los defectos leves en calificación favorable."
+      },
+      {
+        "id": 4,
+        "answer": "De un año natural.",
+        "isCorrect": false,
+        "explanation": "El plazo máximo legal es de 6 meses."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-47",
+    "type": "simple",
+    "question": "¿Qué ocurre si transcurren 6 meses desde una calificación 'Condicionada' sin que se hayan subsanado los defectos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El titular debe pagar una tasa doble al Organismo de Control.",
+        "isCorrect": false,
+        "explanation": "No es el procedimiento reglamentario de seguridad industrial."
+      },
+      {
+        "id": 2,
+        "answer": "El Organismo de Control debe remitir el Certificado con calificación negativa al Órgano competente de la Comunidad Autónoma.",
+        "isCorrect": true,
+        "explanation": "Así lo dispone el punto 5.2.2 b) de la ITC-BT-05 para instalaciones ya en servicio[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "La instalación se considera automáticamente favorable por silencio administrativo.",
+        "isCorrect": false,
+        "explanation": "En seguridad industrial no aplica el silencio positivo ante defectos técnicos."
+      },
+      {
+        "id": 4,
+        "answer": "El instalador original debe ser inhabilitado de por vida.",
+        "isCorrect": false,
+        "explanation": "Es una medida desproporcionada y no contemplada en este punto del reglamento."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-48",
+    "type": "simple",
+    "question": "Según el apartado 6.1, ¿qué condición define fundamentalmente a un 'Defecto Muy Grave'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que el coste de reparación supere el 50% del valor de la instalación.",
+        "isCorrect": false,
+        "explanation": "La gravedad es técnica y de seguridad, no económica."
+      },
+      {
+        "id": 2,
+        "answer": "Que constituye un peligro inmediato para la seguridad de las personas o los bienes.",
+        "isCorrect": true,
+        "explanation": "Es la definición literal contenida en el apartado 6.1 de la ITC-BT-05[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Que afecta a más de diez circuitos de forma simultánea.",
+        "isCorrect": false,
+        "explanation": "Un solo circuito puede tener un defecto muy grave (ej: contacto directo)."
+      },
+      {
+        "id": 4,
+        "answer": "Que impide la lectura del contador de energía.",
+        "isCorrect": false,
+        "explanation": "Es un problema comercial o de medida, no un peligro de seguridad inmediato."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-49",
+    "type": "simple",
+    "question": "Un inspector observa partes activas de la instalación accesibles sin protección en un local de pública concurrencia. ¿Cómo se tipifica este incumplimiento?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Defecto Grave, por ser subsanable en el momento.",
+        "isCorrect": false,
+        "explanation": "La accesibilidad a partes activas (contactos directos) en locales de riesgo es 'Muy Grave'."
+      },
+      {
+        "id": 2,
+        "answer": "Defecto Muy Grave.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-05, apartado 6.1, cita los contactos directos en locales de pública concurrencia como defecto muy grave[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Falta administrativa leve contra el patrimonio.",
+        "isCorrect": false,
+        "explanation": "Es un defecto técnico de seguridad industrial, no una falta administrativa genérica."
+      },
+      {
+        "id": 4,
+        "answer": "Incumplimiento de la guía técnica, pero no del reglamento.",
+        "isCorrect": false,
+        "explanation": "Es una violación directa de los preceptos de seguridad del propio reglamento."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-05-50",
+    "type": "simple",
+    "question": "¿En qué caso un defecto se clasifica como 'Grave' aunque no suponga un peligro inmediato?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cuando el color de los cables no sea el preferente.",
+        "isCorrect": false,
+        "explanation": "Generalmente se considera un defecto leve si no induce a error peligroso."
+      },
+      {
+        "id": 2,
+        "answer": "Cuando pueda reducir de modo sustancial la capacidad de utilización de la instalación.",
+        "isCorrect": true,
+        "explanation": "El apartado 6.2 de la ITC-BT-05 incluye esta circunstancia en la definición de defecto grave[cite: 1]."
+      },
+      {
+        "id": 3,
+        "answer": "Cuando la placa de características del motor esté algo rayada.",
+        "isCorrect": false,
+        "explanation": "Es un defecto estético o leve si la información sigue siendo legible."
+      },
+      {
+        "id": 4,
+        "answer": "Cuando falte una de las copias del manual de usuario.",
+        "isCorrect": false,
+        "explanation": "Es un defecto documental menor o leve."
       }
     ]
   }
