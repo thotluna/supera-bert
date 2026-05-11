@@ -66,7 +66,10 @@ export class JSONDataSource implements QuestionRepository {
       ...Object.values(generalData).flat()
     ];
 
-    return flattened.filter(q => questionIds.includes(q.id));
+    const questionsMap = new Map(flattened.map(q => [q.id, q]));
+    return questionIds
+      .map(id => questionsMap.get(id))
+      .filter((q): q is Question => !!q);
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {

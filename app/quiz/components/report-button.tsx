@@ -16,12 +16,17 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
   const [isOpen, setIsOpen] = useState(defaultOpen);
   const [isPending, setIsPending] = useState(false);
   const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null);
-  const setPaused = useQuizStore(state => state.setPaused);
+  const requestPause = useQuizStore(state => state.requestPause);
+  const requestResume = useQuizStore(state => state.requestResume);
   const excludeCurrentQuestion = useQuizStore(state => state.excludeCurrentQuestion);
 
   const toggleModal = (open: boolean) => {
     setIsOpen(open);
-    setPaused(open);
+    if (open) {
+      requestPause("modal");
+    } else {
+      requestResume("modal");
+    }
   };
 
   const handleReport = async () => {

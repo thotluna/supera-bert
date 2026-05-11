@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import { Question, ResponseQuestion, ConfigQuiz, Option } from '../quiz/models';
 import { saveAndRedirect } from '../quiz/actions/save-and-redirect';
 import { shuffle } from '../quiz/utils/shuffle';
+import { PauseReason } from '../quiz/models';
 
 interface QuizState {
   questions: Question[];
@@ -25,6 +26,7 @@ interface QuizState {
     expiresAt: number | null;
     score: number;
   }
+  pauseReasons: PauseReason[];
 }
 
 interface QuizActions {
@@ -37,6 +39,8 @@ interface QuizActions {
   finish: () => void;
   reset: () => void;
   setPaused: (paused: boolean) => void;
+  requestPause: (reason: PauseReason) => void;
+  requestResume: (reason: PauseReason) => void;
   excludeCurrentQuestion: () => Promise<void>;
 }
 
@@ -63,6 +67,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         expiresAt: null,
         score: 0,
       },
+      pauseReasons: [],
 
       setQuestions: (questions) => set({ questions }),
       setConfig: (config) => set({ config }),
@@ -117,7 +122,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       },
 
       setPaused: (paused) => {
-        const { isPaused, expiresAt } = get();
+        const { isPaused, expiresAt, pausedAt } = get();
         if (isPaused === paused) return;
 
         const now = Date.now();
@@ -125,12 +130,36 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         if (paused) {
           set({ isPaused: true, pausedAt: now });
         } else {
-          const pauseDuration = now - (get().pausedAt || now);
+          const pauseDuration = now - (pausedAt || now);
           set({ 
             isPaused: false, 
             expiresAt: expiresAt ? expiresAt + pauseDuration : null,
             pausedAt: null
           });
+        }
+      },
+
+      requestPause: (reason) => {
+        const { pauseReasons, setPaused } = get();
+        if (pauseReasons.includes(reason)) return;
+        
+        const newReasons = [...pauseReasons, reason];
+        set({ pauseReasons: newReasons });
+        
+        if (newReasons.length === 1) {
+          setPaused(true);
+        }
+      },
+
+      requestResume: (reason) => {
+        const { pauseReasons, setPaused } = get();
+        if (!pauseReasons.includes(reason)) return;
+
+        const newReasons = pauseReasons.filter(r => r !== reason);
+        set({ pauseReasons: newReasons });
+        
+        if (newReasons.length === 0) {
+          setPaused(false);
         }
       },
 
@@ -197,12 +226,15 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           score: Number((get().score + finalPoints).toFixed(2))
         });
 
+        get().requestPause('feedback');
+
         setTimeout(() => {
           const { questions: currentQuestionsQueue, expiresAt: currentExpiresAt } = get();
           const nextQuestions = [...currentQuestionsQueue];
           const nextQuestion = nextQuestions.shift() ?? null;
 
           if (!nextQuestion) {
+            get().requestResume('feedback');
             get().finish();
             return;
           }
@@ -219,6 +251,8 @@ export const useQuizStore = create<QuizState & QuizActions>()(
             isFinished: false,
             disabledNext: true,
           });
+
+          get().requestResume('feedback');
         }, 900);
       },
 
