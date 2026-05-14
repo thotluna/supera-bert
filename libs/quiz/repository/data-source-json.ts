@@ -2,17 +2,11 @@ import { Question, ITCTopic, TopicOption } from '../models';
 import { QuestionRepository } from './question-repository';
 import itcManifest from '@/data/itc-manifest.json';
 
-const GENERAL_POOL_IDS = ["ree-general", "itc-bt-anexo-1", "itc-bt-scopes"];
+const GENERAL_POOL_IDS = ["ree-general", "itc-bt-scopes", "ip-ik"];
 
 export class JSONDataSource implements QuestionRepository {
-  /**
-   * Dynamically imports ITC data. 
-   * Next.js/Webpack will bundle all JSON files in the data folder 
-   * because of the template literal pattern.
-   */
   private async importITCData(itc: string): Promise<unknown> {
     try {
-      // The template literal informs the bundler to include all matching files in the data directory
       const dataModule = await import(`@/data/${itc.toLowerCase()}.json`) as { default?: unknown };
       return dataModule.default || dataModule;
     } catch (error) {
@@ -22,32 +16,47 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
-    const totalCount = count || 20; // Default count if not provided
-    const generalCount = Math.floor(totalCount * 0.1);
-    const topicCount = totalCount - generalCount;
+    const totalDesired = count || 20;
+    const itcList = itcs || [];
+    const topicTarget = totalDesired;
 
-    // 1. Load topic-specific questions
-    const topicData = await this.loadFromImports(itcs);
-    let topicQuestions: Question[] = Object.values(topicData).flat();
-    
-    if (excludeIds && excludeIds.length > 0) {
-      topicQuestions = topicQuestions.filter(q => !excludeIds.includes(q.id));
+    const allTopicData = await this.loadFromImports(itcList);
+    const finalQuestions: Question[] = [];
+
+    const effectiveITCs = itcList.length > 0 
+      ? itcList 
+      : (await this.getTopicsAvailability()).map(t => t.name);
+
+    const perTopicQuota = Math.floor(topicTarget / effectiveITCs.length);
+    const remainder = topicTarget % effectiveITCs.length;
+    const shuffledITCs = this.shuffle([...effectiveITCs]);
+
+    shuffledITCs.forEach((itc, index) => {
+      let questions = allTopicData[itc] || [];
+      if (excludeIds) {
+        questions = questions.filter(q => !excludeIds.includes(q.id));
+      }
+      
+      const quota = perTopicQuota + (index < remainder ? 1 : 0);
+      if (quota > 0) {
+        const selected = this.shuffle(questions).slice(0, quota);
+        finalQuestions.push(...selected);
+      }
+    });
+
+    if (finalQuestions.length < totalDesired) {
+       const allAvailable = Object.values(allTopicData).flat()
+         .filter(q => !finalQuestions.find(fq => fq.id === q.id));
+       
+       if (excludeIds) {
+         const filtered = allAvailable.filter(q => !excludeIds.includes(q.id));
+         finalQuestions.push(...this.shuffle(filtered).slice(0, totalDesired - finalQuestions.length));
+       } else {
+         finalQuestions.push(...this.shuffle(allAvailable).slice(0, totalDesired - finalQuestions.length));
+       }
     }
-    topicQuestions = this.shuffle(topicQuestions).slice(0, topicCount);
 
-    // 2. Load general pool questions (10%)
-    const generalData = await this.loadGeneralPool();
-    let generalQuestions: Question[] = Object.values(generalData).flat();
-    
-    if (excludeIds && excludeIds.length > 0) {
-      generalQuestions = generalQuestions.filter(q => !excludeIds.includes(q.id));
-    }
-    generalQuestions = this.shuffle(generalQuestions).slice(0, generalCount);
-
-    // 3. Combine and shuffle again
-    const finalQuestions = this.shuffle([...topicQuestions, ...generalQuestions]);
-
-    return finalQuestions;
+    return this.shuffle(finalQuestions);
   }
 
   async checkAnswer(questionId: string, answerId: number): Promise<boolean> {
@@ -73,7 +82,6 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    // itcManifest is an array of strings like ["ITC-BT-01", "ITC-BT-03", ...]
     return itcManifest.map(itcName => ({
       name: itcName as ITCTopic,
       available: true
@@ -83,33 +91,39 @@ export class JSONDataSource implements QuestionRepository {
   private async loadFromImports(itcs?: ITCTopic[]): Promise<Record<string, Question[]>> {
     const allQuestions: Record<string, Question[]> = {};
 
-    // Determine which ITCs to load from the manifest
     const itcsToLoad = itcs && itcs.length > 0
       ? itcs.filter(itc => itcManifest.includes(itc))
       : itcManifest as ITCTopic[];
 
-    for (const itc of itcsToLoad) {
-      try {
-        const json = await this.importITCData(itc);
-        if (!json) continue;
-        
-        let questions: Question[] = [];
-
-        if (json && typeof json === 'object') {
-          if (Array.isArray(json)) {
-            if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
-              questions = (json[0] as { questions: Question[] }).questions;
-            } else {
-              questions = json as Question[];
+    const results = await Promise.all(
+      itcsToLoad.map(async (itc) => {
+        try {
+          const json = await this.importITCData(itc);
+          if (!json) return { itc, questions: [] };
+          
+          let questions: Question[] = [];
+          if (json && typeof json === 'object') {
+            if (Array.isArray(json)) {
+              if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
+                questions = (json[0] as { questions: Question[] }).questions;
+              } else {
+                questions = json as Question[];
+              }
             }
           }
+          return { itc, questions: questions.map(q => ({ ...q, itc })) };
+        } catch (error) {
+          console.error(`Error processing data for ${itc}:`, error);
+          return { itc, questions: [] };
         }
+      })
+    );
 
-        allQuestions[itc] = questions.map(q => ({ ...q, itc }));
-      } catch (error) {
-        console.error(`Error processing data for ${itc}:`, error);
+    results.forEach(({ itc, questions }) => {
+      if (questions.length > 0) {
+        allQuestions[itc] = questions;
       }
-    }
+    });
 
     return allQuestions;
   }
@@ -117,28 +131,35 @@ export class JSONDataSource implements QuestionRepository {
   private async loadGeneralPool(): Promise<Record<string, Question[]>> {
     const allQuestions: Record<string, Question[]> = {};
 
-    for (const itc of GENERAL_POOL_IDS) {
-      try {
-        const json = await this.importITCData(itc);
-        if (!json) continue;
-        
-        let questions: Question[] = [];
-
-        if (json && typeof json === 'object') {
-          if (Array.isArray(json)) {
-            if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
-              questions = (json[0] as { questions: Question[] }).questions;
-            } else {
-              questions = json as Question[];
+    const results = await Promise.all(
+      GENERAL_POOL_IDS.map(async (itc) => {
+        try {
+          const json = await this.importITCData(itc);
+          if (!json) return { itc, questions: [] };
+          
+          let questions: Question[] = [];
+          if (json && typeof json === 'object') {
+            if (Array.isArray(json)) {
+              if (json.length > 0 && (json[0] as { questions?: unknown }).questions) {
+                questions = (json[0] as { questions: Question[] }).questions;
+              } else {
+                questions = json as Question[];
+              }
             }
           }
+          return { itc, questions: questions.map(q => ({ ...q, itc: itc as ITCTopic })) };
+        } catch (error) {
+          console.error(`Error processing general pool data for ${itc}:`, error);
+          return { itc, questions: [] };
         }
+      })
+    );
 
-        allQuestions[itc] = questions.map(q => ({ ...q, itc: itc as ITCTopic }));
-      } catch (error) {
-        console.error(`Error processing general pool data for ${itc}:`, error);
+    results.forEach(({ itc, questions }) => {
+      if (questions.length > 0) {
+        allQuestions[itc] = questions;
       }
-    }
+    });
 
     return allQuestions;
   }

@@ -45,15 +45,11 @@ export class StatsService {
       },
     };
 
-    // Get all available topics first to align stats
     const allTopics = await this.questionRepository.getTopicsAvailability();
     const availableITCs = allTopics.filter(t => t.available);
 
-    // 1. Agrupamos por Pregunta Única (Estado de Conocimiento Actual)
-    // Para evitar el castigo de la media, solo nos importa el ÚLTIMO intento de cada pregunta.
     const latestAnswersMap = new Map<string, { isCorrect: boolean; itcCode: string; points: number }>();
     
-    // Asumimos que answers viene ordenado por fecha (o lo ordenamos para estar seguros)
     [...answers].sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()).forEach((a) => {
       latestAnswersMap.set(a.questionId, { 
         isCorrect: a.isCorrect, 
@@ -62,7 +58,6 @@ export class StatsService {
       });
     });
 
-    // 2. Agregamos por Tema basado en estados únicos
     const topicMap = new Map<string, { uniqueSeen: number; uniqueCorrect: number; totalPoints: number }>();
     availableITCs.forEach(topic => {
       topicMap.set(topic.name, { uniqueSeen: 0, uniqueCorrect: 0, totalPoints: 0 });
@@ -80,35 +75,31 @@ export class StatsService {
     });
 
     const byTopic: TopicStats[] = Array.from(topicMap.entries()).map(([itcCode, stats]) => {
-      // Para este MVP, simulamos el datasetSize. 
-      // Lo ideal sería obtenerlo del repository (ej: 50 preguntas por ITC de media)
       const datasetSize = 50; 
-      
       const accuracy = stats.uniqueSeen > 0 ? (stats.uniqueCorrect / stats.uniqueSeen) * 100 : 0;
       
       return {
         itcCode,
-        totalQuestions: stats.uniqueSeen,     // COBERTURA (Verde)
-        correctAnswers: stats.uniqueCorrect, // DOMINIO (Azul)
-        datasetSize,                         // UNIVERSO (Arista)
+        totalQuestions: stats.uniqueSeen,
+        correctAnswers: stats.uniqueCorrect,
+        datasetSize,
         averagePoints: stats.uniqueSeen > 0 ? Number((stats.totalPoints / stats.uniqueSeen).toFixed(2)) : 0,
         masteryScore: Number(((stats.uniqueCorrect / datasetSize) * 100).toFixed(2)),
         accuracyScore: Number(accuracy.toFixed(2)),
       };
     });
 
-    // Aggregate by Day (Evolution)
-    const dailyMap = new Map<string, { score: number; count: number }>();
+    const evolutionMap = new Map<string, { score: number; count: number }>();
     completedQuizzes.forEach((q) => {
-      const date = q.finishedAt ? q.finishedAt.split("T")[0] : q.startedAt.split("T")[0];
-      const current = dailyMap.get(date) || { score: 0, count: 0 };
-      dailyMap.set(date, {
+      const date = new Date(q.startedAt).toISOString().split("T")[0];
+      const current = evolutionMap.get(date) || { score: 0, count: 0 };
+      evolutionMap.set(date, {
         score: current.score + q.totalScore,
         count: current.count + 1,
       });
     });
 
-    const evolution: DailyEvolution[] = Array.from(dailyMap.entries())
+    const dailyEvolution: DailyEvolution[] = Array.from(evolutionMap.entries())
       .map(([date, stats]) => ({
         date,
         averageScore: Number((stats.score / stats.count).toFixed(2)),
@@ -116,26 +107,21 @@ export class StatsService {
       }))
       .sort((a, b) => a.date.localeCompare(b.date));
 
-    // Recommendations (Least 10 advanced ITCs)
-    const recommendations: RecommendedTopic[] = availableITCs
-      .map(topic => {
-        const stats = byTopic.find(t => t.itcCode === topic.name);
-        const answered = stats?.totalQuestions || 0;
-        
-        return {
-          itcCode: topic.name,
-          questionsAnswered: answered,
-          status: (answered === 0 ? 'ignored' : answered < 10 ? 'critical' : 'pending') as RecommendedTopic['status']
-        };
-      })
-      .sort((a, b) => a.questionsAnswered - b.questionsAnswered)
-      .slice(0, 5);
+    const recommendations: RecommendedTopic[] = byTopic
+      .filter((t) => t.totalQuestions > 0 && t.accuracyScore < 70)
+      .sort((a, b) => a.accuracyScore - b.accuracyScore)
+      .slice(0, 3)
+      .map((t) => ({
+        itcCode: t.itcCode,
+        questionsAnswered: t.totalQuestions,
+        status: t.accuracyScore < 40 ? 'critical' : 'ignored',
+      }));
 
     return {
       data: {
         global,
         byTopic,
-        evolution,
+        evolution: dailyEvolution,
         recommendations,
       },
       error: null,

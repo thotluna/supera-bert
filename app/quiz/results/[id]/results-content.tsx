@@ -24,7 +24,6 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
   const percentage = Math.round((quiz.totalScore / (quiz.totalQuestions * 1)) * 100) || 0; 
   const scorePercentage = Math.min(100, Math.max(0, percentage));
 
-  // Agrupamos resultados por tema para el Radar
   const topicMap = new Map<string, { total: number; correct: number }>();
   
   questions.forEach(q => {
@@ -43,7 +42,7 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
     itcCode,
     totalQuestions: stats.total,
     correctAnswers: stats.correct,
-    datasetSize: stats.total, // En resultados, el "universo" es el quiz mismo
+    datasetSize: stats.total,
   }));
 
   return (

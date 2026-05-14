@@ -1,35 +1,28 @@
 import { JSX } from "react";
 
-// Nueva interfaz alineada con la visión pedagógica de Conquista
 interface TopicData {
   itcCode: string;
-  totalQuestions: number; // Cobertura (Cuántas preguntas diferentes ha intentado)
-  correctAnswers: number; // Dominio (Cuántas preguntas diferentes sabe/acertó)
-  datasetSize: number;    // Universo (Total de preguntas que existen en el tema)
+  totalQuestions: number;
+  correctAnswers: number;
+  datasetSize: number;
 }
 
 interface RadarChartProps {
   data: TopicData[];
-  mode?: 'dashboard' | 'results'; // Mantenemos el modo por si necesitamos ajustes visuales
+  mode?: 'dashboard' | 'results';
 }
 
 export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.Element {
-  // 1. Procesamiento: Transformamos los valores brutos en porcentajes relativos al Dataset Total
   const processed = data
     .map(item => {
-      // Evitamos divisiones por cero y aseguramos que el tope sea el datasetSize
       const dSize = Math.max(1, item.datasetSize);
-      
-      // La línea verde representa cuánto del dataset ha "descubierto"
       const coverage = Math.min(100, (item.totalQuestions / dSize) * 100);
-      
-      // El área azul representa cuánto del dataset "domina"
       const mastery = Math.min(100, (item.correctAnswers / dSize) * 100);
 
       return {
         label: item.itcCode.replace(/itc-bt-/gi, "").replace(/ree-general/gi, "GEN"),
-        coverage, // Radio para el polígono verde (Dashed)
-        mastery   // Radio para el polígono azul (Solid)
+        coverage,
+        mastery
       };
     })
     .sort((a, b) => a.label.localeCompare(b.label));
@@ -78,17 +71,14 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
             </radialGradient>
           </defs>
 
-          {/* Guías circulares (REBT Total) */}
           {[25, 50, 75, 100].map((tick) => (
             <circle key={tick} cx={center} cy={center} r={(radius * tick) / 100} fill="none" stroke="currentColor" strokeOpacity="0.1" strokeWidth="1" className="text-foreground" />
           ))}
 
-          {/* Ejes radiales */}
           {processed.map((_, i) => (
             <line key={i} x1={center} y1={center} x2={getX(100, i)} y2={getY(100, i)} stroke="currentColor" strokeOpacity="0.2" strokeWidth="1" className="text-foreground" />
           ))}
 
-          {/* Polígono de Cobertura (Verde - Territorio Explorador) */}
           <polygon 
             points={coveragePoints} 
             fill="#10b981" 
@@ -100,7 +90,6 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
             className="transition-all duration-1000 ease-out"
           />
 
-          {/* Polígono de Dominio (Azul - Territorio Conquistado) */}
           <polygon 
             points={masteryPoints} 
             fill="url(#radar-gradient)" 
@@ -109,7 +98,6 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
             className="drop-shadow-[0_0_10px_rgba(var(--color-primary-rgb),0.5)] transition-all duration-1000 ease-out" 
           />
 
-          {/* Etiquetas */}
           {processed.map((p, i) => (
             <text key={i} x={getX(115, i)} y={getY(115, i)} textAnchor="middle" dominantBaseline="middle" className="fill-foreground/40 text-[11px] font-black uppercase tracking-widest">
               {p.label}

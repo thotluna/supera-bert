@@ -47,7 +47,7 @@ export default async function QuizPage({ searchParams }: QuizPageProps): Promise
     topics: topicsArray
   })
 
-  const questions: Question[] = await getAllQuestions(topicsArray, config.questionCount)
+  const questions: Question[] = await getAllQuestions(topicsArray, config.questionCount, userId)
 
   return (
     <>
