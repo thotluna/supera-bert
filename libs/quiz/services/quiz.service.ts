@@ -84,7 +84,7 @@ export class QuizService {
       userId: data.config.userId,
       mode: data.config.mode,
       itcCodes: data.config.topics,
-      totalQuestions: data.config.questionCount,
+      totalQuestions: data.answers.length,
     });
 
     if (quizResult.error || !quizResult.data) return quizResult;
@@ -110,7 +110,8 @@ export class QuizService {
           totalCorrectInQuestion,
           totalIncorrectInQuestion,
           correctSelected,
-          incorrectSelected
+          incorrectSelected,
+          originalQuestion.type
         );
 
         finalIsCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;

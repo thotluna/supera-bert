@@ -84,7 +84,7 @@ export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage 
                 <Trophy size={18} />
                 <span className="text-[10px] font-black uppercase tracking-widest">Puntos</span>
               </div>
-              <span className="text-2xl font-black italic tabular-nums">{quiz.totalScore.toFixed(1)}</span>
+              <span className="text-2xl font-black italic tabular-nums">{quiz.totalScore.toFixed(2)}</span>
             </div>
           </div>
         </div>

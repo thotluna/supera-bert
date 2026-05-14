@@ -204,7 +204,8 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           totalCorrectInQuestion,
           totalIncorrectInQuestion,
           correctSelected,
-          incorrectSelected
+          incorrectSelected,
+          currentQuestion.type
         );
 
         const isCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;
