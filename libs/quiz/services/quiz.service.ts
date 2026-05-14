@@ -24,8 +24,27 @@ export class QuizService {
     return this.questionsRepository.getTopicsAvailability();
   }
 
-  async getAll(topics: ITCTopic[], count: number): Promise<Question[]> {
-    return this.questionsRepository.getAll(topics, count);
+  async getAll(topics: ITCTopic[], count: number, userId?: string): Promise<Question[]> {
+    let excludeIds: string[] = [];
+
+    if (userId) {
+      const answersResult = await this.answersRepository.getByUserId(userId);
+      if (answersResult.data) {
+        const latestAnswersMap = new Map<string, boolean>();
+        
+        [...answersResult.data]
+          .sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime())
+          .forEach((a) => {
+            latestAnswersMap.set(a.questionId, a.isCorrect);
+          });
+
+        excludeIds = Array.from(latestAnswersMap.entries())
+          .filter(([, isCorrect]) => isCorrect)
+          .map(([id]) => id);
+      }
+    }
+
+    return this.questionsRepository.getAll(topics, count, excludeIds);
   }
 
   async validateAnswer(questionId: string, answerId: number): Promise<boolean> {
