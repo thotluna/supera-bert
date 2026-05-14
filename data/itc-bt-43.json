@@ -5,933 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-43-01",
-        "question": "¿Cuál es el ámbito de aplicación de las tensiones en la ITC-BT-43 para receptores?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-43 del REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "Tensiones que no excedan de 440 V entre fases.",
-            "isCorrect": true,
-            "explanation": "La instrucción establece requisitos para receptores alimentados por redes que no superen los 440 V eficaces entre fases. Fuente: ITC-BT-43, Apartado 1."
+            "answer": "Regular la fabricación de bombillas LED.",
+            "isCorrect": false,
+            "explanation": "La fabricación se rige por directivas de producto, no por el REBT directamente."
           },
           {
             "id": 2,
-            "answer": "Tensiones exclusivas de 230 V.",
-            "isCorrect": false,
-            "explanation": "Aunque es la tensión común, el límite reglamentario de la ITC es 440 V entre fases."
+            "answer": "Establecer los requisitos generales de instalación de receptores eléctricos.",
+            "isCorrect": true,
+            "explanation": "Define cómo deben instalarse y protegerse los aparatos que consumen energía. Fuente: ITC-BT-43, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Tensiones de media tensión hasta 1000 V.",
+            "answer": "Prohibir el uso de lavadoras de noche.",
             "isCorrect": false,
-            "explanation": "La ITC-BT-43 se limita a baja tensión con el umbral específico de 440 V entre fases."
+            "explanation": "No es competencia del REBT."
           },
           {
             "id": 4,
-            "answer": "Solo para receptores de corriente continua.",
+            "answer": "Diseñar los circuitos internos de los ordenadores.",
             "isCorrect": false,
-            "explanation": "Aplica principalmente a redes de corriente alterna con los valores de tensión eficaces indicados."
+            "explanation": "Los circuitos internos son competencia del fabricante (marcado CE)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-02",
-        "question": "¿Qué establece el REBT sobre el cumplimiento de las Directivas Europeas en receptores?",
+        "type": "simple",
+        "question": "¿Qué tensión máxima de alimentación entre fases contempla la ITC-BT-43 para los receptores?",
         "options": [
           {
             "id": 1,
-            "answer": "El cumplimiento de las ITCs exime de cumplir las Directivas Europeas.",
+            "answer": "1.000 V.",
             "isCorrect": false,
-            "explanation": "Las Directivas Europeas son de obligado cumplimiento independientemente del REBT."
+            "explanation": "Es el límite de la Baja Tensión, pero la ITC-BT-43 especifica un valor menor para receptores estándar."
           },
           {
             "id": 2,
-            "answer": "Los requisitos de las ITCs no sustituyen ni eximen del cumplimiento de las Directivas de Baja Tensión y Compatibilidad Electromagnética.",
+            "answer": "440 V en valor eficaz.",
             "isCorrect": true,
-            "explanation": "El REBT actúa de forma complementaria a las directivas 73/23/CEE y 89/336/CEE (o sus actualizaciones). Fuente: ITC-BT-43, Apartado 1."
+            "explanation": "Cubre las tensiones industriales estándar de 400V con margen. Fuente: ITC-BT-43, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Solo deben cumplir las directivas si el receptor se exporta fuera de España.",
+            "answer": "230 V solamente.",
             "isCorrect": false,
-            "explanation": "Deben cumplirse para cualquier receptor comercializado o instalado en el territorio."
+            "explanation": "Se aplica también a receptores trifásicos."
           },
           {
             "id": 4,
-            "answer": "El instalador es el único responsable de certificar las directivas europeas.",
+            "answer": "50 V.",
             "isCorrect": false,
-            "explanation": "La responsabilidad recae habitualmente en el fabricante o el marcado CE."
+            "explanation": "Esa es la tensión de seguridad, no el límite de la instrucción."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-03",
-        "question": "¿Cómo se define un receptor de 'Clase 0'?",
+        "type": "simple",
+        "question": "Un receptor tiene aislamiento básico y sus partes metálicas accesibles están conectadas a un borne de tierra. ¿A qué clase pertenece?",
         "options": [
           {
             "id": 1,
-            "answer": "Aquel que tiene aislamiento doble o reforzado.",
+            "answer": "Clase 0.",
             "isCorrect": false,
-            "explanation": "Eso corresponde a la Clase II."
+            "explanation": "La Clase 0 no tiene conexión a tierra (y no se permite en España)."
           },
           {
             "id": 2,
-            "answer": "Aquel en el que la protección contra choques eléctricos se basa en el aislamiento principal, sin medios de conexión a tierra.",
+            "answer": "Clase I.",
             "isCorrect": true,
-            "explanation": "Los aparatos de Clase 0 no tienen toma de tierra y confían únicamente en su aislamiento básico. Fuente: ITC-BT-43, Tabla 1."
+            "explanation": "La protección depende de la conexión a tierra de las masas. Fuente: ITC-BT-43, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Aquel que funciona a tensiones inferiores a 50 V.",
+            "answer": "Clase II.",
             "isCorrect": false,
-            "explanation": "Eso corresponde a la Clase III si es MBTS."
+            "explanation": "La Clase II tiene doble aislamiento y NO se conecta a tierra."
           },
           {
             "id": 4,
-            "answer": "Aquel que está diseñado para ser sumergido en agua.",
+            "answer": "Clase III.",
             "isCorrect": false,
-            "explanation": "La clasificación por clases se refiere a la protección eléctrica, no al grado de estanqueidad."
+            "explanation": "La Clase III se alimenta a MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-04",
-        "question": "¿Qué caracteriza a los receptores de 'Clase I'?",
+        "type": "simple",
+        "question": "¿Qué indica el símbolo de un doble cuadrado concéntrico en la placa de un receptor eléctrico?",
         "options": [
           {
             "id": 1,
-            "answer": "Poseen aislamiento suplementario y no tienen toma de tierra.",
+            "answer": "Que debe ir en una caja doble.",
             "isCorrect": false,
-            "explanation": "Esto describe la Clase II."
+            "explanation": "No tiene relación con la caja de empotrar."
           },
           {
             "id": 2,
-            "answer": "Tienen previsto medios para la conexión de las partes metálicas accesibles a un conductor de protección (tierra).",
+            "answer": "Que el aparato es de Clase II (doble aislamiento).",
             "isCorrect": true,
-            "explanation": "La Clase I basa su seguridad en el aislamiento principal y la conexión a tierra de sus masas. Fuente: ITC-BT-43, Tabla 1."
+            "explanation": "Símbolo universal para equipos que no requieren toma de tierra por su construcción. Fuente: Normativa de marcado de equipos."
           },
           {
             "id": 3,
-            "answer": "Solo pueden usarse en locales mojados.",
+            "answer": "Que consume el doble de energía.",
             "isCorrect": false,
-            "explanation": "La clase de aislamiento no determina el local, aunque influye en las medidas de seguridad adicionales."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Tienen prohibida la conexión a diferenciales.",
+            "answer": "Que tiene dos años de garantía.",
             "isCorrect": false,
-            "explanation": "Al contrario, suelen requerir protección diferencial para el corte automático en caso de fallo a masa."
+            "explanation": "Información comercial, no técnica de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-05",
-        "question": "¿Cuál es la principal característica de seguridad de un aparato de 'Clase II'?",
+        "type": "simple",
+        "question": "¿A qué tensión se alimenta un receptor de Clase III?",
         "options": [
           {
             "id": 1,
-            "answer": "Conexión obligatoria a una tierra de baja resistencia.",
+            "answer": "230 V AC.",
             "isCorrect": false,
-            "explanation": "Los aparatos de Clase II no deben conectarse a tierra."
+            "explanation": "Tensión peligrosa, prohibida para Clase III."
           },
           {
             "id": 2,
-            "answer": "Aislamiento doble o reforzado, sin depender de la puesta a tierra de la instalación.",
+            "answer": "Muy Baja Tensión de Seguridad (MBTS), normalmente inferior a 50 V.",
             "isCorrect": true,
-            "explanation": "La seguridad está garantizada por el diseño del aislamiento, eliminando la necesidad de conductor de protección. Fuente: ITC-BT-43, Tabla 1."
+            "explanation": "La seguridad radica en que la tensión es tan baja que no es peligrosa. Fuente: ITC-BT-43, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Alimentación mediante baterías de 12 V.",
+            "answer": "400 V trifásicos.",
             "isCorrect": false,
-            "explanation": "Pueden funcionar a tensiones de red (230 V) siempre que mantengan el aislamiento doble."
+            "explanation": "Incompatible con la definición de Clase III."
           },
           {
             "id": 4,
-            "answer": "Envolvente metálica conectada al neutro.",
+            "answer": "Se alimenta con pilas de 9V solamente.",
             "isCorrect": false,
-            "explanation": "La conexión de masas al neutro (TN-C) está muy restringida y no define a la Clase II."
+            "explanation": "Puede alimentarse de red a través de un transformador de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-06",
-        "question": "¿A qué tensión se asocian los receptores de 'Clase III'?",
+        "type": "multiple",
+        "question": "¿Qué condiciones deben tenerse en cuenta al instalar un receptor para evitar riesgos de incendio?",
         "options": [
           {
             "id": 1,
-            "answer": "A Muy Baja Tensión de Seguridad (MBTS).",
+            "answer": "Ventilación adecuada para disipar el calor generado.",
             "isCorrect": true,
-            "explanation": "Los aparatos de Clase III están previstos para ser alimentados a tensiones de seguridad que no generan riesgos de choque eléctrico. Fuente: ITC-BT-43, Tabla 1."
+            "explanation": "Evita sobrecalentamientos peligrosos en funcionamiento normal. Fuente: ITC-BT-43, Apartado 2.1."
           },
           {
             "id": 2,
-            "answer": "A cualquier tensión siempre que tengan carcasa de plástico.",
-            "isCorrect": false,
-            "explanation": "La Clase III depende estrictamente de la tensión de alimentación de seguridad."
+            "answer": "Distancia de seguridad a objetos inflamables próximos.",
+            "isCorrect": true,
+            "explanation": "Previene la ignición de materiales por radiación o contacto térmico. Fuente: ITC-BT-43, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "A 400 V trifásica.",
+            "answer": "Uso de cables de sección inferior a la recomendada.",
             "isCorrect": false,
-            "explanation": "Es una tensión de riesgo, incompatible con la Clase III."
+            "explanation": "Aumentaría el riesgo de incendio por sobrecarga del cable."
           },
           {
             "id": 4,
-            "answer": "A tensiones continuas superiores a 1500 V.",
-            "isCorrect": false,
-            "explanation": "Eso entraría en alta tensión."
+            "answer": "Protección contra sobreintensidades adecuada.",
+            "isCorrect": true,
+            "explanation": "Corta el suministro antes de que un fallo genere calor excesivo. Fuente: ITC-BT-43, Apartado 2.1."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-07",
-        "question": "¿Qué condición debe cumplirse para que un aparato que incorpora circuitos de tensión superior se considere de Clase III?",
+        "type": "simple",
+        "question": "Sobre la conexión de receptores de gran potencia, ¿cuál es el límite de potencia a partir del cual el REBT recomienda el uso de alimentación trifásica para no desequilibrar las fases?",
         "options": [
           {
             "id": 1,
-            "answer": "Basta con que la entrada principal sea de 12 V.",
+            "answer": "1.000 W.",
             "isCorrect": false,
-            "explanation": "No es suficiente si los circuitos internos elevan la tensión sin aislamiento adecuado."
+            "explanation": "Carga pequeña que cualquier fase soporta bien."
           },
           {
             "id": 2,
-            "answer": "Que las disposiciones constructivas aseguren un aislamiento equivalente al de un transformador de seguridad.",
+            "answer": "5.750 W (o lo estipulado por la empresa distribuidora).",
             "isCorrect": true,
-            "explanation": "Se debe garantizar que los circuitos de mayor tensión estén totalmente aislados de las partes accesibles según normas UNE-EN 60.742 o 61.558. Fuente: ITC-BT-43, Apartado 2.2."
+            "explanation": "Por encima de este valor, las cargas monofásicas causan desequilibrios importantes en la red. Fuente: Criterios de balance de cargas."
           },
           {
             "id": 3,
-            "answer": "Que el aparato esté marcado con el símbolo de un rayo.",
+            "answer": "100 kW.",
             "isCorrect": false,
-            "explanation": "El marcado no sustituye a los requisitos constructivos de aislamiento."
+            "explanation": "Carga industrial que obligatoriamente es trifásica."
           },
           {
             "id": 4,
-            "answer": "No es posible, un aparato con circuitos de alta tensión nunca puede ser Clase III.",
+            "answer": "No hay límite, puedes conectar lo que quieras a una fase.",
             "isCorrect": false,
-            "explanation": "Es posible si cumple las estrictas condiciones de aislamiento mencionadas."
+            "explanation": "Causaría caídas de tensión y problemas técnicos en la red de distribución."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-08",
-        "question": "¿Bajo qué condiciones deben instalarse los receptores según el REBT?",
+        "type": "simple",
+        "question": "Un receptor de Clase II se conecta mediante una clavija Schuko. ¿Se debe conectar el contacto de tierra de la clavija?",
         "options": [
           {
             "id": 1,
-            "answer": "Sin tener en cuenta la ventilación para ahorrar espacio.",
+            "answer": "Sí, por si acaso falla el aislamiento doble.",
             "isCorrect": false,
-            "explanation": "La ventilación es crítica para evitar temperaturas peligrosas."
+            "explanation": "El aparato no tiene cable de tierra interno; el contacto de la clavija quedaría 'al aire'."
           },
           {
             "id": 2,
-            "answer": "De acuerdo con su destino, esfuerzos mecánicos previsibles y condiciones de ventilación necesarias.",
+            "answer": "No, los receptores de Clase II no disponen de medios de conexión a tierra de protección.",
             "isCorrect": true,
-            "explanation": "Se debe garantizar que en funcionamiento no se produzcan temperaturas peligrosas para la instalación u objetos próximos. Fuente: ITC-BT-43, Apartado 2.1."
+            "explanation": "Su seguridad se basa en el aislamiento reforzado, no en la tierra. Fuente: ITC-BT-43, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Siempre a una distancia mínima de 2 metros de cualquier pared.",
+            "answer": "Solo si se usa en un cuarto de baño.",
             "isCorrect": false,
-            "explanation": "La distancia depende de las especificaciones del fabricante y el riesgo térmico."
+            "explanation": "Sigue siendo Clase II y no usa tierra."
           },
           {
             "id": 4,
-            "answer": "Ocultos tras mobiliario para mejorar la estética.",
+            "answer": "Sí, usando un cable externo pegado a la carcasa.",
             "isCorrect": false,
-            "explanation": "Ocultar receptores sin ventilación adecuada es un riesgo grave de incendio."
+            "explanation": "Modificación peligrosa que anula la certificación del equipo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-09",
-        "question": "¿Qué instrucción rige la protección de los circuitos de los receptores contra sobreintensidades?",
+        "type": "simple",
+        "question": "¿Qué requisito deben cumplir los receptores en cuanto a la influencia de agentes exteriores (polvo, humedad)?",
         "options": [
           {
             "id": 1,
-            "answer": "ITC-BT-19.",
+            "answer": "Deben ser siempre estancos al 100%.",
             "isCorrect": false,
-            "explanation": "Trata sobre instalaciones interiores, pero no es la específica de sobreintensidades."
+            "explanation": "No es necesario si se instalan en locales secos."
           },
           {
             "id": 2,
-            "answer": "ITC-BT-22.",
+            "answer": "Deben soportar la influencia de los agentes exteriores a que estén sometidos en servicio.",
             "isCorrect": true,
-            "explanation": "Esta instrucción es la referencia para la protección de circuitos contra sobrecargas y cortocircuitos. Fuente: ITC-BT-43, Apartado 2.1."
+            "explanation": "Se debe elegir el grado IP/IK adecuado al emplazamiento. Fuente: ITC-BT-43, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "ITC-BT-09.",
+            "answer": "Deben limpiarse todos los días.",
             "isCorrect": false,
-            "explanation": "Aplica a alumbrado exterior."
+            "explanation": "Medida de mantenimiento, no requisito de instalación."
           },
           {
             "id": 4,
-            "answer": "ITC-BT-52.",
+            "answer": "Los agentes exteriores no afectan a los receptores modernos.",
             "isCorrect": false,
-            "explanation": "Aplica a infraestructura de recarga de vehículos eléctricos."
+            "explanation": "La humedad y el polvo son causas principales de fallos y riesgos eléctricos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-10",
-        "question": "Respecto a la tensión asignada, ¿qué margen de variación se admite para el funcionamiento de los receptores?",
+        "type": "simple",
+        "question": "Sobre la compensación del factor de potencia de los receptores, ¿cuál es el objetivo principal?",
         "options": [
           {
             "id": 1,
-            "answer": "Exactamente el 0%, deben funcionar a tensión constante.",
+            "answer": "Que el contador gire más rápido.",
             "isCorrect": false,
-            "explanation": "Físicamente imposible en redes de distribución."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Los límites admitidos por el Reglamento que regula las actividades de transporte y distribución eléctrica.",
+            "answer": "Reducir la corriente reactiva absorbida de la red, mejorando la eficiencia.",
             "isCorrect": true,
-            "explanation": "Los receptores deben ser capaces de operar dentro de las tolerancias de tensión legales de la red eléctrica. Fuente: ITC-BT-43, Apartado 2.4."
+            "explanation": "Evita recargos en la factura y libera capacidad en las líneas. Fuente: ITC-BT-43, Apartado 2.7."
           },
           {
             "id": 3,
-            "answer": "Un margen fijo de +/- 25% para todos los aparatos.",
+            "answer": "Hacer que la luz sea más brillante.",
             "isCorrect": false,
-            "explanation": "El margen lo define la normativa de calidad del suministro eléctrico, no un valor fijo arbitrario."
+            "explanation": "No influye en el flujo luminoso."
           },
           {
             "id": 4,
-            "answer": "Solo pueden funcionar con tensión superior a la nominal.",
+            "answer": "Evitar que los motores hagan ruido.",
             "isCorrect": false,
-            "explanation": "Deben funcionar tanto con ligeras subidas como bajadas dentro de norma."
+            "explanation": "El condensador compensa la reactiva, no el ruido mecánico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-11",
-        "question": "En la entrada de los cables al aparato, ¿contra qué riesgos deben estar protegidos?",
+        "type": "multiple",
+        "question": "¿Qué tipos de receptores se consideran 'móviles' o 'portátiles'?",
         "options": [
           {
             "id": 1,
-            "answer": "Exclusivamente contra el polvo.",
-            "isCorrect": false,
-            "explanation": "Es un riesgo, pero la norma se enfoca aquí en los riesgos mecánicos del cable."
+            "answer": "Un taladro eléctrico de mano.",
+            "isCorrect": true,
+            "explanation": "Se desplaza durante su uso."
           },
           {
             "id": 2,
-            "answer": "Tracción, torsión, cizallamiento, abrasión y plegados excesivos.",
+            "answer": "Una lámpara de pie con cable y enchufe.",
             "isCorrect": true,
-            "explanation": "Se deben usar dispositivos apropiados para evitar que el cable sufra daños mecánicos en el punto de entrada. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Puede moverse fácilmente de sitio."
           },
           {
             "id": 3,
-            "answer": "Solo contra la luz solar directa.",
+            "answer": "Un ascensor de un edificio.",
             "isCorrect": false,
-            "explanation": "La protección mecánica es prioritaria en la conexión."
+            "explanation": "Es una instalación fija."
           },
           {
             "id": 4,
-            "answer": "Contra la inversión de polaridad mediante imanes.",
-            "isCorrect": false,
-            "explanation": "La polaridad no se gestiona con protecciones mecánicas en la entrada."
+            "answer": "Una estufa eléctrica con ruedas.",
+            "isCorrect": true,
+            "explanation": "Diseñada para ser desplazada. Fuente: Clasificación de equipos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-12",
-        "question": "¿Está permitido anudar los cables de alimentación para evitar que se suelten del receptor?",
+        "type": "simple",
+        "question": "En un receptor de Clase I, ¿qué ocurre si el cable de tierra de la instalación se rompe?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, es una práctica común de refuerzo.",
+            "answer": "Nada, el aparato sigue funcionando.",
             "isCorrect": false,
-            "explanation": "Es peligroso y daña el aislamiento del cable."
+            "explanation": "Funciona, pero queda en una situación de peligro extremo si hay un fallo de aislamiento."
           },
           {
             "id": 2,
-            "answer": "No, no se permitirá anudar los cables ni atarlos al receptor.",
+            "answer": "El aparato pierde su medida de protección contra contactos indirectos.",
             "isCorrect": true,
-            "explanation": "La norma prohíbe explícitamente el uso de nudos como método de retención de cables. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Ante un fallo, la carcasa se pondría en tensión y el diferencial no saltaría hasta que alguien la toque. Fuente: Teoría de seguridad eléctrica."
           },
           {
             "id": 3,
-            "answer": "Solo si se hace con cinta aislante de alta resistencia.",
+            "answer": "El motor gira al revés.",
             "isCorrect": false,
-            "explanation": "Sigue estando prohibido por el riesgo de estrangulamiento de los conductores."
+            "explanation": "El giro depende de las fases, no de la tierra."
           },
           {
             "id": 4,
-            "answer": "Sí, si el cable es de sección superior a 4 mm².",
+            "answer": "El diferencial salta inmediatamente.",
             "isCorrect": false,
-            "explanation": "La prohibición aplica a todos los cables de alimentación."
+            "explanation": "El diferencial salta si hay una fuga a tierra, no si el cable de tierra está cortado (salvo diferenciales inteligentes de monitorización)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-13",
-        "question": "¿Qué condición de longitud especial deben cumplir los conductores de protección (tierra) en el punto de tracción?",
+        "type": "simple",
+        "question": "¿Se permite alimentar un receptor de Clase III (MBTS) a través de un autotransformador?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben ser los más cortos para que se rompan primero.",
+            "answer": "Sí, reduce el voltaje igual.",
             "isCorrect": false,
-            "explanation": "Sería extremadamente peligroso dejar el aparato con tensión y sin tierra."
+            "explanation": "Un autotransformador no proporciona aislamiento galvánico; un fallo pondría los 230V en la salida."
           },
           {
             "id": 2,
-            "answer": "Deben ser más largos, de modo que en caso de fallo de la tracción, sean los ÚLTIMOS en quedar sometidos a tensión mecánica.",
+            "answer": "No, debe alimentarse a través de un transformador de seguridad con aislamiento galvánico.",
             "isCorrect": true,
-            "explanation": "Se garantiza que la seguridad (tierra) permanezca conectada incluso si los cables de alimentación se han soltado. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Garantiza que la baja tensión de salida sea segura ante cualquier fallo primario. Fuente: ITC-BT-36 / ITC-BT-43."
           },
           {
             "id": 3,
-            "answer": "Deben tener exactamente la misma longitud que las fases.",
+            "answer": "Solo si es para cargar un móvil.",
             "isCorrect": false,
-            "explanation": "No ofrece el margen de seguridad necesario en caso de tirón."
+            "explanation": "Los cargadores de móvil son fuentes de alimentación aisladas (tipo Clase II/III)."
           },
           {
             "id": 4,
-            "answer": "Deben ser de color rojo para distinguirlos.",
+            "answer": "Sí, si se usa un fusible muy rápido.",
             "isCorrect": false,
-            "explanation": "El conductor de protección es obligatoriamente verde-amarillo."
+            "explanation": "El fusible no sustituye al aislamiento de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-14",
-        "question": "En receptores que producen calor, ¿cuándo NO se pueden usar cables termoplásticos?",
+        "type": "simple",
+        "question": "Sobre la conexión de receptores, ¿qué ventaja técnica ofrece el uso de conectores industriales (IEC 60309) frente a los domésticos?",
         "options": [
           {
             "id": 1,
-            "answer": "Si la temperatura ambiente supera los 40 ºC.",
+            "answer": "Son más bonitos.",
             "isCorrect": false,
-            "explanation": "Se refiere a la temperatura de contacto con el receptor."
+            "explanation": "Criterio subjetivo."
           },
           {
             "id": 2,
-            "answer": "Si las partes que pueden tocar al cable alcanzan más de 85 ºC.",
+            "answer": "Impiden la inversión de polaridad y garantizan una conexión firme y estanca para mayores potencias.",
             "isCorrect": true,
-            "explanation": "A partir de 85 ºC, el material termoplástico se degrada peligrosamente, requiriendo aislamientos especiales. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Seguridad superior en entornos exigentes. Fuente: Apartado 2.5."
           },
           {
             "id": 3,
-            "answer": "Siempre que la potencia sea superior a 1000 W.",
+            "answer": "Se pueden conectar con los pies.",
             "isCorrect": false,
-            "explanation": "Depende de la temperatura superficial, no solo de la potencia."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Solo si el aparato se instala en una cocina industrial.",
+            "answer": "Son inalámbricos.",
             "isCorrect": false,
-            "explanation": "La restricción es técnica por temperatura, independientemente del local."
+            "explanation": "Falso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-15",
-        "question": "¿Cuál es la sección mínima permitida para cables aptos para usos móviles?",
+        "type": "simple",
+        "question": "¿Qué requisito establece la ITC-BT-43 sobre los receptores que produzcan fuertes oscilaciones de potencia (ej: grandes motores de arranque directo)?",
         "options": [
           {
             "id": 1,
-            "answer": "1,5 mm².",
+            "answer": "Deben conectarse solo los domingos.",
             "isCorrect": false,
-            "explanation": "Es la mínima para circuitos fijos de iluminación, pero para móviles hay un valor inferior."
+            "explanation": "Sin sentido."
           },
           {
             "id": 2,
-            "answer": "0,5 mm².",
+            "answer": "Deben disponer de sistemas de arranque que limiten la intensidad de pico o estar autorizados por la distribuidora.",
             "isCorrect": true,
-            "explanation": "Es el límite inferior absoluto para garantizar la resistencia mecánica mínima en cables flexibles móviles. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Evita perturbaciones (flicker) en la red de otros vecinos. Fuente: ITC-BT-43, Apartado 2.6."
           },
           {
             "id": 3,
-            "answer": "0,75 mm².",
+            "answer": "Deben estar pintados de rojo.",
             "isCorrect": false,
-            "explanation": "Aunque muy común, el mínimo reglamentario es 0,5 mm²."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "2,5 mm².",
+            "answer": "No pueden existir en Baja Tensión.",
             "isCorrect": false,
-            "explanation": "Es la sección mínima para tomas de corriente fijas de uso general."
+            "explanation": "Existen, pero regulados."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-16",
-        "question": "¿Qué tensión asignada mínima deben tener los cables utilizados para usos móviles?",
+        "type": "multiple",
+        "question": "¿Qué elementos de un receptor se consideran 'masas' que deben conectarse a tierra en Clase I?",
         "options": [
           {
             "id": 1,
-            "answer": "100/100 V.",
-            "isCorrect": false,
-            "explanation": "Valor demasiado bajo para aplicaciones de red."
+            "answer": "La carcasa metálica exterior.",
+            "isCorrect": true,
+            "explanation": "Es la parte más accesible."
           },
           {
             "id": 2,
-            "answer": "300/300 V.",
+            "answer": "Partes metálicas internas que puedan quedar bajo tensión accidentalmente.",
             "isCorrect": true,
-            "explanation": "La tensión del cable nunca debe ser inferior a 300/300 V y siempre igual o superior a la de alimentación. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Protección contra fallos internos."
           },
           {
             "id": 3,
-            "answer": "450/750 V únicamente.",
+            "answer": "El cable de alimentación de plástico.",
             "isCorrect": false,
-            "explanation": "Es una tensión común para instalaciones fijas, pero el mínimo para móviles es inferior."
+            "explanation": "El plástico es aislante, no se conecta a tierra."
           },
           {
             "id": 4,
-            "answer": "No importa la tensión si el cable es grueso.",
-            "isCorrect": false,
-            "explanation": "El aislamiento eléctrico (tensión asignada) es fundamental."
+            "answer": "Tornillos de fijación accesibles que atraviesan el aislamiento básico.",
+            "isCorrect": true,
+            "explanation": "Pueden transmitir tensión al exterior. Fuente: Conceptos de masas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-17",
-        "question": "Respecto a receptores que desequilibren fases, ¿qué requisito previo se exige para su instalación?",
+        "type": "simple",
+        "question": "En la instalación de un horno industrial, ¿por qué es importante verificar la temperatura de las paredes próximas?",
         "options": [
           {
             "id": 1,
-            "answer": "Pintar el neutro de color negro.",
+            "answer": "Para que no se escape el sabor.",
             "isCorrect": false,
-            "explanation": "El código de colores del neutro es azul."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Consentimiento expreso de la Empresa suministradora.",
+            "answer": "Para asegurar que no superan los límites de seguridad que podrían causar un incendio.",
             "isCorrect": true,
-            "explanation": "Los desequilibrios importantes afectan a la calidad de la red de distribución. Fuente: ITC-BT-43, Apartado 2.6."
+            "explanation": "Requisito de seguridad térmica del REBT. Fuente: ITC-BT-43, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Que el edificio tenga pararrayos.",
+            "answer": "Para ver si el aislamiento del horno es de buena marca.",
             "isCorrect": false,
-            "explanation": "No guarda relación directa con el equilibrio de fases."
+            "explanation": "Lo importante es el resultado de seguridad, no la marca."
           },
           {
             "id": 4,
-            "answer": "No se pueden instalar en ningún caso.",
+            "answer": "No importa, las paredes no conducen electricidad.",
             "isCorrect": false,
-            "explanation": "Se pueden instalar bajo las condiciones y autorizaciones mencionadas."
+            "explanation": "El riesgo aquí es el fuego por calor, no el choque eléctrico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-18",
-        "question": "En motores con par muy variable u hornos, ¿qué límite de oscilación de potencia se establece?",
+        "type": "simple",
+        "question": "¿Qué tipo de receptores suelen ser de Clase II obligatoriamente por seguridad en su uso manual?",
         "options": [
           {
             "id": 1,
-            "answer": "No puede superar el 110 % de la potencia asignada.",
+            "answer": "Hornos de fundición de acero.",
             "isCorrect": false,
-            "explanation": "Es un margen demasiado estrecho para este tipo de receptores."
+            "explanation": "Suelen ser Clase I por su robustez y potencia."
           },
           {
             "id": 2,
-            "answer": "No puede ser mayor del 200 % de la potencia asignada del receptor.",
+            "answer": "Pequeñas herramientas portátiles (taladros, lijadoras) y secadores de pelo modernos.",
             "isCorrect": true,
-            "explanation": "Se limita el impacto de los picos de consumo en la red para evitar caídas de tensión bruscas. Fuente: ITC-BT-43, Apartado 2.6."
+            "explanation": "El doble aislamiento evita el riesgo de fallo de la conexión a tierra del cable flexible. Fuente: Estándares de fabricación."
           },
           {
             "id": 3,
-            "answer": "Puede llegar al 500 % si dura menos de 1 segundo.",
+            "answer": "Motores de ascensor.",
             "isCorrect": false,
-            "explanation": "Incluso en picos cortos, el límite del 200 % busca proteger la estabilidad de la red."
+            "explanation": "Son Clase I fijos."
           },
           {
             "id": 4,
-            "answer": "El límite es la capacidad del magnetotérmico.",
+            "answer": "Bombillas de incandescencia.",
             "isCorrect": false,
-            "explanation": "El magnetotérmico protege la instalación, pero la norma del 200 % protege la red de distribución."
+            "explanation": "Se consideran componentes, no receptores complejos con carcasa Clase II (aunque la luminaria pueda serlo)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-19",
-        "question": "Sobre la compensación del factor de potencia, ¿qué estado de energía NO se permite verter a la red?",
+        "type": "simple",
+        "question": "Sobre la conexión mediante tomas de corriente, ¿cuál es el límite de intensidad para el uso de clavijas domésticas estándar en España?",
         "options": [
           {
             "id": 1,
-            "answer": "Energía activa.",
+            "answer": "25 A.",
             "isCorrect": false,
-            "explanation": "Es la energía útil que consume la instalación."
+            "explanation": "Valor excesivo para una clavija Schuko estándar."
           },
           {
             "id": 2,
-            "answer": "Energía capacitiva.",
+            "answer": "16 A.",
             "isCorrect": true,
-            "explanation": "En ningún momento la energía absorbida por la red debe ser capacitiva debido a una sobrecompensación. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "Es el límite de diseño de la base Schuko (2P+T 16A). Fuente: UNE 20315."
           },
           {
             "id": 3,
-            "answer": "Energía reactiva inductiva.",
+            "answer": "10 A.",
             "isCorrect": false,
-            "explanation": "Es la que se intenta reducir mediante la compensación."
+            "explanation": "Valor común en otros países o clavijas planas, pero el estándar de potencia es 16A."
           },
           {
             "id": 4,
-            "answer": "Energía solar sobrante.",
+            "answer": "63 A.",
             "isCorrect": false,
-            "explanation": "No forma parte de la lógica de compensación de factor de potencia tratada aquí."
+            "explanation": "Requiere tomas industriales de gran tamaño."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-20",
-        "question": "En una compensación automática de toda la instalación, ¿qué margen de variación del factor de potencia se permite?",
+        "type": "simple",
+        "question": "¿Es obligatorio proteger cada receptor individualmente con un magnetotérmico?",
         "options": [
           {
             "id": 1,
-            "answer": "Exactamente el valor fijado sin error.",
+            "answer": "Sí, siempre.",
             "isCorrect": false,
-            "explanation": "Los sistemas de control siempre tienen una histéresis o margen."
+            "explanation": "Se pueden agrupar varios receptores pequeños en un mismo circuito."
           },
           {
             "id": 2,
-            "answer": "No mayor de un ± 10 % del valor medio obtenido.",
+            "answer": "No, se pueden proteger por grupos, pero los receptores de gran potencia o con riesgos específicos deben tener protección individual.",
             "isCorrect": true,
-            "explanation": "El sistema automático debe mantener el factor de potencia dentro de este rango de tolerancia. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "Criterio de diseño basado en la potencia y el riesgo. Fuente: ITC-BT-22 / ITC-BT-43."
           },
           {
             "id": 3,
-            "answer": "Un margen de ± 50 %.",
+            "answer": "Solo si son de fabricación extranjera.",
             "isCorrect": false,
-            "explanation": "Margen excesivo que anularía el propósito de la compensación."
+            "explanation": "La procedencia no influye en la seguridad exigida."
           },
           {
             "id": 4,
-            "answer": "Solo se permite variación hacia el lado inductivo.",
+            "answer": "Solo si consumen más de 100 W.",
             "isCorrect": false,
-            "explanation": "El margen se aplica respecto al valor medio de diseño."
+            "explanation": "Incluso potencias menores pueden requerir protección agrupada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-21",
-        "question": "¿De qué deben disponer los condensadores si su conexión puede ser cortada por interruptores?",
+        "type": "multiple",
+        "question": "¿Qué información debe contener la placa de características de un receptor según el REBT y las directivas europeas?",
         "options": [
           {
             "id": 1,
-            "answer": "De una carcasa de plomo.",
-            "isCorrect": false,
-            "explanation": "Material innecesario y tóxico para este uso."
+            "answer": "Tensión nominal de funcionamiento.",
+            "isCorrect": true,
+            "explanation": "Para asegurar la conexión a la red correcta."
           },
           {
             "id": 2,
-            "answer": "Resistencias o reactancias de descarga a tierra.",
+            "answer": "Potencia nominal absorbida.",
             "isCorrect": true,
-            "explanation": "Aseguran que el condensador no quede cargado a tensión peligrosa tras su desconexión. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "Necesaria para el dimensionado del cableado."
           },
           {
             "id": 3,
-            "answer": "Un ventilador individual.",
-            "isCorrect": false,
-            "explanation": "Solo necesario en baterías de gran potencia con alta disipación térmica."
+            "answer": "Nombre del fabricante y marcado CE.",
+            "isCorrect": true,
+            "explanation": "Acredita la conformidad legal del producto."
           },
           {
             "id": 4,
-            "answer": "Una alarma sonora de carga.",
-            "isCorrect": false,
-            "explanation": "La seguridad debe ser pasiva y automática mediante la descarga."
+            "answer": "Símbolo de la clase de protección (si es II o III).",
+            "isCorrect": true,
+            "explanation": "Informa al instalador sobre la necesidad o no de toma de tierra. Fuente: Marcado de equipos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-22",
-        "question": "¿Cómo deben instalarse los condensadores para la mejora del factor de potencia en motores asíncronos?",
+        "type": "simple",
+        "question": "En un local mojado, un receptor de Clase I debe ser instalado. ¿Qué requisito adicional debe cumplir su conexión?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben permanecer siempre conectados para filtrar la red.",
+            "answer": "Se debe soldar el cable de tierra al aparato.",
             "isCorrect": false,
-            "explanation": "Provocaría sobrecompensación cuando el motor se detiene."
+            "explanation": "No es necesario si la conexión mecánica es buena."
           },
           {
             "id": 2,
-            "answer": "De forma que al cortar la alimentación al motor, queden simultáneamente desconectados los condensadores.",
+            "answer": "Debe tener un grado de protección IP adecuado (ej: IPX4 o superior) y la conexión debe ser estanca.",
             "isCorrect": true,
-            "explanation": "Se evita dejar reactiva capacitiva en la línea cuando la carga inductiva desaparece. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "La humedad ambiental o las salpicaduras obligan a una mayor protección. Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "Conectados a una fase distinta a la del motor.",
+            "answer": "Debe estar pintado de color verde.",
             "isCorrect": false,
-            "explanation": "Deben compensar la fase del receptor que genera la reactiva."
+            "explanation": "Irrelevante."
           },
           {
             "id": 4,
-            "answer": "A través de un transformador de aislamiento propio.",
+            "answer": "Solo se permiten receptores de plástico en locales mojados.",
             "isCorrect": false,
-            "explanation": "No es un requisito para la compensación estándar de motores."
+            "explanation": "Se permiten metálicos si están bien puestos a tierra e impermeabilizados."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-23",
-        "question": "¿Qué normativa UNE rige las características de los condensadores y su instalación?",
+        "type": "simple",
+        "question": "¿Qué ocurre si conectamos un receptor de Clase III a una red de 230 V por error?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE-EN 60.831-1 y UNE-EN 60.831-2.",
-            "isCorrect": true,
-            "explanation": "Son las normas específicas citadas por el REBT para la seguridad y calidad de condensadores de potencia. Fuente: ITC-BT-43, Apartado 2.7."
+            "answer": "Funciona con mucha fuerza.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo y destructivo."
           },
           {
             "id": 2,
-            "answer": "UNE 20.460.",
-            "isCorrect": false,
-            "explanation": "Norma general de instalaciones, no específica de condensadores."
+            "answer": "Se destruye el aparato instantáneamente y existe un riesgo grave de incendio o electrocución.",
+            "isCorrect": true,
+            "explanation": "El aislamiento no está diseñado para esa tensión y los componentes se quemarán. Fuente: Riesgos eléctricos."
           },
           {
             "id": 3,
-            "answer": "UNE 21.150.",
+            "answer": "No pasa nada, son compatibles.",
             "isCorrect": false,
-            "explanation": "Se refiere a cables, no a condensadores."
+            "explanation": "Falso y muy peligroso."
           },
           {
             "id": 4,
-            "answer": "ISO 9001.",
+            "answer": "Gasta menos energía.",
             "isCorrect": false,
-            "explanation": "Norma de gestión de calidad, no técnica de seguridad eléctrica."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-24",
-        "question": "¿Cuál es la tensión máxima fase-tierra admitida para los receptores según el ámbito de esta ITC?",
+        "type": "simple",
+        "question": "Sobre los receptores con condensadores (como motores o lámparas de descarga), ¿qué precaución se debe tomar tras desconectarlos de la red?",
         "options": [
           {
             "id": 1,
-            "answer": "400 V.",
+            "answer": "Ninguna, la energía desaparece al apagar.",
             "isCorrect": false,
-            "explanation": "400 V es la tensión común entre fases, no a tierra."
+            "explanation": "Los condensadores pueden mantener carga peligrosa durante tiempo."
           },
           {
             "id": 2,
-            "answer": "254 V.",
+            "answer": "Deben tener dispositivos de descarga que reduzcan la tensión a valores seguros en un tiempo breve.",
             "isCorrect": true,
-            "explanation": "Es el valor eficaz máximo admitido entre fase y tierra (correspondiente a una red de 440 V entre fases). Fuente: ITC-BT-43, Apartado 1."
+            "explanation": "Evita calambres al tocar los bornes o el enchufe tras la desconexión. Fuente: ITC-BT-43, Apartado 2.7."
           },
           {
             "id": 3,
-            "answer": "127 V.",
+            "answer": "Se deben mojar con agua para enfriarlos.",
             "isCorrect": false,
-            "explanation": "Tensión antigua no estándar en las redes actuales de distribución general."
+            "explanation": "Peligrosísimo."
           },
           {
             "id": 4,
-            "answer": "500 V.",
+            "answer": "Se deben guardar en una caja de madera.",
             "isCorrect": false,
-            "explanation": "Excede el límite de seguridad establecido por la ITC-BT-43."
+            "explanation": "No soluciona el riesgo eléctrico residual."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-43-25",
-        "question": "¿Qué clase de receptor se asocia tradicionalmente a un 'entorno aislado de tierra'?",
+        "type": "simple",
+        "question": "En la instalación de receptores de caldeo (estufas, hornos), ¿qué tipo de cable se debe utilizar si va a estar en contacto con partes calientes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cable normal de PVC.",
+            "isCorrect": false,
+            "explanation": "El PVC se derrite con el calor intenso."
+          },
+          {
+            "id": 2,
+            "answer": "Cables con aislamiento resistente al calor (silicona, fibra de vidrio, etc.).",
+            "isCorrect": true,
+            "explanation": "Evita cortocircuitos por degradación térmica del aislamiento. Fuente: ITC-BT-20 / ITC-BT-43."
+          },
+          {
+            "id": 3,
+            "answer": "Alambre de hierro desnudo.",
+            "isCorrect": false,
+            "explanation": "Peligroso por falta de aislamiento."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier cable si se envuelve en cinta aislante.",
+            "isCorrect": false,
+            "explanation": "La cinta también se degrada con el calor."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-26",
+        "type": "multiple",
+        "question": "¿Cuáles son las formas de conexión admitidas para receptores fijos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mediante cajas de conexión con bornes fijos.",
+            "isCorrect": true,
+            "explanation": "Forma más común y segura para equipos que no se mueven."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante tomas de corriente (enchufes).",
+            "isCorrect": true,
+            "explanation": "Permite una fácil sustitución o mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "Mediante soldadura de los cables directamente.",
+            "isCorrect": false,
+            "explanation": "Dificulta el mantenimiento y no es una práctica reglamentaria habitual."
+          },
+          {
+            "id": 4,
+            "answer": "A través de interruptores o seccionadores de maniobra.",
+            "isCorrect": true,
+            "explanation": "Permite el corte local de seguridad. Fuente: ITC-BT-43, Apartado 2.5."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-27",
+        "type": "simple",
+        "question": "Sobre la ventilación de los receptores, ¿qué ocurre si tapamos las rejillas de un ordenador o una estufa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se ahorra electricidad porque no sale el calor.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "La temperatura interna sube peligrosamente, pudiendo causar un fallo del equipo o un incendio.",
+            "isCorrect": true,
+            "explanation": "Viola el requisito básico de seguridad térmica. Fuente: ITC-BT-43, Apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Funciona de forma más silenciosa.",
+            "isCorrect": false,
+            "explanation": "Pero a costa de la seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "No pasa nada si el aparato es de buena calidad.",
+            "isCorrect": false,
+            "explanation": "Todos los aparatos de potencia necesitan disipar calor."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-28",
+        "type": "simple",
+        "question": "¿Qué requisito establece el REBT para la conexión de motores de más de 0,75 kW en viviendas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben ser de color azul.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Deben tener dispositivos de arranque que limiten la intensidad para evitar caídas de tensión molestas a otros vecinos.",
+            "isCorrect": true,
+            "explanation": "Protege la calidad del suministro en la red pública. Fuente: Normas particulares."
+          },
+          {
+            "id": 3,
+            "answer": "Deben estar prohibidos por el ruido.",
+            "isCorrect": false,
+            "explanation": "Se permiten con las medidas adecuadas."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden tener botones rojos.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-29",
+        "type": "simple",
+        "question": "En un receptor de Clase I, el cable de tierra interno está suelto y toca la carcasa metálica. ¿Qué protección debe actuar?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El interruptor magnetotérmico por cortocircuito.",
+            "isCorrect": false,
+            "explanation": "Solo si la impedancia de bucle es muy baja, pero no es su función principal."
+          },
+          {
+            "id": 2,
+            "answer": "El interruptor diferencial.",
+            "isCorrect": true,
+            "explanation": "Detecta la fuga de corriente a tierra y corta el suministro para proteger a las personas. Fuente: ITC-BT-24."
+          },
+          {
+            "id": 3,
+            "answer": "El limitador de potencia (ICP).",
+            "isCorrect": false,
+            "explanation": "No detecta fugas de corriente."
+          },
+          {
+            "id": 4,
+            "answer": "Ninguna, la tierra absorbe la energía y no pasa nada.",
+            "isCorrect": false,
+            "explanation": "La tierra canaliza la energía, pero la protección debe cortar el circuito."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-30",
+        "type": "simple",
+        "question": "¿Cuál es la función del 'borne de tierra' en un motor de Clase I?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mejorar el par de arranque.",
+            "isCorrect": false,
+            "explanation": "No influye en el rendimiento mecánico."
+          },
+          {
+            "id": 2,
+            "answer": "Asegurar que todas las partes metálicas accesibles estén al mismo potencial que el suelo, evitando descargas.",
+            "isCorrect": true,
+            "explanation": "Función básica de seguridad eléctrica. Fuente: ITC-BT-18."
+          },
+          {
+            "id": 3,
+            "answer": "Para que el motor no se mueva de su sitio.",
+            "isCorrect": false,
+            "explanation": "Esa es la función de los pernos de anclaje mecánicos."
+          },
+          {
+            "id": 4,
+            "answer": "Para conectar el cable de neutro si se rompe.",
+            "isCorrect": false,
+            "explanation": "Prohibidísimo y extremadamente peligroso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-31",
+        "type": "multiple",
+        "question": "¿Qué se debe verificar al conectar un receptor trifásico de giro crítico (ej: una bomba)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Secuencia de fases correcta.",
+            "isCorrect": true,
+            "explanation": "Asegura que el motor gire en el sentido deseado (no aspire en vez de impulsar)."
+          },
+          {
+            "id": 2,
+            "answer": "Equilibrio de intensidades entre las tres fases.",
+            "isCorrect": true,
+            "explanation": "Un motor desequilibrado se calienta y puede quemarse."
+          },
+          {
+            "id": 3,
+            "answer": "Que el cable de neutro esté conectado si el motor lo requiere.",
+            "isCorrect": true,
+            "explanation": "Muchos motores son solo 3 fases + Tierra, pero algunos requieren neutro para el control."
+          },
+          {
+            "id": 4,
+            "answer": "Que el color de la máquina sea el corporativo.",
+            "isCorrect": false,
+            "explanation": "Criterio estético, no técnico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-32",
+        "type": "simple",
+        "question": "Sobre los receptores destinados a ser usados por niños (juguetes eléctricos), ¿qué clase de protección es la más recomendada?",
         "options": [
           {
             "id": 1,
             "answer": "Clase I.",
             "isCorrect": false,
-            "explanation": "La Clase I requiere obligatoriamente conexión a tierra."
+            "explanation": "Inseguro si falla la tierra de la casa."
           },
           {
             "id": 2,
+            "answer": "Clase III (alimentados a MBTS).",
+            "isCorrect": true,
+            "explanation": "Es la máxima seguridad posible: el voltaje es inofensivo para el niño. Fuente: Normativa de seguridad de juguetes."
+          },
+          {
+            "id": 3,
             "answer": "Clase 0.",
-            "isCorrect": true,
-            "explanation": "La Clase 0 no tiene toma de tierra y su seguridad depende del entorno y el aislamiento básico. Fuente: ITC-BT-43, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Clase III.",
             "isCorrect": false,
-            "explanation": "La Clase III depende de la tensión (SELV), no del aislamiento respecto a tierra del entorno."
+            "explanation": "Prohibido."
           },
           {
             "id": 4,
-            "answer": "Clase II.",
+            "answer": "Cualquiera si tiene el sello CE.",
             "isCorrect": false,
-            "explanation": "La Clase II es segura en cualquier entorno debido a su doble aislamiento."
+            "explanation": "El sello CE exige Clase III para este uso específico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-43-26",
-        "question": "¿Qué dispositivo de accionamiento se permite para un conjunto de receptores según la ITC-BT-43?",
+        "id": "ITC-BT-43-33",
+        "type": "simple",
+        "question": "¿Qué ocurre si conectamos un receptor de 230 V a una red de 400 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Ninguno, cada aparato debe tener su propio interruptor individual siempre.",
+            "answer": "Calienta más rápido.",
             "isCorrect": false,
-            "explanation": "Se admite el accionamiento conjunto bajo ciertas condiciones."
+            "explanation": "Hasta que se quema en segundos."
           },
           {
             "id": 2,
-            "answer": "Los indicados en la ITC-BT-19, permitiéndose el accionamiento conjunto si no hay prescripciones particulares que lo prohíban.",
+            "answer": "Se produce una sobretensión que destruye el receptor y puede causar fuego.",
             "isCorrect": true,
-            "explanation": "Es posible controlar varios receptores con un único dispositivo de mando. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "El exceso de tensión perfora aislamientos y quema bobinados. Fuente: Teoría eléctrica."
           },
           {
             "id": 3,
-            "answer": "Un mando a distancia universal exclusivamente.",
+            "answer": "Gasta la mitad de corriente.",
             "isCorrect": false,
-            "explanation": "El accionamiento se refiere a dispositivos de corte o mando de la instalación."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Un interruptor diferencial de 300 mA.",
+            "answer": "No pasa nada si el enchufe encaja.",
             "isCorrect": false,
-            "explanation": "Un diferencial es una protección, no un dispositivo de accionamiento funcional."
+            "explanation": "Falso; el ajuste mecánico no garantiza la compatibilidad eléctrica."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-43-27",
-        "question": "¿En qué caso se debe usar un cable móvil con conductor de protección?",
+        "id": "ITC-BT-43-34",
+        "type": "simple",
+        "question": "En la instalación de un aire acondicionado, ¿dónde debe situarse la conexión eléctrica según la ITC-BT-43?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo si el cable mide más de 5 metros.",
-            "isCorrect": false,
-            "explanation": "La necesidad de tierra no depende de la longitud del cable."
+            "answer": "En una caja de conexiones accesible para mantenimiento.",
+            "isCorrect": true,
+            "explanation": "Facilita la reparación y cumple con las reglas generales de receptores fijos. Fuente: ITC-BT-43, Apartado 2.5."
           },
           {
             "id": 2,
-            "answer": "Siempre que el receptor sea de Clase I.",
-            "isCorrect": true,
-            "explanation": "Si el aparato requiere tierra para su seguridad, el cable móvil que lo alimenta debe incluir obligatoriamente el conductor de protección. Fuente: ITC-BT-43, Apartado 2.5."
+            "answer": "Oculta dentro de la pared sin caja.",
+            "isCorrect": false,
+            "explanation": "Prohibido por seguridad e inaccesibilidad."
           },
           {
             "id": 3,
-            "answer": "Nunca, los cables móviles están exentos de tierra.",
+            "answer": "En el tejado sin protección.",
             "isCorrect": false,
-            "explanation": "Es falso; de hecho, la mayoría de electrodomésticos Clase I lo incorporan."
+            "explanation": "Peligro por humedad y sol."
           },
           {
             "id": 4,
-            "answer": "Solo en instalaciones industriales.",
+            "answer": "Colgando de una lámpara.",
             "isCorrect": false,
-            "explanation": "Aplica a cualquier ámbito (doméstico, comercial, industrial)."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-43-28",
-        "question": "¿Cuál es el método de conexión preferido para cables móviles en usos domésticos?",
+        "id": "ITC-BT-43-35",
+        "type": "simple",
+        "question": "¿Qué es la 'intensidad asignada' de un receptor?",
         "options": [
           {
             "id": 1,
-            "answer": "Soldadura directa a la regleta de la pared.",
+            "answer": "La corriente máxima que aguanta antes de explotar.",
             "isCorrect": false,
-            "explanation": "Dificulta la movilidad y el mantenimiento del aparato."
+            "explanation": "Definición poco técnica."
           },
           {
             "id": 2,
-            "answer": "Cable flexible fijado permanentemente al aparato o mediante un conector estandarizado.",
+            "answer": "La corriente para la cual ha sido diseñado y que consume en condiciones normales de funcionamiento.",
             "isCorrect": true,
-            "explanation": "Garantiza la estanqueidad y la seguridad de las partes activas. Fuente: ITC-BT-43, Apartado 2.5."
+            "explanation": "Valor de referencia para el dimensionado de cables y protecciones. Fuente: Definiciones REBT."
           },
           {
             "id": 3,
-            "answer": "Uso de pinzas de cocodrilo.",
+            "answer": "La corriente que gasta cuando está apagado.",
             "isCorrect": false,
-            "explanation": "Extremadamente peligroso y prohibido para uso doméstico."
+            "explanation": "Consumo en reposo (standby), mucho menor que la nominal."
           },
           {
             "id": 4,
-            "answer": "Cinta aislante envolviendo los hilos desnudos.",
+            "answer": "El número de serie del aparato.",
             "isCorrect": false,
-            "explanation": "Totalmente prohibido por riesgo de contacto y cortocircuito."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-43-29",
-        "question": "¿Qué se busca evitar al prohibir que la red absorba energía capacitiva?",
+        "id": "ITC-BT-43-36",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse al usar alargaderas (cables de extensión) con receptores?",
         "options": [
           {
             "id": 1,
-            "answer": "Que los cables se calienten por exceso de corriente activa.",
-            "isCorrect": false,
-            "explanation": "La energía capacitiva es reactiva, no activa."
+            "answer": "Deben estar totalmente desenrolladas si se va a usar mucha potencia.",
+            "isCorrect": true,
+            "explanation": "Evita el efecto bobina y el sobrecalentamiento del cable enrollado."
           },
           {
             "id": 2,
-            "answer": "Sobre tensiones en la red y perturbaciones en la regulación del sistema eléctrico.",
+            "answer": "La sección del cable de la alargadera debe ser suficiente para la carga.",
             "isCorrect": true,
-            "explanation": "La energía capacitiva en exceso puede elevar la tensión de la red por encima de los límites de seguridad. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "Evita caídas de tensión e incendios."
           },
           {
             "id": 3,
-            "answer": "Que los contadores giren hacia atrás.",
+            "answer": "Se pueden empalmar 10 alargaderas seguidas.",
             "isCorrect": false,
-            "explanation": "La reactiva no afecta al giro del contador de activa de forma directa en ese sentido."
+            "explanation": "Aumenta peligrosamente la impedancia del bucle de tierra, pudiendo impedir el disparo del diferencial."
           },
           {
             "id": 4,
-            "answer": "Que se produzcan interferencias en la radio.",
-            "isCorrect": false,
-            "explanation": "Las interferencias (EMI) son problemas de alta frecuencia, no del factor de potencia."
+            "answer": "Deben tener toma de tierra si el receptor es de Clase I.",
+            "isCorrect": true,
+            "explanation": "Mantiene la continuidad de la protección. Fuente: Reglas de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-43-30",
-        "question": "¿Cuál es la función de las resistencias de descarga en los condensadores?",
+        "id": "ITC-BT-43-37",
+        "type": "simple",
+        "question": "Sobre los receptores que incorporan electrónica sensible (PC, TV), ¿qué protección adicional es recomendable instalar en la toma?",
         "options": [
           {
             "id": 1,
-            "answer": "Mejorar el factor de potencia aún más.",
+            "answer": "Un pararrayos en el balcón.",
             "isCorrect": false,
-            "explanation": "Las resistencias consumen energía activa, empeorando ligeramente el factor de potencia."
+            "explanation": "Innecesario a nivel individual."
           },
           {
             "id": 2,
-            "answer": "Eliminar la tensión remanente en el condensador tras su desconexión por seguridad de las personas.",
+            "answer": "Un protector contra sobretensiones transitorias.",
             "isCorrect": true,
-            "explanation": "Permiten que un técnico pueda manipular el equipo poco después de apagarlo sin riesgo de descarga eléctrica. Fuente: ITC-BT-43, Apartado 2.7."
+            "explanation": "Protege los delicados componentes electrónicos de picos de tensión de red. Fuente: ITC-BT-23."
           },
           {
             "id": 3,
-            "answer": "Evitar que el condensador se congele en invierno.",
+            "answer": "Un ventilador extra.",
             "isCorrect": false,
-            "explanation": "Los condensadores no tienen problemas de congelación por falta de resistencia."
+            "explanation": "Ayuda a la refrigeración pero no protege eléctricamente."
           },
           {
             "id": 4,
-            "answer": "Servir de fusible en caso de cortocircuito.",
+            "answer": "No necesitan nada, ya llevan fusible.",
             "isCorrect": false,
-            "explanation": "Las resistencias de descarga son elementos de alta impedancia, no actúan como fusibles."
+            "explanation": "El fusible interno suele actuar tarde para salvar la electrónica fina."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-43-38",
+        "type": "simple",
+        "question": "¿Se permite el uso de adaptadores que anulen la toma de tierra para conectar un enchufe de Clase I en una base de Clase II?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si el aparato no gasta mucho.",
+            "isCorrect": false,
+            "explanation": "El riesgo de electrocución es independiente del consumo si hay un fallo a masa."
+          },
+          {
+            "id": 2,
+            "answer": "No, está terminantemente prohibido anular la conexión de tierra de seguridad.",
+            "isCorrect": true,
+            "explanation": "Pone en peligro mortal al usuario en caso de fallo de aislamiento. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en viviendas antiguas.",
+            "isCorrect": false,
+            "explanation": "La antigüedad no justifica la inseguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se usa calzado de goma.",
+            "isCorrect": false,
+            "explanation": "No garantiza la protección total en todas las situaciones."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-39",
+        "type": "simple",
+        "question": "En la instalación de un grupo de lámparas LED de gran número, ¿qué efecto secundario se debe considerar en la elección del diferencial?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la luz es muy blanca.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Las corrientes de fuga naturales de los filtros electrónicos que pueden sumar y causar disparos intempestivos.",
+            "isCorrect": true,
+            "explanation": "Obliga a repartir las lámparas en varios circuitos o usar diferenciales superinmunizados. Fuente: Problemas de instalaciones LED."
+          },
+          {
+            "id": 3,
+            "answer": "Que gastan demasiada energía reactiva.",
+            "isCorrect": false,
+            "explanation": "Las LED modernas tienen factores de potencia muy buenos."
+          },
+          {
+            "id": 4,
+            "answer": "Que atraen más moscas.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-40",
+        "type": "simple",
+        "question": "Sobre los receptores con mando a distancia o modo 'Standby', ¿qué consejo de eficiencia energética da la normativa técnica de forma indirecta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que se deben tirar a la basura.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Instalar interruptores de corte total para evitar consumos residuales cuando no se usen.",
+            "isCorrect": true,
+            "explanation": "Ahorra energía y mejora la seguridad ante sobretensiones nocturnas. Fuente: Guías de ahorro."
+          },
+          {
+            "id": 3,
+            "answer": "Que el mando debe tener pilas de litio.",
+            "isCorrect": false,
+            "explanation": "Requisito de producto, no de instalación."
+          },
+          {
+            "id": 4,
+            "answer": "No hay consejos sobre eso.",
+            "isCorrect": false,
+            "explanation": "Las guías técnicas del REBT sí mencionan la eficiencia."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-41",
+        "type": "simple",
+        "question": "¿Qué es la 'Clase 0' de protección de receptores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aparatos sin ningún aislamiento.",
+            "isCorrect": false,
+            "explanation": "Eso sería un conductor desnudo."
+          },
+          {
+            "id": 2,
+            "answer": "Aparatos con aislamiento básico pero sin conexión a tierra. (Prohibidos en España).",
+            "isCorrect": true,
+            "explanation": "Se consideran inseguros según los estándares actuales. Fuente: ITC-BT-43, Apartado 2.2."
+          },
+          {
+            "id": 3,
+            "answer": "Aparatos que no gastan nada.",
+            "isCorrect": false,
+            "explanation": "Imposible."
+          },
+          {
+            "id": 4,
+            "answer": "Aparatos de última tecnología.",
+            "isCorrect": false,
+            "explanation": "Al contrario, es una clasificación antigua y obsoleta."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-42",
+        "type": "multiple",
+        "question": "¿Qué factores determinan la elección del cable de alimentación de un receptor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Intensidad máxima del receptor.",
+            "isCorrect": true,
+            "explanation": "Determina la sección por calentamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Temperatura ambiente del lugar de instalación.",
+            "isCorrect": true,
+            "explanation": "Obliga a aplicar factores de corrección a la capacidad del cable."
+          },
+          {
+            "id": 3,
+            "answer": "Longitud del cable (Caída de tensión).",
+            "isCorrect": true,
+            "explanation": "Asegura que al aparato le llegue el voltaje correcto."
+          },
+          {
+            "id": 4,
+            "answer": "El color de la pared donde se instala.",
+            "isCorrect": false,
+            "explanation": "Criterio estético, no técnico de seguridad eléctrica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-43",
+        "type": "simple",
+        "question": "En un entorno industrial, ¿se puede alimentar un receptor mediante una manguera de PVC normal tendida por el suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si la manguera es gruesa.",
+            "isCorrect": false,
+            "explanation": "El PVC normal no resiste bien el aplastamiento por carretillas o golpes industriales."
+          },
+          {
+            "id": 2,
+            "answer": "No, debe utilizarse cable con protección mecánica adecuada (armado) o instalado bajo tubo resistente.",
+            "isCorrect": true,
+            "explanation": "Garantiza la integridad del aislamiento ante agresiones mecánicas. Fuente: ITC-BT-21."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si se protege con cinta adhesiva de colores.",
+            "isCorrect": false,
+            "explanation": "No aporta resistencia mecánica real."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se avisa con un cartel.",
+            "isCorrect": false,
+            "explanation": "La seguridad debe ser física, no solo informativa."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-44",
+        "type": "simple",
+        "question": "Sobre el desequilibrio de cargas entre fases, ¿qué efecto negativo tiene en la instalación general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguno, para eso está el neutro.",
+            "isCorrect": false,
+            "explanation": "Un desequilibrio excesivo sobrecarga el neutro y puede causar caídas de tensión desiguales."
+          },
+          {
+            "id": 2,
+            "answer": "Aumenta las pérdidas en las líneas y puede causar el disparo del magnetotérmico general aunque la potencia total sea baja.",
+            "isCorrect": true,
+            "explanation": "La fase más cargada llegará a su límite antes que las demás. Fuente: Teoría de redes trifásicas."
+          },
+          {
+            "id": 3,
+            "answer": "Hace que las bombillas parpadeen en verde.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Causa que los motores giren más lento.",
+            "isCorrect": false,
+            "explanation": "Solo si la caída de tensión por sobrecarga es muy acusada."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-45",
+        "type": "simple",
+        "question": "En la instalación de una placa de cocina eléctrica de 7 kW, ¿qué sección de cable mínima exige habitualmente el REBT (C-3)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "Se quemaría en pocos minutos de uso intenso."
+          },
+          {
+            "id": 2,
+            "answer": "6 mm².",
+            "isCorrect": true,
+            "explanation": "Sección estándar para circuitos de cocina de alta potencia. Fuente: ITC-BT-25."
+          },
+          {
+            "id": 3,
+            "answer": "4 mm².",
+            "isCorrect": false,
+            "explanation": "Poco para 7 kW continuos según los criterios de caída de tensión y calentamiento."
+          },
+          {
+            "id": 4,
+            "answer": "10 mm².",
+            "isCorrect": false,
+            "explanation": "Excesivo para una instalación doméstica estándar."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-46",
+        "type": "multiple",
+        "question": "¿Qué riesgos evita un buen sistema de puesta a tierra en los receptores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tensiones de contacto peligrosas en las carcasas.",
+            "isCorrect": true,
+            "explanation": "Mantiene las masas a potencial seguro."
+          },
+          {
+            "id": 2,
+            "answer": "Riesgo de incendio por arcos eléctricos a estructuras del edificio.",
+            "isCorrect": true,
+            "explanation": "Canaliza la corriente de defecto facilitando el corte rápido."
+          },
+          {
+            "id": 3,
+            "answer": "Interferencias electromagnéticas (ruido) en equipos electrónicos.",
+            "isCorrect": true,
+            "explanation": "Proporciona una referencia de potencial cero estable."
+          },
+          {
+            "id": 4,
+            "answer": "Que el aparato se caiga al suelo.",
+            "isCorrect": false,
+            "explanation": "Función mecánica ajena a la tierra eléctrica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-47",
+        "type": "simple",
+        "question": "Sobre la conexión de receptores de alumbrado, ¿se pueden usar bornes de conexión rápida (tipo muelle) en lugar de tornillos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, son inseguros.",
+            "isCorrect": false,
+            "explanation": "Los modernos están certificados y son muy fiables."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, si están certificados y son adecuados para la sección del cable.",
+            "isCorrect": true,
+            "explanation": "Ahorran tiempo y mantienen una presión constante que evita falsos contactos. Fuente: Tecnología de conexión moderna."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en instalaciones provisionales.",
+            "isCorrect": false,
+            "explanation": "Se usan ampliamente en instalaciones definitivas de calidad."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se envuelven en cinta después.",
+            "isCorrect": false,
+            "explanation": "Innecesario si el borne está bien diseñado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-48",
+        "type": "simple",
+        "question": "¿Qué indica el marcado de 'IPX0' en un receptor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que es sumergible.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 2,
+            "answer": "Que no tiene ninguna protección especial contra el agua.",
+            "isCorrect": true,
+            "explanation": "Solo apto para locales secos. Fuente: Código IP."
+          },
+          {
+            "id": 3,
+            "answer": "Que es resistente a los golpes.",
+            "isCorrect": false,
+            "explanation": "Eso lo indica el código IK."
+          },
+          {
+            "id": 4,
+            "answer": "Que es un aparato de Clase 0.",
+            "isCorrect": false,
+            "explanation": "No hay relación directa entre el IP y la Clase de protección eléctrica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-49",
+        "type": "simple",
+        "question": "Para terminar, ¿cuál es la mejor práctica al dejar de usar un receptor portátil?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Dejar el cable tirado por medio.",
+            "isCorrect": false,
+            "explanation": "Peligro de tropiezos y daños mecánicos."
+          },
+          {
+            "id": 2,
+            "answer": "Desenchufarlo y recoger el cable de forma que no sufra tensiones ni torsiones excesivas.",
+            "isCorrect": true,
+            "explanation": "Alarga la vida del equipo y garantiza la seguridad futura. Fuente: Consejos de mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "Tirar del cable para desenchufarlo desde lejos.",
+            "isCorrect": false,
+            "explanation": "Daña los contactos y puede arrancar el cable de la clavija."
+          },
+          {
+            "id": 4,
+            "answer": "Cortar el cable con unas tijeras.",
+            "isCorrect": false,
+            "explanation": "Absurdo y destructivo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-43-50",
+        "type": "simple",
+        "question": "¿Qué significa que un receptor tenga 'aislamiento reforzado'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que tiene mucha cinta aislante.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Aislamiento único que proporciona un grado de protección contra los choques eléctricos equivalente a un doble aislamiento.",
+            "isCorrect": true,
+            "explanation": "Característica técnica de los equipos de Clase II. Fuente: Definiciones de seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Que las paredes son de hormigón.",
+            "isCorrect": false,
+            "explanation": "Sin relación con el receptor."
+          },
+          {
+            "id": 4,
+            "answer": "Que aguanta 10.000 V.",
+            "isCorrect": false,
+            "explanation": "Exagerado para receptores de baja tensión."
+          }
+        ]
       }
     ]
   }

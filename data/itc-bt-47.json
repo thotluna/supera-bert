@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-47-01",
-        "question": "¿Cuál es el coeficiente multiplicador para calcular la intensidad de los conductores de conexión de un solo motor?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-47?",
         "options": [
           {
             "id": 1,
-            "answer": "1,0 veces la intensidad a plena carga (In).",
+            "answer": "Regular los motores de los coches eléctricos.",
             "isCorrect": false,
-            "explanation": "No deja margen para el calentamiento y las sobrecargas moderadas permitidas."
+            "explanation": "El REBT regula instalaciones fijas, no vehículos."
           },
           {
             "id": 2,
-            "answer": "1,25 veces la intensidad a plena carga (In).",
+            "answer": "Determinar los requisitos de instalación de motores y herramientas portátiles profesionales.",
             "isCorrect": true,
-            "explanation": "Los conductores deben dimensionarse al 125% de la intensidad nominal del motor. Fuente: ITC-BT-47, Apartado 3.1."
+            "explanation": "Cubre la seguridad eléctrica y dimensionado de circuitos de motores. Fuente: ITC-BT-47, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "1,5 veces la intensidad a plena carga (In).",
+            "answer": "Obligar al uso de motores de vapor.",
             "isCorrect": false,
-            "explanation": "Es un valor sobredimensionado respecto al mínimo reglamentario."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "2,0 veces la intensidad a plena carga (In).",
+            "answer": "Regular la fabricación de motores.",
             "isCorrect": false,
-            "explanation": "Se usa a veces para el arranque, pero no para la sección de los conductores de alimentación general."
+            "explanation": "Regula su instalación, no su fabricación (marcado CE)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-02",
-        "question": "¿Cómo se calcula la intensidad para los conductores que alimentan a varios motores?",
+        "type": "simple",
+        "question": "Para alimentar un solo motor, ¿para qué intensidad deben estar dimensionados los conductores?",
         "options": [
           {
             "id": 1,
-            "answer": "Sumando todas las intensidades nominales (In) simplemente.",
+            "answer": "Para la intensidad nominal (100% In).",
             "isCorrect": false,
-            "explanation": "No tiene en cuenta el margen de seguridad para el motor de mayor potencia."
+            "explanation": "Insuficiente; se debe prever un margen para pequeños sobrecalentamientos."
           },
           {
             "id": 2,
-            "answer": "Sumando las intensidades a plena carga más el 25% de la del motor de mayor potencia.",
+            "answer": "Para el 125% de la intensidad a plena carga.",
             "isCorrect": true,
-            "explanation": "Se aplica el coeficiente 1,25 solo al motor más grande y el resto se suman por su valor nominal. Fuente: ITC-BT-47, Apartado 3.2."
+            "explanation": "Margen de seguridad normativo para evitar el envejecimiento prematuro del cable. Fuente: ITC-BT-47, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "Aplicando 1,25 a todos los motores de la línea.",
+            "answer": "Para el 200% In.",
             "isCorrect": false,
-            "explanation": "Resultaría en secciones excesivas innecesarias."
+            "explanation": "Sobredimensionado innecesario."
           },
           {
             "id": 4,
-            "answer": "Multiplicando la suma total por 1,5.",
+            "answer": "Para el 85% In.",
             "isCorrect": false,
-            "explanation": "Criterio no contemplado por el REBT para líneas de motores."
+            "explanation": "Peligro de incendio del conductor por sobrecarga."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-03",
-        "question": "¿Qué riesgo específico debe cubrir la protección contra sobrecargas en motores trifásicos?",
+        "type": "simple",
+        "question": "¿Cómo se dimensiona la línea que alimenta a tres motores de 10A, 20A y 30A?",
         "options": [
           {
             "id": 1,
-            "answer": "El exceso de velocidad (embalamiento).",
+            "answer": "Sumando todas las intensidades (60A).",
             "isCorrect": false,
-            "explanation": "Es un riesgo mecánico/control, no el eléctrico principal citado en la instrucción."
+            "explanation": "No cumple el margen de seguridad del motor más grande."
           },
           {
             "id": 2,
-            "answer": "La falta de tensión en una de sus fases.",
+            "answer": "Sumando el 125% del motor mayor (30A) más el 100% de los demás (10+20). Total: 37,5 + 30 = 67,5 A.",
             "isCorrect": true,
-            "explanation": "Si una fase falla, las otras dos se sobrecargan rápidamente intentando mantener el par, lo que debe detectar la protección térmica. Fuente: ITC-BT-47, Apartado 4."
+            "explanation": "Fórmula reglamentaria para garantizar la estabilidad de la línea. Fuente: ITC-BT-47, Apartado 3.2."
           },
           {
             "id": 3,
-            "answer": "La inversión accidental del sentido de giro.",
+            "answer": "Usando el 125% de todos (75A).",
             "isCorrect": false,
-            "explanation": "Se protege mediante relés de secuencia, no específicamente por el de sobrecarga."
+            "explanation": "Válido por seguridad, pero excesivo y no es la exigencia mínima del REBT."
           },
           {
             "id": 4,
-            "answer": "El funcionamiento a baja frecuencia.",
+            "answer": "Usando solo la intensidad del mayor.",
             "isCorrect": false,
-            "explanation": "No es el riesgo reglamentario primario de la protección contra sobrecargas."
+            "explanation": "Peligro inmediato al encender los otros dos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-04",
-        "question": "En motores con arrancador estrella-triángulo, ¿qué se debe asegurar respecto a la protección?",
+        "type": "simple",
+        "question": "En motores de rotor devanado, ¿para qué intensidad se dimensionan los conductores secundarios (rotor)?",
         "options": [
           {
             "id": 1,
-            "answer": "Que solo actúe en la conexión en triángulo.",
-            "isCorrect": false,
-            "explanation": "El motor podría quemarse durante un arranque prolongado en estrella."
+            "answer": "Para el 125% de la intensidad a plena carga del rotor.",
+            "isCorrect": true,
+            "explanation": "Mismo criterio de seguridad que para el estator. Fuente: ITC-BT-47, Apartado 3.1."
           },
           {
             "id": 2,
-            "answer": "Que esté asegurada tanto para la conexión en estrella como en triángulo.",
-            "isCorrect": true,
-            "explanation": "Ambas etapas de funcionamiento deben estar bajo la vigilancia del dispositivo de protección. Fuente: ITC-BT-47, Apartado 4."
+            "answer": "Para el 50% In.",
+            "isCorrect": false,
+            "explanation": "Peligro de quemado del cableado del rotor."
           },
           {
             "id": 3,
-            "answer": "Que se desconecte durante el cambio de estrella a triángulo.",
+            "answer": "No llevan cables el rotor.",
             "isCorrect": false,
-            "explanation": "Peligroso, el motor quedaría desprotegido en el momento crítico de transición."
+            "explanation": "Los de rotor devanado sí los llevan hacia el dispositivo de arranque."
           },
           {
             "id": 4,
-            "answer": "No requiere protección especial si el tiempo de arranque es menor a 2 segundos.",
+            "answer": "Solo si el motor es de corriente continua.",
             "isCorrect": false,
-            "explanation": "La protección es obligatoria independientemente del tiempo de arranque."
+            "explanation": "Aplica también a motores de alterna de rotor devanado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-05",
-        "question": "¿Cuándo es obligatorio un dispositivo de protección contra la falta de tensión?",
+        "type": "simple",
+        "question": "¿Cuándo se permite dimensionar los conductores al 85% de la intensidad de plena carga del rotor?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre, en todos los motores de la instalación.",
+            "answer": "Cuando el motor es nuevo.",
             "isCorrect": false,
-            "explanation": "Existen excepciones basadas en la potencia y la seguridad de rearranque."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "Cuando el arranque espontáneo tras restablecerse la tensión pueda provocar accidentes o daños.",
+            "answer": "En motores para servicio intermitente, según el tiempo de funcionamiento.",
             "isCorrect": true,
-            "explanation": "Se evita que una máquina se ponga en marcha de forma inesperada tras un apagón. Fuente: ITC-BT-47, Apartado 5."
+            "explanation": "Al no funcionar de continuo, el cable no acumula tanto calor. Fuente: ITC-BT-47, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "Solo en motores de más de 100 kW.",
+            "answer": "Cuando el cable es de oro.",
             "isCorrect": false,
-            "explanation": "El riesgo de accidente no depende solo de la potencia."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Cuando el motor sea de Corriente Continua solamente.",
+            "answer": "Nunca se permite menos del 125%.",
             "isCorrect": false,
-            "explanation": "Aplica tanto a CA como a CC."
+            "explanation": "La norma contempla la excepción del servicio intermitente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-06",
-        "question": "¿Cuál es la potencia máxima sumada para exceptuar el dispositivo de falta de tensión en un local?",
+        "type": "multiple",
+        "question": "¿Contra qué anomalías deben protegerse los motores según la ITC-BT-47?",
         "options": [
           {
             "id": 1,
-            "answer": "1 kW.",
-            "isCorrect": false,
-            "explanation": "Límite demasiado bajo."
+            "answer": "Sobreintensidades (cortocircuitos y sobrecargas).",
+            "isCorrect": true,
+            "explanation": "Protección básica del equipo y la línea."
           },
           {
             "id": 2,
-            "answer": "10 kW.",
+            "answer": "Falta de tensión (si el arranque súbito es peligroso).",
             "isCorrect": true,
-            "explanation": "Si la suma de potencias absorbidas no supera los 10 kW en un mismo local, se puede permitir la falta de este dispositivo bajo ciertas condiciones. Fuente: ITC-BT-47, Apartado 5."
+            "explanation": "Evita accidentes por rearranque inesperado. Fuente: ITC-BT-47, Apartado 5."
           },
           {
             "id": 3,
-            "answer": "50 kW.",
-            "isCorrect": false,
-            "explanation": "Potencia elevada que requeriría protecciones individuales de seguridad obligatorias."
+            "answer": "Falta de una fase en motores trifásicos.",
+            "isCorrect": true,
+            "explanation": "Evita que el motor se queme al intentar funcionar con dos fases."
           },
           {
             "id": 4,
-            "answer": "No hay límite de potencia, depende solo del tipo de motor.",
+            "answer": "Que el motor gire hacia atrás.",
             "isCorrect": false,
-            "explanation": "El REBT establece un límite claro de 10 kW para esta excepción."
+            "explanation": "Eso se controla en la maniobra, no es una protección de seguridad eléctrica obligatoria general."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-07",
-        "question": "En un motor de C.A. de 3 kW, ¿cuál es la relación máxima permitida entre la corriente de arranque y la de plena carga?",
+        "type": "simple",
+        "question": "¿Es obligatorio el uso de un relé térmico (protección contra sobrecarga) en todos los motores?",
         "options": [
           {
             "id": 1,
-            "answer": "4,5.",
+            "answer": "Sí, en todos sin excepción.",
             "isCorrect": false,
-            "explanation": "Este valor es para motores más pequeños, de 0,75 a 1,5 kW."
+            "explanation": "Hay excepciones para motores muy pequeños o de seguridad crítica."
           },
           {
             "id": 2,
-            "answer": "3,0.",
+            "answer": "En general sí para potencias > 0,5 kW, salvo que el motor esté integrado en un aparato con su propia protección.",
             "isCorrect": true,
-            "explanation": "Para la gama de 1,5 kW a 5 kW en alterna, el límite es 3 veces la intensidad nominal. Fuente: ITC-BT-47, Tabla 1."
+            "explanation": "Previene el deterioro del aislamiento por exceso de calor. Fuente: ITC-BT-47, Apartado 4."
           },
           {
             "id": 3,
-            "answer": "2,0.",
+            "answer": "Solo si el motor es de color azul.",
             "isCorrect": false,
-            "explanation": "Este límite aplica a motores de entre 5 y 15 kW."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "1,5.",
+            "answer": "No, basta con un fusible de 100A.",
             "isCorrect": false,
-            "explanation": "Es el límite para motores grandes, de más de 15 kW."
+            "explanation": "El fusible de 100A no vería una sobrecarga pequeña que queme el motor."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-08",
-        "question": "¿Qué coeficiente se aplica a la intensidad normal para calcular la carga en motores de ascensores y grúas?",
+        "type": "simple",
+        "question": "Sobre la protección contra falta de tensión, ¿por qué es necesaria en una cinta transportadora?",
         "options": [
           {
             "id": 1,
-            "answer": "1,0.",
+            "answer": "Para que no se gaste la cinta.",
             "isCorrect": false,
-            "explanation": "No considera los esfuerzos adicionales del régimen de elevación."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "1,3.",
+            "answer": "Para evitar que si se va la luz y vuelve, la cinta arranque sola y atrape a un operario que esté haciendo mantenimiento.",
             "isCorrect": true,
-            "explanation": "Para aparatos de elevación, se incrementa la intensidad de régimen un 30% a efectos de las constantes de arranque. Fuente: ITC-BT-47, Apartado 6."
+            "explanation": "Seguridad de las personas ante el rearranque automático. Fuente: ITC-BT-47, Apartado 5."
           },
           {
             "id": 3,
-            "answer": "1,5.",
+            "answer": "Para que la luz no parpadee.",
             "isCorrect": false,
-            "explanation": "Valor superior al coeficiente reglamentario de 1,3."
+            "explanation": "No influye en el parpadeo."
           },
           {
             "id": 4,
-            "answer": "2,5.",
+            "answer": "Solo si la cinta transporta explosivos.",
             "isCorrect": false,
-            "explanation": "Valor excesivo para el cálculo de intensidad nominal en elevación."
+            "explanation": "Necesaria en cualquier máquina con partes móviles peligrosas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-09",
-        "question": "¿A qué distancia mínima deben separarse los reóstatos de arranque de los muros?",
+        "type": "simple",
+        "question": "En cuanto a la intensidad de arranque, ¿qué limitación general impone el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "1 cm.",
+            "answer": "Ninguna, el arranque es libre.",
             "isCorrect": false,
-            "explanation": "Insuficiente para una correcta disipación de calor y evitar daños al muro."
+            "explanation": "Los picos de arranque pueden tirar la red del edificio o barrio."
           },
           {
             "id": 2,
-            "answer": "5 cm.",
+            "answer": "La caída de tensión en el arranque no debe perturbar el funcionamiento de otros receptores.",
             "isCorrect": true,
-            "explanation": "Se requiere este espacio mínimo para ventilación y seguridad térmica. Fuente: ITC-BT-47, Apartado 7."
+            "explanation": "Exige sistemas de arranque progresivo (estrella-triángulo, variador) según potencia. Fuente: ITC-BT-47, Apartado 6."
           },
           {
             "id": 3,
-            "answer": "10 cm.",
+            "answer": "Solo se puede arrancar de noche.",
             "isCorrect": false,
-            "explanation": "Aunque es mejor, la norma fija el mínimo en 5 cm."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "No hay distancia mínima si el muro es de piedra.",
+            "answer": "Se debe arrancar empujando el eje con la mano.",
             "isCorrect": false,
-            "explanation": "La norma no distingue el material del muro para esta distancia de separación."
+            "explanation": "Peligrosísimo y técnicamente inviable."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-10",
-        "question": "¿De qué clase deben ser las herramientas portátiles utilizadas en el exterior (como obras)?",
+        "type": "simple",
+        "question": "¿Qué requisito deben cumplir los reóstatos de arranque y resistencias?",
         "options": [
           {
             "id": 1,
-            "answer": "Clase I únicamente.",
+            "answer": "Deben ser de plástico inflamable.",
             "isCorrect": false,
-            "explanation": "Requieren medidas adicionales como transformador de separación para ser seguras en exteriores."
+            "explanation": "Arderían al primer uso."
           },
           {
             "id": 2,
-            "answer": "Clase II o Clase III.",
+            "answer": "Deben estar instalados de forma que el calor se disipe bien y no incendien materiales próximos.",
             "isCorrect": true,
-            "explanation": "Son las clases de aislamiento que garantizan seguridad sin depender exclusivamente de la puesta a tierra en entornos húmedos o de obra. Fuente: ITC-BT-47, Apartado 8."
+            "explanation": "Generan mucho calor residual durante el arranque. Fuente: ITC-BT-47, Apartado 7."
           },
           {
             "id": 3,
-            "answer": "Clase 0 (Sin toma de tierra).",
+            "answer": "Deben estar sumergidos en agua.",
             "isCorrect": false,
-            "explanation": "Están totalmente prohibidas en cualquier ámbito profesional por su peligrosidad."
+            "explanation": "Peligro de cortocircuito y corrosión."
           },
           {
             "id": 4,
-            "answer": "Cualquier clase si se usa casco de seguridad.",
+            "answer": "No se pueden usar resistencias en motores.",
             "isCorrect": false,
-            "explanation": "El equipo de protección personal no exime de usar herramientas con el aislamiento adecuado."
+            "explanation": "Se usan en el arranque de motores de rotor devanado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-11",
-        "question": "¿Bajo qué condición se pueden usar herramientas de Clase I en una obra de construcción?",
+        "type": "multiple",
+        "question": "¿Qué se considera una herramienta portátil profesional según la ITC-BT-47?",
         "options": [
           {
             "id": 1,
-            "answer": "Si el suelo está seco.",
+            "answer": "Un taladro de columna fijo al suelo.",
             "isCorrect": false,
-            "explanation": "La condición del suelo no cambia la exigencia reglamentaria de aislamiento."
+            "explanation": "Es una máquina fija, no portátil."
           },
           {
             "id": 2,
-            "answer": "Si se alimentan a través de un transformador de separación de circuitos.",
+            "answer": "Una amoladora (radial) manual.",
             "isCorrect": true,
-            "explanation": "El transformador aísla galvánicamente la herramienta de la red, eliminando el riesgo de electrocución por defecto a tierra. Fuente: ITC-BT-47, Apartado 8."
+            "explanation": "Herramienta que se sostiene con las manos en uso."
           },
           {
             "id": 3,
-            "answer": "Si se conectan a un diferencial de 10 mA.",
-            "isCorrect": false,
-            "explanation": "Aunque es una buena medida, el REBT exige transformador de separación para Clase I en obras."
+            "answer": "Una sierra circular de mano.",
+            "isCorrect": true,
+            "explanation": "Cumple la definición de portátil. Fuente: ITC-BT-47, Apartado 8."
           },
           {
             "id": 4,
-            "answer": "Si la potencia de la herramienta es menor de 500 W.",
+            "answer": "Un martillo neumático.",
             "isCorrect": false,
-            "explanation": "La potencia no determina la permisibilidad de la Clase I en este entorno."
+            "explanation": "Es una herramienta de aire, no eléctrica receptora del REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-12",
-        "question": "¿Qué clase de herramienta portátil a mano es obligatoria en el interior de calderas metálicas?",
+        "type": "simple",
+        "question": "Sobre las herramientas portátiles, ¿qué clase de protección es preferible para su uso en obras?",
         "options": [
           {
             "id": 1,
-            "answer": "Clase I.",
+            "answer": "Clase 0 (sin tierra).",
             "isCorrect": false,
-            "explanation": "Riesgo extremo de contacto con las paredes metálicas del depósito."
+            "explanation": "Prohibida por su peligrosidad extrema."
           },
           {
             "id": 2,
-            "answer": "Clase III.",
+            "answer": "Clase II (doble aislamiento).",
             "isCorrect": true,
-            "explanation": "Al funcionar a Muy Baja Tensión de Seguridad (MBTS), es la única permitida en recintos tan conductores. Fuente: ITC-BT-47, Apartado 8."
+            "explanation": "No requiere toma de tierra, lo cual es más seguro en entornos donde el cable de tierra suele romperse. Fuente: ITC-BT-47, Apartado 8."
           },
           {
             "id": 3,
-            "answer": "Clase II.",
+            "answer": "Clase III (muy baja tensión) solamente.",
             "isCorrect": false,
-            "explanation": "No es suficiente para recintos muy conductores según este apartado específico."
+            "explanation": "Sería lo ideal, pero muchas herramientas profesionales requieren 230V para tener fuerza."
           },
           {
             "id": 4,
-            "answer": "Ninguna, está prohibido el uso de herramientas eléctricas en calderas.",
+            "answer": "Clase I (con tierra metálica vista).",
             "isCorrect": false,
-            "explanation": "Se permite su uso siempre que sean de Clase III."
+            "explanation": "Se permite, pero es menos recomendada que la Clase II por el riesgo de pérdida de continuidad de tierra."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-13",
-        "question": "En un motor de C.C. de más de 5 kW, ¿cuál es el límite de la constante de proporcionalidad de arranque?",
+        "type": "simple",
+        "question": "¿Para qué sirve el botón de 'parada de emergencia' en un motor industrial?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5.",
+            "answer": "Para apagarlo cuando termina la jornada.",
             "isCorrect": false,
-            "explanation": "Para motores de CC de 0,75 a 1,5 kW."
+            "explanation": "Para eso está el mando de maniobra normal."
           },
           {
             "id": 2,
-            "answer": "1,5.",
+            "answer": "Para detener el motor de forma inmediata y segura ante un peligro inminente (atrapamiento, rotura).",
             "isCorrect": true,
-            "explanation": "En corriente continua, los motores grandes (> 5 kW) tienen el límite de arranque más restrictivo. Fuente: ITC-BT-47, Tabla 1."
+            "explanation": "Función de seguridad vital que debe ser fácilmente accesible. Fuente: ITC-BT-47, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "2,0.",
+            "answer": "Para ahorrar energía.",
             "isCorrect": false,
-            "explanation": "Aplica a la gama intermedia de 1,5 a 5 kW en CC."
+            "explanation": "No influye en el ahorro."
           },
           {
             "id": 4,
-            "answer": "4,5.",
+            "answer": "Para que el motor no haga ruido.",
             "isCorrect": false,
-            "explanation": "Este valor no existe para motores de corriente continua en la tabla."
+            "explanation": "El motor se para, pero la función es la seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-14",
-        "question": "¿Cómo deben protegerse los muros si no se puede mantener la distancia mínima de los reóstatos?",
+        "type": "simple",
+        "question": "En un motor trifásico, ¿qué sucede si se intercambian dos fases de la alimentación?",
         "options": [
           {
             "id": 1,
-            "answer": "Pintándolos con pintura plástica.",
+            "answer": "El motor se quema inmediatamente.",
             "isCorrect": false,
-            "explanation": "La pintura plástica es inflamable y no ofrece protección térmica."
+            "explanation": "No se quema por eso."
           },
           {
             "id": 2,
-            "answer": "Mediante un revestimiento ignífugo.",
+            "answer": "El motor invierte su sentido de giro.",
             "isCorrect": true,
-            "explanation": "Se interpone una barrera que no propague el fuego ni se degrade por el calor. Fuente: ITC-BT-47, Apartado 7."
+            "explanation": "Es la forma estándar de cambiar el giro de un motor trifásico. Fuente: Teoría de máquinas eléctricas."
           },
           {
             "id": 3,
-            "answer": "Instalando un ventilador de gran potencia.",
+            "answer": "El motor gira el doble de rápido.",
             "isCorrect": false,
-            "explanation": "Medida activa que puede fallar, la norma exige protección pasiva o distancia."
+            "explanation": "La velocidad depende de la frecuencia y los polos."
           },
           {
             "id": 4,
-            "answer": "No se permite su instalación si no hay distancia.",
+            "answer": "Se convierte en un generador.",
             "isCorrect": false,
-            "explanation": "Se permite si se usa el revestimiento ignífugo adecuado."
+            "explanation": "Falso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-15",
-        "question": "¿Qué elemento debe permitir la separación de reóstatos y resistencias de la instalación?",
+        "type": "simple",
+        "question": "¿Qué es la 'intensidad de arranque' de un motor?",
         "options": [
           {
             "id": 1,
-            "answer": "Un interruptor diferencial.",
+            "answer": "La corriente que consume cuando está parado.",
             "isCorrect": false,
-            "explanation": "Protege contra fugas, no es el elemento de separación funcional y de corte."
+            "explanation": "Parado no consume (0A)."
           },
           {
             "id": 2,
-            "answer": "Dispositivos de corte omnipolar.",
+            "answer": "Pico de corriente muy superior a la nominal que se produce en el instante inicial para vencer la inercia del eje.",
             "isCorrect": true,
-            "explanation": "Pueden ser los propios interruptores generales del motor. Fuente: ITC-BT-47, Apartado 7."
+            "explanation": "Puede ser de 5 a 8 veces la intensidad nominal en arranques directos. Fuente: ITC-BT-47, Apartado 6."
           },
           {
             "id": 3,
-            "answer": "Un fusible unipolar.",
+            "answer": "La corriente que gasta al final del día.",
             "isCorrect": false,
-            "explanation": "No permite el corte omnipolar simultáneo exigido."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Una clavija de enchufe de 10 A.",
+            "answer": "La corriente que consume el ventilador del motor.",
             "isCorrect": false,
-            "explanation": "Inadecuado para la mayoría de reóstatos industriales."
+            "explanation": "Esa es una parte mínima del total."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-16",
-        "question": "¿Cuándo se requiere conformidad de la empresa distribuidora para motores en red pública?",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene usar un variador de frecuencia para controlar un motor?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre que la potencia supere 0,75 kW.",
-            "isCorrect": false,
-            "explanation": "Superar 0,75 kW solo obliga a limitar el arranque, no siempre a pedir conformidad."
+            "answer": "Elimina el pico de intensidad en el arranque.",
+            "isCorrect": true,
+            "explanation": "Arranque suave y progresivo."
           },
           {
             "id": 2,
-            "answer": "En motores de gran inercia, frenado o inversión de marcha frecuente.",
+            "answer": "Permite regular la velocidad del motor de forma precisa.",
             "isCorrect": true,
-            "explanation": "Son casos que provocan perturbaciones importantes en la red de distribución. Fuente: ITC-BT-47, Apartado 6."
+            "explanation": "Control total sobre el proceso mecánico."
           },
           {
             "id": 3,
-            "answer": "Solo si se instalan en zonas rurales.",
-            "isCorrect": false,
-            "explanation": "Aplica a cualquier red pública de distribución."
+            "answer": "Mejor ahorro energético al adaptar el consumo a la carga real.",
+            "isCorrect": true,
+            "explanation": "Evita desperdicios de energía. Fuente: Eficiencia en motores."
           },
           {
             "id": 4,
-            "answer": "Nunca, el usuario es libre de conectar lo que quiera bajo su responsabilidad.",
+            "answer": "Hace que el motor funcione sin electricidad.",
             "isCorrect": false,
-            "explanation": "Existen limitaciones legales para proteger la calidad del suministro eléctrico."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-17",
-        "question": "¿Qué ocurre con la protección contra falta de tensión si el motor vuelve automáticamente a la posición de arranque inicial?",
+        "type": "simple",
+        "question": "Sobre la refrigeración del motor, ¿qué precaución se debe tener al instalarlo?",
         "options": [
           {
             "id": 1,
-            "answer": "Se exige con mayor rigor.",
+            "answer": "Ponerle una manta para que no se enfríe.",
             "isCorrect": false,
-            "explanation": "Al contrario, el rearranque controlado es más seguro."
+            "explanation": "Se quemaría por falta de ventilación."
           },
           {
             "id": 2,
-            "answer": "No se exigirá, siempre que se excluya la posibilidad de accidente.",
+            "answer": "Dejar espacio libre suficiente alrededor de la rejilla del ventilador y evitar lugares cerrados sin renovación de aire.",
             "isCorrect": true,
-            "explanation": "El retorno a la posición inicial garantiza que el motor arrancará suavemente tras el corte. Fuente: ITC-BT-47, Apartado 5."
+            "explanation": "El calor acumulado acorta drásticamente la vida del motor. Fuente: ITC-BT-47, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "Se debe sustituir por un relé de frecuencia.",
+            "answer": "Echarle agua con una manguera mientras gira.",
             "isCorrect": false,
-            "explanation": "No tiene relación con la protección por falta de tensión."
+            "explanation": "Peligro mortal y cortocircuito, salvo motores específicos sumergibles."
           },
           {
             "id": 4,
-            "answer": "No influye en el requisito reglamentario.",
+            "answer": "Pintarlo de negro.",
             "isCorrect": false,
-            "explanation": "Es una de las excepciones contempladas para el uso del dispositivo."
+            "explanation": "No ayuda significativamente a la refrigeración forzada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-18",
-        "question": "¿Cuál es el ajuste máximo de protección contra sobrecargas para un aparato de soldadura si no hay otro protector?",
+        "type": "simple",
+        "question": "¿Qué es un motor 'monofásico con condensador de arranque'?",
         "options": [
           {
             "id": 1,
-            "answer": "100 % de In.",
+            "answer": "Uno que funciona con pilas.",
             "isCorrect": false,
-            "explanation": "Valor muy ajustado para las características de la soldadura."
+            "explanation": "Usa red de alterna 230V."
           },
           {
             "id": 2,
-            "answer": "200 % de In.",
+            "answer": "Motor de uso doméstico/pequeña industria que usa un condensador para crear un desfase y poder arrancar solo.",
             "isCorrect": true,
-            "explanation": "Se permite este margen para evitar disparos durante el proceso de cebado y soldadura. Fuente: ITC-BT-47 (aunque se cita en 45, es común a motores industriales)."
+            "explanation": "Típico en bombas de agua, hormigoneras, etc. Fuente: Máquinas eléctricas."
           },
           {
             "id": 3,
-            "answer": "125 % de In.",
+            "answer": "Un motor que no tiene fuerza.",
             "isCorrect": false,
-            "explanation": "Es el coeficiente para conductores de motores, no el ajuste de sobrecarga en soldadura."
+            "explanation": "Tienen fuerza suficiente para su diseño."
           },
           {
             "id": 4,
-            "answer": "500 % de In.",
+            "answer": "Un motor que explota.",
             "isCorrect": false,
-            "explanation": "Valor excesivo que no protegería la máquina."
+            "explanation": "Solo si el condensador falla o es de mala calidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-19",
-        "question": "¿Qué disposición deben tener las ranuras de ventilación en los aparatos de motores?",
+        "type": "simple",
+        "question": "Sobre la placa de características de un motor, ¿cuál es el dato más importante para dimensionar el cable?",
         "options": [
           {
             "id": 1,
-            "answer": "Estar abiertas hacia arriba para que salga el calor.",
+            "answer": "El peso en kilos.",
             "isCorrect": false,
-            "explanation": "Podría entrar suciedad o agua, no es el requisito de seguridad eléctrica."
+            "explanation": "Irrelevante para la sección eléctrica."
           },
           {
             "id": 2,
-            "answer": "Que no se pueda alcanzar partes bajo tensión en su interior.",
+            "answer": "La Intensidad Nominal (In) a la tensión de trabajo.",
             "isCorrect": true,
-            "explanation": "Garantiza la protección contra contactos directos según el grado IP. Fuente: ITC-BT-47, Apartado 8."
+            "explanation": "Es la base para aplicar el coeficiente del 125%. Fuente: ITC-BT-47, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Tener filtros de papel intercambiables.",
+            "answer": "El nombre del fabricante.",
             "isCorrect": false,
-            "explanation": "No es un requisito reglamentario del REBT."
+            "explanation": "Irrelevante."
           },
           {
             "id": 4,
-            "answer": "Estar cerradas con cristal templado.",
+            "answer": "El color de la pintura.",
             "isCorrect": false,
-            "explanation": "Impediría la ventilación necesaria."
+            "explanation": "Irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-20",
-        "question": "En motores de C.A. de más de 15 kW, ¿cuál es la relación de intensidad de arranque máxima?",
+        "type": "simple",
+        "question": "En caso de incendio en un motor, ¿qué tipo de extintor debe usarse?",
         "options": [
           {
             "id": 1,
-            "answer": "1,5.",
-            "isCorrect": true,
-            "explanation": "Los motores de gran potencia deben tener los arranques más limitados proporcionalmente. Fuente: ITC-BT-47, Tabla 1."
+            "answer": "Uno de agua a chorro.",
+            "isCorrect": false,
+            "explanation": "Peligro de electrocución del operario."
           },
           {
             "id": 2,
-            "answer": "2,0.",
-            "isCorrect": false,
-            "explanation": "Este es el límite para motores de 5 a 15 kW."
+            "answer": "CO2 o polvo químico seco ABC.",
+            "isCorrect": true,
+            "explanation": "No conducen la electricidad y son efectivos contra fuegos eléctricos. Fuente: Normas de seguridad contra incendios."
           },
           {
             "id": 3,
-            "answer": "4,5.",
+            "answer": "Echarle una manta húmeda.",
             "isCorrect": false,
-            "explanation": "Es el límite para los motores más pequeños."
+            "explanation": "Peligro de electrocución."
           },
           {
             "id": 4,
-            "answer": "No hay límite para motores de alta potencia.",
+            "answer": "Soplar muy fuerte.",
             "isCorrect": false,
-            "explanation": "Es precisamente donde las limitaciones son más estrictas."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-21",
-        "question": "¿Cuál es la constante de proporcionalidad para motores de CC entre 1,5 y 5 kW?",
+        "type": "multiple",
+        "question": "¿Qué problemas causa el desequilibrio de fases en un motor trifásico?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5.",
-            "isCorrect": false,
-            "explanation": "Para motores de 0,75 a 1,5 kW."
+            "answer": "Aumento excesivo de la temperatura en el bobinado de la fase con más carga.",
+            "isCorrect": true,
+            "explanation": "Riesgo de quemado del motor."
           },
           {
             "id": 2,
-            "answer": "2,0.",
+            "answer": "Vibraciones mecánicas anormales.",
             "isCorrect": true,
-            "explanation": "Valor reglamentario para la gama media de motores de corriente continua. Fuente: ITC-BT-47, Tabla 1."
+            "explanation": "Daño a los rodamientos y acoplamientos."
           },
           {
             "id": 3,
-            "answer": "1,5.",
-            "isCorrect": false,
-            "explanation": "Para motores de más de 5 kW."
+            "answer": "Pérdida de par motor (menos fuerza).",
+            "isCorrect": true,
+            "explanation": "El motor no puede mover la carga."
           },
           {
             "id": 4,
-            "answer": "3,0.",
+            "answer": "Que el motor gaste menos luz.",
             "isCorrect": false,
-            "explanation": "Este valor no corresponde a la tabla de corriente continua."
+            "explanation": "Gasta más por las pérdidas por calor."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-22",
-        "question": "¿Qué ocurre si un motor arranca automáticamente bajo condiciones preestablecidas?",
+        "type": "simple",
+        "question": "¿Qué es la protección 'IP55' en un motor?",
         "options": [
           {
             "id": 1,
-            "answer": "Debe tener un diferencial de 10 mA.",
+            "answer": "Que el motor es muy rápido.",
             "isCorrect": false,
-            "explanation": "No es una consecuencia directa del arranque automático."
+            "explanation": "No tiene que ver con la velocidad."
           },
           {
             "id": 2,
-            "answer": "No se exigirá dispositivo contra falta de tensión, si se excluye el accidente.",
+            "answer": "Grado de protección contra la entrada de polvo y chorros de agua.",
             "isCorrect": true,
-            "explanation": "Se entiende que el proceso está diseñado para rearrancar de forma segura. Fuente: ITC-BT-47, Apartado 5."
+            "explanation": "Permite su uso en entornos industriales sucios o con humedad. Fuente: Normas IP."
           },
           {
             "id": 3,
-            "answer": "Debe tener un operario vigilándolo permanentemente.",
+            "answer": "Que tiene 55 caballos de potencia.",
             "isCorrect": false,
-            "explanation": "La automatización busca precisamente evitar la intervención humana constante."
+            "explanation": "IP es 'Ingress Protection'."
           },
           {
             "id": 4,
-            "answer": "Se prohíbe el arranque automático en baja tensión.",
+            "answer": "Que funciona a 55 Hercios.",
             "isCorrect": false,
-            "explanation": "Está permitido y es muy común en la industria."
+            "explanation": "Falso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-23",
-        "question": "¿Qué intensidad se considera 'normal' en motores de elevación para aplicar las tablas de arranque?",
+        "type": "simple",
+        "question": "Sobre los cables de conexión de herramientas portátiles, ¿qué tipo de cable es obligatorio para resistir el uso duro?",
         "options": [
           {
             "id": 1,
-            "answer": "La de placa directamente.",
+            "answer": "Cable de teléfono.",
             "isCorrect": false,
-            "explanation": "En elevación el régimen es intermitente y requiere un ajuste."
+            "explanation": "Demasiado fino y frágil."
           },
           {
             "id": 2,
-            "answer": "La necesaria para elevar cargas normales multiplicada por 1,3.",
+            "answer": "Cables con cubierta de caucho o neopreno de alta resistencia mecánica (ej: H07RN-F).",
             "isCorrect": true,
-            "explanation": "Se compensa el esfuerzo de par necesario en el régimen de trabajo. Fuente: ITC-BT-47, Apartado 6."
+            "explanation": "Soportan pisotones, roces y grasas. Fuente: ITC-BT-20."
           },
           {
             "id": 3,
-            "answer": "La mitad de la de placa.",
+            "answer": "Cables rígidos de los de dentro de la pared.",
             "isCorrect": false,
-            "explanation": "Subestimaría la carga real y las perturbaciones de arranque."
+            "explanation": "Se romperían al primer doblado."
           },
           {
             "id": 4,
-            "answer": "La máxima intensidad de pico registrada.",
+            "answer": "Cinta aislante trenzada.",
             "isCorrect": false,
-            "explanation": "No es el criterio técnico del REBT."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-24",
-        "question": "En un motor de C.A. de 10 kW, ¿cuál es el límite de intensidad de arranque?",
+        "type": "simple",
+        "question": "¿Para qué sirve el 'coseno de phi' (factor de potencia) que aparece en la placa del motor?",
         "options": [
           {
             "id": 1,
-            "answer": "4,5 veces In.",
+            "answer": "Para saber cuánto brilla el motor.",
             "isCorrect": false,
-            "explanation": "Valor para motores muy pequeños."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "2,0 veces In.",
+            "answer": "Indica la relación entre la potencia activa (útil) y la aparente; si es muy bajo, se debe compensar con condensadores.",
             "isCorrect": true,
-            "explanation": "En la gama de 5 a 15 kW en alterna, el coeficiente es 2. Fuente: ITC-BT-47, Tabla 1."
+            "explanation": "Evita penalizaciones en la factura y sobrecarga de las líneas por energía reactiva. Fuente: ITC-BT-43."
           },
           {
             "id": 3,
-            "answer": "1,5 veces In.",
+            "answer": "Es la temperatura de congelación del aceite.",
             "isCorrect": false,
-            "explanation": "Para motores de más de 15 kW."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "3,0 veces In.",
+            "answer": "Indica el número de fases.",
             "isCorrect": false,
-            "explanation": "Para motores de 1,5 a 5 kW."
+            "explanation": "No, eso es otro dato (3~)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-47-25",
-        "question": "¿Cuál es el límite de potencia para motores que NO requieren limitación de arranque?",
+        "type": "simple",
+        "question": "En un taller, ¿se pueden usar cables por el suelo para alimentar herramientas portátiles?",
         "options": [
           {
             "id": 1,
-            "answer": "0,75 kW.",
-            "isCorrect": true,
-            "explanation": "Los motores de potencia igual o inferior a 0,75 kW no están obligados a limitar la relación de corriente de arranque. Fuente: ITC-BT-47, Apartado 6."
+            "answer": "Sí, es lo normal.",
+            "isCorrect": false,
+            "explanation": "Peligro de tropiezos y daños al cable."
           },
           {
             "id": 2,
-            "answer": "1,5 kW.",
-            "isCorrect": false,
-            "explanation": "A partir de 0,75 kW ya empiezan las limitaciones."
+            "answer": "Se debe evitar; lo ideal son tomas de corriente en el techo o paredes con cables recogibles o protegidos por canaletas de suelo.",
+            "isCorrect": true,
+            "explanation": "Mejora la seguridad laboral y la duración del material. Fuente: Prevención de Riesgos Laborales."
           },
           {
             "id": 3,
-            "answer": "5 kW.",
+            "answer": "Solo si los cables son amarillos.",
             "isCorrect": false,
-            "explanation": "A esta potencia las limitaciones son estrictas (3,0 en CA)."
+            "explanation": "El color ayuda a verlos, pero no elimina el riesgo de daño mecánico."
           },
           {
             "id": 4,
-            "answer": "Todos los motores deben limitar su arranque sin excepción.",
+            "answer": "Sí, si se tapan con una alfombra.",
             "isCorrect": false,
-            "explanation": "Los pequeños (<= 0,75 kW) están exentos de esta tabla específica."
+            "explanation": "Peligro de incendio por falta de ventilación y daño oculto."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-47-26",
+        "type": "multiple",
+        "question": "¿Qué elementos componen un arrancador estrella-triángulo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tres contactores.",
+            "isCorrect": true,
+            "explanation": "Uno de línea, uno de estrella y otro de triángulo."
+          },
+          {
+            "id": 2,
+            "answer": "Un relé temporizador.",
+            "isCorrect": true,
+            "explanation": "Para pasar de estrella a triángulo tras unos segundos."
+          },
+          {
+            "id": 3,
+            "answer": "Protección térmica.",
+            "isCorrect": true,
+            "explanation": "Para proteger al motor. Fuente: Esquemas de potencia."
+          },
+          {
+            "id": 4,
+            "answer": "Una batería de coche.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-27",
+        "type": "simple",
+        "question": "Sobre el frenado de un motor, ¿qué es el 'frenado por inyección de corriente continua'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Echarle agua fría.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Inyectar una pequeña corriente continua en el estator para crear un campo magnético fijo que frene el rotor rápido.",
+            "isCorrect": true,
+            "explanation": "Método de frenado eléctrico seguro y sin desgaste mecánico. Fuente: Control de motores."
+          },
+          {
+            "id": 3,
+            "answer": "Ponerle una zapata de freno de bici.",
+            "isCorrect": false,
+            "explanation": "Eso sería frenado mecánico por fricción."
+          },
+          {
+            "id": 4,
+            "answer": "Desconectarlo de la luz simplemente.",
+            "isCorrect": false,
+            "explanation": "Eso es parada libre, no frenado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-28",
+        "type": "simple",
+        "question": "¿Qué es un motor 'ex' (antideflagrante)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un motor que ya no funciona (ex-motor).",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Motor diseñado para trabajar en atmósferas explosivas (gasolineras, silos de cereal) sin provocar una ignición externa.",
+            "isCorrect": true,
+            "explanation": "Vital para la seguridad en entornos ATEX. Fuente: ITC-BT-29."
+          },
+          {
+            "id": 3,
+            "answer": "Un motor que corre mucho.",
+            "isCorrect": false,
+            "explanation": "No tiene relación."
+          },
+          {
+            "id": 4,
+            "answer": "Un motor de juguete.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-29",
+        "type": "simple",
+        "question": "Sobre los motores de las persianas domésticas, ¿por qué no requieren generalmente relé térmico externo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque son muy listos.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Suelen llevar una sonda térmica interna que corta el motor si se calienta demasiado por uso intensivo.",
+            "isCorrect": true,
+            "explanation": "Protección integrada de fábrica. Fuente: Especificaciones de motores tubulares."
+          },
+          {
+            "id": 3,
+            "answer": "Porque no hacen fuerza.",
+            "isCorrect": false,
+            "explanation": "Hacen fuerza suficiente para levantar la persiana."
+          },
+          {
+            "id": 4,
+            "answer": "Porque la persiana les da sombra.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-30",
+        "type": "simple",
+        "question": "En un motor industrial, ¿qué comprobación periódica es vital para evitar incendios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pintarlo cada año.",
+            "isCorrect": false,
+            "explanation": "Estética."
+          },
+          {
+            "id": 2,
+            "answer": "Revisar que no haya acumulaciones de polvo o virutas de madera/metal en las aletas de refrigeración.",
+            "isCorrect": true,
+            "explanation": "La suciedad impide enfriar y puede arder con el calor del motor. Fuente: Mantenimiento preventivo."
+          },
+          {
+            "id": 3,
+            "answer": "Hablarle con cariño.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Cambiarle los tornillos por otros más brillantes.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-31",
+        "type": "multiple",
+        "question": "¿Qué puede causar que un motor trifásico 'zumbe' pero no arranque?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Falta de una de las tres fases.",
+            "isCorrect": true,
+            "explanation": "El motor no puede generar el campo giratorio."
+          },
+          {
+            "id": 2,
+            "answer": "Eje bloqueado mecánicamente.",
+            "isCorrect": true,
+            "explanation": "Carga excesiva o rodamiento gripado."
+          },
+          {
+            "id": 3,
+            "answer": "Tensión de alimentación muy baja.",
+            "isCorrect": true,
+            "explanation": "El motor no tiene par suficiente para vencer la inercia. Fuente: Fallos en motores."
+          },
+          {
+            "id": 4,
+            "answer": "Que el motor esté al revés.",
+            "isCorrect": false,
+            "explanation": "Giraría al revés, pero arrancaría."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-32",
+        "type": "simple",
+        "question": "¿Para qué sirve el ventilador que llevan los motores en el eje trasero?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para soplarle al operario.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Para forzar el paso de aire por las aletas de la carcasa y enfriar el estator mientras gira.",
+            "isCorrect": true,
+            "explanation": "Refrigeración forzada indispensable en motores cerrados. Fuente: Diseño de máquinas."
+          },
+          {
+            "id": 3,
+            "answer": "Para que el motor vuele.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Para hacer ruido y saber que está encendido.",
+            "isCorrect": false,
+            "explanation": "El ruido es un efecto secundario, no la función."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-33",
+        "type": "simple",
+        "question": "Sobre el cable de puesta a tierra de un motor, ¿a dónde debe conectarse?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A una de las fases.",
+            "isCorrect": false,
+            "explanation": "Cortocircuito mortal."
+          },
+          {
+            "id": 2,
+            "answer": "Al borne específico marcado con el símbolo de tierra dentro de la caja de bornes metálica.",
+            "isCorrect": true,
+            "explanation": "Garantiza que cualquier derivación a la carcasa sea segura. Fuente: ITC-BT-18."
+          },
+          {
+            "id": 3,
+            "answer": "A la tubería del agua.",
+            "isCorrect": false,
+            "explanation": "Prohibido usar tuberías como única toma de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "No hace falta si la bancada es de hierro.",
+            "isCorrect": false,
+            "explanation": "La bancada debe estar conectada a tierra, pero el motor también de forma directa."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-34",
+        "type": "simple",
+        "question": "¿Qué es un motor de 'jaula de ardilla'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un motor donde corre una ardilla dentro.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Motor de inducción con un rotor formado por barras metálicas unidas por anillos, muy robusto y sin escobillas.",
+            "isCorrect": true,
+            "explanation": "Es el motor industrial más común del mundo por su fiabilidad. Fuente: Teoría de motores."
+          },
+          {
+            "id": 3,
+            "answer": "Un motor de juguete para mascotas.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Un motor que hace ruido de ardilla.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-35",
+        "type": "simple",
+        "question": "Sobre los motores instalados en intemperie, ¿qué mantenimiento extra requieren?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ponerles un chubasquero.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Revisar periódicamente la estanqueidad de la caja de bornes y el estado de los prensaestopas.",
+            "isCorrect": true,
+            "explanation": "Evita la entrada de agua que causaría cortocircuitos. Fuente: ITC-BT-30."
+          },
+          {
+            "id": 3,
+            "answer": "Taparlos con arena.",
+            "isCorrect": false,
+            "explanation": "Se quemarían por calor y suciedad."
+          },
+          {
+            "id": 4,
+            "answer": "No requieren nada, son de hierro.",
+            "isCorrect": false,
+            "explanation": "El hierro se oxida y las juntas se pasan."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-36",
+        "type": "multiple",
+        "question": "¿Qué datos son necesarios para configurar un relé térmico correctamente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La Intensidad Nominal (In) del motor.",
+            "isCorrect": true,
+            "explanation": "El relé debe ajustarse exactamente a la In del motor."
+          },
+          {
+            "id": 2,
+            "answer": "El tipo de arranque (si es muy largo, el relé debe ser de una clase superior).",
+            "isCorrect": true,
+            "explanation": "Evita disparos innecesarios durante el arranque."
+          },
+          {
+            "id": 3,
+            "answer": "La temperatura ambiente del local.",
+            "isCorrect": true,
+            "explanation": "Afecta a la curva de disparo del relé térmico bimetálico. Fuente: Catálogos de protección."
+          },
+          {
+            "id": 4,
+            "answer": "La marca de la pintura del motor.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-37",
+        "type": "simple",
+        "question": "¿Para qué sirve un 'guardamotor'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para guardar el motor en el almacén.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Aparato que combina protección térmica (sobrecarga) y magnética (cortocircuito) en un solo bloque para motores.",
+            "isCorrect": true,
+            "explanation": "Protección compacta y efectiva para motores pequeños y medianos. Fuente: Componentes de potencia."
+          },
+          {
+            "id": 3,
+            "answer": "Para que nadie robe el motor.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "Para regular la velocidad.",
+            "isCorrect": false,
+            "explanation": "No regula velocidad, solo protege."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-38",
+        "type": "simple",
+        "question": "Sobre el ruido de un motor, ¿qué puede indicar un sonido agudo y metálico constante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el motor está contento.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Desgaste o falta de engrase en los rodamientos del eje.",
+            "isCorrect": true,
+            "explanation": "Aviso previo a un bloqueo mecánico que quemaría el motor. Fuente: Diagnóstico por vibraciones."
+          },
+          {
+            "id": 3,
+            "answer": "Que gasta poca luz.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "Que es un motor de última generación.",
+            "isCorrect": false,
+            "explanation": "Los motores modernos son más silenciosos, no más ruidosos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-39",
+        "type": "simple",
+        "question": "En una sierra circular portátil de Clase II, ¿qué pasa si se rompe el cable de tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La sierra explota.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Nada, porque las herramientas de Clase II no llevan cable de tierra.",
+            "isCorrect": true,
+            "explanation": "Tienen doble aislamiento para no depender de la tierra. Fuente: ITC-BT-47, Apartado 8."
+          },
+          {
+            "id": 3,
+            "answer": "Deja de cortar.",
+            "isCorrect": false,
+            "explanation": "Seguiría funcionando."
+          },
+          {
+            "id": 4,
+            "answer": "Se pone en tensión la carcasa.",
+            "isCorrect": false,
+            "explanation": "Las Clase II suelen tener carcasas de plástico o aislamiento interno reforzado para evitar esto."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-40",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede usar un motor trifásico en una casa con corriente monofásica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, es imposible.",
+            "isCorrect": false,
+            "explanation": "Se puede con equipos de adaptación."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, usando un variador de frecuencia con entrada monofásica y salida trifásica o mediante un condensador (perdiendo potencia).",
+            "isCorrect": true,
+            "explanation": "Soluciones comunes para usar maquinaria profesional en viviendas. Fuente: Electrónica de potencia."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, enchufando dos cables en el mismo agujero.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo y no funciona."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el motor es de madera.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-41",
+        "type": "simple",
+        "question": "¿Qué es el 'resbalamiento' en un motor asíncrono?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cuando el motor se escurre de su sitio.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "La diferencia entre la velocidad del campo magnético y la velocidad real del eje.",
+            "isCorrect": true,
+            "explanation": "Es necesario para que el motor pueda generar par. Fuente: Máquinas eléctricas."
+          },
+          {
+            "id": 3,
+            "answer": "Un tipo de aceite para el motor.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "La holgura de los tornillos.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-42",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene un motor de eficiencia IE3 o IE4?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Menor consumo eléctrico para realizar el mismo trabajo.",
+            "isCorrect": true,
+            "explanation": "Ahorro directo en la factura."
+          },
+          {
+            "id": 2,
+            "answer": "Menor calentamiento interno.",
+            "isCorrect": true,
+            "explanation": "Aumenta la vida útil de los aislantes."
+          },
+          {
+            "id": 3,
+            "answer": "Reducción de emisiones de CO2 indirectas.",
+            "isCorrect": true,
+            "explanation": "Sostenibilidad ambiental. Fuente: Normas ErP de eficiencia."
+          },
+          {
+            "id": 4,
+            "answer": "Que el motor es más ligero.",
+            "isCorrect": false,
+            "explanation": "Suelen ser algo más pesados por llevar más cobre y hierro de calidad."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-43",
+        "type": "simple",
+        "question": "Sobre los motores de corriente continua (CC), ¿qué mantenimiento requieren las escobillas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguno, duran para siempre.",
+            "isCorrect": false,
+            "explanation": "Se desgastan por fricción."
+          },
+          {
+            "id": 2,
+            "answer": "Comprobar su longitud y sustituirlas antes de que el muelle dañe el colector.",
+            "isCorrect": true,
+            "explanation": "Mantenimiento crítico en motores con escobillas. Fuente: Mantenimiento de máquinas de CC."
+          },
+          {
+            "id": 3,
+            "answer": "Pintarlas de color plata.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Echarles polvos de talco.",
+            "isCorrect": false,
+            "explanation": "Peligroso; ensucia el contacto eléctrico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-44",
+        "type": "simple",
+        "question": "¿Qué es la 'clase de aislamiento F' en un motor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el motor es de clase Falsa.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Indica que los materiales aislantes soportan una temperatura de hasta 155 ºC.",
+            "isCorrect": true,
+            "explanation": "Define la robustez térmica del motor. Fuente: Estándares IEC."
+          },
+          {
+            "id": 3,
+            "answer": "Que el motor es de color Fucsia.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que funciona a 50 Farenheit.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-45",
+        "type": "simple",
+        "question": "En un taller con serrín (carpintería), ¿qué tipo de motor es obligatorio instalar?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cualquier motor barato.",
+            "isCorrect": false,
+            "explanation": "Peligro de incendio."
+          },
+          {
+            "id": 2,
+            "answer": "Motores totalmente cerrados (IP5X o superior) para evitar que el polvo entre en las partes eléctricas.",
+            "isCorrect": true,
+            "explanation": "Evita cortocircuitos e incendios por acumulación de material combustible. Fuente: ITC-BT-29 / 30."
+          },
+          {
+            "id": 3,
+            "answer": "Motores abiertos para que el serrín salga.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo; el serrín entraría y se quemaría."
+          },
+          {
+            "id": 4,
+            "answer": "Motores de gasoil.",
+            "isCorrect": false,
+            "explanation": "No permitidos en interiores por humos y seguridad."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-46",
+        "type": "multiple",
+        "question": "¿Qué indica el símbolo de un triángulo y una estrella dentro de la tapa de bornes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La posibilidad de conectar el motor a diferentes tensiones de red.",
+            "isCorrect": true,
+            "explanation": "Ej: 230V en triángulo y 400V en estrella."
+          },
+          {
+            "id": 2,
+            "answer": "La posición de las pletinas de cobre para cada configuración.",
+            "isCorrect": true,
+            "explanation": "Guía visual para el instalador."
+          },
+          {
+            "id": 3,
+            "answer": "Que el motor ha sido bendecido.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "El sentido de giro preferente.",
+            "isCorrect": false,
+            "explanation": "El giro se indica con una flecha en la carcasa. Fuente: Marcado de máquinas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-47",
+        "type": "simple",
+        "question": "Sobre el transporte de motores grandes, ¿para qué sirven los cáncamos (anillas) de la carcasa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para atar el motor a la pared.",
+            "isCorrect": false,
+            "explanation": "No es su uso."
+          },
+          {
+            "id": 2,
+            "answer": "Para elevar el motor con grúa de forma equilibrada y segura.",
+            "isCorrect": true,
+            "explanation": "Evita accidentes por caída de cargas pesadas. Fuente: Seguridad mecánica."
+          },
+          {
+            "id": 3,
+            "answer": "Para colgar la ropa.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Para que el motor pese menos.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-48",
+        "type": "simple",
+        "question": "¿Qué es un 'servomotor'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un motor que sirve la comida.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Motor diseñado para el control preciso de posición, velocidad y par, usando realimentación (encoder).",
+            "isCorrect": true,
+            "explanation": "Fundamental en robótica y máquinas CNC. Fuente: Automatización industrial."
+          },
+          {
+            "id": 3,
+            "answer": "Un motor muy obediente.",
+            "isCorrect": false,
+            "explanation": "Metáfora no técnica."
+          },
+          {
+            "id": 4,
+            "answer": "Un motor que no gasta nada.",
+            "isCorrect": false,
+            "explanation": "Gasta según el trabajo que realiza."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-49",
+        "type": "simple",
+        "question": "Sobre el equilibrado del eje, ¿qué ocurre si un motor tiene mucha vibración?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que calienta la habitación más rápido.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Se destruyen los rodamientos rápidamente y puede dañar la máquina a la que está acoplado.",
+            "isCorrect": true,
+            "explanation": "Problema mecánico grave que puede derivar en fallo eléctrico por roce del rotor. Fuente: Mecánica de máquinas."
+          },
+          {
+            "id": 3,
+            "answer": "Que es un motor de masaje.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "No importa, el motor aguanta todo.",
+            "isCorrect": false,
+            "explanation": "Falso; las vibraciones son destructivas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-47-50",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede limpiar un motor eléctrico por dentro con aire comprimido?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, es la mejor forma.",
+            "isCorrect": false,
+            "explanation": "Puede meter la suciedad más adentro del bobinado."
+          },
+          {
+            "id": 2,
+            "answer": "Se debe hacer con cuidado, asegurando que el aire sea seco y a baja presión para no dañar el aislamiento de las bobinas.",
+            "isCorrect": true,
+            "explanation": "Limpieza técnica para mantener la refrigeración. Fuente: Manuales de servicio."
+          },
+          {
+            "id": 3,
+            "answer": "No, el aire rompe el magnetismo.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, usando aire húmedo para que no arda.",
+            "isCorrect": false,
+            "explanation": "La humedad es el peor enemigo del aislamiento eléctrico."
+          }
+        ]
       }
     ]
   }

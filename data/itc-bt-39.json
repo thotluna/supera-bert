@@ -5,3103 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-39-01",
-        "question": "¿Cuál es la norma de referencia que deben cumplir los alimentadores de cercas eléctricas según la ITC-BT-39?",
+        "type": "simple",
+        "question": "¿Cuál es la definición reglamentaria de un 'alimentador de cerca eléctrica' según la ITC-BT-39?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE-EN 60.529",
+            "answer": "Cualquier cable que lleve energía a una finca.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La norma 60.529 define los grados de protección IP, no los requisitos específicos de alimentadores para cercas."
+            "explanation": "Definición demasiado genérica."
           },
           {
             "id": 2,
-            "answer": "UNE-EN 60.335-2-76",
+            "answer": "El aparato destinado a suministrar regularmente impulsos de tensión a la cerca.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-39 especifica que los alimentadores deben cumplir con las prescripciones de la norma UNE-EN 60.335-2-76."
+            "explanation": "Es el equipo encargado de generar los pulsos eléctricos de alta tensión y baja energía. Fuente: ITC-BT-39, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "UNE-EN 61.558-2-6",
+            "answer": "Un transformador de alta potencia para ganado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta norma se aplica a transformadores de seguridad para quirófanos y otros usos, no a cercas eléctricas."
+            "explanation": "No es de alta potencia, sino de alta tensión en impulsos."
           },
           {
             "id": 4,
-            "answer": "UNE 20.460",
+            "answer": "La batería que alimenta los hilos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La UNE 20.460 es una norma general de instalaciones eléctricas, pero para cercas hay una norma específica."
+            "explanation": "La batería es la fuente, el alimentador es el aparato procesador."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-02",
-        "question": "¿Cuál es la distancia mínima que debe mantenerse entre conductores de cercas eléctricas alimentadas por equipos diferentes?",
+        "type": "multiple",
+        "question": "¿De qué formas puede estar alimentado un electrificador de cercas según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "1 metro",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Un metro es insuficiente para evitar riesgos de contacto simultáneo o interferencias entre sistemas."
+            "answer": "Directamente conectado a la red de distribución de energía eléctrica.",
+            "isCorrect": true,
+            "explanation": "Opción para instalaciones fijas cerca de edificios. Fuente: ITC-BT-39."
           },
           {
             "id": 2,
-            "answer": "2 metros",
+            "answer": "Mediante baterías cuya carga se realiza a través de la red eléctrica.",
             "isCorrect": true,
-            "explanation": "Correcto. Se debe mantener una distancia mínima de 2 metros entre conductores de cercas alimentadas por diferentes equipos."
+            "explanation": "Sistemas mixtos con respaldo. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "5 metros",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Aunque 5 metros es más seguro, el reglamento establece el mínimo en 2 metros."
+            "answer": "Mediante baterías o acumuladores autónomos.",
+            "isCorrect": true,
+            "explanation": "Típico en zonas remotas con paneles solares o cambio de batería. Fuente: ITC-BT-39."
           },
           {
             "id": 4,
-            "answer": "No hay distancia mínima",
+            "answer": "Directamente de la línea de alta tensión mediante inducción.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La normativa exige una separación física para evitar riesgos eléctricos."
+            "explanation": "Práctica prohibida y extremadamente peligrosa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-03",
-        "question": "Respecto a la toma de tierra del alimentador de una cerca eléctrica:",
+        "type": "simple",
+        "question": "Se instala un alimentador conectado a la red de 230 V en un establo. ¿Qué normativa de producto debe cumplir obligatoriamente dicho aparato?",
         "options": [
           {
             "id": 1,
-            "answer": "Debe conectarse a la tierra general del edificio",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La tierra del alimentador debe ser independiente para evitar inyectar impulsos de alta tensión en la red de tierras del edificio."
+            "answer": "UNE-EN 60335-2-76.",
+            "isCorrect": true,
+            "explanation": "Es la norma específica de seguridad para electrificadores de cercas. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 2,
-            "answer": "Debe ser independiente y estar separada al menos 2 metros de cualquier otro electrodo de tierra",
-            "isCorrect": true,
-            "explanation": "Correcto. La toma de tierra del alimentador debe ser independiente y situarse a una distancia mínima de 2 metros de otros electrodos."
+            "answer": "UNE 20460.",
+            "isCorrect": false,
+            "explanation": "Es una norma de instalaciones, no de producto específico de cercas."
           },
           {
             "id": 3,
-            "answer": "No es necesaria si se alimenta por batería",
+            "answer": "ISO 9001.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Incluso con batería, el sistema requiere tierra para cerrar el circuito a través del animal."
+            "explanation": "Es una norma de gestión de calidad, no técnica de seguridad eléctrica."
           },
           {
             "id": 4,
-            "answer": "Se debe conectar al pararrayos",
+            "answer": "Ninguna, basta con el marcado CE.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es extremadamente peligroso conectar un sistema de cercas eléctricas al sistema de pararrayos."
+            "explanation": "El marcado CE exige el cumplimiento de normas armonizadas como la citada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-04",
-        "question": "¿Qué requisitos de señalización deben cumplir los carteles de aviso en cercas próximas a vías públicas?",
+        "type": "simple",
+        "question": "Un ganadero decide instalar dos cercas eléctricas independientes para separar dos tipos de ganado. ¿Qué distancia mínima debe existir entre los conductores de ambas cercas si no comparten alimentador?",
         "options": [
           {
             "id": 1,
-            "answer": "Color rojo con letras blancas",
+            "answer": "0,5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El color normativo para avisos de advertencia eléctrica en cercas es fondo amarillo."
+            "explanation": "Distancia insuficiente para evitar contacto simultáneo accidental."
           },
           {
             "id": 2,
-            "answer": "Fondo amarillo con inscripciones en negro y dimensiones mínimas de 100x200 mm",
+            "answer": "2 metros.",
             "isCorrect": true,
-            "explanation": "Correcto. Los carteles deben tener fondo amarillo, inscripciones en negro, símbolo de rayo y dimensiones mínimas de 100x200 mm."
+            "explanation": "Se considera suficiente para evitar que una persona o animal toque ambas simultáneamente. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Solo es necesario señalizar si la tensión es superior a 10 kV",
+            "answer": "5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La señalización es obligatoria por la ubicación (vía pública), no por el valor de la tensión."
+            "explanation": "Es una distancia segura, pero la norma establece 2 metros como mínimo suficiente."
           },
           {
             "id": 4,
-            "answer": "Dimensiones libres siempre que sean legibles",
+            "answer": "No importa la distancia si los postes son de madera.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El reglamento especifica dimensiones mínimas de 100x200 mm."
+            "explanation": "El riesgo es el contacto simultáneo de los conductores, independientemente de los postes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-05",
-        "question": "¿Cuál es la distancia máxima permitida entre dos carteles de aviso consecutivos en una cerca?",
+        "type": "simple",
+        "question": "En el cercado de una parcela junto a un camino público, es obligatorio colocar carteles de aviso. ¿Cuál es la distancia máxima permitida entre dos carteles consecutivos?",
         "options": [
           {
             "id": 1,
-            "answer": "10 metros",
+            "answer": "100 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es una distancia muy corta que no exige el reglamento."
+            "explanation": "Supera el límite reglamentario de seguridad para avisar a peatones."
           },
           {
             "id": 2,
-            "answer": "50 metros",
+            "answer": "50 metros.",
             "isCorrect": true,
-            "explanation": "Correcto. La distancia entre carteles de aviso no debe ser superior a 50 metros en cada alineación recta."
+            "explanation": "La norma exige carteles cada 50 metros como máximo en zonas accesibles. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "100 metros",
+            "answer": "10 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 100 metros excede la distancia máxima permitida de 50 metros."
+            "explanation": "Es una distancia muy segura, pero no la exigida por el mínimo legal."
           },
           {
             "id": 4,
-            "answer": "Un cartel por cada kilómetro",
+            "answer": "Solo es necesario un cartel en la puerta de entrada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es insuficiente para advertir adecuadamente a los transeúntes."
+            "explanation": "Debe haber carteles en todo el perímetro que esté al alcance de personas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-06",
-        "question": "¿Cuál es la distancia mínima de seguridad si la cerca se instala cerca de una línea eléctrica de 20 kV?",
+        "type": "multiple",
+        "question": "¿Cómo debe ser físicamente el cartel de aviso de 'Cerca Eléctrica' según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "3 metros",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 3 metros es para líneas de menos de 1000 V."
+            "answer": "Fondo amarillo con letras negras.",
+            "isCorrect": true,
+            "explanation": "Combinación de colores de advertencia estándar. Fuente: ITC-BT-39."
           },
           {
             "id": 2,
-            "answer": "4 metros",
+            "answer": "Dimensiones mínimas de 105 x 210 mm.",
             "isCorrect": true,
-            "explanation": "Correcto. Para líneas con tensión entre 1.000 V y 33.000 V, la distancia mínima de seguridad es de 4 metros."
+            "explanation": "Tamaño estandarizado para asegurar visibilidad. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "8 metros",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 8 metros se exige para líneas de más de 33.000 V."
+            "answer": "Inscripción sobre un triángulo equilátero de base horizontal.",
+            "isCorrect": true,
+            "explanation": "Símbolo de advertencia geométrico requerido. Fuente: ITC-BT-39."
           },
           {
             "id": 4,
-            "answer": "15 metros",
+            "answer": "Letras de al menos 10 mm de altura.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es superior a lo exigido para este nivel de tensión."
+            "explanation": "La norma exige una altura mínima de letras de 25 mm."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-07",
-        "question": "¿Está permitido utilizar alambre de espino como conductor electrificado en una cerca?",
+        "type": "simple",
+        "question": "Un instalador coloca el alimentador de la cerca dentro de un pajar para protegerlo de la lluvia. ¿Es correcta esta ubicación?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, para que sea más efectivo",
+            "answer": "Sí, está protegido de la intemperie.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es extremadamente peligroso porque un animal o persona podría quedar enganchado y recibir impulsos continuos sin poder soltarse."
+            "explanation": "Es extremadamente peligroso por riesgo de incendio."
           },
           {
             "id": 2,
-            "answer": "No, está expresamente prohibido por la ITC-BT-39",
+            "answer": "No, los alimentadores no deben quedar cubiertos por materiales combustibles como paja o heno.",
             "isCorrect": true,
-            "explanation": "Correcto. Está prohibido el uso de alambre de espino como conductor electrificado por razones de seguridad."
+            "explanation": "El calentamiento o una chispa podrían causar un incendio catastrófico. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Solo en fincas privadas sin acceso público",
+            "answer": "Solo si el pajar tiene extintores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La prohibición es general por el riesgo físico y eléctrico que conlleva."
+            "explanation": "La prohibición es absoluta para prevenir el inicio del fuego."
           },
           {
             "id": 4,
-            "answer": "Solo si la tensión es inferior a 5 kV",
+            "answer": "Sí, si el alimentador es de bajo consumo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El riesgo mecánico (engancharse) es independiente de la tensión."
+            "explanation": "El riesgo de incendio persiste independientemente del consumo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-08",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Sobre la toma de tierra del alimentador de la cerca eléctrica, ¿qué requisito de independencia exige la ITC-BT-39?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Debe estar unida a la tierra de la vivienda para mayor seguridad.",
+            "isCorrect": false,
+            "explanation": "Error grave: podría introducir pulsos de alta tensión en la red doméstica."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Debe ser una 'tierra separada' de cualquier otra, incluso de la masa del propio aparato.",
+            "isCorrect": true,
+            "explanation": "Evita transferencias de potencial peligrosas a otras instalaciones. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "No necesita toma de tierra si se alimenta por batería.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Incluso en batería, necesita tierra para cerrar el circuito a través del animal."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Debe conectarse a una tubería metálica de agua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Prohibido terminantemente por riesgo de electrificar la red de agua."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-09",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Al diseñar una puerta en una cerca eléctrica, ¿qué característica deben tener los elementos de maniobra?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Deben ser metálicos para asegurar la conducción.",
+            "isCorrect": false,
+            "explanation": "Provocarían una descarga al usuario al abrir la puerta."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Estar convenientemente aislados y su maniobra debe poner fuera de tensión los conductores de la puerta.",
+            "isCorrect": true,
+            "explanation": "Protege al operario y evita fugas durante el paso. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Solo pueden ser abiertos por personal cualificado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Cualquier operario o ganadero debe poder usarlos con seguridad."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Deben estar pintados de color rojo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No es un requisito reglamentario."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-10",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Una cerca eléctrica debe cruzar cerca de una línea de Alta Tensión de 20.000 V (20 kV). ¿Cuál es la distancia mínima en el aire que debe respetarse?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "3 metros.",
+            "isCorrect": false,
+            "explanation": "Es el valor para líneas de hasta 1 kV."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "4 metros.",
+            "isCorrect": true,
+            "explanation": "Para tensiones entre 1 kV y 33 kV, la distancia mínima es de 4 metros. Fuente: ITC-BT-39, Tabla BB.1."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "8 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Es el valor para líneas de más de 33 kV."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "15 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Es una distancia de proyección ortogonal para la altura de la cerca, no de aire directa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-11",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué prohibiciones existen respecto a los apoyos (postes) de una cerca eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
+            "answer": "No pueden compartirse con líneas de Alta Tensión.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Riesgo de inducción y contacto accidental catastrófico. Fuente: ITC-BT-39."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "No pueden usarse apoyos de líneas de telecomunicación.",
+            "isCorrect": true,
+            "explanation": "Los pulsos de la cerca interferirían o dañarían los equipos de comunicación. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Deben ser exclusivamente de plástico reciclado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Se permiten de diversos materiales siempre que garanticen el aislamiento."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "answer": "No pueden compartirse con otras líneas de baja tensión ajenas a la cerca.",
+            "isCorrect": true,
+            "explanation": "Cada servicio debe tener sus propios soportes por seguridad. Fuente: ITC-BT-39."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-12",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Si una cerca se instala bajo una línea de alta tensión de 66 kV, ¿cuál es la distancia mínima en el aire?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "4 metros.",
+            "isCorrect": false,
+            "explanation": "Válido solo hasta 33 kV."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "8 metros.",
+            "isCorrect": true,
+            "explanation": "Para líneas de tensión superior a 33 kV, la distancia mínima es de 8 metros. Fuente: ITC-BT-39, Tabla BB.1."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "2 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Valor totalmente inseguro."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Prohibido instalar cercas bajo líneas de más de 33 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Está permitido si se respetan las distancias de la tabla BB.1."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-13",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué altura máxima sobre el suelo pueden tener los conductores de una cerca eléctrica cuando se instalan cerca de una línea de Alta Tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "3 metros.",
+            "isCorrect": false,
+            "explanation": "Supera el límite de seguridad bajo líneas de AT."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "2 metros.",
+            "isCorrect": true,
+            "explanation": "Para evitar que la cerca capte demasiada energía por inducción o facilite contactos accidentales. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "1,5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Es una altura común, pero el máximo legal es 2 metros."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No hay límite de altura si el poste es aislante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "El límite es por proximidad al campo eléctrico de la línea de AT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-14",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Se instala una cerca cerca de una línea de 15 kV. ¿A qué distancia horizontal (proyección ortogonal) desde los conductores exteriores de la línea de AT se debe aplicar la limitación de altura de 2 metros para la cerca?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "2 metros.",
+            "isCorrect": false,
+            "explanation": "Este valor es para líneas de menos de 1 kV."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "15 metros.",
+            "isCorrect": true,
+            "explanation": "Para líneas de más de 1000 V, la restricción de altura se aplica en una franja de 15 metros a cada lado. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "50 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Distancia excesiva."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Solo bajo la vertical de los cables.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "La inducción afecta también a las zonas laterales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-15",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cuál es la función del aislador de final de línea en una cerca eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Cerrar el circuito con el alimentador.",
+            "isCorrect": false,
+            "explanation": "El circuito se cierra por tierra a través del animal."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Evitar que la tensión se derive a tierra a través del último poste.",
+            "isCorrect": true,
+            "explanation": "Mantiene la tensión del impulso en el conductor útil. Fuente: Conceptos de montaje."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Medir la temperatura del cable.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "No tiene funciones de medida."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Sujetar el cartel de aviso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "El cartel se sujeta al conductor o apoyos, no específicamente al aislador final."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-16",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse en zonas con riesgo frecuente de rayos según la ITC-BT-39?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
+            "answer": "Instalar el alimentador preferentemente en el exterior.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Evita que un rayo captado por la cerca entre en el edificio. Fuente: ITC-BT-39."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Instalar un descargador de sobretensiones (pararrayos de cerca).",
+            "isCorrect": true,
+            "explanation": "Protege la electrónica del alimentador de picos atmosféricos."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Enterrar toda la cerca bajo tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "La cerca dejaría de ser efectiva para el ganado."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "answer": "Aumentar el número de tomas de tierra a lo largo de la cerca.",
+            "isCorrect": true,
+            "explanation": "Ayuda a disipar la energía del rayo de forma distribuida."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-17",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Un ganadero utiliza alambre de espino (alambre de púas) como conductor electrificado. ¿Es esto legal?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Sí, es más efectivo para que el animal no se acerque.",
+            "isCorrect": false,
+            "explanation": "Es extremadamente peligroso porque el animal (o persona) puede quedar enganchado mientras recibe descargas."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "No, está prohibido usar alambre de espino como conductor electrificado.",
+            "isCorrect": true,
+            "explanation": "La normativa de seguridad de producto prohíbe configuraciones que impidan que el sujeto se suelte. Fuente: UNE-EN 60335-2-76."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Solo si se avisa con carteles rojos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "La prohibición es por diseño de seguridad, no por señalización."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Sí, siempre que la tensión sea inferior a 1000 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "El riesgo mecánico de enganche persiste."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-18",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Por qué la toma de tierra del alimentador debe estar separada de la tierra de la vivienda?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Para no gastar cable de tierra.",
+            "isCorrect": false,
+            "explanation": "No es una razón económica."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Para evitar que los impulsos de alta tensión (5-10 kV) aparezcan en las masas de los electrodomésticos de la casa en caso de defecto.",
+            "isCorrect": true,
+            "explanation": "Protege a las personas dentro de los edificios de choques eléctricos indirectos. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Porque la tierra de la cerca es de mejor calidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "No necesariamente, la razón es el aislamiento de circuitos."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Para que el contador no cuente los impulsos como consumo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No influye en la medida de energía."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-19",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En una zona residencial, una cerca eléctrica delimita un jardín. ¿Qué requisito adicional de señalización tiene respecto a una zona de monte?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Ninguno, las reglas son iguales.",
+            "isCorrect": false,
+            "explanation": "La presencia de personas no prevenidas obliga a mayor rigor."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Se deben colocar carteles de aviso en todos los puntos donde las personas puedan acceder o tocar la cerca.",
+            "isCorrect": true,
+            "explanation": "La norma exige avisar cuando la cerca esté al alcance de personas no prevenidas. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Debe tener una valla de madera delante obligatoriamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Es una buena práctica, pero la ITC exige principalmente aviso visual."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Está prohibido usar cercas eléctricas en zonas residenciales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Están permitidas si cumplen con la ITC-BT-39."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-20",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cuál es la frecuencia típica de los impulsos de un alimentador de cerca estándar?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "50 Hz (continua).",
+            "isCorrect": false,
+            "explanation": "50 Hz es la frecuencia de la red, y no es continua."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Aproximadamente 1 impulso por segundo.",
+            "isCorrect": true,
+            "explanation": "Permite que el animal se retire tras el choque inicial, cumpliendo la norma de seguridad. Fuente: UNE-EN 60335-2-76."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "1000 impulsos por segundo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Sería peligroso y causaría tetanización muscular."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Un impulso cada hora.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Totalmente ineficaz para retener animales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-21",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué materiales son recomendables para los conductores de una cerca eléctrica moderna?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
+            "answer": "Hilos de acero galvanizado.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Resistentes a la corrosión y con buena conductividad."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Cintas de polietileno con hilos de acero o cobre trenzados.",
+            "isCorrect": true,
+            "explanation": "Muy visibles y fáciles de manejar para cercados temporales."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "answer": "Cuerdas de nylon conductoras.",
+            "isCorrect": true,
+            "explanation": "Ligeras y flexibles."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Hilo de pescar estándar.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Es un aislante, no funcionaría."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-22",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Un instalador detecta que el hilo de la cerca toca una rama de un árbol. ¿Qué efecto tiene esto en la instalación?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "El árbol crece más rápido por la electricidad.",
+            "isCorrect": false,
+            "explanation": "Sin fundamento biológico ni técnico."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Se produce una fuga a tierra que reduce la tensión disponible en el resto de la cerca.",
+            "isCorrect": true,
+            "explanation": "Cualquier contacto con vegetación o humedad reduce la eficacia del cercado. Fuente: Mantenimiento de cercas."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "No pasa nada, la madera es aislante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "La madera viva (con savia) es conductora a altas tensiones."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "El alimentador duplica su potencia automáticamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Los alimentadores estándar tienen una potencia máxima fija."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-23",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En caso de cruce de conductores de conexión por encima de una vía pública, ¿cuál debe ser la altura mínima del conductor?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "3 metros.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para el paso de camiones o maquinaria agrícola."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Al menos 5 metros (o lo especificado para líneas de baja tensión aéreas).",
+            "isCorrect": true,
+            "explanation": "Debe garantizar el paso seguro de vehículos sin riesgo de contacto. Fuente: ITC-BT-06 / ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "No se permite cruzar vías públicas por el aire.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Se permite respetando las alturas mínimas de seguridad."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "10 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Es una altura excesiva para postes estándar de cercado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-24",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué grado de protección IP mínimo debe tener un alimentador que se instala a la intemperie?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "Sin protección contra líquidos."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "IPX4 o superior.",
+            "isCorrect": true,
+            "explanation": "Debe ser resistente a proyecciones de agua (lluvia). Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "IP68.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Protección para inmersión, no necesaria para exterior estándar."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Ninguno, el plástico ya protege.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "El diseño de las juntas y entradas de cable debe estar certificado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-25",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Sobre la conexión de la cerca a un alimentador a batería, ¿cuál es el borne positivo habitualmente?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "El que va a tierra.",
+            "isCorrect": false,
+            "explanation": "Suele ser la referencia común o negativo en muchos sistemas."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "El que va al hilo conductor (línea).",
+            "isCorrect": true,
+            "explanation": "Es el que lleva el potencial de impulso a la cerca. Fuente: Instrucciones de uso de fabricantes."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Ambos son iguales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Tienen funciones opuestas y no deben intercambiarse."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "El borne central del enchufe.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No aplica a sistemas de batería."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-26",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué situaciones pueden provocar fallos de seguridad en una cerca eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
+            "answer": "Aisladores rotos o agrietados.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Provocan derivaciones a los postes (especialmente si son húmedos o metálicos)."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Crecimiento excesivo de hierba bajo la cerca.",
+            "isCorrect": true,
+            "explanation": "La hierba toca el hilo y deriva la energía a tierra."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "answer": "Conexiones flojas o corroídas.",
+            "isCorrect": true,
+            "explanation": "Aumentan la resistencia y el calor, disminuyendo la tensión en el resto del cercado."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Tener demasiados animales dentro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No afecta al funcionamiento eléctrico intrínseco."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-27",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En una cerca con hilos múltiples a distintas alturas, ¿cuál es la mejor práctica para asegurar que todos tengan la misma tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Conectarlos solo al principio.",
+            "isCorrect": false,
+            "explanation": "Si uno se corta, el resto de ese hilo queda sin tensión."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Realizar puentes verticales de unión entre hilos cada ciertos metros.",
+            "isCorrect": true,
+            "explanation": "Garantiza la redundancia eléctrica en todo el perímetro. Fuente: Manuales de montaje agrícola."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Usar un alimentador diferente para cada hilo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Innecesariamente caro y complejo (requeriría separaciones de 2m)."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No unirlos, para que el animal elija dónde quiere el choque.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Razonamiento absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-28",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Es obligatorio el uso de interruptores diferenciales en el circuito que alimenta a un electrificador conectado a la red de 230 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "No, el alimentador ya aísla.",
+            "isCorrect": false,
+            "explanation": "El alimentador protege la salida, pero el circuito de entrada de 230V debe cumplir las normas generales."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Sí, el circuito de alimentación debe cumplir con la ITC-BT-24 (Protección contra contactos indirectos).",
+            "isCorrect": true,
+            "explanation": "Toda instalación de 230V requiere protección diferencial según el REBT. Fuente: ITC-BT-39, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Solo si el alimentador es metálico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Incluso en equipos de Clase II se exige diferencial en el circuito de alimentación del local."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No, está prohibido porque saltaría con los impulsos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Un alimentador bien diseñado no debe provocar disparos del diferencial de entrada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-29",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Un técnico quiere medir la tensión de la cerca para comprobar su estado. ¿Qué herramienta debe utilizar?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Un multímetro convencional en escala de 1000 V AC.",
+            "isCorrect": false,
+            "explanation": "Se dañaría, ya que los picos pueden superar los 5000-8000 V."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Un voltímetro específico para cercas (tester de impulsos).",
+            "isCorrect": true,
+            "explanation": "Están diseñados para soportar y medir picos de muy corta duración y alta tensión. Fuente: Equipamiento de mantenimiento."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Tocar el hilo con un dedo mojado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Práctica extremadamente peligrosa e imprudente."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Acercar una brújula.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No sirve para medir tensión de impulsos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-30",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En una zona de paso frecuente de personas, se decide enterrar el conductor de conexión entre dos tramos de cerca. ¿Qué requisito debe cumplir el cable?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Ser cable de cobre desnudo.",
+            "isCorrect": false,
+            "explanation": "Perdería toda la energía en el suelo."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Ser cable aislado con alta rigidez dieléctrica (específico para cercas) y preferiblemente bajo tubo.",
+            "isCorrect": true,
+            "explanation": "Debe soportar la tensión del impulso (ej. 15 kV) sin derivar al suelo. Fuente: Recomendaciones de instalación."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Basta con manguera de 1000 V normal.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "La tensión del impulso perforaría el aislamiento de 1000V rápidamente."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No se pueden enterrar conductores de cercas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Se puede y es la solución estándar para cruces de caminos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-31",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué información debe contener el manual de instrucciones de un electrificador según la norma UNE citada en la ITC-BT-39?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
+            "answer": "Instrucciones detalladas sobre la instalación de la toma de tierra.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Crucial para el correcto funcionamiento y seguridad."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Advertencias sobre los peligros de tocar la cerca por personas con marcapasos.",
+            "isCorrect": true,
+            "explanation": "Seguridad para grupos de riesgo."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "answer": "Prohibición expresa de conectar dos alimentadores a la misma cerca.",
+            "isCorrect": true,
+            "explanation": "Evita sumar energías que podrían ser letales. Fuente: UNE-EN 60335-2-76."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Receta para cocinar carne de ganado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Información irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-32",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Se instala una cerca eléctrica en una zona donde hay niños jugando habitualmente. ¿Qué medida preventiva adicional es recomendable aunque no la exija el texto literal de la ITC?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
+            "answer": "Usar un alimentador de baja potencia o retardado.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Minimiza la intensidad del choque ante contactos accidentales de niños."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
+            "answer": "Poner música en la cerca.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "explanation": "Sin utilidad técnica."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Quitar la electricidad durante el día.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "El ganado se escaparía."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Pintar los hilos de colores fluorescentes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Ayuda a la visibilidad pero no sustituye a la señalización reglamentaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-33",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué sucede si se conectan dos alimentadores diferentes a una misma cerca eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "La cerca tiene el doble de alcance.",
+            "isCorrect": false,
+            "explanation": "Efecto secundario, pero el principal es el riesgo de muerte."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Es extremadamente peligroso y está prohibido, ya que la suma de energías puede ser letal.",
+            "isCorrect": true,
+            "explanation": "La seguridad se basa en impulsos limitados en energía y tiempo. Dos aparatos anulan los tiempos de seguridad. Fuente: UNE-EN 60335-2-76."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Los alimentadores se sincronizan solos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "No existe tal función de sincronización automática por línea."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Se ahorra batería.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Se gasta el doble."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-34",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Un ganadero instala una cerca eléctrica en una parcela forestal muy seca. ¿Qué riesgo específico debe vigilar?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Que los lobos se coman los cables.",
+            "isCorrect": false,
+            "explanation": "Riesgo biológico, no eléctrico primario."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Riesgo de incendio por chispas en aisladores sucios o por contacto con ramas secas.",
+            "isCorrect": true,
+            "explanation": "La alta tensión puede saltar arcos que inicien fuegos en vegetación seca. Fuente: Prevención de incendios forestales."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Que la madera de los árboles se electrifique.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Solo si están húmedos; si están secos son aislantes pero pueden arder."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "answer": "Que la tierra no conduzca por estar seca.",
+            "isCorrect": true,
+            "explanation": "Es un problema de eficacia (la cerca no da calambre), pero el riesgo de incendio es el peligro de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-35",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cuál es la tensión de pico máxima habitual que puede generar un alimentador de cercas comercial dentro de los límites de seguridad?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Tensión de red, ineficaz para atravesar el pelo/lana de animales."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Entre 5.000 V y 10.000 V.",
+            "isCorrect": true,
+            "explanation": "Alta tensión necesaria para vencer la resistencia del pelaje y asegurar el efecto disuasorio. Fuente: Especificaciones técnicas de producto."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "100.000 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Valor excesivo y peligroso (Alta Tensión de transporte)."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Es la tensión de alimentación de la batería, no la de salida a la cerca."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-36",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "En un cercado para caballos, se suelen usar cintas en lugar de hilos. ¿Qué ventajas aporta esto según la visibilidad exigida?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
+            "answer": "Mayor superficie visual para el animal, evitando colisiones accidentales.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Los caballos ven mal los hilos finos y podrían romper la cerca."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Mejor visibilidad para personas que transiten cerca.",
+            "isCorrect": true,
+            "explanation": "Cumple indirectamente con el espíritu de la norma de advertencia."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Menor resistencia al viento.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Al contrario, las cintas tienen más efecto vela que los hilos."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "answer": "Permiten imprimir el aviso 'Cerca Eléctrica' en la propia cinta.",
+            "isCorrect": true,
+            "explanation": "Refuerza la señalización reglamentaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-37",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cómo se debe actuar si se encuentra a una persona inconsciente en contacto con una cerca eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Tirarla de los pies inmediatamente.",
+            "isCorrect": false,
+            "explanation": "Podrías recibir la descarga tú también si hay un fallo en el alimentador."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Desconectar el alimentador o cortar el cable con una herramienta aislada antes de tocar a la persona.",
+            "isCorrect": true,
+            "explanation": "Prioridad absoluta: eliminar la fuente de energía de forma segura. Fuente: Protocolos de primeros auxilios eléctricos."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Echarle agua fría para que despierte.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "El agua aumenta la conductividad y el riesgo."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No hacer nada, la cerca se apaga sola.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Los impulsos siguen mientras el alimentador esté conectado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-38",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En una cerca instalada cerca de un edificio con red de datos, se producen interferencias constantes. ¿Qué causa es la más probable según la ITC-BT-39?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Uso de cables de fibra óptica.",
+            "isCorrect": false,
+            "explanation": "La fibra es inmune a interferencias eléctricas."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Cercanía excesiva o falta de separación entre los conductores de la cerca y las líneas de comunicación.",
+            "isCorrect": true,
+            "explanation": "Los impulsos de alta tensión generan ruido electromagnético que afecta a cables de cobre de datos. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Que el ganado se mueva mucho.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Sin relevancia eléctrica."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Uso de baterías de mala calidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "La batería no genera ruido, lo genera el circuito de descarga de alta tensión."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-39",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué material es el más adecuado para la toma de tierra de la cerca (picas) para garantizar durabilidad en terrenos agrícolas?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
+            "answer": "Acero galvanizado o cobre.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Soportan la corrosión del suelo y aseguran buena conductividad. Fuente: ITC-BT-18."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
+            "answer": "Madera tratada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "explanation": "No conduce la electricidad."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Aluminio lacado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "El lacado aísla la pica del terreno."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Plástico conductor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Suele tener demasiada resistencia para una tierra eficaz."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-40",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué inspecciones 'visuales' debe realizar el dueño de una cerca eléctrica semanalmente?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
+            "answer": "Estado de los carteles de aviso.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Asegura que sigan visibles y en su sitio."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Ausencia de ramas o vegetación tocando los hilos.",
+            "isCorrect": true,
+            "explanation": "Evita pérdidas de energía."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "answer": "Tensión mecánica de los cables (que no cuelguen).",
+            "isCorrect": true,
+            "explanation": "Evita contactos accidentales con el suelo o personas."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Color de las flores cercanas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-41",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En un cruce con una línea de telecomunicaciones, ¿qué precaución se debe tomar si el cruce es inevitable?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Pasar por encima.",
+            "isCorrect": false,
+            "explanation": "Prohibido por la ITC-BT-39."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Pasar por debajo de la línea de telecomunicaciones con un cable aislado bajo tubo y enterrado.",
+            "isCorrect": true,
+            "explanation": "Es la forma más segura de evitar contactos e interferencias. Fuente: ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Atar el hilo de la cerca al cable de teléfono.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Extremadamente prohibido y destructivo."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "No se puede cruzar en ningún caso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Se puede hacer siguiendo las medidas de seguridad adecuadas (paso subterráneo)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-42",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué sucede si la toma de tierra de la cerca es deficiente (resistencia muy alta)?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "El alimentador consume más.",
+            "isCorrect": false,
+            "explanation": "No influye significativamente en el consumo."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "El animal no siente el choque eléctrico al tocar el hilo.",
+            "isCorrect": true,
+            "explanation": "El circuito no se cierra con suficiente intensidad, anulando la eficacia de la cerca. Fuente: Teoría de cercas eléctricas."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "La cerca se vuelve radioactiva.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Los carteles de aviso se caen.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No tiene relación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-43",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Sobre los conectores de unión entre hilos, ¿por qué no se recomienda simplemente anudarlos?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Porque el nudo queda feo.",
+            "isCorrect": false,
+            "explanation": "Razón estética no técnica."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Porque los nudos crean resistencias elevadas y arcos eléctricos internos que queman el hilo.",
+            "isCorrect": true,
+            "explanation": "La alta tensión del impulso provoca micro-chispas en los puntos de contacto flojos. Fuente: Guías de montaje."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Porque el ganado se lo come.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "No es habitual."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "El nudo es el mejor método según la norma.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Se deben usar conectores metálicos específicos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-44",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué longitud máxima de cerca puede alimentar un electrificador de 2 Julios (energía media)?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Solo 10 metros.",
+            "isCorrect": false,
+            "explanation": "Valor muy bajo."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Entre 5 y 15 km, dependiendo de la vegetación y calidad del hilo.",
+            "isCorrect": true,
+            "explanation": "La energía en Julios define la capacidad de mantener la tensión a largas distancias. Fuente: Fichas técnicas comerciales."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Cualquier longitud.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "La energía se pierde por resistencia y fugas a lo largo de la línea."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Exactamente 1 km.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Depende de múltiples factores de instalación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-45",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "multiple",
+        "question": "¿Qué tipos de animales requieren hilos a distintas alturas?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
+            "answer": "Ovejas (por su lana aislante).",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "explanation": "Requieren hilos bajos y potentes para asegurar contacto con zonas sin lana."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Vacas (por su gran tamaño).",
+            "isCorrect": true,
+            "explanation": "Hilos más altos para evitar que salten o se apoyen."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "answer": "Conejos o perros pequeños.",
+            "isCorrect": true,
+            "explanation": "Hilos muy bajos cerca del suelo."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Pájaros que se posan en el cable.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Los pájaros no reciben descarga al no tocar tierra simultáneamente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-46",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cuál es la función del 'muelle' en las puertas de las cercas eléctricas?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Aumentar la potencia del calambre.",
+            "isCorrect": false,
+            "explanation": "No tiene funciones eléctricas de aumento de tensión."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Mantener la tensión mecánica del hilo y permitir la apertura fácil manteniendo el aislamiento.",
+            "isCorrect": true,
+            "explanation": "Facilita el manejo y asegura que el hilo no cuelgue. Fuente: Accesorios de cercas."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Para que la puerta se cierre sola.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Su función principal es mantener la continuidad y tensión del hilo."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Emitir un sonido de aviso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "No emite sonidos reglamentarios."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-47",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "En un entorno industrial, ¿se puede usar una cerca eléctrica para seguridad perimetral contra intrusos?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Sí, es la misma normativa.",
+            "isCorrect": false,
+            "explanation": "Existen normativas específicas y mucho más restrictivas para seguridad de personas (Cercas de seguridad)."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "La ITC-BT-39 es específica para ganado; para seguridad perimetral se rige por otras normas de seguridad privada y producto.",
+            "isCorrect": true,
+            "explanation": "El REBT en su ITC-BT-39 se limita a fines agrícolas/ganaderos. Fuente: Objeto de la ITC-BT-39."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Está prohibido usar electricidad contra personas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Se permite en seguridad perimetral bajo condiciones muy estrictas de señalización y energía."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Solo si la valla mide más de 3 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "La altura no define la aplicación de la norma ganadera."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-48",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Qué sucede con la eficacia de la cerca bajo una lluvia intensa?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Aumenta, porque el agua conduce mejor.",
+            "isCorrect": false,
+            "explanation": "Aumenta la conducción a tierra a través de los aisladores húmedos, 'vaciando' la energía de la cerca."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "Disminuye debido a las múltiples derivaciones a tierra que crea el agua sobre los aisladores y postes.",
+            "isCorrect": true,
+            "explanation": "Se conoce como efecto de 'fuga por humedad'. Fuente: Problemas comunes de funcionamiento."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "Se apaga el alimentador automáticamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Salvo que entre agua dentro del aparato y se queme."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Los animales mueren al tocarla.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "La energía por impulso sigue siendo limitada y segura."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-49",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "¿Cuál es la vida útil estimada de un hilo de cerca de plástico con conductores de acero?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "Para siempre.",
+            "isCorrect": false,
+            "explanation": "El plástico se degrada con el sol (UV)."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "answer": "De 3 a 7 años, dependiendo de la radiación solar y calidad del material.",
+            "isCorrect": true,
+            "explanation": "El sol vuelve el hilo quebradizo y rompe los filamentos conductores. Fuente: Datos de durabilidad de fabricantes."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "100 años.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Imposible a la intemperie."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Solo una temporada de pastoreo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Suelen durar más si son de buena calidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-39-50",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
+        "type": "simple",
+        "question": "Finalmente, si una cerca eléctrica interfiere con el televisor de un vecino, ¿quién es el responsable de solucionar el problema según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
+            "answer": "El vecino, por tener una tele vieja.",
+            "isCorrect": false,
+            "explanation": "Inexacto legalmente."
           },
           {
             "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-51",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
+            "answer": "El titular de la cerca, que debe asegurar que su instalación no cause interferencias perjudiciales a otros servicios.",
             "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
+            "explanation": "Las instalaciones especiales no deben degradar el entorno electromagnético de terceros. Fuente: Reglamento de Compatibilidad Electromagnética."
           },
           {
             "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
+            "answer": "La compañía eléctrica suministradora.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
+            "explanation": "Solo si el problema es de la red de distribución."
           },
           {
             "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
+            "answer": "Nadie, es un efecto natural de la electricidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
+            "explanation": "Las interferencias están reguladas y deben mitigarse."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-52",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-53",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-54",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-55",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-56",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-57",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-58",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-59",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-60",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-61",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-62",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-63",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-64",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-65",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-66",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-67",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-68",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-69",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-70",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-71",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-72",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-73",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-74",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-75",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-76",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-77",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-78",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-79",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-80",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-81",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-82",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-83",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-84",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-85",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-86",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-87",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-88",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-89",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-90",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-91",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 1 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-92",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 2 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-93",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 3 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-94",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 4 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-95",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 5 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-96",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 6 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-97",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 7 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-98",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 8 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-99",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 9 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-39-100",
-        "question": "Sobre las cercas eléctricas (ITC-BT-39), ¿cuál de estos requisitos es obligatorio para la seguridad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cumplir con el requisito técnico específico 0 de la norma.",
-            "isCorrect": true,
-            "explanation": "Correcto. Las cercas eléctricas deben cumplir estrictamente con los parámetros de energía y tensión para ser seguras."
-          },
-          {
-            "id": 2,
-            "answer": "No requiere mantenimiento ni inspección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Como cualquier instalación de seguridad, requiere verificar el estado de los aisladores y la toma de tierra."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden alimentar dos fincas diferentes con el mismo equipo sin avisar.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Cada instalación debe estar bajo control y cumplir las distancias de separación entre cercas."
-          },
-          {
-            "id": 4,
-            "answer": "Los carteles de aviso pueden ser de cartón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Los carteles deben ser duraderos y resistentes a la intemperie, generalmente de material plástico o metálico."
-          }
-        ],
-        "type": "simple"
+        ]
       }
     ]
   }

@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-48-01",
-        "question": "¿Qué requisito de puesta a tierra tienen los transformadores y autotransformadores?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-48?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo si la potencia supera los 5 kVA.",
+            "answer": "Regular las torres de alta tensión.",
             "isCorrect": false,
-            "explanation": "La puesta a tierra de seguridad es independiente de la potencia nominal."
+            "explanation": "La alta tensión es competencia del RAT, no del REBT."
           },
           {
             "id": 2,
-            "answer": "Sus masas metálicas (núcleo y armadura) deberán estar puestas a tierra de forma fiable.",
+            "answer": "Determinar los requisitos de instalación de transformadores, autotransformadores, reactancias, rectificadores y condensadores.",
             "isCorrect": true,
-            "explanation": "Se debe garantizar la protección contra contactos indirectos en caso de fallo del aislamiento. Fuente: ITC-BT-48, Apartado 2.1."
+            "explanation": "Cubre equipos auxiliares y de compensación en baja tensión. Fuente: ITC-BT-48, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Está prohibido poner a tierra el núcleo por las corrientes de Foucault.",
+            "answer": "Obligar al uso de bombillas LED.",
             "isCorrect": false,
-            "explanation": "El núcleo debe estar a tierra por seguridad; las corrientes de Foucault se limitan mediante el laminado del acero."
+            "explanation": "Sin relación directa con este bloque de equipos."
           },
           {
             "id": 4,
-            "answer": "Solo si se instalan en el exterior.",
+            "answer": "Regular los enchufes de las viviendas.",
             "isCorrect": false,
-            "explanation": "Es un requisito general para cualquier ubicación interior o exterior."
+            "explanation": "Eso se trata en la ITC-BT-19 e ITC-BT-25."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-02",
-        "question": "¿Qué elemento es obligatorio para la protección de todo transformador?",
+        "type": "simple",
+        "question": "Sobre los transformadores en baja tensión, ¿qué protección es obligatoria en el primario?",
         "options": [
           {
             "id": 1,
-            "answer": "Un voltímetro de precisión.",
+            "answer": "Un pararrayos.",
             "isCorrect": false,
-            "explanation": "Es un equipo de medida, no de protección."
+            "explanation": "No es una protección de circuito estándar en BT."
           },
           {
             "id": 2,
-            "answer": "Un dispositivo de corte por sobreintensidad.",
+            "answer": "Protección contra sobreintensidades (cortocircuitos y sobrecargas).",
             "isCorrect": true,
-            "explanation": "Debe estar de acuerdo con las características de la placa y proteger contra sobrecargas y cortocircuitos. Fuente: ITC-BT-48, Apartado 3."
+            "explanation": "Evita daños por fallos internos o exceso de demanda. Fuente: ITC-BT-48, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Un ventilador de extracción forzada.",
+            "answer": "Un contador de agua.",
             "isCorrect": false,
-            "explanation": "Solo es necesario si el diseño térmico lo requiere, pero el corte eléctrico es obligatorio siempre."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Un contador de horas de funcionamiento.",
+            "answer": "Solo un interruptor de mano.",
             "isCorrect": false,
-            "explanation": "No tiene funciones de protección reglamentaria."
+            "explanation": "La protección debe ser automática."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-03",
-        "question": "En rectificadores, ¿qué se debe instalar para evitar el retorno de corriente continua al circuito de alterna?",
+        "type": "simple",
+        "question": "¿Cuál es la principal diferencia de seguridad entre un transformador y un autotransformador?",
         "options": [
           {
             "id": 1,
-            "answer": "Un condensador en paralelo.",
+            "answer": "El autotransformador es más pesado.",
             "isCorrect": false,
-            "explanation": "El condensador filtraría la señal pero no impide el retorno de CC."
+            "explanation": "Suele ser más ligero al compartir parte del devanado."
           },
           {
             "id": 2,
-            "answer": "Un dispositivo adecuado que impida esta eventualidad.",
+            "answer": "El transformador ofrece aislamiento galvánico (separación de circuitos), mientras que el autotransformador no.",
             "isCorrect": true,
-            "explanation": "Se debe prevenir que la CC pueda inyectarse en la red de AC, lo que causaría problemas de saturación en transformadores. Fuente: ITC-BT-48, Apartado 2.2."
+            "explanation": "En el autotransformador hay conexión eléctrica física entre entrada y salida. Fuente: ITC-BT-48, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Un interruptor diferencial de Clase AC.",
+            "answer": "El autotransformador funciona con pilas.",
             "isCorrect": false,
-            "explanation": "Los diferenciales Clase AC no detectan bien las fugas de CC y no impiden el retorno funcional."
+            "explanation": "Ambos son receptores de red."
           },
           {
             "id": 4,
-            "answer": "No es necesario si la tensión es menor de 50 V.",
+            "answer": "El transformador solo funciona de noche.",
             "isCorrect": false,
-            "explanation": "El riesgo de retorno existe y debe protegerse independientemente de la tensión."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-04",
-        "question": "¿Cómo deben ser las canalizaciones para corrientes de diferente naturaleza (CA y CC) en una misma instalación?",
+        "type": "simple",
+        "question": "¿Está permitido usar un autotransformador para alimentar un receptor que requiera separación galvánica por seguridad?",
         "options": [
           {
             "id": 1,
-            "answer": "Pueden ir por el mismo tubo si los cables tienen el mismo aislamiento.",
+            "answer": "Sí, si es de buena marca.",
             "isCorrect": false,
-            "explanation": "Se prohíbe la mezcla para evitar confusiones y riesgos de inducción o contacto accidental entre redes."
+            "explanation": "La marca no cambia la física del devanado común."
           },
           {
             "id": 2,
-            "answer": "Serán distintas y estarán convenientemente señalizadas o separadas entre sí.",
+            "answer": "No, está prohibido donde se exija protección por separación de circuitos.",
             "isCorrect": true,
-            "explanation": "Es vital la identificación clara para evitar errores en el mantenimiento. Fuente: ITC-BT-48, Apartado 2.2."
+            "explanation": "El autotransformador no garantiza el aislamiento del circuito secundario respecto a tierra. Fuente: ITC-BT-48, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Solo se separan si la CC es de alta tensión.",
+            "answer": "Solo si se instala en el techo.",
             "isCorrect": false,
-            "explanation": "La separación aplica a cualquier nivel de tensión para diferenciar las naturalezas de corriente."
+            "explanation": "Irrelevante."
           },
           {
             "id": 4,
-            "answer": "Se pueden meter en la misma canaleta si hay un separador metálico.",
+            "answer": "Sí, si se pone un fusible muy gordo.",
             "isCorrect": false,
-            "explanation": "El REBT exige que sean canalizaciones distintas."
+            "explanation": "El fusible no aporta aislamiento galvánico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-05",
-        "question": "¿Cuál es la temperatura ambiente máxima para usar condensadores que no indican su límite de temperatura?",
+        "type": "simple",
+        "question": "Sobre la refrigeración de los transformadores secos, ¿qué precaución se debe tomar en su ubicación?",
         "options": [
           {
             "id": 1,
-            "answer": "25 °C.",
+            "answer": "Deben estar en cámaras frigoríficas.",
             "isCorrect": false,
-            "explanation": "Temperatura estándar de laboratorio, pero el límite es superior."
+            "explanation": "No es necesario si hay ventilación natural suficiente."
           },
           {
             "id": 2,
-            "answer": "50 °C.",
+            "answer": "Deben estar situados en locales bien ventilados para evitar que el calor acumulado degrade los aislantes.",
             "isCorrect": true,
-            "explanation": "Por encima de 50 °C, el riesgo de explosión o degradación del condensador es alto si no está diseñado para ello. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "El calor es el peor enemigo de la vida útil del transformador. Fuente: ITC-BT-48, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "70 °C.",
+            "answer": "Deben envolverse en lana para que no vibren.",
             "isCorrect": false,
-            "explanation": "Demasiado alta para condensadores convencionales sin marcado específico."
+            "explanation": "Peligro de incendio por falta de ventilación."
           },
           {
             "id": 4,
-            "answer": "No hay límite si el local está ventilado.",
+            "answer": "Se deben enterrar en arena.",
             "isCorrect": false,
-            "explanation": "El REBT marca un límite de temperatura ambiente de 50 °C."
+            "explanation": "Solo si son transformadores específicos para ese fin (muy raro en BT)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-06",
-        "question": "¿Qué deben llevar los condensadores si su carga residual puede ser peligrosa?",
+        "type": "multiple",
+        "question": "¿Qué tipos de condensadores se instalan habitualmente en baja tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Un fusible de alta velocidad.",
-            "isCorrect": false,
-            "explanation": "El fusible protege contra cortocircuitos, no descarga la energía almacenada."
+            "answer": "Condensadores de arranque de motores.",
+            "isCorrect": true,
+            "explanation": "Ayudan a crear el desfase necesario para el par inicial."
           },
           {
             "id": 2,
-            "answer": "Un dispositivo automático de descarga o una inscripción de advertencia.",
+            "answer": "Baterías de condensadores para corrección del factor de potencia (reactiva).",
             "isCorrect": true,
-            "explanation": "Se busca alertar o eliminar la tensión residual para evitar choques eléctricos tras la desconexión. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Ahorran en la factura y optimizan la red. Fuente: ITC-BT-48, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Una carcasa de plomo.",
-            "isCorrect": false,
-            "explanation": "Inútil para la protección contra la tensión residual eléctrica."
+            "answer": "Condensadores de filtro en equipos electrónicos.",
+            "isCorrect": true,
+            "explanation": "Estabilizan tensiones y eliminan ruidos. Fuente: Electrónica de potencia."
           },
           {
             "id": 4,
-            "answer": "Un sistema de refrigeración líquida.",
+            "answer": "Condensadores de flujo de Regreso al Futuro.",
             "isCorrect": false,
-            "explanation": "Solo se usa en condensadores de gran potencia, no es una medida de descarga."
+            "explanation": "Ciencia ficción."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-07",
-        "question": "¿A partir de qué altitud se deben tomar precauciones especiales con los condensadores?",
+        "type": "simple",
+        "question": "¿Por qué es peligroso manipular un condensador de gran capacidad justo después de desconectarlo de la red?",
         "options": [
           {
             "id": 1,
-            "answer": "1.000 metros.",
+            "answer": "Porque puede morder.",
             "isCorrect": false,
-            "explanation": "Altitud estándar para la mayoría de equipos eléctricos."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "2.000 metros.",
+            "answer": "Porque almacenan energía eléctrica y pueden dar una descarga mortal incluso sin estar enchufados.",
             "isCorrect": true,
-            "explanation": "A esta altura la menor densidad del aire afecta a la refrigeración y al aislamiento dieléctrico. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Actúan como una batería temporal de alta tensión. Fuente: ITC-BT-48, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "5.000 metros.",
+            "answer": "Porque se enfrían de golpe.",
             "isCorrect": false,
-            "explanation": "Valor muy elevado, las precauciones empiezan mucho antes (2.000 m)."
+            "explanation": "No es el riesgo principal."
           },
           {
             "id": 4,
-            "answer": "Solo si se instalan en aviones.",
+            "answer": "Porque pesan más cargados.",
             "isCorrect": false,
-            "explanation": "Aplica a instalaciones terrestres en zonas de alta montaña."
+            "explanation": "La carga eléctrica no tiene peso apreciable."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-08",
-        "question": "¿A partir de qué valor de sobreintensidad es obligatoria la protección de los condensadores?",
+        "type": "simple",
+        "question": "¿Qué dispositivo de seguridad deben incorporar los condensadores según la ITC-BT-48?",
         "options": [
           {
             "id": 1,
-            "answer": "1,1 veces la intensidad nominal.",
+            "answer": "Un paraguas metálico.",
             "isCorrect": false,
-            "explanation": "Margen demasiado estrecho para las fluctuaciones de red."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "1,3 veces la intensidad nominal.",
+            "answer": "Resistencias de descarga automáticas.",
             "isCorrect": true,
-            "explanation": "Es el límite reglamentario para permitir sobrecargas transitorias sin disparos innecesarios. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Bajan la tensión acumulada a niveles seguros (< 50V) en poco tiempo tras la desconexión. Fuente: ITC-BT-48, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "2,0 veces la intensidad nominal.",
+            "answer": "Un timbre que suene cuando están cargados.",
             "isCorrect": false,
-            "explanation": "Valor excesivo que pondría en peligro la vida útil del condensador."
+            "explanation": "No garantiza la seguridad física."
           },
           {
             "id": 4,
-            "answer": "No hay valor fijo, depende del tipo de dieléctrico.",
+            "answer": "No necesitan nada, la energía se pierde sola.",
             "isCorrect": false,
-            "explanation": "El REBT establece el 130% como umbral general de protección."
+            "explanation": "La autodescarga es muy lenta; se requiere descarga forzada por seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-09",
-        "question": "¿Qué intensidad deben soportar los aparatos de mando y protección de los condensadores?",
+        "type": "simple",
+        "question": "En las reactancias de lámparas de descarga, ¿qué problema térmico es el más común?",
         "options": [
           {
             "id": 1,
-            "answer": "La intensidad nominal exacta (In).",
+            "answer": "Que se congelen.",
             "isCorrect": false,
-            "explanation": "Se quemarían por el calor generado por los armónicos."
+            "explanation": "Trabajan siempre calientes."
           },
           {
             "id": 2,
-            "answer": "De 1,5 a 1,8 veces la intensidad nominal asignada.",
+            "answer": "Sobrecalentamiento por fin de vida útil o fallo del condensador asociado, pudiendo incendiar luminarias de plástico.",
             "isCorrect": true,
-            "explanation": "Deben estar sobredimensionados para manejar armónicos y tolerancias de capacidad sin sobrecalentarse. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Exigen luminarias con marcado 'F' o protecciones térmicas. Fuente: ITC-BT-44 / 48."
           },
           {
             "id": 3,
-            "answer": "3 veces la intensidad nominal.",
+            "answer": "Que no calienten el local.",
             "isCorrect": false,
-            "explanation": "Sobredimensionamiento excesivo e innecesario económicamente."
+            "explanation": "Su función no es calentar, sino limitar la intensidad de la lámpara."
           },
           {
             "id": 4,
-            "answer": "No importa, se protegen por tensión.",
+            "answer": "Que atraigan mosquitos.",
             "isCorrect": false,
-            "explanation": "La intensidad es el factor crítico de diseño de los elementos de mando (contactores)."
+            "explanation": "Irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-10",
-        "question": "En transformadores, ¿con qué debe estar de acuerdo el dispositivo de corte por sobreintensidad?",
+        "type": "simple",
+        "question": "¿Para qué sirve un rectificador en una instalación eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Con la sección del cable de salida solamente.",
+            "answer": "Para que los cables estén más rectos.",
             "isCorrect": false,
-            "explanation": "Debe proteger principalmente al transformador según sus datos técnicos."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Con las características que figuran en la placa del transformador.",
+            "answer": "Para convertir la Corriente Alterna (CA) en Corriente Continua (CC).",
             "isCorrect": true,
-            "explanation": "La placa indica la potencia y corrientes máximas que el bobinado puede soportar. Fuente: ITC-BT-48, Apartado 3."
+            "explanation": "Necesario para cargar baterías, alimentar LED o motores de CC. Fuente: ITC-BT-48, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Con la temperatura ambiente del local.",
+            "answer": "Para subir la tensión.",
             "isCorrect": false,
-            "explanation": "Es un factor corrector, pero no la base del diseño del dispositivo."
+            "explanation": "Eso lo hace el transformador."
           },
           {
             "id": 4,
-            "answer": "Con el color de la pintura del transformador.",
+            "answer": "Para que no salten los plomos.",
             "isCorrect": false,
-            "explanation": "Dato irrelevante para la protección eléctrica."
+            "explanation": "No es una protección de sobreintensidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-11",
-        "question": "¿Qué normativa se cita para el uso de condensadores a más de 2.000 metros?",
+        "type": "multiple",
+        "question": "¿Qué mantenimiento básico requiere una batería de condensadores industrial?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE-EN 60.831-1.",
+            "answer": "Verificar que los condensadores no estén hinchados o tengan fugas de dieléctrico.",
             "isCorrect": true,
-            "explanation": "Es la norma específica para condensadores autorregenerables para alterna de hasta 1000V. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Signo inequívoco de degradación o fin de vida."
           },
           {
             "id": 2,
-            "answer": "ITC-BT-09.",
-            "isCorrect": false,
-            "explanation": "Trata sobre alumbrado exterior."
+            "answer": "Limpieza de polvo para evitar arcos eléctricos entre bornes.",
+            "isCorrect": true,
+            "explanation": "Seguridad ante cortocircuitos."
           },
           {
             "id": 3,
-            "answer": "Reglamento de Alta Tensión.",
-            "isCorrect": false,
-            "explanation": "No aplica a condensadores de baja tensión de esta ITC."
+            "answer": "Comprobar el apriete de los contactores (sufren mucho por las corrientes de inserción).",
+            "isCorrect": true,
+            "explanation": "Evita calentamientos y fallos de maniobra. Fuente: Mantenimiento preventivo."
           },
           {
             "id": 4,
-            "answer": "Norma ISO 9001.",
+            "answer": "Pintar los condensadores de colores diferentes cada año.",
             "isCorrect": false,
-            "explanation": "Es una norma de gestión de calidad, no de requisitos técnicos de condensadores."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-12",
-        "question": "¿Se permite el uso de autotransformadores para circuitos de Muy Baja Tensión de Seguridad (MBTS)?",
+        "type": "simple",
+        "question": "Sobre los transformadores de seguridad (MBTS), ¿qué tensión máxima pueden entregar en el secundario?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, son más eficientes.",
+            "answer": "230 V.",
             "isCorrect": false,
-            "explanation": "No ofrecen separación galvánica, por lo que una tensión de red podría pasar al circuito de MBT."
+            "explanation": "Esa es tensión de red, no de seguridad."
           },
           {
             "id": 2,
-            "answer": "No, está prohibido ya que no hay separación galvánica entre primario y secundario.",
+            "answer": "50 V en alterna (o 120 V en continua libre de rizado).",
             "isCorrect": true,
-            "explanation": "La seguridad de la MBTS depende de la imposibilidad de que la tensión de red llegue al circuito secundario. Fuente: Principios generales del REBT."
+            "explanation": "Valores por debajo del umbral de riesgo mortal en condiciones normales. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "Solo si la potencia es inferior a 100 VA.",
+            "answer": "1.000 V.",
             "isCorrect": false,
-            "explanation": "La prohibición es por seguridad de aislamiento, no por potencia."
+            "explanation": "Altamente peligroso."
           },
           {
             "id": 4,
-            "answer": "Sí, si se conectan a un diferencial de 10 mA.",
+            "answer": "0 V.",
             "isCorrect": false,
-            "explanation": "El diferencial no sustituye a la necesidad de separación galvánica para MBTS."
+            "explanation": "No funcionaría nada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-13",
-        "question": "¿Cómo deben instalarse los condensadores con dieléctrico líquido combustible?",
+        "type": "simple",
+        "question": "¿Qué ocurre si conectamos un condensador a una tensión superior a la marcada en su carcasa?",
         "options": [
           {
             "id": 1,
-            "answer": "Bajo agua para enfriarlos.",
+            "answer": "Que funciona más rápido.",
             "isCorrect": false,
-            "explanation": "Peligro de cortocircuito y corrosión."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Siguiendo los mismos requisitos que los reóstatos y reactancias (distancia y materiales).",
+            "answer": "Riesgo inminente de explosión por perforación del dieléctrico.",
             "isCorrect": true,
-            "explanation": "Al contener materiales inflamables, se asimilan a las exigencias térmicas de los reóstatos. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "El aislamiento interno no soporta el campo eléctrico y se produce un cortocircuito violento. Fuente: Seguridad de componentes."
           },
           {
             "id": 3,
-            "answer": "En armarios de madera para absorber vibraciones.",
+            "answer": "No pasa nada, tienen margen.",
             "isCorrect": false,
-            "explanation": "La madera es combustible e incrementaría el riesgo de incendio."
+            "explanation": "El margen es pequeño y superarlo es peligroso."
           },
           {
             "id": 4,
-            "answer": "No se permite su uso en ninguna instalación de baja tensión.",
+            "answer": "Se descarga solo por fuera.",
             "isCorrect": false,
-            "explanation": "Se permiten cumpliendo estrictas medidas de seguridad térmica."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-14",
-        "question": "¿Qué factor se aplica para dimensionar el mando de un condensador si hay riesgo de armónicos?",
+        "type": "simple",
+        "question": "En un rectificador de potencia, ¿para qué sirven los disipadores de aluminio?",
         "options": [
           {
             "id": 1,
-            "answer": "1,0.",
+            "answer": "Para sujetar el equipo a la pared.",
             "isCorrect": false,
-            "explanation": "Factor insuficiente para el régimen de trabajo real."
+            "explanation": "No es su función principal."
           },
           {
             "id": 2,
-            "answer": "De 1,5 a 1,8.",
+            "answer": "Para evacuar el calor generado por los diodos o tiristores durante la conducción.",
             "isCorrect": true,
-            "explanation": "Este factor asegura que el contactor o interruptor soporte la corriente RMS real incluyendo armónicos. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Evitan que los semiconductores se quemen por exceso de temperatura. Fuente: Electrónica industrial."
           },
           {
             "id": 3,
-            "answer": "2,5.",
+            "answer": "Para captar mejor la radio.",
             "isCorrect": false,
-            "explanation": "Valor excesivo que no se cita como requisito reglamentario."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "No se aplican factores, se usa la intensidad máxima de pico.",
+            "answer": "Para que el equipo sea más brillante.",
             "isCorrect": false,
-            "explanation": "La intensidad permanente (RMS) es la que marca el dimensionamiento térmico del mando."
+            "explanation": "Estética irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-15",
-        "question": "¿Qué se debe evitar en la instalación de reactancias y transformadores respecto a la acumulación de polvo?",
+        "type": "simple",
+        "question": "¿Cuál es la función de una 'reactancia de choque' en la entrada de un variador de frecuencia?",
         "options": [
           {
             "id": 1,
-            "answer": "Limpiarlos semanalmente.",
+            "answer": "Hacer que el variador pese más.",
             "isCorrect": false,
-            "explanation": "Es mantenimiento, pero la norma exige un diseño de instalación preventivo."
+            "explanation": "Es una consecuencia, no el fin."
           },
           {
             "id": 2,
-            "answer": "Que la acumulación de polvo cause deterioros por falta de disipación térmica.",
+            "answer": "Reducir los armónicos y proteger al equipo de picos de tensión de la red.",
             "isCorrect": true,
-            "explanation": "El polvo actúa como aislante térmico y puede provocar sobrecalentamientos peligrosos. Fuente: ITC-BT-48, Apartado 2.1 (referencia cruzada con caldeo)."
+            "explanation": "Mejora la calidad de la energía y la vida del equipo. Fuente: Compatibilidad Electromagnética."
           },
           {
             "id": 3,
-            "answer": "Usar solo equipos de color negro para que no se vea el polvo.",
+            "answer": "Aumentar la velocidad del motor.",
             "isCorrect": false,
-            "explanation": "La estética no influye en la seguridad térmica."
+            "explanation": "No influye en la velocidad."
           },
           {
             "id": 4,
-            "answer": "No importa el polvo si el equipo tiene ventilación forzada.",
+            "answer": "Evitar que el motor se moje.",
             "isCorrect": false,
-            "explanation": "El polvo puede obstruir los ventiladores y rejillas, aumentando el riesgo."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-16",
-        "question": "¿Cuál es la fórmula para calcular la potencia capacitiva (Qc) necesaria para corregir el factor de potencia?",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse al instalar transformadores sumergidos en aceite en interiores?",
         "options": [
           {
             "id": 1,
-            "answer": "Qc = P / Cos φ.",
-            "isCorrect": false,
-            "explanation": "Fórmula incorrecta para el cálculo de compensación."
+            "answer": "Deben situarse en celdas estancas con foso de recogida de aceite.",
+            "isCorrect": true,
+            "explanation": "Evita que una fuga se extienda o contamine el suelo."
           },
           {
             "id": 2,
-            "answer": "Qc = (Tg φ1 - Tg φ2) * P.",
+            "answer": "Deben tener sistemas de extinción de incendios automáticos si el volumen de aceite es grande.",
             "isCorrect": true,
-            "explanation": "Relaciona la potencia activa con la diferencia de tangentes de los ángulos inicial y final. Fuente: ITC-BT-48, Material Complementario."
+            "explanation": "El aceite es combustible y difícil de apagar."
           },
           {
             "id": 3,
-            "answer": "Qc = V * I.",
-            "isCorrect": false,
-            "explanation": "Esta es la potencia aparente (S), no la capacitiva de corrección."
+            "answer": "Deben estar aislados del resto del edificio por muros cortafuegos.",
+            "isCorrect": true,
+            "explanation": "Evita la propagación del incendio. Fuente: Reglamento de Centros de Transformación."
           },
           {
             "id": 4,
-            "answer": "Qc = P * Sen φ.",
+            "answer": "Se deben decorar con plantas.",
             "isCorrect": false,
-            "explanation": "Fórmula que daría la potencia reactiva total de la carga, no la necesaria para corregir a un valor deseado."
+            "explanation": "Peligro de incendio y caída de hojas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-17",
-        "question": "¿Cómo deben estar señalizadas las canalizaciones de CA y CC?",
+        "type": "simple",
+        "question": "Sobre los condensadores, ¿qué es la 'corriente de inserción'?",
         "options": [
           {
             "id": 1,
-            "answer": "Con el nombre del instalador.",
+            "answer": "La que gasta cuando está apagado.",
             "isCorrect": false,
-            "explanation": "Información no relevante para la distinción de naturalezas de corriente."
+            "explanation": "Apagado no gasta."
           },
           {
             "id": 2,
-            "answer": "Convenientemente señalizadas para identificar su diferente naturaleza.",
+            "answer": "Pico de intensidad extremadamente alto que se produce al conectar el condensador descargado a la red.",
             "isCorrect": true,
-            "explanation": "Evita que un técnico pueda confundir una línea de continua con una de alterna durante una reparación. Fuente: ITC-BT-48, Apartado 2.2."
+            "explanation": "Exige contactores especiales con resistencias de pre-inserción. Fuente: ITC-BT-48, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Todas deben ser de color blanco.",
+            "answer": "La corriente que fluye por la carcasa.",
             "isCorrect": false,
-            "explanation": "Dificultaría la identificación en lugar de facilitarla."
+            "explanation": "Eso sería una fuga peligrosa."
           },
           {
             "id": 4,
-            "answer": "Solo si la corriente supera los 100 A.",
+            "answer": "La corriente que sale al desenchufarlo.",
             "isCorrect": false,
-            "explanation": "La señalización de seguridad es obligatoria para cualquier intensidad."
+            "explanation": "Esa es la descarga."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-18",
-        "question": "¿Qué unidad se utiliza para medir la potencia reactiva de los condensadores?",
+        "type": "simple",
+        "question": "¿Para qué sirve un 'transformador de aislamiento 1:1' en un quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "kW (Kilovatios).",
+            "answer": "Para subir la tensión a 400V.",
             "isCorrect": false,
-            "explanation": "Es la unidad de potencia activa."
+            "explanation": "No cambia la tensión (1:1)."
           },
           {
             "id": 2,
-            "answer": "kVAr (Kilovoltiamperios reactivos).",
+            "answer": "Para crear un sistema IT (neutro aislado) que permita seguir operando aunque haya un primer fallo a tierra.",
             "isCorrect": true,
-            "explanation": "Representa la potencia que circula pero no se transforma en trabajo útil, típica de condensadores. Fuente: ITC-BT-48, Material Complementario."
+            "explanation": "Garantiza la continuidad del suministro vital para el paciente. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "kVA (Kilovoltiamperios).",
+            "answer": "Para que no haya ruidos.",
             "isCorrect": false,
-            "explanation": "Es la unidad de potencia aparente (suma vectorial de activa y reactiva)."
+            "explanation": "Ayuda con el ruido eléctrico, pero el fin es la seguridad y continuidad."
           },
           {
             "id": 4,
-            "answer": "kWh (Kilovatios-hora).",
+            "answer": "Para ahorrar luz.",
             "isCorrect": false,
-            "explanation": "Es una unidad de energía consumida, no de potencia instantánea."
+            "explanation": "Incluso consume un poco por pérdidas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-19",
-        "question": "¿A qué se debe conectar la cuba o caldera metálica de un transformador?",
+        "type": "simple",
+        "question": "¿Qué indica el símbolo de un fusible con una flecha sobre un condensador?",
         "options": [
           {
             "id": 1,
-            "answer": "Al conductor neutro únicamente.",
+            "answer": "Que el condensador se va a romper.",
             "isCorrect": false,
-            "explanation": "Peligroso, el neutro puede tener tensión respecto a tierra en caso de desequilibrio."
+            "explanation": "Advertencia genérica."
           },
           {
             "id": 2,
-            "answer": "A tierra de forma fiable y permanente.",
+            "answer": "Protección interna contra sobrepresión o cortocircuito que desconecta el elemento antes de que explote.",
             "isCorrect": true,
-            "explanation": "Garantiza que cualquier fuga al chasis se derive a tierra y disparen las protecciones. Fuente: ITC-BT-48, Apartado 2.1."
+            "explanation": "Mecanismo de seguridad 'self-healing' o desconexión interna. Fuente: Tecnología de condensadores."
           },
           {
             "id": 3,
-            "answer": "Al pararrayos del edificio.",
+            "answer": "Que necesita pilas.",
             "isCorrect": false,
-            "explanation": "La tierra de protección es independiente de la del pararrayos, aunque puedan estar unidas en la red de tierras general."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "No se conecta a nada si es de Clase II.",
+            "answer": "Indica el sentido de la corriente.",
             "isCorrect": false,
-            "explanation": "Los transformadores de gran potencia rara vez son Clase II, el requisito general es la puesta a tierra."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-20",
-        "question": "¿Qué dispositivo impide que la CC pase a la red de alterna?",
+        "type": "simple",
+        "question": "Sobre las reactancias electromagnéticas antiguas, ¿por qué hacen ruido (vibración)?",
         "options": [
           {
             "id": 1,
-            "answer": "Un fusible térmico.",
+            "answer": "Porque tienen un motor dentro.",
             "isCorrect": false,
-            "explanation": "Solo actúa por temperatura, no por dirección de corriente."
+            "explanation": "No tienen motor."
           },
           {
             "id": 2,
-            "answer": "Un dispositivo bloqueador o rectificador adecuado.",
+            "answer": "Por la magnetostricción de las láminas de acero del núcleo sometidas a campos magnéticos variables.",
             "isCorrect": true,
-            "explanation": "Se usan diodos o circuitos de filtrado/aislamiento específicos. Fuente: ITC-BT-48, Apartado 2.2."
+            "explanation": "Efecto físico que hace vibrar las chapas si no están bien apretadas o pegadas. Fuente: Física aplicada."
           },
           {
             "id": 3,
-            "answer": "Una resistencia de 1 megaohmio.",
+            "answer": "Porque el gas de la lámpara silba.",
             "isCorrect": false,
-            "explanation": "Impediría el paso de cualquier corriente útil."
+            "explanation": "El ruido viene de la reactancia, no de la lámpara."
           },
           {
             "id": 4,
-            "answer": "Un transformador de aislamiento.",
+            "answer": "Porque están viejas.",
             "isCorrect": false,
-            "explanation": "Aislaría pero no se cita como el dispositivo único exigido en este apartado de rectificadores."
+            "explanation": "Incluso nuevas pueden hacerlo si son de baja calidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-21",
-        "question": "Si un condensador se usa con armónicos importantes, ¿qué tolerancia de capacidad debe considerarse?",
+        "type": "multiple",
+        "question": "¿Qué peligros conlleva una mala ventilación en un rectificador de gran potencia?",
         "options": [
           {
             "id": 1,
-            "answer": "+/- 1 %.",
-            "isCorrect": false,
-            "explanation": "Tolerancia demasiado baja para condensadores industriales de potencia."
+            "answer": "Destrucción térmica de los diodos.",
+            "isCorrect": true,
+            "explanation": "El calor quema el silicio."
           },
           {
             "id": 2,
-            "answer": "La indicada por el fabricante, pero el mando debe soportar hasta 1,8 In.",
+            "answer": "Fuga térmica (el equipo conduce más cuanto más se calienta, hasta explotar).",
             "isCorrect": true,
-            "explanation": "El REBT asume que las tolerancias y armónicos pueden elevar la corriente significativamente. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Proceso inestable peligroso."
           },
           {
             "id": 3,
-            "answer": "Siempre un +50 % extra.",
-            "isCorrect": false,
-            "explanation": "No es el criterio técnico reglamentario."
+            "answer": "Fusión del cableado próximo por radiación de calor.",
+            "isCorrect": true,
+            "explanation": "Riesgo de incendio colateral. Fuente: Seguridad electrónica industrial."
           },
           {
             "id": 4,
-            "answer": "0 % (deben ser exactos).",
+            "answer": "Que el equipo se ponga de color naranja.",
             "isCorrect": false,
-            "explanation": "Físicamente imposible en la fabricación de condensadores de potencia."
+            "explanation": "Se pondría incandescente si fuera metal, pero los semiconductores mueren mucho antes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-22",
-        "question": "¿Qué se debe verificar antes de tocar los bornes de un condensador desconectado?",
+        "type": "simple",
+        "question": "¿Qué es la 'energía reactiva' que compensan los condensadores?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el interruptor esté en OFF.",
+            "answer": "Energía nuclear.",
             "isCorrect": false,
-            "explanation": "Necesario pero insuficiente por la carga acumulada."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Que no exista carga residual peligrosa mediante el dispositivo de descarga.",
+            "answer": "Energía necesaria para crear campos magnéticos en motores y transformadores, que no genera trabajo pero sobrecarga la red.",
             "isCorrect": true,
-            "explanation": "La energía almacenada puede ser mortal incluso con el equipo apagado. Fuente: ITC-BT-48, Apartado 2.3."
+            "explanation": "Se mide en kVAr (Kilovoltio-amperios reactivos). Fuente: Teoría de circuitos."
           },
           {
             "id": 3,
-            "answer": "Que la carcasa esté fría.",
+            "answer": "La energía que reacciona al fuego.",
             "isCorrect": false,
-            "explanation": "La temperatura no indica la ausencia de peligro eléctrico."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Que la fecha de caducidad sea correcta.",
+            "answer": "Energía estática de la ropa.",
             "isCorrect": false,
-            "explanation": "No tiene relación con el riesgo de choque inmediato."
+            "explanation": "No tiene relación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-23",
-        "question": "¿Es obligatorio el uso de reóstatos en todos los motores?",
+        "type": "simple",
+        "question": "Sobre la puesta a tierra de los transformadores de baja tensión, ¿qué partes deben conectarse?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, para ahorrar energía.",
+            "answer": "Ninguna, para no perder corriente.",
             "isCorrect": false,
-            "explanation": "Los reóstatos pierden energía por calor, no la ahorran."
+            "explanation": "Peligrosísimo."
           },
           {
             "id": 2,
-            "answer": "No, solo en aquellos que necesiten limitar la corriente de arranque según la ITC-BT-47.",
+            "answer": "El núcleo metálico y la carcasa exterior (si es metálica).",
             "isCorrect": true,
-            "explanation": "Depende de la potencia y el tipo de motor y su impacto en la red. Fuente: ITC-BT-47/48."
+            "explanation": "Garantiza la seguridad ante fallos de aislamiento entre devanados y masa. Fuente: ITC-BT-18 / 48."
           },
           {
             "id": 3,
-            "answer": "Solo en motores de corriente continua.",
+            "answer": "Solo los cables de salida.",
             "isCorrect": false,
-            "explanation": "También se usan en motores de alterna de rotor bobinado."
+            "explanation": "No; las masas metálicas son las que presentan riesgo de contacto."
           },
           {
             "id": 4,
-            "answer": "Sí, para que el motor no haga ruido.",
+            "answer": "Se deben enterrar los transformadores.",
             "isCorrect": false,
-            "explanation": "Función totalmente ajena al propósito eléctrico del reóstato."
+            "explanation": "Solo si son específicos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-24",
-        "question": "¿Cuál es el propósito principal de corregir el factor de potencia con condensadores?",
+        "type": "simple",
+        "question": "¿Qué es un 'autotransformador variable' (Variac)?",
         "options": [
           {
             "id": 1,
-            "answer": "Reducir la potencia activa (kW).",
+            "answer": "Uno que cambia de sitio solo.",
             "isCorrect": false,
-            "explanation": "La potencia activa depende de la carga útil y no varía por los condensadores."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Disminuir la potencia reactiva consumida de la red y optimizar la línea.",
+            "answer": "Equipo que permite regular la tensión de salida moviendo un cursor sobre el devanado.",
             "isCorrect": true,
-            "explanation": "Se reduce la intensidad total que circula por los cables y se evitan penalizaciones de la distribuidora. Fuente: ITC-BT-48, Material Complementario."
+            "explanation": "Muy usado en laboratorios, pero peligroso por no tener aislamiento galvánico. Fuente: Equipos de medida."
           },
           {
             "id": 3,
-            "answer": "Aumentar la tensión de suministro.",
+            "answer": "Un transformador que funciona con música.",
             "isCorrect": false,
-            "explanation": "Puede elevarla ligeramente por reducir caídas, pero no es el fin principal."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Que las bombillas luzcan con más brillo.",
+            "answer": "Un transformador que se repara solo.",
             "isCorrect": false,
-            "explanation": "No tiene impacto directo en el brillo funcional de la iluminación."
+            "explanation": "No existe."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-48-25",
-        "question": "¿Qué indica el símbolo 'F' en un aparato de iluminación según se cita en estas ITCs?",
+        "type": "simple",
+        "question": "En una batería de condensadores, ¿para qué sirve el regulador electrónico central?",
         "options": [
           {
             "id": 1,
-            "answer": "Que es resistente a la frecuencia de 60 Hz.",
+            "answer": "Para bajar el volumen.",
             "isCorrect": false,
-            "explanation": "La frecuencia no se indica con una letra F aislada."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Que es apto para montaje sobre superficies normalmente inflamables.",
+            "answer": "Mide el coseno de phi en tiempo real y conecta o desconecta escalones de condensadores según sea necesario.",
             "isCorrect": true,
-            "explanation": "Es vital para muebles de madera o materiales textiles. Fuente: ITC-BT-49 (citado como requisito de seguridad térmica)."
+            "explanation": "Optimiza la compensación de reactiva automáticamente. Fuente: Gestión de energía."
           },
           {
             "id": 3,
-            "answer": "Que tiene un factor de potencia bajo.",
+            "answer": "Para encender las luces de la oficina.",
             "isCorrect": false,
-            "explanation": "Símbolo incorrecto para el factor de potencia."
+            "explanation": "No es su función."
           },
           {
             "id": 4,
-            "answer": "Que es de fabricación nacional.",
+            "answer": "Para limitar la velocidad de los motores.",
             "isCorrect": false,
-            "explanation": "El símbolo F es una clasificación de seguridad térmica europea."
+            "explanation": "Eso lo hace un variador, no un regulador de condensadores."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-48-26",
+        "type": "multiple",
+        "question": "¿Qué problemas causan los condensadores en mal estado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Penalizaciones económicas por exceso de energía reactiva.",
+            "isCorrect": true,
+            "explanation": "Al no compensar, la compañía eléctrica cobra la reactiva."
+          },
+          {
+            "id": 2,
+            "answer": "Calentamiento excesivo de los cables de alimentación.",
+            "isCorrect": true,
+            "explanation": "La corriente reactiva también circula y calienta por efecto Joule."
+          },
+          {
+            "id": 3,
+            "answer": "Riesgo de explosión o vertido de líquidos tóxicos (en modelos antiguos con PCB).",
+            "isCorrect": true,
+            "explanation": "Peligro ambiental y físico grave. Fuente: Seguridad medioambiental."
+          },
+          {
+            "id": 4,
+            "answer": "Hacen que las bombillas duren más.",
+            "isCorrect": false,
+            "explanation": "Falso; no influyen directamente en la vida de la bombilla."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-27",
+        "type": "simple",
+        "question": "¿Por qué no se debe abrir el circuito secundario de un Transformador de Intensidad (TI) mientras hay corriente en el primario?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque se gasta la corriente.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Se generan tensiones peligrosísimas (miles de voltios) en los bornes abiertos que pueden matar o quemar el TI.",
+            "isCorrect": true,
+            "explanation": "El TI intenta mantener la intensidad y sube la tensión hasta el infinito teórico. Fuente: Seguridad en medidas."
+          },
+          {
+            "id": 3,
+            "answer": "Porque deja de medir.",
+            "isCorrect": false,
+            "explanation": "Obviamente deja de medir, pero el peligro es la sobretensión."
+          },
+          {
+            "id": 4,
+            "answer": "No pasa nada, se puede abrir con la mano.",
+            "isCorrect": false,
+            "explanation": "Riesgo mortal de arco eléctrico y choque."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-28",
+        "type": "simple",
+        "question": "Sobre la instalación de reactancias para lámparas LED (drivers), ¿qué ventaja tienen las electrónicas frente a las antiguas magnéticas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que son más pesadas.",
+            "isCorrect": false,
+            "explanation": "Son mucho más ligeras."
+          },
+          {
+            "id": 2,
+            "answer": "Mayor eficiencia, no parpadean y son más compactas.",
+            "isCorrect": true,
+            "explanation": "Tecnología de conmutación (switching) muy avanzada. Fuente: Tecnología de iluminación."
+          },
+          {
+            "id": 3,
+            "answer": "Que funcionan con carbón.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que duran 100 años.",
+            "isCorrect": false,
+            "explanation": "Duran mucho, pero tienen componentes electrónicos que pueden fallar."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-29",
+        "type": "simple",
+        "question": "En un rectificador de batería, ¿para qué sirve el diodo de protección de polaridad inversa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que la batería brille.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Evita que el equipo se queme si se conectan los cables + y - al revés en la batería.",
+            "isCorrect": true,
+            "explanation": "Protección básica contra errores de usuario. Fuente: Electrónica de carga."
+          },
+          {
+            "id": 3,
+            "answer": "Para cargar la batería más rápido.",
+            "isCorrect": false,
+            "explanation": "No influye en la velocidad."
+          },
+          {
+            "id": 4,
+            "answer": "No sirve para nada.",
+            "isCorrect": false,
+            "explanation": "Evita reparaciones costosas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-30",
+        "type": "simple",
+        "question": "Sobre los transformadores instalados en falsos techos, ¿qué precaución es vital?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que no se vean.",
+            "isCorrect": false,
+            "explanation": "Criterio estético, no de seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "Debe haber una trampilla de acceso y suficiente espacio para que no se sobrecalienten en un recinto cerrado.",
+            "isCorrect": true,
+            "explanation": "Garantiza el mantenimiento y la ventilación. Fuente: ITC-BT-48, Apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Se deben pegar con chicle.",
+            "isCorrect": false,
+            "explanation": "Inseguro e inflamable."
+          },
+          {
+            "id": 4,
+            "answer": "Deben ser de cristal.",
+            "isCorrect": false,
+            "explanation": "No existen transformadores de cristal por funcionalidad magnética."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-31",
+        "type": "multiple",
+        "question": "¿Qué elementos pueden causar armónicos en una red eléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Variadores de frecuencia y rectificadores.",
+            "isCorrect": true,
+            "explanation": "Cargas no lineales que deforman la onda."
+          },
+          {
+            "id": 2,
+            "answer": "Ordenadores y equipos electrónicos de oficina.",
+            "isCorrect": true,
+            "explanation": "Fuentes conmutadas masivas."
+          },
+          {
+            "id": 3,
+            "answer": "Lámparas de descarga con reactancias electrónicas.",
+            "isCorrect": true,
+            "explanation": "Generan distorsión armónica. Fuente: Calidad de suministro."
+          },
+          {
+            "id": 4,
+            "answer": "Estufas de resistencias puras.",
+            "isCorrect": false,
+            "explanation": "Son cargas lineales, no generan armónicos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-32",
+        "type": "simple",
+        "question": "¿Qué es un 'transformador toroidal'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un transformador para toros.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Transformador con forma de anillo (toroide) que es más eficiente, silencioso y genera menos interferencias.",
+            "isCorrect": true,
+            "explanation": "Muy común en audio de alta fidelidad y equipos médicos. Fuente: Diseño magnético."
+          },
+          {
+            "id": 3,
+            "answer": "Un transformador cuadrado.",
+            "isCorrect": false,
+            "explanation": "Toroidal implica circular."
+          },
+          {
+            "id": 4,
+            "answer": "Uno que funciona sin cables.",
+            "isCorrect": false,
+            "explanation": "Todos requieren cables para funcionar."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-33",
+        "type": "simple",
+        "question": "Sobre la protección de condensadores, ¿por qué se recomienda usar fusibles de tipo 'gG' o 'aM'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque son más bonitos.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Para soportar el fuerte pico de corriente de inserción sin fundirse innecesariamente.",
+            "isCorrect": true,
+            "explanation": "Deben ser coordinados con la capacidad del condensador. Fuente: Coordinación de protecciones."
+          },
+          {
+            "id": 3,
+            "answer": "Solo se pueden usar magnetotérmicos.",
+            "isCorrect": false,
+            "explanation": "Se pueden usar ambos, pero el fusible es muy común en cabeceras de baterías."
+          },
+          {
+            "id": 4,
+            "answer": "Porque son fusibles que no se rompen.",
+            "isCorrect": false,
+            "explanation": "Todos los fusibles están diseñados para romperse ante un fallo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-34",
+        "type": "simple",
+        "question": "¿Qué es la 'clase H' en un transformador seco?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que es para Hospitales.",
+            "isCorrect": false,
+            "explanation": "Aunque se usen allí, no significa eso."
+          },
+          {
+            "id": 2,
+            "answer": "Indica que sus aislantes pueden trabajar hasta 180 ºC de forma continuada.",
+            "isCorrect": true,
+            "explanation": "Máxima robustez térmica para equipos industriales pesados. Fuente: Estándares IEEE/IEC."
+          },
+          {
+            "id": 3,
+            "answer": "Que es muy Horrible.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que funciona a 50 Hercios.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-35",
+        "type": "simple",
+        "question": "En una rectificación de onda completa con 4 diodos (puente de Graetz), ¿cuál es la ventaja sobre la de media onda?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguna, gasta más diodos.",
+            "isCorrect": false,
+            "explanation": "Es mucho más eficiente."
+          },
+          {
+            "id": 2,
+            "answer": "Aprovecha ambos semiciclos de la alterna, dando una salida de CC mucho más estable y con el doble de potencia útil.",
+            "isCorrect": true,
+            "explanation": "Estándar en casi todas las fuentes de alimentación. Fuente: Electrónica básica."
+          },
+          {
+            "id": 3,
+            "answer": "Que la corriente sale más fría.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que no necesita cables.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-36",
+        "type": "multiple",
+        "question": "¿Qué comprobaciones se hacen en un transformador de potencia en servicio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Medida de la temperatura de la carcasa (termografía).",
+            "isCorrect": true,
+            "explanation": "Detecta puntos calientes por malas conexiones o sobrecarga."
+          },
+          {
+            "id": 2,
+            "answer": "Nivel de ruido y vibraciones.",
+            "isCorrect": true,
+            "explanation": "Indica el estado mecánico del núcleo."
+          },
+          {
+            "id": 3,
+            "answer": "Ausencia de olores a quemado o de barniz recalentado.",
+            "isCorrect": true,
+            "explanation": "Aviso precoz de fallo de aislamiento. Fuente: Protocolos de mantenimiento."
+          },
+          {
+            "id": 4,
+            "answer": "Comprobar si los bornes están oxidados por fuera.",
+            "isCorrect": false,
+            "explanation": "El óxido exterior no es crítico si la conexión eléctrica es firme y limpia."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-37",
+        "type": "simple",
+        "question": "¿Para qué sirve un 'condensador de filtrado' en una fuente de alimentación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para filtrar el aire.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Para eliminar el rizado de la corriente rectificada y dejarla lo más plana y parecida a una batería posible.",
+            "isCorrect": true,
+            "explanation": "Vital para el funcionamiento de microchips y electrónica sensible. Fuente: Diseño de fuentes."
+          },
+          {
+            "id": 3,
+            "answer": "Para que no pasen los armónicos al enchufe.",
+            "isCorrect": false,
+            "explanation": "Esa es la función de un filtro de red completo, no solo del condensador de salida."
+          },
+          {
+            "id": 4,
+            "answer": "Para ahorrar energía.",
+            "isCorrect": false,
+            "explanation": "Consume un poco para cargarse."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-38",
+        "type": "simple",
+        "question": "Sobre las reactancias para fluorescentes, ¿qué síntoma indica que el cebador está fallando?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la luz se apaga sola.",
+            "isCorrect": false,
+            "explanation": "Puede ser el tubo agotado."
+          },
+          {
+            "id": 2,
+            "answer": "Parpadeo constante del tubo en los extremos sin llegar a encenderse del todo.",
+            "isCorrect": true,
+            "explanation": "El cebador no logra abrir el circuito en el momento justo del pico de tensión. Fuente: Averías comunes de iluminación."
+          },
+          {
+            "id": 3,
+            "answer": "Que el tubo se pone negro por el centro.",
+            "isCorrect": false,
+            "explanation": "Eso es agotamiento del gas del tubo."
+          },
+          {
+            "id": 4,
+            "answer": "Que la reactancia huele a flores.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-39",
+        "type": "simple",
+        "question": "¿Se pueden instalar condensadores de potencia en locales con riesgo de explosión (clase I)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, sin problemas.",
+            "isCorrect": false,
+            "explanation": "Peligro de chispas en las conexiones."
+          },
+          {
+            "id": 2,
+            "answer": "Solo si disponen de un envolvente antideflagrante certificado (Ex d) o están fuera de la zona de riesgo.",
+            "isCorrect": true,
+            "explanation": "Seguridad extrema en atmósferas peligrosas. Fuente: ITC-BT-29."
+          },
+          {
+            "id": 3,
+            "answer": "No, está terminantemente prohibido.",
+            "isCorrect": false,
+            "explanation": "Se permite con la protección adecuada."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se tapan con tierra.",
+            "isCorrect": false,
+            "explanation": "No es una solución técnica válida."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-40",
+        "type": "simple",
+        "question": "Finalmente, ¿cuál es la vida útil estimada de una batería de condensadores industrial bien mantenida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 año.",
+            "isCorrect": false,
+            "explanation": "Sería un producto de muy mala calidad."
+          },
+          {
+            "id": 2,
+            "answer": "Entre 5 y 10 años, dependiendo de la temperatura y la calidad de la red.",
+            "isCorrect": true,
+            "explanation": "El dieléctrico se agota con los ciclos de carga/descarga y el calor. Fuente: Datos de fabricantes."
+          },
+          {
+            "id": 3,
+            "answer": "50 años.",
+            "isCorrect": false,
+            "explanation": "Casi imposible para componentes químicos."
+          },
+          {
+            "id": 4,
+            "answer": "Para siempre.",
+            "isCorrect": false,
+            "explanation": "Todo componente eléctrico se degrada."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-41",
+        "type": "simple",
+        "question": "¿Qué es un 'transformador de intensidad de medida'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que mide lo que pesa el cable.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Equipo que reduce proporcionalmente grandes corrientes para poder medirlas con instrumentos estándar de 5A.",
+            "isCorrect": true,
+            "explanation": "Indispensable en cuadros generales de gran potencia. Fuente: Instrumentación eléctrica."
+          },
+          {
+            "id": 3,
+            "answer": "Un aparato para medir la tensión.",
+            "isCorrect": false,
+            "explanation": "Mide intensidad, no tensión."
+          },
+          {
+            "id": 4,
+            "answer": "Un fusible inteligente.",
+            "isCorrect": false,
+            "explanation": "No es un fusible."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-42",
+        "type": "multiple",
+        "question": "¿Qué señales indican que un rectificador industrial está fallando?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumento del rizado en la salida de continua.",
+            "isCorrect": true,
+            "explanation": "Indica que uno o más diodos están abiertos."
+          },
+          {
+            "id": 2,
+            "answer": "Disparo frecuente de las protecciones de entrada.",
+            "isCorrect": true,
+            "explanation": "Cortocircuito interno en los semiconductores."
+          },
+          {
+            "id": 3,
+            "answer": "Olor a 'ozono' o plástico quemado.",
+            "isCorrect": true,
+            "explanation": "Sobrecalentamiento destructivo. Fuente: Diagnóstico de averías."
+          },
+          {
+            "id": 4,
+            "answer": "Que el equipo gasta menos luz.",
+            "isCorrect": false,
+            "explanation": "Falso; un equipo fallando suele consumir más por ineficiencia o fugas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-43",
+        "type": "simple",
+        "question": "Sobre el factor de potencia, ¿qué valor es el objetivo ideal para no pagar penalización?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "0,5.",
+            "isCorrect": false,
+            "explanation": "Muy bajo; penalización asegurada."
+          },
+          {
+            "id": 2,
+            "answer": "Lo más cercano posible a 1 (habitualmente > 0,95).",
+            "isCorrect": true,
+            "explanation": "Indica que casi toda la energía consumida se aprovecha en trabajo útil. Fuente: Tarifas eléctricas."
+          },
+          {
+            "id": 3,
+            "answer": "0.",
+            "isCorrect": false,
+            "explanation": "Imposible en una red funcionando."
+          },
+          {
+            "id": 4,
+            "answer": "2.",
+            "isCorrect": false,
+            "explanation": "El valor máximo teórico es 1."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-44",
+        "type": "simple",
+        "question": "¿Para qué sirve un 'puente de diodos' de una sola pieza?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para cruzar cables.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Integra los 4 diodos necesarios para la rectificación en un solo encapsulado, facilitando el montaje y la refrigeración.",
+            "isCorrect": true,
+            "explanation": "Solución estándar en electrónica moderna. Fuente: Componentes semiconductores."
+          },
+          {
+            "id": 3,
+            "answer": "Para ahorrar cobre.",
+            "isCorrect": false,
+            "explanation": "Ahorra espacio y tiempo de montaje."
+          },
+          {
+            "id": 4,
+            "answer": "Para que no pase la corriente.",
+            "isCorrect": false,
+            "explanation": "La deja pasar solo en un sentido."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-45",
+        "type": "simple",
+        "question": "Sobre las reactancias para luminarias de vapor de sodio, ¿por qué necesitan un 'ignitor' aparte?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para darles suerte.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Para generar picos de alta tensión (miles de voltios) que ionicen el gas y arranquen la lámpara fría.",
+            "isCorrect": true,
+            "explanation": "La reactancia sola no tiene tensión suficiente para el cebado inicial. Fuente: Alumbrado público."
+          },
+          {
+            "id": 3,
+            "answer": "Para que brillen más.",
+            "isCorrect": false,
+            "explanation": "Solo sirve para el encendido."
+          },
+          {
+            "id": 4,
+            "answer": "Para apagar la luz de día.",
+            "isCorrect": false,
+            "explanation": "Eso lo hace una fotocélula o reloj."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-46",
+        "type": "multiple",
+        "question": "¿Qué tipos de refrigeración se usan en grandes transformadores de baja tensión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "AN (Aire Natural).",
+            "isCorrect": true,
+            "explanation": "Por convección natural del aire ambiente."
+          },
+          {
+            "id": 2,
+            "answer": "AF (Aire Forzado) mediante ventiladores.",
+            "isCorrect": true,
+            "explanation": "Aumenta la potencia nominal que puede entregar el equipo."
+          },
+          {
+            "id": 3,
+            "answer": "ONAN (Aceite Natural, Aire Natural).",
+            "isCorrect": true,
+            "explanation": "Típico de transformadores sumergidos en aceite. Fuente: Normas de diseño."
+          },
+          {
+            "id": 4,
+            "answer": "Hielo seco directamente sobre los cables.",
+            "isCorrect": false,
+            "explanation": "Absurdo y causaría condensaciones peligrosas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-47",
+        "type": "simple",
+        "question": "Sobre la seguridad en el mantenimiento, ¿qué debe hacerse tras desconectar una batería de condensadores antes de tocarla?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Nada, ya no hay luz.",
+            "isCorrect": false,
+            "explanation": "Sigue habiendo energía almacenada."
+          },
+          {
+            "id": 2,
+            "answer": "Esperar el tiempo marcado (ej: 5 minutos) y verificar con un polímetro que no hay tensión residual.",
+            "isCorrect": true,
+            "explanation": "Garantiza que las resistencias de descarga han hecho su trabajo. Fuente: Reglas de Oro de la Electricidad."
+          },
+          {
+            "id": 3,
+            "answer": "Cortocircuitar los bornes con un destornillador a lo bruto.",
+            "isCorrect": false,
+            "explanation": "Peligro de explosión, fogonazo y daño al condensador."
+          },
+          {
+            "id": 4,
+            "answer": "Mojarlos con agua.",
+            "isCorrect": false,
+            "explanation": "Peligro mortal."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-48",
+        "type": "simple",
+        "question": "¿Qué es la 'relación de transformación' (m) en un transformador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La distancia entre los cables.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "El cociente entre la tensión del primario y la del secundario (V1/V2).",
+            "isCorrect": true,
+            "explanation": "Define cuánto sube o baja la tensión el equipo. Fuente: Teoría de máquinas."
+          },
+          {
+            "id": 3,
+            "answer": "El peso dividido por la potencia.",
+            "isCorrect": false,
+            "explanation": "No tiene significado técnico."
+          },
+          {
+            "id": 4,
+            "answer": "La cantidad de cobre que lleva.",
+            "isCorrect": false,
+            "explanation": "Influye, pero la relación es de tensiones."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-49",
+        "type": "simple",
+        "question": "Sobre el 'hum' o zumbido de un transformador, ¿se puede eliminar totalmente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, apagándolo.",
+            "isCorrect": false,
+            "explanation": "Obviamente, pero deja de funcionar."
+          },
+          {
+            "id": 2,
+            "answer": "No totalmente en equipos grandes, pero se puede minimizar con buenos materiales, apriete del núcleo y silent-blocks.",
+            "isCorrect": true,
+            "explanation": "Es un efecto físico intrínseco al magnetismo variable. Fuente: Ingeniería acústica industrial."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si se envuelve en plástico de burbujas.",
+            "isCorrect": false,
+            "explanation": "Peligro de incendio por falta de ventilación."
+          },
+          {
+            "id": 4,
+            "answer": "No importa el ruido.",
+            "isCorrect": false,
+            "explanation": "Afecta al confort y puede indicar fallos mecánicos si es excesivo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-48-50",
+        "type": "simple",
+        "question": "Finalmente, ¿qué componente de un rectificador suele fallar primero por calor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La caja de metal.",
+            "isCorrect": false,
+            "explanation": "Aguanta cientos de grados."
+          },
+          {
+            "id": 2,
+            "answer": "Los condensadores electrolíticos de filtrado.",
+            "isCorrect": true,
+            "explanation": "Su electrolito se seca con el calor, perdiendo capacidad y provocando el fallo del equipo. Fuente: Análisis de fiabilidad electrónica."
+          },
+          {
+            "id": 3,
+            "answer": "Los tornillos.",
+            "isCorrect": false,
+            "explanation": "No les afecta el calor normal."
+          },
+          {
+            "id": 4,
+            "answer": "El interruptor.",
+            "isCorrect": false,
+            "explanation": "Falla por desgaste mecánico, no por calor residual generalmente."
+          }
+        ]
       }
     ]
   }

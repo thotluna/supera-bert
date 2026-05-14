@@ -5,3103 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-34-01",
-        "question": "¿A qué tipo de instalaciones se aplica la ITC-BT-34?",
+        "type": "simple",
+        "question": "En el montaje de un stand para una feria comercial en un pabellón cerrado, ¿qué tensión nominal máxima se permite para la instalación eléctrica temporal?",
         "options": [
           {
             "id": 1,
-            "answer": "A instalaciones fijas en edificios comerciales",
+            "answer": "127/220 V en corriente alterna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Las instalaciones fijas se rigen por las ITCs generales. La 34 es específica para instalaciones temporales."
+            "explanation": "Aunque es una tensión de distribución permitida en otros casos, la normativa de ferias establece un límite superior específico."
           },
           {
             "id": 2,
-            "answer": "A instalaciones eléctricas temporales de ferias, exposiciones, stands y alumbrados festivos",
+            "answer": "230/400 V en corriente alterna.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 1 especifica que cubre ferias, exposiciones, muestras, stands, alumbrados festivos de calles, verbenas y análogas."
+            "explanation": "Según la ITC-BT-34, apartado 2.1, la tensión nominal no será superior a 230/400 V en corriente alterna para estas instalaciones."
           },
           {
             "id": 3,
-            "answer": "Únicamente a parques de atracciones permanentes",
+            "answer": "400/690 V en corriente alterna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los parques permanentes tienen su propia normativa; la ITC-BT-34 se enfoca en la temporalidad de eventos."
+            "explanation": "Esta tensión supera el límite reglamentario de 230/400 V establecido para instalaciones temporales en ferias."
           },
           {
             "id": 4,
-            "answer": "A instalaciones industriales de alta tensión",
+            "answer": "Cualquier tensión siempre que sea corriente continua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este reglamento (REBT) y esta instrucción son exclusivamente para Baja Tensión."
+            "explanation": "La norma limita expresamente la tensión en corriente alterna a 230/400 V y no permite tensiones ilimitadas en continua."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-02",
-        "question": "Según la ITC-BT-34, ¿qué se define como 'Origen de una instalación eléctrica temporal'?",
+        "type": "simple",
+        "question": "Durante la inspección de una barraca de feria accesible al público, se observa que los equipos eléctricos no disponen de protección diferencial. ¿Cuál es el valor máximo de sensibilidad requerido para el dispositivo diferencial que proteja estos equipos?",
         "options": [
           {
             "id": 1,
-            "answer": "El transformador de la compañía eléctrica",
+            "answer": "300 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El transformador suele ser parte de la red de distribución, no el punto de origen específico del evento temporal."
+            "explanation": "El valor de 300 mA se considera de baja sensibilidad y no es suficiente para la protección de equipos accesibles al público en ferias."
           },
           {
             "id": 2,
-            "answer": "El punto de la instalación permanente desde el que se alimenta la instalación temporal",
-            "isCorrect": true,
-            "explanation": "Correcto. Se define así al punto de la instalación permanente o fuente de suministro desde donde parte la alimentación temporal."
+            "answer": "500 mA.",
+            "isCorrect": false,
+            "explanation": "Esta sensibilidad se reserva para la protección en el origen o protección contra incendios, no para equipos accesibles al público."
           },
           {
             "id": 3,
-            "answer": "El primer cuadro de distribución del stand",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso se considera parte de la instalación interior del stand, no su origen de alimentación."
+            "answer": "30 mA.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 3.1, exige una corriente diferencial-residual asignada máxima de 30 mA para la protección de equipos accesibles al público."
           },
           {
             "id": 4,
-            "answer": "El contador de energía de la feria",
+            "answer": "100 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El contador es un elemento de medida, el origen es el punto de conexión eléctrica."
+            "explanation": "Este valor no garantiza la protección de las personas frente a contactos directos/indirectos en este tipo de instalaciones temporales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-03",
-        "question": "En ferias y stands, ¿cuál es la tensión nominal máxima permitida en corriente alterna?",
+        "type": "simple",
+        "question": "Un instalador está proyectando el alumbrado festivo para las calles de un municipio. ¿Qué tipo de cables debe utilizar preferentemente según la normativa de instalaciones temporales?",
         "options": [
           {
             "id": 1,
-            "answer": "127/220 V",
+            "answer": "Cables rígidos con aislamiento de PVC.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Aunque es una tensión de BT, el límite superior permitido por la norma es mayor."
+            "explanation": "Los cables rígidos no son adecuados para instalaciones temporales móviles como el alumbrado festivo."
           },
           {
             "id": 2,
-            "answer": "230/400 V",
+            "answer": "Cables flexibles de características constructivas según norma UNE específica.",
             "isCorrect": true,
-            "explanation": "Correcto. La tensión nominal no será superior a 230/400 V en corriente alterna."
+            "explanation": "El apartado 6.2 de la ITC-BT-34 requiere el uso de cables flexibles según UNE-EN 50.525-2-21 o UNE 21.031 para alumbrados festivos."
           },
           {
             "id": 3,
-            "answer": "400/690 V",
+            "answer": "Cables con armadura metálica para evitar cortes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta tensión supera los límites previstos para estas instalaciones temporales de acceso público."
+            "explanation": "La armadura metálica no es una característica requerida ni habitual para la flexibilidad necesaria en alumbrados festivos."
           },
           {
             "id": 4,
-            "answer": "1000 V",
+            "answer": "Cables unipolares sin cubierta.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 1000 V es el límite de la Baja Tensión, pero para ferias el límite específico es 230/400 V."
+            "explanation": "Está prohibido el uso de cables sin cubierta por la falta de protección mecánica y frente a influencias externas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-04",
-        "question": "¿Qué sensibilidad máxima deben tener los diferenciales para proteger circuitos de tomas de corriente de hasta 32 A en stands?",
+        "type": "simple",
+        "question": "¿Cuál es la longitud máxima permitida para los cables de conexión flexibles o cordones utilizados para alimentar receptores en un stand de una exposición?",
         "options": [
           {
             "id": 1,
-            "answer": "10 mA",
+            "answer": "5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Aunque 10 mA es más sensible, la norma exige una sensibilidad de 30 mA como estándar de seguridad."
+            "explanation": "Esta longitud es excesiva para cables de conexión flexibles según la norma técnica de instalaciones temporales."
           },
           {
             "id": 2,
-            "answer": "30 mA",
-            "isCorrect": true,
-            "explanation": "Correcto. Todos los circuitos de bases de corriente hasta 32 A deben protegerse con diferenciales de 30 mA."
+            "answer": "3 metros.",
+            "isCorrect": false,
+            "explanation": "Aunque es una medida común en hogares, el reglamento limita esta longitud a un valor menor en ferias y stands."
           },
           {
             "id": 3,
-            "answer": "300 mA",
+            "answer": "1,5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 300 mA no garantiza la protección de las personas frente a contactos directos accidentales."
+            "explanation": "Aunque es una medida segura, el límite máximo permitido por la normativa es algo superior."
           },
           {
             "id": 4,
-            "answer": "500 mA",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Se utiliza para incendios o grandes potencias, pero no para tomas de uso general en stands."
+            "answer": "2 metros.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-34, apartado 6.2, la longitud de los cables de conexión flexibles o cordones no sobrepasará los 2 metros."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-05",
-        "question": "¿Cuál es la altura mínima de instalación para el alumbrado festivo en zonas de paso de vehículos?",
+        "type": "simple",
+        "question": "En una estructura temporal situada al aire libre para una verbena, ¿qué grado de protección mínimo deben garantizar las envolventes de la aparamenta de mando y protección?",
         "options": [
           {
             "id": 1,
-            "answer": "3 metros",
+            "answer": "IP20.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 3 metros es insuficiente para el paso de vehículos pesados o camiones de feria."
+            "explanation": "El grado IP20 solo protege contra objetos sólidos > 12mm y no ofrece protección alguna contra el agua necesaria en exteriores."
           },
           {
             "id": 2,
-            "answer": "6 metros",
-            "isCorrect": true,
-            "explanation": "Correcto. En zonas transitadas por vehículos, la altura mínima será de 6 metros para evitar enganches."
+            "answer": "IP4X.",
+            "isCorrect": false,
+            "explanation": "Este es el grado de protección mínimo requerido para instalaciones de interior, no de exterior."
           },
           {
             "id": 3,
-            "answer": "4,5 metros",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Aunque es una altura común en calles, la ITC-BT-34 especifica 6 metros para estas instalaciones temporales."
+            "answer": "IP45.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 6.1, exige un grado de protección IP45 para instalaciones de exterior según la norma UNE-EN 60.529."
           },
           {
             "id": 4,
-            "answer": "8 metros",
+            "answer": "IP67.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 8 metros es una altura de seguridad excelente pero superior a lo estrictamente exigido por el reglamento."
+            "explanation": "Aunque es un grado superior, no es el mínimo exigido por la normativa para envolventes generales en ferias."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-06",
-        "question": "Pregunta técnica de examen 6 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Cuáles de las siguientes instalaciones se encuentran dentro del ámbito de aplicación de la normativa sobre instalaciones eléctricas temporales en ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
+            "answer": "Exposiciones y muestras comerciales.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "La ITC-BT-34 incluye explícitamente las exposiciones y muestras en su campo de aplicación."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Alumbrados festivos de calles y verbenas.",
+            "isCorrect": true,
+            "explanation": "Estas manifestaciones análogas están contempladas en el apartado 1 de la ITC-BT-34."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Instalaciones permanentes en museos nacionales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La norma se aplica exclusivamente a instalaciones temporales; las permanentes siguen la normativa general."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "answer": "Stands y parques de atracciones.",
+            "isCorrect": true,
+            "explanation": "El apartado 1 de la instrucción técnica correspondiente menciona específicamente los stands y parques de atracciones."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-07",
-        "question": "Pregunta técnica de examen 7 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En una instalación de feria, ¿qué medida de protección contra contactos directos es expresamente rechazada por la normativa?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "El aislamiento de las partes activas.",
+            "isCorrect": false,
+            "explanation": "El aislamiento es una medida básica y aceptada de protección contra contactos directos."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "El uso de barreras o envolventes con grado IP mínimo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Las envolventes son obligatorias y aceptadas siempre que cumplan con el grado IP4X o IP45."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "La protección por medio de obstáculos o por colocación fuera del alcance.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 3.1, prohíbe expresamente estas medidas de protección para garantizar la seguridad del público."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "El uso de Muy Baja Tensión de Seguridad (MBTS).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La MBTS es una medida permitida y regulada específicamente en el apartado 3.1 de la norma."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-08",
-        "question": "Pregunta técnica de examen 8 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Al alimentar un stand desde una instalación permanente, ¿cómo se denomina técnicamente al punto de conexión desde el cual se toma la energía?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Punto de acometida eventual.",
+            "isCorrect": false,
+            "explanation": "Este término no existe en las definiciones reglamentarias de la instrucción técnica de ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Origen de una instalación eléctrica temporal.",
+            "isCorrect": true,
+            "explanation": "Según el apartado 1 de la ITC-BT-34, este es el término correcto para definir el punto de suministro de la instalación temporal."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Caja general de protección provisional.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La CGP es un elemento de la red de distribución, no necesariamente el punto de origen de una instalación de feria."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Derivación individual de feria.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La derivación individual conecta la CGP con el cuadro de mando, pero el punto de toma se define como origen de la instalación temporal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-09",
-        "question": "Pregunta técnica de examen 9 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Qué circuitos en una exposición deben estar protegidos obligatoriamente por un dispositivo diferencial de 30 mA?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
+            "answer": "Circuitos de alumbrado general.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "El apartado 3.2 de la ITC-BT-34 obliga a proteger todos los circuitos de alumbrado con diferenciales de alta sensibilidad."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Tomas de corriente con valor asignado inferior a 32 A.",
+            "isCorrect": true,
+            "explanation": "La normativa especifica este límite de intensidad para la protección obligatoria con diferencial de 30 mA."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Tomas de corriente con valor asignado superior a 63 A.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Para estas intensidades elevadas se pueden aplicar otras medidas de protección diferencial de menor sensibilidad."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "answer": "Luminarias de emergencia.",
+            "isCorrect": true,
+            "explanation": "El apartado 3.2 menciona explícitamente las luminarias de emergencia dentro de los circuitos protegidos por 30 mA."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-10",
-        "question": "Pregunta técnica de examen 10 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué requisito debe cumplir el acceso al interior de las luminarias fijas instaladas en un stand de feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Debe ser libre para facilitar el cambio de lámparas por el usuario.",
+            "isCorrect": false,
+            "explanation": "El acceso libre supondría un riesgo de contacto directo para personas no cualificadas en un entorno de feria."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Solo podrá realizarse mediante el empleo de una herramienta.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 6.4.1, exige el uso de herramientas para acceder al interior de las luminarias fijas."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Debe disponer de un interruptor de corte omnipolar automático al abrirse.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Aunque es una medida de seguridad avanzada, no es el requisito mínimo exigido por la instrucción técnica."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Debe situarse siempre a más de 3 metros de altura.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La norma permite instalarlas a menos de 2,5 metros siempre que estén firmemente fijadas y el acceso sea restringido."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-11",
-        "question": "Pregunta técnica de examen 11 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En el caso de utilizar cables eléctricos para una instalación temporal en el exterior de una feria, ¿cuál debe ser la tensión asignada mínima del cable?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "300/500 V.",
+            "isCorrect": false,
+            "explanation": "Esta tensión es la mínima para instalaciones de interior, pero insuficiente para los requisitos de exterior en ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "450/750 V.",
+            "isCorrect": true,
+            "explanation": "Según el apartado 6.2 de la ITC-BT-34, los cables exteriores deben tener una tensión asignada mínima de 450/750 V."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "0,6/1 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Aunque es superior y más segura, la normativa establece el mínimo reglamentario en 450/750 V."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "100/200 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Esta tensión es muy inferior a los niveles de seguridad requeridos por el REBT para cualquier instalación de potencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-12",
-        "question": "Pregunta técnica de examen 12 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuándo es obligatorio instalar alumbrado de seguridad en una instalación temporal interior según la normativa de ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Siempre que la superficie sea superior a 500 m².",
+            "isCorrect": false,
+            "explanation": "La superficie no es el criterio determinante en la instrucción técnica de ferias para este requisito."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "En aquellas instalaciones que puedan albergar a más de 100 personas.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.4.2 de la ITC-BT-34 establece el límite de aforo en 100 personas para la obligatoriedad del alumbrado de seguridad."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Cuando la instalación sea al aire libre.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "El requisito de aforo mencionado se aplica específicamente a instalaciones interiores."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Solo si hay presencia de materiales inflamables.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La presencia de materiales inflamables afecta a otras protecciones, pero el alumbrado de seguridad se rige por el aforo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-13",
-        "question": "Pregunta técnica de examen 13 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Qué condiciones deben cumplir las tomas de corriente instaladas en el suelo en un recinto ferial?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
+            "answer": "Deben estar protegidas contra la penetración del agua.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "El apartado 6.4.4 de la ITC-BT-34 exige protección contra el agua para las tomas situadas en el suelo."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Deben tener un grado de protección contra impactos IK10.",
+            "isCorrect": true,
+            "explanation": "La normativa técnica de ferias especifica el grado IK10 debido a la posibilidad de pisadas o golpes."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Deben ser de color rojo para advertir del peligro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "El color no es un requisito reglamentario, solo sus características de protección mecánica y frente al agua."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Deben permitir la conexión de hasta tres cables por toma.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Está prohibido unir más de un cable o cordón a una misma toma según el apartado 6.4.4."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-14",
-        "question": "Pregunta técnica de examen 14 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En una instalación temporal de interior, ¿cuál es el grado de protección mínimo exigido para las canalizaciones?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Este grado solo protege contra dedos y es insuficiente para el entorno de una feria comercial."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "IP4X.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.3 de la ITC-BT-34 especifica que las canalizaciones deberán tener un grado de protección IP4X."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "IP55.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Este grado ofrece protección contra chorros de agua, algo no exigido para canalizaciones generales de interior."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "IP00.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Este grado implica que no hay protección alguna, lo cual está prohibido por seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-15",
-        "question": "Pregunta técnica de examen 15 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Al utilizar Muy Baja Tensión de Seguridad (MBTS) en una feria, ¿qué ensayo dieléctrico debe resistir el aislamiento para la protección contra contactos directos?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "230 V durante 1 minuto.",
+            "isCorrect": false,
+            "explanation": "El valor de tensión para el ensayo dieléctrico en MBTS debe ser superior a la tensión de red común."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "1000 V durante 5 minutos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Este ensayo es típico de cables de 0,6/1 kV, no es el específico requerido para MBTS en ferias."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "500 V durante 1 minuto.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-34, apartado 3.1, el aislamiento en MBTS debe resistir 500 V durante un minuto."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No requiere ensayo si la tensión es inferior a 24 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La norma exige el ensayo independientemente de la tensión nominal asignada de la MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-16",
-        "question": "Pregunta técnica de examen 16 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En el origen de una instalación temporal, se recomienda la instalación de un diferencial selectivo. ¿Cuál es la sensibilidad máxima recomendada para este dispositivo?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "30 mA.",
+            "isCorrect": false,
+            "explanation": "Un diferencial de 30 mA en el origen provocaría disparos intempestivos al no ser selectivo con los circuitos finales."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "100 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Aunque es más sensible, la recomendación específica para el origen de alimentación es un valor superior."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "300 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Este valor es común para protección contra incendios, pero la recomendación para ferias es diferente."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "answer": "500 mA.",
+            "isCorrect": true,
+            "explanation": "El apartado 3.2 de la ITC-BT-34 recomienda que el diferencial en el origen no supere los 500 mA y sea selectivo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-17",
-        "question": "Pregunta técnica de examen 17 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué característica deben tener los stands que contengan una alta concentración de aparatos eléctricos propensos a generar calor superior al normal?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Deben estar climatizados con aire acondicionado obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "La climatización no es un requisito de seguridad constructiva exigido por el REBT."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Deben tener una cubierta bien ventilada construida con materiales incombustibles.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 5, exige ventilación y materiales incombustibles para prevenir riesgos de incendio por calor acumulado."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Solo pueden alimentarse mediante generadores independientes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La fuente de alimentación no exime de cumplir los requisitos de ventilación y resistencia al fuego de la estructura."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Deben disponer de un sistema automático de extinción por CO2.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Este sistema no es un requisito de la ITC-BT-34, que se centra en la prevención mediante materiales y ventilación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-18",
-        "question": "Pregunta técnica de examen 18 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Respecto a las luminarias fijas en un stand, si se instalan a una altura inferior a 2,5 m del suelo, ¿qué precaución adicional debe tomarse?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Deben ser de clase II (doble aislamiento) obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "La clase II es una medida de protección contra contactos indirectos, pero no es el requisito específico de fijación por altura."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Deben estar firmemente fijadas y situadas para impedir riesgos o inflamación de materiales.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.4.1 de la ITC-BT-34 exige firmeza en la fijación para evitar peligros por contacto accidental a baja altura."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Deben alimentarse mediante transformador de aislamiento.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La alimentación con transformador de aislamiento es una medida para quirófanos u otros locales, no específica por altura en ferias."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Deben estar protegidas por una rejilla metálica conectada a tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La rejilla no es el requisito de instalación definido en la normativa técnica de ferias para luminarias bajas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-19",
-        "question": "Pregunta técnica de examen 19 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Para instalaciones temporales de interior, ¿cuál es la tensión asignada mínima exigida para los cables eléctricos?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
+            "answer": "300/500 V.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "Según el apartado 6.2 de la ITC-BT-34, este es el nivel de tensión asignada mínimo para cables de interior en ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "450/750 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Este nivel de tensión se exige para instalaciones de exterior, no siendo el mínimo para interior."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "0,6/1 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Es una tensión superior comúnmente usada, pero el mínimo reglamentario para interior es inferior."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No se especifica tensión, solo que sean flexibles.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El REBT siempre especifica niveles de aislamiento y tensión asignada para garantizar la seguridad eléctrica."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-20",
-        "question": "Pregunta técnica de examen 20 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Dónde debe situarse obligatoriamente el dispositivo de protección contra sobreintensidades de cada circuito en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Al final del circuito, junto al receptor.",
+            "isCorrect": false,
+            "explanation": "La protección al final no protege el cableado del circuito frente a cortocircuitos o sobrecargas."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "En el centro de la instalación para facilitar el acceso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "La ubicación central no cumple con la función técnica de proteger el inicio de la línea eléctrica."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "En el origen del circuito.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 3.3, establece que la protección debe estar situada en el origen del circuito para proteger toda su longitud."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Basta con un único interruptor general para toda la feria.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Cada circuito debe tener su propia protección para garantizar la selectividad y la seguridad individual de las líneas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-21",
-        "question": "Pregunta técnica de examen 21 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Un expositor desea utilizar bases múltiples móviles en su stand. ¿Cuál es la longitud máxima del cable que debe tener dicha base desde la base fija?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Esta longitud supera el límite máximo permitido para bases múltiples en instalaciones feriales."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "2 metros.",
+            "isCorrect": true,
+            "explanation": "Según el apartado 6.4.4 de la ITC-BT-34, las bases múltiples móviles se alimentarán con un cable de longitud máxima 2 m."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "1,5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Aunque es una longitud segura, el reglamento permite alcanzar un máximo ligeramente superior."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Cualquier longitud siempre que el cable sea de 2,5 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La longitud está limitada independientemente de la sección para evitar caídas de tensión y riesgos mecánicos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-22",
-        "question": "Pregunta técnica de examen 22 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Cuáles de las siguientes prácticas están prohibidas en las conexiones de bases de corriente en ferias y stands?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
+            "answer": "El uso de adaptadores multivía.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "El apartado 6.4.4 de la ITC-BT-34 prohíbe taxativamente los adaptadores multivía por riesgo de sobrecarga."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Unir más de un cable o cordón a una misma toma.",
+            "isCorrect": true,
+            "explanation": "La normativa exige que solo un cable o cordón sea unido a cada toma de corriente."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Utilizar cables flexibles en instalaciones interiores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Los cables flexibles no están prohibidos, de hecho son los recomendados para estas instalaciones temporales."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "answer": "Instalar tomas de corriente en el suelo sin protección contra impactos.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio que las tomas de suelo tengan protección IK10 y protección contra el agua."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-23",
-        "question": "Pregunta técnica de examen 23 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En una instalación temporal alimentada por un generador, ¿qué precaución se debe tomar respecto al conductor neutro?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Debe dejarse siempre aislado de tierra para evitar retornos.",
+            "isCorrect": false,
+            "explanation": "El aislamiento total del neutro puede generar tensiones peligrosas en las masas en caso de defecto."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Debe conectarse a las partes conductoras accesibles del generador.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.5 de la ITC-BT-34 exige conectar el neutro o punto neutro a las partes conductoras accesibles del generador."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Debe ser de mayor sección que los conductores de fase.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La sección del neutro sigue las reglas generales del REBT, no hay un requisito de que sea 'siempre mayor'."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Solo debe conectarse a tierra si el sistema es IT.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El requisito de conexión a las partes conductoras del generador se aplica independientemente del sistema de distribución."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-24",
-        "question": "Pregunta técnica de examen 24 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué elemento debe controlar obligatoriamente el circuito independiente que alimenta luminarias y vitrinas en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Un interruptor diferencial de 300 mA.",
+            "isCorrect": false,
+            "explanation": "El diferencial protege contra fugas, pero el control operativo requerido es otro tipo de mando manual."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Un interruptor de emergencia.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34, apartado 6.4.3, obliga a que estos circuitos sean controlados por un interruptor de emergencia."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Un limitador de potencia automático.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "El limitador protege la instalación, pero no cumple la función de seguridad de corte rápido en emergencia."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Un fusible de alto poder de ruptura.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Los fusibles son protecciones pasivas, no elementos de control manual para situaciones de emergencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-25",
-        "question": "Pregunta técnica de examen 25 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿A qué instrucción técnica complementaria remite la normativa de ferias para determinar la sección de los conductores de protección?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "ITC-BT-09.",
+            "isCorrect": false,
+            "explanation": "La ITC-BT-09 trata sobre líneas aéreas, no sobre secciones de protección en interior."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
+            "answer": "ITC-BT-18.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Aunque la ITC-BT-18 trata sobre puestas a tierra, la remisión específica de la ITC-BT-34 es hacia otra instrucción."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "ITC-BT-19.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.6 de la ITC-BT-34 remite expresamente al apartado 2.3 de la ITC-BT-19 para el cálculo de secciones de protección."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "ITC-BT-20.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La ITC-BT-20 trata sobre sistemas de instalación (tubos, canales), no sobre el dimensionado de conductores."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-26",
-        "question": "Pregunta técnica de examen 26 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "En el contexto de la normativa de ferias, ¿cuáles de las siguientes definiciones son correctas según el reglamento?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
+            "answer": "Muestra: Es una presentación realizada en cualquier emplazamiento apropiado.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "Esta es la definición exacta recogida en el apartado 1 de la instrucción técnica correspondiente."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Stand: Es un área temporal utilizada para marketing, ventas u ocio.",
+            "isCorrect": true,
+            "explanation": "El reglamento define el stand por su uso temporal y sus fines de presentación o venta."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "Estructura temporal: Unidad diseñada para su fácil instalación, retiro y transporte.",
+            "isCorrect": true,
+            "explanation": "La facilidad de transporte e instalación es la característica clave de las estructuras temporales feriales."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Origen: Es el punto más alejado de la instalación desde el que se consume energía.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El origen es el punto de suministro inicial, no el punto de consumo final."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-27",
-        "question": "Pregunta técnica de examen 27 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En una instalación ferial al aire libre, ¿cuál es el requisito reglamentario para los cables exteriores respecto a su cubierta?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Cubierta de plástico transparente para detectar cortes.",
+            "isCorrect": false,
+            "explanation": "La transparencia no ofrece protección UV ni mecánica necesaria en exteriores."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Cubierta de policloropreno o similar.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.2 de la ITC-BT-34 exige cubierta de policloropreno para soportar las condiciones climáticas externas."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Cubierta metálica de plomo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Las cubiertas de plomo son obsoletas y no se adaptan a la flexibilidad requerida en instalaciones temporales."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No requieren cubierta especial si van bajo tubo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Incluso bajo tubo, los cables en ferias deben tener características adecuadas al entorno exterior."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-28",
-        "question": "Pregunta técnica de examen 28 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué grado de protección mínimo deben tener las cajas destinadas a conexiones eléctricas, cuadros y armarios en instalaciones interiores de ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "Es un grado insuficiente frente a objetos pequeños en un entorno de pública concurrencia temporal."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "IP4X.",
+            "isCorrect": true,
+            "explanation": "Según la ITC-BT-34, apartado 6.7, deben cumplir al menos el grado indicado en la regla común (IP4X)."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "IP66.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Este grado protege contra chorros de agua potentes, no es el mínimo exigido para interior."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "IPX4.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Este grado solo define protección contra agua, pero falta la protección contra sólidos (X)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-29",
-        "question": "Pregunta técnica de examen 29 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Qué medidas de seguridad deben aplicarse a los rótulos con iluminación interna en un stand de feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
+            "answer": "Deben construirse con materiales de resistencia al calor apropiada.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "El apartado 5 de la instrucción técnica exige materiales resistentes al calor debido a la cercanía de las lámparas."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Deben contar con una ventilación adecuada.",
+            "isCorrect": true,
+            "explanation": "La ventilación es crucial para evitar sobrecalentamientos peligrosos en el interior del rótulo."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "Deben ser mecánicamente resistentes y tener aislamiento eléctrico.",
+            "isCorrect": true,
+            "explanation": "Son requisitos básicos de seguridad constructiva recogidos en la normativa ferial."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Deben alimentarse siempre a Muy Baja Tensión de Seguridad (MBTS).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "No es obligatorio usar MBTS; pueden alimentarse a tensión de red si cumplen las protecciones generales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-30",
-        "question": "Pregunta técnica de examen 30 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En el caso de canalizaciones metálicas o no metálicas en ferias, ¿cuál es el grado de protección IP exigido reglamentariamente?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Protección insuficiente para entornos donde el público tiene acceso cercano a las instalaciones."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "IP4X.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.3 de la ITC-BT-34 establece taxativamente el grado IP4X para todo tipo de canalizaciones."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "IP54.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Aunque es superior, no es el grado básico de referencia exigido en la instrucción técnica."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "IPXXB.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Este grado hace referencia a protección con los dedos, pero la norma especifica IP4X (protección contra sólidos > 1mm)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-31",
-        "question": "Pregunta técnica de examen 31 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En un stand de feria, ¿a qué distancia mínima deben estar las superficies calientes de equipos de iluminación respecto a materiales combustibles?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "0,5 metros.",
+            "isCorrect": false,
+            "explanation": "Esta es la distancia para radiadores en locales con animales (ITC-BT-35), no la regla general de ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Suficientemente apartados según el riesgo de inflamación.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-34 no da una cifra fija en metros, sino que exige que estén 'suficientemente apartados'."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "1 metro fijo en todos los casos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La normativa prefiere un criterio de seguridad adaptado al equipo y material en lugar de una distancia fija única."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No importa la distancia si el material es ignífugo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Incluso con materiales ignífugos, el calor puede ser peligroso y se requiere separación física."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-32",
-        "question": "Pregunta técnica de examen 32 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué normativa específica regula los sistemas de instalación mediante tubos o canales que se utilicen en ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "La propia ITC-BT-34 exclusivamente.",
+            "isCorrect": false,
+            "explanation": "La ITC-BT-34 remite a otras instrucciones generales para los sistemas de ejecución de canalizaciones."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Las ITC-BT-20 y 21.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.3 de la ITC-BT-34 remite directamente a las instrucciones de instalaciones de interior (20 y 21)."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "La ITC-BT-09 sobre líneas aéreas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Las canalizaciones de ferias se asimilan a instalaciones interiores, no a líneas aéreas de distribución."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "La normativa municipal de urbanismo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Aunque puede haber normativa local, la base técnica reglamentaria es el REBT a través de sus ITCs."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-33",
-        "question": "Pregunta técnica de examen 33 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cómo deben estar situadas las luminarias fijas que se instalen a una altura de 2 metros del suelo en un stand?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Deben poder balancearse para orientar la luz libremente.",
+            "isCorrect": false,
+            "explanation": "El balanceo libre a baja altura supone un riesgo de rotura o contacto accidental."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Deben estar firmemente fijadas.",
+            "isCorrect": true,
+            "explanation": "Al estar por debajo de 2,5 metros, la ITC-BT-34 exige que la fijación sea firme por seguridad."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Solo pueden ser de tipo 'foco portátil'.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La normativa regula precisamente las luminarias fijas, permitiendo su instalación si se cumplen los requisitos de seguridad."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Deben estar colgadas mediante cadenas de plástico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El sistema de fijación debe garantizar la estabilidad mecánica, y el plástico no siempre es adecuado por calor."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-34",
-        "question": "Pregunta técnica de examen 34 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En la alimentación de un parque de atracciones, ¿qué tipo de influencia externa debe considerarse prioritariamente para la aparamenta?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Altitud superior a 2000 metros.",
+            "isCorrect": false,
+            "explanation": "La altitud no es una influencia común considerada como prioritaria frente a otras más agresivas en ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Choques mecánicos, agua y temperaturas extremas.",
+            "isCorrect": true,
+            "explanation": "El apartado 2.2 de la ITC-BT-34 menciona expresamente estas influencias como críticas en emplazamientos feriales."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Radiaciones ionizantes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Esta es una influencia de emplazamientos muy específicos, no propia de instalaciones temporales de ocio."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Presencia de flora y moho.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Aunque puede ocurrir, la seguridad eléctrica se centra más en choques, agua y temperatura en estas instalaciones."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-35",
-        "question": "Pregunta técnica de examen 35 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuál es la función del interruptor de emergencia en el circuito independiente de alumbrado de una vitrina en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Regular la intensidad luminosa para ahorrar energía.",
+            "isCorrect": false,
+            "explanation": "Esa es la función de un regulador o 'dimmer', no de un interruptor de emergencia."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Permitir el corte rápido de la alimentación en caso de peligro o incendio.",
+            "isCorrect": true,
+            "explanation": "El interruptor de emergencia es una medida de protección activa exigida por el apartado 6.4.3."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Conectar automáticamente el alumbrado de seguridad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "El alumbrado de seguridad debe conectarse ante un fallo de red, no mediante este interruptor manual."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Proteger contra sobrecargas térmicas del cable.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Esa es la función del interruptor magnetotérmico, no del mando de emergencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-36",
-        "question": "Pregunta técnica de examen 36 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué se define como 'Parque de atracciones' dentro de la normativa de instalaciones eléctricas temporales?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Cualquier jardín público con iluminación festiva.",
+            "isCorrect": false,
+            "explanation": "Un parque de atracciones requiere elementos específicos de diversión del público para su clasificación."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Lugar que incluye tiovivos, barracas, casetas y atracciones con fin de diversión.",
+            "isCorrect": true,
+            "explanation": "Esta es la definición reglamentaria exacta recogida en el apartado 1 de la instrucción técnica."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Un recinto cerrado destinado exclusivamente a la venta de juguetes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La definición se centra en la diversión y las estructuras mecánicas/temporales de ocio."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Un área de juegos infantiles en una comunidad de vecinos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La normativa de ferias se aplica a instalaciones temporales comerciales o públicas de gran escala."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-37",
-        "question": "Pregunta técnica de examen 37 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuál es el objetivo principal de exigir que las envolventes de los cuadros solo se abran con útil o llave?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Evitar que los electricistas pierdan el tiempo abriéndolos.",
+            "isCorrect": false,
+            "explanation": "Al contrario, busca que solo personal con herramienta (cualificado) pueda acceder."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Impedir el acceso a las partes activas por parte de personas no autorizadas o público.",
+            "isCorrect": true,
+            "explanation": "En ferias hay gran afluencia de público, y restringir el acceso a los cuadros es vital para la seguridad."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Garantizar la estanqueidad total contra el agua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La estanqueidad la da el grado IP, no necesariamente el sistema de cierre con llave."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Cumplir con las normas de propiedad intelectual del fabricante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Es un requisito de seguridad eléctrica del REBT, no un tema de patentes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-38",
-        "question": "Pregunta técnica de examen 38 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En un alumbrado festivo, se utiliza un cable flexible. ¿Qué norma UNE debe cumplir su construcción según la instrucción técnica de ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "UNE 20.460.",
+            "isCorrect": false,
+            "explanation": "Esta norma trata sobre instalaciones, no específicamente sobre la construcción de cables flexibles para ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "UNE-EN 50.525-2-21 o UNE 21.031.",
+            "isCorrect": true,
+            "explanation": "Son las normas de referencia citadas en el apartado 6.2 para cables en alumbrados festivos."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "UNE-EN 60.335.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Esta norma trata sobre seguridad en aparatos electrodomésticos, no sobre cables flexibles de ferias."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Cualquier norma que garantice que no se quema.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El REBT exige el cumplimiento de normas técnicas específicas y certificadas, no criterios vagos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-39",
-        "question": "Pregunta técnica de examen 39 sobre la ITC-BT-34.",
+        "type": "multiple",
+        "question": "¿Qué tipos de instalaciones se consideran manifestaciones análogas a las ferias y stands según el campo de aplicación reglamentario?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
+            "answer": "Exposiciones y muestras.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "explanation": "Ambas están explícitamente incluidas como base del campo de aplicación de la ITC-BT-34."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Alumbrados festivos de calles.",
+            "isCorrect": true,
+            "explanation": "Se consideran instalaciones temporales sujetas a las mismas reglas de seguridad que una feria."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "answer": "Verbenas populares.",
+            "isCorrect": true,
+            "explanation": "El carácter temporal y la afluencia de público las sitúa dentro del ámbito de la instrucción técnica 34."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Instalaciones de obra para construcción de edificios.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Las instalaciones de obra tienen su propia normativa específica (ITC-BT-33)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-40",
-        "question": "Pregunta técnica de examen 40 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuál es la sensibilidad máxima permitida para los diferenciales en circuitos de iluminación de emergencia en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "300 mA.",
+            "isCorrect": false,
+            "explanation": "Es un valor demasiado elevado para garantizar la seguridad en circuitos de iluminación accesibles."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "30 mA.",
+            "isCorrect": true,
+            "explanation": "El apartado 3.2 de la ITC-BT-34 obliga a usar 30 mA para todo el alumbrado, incluido el de emergencia."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "500 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Es el valor recomendado para el origen de la instalación, no para los circuitos finales de alumbrado."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No requieren diferencial si están alimentados por baterías.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Si son luminarias alimentadas por red para su carga o funcionamiento, deben estar protegidas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-41",
-        "question": "Pregunta técnica de examen 41 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En la instalación de un stand, se encuentra una base de corriente fija. ¿Cuántos cables o cordones se pueden unir a dicha toma de corriente?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Hasta dos, siempre que no superen la potencia máxima.",
+            "isCorrect": false,
+            "explanation": "El reglamento prohíbe explícitamente la unión de más de un cable por toma."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Un solo cable o cordón.",
+            "isCorrect": true,
+            "explanation": "Es un requisito de seguridad del apartado 6.4.4 para evitar sobrecalentamientos y fallos de conexión."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Tantos como bornes tenga la base por dentro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La norma se refiere a la conexión externa de equipos a la toma, no al cableado interno."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Ninguno, deben ir todas las conexiones por regleta atornillada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Las tomas de corriente están permitidas precisamente para conectar equipos mediante sus clavijas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-42",
-        "question": "Pregunta técnica de examen 42 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Para una feria al aire libre, un instalador selecciona un cable con cubierta de policloropreno. ¿Cuál es la tensión asignada mínima que debe tener?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "0,6/1 kV.",
+            "isCorrect": false,
+            "explanation": "Es la tensión de cables tipo RV-K o VV-K, muy segura pero no el mínimo reglamentario para ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "450/750 V.",
+            "isCorrect": true,
+            "explanation": "Este es el valor mínimo de tensión asignada exigido por la ITC-BT-34 (apartado 6.2) para exterior."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "300/500 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Este valor es insuficiente para cables de exterior en este tipo de instalaciones temporales."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "1000/2000 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Es una tensión propia de media tensión o instalaciones industriales muy específicas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-43",
-        "question": "Pregunta técnica de examen 43 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué grado de protección IK se exige para las envolventes de las tomas de corriente instaladas en el suelo?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "IK08.",
+            "isCorrect": false,
+            "explanation": "Representa una resistencia a impactos de 5 julios, insuficiente para el suelo en ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "IK10.",
+            "isCorrect": true,
+            "explanation": "Es el grado de protección máxima (20 julios) exigido por el apartado 6.4.4 por el riesgo de pisadas."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "IK05.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Protección mínima contra impactos accidentales leves, no apta para zonas transitables."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No se exige grado IK, solo grado IP.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Debido al tránsito de personas, la normativa técnica de ferias añade el requisito IK al IP."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-44",
-        "question": "Pregunta técnica de examen 44 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cómo deben protegerse los cables eléctricos que alimentan una instalación temporal de feria frente a choques mecánicos?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Solo mediante el uso de cables con armadura de acero.",
+            "isCorrect": false,
+            "explanation": "No es obligatorio el uso de cables armados si se protegen por otros medios (tubos, canales)."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Considerando las influencias externas y seleccionando las canalizaciones adecuadas.",
+            "isCorrect": true,
+            "explanation": "El apartado 2.2 obliga a considerar los choques mecánicos como una influencia externa crítica."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Enterrándolos a una profundidad mínima de 1 metro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "En instalaciones temporales no siempre es posible ni exigido enterrar los cables a esa profundidad."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "No es necesario protegerlos si se instalan de noche.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La protección debe ser efectiva durante todo el tiempo que la instalación esté en servicio."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-45",
-        "question": "Pregunta técnica de examen 45 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuál es la función técnica de conectar el neutro a las partes conductoras accesibles del generador en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Reducir el consumo de combustible del generador.",
+            "isCorrect": false,
+            "explanation": "Es una medida de seguridad eléctrica, no influye en el rendimiento mecánico del motor."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Garantizar que la instalación está correctamente conectada a tierra y protegida.",
+            "isCorrect": true,
+            "explanation": "Es fundamental para que los dispositivos de protección diferencial funcionen correctamente ante defectos."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Evitar que el generador haga demasiado ruido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La conexión eléctrica no tiene impacto en la emisión sonora del equipo."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Aumentar la potencia máxima que puede entregar el equipo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La potencia depende de la construcción del alternador y el motor, no de su puesta a tierra."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-46",
-        "question": "Pregunta técnica de examen 46 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En una exposición, se instalan luminarias de emergencia. ¿Qué apartado del reglamento rige sus características generales?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "ITC-BT-10.",
+            "isCorrect": false,
+            "explanation": "La ITC-BT-10 trata sobre previsiones de carga, no sobre iluminación de emergencia."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "ITC-BT-28.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.4.2 de la ITC-BT-34 remite directamente a la ITC-BT-28 (Locales de Pública Concurrencia)."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "ITC-BT-30.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La ITC-BT-30 trata sobre locales húmedos y mojados."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "ITC-BT-40.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "La ITC-BT-40 trata sobre instalaciones generadoras."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-47",
-        "question": "Pregunta técnica de examen 47 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "Respecto a los conductores de protección en ferias, ¿cuál es el criterio para su dimensionamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Deben ser siempre de 16 mm² por seguridad.",
+            "isCorrect": false,
+            "explanation": "No hay una sección fija mínima de 16 mm²; depende de la sección de los conductores de fase."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Su sección debe ser de acuerdo con la ITC-BT-19.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.6 de la ITC-BT-34 establece esta remisión normativa para el cálculo de secciones."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Deben ser de mayor sección que los conductores de neutro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "Siguen las reglas generales de dimensionado del REBT basadas en la fase, no en una comparación con el neutro."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Basta con que sean de color verde-amarillo, sin importar la sección.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "El color es obligatorio para identificación, pero la sección es vital para soportar corrientes de defecto."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-48",
-        "question": "Pregunta técnica de examen 48 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Qué se entiende reglamentariamente por 'Instalación eléctrica temporal' en el ámbito de ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Cualquier instalación que dure menos de 5 años.",
+            "isCorrect": false,
+            "explanation": "El concepto de temporalidad en ferias está ligado a la duración del evento, no a un número fijo de años."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "Destinada a ser montada y desmontada al mismo tiempo que la exposición o muestra.",
+            "isCorrect": true,
+            "explanation": "Esta es la definición de 'Instalación eléctrica temporal' del apartado 1 de la ITC-BT-34."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Aquella que utiliza materiales de baja calidad por su corto uso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La temporalidad no exime de cumplir los estándares de calidad y seguridad del REBT."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Instalación que se alimenta exclusivamente mediante baterías.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Puede alimentarse de la red permanente u otras fuentes; lo que la define es su carácter efímero ligado al evento."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-49",
-        "question": "Pregunta técnica de examen 49 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "En el contexto de incendios, ¿qué factor debe tenerse en cuenta al valorar las influencias externas en una feria?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "La ausencia total de público.",
+            "isCorrect": false,
+            "explanation": "Al contrario, la gran presencia de público es un factor de riesgo agravante en ferias."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "answer": "La naturaleza temporal y la presencia de público.",
+            "isCorrect": true,
+            "explanation": "El apartado 4 de la ITC-BT-34 destaca estos dos factores como determinantes del riesgo de incendio."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Que todos los materiales de los stands son siempre incombustibles.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "En las ferias suele haber muchos materiales combustibles, por lo que el riesgo debe ser evaluado con rigor."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "La baja probabilidad de cortocircuitos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Debido al montaje rápido, el riesgo de fallos eléctricos no debe despreciarse."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-34-50",
-        "question": "Pregunta técnica de examen 50 sobre la ITC-BT-34.",
+        "type": "simple",
+        "question": "¿Cuál es la restricción reglamentaria sobre el uso de adaptadores multivía en stands de ferias?",
         "options": [
           {
             "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
+            "answer": "Se permiten si tienen toma de tierra.",
+            "isCorrect": false,
+            "explanation": "Incluso con tierra, están prohibidos por el riesgo de sobrecarga de los contactos de la base fija."
           },
           {
             "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-51",
-        "question": "Pregunta técnica de examen 51 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
+            "answer": "No se deben utilizar adaptadores multivía.",
             "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
+            "explanation": "Es una prohibición expresa recogida en el apartado 6.4.4 de la ITC-BT-34."
           },
           {
             "id": 3,
-            "answer": "Opción incorrecta técnica B.",
+            "answer": "Se permiten solo para cargas inferiores a 1000 W.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
+            "explanation": "La prohibición es general e independiente de la potencia de los receptores conectados."
           },
           {
             "id": 4,
-            "answer": "Opción incorrecta técnica C.",
+            "answer": "Solo se permiten si están certificados por un laboratorio europeo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
+            "explanation": "Incluso certificados, su uso está restringido en este tipo de instalaciones temporales por seguridad operativa."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-52",
-        "question": "Pregunta técnica de examen 52 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-53",
-        "question": "Pregunta técnica de examen 53 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-54",
-        "question": "Pregunta técnica de examen 54 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-55",
-        "question": "Pregunta técnica de examen 55 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-56",
-        "question": "Pregunta técnica de examen 56 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-57",
-        "question": "Pregunta técnica de examen 57 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-58",
-        "question": "Pregunta técnica de examen 58 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-59",
-        "question": "Pregunta técnica de examen 59 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-60",
-        "question": "Pregunta técnica de examen 60 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-61",
-        "question": "Pregunta técnica de examen 61 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-62",
-        "question": "Pregunta técnica de examen 62 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-63",
-        "question": "Pregunta técnica de examen 63 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-64",
-        "question": "Pregunta técnica de examen 64 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-65",
-        "question": "Pregunta técnica de examen 65 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-66",
-        "question": "Pregunta técnica de examen 66 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-67",
-        "question": "Pregunta técnica de examen 67 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-68",
-        "question": "Pregunta técnica de examen 68 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-69",
-        "question": "Pregunta técnica de examen 69 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-70",
-        "question": "Pregunta técnica de examen 70 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-71",
-        "question": "Pregunta técnica de examen 71 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-72",
-        "question": "Pregunta técnica de examen 72 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-73",
-        "question": "Pregunta técnica de examen 73 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-74",
-        "question": "Pregunta técnica de examen 74 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-75",
-        "question": "Pregunta técnica de examen 75 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-76",
-        "question": "Pregunta técnica de examen 76 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-77",
-        "question": "Pregunta técnica de examen 77 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-78",
-        "question": "Pregunta técnica de examen 78 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-79",
-        "question": "Pregunta técnica de examen 79 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-80",
-        "question": "Pregunta técnica de examen 80 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-81",
-        "question": "Pregunta técnica de examen 81 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-82",
-        "question": "Pregunta técnica de examen 82 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-83",
-        "question": "Pregunta técnica de examen 83 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-84",
-        "question": "Pregunta técnica de examen 84 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-85",
-        "question": "Pregunta técnica de examen 85 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-86",
-        "question": "Pregunta técnica de examen 86 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-87",
-        "question": "Pregunta técnica de examen 87 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-88",
-        "question": "Pregunta técnica de examen 88 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-89",
-        "question": "Pregunta técnica de examen 89 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-90",
-        "question": "Pregunta técnica de examen 90 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-91",
-        "question": "Pregunta técnica de examen 91 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-92",
-        "question": "Pregunta técnica de examen 92 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-93",
-        "question": "Pregunta técnica de examen 93 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-94",
-        "question": "Pregunta técnica de examen 94 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-95",
-        "question": "Pregunta técnica de examen 95 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-96",
-        "question": "Pregunta técnica de examen 96 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 2 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-97",
-        "question": "Pregunta técnica de examen 97 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 3 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-98",
-        "question": "Pregunta técnica de examen 98 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 4 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-99",
-        "question": "Pregunta técnica de examen 99 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 5 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-34-100",
-        "question": "Pregunta técnica de examen 100 sobre la ITC-BT-34.",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Opción correcta basada en el apartado 1 de la ITC-BT-34.",
-            "isCorrect": true,
-            "explanation": "Explicación detallada: Esta respuesta es correcta porque el REBT exige esta medida específica para garantizar la seguridad en eventos temporales."
-          },
-          {
-            "id": 2,
-            "answer": "Opción incorrecta técnica A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Esta medida corresponde a instalaciones industriales permanentes y no aplica a la temporalidad de esta instrucción."
-          },
-          {
-            "id": 3,
-            "answer": "Opción incorrecta técnica B.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión o corriente excede los límites de seguridad permitidos para el público general en ferias."
-          },
-          {
-            "id": 4,
-            "answer": "Opción incorrecta técnica C.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según el apartado correspondiente, este requisito solo es válido para locales de pública concurrencia permanentes."
-          }
-        ],
-        "type": "simple"
+        ]
       }
     ]
   }

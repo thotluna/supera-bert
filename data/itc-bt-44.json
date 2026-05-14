@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-44-01",
-        "question": "¿Qué instalaciones de alumbrado están EXCLUIDAS del campo de aplicación de la ITC-BT-44?",
+        "type": "simple",
+        "question": "¿Cuál es el campo de aplicación de la ITC-BT-44?",
         "options": [
           {
             "id": 1,
-            "answer": "Las de alumbrado interior de viviendas.",
+            "answer": "El alumbrado público de las autopistas.",
             "isCorrect": false,
-            "explanation": "Están incluidas dentro del objeto de esta instrucción."
+            "explanation": "El alumbrado público se rige por la ITC-BT-09."
           },
           {
             "id": 2,
-            "answer": "Las de alumbrado exterior (ITC-BT-09) y las de emergencia (ITC-BT-28).",
+            "answer": "Las instalaciones de receptores para alumbrado (luminarias) en espacios interiores o exteriores.",
             "isCorrect": true,
-            "explanation": "La ITC-BT-44 remite a otras instrucciones específicas para el alumbrado exterior y de emergencia. Fuente: ITC-BT-44, Apartado 1."
+            "explanation": "Cubre las luminarias domésticas, comerciales e industriales. Fuente: ITC-BT-44, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Las de locales comerciales con lámparas de descarga.",
+            "answer": "Solo las luces de Navidad de los ayuntamientos.",
             "isCorrect": false,
-            "explanation": "Están reguladas por esta ITC, con requisitos específicos de carga y compensación."
+            "explanation": "Esas tienen su propia regulación de instalaciones temporales."
           },
           {
             "id": 4,
-            "answer": "Las instalaciones de rótulos luminosos de baja tensión.",
+            "answer": "El alumbrado de emergencia de los hospitales.",
             "isCorrect": false,
-            "explanation": "Están incluidas, aunque los de alta tensión sigan normas adicionales."
+            "explanation": "El alumbrado de emergencia se rige por la ITC-BT-28."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-02",
-        "question": "¿Cuál es la masa máxima de una luminaria que puede suspenderse de cables flexibles?",
+        "type": "simple",
+        "question": "Según la ITC-BT-44, ¿cuál es la masa máxima permitida para una luminaria que esté suspendida exclusivamente de sus cables flexibles?",
         "options": [
           {
             "id": 1,
-            "answer": "2 kg.",
+            "answer": "10 kg.",
             "isCorrect": false,
-            "explanation": "Límite demasiado bajo según la instrucción."
+            "explanation": "Valor excesivo para la resistencia mecánica del cable estándar."
           },
           {
             "id": 2,
             "answer": "5 kg.",
             "isCorrect": true,
-            "explanation": "Excepcionalmente se admite la suspensión de luminarias de hasta 5 kg mediante cables flexibles. Fuente: ITC-BT-44, Apartado 2.1.1."
+            "explanation": "Límite de seguridad para evitar la rotura del cable o el desprendimiento. Fuente: ITC-BT-44, Apartado 2.1.1."
           },
           {
             "id": 3,
-            "answer": "10 kg.",
+            "answer": "2 kg.",
             "isCorrect": false,
-            "explanation": "Supera el límite de seguridad para suspensión directa por cable."
+            "explanation": "Demasiado restrictivo; se permite hasta 5 kg."
           },
           {
             "id": 4,
             "answer": "No hay límite si el cable es de 2,5 mm².",
             "isCorrect": false,
-            "explanation": "La norma impone un límite de masa independientemente de la sección eléctrica."
+            "explanation": "El límite es por peso total independientemente de la sección (dentro de lo razonable)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-03",
-        "question": "¿Qué tracción máxima se permite sobre los conductores que soportan una luminaria suspendida?",
+        "type": "simple",
+        "question": "¿Cuál es la tracción máxima permitida por mm² de sección en los conductores de una luminaria suspendida?",
         "options": [
           {
             "id": 1,
-            "answer": "5 N/mm².",
+            "answer": "50 N/mm².",
             "isCorrect": false,
-            "explanation": "Es un valor muy conservador, la norma permite algo más."
+            "explanation": "Estaría cerca del límite de rotura del cobre."
           },
           {
             "id": 2,
             "answer": "15 N/mm².",
             "isCorrect": true,
-            "explanation": "La tracción máxima a la que pueden estar sometidos los conductores no debe superar este valor. Fuente: ITC-BT-44, Apartado 2.1.1."
+            "explanation": "Garantiza un margen de seguridad mecánica amplio. Fuente: ITC-BT-44, Apartado 2.1.1."
           },
           {
             "id": 3,
-            "answer": "50 N/mm².",
+            "answer": "5 N/mm².",
             "isCorrect": false,
-            "explanation": "Valor excesivo que podría dañar el cobre y el aislamiento."
+            "explanation": "Margen conservador pero la norma permite hasta 15."
           },
           {
             "id": 4,
-            "answer": "La que indique el fabricante de la luminaria.",
+            "answer": "100 N/mm².",
             "isCorrect": false,
-            "explanation": "El REBT marca un límite reglamentario general de 15 N/mm²."
+            "explanation": "El cable se estiraría de forma permanente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-04",
-        "question": "¿Cuál es la tensión asignada mínima para los cables del cableado interno de las luminarias?",
+        "type": "simple",
+        "question": "Sobre el cableado interno de las luminarias, ¿qué sección mínima deben tener los conductores si no vienen certificados de fábrica?",
         "options": [
           {
             "id": 1,
-            "answer": "100/100 V.",
+            "answer": "1,5 mm².",
             "isCorrect": false,
-            "explanation": "Inadecuado para tensiones de red."
+            "explanation": "Sección de circuito de alumbrado general, no necesaria para el interior de la lámpara."
           },
           {
             "id": 2,
-            "answer": "300/300 V.",
+            "answer": "0,5 mm².",
             "isCorrect": true,
-            "explanation": "La tensión mínima nunca debe ser inferior a 300/300 V y siempre adecuada a la de alimentación. Fuente: ITC-BT-44, Apartado 2.1.2."
+            "explanation": "Sección mínima para garantizar resistencia mecánica y eléctrica en el cableado interno. Fuente: ITC-BT-44, Apartado 2.1.2."
           },
           {
             "id": 3,
-            "answer": "450/750 V.",
+            "answer": "0,25 mm².",
             "isCorrect": false,
-            "explanation": "Es un nivel superior muy común, pero el mínimo reglamentario es 300/300 V."
+            "explanation": "Muy fino para ser manejado en obra con seguridad."
           },
           {
             "id": 4,
-            "answer": "No importa la tensión si el cable es de silicona.",
+            "answer": "0,75 mm².",
             "isCorrect": false,
-            "explanation": "El tipo de material no exime de cumplir con la tensión de aislamiento."
+            "explanation": "Es lo habitual en mangueras externas, pero el mínimo interno es 0,5."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-05",
-        "question": "¿Qué conductores deben conectarse al contacto central en portalámparas de este tipo?",
+        "type": "simple",
+        "question": "¿Es obligatorio conectar a tierra la carcasa metálica de una luminaria de Clase I?",
         "options": [
           {
             "id": 1,
-            "answer": "El conductor Neutro.",
+            "answer": "No, si el techo es de escayola.",
             "isCorrect": false,
-            "explanation": "El neutro debe ir a la parte exterior para minimizar el riesgo de contacto accidental."
+            "explanation": "La escayola puede humedecerse y conducir."
           },
           {
             "id": 2,
-            "answer": "El conductor de Fase o polar.",
+            "answer": "Sí, obligatoriamente mediante un conductor de protección.",
             "isCorrect": true,
-            "explanation": "Por seguridad, el contacto central debe ser el que lleve la tensión activa. Fuente: ITC-BT-44, Apartado 2.3."
+            "explanation": "La Clase I basa su seguridad en la conexión a tierra. Fuente: ITC-BT-44, Apartado 2.1.4."
           },
           {
             "id": 3,
-            "answer": "El conductor de Protección.",
+            "answer": "Solo si la bombilla es de más de 100 W.",
             "isCorrect": false,
-            "explanation": "La tierra no se conecta a los contactos de alimentación de la lámpara."
+            "explanation": "La seguridad eléctrica es independiente de la potencia lumínica."
           },
           {
             "id": 4,
-            "answer": "Cualquiera, los portalámparas son bidireccionales.",
+            "answer": "No, los diferenciales ya protegen suficiente.",
             "isCorrect": false,
-            "explanation": "Aunque funcionen, la norma exige una conexión específica por seguridad."
+            "explanation": "El diferencial necesita la tierra para detectar la fuga rápidamente antes del contacto humano."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-06",
-        "question": "¿Dónde está prohibido el uso de lámparas de gases con descarga a alta tensión (como neón)?",
+        "type": "multiple",
+        "question": "¿Qué requisitos deben cumplir los portalámparas según la ITC-BT-44?",
         "options": [
           {
             "id": 1,
-            "answer": "En fachadas de edificios comerciales.",
-            "isCorrect": false,
-            "explanation": "Están permitidas siguiendo normas de seguridad."
+            "answer": "Deben ser capaces de soportar la temperatura de funcionamiento de la lámpara.",
+            "isCorrect": true,
+            "explanation": "Evita incendios y degradación de los contactos."
           },
           {
             "id": 2,
-            "answer": "En el interior de las viviendas.",
+            "answer": "Deben impedir el contacto accidental con las partes en tensión durante la sustitución de la lámpara.",
             "isCorrect": true,
-            "explanation": "El uso de alta tensión para iluminación decorativa de gas está prohibido en viviendas. Fuente: ITC-BT-44, Apartado 2.2."
+            "explanation": "Seguridad básica contra choques eléctricos. Fuente: ITC-BT-44, Apartado 2.3."
           },
           {
             "id": 3,
-            "answer": "En escaparates de tiendas.",
+            "answer": "Deben ser siempre de porcelana.",
             "isCorrect": false,
-            "explanation": "Están permitidas si están fuera del volumen de accesibilidad o protegidas."
+            "explanation": "Se permiten plásticos técnicos resistentes al calor."
           },
           {
             "id": 4,
-            "answer": "En cualquier local con concurrencia de público.",
-            "isCorrect": false,
-            "explanation": "Están permitidas bajo ciertas condiciones de instalación."
+            "answer": "Deben ser compatibles con la casquillo de la lámpara utilizada.",
+            "isCorrect": true,
+            "explanation": "Evita arcos eléctricos por mal contacto."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-07",
-        "question": "¿Qué medida debe tomarse en talleres con máquinas rápidas alimentados por lámparas de descarga?",
+        "type": "simple",
+        "question": "En la instalación de lámparas de descarga (fluorescentes, vapor de sodio), ¿cuál es el factor de potencia mínimo exigido tras la compensación?",
         "options": [
           {
             "id": 1,
-            "answer": "Usar solo lámparas de filamento.",
+            "answer": "0,5.",
             "isCorrect": false,
-            "explanation": "No es obligatorio, se pueden usar medidas correctivas."
+            "explanation": "Factor natural de una reactancia, muy pobre."
           },
           {
             "id": 2,
-            "answer": "Evitar la posibilidad de accidentes causados por efecto estroboscópico.",
+            "answer": "Al menos 0,90 (cos phi).",
             "isCorrect": true,
-            "explanation": "El parpadeo de las lámparas de descarga puede hacer parecer que una máquina está parada cuando está en movimiento. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Obligatorio para no sobrecargar las líneas con reactiva. Fuente: Criterios de eficiencia."
           },
           {
             "id": 3,
-            "answer": "Instalar un interruptor diferencial de 300 mA.",
+            "answer": "1,0.",
             "isCorrect": false,
-            "explanation": "El diferencial no soluciona el problema óptico del estroboscopio."
+            "explanation": "Ideal pero difícil de alcanzar de forma constante."
           },
           {
             "id": 4,
-            "answer": "Pintar las máquinas de colores fluorescentes.",
+            "answer": "0,7.",
             "isCorrect": false,
-            "explanation": "No elimina la ilusión óptica causada por la frecuencia de la luz."
+            "explanation": "Insuficiente según las normas actuales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-08",
-        "question": "¿Cómo se calcula la carga mínima en VA para receptores con lámparas de descarga?",
+        "type": "simple",
+        "question": "¿Cómo se debe calcular la sección de los conductores para un circuito de lámparas de descarga?",
         "options": [
           {
             "id": 1,
-            "answer": "Igual a la potencia en vatios (W).",
+            "answer": "Solo con la potencia de las bombillas.",
             "isCorrect": false,
-            "explanation": "No tiene en cuenta el consumo del equipo auxiliar ni el factor de potencia."
+            "explanation": "Ignora las pérdidas de los equipos auxiliares."
           },
           {
             "id": 2,
-            "answer": "1,8 veces la potencia en vatios de las lámparas.",
+            "answer": "Teniendo en cuenta la corriente total absorbida, incluyendo equipos auxiliares y compensación.",
             "isCorrect": true,
-            "explanation": "Este coeficiente cubre las pérdidas de balastos y corrientes armónicas. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "La reactancia y el cebador también consumen y generan calor. Fuente: ITC-BT-44, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "1,25 veces la potencia en vatios.",
+            "answer": "Multiplicando la potencia por 10 por seguridad.",
             "isCorrect": false,
-            "explanation": "Coeficiente insuficiente según el REBT para este tipo de lámparas."
+            "explanation": "Cálculo no técnico y sobredimensionado."
           },
           {
             "id": 4,
-            "answer": "2,5 veces la potencia en vatios.",
+            "answer": "Usando el doble de la sección normal de alumbrado.",
             "isCorrect": false,
-            "explanation": "Valor excesivo que sobredimensionaría la instalación innecesariamente."
+            "explanation": "Se debe calcular con la intensidad real del conjunto."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-09",
-        "question": "¿Cuál es el valor mínimo de factor de potencia exigido para lámparas de descarga?",
+        "type": "simple",
+        "question": "Un circuito trifásico alimenta grupos de luminarias monofásicas. ¿Qué precaución se debe tener con el conductor neutro?",
         "options": [
           {
             "id": 1,
-            "answer": "0,8.",
+            "answer": "No se debe poner neutro para ahorrar cable.",
             "isCorrect": false,
-            "explanation": "Valor inferior al mínimo reglamentario."
+            "explanation": "Las luminarias monofásicas no funcionarían."
           },
           {
             "id": 2,
-            "answer": "0,9.",
+            "answer": "No se debe interrumpir el neutro sin interrumpir simultáneamente las fases.",
             "isCorrect": true,
-            "explanation": "Es obligatoria la compensación del factor de potencia hasta un valor mínimo de 0,9. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Si el neutro se corta solo, las luminarias pueden recibir 400V y quemarse. Fuente: ITC-BT-44, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "1,0 (Factor de potencia unidad).",
+            "answer": "El neutro debe ser de mayor sección que las fases.",
             "isCorrect": false,
-            "explanation": "Sería el ideal, pero la norma solo exige llegar a 0,9."
+            "explanation": "En circuitos equilibrados no es necesario (salvo armónicos)."
           },
           {
             "id": 4,
-            "answer": "No es obligatorio compensar si la potencia es menor a 100 W.",
+            "answer": "El neutro debe conectarse a un interruptor diferente.",
             "isCorrect": false,
-            "explanation": "La obligación de compensación es general para este tipo de receptores."
+            "explanation": "Peligro de sobretensión por desequilibrio."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-10",
-        "question": "¿Se admite la compensación en conjunto para un grupo de receptores de carga variable?",
+        "type": "simple",
+        "question": "¿Cuál es la tensión máxima para un sistema de alumbrado que utilice MBTS (Muy Baja Tensión de Seguridad)?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, siempre que se use una batería de condensadores fija.",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "Podría causar sobrecompensación capacitiva cuando la carga baja."
+            "explanation": "Es la tensión habitual de los focos, pero el límite es superior."
           },
           {
             "id": 2,
-            "answer": "No, salvo que dispongan de un sistema de compensación automático.",
+            "answer": "50 V en corriente alterna.",
             "isCorrect": true,
-            "explanation": "Para cargas variables, la compensación debe ajustarse dinámicamente al régimen de carga. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Límite superior de la MBTS en entornos secos. Fuente: ITC-BT-36 / ITC-BT-44."
           },
           {
             "id": 3,
-            "answer": "Sí, en instalaciones industriales únicamente.",
+            "answer": "24 V.",
             "isCorrect": false,
-            "explanation": "La restricción aplica a cualquier instalación bajo esta ITC."
+            "explanation": "Tensión común en industria, pero no es el límite reglamentario."
           },
           {
             "id": 4,
-            "answer": "No, la compensación debe ser siempre individual por cada lámpara.",
+            "answer": "110 V.",
             "isCorrect": false,
-            "explanation": "Se permite la colectiva si es automática o si la carga es constante."
+            "explanation": "Tensión peligrosa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-11",
-        "question": "¿Cuál debe ser la tensión en bornes de un condensador tras 60 segundos de su desconexión?",
+        "type": "simple",
+        "question": "¿Qué requisito deben cumplir los transformadores para alimentar focos halógenos o LED de baja tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "No mayor de 50 V.",
-            "isCorrect": true,
-            "explanation": "Los condensadores deben llevar resistencias de descarga para garantizar la seguridad tras el apagado. Fuente: ITC-BT-44, Apartado 3.2."
+            "answer": "Deben ser muy pequeños.",
+            "isCorrect": false,
+            "explanation": "El tamaño no es un requisito de seguridad eléctrica."
           },
           {
             "id": 2,
-            "answer": "0 V exactamente.",
-            "isCorrect": false,
-            "explanation": "Es difícil de alcanzar físicamente en ese tiempo con resistencias estándar, la norma permite hasta 50 V."
+            "answer": "Deben ser transformadores de seguridad (con aislamiento galvánico reforzado).",
+            "isCorrect": true,
+            "explanation": "Evita que un fallo en el primario (230V) pase al secundario. Fuente: ITC-BT-44, Apartado 4."
           },
           {
             "id": 3,
-            "answer": "No mayor de 230 V.",
+            "answer": "Deben ser electrónicos obligatoriamente.",
             "isCorrect": false,
-            "explanation": "Esa tensión sigue siendo peligrosa para el contacto directo."
+            "explanation": "Pueden ser ferromagnéticos si son de seguridad."
           },
           {
             "id": 4,
-            "answer": "No hay requisito de descarga para alumbrado.",
+            "answer": "Deben ir dentro de una caja metálica conectada a fase.",
             "isCorrect": false,
-            "explanation": "Es un requisito de seguridad obligatorio según la ITC-BT-44."
+            "explanation": "Peligrosísimo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-12",
-        "question": "¿A qué tensión máxima deben alimentarse luminarias portátiles en caldererías o depósitos metálicos?",
+        "type": "multiple",
+        "question": "Sobre la instalación de luminarias empotradas en muebles o techos de madera, ¿qué medidas se deben tomar?",
         "options": [
           {
             "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Es el límite de tensión de contacto en locales secos, pero insuficiente aquí."
+            "answer": "Usar luminarias certificadas para montaje sobre superficies inflamables (símbolo 'F' en triángulo).",
+            "isCorrect": true,
+            "explanation": "Garantizan que la temperatura de la base no incendiará la madera."
           },
           {
             "id": 2,
-            "answer": "24 V.",
+            "answer": "Dejar un espacio de aire suficiente alrededor de la luminaria.",
             "isCorrect": true,
-            "explanation": "En lugares conductores como cascos navales o depósitos, la tensión de seguridad se limita a 24 V. Fuente: ITC-BT-44, Apartado 4."
+            "explanation": "Permite la disipación del calor por convección."
           },
           {
             "id": 3,
-            "answer": "12 V.",
+            "answer": "Poner papel de periódico para que no entre polvo.",
             "isCorrect": false,
-            "explanation": "Es una tensión segura, pero el límite reglamentario es de 24 V."
+            "explanation": "Extremadamente peligroso; el papel ardería."
           },
           {
             "id": 4,
-            "answer": "230 V siempre que se usen guantes de goma.",
-            "isCorrect": false,
-            "explanation": "Totalmente prohibido en recintos conductores por el alto riesgo de electrocución."
+            "answer": "Instalar protectores térmicos si la luminaria no los incluye.",
+            "isCorrect": true,
+            "explanation": "Corta el suministro si la temperatura sube excesivamente. Fuente: Recomendaciones de montaje."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-13",
-        "question": "¿Qué normativa específica se aplica a rótulos luminosos entre 1 kV y 10 kV?",
+        "type": "simple",
+        "question": "¿Qué es el 'interruptor de bomberos' en una instalación de rótulos luminosos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un interruptor que solo pueden usar los bomberos.",
+            "isCorrect": false,
+            "explanation": "Debe ser accesible para facilitar la actuación en incendios."
+          },
+          {
+            "id": 2,
+            "answer": "Dispositivo de corte de emergencia omnipolar situado en el exterior para desconectar el rótulo en caso de fuego.",
+            "isCorrect": true,
+            "explanation": "Evita riesgos eléctricos a los bomberos al proyectar agua sobre el rótulo (especialmente si es de alta tensión). Fuente: ITC-BT-44, Apartado 5."
+          },
+          {
+            "id": 3,
+            "answer": "Un mando a distancia rojo.",
+            "isCorrect": false,
+            "explanation": "Debe ser un elemento físico visible y manual."
+          },
+          {
+            "id": 4,
+            "answer": "Un interruptor que activa la sirena de incendios.",
+            "isCorrect": false,
+            "explanation": "Su función es el corte de energía del rótulo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-14",
+        "type": "simple",
+        "question": "En rótulos de alta tensión (tubos de descarga), ¿qué norma específica deben cumplir los transformadores y la instalación?",
         "options": [
           {
             "id": 1,
             "answer": "UNE-EN 50.107.",
             "isCorrect": true,
-            "explanation": "Es la norma de referencia para instalaciones de rótulos con tubos de descarga de alta tensión. Fuente: ITC-BT-44, Apartado 5."
+            "explanation": "Norma para instalaciones de tubos luminosos de descarga de tensión superior a 1 kV. Fuente: ITC-BT-44, Apartado 5."
           },
           {
             "id": 2,
             "answer": "UNE 20.460.",
             "isCorrect": false,
-            "explanation": "Norma general de baja tensión, no específica de alta tensión de neón."
+            "explanation": "Norma general de instalaciones, no específica de rótulos AT."
           },
           {
             "id": 3,
-            "answer": "ITC-BT-52.",
+            "answer": "La norma de tráfico.",
             "isCorrect": false,
-            "explanation": "Referente a vehículos eléctricos."
+            "explanation": "Sin relación técnica."
           },
           {
             "id": 4,
-            "answer": "No se permite el uso de tales tensiones en baja tensión.",
+            "answer": "Ninguna, los rótulos no son peligrosos.",
             "isCorrect": false,
-            "explanation": "Se permiten bajo la consideración de instalaciones especiales reguladas por esta ITC."
+            "explanation": "La alta tensión de los tubos de neón es potencialmente mortal."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-44-14",
-        "question": "¿Dónde debe situarse el interruptor de corte para una instalación de rótulos de alta tensión?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el lado de alta tensión (salida del transformador).",
-            "isCorrect": false,
-            "explanation": "Está prohibido maniobrar en la parte de alta tensión del conjunto."
-          },
-          {
-            "id": 2,
-            "answer": "En la parte de baja tensión, y debe ser de corte omnipolar.",
-            "isCorrect": true,
-            "explanation": "El mando debe realizarse siempre sobre la alimentación de baja tensión. Fuente: ITC-BT-44, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere interruptor si tiene enclavamiento mecánico.",
-            "isCorrect": false,
-            "explanation": "El interruptor de maniobra es obligatorio independientemente de los sistemas de seguridad."
-          },
-          {
-            "id": 4,
-            "answer": "En el exterior del edificio en una caja de emergencia.",
-            "isCorrect": false,
-            "explanation": "Puede haber un interruptor de bomberos, pero la instalación requiere un mando omnipolar funcional."
-          }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-15",
-        "question": "¿Qué sección debe tener el conductor neutro en circuitos monofásicos de lámparas de descarga?",
+        "type": "simple",
+        "question": "Sobre el mantenimiento de las luminarias exteriores, ¿qué grado de protección IP mínimo se recomienda para una luminaria de jardín expuesta a la lluvia?",
         "options": [
           {
             "id": 1,
-            "answer": "La mitad que los conductores de fase.",
+            "answer": "IP20.",
             "isCorrect": false,
-            "explanation": "Los armónicos de tercer orden pueden sobrecargar el neutro, por lo que no debe reducirse."
+            "explanation": "Sin protección contra agua."
           },
           {
             "id": 2,
-            "answer": "La misma sección que los de fase.",
+            "answer": "IPX4.",
             "isCorrect": true,
-            "explanation": "En distribuciones monofásicas para estas lámparas, el neutro no se reduce. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Protección contra salpicaduras de agua desde cualquier dirección. Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "Doble sección que la fase para evitar incendios.",
+            "answer": "IPX1.",
             "isCorrect": false,
-            "explanation": "No es necesario si se calcula correctamente, la norma exige igualdad de sección."
+            "explanation": "Solo contra gotas verticales; insuficiente para exterior con viento."
           },
           {
             "id": 4,
-            "answer": "Sección mínima de 10 mm².",
+            "answer": "IP68.",
             "isCorrect": false,
-            "explanation": "La sección dependerá de la carga, manteniendo la igualdad con la fase."
+            "explanation": "Para sumergir; excesivo si no va dentro de la piscina."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-16",
-        "question": "¿Cuándo se considera una instalación de rótulos de alta tensión como de 'Baja Tensión'?",
+        "type": "multiple",
+        "question": "¿Qué problemas pueden causar los equipos de encendido de las lámparas de descarga?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre que la potencia sea inferior a 1000 VA.",
-            "isCorrect": false,
-            "explanation": "La potencia no determina la clasificación de tensión."
+            "answer": "Emisión de ruidos electromagnéticos (interferencias).",
+            "isCorrect": true,
+            "explanation": "Pueden afectar a radios, TV y redes de datos."
           },
           {
             "id": 2,
-            "answer": "Cuando constituyen una unidad con sus transformadores y solo presentan al exterior conductores de baja tensión.",
+            "answer": "Generación de armónicos en la red eléctrica.",
             "isCorrect": true,
-            "explanation": "Si los componentes de alta tensión están inaccesibles y el conjunto está cerrado, se trata como equipo de baja tensión. Fuente: ITC-BT-44, Apartado 3.2."
+            "explanation": "Deforman la onda de tensión y calientan el neutro."
           },
           {
             "id": 3,
-            "answer": "Si los transformadores son de tipo seco.",
-            "isCorrect": false,
-            "explanation": "Es un detalle constructivo, pero no el criterio de clasificación normativa."
+            "answer": "Producción de mucho calor en los balastos ferromagnéticos.",
+            "isCorrect": true,
+            "explanation": "Exige una buena ventilación de la luminaria. Fuente: Características técnicas."
           },
           {
             "id": 4,
-            "answer": "Nunca, la alta tensión siempre requiere proyectos de media tensión.",
+            "answer": "Que la luz se vuelva negra.",
             "isCorrect": false,
-            "explanation": "Existen excepciones para rótulos y equipos específicos integrados."
+            "explanation": "Imposible."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-17",
-        "question": "¿Qué está prohibido colocar entre las lámparas de descarga y su dispositivo de alimentación?",
+        "type": "simple",
+        "question": "¿Cuál es la distancia mínima recomendada entre una luminaria halógena potente y una superficie iluminada para evitar riesgos de quemaduras?",
         "options": [
           {
             "id": 1,
-            "answer": "Cables de más de 2 metros.",
+            "answer": "5 cm.",
             "isCorrect": false,
-            "explanation": "La longitud puede estar limitada técnicamente, pero no prohibida por norma general."
+            "explanation": "Muy cerca; el calor quemaría el objeto."
           },
           {
             "id": 2,
-            "answer": "Interruptores, conmutadores o cortocircuitos (fusibles).",
+            "answer": "La indicada por el fabricante en el símbolo de distancia mínima (ej: 0,5 m).",
             "isCorrect": true,
-            "explanation": "No debe haber elementos de maniobra o protección en el secundario del transformador/balasto de alta tensión. Fuente: ITC-BT-44, Apartado 3.2."
+            "explanation": "Vital para la seguridad contra incendios. Fuente: Marcado de luminarias."
           },
           {
             "id": 3,
-            "answer": "Condensadores de corrección.",
+            "answer": "10 metros.",
             "isCorrect": false,
-            "explanation": "Se colocan habitualmente en el primario, pero no están prohibidos por seguridad en este contexto específico."
+            "explanation": "La luz no iluminaría casi nada."
           },
           {
             "id": 4,
-            "answer": "Transformadores de intensidad.",
+            "answer": "No importa si el cristal es templado.",
             "isCorrect": false,
-            "explanation": "No se menciona esta prohibición en la instrucción."
+            "explanation": "El cristal templado no evita la radiación térmica."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-18",
-        "question": "¿A qué tensiones de seguridad se asocia el uso de lámparas de muy baja tensión según esta ITC?",
+        "type": "simple",
+        "question": "Sobre el cambio de lámparas en una luminaria de Clase I, ¿qué precaución básica de seguridad se debe tomar?",
         "options": [
           {
             "id": 1,
-            "answer": "A 230 V.",
+            "answer": "Usar gafas de sol.",
             "isCorrect": false,
-            "explanation": "Es tensión de red, no muy baja tensión."
+            "explanation": "Evita el deslumbramiento pero no la electrocución."
           },
           {
             "id": 2,
-            "answer": "A tensiones como p.e. 12 V, mediante transformadores adecuados.",
+            "answer": "Desconectar la alimentación eléctrica del circuito.",
             "isCorrect": true,
-            "explanation": "El uso de dicroicas u halógenos de 12 V es común y requiere transformadores de seguridad. Fuente: ITC-BT-44, Apartado 4."
+            "explanation": "Evita contactos accidentales con el portalámparas en tensión. Fuente: Reglas de seguridad."
           },
           {
             "id": 3,
-            "answer": "A tensiones de 1000 V.",
+            "answer": "Hacerlo con los pies descalzos.",
             "isCorrect": false,
-            "explanation": "Es alta tensión."
+            "explanation": "Aumenta el riesgo de descarga a tierra."
           },
           {
             "id": 4,
-            "answer": "A 110 V de corriente continua.",
+            "answer": "No hace falta nada, las bombillas son aislantes.",
             "isCorrect": false,
-            "explanation": "No se considera MBT de iluminación estándar según este apartado."
+            "explanation": "El casquillo es conductor y está cerca de la mano."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-19",
-        "question": "¿Qué conductores deben conectarse de manera fiable y permanente al conductor de protección?",
+        "type": "simple",
+        "question": "En una luminaria suspendida, ¿dónde debe realizarse el esfuerzo de tracción del peso?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo los conductores de fase.",
+            "answer": "En los bornes de conexión.",
             "isCorrect": false,
-            "explanation": "Las fases nunca se conectan a tierra."
+            "explanation": "Se soltarían los cables y habría riesgo de arco."
           },
           {
             "id": 2,
-            "answer": "Las partes metálicas accesibles de luminarias que no sean Clase II o III.",
+            "answer": "En un elemento de suspensión distinto de los bornes (cadena, cable de acero, prensaestopas).",
             "isCorrect": true,
-            "explanation": "Las luminarias de Clase I deben estar puestas a tierra de forma obligatoria por seguridad. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Protege la conexión eléctrica de esfuerzos mecánicos. Fuente: ITC-BT-44, Apartado 2.1.1."
           },
           {
             "id": 3,
-            "answer": "Los portalámparas de plástico.",
+            "answer": "En el cristal de la lámpara.",
             "isCorrect": false,
-            "explanation": "Los materiales aislantes no se conectan a tierra."
+            "explanation": "Se rompería."
           },
           {
             "id": 4,
-            "answer": "El borne neutro de todas las luminarias.",
+            "answer": "Pegado con cinta al techo.",
             "isCorrect": false,
-            "explanation": "El neutro se pone a tierra en el transformador o cabecera, no en cada luminaria (salvo esquema TN-C prohibido aquí)."
+            "explanation": "Inseguro."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-20",
-        "question": "¿Qué se entiende como partes 'accesibles' de una luminaria?",
+        "type": "simple",
+        "question": "¿Qué ocurre si se instala una lámpara de 100 W en una luminaria marcada con un máximo de 60 W?",
         "options": [
           {
             "id": 1,
-            "answer": "Aquellas que se pueden ver desde la calle.",
+            "answer": "Se ve mejor.",
             "isCorrect": false,
-            "explanation": "La accesibilidad es un concepto de distancia física, no de visibilidad."
+            "explanation": "Pero a riesgo de quemar la lámpara."
           },
           {
             "id": 2,
-            "answer": "Las partes incluidas dentro del volumen de accesibilidad definido en la ITC-BT-24.",
+            "answer": "Se produce un sobrecalentamiento del portalámparas y cables que puede derivar en incendio.",
             "isCorrect": true,
-            "explanation": "El REBT remite a la definición estándar de volumen de accesibilidad para personas. Fuente: ITC-BT-44, Apartado 2.1.4."
+            "explanation": "Viola el diseño térmico de la luminaria. Fuente: Seguridad de producto."
           },
           {
             "id": 3,
-            "answer": "Cualquier parte que no esté bajo llave.",
+            "answer": "El diferencial salta por exceso de potencia.",
             "isCorrect": false,
-            "explanation": "La definición es más precisa y geométrica según la ITC-BT-24."
+            "explanation": "El diferencial no salta por potencia, sino por fuga."
           },
           {
             "id": 4,
-            "answer": "Solo las bombillas.",
+            "answer": "La bombilla dura más años.",
             "isCorrect": false,
-            "explanation": "Las carcasas y soportes metálicos suelen ser las partes accesibles críticas."
+            "explanation": "Dura mucho menos por el calor excesivo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-21",
-        "question": "¿Es obligatorio el uso de un interruptor de corte omnipolar en instalaciones de tubos de descarga?",
+        "type": "multiple",
+        "question": "¿Qué ventajas ofrecen los equipos electrónicos frente a los electromagnéticos en las luminarias de descarga?",
         "options": [
           {
             "id": 1,
-            "answer": "No, basta con desconectar la fase.",
-            "isCorrect": false,
-            "explanation": "Por seguridad en mantenimiento de equipos de alta tensión, se requiere el corte de todos los polos."
+            "answer": "Mayor eficiencia energética (menos pérdidas).",
+            "isCorrect": true,
+            "explanation": "Consumen menos por sí mismos."
           },
           {
             "id": 2,
-            "answer": "Sí, situado en la parte de baja tensión.",
+            "answer": "Encendido instantáneo y sin parpadeos.",
             "isCorrect": true,
-            "explanation": "El corte omnipolar asegura la desenergización total del equipo auxiliar. Fuente: ITC-BT-44, Apartado 3.2."
+            "explanation": "Mejor confort visual."
           },
           {
             "id": 3,
-            "answer": "Solo si la instalación es de más de 5000 VA.",
-            "isCorrect": false,
-            "explanation": "La exigencia de corte omnipolar es independiente de la potencia para estos equipos."
+            "answer": "Alargan la vida útil de las lámparas.",
+            "isCorrect": true,
+            "explanation": "Controlan mejor el precalentamiento de electrodos."
           },
           {
             "id": 4,
-            "answer": "Solo si se instala en un cuarto de baño.",
+            "answer": "Son más pesados.",
             "isCorrect": false,
-            "explanation": "Es un requisito general para este tipo de receptores de alumbrado especial."
+            "explanation": "Son mucho más ligeros."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-22",
-        "question": "En portalámparas con varios contactos, ¿cuál debe tener la mayor protección de aislamiento?",
+        "type": "simple",
+        "question": "Sobre la conexión de luminarias a carriles electrificados, ¿qué requisito de seguridad es fundamental?",
         "options": [
           {
             "id": 1,
-            "answer": "El contacto de tierra.",
+            "answer": "Que el carril sea de plástico.",
             "isCorrect": false,
-            "explanation": "La tierra no lleva tensión activa."
+            "explanation": "Los carriles suelen tener estructura metálica por rigidez."
           },
           {
             "id": 2,
-            "answer": "El contacto central (fase).",
+            "answer": "Que la conexión mantenga la continuidad de la toma de tierra y el neutro en la posición correcta.",
             "isCorrect": true,
-            "explanation": "Al ser el punto de mayor peligro, debe estar más protegido y conectado a la fase. Fuente: ITC-BT-44, Apartado 2.3."
+            "explanation": "Evita masas en tensión y fallos de funcionamiento. Fuente: ITC-BT-44, Apartado 3.2."
           },
           {
             "id": 3,
-            "answer": "El casquillo exterior.",
+            "answer": "Que se puedan mover con un mando a distancia.",
             "isCorrect": false,
-            "explanation": "El casquillo se conecta al neutro, que tiene menor potencial respecto a tierra."
+            "explanation": "Opcional, no requisito de seguridad eléctrica básica."
           },
           {
             "id": 4,
-            "answer": "Todos por igual.",
+            "answer": "Que el carril esté a menos de 1 metro del suelo.",
             "isCorrect": false,
-            "explanation": "Aunque el aislamiento general es importante, la posición del contacto central es una medida de seguridad específica."
+            "explanation": "Debe estar fuera del alcance normal para evitar tocamientos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-23",
-        "question": "¿Qué coeficiente de cálculo se permite si el factor de potencia es >= 0,9 y se conocen las cargas?",
+        "type": "simple",
+        "question": "¿Se permite el uso de portalámparas tipo 'ladrón' o 'adaptadores múltiples' de rosca E27?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre debe usarse 1,8.",
+            "answer": "Sí, para poner más luz.",
             "isCorrect": false,
-            "explanation": "Existe la excepción mencionada en la norma."
+            "explanation": "Inseguro y propenso a sobrecalentamientos."
           },
           {
             "id": 2,
-            "answer": "El que resulte del cálculo real de las corrientes de los elementos asociados y de arranque.",
+            "answer": "No se recomienda su uso por el riesgo de sobrecarga del portalámparas base y falta de fijación mecánica.",
             "isCorrect": true,
-            "explanation": "Si hay datos técnicos precisos y buena compensación, se puede usar el valor real calculado. Fuente: ITC-BT-44, Apartado 3.1."
+            "explanation": "Aumenta la palanca sobre el casquillo y el riesgo de incendio. Fuente: Recomendaciones de seguridad."
           },
           {
             "id": 3,
-            "answer": "Se puede reducir a 1,0.",
+            "answer": "Solo si son de la misma marca que la lámpara.",
             "isCorrect": false,
-            "explanation": "Nunca será 1,0 debido a las pérdidas propias del equipo auxiliar (balasto)."
+            "explanation": "La marca no elimina el riesgo de sobrecarga mecánica/térmica."
           },
           {
             "id": 4,
-            "answer": "Un coeficiente fijo de 1,5.",
+            "answer": "Sí, si se usan bombillas LED de poco consumo.",
             "isCorrect": false,
-            "explanation": "No es un valor reglamentario; se debe calcular el real si no se usa el 1,8."
+            "explanation": "Siguen siendo elementos que degradan la seguridad mecánica de la luminaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-24",
-        "question": "¿Qué se recomienda cuando en una instalación hay distintas tensiones de alumbrado?",
+        "type": "simple",
+        "question": "En un sistema de iluminación LED de 24 V (Clase III), ¿cuál es el riesgo principal si el cableado es muy largo y de poca sección?",
         "options": [
           {
             "id": 1,
-            "answer": "Marcar los cables con etiquetas adhesivas.",
+            "answer": "Que el cable se convierta en una antena de radio.",
             "isCorrect": false,
-            "explanation": "Es una buena práctica de mantenimiento, pero la recomendación técnica es otra."
+            "explanation": "Efecto secundario despreciable aquí."
           },
           {
             "id": 2,
-            "answer": "Que los portalámparas respectivos sean diferentes entre sí.",
+            "answer": "Fuerte caída de tensión que hace que los LED al final de la línea luzcan menos o parpadeen.",
             "isCorrect": true,
-            "explanation": "Se evita la inserción accidental de una lámpara en un circuito de tensión incompatible. Fuente: ITC-BT-44, Apartado 2.3."
+            "explanation": "A bajas tensiones, la caída de tensión es mucho más crítica. Fuente: Cálculos de BT."
           },
           {
             "id": 3,
-            "answer": "Usar bombillas de colores distintos.",
+            "answer": "Que el transformador explote por falta de aire.",
             "isCorrect": false,
-            "explanation": "No previene el error eléctrico de conexión."
+            "explanation": "El transformador sufriría si hubiera un cortocircuito, no por la longitud del cable."
           },
           {
             "id": 4,
-            "answer": "No se permite tener distintas tensiones de alumbrado.",
+            "answer": "No hay ningún riesgo porque el voltaje es bajo.",
             "isCorrect": false,
-            "explanation": "Es común en instalaciones con MBT (12 V) y tensión de red (230 V)."
+            "explanation": "Incluso a 24V, un cable fino con mucha corriente puede sobrecalentarse e incendiar materiales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-44-25",
-        "question": "¿En qué condiciones se permite el neón en locales comerciales?",
+        "type": "simple",
+        "question": "Sobre los rótulos luminosos de fachada, ¿qué grado de protección IP mínimo se exige si están expuestos a la lluvia?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo si se instala a menos de 1 metro del suelo.",
+            "answer": "IP23.",
             "isCorrect": false,
-            "explanation": "Estaría en el volumen de accesibilidad y sería peligroso."
+            "explanation": "Solo protege contra lluvia vertical (60º); insuficiente para fachadas expuestas."
           },
           {
             "id": 2,
-            "answer": "Ubicado fuera del volumen de accesibilidad o con barreras separadoras.",
+            "answer": "IPX4 o superior.",
             "isCorrect": true,
-            "explanation": "La seguridad se basa en el alejamiento o la interposición de obstáculos. Fuente: ITC-BT-44, Apartado 2.2."
+            "explanation": "Resistencia a salpicaduras desde cualquier dirección (lluvia con viento). Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "Solo si la potencia es inferior a 50 W.",
+            "answer": "IP00.",
             "isCorrect": false,
-            "explanation": "La potencia no exime del riesgo de la alta tensión de descarga."
+            "explanation": "Sin protección."
           },
           {
             "id": 4,
-            "answer": "Sin ninguna restricción especial.",
+            "answer": "IP67.",
             "isCorrect": false,
-            "explanation": "Tiene restricciones importantes de ubicación y seguridad."
+            "explanation": "Solo necesario si el rótulo va sumergido en una fuente."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-44-26",
+        "type": "multiple",
+        "question": "¿Qué elementos de una luminaria deben ser resistentes al fuego?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Los aislantes de los cables internos.",
+            "isCorrect": true,
+            "explanation": "No deben propagar la llama en caso de fallo."
+          },
+          {
+            "id": 2,
+            "answer": "El portalámparas.",
+            "isCorrect": true,
+            "explanation": "Sometido a calor directo de la lámpara."
+          },
+          {
+            "id": 3,
+            "answer": "El difusor de plástico si se instala en vías de evacuación.",
+            "isCorrect": true,
+            "explanation": "No debe desprender gotas inflamables ni humos opacos."
+          },
+          {
+            "id": 4,
+            "answer": "La caja de embalaje.",
+            "isCorrect": false,
+            "explanation": "El embalaje se retira antes de la instalación."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-27",
+        "type": "simple",
+        "question": "Sobre la alimentación de luminarias a través de tomas de corriente, ¿cuál es la longitud máxima recomendada del cable flexible de la luminaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 metros.",
+            "isCorrect": false,
+            "explanation": "Excesivo; riesgo de enredos y tropiezos."
+          },
+          {
+            "id": 2,
+            "answer": "Generalmente no más de 2 o 3 metros.",
+            "isCorrect": true,
+            "explanation": "Mantiene el cable recogido y seguro cerca de la base. Fuente: Práctica habitual de seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Lo que haga falta para llegar al enchufe de la otra habitación.",
+            "isCorrect": false,
+            "explanation": "Práctica insegura; se deben instalar más tomas fijas."
+          },
+          {
+            "id": 4,
+            "answer": "50 cm.",
+            "isCorrect": false,
+            "explanation": "Demasiado corto para un uso práctico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-28",
+        "type": "simple",
+        "question": "En un circuito de alumbrado de una oficina con 20 fluorescentes, ¿por qué es vital el conductor de tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que no parpadeen las luces.",
+            "isCorrect": false,
+            "explanation": "El parpadeo depende del balasto/cebador."
+          },
+          {
+            "id": 2,
+            "answer": "Para evitar que la suma de pequeñas fugas de los filtros electrónicos ponga la estructura metálica del techo en tensión.",
+            "isCorrect": true,
+            "explanation": "Protección contra contactos indirectos en masas extensas. Fuente: Seguridad en edificios."
+          },
+          {
+            "id": 3,
+            "answer": "Para ahorrar energía.",
+            "isCorrect": false,
+            "explanation": "La tierra no reduce el consumo."
+          },
+          {
+            "id": 4,
+            "answer": "Para sujetar mejor los tubos.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-29",
+        "type": "simple",
+        "question": "¿Qué significa el marcado de una luminaria con una gota dentro de un triángulo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que gotea aceite.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Que es una luminaria protegida contra la caída vertical de gotas de agua (IPX1).",
+            "isCorrect": true,
+            "explanation": "Información visual rápida sobre su grado IP. Fuente: Marcado de equipos."
+          },
+          {
+            "id": 3,
+            "answer": "Que debe regarse para limpiarla.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo."
+          },
+          {
+            "id": 4,
+            "answer": "Que funciona con agua.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-30",
+        "type": "simple",
+        "question": "Sobre la instalación de luminarias en exteriores, ¿se pueden usar cables planos tipo 'tallarín'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se pegan con cinta.",
+            "isCorrect": false,
+            "explanation": "Inseguro frente a intemperie."
+          },
+          {
+            "id": 2,
+            "answer": "No, se deben usar cables con cubierta circular y estanqueidad adecuada (ej: manguera H07RN-F).",
+            "isCorrect": true,
+            "explanation": "Garantiza que el agua no resbale por el cable hacia el interior de la luminaria. Fuente: Normas de montaje exterior."
+          },
+          {
+            "id": 3,
+            "answer": "Solo para luces de jardín de 12V.",
+            "isCorrect": false,
+            "explanation": "Incluso a baja tensión, el cable debe ser resistente a la intemperie."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, porque pesan menos.",
+            "isCorrect": false,
+            "explanation": "El peso no justifica la falta de seguridad."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-31",
+        "type": "multiple",
+        "question": "¿Qué comprobaciones deben hacerse al recibir una luminaria nueva antes de instalarla?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Verificar el marcado CE.",
+            "isCorrect": true,
+            "explanation": "Garantiza el cumplimiento de normas europeas."
+          },
+          {
+            "id": 2,
+            "answer": "Comprobar que la tensión de trabajo coincide con la de la red.",
+            "isCorrect": true,
+            "explanation": "Evita averías por sobretensión."
+          },
+          {
+            "id": 3,
+            "answer": "Revisar que los bornes de conexión están apretados.",
+            "isCorrect": true,
+            "explanation": "Evita calentamientos por mal contacto."
+          },
+          {
+            "id": 4,
+            "answer": "Mirar si el color combina con las cortinas.",
+            "isCorrect": false,
+            "explanation": "Criterio decorativo, no técnico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-32",
+        "type": "simple",
+        "question": "Sobre la sustitución de reactancias ferromagnéticas por drivers LED, ¿qué se debe hacer con el cableado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Dejarlo como está, solo cambiar la bombilla.",
+            "isCorrect": false,
+            "explanation": "Puede causar fallos o consumos excesivos de reactiva inútil."
+          },
+          {
+            "id": 2,
+            "answer": "Anular la reactancia y el cebador, y cablear directamente al driver LED según el esquema del fabricante.",
+            "isCorrect": true,
+            "explanation": "Asegura la eficiencia y seguridad de la nueva tecnología. Fuente: Guías de retrofit LED."
+          },
+          {
+            "id": 3,
+            "answer": "Poner dos reactancias en serie.",
+            "isCorrect": false,
+            "explanation": "Absurdo y peligroso."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden cambiar, hay que tirar la lámpara entera.",
+            "isCorrect": false,
+            "explanation": "Se pueden actualizar si se hace correctamente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-33",
+        "type": "simple",
+        "question": "¿Qué peligro presenta el efecto estroboscópico de algunas luminarias en talleres con máquinas giratorias?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Hace que los operarios se mareen.",
+            "isCorrect": false,
+            "explanation": "Es molesto, pero el riesgo principal es mecánico."
+          },
+          {
+            "id": 2,
+            "answer": "Puede hacer que una máquina que gira a gran velocidad parezca que está parada, provocando accidentes graves.",
+            "isCorrect": true,
+            "explanation": "Riesgo de atrapamiento por falsa percepción de movimiento. Fuente: Prevención de riesgos laborales."
+          },
+          {
+            "id": 3,
+            "answer": "Que las máquinas consuman más luz.",
+            "isCorrect": false,
+            "explanation": "No hay relación."
+          },
+          {
+            "id": 4,
+            "answer": "Que el metal se oxide más rápido.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-34",
+        "type": "simple",
+        "question": "En un sistema de iluminación por carril, ¿se pueden conectar otros aparatos (ej: un ventilador) si el enchufe encaja?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para eso está el carril.",
+            "isCorrect": false,
+            "explanation": "Los carriles de iluminación están dimensionados solo para luminarias."
+          },
+          {
+            "id": 2,
+            "answer": "Solo si el carril está diseñado y marcado para usos múltiples y la potencia del aparato no supera el límite del carril.",
+            "isCorrect": true,
+            "explanation": "Evita sobrecargas y fallos mecánicos del soporte. Fuente: Especificaciones de fabricante."
+          },
+          {
+            "id": 3,
+            "answer": "No, nunca, explotaría el carril.",
+            "isCorrect": false,
+            "explanation": "No explotaría, pero podría quemarse por sobrecarga."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el ventilador es de plástico.",
+            "isCorrect": false,
+            "explanation": "El material no influye en la sobrecarga eléctrica del carril."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-35",
+        "type": "simple",
+        "question": "Sobre las luminarias Clase II, ¿qué ventaja tienen en instalaciones antiguas sin toma de tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Son más baratas.",
+            "isCorrect": false,
+            "explanation": "Suelen ser más caras por el aislamiento extra."
+          },
+          {
+            "id": 2,
+            "answer": "Permiten una instalación segura sin necesidad de conductor de protección (tierra).",
+            "isCorrect": true,
+            "explanation": "Su diseño garantiza que no habrá tensiones peligrosas en el exterior. Fuente: ITC-BT-43 / 44."
+          },
+          {
+            "id": 3,
+            "answer": "Iluminan el doble.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "Se pueden instalar debajo del agua.",
+            "isCorrect": false,
+            "explanation": "No tiene relación; el grado IP es independiente de la Clase (aunque Clase III es lo habitual en agua)."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-36",
+        "type": "multiple",
+        "question": "¿Qué tipos de lámparas se están dejando de fabricar o usar por su baja eficiencia según las directivas actuales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lámparas incandescentes estándar.",
+            "isCorrect": true,
+            "explanation": "Muy alto consumo para poca luz."
+          },
+          {
+            "id": 2,
+            "answer": "Lámparas halógenas de alto consumo.",
+            "isCorrect": true,
+            "explanation": "Sustituidas por LED mucho más eficientes."
+          },
+          {
+            "id": 3,
+            "answer": "Tubos fluorescentes con mercurio.",
+            "isCorrect": true,
+            "explanation": "Por toxicidad y menor eficiencia que el LED. Fuente: Directiva RoHS / Ecodiseño."
+          },
+          {
+            "id": 4,
+            "answer": "Lámparas solares.",
+            "isCorrect": false,
+            "explanation": "Son el futuro por su bajo impacto."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-37",
+        "type": "simple",
+        "question": "Sobre la altura de montaje de luminarias en zonas de paso, ¿cuál es la altura mínima recomendada para evitar golpes accidentales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5 metros.",
+            "isCorrect": false,
+            "explanation": "Queda a la altura de la cabeza de muchas personas."
+          },
+          {
+            "id": 2,
+            "answer": "Al menos 2,25 metros o estar protegidas mecánicamente.",
+            "isCorrect": true,
+            "explanation": "Garantiza el paso libre de personas sin riesgo de impacto. Fuente: Normas de ergonomía y seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "5 metros.",
+            "isCorrect": false,
+            "explanation": "Dificulta la limpieza y el cambio de lámparas."
+          },
+          {
+            "id": 4,
+            "answer": "A ras de suelo.",
+            "isCorrect": false,
+            "explanation": "Solo para balizamiento específico, no para iluminación general de paso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-38",
+        "type": "simple",
+        "question": "En una luminaria con cristal de protección, ¿qué se debe hacer si el cristal se agrieta o rompe?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pegarlo con celo.",
+            "isCorrect": false,
+            "explanation": "El celo se quema con el calor."
+          },
+          {
+            "id": 2,
+            "answer": "Sustituirlo inmediatamente por un repuesto original o cambiar la luminaria.",
+            "isCorrect": true,
+            "explanation": "El cristal garantiza la estanqueidad y la seguridad ante explosión de la lámpara. Fuente: Normas de seguridad de producto."
+          },
+          {
+            "id": 3,
+            "answer": "Quitarlo y dejar la bombilla al aire.",
+            "isCorrect": false,
+            "explanation": "Peligro de rotura de la bombilla y entrada de humedad."
+          },
+          {
+            "id": 4,
+            "answer": "Poner un trozo de cartón.",
+            "isCorrect": false,
+            "explanation": "Riesgo extremo de incendio."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-39",
+        "type": "simple",
+        "question": "¿Cómo afecta la temperatura ambiente elevada al funcionamiento de los drivers LED?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Hacen que el LED brille más.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 2,
+            "answer": "Acorta drásticamente su vida útil y puede provocar fallos electrónicos prematuros.",
+            "isCorrect": true,
+            "explanation": "La electrónica es muy sensible al calor excesivo. Fuente: Especificaciones técnicas."
+          },
+          {
+            "id": 3,
+            "answer": "No les afecta, son de estado sólido.",
+            "isCorrect": false,
+            "explanation": "Incluso el estado sólido genera calor que debe evacuarse."
+          },
+          {
+            "id": 4,
+            "answer": "Hacen que el color cambie de blanco a azul.",
+            "isCorrect": false,
+            "explanation": "La temperatura de color puede variar ligeramente, pero el riesgo principal es el fallo total."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-40",
+        "type": "simple",
+        "question": "Para terminar, sobre el reciclaje de luminarias y lámparas, ¿cuál es el símbolo que indica que no deben tirarse a la basura convencional?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una cara sonriente.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "El contenedor de basura tachado con una cruz.",
+            "isCorrect": true,
+            "explanation": "Indica que el producto debe llevarse a un punto limpio (RAEE). Fuente: Directivas de residuos."
+          },
+          {
+            "id": 3,
+            "answer": "Un rayo azul.",
+            "isCorrect": false,
+            "explanation": "Indica peligro eléctrico."
+          },
+          {
+            "id": 4,
+            "answer": "El símbolo del dólar.",
+            "isCorrect": false,
+            "explanation": "Sin relación."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-41",
+        "type": "simple",
+        "question": "¿Qué es una luminaria 'antideflagrante'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una que no se puede romper con un martillo.",
+            "isCorrect": false,
+            "explanation": "Eso sería resistencia mecánica IK."
+          },
+          {
+            "id": 2,
+            "answer": "Aquella diseñada para evitar que una chispa interna incendie una atmósfera explosiva exterior.",
+            "isCorrect": true,
+            "explanation": "Obligatoria en zonas con riesgo de explosión (gasolineras, silos, etc.). Fuente: ITC-BT-29."
+          },
+          {
+            "id": 3,
+            "answer": "Una que apaga los incendios sola.",
+            "isCorrect": false,
+            "explanation": "Sería un sistema de extinción, no una luminaria."
+          },
+          {
+            "id": 4,
+            "answer": "Una luminaria que funciona sin electricidad.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-42",
+        "type": "multiple",
+        "question": "¿Qué ventajas aporta el uso de sensores de presencia en la iluminación de pasillos de edificios?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Importante ahorro de energía.",
+            "isCorrect": true,
+            "explanation": "La luz solo está encendida cuando es necesaria."
+          },
+          {
+            "id": 2,
+            "answer": "Aumento de la vida útil de las lámparas LED (menos horas de uso).",
+            "isCorrect": true,
+            "explanation": "Menos desgaste de los componentes."
+          },
+          {
+            "id": 3,
+            "answer": "Comodidad para el usuario (manos libres).",
+            "isCorrect": true,
+            "explanation": "No hay que buscar el interruptor en la oscuridad."
+          },
+          {
+            "id": 4,
+            "answer": "Que el edificio sea invisible de noche.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-43",
+        "type": "simple",
+        "question": "Sobre el deslumbramiento, ¿por qué es importante la orientación de los focos en un escaparate?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que no se escapen los fotones.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Para evitar molestias a los peatones y conductores, garantizando la seguridad vial y el confort visual.",
+            "isCorrect": true,
+            "explanation": "La contaminación lumínica y el deslumbramiento son riesgos indirectos. Fuente: Normas de alumbrado."
+          },
+          {
+            "id": 3,
+            "answer": "Para que la ropa no se decolore.",
+            "isCorrect": false,
+            "explanation": "La decoloración depende del espectro UV, no de la orientación del foco."
+          },
+          {
+            "id": 4,
+            "answer": "Solo importa que se vea bien el precio.",
+            "isCorrect": false,
+            "explanation": "La seguridad de terceros es prioritaria reglamentariamente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-44",
+        "type": "simple",
+        "question": "En una luminaria de Clase II, ¿qué ocurre si el cable de fase toca la carcasa plástica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Salen chispas azules.",
+            "isCorrect": false,
+            "explanation": "Solo si hay un camino a tierra cercano."
+          },
+          {
+            "id": 2,
+            "answer": "Nada, porque el plástico es aislante y no transmite la tensión al usuario.",
+            "isCorrect": true,
+            "explanation": "Es la base de la seguridad del doble aislamiento. Fuente: Teoría de aislamiento."
+          },
+          {
+            "id": 3,
+            "answer": "El diferencial salta siempre.",
+            "isCorrect": false,
+            "explanation": "El diferencial no saltaría porque no hay fuga a tierra a través del plástico."
+          },
+          {
+            "id": 4,
+            "answer": "La lámpara luce más fuerte.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-45",
+        "type": "simple",
+        "question": "¿Qué significa el código 'IK08' en una luminaria pública?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que es resistente a 8 atmósferas de presión.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 2,
+            "answer": "Nivel de protección contra impactos mecánicos externos (vandalismo, golpes).",
+            "isCorrect": true,
+            "explanation": "Escala del 00 al 10. Fuente: UNE-EN 50102."
+          },
+          {
+            "id": 3,
+            "answer": "Que tiene 8 bombillas dentro.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "Que es de la marca IK.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-46",
+        "type": "multiple",
+        "question": "¿Qué factores determinan la calidad de una luminaria LED profesional?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Gestión térmica (disipador de calor de aluminio).",
+            "isCorrect": true,
+            "explanation": "Vital para la duración del chip LED."
+          },
+          {
+            "id": 2,
+            "answer": "Calidad del Driver (factor de potencia y ausencia de flicker).",
+            "isCorrect": true,
+            "explanation": "Protege la vista y la red eléctrica."
+          },
+          {
+            "id": 3,
+            "answer": "Índice de Reproducción Cromática (CRI) elevado.",
+            "isCorrect": true,
+            "explanation": "Permite ver los colores de forma natural. Fuente: Parámetros lumínicos."
+          },
+          {
+            "id": 4,
+            "answer": "Que el cable sea de color negro.",
+            "isCorrect": false,
+            "explanation": "El color del cable es estético."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-47",
+        "type": "simple",
+        "question": "Sobre las lámparas de vapor de mercurio a alta presión, ¿cuál es su situación legal actual?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Son las más recomendadas.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 2,
+            "answer": "Prohibida su comercialización por su baja eficiencia y toxicidad del mercurio.",
+            "isCorrect": true,
+            "explanation": "Directiva europea ErP. Fuente: Normativa medioambiental."
+          },
+          {
+            "id": 3,
+            "answer": "Solo se pueden usar en interiores.",
+            "isCorrect": false,
+            "explanation": "Prohibición general."
+          },
+          {
+            "id": 4,
+            "answer": "Deben reciclarse tirándolas al mar.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo y delito ecológico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-48",
+        "type": "simple",
+        "question": "En la instalación de un foco empotrado en suelo (uplight), ¿qué precaución es crítica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que no lo pisen.",
+            "isCorrect": false,
+            "explanation": "Deben estar diseñados para ser pisados."
+          },
+          {
+            "id": 2,
+            "answer": "Asegurar un drenaje perfecto de agua en la base para evitar que el foco quede sumergido.",
+            "isCorrect": true,
+            "explanation": "Incluso con IP67, la inmersión permanente acaba dañando el equipo. Fuente: Consejos de instalación exterior."
+          },
+          {
+            "id": 3,
+            "answer": "Que sea de plástico barato.",
+            "isCorrect": false,
+            "explanation": "Se rompería al pisarlo."
+          },
+          {
+            "id": 4,
+            "answer": "Ponerle una alfombra encima.",
+            "isCorrect": false,
+            "explanation": "Riesgo de incendio y falta de luz."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-49",
+        "type": "simple",
+        "question": "¿Cuál es la función del condensador en una luminaria con reactancia ferromagnética?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Almacenar luz para cuando se vaya el sol.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Corregir el factor de potencia (cos phi) para que sea lo más cercano a 1 posible.",
+            "isCorrect": true,
+            "explanation": "Compensa la inductancia de la reactancia. Fuente: ITC-BT-44, Apartado 2.7."
+          },
+          {
+            "id": 3,
+            "answer": "Hacer que la bombilla sea más grande.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "No sirve para nada, se puede quitar.",
+            "isCorrect": false,
+            "explanation": "Aumentaría el consumo de corriente reactiva inútilmente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-44-50",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede usar el cable de tierra como conductor de retorno (neutro) en una luminaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si el neutro se rompe.",
+            "isCorrect": false,
+            "explanation": "Falso y muy peligroso."
+          },
+          {
+            "id": 2,
+            "answer": "Bajo ninguna circunstancia; el conductor de protección solo debe llevar corriente en caso de defecto.",
+            "isCorrect": true,
+            "explanation": "Regla de oro de la seguridad eléctrica. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "Solo en lámparas de muy poca potencia.",
+            "isCorrect": false,
+            "explanation": "Sigue siendo un riesgo mortal de poner las masas en tensión."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el cable es de color verde-amarillo.",
+            "isCorrect": false,
+            "explanation": "El color indica su función de seguridad, no permite su uso como retorno."
+          }
+        ]
       }
     ]
   }

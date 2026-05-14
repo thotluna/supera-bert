@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-49-01",
-        "question": "¿Qué se considera como un 'receptor' a efectos de la ITC-BT-49?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-49?",
         "options": [
           {
             "id": 1,
-            "answer": "Cualquier mueble comercializado con un equipo eléctrico montado en él.",
-            "isCorrect": true,
-            "explanation": "Si el mueble incluye luminarias, interruptores o tomas, el conjunto se trata como un receptor eléctrico. Fuente: ITC-BT-49, Apartado 1."
+            "answer": "Regular la fabricación de muebles de madera.",
+            "isCorrect": false,
+            "explanation": "Solo regula la parte eléctrica instalada en ellos."
           },
           {
             "id": 2,
-            "answer": "Solo los electrodomésticos de cocina integrados.",
-            "isCorrect": false,
-            "explanation": "Aplica a cualquier tipo de mueble (despacho, espejos, etc.) con equipo eléctrico."
+            "answer": "Determinar los requisitos de las instalaciones eléctricas en los muebles y elementos de mobiliario.",
+            "isCorrect": true,
+            "explanation": "Cubre desde mesas de despacho hasta espejos de baño con luz. Fuente: ITC-BT-49, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Únicamente las luminarias que se venden por separado.",
+            "answer": "Obligar a que todos los muebles tengan enchufe.",
             "isCorrect": false,
-            "explanation": "La instrucción se centra en la integración del equipo en el mobiliario."
+            "explanation": "No es obligatorio, solo regula los que sí lo tienen."
           },
           {
             "id": 4,
-            "answer": "Los cables de alimentación de los ordenadores.",
+            "answer": "Regular las instalaciones en cocinas de gas.",
             "isCorrect": false,
-            "explanation": "No son parte del mueble en sí, sino equipos informáticos independientes."
+            "explanation": "Solo instalaciones eléctricas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-02",
-        "question": "¿Qué símbolo deben llevar las luminarias instaladas en superficies inflamables como madera?",
+        "type": "simple",
+        "question": "A efectos reglamentarios, ¿cómo se considera un mueble que se comercializa con un equipo eléctrico montado (ej: un armario con luces)?",
         "options": [
           {
             "id": 1,
-            "answer": "Símbolo 'CE'.",
+            "answer": "Como un elemento decorativo.",
             "isCorrect": false,
-            "explanation": "Es el marcado de conformidad europea general, no específico de superficies inflamables."
+            "explanation": "Insuficiente a nivel de seguridad eléctrica."
           },
           {
             "id": 2,
-            "answer": "Símbolo 'F'.",
+            "answer": "Como un receptor eléctrico.",
             "isCorrect": true,
-            "explanation": "Indica que la luminaria es apta para montaje sobre superficies normalmente inflamables. Fuente: ITC-BT-49, Apartado 2.1."
+            "explanation": "Debe cumplir las directivas europeas y el REBT como cualquier otro aparato. Fuente: ITC-BT-49, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Símbolo 'IP20'.",
+            "answer": "Como una extensión de la pared.",
             "isCorrect": false,
-            "explanation": "Indica el grado de protección contra polvo y agua, no la seguridad térmica."
+            "explanation": "No."
           },
           {
             "id": 4,
-            "answer": "Símbolo de toma de tierra.",
+            "answer": "Como una instalación provisional.",
             "isCorrect": false,
-            "explanation": "Indica protección eléctrica, no aptitud para montaje en madera."
+            "explanation": "Es un equipo final (receptor)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-03",
-        "question": "¿Qué dispositivo es obligatorio en muebles cerrados donde la potencia disipada pueda elevar la temperatura excesivamente?",
+        "type": "simple",
+        "question": "¿Qué símbolo deben llevar las luminarias destinadas a instalarse sobre superficies de muebles inflamables (madera, tela)?",
         "options": [
           {
             "id": 1,
-            "answer": "Un ventilador de 12 V.",
+            "answer": "Símbolo de una llama tachada.",
             "isCorrect": false,
-            "explanation": "La norma exige una desconexión, no solo ventilación."
+            "explanation": "No es el marcado normativo."
           },
           {
             "id": 2,
-            "answer": "Un interruptor accionado por el cierre de la puerta.",
+            "answer": "Símbolo F (dentro de un triángulo invertido).",
             "isCorrect": true,
-            "explanation": "Garantiza que los equipos (como luces) se apaguen cuando la puerta esté cerrada. Fuente: ITC-BT-49, Apartado 2.1."
+            "explanation": "Indica que la luminaria es apta para montaje directo sobre superficies normalmente inflamables. Fuente: ITC-BT-49, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Un termómetro digital visible.",
+            "answer": "Símbolo de una bombilla verde.",
             "isCorrect": false,
-            "explanation": "Solo informa de la temperatura, no previene el riesgo de incendio automáticamente."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Un detector de humos.",
+            "answer": "No necesitan símbolo si son LED.",
             "isCorrect": false,
-            "explanation": "Es una medida de detección, pero el REBT exige desconexión por cierre de puerta."
+            "explanation": "Incluso las LED deben estar certificadas para su montaje en superficies específicas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-04",
-        "question": "¿Qué tipos de cables flexibles se permiten para la instalación interior de los muebles?",
+        "type": "simple",
+        "question": "En un mueble con espacio cerrado (ej: cama plegable o armario) que contenga luces, ¿qué dispositivo es obligatorio instalar?",
         "options": [
           {
             "id": 1,
-            "answer": "Cables con aislamiento de papel impregnado.",
+            "answer": "Un ventilador.",
             "isCorrect": false,
-            "explanation": "Tecnología obsoleta no permitida en mobiliario."
+            "explanation": "No garantiza el apagado si hay fallo."
           },
           {
             "id": 2,
-            "answer": "Cables tipo H05RR-F (goma) o H05VV-F (PVC).",
+            "answer": "Un interruptor accionado por el cierre de la puerta que deje los equipos fuera de servicio.",
             "isCorrect": true,
-            "explanation": "Son cables diseñados para soportar los esfuerzos mecánicos de las instalaciones en muebles. Fuente: ITC-BT-49, Apartado 2.2."
+            "explanation": "Evita incendios por acumulación de calor si la luz se queda encendida con la puerta cerrada. Fuente: ITC-BT-49, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "Cables unipolar sin cubierta.",
+            "answer": "Una alarma sonora.",
             "isCorrect": false,
-            "explanation": "Riesgo de daños en el aislamiento y contacto directo."
+            "explanation": "No detiene el riesgo térmico de forma automática."
           },
           {
             "id": 4,
-            "answer": "Solo cables apantallados contra interferencias.",
+            "answer": "Un cristal antibalas.",
             "isCorrect": false,
-            "explanation": "No es un requisito reglamentario para muebles de uso general."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-05",
-        "question": "¿Cuándo se permite el uso de conductores rígidos (clase 1 o 2) en muebles?",
+        "type": "simple",
+        "question": "¿Qué tipo de cable es el mínimo exigido para realizar la instalación interior de un mueble?",
         "options": [
           {
             "id": 1,
-            "answer": "En cualquier caso, si la sección es de 1,5 mm².",
+            "answer": "Cable rígido de cobre desnudo.",
             "isCorrect": false,
-            "explanation": "El conductor rígido se puede romper por vibraciones o movimientos del mueble si no está protegido."
+            "explanation": "Peligrosísimo y prohibido."
           },
           {
             "id": 2,
-            "answer": "Solo cuando estén alojados en el interior de tubos o canales protectores.",
+            "answer": "Cables flexibles con cubierta, tipo H05VV-F o H05RR-F.",
             "isCorrect": true,
-            "explanation": "La canalización ofrece el soporte mecánico necesario para el uso de conductores rígidos. Fuente: ITC-BT-49, Apartado 2.3."
+            "explanation": "Soportan las vibraciones y movimientos del mueble sin partirse. Fuente: ITC-BT-49, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Solo en muebles de cocina metálicos.",
+            "answer": "Cables de hilos de seda.",
             "isCorrect": false,
-            "explanation": "El material del mueble no exime del uso de canalización para cables rígidos."
+            "explanation": "Fuera de normativa moderna."
           },
           {
             "id": 4,
-            "answer": "Está totalmente prohibido el uso de cable rígido en muebles.",
+            "answer": "Se pueden usar cables de altavoz.",
             "isCorrect": false,
-            "explanation": "Se permite bajo la condición de uso de tubos o canales."
+            "explanation": "No tienen el aislamiento ni la sección requerida para 230V."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-06",
-        "question": "¿Cuál es la sección mínima de cobre para una instalación de ALUMBRADO exclusivamente?",
+        "type": "multiple",
+        "question": "¿Qué aspectos deben considerarse al colocar equipos eléctricos en muebles de oficina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Las solicitaciones mecánicas (golpes, roces con cajones).",
+            "isCorrect": true,
+            "explanation": "Los cables no deben ser pellizcados por partes móviles."
+          },
+          {
+            "id": 2,
+            "answer": "Los riesgos de incendio por contacto con materiales combustibles.",
+            "isCorrect": true,
+            "explanation": "Muebles de madera o tableros de resina. Fuente: ITC-BT-49, Apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "El acceso fácil para mantenimiento.",
+            "isCorrect": true,
+            "explanation": "Las conexiones deben ser revisables."
+          },
+          {
+            "id": 4,
+            "answer": "Que el mueble sea de diseño italiano.",
+            "isCorrect": false,
+            "explanation": "Irrelevante para la seguridad eléctrica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-07",
+        "type": "simple",
+        "question": "¿Está permitido realizar empalmes de cables mediante cinta aislante dentro de un mueble?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se usa mucha cinta.",
+            "isCorrect": false,
+            "explanation": "La cinta se despega con el calor y el tiempo."
+          },
+          {
+            "id": 2,
+            "answer": "No, las conexiones deben realizarse mediante bornes, conectores específicos o tomas de corriente.",
+            "isCorrect": true,
+            "explanation": "Garantiza una conexión firme y segura que no se suelta con el movimiento del mueble. Fuente: ITC-BT-49, Apartado 2.5."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si los cables son del mismo color.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si los empalmes están escondidos.",
+            "isCorrect": false,
+            "explanation": "Estar escondido aumenta el peligro al no verse si hay fogueo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-08",
+        "type": "simple",
+        "question": "Sobre los muebles de cuarto de baño con espejos iluminados, ¿qué requisito adicional deben cumplir?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el cristal no se empañe.",
+            "isCorrect": false,
+            "explanation": "Es una funcionalidad de confort, no un requisito eléctrico base."
+          },
+          {
+            "id": 2,
+            "answer": "Deben respetar los volúmenes de seguridad (0, 1, 2 y 3) establecidos en la ITC-BT-30.",
+            "isCorrect": true,
+            "explanation": "Protección crítica contra salpicaduras y choques eléctricos en zonas húmedas. Fuente: ITC-BT-49, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de color blanco.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 4,
+            "answer": "No pueden tener interruptores.",
+            "isCorrect": false,
+            "explanation": "Pueden tenerlos si cumplen el grado IP y volumen adecuado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-09",
+        "type": "simple",
+        "question": "¿Cuál es la sección mínima recomendada para los conductores de un circuito que alimenta bases de enchufe integradas en un mueble?",
         "options": [
           {
             "id": 1,
             "answer": "0,5 mm².",
             "isCorrect": false,
-            "explanation": "Valor por debajo del mínimo reglamentario para alumbrado en muebles."
+            "explanation": "Demasiado fino; se quemaría con un secador de pelo."
           },
           {
             "id": 2,
-            "answer": "0,75 mm².",
+            "answer": "1,5 mm² o 2,5 mm² según la carga prevista y la protección del circuito.",
             "isCorrect": true,
-            "explanation": "Se permite esta sección si no hay tomas de corriente y la longitud es inferior a 10 m. Fuente: ITC-BT-49, Apartado 2.3."
+            "explanation": "Asegura la capacidad térmica del cableado. Fuente: ITC-BT-19 / 49."
           },
           {
             "id": 3,
-            "answer": "1,5 mm².",
+            "answer": "10 mm².",
             "isCorrect": false,
-            "explanation": "Es la sección general, pero para alumbrado puro bajo condiciones se permite 0,75 mm²."
+            "explanation": "Excesivo e imposible de manejar en muebles."
           },
           {
             "id": 4,
-            "answer": "2,5 mm².",
+            "answer": "0,25 mm².",
             "isCorrect": false,
-            "explanation": "Sección reservada para cuando existen bases de toma de corriente."
+            "explanation": "Solo para señales de muy baja potencia, no para enchufes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-49-07",
-        "question": "¿Qué sección mínima es obligatoria si el mueble incorpora bases de toma de corriente?",
+        "id": "ITC-BT-49-10",
+        "type": "simple",
+        "question": "Si un mueble tiene partes móviles (ej: cajones con luz), ¿cómo deben estar protegidos los cables?",
         "options": [
           {
             "id": 1,
-            "answer": "1,5 mm².",
+            "answer": "No necesitan protección si son negros.",
             "isCorrect": false,
-            "explanation": "Insuficiente para garantizar la seguridad en circuitos con tomas de corriente de 16 A."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "2,5 mm².",
+            "answer": "Deben estar dispuestos de modo que no sufran tracciones ni torsiones, o protegidos por tubos flexibles o guías.",
             "isCorrect": true,
-            "explanation": "La presencia de tomas de corriente exige igualar la sección del circuito de alimentación de la vivienda. Fuente: ITC-BT-49, Apartado 2.3."
+            "explanation": "Evita el desgaste por fatiga y el corte del cable con las guías del cajón. Fuente: ITC-BT-49, Apartado 2.4."
           },
           {
             "id": 3,
-            "answer": "4 mm².",
+            "answer": "Se deben pegar con cola de carpintero.",
             "isCorrect": false,
-            "explanation": "Excesivo para un mueble estándar; 2,5 mm² es lo requerido."
+            "explanation": "La cola se endurece y puede romper el cable al moverse."
           },
           {
             "id": 4,
-            "answer": "No hay sección mínima si el mueble tiene su propio automático.",
+            "answer": "Deben ser cables de acero.",
             "isCorrect": false,
-            "explanation": "El REBT impone el mínimo de 2,5 mm² por presencia de tomas."
+            "explanation": "El acero no es un buen conductor eléctrico flexible para este uso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-49-08",
-        "question": "¿Dónde se deben colocar dispositivos antitracción en el cableado de un mueble?",
+        "id": "ITC-BT-49-11",
+        "type": "multiple",
+        "question": "¿Qué riesgos específicos presenta la electricidad en muebles de madera?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo en el enchufe de la pared.",
-            "isCorrect": false,
-            "explanation": "Esa parte es de la instalación fija o del cable de conexión externa."
+            "answer": "Incendio por calor acumulado en luminarias mal ventiladas.",
+            "isCorrect": true,
+            "explanation": "La madera es combustible."
           },
           {
             "id": 2,
-            "answer": "En los puntos de penetración de los aparatos y próximos a las conexiones.",
+            "answer": "Choque eléctrico por cables pelados en contacto con herrajes metálicos del mueble.",
             "isCorrect": true,
-            "explanation": "Se evita que tirones accidentales arranquen los cables de sus bornes de conexión. Fuente: ITC-BT-49, Apartado 2.4."
+            "explanation": "Pone en tensión las partes metálicas accesibles."
           },
           {
             "id": 3,
-            "answer": "En cada bisagra de las puertas.",
-            "isCorrect": false,
-            "explanation": "Se deben proteger mecánicamente en las partes móviles, pero el dispositivo antitracción es para los bornes."
+            "answer": "Arco eléctrico en conexiones flojas dentro de tableros de aglomerado.",
+            "isCorrect": true,
+            "explanation": "Puede iniciar una combustión lenta. Fuente: Seguridad industrial."
           },
           {
             "id": 4,
-            "answer": "No son necesarios si los cables van por canales.",
+            "answer": "Que el mueble pese menos al pasar la corriente.",
             "isCorrect": false,
-            "explanation": "Son obligatorios en los puntos de entrada/conexión independientemente de la canalización."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-49-09",
-        "question": "¿Cuál es el grado de protección mínimo IP para las cajas de conexión en muebles?",
+        "id": "ITC-BT-49-12",
+        "type": "simple",
+        "question": "¿Qué grado de protección IP mínimo debe tener una luminaria integrada en un mueble de baño situada en el Volumen 2?",
         "options": [
           {
             "id": 1,
             "answer": "IP20.",
             "isCorrect": false,
-            "explanation": "Protección básica contra dedos, pero insuficiente para este requisito específico."
+            "explanation": "No protege contra agua."
           },
           {
             "id": 2,
-            "answer": "IP3X.",
+            "answer": "IPX4 (protección contra salpicaduras).",
             "isCorrect": true,
-            "explanation": "Garantiza protección contra la entrada de objetos de más de 2,5 mm. Fuente: ITC-BT-49, Apartado 2.5."
+            "explanation": "Requisito para zonas cercanas a la ducha o lavabo. Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "IP44.",
+            "answer": "IP68.",
             "isCorrect": false,
-            "explanation": "Es un grado superior (protección contra salpicaduras) no exigido de forma general en este apartado."
+            "explanation": "Es para inmersión; innecesario en un espejo."
           },
           {
             "id": 4,
-            "answer": "IP67.",
+            "answer": "IP00.",
             "isCorrect": false,
-            "explanation": "Grado para inmersión temporal, innecesario en muebles normales."
+            "explanation": "Sin protección alguna."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-49-10",
-        "question": "¿Cómo debe ser la tapa de las cajas de empalme situadas en muebles?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Debe poder abrirse con la mano para facilitar el acceso.",
-            "isCorrect": false,
-            "explanation": "Peligro de manipulación accidental por niños o usuarios no expertos."
-          },
-          {
-            "id": 2,
-            "answer": "Sólo podrá ser abierta con la ayuda de una llave o de un útil.",
-            "isCorrect": true,
-            "explanation": "Es una medida de seguridad para evitar accesos no intencionados a partes bajo tensión. Fuente: ITC-BT-49, Apartado 2.5."
-          },
-          {
-            "id": 3,
-            "answer": "Debe ser de cristal transparente.",
-            "isCorrect": false,
-            "explanation": "No es un requisito reglamentario."
-          },
-          {
-            "id": 4,
-            "answer": "Puede ser adhesiva de un solo uso.",
-            "isCorrect": false,
-            "explanation": "No garantizaría la protección mecánica ni el cierre seguro tras mantenimiento."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-49-11",
-        "question": "¿Qué requisito especial deben cumplir los muebles con equipo eléctrico en cuartos de baño?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Deben tener ruedas para poder sacarlos al limpiar.",
-            "isCorrect": false,
-            "explanation": "Los muebles con equipo eléctrico en baños deben ser fijos por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Deberán ser fijos (no móviles).",
-            "isCorrect": true,
-            "explanation": "Se evita que el usuario pueda mover el mueble a volúmenes de prohibición del baño. Fuente: ITC-BT-49, Apartado 3."
-          },
-          {
-            "id": 3,
-            "answer": "Solo pueden ser de color blanco.",
-            "isCorrect": false,
-            "explanation": "Dato estético no regulado por el REBT."
-          },
-          {
-            "id": 4,
-            "answer": "No pueden tener partes metálicas.",
-            "isCorrect": false,
-            "explanation": "Pueden tenerlas si están debidamente puestas a tierra o protegidas."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-49-12",
-        "question": "¿Cómo debe identificarse el borne de tierra en un mueble?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Con la palabra 'TIERRA'.",
-            "isCorrect": false,
-            "explanation": "Aunque es claro, la norma exige el uso del símbolo normalizado."
-          },
-          {
-            "id": 2,
-            "answer": "Con su símbolo normalizado correspondiente.",
-            "isCorrect": true,
-            "explanation": "Garantiza el reconocimiento internacional de la conexión de protección. Fuente: ITC-BT-49, Apartado 3."
-          },
-          {
-            "id": 3,
-            "answer": "Con una marca de pintura verde.",
-            "isCorrect": false,
-            "explanation": "No es el método reglamentario de identificación de bornes."
-          },
-          {
-            "id": 4,
-            "answer": "No es necesario identificarlo si el cable es amarillo-verde.",
-            "isCorrect": false,
-            "explanation": "El borne físico también debe llevar el símbolo."
-          }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-13",
-        "question": "¿Está permitido usar dispositivos de conexión interna del mueble para unir los conductores exteriores de la edificación?",
+        "type": "simple",
+        "question": "Sobre las regletas de enchufes instaladas en mesas de despacho, ¿qué requisito de fijación tienen?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, para ahorrar espacio en la caja.",
+            "answer": "Pueden ir sueltas por encima.",
             "isCorrect": false,
-            "explanation": "Peligro de tirones que afecten a toda la red interna del mueble."
+            "explanation": "Peligro de tirones y caídas de equipos."
           },
           {
             "id": 2,
-            "answer": "No, se debe usar una caja de conexión fija con bornes propia del mueble.",
+            "answer": "Deben estar firmemente sujetas al mueble para evitar tirones accidentales de los cables de alimentación.",
             "isCorrect": true,
-            "explanation": "La conexión a la red de la vivienda debe ser un punto de unión independiente y robusto. Fuente: ITC-BT-49, Apartado 3."
+            "explanation": "Seguridad mecánica y orden. Fuente: ITC-BT-49, Apartado 2.5."
           },
           {
             "id": 3,
-            "answer": "Solo si la potencia es menor a 1000 W.",
+            "answer": "Deben estar atadas con cuerdas.",
             "isCorrect": false,
-            "explanation": "La prohibición es independiente de la potencia."
+            "explanation": "Poco profesional e inseguro."
           },
           {
             "id": 4,
-            "answer": "Sí, mediante cinta aislante de calidad.",
+            "answer": "Deben estar soldadas al mueble.",
             "isCorrect": false,
-            "explanation": "Totalmente prohibido por no ser un método de conexión reglamentario."
+            "explanation": "Imposible si el mueble es de madera o melamina."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-14",
-        "question": "¿Cuál es la longitud máxima permitida para un circuito de alumbrado de 0,75 mm² en un mueble?",
+        "type": "simple",
+        "question": "En la instalación de un armario con luces LED, ¿para qué sirve la caja de derivación?",
         "options": [
           {
             "id": 1,
-            "answer": "2 metros.",
+            "answer": "Para que los cables no se pierdan.",
             "isCorrect": false,
-            "explanation": "Límite muy corto, se permite hasta 10 m."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "10 metros.",
+            "answer": "Para alojar las conexiones de forma segura, aislada y protegida contra contactos accidentales.",
             "isCorrect": true,
-            "explanation": "Es la distancia máxima entre la conexión fija y el aparato más alejado para usar esta sección reducida. Fuente: ITC-BT-49, Apartado 2.3."
+            "explanation": "Evita que una conexión suelta toque la madera o al usuario. Fuente: ITC-BT-49, Apartado 2.5."
           },
           {
             "id": 3,
-            "answer": "15 metros.",
+            "answer": "Para que las luces pesen menos.",
             "isCorrect": false,
-            "explanation": "Supera el límite de seguridad por caída de tensión y calentamiento para 0,75 mm²."
+            "explanation": "No influye."
           },
           {
             "id": 4,
-            "answer": "Sin límite si el cable es de goma.",
+            "answer": "Es un elemento decorativo.",
             "isCorrect": false,
-            "explanation": "El material no exime de cumplir el límite de longitud."
+            "explanation": "Es un elemento técnico de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-15",
-        "question": "¿Qué se debe tener en cuenta al instalar accesorios eléctricos en muebles respecto a su ubicación?",
+        "type": "simple",
+        "question": "¿Se pueden usar los muebles como canalización eléctrica general de la habitación?",
         "options": [
           {
             "id": 1,
-            "answer": "Que combinen con el color de la madera.",
+            "answer": "Sí, para ahorrar tubos en la pared.",
             "isCorrect": false,
-            "explanation": "Dato puramente estético."
+            "explanation": "Peligrosísimo; el mueble es móvil o amovible."
           },
           {
             "id": 2,
-            "answer": "Las solicitaciones mecánicas y térmicas a las que puedan estar sometidos.",
+            "answer": "No, el mueble solo debe contener el cableado propio de sus equipos integrados.",
             "isCorrect": true,
-            "explanation": "Se debe prevenir el daño por uso del mueble (golpes, roces) y el sobrecalentamiento. Fuente: ITC-BT-49, Apartado 2.1."
+            "explanation": "La instalación fija de la vivienda debe ir por la estructura del edificio. Fuente: Criterios generales de instalación."
           },
           {
             "id": 3,
-            "answer": "Que estén a la vista para poder limpiarlos.",
+            "answer": "Solo si el mueble es de metal.",
             "isCorrect": false,
-            "explanation": "No es un requisito de seguridad del REBT."
+            "explanation": "Tampoco se permite como sustituto de la instalación fija."
           },
           {
             "id": 4,
-            "answer": "Que no pesen más de 1 kg.",
+            "answer": "Sí, si se instalan tubos de acero.",
             "isCorrect": false,
-            "explanation": "No existe tal limitación de peso en la instrucción."
+            "explanation": "Innecesario y fuera de normativa para instalaciones generales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-16",
-        "question": "En muebles de baño, ¿cuándo debe ser accesible la caja de conexión a bornes?",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse con los transformadores/drivers de LED en muebles de cocina?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre, a simple vista.",
-            "isCorrect": false,
-            "explanation": "Inestético y peligroso ante salpicaduras de agua."
+            "answer": "No deben estar en contacto directo con materiales inflamables sin protección térmica.",
+            "isCorrect": true,
+            "explanation": "Los drivers pueden alcanzar temperaturas altas."
           },
           {
             "id": 2,
-            "answer": "Únicamente después de retirar una tapa con la ayuda de una herramienta.",
+            "answer": "Deben ser accesibles para su sustitución sin destrozar el mueble.",
             "isCorrect": true,
-            "explanation": "Asegura que solo personal calificado o con intención clara realice manipulaciones. Fuente: ITC-BT-49, Apartado 3."
+            "explanation": "Mantenibilidad futura."
           },
           {
             "id": 3,
-            "answer": "No debe ser accesible jamás, se sella con resina.",
-            "isCorrect": false,
-            "explanation": "Debe poder mantenerse o repararse."
+            "answer": "Deben tener protección contra sobrecargas.",
+            "isCorrect": true,
+            "explanation": "Evita incendios en caso de fallo del LED. Fuente: ITC-BT-48 / 49."
           },
           {
             "id": 4,
-            "answer": "Solo desde el interior del espejo.",
+            "answer": "Se deben meter dentro de los botes de harina para que no se vean.",
             "isCorrect": false,
-            "explanation": "La ubicación puede variar, pero el requisito es el uso de herramienta para la tapa."
+            "explanation": "Peligro de incendio y contaminación alimentaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-17",
-        "question": "¿Qué norma regula las tomas de corriente utilizadas en los muebles?",
+        "type": "simple",
+        "question": "Sobre el cableado que pasa por las bisagras de una puerta de armario con luz, ¿qué es crítico?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE 20.315.",
-            "isCorrect": true,
-            "explanation": "Es la norma española de referencia para bases de toma de corriente y clavijas. Fuente: ITC-BT-49, Apartado 2.5."
+            "answer": "Que el cable sea rígido para que no se mueva.",
+            "isCorrect": false,
+            "explanation": "El cable rígido se rompería con el movimiento."
           },
           {
             "id": 2,
-            "answer": "UNE-EN 60.598-1.",
-            "isCorrect": false,
-            "explanation": "Esta norma es para luminarias, no para tomas de corriente."
+            "answer": "Que el cable sea flexible y tenga una protección mecánica (funda o espiral) que evite su pellizco o corte al abrir/cerrar.",
+            "isCorrect": true,
+            "explanation": "Punto típico de cortocircuitos por desgaste. Fuente: ITC-BT-49, Apartado 2.4."
           },
           {
             "id": 3,
-            "answer": "ISO 14001.",
+            "answer": "Que la bisagra sea de plástico.",
             "isCorrect": false,
-            "explanation": "Norma de gestión ambiental."
+            "explanation": "Las bisagras suelen ser metálicas y cortantes."
           },
           {
             "id": 4,
-            "answer": "Código Técnico de la Edificación (CTE).",
+            "answer": "No se pueden pasar cables por las puertas.",
             "isCorrect": false,
-            "explanation": "Es un marco normativo más amplio, no la norma específica de la toma."
+            "explanation": "Se puede, pero con la protección adecuada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-18",
-        "question": "¿Qué tipos de conductores forman los cables de clase 5 (designados como -F)?",
+        "type": "simple",
+        "question": "¿Cómo se debe conectar el cable de alimentación del mueble a la toma de pared?",
         "options": [
           {
             "id": 1,
-            "answer": "Conductores de un solo hilo grueso (rígidos).",
+            "answer": "Soldándolo a los cables del enchufe.",
             "isCorrect": false,
-            "explanation": "Serían conductores de clase 1."
+            "explanation": "Peligroso e ilegal."
           },
           {
             "id": 2,
-            "answer": "Constituidos por numerosos alambres de pequeño diámetro (flexibles).",
+            "answer": "Mediante una clavija de enchufe estándar o una caja de conexión fija accesible.",
             "isCorrect": true,
-            "explanation": "Su diseño permite que sean aptos para usos móviles y muebles. Fuente: ITC-BT-49, Nota 1."
+            "explanation": "Permite desconectar el mueble para limpieza o reparación. Fuente: ITC-BT-49, Apartado 2.5."
           },
           {
             "id": 3,
-            "answer": "Conductores planos de aluminio.",
+            "answer": "Metiendo los hilos pelados directamente en los agujeros del enchufe.",
             "isCorrect": false,
-            "explanation": "La clase 5 se refiere a la flexibilidad del cobre, no al material aluminio."
+            "explanation": "Riesgo extremo de incendio y electrocución."
           },
           {
             "id": 4,
-            "answer": "Cables con núcleo de fibra de vidrio.",
+            "answer": "No necesita conexión, funciona por Bluetooth.",
             "isCorrect": false,
-            "explanation": "Son cables de comunicación, no de energía de clase 5."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-19",
-        "question": "¿Cuál es la tensión asignada requerida para los cables H05RR-F y H05VV-F?",
+        "type": "simple",
+        "question": "En un mueble de oficina con muchas pantallas, ¿qué peligro tiene el exceso de cables enrollados?",
         "options": [
           {
             "id": 1,
-            "answer": "100/100 V.",
+            "answer": "Que el Wi-Fi vaya lento.",
             "isCorrect": false,
-            "explanation": "Tensión insuficiente para circuitos de red de 230 V."
+            "explanation": "Apenas influye."
           },
           {
             "id": 2,
-            "answer": "300/500 V.",
+            "answer": "Calentamiento por efecto inductivo y falta de disipación de calor, pudiendo fundir el aislamiento.",
             "isCorrect": true,
-            "explanation": "Es el nivel de aislamiento estándar para cables flexibles de uso doméstico e industrial ligero. Fuente: ITC-BT-49, Apartado 2.2."
+            "explanation": "Los cables deben estar extendidos o tener la sección adecuada para el calor acumulado. Fuente: Seguridad en el trabajo."
           },
           {
             "id": 3,
-            "answer": "450/750 V.",
+            "answer": "Que los cables se mareen.",
             "isCorrect": false,
-            "explanation": "Nivel superior permitido, pero los tipos H05 son de 300/500 V."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "0,6/1 kV.",
+            "answer": "No hay peligro si son cables originales.",
             "isCorrect": false,
-            "explanation": "Tensión para cables de distribución industrial enterrados o en bandeja."
+            "explanation": "El peligro es físico/térmico, no de marca."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-20",
-        "question": "¿Qué se debe evitar respecto a los cables dentro de un mueble con partes móviles?",
+        "type": "simple",
+        "question": "Sobre la iluminación de vitrinas de cristal, ¿por qué son preferibles los focos LED?",
         "options": [
           {
             "id": 1,
-            "answer": "Que se vean al abrir la puerta.",
+            "answer": "Porque son más modernos.",
             "isCorrect": false,
-            "explanation": "Inestético pero no necesariamente inseguro si están aislados."
+            "explanation": "Criterio de moda."
           },
           {
             "id": 2,
-            "answer": "Que sufran daños por tracción, torsión o aplastamiento.",
+            "answer": "Emiten mucho menos calor infrarrojo, reduciendo el riesgo de incendio en espacios cerrados y pequeños.",
             "isCorrect": true,
-            "explanation": "El movimiento del mueble no debe comprometer la integridad del aislamiento de los conductores. Fuente: ITC-BT-49, Apartado 2.4."
+            "explanation": "Seguridad térmica superior a las halógenas. Fuente: Tecnología de iluminación."
           },
           {
             "id": 3,
-            "answer": "Que el cable sea de color negro.",
+            "answer": "Porque no se rompen nunca.",
             "isCorrect": false,
-            "explanation": "El color de la cubierta no influye en la seguridad mecánica."
+            "explanation": "Se rompen menos, pero no son eternos."
           },
           {
             "id": 4,
-            "answer": "Que tengan más de 3 hilos.",
+            "answer": "Porque atraen menos a los fantasmas.",
             "isCorrect": false,
-            "explanation": "Pueden tener los hilos necesarios para su función (ej: trifásico en taller)."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-21",
-        "question": "¿Se aplica la ITC-BT-49 a los mostradores y expositores de tiendas?",
+        "type": "multiple",
+        "question": "¿Qué requisitos de seguridad debe cumplir un mueble de baño con enchufe?",
         "options": [
           {
             "id": 1,
-            "answer": "No, solo a muebles de viviendas.",
-            "isCorrect": false,
-            "explanation": "La instrucción es amplia y cubre mobiliario comercial."
+            "answer": "Debe estar protegido por un diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Protección contra contactos indirectos en zona húmeda."
           },
           {
             "id": 2,
-            "answer": "Sí, están expresamente incluidos en el objeto de la instrucción.",
+            "answer": "El enchufe debe tener tapa o estar orientado para evitar la entrada de agua.",
             "isCorrect": true,
-            "explanation": "Los mostradores y expositores se consideran muebles sujetos a estas reglas. Fuente: ITC-BT-49, Apartado 1."
+            "explanation": "Protección contra salpicaduras."
           },
           {
             "id": 3,
-            "answer": "Solo si tienen cristales blindados.",
-            "isCorrect": false,
-            "explanation": "El tipo de material del mueble no condiciona la aplicación de la norma eléctrica."
+            "answer": "Debe situarse fuera de las zonas prohibidas (volumen 0 y 1).",
+            "isCorrect": true,
+            "explanation": "Distancia mínima de seguridad. Fuente: ITC-BT-30."
           },
           {
             "id": 4,
-            "answer": "No, se rigen por la ITC-BT-28 (Locales de Pública Concurrencia).",
+            "answer": "Debe ser de color azul mar.",
             "isCorrect": false,
-            "explanation": "Aunque el local sea de pública concurrencia, el mueble en sí sigue la ITC-BT-49."
+            "explanation": "Irrelevante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-22",
-        "question": "En la instalación de un mueble, ¿a qué debe conectarse obligatoriamente su borne de tierra?",
+        "type": "simple",
+        "question": "¿Se puede usar un mueble de cocina para ocultar un cuadro eléctrico general?",
         "options": [
           {
             "id": 1,
-            "answer": "A un clavo metido en la pared.",
+            "answer": "Sí, para que no afee la cocina.",
             "isCorrect": false,
-            "explanation": "No garantiza una impedancia de bucle baja ni seguridad real."
+            "explanation": "Dificulta el acceso rápido en emergencia."
           },
           {
             "id": 2,
-            "answer": "A la instalación de tierra del edificio.",
+            "answer": "Solo si se garantiza el acceso fácil y rápido, y no se almacenan productos inflamables cerca.",
             "isCorrect": true,
-            "explanation": "Es la única forma de asegurar que las protecciones diferenciales actúen ante un fallo. Fuente: ITC-BT-49, Apartado 3."
+            "explanation": "La accesibilidad es clave por seguridad. Fuente: ITC-BT-17."
           },
           {
             "id": 3,
-            "answer": "Al chasis metálico del propio mueble solamente.",
+            "answer": "No, está prohibido tapar los cuadros.",
             "isCorrect": false,
-            "explanation": "El chasis debe unirse a la tierra del edificio, no ser un sumidero aislado."
+            "explanation": "Se pueden integrar en armarios específicos si cumplen las medidas de acceso."
           },
           {
             "id": 4,
-            "answer": "No se conecta si el suelo es de madera.",
+            "answer": "Sí, si se le pone un candado.",
             "isCorrect": false,
-            "explanation": "La puesta a tierra es obligatoria independientemente del tipo de suelo."
+            "explanation": "Peligrosísimo; el cuadro debe ser accesible sin llaves especiales en caso de fuego."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-23",
-        "question": "Respecto a la fijación de los cables a las paredes del mueble, ¿qué indica la norma?",
+        "type": "simple",
+        "question": "Sobre los cables que pasan por detrás de un mueble pegado a la pared, ¿qué riesgo hay?",
         "options": [
           {
             "id": 1,
-            "answer": "Que deben dejarse sueltos para facilitar el movimiento.",
+            "answer": "Que el cable pase frío.",
             "isCorrect": false,
-            "explanation": "Podrían engancharse o dañarse con objetos guardados."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Estarán fijados a las paredes y en los extremos de los vanos existentes.",
+            "answer": "Aplastamiento del cable por el peso del mueble contra la pared, provocando cortocircuitos ocultos.",
             "isCorrect": true,
-            "explanation": "Garantiza que el cableado esté ordenado y protegido contra enganchones accidentales. Fuente: ITC-BT-49, Apartado 2.4."
+            "explanation": "Se debe usar canalización o dejar espacio suficiente. Fuente: Recomendaciones de montaje."
           },
           {
             "id": 3,
-            "answer": "Solo se fijan si miden más de 5 metros.",
+            "answer": "Que los cables se enrollen solos.",
             "isCorrect": false,
-            "explanation": "La fijación es un requisito general de instalación segura."
+            "explanation": "No."
           },
           {
             "id": 4,
-            "answer": "Se deben fijar con grapas metálicas clavadas a fondo.",
+            "answer": "Que atraigan ratones.",
             "isCorrect": false,
-            "explanation": "Las grapas metálicas pueden dañar el aislamiento; se recomiendan fijaciones plásticas adecuadas."
+            "explanation": "Es posible, pero no es el riesgo eléctrico técnico principal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-24",
-        "question": "¿Qué temperatura máxima de servicio tiene el conductor de un cable H05VV-F?",
+        "type": "simple",
+        "question": "En un mueble expositor de una tienda, ¿por qué es importante el interruptor general del mueble?",
         "options": [
           {
             "id": 1,
-            "answer": "60 ºC.",
+            "answer": "Para que no se gaste la luz de noche.",
             "isCorrect": false,
-            "explanation": "Este es el límite para el cable de goma H05RR-F."
+            "explanation": "Criterio de ahorro."
           },
           {
             "id": 2,
-            "answer": "70 ºC.",
+            "answer": "Para desconectar todos los focos y equipos de una vez, eliminando riesgos térmicos cuando el local está cerrado.",
             "isCorrect": true,
-            "explanation": "El PVC estándar de los cables tipo VV soporta hasta 70 grados en régimen permanente. Fuente: ITC-BT-49, Apartado 2.2."
+            "explanation": "Seguridad preventiva contra incendios. Fuente: ITC-BT-49, Apartado 2.5."
           },
           {
             "id": 3,
-            "answer": "90 ºC.",
+            "answer": "Para que el encargado haga ejercicio al apagarlo.",
             "isCorrect": false,
-            "explanation": "Límite para cables con aislamiento termoestable (tipo XLPE o EPR), no para el PVC H05VV-F."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "100 ºC.",
+            "answer": "No hace falta interruptor, se desenchufa y ya.",
             "isCorrect": false,
-            "explanation": "El PVC se derretiría mucho antes de alcanzar esta temperatura en servicio continuo."
+            "explanation": "El interruptor es más seguro y duradero que tirar del cable a diario."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-49-25",
-        "question": "¿Aplica esta ITC a los tabiques movibles y amovibles de oficinas?",
+        "type": "simple",
+        "question": "¿Qué característica debe tener el plástico de las cajas de conexión integradas en muebles?",
         "options": [
           {
             "id": 1,
-            "answer": "No, eso se considera obra civil.",
+            "answer": "Debe ser de color madera.",
             "isCorrect": false,
-            "explanation": "Si llevan instalación eléctrica, se asimilan a mobiliario bajo esta instrucción."
+            "explanation": "Estética."
           },
           {
             "id": 2,
-            "answer": "Sí, están incluidos como paneles móviles o amovibles.",
+            "answer": "Debe ser autoextinguible (no propagador de la llama).",
             "isCorrect": true,
-            "explanation": "Los sistemas de compartimentación de oficinas que integran tomas o luces siguen estas reglas. Fuente: ITC-BT-49, Apartado 2."
+            "explanation": "Si hay un arco eléctrico dentro, la caja no debe arder ni incendiar el mueble. Fuente: Normas de materiales eléctricos."
           },
           {
             "id": 3,
-            "answer": "Solo si son de cristal.",
+            "answer": "Debe ser flexible como una goma.",
             "isCorrect": false,
-            "explanation": "Independientemente del material, la función de panel móvil los incluye."
+            "explanation": "Suelen ser rígidas para proteger mecánicamente."
           },
           {
             "id": 4,
-            "answer": "Solo si miden más de 2 metros de alto.",
+            "answer": "Debe ser transparente.",
             "isCorrect": false,
-            "explanation": "Las dimensiones no condicionan la aplicación de la instrucción."
+            "explanation": "No es un requisito."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-49-26",
+        "type": "multiple",
+        "question": "¿Qué tipos de muebles pueden incluir sistemas eléctricos regulados por la ITC-BT-49?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Camas con canapé motorizado o luces de lectura.",
+            "isCorrect": true,
+            "explanation": "Uso doméstico común."
+          },
+          {
+            "id": 2,
+            "answer": "Mesas de despacho con gestión de cables y enchufes.",
+            "isCorrect": true,
+            "explanation": "Mobiliario de oficina."
+          },
+          {
+            "id": 3,
+            "answer": "Mostradores de tiendas con iluminación y cajas registradoras.",
+            "isCorrect": true,
+            "explanation": "Mobiliario comercial. Fuente: ITC-BT-49, Apartado 1."
+          },
+          {
+            "id": 4,
+            "answer": "Una silla de madera normal de comedor.",
+            "isCorrect": false,
+            "explanation": "No lleva componentes eléctricos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-27",
+        "type": "simple",
+        "question": "Sobre la conexión de puesta a tierra en un mueble con estructura metálica y equipos de Clase I, ¿qué se exige?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No hace falta, la madera aísla.",
+            "isCorrect": false,
+            "explanation": "Falso; si hay partes metálicas, estas deben estar protegidas."
+          },
+          {
+            "id": 2,
+            "answer": "Todas las masas metálicas del mueble deben conectarse eficazmente a la toma de tierra del edificio.",
+            "isCorrect": true,
+            "explanation": "Evita que el mueble entero dé calambre si hay un fallo de aislamiento. Fuente: ITC-BT-18 / 49."
+          },
+          {
+            "id": 3,
+            "answer": "Solo hay que conectar a tierra el enchufe de la pared.",
+            "isCorrect": false,
+            "explanation": "El mueble también debe tener continuidad de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Se debe conectar a una maceta con tierra.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-28",
+        "type": "simple",
+        "question": "¿Qué es un 'mueble inteligente'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que hace los deberes solo.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Mueble que incorpora domótica, sensores o cargadores inalámbricos integrados en su estructura.",
+            "isCorrect": true,
+            "explanation": "Tendencia moderna regulada también por la ITC-BT-49 y la de domótica. Fuente: Nuevas tecnologías."
+          },
+          {
+            "id": 3,
+            "answer": "Uno que no tiene esquinas.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Un mueble de cristal.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-29",
+        "type": "simple",
+        "question": "Sobre la limpieza de muebles con partes eléctricas, ¿qué precaución es básica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Limpiarlos con una manguera de agua.",
+            "isCorrect": false,
+            "explanation": "Peligro mortal y daño al mueble."
+          },
+          {
+            "id": 2,
+            "answer": "No usar paños muy mojados sobre enchufes o luces y, a ser posible, desconectar el mueble de la red antes.",
+            "isCorrect": true,
+            "explanation": "Evita cortocircuitos y humedades en las conexiones. Fuente: Manuales de usuario."
+          },
+          {
+            "id": 3,
+            "answer": "Usar solo alcohol de 96 grados.",
+            "isCorrect": false,
+            "explanation": "Peligro de incendio."
+          },
+          {
+            "id": 4,
+            "answer": "No limpiarlos nunca.",
+            "isCorrect": false,
+            "explanation": "Suciedad acumulada es un riesgo de incendio."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-30",
+        "type": "simple",
+        "question": "En un mueble de televisión con regleta integrada, ¿por qué es malo que los cables estén tensos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque se cansan.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "La tensión mecánica debilita los bornes de conexión y puede llegar a soltar un cable, provocando un fallo o incendio.",
+            "isCorrect": true,
+            "explanation": "Los cables deben tener siempre un poco de holgura. Fuente: Buenas prácticas de montaje."
+          },
+          {
+            "id": 3,
+            "answer": "Porque la señal de TV llega más lenta.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "No importa si están tensos si son cables buenos.",
+            "isCorrect": false,
+            "explanation": "Incluso los mejores cables sufren bajo tensión mecánica constante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-31",
+        "type": "multiple",
+        "question": "¿Qué problemas pueden causar las luces halógenas (antiguas) en un armario empotrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Quemaduras en la ropa por contacto directo.",
+            "isCorrect": true,
+            "explanation": "Alcanzan temperaturas de más de 200 ºC."
+          },
+          {
+            "id": 2,
+            "answer": "Amarilleamiento o quemado del tablero de madera superior.",
+            "isCorrect": true,
+            "explanation": "Degradación térmica del material."
+          },
+          {
+            "id": 3,
+            "answer": "Gasto eléctrico excesivo comparado con el LED.",
+            "isCorrect": true,
+            "explanation": "Baja eficiencia energética. Fuente: Comparativa de luminarias."
+          },
+          {
+            "id": 4,
+            "answer": "Que la ropa huela a ozono.",
+            "isCorrect": false,
+            "explanation": "Huele a quemado si hay contacto."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-32",
+        "type": "simple",
+        "question": "Sobre la 'unión fría' de los muebles, ¿se puede enterrar en la pared?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para que no se vea.",
+            "isCorrect": false,
+            "explanation": "No se puede enterrar un cable flexible de mueble en la pared de forma fija."
+          },
+          {
+            "id": 2,
+            "answer": "No, la conexión a la instalación fija debe ser mediante una base de enchufe o una caja de conexiones accesible.",
+            "isCorrect": true,
+            "explanation": "Permite el mantenimiento y la desconexión segura. Fuente: ITC-BT-49, Apartado 2.5."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se usa cemento rápido.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo e ilegal."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el cable es de color blanco.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-33",
+        "type": "simple",
+        "question": "¿Qué es una 'canaleta integrada' en un mueble?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un sitio para que corra el agua.",
+            "isCorrect": false,
+            "explanation": "No en mobiliario estándar."
+          },
+          {
+            "id": 2,
+            "answer": "Espacio hueco diseñado durante la fabricación del mueble para alojar y ocultar los cables de forma segura.",
+            "isCorrect": true,
+            "explanation": "Mejora el orden y protege los cables de daños externos. Fuente: Diseño de mobiliario técnico."
+          },
+          {
+            "id": 3,
+            "answer": "Una decoración de plástico.",
+            "isCorrect": false,
+            "explanation": "Es funcional."
+          },
+          {
+            "id": 4,
+            "answer": "Una antena de radio.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-34",
+        "type": "simple",
+        "question": "Sobre los cargadores de móvil USB integrados en el sofá, ¿qué voltaje suelen manejar en la salida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Mortal para un móvil y peligroso para el usuario."
+          },
+          {
+            "id": 2,
+            "answer": "5 V (Muy Baja Tensión de Seguridad).",
+            "isCorrect": true,
+            "explanation": "Tensión estándar USB segura al tacto. Fuente: Estándares USB."
+          },
+          {
+            "id": 3,
+            "answer": "12 V.",
+            "isCorrect": false,
+            "explanation": "Tensión de carga rápida o específica, pero no el estándar base seguro al tacto."
+          },
+          {
+            "id": 4,
+            "answer": "0 V.",
+            "isCorrect": false,
+            "explanation": "No cargaría nada."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-35",
+        "type": "simple",
+        "question": "En un mueble comercial (expositor), ¿se pueden usar cables sin cubierta (hilos sueltos)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se grapan bien.",
+            "isCorrect": false,
+            "explanation": "Peligro de corte del hilo con la grapa y falta de aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "No, está prohibido; deben ser cables con cubierta protectora para garantizar el doble aislamiento.",
+            "isCorrect": true,
+            "explanation": "Protección fundamental contra contactos accidentales. Fuente: ITC-BT-49, Apartado 2.2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el expositor es de cristal.",
+            "isCorrect": false,
+            "explanation": "El material no exime de la protección del cable."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el voltaje es de 12V.",
+            "isCorrect": false,
+            "explanation": "Incluso en 12V se recomienda cable con cubierta por resistencia mecánica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-36",
+        "type": "multiple",
+        "question": "¿Qué problemas causa el polvo acumulado en la parte trasera de un mueble con muchos enchufes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Dificulta la ventilación de los equipos (routers, transformadores).",
+            "isCorrect": true,
+            "explanation": "Aumenta el calor residual."
+          },
+          {
+            "id": 2,
+            "answer": "Riesgo de incendio si una chispa por mala conexión prende el polvo (que es muy inflamable).",
+            "isCorrect": true,
+            "explanation": "El polvo seco arde muy rápido."
+          },
+          {
+            "id": 3,
+            "answer": "Puede causar alergias.",
+            "isCorrect": false,
+            "explanation": "Problema de salud, no técnico eléctrico base."
+          },
+          {
+            "id": 4,
+            "answer": "Provoca ruidos en la señal de televisión.",
+            "isCorrect": false,
+            "explanation": "No significativamente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-37",
+        "type": "simple",
+        "question": "¿Qué es un 'mueble motorizado' (ej: sillón relax)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un mueble que corre.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Mueble que incorpora motores eléctricos para cambiar de posición mediante mandos o pulsadores.",
+            "isCorrect": true,
+            "explanation": "Requiere una instalación eléctrica segura con partes móviles. Fuente: ITC-BT-47 / 49."
+          },
+          {
+            "id": 3,
+            "answer": "Un coche con forma de sofá.",
+            "isCorrect": false,
+            "explanation": "No es el objeto del REBT."
+          },
+          {
+            "id": 4,
+            "answer": "Un mueble que no se mueve nunca.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-38",
+        "type": "simple",
+        "question": "Sobre la seguridad en el montaje de muebles en kit, ¿qué aviso eléctrico es el más importante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Usar guantes de seda.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "No taladrar ni atornillar en zonas donde pasen cables ocultos por el fabricante.",
+            "isCorrect": true,
+            "explanation": "Evita cortocircuitos y peligros de descarga durante el montaje. Fuente: Manuales de montaje."
+          },
+          {
+            "id": 3,
+            "answer": "Montar el mueble bajo la lluvia.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo."
+          },
+          {
+            "id": 4,
+            "answer": "Usar solo destornilladores de plástico.",
+            "isCorrect": false,
+            "explanation": "No existen destornilladores de plástico para tornillos de acero; se usan aislados."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-39",
+        "type": "simple",
+        "question": "¿Qué ocurre si un cable flexible de un mueble está constantemente pisado por una de sus patas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El mueble está más estable.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Se aplasta el aislamiento y con el tiempo se produce un cortocircuito o una derivación a la pata (si es metálica).",
+            "isCorrect": true,
+            "explanation": "Causa común de fallos eléctricos en hogares. Fuente: Prevención de riesgos eléctricos."
+          },
+          {
+            "id": 3,
+            "answer": "La corriente fluye mejor bajo presión.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          },
+          {
+            "id": 4,
+            "answer": "No pasa nada.",
+            "isCorrect": false,
+            "explanation": "Riesgo real de accidente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-40",
+        "type": "simple",
+        "question": "Para terminar, ¿cuál es la mejor forma de asegurar los cables por la parte de atrás de un escritorio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Con cinta americana a tutiplén.",
+            "isCorrect": false,
+            "explanation": "Poco estético y la cinta se pasa con el tiempo."
+          },
+          {
+            "id": 2,
+            "answer": "Usar organizadores de cables, bridas de velcro o canaletas específicas sujetas al mueble.",
+            "isCorrect": true,
+            "explanation": "Mantiene el orden, evita tirones y facilita la limpieza. Fuente: Ergonomía de oficina."
+          },
+          {
+            "id": 3,
+            "answer": "Dejarlos colgando para que respiren.",
+            "isCorrect": false,
+            "explanation": "Peligro de enredos y tirones accidentales."
+          },
+          {
+            "id": 4,
+            "answer": "Atarlos con alambre de espino.",
+            "isCorrect": false,
+            "explanation": "Dañaría el aislamiento."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-41",
+        "type": "simple",
+        "question": "¿Qué es un 'mueble con toma de tierra'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que está lleno de arena.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Aquel cuya estructura metálica está conectada al conductor de protección de la red para evitar descargas.",
+            "isCorrect": true,
+            "explanation": "Obligatorio para muebles que contengan equipos de Clase I. Fuente: ITC-BT-18."
+          },
+          {
+            "id": 3,
+            "answer": "Un mueble que no se mueve.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Un mueble pintado de verde y amarillo.",
+            "isCorrect": false,
+            "explanation": "El cable es de ese color, no el mueble."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-42",
+        "type": "multiple",
+        "question": "¿Qué problemas evitan los interruptores de puerta en los armarios con luz?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la ropa se decolore por exposición continua a la luz.",
+            "isCorrect": true,
+            "explanation": "Efecto secundario beneficioso."
+          },
+          {
+            "id": 2,
+            "answer": "Incendios por acumulación de calor extremo en un espacio sin ventilación.",
+            "isCorrect": true,
+            "explanation": "Principal función de seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Ahorro de energía al no dejarse la luz encendida por descuido.",
+            "isCorrect": true,
+            "explanation": "Eficiencia energética. Fuente: ITC-BT-49, Apartado 2.1."
+          },
+          {
+            "id": 4,
+            "answer": "Que el armario huela a cerrado.",
+            "isCorrect": false,
+            "explanation": "No influye."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-43",
+        "type": "simple",
+        "question": "Sobre las camas eléctricas de hospital, ¿qué tipo de voltaje suelen usar para los mandos de control?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo cerca del paciente."
+          },
+          {
+            "id": 2,
+            "answer": "Muy Baja Tensión de Seguridad (12V o 24V).",
+            "isCorrect": true,
+            "explanation": "Garantiza que un fallo en el mando no electrocute al paciente o al personal. Fuente: Normas de equipos médicos."
+          },
+          {
+            "id": 3,
+            "answer": "400 V.",
+            "isCorrect": false,
+            "explanation": "Mortal."
+          },
+          {
+            "id": 4,
+            "answer": "No usan electricidad, funcionan con aire.",
+            "isCorrect": false,
+            "explanation": "Existen neumáticas, pero las eléctricas son el estándar moderno."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-44",
+        "type": "simple",
+        "question": "¿Se puede instalar una placa de cocina (vitro) directamente sobre un mueble de madera sin aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para que caliente el mueble también.",
+            "isCorrect": false,
+            "explanation": "Ardería el mueble."
+          },
+          {
+            "id": 2,
+            "answer": "No, debe haber una separación mínima y materiales aislantes o protectores térmicos según las instrucciones del fabricante.",
+            "isCorrect": true,
+            "explanation": "Seguridad contra incendios en cocinas. Fuente: Normas de instalación de electrodomésticos."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se cocina poco.",
+            "isCorrect": false,
+            "explanation": "El riesgo existe desde el primer uso."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si la madera es de roble.",
+            "isCorrect": false,
+            "explanation": "Toda la madera es combustible."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-45",
+        "type": "simple",
+        "question": "Sobre el marcado CE en los muebles eléctricos, ¿qué garantiza?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el mueble es de madera de España.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Que el conjunto (mueble + equipo) cumple con las normativas europeas de seguridad y compatibilidad.",
+            "isCorrect": true,
+            "explanation": "Requisito legal para su venta en la UE. Fuente: Directivas europeas."
+          },
+          {
+            "id": 3,
+            "answer": "Que es un mueble de lujo.",
+            "isCorrect": false,
+            "explanation": "No tiene que ver con el precio."
+          },
+          {
+            "id": 4,
+            "answer": "Que se puede mojar sin miedo.",
+            "isCorrect": false,
+            "explanation": "Solo si indica un grado IP adecuado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-46",
+        "type": "multiple",
+        "question": "¿Qué tipos de conectores se usan habitualmente para unir las partes eléctricas de un mueble modular?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conectores rápidos de presión (tipo WAGO).",
+            "isCorrect": true,
+            "explanation": "Seguros y rápidos."
+          },
+          {
+            "id": 2,
+            "answer": "Clemas de tornillo protegidas.",
+            "isCorrect": true,
+            "explanation": "Clásico y efectivo."
+          },
+          {
+            "id": 3,
+            "answer": "Sistemas de enchufe mini específicos para muebles.",
+            "isCorrect": true,
+            "explanation": "Fáciles de usar por el usuario final. Fuente: Catálogos de herrajes eléctricos."
+          },
+          {
+            "id": 4,
+            "answer": "Chicles masticados.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-47",
+        "type": "simple",
+        "question": "¿Qué es una 'toma de corriente extraíble' en un mueble de cocina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una que se puede llevar a la calle.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Torreta de enchufes que se oculta bajo la encimera y se saca solo cuando se necesita.",
+            "isCorrect": true,
+            "explanation": "Mantiene la encimera limpia y protegida de líquidos. Fuente: Diseño de cocinas modernas."
+          },
+          {
+            "id": 3,
+            "answer": "Un enchufe con ruedas.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Una que no funciona.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-48",
+        "type": "simple",
+        "question": "Sobre la alimentación de un espejo con luz en un hotel, ¿por qué suelen llevar transformador de aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que la luz sea más bonita.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Para permitir el uso seguro de la toma de afeitadora, limitando la potencia y aislando de tierra.",
+            "isCorrect": true,
+            "explanation": "Seguridad añadida en el baño para el cliente. Fuente: ITC-BT-30."
+          },
+          {
+            "id": 3,
+            "answer": "Para gastar más cobre.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Para que no se empañe.",
+            "isCorrect": false,
+            "explanation": "El desempañador es una resistencia, no el transformador de aislamiento."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-49",
+        "type": "simple",
+        "question": "En un mostrador de recepción con ordenadores, ¿qué ventaja tiene una 'bandeja de cables'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para dejar las llaves.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Evita que los pies de los clientes o empleados golpeen los cables y desconecten los equipos.",
+            "isCorrect": true,
+            "explanation": "Seguridad y continuidad del trabajo. Fuente: Ergonomía de mobiliario."
+          },
+          {
+            "id": 3,
+            "answer": "Para que los cables pesen más.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "No sirve de nada.",
+            "isCorrect": false,
+            "explanation": "Es fundamental para el orden técnico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-49-50",
+        "type": "simple",
+        "question": "Finalmente, ¿cuál es el error más común al instalar luces en un armario empotrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Poner bombillas blancas en lugar de amarillas.",
+            "isCorrect": false,
+            "explanation": "Criterio decorativo."
+          },
+          {
+            "id": 2,
+            "answer": "No dejar espacio de ventilación sobre el foco o driver, provocando que se queme pronto o incendie el techo.",
+            "isCorrect": true,
+            "explanation": "Fallo de seguridad térmica muy frecuente. Fuente: Siniestralidad eléctrica doméstica."
+          },
+          {
+            "id": 3,
+            "answer": "Poner el interruptor muy alto.",
+            "isCorrect": false,
+            "explanation": "Incomodidad, no peligro vital generalmente."
+          },
+          {
+            "id": 4,
+            "answer": "Poner demasiada ropa.",
+            "isCorrect": false,
+            "explanation": "La ropa es el combustible, el foco es el foco."
+          }
+        ]
       }
     ]
   }

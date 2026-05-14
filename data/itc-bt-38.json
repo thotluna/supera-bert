@@ -5,3103 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-38-01",
-        "question": "¿Cuál es la potencia máxima de un transformador de aislamiento en quirófanos?",
+        "type": "simple",
+        "question": "En el diseño eléctrico de un quirófano clasificado como Grupo 2, ¿cuál es el objetivo primordial de instalar un transformador de aislamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "1 kVA",
+            "answer": "Ahorrar energía en las lámparas de quirófano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El límite superior es de 10 kVA para permitir alimentar varios equipos críticos."
+            "explanation": "No tiene fines de eficiencia energética."
           },
           {
             "id": 2,
-            "answer": "5 kVA",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Aunque es un valor común, el reglamento permite hasta 10 kVA."
+            "answer": "Garantizar la continuidad del suministro ante un primer defecto a tierra y limitar las corrientes de fuga.",
+            "isCorrect": true,
+            "explanation": "El transformador de aislamiento crea un sistema IT que evita que un primer defecto corte el suministro, permitiendo terminar la intervención. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "10 kVA",
-            "isCorrect": true,
-            "explanation": "Correcto. El REBT limita la potencia de estos transformadores entre 0,5 y 10 kVA para controlar las corrientes de fuga."
+            "answer": "Reducir la tensión de 230 V a 12 V por seguridad.",
+            "isCorrect": false,
+            "explanation": "El transformador de aislamiento en quirófanos suele ser de relación 1:1 (230/230 V)."
           },
           {
             "id": 4,
-            "answer": "25 kVA",
+            "answer": "Evitar que los equipos electrónicos interfieran con la red pública.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Una potencia tan alta aumentaría excesivamente la capacidad parásita y las fugas, perdiendo seguridad."
+            "explanation": "Aunque ayuda, el fin reglamentario es la seguridad del paciente y continuidad de servicio."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-02",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un vigilante de aislamiento en una sala de intervención muestra una luz roja y activa una alarma acústica. ¿A qué valor de resistencia de aislamiento suele estar tarado para dar este aviso de defecto?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "100 kΩ.",
+            "isCorrect": false,
+            "explanation": "Es un valor de seguridad, pero la alarma reglamentaria se activa a un nivel inferior."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "50 kΩ.",
+            "isCorrect": true,
+            "explanation": "El vigilante de aislamiento debe dar alarma cuando la resistencia baje de 50 kΩ. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "1 MΩ.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es el valor mínimo para cables nuevos, pero no el de alarma en quirófano."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "10 kΩ.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sería un nivel de riesgo demasiado elevado antes de avisar."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-03",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la potencia nominal máxima permitida para un transformador de aislamiento monofásico destinado a alimentar un quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "5 kVA.",
+            "isCorrect": false,
+            "explanation": "Es una potencia común, pero el límite superior es mayor."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "10 kVA.",
+            "isCorrect": true,
+            "explanation": "La potencia nominal de los transformadores monofásicos de aislamiento no será inferior a 0,5 kVA ni superior a 10 kVA. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "25 kVA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Excede el límite para evitar corrientes de fuga capacitivas elevadas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "2 kVA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Potencia mínima habitual, pero no el límite superior."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-04",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En el 'volumen de paciente' de un quirófano, todas las masas metálicas deben estar unidas a un embarrado común. ¿Cómo se denomina este embarrado y cuál es la resistencia máxima permitida para las conexiones?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Barra de Neutro; 1 Ω.",
+            "isCorrect": false,
+            "explanation": "No es el neutro y la resistencia es demasiado alta."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Embarrado de Equipotencialidad (EE); 0,2 Ω.",
+            "isCorrect": true,
+            "explanation": "El EE garantiza que no existan tensiones peligrosas entre masas. La resistencia debe ser inferior a 0,2 Ω. Fuente: ITC-BT-38, Apartado 3.2."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Punto de Tierra; 0,5 Ω.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Aunque es una tierra, el nombre específico y el valor no coinciden con la norma."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Barra de Protección (BP); 0,1 Ω.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El nombre correcto es EE y el límite es 0,2 Ω."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-05",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué requisito debe cumplir el suministro eléctrico de emergencia de un centro médico para considerarse de 'Corte Breve'?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Restablecerse en menos de 10 segundos.",
+            "isCorrect": false,
+            "explanation": "Eso sería corte medio o largo según la clasificación."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Restablecerse en un tiempo máximo de 0,5 segundos.",
+            "isCorrect": true,
+            "explanation": "El corte breve exige un tiempo de respuesta de 0,5 segundos o menos. Fuente: ITC-BT-38 (UNE 20460-7-710)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No tener ningún corte (0 segundos).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Eso se denomina suministro sin interrupción (Corte nulo)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Restablecerse en menos de 1 minuto.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Inaceptable para equipos vitales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-06",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de los siguientes equipos deben estar conectados obligatoriamente al suministro de socorro (emergencia) en una sala de intervenciones?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Lámpara scialítica (quirúrgica).",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Es vital para que el cirujano pueda seguir operando."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Equipos de anestesia.",
+            "isCorrect": true,
+            "explanation": "La vida del paciente depende de su funcionamiento continuo."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Equipos de soporte de vida.",
+            "isCorrect": true,
+            "explanation": "Respiradores y bombas de circulación deben estar siempre activos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Televisor de la sala de espera.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No es un equipo crítico ni vital."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-07",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para verificar la seguridad del suelo de un quirófano, se mide su resistencia eléctrica. ¿Cuál es el rango permitido para considerar el suelo como 'antiestático' según el reglamento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Menor a 10 kΩ.",
+            "isCorrect": false,
+            "explanation": "Un suelo demasiado conductor aumenta el riesgo de electrocución."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Entre 50 kΩ y 1 MΩ.",
+            "isCorrect": true,
+            "explanation": "Es el rango ideal para disipar electricidad estática sin ser peligroso para las personas. Fuente: ITC-BT-38, Apartado 5.3."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Mayor a 100 MΩ.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El suelo sería totalmente aislante y permitiría la acumulación de chispas estáticas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquier valor es válido si es de PVC.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El material debe ser ensayado y cumplir los valores de resistencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-08",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un quirófano, las bases de enchufe conectadas al sistema IT (detrás del transformador de aislamiento) deben estar claramente identificadas. ¿Qué método es el más habitual?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Usar un color distintivo (frecuentemente azul o verde).",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "La identificación por color evita conectar equipos de limpieza o no médicos al sistema crítico. Fuente: ITC-BT-38."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Poner un candado en cada enchufe.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Poco práctico en situaciones de emergencia."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Esconderlas detrás de los cuadros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Deben ser accesibles para el personal médico."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Usar bases de enchufe de tipo americano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Está prohibido usar tipos de enchufe no compatibles con los equipos del hospital."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-09",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué sensibilidad máxima deben tener los interruptores diferenciales instalados en circuitos de salas médicas que NO se alimentan a través del transformador de aislamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "300 mA.",
+            "isCorrect": false,
+            "explanation": "Valor demasiado alto para la seguridad de pacientes en entornos médicos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "30 mA.",
+            "isCorrect": true,
+            "explanation": "Se requiere alta sensibilidad para proteger de contactos directos/indirectos en zonas no críticas. Fuente: ITC-BT-38, Apartado 3.4."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "500 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Valor reservado para protección contra incendios, no para locales médicos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "10 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Aunque es más seguro, la norma estándar pide 30 mA para evitar disparos intempestivos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-10",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la señalización del vigilante de aislamiento, ¿qué indica la luz amarilla según la normativa?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Fallo de aislamiento crítico.",
+            "isCorrect": false,
+            "explanation": "El fallo de aislamiento se indica con luz roja."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sobrecarga del transformador.",
+            "isCorrect": true,
+            "explanation": "La luz amarilla avisa de que se ha superado la potencia nominal del transformador. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Funcionamiento correcto.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El funcionamiento correcto se indica con luz verde."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Que la batería de emergencia está baja.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Esa información suele estar en otro panel de control."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-11",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué características debe tener el transformador de aislamiento utilizado en quirófanos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Debe ser de mando monofásico.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Es la configuración estándar para los circuitos críticos de paciente."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Tensión secundaria no superior a 230 V.",
+            "isCorrect": true,
+            "explanation": "Se busca mantener la compatibilidad con los equipos médicos estándar."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Debe tener una pantalla metálica entre primario y secundario conectada al EE.",
+            "isCorrect": true,
+            "explanation": "Para evitar el paso de corrientes de fuga de la red primaria."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Debe estar sumergido en aceite inflamable.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Está prohibido el uso de líquidos inflamables en transformadores de interior."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-12",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Durante una cirugía, se produce un primer defecto de aislamiento en un electrobisturí. ¿Qué ocurre con la energía eléctrica de la sala si el sistema es IT con transformador de aislamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Se corta inmediatamente por seguridad.",
+            "isCorrect": false,
+            "explanation": "Eso ocurriría en un sistema TT, lo cual pondría en riesgo la vida del paciente por el apagón."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "El suministro continúa y se activa una señal de alarma sin corte.",
+            "isCorrect": true,
+            "explanation": "Es la gran ventaja del sistema IT: el primer defecto no provoca el disparo de protecciones. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Explota el transformador.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El transformador está diseñado para soportar estas condiciones de fallo."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El paciente recibe una descarga eléctrica fuerte.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Al ser un sistema aislado, la corriente de un primer defecto es extremadamente baja (miliamperios) y segura."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-13",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cada cuánto tiempo debe realizarse una inspección periódica por un Organismo de Control Autorizado (OCA) en un hospital?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Cada año.",
+            "isCorrect": false,
+            "explanation": "Es excesivo para una OCA, aunque el mantenimiento interno sí es anual."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Cada 5 años.",
+            "isCorrect": true,
+            "explanation": "Los locales de usos médicos requieren inspección OCA quinquenal. Fuente: ITC-BT-05."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Cada 10 años.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Plazo demasiado largo para instalaciones críticas de salud."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo cuando haya una reforma importante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Las inspecciones periódicas son obligatorias independientemente de las reformas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-14",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un quirófano Grupo 2, ¿qué valor máximo de impedancia de bucle se permite para asegurar que los tiempos de desconexión en un SEGUNDO defecto sean seguros?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "El que garantice la desconexión en menos de 0,4 s.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Si ocurre un segundo defecto, el sistema se comporta como un cortocircuito y debe cortar rápido. Fuente: ITC-BT-24."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "No importa, el primer defecto ya dio alarma.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "El segundo defecto es peligroso y debe ser cortado por las protecciones térmicas/magnéticas."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Máximo 100 Ω.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Depende de la intensidad de la protección, no es un valor fijo."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El sistema IT no puede tener segundo defecto.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Si no se repara el primero, el segundo es inevitable y peligroso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-15",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la función principal del panel de control clínico situado dentro del quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Cambiar el canal de la radio.",
+            "isCorrect": false,
+            "explanation": "No es una función de seguridad clínica."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Mostrar visualmente el estado del aislamiento y las alarmas al equipo médico.",
+            "isCorrect": true,
+            "explanation": "Permite que el cirujano y anestesista sepan si la instalación es segura durante la operación. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Regular la temperatura de la calefacción solamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es una función secundaria; la principal es la eléctrica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Conectar el hospital con emergencias.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No es su función reglamentaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-16",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué pruebas técnicas deben realizarse y registrarse mensualmente en un hospital por el servicio de mantenimiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Funcionamiento de las luces de emergencia.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Crítico para la evacuación y seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Prueba de conmutación automática de los grupos electrógenos.",
+            "isCorrect": true,
+            "explanation": "Asegura que el suministro de socorro entrará cuando sea necesario."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Verificación del vigilante de aislamiento mediante el pulsador de prueba.",
+            "isCorrect": true,
+            "explanation": "Comprueba que la electrónica de alarma responde."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Medida de la resistencia de tierra de todo el edificio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Esta prueba suele ser anual, no mensual."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-17",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un hospital, el suministro de reserva (segunda fuente) debe poder alimentar al menos el 25% del alumbrado total. ¿Qué tipo de locales están exentos de esta reserva del 25%?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Pasillos y escaleras.",
+            "isCorrect": false,
+            "explanation": "Deben tener suministro de reserva por ser vías de evacuación."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Consultas externas de dermatología.",
+            "isCorrect": true,
+            "explanation": "Locales de bajo riesgo (Grupo 0) no requieren tanta redundancia de iluminación. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Unidad de Cuidados Intensivos (UCI).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Las UCIs son locales críticos que requieren el máximo nivel de reserva."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Quirófanos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Requieren el 100% de la iluminación crítica respaldada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-18",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para evitar interferencias electromagnéticas con equipos de monitorización cardíaca, ¿qué tipo de cable se recomienda para las líneas que pasan cerca del paciente?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Cables unipolares sueltos.",
+            "isCorrect": false,
+            "explanation": "Generan más campos magnéticos dispersos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Cables apantallados o trenzados con cubierta adecuada.",
+            "isCorrect": true,
+            "explanation": "Reducen las emisiones y la captación de ruido electromagnético. Fuente: Guía técnica de diseño hospitalario."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Cables de aluminio desnudo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Inaceptable por seguridad y mantenimiento."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No se permite el uso de cables cerca del paciente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es imposible evitarlo en la práctica médica moderna."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-19",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué valor máximo de corriente de fuga a tierra se permite en un equipo médico portátil de Clase I que se use en quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "10 mA.",
+            "isCorrect": false,
+            "explanation": "Sería letal si pasara a través del corazón del paciente (microchoque)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "0,5 mA (500 µA).",
+            "isCorrect": true,
+            "explanation": "Los equipos médicos tienen límites de fuga extremadamente bajos para evitar microchoques cardíacos. Fuente: UNE-EN 60601."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "30 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es el umbral de disparo del diferencial, no el límite de fuga del equipo."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "100 µA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es un límite para equipos BF/CF, pero el general de Clase I es ligeramente superior."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-20",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un instalador debe conectar una mesa de operaciones metálica a la red equipotencial. ¿Dónde debe realizarse la conexión?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "A la pata de la mesa con cinta aislante.",
+            "isCorrect": false,
+            "explanation": "Conexión insegura y no normalizada."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Al borne equipotencial específico de la mesa y de ahí al Embarrado de Equipotencialidad (EE).",
+            "isCorrect": true,
+            "explanation": "Todas las masas fijas y móviles críticas deben tener un punto de conexión robusto. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "A la toma de tierra del enchufe más cercano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La red equipotencial de paciente debe ser independiente y centralizada en el EE."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No es necesario si la mesa tiene ruedas de plástico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Incluso con ruedas, si puede entrar en contacto con el paciente o equipos, debe ser equipotencial."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-21",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de las siguientes situaciones se consideran salas del 'Grupo 1'?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Salas de fisioterapia con equipos eléctricos.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Hay contacto con el paciente pero no procedimientos invasivos vitales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Salas de diálisis.",
+            "isCorrect": true,
+            "explanation": "Uso de equipos extracorpóreos que requieren seguridad de aislamiento."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Salas de endoscopia.",
+            "isCorrect": true,
+            "explanation": "Procedimientos invasivos menores."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Un quirófano de trasplantes de corazón.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es claramente Grupo 2 por ser cirugía mayor vital."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-22",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un hospital, ¿está permitido usar el esquema TN-C (N y PE comunes) en las instalaciones de las plantas de hospitalización?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, para ahorrar cable de cobre.",
+            "isCorrect": false,
+            "explanation": "Ahorra cobre pero aumenta el riesgo de ruido y tensiones peligrosas en las masas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, está prohibido; se debe usar TN-S, TT o IT.",
+            "isCorrect": true,
+            "explanation": "El esquema TN-C está prohibido en locales de usos médicos por razones de seguridad y compatibilidad. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo en la cafetería del hospital.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La prohibición suele extenderse a todo el edificio hospitalario para evitar transferencias de potencial."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, si el edificio tiene menos de 3 plantas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La altura no influye en la prohibición del esquema TN-C."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-23",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala un grupo electrógeno de socorro en un hospital. ¿Cuál es el tiempo máximo de autonomía que debe garantizar el depósito de combustible para la seguridad de los pacientes?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "1 hora.",
+            "isCorrect": false,
+            "explanation": "Tiempo insuficiente para cubrir una avería larga o traslados."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Al menos 2 horas.",
+            "isCorrect": true,
+            "explanation": "Es el estándar para asegurar el fin de cirugías en curso y soporte vital mínimo. Fuente: Normativa de seguridad contra incendios y REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "24 horas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es lo ideal pero no el mínimo estricto reglamentario en todos los casos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "30 minutos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Totalmente insuficiente para un entorno hospitalario."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-24",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En el sistema IT médico, ¿se permite conectar el neutro a la salida del transformador de aislamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es necesario para las tomas de corriente.",
+            "isCorrect": false,
+            "explanation": "El sistema IT médico de quirófano se diseña SIN NEUTRO (bifásico 230V)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, el sistema IT para uso médico no debe tener conductor neutro distribuido.",
+            "isCorrect": true,
+            "explanation": "Para evitar confusiones y mejorar la fiabilidad del aislamiento, se usan dos fases. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si el transformador es trifásico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Incluso en trifásico IT médico, el neutro no suele distribuirse."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Es opcional si el vigilante lo permite.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es una prohibición de diseño para garantizar la flotabilidad del sistema."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-25",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué valor máximo de tensión de contacto se considera seguro en un local médico ante un defecto antes de que deban actuar las protecciones?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "Límite general, pero en hospitales es menor."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "24 V.",
+            "isCorrect": true,
+            "explanation": "Como local húmedo/especial, la tensión de seguridad se reduce a 24 V. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Límite para piscinas, no el estándar médico."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "110 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Tensión letal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-26",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué requisitos debe cumplir el personal encargado del mantenimiento eléctrico de un hospital?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Estar en posesión de la cualificación de Instalador Autorizado.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Garantiza el conocimiento técnico legal."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Tener formación específica en seguridad eléctrica hospitalaria.",
+            "isCorrect": true,
+            "explanation": "Dada la complejidad de los sistemas IT y suministros críticos."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ser médico cirujano además de electricista.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No tiene sentido, son profesiones distintas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Realizar guardias de presencia física si el hospital tiene quirófanos operativos.",
+            "isCorrect": true,
+            "explanation": "La inmediatez ante un fallo eléctrico es vital en cirugía."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-27",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un quirófano, se utiliza un sistema de alimentación ininterrumpida (SAI/UPS). ¿Cuál es su función técnica principal frente al grupo electrógeno?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sustituir al grupo electrógeno por completo.",
+            "isCorrect": false,
+            "explanation": "El SAI suele tener autonomía limitada (minutos) comparada con el grupo (horas)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Cubrir el tiempo de arranque del grupo electrógeno para que el corte sea nulo (0 segundos).",
+            "isCorrect": true,
+            "explanation": "Asegura que los equipos vitales no se apaguen ni un instante. Fuente: Diseño de instalaciones críticas."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Bajar el precio de la factura eléctrica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Al contrario, el SAI consume energía por sus pérdidas internas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Convertir la corriente alterna en continua para los motores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Los motores médicos suelen ser de alterna."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-28",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se está instalando el suelo de una sala de Rayos X. ¿Es necesario que este suelo sea antiestático como el de un quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es obligatorio en todas las salas de radiología.",
+            "isCorrect": false,
+            "explanation": "No es obligatorio a menos que se realicen intervenciones quirúrgicas con gases anestésicos inflamables."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Solo si en dicha sala se utilizan anestésicos o gases inflamables.",
+            "isCorrect": true,
+            "explanation": "El suelo antiestático busca prevenir chispas que inflamen los gases médicos. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No, el plomo de las paredes ya lo protege.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El blindaje contra radiación no afecta a la electroestática del suelo."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, para que los técnicos no sientan calambres.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es por riesgo de incendio/explosión, no por confort del personal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-29",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué tipo de interruptores diferenciales se deben emplear preferentemente en hospitales para evitar disparos por armónicos de equipos electrónicos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Clase AC estándar.",
+            "isCorrect": false,
+            "explanation": "Son propensos a disparos intempestivos en presencia de electrónica."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Clase A (Superinmunizados).",
+            "isCorrect": true,
+            "explanation": "Ofrecen mayor fiabilidad frente a corrientes pulsantes y ruidos. Fuente: Guía técnica de hospitales."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Diferenciales rearmables automáticamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Su uso está restringido y no sustituyen a la calidad del diferencial original."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No se usan diferenciales en hospitales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se usan en todos los circuitos que no pasan por el transformador de aislamiento."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-30",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la prueba de continuidad del Embarrado de Equipotencialidad (EE), ¿qué corriente de ensayo mínima debe suministrar el equipo de medida?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "100 mA.",
+            "isCorrect": false,
+            "explanation": "Corriente insuficiente para una prueba de continuidad de seguridad fiable."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "200 mA.",
+            "isCorrect": true,
+            "explanation": "Es el estándar para pruebas de continuidad de conductores de protección y equipotenciales. Fuente: UNE 20460-6-61."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "10 A.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Valor para ensayos de tipo en fábrica, no para verificación en obra habitual."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "1 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Valor totalmente inválido para esta prueba."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-31",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un hospital de nueva construcción proyecta 10 quirófanos. ¿Cuántos transformadores de aislamiento debe instalar como mínimo?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Uno grande para todos.",
+            "isCorrect": false,
+            "explanation": "Un fallo en el transformador dejaría a todos sin servicio; riesgo inaceptable."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Uno por cada quirófano o sala de intervención.",
+            "isCorrect": true,
+            "explanation": "La independencia de los sistemas IT por quirófano es fundamental para la seguridad. Fuente: ITC-BT-38, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Dos (uno principal y uno de reserva).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No garantiza la independencia de fallos entre salas quirúrgicas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Depende de la superficie total de los quirófanos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se decide por uso y riesgo (Grupo 2), no por metros cuadrados."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-32",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Sobre la ubicación del transformador de aislamiento, ¿cuál es la mejor práctica reglamentaria?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Dentro de la sala quirúrgica cerca del paciente.",
+            "isCorrect": false,
+            "explanation": "Genera ruido acústico y calor, además de ocupar espacio crítico."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "En un local anexo o cuadro técnico, lo más cerca posible del quirófano.",
+            "isCorrect": true,
+            "explanation": "Para reducir la caída de tensión y las fugas capacitivas de los cables. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "En el sótano del hospital junto a los grupos electrógenos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Causaría caídas de tensión excesivas y corrientes de fuga inmanejables en 230V IT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Enterrado bajo el suelo del quirófano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Mantenimiento imposible."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-33",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué elementos se conectan al Embarrado de Equipotencialidad (EE) en una sala de hemodiálisis?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Carcasas de los sillones eléctricos de tratamiento.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Son masas que el paciente toca continuamente."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Masas de los monitores de diálisis.",
+            "isCorrect": true,
+            "explanation": "Equipos electrónicos en contacto con fluidos del paciente."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Marcos metálicos de ventanas y puertas accesibles.",
+            "isCorrect": true,
+            "explanation": "Para evitar tensiones de paso/contacto peligrosas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Los teclados de plástico de los ordenadores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El plástico es aislante y no requiere conexión equipotencial."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-34",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un hospital, ¿cuál es la tensión máxima de seguridad permitida para alimentar equipos portátiles de rayos X que se desplazan por las habitaciones?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "50 V AC.",
+            "isCorrect": false,
+            "explanation": "Es el límite general, pero para equipos médicos portátiles rigen otras reglas de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Funcionan a tensión de red (230 V) pero deben ser de Clase II o alimentarse vía transformador de aislamiento.",
+            "isCorrect": true,
+            "explanation": "Dada su potencia, no pueden usar muy baja tensión, por lo que se recurre a la protección por clase o separación. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "24 V AC obligatoriamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Un equipo de Rayos X no funcionaría a esa tensión tan baja."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No tienen límite, se consideran equipos de Alta Tensión interna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Técnicamente sí, pero su conexión a la red está regulada por BT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-35",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué sucede si el vigilante de aislamiento detecta que el cable de conexión a tierra del propio vigilante se ha roto?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Nada, sigue midiendo igual.",
+            "isCorrect": false,
+            "explanation": "Sin tierra, el vigilante no tiene referencia para medir el aislamiento."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Debe dar una señal de alarma específica de 'fallo de equipo' o 'desconexión'.",
+            "isCorrect": true,
+            "explanation": "La autovigilancia de los sistemas de seguridad es obligatoria. Fuente: Normas UNE de vigilantes."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Corta la luz del quirófano por precaución.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Nunca debe cortar la luz de forma automática en quirófano."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Se pone la luz en color verde permanente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sería una señal falsa de seguridad muy peligrosa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-36",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En el caso de un hospital de campaña provisional, ¿se deben cumplir los requisitos de la ITC-BT-38?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "No, se aplica la ITC-BT-34 (Ferias y exposiciones).",
+            "isCorrect": false,
+            "explanation": "Un hospital de campaña sigue teniendo riesgos médicos que la ITC-BT-34 no cubre."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sí, las prescripciones de la ITC-BT-38 son de obligado cumplimiento para cualquier local de uso médico, aunque sea temporal.",
+            "isCorrect": true,
+            "explanation": "La seguridad del paciente no depende de la duración de la instalación. Fuente: REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si el hospital dura más de un mes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La norma no establece plazos de exención."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No, se rige por la normativa militar.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "En instalaciones civiles (y habitualmente militares en territorio nacional) el REBT es de aplicación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-37",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la función de las tomas de corriente equipotenciales (bornes de tierra vistos) en las paredes del quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Para que los médicos conecten sus ordenadores portátiles.",
+            "isCorrect": false,
+            "explanation": "No son para alimentación, sino para equipotencialidad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Para conectar cables de equipotencialidad suplementaria de equipos médicos móviles.",
+            "isCorrect": true,
+            "explanation": "Garantizan que equipos externos estén al mismo potencial que la mesa y el paciente. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Para colgar cuadros o decoración.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Uso totalmente incorrecto."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Son tomas de oxígeno disfrazadas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No tiene ninguna relación con los gases médicos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-38",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué tipos de gases medicinales requieren que la instalación eléctrica sea a prueba de explosión (ATEX)?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Anestésicos inflamables como el ciclopropano.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Aunque cada vez se usan menos, su presencia obliga a precauciones extremas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Concentraciones elevadas de Oxígeno puro.",
+            "isCorrect": true,
+            "explanation": "El oxígeno es un comburente que acelera violentamente cualquier chispa."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Nitrógeno líquido para criogenia.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un gas inerte, no inflamable."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Aire medicinal comprimido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se comporta como el aire normal, no es inflamable."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-39",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un hospital, ¿dónde debe situarse el conmutador de transferencia automática (ATS) para el quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "En el centro de transformación de la calle.",
+            "isCorrect": false,
+            "explanation": "Demasiado lejos; cualquier fallo en el cableado interno del hospital dejaría al quirófano sin socorro."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Lo más cerca posible de la carga (ej. en el cuadro de mando y protección del quirófano).",
+            "isCorrect": true,
+            "explanation": "Minimiza los puntos de fallo entre el conmutador y el equipo vital. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Dentro del quirófano para que lo vea el cirujano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un equipo industrial ruidoso que debe estar en el cuadro técnico."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No es necesario si hay un SAI.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El ATS es necesario para pasar de red a grupo tras agotarse el SAI."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-40",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se realiza una prueba de aislamiento de los conductores de un quirófano Grupo 2. El valor obtenido es de 2 MΩ. ¿Es aceptable para una instalación en servicio?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "No, debe ser superior a 100 MΩ.",
+            "isCorrect": false,
+            "explanation": "Ese es un valor de cable en fábrica, no en instalación compleja."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sí, supera el mínimo reglamentario de 1 MΩ (para circuitos de 230V).",
+            "isCorrect": true,
+            "explanation": "Aunque es bajo, cumple con el mínimo legal, pero el vigilante de aislamiento daría alarma mucho antes si bajara de 50k. Fuente: ITC-BT-19 / ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No, el sistema IT exige al menos 10 MΩ.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No hay tal exigencia específica de 10 MΩ en el REBT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo si se mide con corriente alterna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Las pruebas de aislamiento se realizan con corriente continua."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-41",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la altura mínima recomendada para la instalación de tomas de corriente en un quirófano para evitar la acumulación de vapores anestésicos pesados?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "A nivel del suelo.",
+            "isCorrect": false,
+            "explanation": "Riesgo máximo por gases pesados y líquidos de limpieza."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Entre 1,2 y 1,5 metros del suelo.",
+            "isCorrect": true,
+            "explanation": "Mantiene las posibles chispas de conexión por encima de la zona de acumulación de gases inflamables. Fuente: Recomendaciones de diseño hospitalario."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "A 2,5 metros (en el techo).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se usan torretas de techo, pero las de pared suelen ir a media altura."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "0,3 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Altura estándar de vivienda, insuficiente para seguridad en quirófano."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-42",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "En la documentación técnica de un hospital, ¿qué planos deben estar permanentemente actualizados y disponibles?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Esquemas unifilares de los cuadros de quirófanos.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Esenciales para reparaciones rápidas y maniobras."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Planos de ubicación de las picas de tierra y EE.",
+            "isCorrect": true,
+            "explanation": "Para mantenimiento y comprobación de equipotencialidad."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Rutas del cableado de los suministros críticos.",
+            "isCorrect": true,
+            "explanation": "Para evitar daños en reformas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Plano de la cafetería y zona de descanso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No tienen relevancia técnica para la seguridad médica."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-43",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué se entiende por 'Suministro de Reserva' en un centro médico de importancia?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Tener un montón de bombillas guardadas.",
+            "isCorrect": false,
+            "explanation": "No es el concepto reglamentario de suministro."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Un segundo suministro (habitualmente de otra red o grupo) capaz de mantener servicios mínimos.",
+            "isCorrect": true,
+            "explanation": "Es la redundancia exigida para evitar el colapso total del centro ante un gran apagón. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Pagar por adelantado la factura de la luz.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Sin relación técnica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Una batería que solo dura 5 minutos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Eso no se considera suministro de reserva para un hospital completo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-44",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un vigilante de aislamiento detecta un fallo de sobrecarga (luz amarilla). ¿Qué acción debe tomar el personal médico?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Salir corriendo del quirófano.",
+            "isCorrect": false,
+            "explanation": "Acción injustificada y peligrosa para el paciente."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Desconectar los equipos eléctricos no esenciales hasta que la luz se apague.",
+            "isCorrect": true,
+            "explanation": "La sobrecarga indica que el transformador está al límite y podría calentarse o disparar por temperatura. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ignorarlo, solo es una luz amarilla.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un aviso previo a un posible fallo total del transformador."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Echar agua al cuadro para enfriarlo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Causaría un cortocircuito y riesgo de muerte por electrocución."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-45",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cómo se realiza la conexión de tierra del neutro del transformador de aislamiento de un quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Se conecta directamente a la pica de tierra.",
+            "isCorrect": false,
+            "explanation": "Error: el sistema IT médico se caracteriza precisamente por NO tener el neutro conectado a tierra."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No se conecta a tierra; se deja aislado o se conecta a través de una impedancia muy elevada.",
+            "isCorrect": true,
+            "explanation": "Es la definición de sistema IT: Neutro Aislado o Impedante. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Se conecta a la tubería de gas medicinal.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Prohibido y extremadamente peligroso."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo se conecta si el vigilante lo pide.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El diseño de tierra es previo y fijo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-46",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un hospital, ¿cuál es el porcentaje mínimo de alumbrado de seguridad que debe ser alimentado por una fuente autónoma (baterías) en quirófanos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "10 %.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para la continuidad de la visión en cirugía."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "100 % de la iluminación de la mesa quirúrgica.",
+            "isCorrect": true,
+            "explanation": "La mesa nunca puede quedarse a oscuras, ni siquiera un segundo. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "50 %.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No garantiza la precisión necesaria en el campo quirúrgico."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo las señales de salida.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Eso es para evacuación general, no para locales médicos críticos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-47",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el uso de canalizaciones plásticas (tubos de PVC) en las paredes de un quirófano?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Reducen las corrientes de fuga capacitivas a tierra.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Al ser aislantes, no añaden capacitancia distribuida frente a tierra."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Son inmunes a la corrosión de los líquidos de limpieza desinfectantes.",
+            "isCorrect": true,
+            "explanation": "Durabilidad en ambiente hospitalario."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Son más baratas y fáciles de instalar.",
+            "isCorrect": true,
+            "explanation": "Ventaja económica y de ejecución técnica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Actúan como blindaje contra rayos X.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El plástico no detiene los rayos X; se requiere plomo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-48",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se detecta que el tiempo de conmutación del suministro de socorro de un quirófano es de 12 segundos. ¿Cumple la normativa?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es menos de un minuto.",
+            "isCorrect": false,
+            "explanation": "En quirófanos se exige un tiempo mucho menor."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, debe ser inferior a 15 segundos para el grupo electrógeno, pero los equipos vitales requieren corte nulo o breve (0,5 s).",
+            "isCorrect": true,
+            "explanation": "12 segundos es demasiado para un paciente en soporte vital; requiere un SAI intermedio. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Sí, si el cirujano está de acuerdo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La norma es técnica y no depende de opiniones personales."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo si el hospital está en una isla.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sin sentido técnico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-49",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En el ensayo anual de resistencia de las conexiones de equipotencialidad, se obtiene un valor de 0,15 Ω. ¿Cuál es el veredicto?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Favorable, es inferior al límite de 0,2 Ω.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Cumple perfectamente con el requisito de seguridad equipotencial. Fuente: ITC-BT-38."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Desfavorable, debe ser exactamente 0 Ω.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "El valor 0 es físicamente imposible en cables reales."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Favorable solo si el día era lluvioso.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La lluvia no influye en la medida de continuidad metálica interna."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Desfavorable, es demasiado bajo y puede quemar los cables.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "A menor resistencia, mayor seguridad en la equipotencialidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-38-50",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para finalizar la inspección de un quirófano, ¿qué debe figurar obligatoriamente en el libro de mantenimiento del hospital?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "La marca de los guantes de los enfermeros.",
+            "isCorrect": false,
+            "explanation": "No es un dato del mantenimiento eléctrico."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-51",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
+            "answer": "Los resultados de las pruebas del vigilante de aislamiento, tierras, diferenciales y autonomía de socorro.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Asegura la trazabilidad y cumplimiento de la seguridad clínica a lo largo del tiempo. Fuente: ITC-BT-38."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "La lista de la compra del hospital.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Innecesario."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El nombre de todos los pacientes operados ese año.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Protegido por la Ley de Protección de Datos y sin relevancia eléctrica."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-52",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-53",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-54",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-55",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-56",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-57",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-58",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-59",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-60",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-61",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-62",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-63",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-64",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-65",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-66",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-67",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-68",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-69",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-70",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-71",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-72",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-73",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-74",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-75",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-76",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-77",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-78",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-79",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-80",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-81",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-82",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-83",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-84",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-85",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-86",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-87",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-88",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-89",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-90",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-91",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-92",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-93",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-94",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-95",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-96",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-97",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-98",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-99",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-38-100",
-        "question": "Sobre la ITC-BT-38, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-38.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-38 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-38 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
+        ]
       }
     ]
   }
