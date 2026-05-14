@@ -10,9 +10,9 @@ vi.mock('@/libs/quiz/hooks/use-config-topics', () => ({
 }));
 
 const mockTopics: TopicOption[] = [
-  { name: 'ITC-BT-01', available: true },
-  { name: 'ITC-BT-02', available: false },
-  { name: 'ITC-BT-03', available: true },
+  { name: 'ITC-BT-01', available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-02', available: false, totalQuestions: 50 },
+  { name: 'ITC-BT-03', available: true, totalQuestions: 50 },
 ];
 
 describe('QuizTopics Component', () => {

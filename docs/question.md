@@ -21,10 +21,17 @@ Este documento establece las reglas estrictas para la creación y revisión de p
 - **Explicaciones Desarrolladas:** Las explicaciones no pueden ser "Correcto" o "Incorrecto". Deben desarrollar el **porqué** técnico, aportando valor pedagógico adicional.
 - **Exclusividad de Citas:** Las referencias normativas (ej: Punto 5.1, ITC-BT-03, etc.) **NO** pueden aparecer ni en el enunciado de la pregunta ni en el texto de las opciones. Deben figurar única y exclusivamente en el campo `explanation`.
 
+## Preguntas.
+- ** cortas y directas**
+- ** no preguntar por normas **
+- ** NO nombrar ITC-BT-XX-YY en la pregunta, como tampoco por numero de apartado, esquema tabla o nada referente a la estructura del REBT. las preguntas devem parecer que salen de situaciones reales  **
+- ** no agregar palabras que no apaortan al contexto o la pregunta como (Caso Practico) (Ejercicio) etc.  **
+
 ## 4. Design De Opciones (Distractores)
 - **Equilibrio Estructural:** No puede haber sesgo de longitud. La respuesta correcta no debe ser significativamente más larga o corta que las demás.
 - **Familiaridad Técnica:** Las opciones deben tener sentido y cierta familiaridad entre ellas. 
 - **Calidad del Distractor:** Las opciones incorrectas deben ser técnicamente plausibles (ej: una norma real aplicada al contexto equivocado), evitando distractores triviales o absurdos.
+- ** Explicacion deben tener un contexto real y que aporte valor pedagogico, no  respuesta correcta o respuesta incorrecta. Respuesta incorrecta y correcta estan proibidas en el JSON de explicacion.   **`
 
 ## 5. Tono y Estilo
 - **Tono Profesional:** Orientado a un examen oficial: formal, claro y preciso.

@@ -1,6 +1,6 @@
 import { DomainResponse } from "@/libs/shape/auth/types";
 import { QuizAnswer, QuizAnswerCreate } from "../domain/quiz";
-import { AnswersRepository } from "./answers-repository";
+import { AnswersRepository, TopicMetric } from "./answers-repository";
 
 
 export class AnswersDataSource implements AnswersRepository {
@@ -71,6 +71,20 @@ export class AnswersDataSource implements AnswersRepository {
         }
       ],
       error: null,
+    };
+  }
+
+  async getUserTopicMetrics(_userId: string): Promise<DomainResponse<TopicMetric[]>> {
+    return {
+      data: [
+        {
+          itcCode: "ITC-BT-19",
+          uniqueSeen: 1,
+          uniqueCorrect: 1,
+          totalPoints: 1
+        }
+      ],
+      error: null
     };
   }
 }
