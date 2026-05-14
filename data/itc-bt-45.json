@@ -1,782 +1,1557 @@
 [
   {
-    "id": "quiz-itc-bt-43",
+    "id": "quiz-itc-bt-45",
     "itc": "ITC-BT-45",
     "questions": [
       {
         "id": "ITC-BT-45-01",
-        "question": "¿Cuál es la distancia mínima de seguridad de un aparato de caldeo a paredes o superficies combustibles en ausencia de instrucciones del fabricante?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-45?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Regular la instalación de aires acondicionados.",
+            "isCorrect": false,
+            "explanation": "El aire acondicionado es un receptor de motor/compresor, no de caldeo puro (resistencia)."
+          },
+          {
+            "id": 2,
+            "answer": "Determinar los requisitos de instalación de los aparatos eléctricos de caldeo.",
+            "isCorrect": true,
+            "explanation": "Cubre aparatos que transforman energía eléctrica en calor mediante resistencias u otros métodos. Fuente: ITC-BT-45, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "Prohibir el uso de gas en las viviendas.",
+            "isCorrect": false,
+            "explanation": "El REBT solo regula la parte eléctrica."
+          },
+          {
+            "id": 4,
+            "answer": "Regular las calderas de gasoil.",
+            "isCorrect": false,
+            "explanation": "Sin relación con la electricidad de caldeo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-02",
+        "type": "simple",
+        "question": "¿Está permitido en España el uso doméstico de calentadores de agua donde el agua forma parte del circuito eléctrico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, son muy eficientes.",
+            "isCorrect": false,
+            "explanation": "Son extremadamente peligrosos porque el agua estaría en tensión."
+          },
+          {
+            "id": 2,
+            "answer": "No, queda expresamente prohibido para usos domésticos.",
+            "isCorrect": true,
+            "explanation": "Riesgo inaceptable de electrocución al tocar el agua. Fuente: ITC-BT-45, Apartado 2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instalan en el garaje.",
+            "isCorrect": false,
+            "explanation": "La prohibición es para cualquier uso doméstico."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el agua es destilada.",
+            "isCorrect": false,
+            "explanation": "El agua destilada no conduce, pero en uso real se contamina y conduciría."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-03",
+        "type": "simple",
+        "question": "En ausencia de instrucciones del fabricante, ¿qué distancia mínima debe mantenerse entre un aparato de calefacción y una pared de material combustible?",
         "options": [
           {
             "id": 1,
             "answer": "2 cm.",
             "isCorrect": false,
-            "explanation": "Distancia insuficiente para prevenir la ignición de materiales combustibles."
+            "explanation": "Demasiado cerca; riesgo de incendio por radiación térmica."
           },
           {
             "id": 2,
             "answer": "8 cm.",
             "isCorrect": true,
-            "explanation": "Salvo casos específicos, la distancia mínima general es de 8 cm a las partes anteriores combustibles. Fuente: ITC-BT-45, Apartado 2.2."
+            "explanation": "Distancia mínima de seguridad general para evitar la ignición de materiales. Fuente: ITC-BT-45, Apartado 2.2."
           },
           {
             "id": 3,
             "answer": "20 cm.",
             "isCorrect": false,
-            "explanation": "Aunque es más seguro, la norma establece el mínimo en 8 cm."
+            "explanation": "Distancia segura, pero el reglamento exige un mínimo de 8 cm."
           },
           {
             "id": 4,
-            "answer": "50 cm.",
+            "answer": "1 metro.",
             "isCorrect": false,
-            "explanation": "Esta distancia aplica a aparatos con elementos luminosos detrás de rejillas, no es el valor general."
+            "explanation": "Inviable para la mayoría de instalaciones domésticas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-45-02",
-        "question": "¿Qué distancia mínima debe mantenerse entre las aberturas de un calefactor con elementos luminosos y objetos combustibles?",
+        "id": "ITC-BT-45-04",
+        "type": "simple",
+        "question": "Para aparatos de calefacción con elementos luminosos (infrarrojos) detrás de rejillas, ¿cuál es la distancia mínima a objetos combustibles?",
         "options": [
           {
             "id": 1,
             "answer": "10 cm.",
             "isCorrect": false,
-            "explanation": "Distancia peligrosa para elementos que emiten radiación térmica intensa."
+            "explanation": "El calor radiante de estos elementos es muy intenso y causaría fuego."
           },
           {
             "id": 2,
             "answer": "50 cm.",
             "isCorrect": true,
-            "explanation": "Debido a la alta temperatura de los elementos luminosos, se exige una separación mayor de medio metro. Fuente: ITC-BT-45, Apartado 2.2."
+            "explanation": "La radiación infrarroja requiere mayor distancia para no inflamar cortinas o muebles. Fuente: ITC-BT-45, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "100 cm.",
+            "answer": "5 cm.",
             "isCorrect": false,
-            "explanation": "Valor superior al mínimo reglamentario exigido."
+            "explanation": "Peligro inmediato de incendio."
           },
           {
             "id": 4,
-            "answer": "No hay distancia mínima si la rejilla es de acero.",
+            "answer": "No hay distancia mínima si la rejilla es de hierro.",
             "isCorrect": false,
-            "explanation": "La rejilla no evita la radiación térmica hacia objetos externos."
+            "explanation": "La rejilla no frena la radiación de calor."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-45-03",
-        "question": "¿Qué tipo de interruptor deben tener las cocinas, hornos y encimeras para su conexión?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Interruptor unipolar de fase.",
-            "isCorrect": false,
-            "explanation": "Insuficiente para la seguridad en aparatos de gran potencia y contacto metálico."
-          },
-          {
-            "id": 2,
-            "answer": "Interruptor de corte omnipolar.",
-            "isCorrect": true,
-            "explanation": "Estos aparatos deben poder desconectarse totalmente de la red mediante corte de todos sus polos. Fuente: ITC-BT-45, Apartado 2.3."
-          },
-          {
-            "id": 3,
-            "answer": "Fusible de alta capacidad únicamente.",
-            "isCorrect": false,
-            "explanation": "El fusible es una protección, no un dispositivo de mando de corte omnipolar."
-          },
-          {
-            "id": 4,
-            "answer": "No requieren interruptor si tienen clavija de 16 A.",
-            "isCorrect": false,
-            "explanation": "La toma de corriente se admite, pero el requisito de corte omnipolar persiste."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-45-04",
-        "question": "¿Está permitido instalar hornos con elementos incandescentes no cerrados en locales con riesgo de explosión?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, si la potencia es menor a 2000 W.",
-            "isCorrect": false,
-            "explanation": "La potencia no elimina el riesgo de ignición de la atmósfera explosiva."
-          },
-          {
-            "id": 2,
-            "answer": "No, está estrictamente prohibido.",
-            "isCorrect": true,
-            "explanation": "Los elementos incandescentes expuestos son una fuente de ignición incompatible con atmósferas explosivas. Fuente: ITC-BT-45, Apartado 2.3."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si se instalan a más de 3 metros de altura.",
-            "isCorrect": false,
-            "explanation": "El gas explosivo puede alcanzar cualquier altura en el local."
-          },
-          {
-            "id": 4,
-            "answer": "Sí, si el local tiene ventilación forzada permanente.",
-            "isCorrect": false,
-            "explanation": "La norma prohíbe el uso de estos elementos abiertos independientemente de la ventilación."
-          }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-05",
-        "question": "¿Qué dispositivo adicional deben tener los aparatos de caldeo industrial en contacto con materias inflamables?",
+        "type": "simple",
+        "question": "¿Cómo deben conectarse las cocinas y hornos eléctricos a la fuente de alimentación?",
         "options": [
           {
             "id": 1,
-            "answer": "Un extintor automático incorporado.",
+            "answer": "Mediante un empalme con cinta aislante.",
             "isCorrect": false,
-            "explanation": "Medida de extinción, no de prevención eléctrica."
+            "explanation": "Inseguro e ilegal."
           },
           {
             "id": 2,
-            "answer": "Un limitador de temperatura.",
+            "answer": "Mediante interruptores de corte omnipolar, tomas de corriente o dispositivos equivalentes destinados únicamente a ellos.",
             "isCorrect": true,
-            "explanation": "Debe interrumpir o reducir el caldeo antes de alcanzar una temperatura peligrosa, incluso en avería. Fuente: ITC-BT-45, Apartado 3."
+            "explanation": "Asegura el corte total de energía y evita sobrecargas de otros circuitos. Fuente: ITC-BT-45, Apartado 2.3."
           },
           {
             "id": 3,
-            "answer": "Una alarma luminosa de sobrecalentamiento.",
+            "answer": "Enchufándolos a la misma regleta que la nevera.",
             "isCorrect": false,
-            "explanation": "La alarma avisa pero no interrumpe el riesgo de forma automática."
+            "explanation": "La potencia de una cocina superaría la capacidad de una regleta normal."
           },
           {
             "id": 4,
-            "answer": "Doble aislamiento de Clase II.",
+            "answer": "Conectándolos directamente a los fusibles generales.",
             "isCorrect": false,
-            "explanation": "No previene el exceso de calor generado funcionalmente por el aparato."
+            "explanation": "Deben tener su propio circuito de derivación independiente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-06",
-        "question": "¿Se pueden usar calentadores donde el agua forma parte del circuito eléctrico en viviendas?",
+        "type": "multiple",
+        "question": "¿Qué tipos de aparatos se consideran 'de caldeo' según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si el agua tiene baja conductividad.",
-            "isCorrect": false,
-            "explanation": "Representan un riesgo eléctrico inaceptable para personal no especializado."
+            "answer": "Termos eléctricos de agua.",
+            "isCorrect": true,
+            "explanation": "Calientan líquidos mediante resistencias."
           },
           {
             "id": 2,
-            "answer": "No, no serán utilizados en instalaciones para uso doméstico.",
+            "answer": "Radiadores de aceite portátiles.",
             "isCorrect": true,
-            "explanation": "Este tipo de tecnología se reserva exclusivamente para usos industriales controlados. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "Calientan locales por convección eléctrica."
           },
           {
             "id": 3,
-            "answer": "Sí, siempre que lleven diferencial de 10 mA.",
-            "isCorrect": false,
-            "explanation": "Su uso doméstico está prohibido independientemente de las protecciones."
+            "answer": "Hornos industriales de fundición.",
+            "isCorrect": true,
+            "explanation": "Uso industrial de caldeo. Fuente: ITC-BT-45, Apartado 3."
           },
           {
             "id": 4,
-            "answer": "Solo en viviendas unifamiliares con pozo propio.",
+            "answer": "Ventiladores de techo.",
             "isCorrect": false,
-            "explanation": "La prohibición es general para todo el ámbito doméstico."
+            "explanation": "Son receptores de motor, no de caldeo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-07",
-        "question": "¿Qué tipo de corriente deben usar los calentadores de agua con circuito eléctrico en el fluido?",
+        "type": "simple",
+        "question": "En usos industriales, si un aparato de caldeo está en contacto con materias inflamables, ¿qué dispositivo de seguridad es obligatorio?",
         "options": [
           {
             "id": 1,
-            "answer": "Corriente Continua exclusivamente.",
+            "answer": "Un timbre de aviso.",
             "isCorrect": false,
-            "explanation": "Provocaría electrólisis masiva en el agua."
+            "explanation": "No detiene el peligro de forma automática."
           },
           {
             "id": 2,
-            "answer": "Corriente Alterna a frecuencia igual o superior a 50 Hz.",
+            "answer": "Un limitador de temperatura que interrumpa o reduzca el caldeo automáticamente.",
             "isCorrect": true,
-            "explanation": "Se requiere corriente alterna para minimizar los efectos de la electrólisis y polarización. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "Evita que se alcance la temperatura de ignición del material. Fuente: ITC-BT-45, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Corriente de alta frecuencia (> 10 kHz).",
+            "answer": "Un extintor pegado a la máquina.",
             "isCorrect": false,
-            "explanation": "No es un requisito del REBT para estos calentadores industriales estándar."
+            "explanation": "Es una medida de extinción, no de prevención técnica en la instalación eléctrica."
           },
           {
             "id": 4,
-            "answer": "Cualquier tipo de corriente si el tanque es de plástico.",
+            "answer": "Pintar la máquina de color rojo fuego.",
             "isCorrect": false,
-            "explanation": "La norma exige específicamente corriente alterna de frecuencia industrial."
+            "explanation": "Medida informativa, no de seguridad activa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-08",
-        "question": "¿Cuál es la sección mínima del conductor de puesta a tierra para la cuba de un calentador industrial?",
+        "type": "simple",
+        "question": "Sobre las cocinas que incorporan elementos incandescentes no cerrados (resistencia a la vista), ¿en qué locales está prohibida su instalación?",
         "options": [
           {
             "id": 1,
-            "answer": "1,5 mm².",
+            "answer": "En cocinas de restaurantes.",
             "isCorrect": false,
-            "explanation": "Insuficiente para las corrientes de defecto previsibles."
+            "explanation": "Se permiten si cumplen las normas higiénicas y de seguridad."
           },
           {
             "id": 2,
-            "answer": "4 mm² (y no inferior a la del conductor mayor de alimentación).",
+            "answer": "En locales con riesgo de explosión.",
             "isCorrect": true,
-            "explanation": "Se garantiza una evacuación segura de corrientes de fuga importantes en equipos industriales. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "La resistencia al rojo vivo es una fuente de ignición constante. Fuente: ITC-BT-45, Apartado 2.3."
           },
           {
             "id": 3,
-            "answer": "10 mm² independientemente de la alimentación.",
+            "answer": "En casas con niños.",
             "isCorrect": false,
-            "explanation": "Es un valor sobredimensionado si la alimentación es de menor sección."
+            "explanation": "Se permiten con la debida vigilancia y protecciones mecánicas."
           },
           {
             "id": 4,
-            "answer": "La misma que el neutro si es menor de 2,5 mm².",
+            "answer": "Cerca de ventanas.",
             "isCorrect": false,
-            "explanation": "El mínimo absoluto es 4 mm² según la instrucción."
+            "explanation": "No hay prohibición expresa, salvo por corrientes de aire que afecten a la llama (en gas) o eficiencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-09",
-        "question": "En calentadores de electrodos a más de 440 V, ¿qué sensibilidad debe tener el diferencial?",
+        "type": "simple",
+        "question": "En un calentador industrial de agua con elementos desnudos sumergidos, ¿qué requisito de puesta a tierra debe cumplirse?",
         "options": [
           {
             "id": 1,
-            "answer": "30 mA.",
+            "answer": "No hace falta tierra porque el agua ya es conductora.",
             "isCorrect": false,
-            "explanation": "Daría disparos intempestivos constantes por la propia naturaleza del equipo."
+            "explanation": "Falso; el agua conduciría la corriente al usuario si no hay un camino de baja impedancia."
           },
           {
             "id": 2,
-            "answer": "Superior al 10 % de la intensidad nominal de la caldera.",
+            "answer": "El depósito y todas las tuberías metálicas deben conectarse eficazmente a una toma de tierra de baja resistencia.",
             "isCorrect": true,
-            "explanation": "Se permite un margen para las corrientes de fuga inherentes al calentamiento por electrodos. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "Garantiza que el potencial del agua y las masas sea cero. Fuente: ITC-BT-45, Apartado 3.1.2."
           },
           {
             "id": 3,
-            "answer": "300 mA.",
+            "answer": "Solo se debe conectar a tierra el enchufe.",
             "isCorrect": false,
-            "explanation": "No se usa un valor fijo, sino porcentual respecto a la potencia nominal."
+            "explanation": "Insuficiente en equipos de gran volumen de agua con elementos desnudos."
           },
           {
             "id": 4,
-            "answer": "1 A con retardo de 5 segundos.",
+            "answer": "Se debe usar una tierra separada de la del edificio.",
             "isCorrect": false,
-            "explanation": "Aunque puede llevar retardo, el umbral debe ser el 10% (máximo 15%) de In."
+            "explanation": "Generalmente todas las tierras deben estar interconectadas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-10",
-        "question": "¿Qué conexión especial requiere la cuba de una caldera de electrodos de 50 a 440 V?",
+        "type": "simple",
+        "question": "¿Cuál es el riesgo principal de instalar un radiador eléctrico dentro de un nicho revestido de madera?",
         "options": [
           {
             "id": 1,
-            "answer": "Aislamiento total de tierra.",
+            "answer": "Que la madera se hinche con la humedad.",
             "isCorrect": false,
-            "explanation": "Peligro extremo de choque eléctrico al tocar la cuba."
+            "explanation": "El radiador seca el aire, no aporta humedad."
           },
           {
             "id": 2,
-            "answer": "Conectada al neutro de la alimentación y a tierra.",
+            "answer": "Riesgo extremo de incendio por acumulación de calor y baja temperatura de autoignición de la madera.",
             "isCorrect": true,
-            "explanation": "Se asegura que la cuba esté al potencial más bajo posible (cero) para seguridad. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "La madera se reseca y arde fácilmente bajo radiación constante. Fuente: ITC-BT-45, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "Solo a tierra, prohibida la conexión al neutro.",
+            "answer": "Que el radiador gaste más luz.",
             "isCorrect": false,
-            "explanation": "En este rango de tensiones y tipo de aparato, se exige la doble conexión."
+            "explanation": "Gasta lo mismo, pero el calor no sale al local."
           },
           {
             "id": 4,
-            "answer": "A una fase distinta para equilibrar el consumo.",
+            "answer": "Que el radiador se oxide.",
             "isCorrect": false,
-            "explanation": "La cuba no consume energía, es el recipiente de seguridad."
+            "explanation": "No es el riesgo principal de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-11",
-        "question": "En calentadores de caldeo desnudo sumergido, ¿qué diferencia de potencial máxima se permite entre el agua y partes metálicas próximas?",
+        "type": "multiple",
+        "question": "¿Qué sistemas de protección son comunes en los aparatos de caldeo industriales?",
         "options": [
           {
             "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Valor de seguridad estándar, pero la norma lo reduce en este caso húmedo."
+            "answer": "Termostatos de regulación de temperatura.",
+            "isCorrect": true,
+            "explanation": "Mantienen la temperatura de proceso."
           },
           {
             "id": 2,
-            "answer": "24 V.",
+            "answer": "Limitadores térmicos de seguridad de rearme manual.",
             "isCorrect": true,
-            "explanation": "Para evitar riesgos de choque a través del agua conductora, el límite se fija en 24 V. Fuente: ITC-BT-45, Apartado 3.1.2."
+            "explanation": "Actúan si falla el termostato principal. Fuente: ITC-BT-45, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "0 V.",
-            "isCorrect": false,
-            "explanation": "Idealmente cero, pero se tolera hasta 24 V por pequeñas fugas o caídas de tensión."
+            "answer": "Relés de falta de fase (en equipos trifásicos).",
+            "isCorrect": true,
+            "explanation": "Evitan calentamientos desequilibrados y daños en bobinados."
           },
           {
             "id": 4,
-            "answer": "230 V si el usuario lleva calzado aislante.",
+            "answer": "Un paraguas metálico.",
             "isCorrect": false,
-            "explanation": "Inadmisible para un equipo de caldeo desnudo en contacto con el fluido."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-12",
-        "question": "¿Qué esquema de alimentación se recomienda para hornos con corrientes de fuga importantes?",
+        "type": "simple",
+        "question": "En la soldadura eléctrica por arco, ¿qué tensión de vacío (sin soldar) suele considerarse segura para el operario según normas relacionadas?",
         "options": [
           {
             "id": 1,
-            "answer": "Esquema TT.",
+            "answer": "230 V.",
             "isCorrect": false,
-            "explanation": "Podría causar tensiones de defecto peligrosas en las masas."
+            "explanation": "Mortal en un entorno de trabajo húmedo o metálico."
           },
           {
             "id": 2,
-            "answer": "Esquema TN-C.",
+            "answer": "Generalmente inferior a 80-100 V en vacío, dependiendo del tipo de corriente.",
             "isCorrect": true,
-            "explanation": "Permite el retorno de corrientes de fuga a través del conductor PEN de forma segura en entornos industriales. Fuente: ITC-BT-45, Apartado 3.2."
+            "explanation": "Se busca un compromiso entre el cebado del arco y la seguridad del soldador. Fuente: ITC-BT-45, Apartado 3.3."
           },
           {
             "id": 3,
-            "answer": "Esquema IT.",
+            "answer": "12 V solamente.",
             "isCorrect": false,
-            "explanation": "Reservado para cuando se requiere continuidad de servicio, no por fugas elevadas."
+            "explanation": "Insuficiente para cebar el arco de soldadura."
           },
           {
             "id": 4,
-            "answer": "Alimentación mediante baterías de CC.",
+            "answer": "500 V.",
             "isCorrect": false,
-            "explanation": "Inviable para la potencia requerida por hornos industriales."
+            "explanation": "Extremadamente peligroso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-13",
-        "question": "¿Cuál es el ajuste máximo permitido para el dispositivo contra sobrecargas de un aparato de soldadura eléctrica?",
+        "type": "simple",
+        "question": "Sobre la conexión de puesta a tierra de un horno de panadería industrial, ¿por qué es crítica?",
         "options": [
           {
             "id": 1,
-            "answer": "110 % de la intensidad nominal.",
+            "answer": "Para que el pan no sepa a metal.",
             "isCorrect": false,
-            "explanation": "Ajuste demasiado sensible que impediría el arranque del arco."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "200 % de la intensidad nominal.",
+            "answer": "Por la gran superficie metálica accesible y el uso de resistencias que pueden derivar a masa por dilatación térmica.",
             "isCorrect": true,
-            "explanation": "Permite las puntas de corriente propias del inicio de la soldadura sin disparar la protección. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Garantiza la seguridad del panadero ante fallos de aislamiento. Fuente: Seguridad industrial."
           },
           {
             "id": 3,
-            "answer": "500 % de la intensidad nominal.",
+            "answer": "Para ahorrar en la factura de la luz.",
             "isCorrect": false,
-            "explanation": "Pondría en riesgo la integridad de los conductores de alimentación."
+            "explanation": "La tierra no reduce el consumo."
           },
           {
             "id": 4,
-            "answer": "No requiere ajuste si el cable es de 6 mm².",
+            "answer": "Solo es necesaria si el horno es de gas.",
             "isCorrect": false,
-            "explanation": "La protección debe estar coordinada con la intensidad del aparato."
+            "explanation": "En hornos eléctricos es aún más vital."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-14",
-        "question": "¿Qué característica deben tener las superficies exteriores de los porta-electrodos manuales?",
+        "type": "simple",
+        "question": "¿Qué ocurre si se tapa un radiador eléctrico de convección con ropa para secarla?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben ser metálicas para mejor agarre.",
+            "answer": "La ropa se plancha sola.",
             "isCorrect": false,
-            "explanation": "Peligro mortal de contacto directo para el operario."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Estarán completamente aisladas.",
+            "answer": "Se obstruye la salida de aire caliente, el aparato se sobrecalienta y puede provocar un incendio.",
             "isCorrect": true,
-            "explanation": "Todo el cuerpo del porta-electrodos debe evitar el contacto eléctrico con la mano del trabajador. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Causa principal de incendios domésticos por aparatos de caldeo. Fuente: Consejos de bomberos."
           },
           {
             "id": 3,
-            "answer": "Solo requieren aislamiento en el gatillo.",
+            "answer": "El radiador consume menos porque no sale el calor.",
             "isCorrect": false,
-            "explanation": "Cualquier parte accesible bajo tensión es un riesgo inaceptable."
+            "explanation": "Consume lo mismo, pero el calor se acumula peligrosamente dentro."
           },
           {
             "id": 4,
-            "answer": "Deben estar refrigeradas por agua.",
+            "answer": "No pasa nada, los radiadores modernos son inteligentes.",
             "isCorrect": false,
-            "explanation": "Es una característica de algunos equipos pesados, pero el REBT exige aislamiento."
+            "explanation": "Incluso con protección térmica, el riesgo de ignición de la ropa es alto."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-15",
-        "question": "¿Cuál es la tensión máxima en vacío permitida para soldadura en CA en locales muy conductores?",
+        "type": "simple",
+        "question": "En un termo eléctrico, ¿qué función tiene el ánodo de magnesio?",
         "options": [
           {
             "id": 1,
-            "answer": "230 V.",
+            "answer": "Calentar el agua más rápido.",
             "isCorrect": false,
-            "explanation": "Tensión de red, extremadamente peligrosa en vacío para soldadura."
+            "explanation": "No es una resistencia."
           },
           {
             "id": 2,
-            "answer": "90 V (valor eficaz).",
+            "answer": "Proteger la cuba metálica de la corrosión galvánica sacrificándose él mismo.",
             "isCorrect": true,
-            "explanation": "Es el límite superior para proteger al operario cuando no hay arco establecido en entornos de riesgo. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Mantiene la integridad del depósito de agua. Fuente: Tecnología de ACS."
           },
           {
             "id": 3,
-            "answer": "150 V.",
+            "answer": "Filtrar la cal del agua.",
             "isCorrect": false,
-            "explanation": "Este valor aplica a corriente continua, no a alterna."
+            "explanation": "No es un filtro."
           },
           {
             "id": 4,
-            "answer": "24 V.",
+            "answer": "Evitar que el termostato se rompa.",
             "isCorrect": false,
-            "explanation": "Se recomienda usar tensiones pequeñas, pero el límite reglamentario para el equipo es 90 V CA."
+            "explanation": "No influye en el termostato."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-16",
-        "question": "¿Qué elemento debe incorporar el interruptor de un calentador si se acciona a distancia?",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse en locales húmedos (baños) con aparatos de caldeo?",
         "options": [
           {
             "id": 1,
-            "answer": "Una cerradura de seguridad.",
-            "isCorrect": false,
-            "explanation": "No es el requisito principal de señalización."
+            "answer": "Deben situarse fuera del volumen de prohibición (volumen 0 y 1).",
+            "isCorrect": true,
+            "explanation": "Evita el contacto directo con agua de la ducha o bañera."
           },
           {
             "id": 2,
-            "answer": "Lámparas de señalización que indiquen la posición de abierto o cerrado.",
+            "answer": "Deben tener un grado de protección IP adecuado (ej: IPX4).",
             "isCorrect": true,
-            "explanation": "Permite conocer el estado real del equipo desde el punto de mando remoto. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "Resistencia a la humedad ambiental y salpicaduras. Fuente: ITC-BT-30."
           },
           {
             "id": 3,
-            "answer": "Un altavoz con mensajes de voz.",
-            "isCorrect": false,
-            "explanation": "No es un requisito reglamentario."
+            "answer": "Deben estar conectados a través de un diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Protección vital en zonas de baja resistencia del cuerpo humano."
           },
           {
             "id": 4,
-            "answer": "Un voltímetro digital de precisión.",
+            "answer": "Se deben envolver en plástico para que no se mojen.",
             "isCorrect": false,
-            "explanation": "La señalización de estado (ON/OFF) es lo requerido por seguridad."
+            "explanation": "Inviable; se quemarían por falta de ventilación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-17",
-        "question": "¿Cómo deben protegerse las manos de los operarios de soldadura contra el calor del arco?",
+        "type": "simple",
+        "question": "Sobre la sección de los cables de una placa de inducción de 7.200 W, ¿cuál es la intensidad que debe soportar el circuito?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo con guantes de cuero.",
+            "answer": "10 A.",
             "isCorrect": false,
-            "explanation": "Son necesarios, pero el equipo debe incorporar una protección adicional."
+            "explanation": "Muy por debajo de la carga real."
           },
           {
             "id": 2,
-            "answer": "Mediante discos o pantallas en los porta-electrodos.",
+            "answer": "Aproximadamente 31-32 A.",
             "isCorrect": true,
-            "explanation": "Estos elementos actúan como barrera física contra la radiación térmica directa. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Calculado como P/V (7200/230). Exige cable de 6 mm². Fuente: ITC-BT-25."
           },
           {
             "id": 3,
-            "answer": "Sumergiendo el porta-electrodos en agua fría.",
+            "answer": "16 A.",
             "isCorrect": false,
-            "explanation": "Provocaría cortocircuitos y riesgo de electrocución."
+            "explanation": "Es la intensidad de un circuito de enchufes normal, insuficiente para una placa."
           },
           {
             "id": 4,
-            "answer": "No es necesario si se suelda a baja intensidad.",
+            "answer": "63 A.",
             "isCorrect": false,
-            "explanation": "La protección térmica es obligatoria por diseño del porta-electrodos."
+            "explanation": "Sobredimensionado para una vivienda estándar."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-18",
-        "question": "¿Qué se debe evitar respecto a los porta-electrodos cuando no se están utilizando?",
+        "type": "simple",
+        "question": "¿Cuál es la principal ventaja de un aparato de caldeo de Clase II frente a uno de Clase I?",
         "options": [
           {
             "id": 1,
-            "answer": "Que se mojen con la lluvia.",
+            "answer": "Que gasta menos luz.",
             "isCorrect": false,
-            "explanation": "Es obvio, pero la norma enfatiza un riesgo de contacto."
+            "explanation": "Falso."
           },
           {
             "id": 2,
-            "answer": "Que entren en contacto con objetos metálicos y queden accesibles bajo tensión.",
+            "answer": "Que no requiere conexión a tierra para ser seguro.",
             "isCorrect": true,
-            "explanation": "Se deben dar consignas para evitar cebados accidentales o contactos peligrosos. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Ideal para estufas que se mueven mucho donde el cable de tierra podría romperse sin saberlo. Fuente: ITC-BT-43 / 45."
           },
           {
             "id": 3,
-            "answer": "Que se guarden en cajas de madera.",
+            "answer": "Que calienta más rápido.",
             "isCorrect": false,
-            "explanation": "No es una prohibición normativa."
+            "explanation": "La potencia es la misma."
           },
           {
             "id": 4,
-            "answer": "Que se compartan entre varios operarios.",
+            "answer": "Que es transparente.",
             "isCorrect": false,
-            "explanation": "No se prohíbe el uso compartido, sino el descuido en su ubicación."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-19",
-        "question": "¿Cuál es la tensión máxima en vacío para soldadura en CC en locales conductores?",
+        "type": "simple",
+        "question": "En un horno industrial, ¿para qué sirve el interruptor de seguridad de la puerta?",
         "options": [
           {
             "id": 1,
-            "answer": "90 V.",
+            "answer": "Para que no se escape el olor a comida.",
             "isCorrect": false,
-            "explanation": "Este valor es para corriente alterna."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "150 V.",
+            "answer": "Para desconectar los elementos de caldeo cuando se abre la puerta, evitando quemaduras y choques eléctricos.",
             "isCorrect": true,
-            "explanation": "En corriente continua se permite un umbral superior de tensión en vacío por ser menos peligrosa que la alterna. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Medida de seguridad de maniobra obligatoria en muchos equipos industriales. Fuente: Normas de máquinas."
           },
           {
             "id": 3,
-            "answer": "230 V.",
+            "answer": "Para encender la luz interior.",
             "isCorrect": false,
-            "explanation": "Tensión excesiva para un equipo de soldadura manual en vacío."
+            "explanation": "Es una función secundaria, no de seguridad eléctrica vital."
           },
           {
             "id": 4,
-            "answer": "440 V.",
+            "answer": "Para bloquear la puerta y que nadie robe el pan.",
             "isCorrect": false,
-            "explanation": "Totalmente fuera de los límites de seguridad de baja tensión para esta aplicación."
+            "explanation": "Eso sería un cierre de seguridad, no un interruptor eléctrico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-20",
-        "question": "¿A qué se deben unir las piezas metálicas situadas en la proximidad inmediata de un trabajo de soldadura?",
+        "type": "simple",
+        "question": "Sobre los calentadores de aire (aerotermos), ¿qué riesgo presenta la acumulación de polvo en las resistencias?",
         "options": [
           {
             "id": 1,
-            "answer": "A la tubería del agua.",
+            "answer": "Que el aire huela a flores.",
             "isCorrect": false,
-            "explanation": "Práctica prohibida que puede electrificar toda la red de fontanería."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Al conductor de retorno del circuito de soldadura.",
+            "answer": "Riesgo de incendio por ignición de las partículas de polvo y reducción de la transferencia de calor.",
             "isCorrect": true,
-            "explanation": "Se asegura la equipotencialidad y se evitan arcos accidentales hacia esas piezas. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "El polvo se carboniza y puede prender fuego. Fuente: Mantenimiento preventivo."
           },
           {
             "id": 3,
-            "answer": "A un pararrayos cercano.",
+            "answer": "Que el aparato pese más.",
             "isCorrect": false,
-            "explanation": "No cumple ninguna función de seguridad para el proceso de soldadura."
+            "explanation": "Despreciable."
           },
           {
             "id": 4,
-            "answer": "No es necesario unirlas a nada.",
+            "answer": "No afecta al funcionamiento.",
             "isCorrect": false,
-            "explanation": "Es una consigna de seguridad obligatoria para evitar riesgos eléctricos."
+            "explanation": "Afecta gravemente a la seguridad y eficiencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-21",
-        "question": "En hornos de resistencias con fugas importantes, ¿se permite el esquema TT?",
+        "type": "multiple",
+        "question": "¿Qué características debe tener un enchufe para un radiador de 3.000 W?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, es el esquema preferente en España.",
-            "isCorrect": false,
-            "explanation": "En este caso específico de fugas elevadas, se prefiere otro esquema."
+            "answer": "Debe soportar al menos 16 A de intensidad nominal.",
+            "isCorrect": true,
+            "explanation": "3.000W / 230V = 13 A aprox. Un enchufe de 16A es el adecuado."
           },
           {
             "id": 2,
-            "answer": "No, deberán ser alimentados según esquema TN-C.",
+            "answer": "Debe tener toma de tierra eficaz si el radiador es de Clase I.",
             "isCorrect": true,
-            "explanation": "El esquema TN-C facilita el retorno de las corrientes de fuga sin elevar el potencial de las masas. Fuente: ITC-BT-45, Apartado 3.2."
+            "explanation": "Imprescindible para la seguridad."
           },
           {
             "id": 3,
-            "answer": "Solo si el horno es de menos de 10 kW.",
-            "isCorrect": false,
-            "explanation": "La recomendación de esquema depende de las fugas, no solo de la potencia."
+            "answer": "Los contactos deben estar limpios y sin signos de fogueo (quemado).",
+            "isCorrect": true,
+            "explanation": "Evita sobrecalentamientos por mala conexión. Fuente: Criterios de mantenimiento."
           },
           {
             "id": 4,
-            "answer": "Sí, si se instala un transformador de 1:1.",
+            "answer": "Debe ser de color rosa para identificar que calienta.",
             "isCorrect": false,
-            "explanation": "El transformador separaría el circuito, pero el REBT indica el esquema TN-C como solución estándar."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-22",
-        "question": "¿Qué señalización deben tener las partes accesibles de hornos que alcancen temperaturas peligrosas?",
+        "type": "simple",
+        "question": "¿Qué es un 'aparato de caldeo de acumulación'?",
         "options": [
           {
             "id": 1,
-            "answer": "Un código QR con el manual.",
+            "answer": "Uno que guarda energía en una batería.",
             "isCorrect": false,
-            "explanation": "No sirve como advertencia de seguridad inmediata."
+            "explanation": "No usa baterías eléctricas para el calor."
           },
           {
             "id": 2,
-            "answer": "Dispositivo de protección o visibles señales de atención con una inscripción.",
+            "answer": "Aparato que calienta un núcleo cerámico durante las horas de tarifa barata para soltar el calor durante el día.",
             "isCorrect": true,
-            "explanation": "Se debe advertir claramente del riesgo de quemaduras en las superficies calientes. Fuente: ITC-BT-45, Apartado 3.2."
+            "explanation": "Uso eficiente de la red eléctrica. Fuente: Sistemas de calefacción."
           },
           {
             "id": 3,
-            "answer": "Deben estar pintadas de azul para indicar frío.",
+            "answer": "Un aparato que acumula polvo.",
             "isCorrect": false,
-            "explanation": "Sería una señalización engañosa y peligrosa."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Basta con que el operario lleve guantes.",
+            "answer": "Una caldera de carbón.",
             "isCorrect": false,
-            "explanation": "La señalización en el equipo es obligatoria independientemente de los EPIs."
+            "explanation": "No es eléctrica de caldeo según el REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-23",
-        "question": "¿Cómo debe realizarse el corte en el interruptor de una caldera de electrodos?",
+        "type": "simple",
+        "question": "Sobre la soldadura por arco, ¿qué peligro eléctrico específico corre el soldador si trabaja sobre una estructura metálica húmeda?",
         "options": [
           {
             "id": 1,
-            "answer": "Corte de la fase más cargada únicamente.",
+            "answer": "Que se le oxiden las botas.",
             "isCorrect": false,
-            "explanation": "Deja el resto de fases con tensión, manteniendo el peligro."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "Corte omnipolar simultáneo.",
+            "answer": "Choque eléctrico a través del cuerpo si la pinza de masa y el electrodo cierran circuito a través de él.",
             "isCorrect": true,
-            "explanation": "Asegura la desconexión total y segura de todos los conductores activos al mismo tiempo. Fuente: ITC-BT-45, Apartado 3.1.1."
+            "explanation": "Riesgo mortal potenciado por la humedad que baja la resistencia de la piel. Fuente: ITC-BT-45, Apartado 3.3."
           },
           {
             "id": 3,
-            "answer": "Corte secuencial (primero fase, luego neutro).",
+            "answer": "Que el arco sea de color verde.",
             "isCorrect": false,
-            "explanation": "La norma exige simultaneidad en el corte omnipolar."
+            "explanation": "El color depende de los materiales, no del peligro."
           },
           {
             "id": 4,
-            "answer": "Corte manual mediante hachazo.",
+            "answer": "No hay peligro si el equipo es inverter.",
             "isCorrect": false,
-            "explanation": "No es un método de maniobra eléctrica reglamentario."
+            "explanation": "Incluso los inverter tienen voltajes de vacío peligrosos en entornos conductores."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-24",
-        "question": "¿Cuál es la función del limitador en calentadores de líquidos inflamables?",
+        "type": "simple",
+        "question": "En un horno de secado industrial de pintura, ¿por qué es vital el limitador de temperatura de seguridad?",
         "options": [
           {
             "id": 1,
-            "answer": "Regular la temperatura de consigna para el proceso.",
+            "answer": "Para que la pintura no se corra.",
             "isCorrect": false,
-            "explanation": "Esa es la función del termostato, el limitador es un elemento de seguridad superior."
+            "explanation": "Criterio de calidad, no de seguridad eléctrica básica."
           },
           {
             "id": 2,
-            "answer": "Interrumpir o reducir el caldeo antes de alcanzar una temperatura peligrosa.",
+            "answer": "Para evitar que los disolventes evaporados alcancen su punto de inflamación y exploten.",
             "isCorrect": true,
-            "explanation": "Actúa como protección crítica para evitar incendios o explosiones del fluido. Fuente: ITC-BT-45, Apartado 3.1."
+            "explanation": "Seguridad crítica en procesos con productos químicos inflamables. Fuente: ITC-BT-45, Apartado 3.1."
           },
           {
             "id": 3,
-            "answer": "Aumentar la presión del líquido.",
+            "answer": "Para que el operario no pase calor.",
             "isCorrect": false,
-            "explanation": "No tiene funciones hidráulicas, sino térmico-eléctricas."
+            "explanation": "Innecesario."
           },
           {
             "id": 4,
-            "answer": "Filtrar las impurezas del líquido.",
+            "answer": "Para ahorrar gas.",
             "isCorrect": false,
-            "explanation": "No es un dispositivo de filtrado."
+            "explanation": "Hablamos de hornos eléctricos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-45-25",
-        "question": "En soldadura, ¿cuándo se debe poner a tierra el circuito únicamente en el lugar de trabajo?",
+        "type": "simple",
+        "question": "¿Qué comprobación debe hacerse en los bornes de un calentador de gran potencia cada cierto tiempo?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre, por comodidad del operario.",
+            "answer": "Si brillan mucho.",
             "isCorrect": false,
-            "explanation": "Existen riesgos de corrientes vagabundas si no se hace con criterio."
+            "explanation": "Irrelevante."
           },
           {
             "id": 2,
-            "answer": "Cuando la puesta a tierra en el aparato pueda provocar corrientes vagabundas peligrosas.",
+            "answer": "Verificar el par de apriete para evitar conexiones flojas que generen calor por efecto Joule y quemen el borne.",
             "isCorrect": true,
-            "explanation": "Se busca evitar que la corriente de soldadura retorne por caminos no deseados en la instalación. Fuente: ITC-BT-45, Apartado 3.3."
+            "explanation": "Las dilataciones por calor aflojan los tornillos con el tiempo. Fuente: Mantenimiento eléctrico."
           },
           {
             "id": 3,
-            "answer": "Solo si se suelda bajo la lluvia.",
+            "answer": "Ponerles un poco de aceite de oliva.",
             "isCorrect": false,
-            "explanation": "Bajo la lluvia está prohibido soldar por riesgo de electrocución."
+            "explanation": "Peligrosísimo; el aceite puede arder o aislar."
           },
           {
             "id": 4,
-            "answer": "Nunca, el circuito de soldadura no se pone a tierra jamás.",
+            "answer": "No hay que hacer nada si funciona.",
             "isCorrect": false,
-            "explanation": "La norma permite y a veces exige su puesta a tierra bajo condiciones controladas."
+            "explanation": "Falso; el mantenimiento preventivo es clave para evitar incendios."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-45-26",
+        "type": "multiple",
+        "question": "¿Qué tipos de calor transmite un radiador eléctrico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Convección (calentando el aire que sube).",
+            "isCorrect": true,
+            "explanation": "Método principal de los radiadores estándar."
+          },
+          {
+            "id": 2,
+            "answer": "Radiación (calor directo por infrarrojos).",
+            "isCorrect": true,
+            "explanation": "Típico de estufas de cuarzo o infrarrojos."
+          },
+          {
+            "id": 3,
+            "answer": "Conducción (si tocas la superficie caliente).",
+            "isCorrect": true,
+            "explanation": "Transmisión directa por contacto físico."
+          },
+          {
+            "id": 4,
+            "answer": "Telepatía térmica.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-27",
+        "type": "simple",
+        "question": "Sobre el cableado de una sauna eléctrica, ¿qué característica especial debe tener?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser de color azul agua.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Debe resistir altas temperaturas (mínimo 170ºC) y la humedad extrema.",
+            "isCorrect": true,
+            "explanation": "Evita fallos de aislamiento en un entorno muy agresivo. Fuente: ITC-BT-31."
+          },
+          {
+            "id": 3,
+            "answer": "Se pueden usar cables de antena.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo y no apto para potencia."
+          },
+          {
+            "id": 4,
+            "answer": "No lleva cables, funciona con piedras.",
+            "isCorrect": false,
+            "explanation": "Las piedras se calientan con resistencias eléctricas que sí llevan cables."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-28",
+        "type": "simple",
+        "question": "En la instalación de una manta eléctrica para una cama, ¿qué riesgo eléctrico es el más común?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la manta se escape de la cama.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Rotura de los finos hilos internos por doblar la manta excesivamente, provocando puntos calientes o incendios.",
+            "isCorrect": true,
+            "explanation": "Exige un uso cuidadoso y nunca plegarla cuando esté encendida. Fuente: Seguridad de pequeños aparatos."
+          },
+          {
+            "id": 3,
+            "answer": "Que gaste mucha agua.",
+            "isCorrect": false,
+            "explanation": "No usa agua."
+          },
+          {
+            "id": 4,
+            "answer": "Que el diferencial salte por el sudor.",
+            "isCorrect": false,
+            "explanation": "Solo si hay un fallo de aislamiento grave."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-29",
+        "type": "simple",
+        "question": "¿Se puede usar una estufa eléctrica de baño conectada a un alargador desde el pasillo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si el cable es largo.",
+            "isCorrect": false,
+            "explanation": "Inseguro por la presencia de agua y falta de estanqueidad de las conexiones del alargador."
+          },
+          {
+            "id": 2,
+            "answer": "No es recomendable; las estufas de baño deben ser instalaciones fijas o conectadas a tomas seguras dentro del baño (respetando volúmenes).",
+            "isCorrect": true,
+            "explanation": "Minimiza el riesgo de electrocución en zona mojada. Fuente: ITC-BT-30."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el alargador es de color verde.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se pone el alargador encima de una toalla.",
+            "isCorrect": false,
+            "explanation": "Peligro de incendio."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-30",
+        "type": "simple",
+        "question": "Sobre el mantenimiento de una cocina de vitrocerámica, ¿qué peligro tiene si el cristal se agrieta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la comida se caiga dentro.",
+            "isCorrect": false,
+            "explanation": "Es un problema, pero no el principal peligro eléctrico."
+          },
+          {
+            "id": 2,
+            "answer": "Entrada de líquidos a las partes en tensión inferiores, provocando cortocircuitos o derivaciones peligrosas.",
+            "isCorrect": true,
+            "explanation": "Se debe dejar de usar inmediatamente y reparar. Fuente: Seguridad de electrodomésticos."
+          },
+          {
+            "id": 3,
+            "answer": "Que gaste más luz.",
+            "isCorrect": false,
+            "explanation": "No influye en el consumo."
+          },
+          {
+            "id": 4,
+            "answer": "Que los imanes de la inducción se escapen.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-31",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene la calefacción eléctrica por suelo radiante frente a los radiadores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Distribución más uniforme del calor en toda la estancia.",
+            "isCorrect": true,
+            "explanation": "Mejor confort térmico."
+          },
+          {
+            "id": 2,
+            "answer": "No ocupa espacio en las paredes (estética).",
+            "isCorrect": true,
+            "explanation": "Facilita la decoración."
+          },
+          {
+            "id": 3,
+            "answer": "Evita el movimiento de polvo por convección fuerte.",
+            "isCorrect": true,
+            "explanation": "Ideal para personas alérgicas."
+          },
+          {
+            "id": 4,
+            "answer": "Se puede usar para enfriar el suelo en verano.",
+            "isCorrect": false,
+            "explanation": "El suelo radiante eléctrico solo calienta; el de agua (aerotermia) sí puede enfriar."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-32",
+        "type": "simple",
+        "question": "En un suelo radiante eléctrico, ¿qué elemento protege contra fallos de aislamiento bajo el pavimento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El cemento.",
+            "isCorrect": false,
+            "explanation": "El cemento es conductor cuando está húmedo."
+          },
+          {
+            "id": 2,
+            "answer": "Una malla metálica de tierra conectada al conductor de protección y el uso de diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Garantiza que cualquier fuga sea detectada y cortada. Fuente: ITC-BT-45 / Normas de instalación."
+          },
+          {
+            "id": 3,
+            "answer": "No necesita protección porque el cable es muy fuerte.",
+            "isCorrect": false,
+            "explanation": "Inaceptable reglamentariamente."
+          },
+          {
+            "id": 4,
+            "answer": "Poner alfombras de goma en toda la casa.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-33",
+        "type": "simple",
+        "question": "¿Qué significa que un termo de agua tenga 'resistencia envainada'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que tiene una funda de cuero.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Que la resistencia no toca directamente el agua, facilitando su cambio sin vaciar el termo y evitando la cal directa sobre ella.",
+            "isCorrect": true,
+            "explanation": "Mejora el mantenimiento y la durabilidad en zonas de agua dura. Fuente: Características de termos."
+          },
+          {
+            "id": 3,
+            "answer": "Que calienta el agua por fuera.",
+            "isCorrect": false,
+            "explanation": "Sigue calentando desde el interior pero protegida."
+          },
+          {
+            "id": 4,
+            "answer": "Que es más peligrosa.",
+            "isCorrect": false,
+            "explanation": "Es más segura y duradera."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-34",
+        "type": "simple",
+        "question": "Sobre las planchas eléctricas de ropa, ¿cuál es el dispositivo de seguridad más importante si se olvida encendida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El vapor.",
+            "isCorrect": false,
+            "explanation": "El vapor se acaba y el riesgo persiste."
+          },
+          {
+            "id": 2,
+            "answer": "El sistema de auto-apagado por inactividad (temporizador de seguridad).",
+            "isCorrect": true,
+            "explanation": "Evita incendios por descuido del usuario. Fuente: Normas de seguridad de electrodomésticos."
+          },
+          {
+            "id": 3,
+            "answer": "Que sea de color brillante.",
+            "isCorrect": false,
+            "explanation": "No ayuda a la seguridad activa."
+          },
+          {
+            "id": 4,
+            "answer": "El cable de tela.",
+            "isCorrect": false,
+            "explanation": "Mejora la resistencia térmica del cable pero no apaga el aparato."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-35",
+        "type": "simple",
+        "question": "En la industria alimentaria, ¿se pueden usar calentadores de infrarrojos abiertos sobre la comida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para que no se enfríe.",
+            "isCorrect": false,
+            "explanation": "Peligro de caída de fragmentos de cristal si se rompe la lámpara."
+          },
+          {
+            "id": 2,
+            "answer": "Solo si disponen de una protección mecánica (rejilla o cristal templado) que impida la caída de trozos de lámpara en caso de rotura.",
+            "isCorrect": true,
+            "explanation": "Garantiza la seguridad alimentaria y física. Fuente: Normas de higiene y seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "No, está prohibido calentar la comida con luz.",
+            "isCorrect": false,
+            "explanation": "Se permite con las medidas adecuadas."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el cocinero lleva guantes.",
+            "isCorrect": false,
+            "explanation": "No soluciona el riesgo para el cliente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-36",
+        "type": "multiple",
+        "question": "¿Qué elementos componen el circuito de una placa de cocina eléctrica (C-3)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Magnetotérmico de 25 A.",
+            "isCorrect": true,
+            "explanation": "Protección estándar para cocina y horno."
+          },
+          {
+            "id": 2,
+            "answer": "Cables de 6 mm² de sección.",
+            "isCorrect": true,
+            "explanation": "Soportan la intensidad de diseño."
+          },
+          {
+            "id": 3,
+            "answer": "Base de enchufe de 25 A (o conexión fija).",
+            "isCorrect": true,
+            "explanation": "Punto de conexión de alta capacidad. Fuente: ITC-BT-25."
+          },
+          {
+            "id": 4,
+            "answer": "Interruptor de luz normal.",
+            "isCorrect": false,
+            "explanation": "Se quemaría al instante; no soporta esa potencia."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-37",
+        "type": "simple",
+        "question": "Sobre el calentamiento de líquidos inflamables (aceites, combustibles) en la industria, ¿qué precaución extra se exige?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Calentarlo al sol.",
+            "isCorrect": false,
+            "explanation": "Ineficiente."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de limitadores de temperatura intrínsecamente seguros y posiblemente equipos ATEX si hay vapores.",
+            "isCorrect": true,
+            "explanation": "Evita explosiones catastróficas. Fuente: ITC-BT-45, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Remover el líquido con una cuchara de madera.",
+            "isCorrect": false,
+            "explanation": "No es una medida de seguridad eléctrica de caldeo."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden calentar líquidos inflamables con electricidad.",
+            "isCorrect": false,
+            "explanation": "Se puede, pero con medidas de seguridad extremas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-38",
+        "type": "simple",
+        "question": "¿Por qué no se debe usar un brasero eléctrico debajo de una mesa con faldillas (camilla) sin vigilancia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque gasta mucha luz.",
+            "isCorrect": false,
+            "explanation": "Criterio económico, no el principal riesgo vital."
+          },
+          {
+            "id": 2,
+            "answer": "Riesgo extremo de incendio por acumulación de calor en las telas y falta de ventilación.",
+            "isCorrect": true,
+            "explanation": "Causa histórica de muchos incendios en viviendas españolas. Fuente: Prevención de incendios."
+          },
+          {
+            "id": 3,
+            "answer": "Porque el brasero se puede sentir solo.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Porque las faldillas se ensucian.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-39",
+        "type": "simple",
+        "question": "En una estufa de baño de pared, ¿a qué altura debe instalarse generalmente el interruptor de tirador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "A ras de suelo.",
+            "isCorrect": false,
+            "explanation": "Difícil de usar y peligro por agua."
+          },
+          {
+            "id": 2,
+            "answer": "A una altura que impida el contacto accidental con el agua y permita un uso cómodo (habitualmente > 1,5m).",
+            "isCorrect": true,
+            "explanation": "El tirador de cuerda es una medida de aislamiento extra para el usuario mojado. Fuente: Práctica de montaje."
+          },
+          {
+            "id": 3,
+            "answer": "No importa la altura.",
+            "isCorrect": false,
+            "explanation": "La seguridad mecánica y eléctrica dependen de la ubicación."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar dentro de la bañera.",
+            "isCorrect": false,
+            "explanation": "Peligro mortal."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-40",
+        "type": "simple",
+        "question": "Para terminar, ¿cuál es el mejor consejo para ahorrar energía con aparatos de caldeo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ponerlos a máxima potencia poco tiempo.",
+            "isCorrect": false,
+            "explanation": "Genera picos de consumo y es menos eficiente térmicamente."
+          },
+          {
+            "id": 2,
+            "answer": "Usar termostatos programables y mantener una temperatura constante y moderada (ej: 20-21ºC).",
+            "isCorrect": true,
+            "explanation": "Aprovecha la inercia térmica y evita el desperdicio. Fuente: Guías de eficiencia energética."
+          },
+          {
+            "id": 3,
+            "answer": "Apagarlos cuando la habitación esté muy caliente y encenderlos cuando esté muy fría.",
+            "isCorrect": false,
+            "explanation": "Obliga al aparato a trabajar con mayor salto térmico, consumiendo más para recuperar."
+          },
+          {
+            "id": 4,
+            "answer": "No usarlos nunca.",
+            "isCorrect": false,
+            "explanation": "No es una solución de uso, sino una renuncia al confort."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-41",
+        "type": "simple",
+        "question": "¿Qué es un 'calefactor de ventilación forzada'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que sopla aire frío.",
+            "isCorrect": false,
+            "explanation": "Eso es un ventilador."
+          },
+          {
+            "id": 2,
+            "answer": "Aparato que usa un ventilador para pasar aire a través de unas resistencias calientes y distribuirlo rápido.",
+            "isCorrect": true,
+            "explanation": "Calienta estancias de forma muy rápida pero puede resecar el aire. Fuente: Tipos de calefactores."
+          },
+          {
+            "id": 3,
+            "answer": "Una ventana abierta.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Un aparato que funciona con el viento.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-42",
+        "type": "multiple",
+        "question": "¿Qué problemas causa el exceso de cal en la resistencia de un termo eléctrico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumento del tiempo necesario para calentar el agua.",
+            "isCorrect": true,
+            "explanation": "La cal actúa como aislante térmico."
+          },
+          {
+            "id": 2,
+            "answer": "Riesgo de rotura de la resistencia por sobrecalentamiento local.",
+            "isCorrect": true,
+            "explanation": "El calor no sale al agua y quema el metal."
+          },
+          {
+            "id": 3,
+            "answer": "Aumento del ruido al calentar (vibraciones).",
+            "isCorrect": true,
+            "explanation": "Típico siseo de las resistencias con cal. Fuente: Patologías de ACS."
+          },
+          {
+            "id": 4,
+            "answer": "Que el agua salga de color azul.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-43",
+        "type": "simple",
+        "question": "Sobre la instalación de calderas eléctricas de calefacción centralizada, ¿qué documento técnico es necesario además del CIE?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un permiso de la comunidad de vecinos.",
+            "isCorrect": false,
+            "explanation": "Administrativo, no técnico de legalización."
+          },
+          {
+            "id": 2,
+            "answer": "Un Proyecto firmado por técnico competente si la potencia supera los límites (habitualmente > 50 kW para calefacción).",
+            "isCorrect": true,
+            "explanation": "Garantiza el diseño correcto de la instalación de potencia. Fuente: ITC-BT-04."
+          },
+          {
+            "id": 3,
+            "answer": "La garantía de la caldera.",
+            "isCorrect": false,
+            "explanation": "No es un documento de legalización ante industria."
+          },
+          {
+            "id": 4,
+            "answer": "Un dibujo a mano alzada.",
+            "isCorrect": false,
+            "explanation": "Insuficiente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-44",
+        "type": "simple",
+        "question": "¿Qué es una 'placa de inducción'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una placa que calienta por fuego.",
+            "isCorrect": false,
+            "explanation": "Eso es gas."
+          },
+          {
+            "id": 2,
+            "answer": "Sistema que calienta directamente el recipiente mediante un campo electromagnético, sin calentar la placa en sí.",
+            "isCorrect": true,
+            "explanation": "Mucho más eficiente y segura (menos riesgo de quemaduras). Fuente: Tecnología de cocción."
+          },
+          {
+            "id": 3,
+            "answer": "Una placa con imanes para sujetar las sartenes.",
+            "isCorrect": false,
+            "explanation": "Usa el electromagnetismo para calentar, no para sujetar."
+          },
+          {
+            "id": 4,
+            "answer": "Un invento que no usa electricidad.",
+            "isCorrect": false,
+            "explanation": "Usa mucha electricidad pero de forma eficiente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-45",
+        "type": "simple",
+        "question": "En un aparato de caldeo de Clase I, ¿qué ocurre si conectamos Fase y Neutro al revés?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El aparato enfría en lugar de calentar.",
+            "isCorrect": false,
+            "explanation": "Imposible; el efecto Joule no depende del sentido de la corriente."
+          },
+          {
+            "id": 2,
+            "answer": "Funciona igual, pero es menos seguro si el interruptor interno solo corta un cable (riesgo de partes en tensión al apagar).",
+            "isCorrect": true,
+            "explanation": "Por eso se recomienda respetar la polaridad o usar interruptores omnipolares. Fuente: Reglas de instalación."
+          },
+          {
+            "id": 3,
+            "answer": "Explota el enchufe.",
+            "isCorrect": false,
+            "explanation": "No, es corriente alterna y el receptor es una resistencia pura."
+          },
+          {
+            "id": 4,
+            "answer": "Gasta el doble.",
+            "isCorrect": false,
+            "explanation": "No influye en el consumo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-46",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el uso de radiadores de aceite frente a los de resistencias al aire?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mayor inercia térmica (aguantan calientes más tiempo apagados).",
+            "isCorrect": true,
+            "explanation": "El aceite retiene el calor."
+          },
+          {
+            "id": 2,
+            "answer": "Menor temperatura superficial (menos riesgo de quemaduras por contacto).",
+            "isCorrect": true,
+            "explanation": "Más seguros en casas con niños."
+          },
+          {
+            "id": 3,
+            "answer": "No resecan tanto el ambiente al no quemar el polvo del aire.",
+            "isCorrect": true,
+            "explanation": "Mejor calidad del aire. Fuente: Confort térmico."
+          },
+          {
+            "id": 4,
+            "answer": "Se pueden usar para freír patatas.",
+            "isCorrect": false,
+            "explanation": "Absurdo y peligroso; el aceite está sellado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-47",
+        "type": "simple",
+        "question": "Sobre los cables de alimentación de los aparatos de caldeo portátiles, ¿por qué suelen tener una cubierta de caucho o tela especial?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que sean más suaves al tacto.",
+            "isCorrect": false,
+            "explanation": "Criterio estético."
+          },
+          {
+            "id": 2,
+            "answer": "Para resistir el calor del propio aparato si el cable llega a tocarlo accidentalmente.",
+            "isCorrect": true,
+            "explanation": "Seguridad contra cortocircuitos por fusión de la cubierta. Fuente: ITC-BT-20."
+          },
+          {
+            "id": 3,
+            "answer": "Para que no se enreden.",
+            "isCorrect": false,
+            "explanation": "No es la función técnica primordial."
+          },
+          {
+            "id": 4,
+            "answer": "Porque son cables baratos.",
+            "isCorrect": false,
+            "explanation": "Al contrario, son cables especiales más caros."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-48",
+        "type": "simple",
+        "question": "En una plancha de asar (grill) eléctrica, ¿qué indica el símbolo de una mano tachada?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que no se debe tocar con las manos sucias.",
+            "isCorrect": false,
+            "explanation": "Criterio de higiene."
+          },
+          {
+            "id": 2,
+            "answer": "Peligro de quemaduras por superficie caliente durante y después del uso.",
+            "isCorrect": true,
+            "explanation": "Advertencia de seguridad térmica. Fuente: Marcado de seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Que no se puede usar para saludar.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que funciona de forma automática sin manos.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-49",
+        "type": "simple",
+        "question": "¿Qué es un 'termostato de seguridad de rearme manual'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que se enciende con una manivela.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Dispositivo que corta el suministro por sobrecalentamiento y obliga a un técnico a pulsar un botón tras revisar el aparato.",
+            "isCorrect": true,
+            "explanation": "Evita que un aparato defectuoso siga intentando calentar tras un fallo. Fuente: Seguridad industrial."
+          },
+          {
+            "id": 3,
+            "answer": "Un termómetro de mercurio.",
+            "isCorrect": false,
+            "explanation": "No es un dispositivo de corte eléctrico."
+          },
+          {
+            "id": 4,
+            "answer": "Un mando a distancia para la calefacción.",
+            "isCorrect": false,
+            "explanation": "No es un elemento de seguridad de rearme."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-45-50",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede enterrar una resistencia eléctrica directamente en el suelo para calentar un jardín?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para que las plantas no pasen frío.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Solo si es un cable calefactor específico diseñado y certificado para ese fin (ej: deshielo de rampas) y con las protecciones reglamentarias.",
+            "isCorrect": true,
+            "explanation": "Requiere un diseño de ingeniería específico por seguridad. Fuente: Aplicaciones especiales."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, usando cable de cobre desnudo.",
+            "isCorrect": false,
+            "explanation": "Peligro mortal de tensiones de paso y contacto."
+          },
+          {
+            "id": 4,
+            "answer": "No, la tierra apagaría el calor.",
+            "isCorrect": false,
+            "explanation": "Falso; la tierra se calentaría pero de forma insegura."
+          }
+        ]
       }
     ]
   }

@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-50-01",
-        "question": "¿Cuál es la norma de referencia para las instalaciones eléctricas en saunas según la ITC-BT-50?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-50?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE 20.460-7-703.",
-            "isCorrect": true,
-            "explanation": "Es la norma específica que regula los requisitos técnicos para locales con radiadores para saunas. Fuente: ITC-BT-50, Apartado 2."
+            "answer": "Regular las piscinas públicas.",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la ITC-BT-31."
           },
           {
             "id": 2,
-            "answer": "UNE 21.031.",
-            "isCorrect": false,
-            "explanation": "Esta norma trata sobre cables, no sobre locales especiales como saunas."
+            "answer": "Determinar los requisitos de las instalaciones eléctricas en locales que contienen radiadores para saunas.",
+            "isCorrect": true,
+            "explanation": "Se enfoca en entornos de alta temperatura y humedad. Fuente: ITC-BT-50, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "ITC-BT-27.",
+            "answer": "Regular la calefacción por gas de las saunas.",
             "isCorrect": false,
-            "explanation": "Aplica a locales con bañera o ducha, no específicamente a saunas."
+            "explanation": "Solo instalaciones eléctricas."
           },
           {
             "id": 4,
-            "answer": "Reglamento de Seguridad en Máquinas.",
+            "answer": "Obligar a que las saunas sean de madera de pino.",
             "isCorrect": false,
-            "explanation": "No es la norma de referencia para la instalación eléctrica fija de la sauna."
+            "explanation": "No es competencia del REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-02",
-        "question": "¿Qué grado de protección IP mínimo deben tener los materiales eléctricos en una sauna?",
+        "type": "simple",
+        "question": "¿Cuál es el grado de protección IP mínimo para el material eléctrico en una sauna?",
         "options": [
           {
             "id": 1,
             "answer": "IP20.",
             "isCorrect": false,
-            "explanation": "Grado básico insuficiente para un entorno con humedad y calor."
+            "explanation": "Insuficiente contra la humedad y salpicaduras."
           },
           {
             "id": 2,
             "answer": "IP24.",
             "isCorrect": true,
-            "explanation": "Protege contra objetos de más de 12,5 mm y contra proyecciones de agua. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Protección contra objetos >12mm y salpicaduras de agua. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "IP44.",
+            "answer": "IP68.",
             "isCorrect": false,
-            "explanation": "Grado superior recomendado pero el mínimo obligatorio es IP24."
+            "explanation": "Es para inmersión; innecesario en una sauna."
           },
           {
             "id": 4,
-            "answer": "IP67.",
+            "answer": "IP44.",
             "isCorrect": false,
-            "explanation": "Grado para inmersión, excesivo para una sauna seca."
+            "explanation": "Es un grado común, pero el REBT especifica IP24 como base."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-03",
-        "question": "En caso de usar Muy Baja Tensión de Seguridad (MBTS), ¿qué aislamiento mínimo deben soportar los cables si no tienen envolvente IP2X?",
+        "type": "simple",
+        "question": "¿Se permite la instalación de bases de toma de corriente (enchufes) dentro del local de la sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "100 V durante 10 segundos.",
+            "answer": "Sí, para conectar la radio.",
             "isCorrect": false,
-            "explanation": "Tensión y tiempo insuficientes para garantizar la seguridad."
+            "explanation": "Peligrosísimo por humedad y calor."
           },
           {
             "id": 2,
-            "answer": "500 V durante 1 minuto.",
+            "answer": "No, está prohibido instalar ninguna base de toma de corriente en el interior.",
             "isCorrect": true,
-            "explanation": "Es el ensayo de rigidez dieléctrica requerido para asegurar la protección contra contactos directos. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Garantiza que no se usen aparatos no aptos en el entorno peligroso. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "1.000 V permanentemente.",
+            "answer": "Solo si tienen tapa.",
             "isCorrect": false,
-            "explanation": "Valor de ensayo fuera de escala para MBTS en saunas."
+            "explanation": "La prohibición es total."
           },
           {
             "id": 4,
-            "answer": "No es necesario ensayo si el cable es de color rojo.",
+            "answer": "Sí, si están a ras de suelo.",
             "isCorrect": false,
-            "explanation": "El color no garantiza las propiedades de aislamiento."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-04",
-        "question": "¿Qué métodos de protección contra contactos directos NO se admiten en saunas?",
+        "type": "simple",
+        "question": "Sobre la aparamenta de mando (interruptores) que no esté integrada en el radiador, ¿dónde debe situarse?",
         "options": [
           {
             "id": 1,
-            "answer": "El aislamiento de las partes activas.",
+            "answer": "En el techo de la sauna.",
             "isCorrect": false,
-            "explanation": "El aislamiento es el método básico y sí se admite."
-          },
-          {
-            "id": 2,
-            "answer": "Mediante obstáculos o por fuera de alcance por alejamiento.",
-            "isCorrect": true,
-            "explanation": "Debido al espacio reducido y la movilidad del usuario desnudo, estos métodos no son fiables. Fuente: ITC-BT-50, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "Uso de interruptores diferenciales.",
-            "isCorrect": false,
-            "explanation": "Es una protección complementaria contra contactos indirectos y sí se usa."
-          },
-          {
-            "id": 4,
-            "answer": "Las envolventes con grado IP2X.",
-            "isCorrect": false,
-            "explanation": "Se admiten como método de protección física."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-50-05",
-        "question": "¿Qué característica deben tener las canalizaciones en una sauna respecto a su revestimiento?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Deben tener revestimiento metálico para disipar calor.",
-            "isCorrect": false,
-            "explanation": "El metal podría conducir tensiones peligrosas y calentarse excesivamente por el ambiente."
-          },
-          {
-            "id": 2,
-            "answer": "No deben incluir revestimiento metálico y tener aislamiento Clase II.",
-            "isCorrect": true,
-            "explanation": "Se busca evitar masas metálicas accesibles que puedan dar lugar a contactos indirectos. Fuente: ITC-BT-50, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "Deben ser de cobre desnudo.",
-            "isCorrect": false,
-            "explanation": "Totalmente prohibido, los conductores deben estar aislados."
-          },
-          {
-            "id": 4,
-            "answer": "Deben ser cables tipo manguera de PVC normal.",
-            "isCorrect": false,
-            "explanation": "El PVC normal no soporta las temperaturas de la sauna (125°C en zonas altas)."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-50-06",
-        "question": "¿Dónde debe situarse la aparamenta que no forma parte del radiador de la sauna?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Debajo del radiador para que esté fría.",
-            "isCorrect": false,
-            "explanation": "Sigue estando dentro del local y sujeta a condiciones extremas."
+            "explanation": "El calor lo dañaría."
           },
           {
             "id": 2,
             "answer": "Fuera del local de la sauna.",
             "isCorrect": true,
-            "explanation": "Para proteger los mecanismos (interruptores, protecciones) de la temperatura y humedad. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Protege los mecanismos del calor y la humedad extrema. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "En el techo, en la zona 4.",
+            "answer": "Debajo del radiador.",
             "isCorrect": false,
-            "explanation": "La zona 4 es la más caliente (125°C), lo cual dañaría los mecanismos."
+            "explanation": "No."
           },
           {
             "id": 4,
-            "answer": "Detrás de los bancos de madera.",
+            "answer": "En el centro de la sala para que sea accesible.",
             "isCorrect": false,
-            "explanation": "Acceso difícil y exposición a calor."
+            "explanation": "Debe estar fuera."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-50-07",
-        "question": "¿Está permitida la instalación de bases de toma de corriente dentro de la sauna?",
+        "id": "ITC-BT-50-05",
+        "type": "simple",
+        "question": "En la Zona 3 de una sauna (parte superior de las paredes), ¿qué temperatura deben soportar los materiales?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si tienen tapa IP44.",
+            "answer": "50 ºC.",
             "isCorrect": false,
-            "explanation": "El riesgo de contacto y la degradación por calor prohíben su uso."
-          },
-          {
-            "id": 2,
-            "answer": "No se debe instalar ninguna base de toma de corriente.",
-            "isCorrect": true,
-            "explanation": "Prohibición absoluta para evitar el uso de aparatos eléctricos portátiles en el interior. Fuente: ITC-BT-50, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en la zona 2 (cerca del suelo).",
-            "isCorrect": false,
-            "explanation": "Aunque es la zona más fría, la prohibición es general para todo el local."
-          },
-          {
-            "id": 4,
-            "answer": "Sí, para conectar equipos de música.",
-            "isCorrect": false,
-            "explanation": "Los equipos de música deben estar fuera o ser específicos y estar cableados sin tomas."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-50-08",
-        "question": "¿Qué materiales se admiten en la Zona 1 de una sauna?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Cualquier luminaria de emergencia.",
-            "isCorrect": false,
-            "explanation": "La Zona 1 es la zona del radiador y solo admite sus propios componentes."
-          },
-          {
-            "id": 2,
-            "answer": "Solamente los materiales pertenecientes a los radiadores para saunas.",
-            "isCorrect": true,
-            "explanation": "Es la zona de máxima temperatura y riesgo térmico directo del aparato. Fuente: ITC-BT-50, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "Tomas de corriente IP65.",
-            "isCorrect": false,
-            "explanation": "Las tomas están prohibidas en toda la sauna."
-          },
-          {
-            "id": 4,
-            "answer": "Interruptores de ventilación.",
-            "isCorrect": false,
-            "explanation": "Deben estar fuera del local o integrados en el radiador."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-50-09",
-        "question": "¿Qué requisito de resistencia al calor tienen los materiales en la Zona 2 de la sauna?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Deben soportar 125 ºC.",
-            "isCorrect": false,
-            "explanation": "Este requisito es para las zonas 3 y 4."
-          },
-          {
-            "id": 2,
-            "answer": "No es necesaria ninguna prescripción especial desde el punto de vista de resistencia al calor.",
-            "isCorrect": true,
-            "explanation": "Al ser la zona más baja (hasta 0,5 m), la temperatura es moderada. Fuente: ITC-BT-50, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "Deben ser de materiales cerámicos obligatoriamente.",
-            "isCorrect": false,
-            "explanation": "No se exige material específico si no hay requerimiento térmico especial."
-          },
-          {
-            "id": 4,
-            "answer": "Deben soportar 170 ºC.",
-            "isCorrect": false,
-            "explanation": "Valor excesivo que no se contempla en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-50-10",
-        "question": "¿Qué temperatura deben poder soportar los materiales en la Zona 3 y Zona 4?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "70 ºC.",
-            "isCorrect": false,
-            "explanation": "Temperatura que puede alcanzarse fácilmente; se requiere más resistencia."
+            "explanation": "Demasiado baja para una sauna."
           },
           {
             "id": 2,
             "answer": "125 ºC.",
             "isCorrect": true,
-            "explanation": "Es la temperatura de diseño para equipos en zonas de acumulación de aire caliente (techo). Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Es la zona donde se acumula el aire más caliente. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "200 ºC.",
+            "answer": "70 ºC.",
             "isCorrect": false,
-            "explanation": "Temperatura de ignición de maderas; los equipos no necesitan llegar a tanto."
+            "explanation": "Cualquier cable estándar de PVC fallaría."
           },
           {
             "id": 4,
-            "answer": "La temperatura ambiente más 20 grados.",
+            "answer": "200 ºC.",
             "isCorrect": false,
-            "explanation": "La norma fija un valor absoluto de 125 ºC."
+            "explanation": "Valor excesivo para el requisito normativo."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-50-06",
+        "type": "multiple",
+        "question": "¿Qué requisitos deben cumplir las canalizaciones eléctricas dentro de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben disponer de aislamiento de Clase II o equivalente.",
+            "isCorrect": true,
+            "explanation": "Doble aislamiento para mayor seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "No deben incluir revestimientos metálicos accesibles.",
+            "isCorrect": true,
+            "explanation": "Evita riesgos de contactos indirectos y quemaduras por calor. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser de color rojo para indicar peligro.",
+            "isCorrect": false,
+            "explanation": "El color no es un requisito técnico de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Deben ir empotradas si es posible.",
+            "isCorrect": true,
+            "explanation": "Protege los cables del calor directo y daños mecánicos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-07",
+        "type": "simple",
+        "question": "¿Qué se permite instalar en la Zona 1 de una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Altavoces de música.",
+            "isCorrect": false,
+            "explanation": "No se permite."
+          },
+          {
+            "id": 2,
+            "answer": "Únicamente los materiales que formen parte del propio radiador de la sauna.",
+            "isCorrect": true,
+            "explanation": "Es la zona de máximo calor y peligro. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Luminarias de emergencia.",
+            "isCorrect": false,
+            "explanation": "Deben ir en zonas menos calientes."
+          },
+          {
+            "id": 4,
+            "answer": "Relojes de arena.",
+            "isCorrect": false,
+            "explanation": "No es material eléctrico (objeto del REBT)."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-08",
+        "type": "simple",
+        "question": "Sobre la protección diferencial, ¿cuál es la sensibilidad máxima permitida para los circuitos de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "300 mA.",
+            "isCorrect": false,
+            "explanation": "Demasiado alta para protección de personas en zonas húmedas."
+          },
+          {
+            "id": 2,
+            "answer": "30 mA (Alta sensibilidad).",
+            "isCorrect": true,
+            "explanation": "Protección fundamental contra contactos accidentales en entornos de baja resistencia corporal. Fuente: ITC-BT-24."
+          },
+          {
+            "id": 3,
+            "answer": "1 A.",
+            "isCorrect": false,
+            "explanation": "Peligrosísimo."
+          },
+          {
+            "id": 4,
+            "answer": "No hace falta diferencial si hay tierra.",
+            "isCorrect": false,
+            "explanation": "El diferencial es obligatorio."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-09",
+        "type": "simple",
+        "question": "En la Zona 2 (cerca del suelo), ¿qué requisito especial de resistencia al calor se exige?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Soportar 125 ºC.",
+            "isCorrect": false,
+            "explanation": "Eso es para la Zona 3."
+          },
+          {
+            "id": 2,
+            "answer": "No es necesaria ninguna prescripción especial de resistencia al calor.",
+            "isCorrect": true,
+            "explanation": "Es la zona más fría de la sauna por convección. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Deben ser ignífugos.",
+            "isCorrect": false,
+            "explanation": "No se especifica para esta zona."
+          },
+          {
+            "id": 4,
+            "answer": "Deben estar bañados en oro.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-10",
+        "type": "simple",
+        "question": "¿Qué tipos de dispositivos se permiten en la Zona 4 (techo)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Televisores.",
+            "isCorrect": false,
+            "explanation": "Incompatible con el ambiente."
+          },
+          {
+            "id": 2,
+            "answer": "Luminarias con protección térmica y dispositivos de mando del radiador (termostatos/limitadores).",
+            "isCorrect": true,
+            "explanation": "Permite el control de seguridad de la temperatura. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Cualquier cosa IP24.",
+            "isCorrect": false,
+            "explanation": "La Zona 4 tiene restricciones de tipo de equipo."
+          },
+          {
+            "id": 4,
+            "answer": "Secadores de pelo fijos.",
+            "isCorrect": false,
+            "explanation": "No se permiten."
+          }
+        ]
       },
       {
         "id": "ITC-BT-50-11",
-        "question": "¿Qué equipos se pueden instalar en la Zona 4 de la sauna?",
+        "type": "multiple",
+        "question": "¿Por qué no se admiten revestimientos metálicos en los cables de una sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Altavoces de música convencionales.",
-            "isCorrect": false,
-            "explanation": "Se derretirían por el calor del techo."
+            "answer": "Porque el metal se calienta mucho y puede quemar al usuario si lo toca.",
+            "isCorrect": true,
+            "explanation": "Riesgo de quemadura térmica por contacto."
           },
           {
             "id": 2,
-            "answer": "Luminarias con protección de sobrecalentamiento y dispositivos de mando del radiador (termostatos).",
+            "answer": "Porque pueden ponerse accidentalmente bajo tensión y aumentar el riesgo de electrocución.",
             "isCorrect": true,
-            "explanation": "Son elementos necesarios para el funcionamiento y control de la sauna. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Seguridad eléctrica en ambiente húmedo."
           },
           {
             "id": 3,
-            "answer": "Solo cables de alimentación, sin equipos.",
-            "isCorrect": false,
-            "explanation": "Se permiten luminarias y mandos específicos."
+            "answer": "Porque el sudor corroe el metal rápidamente.",
+            "isCorrect": true,
+            "explanation": "Durabilidad del material. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 4,
-            "answer": "Cualquier equipo con marcado 'CE'.",
+            "answer": "Porque el metal atrae a los rayos.",
             "isCorrect": false,
-            "explanation": "El marcado CE no garantiza resistencia a 125 ºC."
+            "explanation": "Absurdo en interior de edificio."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-12",
-        "question": "¿A qué distancia del techo empieza la Zona 4?",
+        "type": "simple",
+        "question": "Sobre el uso de Muy Baja Tensión de Seguridad (MBTS), ¿qué ensayo de aislamiento deben soportar las partes activas si no tienen envolvente IP2X?",
         "options": [
           {
             "id": 1,
-            "answer": "A 1 metro.",
+            "answer": "100 V durante 10 segundos.",
             "isCorrect": false,
-            "explanation": "Distancia excesiva; la zona 4 es solo la franja superior."
+            "explanation": "Insuficiente."
           },
           {
             "id": 2,
-            "answer": "A 0,3 metros (30 cm).",
+            "answer": "500 V durante 1 minuto.",
             "isCorrect": true,
-            "explanation": "Es la profundidad de la zona de máximo calor pegada al techo. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+            "explanation": "Garantiza la integridad del aislamiento dieléctrico. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "A 0,5 metros.",
+            "answer": "1.000 V durante 1 hora.",
             "isCorrect": false,
-            "explanation": "Esta es la altura de la zona 2 desde el suelo."
+            "explanation": "Excesivo para MBTS."
           },
           {
             "id": 4,
-            "answer": "Ocupa todo el local si la sauna es pequeña.",
+            "answer": "No necesitan ensayo.",
             "isCorrect": false,
-            "explanation": "Las zonas se definen por dimensiones fijas independientemente del tamaño total."
+            "explanation": "Es obligatorio para asegurar la seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-13",
-        "question": "¿Cuál es la altura de la Zona 2 desde el suelo de la sauna?",
+        "type": "simple",
+        "question": "¿Qué ocurre si un cable de PVC estándar se instala en la Zona 3 de una sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "0,2 metros.",
+            "answer": "Funciona mejor por el calor.",
             "isCorrect": false,
-            "explanation": "Valor muy bajo que no coincide con la norma."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "0,5 metros (50 cm).",
+            "answer": "El aislamiento se derrite o se vuelve quebradizo en pocos días, provocando un cortocircuito o incendio.",
             "isCorrect": true,
-            "explanation": "Cubre la parte inferior del local donde el aire está más frío. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+            "explanation": "El PVC estándar solo soporta 70 ºC de forma segura. Fuente: Propiedades de materiales."
           },
           {
             "id": 3,
-            "answer": "1,0 metro.",
+            "answer": "Cambia de color pero no pasa nada.",
             "isCorrect": false,
-            "explanation": "A esa altura la temperatura ya empieza a ser considerable."
+            "explanation": "La degradación química es inevitable."
           },
           {
             "id": 4,
-            "answer": "No hay límite de altura en la Zona 2.",
+            "answer": "Se vuelve conductor.",
             "isCorrect": false,
-            "explanation": "El límite es precisamente 0,5 metros."
+            "explanation": "Pierde su propiedad aislante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-14",
-        "question": "¿Qué anchura tiene la Zona 1 alrededor del radiador de la sauna?",
+        "type": "simple",
+        "question": "¿Cuál es la función del limitador de temperatura en un radiador de sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "La que indique el fabricante del radiador.",
+            "answer": "Que la sauna no gaste mucha luz.",
             "isCorrect": false,
-            "explanation": "Aunque es importante, el REBT define una zona estándar en su esquema."
+            "explanation": "Función secundaria."
           },
           {
             "id": 2,
-            "answer": "0,5 metros alrededor del radiador.",
+            "answer": "Cortar la alimentación si la temperatura sube peligrosamente por encima de los niveles de seguridad.",
             "isCorrect": true,
-            "explanation": "Es el volumen reservado exclusivamente para el equipo de caldeo. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+            "explanation": "Evita incendios y daños a la salud de los usuarios. Fuente: Seguridad de receptores."
           },
           {
             "id": 3,
-            "answer": "1 metro.",
+            "answer": "Regular el tiempo de uso.",
             "isCorrect": false,
-            "explanation": "Distancia mayor a la fijada por el esquema de zonas de la ITC."
+            "explanation": "Eso lo hace el temporizador."
           },
           {
             "id": 4,
-            "answer": "No hay zona de exclusión si el radiador es de infrarrojos.",
+            "answer": "Avisar cuando la sauna está lista.",
             "isCorrect": false,
-            "explanation": "Aplica a todos los radiadores para saunas."
+            "explanation": "No; es un dispositivo de seguridad crítica."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-15",
-        "question": "En la Zona 4, ¿qué característica adicional deben tener las luminarias?",
+        "type": "simple",
+        "question": "Sobre la ventilación del local de la sauna, ¿cómo influye en la instalación eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Ser de bajo consumo.",
+            "answer": "No influye en nada.",
             "isCorrect": false,
-            "explanation": "Recomendable por ahorro, pero no por seguridad térmica."
+            "explanation": "Influye en la disipación de calor de los equipos."
           },
           {
             "id": 2,
-            "answer": "Estar instaladas con sistemas de sobrecalentamiento (protección térmica).",
+            "answer": "Una buena ventilación ayuda a mantener las temperaturas dentro de los límites de diseño de los materiales.",
             "isCorrect": true,
-            "explanation": "Evita que el propio calor de la lámpara sumado al de la sauna cause un incendio. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Evita el estancamiento de calor extremo. Fuente: Diseño de saunas."
           },
           {
             "id": 3,
-            "answer": "Tener bombillas de cristal de cuarzo.",
+            "answer": "Hace que los cables se oxiden más.",
             "isCorrect": false,
-            "explanation": "Es una característica constructiva, pero el requisito es la protección."
+            "explanation": "Al contrario, reduce la humedad relativa extrema."
           },
           {
             "id": 4,
-            "answer": "Funcionar a 12 V obligatoriamente.",
+            "answer": "Solo sirve para que respiren los usuarios.",
             "isCorrect": false,
-            "explanation": "Se permite 230 V si cumplen los requisitos de aislamiento y protección."
+            "explanation": "Es vital para los usuarios y los equipos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-16",
-        "question": "¿Qué elemento de seguridad es crítico en los radiadores de saunas para evitar el exceso de calor?",
+        "type": "multiple",
+        "question": "¿Qué tipos de cables son aptos para la Zona 3 de una sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Un fusible de 16 A.",
-            "isCorrect": false,
-            "explanation": "Protege contra sobreintensidad, no contra sobretemperatura ambiente."
+            "answer": "Cables con aislamiento de silicona.",
+            "isCorrect": true,
+            "explanation": "Soportan hasta 180 ºC."
           },
           {
             "id": 2,
-            "answer": "Un limitador de temperatura (termostato de seguridad).",
+            "answer": "Cables con aislamiento de Teflón (PTFE).",
             "isCorrect": true,
-            "explanation": "Corta la alimentación si se superan los límites de seguridad (normalmente 140°C). Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Excelente resistencia térmica y química."
           },
           {
             "id": 3,
-            "answer": "Un avisador acústico.",
-            "isCorrect": false,
-            "explanation": "Avisa pero no detiene el proceso de calentamiento."
+            "answer": "Cables con cubierta de goma de alta temperatura.",
+            "isCorrect": true,
+            "explanation": "Específicos para este fin. Fuente: Especificaciones de conductores."
           },
           {
             "id": 4,
-            "answer": "Un reloj de arena.",
+            "answer": "Manguera blanca H05VV-F.",
             "isCorrect": false,
-            "explanation": "Es para el usuario, no es un elemento de seguridad eléctrica."
+            "explanation": "Es PVC estándar; prohibido en Zona 3."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-17",
-        "question": "¿Se permite el uso de cables con aislamiento de PVC normal en las zonas 3 y 4?",
+        "type": "simple",
+        "question": "Sobre la iluminación, ¿se pueden usar bombillas incandescentes normales dentro de una sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si se meten por tubo corrugado.",
+            "answer": "Sí, si son de pocos vatios.",
             "isCorrect": false,
-            "explanation": "El PVC se degradaría y fundiría a los 125 ºC requeridos."
+            "explanation": "El calor exterior las haría explotar o fallar pronto."
           },
           {
             "id": 2,
-            "answer": "No, se deben usar cables con aislamiento resistente al calor (ej. silicona).",
+            "answer": "Solo si van dentro de un globo estanco (IP24) y son aptas para altas temperaturas.",
             "isCorrect": true,
-            "explanation": "Los cables deben soportar la temperatura ambiente de diseño (125 ºC). Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Protección contra explosión del cristal por salpicaduras. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "Solo si la sauna no se usa más de 1 hora al día.",
+            "answer": "No, están prohibidas por ley de eficiencia.",
             "isCorrect": false,
-            "explanation": "La instalación debe ser segura para uso continuado."
+            "explanation": "En saunas se permiten modelos específicos por su resistencia al calor (el LED sufre mucho)."
           },
           {
             "id": 4,
-            "answer": "Sí, si son cables de 6 mm² de sección.",
+            "answer": "Sí, sin protección.",
             "isCorrect": false,
-            "explanation": "La sección no mejora la resistencia térmica del aislamiento."
+            "explanation": "Peligro de cristales rotos y descarga."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-18",
-        "question": "¿Cómo se define la Zona 3 en una sauna?",
+        "type": "simple",
+        "question": "¿Qué es la 'distancia de seguridad' al radiador de la sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Es el volumen por encima de 0,5 m hasta el límite de la zona 4.",
-            "isCorrect": true,
-            "explanation": "Es la zona intermedia de temperatura alta donde los materiales deben aguantar 125 ºC. Fuente: ITC-BT-50, Apartado 2 (Diagrama)."
+            "answer": "La distancia para no quemarse al tocarlo.",
+            "isCorrect": false,
+            "explanation": "Eso es obvio, pero hay más."
           },
           {
             "id": 2,
-            "answer": "Es el pasillo de acceso a la sauna.",
-            "isCorrect": false,
-            "explanation": "Esa zona está fuera del local de la sauna."
+            "answer": "Distancia mínima marcada por el fabricante a materiales combustibles y otros equipos para evitar incendios.",
+            "isCorrect": true,
+            "explanation": "Vital para la prevención de siniestros. Fuente: Instrucciones de montaje del fabricante."
           },
           {
             "id": 3,
-            "answer": "Es el espacio debajo de los bancos.",
+            "answer": "10 metros.",
             "isCorrect": false,
-            "explanation": "Eso formaría parte de la zona 2 si está por debajo de 0,5 m."
+            "explanation": "Valor arbitrario."
           },
           {
             "id": 4,
-            "answer": "Es la zona de ventilación natural.",
+            "answer": "No hay distancia si el radiador es bueno.",
             "isCorrect": false,
-            "explanation": "Las zonas se definen geométricamente, no por función de aire."
+            "explanation": "Todos emiten calor intenso que requiere espacio de disipación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-19",
-        "question": "¿Qué protección se exige si se limpian los locales de sauna con chorros de agua?",
+        "type": "simple",
+        "question": "En caso de usar luminarias LED, ¿cuál es el principal enemigo técnico en una sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Cerrar la llave de paso del agua.",
+            "answer": "La luz roja.",
             "isCorrect": false,
-            "explanation": "No es una medida de protección eléctrica."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "Los equipos deben tener un grado de protección mínimo IPX5.",
+            "answer": "La degradación del driver y de los chips por exceso de temperatura (muerte prematura).",
             "isCorrect": true,
-            "explanation": "El grado IPX5 garantiza protección contra chorros de agua. Fuente: Reglas generales de grados IP."
+            "explanation": "El LED requiere disipación eficiente, difícil de lograr en una sauna. Fuente: Electrónica de estado sólido."
           },
           {
             "id": 3,
-            "answer": "Usar solo equipos a 12 V.",
+            "answer": "Que los usuarios se deslumbran.",
             "isCorrect": false,
-            "explanation": "Incluso a 12 V se requiere estanqueidad para evitar la corrosión y fallos."
+            "explanation": "No es el problema técnico principal."
           },
           {
             "id": 4,
-            "answer": "Prohibir la limpieza con agua.",
+            "answer": "La humedad del sudor.",
             "isCorrect": false,
-            "explanation": "La norma permite la limpieza si los equipos están preparados."
+            "explanation": "Es un factor, pero el calor es más destructivo para el silicio."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-20",
-        "question": "¿Pueden los termostatos de la sauna estar situados en la Zona 4?",
+        "type": "simple",
+        "question": "Sobre la puesta a tierra, ¿qué partes deben conectarse en una sauna industrial?",
         "options": [
           {
             "id": 1,
-            "answer": "No, se quemarían.",
+            "answer": "Nada, para que no salte el diferencial.",
             "isCorrect": false,
-            "explanation": "Deben estar diseñados para soportar 125 ºC precisamente porque se ubican ahí."
+            "explanation": "Criminal."
           },
           {
             "id": 2,
-            "answer": "Sí, se permite su instalación junto con sus canalizaciones.",
+            "answer": "La carcasa metálica del radiador y cualquier masa metálica accesible de la instalación.",
             "isCorrect": true,
-            "explanation": "Es la ubicación lógica para medir la temperatura máxima del aire. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Protección fundamental contra derivaciones. Fuente: ITC-BT-18."
           },
           {
             "id": 3,
-            "answer": "Solo si son inalámbricos.",
+            "answer": "Solo los cables de cobre.",
             "isCorrect": false,
-            "explanation": "Se permiten canalizaciones cableadas si soportan la temperatura."
+            "explanation": "Incompleto."
           },
           {
             "id": 4,
-            "answer": "Solo si se instalan en saunas públicas.",
+            "answer": "Se debe conectar a la madera.",
             "isCorrect": false,
-            "explanation": "Aplica a cualquier instalación de sauna."
+            "explanation": "La madera es aislante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-21",
-        "question": "¿Qué ocurre si un material eléctrico en la zona 3 no soporta los 125 ºC?",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene situar el cuadro de protección fuera de la sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Nada, se puede usar si el local está ventilado.",
-            "isCorrect": false,
-            "explanation": "Incumplimiento grave por riesgo de incendio y fallo de aislamiento."
+            "answer": "Mayor durabilidad de los magnetotérmicos y diferenciales.",
+            "isCorrect": true,
+            "explanation": "Trabajan en ambiente fresco y seco."
           },
           {
             "id": 2,
-            "answer": "Está prohibido su uso en esa zona.",
+            "answer": "Facilidad de rearme sin tener que entrar en la sala caliente.",
             "isCorrect": true,
-            "explanation": "La seguridad térmica es un pilar fundamental de esta instrucción. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Confort y seguridad."
           },
           {
             "id": 3,
-            "answer": "Se debe pintar con pintura ignífuga.",
-            "isCorrect": false,
-            "explanation": "La pintura no cambia las propiedades térmicas internas del equipo."
+            "answer": "Evita la corrosión de los contactos eléctricos por humedad.",
+            "isCorrect": true,
+            "explanation": "Mejor fiabilidad. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 4,
-            "answer": "Se permite si se protege con un fusible más pequeño.",
+            "answer": "Ahorro de cable.",
             "isCorrect": false,
-            "explanation": "El fusible no protege contra el calor ambiental."
+            "explanation": "Incluso puede gastar un poco más, pero vale la pena."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-22",
-        "question": "¿Cuál es el propósito del aislamiento Clase II en las canalizaciones de la sauna?",
+        "type": "simple",
+        "question": "¿Qué es la 'protección contra sobrecalentamiento' en una luminaria de sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Que pesen menos.",
+            "answer": "Que no se caliente el cristal.",
             "isCorrect": false,
-            "explanation": "El peso no es relevante para la seguridad eléctrica aquí."
+            "explanation": "El cristal se calentará igual."
           },
           {
             "id": 2,
-            "answer": "Proporcionar una doble protección contra contactos indirectos sin depender de la puesta a tierra.",
+            "answer": "Un dispositivo térmico que apaga la luz si el ambiente supera la temperatura de seguridad del equipo.",
             "isCorrect": true,
-            "explanation": "Vital en entornos donde el usuario tiene la piel húmeda y poca resistencia eléctrica. Fuente: Principios de seguridad del REBT."
+            "explanation": "Evita que la luminaria se convierta en un foco de incendio. Fuente: ITC-BT-50, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "Permitir el uso de cables más finos.",
+            "answer": "Ponerle hielo.",
             "isCorrect": false,
-            "explanation": "La clase de aislamiento no determina la sección del conductor."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
-            "answer": "Es solo para que los cables sean de color gris.",
+            "answer": "Pintarla de color plata.",
             "isCorrect": false,
-            "explanation": "La Clase II es un nivel de seguridad, no un color."
+            "explanation": "Ayuda a reflejar, pero no es el sistema de protección requerido."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-23",
-        "question": "¿Se permite la instalación de interruptores de luz dentro de la sauna?",
+        "type": "simple",
+        "question": "Sobre los cables que alimentan el radiador de la sauna, ¿pueden llevar empalmes dentro de la sala?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si son estancos IP65.",
+            "answer": "Sí, con clemas.",
             "isCorrect": false,
-            "explanation": "La aparamenta debe estar fuera para evitar manipulaciones en condiciones extremas."
+            "explanation": "Punto de fallo por calor y humedad."
           },
           {
             "id": 2,
-            "answer": "No, la aparamenta debe estar fuera del local.",
+            "answer": "Se recomienda que sean cables continuos desde el exterior hasta los bornes del aparato.",
             "isCorrect": true,
-            "explanation": "Evita el riesgo de choque eléctrico y el deterioro del mecanismo por calor. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Elimina puntos débiles de conexión en zona hostil. Fuente: Recomendaciones de instalación."
           },
           {
             "id": 3,
-            "answer": "Solo si son de madera.",
+            "answer": "Sí, con cinta aislante de tela.",
             "isCorrect": false,
-            "explanation": "La madera no es un material apto para mecanismos eléctricos de maniobra."
+            "explanation": "Inseguro e inflamable."
           },
           {
             "id": 4,
-            "answer": "Sí, pero solo en la Zona 2.",
+            "answer": "No pueden pasar cables por dentro.",
             "isCorrect": false,
-            "explanation": "La restricción de aparamenta fuera del local es general."
+            "explanation": "Tienen que pasar para alimentar el radiador."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-24",
-        "question": "En la Zona 4, ¿pueden instalarse luminarias que no tengan nada que ver con la sauna?",
+        "type": "simple",
+        "question": "¿Para qué sirve el sensor de temperatura en el techo de la sauna?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si son bonitas.",
+            "answer": "Para decorar.",
             "isCorrect": false,
-            "explanation": "Deben cumplir estrictamente los requisitos de la instrucción."
+            "explanation": "Absurdo."
           },
           {
             "id": 2,
-            "answer": "No, solo se admiten luminarias y dispositivos de mando propios del servicio de la sauna.",
+            "answer": "Manda información al cuadro externo para regular la potencia del radiador y mantener la consigna.",
             "isCorrect": true,
-            "explanation": "Se limita el equipamiento al mínimo necesario para reducir riesgos. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Cerebro del sistema de calefacción. Fuente: Sistemas de control de saunas."
           },
           {
             "id": 3,
-            "answer": "Solo si funcionan con pilas.",
+            "answer": "Para apagar la luz.",
             "isCorrect": false,
-            "explanation": "Las pilas podrían explotar con el calor de la Zona 4 (125 ºC)."
+            "explanation": "No es su función principal."
           },
           {
             "id": 4,
-            "answer": "Sí, pero deben ser de Clase III.",
+            "answer": "Para medir la humedad.",
             "isCorrect": false,
-            "explanation": "Incluso las de Clase III deben ser para uso en saunas y aguantar la temperatura."
+            "explanation": "Ese sería el higrostato."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-50-25",
-        "question": "¿Cómo se asegura la protección contra contactos directos en MBTS mediante aislamiento?",
+        "type": "simple",
+        "question": "Sobre el mantenimiento, ¿con qué frecuencia debe revisarse el estado de los cables en una sauna pública?",
         "options": [
           {
             "id": 1,
-            "answer": "Usando cables de 10 mm².",
+            "answer": "Cada 10 años.",
             "isCorrect": false,
-            "explanation": "La sección no es aislamiento."
+            "explanation": "Demasiado tiempo para un entorno tan agresivo."
           },
           {
             "id": 2,
-            "answer": "Soportando un ensayo de 500 V durante 1 minuto.",
+            "answer": "Anualmente o semestralmente, buscando signos de endurecimiento del aislamiento o corrosión.",
             "isCorrect": true,
-            "explanation": "Es la prueba reglamentaria para validar la integridad del aislamiento en estas condiciones. Fuente: ITC-BT-50, Apartado 2."
+            "explanation": "Garantiza la seguridad de los usuarios. Fuente: Mantenimiento preventivo."
           },
           {
             "id": 3,
-            "answer": "Envolviendo el cable en papel de aluminio.",
+            "answer": "Nunca si funcionan.",
             "isCorrect": false,
-            "explanation": "El aluminio es conductor y aumentaría el riesgo."
+            "explanation": "Peligro de accidente latente."
           },
           {
             "id": 4,
-            "answer": "No se requiere nada especial si la tensión es de 12 V.",
+            "answer": "Solo si hay olor a quemado.",
             "isCorrect": false,
-            "explanation": "En saunas, las condiciones extremas exigen validar el aislamiento incluso en MBT."
+            "explanation": "Para entonces el riesgo ya es muy alto."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-50-26",
+        "type": "multiple",
+        "question": "¿Qué problemas causa el exceso de piedras sobre el radiador de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mala circulación de aire, sobrecalentando las resistencias eléctricas.",
+            "isCorrect": true,
+            "explanation": "Reduce la vida útil del radiador."
+          },
+          {
+            "id": 2,
+            "answer": "Riesgo de que salte el limitador térmico constantemente.",
+            "isCorrect": true,
+            "explanation": "Avería recurrente por mala praxis."
+          },
+          {
+            "id": 3,
+            "answer": "Posible rotura mecánica de los soportes metálicos por peso excesivo.",
+            "isCorrect": true,
+            "explanation": "Seguridad física del aparato. Fuente: Manuales de radiadores."
+          },
+          {
+            "id": 4,
+            "answer": "Que el agua sepa a piedra.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-27",
+        "type": "simple",
+        "question": "En un baño turco (Hammam), ¿se aplican las mismas reglas que en la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, son lo mismo.",
+            "isCorrect": false,
+            "explanation": "El Hammam tiene mucha más humedad (100%) y menos temperatura."
+          },
+          {
+            "id": 2,
+            "answer": "Son similares, pero el Hammam exige grados IP mayores (IPX5/X6) por el vapor constante.",
+            "isCorrect": true,
+            "explanation": "Cada entorno húmedo tiene sus matices técnicos. Fuente: ITC-BT-30 / 50."
+          },
+          {
+            "id": 3,
+            "answer": "No se permite electricidad en baños turcos.",
+            "isCorrect": false,
+            "explanation": "Se permite con estrictas medidas de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se usa luz de velas.",
+            "isCorrect": false,
+            "explanation": "No es práctico ni seguro para uso público."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-28",
+        "type": "simple",
+        "question": "¿Qué es la 'zona de sombra' térmica tras el radiador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Donde no llega la luz.",
+            "isCorrect": false,
+            "explanation": "No tiene que ver con la luz."
+          },
+          {
+            "id": 2,
+            "answer": "Espacio protegido por el propio cuerpo del radiador donde la temperatura es ligeramente inferior y se pueden pasar cables con menos riesgo.",
+            "isCorrect": true,
+            "explanation": "Técnica de montaje para proteger el cableado. Fuente: Diseño industrial de saunas."
+          },
+          {
+            "id": 3,
+            "answer": "Donde se sientan los que tienen frío.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "No existe tal zona.",
+            "isCorrect": false,
+            "explanation": "Toda fuente de calor tiene perfiles térmicos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-29",
+        "type": "simple",
+        "question": "Sobre el uso de madera conductora (carbonizada), ¿afecta a la seguridad eléctrica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, la madera nunca conduce.",
+            "isCorrect": false,
+            "explanation": "La madera carbonizada puede volverse algo conductora."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, puede crear caminos de fuga de corriente si un cable pelado la toca.",
+            "isCorrect": true,
+            "explanation": "Riesgo de incendio por arco rastrero. Fuente: Seguridad contra incendios."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si está mojada con agua de mar.",
+            "isCorrect": false,
+            "explanation": "Afecta, pero el carbonizado es el factor clave aquí."
+          },
+          {
+            "id": 4,
+            "answer": "La madera se vuelve metal.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-30",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede instalar un equipo de música (radio/CD) dentro de una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para estar relajado.",
+            "isCorrect": false,
+            "explanation": "El calor destruiría el aparato y es un riesgo eléctrico."
+          },
+          {
+            "id": 2,
+            "answer": "Solo se permiten los altavoces (aptos para calor) conectados a un equipo situado FUERA del local.",
+            "isCorrect": true,
+            "explanation": "Garantiza la seguridad eléctrica y la vida del equipo. Fuente: Instalaciones especiales de ocio."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si es sumergible.",
+            "isCorrect": false,
+            "explanation": "No soluciona el problema del calor extremo (Zona 3)."
+          },
+          {
+            "id": 4,
+            "answer": "No, la música está prohibida en saunas.",
+            "isCorrect": false,
+            "explanation": "No hay prohibición de música, solo de la instalación eléctrica del reproductor dentro."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-31",
+        "type": "simple",
+        "question": "¿Qué es la Zona 1 en la clasificación de una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La zona del techo.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "El volumen que contiene el radiador y el espacio situado encima hasta el techo.",
+            "isCorrect": true,
+            "explanation": "Área de máxima peligrosidad térmica. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "La zona de la puerta.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "El exterior de la sauna.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-32",
+        "type": "multiple",
+        "question": "¿Qué tipos de protecciones contra contactos directos NO se admiten en saunas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Protección por obstáculos.",
+            "isCorrect": true,
+            "explanation": "Es insuficiente dada la movilidad y el estado del usuario (poca ropa)."
+          },
+          {
+            "id": 2,
+            "answer": "Protección por fuera de alcance (alejamiento).",
+            "isCorrect": true,
+            "explanation": "No garantiza la seguridad en un local pequeño. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de guantes aislantes.",
+            "isCorrect": false,
+            "explanation": "No es una medida de instalación, sino de trabajo."
+          },
+          {
+            "id": 4,
+            "answer": "Uso de botas de goma.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-33",
+        "type": "simple",
+        "question": "Sobre las canalizaciones en saunas, ¿pueden instalarse tubos metálicos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, son más resistentes.",
+            "isCorrect": false,
+            "explanation": "Peligro de quemaduras y contactos indirectos."
+          },
+          {
+            "id": 2,
+            "answer": "No, se prohíben revestimientos metálicos accesibles en las canalizaciones.",
+            "isCorrect": true,
+            "explanation": "Busca minimizar superficies metálicas en tensión o calientes. Fuente: ITC-BT-50, Apartado 2."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si están pintados.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se conectan a tierra.",
+            "isCorrect": false,
+            "explanation": "El REBT prioriza evitar el metal en estas canalizaciones."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-34",
+        "type": "simple",
+        "question": "¿Para qué sirve el 'limitador de tiempo' (temporizador) en una sauna pública?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que no se gaste mucha luz.",
+            "isCorrect": false,
+            "explanation": "Consecuencia económica."
+          },
+          {
+            "id": 2,
+            "answer": "Evita que el radiador funcione indefinidamente, reduciendo el riesgo de incendio por fallo del termostato.",
+            "isCorrect": true,
+            "explanation": "Doble seguridad: control de temperatura y de tiempo de operación. Fuente: Normativa de seguridad en locales de pública concurrencia."
+          },
+          {
+            "id": 3,
+            "answer": "Para que los usuarios no se queden dormidos.",
+            "isCorrect": false,
+            "explanation": "Es un beneficio para el usuario, pero el fin es técnico de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Para cobrar la entrada.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-35",
+        "type": "simple",
+        "question": "Sobre la iluminación de emergencia en locales con sauna, ¿dónde debe situarse?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Dentro de la sauna.",
+            "isCorrect": false,
+            "explanation": "La batería fallaría por el calor extremo."
+          },
+          {
+            "id": 2,
+            "answer": "Fuera de la sauna, iluminando la puerta de salida y los pasillos de evacuación.",
+            "isCorrect": true,
+            "explanation": "Seguridad en caso de apagón y pánico. Fuente: ITC-BT-28."
+          },
+          {
+            "id": 3,
+            "answer": "En el suelo del local.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "No hace falta luz de emergencia.",
+            "isCorrect": false,
+            "explanation": "Es obligatoria en locales de pública concurrencia."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-36",
+        "type": "multiple",
+        "question": "¿Qué síntomas indican que un radiador de sauna está degradado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Las resistencias se ponen al rojo vivo de forma desigual.",
+            "isCorrect": true,
+            "explanation": "Indica deformación o desgaste excesivo."
+          },
+          {
+            "id": 2,
+            "answer": "Saltos esporádicos del interruptor diferencial.",
+            "isCorrect": true,
+            "explanation": "Fugas de corriente por grietas en el aislante cerámico."
+          },
+          {
+            "id": 3,
+            "answer": "Olor a quemado persistente nada más encender.",
+            "isCorrect": true,
+            "explanation": "Posible fallo en los terminales de conexión. Fuente: Diagnóstico de averías."
+          },
+          {
+            "id": 4,
+            "answer": "Que el agua se evapora muy lento.",
+            "isCorrect": false,
+            "explanation": "Puede ser falta de potencia o piedras mal colocadas."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-37",
+        "type": "simple",
+        "question": "¿Qué sección de conductor se suele usar para alimentar un radiador de 9 kW en una sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Ardería al instante."
+          },
+          {
+            "id": 2,
+            "answer": "6 mm² (con cable de alta temperatura).",
+            "isCorrect": true,
+            "explanation": "Sección adecuada para la intensidad (unos 13A por fase en trifásica o 40A en monofásica, ajustando por calor). Fuente: Cálculo de líneas."
+          },
+          {
+            "id": 3,
+            "answer": "25 mm².",
+            "isCorrect": false,
+            "explanation": "Excesivo para esa potencia."
+          },
+          {
+            "id": 4,
+            "answer": "0,75 mm².",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-38",
+        "type": "simple",
+        "question": "Sobre la canalización bajo el suelo de la sauna, ¿qué riesgo hay?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el suelo se enfríe.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Acumulación de agua estancada por la limpieza con manguera, provocando derivaciones en cajas mal selladas.",
+            "isCorrect": true,
+            "explanation": "El agua siempre busca el punto más bajo. Fuente: Patologías de instalación."
+          },
+          {
+            "id": 3,
+            "answer": "Que los cables se hinchen.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Ninguno, es la zona más segura.",
+            "isCorrect": false,
+            "explanation": "Tiene el riesgo de la humedad."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-39",
+        "type": "simple",
+        "question": "¿Qué es un 'mando a distancia' para saunas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un mando de televisión.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Panel de control situado en la recepción o vestuario que permite encender y programar la sauna sin entrar en ella.",
+            "isCorrect": true,
+            "explanation": "Mejora la gestión y la seguridad operativa. Fuente: Automatización de centros deportivos."
+          },
+          {
+            "id": 3,
+            "answer": "Un palo largo para pulsar los botones.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "No se permiten mandos a distancia.",
+            "isCorrect": false,
+            "explanation": "Son legales y recomendables."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-40",
+        "type": "simple",
+        "question": "Finalmente, ¿qué tipo de maderas se recomiendan cerca de los focos de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Madera barnizada con laca brillante.",
+            "isCorrect": false,
+            "explanation": "El barniz puede emitir gases tóxicos con el calor."
+          },
+          {
+            "id": 2,
+            "answer": "Madera natural sin tratar (ej: abachi o cedro) que soporte bien los ciclos térmicos sin resinar.",
+            "isCorrect": true,
+            "explanation": "La resina puede gotear sobre los focos y causar incendios. Fuente: Construcción de saunas."
+          },
+          {
+            "id": 3,
+            "answer": "Corcho blanco (Poliestireno).",
+            "isCorrect": false,
+            "explanation": "Se derretiría e incendiaría al instante."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier madera barata.",
+            "isCorrect": false,
+            "explanation": "Peligro de nudos inflamables."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-41",
+        "type": "simple",
+        "question": "¿Qué es el 'choque térmico' en una luminaria de sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cuando la luz se apaga de golpe.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Rotura del cristal protector caliente al recibir una salpicadura de agua fría.",
+            "isCorrect": true,
+            "explanation": "Exige cristales templados o borosilicatados. Fuente: Seguridad en iluminación."
+          },
+          {
+            "id": 3,
+            "answer": "Un fallo del diferencial.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Cuando el usuario tiene frío.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-42",
+        "type": "multiple",
+        "question": "¿Qué condiciones deben cumplir las conexiones eléctricas dentro de la sauna?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Bornes de material resistente a la temperatura (cerámicos o baquelita especial).",
+            "isCorrect": true,
+            "explanation": "Los bornes de plástico estándar se derretirían."
+          },
+          {
+            "id": 2,
+            "answer": "Estar protegidas contra la corrosión galvánica.",
+            "isCorrect": true,
+            "explanation": "La humedad acelera el óxido."
+          },
+          {
+            "id": 3,
+            "answer": "Tener un buen apriete para evitar arcos eléctricos.",
+            "isCorrect": true,
+            "explanation": "Vital para prevenir incendios. Fuente: ITC-BT-19."
+          },
+          {
+            "id": 4,
+            "answer": "Estar envueltas en papel de aluminio.",
+            "isCorrect": false,
+            "explanation": "Peligro de cortocircuito."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-43",
+        "type": "simple",
+        "question": "Sobre el radiador de la sauna, ¿cómo se protege contra el vertido accidental de agua?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tapándolo con una lona.",
+            "isCorrect": false,
+            "explanation": "Ardería la lona."
+          },
+          {
+            "id": 2,
+            "answer": "Diseño con rejillas deflectoras y bornes protegidos en la base o parte trasera fría.",
+            "isCorrect": true,
+            "explanation": "Permite echar agua a las piedras sin mojar los contactos eléctricos. Fuente: Diseño de electrodomésticos."
+          },
+          {
+            "id": 3,
+            "answer": "Poniéndolo en otra habitación.",
+            "isCorrect": false,
+            "explanation": "No calentaría la sauna."
+          },
+          {
+            "id": 4,
+            "answer": "No se puede echar agua.",
+            "isCorrect": false,
+            "explanation": "En saunas finlandesas es parte del uso (lely)."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-44",
+        "type": "simple",
+        "question": "¿Qué es la 'clase II' en el aislamiento de cables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el cable es de segunda mano.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Cable con doble aislamiento o aislamiento reforzado que no requiere conexión a tierra para su seguridad.",
+            "isCorrect": true,
+            "explanation": "Añade una capa extra de protección física. Fuente: Clasificación de equipos."
+          },
+          {
+            "id": 3,
+            "answer": "Cable que solo lleva dos hilos.",
+            "isCorrect": false,
+            "explanation": "No tiene que ver con el número de hilos."
+          },
+          {
+            "id": 4,
+            "answer": "Cable que soporta 200V.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-45",
+        "type": "simple",
+        "question": "Sobre la fijación de los cables en las paredes de la sauna, ¿qué se recomienda?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Usar grapas metálicas directas.",
+            "isCorrect": false,
+            "explanation": "Dañan el aislamiento y crean puentes térmicos."
+          },
+          {
+            "id": 2,
+            "answer": "Usar grapas de plástico de alta temperatura o canaletas ocultas tras el friso.",
+            "isCorrect": true,
+            "explanation": "Seguridad y estética. Fuente: Recomendaciones de instaladores."
+          },
+          {
+            "id": 3,
+            "answer": "Pegarlos con silicona caliente.",
+            "isCorrect": false,
+            "explanation": "La silicona se reblandecería con el calor de la sauna."
+          },
+          {
+            "id": 4,
+            "answer": "Dejarlos sueltos.",
+            "isCorrect": false,
+            "explanation": "Peligro de enganches."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-46",
+        "type": "multiple",
+        "question": "¿Qué riesgos específicos tiene una sauna de infrarrojos (sin vapor)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Calentamiento localizado extremo de superficies próximas al emisor.",
+            "isCorrect": true,
+            "explanation": "Riesgo de quemadura por radiación."
+          },
+          {
+            "id": 2,
+            "answer": "Campo electromagnético intenso en las cercanías del cableado.",
+            "isCorrect": true,
+            "explanation": "Debe minimizarse por confort."
+          },
+          {
+            "id": 3,
+            "answer": "Fallo de los emisores por rotura del tubo de cuarzo.",
+            "isCorrect": true,
+            "explanation": "Requiere rejilla protectora física. Fuente: Tecnología infrarroja."
+          },
+          {
+            "id": 4,
+            "answer": "Humedad excesiva.",
+            "isCorrect": false,
+            "explanation": "Son saunas secas, el riesgo de humedad es bajo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-47",
+        "type": "simple",
+        "question": "En una sauna, ¿dónde se sitúa el 'dispositivo de parada de emergencia'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En el fondo de la piscina.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "En el exterior, cerca de la puerta, claramente señalizado.",
+            "isCorrect": true,
+            "explanation": "Permite cortar la energía rápidamente si alguien se siente mal o hay fuego. Fuente: Normas de seguridad de uso público."
+          },
+          {
+            "id": 3,
+            "answer": "Dentro, debajo del banco.",
+            "isCorrect": false,
+            "explanation": "Inaccesible en emergencia."
+          },
+          {
+            "id": 4,
+            "answer": "No es necesario.",
+            "isCorrect": false,
+            "explanation": "Es vital en instalaciones profesionales."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-48",
+        "type": "simple",
+        "question": "¿Qué indica el símbolo de un termómetro dentro de un triángulo en el radiador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el radiador mide el tiempo.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Aviso de superficie caliente: riesgo de quemaduras por contacto directo.",
+            "isCorrect": true,
+            "explanation": "Advertencia de seguridad física. Fuente: Señalética industrial."
+          },
+          {
+            "id": 3,
+            "answer": "Que el radiador tiene fiebre.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Que el radiador es de bajo consumo.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-49",
+        "type": "simple",
+        "question": "Sobre la alimentación trifásica en saunas, ¿por qué se prefiere a la monofásica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque es más barata.",
+            "isCorrect": false,
+            "explanation": "El coste depende de la potencia contratada."
+          },
+          {
+            "id": 2,
+            "answer": "Permite equilibrar la carga y usar cables de menor sección para la misma potencia calorífica total.",
+            "isCorrect": true,
+            "explanation": "Más eficiente técnicamente para radiadores de más de 6 kW. Fuente: Electrotecnia."
+          },
+          {
+            "id": 3,
+            "answer": "Porque hace menos ruido.",
+            "isCorrect": false,
+            "explanation": "No tiene que ver con el ruido."
+          },
+          {
+            "id": 4,
+            "answer": "Porque los motores giran mejor.",
+            "isCorrect": false,
+            "explanation": "El radiador es una resistencia, no tiene motor."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-50-50",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede usar el local de la sauna para guardar productos de limpieza inflamables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si están bien cerrados.",
+            "isCorrect": false,
+            "explanation": "Peligro de explosión o incendio."
+          },
+          {
+            "id": 2,
+            "answer": "Nunca; el calor extremo podría provocar la autoignición o explosión de vapores inflamables.",
+            "isCorrect": true,
+            "explanation": "Regla básica de seguridad en locales técnicos. Fuente: Prevención de incendios."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la sauna está apagada.",
+            "isCorrect": false,
+            "explanation": "Alguien podría encenderla sin mirar."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si el local es grande.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
       }
     ]
   }

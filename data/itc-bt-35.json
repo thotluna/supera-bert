@@ -5,3103 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-35-01",
-        "question": "¿Cuál es la tensión límite de seguridad en alterna para locales con animales?",
+        "type": "simple",
+        "question": "En el diseño de una instalación eléctrica para una porqueriza, se debe considerar la sensibilidad de los animales a la tensión. ¿Cuál es el límite máximo de tensión de seguridad permitido en corriente alterna para los emplazamientos donde se crían estos animales?",
         "options": [
           {
             "id": 1,
-            "answer": "50 V",
+            "answer": "50 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 50 V es el límite general, pero para animales se reduce por su mayor sensibilidad."
+            "explanation": "50 V es el límite general de seguridad, pero para animales se reduce debido a su mayor vulnerabilidad fisiológica."
           },
           {
             "id": 2,
-            "answer": "25 V",
+            "answer": "25 V.",
             "isCorrect": true,
-            "explanation": "Correcto. En locales pecuarios, la tensión límite de seguridad se reduce a 25 V AC para proteger al ganado."
+            "explanation": "En emplazamientos para cría de animales, la tensión límite de seguridad se reduce a 25 V AC. Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "12 V",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 12 V se usa en volúmenes específicos de baños o piscinas, no es el límite general de la ITC-BT-35."
+            "explanation": "12 V es el límite para zonas sumergidas en piscinas, no el estándar para locales agrícolas."
           },
           {
             "id": 4,
-            "answer": "110 V",
+            "answer": "110 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esta tensión es peligrosa tanto para humanos como para animales en ambientes húmedos."
+            "explanation": "Esta tensión es peligrosa y supera con creces los límites de seguridad para humanos y animales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-02",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de los siguientes locales se consideran dentro del campo de aplicación de la normativa para establecimientos agrícolas y hortícolas?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Establos y gallineros.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Son locales típicos de estancia de animales incluidos en la ITC-BT-35."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Locales para la preparación de piensos.",
+            "isCorrect": true,
+            "explanation": "La norma incluye específicamente locales auxiliares como los de preparación de piensos."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Viviendas de los granjeros situadas en el mismo recinto.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los locales habitables (viviendas) quedan expresamente excluidos de esta instrucción técnica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Graneros y granjas para el heno.",
+            "isCorrect": true,
+            "explanation": "Están incluidos como parte de la infraestructura agrícola fija."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-03",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un instalador está montando un circuito de Muy Baja Tensión de Seguridad (MBTS) en una cuadra de caballos. Si utiliza una envolvente para asegurar la protección contra contactos directos, ¿qué grado de protección mínimo debe tener dicha envolvente?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "IP2X.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Para MBTS en estos locales, la envolvente debe garantizar al menos un grado IP2X. Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "IP44.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "IP44 es el mínimo para el material eléctrico general en estos locales, pero para MBTS basta con IP2X si no hay otras influencias."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "IPX4.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Falta la protección contra sólidos (el primer dígito) para cumplir la norma de MBTS."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IP55.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es un grado superior al mínimo requerido reglamentariamente para este caso específico de MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-04",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En caso de utilizar conductores con aislamiento en un circuito MBTS sin envolvente en una granja pecuaria, ¿qué ensayo dieléctrico debe ser capaz de soportar dicho aislamiento durante un minuto?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "230 V.",
+            "isCorrect": false,
+            "explanation": "Es un valor de red, no el valor de ensayo específico para este aislamiento de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "1000 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Es un valor estándar para ensayos de cables de BT, pero la norma específica pide otro valor para este caso."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "500 V.",
+            "isCorrect": true,
+            "explanation": "El aislamiento de los circuitos MBTS debe soportar un ensayo de 500 V durante 1 minuto. Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "250 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Valor insuficiente según los requisitos de seguridad establecidos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-05",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se proyecta una instalación de tomas de corriente en un establo. Según la normativa, ¿qué medida de protección obligatoria deben tener los circuitos que alimentan estas tomas de corriente?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Diferenciales de 300 mA.",
+            "isCorrect": false,
+            "explanation": "300 mA es para protección contra incendios, no para tomas de corriente donde hay riesgo de contacto."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Fusibles de disparo rápido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Los fusibles no ofrecen la protección diferencial necesaria para la seguridad de personas y animales."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Dispositivos diferenciales de máximo 30 mA.",
+            "isCorrect": true,
+            "explanation": "Los circuitos de tomas de corriente deben protegerse con diferenciales de alta sensibilidad (30 mA). Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Únicamente puesta a tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La puesta a tierra por sí sola no asegura el corte rápido necesario sin un dispositivo diferencial."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-06",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la tensión límite de seguridad permitida en corriente continua para los emplazamientos donde haya animales de cría?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "75 V.",
+            "isCorrect": false,
+            "explanation": "75 V es el límite general de BT en continua, pero se reduce para animales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "25 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "25 V es el límite en alterna, en continua el límite es superior."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "60 V.",
+            "isCorrect": true,
+            "explanation": "En locales con animales, la tensión límite en corriente continua se establece en 60 V. Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "120 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Supera el límite de seguridad establecido para estos emplazamientos especiales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-07",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "En un local destinado a la cría de ganado, ¿qué elementos deben conectarse a la unión equipotencial suplementaria?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Todas las masas metálicas accesibles.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Es fundamental para evitar diferencias de potencial peligrosas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Elementos conductores que puedan ser tocados por los animales.",
+            "isCorrect": true,
+            "explanation": "La norma busca proteger específicamente al ganado de tensiones de paso y contacto."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "El conductor de protección de la instalación.",
+            "isCorrect": true,
+            "explanation": "La unión equipotencial debe estar referenciada al sistema de tierras general."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Las cercas eléctricas exteriores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Las cercas eléctricas se rigen por la ITC-BT-39 y sus tierras deben ser independientes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-08",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Como recomendación para mejorar la equipotencialidad en los suelos de los locales de cría de animales, la norma sugiere:",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Cubrir el suelo con aislante de goma.",
+            "isCorrect": false,
+            "explanation": "No es la recomendación técnica de equipotencialidad del reglamento."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Disponer de un enrejado metálico unido al conductor de protección.",
+            "isCorrect": true,
+            "explanation": "Se recomienda el uso de un enrejado o malla metálica en el suelo unida a tierra. Fuente: ITC-BT-35, Apartado 1 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Pintar el suelo con pintura conductora.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No es una medida normalizada ni duradera en ambientes agrícolas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Aumentar la resistencia del suelo con grava seca.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "En locales mojados o húmedos de granjas, la grava no asegura el aislamiento ni la equipotencialidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-09",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para proteger la instalación contra efectos térmicos (incendios) en una granja hortícola, ¿cuál es la sensibilidad máxima del dispositivo diferencial que debe emplearse de forma general?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "30 mA.",
+            "isCorrect": false,
+            "explanation": "30 mA es para protección de personas/animales, no es el límite general para efectos térmicos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "500 mA.",
+            "isCorrect": true,
+            "explanation": "La protección contra efectos térmicos exige diferenciales de máximo 500 mA. Fuente: ITC-BT-35, Apartado 2 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "1 A.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Un valor de 1 A se considera demasiado elevado para prevenir incendios por corrientes de fuga en estos locales."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "300 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Aunque es un valor común, la norma establece el límite en 500 mA para este caso."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-10",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instalan aparatos radiantes para calefacción en una zona de cría de lechones. ¿Cuál es la distancia mínima que debe mantenerse entre el radiador y los animales o materiales inflamables, a menos que el fabricante especifique otra mayor?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "0,2 metros.",
+            "isCorrect": false,
+            "explanation": "Distancia insuficiente que entraña riesgo de quemaduras o incendio."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "1 metro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Es una distancia de seguridad prudente, pero el reglamento fija un mínimo menor."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "0,5 metros.",
+            "isCorrect": true,
+            "explanation": "La distancia mínima general para aparatos radiantes es de 0,5 metros. Fuente: ITC-BT-35, Apartado 2 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "3 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sería ineficaz para la función de calefacción por radiación en la mayoría de los casos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-11",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué requisitos de resistencia mecánica deben cumplir los tubos de canalización en establecimientos agrícolas según la norma UNE-EN 61.386-1?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Resistencia a la compresión 'Muy Fuerte'.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Deben soportar el posible aplastamiento por maquinaria o animales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Resistencia al impacto 'Muy Fuerte'.",
+            "isCorrect": true,
+            "explanation": "Se exige la máxima categoría de resistencia al impacto."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Resistencia a la temperatura de 500 °C.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No se requiere resistencia al fuego extremo, sino mecánica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Deben ser metálicos obligatoriamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Pueden ser plásticos siempre que cumplan con la resistencia 'Muy Fuerte' especificada."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-12",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es el grado de protección IP mínimo exigido para los materiales eléctricos generales instalados en locales de establecimientos agrícolas?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "IP20.",
+            "isCorrect": false,
+            "explanation": "IP20 no protege contra la humedad ni el polvo habitual en estos locales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "IP44.",
+            "isCorrect": true,
+            "explanation": "El grado de protección mínimo para el material eléctrico es IP44. Fuente: ITC-BT-35, Apartado 4 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "IP67.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un grado de inmersión, no es el mínimo general exigido por la norma."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IP54.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es un grado excelente, pero el mínimo reglamentario es IP44."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-13",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En relación con los dispositivos de corte de urgencia y paro de emergencia en una instalación pecuaria:",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Deben estar al alcance de los animales por si ocurre un accidente.",
+            "isCorrect": false,
+            "explanation": "Los animales podrían accionarlos accidentalmente, provocando paros innecesarios o situaciones de riesgo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No deben estar situados en zonas accesibles para los animales.",
+            "isCorrect": true,
+            "explanation": "Para evitar maniobras intempestivas, deben estar fuera del alcance del ganado. Fuente: ITC-BT-35, Apartado 4 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Es obligatorio que sean de color amarillo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los paros de emergencia suelen ser rojos sobre fondo amarillo, pero la norma aquí se centra en la ubicación."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo se requieren si hay motores de más de 10 kW.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La necesidad de corte de urgencia depende del riesgo de la máquina, no solo de su potencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-14",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Si una instalación agrícola requiere un requisito técnico que no aparece detallado en la norma UNE-HD 60.364-7-705 por estar 'en estudio', ¿qué instrucción técnica debe aplicarse de forma supletoria?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "ITC-BT-25 (Viviendas).",
+            "isCorrect": false,
+            "explanation": "Las viviendas tienen requisitos menos exigentes que no cubren los riesgos agrícolas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "ITC-BT-30 (Locales húmedos y mojados).",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Aunque relacionada, el REBT especifica otra instrucción concreta como supletoria."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "ITC-BT-33 (Instalaciones provisionales de obras).",
+            "isCorrect": true,
+            "explanation": "Para apartados en estudio de la norma UNE, se aplicará lo dispuesto en la ITC-BT-33. Fuente: ITC-BT-35, Apartado 2."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "ITC-BT-29 (Riesgo de explosión).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Solo se aplicaría si el local agrícola tuviera atmósferas explosivas específicas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-15",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la norma de referencia principal que regula las prescripciones particulares para establecimientos agrícolas y hortícolas según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "UNE 20.460-7-701.",
+            "isCorrect": false,
+            "explanation": "Esta norma se refiere a baños y duchas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "UNE-HD 60.364-7-705.",
+            "isCorrect": true,
+            "explanation": "Es la norma fundamental citada en la ITC-BT-35 para este tipo de locales."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "UNE-EN 50.110.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se refiere a la explotación de instalaciones eléctricas (seguridad laboral)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "UNE 21.186.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se refiere a la protección contra rayos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-16",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un granero donde se almacena paja seca, ¿qué riesgo principal justifica el uso de diferenciales de 500 mA para protección térmica?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "El riesgo de electrocución del personal.",
+            "isCorrect": false,
+            "explanation": "Para electrocución se usarían diferenciales de 30 mA."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "El riesgo de incendio por corrientes de fuga.",
+            "isCorrect": true,
+            "explanation": "Los diferenciales de 500 mA detectan fugas que podrían generar calor suficiente para prender materiales inflamables. Fuente: ITC-BT-35 (UNE-HD 60.364-7-705)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "La caída de tensión en líneas largas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El diferencial no protege contra la caída de tensión."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La interferencia con equipos de radio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No tiene relación con la compatibilidad electromagnética."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-17",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de los siguientes elementos NO están incluidos en el ámbito de aplicación de la ITC-BT-35?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "La cocina y el salón de la vivienda del granjero.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Los locales habitables están excluidos de esta instrucción."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Instalaciones situadas en el exterior de la granja.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Están incluidas siempre que formen parte del establecimiento agrícola."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Cercas eléctricas para ganado.",
+            "isCorrect": true,
+            "explanation": "Se rigen específicamente por la ITC-BT-39."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Instalaciones de baja tensión en invernaderos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Los invernaderos (hortícolas) están plenamente incluidos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-18",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En una gallinería industrial, se decide instalar canalizaciones mediante tubos. ¿Qué tipo de material se recomienda para evitar la corrosión por el amoníaco presente en el ambiente?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Tubo de acero galvanizado ligero.",
+            "isCorrect": false,
+            "explanation": "El amoníaco ataca ferozmente al zinc del galvanizado."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Tubos de material plástico con resistencia mecánica adecuada.",
+            "isCorrect": true,
+            "explanation": "El plástico ofrece mejor resistencia química a los ambientes corrosivos de las granjas, cumpliendo la resistencia mecánica exigida."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Tubo de cobre desnudo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El cobre también es sensible a la corrosión química ambiental."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquier tubo es válido si se pinta cada año.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La seguridad debe basarse en la selección de materiales, no en mantenimientos paliativos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-19",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál de las siguientes afirmaciones es CORRECTA sobre la unión equipotencial en locales pecuarios?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Solo es necesaria si el suelo es de tierra batida.",
+            "isCorrect": false,
+            "explanation": "Es necesaria en todos los locales donde haya animales, independientemente del tipo de suelo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Debe unir todas las masas metálicas y conductores accesibles a los animales.",
+            "isCorrect": true,
+            "explanation": "Es la definición reglamentaria para evitar tensiones de contacto peligrosas. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No se debe unir al conductor de protección de la red general.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Al contrario, debe unirse obligatoriamente al conductor de protección."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Es opcional si se usan diferenciales de 10 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La unión equipotencial es una medida de seguridad pasiva obligatoria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-20",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un invernadero, se instala un sistema de riego automático que requiere material eléctrico. ¿Qué grado IP se considera el mínimo aceptable por norma?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Falta el primer dígito (protección contra sólidos y contacto)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "IP44.",
+            "isCorrect": true,
+            "explanation": "Es el grado mínimo general para todos los materiales eléctricos en estos establecimientos. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "IP2X.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Nivel de protección insuficiente para el ambiente húmedo de un invernadero."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IPX0.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Indica ninguna protección contra el agua."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-21",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se está instalando un transformador de seguridad para un circuito MBTS. ¿Qué norma debe cumplir dicho transformador?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "UNE-EN 60.947.",
+            "isCorrect": false,
+            "explanation": "Esta norma es para aparamenta de baja tensión."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "UNE-EN 61.558.",
+            "isCorrect": true,
+            "explanation": "Los transformadores de seguridad deben cumplir con la norma UNE-EN 61.558 o equivalentes. Fuente: REBT (Criterio general para MBTS)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "UNE 20.315.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se refiere a tomas de corriente de uso doméstico."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "UNE 21.150.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se refiere a cables eléctricos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-22",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En locales destinados a establos, ¿por qué es tan crítica la limitación de la tensión de seguridad a 25 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Porque los animales tienen una resistencia eléctrica mayor que los humanos.",
+            "isCorrect": false,
+            "explanation": "Al contrario, los animales suelen tener una resistencia menor debido a su contacto directo y húmedo con el suelo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Porque el ganado es más sensible a las corrientes eléctricas pequeñas.",
+            "isCorrect": true,
+            "explanation": "La fisiología animal hace que tensiones que no son letales para humanos puedan causar la muerte al ganado."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Para ahorrar energía en la iluminación nocturna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La tensión de seguridad no tiene fines de eficiencia energética."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Para evitar interferencias con los sistemas de ordeño.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es puramente por seguridad frente al choque eléctrico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-23",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué tipos de canalizaciones equivalentes a los tubos se permiten si cumplen con la norma UNE-EN 61.386-1?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Canales protectoras.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Son equivalentes si cumplen la resistencia mecánica exigida."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Bandejas metálicas cerradas.",
+            "isCorrect": true,
+            "explanation": "Pueden usarse si garantizan la protección del cable."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Cables armados grapados directamente.",
+            "isCorrect": true,
+            "explanation": "La norma permite sistemas equivalentes en protección mecánica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cables flexibles colgados sin soporte.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No ofrecen la resistencia mecánica 'Muy Fuerte' requerida."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-24",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué se entiende por 'establecimiento hortícola' a efectos de la aplicación de la ITC-BT-35?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Solo jardines públicos.",
+            "isCorrect": false,
+            "explanation": "El concepto es de explotación comercial/industrial de plantas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Locales destinados al cultivo de plantas, flores o vegetales.",
+            "isCorrect": true,
+            "explanation": "Incluye invernaderos y locales auxiliares de cultivo. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Tiendas de venta de semillas en el centro urbano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se consideran locales comerciales estándar (ITC-BT-28 si hay mucha afluencia)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Escuelas de agricultura con aulas teóricas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Solo las zonas de cultivo estarían bajo la 35; las aulas serían pública concurrencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-25",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En una granja pecuaria, ¿es obligatorio que la red de equipotencialidad incluya los bebederos metálicos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "No, porque el agua es aislante.",
+            "isCorrect": false,
+            "explanation": "El agua no es aislante y el bebedero es un elemento conductor accesible."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sí, si son elementos conductores que pueden ser tocados por los animales.",
+            "isCorrect": true,
+            "explanation": "Cualquier masa metálica al alcance de los animales debe estar conectada a la unión equipotencial. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si hay una bomba eléctrica sumergida.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La equipotencialidad es independiente de la cercanía de motores."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No, se recomienda que estén aislados para evitar fugas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Aislar masas metálicas es muy difícil y menos seguro que la equipotencialidad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-26",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué grado de resistencia mecánica al IMPACTO debe tener un tubo instalado en una zona de paso de tractores en una finca agrícola?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Fuerte.",
+            "isCorrect": false,
+            "explanation": "La norma exige un nivel superior."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Muy Fuerte.",
+            "isCorrect": true,
+            "explanation": "Es la exigencia reglamentaria para estos emplazamientos. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Media.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Nivel insuficiente para riesgos agrícolas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No se especifica grado, solo que sea metálico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El reglamento especifica grados concretos según norma UNE."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-27",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la protección contra contactos indirectos por corte automático, ¿qué factor determina el uso de 25 V como tensión límite en lugar de 50 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "La altitud de la granja.",
+            "isCorrect": false,
+            "explanation": "No tiene relevancia técnica en este caso."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La presencia de animales.",
+            "isCorrect": true,
+            "explanation": "Es el factor determinante debido a su sensibilidad eléctrica. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "La potencia contratada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La seguridad no depende de la potencia."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El uso de generadores solares.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La fuente de energía no cambia el límite de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-28",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuál de las siguientes medidas de protección contra contactos directos se consideran válidas en estos locales?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Aislamiento de las partes activas.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Medida básica permitida en cualquier local."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Barreras o envolventes con grado mínimo IP2X.",
+            "isCorrect": true,
+            "explanation": "Permitidas bajo condiciones reglamentarias."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Puesta fuera de alcance por alejamiento.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No se considera suficiente en ambientes donde hay animales y maquinaria móvil."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Protección por obstáculos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Igual que el alejamiento, no se admite en estos emplazamientos especiales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-29",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un granero de almacenamiento de fertilizantes, ¿qué grado de protección debe tener el material para resistir la corrosión química?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Solo IP44.",
+            "isCorrect": false,
+            "explanation": "El IP solo mide sólidos y líquidos, no agentes químicos corrosivos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "El adecuado a la naturaleza del agente químico presente.",
+            "isCorrect": true,
+            "explanation": "Además del IP, el material debe ser resistente a la corrosión química del ambiente. Fuente: REBT (Prescripciones generales)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ninguno, los fertilizantes no son corrosivos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Muchos fertilizantes son altamente corrosivos (nitratos, sulfatos)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Obligatoriamente acero inoxidable AISI 316.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es una opción excelente pero no la única permitida reglamentariamente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-30",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Es obligatorio proteger los circuitos de alumbrado con diferenciales de 30 mA en una granja agrícola?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, en todos los casos.",
+            "isCorrect": false,
+            "explanation": "La norma exige 30 mA para tomas de corriente, para alumbrado fijo rigen las normas generales (pudiendo ser superior si no hay contacto directo previsto)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, a menos que sean luminarias accesibles o portátiles.",
+            "isCorrect": true,
+            "explanation": "La alta sensibilidad es obligatoria para tomas de corriente y equipos portátiles, pero el alumbrado fijo puede tener otras protecciones."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si se usan lámparas de descarga.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El tipo de lámpara no determina la sensibilidad del diferencial."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, si la granja tiene más de 100 animales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El número de animales no afecta a este requisito técnico."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-31",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala un interruptor en el pasillo de un establo. ¿A qué altura mínima debe situarse para evitar golpes del ganado?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "1,5 metros.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Aunque el REBT no da una cota exacta aquí, las buenas prácticas y la ubicación fuera del alcance de animales sugieren alturas superiores a las domésticas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "0,5 metros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Estaría totalmente expuesto a las patas y golpes de los animales."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "A nivel de suelo con protección mecánica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Totalmente prohibido por riesgo de humedad y golpes."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "A 2,5 metros obligatoriamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sería inaccesible para los operarios sin escaleras."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-32",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué conductores de protección se deben usar para conectar las masas a la unión equipotencial suplementaria?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Conductores de color negro.",
+            "isCorrect": false,
+            "explanation": "El color negro se reserva para fases."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Conductores de color verde-amarillo.",
+            "isCorrect": true,
+            "explanation": "Como cualquier conductor de protección o equipotencial, debe ser verde-amarillo. Fuente: REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Cualquier color siempre que se señalice en las puntas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "En baja tensión, el color verde-amarillo es obligatorio para protección en toda su longitud."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo cables de cobre desnudo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Pueden ser aislados y es preferible para evitar corrosión."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-33",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "Sobre los equipos de calefacción por infrarrojos en locales de cría, ¿qué precauciones deben tomarse?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Deben ser de tipo fijo.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Para evitar caídas y movimientos peligrosos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Deben mantener una distancia mínima a materiales combustibles.",
+            "isCorrect": true,
+            "explanation": "La distancia estándar es 0,5 m salvo otra indicación."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Deben tener rejilla protectora si están al alcance de animales.",
+            "isCorrect": true,
+            "explanation": "Para evitar contactos directos térmicos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No pueden superar los 1000 W por aparato.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No hay un límite de potencia unitaria, sino de diseño de la instalación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-34",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un gallinero, se utiliza un sistema de alimentación automática por sinfín. El motor debe estar protegido por un guardamotor. ¿Qué grado IP debe tener el cuadro que aloja este protector?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "IP2X.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para el polvo y humedad de un gallinero."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "IP44.",
+            "isCorrect": true,
+            "explanation": "Es el grado mínimo general para material eléctrico en estos locales. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "IPX0.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Sin protección."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IP11.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Grado totalmente inadecuado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-35",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué normativa se aplica a los equipos específicos de ordeño mecánico en cuanto a su seguridad eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "La ITC-BT-35 exclusivamente.",
+            "isCorrect": false,
+            "explanation": "La ITC-BT-35 da las reglas de la instalación fija, pero el equipo debe cumplir sus propias normas de producto (Directiva Máquinas)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Las normas específicas de producto y la ITC-BT-35 para su conexión.",
+            "isCorrect": true,
+            "explanation": "El equipo debe ser conforme a su normativa y conectarse según las reglas de locales agrícolas."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ninguna, se consideran electrodomésticos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Son equipos industriales específicos con riesgos propios."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La normativa de sanidad animal solamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La sanidad animal no cubre la seguridad eléctrica industrial."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-36",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Si se instala una caldera de biomasa en un local anexo a una granja para calefacción central, ¿se considera este local dentro de la ITC-BT-35?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "No, es un local industrial estándar.",
+            "isCorrect": false,
+            "explanation": "Si forma parte de la explotación agrícola y no es vivienda, está incluido."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sí, al formar parte de las instalaciones fijas del establecimiento agrícola.",
+            "isCorrect": true,
+            "explanation": "La norma abarca todo el establecimiento excepto locales habitables. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si hay animales dentro del local de la caldera.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No es necesario que haya animales para que sea ámbito de la ITC-BT-35."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Depende de si la caldera es de más de 70 kW.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La potencia no determina el ámbito de aplicación de la ITC."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-37",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la instalación de una bomba de agua exterior para riego de un huerto hortícola, ¿qué protección diferencial se requiere?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Ninguna si la bomba es de doble aislamiento.",
+            "isCorrect": false,
+            "explanation": "El doble aislamiento no exime de protección diferencial en emplazamientos exteriores/agrícolas por norma general."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Diferencial de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Las instalaciones exteriores fijas o que alimenten equipos deben tener protección de alta sensibilidad. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si la bomba es trifásica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El número de fases no elimina la necesidad de protección diferencial."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Diferencial de 500 mA únicamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "500 mA es para incendios; para seguridad de personas/animales en exterior se requiere 30 mA."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-38",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "Respecto a los graneros de paja y heno, ¿qué medidas preventivas contra el calor de las lámparas se deben tomar?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Usar luminarias con grado de protección IP mínimo IP44.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Protección contra entrada de partículas de paja/polvo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Instalar luminarias con superficie exterior de baja temperatura.",
+            "isCorrect": true,
+            "explanation": "Para evitar que la paja depositada sobre la lámpara se inflame."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Mantener distancias de seguridad a materiales combustibles.",
+            "isCorrect": true,
+            "explanation": "Es una regla básica de prevención de incendios."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Prohibir el uso de cualquier tipo de iluminación eléctrica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La electricidad está permitida siempre que se tomen las medidas de seguridad adecuadas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-39",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es el objetivo principal de la unión equipotencial suplementaria en los locales pecuarios?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Asegurar que los animales reciban masajes eléctricos suaves.",
+            "isCorrect": false,
+            "explanation": "No tiene ningún fin terapéutico, sino de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Evitar que existan diferencias de potencial peligrosas entre distintas masas que el animal pueda tocar simultáneamente.",
+            "isCorrect": true,
+            "explanation": "Al estar todos los elementos al mismo potencial, no hay paso de corriente a través del animal. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Reducir el consumo eléctrico de la granja.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No afecta al consumo de energía."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Facilitar la conexión de equipos de soldadura.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No es su función reglamentaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-40",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un local de preparación de piensos con gran cantidad de polvo en suspensión, ¿es suficiente el grado IP44?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es el mínimo que marca la ITC-BT-35.",
+            "isCorrect": false,
+            "explanation": "Aunque es el mínimo general, ante riesgos específicos como polvo explosivo o muy conductor se deben aplicar otras ITCs más restrictivas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, se debe subir el grado de protección (ej. IP5X) para evitar la entrada de polvo.",
+            "isCorrect": true,
+            "explanation": "El REBT exige adaptar el IP a las influencias externas reales del local. Fuente: ITC-BT-30 / ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Sí, siempre que no haya animales dentro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El polvo afecta a la seguridad de la instalación independientemente de los animales."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El polvo no afecta a las instalaciones eléctricas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El polvo puede ser inflamable, conductor o causar fallos mecánicos en la aparamenta."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-41",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cómo debe realizarse la conexión entre el enrejado metálico del suelo y el conductor de protección?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Simplemente apoyando el cable sobre el enrejado.",
+            "isCorrect": false,
+            "explanation": "La conexión debe ser mecánicamente firme y eléctricamente segura."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Mediante soldadura o terminales de presión adecuados garantizando la continuidad permanente.",
+            "isCorrect": true,
+            "explanation": "Se requiere una conexión fiable y duradera bajo el hormigón. Fuente: Prácticas de instalación REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Atando con alambre de jardín.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Totalmente prohibido por falta de fiabilidad técnica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No es necesario conectarlos si el suelo está húmedo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La humedad facilita la conducción pero no sustituye la conexión metálica de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-42",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué tipos de establecimientos están sujetos a inspección periódica cada 5 años si tienen más de una cierta potencia o afluencia?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Locales de pública concurrencia integrados en la granja.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Como cualquier local de pública concurrencia (ITC-BT-05)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Instalaciones industriales agrícolas de gran potencia.",
+            "isCorrect": true,
+            "explanation": "Las industrias en general tienen inspecciones periódicas obligatorias."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Pequeños huertos familiares de autoconsumo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No suelen requerir inspecciones periódicas por OCA."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Locales con riesgo de incendio o explosión dentro de la granja.",
+            "isCorrect": true,
+            "explanation": "Son emplazamientos críticos que requieren revisión quinquenal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-43",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un sistema de ordeño, las masas de los motores están conectadas a tierra. Si un animal toca la carcasa y hay un defecto, ¿qué le protege de la muerte?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "El aislamiento de sus pezuñas.",
+            "isCorrect": false,
+            "explanation": "Las pezuñas sobre suelo húmedo suelen ser muy conductoras."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La actuación rápida del interruptor diferencial (máximo 30 mA).",
+            "isCorrect": true,
+            "explanation": "El diferencial corta la corriente antes de que sea letal para el animal. Fuente: ITC-BT-35."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "El hecho de que los animales no sienten la electricidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un mito falso; son más sensibles que los humanos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La baja potencia del motor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Cualquier motor de red (230V) tiene potencia suficiente para ser letal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-44",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Se puede utilizar el esquema TN-C en el interior de los establos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es más económico.",
+            "isCorrect": false,
+            "explanation": "Está prohibido por el riesgo que supone el conductor PEN en estos ambientes."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, se debe usar TN-S, TT o IT.",
+            "isCorrect": true,
+            "explanation": "El esquema TN-C está prohibido en locales de características especiales y donde se requiere protección diferencial de alta sensibilidad. Fuente: REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo para el alumbrado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La prohibición es general para la instalación interior."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, si los cables son de aluminio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El material del conductor no cambia la prohibición del esquema TN-C."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-45",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un instalador coloca una caja de derivación en una porqueriza. ¿Qué requisito debe cumplir la entrada de cables para mantener el grado IP44?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Basta con hacer un agujero ajustado.",
+            "isCorrect": false,
+            "explanation": "No garantiza la estanqueidad contra chorros o salpicaduras de agua."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Usar prensaestopas o manguitos que mantengan el grado de protección.",
+            "isCorrect": true,
+            "explanation": "Es obligatorio usar accesorios de entrada que aseguren la estanqueidad original de la caja. Fuente: REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Sellar con cinta aislante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La cinta aislante no es un método de sellado normalizado ni duradero."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No es necesario sellar si la caja está en el techo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El vapor y la humedad ambiente afectan a la caja en cualquier posición."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-46",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En el caso de instalaciones fijas situadas al exterior de un establecimiento agrícola, ¿qué ITC prevalece para las canalizaciones?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "ITC-BT-09 (Alumbrado exterior) siempre.",
+            "isCorrect": false,
+            "explanation": "Solo si es alumbrado público; para instalaciones privadas rige la 35 con matices de la 21."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La ITC-BT-35, aplicando las reglas de locales mojados o exterior.",
+            "isCorrect": true,
+            "explanation": "El ámbito de la 35 incluye el exterior de los establecimientos agrícolas. Fuente: ITC-BT-35, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "La normativa de Carreteras.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No tiene relación con la seguridad eléctrica interna de la granja."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "ITC-BT-07 (Líneas subterráneas) únicamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se aplicaría si la línea fuera de distribución enterrada, pero la 35 cubre la instalación receptora."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-47",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Por qué se prohíbe situar los dispositivos de parada de emergencia al alcance de los animales?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "Por riesgo de disparo intempestivo por el ganado.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Un cerdo o una vaca podrían golpear el botón y parar una máquina crítica."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Para evitar daños físicos al animal si choca con el botón.",
+            "isCorrect": true,
+            "explanation": "Los botones de emergencia suelen sobresalir y pueden causar heridas."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Para que el granjero sea el único que tenga el control.",
+            "isCorrect": true,
+            "explanation": "La maniobra de seguridad debe ser consciente y humana."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Porque los animales podrían comerse el plástico del botón.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Aunque es posible, no es el motivo de seguridad eléctrica principal del REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-48",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En una granja pecuaria, ¿qué tipo de cable es más adecuado para una manguera de alimentación de un ventilador móvil?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Cable plano tipo manguerilla doméstica.",
+            "isCorrect": false,
+            "explanation": "No tiene resistencia mecánica ni a la humedad suficiente."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Cable flexible con cubierta de policloropreno (tipo H07RN-F).",
+            "isCorrect": true,
+            "explanation": "Es el cable estándar para usos industriales y agrícolas exigentes por su resistencia química y mecánica. Fuente: UNE 21.150."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Cable rígido bajo tubo flexible.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los cables rígidos no se deben usar para alimentar equipos móviles."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquier cable con aislamiento de papel impregnado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Tecnología obsoleta y no apta para estos usos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-49",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un instalador debe elegir entre un diferencial Clase A o Clase AC para una granja con muchos variadores de velocidad en los ventiladores. ¿Cuál debería elegir según las buenas prácticas?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Clase AC, es el más común.",
+            "isCorrect": false,
+            "explanation": "El Clase AC puede no detectar fugas con componentes de continua generadas por variadores electrónicos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Clase A (o superior como F o B), para asegurar la detección de corrientes pulsantes.",
+            "isCorrect": true,
+            "explanation": "En ambientes con electrónica de potencia (variadores), se requieren diferenciales que detecten fugas no puramente senoidales. Fuente: Guía técnica REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ninguno, se deben usar fusibles.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los fusibles no protegen contra contactos indirectos en esquemas TT de forma fiable para personas/animales."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquiera, el REBT no distingue clases de diferenciales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La normativa y guías técnicas sí distinguen y recomiendan según la carga."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-35-50",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para finalizar la instalación de una granja de pollos, ¿qué documento técnico debe emitir el instalador autorizado?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Un presupuesto detallado.",
+            "isCorrect": false,
+            "explanation": "El presupuesto es un documento comercial, no técnico-reglamentario."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-51",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
+            "answer": "El Certificado de Instalación Eléctrica (CIE).",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Es el documento oficial que garantiza que la instalación cumple con el REBT y la ITC-BT-35. Fuente: ITC-BT-04."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Una factura con el IVA desglosado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La factura es un documento contable, no acredita la seguridad de la instalación."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Un manual de uso de los comederos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es un documento del fabricante, no del instalador para la legalización."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-52",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-53",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-54",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-55",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-56",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-57",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-58",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-59",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-60",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-61",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-62",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-63",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-64",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-65",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-66",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-67",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-68",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-69",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-70",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-71",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-72",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-73",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-74",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-75",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-76",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-77",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-78",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-79",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-80",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-81",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-82",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-83",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-84",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-85",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-86",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-87",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-88",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-89",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-90",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-91",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-92",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-93",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-94",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-95",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-96",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-97",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-98",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-99",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-35-100",
-        "question": "Sobre la ITC-BT-35, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-35.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-35 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-35 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
+        ]
       }
     ]
   }

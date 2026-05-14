@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-46-01",
-        "question": "¿Cuál es el campo de aplicación de la ITC-BT-46?",
+        "type": "simple",
+        "question": "¿Cuál es el campo de aplicación de la ITC-BT-46 según el REBT?",
         "options": [
           {
             "id": 1,
-            "answer": "Instalaciones de cables eléctricos y folios radiantes calefactores empotrados en suelos y techos.",
-            "isCorrect": true,
-            "explanation": "La instrucción regula los sistemas de calefacción por resistencia eléctrica integrados en la estructura de la edificación. Fuente: ITC-BT-46, Apartado 1."
+            "answer": "La instalación de cables eléctricos para telecomunicaciones.",
+            "isCorrect": false,
+            "explanation": "Las telecomunicaciones no son competencia del REBT."
           },
           {
             "id": 2,
-            "answer": "Calderas eléctricas de agua para calefacción central.",
-            "isCorrect": false,
-            "explanation": "Eso se regula por la ITC-BT-45 (Aparatos de caldeo)."
+            "answer": "La instalación de cables y folios radiantes calefactores en viviendas.",
+            "isCorrect": true,
+            "explanation": "Cubre sistemas de calefacción eléctrica empotrados en suelos o techos. Fuente: ITC-BT-46, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Radiadores eléctricos portátiles.",
+            "answer": "La alimentación de motores de gran potencia.",
             "isCorrect": false,
-            "explanation": "Son aparatos de caldeo individuales regulados por la ITC-BT-45."
+            "explanation": "Eso se regula en la ITC-BT-47 (según este documento)."
           },
           {
             "id": 4,
-            "answer": "Sistemas de aire acondicionado por conductos.",
+            "answer": "El cableado de pararrayos.",
             "isCorrect": false,
-            "explanation": "La ITC-BT-46 se centra exclusivamente en elementos radiantes por cable o folio."
+            "explanation": "Sin relación con sistemas radiantes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-46-02",
-        "question": "¿Dónde está prohibido instalar cables calefactores o folios radiantes?",
+        "type": "simple",
+        "question": "¿A qué tensión nominal suelen trabajar los cables y folios radiantes regulados en esta instrucción?",
         "options": [
           {
             "id": 1,
-            "answer": "En el suelo de los salones de viviendas.",
+            "answer": "12 V o 24 V.",
             "isCorrect": false,
-            "explanation": "Es uno de sus usos principales."
-          },
-          {
-            "id": 2,
-            "answer": "En los volúmenes de prohibición (0, 1 y 2) de los cuartos de baño.",
-            "isCorrect": true,
-            "explanation": "Por seguridad ante la presencia de agua y humedad extrema, no pueden instalarse en estas zonas. Fuente: ITC-BT-46, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "En techos de locales comerciales.",
-            "isCorrect": false,
-            "explanation": "La norma permite la instalación en techos."
-          },
-          {
-            "id": 4,
-            "answer": "Debajo de suelos de madera o parqué.",
-            "isCorrect": false,
-            "explanation": "Se pueden instalar siempre que se respeten las temperaturas máximas admisibles."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-03",
-        "question": "¿Cuál es la intensidad máxima permitida por fase y circuito de calefacción?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A.",
-            "isCorrect": false,
-            "explanation": "Es el límite para circuitos de tomas de corriente, pero no el específico para este caso."
-          },
-          {
-            "id": 2,
-            "answer": "25 A.",
-            "isCorrect": true,
-            "explanation": "Cada circuito de calefacción se limitará a un máximo de 25 A por fase. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "40 A.",
-            "isCorrect": false,
-            "explanation": "Supera el límite de diseño de circuitos individuales establecido por la instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Valor demasiado bajo para la potencia requerida habitualmente en calefacción radiante."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-04",
-        "question": "¿Qué sensibilidad de protección diferencial se exige para cada circuito de calefacción radiante?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Insuficiente para la protección de personas en caso de contacto indirecto con el suelo."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Es obligatoria una protección diferencial de alta sensibilidad para garantizar la seguridad. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Valor de uso industrial que no ofrece protección frente a contactos indirectos en viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "No requiere diferencial si el cable tiene armadura conectada a tierra.",
-            "isCorrect": false,
-            "explanation": "El diferencial de 30 mA es obligatorio en todos los casos."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-05",
-        "question": "¿Qué valor mínimo de aislamiento eléctrico respecto a tierra debe medirse una vez cubierto el cable?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1.000 ohmios.",
-            "isCorrect": false,
-            "explanation": "Valor extremadamente bajo que indicaría un fallo grave de aislamiento."
-          },
-          {
-            "id": 2,
-            "answer": "250.000 ohmios.",
-            "isCorrect": true,
-            "explanation": "Antes de colocar el pavimento final, se debe verificar que el aislamiento sea al menos de este valor. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "500.000 ohmios.",
-            "isCorrect": false,
-            "explanation": "Es el valor para instalaciones de 230 V, pero la ITC específica marca 250k para este momento del proceso."
-          },
-          {
-            "id": 4,
-            "answer": "1 megaohmio.",
-            "isCorrect": false,
-            "explanation": "Es un valor óptimo, pero el mínimo reglamentario tras el vertido es de 250.000 ohmios."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-06",
-        "question": "¿Qué requisito se establece para las 'uniones frías' (conexión del cable calefactor con la alimentación)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Deben realizarse en obra por el instalador mediante regletas.",
-            "isCorrect": false,
-            "explanation": "Está prohibido debido al riesgo de fallo por dilataciones térmicas."
-          },
-          {
-            "id": 2,
-            "answer": "Deberán venir realizadas de fábrica, no autorizándose su ejecución en obra.",
-            "isCorrect": true,
-            "explanation": "La fiabilidad de la unión debe estar garantizada por el proceso industrial de fabricación. Fuente: ITC-BT-46, Apartado 3.2.1."
-          },
-          {
-            "id": 3,
-            "answer": "Se pueden soldar con estaño y proteger con cinta aislante.",
-            "isCorrect": false,
-            "explanation": "Totalmente prohibido para elementos que van a ser empotrados permanentemente."
-          },
-          {
-            "id": 4,
-            "answer": "Solo pueden ser mecánicas por tornillo.",
-            "isCorrect": false,
-            "explanation": "Deben ser integradas de fábrica, independientemente del método interno."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-07",
-        "question": "¿Cuál es el radio de curvatura mínimo para cables calefactores SIN armadura?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "3 veces el diámetro exterior.",
-            "isCorrect": false,
-            "explanation": "Radio demasiado cerrado que podría dañar el conductor o el aislamiento."
-          },
-          {
-            "id": 2,
-            "answer": "6 veces el diámetro exterior.",
-            "isCorrect": true,
-            "explanation": "Se debe respetar este radio mínimo para evitar fatiga mecánica en las curvas. Fuente: ITC-BT-46, Apartado 3.4."
-          },
-          {
-            "id": 3,
-            "answer": "10 veces el diámetro exterior.",
-            "isCorrect": false,
-            "explanation": "Este valor aplica a los cables que SÍ tienen armadura metálica."
-          },
-          {
-            "id": 4,
-            "answer": "No hay radio de curvatura si el cable es de silicona.",
-            "isCorrect": false,
-            "explanation": "Todos los cables deben respetar radios de curvatura mínimos."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-08",
-        "question": "¿A qué distancia mínima de las paredes exteriores deben situarse los cables calefactores en el suelo?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "0,1 metros.",
-            "isCorrect": false,
-            "explanation": "Distancia insuficiente por el puente térmico de la pared exterior."
-          },
-          {
-            "id": 2,
-            "answer": "0,2 metros.",
-            "isCorrect": true,
-            "explanation": "Se exige este margen para evitar pérdidas excesivas hacia el exterior del edificio. Fuente: ITC-BT-46, Apartado 4.1."
-          },
-          {
-            "id": 3,
-            "answer": "0,5 metros.",
-            "isCorrect": false,
-            "explanation": "Es una recomendación para paredes interiores con muebles, no el mínimo para exteriores."
-          },
-          {
-            "id": 4,
-            "answer": "Se pueden pegar a la pared para calentar el cerramiento.",
-            "isCorrect": false,
-            "explanation": "Está prohibido por la ineficiencia térmica y riesgo de daños."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-09",
-        "question": "¿Qué espesor mínimo debe tener la capa de hormigón en la que se empotran los cables calefactores del suelo?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mm.",
-            "isCorrect": false,
-            "explanation": "Espesor insuficiente para garantizar la inercia térmica y protección del cable."
-          },
-          {
-            "id": 2,
-            "answer": "30 mm.",
-            "isCorrect": true,
-            "explanation": "La segunda capa de hormigón (no aislante) debe tener al menos este espesor. Fuente: ITC-BT-46, Apartado 4.1."
-          },
-          {
-            "id": 3,
-            "answer": "50 mm.",
-            "isCorrect": false,
-            "explanation": "Valor superior al mínimo, aunque recomendable en algunos proyectos."
-          },
-          {
-            "id": 4,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "La norma exige un mínimo estricto de 30 mm."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-10",
-        "question": "¿Se puede utilizar el elemento calefactor para acelerar el fraguado del hormigón?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, ayuda a que el suelo esté listo antes.",
-            "isCorrect": false,
-            "explanation": "El calor excesivo durante el fraguado debilita la estructura del hormigón."
-          },
-          {
-            "id": 2,
-            "answer": "No, aunque sí se permite utilizarlo para el secado posterior.",
-            "isCorrect": true,
-            "explanation": "El fraguado debe ser natural; una vez finalizado, el cable puede ayudar a eliminar la humedad residual. Fuente: ITC-BT-46, Apartado 4.1."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si se pone a media potencia.",
-            "isCorrect": false,
-            "explanation": "La prohibición de uso durante el fraguado es total."
-          },
-          {
-            "id": 4,
-            "answer": "Sí, siempre que se riegue el suelo con agua constantemente.",
-            "isCorrect": false,
-            "explanation": "Inútil y peligroso; el proceso químico del fraguado no debe alterarse térmicamente."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-11",
-        "question": "¿Qué característica debe tener el 'zócalo aislante' perimetral?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Debe ser de material conductor como aluminio.",
-            "isCorrect": false,
-            "explanation": "Provocaría pérdidas térmicas masivas hacia las paredes."
-          },
-          {
-            "id": 2,
-            "answer": "Espesor igual o superior a 1 cm y altura igual a la capa de mortero.",
-            "isCorrect": true,
-            "explanation": "Aísla térmicamente la losa radiante de las paredes y permite dilataciones. Fuente: ITC-BT-46, Apartado 4.1."
-          },
-          {
-            "id": 3,
-            "answer": "Espesor de 1 mm únicamente.",
-            "isCorrect": false,
-            "explanation": "Valor insuficiente para la función de aislamiento y dilatación requerida."
-          },
-          {
-            "id": 4,
-            "answer": "Solo es obligatorio en plantas bajas.",
-            "isCorrect": false,
-            "explanation": "Es obligatorio en todo el perímetro del local independientemente de la planta."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-12",
-        "question": "¿Cuál es el límite de capacidad térmica para los materiales situados sobre el aislamiento térmico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 kJ/m² K.",
-            "isCorrect": false,
-            "explanation": "Valor inferior al límite máximo permitido."
-          },
-          {
-            "id": 2,
-            "answer": "120 kJ/m² K.",
-            "isCorrect": true,
-            "explanation": "La masa térmica por encima del aislamiento no debe exceder este valor para mantener la eficiencia del sistema. Fuente: ITC-BT-46, Apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "200 kJ/m² K.",
-            "isCorrect": false,
-            "explanation": "Valor excesivo que dificultaría la respuesta térmica del sistema."
-          },
-          {
-            "id": 4,
-            "answer": "No hay límite si el cable es de 30 W/m.",
-            "isCorrect": false,
-            "explanation": "El límite es una propiedad del diseño del sistema de calefacción."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-13",
-        "question": "¿De qué material deben ser los distanciadores para la fijación de los cables?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Acero galvanizado.",
-            "isCorrect": false,
-            "explanation": "Los metales pueden dañar el aislamiento del cable por presión o corrosión."
-          },
-          {
-            "id": 2,
-            "answer": "Materiales no metálicos resistentes a la corrosión.",
-            "isCorrect": true,
-            "explanation": "Deben ser neutros para no producir daños mecánicos ni químicos al aislamiento. Fuente: ITC-BT-46, Apartado 3.4."
-          },
-          {
-            "id": 3,
-            "answer": "Cobre desnudo.",
-            "isCorrect": false,
-            "explanation": "Totalmente inadecuado para la fijación mecánica de cables calefactores."
-          },
-          {
-            "id": 4,
-            "answer": "Madera tratada.",
-            "isCorrect": false,
-            "explanation": "No es un material estándar ni recomendado por su degradación en el hormigón."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-14",
-        "question": "¿A qué distancia de las paredes interiores se recomienda alejar el cable del suelo?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "0,2 metros.",
-            "isCorrect": false,
-            "explanation": "Es el mínimo para exteriores, pero para interiores con muebles hay otra recomendación."
-          },
-          {
-            "id": 2,
-            "answer": "0,6 metros.",
-            "isCorrect": true,
-            "explanation": "Se busca evitar que los muebles instalados sobre las paredes dificulten la emisión de calor. Fuente: ITC-BT-46, Apartado 3.3."
-          },
-          {
-            "id": 3,
-            "answer": "1 metro.",
-            "isCorrect": false,
-            "explanation": "Distancia excesiva que reduciría demasiado la superficie calefactada."
-          },
-          {
-            "id": 4,
-            "answer": "No hay recomendación para paredes interiores.",
-            "isCorrect": false,
-            "explanation": "Existe la recomendación de 0,6 metros por motivos de eficiencia."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-15",
-        "question": "¿Qué ensayo es obligatorio realizar ANTES de cubrir el elemento calefactor?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Ensayo de rigidez dieléctrica a 2.500 V.",
-            "isCorrect": false,
-            "explanation": "Ensayo excesivo para una comprobación en obra."
-          },
-          {
-            "id": 2,
-            "answer": "Comprobar la continuidad del circuito.",
-            "isCorrect": true,
-            "explanation": "Es vital asegurar que el cable no tiene cortes antes de proceder al vertido del hormigón. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "Medir el consumo en amperios con una pinza.",
-            "isCorrect": false,
-            "explanation": "Solo se puede hacer una vez alimentado a tensión real tras el secado."
-          },
-          {
-            "id": 4,
-            "answer": "Verificar el color del revestimiento.",
-            "isCorrect": false,
-            "explanation": "No tiene ninguna relevancia técnica para la seguridad."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-16",
-        "question": "¿Dónde NO debe instalarse el elemento calefactor respecto a otras instalaciones hidráulicas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A menos de 1 metro de los radiadores de agua.",
-            "isCorrect": false,
-            "explanation": "No hay una distancia fija prohibida respecto a radiadores."
-          },
-          {
-            "id": 2,
-            "answer": "Por debajo de ninguna unión de las tuberías de distribución de agua o desagües.",
-            "isCorrect": true,
-            "explanation": "Se previene que una posible fuga de agua en las uniones afecte directamente al sistema eléctrico. Fuente: ITC-BT-46, Apartado 2."
-          },
-          {
-            "id": 3,
-            "answer": "En el mismo plano que las tuberías de gas.",
-            "isCorrect": false,
-            "explanation": "Aunque requiere precaución, la prohibición específica es sobre uniones de agua/desagüe."
-          },
-          {
-            "id": 4,
-            "answer": "Cerca de los sifones de los lavabos.",
-            "isCorrect": false,
-            "explanation": "La prohibición aplica a las uniones ocultas en la estructura."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-17",
-        "question": "¿Qué tipo de dispositivo de mando deben tener los termostatos o controles de calefacción?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Siempre deben ser de corte omnipolar.",
-            "isCorrect": false,
-            "explanation": "Se permite que los dispositivos de control específicos no lo sean."
-          },
-          {
-            "id": 2,
-            "answer": "Los dispositivos de mando y maniobra deben ser de corte omnipolar, pero los de control (termostatos) pueden no serlo.",
-            "isCorrect": true,
-            "explanation": "La desconexión general del circuito debe ser total, pero la regulación fina puede actuar solo sobre la fase. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "Deben ser exclusivamente manuales mediante manivela.",
-            "isCorrect": false,
-            "explanation": "Los sistemas electrónicos son los más habituales y permitidos."
-          },
-          {
-            "id": 4,
-            "answer": "Solo pueden actuar sobre el conductor neutro.",
-            "isCorrect": false,
-            "explanation": "Está prohibido maniobrar exclusivamente sobre el neutro por seguridad."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-18",
-        "question": "¿Qué sección debe tener el conductor de protección de la armadura del cable calefactor?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Mínimo 1,5 mm² siempre.",
-            "isCorrect": false,
-            "explanation": "La sección debe estar coordinada con la alimentación del aparato."
-          },
-          {
-            "id": 2,
-            "answer": "Igual a la sección del conductor de fase.",
-            "isCorrect": true,
-            "explanation": "Se garantiza que el conductor de tierra pueda soportar la misma corriente que el de fase en caso de defecto. Fuente: ITC-BT-46, Apartado 3.2."
-          },
-          {
-            "id": 3,
-            "answer": "La mitad de la sección de fase.",
-            "isCorrect": false,
-            "explanation": "Valor insuficiente según los requisitos específicos de esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Siempre 6 mm² para mayor seguridad.",
-            "isCorrect": false,
-            "explanation": "Valor innecesario si la fase es de menor sección."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-19",
-        "question": "¿En qué franja se recomienda reforzar la emisión de calor disminuyendo el paso entre espiras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el centro del local para crear confort.",
-            "isCorrect": false,
-            "explanation": "El centro suele ser la zona más cálida por inercia."
-          },
-          {
-            "id": 2,
-            "answer": "En la franja de 0,5 m a 0,6 m más cercana al cerramiento exterior.",
-            "isCorrect": true,
-            "explanation": "Se compensan las mayores pérdidas térmicas que se producen cerca de las fachadas. Fuente: ITC-BT-46, Apartado 3.3."
-          },
-          {
-            "id": 3,
-            "answer": "Bajo la alfombra principal.",
-            "isCorrect": false,
-            "explanation": "Peligroso por la acumulación excesiva de calor (efecto aislamiento)."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en las esquinas orientadas al norte.",
-            "isCorrect": false,
-            "explanation": "La recomendación es general para todo el perímetro exterior."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-20",
-        "question": "Si el cable calefactor tiene armadura, ¿cuál es su radio de curvatura mínimo?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 veces el diámetro.",
-            "isCorrect": false,
-            "explanation": "Este es el valor para cables SIN armadura."
-          },
-          {
-            "id": 2,
-            "answer": "10 veces el diámetro exterior.",
-            "isCorrect": true,
-            "explanation": "La armadura metálica rigidiza el cable y exige curvas más amplias para no quebrarse. Fuente: ITC-BT-46, Apartado 3.4."
-          },
-          {
-            "id": 3,
-            "answer": "15 veces el diámetro.",
-            "isCorrect": false,
-            "explanation": "Es un radio muy seguro, pero el mínimo reglamentario es 10 veces."
-          },
-          {
-            "id": 4,
-            "answer": "No se pueden doblar los cables con armadura.",
-            "isCorrect": false,
-            "explanation": "Se pueden doblar respetando los límites de radio establecidos."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-21",
-        "question": "¿Qué se debe instalar en todo el perímetro del local si existe peligro de humedad?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Una canaleta de drenaje.",
-            "isCorrect": false,
-            "explanation": "No es una medida eléctrica de la ITC-BT-46."
-          },
-          {
-            "id": 2,
-            "answer": "Una barrera contra la humedad y/o barrera anti-vapor.",
-            "isCorrect": true,
-            "explanation": "Protege el sistema eléctrico y el aislamiento térmico de la degradación por agua. Fuente: ITC-BT-46, Apartado 4.1."
-          },
-          {
-            "id": 3,
-            "answer": "Solo un diferencial de 10 mA.",
-            "isCorrect": false,
-            "explanation": "La protección diferencial es obligatoria, pero no sustituye a las barreras físicas contra humedad."
-          },
-          {
-            "id": 4,
-            "answer": "Una bomba de achique automática.",
-            "isCorrect": false,
-            "explanation": "Totalmente ajeno a la normativa de suelos radiantes eléctricos."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-22",
-        "question": "¿Cómo debe terminar el tubo o canalización de la unión fría respecto a la conexión del cable?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Directamente en el borne de conexión.",
-            "isCorrect": false,
-            "explanation": "Debe haber una separación embebida en hormigón."
-          },
-          {
-            "id": 2,
-            "answer": "Deberá terminar a 0,20 m como mínimo de la conexión.",
-            "isCorrect": true,
-            "explanation": "Se asegura que la unión crítica esté totalmente protegida por la masa de hormigón. Fuente: ITC-BT-46, Apartado 3.2.1."
-          },
-          {
-            "id": 3,
-            "answer": "A 1 metro de distancia por seguridad.",
-            "isCorrect": false,
-            "explanation": "Valor excesivo que dejaría demasiado cable de alimentación sin protección de tubo."
-          },
-          {
-            "id": 4,
-            "answer": "No requiere tubo si el cable es de 300/500 V.",
-            "isCorrect": false,
-            "explanation": "La canalización es necesaria para el tramo de alimentación hasta la unión fría."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-23",
-        "question": "En techos radiantes, ¿qué disposición se recomienda para las espiras del cable?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En espiral desde el centro hacia afuera.",
-            "isCorrect": false,
-            "explanation": "No es la recomendación específica de la norma para techos/suelos."
-          },
-          {
-            "id": 2,
-            "answer": "Dispuestas paralelamente a la pared que tenga mayores pérdidas.",
-            "isCorrect": true,
-            "explanation": "Facilita el refuerzo de calor en las zonas más frías del local. Fuente: ITC-BT-46, Apartado 3.3."
-          },
-          {
-            "id": 3,
-            "answer": "Cruzadas en forma de malla de gallinero.",
-            "isCorrect": false,
-            "explanation": "Prohibido por el riesgo de puntos calientes en los cruces de cables."
-          },
-          {
-            "id": 4,
-            "answer": "Verticalmente siguiendo las vigas del techo.",
-            "isCorrect": false,
-            "explanation": "La disposición recomendada es paralela a la fachada más fría."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-46-24",
-        "question": "¿Qué tensión nominal deben tener los cables y folios radiantes según esta ITC?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V eficaces únicamente.",
-            "isCorrect": false,
-            "explanation": "Es la tensión de servicio, pero la nominal del cable debe ser superior."
+            "explanation": "Esas son tensiones de seguridad; el sistema radiante estándar es de red."
           },
           {
             "id": 2,
             "answer": "300/500 V.",
             "isCorrect": true,
-            "explanation": "Es el nivel de aislamiento nominal requerido para estos elementos calefactores empotrados. Fuente: ITC-BT-46, Apartado 1."
+            "explanation": "Tensión de aislamiento estándar para estos elementos calefactores. Fuente: ITC-BT-46, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "450/750 V.",
+            "answer": "1.000 V.",
             "isCorrect": false,
-            "explanation": "Nivel superior permitido, pero el mínimo reglamentario es 300/500 V."
+            "explanation": "Tensión excesiva para uso doméstico empotrado."
           },
           {
             "id": 4,
-            "answer": "Muy Baja Tensión (12 V).",
+            "answer": "Solo funcionan con corriente continua.",
             "isCorrect": false,
-            "explanation": "Existen sistemas de 12 V, pero la ITC-BT-46 se centra en los de tensión de red."
+            "explanation": "Funcionan con la corriente alterna de la vivienda."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
-        "id": "ITC-BT-46-25",
-        "question": "Respecto a cables de fuerza y alumbrado próximos, ¿cuál es la recomendación de instalación?",
+        "id": "ITC-BT-46-03",
+        "type": "simple",
+        "question": "¿Se permite la instalación de cables calefactores en locales donde exista riesgo de movimiento de la estructura o grietas?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben ir por el mismo tubo para ahorrar espacio.",
+            "answer": "Sí, el cable es muy elástico.",
             "isCorrect": false,
-            "explanation": "Peligro de sobrecalentamiento de los cables de fuerza por el calefactor."
+            "explanation": "El cable puede romperse o pelarse si la estructura se mueve."
           },
           {
             "id": 2,
-            "answer": "Instalarse lo más lejos posible para que no reciban calor del elemento calefactor.",
+            "answer": "No, a menos que se utilicen sistemas diseñados específicamente para absorber dichos movimientos.",
             "isCorrect": true,
-            "explanation": "El calor emitido por la calefacción degradaría la capacidad de carga de los otros circuitos. Fuente: ITC-BT-46, Apartado 3.5."
+            "explanation": "Evita roturas del elemento calefactor que podrían causar derivaciones o incendios. Fuente: ITC-BT-46, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "Solo si se cruzan a 90 grados exactos.",
+            "answer": "Solo si se pegan con pegamento fuerte.",
             "isCorrect": false,
-            "explanation": "El problema no es la inducción magnética, sino la transferencia de calor térmica."
+            "explanation": "El pegamento no sustituye a la integridad estructural."
           },
           {
             "id": 4,
-            "answer": "Deben ser de mayor sección (mínimo 10 mm²).",
+            "answer": "Sí, si se instalan bajo una alfombra.",
             "isCorrect": false,
-            "explanation": "Podría ser una solución de cálculo, pero la recomendación prioritaria es el alejamiento."
+            "explanation": "La alfombra no protege la estructura del suelo."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-46-04",
+        "type": "simple",
+        "question": "¿Qué es una 'unión fría' en una instalación de suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una conexión que se hace con hielo.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Punto de conexión entre el cable calefactor y el cable de alimentación no calefactor.",
+            "isCorrect": true,
+            "explanation": "Permite llevar la energía desde el cuadro hasta el suelo sin calentar la pared. Fuente: ITC-BT-46, Apartado 3.2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Un empalme mal hecho que no hace calor.",
+            "isCorrect": false,
+            "explanation": "Eso sería un fallo, no un componente técnico."
+          },
+          {
+            "id": 4,
+            "answer": "La zona del suelo que no tiene calefacción.",
+            "isCorrect": false,
+            "explanation": "Se refiere a la transición eléctrica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-05",
+        "type": "simple",
+        "question": "¿Es obligatorio el uso de interruptor diferencial para proteger un circuito de suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, porque el cable va enterrado.",
+            "isCorrect": false,
+            "explanation": "Al ir enterrado es más probable una derivación a través del material húmedo."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, y se recomienda una sensibilidad de 30 mA.",
+            "isCorrect": true,
+            "explanation": "Protección fundamental contra contactos indirectos y riesgos de incendio por fugas. Fuente: ITC-BT-46, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el suelo es metálico.",
+            "isCorrect": false,
+            "explanation": "Obligatorio para cualquier tipo de suelo."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se instala en el baño.",
+            "isCorrect": false,
+            "explanation": "Requisito general para todo el sistema radiante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-06",
+        "type": "multiple",
+        "question": "¿Qué comprobaciones deben realizarse durante la instalación de los cables calefactores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Medida de la resistencia óhmica del cable.",
+            "isCorrect": true,
+            "explanation": "Verifica que el cable no está cortado y que la potencia es la correcta."
+          },
+          {
+            "id": 2,
+            "answer": "Ensayo de resistencia de aislamiento.",
+            "isCorrect": true,
+            "explanation": "Garantiza que no hay poros en la cubierta del cable. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Verificación de la continuidad de la malla de tierra.",
+            "isCorrect": true,
+            "explanation": "Seguridad ante fallos de aislamiento."
+          },
+          {
+            "id": 4,
+            "answer": "Comprobar si el cable combina con el color del cemento.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-07",
+        "type": "simple",
+        "question": "Sobre la fijación de los cables calefactores al suelo, ¿qué precaución se debe tomar?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se deben clavar con puntas de acero.",
+            "isCorrect": false,
+            "explanation": "Los clavos perforarían el aislamiento del cable."
+          },
+          {
+            "id": 2,
+            "answer": "Deben fijarse mediante grapas o bandas que no dañen el aislamiento ni compriman el cable.",
+            "isCorrect": true,
+            "explanation": "Mantiene la posición del cable sin comprometer su integridad eléctrica. Fuente: ITC-BT-46, Apartado 3.4."
+          },
+          {
+            "id": 3,
+            "answer": "Se pueden dejar sueltos si el cemento los sujeta.",
+            "isCorrect": false,
+            "explanation": "Se moverían al verter el cemento, provocando zonas calientes o tocamientos entre cables."
+          },
+          {
+            "id": 4,
+            "answer": "Deben atarse con alambre de espino.",
+            "isCorrect": false,
+            "explanation": "Destruiría el cable."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-08",
+        "type": "simple",
+        "question": "¿Se pueden cruzar los cables calefactores entre sí durante la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para aprovechar el espacio.",
+            "isCorrect": false,
+            "explanation": "En el punto de cruce se acumularía el calor y se quemaría el aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "No, los cables nunca deben cruzarse ni superponerse, salvo que sean cables específicos de autorregulación.",
+            "isCorrect": true,
+            "explanation": "Evita puntos calientes destructivos. Fuente: ITC-BT-46, Apartado 3.3."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se pone un trozo de cartón entre ellos.",
+            "isCorrect": false,
+            "explanation": "El cartón es aislante térmico y empeoraría el calentamiento."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se cruzan a 90 grados.",
+            "isCorrect": false,
+            "explanation": "La norma prohíbe el cruce general por seguridad térmica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-09",
+        "type": "simple",
+        "question": "En una instalación de folio radiante en el techo, ¿cuál es la principal precaución respecto a las luminarias empotradas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la luz sea de color cálido.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Se deben respetar distancias mínimas para que el calor del folio no dañe la luminaria ni viceversa.",
+            "isCorrect": true,
+            "explanation": "La suma de calores puede provocar incendios o fallos electrónicos. Fuente: ITC-BT-46, Apartado 3.5."
+          },
+          {
+            "id": 3,
+            "answer": "No se pueden poner luces en techos radiantes.",
+            "isCorrect": false,
+            "explanation": "Se pueden poner, pero con diseño coordinado."
+          },
+          {
+            "id": 4,
+            "answer": "Las luces deben ser de 12V solamente.",
+            "isCorrect": false,
+            "explanation": "No es un requisito reglamentario."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-10",
+        "type": "simple",
+        "question": "¿Qué función cumple el aislante térmico que se coloca debajo de los cables en un suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Hacer que el suelo esté más blandito.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Dirigir el flujo de calor hacia arriba (hacia la estancia) y evitar pérdidas hacia el forjado o el vecino inferior.",
+            "isCorrect": true,
+            "explanation": "Mejora drásticamente la eficiencia del sistema. Fuente: Principios de termodinámica aplicada."
+          },
+          {
+            "id": 3,
+            "answer": "Proteger los cables de las hormigas.",
+            "isCorrect": false,
+            "explanation": "No es su función técnica."
+          },
+          {
+            "id": 4,
+            "answer": "Evitar que la electricidad se escape por el suelo.",
+            "isCorrect": false,
+            "explanation": "Esa es la función del aislamiento eléctrico del propio cable."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-11",
+        "type": "multiple",
+        "question": "¿Qué requisitos debe cumplir el mortero o cemento que recubre los cables en el suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No debe contener piedras grandes ni aristas que puedan pinchar el cable.",
+            "isCorrect": true,
+            "explanation": "Protección mecánica del aislamiento."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ser de buena conductividad térmica.",
+            "isCorrect": true,
+            "explanation": "Para transmitir el calor de forma eficiente a la superficie."
+          },
+          {
+            "id": 3,
+            "answer": "Debe envolver totalmente el cable sin dejar burbujas de aire.",
+            "isCorrect": true,
+            "explanation": "El aire es aislante y causaría sobrecalentamiento local del cable. Fuente: Normas de montaje."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar mezclado con serrín para que sea ligero.",
+            "isCorrect": false,
+            "explanation": "Peligro de incendio y mala transmisión de calor."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-12",
+        "type": "simple",
+        "question": "Sobre el control de temperatura, ¿es obligatorio instalar termostatos de ambiente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, se puede controlar con un grifo.",
+            "isCorrect": false,
+            "explanation": "Es calefacción eléctrica, no hidráulica."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, cada zona o habitación debe tener su propio control para garantizar el confort y el ahorro energético.",
+            "isCorrect": true,
+            "explanation": "Permite ajustar la potencia a la necesidad real de cada estancia. Fuente: ITC-BT-46, Apartado 6."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la casa tiene más de 100 metros cuadrados.",
+            "isCorrect": false,
+            "explanation": "Cualquier instalación requiere control térmico."
+          },
+          {
+            "id": 4,
+            "answer": "Se controlan solos con el sol.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-13",
+        "type": "simple",
+        "question": "¿Qué precaución se debe tomar con los muebles de gran tamaño y sin patas en una habitación con suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguna, el mueble se calienta y ya está.",
+            "isCorrect": false,
+            "explanation": "El mueble actúa como aislante y el calor se acumula debajo."
+          },
+          {
+            "id": 2,
+            "answer": "Se debe evitar colocar muebles de base cerrada sobre zonas calefactadas para no bloquear la salida de calor y dañar el cable.",
+            "isCorrect": true,
+            "explanation": "El calor atrapado puede degradar el pavimento y el cable por exceso de temperatura. Fuente: Recomendaciones de uso."
+          },
+          {
+            "id": 3,
+            "answer": "Se deben atornillar los muebles al suelo radiante.",
+            "isCorrect": false,
+            "explanation": "Perforaría los cables."
+          },
+          {
+            "id": 4,
+            "answer": "Solo se permiten muebles de cristal.",
+            "isCorrect": false,
+            "explanation": "Se permiten de cualquier material si tienen patas que dejen circular el aire."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-14",
+        "type": "simple",
+        "question": "Sobre la 'unión fría', ¿cómo debe quedar tras la obra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Enterrada en el hormigón para siempre.",
+            "isCorrect": false,
+            "explanation": "Dificulta enormemente la reparación si falla."
+          },
+          {
+            "id": 2,
+            "answer": "Debidamente protegida y, a ser posible, accesible o situada en una zona donde su localización esté documentada.",
+            "isCorrect": true,
+            "explanation": "Es el punto más crítico de fallo potencial de la instalación. Fuente: ITC-BT-46, Apartado 3.2.1."
+          },
+          {
+            "id": 3,
+            "answer": "Fuera de la pared, colgando.",
+            "isCorrect": false,
+            "explanation": "Antiestético e inseguro mecánicamente."
+          },
+          {
+            "id": 4,
+            "answer": "Pintada de color rojo.",
+            "isCorrect": false,
+            "explanation": "No aporta seguridad técnica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-15",
+        "type": "simple",
+        "question": "En una instalación de folio radiante en el techo, ¿cuál es el límite de temperatura superficial para evitar molestias a las personas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "100 ºC.",
+            "isCorrect": false,
+            "explanation": "Quemaría la cabeza de los ocupantes."
+          },
+          {
+            "id": 2,
+            "answer": "Habitualmente no debe superar los 35-40 ºC para evitar una radiación excesiva sobre la cabeza.",
+            "isCorrect": true,
+            "explanation": "Criterio de confort térmico para evitar dolores de cabeza. Fuente: Normas de ergonomía térmica."
+          },
+          {
+            "id": 3,
+            "answer": "20 ºC.",
+            "isCorrect": false,
+            "explanation": "No calentaría la habitación."
+          },
+          {
+            "id": 4,
+            "answer": "No hay límite en el techo.",
+            "isCorrect": false,
+            "explanation": "La radiación excesiva es perjudicial para la salud."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-16",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el folio radiante frente al cable calefactor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Menor espesor, ideal para reformas bajo tarima.",
+            "isCorrect": true,
+            "explanation": "Apenas levanta unos milímetros el suelo."
+          },
+          {
+            "id": 2,
+            "answer": "Distribución del calor más uniforme por toda la superficie.",
+            "isCorrect": true,
+            "explanation": "Cubre casi el 100% del área."
+          },
+          {
+            "id": 3,
+            "answer": "Se puede cortar con tijeras normales en cualquier punto.",
+            "isCorrect": false,
+            "explanation": "Falso; solo se puede cortar por las zonas marcadas por el fabricante para no interrumpir el circuito."
+          },
+          {
+            "id": 4,
+            "answer": "Facilidad de instalación 'en seco'.",
+            "isCorrect": true,
+            "explanation": "No requiere mortero si se instala bajo parquet flotante. Fuente: Manuales de producto."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-17",
+        "type": "simple",
+        "question": "Sobre la potencia por metro cuadrado (W/m²), ¿cuál es un valor habitual y seguro para suelo radiante en una vivienda?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1.000 W/m².",
+            "isCorrect": false,
+            "explanation": "Excesivo; agrietaría el suelo y sería peligroso."
+          },
+          {
+            "id": 2,
+            "answer": "Entre 80 y 150 W/m².",
+            "isCorrect": true,
+            "explanation": "Rango estándar para compensar pérdidas térmicas con seguridad. Fuente: Cálculos de carga térmica."
+          },
+          {
+            "id": 3,
+            "answer": "10 W/m².",
+            "isCorrect": false,
+            "explanation": "Insuficiente para calentar en invierno."
+          },
+          {
+            "id": 4,
+            "answer": "500 W/m².",
+            "isCorrect": false,
+            "explanation": "Valor para aplicaciones industriales de deshielo, no para interiores."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-18",
+        "type": "simple",
+        "question": "¿Qué ocurre si un clavo atraviesa un cable calefactor tras la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El clavo se calienta y ayuda.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Se produce una derivación a tierra que debe hacer saltar el diferencial inmediatamente.",
+            "isCorrect": true,
+            "explanation": "Situación de peligro protegida por la malla de tierra y el diferencial. Fuente: Seguridad eléctrica."
+          },
+          {
+            "id": 3,
+            "answer": "Nada, el aislamiento se repara solo.",
+            "isCorrect": false,
+            "explanation": "El aislamiento plástico no tiene memoria ni autorreparación."
+          },
+          {
+            "id": 4,
+            "answer": "Se apaga toda la casa.",
+            "isCorrect": false,
+            "explanation": "Solo debería saltar el circuito del suelo radiante."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-19",
+        "type": "simple",
+        "question": "En un suelo radiante, ¿cuál es el tiempo de respuesta aproximado desde que se enciende hasta que se nota el calor?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1 segundo.",
+            "isCorrect": false,
+            "explanation": "Imposible por la inercia térmica de la losa de hormigón."
+          },
+          {
+            "id": 2,
+            "answer": "Entre 1 y 4 horas, dependiendo del espesor del mortero.",
+            "isCorrect": true,
+            "explanation": "Es un sistema de gran inercia que tarda en calentar y en enfriar. Fuente: Guías de climatización."
+          },
+          {
+            "id": 3,
+            "answer": "Varios días.",
+            "isCorrect": false,
+            "explanation": "Sería un sistema ineficiente de controlar."
+          },
+          {
+            "id": 4,
+            "answer": "Es instantáneo como una bombilla.",
+            "isCorrect": false,
+            "explanation": "La bombilla calienta aire, el suelo debe calentar kilos de cemento."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-20",
+        "type": "simple",
+        "question": "Sobre la documentación de la instalación, ¿qué es fundamental entregar al usuario final?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una foto del electricista.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Un plano o esquema con la ubicación exacta de los cables y las uniones para evitar perforaciones accidentales en el futuro.",
+            "isCorrect": true,
+            "explanation": "Vital para colgar cuadros (si es techo) o fijar topes de puerta (si es suelo). Fuente: ITC-BT-46, Apartado 3.5."
+          },
+          {
+            "id": 3,
+            "answer": "La factura de la luz estimada.",
+            "isCorrect": false,
+            "explanation": "Información no técnica de seguridad."
+          },
+          {
+            "id": 4,
+            "answer": "Un trozo de cable sobrante.",
+            "isCorrect": false,
+            "explanation": "No aporta nada a la seguridad de la instalación realizada."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-21",
+        "type": "multiple",
+        "question": "¿Qué riesgos específicos presenta una instalación de folios radiantes en el techo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Riesgo de perforación al instalar lámparas o detectores de humo.",
+            "isCorrect": true,
+            "explanation": "Requiere conocer la ubicación exacta de las láminas calefactoras."
+          },
+          {
+            "id": 2,
+            "answer": "Acumulación de calor excesivo sobre la cabeza de personas altas.",
+            "isCorrect": true,
+            "explanation": "Afecta al confort térmico."
+          },
+          {
+            "id": 3,
+            "answer": "Que el calor no baje al suelo.",
+            "isCorrect": false,
+            "explanation": "El calor baja por radiación, aunque el aire caliente suba por convección."
+          },
+          {
+            "id": 4,
+            "answer": "Condensaciones si hay un puente térmico hacia el piso superior.",
+            "isCorrect": true,
+            "explanation": "Puede dañar el aislamiento eléctrico del folio. Fuente: Criterios constructivos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-22",
+        "type": "simple",
+        "question": "¿Se puede instalar suelo radiante bajo una bañera?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para que el agua no se enfríe.",
+            "isCorrect": false,
+            "explanation": "Peligro de corrosión y falta de disipación de calor."
+          },
+          {
+            "id": 2,
+            "answer": "No se recomienda, se debe evitar colocar elementos calefactores bajo sanitarios fijos o muebles sin patas.",
+            "isCorrect": true,
+            "explanation": "Evita el sobrecalentamiento local y facilita reparaciones. Fuente: Recomendaciones técnicas."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la bañera es de plástico.",
+            "isCorrect": false,
+            "explanation": "El problema es la falta de ventilación y la inercia inútil."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, es obligatorio por el REBT.",
+            "isCorrect": false,
+            "explanation": "No es obligatorio, de hecho se desaconseja."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-23",
+        "type": "simple",
+        "question": "Sobre la sonda de suelo del termostato, ¿dónde debe colocarse?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Pegada directamente al cable calefactor.",
+            "isCorrect": false,
+            "explanation": "Daría una lectura falsa muy alta."
+          },
+          {
+            "id": 2,
+            "answer": "A media distancia entre dos vueltas de cable, dentro de un tubo corrugado con el extremo sellado.",
+            "isCorrect": true,
+            "explanation": "Mide la temperatura media del suelo y permite su sustitución si se avería. Fuente: Esquemas de montaje."
+          },
+          {
+            "id": 3,
+            "answer": "En el exterior de la casa.",
+            "isCorrect": false,
+            "explanation": "Esa sería una sonda climática, no de limitación de suelo."
+          },
+          {
+            "id": 4,
+            "answer": "Encima de la alfombra.",
+            "isCorrect": false,
+            "explanation": "No mediría la temperatura real de la losa."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-24",
+        "type": "simple",
+        "question": "¿Cuál es la función de la malla metálica de tierra en una instalación de suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Hacer de calefacción secundaria.",
+            "isCorrect": false,
+            "explanation": "No circula corriente por ella en uso normal."
+          },
+          {
+            "id": 2,
+            "answer": "Actuar como barrera de seguridad que deriva cualquier fuga de corriente a tierra antes de que llegue al usuario.",
+            "isCorrect": true,
+            "explanation": "Elemento de protección pasiva fundamental. Fuente: ITC-BT-46, Apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Evitar que los cables se muevan.",
+            "isCorrect": false,
+            "explanation": "Puede ayudar mecánicamente, pero su función principal es eléctrica."
+          },
+          {
+            "id": 4,
+            "answer": "Mejorar la cobertura del Wi-Fi.",
+            "isCorrect": false,
+            "explanation": "Al contrario, podría actuar como jaula de Faraday y empeorarla ligeramente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-25",
+        "type": "simple",
+        "question": "En caso de avería de un cable calefactor empotrado, ¿qué técnica se suele usar para localizar el punto exacto de rotura?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Picar todo el suelo hasta encontrarlo.",
+            "isCorrect": false,
+            "explanation": "Muy costoso y destructivo."
+          },
+          {
+            "id": 2,
+            "answer": "Uso de cámaras termográficas o trazadores de alta frecuencia.",
+            "isCorrect": true,
+            "explanation": "Permite localizar el punto de calor o el corte sin levantar todo el pavimento. Fuente: Técnicas de mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "Echar agua y ver por dónde salen burbujas.",
+            "isCorrect": false,
+            "explanation": "Absurdo y peligroso."
+          },
+          {
+            "id": 4,
+            "answer": "No se pueden reparar, hay que anular la habitación.",
+            "isCorrect": false,
+            "explanation": "Se pueden reparar con kits específicos de empalme estanco."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-26",
+        "type": "multiple",
+        "question": "¿Qué tipos de pavimentos son compatibles con el suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cerámica o piedra natural (granito, mármol).",
+            "isCorrect": true,
+            "explanation": "Excelente conductividad térmica e inercia."
+          },
+          {
+            "id": 2,
+            "answer": "Parquet o tarima flotante específica para suelo radiante.",
+            "isCorrect": true,
+            "explanation": "Debe estar certificada para no agrietarse con el calor."
+          },
+          {
+            "id": 3,
+            "answer": "Suelos de vinilo o linóleo de alta calidad.",
+            "isCorrect": true,
+            "explanation": "Resisten bien temperaturas moderadas. Fuente: Guías de materiales."
+          },
+          {
+            "id": 4,
+            "answer": "Alfombras de lana de 5 cm de espesor en toda la casa.",
+            "isCorrect": false,
+            "explanation": "Actúan como aislante y bloquean el calor del sistema."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-27",
+        "type": "simple",
+        "question": "Sobre la alimentación eléctrica, ¿pueden conectarse los cables radiantes al circuito general de enchufes?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si hay pocos enchufes.",
+            "isCorrect": false,
+            "explanation": "Sobrecargaría el circuito de uso general."
+          },
+          {
+            "id": 2,
+            "answer": "No, deben disponer de un circuito independiente con su propia protección magnetotérmica.",
+            "isCorrect": true,
+            "explanation": "Garantiza la selectividad y evita disparos por otros electrodomésticos. Fuente: ITC-BT-46, Apartado 3.1."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se usa un adaptador de enchufe.",
+            "isCorrect": false,
+            "explanation": "Los sistemas empotrados no usan adaptadores."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero solo para habitaciones pequeñas.",
+            "isCorrect": false,
+            "explanation": "Es un sistema de calefacción de potencia considerable y requiere línea propia."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-28",
+        "type": "simple",
+        "question": "¿Qué es un 'folio radiante' de carbono?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una hoja de papel que arde.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Lámina de material plástico con bandas de carbono que actúan como resistencia al paso de la corriente.",
+            "isCorrect": true,
+            "explanation": "Tecnología moderna muy fina y eficiente. Fuente: Tecnología de materiales."
+          },
+          {
+            "id": 3,
+            "answer": "Un filtro para la luz.",
+            "isCorrect": false,
+            "explanation": "No es para iluminación."
+          },
+          {
+            "id": 4,
+            "answer": "Un folio para escribir.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-29",
+        "type": "simple",
+        "question": "Sobre la instalación en techos, ¿qué ocurre si el aislante superior no es el adecuado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se oye el ruido del vecino.",
+            "isCorrect": false,
+            "explanation": "Es un problema acústico, no térmico."
+          },
+          {
+            "id": 2,
+            "answer": "Gran parte del calor se perdería hacia arriba, aumentando mucho la factura y calentando el suelo del vecino.",
+            "isCorrect": true,
+            "explanation": "La falta de aislamiento superior inutiliza la eficiencia del techo radiante. Fuente: Ingeniería térmica."
+          },
+          {
+            "id": 3,
+            "answer": "El techo se cae por el peso del calor.",
+            "isCorrect": false,
+            "explanation": "El calor no tiene peso, pero sí puede dilatar materiales."
+          },
+          {
+            "id": 4,
+            "answer": "No pasa nada.",
+            "isCorrect": false,
+            "explanation": "Sería un sistema muy ineficiente y caro."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-30",
+        "type": "simple",
+        "question": "En un suelo radiante, ¿cuál es la temperatura máxima recomendada para el agua del mortero durante el fraguado si se enciende la calefacción?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No se debe encender la calefacción durante el fraguado del mortero.",
+            "isCorrect": true,
+            "explanation": "El calor acelerado agrietaría el cemento y podría dañar el cable. Fuente: Normas de edificación."
+          },
+          {
+            "id": 2,
+            "answer": "90 ºC.",
+            "isCorrect": false,
+            "explanation": "Temperatura de ebullición destructiva para el cemento fresco."
+          },
+          {
+            "id": 3,
+            "answer": "10 ºC.",
+            "isCorrect": false,
+            "explanation": "Demasiado frío para un fraguado normal."
+          },
+          {
+            "id": 4,
+            "answer": "Se debe encender a tope desde el primer día.",
+            "isCorrect": false,
+            "explanation": "Práctica desastrosa para la obra civil."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-31",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el suelo radiante eléctrico frente al de agua (hidráulico)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Menor altura de instalación (ideal para reformas).",
+            "isCorrect": true,
+            "explanation": "No necesita tubos gruesos ni colectores."
+          },
+          {
+            "id": 2,
+            "answer": "Sin mantenimiento de bombas, calderas ni riesgo de fugas de agua.",
+            "isCorrect": true,
+            "explanation": "Sistema más simple mecánicamente."
+          },
+          {
+            "id": 3,
+            "answer": "Control de temperatura independiente y rápido por estancia.",
+            "isCorrect": true,
+            "explanation": "Mayor precisión en la gestión. Fuente: Comparativa de sistemas."
+          },
+          {
+            "id": 4,
+            "answer": "Es mucho más barato de usar mensualmente.",
+            "isCorrect": false,
+            "explanation": "Generalmente la electricidad es más cara que el gas/aerotermia para grandes superficies."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-32",
+        "type": "simple",
+        "question": "Sobre la limitación de temperatura del suelo para la salud humana, ¿qué valor máximo suele recomendar la OMS?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "40 ºC.",
+            "isCorrect": false,
+            "explanation": "Demasiado calor para los pies (riesgo de problemas circulatorios)."
+          },
+          {
+            "id": 2,
+            "answer": "29 ºC.",
+            "isCorrect": true,
+            "explanation": "Límite para evitar problemas de varices y cansancio de piernas. Fuente: Estándares de salud ocupacional."
+          },
+          {
+            "id": 3,
+            "answer": "15 ºC.",
+            "isCorrect": false,
+            "explanation": "Suelo frío."
+          },
+          {
+            "id": 4,
+            "answer": "60 ºC.",
+            "isCorrect": false,
+            "explanation": "Peligro de quemaduras leves."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-33",
+        "type": "simple",
+        "question": "¿Qué ocurre si se dobla un cable calefactor con un radio muy pequeño (ángulo agudo)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La corriente gira mejor.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Se puede dañar mecánicamente el núcleo calefactor o el aislamiento, provocando un punto caliente o rotura.",
+            "isCorrect": true,
+            "explanation": "Se debe respetar siempre el radio de curvatura mínimo del fabricante. Fuente: Manuales de instalación."
+          },
+          {
+            "id": 3,
+            "answer": "Aumenta la potencia en la esquina.",
+            "isCorrect": false,
+            "explanation": "Al contrario, es un punto de riesgo de fallo."
+          },
+          {
+            "id": 4,
+            "answer": "No pasa nada si el cable es de cobre.",
+            "isCorrect": false,
+            "explanation": "Incluso el cobre tiene límites de fatiga mecánica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-34",
+        "type": "simple",
+        "question": "Sobre la conexión eléctrica de folios radiantes, ¿cómo se suelen unir varias láminas entre sí?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Con cinta de carrocero.",
+            "isCorrect": false,
+            "explanation": "No es una conexión eléctrica."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante conectores de presión específicos y cables con aislamiento de seguridad, todo ello protegido y oculto.",
+            "isCorrect": true,
+            "explanation": "Garantiza una conexión firme y duradera bajo el pavimento. Fuente: ITC-BT-46, Apartado 3.2."
+          },
+          {
+            "id": 3,
+            "answer": "Soldando con estaño en el suelo.",
+            "isCorrect": false,
+            "explanation": "La soldadura en obra es difícil de garantizar y puede quemar el folio."
+          },
+          {
+            "id": 4,
+            "answer": "Mediante imanes.",
+            "isCorrect": false,
+            "explanation": "No existe conexión de potencia por imanes en folios."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-35",
+        "type": "simple",
+        "question": "En un sistema de calefacción por techo radiante, ¿qué tipo de acabado es el más adecuado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Placas de plomo.",
+            "isCorrect": false,
+            "explanation": "Bloquearían el calor y son tóxicas."
+          },
+          {
+            "id": 2,
+            "answer": "Placas de cartón-yeso (pladur) o similares que permitan el paso de la radiación infrarroja.",
+            "isCorrect": true,
+            "explanation": "Equilibrio entre acabado estético y eficiencia térmica. Fuente: Guías constructivas."
+          },
+          {
+            "id": 3,
+            "answer": "Espejos en todo el techo.",
+            "isCorrect": false,
+            "explanation": "Reflejarían gran parte del calor hacia arriba."
+          },
+          {
+            "id": 4,
+            "answer": "Malla metálica tupida.",
+            "isCorrect": false,
+            "explanation": "Peligro eléctrico de tocamientos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-36",
+        "type": "multiple",
+        "question": "¿Qué causas pueden provocar el disparo del magnetotérmico de un suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cortocircuito entre los hilos del cable calefactor.",
+            "isCorrect": true,
+            "explanation": "Fallo directo de la resistencia."
+          },
+          {
+            "id": 2,
+            "answer": "Sobrecarga por haber conectado demasiados folios a una misma línea.",
+            "isCorrect": true,
+            "explanation": "Error de dimensionado."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de un magnetotérmico de curva 'D' por error.",
+            "isCorrect": false,
+            "explanation": "La curva D es más retardada, dispararía menos por picos (pero no es la causa del disparo)."
+          },
+          {
+            "id": 4,
+            "answer": "Fallo interno en el termostato de control.",
+            "isCorrect": true,
+            "explanation": "Componente electrónico averiado que deriva. Fuente: Diagnóstico de fallos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-37",
+        "type": "simple",
+        "question": "¿Se puede instalar suelo radiante bajo un pavimento de madera maciza gruesa (3 cm)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, la madera calienta mucho.",
+            "isCorrect": false,
+            "explanation": "Falso; la madera es un excelente aislante térmico."
+          },
+          {
+            "id": 2,
+            "answer": "No es recomendable, ya que la madera actúa como aislante y el sistema sería ineficiente y dañaría la madera por desecación.",
+            "isCorrect": true,
+            "explanation": "La madera maciza gruesa se raja y bloquea el calor. Fuente: Recomendaciones de pavimentos."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se moja la madera todos los días.",
+            "isCorrect": false,
+            "explanation": "Pudriría la madera y peligro eléctrico."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se pone a 100 grados.",
+            "isCorrect": false,
+            "explanation": "Incendio asegurado."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-38",
+        "type": "simple",
+        "question": "Sobre la seguridad en el baño, ¿qué zona IP se requiere para el termostato del suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Puede ir dentro de la ducha.",
+            "isCorrect": false,
+            "explanation": "Peligro mortal."
+          },
+          {
+            "id": 2,
+            "answer": "Debe situarse fuera de los volúmenes 0 y 1, preferiblemente en el volumen 3 o fuera del baño.",
+            "isCorrect": true,
+            "explanation": "Protege la electrónica del vapor y salpicaduras. Fuente: ITC-BT-30."
+          },
+          {
+            "id": 3,
+            "answer": "Debe ser sumergible (IP68).",
+            "isCorrect": false,
+            "explanation": "No es práctico ni necesario si se coloca bien."
+          },
+          {
+            "id": 4,
+            "answer": "No importa si es de plástico.",
+            "isCorrect": false,
+            "explanation": "El material no exime de cumplir las zonas de seguridad."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-39",
+        "type": "simple",
+        "question": "¿Qué es la 'resistencia de aislamiento' que se debe medir antes de tapar los cables?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lo que aguanta el cable sin romperse si lo pisas.",
+            "isCorrect": false,
+            "explanation": "Eso es resistencia mecánica."
+          },
+          {
+            "id": 2,
+            "answer": "La oposición que ofrece la cubierta del cable a que la electricidad se escape hacia fuera.",
+            "isCorrect": true,
+            "explanation": "Se mide con un megóhmetro y debe dar valores muy altos (Megohmios). Fuente: Pruebas de puesta en servicio."
+          },
+          {
+            "id": 3,
+            "answer": "El grosor del plástico.",
+            "isCorrect": false,
+            "explanation": "Propiedad geométrica, no eléctrica."
+          },
+          {
+            "id": 4,
+            "answer": "La temperatura que aguanta el cable.",
+            "isCorrect": false,
+            "explanation": "Resistencia térmica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-40",
+        "type": "simple",
+        "question": "Para terminar, ¿es posible usar el suelo radiante eléctrico con energía solar fotovoltaica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, son tipos de electricidad diferentes.",
+            "isCorrect": false,
+            "explanation": "La electricidad es la misma."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, es una forma excelente de aprovechar los excedentes de energía solar para calefacción gratuita.",
+            "isCorrect": true,
+            "explanation": "Mejora la rentabilidad de la instalación solar. Fuente: Autoconsumo energético."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si sale el sol de noche.",
+            "isCorrect": false,
+            "explanation": "Se puede usar durante el día para 'cargar' térmicamente el suelo y que suelte el calor de noche."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero solo si la placa solar es térmica de agua.",
+            "isCorrect": false,
+            "explanation": "Las térmicas calientan agua, las fotovoltaicas generan electricidad para este sistema."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-41",
+        "type": "simple",
+        "question": "¿Qué es un 'cable calefactor de potencia constante'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uno que gasta lo mismo aunque lo apagues.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Aquel que entrega los mismos vatios por metro lineal independientemente de la temperatura ambiente.",
+            "isCorrect": true,
+            "explanation": "Exige un termostato externo para no quemarse. Fuente: Tipos de cables."
+          },
+          {
+            "id": 3,
+            "answer": "Un cable que no se rompe nunca.",
+            "isCorrect": false,
+            "explanation": "No existe."
+          },
+          {
+            "id": 4,
+            "answer": "Un cable de alta tensión.",
+            "isCorrect": false,
+            "explanation": "No tiene relación."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-42",
+        "type": "multiple",
+        "question": "¿Qué factores reducen la vida útil de una instalación de suelo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mala disipación del calor (burbujas de aire en el mortero).",
+            "isCorrect": true,
+            "explanation": "Quema el aislamiento del cable por puntos calientes."
+          },
+          {
+            "id": 2,
+            "answer": "Sobre tensiones frecuentes en la red eléctrica.",
+            "isCorrect": true,
+            "explanation": "Pueden perforar el aislamiento."
+          },
+          {
+            "id": 3,
+            "answer": "Uso de termostatos de mala calidad que no limitan la temperatura.",
+            "isCorrect": true,
+            "explanation": "Permiten que el sistema trabaje por encima de su diseño térmico."
+          },
+          {
+            "id": 4,
+            "answer": "Que el vecino de arriba tenga alfombras.",
+            "isCorrect": false,
+            "explanation": "No afecta a la vida útil del sistema del piso de abajo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-43",
+        "type": "simple",
+        "question": "En la instalación de folios radiantes, ¿por qué es importante el uso de una barrera de vapor (plástico fino)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que no huela mal.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Para evitar que la humedad del suelo suba y pueda afectar a las conexiones eléctricas del folio.",
+            "isCorrect": true,
+            "explanation": "Protección contra derivaciones por humedad. Fuente: Normas de montaje en seco."
+          },
+          {
+            "id": 3,
+            "answer": "Para que el folio resbale mejor.",
+            "isCorrect": false,
+            "explanation": "No debe resbalar."
+          },
+          {
+            "id": 4,
+            "answer": "Para ahorrar cemento.",
+            "isCorrect": false,
+            "explanation": "En instalaciones de folio 'en seco' no se usa cemento."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-44",
+        "type": "simple",
+        "question": "¿Se puede usar suelo radiante eléctrico para calentar una piscina?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, es lo más habitual.",
+            "isCorrect": false,
+            "explanation": "Muy ineficiente y peligroso si no es un equipo específico muy caro."
+          },
+          {
+            "id": 2,
+            "answer": "No, para piscinas se usan intercambiadores de calor o bombas de calor específicas.",
+            "isCorrect": true,
+            "explanation": "La calefacción de grandes masas de agua requiere otros sistemas. Fuente: Climatización de piscinas."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, si se ponen los cables en el fondo.",
+            "isCorrect": false,
+            "explanation": "Riesgo extremo de electrocución masiva."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si el agua es salada.",
+            "isCorrect": false,
+            "explanation": "El agua salada conduce aún mejor la electricidad, aumentando el peligro."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-45",
+        "type": "simple",
+        "question": "¿Qué significa el símbolo de 'prohibido perforar' en un plano de techo radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el techo es muy duro.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Que en esa zona hay elementos calefactores y cualquier taladro causaría un cortocircuito grave.",
+            "isCorrect": true,
+            "explanation": "Información vital para el mantenimiento del edificio. Fuente: Seguridad en el hogar."
+          },
+          {
+            "id": 3,
+            "answer": "Que hay tuberías de gas.",
+            "isCorrect": false,
+            "explanation": "Tendría su propio símbolo específico."
+          },
+          {
+            "id": 4,
+            "answer": "Que es el cuarto del pánico.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-46",
+        "type": "multiple",
+        "question": "¿Qué comprobaciones finales se deben hacer antes de entregar la obra al cliente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Prueba de funcionamiento de todos los termostatos.",
+            "isCorrect": true,
+            "explanation": "Verifica el control."
+          },
+          {
+            "id": 2,
+            "answer": "Verificación del salto del diferencial al pulsar el botón de test.",
+            "isCorrect": true,
+            "explanation": "Asegura la protección activa."
+          },
+          {
+            "id": 3,
+            "answer": "Entrega del manual de instrucciones en el idioma del usuario.",
+            "isCorrect": true,
+            "explanation": "Obligatorio para el uso seguro. Fuente: Reglamento de Baja Tensión."
+          },
+          {
+            "id": 4,
+            "answer": "Limpieza de las manchas de café del suelo.",
+            "isCorrect": false,
+            "explanation": "Criterio de limpieza, no técnico reglamentario."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-47",
+        "type": "simple",
+        "question": "Sobre el consumo eléctrico, ¿un suelo radiante gasta más que unos radiadores de calor azul?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Mucho más.",
+            "isCorrect": false,
+            "explanation": "El calor azul es una denominación comercial para radiadores de aceite modernos."
+          },
+          {
+            "id": 2,
+            "answer": "Gastan lo mismo por cada vatio de calor generado (Efecto Joule), pero el suelo es más eficiente por su mejor distribución del calor.",
+            "isCorrect": true,
+            "explanation": "El confort se logra con 2 grados menos de temperatura ambiente en suelo radiante. Fuente: Eficiencia térmica."
+          },
+          {
+            "id": 3,
+            "answer": "Gasta menos porque el cable es más largo.",
+            "isCorrect": false,
+            "explanation": "La longitud no define la eficiencia, sino la potencia total instalada."
+          },
+          {
+            "id": 4,
+            "answer": "Gasta menos si se pinta de negro.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-48",
+        "type": "simple",
+        "question": "En un suelo radiante, ¿qué es el 'puente térmico' en el perímetro de la habitación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un puente para que pasen los cables.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Fuga de calor hacia las paredes exteriores que debe evitarse con una banda perimetral aislante.",
+            "isCorrect": true,
+            "explanation": "Evita pérdidas de energía y dilataciones que agrieten el suelo. Fuente: Normas constructivas."
+          },
+          {
+            "id": 3,
+            "answer": "Un arco decorativo.",
+            "isCorrect": false,
+            "explanation": "Sin relación."
+          },
+          {
+            "id": 4,
+            "answer": "Donde se cruzan los cables de fase.",
+            "isCorrect": false,
+            "explanation": "No tiene relación con la electricidad directamente."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-49",
+        "type": "simple",
+        "question": "¿Se puede usar suelo radiante eléctrico en una casa de madera (troncos)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, ardería la casa.",
+            "isCorrect": false,
+            "explanation": "Se puede si se diseña correctamente con potencias bajas y protecciones térmicas."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, existen sistemas específicos de baja potencia para casas de madera que no dañan la estructura.",
+            "isCorrect": true,
+            "explanation": "Tecnología adaptada a materiales sensibles. Fuente: Sistemas de calefacción bio-constructivos."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, pero hay que mojar los troncos.",
+            "isCorrect": false,
+            "explanation": "Dañaría la casa y peligro eléctrico."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si la madera es ignífuga de grado A1.",
+            "isCorrect": false,
+            "explanation": "La madera nunca es A1 (incombustible)."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-46-50",
+        "type": "simple",
+        "question": "Finalmente, ¿cuál es el componente que realmente 'da' el calor en un folio radiante?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Los cables de cobre laterales.",
+            "isCorrect": false,
+            "explanation": "Esos son los 'bus-bars' que solo transportan la energía."
+          },
+          {
+            "id": 2,
+            "answer": "Las bandas de pasta de carbono u otro material resistivo depositado sobre el plástico.",
+            "isCorrect": true,
+            "explanation": "Son las que ofrecen resistencia y generan el calor. Fuente: Tecnología de folios."
+          },
+          {
+            "id": 3,
+            "answer": "El plástico que se calienta al sol.",
+            "isCorrect": false,
+            "explanation": "El plástico es solo el soporte y aislante."
+          },
+          {
+            "id": 4,
+            "answer": "Unas pilas pequeñas ocultas.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
       }
     ]
   }

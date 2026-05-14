@@ -5,778 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-52-01",
-        "question": "¿Qué significan las siglas IRVE en el contexto de la ITC-BT-52?",
+        "type": "simple",
+        "question": "¿Cuál es el objeto de la ITC-BT-52?",
         "options": [
           {
             "id": 1,
-            "answer": "Instalación Rápida de Vehículos Eléctricos.",
+            "answer": "Regular el diseño de motores eléctricos de coches.",
             "isCorrect": false,
-            "explanation": "No se refiere a la velocidad, sino a la infraestructura completa."
+            "explanation": "Regula la infraestructura de recarga, no el vehículo."
           },
           {
             "id": 2,
-            "answer": "Infraestructura para la Recarga de Vehículos Eléctricos.",
+            "answer": "Establecer las prescripciones aplicables a la infraestructura para la recarga de vehículos eléctricos.",
             "isCorrect": true,
-            "explanation": "Es el conjunto de dispositivos físicos y lógicos destinados a la recarga integral del vehículo. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Cubre instalaciones en viviendas, garajes colectivos y vía pública. Fuente: ITC-BT-52, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Interruptor de Red de Vehículos Especiales.",
+            "answer": "Obligar a que todos los coches sean eléctricos en 2030.",
             "isCorrect": false,
-            "explanation": "Término inventado; la IRVE es una infraestructura, no un interruptor único."
+            "explanation": "No es competencia de este reglamento."
           },
           {
             "id": 4,
-            "answer": "Instalación de Recambio de Voltaje Electrónico.",
+            "answer": "Regular la instalación de gasolineras.",
             "isCorrect": false,
-            "explanation": "Término incorrecto."
+            "explanation": "Solo instalaciones eléctricas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-02",
-        "question": "¿Cuál es la intensidad máxima permitida para el Modo de Carga 1?",
+        "type": "simple",
+        "question": "¿Qué es el circuito 'C13' en una vivienda unifamiliar?",
         "options": [
           {
             "id": 1,
-            "answer": "10 A.",
+            "answer": "El circuito de la cocina.",
             "isCorrect": false,
-            "explanation": "Límite inferior al máximo permitido para este modo."
+            "explanation": "Ese es el C2 o C5."
           },
           {
             "id": 2,
-            "answer": "16 A.",
+            "answer": "Circuito adicional destinado específicamente a la recarga de vehículos eléctricos.",
             "isCorrect": true,
-            "explanation": "El Modo 1 utiliza tomas de corriente normalizadas con un límite de 16 amperios. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Es un circuito independiente para garantizar la seguridad de la carga. Fuente: ITC-BT-52, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "32 A.",
+            "answer": "Un circuito para el aire acondicionado.",
             "isCorrect": false,
-            "explanation": "Este es el límite para el Modo de Carga 2."
+            "explanation": "Ese es el C9."
           },
           {
             "id": 4,
-            "answer": "63 A.",
+            "answer": "El circuito de las luces del jardín.",
             "isCorrect": false,
-            "explanation": "Intensidad típica de tomas industriales que requieren otros modos de carga y control."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-03",
-        "question": "¿Qué caracteriza al Modo de Carga 3 respecto a la instalación fija?",
+        "type": "simple",
+        "question": "¿Qué esquema de instalación se usa cuando un vecino conecta el cargador a su propio contador de la vivienda en un garaje comunitario?",
         "options": [
           {
             "id": 1,
-            "answer": "Se conecta a cualquier enchufe de la casa.",
+            "answer": "Esquema 1 (Colectivo).",
             "isCorrect": false,
-            "explanation": "Esto sería Modo 1 o 2."
+            "explanation": "El esquema 1 usa un contador común para varios vecinos."
           },
           {
             "id": 2,
-            "answer": "El SAVE está conectado permanentemente a la instalación de alimentación fija.",
+            "answer": "Esquema 2 (Individual).",
             "isCorrect": true,
-            "explanation": "Requiere una estación de recarga (wallbox) cableada directamente al cuadro. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Se deriva la alimentación desde el contador de la vivienda hacia la plaza de garaje. Fuente: ITC-BT-52, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Solo funciona con corriente continua (DC).",
+            "answer": "Esquema 4 (Gestor de cargas).",
             "isCorrect": false,
-            "explanation": "El Modo 3 es de corriente alterna (AC)."
+            "explanation": "No."
           },
           {
             "id": 4,
-            "answer": "No requiere función de control piloto.",
+            "answer": "No se puede hacer, es ilegal.",
             "isCorrect": false,
-            "explanation": "La función de control piloto es obligatoria y se integra en el SAVE."
+            "explanation": "Es uno de los esquemas permitidos y más comunes."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-04",
-        "question": "¿Cuál es la función principal del SPL (Sistema de Protección de la Línea)?",
+        "type": "simple",
+        "question": "¿Qué función cumple el SPL (Sistema de Protección de la Línea)?",
         "options": [
           {
             "id": 1,
-            "answer": "Proteger al vehículo contra rayos.",
+            "answer": "Protege contra rayos.",
             "isCorrect": false,
-            "explanation": "Esa es la función del protector de sobretensiones (SPD)."
+            "explanation": "Ese es el protector de sobretensiones."
           },
           {
             "id": 2,
-            "answer": "Evitar la actuación de los fusibles de la Caja General de Protección (CGP) por sobrecarga.",
+            "answer": "Modula la potencia de recarga para evitar el disparo de la protección principal si el consumo total supera el límite.",
             "isCorrect": true,
-            "explanation": "Modula la carga del vehículo para no superar la potencia máxima contratada del edificio. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Permite cargar el coche sin tener que aumentar mucho la potencia contratada. Fuente: ITC-BT-52, Apartado 2."
           },
           {
             "id": 3,
-            "answer": "Medir la energía consumida para facturarla.",
+            "answer": "Apaga las luces del garaje para ahorrar.",
             "isCorrect": false,
-            "explanation": "Esa es la función del contador de energía."
+            "explanation": "No es su función."
           },
           {
             "id": 4,
-            "answer": "Aumentar la velocidad de carga al doble.",
+            "answer": "Mide la velocidad del coche.",
             "isCorrect": false,
-            "explanation": "El SPL gestiona la potencia disponible, no aumenta la capacidad física del cargador."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-05",
-        "question": "¿Qué tipo de corriente utiliza el Modo de Carga 4?",
+        "type": "simple",
+        "question": "Sobre la protección diferencial, ¿qué tipo es el mínimo exigido por la ITC-BT-52?",
         "options": [
           {
             "id": 1,
-            "answer": "Corriente Alterna monofásica.",
+            "answer": "Tipo AC (el estándar de casa).",
             "isCorrect": false,
-            "explanation": "Modos 1, 2 y 3."
+            "explanation": "Insuficiente para detectar fugas de CC que pueden generar los cargadores."
           },
           {
             "id": 2,
-            "answer": "Corriente Continua (DC).",
+            "answer": "Tipo A (específico para corrientes pulsantes con componente de continua).",
             "isCorrect": true,
-            "explanation": "Utiliza un cargador externo al vehículo que convierte la CA en CC para una carga rápida. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Garantiza la seguridad ante la electrónica del vehículo. Fuente: ITC-BT-52, Apartado 6.1."
           },
           {
             "id": 3,
-            "answer": "Corriente Alterna trifásica únicamente.",
+            "answer": "Tipo B.",
             "isCorrect": false,
-            "explanation": "El Modo 4 es específico para carga en continua."
+            "explanation": "Es superior y recomendable, pero el REBT permite el Tipo A como mínimo con ciertas condiciones."
           },
           {
             "id": 4,
-            "answer": "Solo funciona con baterías de grafeno.",
+            "answer": "No hace falta diferencial si el cargador es bueno.",
             "isCorrect": false,
-            "explanation": "Es independiente de la tecnología química de la batería."
+            "explanation": "Es obligatorio siempre."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-06",
-        "question": "¿Qué diferencia al Caso B de conexión del Caso C?",
+        "type": "multiple",
+        "question": "¿Qué protecciones son obligatorias en cada punto de recarga?",
         "options": [
           {
             "id": 1,
-            "answer": "En el Caso B el cable es de color azul.",
-            "isCorrect": false,
-            "explanation": "El color no define el caso de conexión."
+            "answer": "Protección contra cortocircuitos y sobrecargas (Magnetotérmico).",
+            "isCorrect": true,
+            "explanation": "Protección del cableado."
           },
           {
             "id": 2,
-            "answer": "En el Caso B el cable es desmontable, mientras que en el Caso C es solidario a la estación de recarga.",
+            "answer": "Protección contra contactos indirectos (Diferencial).",
             "isCorrect": true,
-            "explanation": "El Caso C incluye la manguera de carga fija en el cargador (típico de puntos públicos). Fuente: ITC-BT-52, Figuras."
+            "explanation": "Protección de personas."
           },
           {
             "id": 3,
-            "answer": "El Caso B solo sirve para motos.",
-            "isCorrect": false,
-            "explanation": "Ambos sirven para cualquier vehículo eléctrico compatible."
+            "answer": "Protección contra sobretensiones permanentes y transitorias.",
+            "isCorrect": true,
+            "explanation": "Protección de la electrónica del cargador y del vehículo. Fuente: ITC-BT-52, Apartado 6."
           },
           {
             "id": 4,
-            "answer": "En el Caso C no hay toma de tierra.",
+            "answer": "Cámara de vigilancia.",
             "isCorrect": false,
-            "explanation": "La toma de tierra es obligatoria en todos los casos."
+            "explanation": "No es un requisito eléctrico del REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-07",
-        "question": "¿Qué tipo de interruptor diferencial es el MÍNIMO requerido para cada punto de recarga?",
+        "type": "simple",
+        "question": "¿Cuál es el 'Modo de carga 3'?",
         "options": [
           {
             "id": 1,
-            "answer": "Clase AC.",
+            "answer": "Carga inalámbrica por inducción.",
             "isCorrect": false,
-            "explanation": "Prohibido para vehículos eléctricos porque pueden existir fugas de componente continua."
+            "explanation": "Ese modo no está en el REBT actual."
           },
           {
             "id": 2,
-            "answer": "Clase A.",
+            "answer": "Carga en corriente alterna mediante un conector específico (tipo Mennekes) con comunicación inteligente entre el poste y el coche.",
             "isCorrect": true,
-            "explanation": "Es el mínimo para detectar corrientes pulsantes de CC. Si la fuga de CC pura supera 6mA, se requiere Clase B o dispositivo adicional. Fuente: ITC-BT-52, Apartado 5.4."
+            "explanation": "Es el estándar para wallbox domésticos e industriales. Fuente: Terminología IRVE."
           },
           {
             "id": 3,
-            "answer": "Solo un fusible de 30 mA.",
+            "answer": "Carga rápida en corriente continua.",
             "isCorrect": false,
-            "explanation": "El fusible no protege contra corrientes de fuga a tierra."
+            "explanation": "Ese es el Modo 4."
           },
           {
             "id": 4,
-            "answer": "Clase D.",
+            "answer": "Enchufar el coche con un alargador normal de jardín.",
             "isCorrect": false,
-            "explanation": "No existe la clase D para diferenciales."
+            "explanation": "Peligroso y no recomendado (Modo 1, prohibido en muchos casos)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-08",
-        "question": "¿Es obligatorio instalar protección contra sobretensiones (permanentes y transitorias) en la IRVE?",
+        "type": "simple",
+        "question": "En edificios de nueva construcción, ¿qué dotación mínima de preinstalación se exige para garajes comunitarios?",
         "options": [
           {
             "id": 1,
-            "answer": "No, es opcional según el presupuesto.",
+            "answer": "Un cargador por cada 10 plazas.",
             "isCorrect": false,
-            "explanation": "Es un requisito de seguridad obligatorio."
+            "explanation": "No se obliga a instalar cargadores, sino la infraestructura."
           },
           {
             "id": 2,
-            "answer": "Sí, es obligatorio proteger tanto el equipo de recarga como el propio vehículo.",
+            "answer": "Canalizaciones (tubos/bandejas) que permitan llevar el cable hasta el 100% de las plazas de aparcamiento.",
             "isCorrect": true,
-            "explanation": "El vehículo es un activo costoso y sensible a las subidas de tensión de la red. Fuente: ITC-BT-52, Apartado 5.4."
+            "explanation": "Facilita que cualquier vecino pueda poner su cargador en el futuro sin obras costosas. Fuente: ITC-BT-52, Anexo 2."
           },
           {
             "id": 3,
-            "answer": "Solo en instalaciones industriales.",
+            "answer": "Nada, el primer vecino que compre coche que haga la obra.",
             "isCorrect": false,
-            "explanation": "Aplica a cualquier IRVE, incluidas las domésticas."
+            "explanation": "La preinstalación es obligatoria para la licencia de obra."
           },
           {
             "id": 4,
-            "answer": "Solo si la línea mide más de 50 metros.",
+            "answer": "Un enchufe en la rampa.",
             "isCorrect": false,
-            "explanation": "Es independiente de la longitud de la línea."
+            "explanation": "Inútil."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-09",
-        "question": "¿Qué esquema de conexión permite conectar el punto de recarga directamente al contador de la vivienda del usuario?",
+        "type": "simple",
+        "question": "¿Qué es el 'Factor de simultaneidad' y qué valor se aplica a la recarga de VE por defecto?",
         "options": [
           {
             "id": 1,
-            "answer": "Esquema 1 (a, b o c).",
-            "isCorrect": true,
-            "explanation": "Utiliza el mismo contrato de suministro que la vivienda para alimentar el garaje. Fuente: ITC-BT-52, Apartado 3.2."
+            "answer": "0,5 (se supone que solo cargan la mitad a la vez).",
+            "isCorrect": false,
+            "explanation": "Insuficiente riesgo de sobrecarga."
           },
           {
             "id": 2,
-            "answer": "Esquema 2.",
-            "isCorrect": false,
-            "explanation": "El Esquema 2 utiliza un contador principal común y contadores secundarios."
-          },
-          {
-            "id": 3,
-            "answer": "Esquema 3.",
-            "isCorrect": false,
-            "explanation": "El Esquema 3 requiere un nuevo contrato de suministro independiente para el vehículo."
-          },
-          {
-            "id": 4,
-            "answer": "No se permite mezclar consumos de vivienda y coche.",
-            "isCorrect": false,
-            "explanation": "Se permite y es el método más común en parkings comunitarios existentes."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-52-10",
-        "question": "¿Qué coeficiente de simultaneidad se aplica para el cálculo de la potencia de la IRVE si NO hay SPL?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "0,5.",
-            "isCorrect": false,
-            "explanation": "Valor que solo se permite si hay gestión de cargas (SPL)."
-          },
-          {
-            "id": 2,
-            "answer": "1,0.",
+            "answer": "1,0 (se supone que todos los cargadores pueden funcionar a máxima potencia simultáneamente).",
             "isCorrect": true,
-            "explanation": "Sin gestión automática, se debe prever que todos los puntos carguen a máxima potencia a la vez. Fuente: ITC-BT-52, Apartado 3.1."
+            "explanation": "Garantiza que la red soporte el peor escenario, salvo que haya un sistema SPL. Fuente: ITC-BT-52, Apartado 4."
           },
           {
             "id": 3,
-            "answer": "0,3.",
+            "answer": "0.",
             "isCorrect": false,
-            "explanation": "Valor muy bajo que pondría en riesgo los fusibles generales."
+            "explanation": "Absurdo."
           },
           {
             "id": 4,
             "answer": "0,8.",
             "isCorrect": false,
-            "explanation": "No es el valor reglamentario para ausencia de SPL."
+            "explanation": "Valor para otros circuitos, no para VE."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-52-10",
+        "type": "simple",
+        "question": "En parkings públicos, ¿cuál es la dotación mínima de estaciones de recarga?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una por cada plaza de minusválidos.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Una estación de recarga por cada 40 plazas de aparcamiento (o fracción).",
+            "isCorrect": true,
+            "explanation": "Fomenta la movilidad eléctrica en zonas comerciales y públicas. Fuente: ITC-BT-52, Apartado 1."
+          },
+          {
+            "id": 3,
+            "answer": "10 estaciones siempre.",
+            "isCorrect": false,
+            "explanation": "Depende del tamaño del parking."
+          },
+          {
+            "id": 4,
+            "answer": "Ninguna, cada uno que cargue en su casa.",
+            "isCorrect": false,
+            "explanation": "Obligatorio por ley."
+          }
+        ]
       },
       {
         "id": "ITC-BT-52-11",
-        "question": "¿A qué se denomina 'Función de control piloto'?",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el 'Esquema 1' (Contador común)?",
         "options": [
           {
             "id": 1,
-            "answer": "Al mando a distancia del coche.",
-            "isCorrect": false,
-            "explanation": "No tiene relación con la seguridad de la recarga."
+            "answer": "Ahorro en costes de términos de potencia para la comunidad.",
+            "isCorrect": true,
+            "explanation": "Se comparte una potencia mayor que sale más barata que muchas individuales pequeñas."
           },
           {
             "id": 2,
-            "answer": "A cualquier medio que asegure que se satisfacen las condiciones de seguridad y transmisión de datos durante la recarga.",
+            "answer": "Permite una gestión inteligente de la carga colectiva.",
             "isCorrect": true,
-            "explanation": "Permite que el cargador sepa si el cable está bien conectado y si el coche está listo para recibir energía. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "El sistema reparte la energía disponible entre los coches conectados."
           },
           {
             "id": 3,
-            "answer": "A un operario que vigila las estaciones de carga.",
-            "isCorrect": false,
-            "explanation": "Hablamos de un sistema automático de control."
+            "answer": "Facilita la labor de los gestores de cargas.",
+            "isCorrect": true,
+            "explanation": "Estructura centralizada más sencilla de mantener. Fuente: Beneficios de esquemas colectivos."
           },
           {
             "id": 4,
-            "answer": "Al sensor de aparcamiento del vehículo.",
+            "answer": "Que la luz es gratis.",
             "isCorrect": false,
-            "explanation": "Función de conducción, no de recarga."
+            "explanation": "La energía se paga siempre."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-12",
-        "question": "¿Qué normativa regula específicamente el Sistema de Protección de la Línea (SPL)?",
+        "type": "simple",
+        "question": "¿Qué grado de protección IK mínimo deben tener los puntos de recarga situados en aparcamientos públicos?",
         "options": [
           {
             "id": 1,
-            "answer": "UNE 0048.",
-            "isCorrect": true,
-            "explanation": "Es la especificación técnica que facilita los requisitos de seguridad y funcionamiento del SPL. Fuente: ITC-BT-52, Notas adicionales."
+            "answer": "IK04.",
+            "isCorrect": false,
+            "explanation": "Muy frágil."
           },
           {
             "id": 2,
-            "answer": "ITC-BT-01.",
-            "isCorrect": false,
-            "explanation": "Terminología general."
+            "answer": "IK08.",
+            "isCorrect": true,
+            "explanation": "Alta resistencia a impactos mecánicos (vandalismo o golpes accidentales). Fuente: ITC-BT-52, Apartado 6.2."
           },
           {
             "id": 3,
-            "answer": "Código de Circulación.",
+            "answer": "IK10.",
             "isCorrect": false,
-            "explanation": "Regula el tráfico, no la ingeniería eléctrica."
+            "explanation": "Es el máximo, muy recomendable pero el REBT pide IK08 como base."
           },
           {
             "id": 4,
-            "answer": "Norma ISO 14001.",
+            "answer": "IK00.",
             "isCorrect": false,
-            "explanation": "Gestión ambiental."
+            "explanation": "Sin protección."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-13",
-        "question": "¿Cuál es el propósito del circuito C13 en una vivienda?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Alimentar el aire acondicionado.",
-            "isCorrect": false,
-            "explanation": "Esa es una función de otros circuitos (ej: C9)."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito adicional para la recarga del vehículo eléctrico en viviendas unifamiliares o plazas individuales.",
-            "isCorrect": true,
-            "explanation": "Permite identificar y proteger de forma independiente el consumo del coche. Fuente: ITC-BT-52, Apartado 5.1."
-          },
-          {
-            "id": 3,
-            "answer": "Conectar el horno y la vitrocerámica.",
-            "isCorrect": false,
-            "explanation": "Ese es el circuito C3."
-          },
-          {
-            "id": 4,
-            "answer": "Iluminación de emergencia.",
-            "isCorrect": false,
-            "explanation": "No tiene relación con la recarga de vehículos."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-52-14",
-        "question": "En un aparcamiento público, ¿cuántos puntos de recarga son obligatorios por cada 40 plazas según el RD 450/2022 (actualización de la ITC)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Ninguno, es voluntario.",
-            "isCorrect": false,
-            "explanation": "Existe una obligatoriedad legal creciente."
-          },
-          {
-            "id": 2,
-            "answer": "Al menos un punto de recarga.",
-            "isCorrect": true,
-            "explanation": "La normativa obliga a una dotación mínima de infraestructura en parkings no residenciales. Fuente: Actualizaciones del RD 1053/2014."
-          },
-          {
-            "id": 3,
-            "answer": "40 puntos (uno por plaza).",
-            "isCorrect": false,
-            "explanation": "No se exige el 100% todavía, solo una dotación proporcional."
-          },
-          {
-            "id": 4,
-            "answer": "10 puntos.",
-            "isCorrect": false,
-            "explanation": "La proporción suele ser de 1 cada 40 o similar según el uso del local."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-52-15",
-        "question": "¿Qué grado de protección IP mínimo debe tener una estación de recarga instalada en EXTERIOR?",
+        "type": "simple",
+        "question": "Sobre las estaciones de recarga en el exterior, ¿qué grado IP mínimo se exige?",
         "options": [
           {
             "id": 1,
             "answer": "IP20.",
             "isCorrect": false,
-            "explanation": "Grado de interior, entraría agua y polvo."
+            "explanation": "Solo interiores secos."
           },
           {
             "id": 2,
-            "answer": "IP44.",
+            "answer": "IP54 (protección contra polvo y proyecciones de agua).",
             "isCorrect": true,
-            "explanation": "Es el mínimo para proteger contra la intemperie (lluvia). Fuente: Requisitos generales de equipos en exterior."
+            "explanation": "Garantiza el funcionamiento bajo lluvia y viento. Fuente: ITC-BT-52, Apartado 6.2."
           },
           {
             "id": 3,
-            "answer": "IP68.",
+            "answer": "IPX0.",
             "isCorrect": false,
-            "explanation": "Grado para sumergir el equipo, no es necesario habitualmente."
+            "explanation": "No protege contra agua."
           },
           {
             "id": 4,
-            "answer": "Cualquiera si tiene un tejadillo.",
+            "answer": "IP68.",
             "isCorrect": false,
-            "explanation": "El equipo en sí debe certificar su grado IP."
+            "explanation": "Innecesario salvo que se inunde la calle habitualmente."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-52-14",
+        "type": "simple",
+        "question": "¿Para qué sirve el 'Contador secundario' en una plaza de garaje comunitaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que el coche sepa cuánta batería le queda.",
+            "isCorrect": false,
+            "explanation": "Eso lo sabe el coche internamente."
+          },
+          {
+            "id": 2,
+            "answer": "Para medir el consumo individual y poder repercutir el gasto de luz al vecino correspondiente si el contador es común.",
+            "isCorrect": true,
+            "explanation": "Justicia en el reparto de gastos comunitarios. Fuente: ITC-BT-52, Apartado 5.5."
+          },
+          {
+            "id": 3,
+            "answer": "Para decorar el cuadro.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Para subir la tensión.",
+            "isCorrect": false,
+            "explanation": "No es un transformador."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-15",
+        "type": "simple",
+        "question": "¿Cuál es la tensión nominal estándar para la recarga en Modo 3 monofásico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "12 V.",
+            "isCorrect": false,
+            "explanation": "Tensión de batería de plomo."
+          },
+          {
+            "id": 2,
+            "answer": "230 V.",
+            "isCorrect": true,
+            "explanation": "Tensión de red estándar en España. Fuente: REBT."
+          },
+          {
+            "id": 3,
+            "answer": "400 V.",
+            "isCorrect": false,
+            "explanation": "Sería para Modo 3 trifásico."
+          },
+          {
+            "id": 4,
+            "answer": "1.000 V.",
+            "isCorrect": false,
+            "explanation": "Muy peligroso para uso doméstico."
+          }
+        ]
       },
       {
         "id": "ITC-BT-52-16",
-        "question": "¿Qué ocurre si el SAVE detecta una corriente de fuga de CC superior a 6 mA y solo se tiene un diferencial Clase A?",
+        "type": "multiple",
+        "question": "¿Qué componentes forman una 'Estación de Recarga' (Wallbox)?",
         "options": [
           {
             "id": 1,
-            "answer": "Nada, el diferencial Clase A es suficiente.",
-            "isCorrect": false,
-            "explanation": "El Clase A puede quedar 'ciego' o bloqueado ante fugas de CC pura superiores a 6mA."
+            "answer": "Envolvente protectora.",
+            "isCorrect": true,
+            "explanation": "Seguridad física."
           },
           {
             "id": 2,
-            "answer": "Se debe asegurar la desconexión mediante un dispositivo de detección de CC de 6 mA o usar un diferencial Clase B.",
+            "answer": "Electrónica de control y comunicaciones.",
             "isCorrect": true,
-            "explanation": "Garantiza la seguridad ante fallos en el cargador interno del coche. Fuente: ITC-BT-52, Apartado 5.4."
+            "explanation": "Gestiona la carga con el coche."
           },
           {
             "id": 3,
-            "answer": "El coche explota.",
-            "isCorrect": false,
-            "explanation": "Es un riesgo de seguridad eléctrica, no una explosión inmediata."
+            "answer": "Conector de salida (base o cable manguera).",
+            "isCorrect": true,
+            "explanation": "Interfaz física con el vehículo. Fuente: Estructura de equipos IRVE."
           },
           {
             "id": 4,
-            "answer": "Se debe apagar el aire acondicionado del local.",
+            "answer": "Un motor de gasolina de reserva.",
             "isCorrect": false,
-            "explanation": "No tiene relación con la detección de fugas en la recarga."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-17",
-        "question": "¿Cómo se define una 'Estación de movilidad eléctrica'?",
+        "type": "simple",
+        "question": "Sobre la canalización por el garaje, ¿se permite el uso de manguera directamente grapada al techo sin tubo?",
         "options": [
           {
             "id": 1,
-            "answer": "Un autobús eléctrico.",
+            "answer": "Sí, si el techo es de hormigón.",
             "isCorrect": false,
-            "explanation": "Es el vehículo, no la infraestructura."
+            "explanation": "No protege contra roces o ataques mecánicos."
           },
           {
             "id": 2,
-            "answer": "Infraestructura con al menos dos estaciones de recarga simultánea.",
+            "answer": "No, debe ir protegida por tubo o canaleta según las influencias externas del garaje.",
             "isCorrect": true,
-            "explanation": "Suele ser un 'hub' de recarga en vía pública o electrolineras. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Garantiza la durabilidad y seguridad del cableado. Fuente: ITC-BT-20 / 52."
           },
           {
             "id": 3,
-            "answer": "Un taller mecánico de coches eléctricos.",
+            "answer": "Solo si el cable es de color negro.",
             "isCorrect": false,
-            "explanation": "Su función principal no es solo la recarga."
+            "explanation": "Irrelevante."
           },
           {
             "id": 4,
-            "answer": "Una tienda de patinetes.",
+            "answer": "Sí, si se grapa muy fuerte.",
             "isCorrect": false,
-            "explanation": "No cumple la definición de estación de movilidad de la ITC."
+            "explanation": "Grapas demasiado fuertes pueden dañar el aislamiento."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-18",
-        "question": "¿Qué significa que un SAVE sea un sistema 'inteligente'?",
+        "type": "simple",
+        "question": "¿Qué es la 'recarga inteligente' (V2G - Vehicle to Grid)?",
         "options": [
           {
             "id": 1,
-            "answer": "Que tiene pantalla táctil.",
+            "answer": "Que el coche se carga solo cuando hay sol.",
             "isCorrect": false,
-            "explanation": "Es una interfaz, no define la inteligencia del sistema."
+            "explanation": "Esa es una variante."
           },
           {
             "id": 2,
-            "answer": "Que puede comunicarse con el vehículo y/o el gestor de red para modular la carga.",
+            "answer": "Capacidad del coche de devolver energía a la red o a la casa en momentos de alta demanda.",
             "isCorrect": true,
-            "explanation": "Permite optimizar el consumo según el precio de la luz o la potencia disponible. Fuente: ITC-BT-52, Apartado 2."
+            "explanation": "Convierte al coche en una batería gigante para el sistema eléctrico. Fuente: Innovación en movilidad eléctrica."
           },
           {
             "id": 3,
-            "answer": "Que habla varios idiomas.",
+            "answer": "Que el coche te avisa al móvil cuando termina.",
             "isCorrect": false,
-            "explanation": "Información irrelevante."
+            "explanation": "Eso es conectividad simple."
           },
           {
             "id": 4,
-            "answer": "Que no necesita cables.",
+            "answer": "Que el cargador tiene Wi-Fi.",
             "isCorrect": false,
-            "explanation": "La recarga inalámbrica existe pero no es lo que define al SAVE reglamentario."
+            "explanation": "No es la definición de V2G."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-19",
-        "question": "En el Esquema 2 de conexión, ¿qué mide el contador principal?",
+        "type": "simple",
+        "question": "En caso de incendio en un garaje con vehículos eléctricos, ¿qué precaución eléctrica es la más importante?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo la luz de la escalera.",
+            "answer": "Echar agua a los cargadores.",
             "isCorrect": false,
-            "explanation": "Mide el total destinado a la recarga de todos los vecinos."
+            "explanation": "Peligro de electrocución."
           },
           {
             "id": 2,
-            "answer": "El consumo total de la infraestructura de recarga del edificio.",
+            "answer": "Desconexión total de la alimentación de la infraestructura de recarga mediante el interruptor de emergencia.",
             "isCorrect": true,
-            "explanation": "Luego se usan contadores secundarios para repartir los gastos entre los usuarios. Fuente: ITC-BT-52, Apartado 3.2."
+            "explanation": "Facilita la labor de extinción de los bomberos con seguridad. Fuente: Protocolos de emergencia."
           },
           {
             "id": 3,
-            "answer": "La velocidad del viento.",
+            "answer": "Sacar los coches empujando.",
             "isCorrect": false,
-            "explanation": "Confusión con anemómetro."
+            "explanation": "Muy peligroso por el humo y gases tóxicos."
           },
           {
             "id": 4,
-            "answer": "Nada, el Esquema 2 no lleva contador.",
+            "answer": "No hacer nada, los coches son ignífugos.",
             "isCorrect": false,
-            "explanation": "Todos los esquemas requieren medida de energía."
+            "explanation": "Falso; las baterías de litio son muy difíciles de apagar."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-20",
-        "question": "¿Qué sección mínima de conductor se recomienda para la derivación individual de un punto de recarga de 7,4 kW (32A)?",
+        "type": "simple",
+        "question": "Sobre los conectores, ¿cuál es el estándar europeo para la carga semirrápida en AC?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5 mm².",
+            "answer": "Tipo 1 (Yazaki).",
             "isCorrect": false,
-            "explanation": "Se quemaría; 2,5 mm² es para 16A máximo."
+            "explanation": "Estándar americano/japonés."
           },
           {
             "id": 2,
-            "answer": "6 mm².",
+            "answer": "Tipo 2 (Mennekes).",
             "isCorrect": true,
-            "explanation": "Es la sección estándar para soportar 32A en monofásico con seguridad y bajas pérdidas. Fuente: Tablas de intensidades admisibles."
+            "explanation": "Obligatorio en la UE para nuevos cargadores públicos y recomendado para privados. Fuente: Directiva 2014/94/UE."
           },
           {
             "id": 3,
-            "answer": "1,5 mm².",
+            "answer": "CHAdeMO.",
             "isCorrect": false,
-            "explanation": "Sección para alumbrado, totalmente insuficiente."
+            "explanation": "Estándar japonés para DC (rápida)."
           },
           {
             "id": 4,
-            "answer": "16 mm².",
+            "answer": "CCS Combo.",
             "isCorrect": false,
-            "explanation": "Excesivo para una vivienda unifamiliar normal a menos que la distancia sea enorme."
+            "explanation": "Estándar europeo para DC (rápida), incluye el Tipo 2."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-21",
-        "question": "¿A qué se debe conectar la masa metálica de la estación de recarga?",
+        "type": "multiple",
+        "question": "¿Qué problemas causa una mala conexión de tierra en un cargador de VE?",
         "options": [
           {
             "id": 1,
-            "answer": "Al neutro de la instalación.",
-            "isCorrect": false,
-            "explanation": "Prohibido en esquemas TT (los habituales en España)."
+            "answer": "El vehículo puede negarse a cargar por seguridad.",
+            "isCorrect": true,
+            "explanation": "El coche comprueba la impedancia de tierra antes de empezar."
           },
           {
             "id": 2,
-            "answer": "Al conductor de protección (tierra) de la instalación fija.",
+            "answer": "Riesgo de calambre al tocar la chapa del coche durante la carga.",
             "isCorrect": true,
-            "explanation": "Asegura la protección contra contactos indirectos y el correcto funcionamiento del diferencial. Fuente: ITC-BT-52, Apartado 5.4."
+            "explanation": "Peligro por contactos indirectos."
           },
           {
             "id": 3,
-            "answer": "Al chasis del propio coche solamente.",
-            "isCorrect": false,
-            "explanation": "El coche se une a tierra a través del cable de carga conectado a la red."
+            "answer": "Fallo en la detección de fugas de corriente por parte del diferencial.",
+            "isCorrect": true,
+            "explanation": "La protección no funcionaría correctamente. Fuente: ITC-BT-18 / 52."
           },
           {
             "id": 4,
-            "answer": "A una varilla de cobre clavada en la maceta.",
+            "answer": "Que el coche gaste más batería al circular.",
             "isCorrect": false,
-            "explanation": "Inútil e inseguro."
+            "explanation": "No tiene relación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-22",
-        "question": "¿Qué permite el Esquema 4 de conexión?",
+        "type": "simple",
+        "question": "¿Qué es la 'infraestructura común' de un edificio para VE?",
         "options": [
           {
             "id": 1,
-            "answer": "Cargar el coche con una bicicleta.",
+            "answer": "Un enchufe para todos.",
             "isCorrect": false,
-            "explanation": "Dato absurdo."
+            "explanation": "Inviable."
           },
           {
             "id": 2,
-            "answer": "La conexión a un circuito común del garaje (servicios generales).",
+            "answer": "Conjunto de tubos, canales y armarios que permiten llevar la electricidad desde el cuarto de contadores hasta todas las plazas.",
             "isCorrect": true,
-            "explanation": "Se utiliza cuando no es posible o deseable conectar al contador individual. Fuente: ITC-BT-52, Apartado 3.2."
+            "explanation": "Es el 'esqueleto' del sistema en el garaje. Fuente: ITC-BT-52, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "Cargar gratis de la luz de la calle.",
+            "answer": "La rampa del garaje.",
             "isCorrect": false,
-            "explanation": "No es legal ni lo que describe el esquema."
+            "explanation": "No."
           },
           {
             "id": 4,
-            "answer": "Solo para coches solares.",
+            "answer": "El ascensor del edificio.",
             "isCorrect": false,
-            "explanation": "Esquema eléctrico, no de fuente de energía."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-23",
-        "question": "¿Qué es la 'carga inteligente' (Smart Charging)?",
+        "type": "simple",
+        "question": "Sobre la potencia de carga, ¿cuántos amperios suele consumir un cargador doméstico estándar monofásico?",
         "options": [
           {
             "id": 1,
-            "answer": "Cargar el coche mientras lees un libro.",
+            "answer": "6 A.",
             "isCorrect": false,
-            "explanation": "No tiene relación con la inteligencia humana."
+            "explanation": "Carga muy lenta (Schuko)."
           },
           {
             "id": 2,
-            "answer": "La capacidad de desplazar la recarga a horas de menor demanda o mayor generación renovable.",
+            "answer": "16 A o 32 A (3,7 kW o 7,4 kW).",
             "isCorrect": true,
-            "explanation": "Ayuda a la estabilidad de la red eléctrica y reduce costes al usuario. Fuente: ITC-BT-52, Notas sobre eficiencia."
+            "explanation": "Valores habituales para cargar el coche durante la noche. Fuente: Datos de mercado."
           },
           {
             "id": 3,
-            "answer": "Cargar con corriente alterna y continua a la vez.",
+            "answer": "100 A.",
             "isCorrect": false,
-            "explanation": "Físicamente imposible en un mismo puerto de carga."
+            "explanation": "Excesivo para una vivienda normal."
           },
           {
             "id": 4,
-            "answer": "Cargar el coche solo hasta el 50%.",
+            "answer": "1 A.",
             "isCorrect": false,
-            "explanation": "Es una limitación de usuario, no 'Smart Charging' de red."
+            "explanation": "No cargaría nunca."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-24",
-        "question": "¿Qué requisito tienen los aparcamientos de obra nueva respecto a los coches eléctricos?",
+        "type": "simple",
+        "question": "¿Para qué sirve el 'Modo de carga 4'?",
         "options": [
           {
             "id": 1,
-            "answer": "Regalar un cargador a cada vecino.",
+            "answer": "Carga en casa muy despacio.",
             "isCorrect": false,
-            "explanation": "El cargador suele ser cuenta del usuario, la obra nueva pone el 'tubo'."
+            "explanation": "No."
           },
           {
             "id": 2,
-            "answer": "Instalar la preinstalación (canalizaciones) para facilitar futuros puntos de recarga.",
+            "answer": "Carga rápida en corriente continua (DC), donde el cargador externo convierte la energía y la inyecta directo a la batería.",
             "isCorrect": true,
-            "explanation": "Es obligatorio dejar la infraestructura de paso lista en cada plaza o grupo de plazas. Fuente: ITC-BT-52, Apartado 3.2."
+            "explanation": "Típico de electrolineras de autopista (50 kW a 350 kW). Fuente: Tecnologías IRVE."
           },
           {
             "id": 3,
-            "answer": "Prohibir la entrada de coches de gasolina.",
+            "answer": "Carga solar.",
             "isCorrect": false,
-            "explanation": "El REBT no regula el acceso de vehículos por combustible."
+            "explanation": "No es un modo normativo per se."
           },
           {
             "id": 4,
-            "answer": "Tener un transformador de 1 MW propio.",
+            "answer": "Carga por la noche solamente.",
             "isCorrect": false,
-            "explanation": "La potencia dependerá del número de plazas y del SPL."
+            "explanation": "No."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-52-25",
-        "question": "¿Qué normativa de metrología deben cumplir los contadores secundarios de la IRVE?",
+        "type": "simple",
+        "question": "Sobre la legalización de una instalación en garaje comunitario, ¿qué trámite es obligatorio?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo las reglas del fabricante.",
+            "answer": "Pedir permiso a todos los vecinos por votación.",
             "isCorrect": false,
-            "explanation": "Deben cumplir legislación nacional de pesas y medidas."
+            "explanation": "Solo hay que notificar por escrito, no pueden negarse por ley."
           },
           {
             "id": 2,
-            "answer": "El R.D. 244/2016 y la ITC 3022/2007 (Clases A, B o C).",
+            "answer": "Presentar un Certificado de Instalación Eléctrica (CIE) firmado por un instalador autorizado ante Industria.",
             "isCorrect": true,
-            "explanation": "Asegura que la medida de energía para el cobro o reparto sea precisa y legal. Fuente: ITC-BT-52, Apartado 4."
+            "explanation": "Garantiza que la instalación cumple el REBT. Fuente: ITC-BT-04 / 52."
           },
           {
             "id": 3,
-            "answer": "No necesitan cumplir ninguna al no ser de la compañía eléctrica.",
+            "answer": "Ninguno si la potencia es baja.",
             "isCorrect": false,
-            "explanation": "Al usarse para repartir costes económicos, deben ser precisos y legales."
+            "explanation": "Toda instalación nueva o modificación de importancia debe legalizarse."
           },
           {
             "id": 4,
-            "answer": "Deben ser analógicos de aguja.",
+            "answer": "Hacer un grafiti en la plaza.",
             "isCorrect": false,
-            "explanation": "Se prefieren y suelen ser estáticos (electrónicos) modernos."
+            "explanation": "Absurdo."
           }
-        ],
-        "type": "simple"
+        ]
+      },
+      {
+        "id": "ITC-BT-52-26",
+        "type": "multiple",
+        "question": "¿Qué riesgos evita un protector de sobretensiones permanentes en un cargador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el cargador se queme si falla el neutro en la red eléctrica.",
+            "isCorrect": true,
+            "explanation": "El fallo de neutro sube la tensión a 400V en los enchufes."
+          },
+          {
+            "id": 2,
+            "answer": "Daños en la batería del vehículo ante fluctuaciones graves de la red.",
+            "isCorrect": true,
+            "explanation": "Protege el activo más caro del coche."
+          },
+          {
+            "id": 3,
+            "answer": "Incendios por recalentamiento de la electrónica interna del poste.",
+            "isCorrect": true,
+            "explanation": "Seguridad preventiva. Fuente: ITC-BT-23 / 52."
+          },
+          {
+            "id": 4,
+            "answer": "Que nos roben el cargador.",
+            "isCorrect": false,
+            "explanation": "Es una protección eléctrica, no antirrobo física."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-27",
+        "type": "simple",
+        "question": "¿Se puede instalar un punto de recarga en una plaza de garaje abierta (sin paredes propias)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, tiene que ser un garaje cerrado individual.",
+            "isCorrect": false,
+            "explanation": "Se puede en cualquier plaza."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, instalando el cargador en un pedestal o columna robusta anclada al suelo.",
+            "isCorrect": true,
+            "explanation": "Solución común para plazas centrales en garajes comunitarios. Fuente: Montaje de estaciones."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se pone una valla alrededor.",
+            "isCorrect": false,
+            "explanation": "No es necesario."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, colgándolo del techo con cuerdas.",
+            "isCorrect": false,
+            "explanation": "Inseguro e ilegal."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-28",
+        "type": "simple",
+        "question": "Sobre la manguera de carga, ¿por qué NO se debe dejar enrollada mientras se carga a máxima potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque el coche no se entera.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Se produce un efecto bobina que calienta el cable en exceso, pudiendo derretir el aislamiento.",
+            "isCorrect": true,
+            "explanation": "La inducción y la falta de disipación térmica son peligrosas. Fuente: Seguridad en conductores."
+          },
+          {
+            "id": 3,
+            "answer": "Porque queda feo.",
+            "isCorrect": false,
+            "explanation": "Criterio estético secundario."
+          },
+          {
+            "id": 4,
+            "answer": "Para que no se la pisen.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-29",
+        "type": "simple",
+        "question": "¿Qué es un 'Gestor de Cargas'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un programa de ordenador.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Empresa autorizada para vender energía eléctrica para servicios de recarga de vehículos.",
+            "isCorrect": true,
+            "explanation": "Figura legal para la comercialización de energía en el transporte. Fuente: Ley del Sector Eléctrico."
+          },
+          {
+            "id": 3,
+            "answer": "El que carga las maletas en el coche.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 4,
+            "answer": "Un electricista autónomo.",
+            "isCorrect": false,
+            "explanation": "Es una figura empresarial comercializadora."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-30",
+        "type": "simple",
+        "question": "Finalmente, ¿qué sección mínima de conductor se exige para el circuito C13 de recarga de VE?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Insuficiente."
+          },
+          {
+            "id": 2,
+            "answer": "6 mm² (cobre) para instalaciones monofásicas estándar.",
+            "isCorrect": true,
+            "explanation": "Garantiza una caída de tensión baja y soporta corrientes de hasta 32A de forma continua. Fuente: ITC-BT-52, Apartado 5.3."
+          },
+          {
+            "id": 3,
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "Demasiado justo para cargas de larga duración."
+          },
+          {
+            "id": 4,
+            "answer": "10 mm².",
+            "isCorrect": false,
+            "explanation": "Recomendable para largas distancias, pero el mínimo normativo suele ser 6 mm²."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-31",
+        "type": "simple",
+        "question": "¿Cuál es la función del cable 'piloto' en un conector Tipo 2?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Llevar la corriente al coche.",
+            "isCorrect": false,
+            "explanation": "Para eso están los cables de potencia L1, L2, L3 y N."
+          },
+          {
+            "id": 2,
+            "answer": "Establecer una comunicación de datos entre el cargador y el coche para negociar la potencia máxima de carga.",
+            "isCorrect": true,
+            "explanation": "Garantiza que el cargador no envíe más energía de la que el coche o el cable pueden soportar. Fuente: Protocolo IEC 61851."
+          },
+          {
+            "id": 3,
+            "answer": "Encender los faros del coche.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Es un cable de repuesto.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-32",
+        "type": "multiple",
+        "question": "¿Qué factores determinan la caída de tensión máxima permitida en un circuito IRVE?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La distancia entre el contador y el punto de recarga.",
+            "isCorrect": true,
+            "explanation": "A mayor distancia, más caída."
+          },
+          {
+            "id": 2,
+            "answer": "La sección del cable utilizado.",
+            "isCorrect": true,
+            "explanation": "A mayor sección, menos caída."
+          },
+          {
+            "id": 3,
+            "answer": "El tipo de esquema de instalación (1, 2, 3 o 4).",
+            "isCorrect": true,
+            "explanation": "El REBT marca límites de caída según el punto de origen. Fuente: ITC-BT-52, Apartado 5.3."
+          },
+          {
+            "id": 4,
+            "answer": "El color del coche.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-33",
+        "type": "simple",
+        "question": "Sobre la carga en 'Modo 2', ¿qué elemento de seguridad diferencial suele incorporar el cable original del coche?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Nada, es un cable normal.",
+            "isCorrect": false,
+            "explanation": "Sería un peligro."
+          },
+          {
+            "id": 2,
+            "answer": "Una caja de control (ICCB) que incluye protección diferencial y monitorización térmica del enchufe.",
+            "isCorrect": true,
+            "explanation": "Permite cargar en enchufes Schuko con seguridad básica. Fuente: Estándares de carga ocasional."
+          },
+          {
+            "id": 3,
+            "answer": "Un fusible de cristal.",
+            "isCorrect": false,
+            "explanation": "Insuficiente."
+          },
+          {
+            "id": 4,
+            "answer": "Un transformador pesado.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-34",
+        "type": "simple",
+        "question": "¿Qué es un 'pilar de recarga'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una columna del edificio.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Punto de recarga exento (no colgado en pared) montado sobre una estructura vertical anclada al suelo.",
+            "isCorrect": true,
+            "explanation": "Típico en parkings exteriores o plazas de garaje abiertas. Fuente: Montaje físico IRVE."
+          },
+          {
+            "id": 3,
+            "answer": "Un tipo de batería.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Un poste de luz de la calle.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-35",
+        "type": "simple",
+        "question": "Sobre la 'notificación a la comunidad' de vecinos para instalar un cargador, ¿qué plazo tiene el vecino?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe esperar a la junta anual.",
+            "isCorrect": false,
+            "explanation": "No es necesario."
+          },
+          {
+            "id": 2,
+            "answer": "Debe informar por escrito al presidente o administrador ANTES de empezar la obra.",
+            "isCorrect": true,
+            "explanation": "Es una comunicación obligatoria, no una solicitud de permiso. Fuente: Ley de Propiedad Horizontal Art. 17.5."
+          },
+          {
+            "id": 3,
+            "answer": "Puede hacer la obra en secreto.",
+            "isCorrect": false,
+            "explanation": "Ilegal y causa de problemas comunitarios."
+          },
+          {
+            "id": 4,
+            "answer": "Tiene que pagar una cuota extra de por vida.",
+            "isCorrect": false,
+            "explanation": "Solo paga su consumo y su instalación."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-36",
+        "type": "multiple",
+        "question": "¿Qué ventajas tiene el uso de un Wallbox frente a un enchufe Schuko normal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Carga mucho más rápido (hasta 7,4 kW o 22 kW).",
+            "isCorrect": true,
+            "explanation": "El Schuko está limitado por seguridad a unos 2,3 kW."
+          },
+          {
+            "id": 2,
+            "answer": "Mayor seguridad eléctrica (protecciones específicas integradas).",
+            "isCorrect": true,
+            "explanation": "Evita sobrecalentamientos en la toma de casa."
+          },
+          {
+            "id": 3,
+            "answer": "Funciones inteligentes (programación horaria, control por APP).",
+            "isCorrect": true,
+            "explanation": "Optimiza el coste de la energía. Fuente: Comparativa de sistemas de carga."
+          },
+          {
+            "id": 4,
+            "answer": "El coche gasta menos en la carretera.",
+            "isCorrect": false,
+            "explanation": "Falso."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-37",
+        "type": "simple",
+        "question": "En el Esquema 2, ¿dónde se conecta físicamente el cable que va a la plaza de garaje?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Al enchufe de la cocina.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "A la salida del contador de la vivienda, tras el interruptor general de maniobra.",
+            "isCorrect": true,
+            "explanation": "Permite usar el mismo contrato de suministro para casa y coche. Fuente: ITC-BT-52, Apartado 3."
+          },
+          {
+            "id": 3,
+            "answer": "A la luz del pasillo comunitario.",
+            "isCorrect": false,
+            "explanation": "Sería un robo a la comunidad."
+          },
+          {
+            "id": 4,
+            "answer": "Directamente a la calle.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-38",
+        "type": "simple",
+        "question": "Sobre la 'revisión técnica' de los puntos de recarga, ¿con qué frecuencia se recomienda?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cada 50 años.",
+            "isCorrect": false,
+            "explanation": "Absurdo."
+          },
+          {
+            "id": 2,
+            "answer": "Anualmente por un técnico cualificado para revisar bornes, protecciones y estado del conector.",
+            "isCorrect": true,
+            "explanation": "Evita incendios por conexiones flojas tras miles de horas de uso intenso. Fuente: Manuales de mantenimiento industrial."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el coche explota.",
+            "isCorrect": false,
+            "explanation": "Muy tarde."
+          },
+          {
+            "id": 4,
+            "answer": "Nunca, son eternos.",
+            "isCorrect": false,
+            "explanation": "Los componentes eléctricos sufren desgaste térmico."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-39",
+        "type": "simple",
+        "question": "¿Qué es la 'comunicación OCPP' en un cargador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un tipo de cable.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Protocolo estándar abierto que permite al cargador hablar con una plataforma de gestión centralizada (nube).",
+            "isCorrect": true,
+            "explanation": "Permite monitorizar, cobrar y gestionar el cargador remotamente. Fuente: Estándares de gestión IRVE."
+          },
+          {
+            "id": 3,
+            "answer": "El ruido que hace al conectar.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "Un sistema de seguridad contra robos.",
+            "isCorrect": false,
+            "explanation": "Es un protocolo de datos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-40",
+        "type": "simple",
+        "question": "Finalmente, ¿se puede cargar un patinete eléctrico en un punto de recarga de coche de la ITC-BT-52?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se tiene el adaptador adecuado.",
+            "isCorrect": true,
+            "explanation": "Técnicamente es posible pero el punto está diseñado para potencias mucho mayores. Fuente: Uso polivalente de infraestructura."
+          },
+          {
+            "id": 2,
+            "answer": "No, el patinete explotaría.",
+            "isCorrect": false,
+            "explanation": "Solo consume lo que necesita; la tensión es la misma (230V)."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el patinete es matriculado.",
+            "isCorrect": false,
+            "explanation": "No tiene relación técnica."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero tarda el doble.",
+            "isCorrect": false,
+            "explanation": "Tardaría lo mismo que en casa."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-41",
+        "type": "simple",
+        "question": "¿Qué es el 'desequilibrio de fases' en recarga trifásica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el coche pesa más de un lado.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Situación donde una fase consume mucho más que las otras, pudiendo calentar el neutro o disparar el general.",
+            "isCorrect": true,
+            "explanation": "Ocurre si cargamos muchos coches monofásicos en la misma fase de una red trifásica. Fuente: Electrotecnia aplicada."
+          },
+          {
+            "id": 3,
+            "answer": "Un fallo del volante del coche.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "No existe tal concepto.",
+            "isCorrect": false,
+            "explanation": "Es un problema real en garajes colectivos."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-42",
+        "type": "multiple",
+        "question": "¿Qué debe verificar un instalador autorizado antes de emitir el CIE de un IRVE?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Medida de la resistencia de tierra.",
+            "isCorrect": true,
+            "explanation": "Seguridad crítica para el coche y personas."
+          },
+          {
+            "id": 2,
+            "answer": "Prueba de disparo de los diferenciales.",
+            "isCorrect": true,
+            "explanation": "Verifica que la protección funciona."
+          },
+          {
+            "id": 3,
+            "answer": "Caída de tensión en el punto más lejano a máxima carga.",
+            "isCorrect": true,
+            "explanation": "Asegura la calidad del suministro. Fuente: ITC-BT-18 / 19 / 52."
+          },
+          {
+            "id": 4,
+            "answer": "Que el cargador combine con la pintura de la pared.",
+            "isCorrect": false,
+            "explanation": "Estética no técnica."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-43",
+        "type": "simple",
+        "question": "Sobre la carga rápida en DC (Modo 4), ¿cuál es la ventaja de cara al usuario?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Es más barata.",
+            "isCorrect": false,
+            "explanation": "Suele ser más cara por la inversión en potencia."
+          },
+          {
+            "id": 2,
+            "answer": "Permite cargar el 80% de la batería en menos de 30 minutos.",
+            "isCorrect": true,
+            "explanation": "Ideal para viajes largos y paradas cortas. Fuente: Movilidad eléctrica de largo alcance."
+          },
+          {
+            "id": 3,
+            "answer": "No gasta la batería del coche.",
+            "isCorrect": false,
+            "explanation": "Al revés, la calienta más."
+          },
+          {
+            "id": 4,
+            "answer": "Funciona sin cables.",
+            "isCorrect": false,
+            "explanation": "Requiere cables muy gruesos y refrigerados."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-44",
+        "type": "simple",
+        "question": "¿Qué es la 'preinstalación ductada'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Poner los cargadores y no encenderlos.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Dejar instalados los tubos y bandejas vacíos para que solo falte pasar el cable cuando alguien ponga un cargador.",
+            "isCorrect": true,
+            "explanation": "Ahorra el 70% del coste de una instalación futura. Fuente: ITC-BT-52, Anexo 2."
+          },
+          {
+            "id": 3,
+            "answer": "Instalación de tuberías de agua para el coche.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "No existe en el REBT.",
+            "isCorrect": false,
+            "explanation": "Es obligatoria en obra nueva."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-45",
+        "type": "simple",
+        "question": "Sobre el 'bloqueo del conector', ¿para qué sirve?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para que no nos roben el coche.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Impide que se pueda desenchufar el cable mientras hay paso de corriente, evitando arcos eléctricos peligrosos.",
+            "isCorrect": true,
+            "explanation": "Seguridad mecánica y eléctrica. Fuente: Estándares de seguridad de conectores."
+          },
+          {
+            "id": 3,
+            "answer": "Para que el cable no se caiga al suelo.",
+            "isCorrect": false,
+            "explanation": "Función secundaria."
+          },
+          {
+            "id": 4,
+            "answer": "No se bloquean, van sueltos.",
+            "isCorrect": false,
+            "explanation": "En Modo 3 y 4 el bloqueo es obligatorio por norma."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-46",
+        "type": "multiple",
+        "question": "¿Qué problemas causa el 'armónico de corriente' generado por los cargadores?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Calentamiento excesivo del conductor neutro.",
+            "isCorrect": true,
+            "explanation": "Los armónicos de orden 3 se suman en el neutro."
+          },
+          {
+            "id": 2,
+            "answer": "Disparos intempestivos de los diferenciales.",
+            "isCorrect": true,
+            "explanation": "Confunden a la electrónica de protección."
+          },
+          {
+            "id": 3,
+            "answer": "Ruido y vibraciones en transformadores cercanos.",
+            "isCorrect": true,
+            "explanation": "Degrada la calidad de la energía. Fuente: Calidad de suministro."
+          },
+          {
+            "id": 4,
+            "answer": "Que el coche pite sin motivo.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-47",
+        "type": "simple",
+        "question": "En una vía pública, ¿cómo debe protegerse el poste de recarga contra choques de vehículos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Con un aviso de 'Cuidado'.",
+            "isCorrect": false,
+            "explanation": "Insuficiente."
+          },
+          {
+            "id": 2,
+            "answer": "Mediante bolardos de acero o protecciones físicas perimetrales y cimentación adecuada.",
+            "isCorrect": true,
+            "explanation": "Evita el riesgo de derribo y cortocircuito masivo. Fuente: Urbanismo y seguridad vial."
+          },
+          {
+            "id": 3,
+            "answer": "Pintándolo de color fosforito.",
+            "isCorrect": false,
+            "explanation": "Ayuda a la visibilidad, pero no protege físicamente."
+          },
+          {
+            "id": 4,
+            "answer": "No se puede proteger, es espacio público.",
+            "isCorrect": false,
+            "explanation": "Al contrario, exige más protección."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-48",
+        "type": "simple",
+        "question": "¿Qué es la 'potencia de carga dinámica'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el cargador se mueve solo.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 2,
+            "answer": "Capacidad del cargador de ajustar en tiempo real la potencia que entrega al coche según el consumo que haya en el resto de la casa.",
+            "isCorrect": true,
+            "explanation": "Evita que 'salten los plomos' al poner el horno o la lavadora. Fuente: Gestión energética inteligente."
+          },
+          {
+            "id": 3,
+            "answer": "Cargar mientras el coche circula.",
+            "isCorrect": false,
+            "explanation": "Eso es carga inductiva dinámica, aún no comercial masiva."
+          },
+          {
+            "id": 4,
+            "answer": "Cargar solo cuando hay viento.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-49",
+        "type": "simple",
+        "question": "Sobre la garantía de un IRVE, ¿por qué es vital contratar con instaladores autorizados?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque son más simpáticos.",
+            "isCorrect": false,
+            "explanation": "Irrelevante."
+          },
+          {
+            "id": 2,
+            "answer": "Para tener cobertura de seguro de responsabilidad civil y asegurar que el seguro de hogar cubra cualquier incidente.",
+            "isCorrect": true,
+            "explanation": "Una instalación ilegal invalida cualquier póliza de seguros en caso de incendio. Fuente: Normativa de seguros."
+          },
+          {
+            "id": 3,
+            "answer": "Para que nos regalen un llavero.",
+            "isCorrect": false,
+            "explanation": "No."
+          },
+          {
+            "id": 4,
+            "answer": "No hace falta, un amigo que sepa de cables lo hace igual.",
+            "isCorrect": false,
+            "explanation": "Es un riesgo legal y físico grave."
+          }
+        ]
+      },
+      {
+        "id": "ITC-BT-52-50",
+        "type": "simple",
+        "question": "Finalmente, ¿qué indica la luz azul fija en la mayoría de wallbox modernos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Error crítico.",
+            "isCorrect": false,
+            "explanation": "Suele ser luz roja."
+          },
+          {
+            "id": 2,
+            "answer": "Vehículo conectado y cargando correctamente.",
+            "isCorrect": true,
+            "explanation": "Código de colores intuitivo para el usuario. Fuente: Manuales de fabricantes."
+          },
+          {
+            "id": 3,
+            "answer": "Cargador apagado.",
+            "isCorrect": false,
+            "explanation": "No suele haber luz o es blanca tenue."
+          },
+          {
+            "id": 4,
+            "answer": "Peligro de descarga.",
+            "isCorrect": false,
+            "explanation": "No."
+          }
+        ]
       }
     ]
   }

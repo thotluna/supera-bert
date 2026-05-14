@@ -22,3 +22,9 @@
 - [x] Corrección de duplicados en resultados: Deduplicación de preguntas por ID en el repositorio y estabilización de keys en la UI.
 - [x] Expansión y auditoría técnica de ITC-BT-05: Creación de 50 preguntas situacionales basadas en la fuente de verdad y cumplimiento de estándares pedagógicos.
 - [x] Expansión técnica de REE-GENERAL: Incorporación de 16 conceptos fundamentales de luminotecnia desglosados en definiciones y unidades/especificaciones independientes (32 preguntas en total).
+
+## Limpieza de Referencias ITC (Pedagogía Avanzada)
+- [x] Eliminación de referencias "ITC-BT-XX" en `itc-bt-01.json` a `itc-bt-35.json`
+- [x] Recreación integral y auditoría pedagógica de `itc-bt-34.json` a `itc-bt-38.json` (50 preguntas situacionales, tipos simple/multiple, estructura normalizada)
+- [x] Recreación integral y auditoría pedagógica de `itc-bt-39.json` a `itc-bt-47.json` (50 preguntas situacionales, tipos simple/multiple, estructura normalizada)
+- [x] Aplicación sistemática en el resto de datasets: `itc-bt-48.json` a `itc-bt-52.json` (REMEDIACIÓN FINALIZADA)

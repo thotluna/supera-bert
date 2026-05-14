@@ -5,3103 +5,1553 @@
     "questions": [
       {
         "id": "ITC-BT-36-01",
-        "question": "¿Qué caracteriza a un sistema MBTS (Muy Baja Tensión de Seguridad)?",
+        "type": "simple",
+        "question": "En el diseño de una instalación a Muy Baja Tensión de Seguridad (MBTS), se requiere que los circuitos no estén conectados a tierra. ¿Cuál es el límite máximo de tensión nominal en corriente alterna para que una instalación se considere de este tipo?",
         "options": [
           {
             "id": 1,
-            "answer": "Circuitos y masas aislados de tierra",
-            "isCorrect": true,
-            "explanation": "Correcto. La MBTS exige que ni los circuitos ni las masas estén conectados a tierra."
+            "answer": "24 V.",
+            "isCorrect": false,
+            "explanation": "Aunque es una tensión común en MBTS, el límite reglamentario superior es de 50 V."
           },
           {
             "id": 2,
-            "answer": "Conexión obligatoria a tierra de las masas",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso correspondería a un sistema MBTP (Protección)."
+            "answer": "50 V.",
+            "isCorrect": true,
+            "explanation": "Las instalaciones MBTS comprenden aquellas cuya tensión nominal no excede de 50 V en c.a. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "Uso de autotransformadores",
+            "answer": "110 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Se requieren transformadores de seguridad para garantizar la separación galvánica."
+            "explanation": "110 V ya se considera baja tensión estándar, no muy baja tensión de seguridad."
           },
           {
             "id": 4,
-            "answer": "Tensión de hasta 230 V",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La MBT está limitada a 50 V AC / 75 V DC."
+            "explanation": "Es un valor típico pero no el límite superior establecido por el REBT."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-02",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la principal diferencia entre una instalación MBTS y una MBTP según la normativa?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "El valor de la tensión nominal.",
+            "isCorrect": false,
+            "explanation": "Ambas tienen el mismo límite de tensión (50V AC / 75V DC)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La conexión a tierra de los circuitos o masas.",
+            "isCorrect": true,
+            "explanation": "En MBTS los circuitos y masas no se conectan a tierra, mientras que en MBTP sí pueden estarlo por razones funcionales. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "El tipo de cable utilizado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El tipo de cable depende de la instalación, no define la categoría de MBT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La obligatoriedad de usar transformador.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Ambas requieren fuentes con aislamiento de protección (como transformadores de seguridad)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-03",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se desea alimentar un circuito de control a 48 V DC que no cumple con los requisitos de aislamiento de protección frente a otros circuitos de mayor tensión. ¿Cómo se clasifica reglamentariamente esta instalación?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Muy Baja Tensión de Seguridad (MBTS).",
+            "isCorrect": false,
+            "explanation": "Requiere aislamiento de protección y no estar conectada a tierra."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Muy Baja Tensión Funcional (MBTF).",
+            "isCorrect": true,
+            "explanation": "Las instalaciones que no exceden los límites de tensión pero no cumplen los requisitos de MBTS o MBTP son MBTF. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Muy Baja Tensión de Protección (MBTP).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Requiere fuente con aislamiento de protección, lo cual no se cumple en este caso."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Instalación de alta fidelidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No es un término técnico del Reglamento Electrotécnico para Baja Tensión."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-04",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de las siguientes fuentes se consideran aptas para alimentar circuitos MBTS o MBTP?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Transformadores de seguridad según UNE-EN 61558-2-6.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Es la fuente de referencia por excelencia para MBT de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Baterías de acumuladores u otras fuentes electroquímicas.",
+            "isCorrect": true,
+            "explanation": "Son fuentes independientes que garantizan la separación de la red primaria."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Autotransformadores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Está prohibido su uso como fuente de MBTS/MBTP por no tener separación galvánica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Grupos motor-generador con devanados con separación equivalente.",
+            "isCorrect": true,
+            "explanation": "Se consideran fuentes con aislamiento de protección equivalentes al transformador."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-05",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En una instalación de MBTP, se utiliza un transformador con aislamiento principal. ¿Qué medida de seguridad adicional es obligatoria en este caso?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Que el secundario sea de al menos 100 V.",
+            "isCorrect": false,
+            "explanation": "Contradice la definición de Muy Baja Tensión."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Existencia de una pantalla de separación entre primario y secundario puesta a tierra.",
+            "isCorrect": true,
+            "explanation": "Si el aislamiento es solo principal, la pantalla puesta a tierra es obligatoria para MBTP. Fuente: ITC-BT-36, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Que los conductores sean de color azul siempre.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El azul se reserva para el neutro, no define la seguridad del transformador."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No requiere ninguna medida si la potencia es menor a 100 VA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Las medidas de seguridad son independientes de la potencia del transformador."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-06",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué condición deben cumplir las tomas de corriente y clavijas de un circuito MBTS en relación con otros circuitos de tensiones superiores presentes en el mismo local?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Deben ser del mismo modelo para facilitar el mantenimiento.",
+            "isCorrect": false,
+            "explanation": "Es extremadamente peligroso porque permitiría conectar equipos de baja tensión a muy baja tensión y viceversa."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No deben permitir la entrada de clavijas para otras tensiones.",
+            "isCorrect": true,
+            "explanation": "Para evitar errores de conexión catastróficos, deben ser físicamente incompatibles. Fuente: ITC-BT-36, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Deben tener el mismo color que las tomas de 230 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se recomienda precisamente lo contrario para su rápida identificación."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo pueden ser de tipo Schuko sin tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Las tomas Schuko son para 230 V y no deben usarse en MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-07",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un circuito MBTS, ¿está permitido que las tomas de corriente dispongan de contacto de puesta a tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, para mayor seguridad.",
+            "isCorrect": false,
+            "explanation": "El esquema MBTS exige que no haya conexión intencionada a tierra de las masas ni de los circuitos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, las tomas de corriente de MBTS no deben tener contacto para conductor de protección.",
+            "isCorrect": true,
+            "explanation": "La ausencia de tierra es una característica definitoria de la seguridad por separación en MBTS. Fuente: ITC-BT-36, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si la tensión es superior a 24 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La regla aplica a toda la categoría MBTS independientemente de la tensión."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Es opcional a criterio del proyectista.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es una prohibición reglamentaria para evitar la entrada de potenciales peligrosos desde la red de tierras."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-08",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala un circuito MBTS que funciona a 12 V AC en un local seco. Según la instrucción técnica, ¿es obligatoria la protección contra contactos directos mediante aislamiento o barreras?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, siempre es obligatoria.",
+            "isCorrect": false,
+            "explanation": "Existen excepciones para tensiones muy bajas en condiciones normales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, si la tensión nominal no excede de 25 V AC en locales secos.",
+            "isCorrect": true,
+            "explanation": "Por debajo de 25 V AC (o 60 V DC), la protección contra contactos directos no suele ser necesaria en MBTS. Fuente: ITC-BT-36, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si el local es de pública concurrencia.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La regla depende de la tensión y la humedad del local, no de su uso público."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, si hay niños presentes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El reglamento establece umbrales técnicos generales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-09",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Si una instalación MBTS funciona a una tensión nominal de 48 V AC, ¿cuál es el grado de protección IP mínimo que deben asegurar las barreras o envolventes para evitar contactos directos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "IPX4.",
+            "isCorrect": false,
+            "explanation": "Indica protección contra agua, no contra contactos (dedos)."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "IPXXB o IP2X.",
+            "isCorrect": true,
+            "explanation": "Para tensiones superiores a 25 V AC, se requiere al menos IP2X para evitar el contacto con los dedos. Fuente: ITC-BT-36, Apartado 3."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "IP44.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un grado superior, pero el mínimo reglamentario para contacto directo es IP2X."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IP1X.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Protege contra la mano, pero permite la entrada del dedo, lo cual es insuficiente."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-10",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál de los siguientes dispositivos NO puede utilizarse como fuente de alimentación para un sistema MBTS?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Un potenciómetro conectado a la red de 230 V.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Un potenciómetro no ofrece aislamiento de protección frente a la red; un fallo pondría 230V en el circuito de salida. Fuente: ITC-BT-36, Apartado 2.1."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Un grupo motor-generador de seguridad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Es una fuente válida si garantiza la separación galvánica."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Un transformador de aislamiento de seguridad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es la fuente reglamentaria por defecto."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Una batería de 24 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es una fuente autónoma y segura para MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-11",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En las instalaciones de MBTP, la protección contra contactos directos se rige por las mismas reglas que la MBTS, EXCEPTO cuando:",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Los circuitos están en locales húmedos.",
+            "isCorrect": false,
+            "explanation": "La humedad suele endurecer los requisitos, no flexibilizarlos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Los equipos o circuitos se conectan a tierra intencionadamente.",
+            "isCorrect": true,
+            "explanation": "En MBTP la tierra está presente, lo que obliga a asegurar la equipotencialidad. Fuente: ITC-BT-36, Apartado 4."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Se usan lámparas LED.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El tipo de receptor no cambia las reglas de seguridad de la MBT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La potencia es superior a 1 kVA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La potencia no altera la clasificación de protección."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-12",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala un transformador de seguridad para MBTS. Según la norma, ¿cómo debe ser el aislamiento de los conductores del circuito secundario (MBT)?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "El mismo que para los circuitos de 230 V.",
+            "isCorrect": false,
+            "explanation": "Aunque puede ser igual, la norma pone el énfasis en la separación física."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Deben disponer de un aislamiento de protección frente a otros circuitos de tensión superior.",
+            "isCorrect": true,
+            "explanation": "La separación debe garantizar que un fallo en la red de 230V no 'salte' al circuito de seguridad. Fuente: ITC-BT-36, Apartado 2.2."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No requieren aislamiento si la tensión es inferior a 12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El aislamiento es necesario para evitar cortocircuitos e interferencias, independientemente de la tensión."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Deben ser conductores desnudos para disipar el calor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Está prohibido el uso de conductores desnudos en estas instalaciones interiores."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-13",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de estas condiciones impiden que una instalación sea clasificada como MBTS?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Conectar el polo negativo de la batería a la masa del edificio.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "La MBTS prohíbe la conexión a tierra de sus circuitos."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Usar tomas de corriente compatibles con clavijas de 230 V.",
+            "isCorrect": true,
+            "explanation": "Viola el requisito de incompatibilidad física de seguridad."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Alimentar el sistema mediante un autotransformador.",
+            "isCorrect": true,
+            "explanation": "Falta el aislamiento de protección (separación galvánica)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Instalar los cables de 12 V en el mismo tubo que los de 230 V sin aislamiento suplementario.",
+            "isCorrect": true,
+            "explanation": "No se garantiza la separación de protección entre circuitos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-14",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En una instalación de Muy Baja Tensión Funcional (MBTF), ¿qué nivel de seguridad se ofrece frente a choques eléctricos?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Seguridad total intrínseca por baja tensión.",
+            "isCorrect": false,
+            "explanation": "No se garantiza porque puede haber fallos de aislamiento con la red primaria."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La protección debe realizarse conforme a lo establecido para circuitos de tensión superior (ITC-BT-24).",
+            "isCorrect": true,
+            "explanation": "Al no tener separación de seguridad, se trata como un circuito de baja tensión normal. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo protección contra incendios.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La seguridad de las personas también debe cubrirse."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Ninguna, la tensión es tan baja que es imposible que ocurra un accidente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Si hay contacto con la red primaria de 230V por falta de aislamiento, el riesgo es letal."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-15",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿A partir de qué tensión en corriente continua es obligatoria la protección contra contactos directos en una instalación MBTS situada en un local seco?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "25 V.",
+            "isCorrect": false,
+            "explanation": "25 V es el umbral para corriente alterna."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "50 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Valor cercano, pero el reglamento especifica otro umbral superior para continua."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "60 V.",
+            "isCorrect": true,
+            "explanation": "En corriente continua, el umbral de protección contra contactos directos en MBTS es 60 V. Fuente: ITC-BT-36, Apartado 3."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "75 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es el límite máximo de la MBT en continua, no el umbral de protección."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-16",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Un instalador coloca circuitos MBTS y circuitos de 230 V en la misma canalización (por ejemplo, una canaleta). ¿Qué condición de aislamiento debe cumplirse?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Ninguna, el reglamento prohíbe que compartan canalización.",
+            "isCorrect": false,
+            "explanation": "Se permite si se garantiza el aislamiento de protección."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Los conductores de MBTS deben estar separados por una pantalla metálica unida a tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Es una medida para señales de datos, no es el requisito básico de aislamiento de potencia."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Deben estar separados por un aislamiento equivalente al de un transformador de seguridad.",
+            "isCorrect": true,
+            "explanation": "O bien se usan cables con aislamiento para la tensión más elevada o se usa una envolvente adicional. Fuente: ITC-BT-36, Apartado 2.2."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo deben estar separados por una distancia de 5 cm.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La distancia física sin aislamiento suplementario no basta para la seguridad galvánica exigida."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-17",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de las siguientes afirmaciones son CORRECTAS respecto a las fuentes electrónicas para MBTS?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Deben asegurar que la tensión en los bornes de salida no sea superior a la nominal.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Incluso en caso de fallo interno, deben garantizar la seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Pueden superar los 50 V si es durante un tiempo inferior a 1 segundo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "No deben superar los límites de tensión establecidos bajo ninguna circunstancia de diseño normal."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Deben disponer de una separación equivalente a la de un transformador de seguridad.",
+            "isCorrect": true,
+            "explanation": "La separación electrónica debe ser tan fiable como la galvánica de un transformador."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Si fallan, deben cortar la alimentación de salida.",
+            "isCorrect": true,
+            "explanation": "Deben ser fuentes 'a prueba de fallos' (fail-safe) para la seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-18",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es la tensión máxima absoluta permitida para una instalación MBT en corriente continua, bajo cualquier configuración (MBTS/MBTP)?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "60 V.",
+            "isCorrect": false,
+            "explanation": "Es el umbral de protección contra contactos directos, no el límite superior."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "75 V.",
+            "isCorrect": true,
+            "explanation": "El límite superior para Muy Baja Tensión en corriente continua es de 75 V libres de ondulación. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "120 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es el límite de baja tensión para algunos reglamentos internacionales, pero no para la MBT del REBT español."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "48 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Tensión muy común en telecomunicaciones, pero no el límite reglamentario."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-19",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un circuito de MBTP, ¿cómo debe realizarse la puesta a tierra del circuito secundario?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "A una pica de tierra independiente de la del edificio.",
+            "isCorrect": false,
+            "explanation": "Podría generar diferencias de potencial peligrosas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Mediante una conexión adecuada al conductor de protección de la instalación primaria.",
+            "isCorrect": true,
+            "explanation": "Se debe asegurar la equipotencialidad con la tierra general del edificio. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Conectándolo a la tubería del agua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Prohibido usar las tuberías de servicio como electrodo de tierra."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "A través de un condensador de alta tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No garantiza la continuidad galvánica de protección requerida."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-20",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para el ensayo dieléctrico del aislamiento de un circuito MBTS sin barreras (U > 25V), ¿durante cuánto tiempo debe aplicarse la tensión de 500 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "10 segundos.",
+            "isCorrect": false,
+            "explanation": "Tiempo insuficiente según la norma técnica."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "1 minuto.",
+            "isCorrect": true,
+            "explanation": "El estándar de ensayo de rigidez dieléctrica para estos circuitos es de 1 minuto. Fuente: ITC-BT-36 (UNE-EN 61558)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "5 minutos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es un requisito superior al estándar reglamentario."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No hay tiempo definido, basta que no salte el arco.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La norma define procedimientos precisos para los ensayos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-21",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un sistema MBTS que alimenta juguetes electrónicos, la tensión máxima suele ser de 24 V. ¿Qué medida de protección contra contactos directos es necesaria si el local no es húmedo?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Ninguna específica por debajo de 25 V AC.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "En estas condiciones, la propia baja tensión se considera seguridad suficiente. Fuente: ITC-BT-36."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Barreras IP44 obligatorias.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "No son exigidas para este nivel de tensión en ambiente seco."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Diferencial de 10 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El diferencial no funciona en circuitos aislados de tierra como el MBTS."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Puesta a tierra de las partes metálicas del juguete.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Está prohibido conectar a tierra las masas en MBTS."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-22",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Si una instalación MBTS utiliza conductores desnudos (por ejemplo, hilos tensados para iluminación), ¿qué condición se impone?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Están permitidos hasta 50 V.",
+            "isCorrect": false,
+            "explanation": "Aumenta el riesgo de cortocircuito y contacto accidental."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Solo se permiten hasta una tensión nominal de 25 V AC o 60 V DC.",
+            "isCorrect": true,
+            "explanation": "Más allá de esa tensión, los conductores deben estar aislados o protegidos por barreras. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Deben ser de plata para mejorar la conducción.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No tiene relación con la seguridad."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Está totalmente prohibido el uso de conductores desnudos en interiores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Se permiten bajo el umbral de tensión de seguridad sin protección adicional."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-23",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Cuáles de los siguientes son requisitos para los conductores de circuitos MBTS/MBTP?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Separación física de conductores de otros sistemas.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Para evitar influencias y contactos accidentales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
+            "answer": "Las mangueras deben ser de color violeta.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "El violeta no es un color normalizado por el REBT para MBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Aislamiento de protección si van en conductos compartidos.",
+            "isCorrect": true,
+            "explanation": "Seguridad galvánica frente a la red primaria."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Deben tener una sección mínima de 6 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La sección depende de la carga y caída de tensión, no hay ese mínimo."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-24",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué ocurre si se conecta accidentalmente una masa de un equipo MBTS a tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "La instalación mejora su seguridad.",
+            "isCorrect": false,
+            "explanation": "Al contrario, se pierde la seguridad por flotación y se convierte en MBTP."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "La instalación deja de ser MBTS y pasa a ser MBTP (o insegura).",
+            "isCorrect": true,
+            "explanation": "La característica fundamental de la MBTS es el aislamiento total frente a tierra. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Salta el diferencial de cabecera inmediatamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Si el circuito es realmente aislado, una sola conexión a tierra no provoca corriente de fuga."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Se quema el transformador de seguridad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Una conexión a tierra no es un cortocircuito en un sistema flotante."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-25",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En locales muy conductores o mojados (ej. interior de calderas metálicas), ¿cuál es el único tipo de MBT permitido?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "MBTP.",
+            "isCorrect": false,
+            "explanation": "La conexión a tierra en locales muy conductores puede ser peligrosa."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "MBTS.",
+            "isCorrect": true,
+            "explanation": "Solo la Muy Baja Tensión de Seguridad (totalmente aislada) ofrece garantías suficientes en estos entornos extremos. Fuente: ITC-BT-30 / ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "MBTF.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Totalmente prohibida por falta de seguridad galvánica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquiera si es a menos de 12 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La configuración (MBTS) es más importante que el valor exacto de la tensión en estos casos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-26",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Está permitido el uso de tomas de corriente Schuko para un circuito de 48 V DC?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, si se marcan con una pegatina de '48V'.",
+            "isCorrect": false,
+            "explanation": "La seguridad no puede depender de una pegatina que puede caerse o ser ignorada."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, está prohibido por el riesgo de inserción de clavijas de 230 V.",
+            "isCorrect": true,
+            "explanation": "Deben usarse tomas industriales o específicas incompatibles con la red general. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo en entornos de laboratorio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La norma es general para todas las instalaciones receptoras."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, siempre que no tengan toma de tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Sigue existiendo el riesgo de conectar un equipo de 48V a una red de 230V."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-27",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un sistema MBTP, si un equipo tiene una falla de aislamiento interna entre primario y secundario, ¿qué dispositivo debe actuar en el primario?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Ninguno, el secundario está aislado.",
+            "isCorrect": false,
+            "explanation": "Si el secundario está a tierra (MBTP), aparecerá una corriente de defecto."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "El dispositivo de protección contra sobreintensidades o el diferencial del primario.",
+            "isCorrect": true,
+            "explanation": "Al haber conexión a tierra (MBTP), el fallo se convierte en una fuga que debe ser cortada por las protecciones de la red de alimentación. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Un fusible térmico en el motor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No protege contra fallos de aislamiento eléctricos."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Un pararrayos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No tiene ninguna función en este tipo de fallos internos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-28",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué umbrales de tensión nominal requieren obligatoriamente protección contra contactos directos en locales mojados?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Superiores a 12 V AC.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "En ambientes mojados, la seguridad disminuye y el umbral baja de 25V a 12V."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Superiores a 30 V DC.",
+            "isCorrect": true,
+            "explanation": "En continua, el umbral también se reduce a la mitad en ambientes mojados."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Cualquier tensión por pequeña que sea.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Por debajo de 6V AC o 15V DC suele considerarse seguro incluso mojado."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Superiores a 50 V AC.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es el límite máximo de MBT, no el umbral de protección en mojado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-29",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala un transformador de seguridad en un falso techo. ¿Qué grado de protección IK debe tener la envolvente si está expuesta a golpes accidentales durante el mantenimiento?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "IK01.",
+            "isCorrect": false,
+            "explanation": "Resistencia mínima casi inexistente."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "IK07 o superior.",
+            "isCorrect": true,
+            "explanation": "Para proteger equipos eléctricos de impactos mecánicos comunes en techos se recomienda un grado de robustez medio-alto. Fuente: Criterios generales REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Ninguno, el falso techo ya lo protege.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El acceso para mantenimiento de otras instalaciones supone un riesgo de impacto."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "IK10 (Máxima resistencia).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Suele reservarse para zonas antivandálicas o industriales pesadas."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-30",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Está permitido alimentar una instalación MBTS mediante un cargador de móvil estándar?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, siempre.",
+            "isCorrect": false,
+            "explanation": "Solo si el cargador cumple con la norma de transformador de aislamiento de seguridad y tiene la marca CE."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Solo si está certificado como fuente de alimentación de seguridad (clase II y SELV).",
+            "isCorrect": true,
+            "explanation": "La fuente debe garantizar que un fallo interno no traslade la tensión de red a la salida. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No, solo se permiten transformadores de núcleo de hierro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Se permiten fuentes electrónicas modernas si cumplen los requisitos de aislamiento."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, porque la salida es de 5 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El valor de la tensión no garantiza la separación galvánica de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-31",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la instalación de un sistema de MBTS para iluminación en una piscina (zona 0), ¿qué tensión máxima se permite?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "24 V AC.",
+            "isCorrect": false,
+            "explanation": "Es superior al límite permitido en inmersión total."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "12 V AC o 30 V DC.",
+            "isCorrect": true,
+            "explanation": "En zonas sumergidas, la seguridad es extrema y se reduce el límite de la MBTS. Fuente: ITC-BT-31 / ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "50 V AC.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es el límite general, pero no aplicable a zonas de inmersión."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "6 V AC.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es una tensión segura pero no es el límite máximo permitido (12V)."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-32",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Sobre las clavijas de conexión en MBTS, ¿pueden llevar un contacto para el neutro?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, el neutro es necesario para el retorno.",
+            "isCorrect": false,
+            "explanation": "En MBTS no se habla de 'neutro' (que está referido a tierra), sino de polos positivos/negativos o fases secundarias aisladas."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No se denomina neutro, sino polos del circuito de seguridad.",
+            "isCorrect": true,
+            "explanation": "El término neutro implica conexión a tierra en el origen, lo cual está prohibido en MBTS. Fuente: Conceptos electrotécnicos."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si se pintan de color azul.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El color azul es para el neutro de la red de BT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, siempre que no se use la toma de tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La confusión terminológica puede llevar a errores de conexión peligrosos."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-33",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué comprobaciones debe realizar un instalador tras montar un sistema MBTS?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Medida de la resistencia de aislamiento entre primario y secundario.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Verifica la calidad de la separación de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Comprobación de la incompatibilidad de las tomas de corriente.",
+            "isCorrect": true,
+            "explanation": "Asegura que no se pueden insertar clavijas de otras tensiones."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "Verificación de la ausencia de conexión a tierra del secundario.",
+            "isCorrect": true,
+            "explanation": "Esencial para mantener la categoría de MBTS."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Ensayo de disparo del diferencial del circuito secundario.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "En un sistema MBTS flotante, el diferencial no disparará porque no hay retorno por tierra."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-34",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Se permite la instalación de un transformador de seguridad dentro de un volumen 1 de un cuarto de baño?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, siempre que sea estanco.",
+            "isCorrect": false,
+            "explanation": "El transformador debe estar fuera de los volúmenes de mayor riesgo (0, 1 y 2) por seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "No, debe instalarse fuera de los volúmenes de protección.",
+            "isCorrect": true,
+            "explanation": "La fuente de alimentación de seguridad debe estar en una zona segura, fuera del alcance de personas mojadas. Fuente: ITC-BT-27."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Solo si alimenta una sola lámpara.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La restricción de ubicación es independiente de la carga."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Sí, es su ubicación ideal para evitar caídas de tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El riesgo eléctrico supera los beneficios de la caída de tensión."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-35",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un sistema MBTP, ¿cuál es la función de conectar el circuito a tierra si ya es de muy baja tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Mejorar la protección contra choques eléctricos.",
+            "isCorrect": false,
+            "explanation": "La conexión a tierra en realidad reduce el nivel de seguridad frente a choques comparado con el MBTS."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Razones funcionales (ej. electrónica de control, blindajes, señalización).",
+            "isCorrect": true,
+            "explanation": "La MBTP se usa cuando el equipo necesita una referencia de potencial para funcionar correctamente. Fuente: ITC-BT-36, Apartado 1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Evitar que se quemen las bombillas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No tiene relación con la vida útil de los receptores."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Obligar a que salte el diferencial siempre.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No es el objetivo, sino una consecuencia técnica de la configuración."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-36",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Qué color se recomienda para identificar los cables de un sistema de Muy Baja Tensión (por ejemplo, 24 V DC) para no confundirlos con la red de 230 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Azul y Marrón obligatoriamente.",
+            "isCorrect": false,
+            "explanation": "Estos colores se asocian a Fase y Neutro de 230V."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Rojo para positivo y Negro para negativo (en continua).",
+            "isCorrect": true,
+            "explanation": "Es la convención estándar industrial y recomendada para distinguir circuitos de MBT DC. Fuente: Prácticas de diseño."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Gris y Negro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Son colores de fases de alterna."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Blanco para todo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "No permite distinguir la polaridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-37",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se utiliza un grupo motor-generador para obtener una tensión MBTS. ¿Qué requisito de aislamiento se exige entre los devanados del motor y del generador?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Aislamiento principal solamente.",
+            "isCorrect": false,
+            "explanation": "Insuficiente para garantizar la seguridad galvánica."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Aislamiento de protección equivalente al de un transformador de seguridad.",
+            "isCorrect": true,
+            "explanation": "Debe haber una separación eléctrica total y fiable. Fuente: ITC-BT-36, Apartado 2.1."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Deben estar en carcasas diferentes unidos por un eje de plástico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Es una forma de conseguirlo, pero el reglamento habla de la equivalencia del aislamiento."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No se permite el uso de motores para generar MBTS.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Están explícitamente permitidos como fuente alternativa."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-38",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué precauciones deben tomarse al tender cables de MBTS cerca de pararrayos o cables de alta tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Mantener distancias de separación suficientes.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Para evitar inducciones y arcos eléctricos en caso de rayo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Usar cables apantallados con la pantalla a tierra.",
+            "isCorrect": true,
+            "explanation": "Protege los circuitos de seguridad de interferencias electromagnéticas externas."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No instalarlos nunca por el exterior del edificio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Pueden ir por el exterior si están protegidos adecuadamente."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Usar protectores de sobretensiones transitorias.",
+            "isCorrect": true,
+            "explanation": "Recomendable para evitar que una sobretensión externa destruya la fuente de seguridad."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-39",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un sistema MBTS de 48 V AC, ¿se permite el uso de un interruptor monopolar para cortar la alimentación?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, es suficiente.",
+            "isCorrect": false,
+            "explanation": "En circuitos aislados, un solo corte no garantiza la desenergización total del receptor respecto a otros potenciales."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Se recomienda el corte omnipolar para asegurar el aislamiento total.",
+            "isCorrect": true,
+            "explanation": "Especialmente en seguridad, cortar todos los polos es la práctica más segura. Fuente: Guías de diseño."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No, debe ser obligatoriamente un disyuntor de 4 polos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Un disyuntor bipolar (2 polos) bastaría para un sistema monofásico de MBT."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "El interruptor debe ser siempre de tirador.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "El mecanismo de accionamiento no es un requisito de la MBT en sí."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-40",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Si una instalación MBTF se alimenta desde una red de 230 V a través de un autotransformador de 230/24 V, ¿qué riesgo grave existe?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Que el autotransformador consuma mucha energía.",
+            "isCorrect": false,
+            "explanation": "Son muy eficientes, ese no es el riesgo."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Que un fallo de aislamiento o una inversión de polaridad ponga 230 V en los bornes de 24 V.",
+            "isCorrect": true,
+            "explanation": "Al no haber separación galvánica, hay una conexión física directa con la red peligrosa. Fuente: Principios de MBTF."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Que el secundario no dé corriente continua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Un autotransformador siempre da alterna en la salida."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Ninguno, 24 V siempre son seguros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "24 V son seguros si están aislados; si tienen un potencial de 230V respecto a tierra, son letales."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-41",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cuál es el valor máximo de corriente de fuga admisible en un transformador de seguridad para MBTS según la norma UNE-EN 61558?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "30 mA.",
+            "isCorrect": false,
+            "explanation": "Es un valor enorme para una fuga interna de un transformador de seguridad."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "0,5 mA.",
+            "isCorrect": true,
+            "explanation": "Los límites de corriente de fuga en transformadores de seguridad son muy estrictos (del orden de microamperios o pocos miliamperios). Fuente: UNE-EN 61558."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "10 mA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Demasiado elevado para garantizar la categoría de seguridad."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No hay límite definido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Existen límites técnicos precisos en las normas de fabricación."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-42",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En la instalación de un sistema de llamadas de enfermería en un hospital (MBTS), ¿se pueden usar cables de par trenzado (UTP) para la potencia?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Sí, sin restricciones.",
+            "isCorrect": false,
+            "explanation": "Los cables UTP tienen un aislamiento muy fino no apto para potencia si no se calcula bien."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Sí, siempre que su aislamiento sea adecuado para la tensión y se cumpla la caída de tensión.",
+            "isCorrect": true,
+            "explanation": "Se deben respetar los límites de corriente del cable y su tensión de aislamiento nominal. Fuente: REBT."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "No, deben ser cables de 1,5 mm² como mínimo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No hay un mínimo de sección para circuitos de muy baja tensión que no sean de potencia."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Solo si son de categoría 6 o superior.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La categoría mide frecuencia de datos, no seguridad eléctrica de potencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-43",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué elementos de un circuito de MBTP pueden estar conectados a tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "Uno de los conductores activos del circuito secundario.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "Se hace para referenciar el sistema a un potencial común."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Las masas de los equipos receptores.",
+            "isCorrect": true,
+            "explanation": "Es una característica permitida en MBTP para seguridad funcional."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "answer": "El punto medio de una batería si el sistema es DC.",
+            "isCorrect": true,
+            "explanation": "Permite obtener sistemas de +/- tensión referenciados."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Cualquier parte, incluso sin aislamiento de protección.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La MBTP sigue requiriendo una fuente de aislamiento de protección frente a la red primaria."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-44",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Se instala una tira LED de 24 V DC en una estantería metálica. Si la fuente es de clase II (doble aislamiento) y no hay conexión a tierra del secundario, ¿qué tipo de instalación es?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "MBTP.",
+            "isCorrect": false,
+            "explanation": "No hay conexión a tierra intencionada."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "MBTS.",
+            "isCorrect": true,
+            "explanation": "Cumple los requisitos de fuente de seguridad, baja tensión y aislamiento de tierra. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "MBTF.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "La fuente tiene aislamiento de protección (Clase II)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Instalación de alta tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Totalmente incorrecto."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-45",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Por qué no se permite el uso de potenciómetros para obtener tensiones de seguridad de la red?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Porque se calientan mucho.",
+            "isCorrect": false,
+            "explanation": "Es un problema de eficiencia, no el motivo de seguridad principal."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Porque si el cursor falla o hay una sobretensión, la tensión de red aparece en la salida.",
+            "isCorrect": true,
+            "explanation": "No ofrecen ninguna barrera física ni galvánica contra la alta tensión de la red. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Porque solo funcionan en corriente continua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los potenciómetros funcionan tanto en alterna como en continua."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Porque son muy caros comparados con un transformador.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Al contrario, suelen ser más baratos, pero inseguros."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-46",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "En un aula de informática, los equipos se alimentan a través de fuentes conmutadas que dan 19 V DC. Si las masas de los portátiles están unidas a la tierra del edificio a través del cargador, ¿qué sistema es?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "MBTS.",
+            "isCorrect": false,
+            "explanation": "La conexión a tierra de las masas invalida la categoría MBTS."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "MBTP.",
+            "isCorrect": true,
+            "explanation": "Es una muy baja tensión con aislamiento de protección pero referenciada a tierra. Fuente: ITC-BT-36."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "MBTF.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Los cargadores modernos suelen tener aislamiento de protección (aunque lleven tierra funcional)."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "Baja tensión estándar (230 V).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "La salida del cargador es muy baja tensión."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-47",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "multiple",
+        "question": "¿Qué ventajas ofrece la MBTS sobre otros sistemas de protección?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "No requiere vigilancia del aislamiento ni diferenciales.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "explanation": "La seguridad es intrínseca por la baja tensión y la flotación del sistema."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Protege tanto contra contactos directos como indirectos.",
+            "isCorrect": true,
+            "explanation": "Es la medida de seguridad más completa del reglamento."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Permite usar cables más finos sin pérdida de potencia.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Al contrario, a menor tensión se requiere más sección para la misma potencia por la caída de tensión."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "answer": "Es ideal para ambientes extremadamente peligrosos (piscinas, calderas).",
+            "isCorrect": true,
+            "explanation": "Donde otras medidas pueden fallar, la MBTS ofrece la máxima garantía."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-48",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para un circuito de 12 V AC en un jardín, ¿qué caída de tensión máxima se recomienda para asegurar el correcto funcionamiento de las lámparas?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "3 %.",
+            "isCorrect": false,
+            "explanation": "Es el límite para viviendas, pero en 12V el 3% es solo 0,36V, muy difícil de cumplir."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Se debe calcular para que la tensión en la lámpara sea la nominal +/- 5%.",
+            "isCorrect": true,
+            "explanation": "En MBT la caída de tensión es el mayor reto de diseño y debe limitarse para no perder luminosidad. Fuente: Guías de diseño."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "20 %.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "Provocaría que las lámparas apenas iluminaran y se verían muy amarillentas."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No importa la caída de tensión en MBT.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Es crítica por las altas corrientes involucradas para la misma potencia."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-49",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "¿Cómo debe señalizarse un cuadro eléctrico que contiene únicamente circuitos de Muy Baja Tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Con el símbolo de peligro de muerte convencional.",
+            "isCorrect": false,
+            "explanation": "Podría ser confuso ya que la MBT es intrínsecamente segura."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "answer": "Indicando claramente el valor de la tensión (ej. '24 V AC') y que es MBT.",
+            "isCorrect": true,
+            "explanation": "La señalización clara evita que futuros técnicos intenten conectar cargas de 230 V. Fuente: REBT (Criterios de rotulación)."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "Pintando el cuadro de color verde.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "El color verde suele reservarse para servicios de emergencia o primeros auxilios."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "No requiere ninguna señalización.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Todo cuadro debe estar identificado."
           }
-        ],
-        "type": "simple"
+        ]
       },
       {
         "id": "ITC-BT-36-50",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
+        "type": "simple",
+        "question": "Para terminar, ¿qué documento debe verificar el instalador de la fuente de alimentación de seguridad (transformador)?",
         "options": [
           {
             "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
+            "answer": "Su peso y dimensiones.",
+            "isCorrect": false,
+            "explanation": "Solo es relevante para el montaje mecánico."
           },
           {
             "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-51",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
+            "answer": "La declaración de conformidad CE y cumplimiento de la norma UNE-EN 61558.",
             "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
+            "explanation": "Garantiza que el fabricante ha seguido los estándares de seguridad requeridos por el REBT. Fuente: Marcado CE."
           },
           {
             "id": 3,
-            "answer": "No requiere protecciones especiales.",
+            "answer": "El color de la caja de embalaje.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
+            "explanation": "No tiene ninguna validez técnica."
           },
           {
             "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
+            "answer": "La fecha de caducidad de los componentes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
+            "explanation": "Los componentes eléctricos no tienen fecha de caducidad como los alimentos."
           }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-52",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-53",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-54",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-55",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-56",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-57",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-58",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-59",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-60",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-61",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-62",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-63",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-64",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-65",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-66",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-67",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-68",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-69",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-70",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-71",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-72",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-73",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-74",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-75",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-76",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-77",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-78",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-79",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-80",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-81",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-82",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-83",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-84",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-85",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-86",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-87",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-88",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-89",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-90",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-91",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-92",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-93",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-94",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-95",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-96",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-97",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-98",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-99",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-36-100",
-        "question": "Sobre la ITC-BT-36, ¿cuál de los siguientes requisitos de seguridad es obligatorio?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Requisito técnico específico A de la ITC-BT-36.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-36 exige esta medida para garantizar la protección en estos emplazamientos específicos."
-          },
-          {
-            "id": 2,
-            "answer": "Uso de protecciones estándar de viviendas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La ITC-BT-36 impone requisitos más estrictos que los de una vivienda debido a las condiciones ambientales severas."
-          },
-          {
-            "id": 3,
-            "answer": "No requiere protecciones especiales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Precisamente por el riesgo elevado de estos locales, el REBT exige medidas adicionales en esta instrucción."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier material es válido si es barato.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Solo se pueden utilizar materiales que cumplan con los grados de protección IP e IK especificados en la norma."
-          }
-        ],
-        "type": "simple"
+        ]
       }
     ]
   }
