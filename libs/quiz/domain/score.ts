@@ -23,7 +23,6 @@ export class QuizScore {
 
     const result = gain - loss;
     
-    // Ensures rounding to 2 decimal places to avoid floating point issues
     return Number(result.toFixed(2));
   }
 

@@ -62,7 +62,7 @@ describe('QuizStore - Scoring Integration', () => {
     ];
 
     const store = useQuizStore.getState();
-    store.initialize(questions, { userId: 'u', mode: 'standard', topics: ['all'], questionCount: 1 });
+    store.initialize(questions, { userId: 'u', mode: 'standard', topics: ['ITC-BT-01'], questionCount: 1 });
 
     store.toggleOption(questions[0].options[0]); // Solo 1 de 2 correctas
     await store.nextQuestion();

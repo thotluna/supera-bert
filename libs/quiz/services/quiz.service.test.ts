@@ -1,32 +1,34 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
 import { QuizService } from './quiz.service';
-import { QuizScore } from '../domain/score';
 import { QuestionRepository } from '../repository/question-repository';
 import { QuizzesRepository } from '../repository/quizzes-repository';
 import { AnswersRepository } from '../repository/answers-repository';
+import { ResponseQuestion, ConfigQuiz } from '../models';
 
 describe('QuizService Scoring Integration', () => {
   let service: QuizService;
-  let mockQuestionsRepo: any;
-  let mockQuizzesRepo: any;
-  let mockAnswersRepo: any;
+  let mockQuestionsRepo: QuestionRepository;
+  let mockQuizzesRepo: QuizzesRepository;
+  let mockAnswersRepo: AnswersRepository;
 
   beforeEach(() => {
     mockQuestionsRepo = {
       getCorrectAnswer: vi.fn(),
-    };
+    } as unknown as QuestionRepository;
+    
     mockQuizzesRepo = {
       create: vi.fn(),
       finish: vi.fn(),
-    };
+    } as unknown as QuizzesRepository;
+    
     mockAnswersRepo = {
       createMany: vi.fn(),
-    };
+    } as unknown as AnswersRepository;
 
     service = new QuizService(
-      mockQuestionsRepo as any,
-      mockQuizzesRepo as any,
-      mockAnswersRepo as any
+      mockQuestionsRepo,
+      mockQuizzesRepo,
+      mockAnswersRepo
     );
   });
 
@@ -40,10 +42,10 @@ describe('QuizService Scoring Integration', () => {
       ],
     };
 
-    mockQuestionsRepo.getCorrectAnswer.mockResolvedValue([mockQuestion]);
-    mockQuizzesRepo.create.mockResolvedValue({ data: { id: 'quiz-123' }, error: null });
-    mockAnswersRepo.createMany.mockResolvedValue({ data: [], error: null });
-    mockQuizzesRepo.finish.mockResolvedValue({ data: {}, error: null });
+    (mockQuestionsRepo.getCorrectAnswer as Mock).mockResolvedValue([mockQuestion]);
+    (mockQuizzesRepo.create as Mock).mockResolvedValue({ data: { id: 'quiz-123' }, error: null });
+    (mockAnswersRepo.createMany as Mock).mockResolvedValue({ data: [], error: null });
+    (mockQuizzesRepo.finish as Mock).mockResolvedValue({ data: {}, error: null });
 
     const sessionData = {
       answers: [
@@ -52,13 +54,13 @@ describe('QuizService Scoring Integration', () => {
           selectedOptions: [{ id: 1 }, { id: 3 }], // 1 correct (of 2), 1 incorrect (of 1)
           time: 1000,
         },
-      ] as any,
+      ] as unknown as ResponseQuestion[],
       config: {
         userId: 'u1',
         mode: 'standard',
         topics: ['ITC-BT-01'],
         questionCount: 1,
-      } as any,
+      } as unknown as ConfigQuiz,
       score: 0,
     };
 
