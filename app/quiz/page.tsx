@@ -56,9 +56,9 @@ export default async function QuizPage({ searchParams }: QuizPageProps): Promise
       <main className="w-full md:max-w-5xl md:max-h-[98vh] flex flex-col p-4 md:p-6 bg-subface/40 backdrop-blur-xl border border-foreground/10 rounded-2xl md:rounded-3xl shadow-2xl overflow-y-auto md:overflow-hidden">
         <Header />
 
-        <section className="flex flex-col gap-1 mt-4">
+        <section className="flex-1 min-h-0 overflow-y-auto custom-scrollbar flex flex-col gap-1 mt-4 pr-2">
           <QuestionsText />
-          <div className="space-y-2">
+          <div className="space-y-2 mt-auto">
             <SimpleChoiceAnswers />
             <MultipleChoiceAnswer />
           </div>
