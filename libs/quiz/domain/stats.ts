@@ -29,6 +29,7 @@ export interface TopicStats {
   averagePoints: number;
   masteryScore: number;
   accuracyScore: number;
+  datasetSize: number;
 }
 
 export interface DailyEvolution {

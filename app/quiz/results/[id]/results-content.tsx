@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useState, JSX } from "react";
 import { ReviewItem } from "../components/review-item";
 import { ResultsSummary } from "../components/results-summary";
+import { RadarChart } from "@/app/components/radar-chart";
 
 interface ResultsContentProps {
   quiz: Quiz;
@@ -23,15 +24,43 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
   const percentage = Math.round((quiz.totalScore / (quiz.totalQuestions * 1)) * 100) || 0; 
   const scorePercentage = Math.min(100, Math.max(0, percentage));
 
+  // Agrupamos resultados por tema para el Radar
+  const topicMap = new Map<string, { total: number; correct: number }>();
+  
+  questions.forEach(q => {
+    const itc = q.itc || "ITC-BT-GEN";
+    const answer = answers.find(a => a.questionId === q.id);
+    const isCorrect = answer?.isCorrect || false;
+
+    const current = topicMap.get(itc) || { total: 0, correct: 0 };
+    topicMap.set(itc, {
+      total: current.total + 1,
+      correct: current.correct + (isCorrect ? 1 : 0),
+    });
+  });
+
+  const topicData = Array.from(topicMap.entries()).map(([itcCode, stats]) => ({
+    itcCode,
+    totalQuestions: stats.total,
+    correctAnswers: stats.correct,
+    datasetSize: stats.total, // En resultados, el "universo" es el quiz mismo
+  }));
+
   return (
     <div className="flex flex-col gap-12 animate-in fade-in duration-1000">
-      {/* Header Summary */}
-      <ResultsSummary 
-        quiz={quiz}
-        correctCount={correctAnswers}
-        incorrectCount={incorrectAnswers}
-        percentage={scorePercentage}
-      />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+        <div className="lg:col-span-2">
+          <ResultsSummary 
+            quiz={quiz}
+            correctCount={correctAnswers}
+            incorrectCount={incorrectAnswers}
+            percentage={scorePercentage}
+          />
+        </div>
+        <div className="lg:col-span-1">
+          <RadarChart data={topicData} mode="results" />
+        </div>
+      </div>
 
       {/* Detailed Review */}
       <section className="flex flex-col gap-6">

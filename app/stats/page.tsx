@@ -2,7 +2,7 @@ import { getUserStatsAction } from "@/libs/quiz/actions/get-user-stats";
 import { MetricCard } from "./components/metric-card";
 import { TopicPerformance } from "./components/topic-performance";
 import { EvolutionChart } from "./components/evolution-chart";
-import { RadarChart } from "./components/radar-chart";
+import { RadarChart } from "@/app/components/radar-chart";
 import { StudyRecommendations } from "./components/study-recommendations";
 import { Trophy, Target, Clock, Zap, BookOpen, ArrowLeft, Timer, Coffee } from "lucide-react";
 import Link from "next/link";
@@ -107,7 +107,7 @@ export default async function StatsPage(): Promise<JSX.Element> {
           <EvolutionChart data={evolution} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <RadarChart stats={byTopic} />
+            <RadarChart data={byTopic} />
             <StudyRecommendations recommendations={recommendations} />
           </div>
         </div>

@@ -49,35 +49,50 @@ export class StatsService {
     const allTopics = await this.questionRepository.getTopicsAvailability();
     const availableITCs = allTopics.filter(t => t.available);
 
-    // Aggregate by Topic (Pre-populate with all available to ensure they show in Radar)
-    const topicMap = new Map<string, { total: number; correct: number; points: number }>();
-    availableITCs.forEach(topic => {
-      topicMap.set(topic.name, { total: 0, correct: 0, points: 0 });
+    // 1. Agrupamos por Pregunta Única (Estado de Conocimiento Actual)
+    // Para evitar el castigo de la media, solo nos importa el ÚLTIMO intento de cada pregunta.
+    const latestAnswersMap = new Map<string, { isCorrect: boolean; itcCode: string; points: number }>();
+    
+    // Asumimos que answers viene ordenado por fecha (o lo ordenamos para estar seguros)
+    [...answers].sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()).forEach((a) => {
+      latestAnswersMap.set(a.questionId, { 
+        isCorrect: a.isCorrect, 
+        itcCode: a.itcCode, 
+        points: a.points 
+      });
     });
 
-    answers.forEach((a) => {
-      const current = topicMap.get(a.itcCode);
+    // 2. Agregamos por Tema basado en estados únicos
+    const topicMap = new Map<string, { uniqueSeen: number; uniqueCorrect: number; totalPoints: number }>();
+    availableITCs.forEach(topic => {
+      topicMap.set(topic.name, { uniqueSeen: 0, uniqueCorrect: 0, totalPoints: 0 });
+    });
+
+    latestAnswersMap.forEach((val) => {
+      const current = topicMap.get(val.itcCode);
       if (current) {
-        topicMap.set(a.itcCode, {
-          total: current.total + 1,
-          correct: current.correct + (a.isCorrect ? 1 : 0),
-          points: current.points + a.points,
+        topicMap.set(val.itcCode, {
+          uniqueSeen: current.uniqueSeen + 1,
+          uniqueCorrect: current.uniqueCorrect + (val.isCorrect ? 1 : 0),
+          totalPoints: current.totalPoints + val.points,
         });
       }
     });
 
     const byTopic: TopicStats[] = Array.from(topicMap.entries()).map(([itcCode, stats]) => {
-      const accuracy = stats.total > 0 ? (stats.correct / stats.total) * 100 : 0;
-      // Umbral de confianza: 20 preguntas para tener 100% de confianza en el dato
-      const confidenceThreshold = 20;
-      const confidenceFactor = Math.min(1, stats.total / confidenceThreshold);
+      // Para este MVP, simulamos el datasetSize. 
+      // Lo ideal sería obtenerlo del repository (ej: 50 preguntas por ITC de media)
+      const datasetSize = 50; 
+      
+      const accuracy = stats.uniqueSeen > 0 ? (stats.uniqueCorrect / stats.uniqueSeen) * 100 : 0;
       
       return {
         itcCode,
-        totalQuestions: stats.total,
-        correctAnswers: stats.correct,
-        averagePoints: stats.total > 0 ? Number((stats.points / stats.total).toFixed(2)) : 0,
-        masteryScore: Number((accuracy * confidenceFactor).toFixed(2)),
+        totalQuestions: stats.uniqueSeen,     // COBERTURA (Verde)
+        correctAnswers: stats.uniqueCorrect, // DOMINIO (Azul)
+        datasetSize,                         // UNIVERSO (Arista)
+        averagePoints: stats.uniqueSeen > 0 ? Number((stats.totalPoints / stats.uniqueSeen).toFixed(2)) : 0,
+        masteryScore: Number(((stats.uniqueCorrect / datasetSize) * 100).toFixed(2)),
         accuracyScore: Number(accuracy.toFixed(2)),
       };
     });
