@@ -3,17 +3,17 @@ import { QuizTopicsView } from '../app/components/config/topics-quiz/quiz-topics
 import { ITCTopic, TopicOption } from '@/libs/quiz/models';
 
 const mockTopics: TopicOption[] = [
-  { name: 'ITC-BT-01' as ITCTopic, available: true },
-  { name: 'ITC-BT-02' as ITCTopic, available: true },
-  { name: 'ITC-BT-03' as ITCTopic, available: false },
-  { name: 'ITC-BT-04' as ITCTopic, available: true },
-  { name: 'ITC-BT-05' as ITCTopic, available: true },
-  { name: 'ITC-BT-06' as ITCTopic, available: true },
-  { name: 'ITC-BT-07' as ITCTopic, available: false },
-  { name: 'ITC-BT-08' as ITCTopic, available: true },
-  { name: 'ITC-BT-09' as ITCTopic, available: true },
-  { name: 'ITC-BT-10' as ITCTopic, available: true },
-  { name: 'ITC-BT-11' as ITCTopic, available: true },
+  { name: 'ITC-BT-01' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-02' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-03' as ITCTopic, available: false, totalQuestions: 50 },
+  { name: 'ITC-BT-04' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-05' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-06' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-07' as ITCTopic, available: false, totalQuestions: 50 },
+  { name: 'ITC-BT-08' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-09' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-10' as ITCTopic, available: true, totalQuestions: 50 },
+  { name: 'ITC-BT-11' as ITCTopic, available: true, totalQuestions: 50 },
 ];
 
 const meta: Meta<typeof QuizTopicsView> = {

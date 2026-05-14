@@ -81,6 +81,6 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    return [{ name: "ITC-BT-01" as ITCTopic, available: true }];
+    return [{ name: "ITC-BT-01" as ITCTopic, available: true, totalQuestions: 50 }];
   }
 }

@@ -66,9 +66,11 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
+    const topicData = await this.loadFromImports();
     return itcManifest.map(itcName => ({
       name: itcName as ITCTopic,
-      available: true
+      available: true,
+      totalQuestions: topicData[itcName]?.length || 0
     })).sort((a, b) => a.name.localeCompare(b.name));
   }
 

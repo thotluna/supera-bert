@@ -8,6 +8,7 @@ export type ITCTopic = `ITC-BT-${Exclude<`${Tens}${Units}`, '00' | `4${4 | 5 | 6
 export interface TopicOption {
   name: ITCTopic;
   available: boolean;
+  totalQuestions: number;
 }
 
 export interface Option {

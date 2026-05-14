@@ -13,9 +13,10 @@ export class StatsService {
   ) {}
 
   async getUserStats(userId: string): Promise<DomainResponse<UserStats>> {
-    const [quizzesResult, answersResult] = await Promise.all([
+    const [quizzesResult, answersResult, metricsResult] = await Promise.all([
       this.quizzesRepository.getByUserId(userId),
       this.answersRepository.getByUserId(userId),
+      this.answersRepository.getUserTopicMetrics(userId),
     ]);
 
     if (quizzesResult.error || !quizzesResult.data) {
@@ -26,8 +27,13 @@ export class StatsService {
       return { data: null, error: answersResult.error || new Error("Failed to fetch answers") };
     }
 
+    if (metricsResult.error || !metricsResult.data) {
+      return { data: null, error: metricsResult.error || new Error("Failed to fetch metrics") };
+    }
+
     const quizzes = quizzesResult.data;
     const answers = answersResult.data;
+    const metrics = metricsResult.data;
 
     const completedQuizzes = quizzes.filter((q) => q.isCompleted);
     const totalScore = completedQuizzes.reduce((acc, q) => acc + q.totalScore, 0);
@@ -49,34 +55,31 @@ export class StatsService {
     const allTopics = await this.questionRepository.getTopicsAvailability();
     const availableITCs = allTopics.filter(t => t.available);
 
-    const latestAnswersMap = new Map<string, { isCorrect: boolean; itcCode: string; points: number }>();
-    
-    [...answers].sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()).forEach((a) => {
-      latestAnswersMap.set(a.questionId, { 
-        isCorrect: a.isCorrect, 
-        itcCode: a.itcCode, 
-        points: a.points 
+    const topicMap = new Map<string, { uniqueSeen: number; uniqueCorrect: number; totalPoints: number; size: number }>();
+    availableITCs.forEach(topic => {
+      topicMap.set(topic.name.trim().toUpperCase(), { 
+        uniqueSeen: 0, 
+        uniqueCorrect: 0, 
+        totalPoints: 0,
+        size: topic.totalQuestions 
       });
     });
 
-    const topicMap = new Map<string, { uniqueSeen: number; uniqueCorrect: number; totalPoints: number }>();
-    availableITCs.forEach(topic => {
-      topicMap.set(topic.name, { uniqueSeen: 0, uniqueCorrect: 0, totalPoints: 0 });
-    });
-
-    latestAnswersMap.forEach((val) => {
-      const current = topicMap.get(val.itcCode);
+    metrics.forEach((m) => {
+      const normalizedCode = m.itcCode.trim().toUpperCase();
+      const current = topicMap.get(normalizedCode);
       if (current) {
-        topicMap.set(val.itcCode, {
-          uniqueSeen: current.uniqueSeen + 1,
-          uniqueCorrect: current.uniqueCorrect + (val.isCorrect ? 1 : 0),
-          totalPoints: current.totalPoints + val.points,
+        topicMap.set(normalizedCode, {
+          ...current,
+          uniqueSeen: m.uniqueSeen,
+          uniqueCorrect: m.uniqueCorrect,
+          totalPoints: m.totalPoints,
         });
       }
     });
 
     const byTopic: TopicStats[] = Array.from(topicMap.entries()).map(([itcCode, stats]) => {
-      const datasetSize = 50; 
+      const datasetSize = stats.size || 50; 
       const accuracy = stats.uniqueSeen > 0 ? (stats.uniqueCorrect / stats.uniqueSeen) * 100 : 0;
       
       return {

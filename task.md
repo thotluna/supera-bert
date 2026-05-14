@@ -33,6 +33,10 @@
 - [x] Optimización de Estadísticas: Eliminación del castigo de la media y transición al modelo de "Estado de Conocimiento" (último intento único).
 - [x] Dinamización de Resultados: Zoom automático sobre temas preguntados y visibilidad de brechas de conocimiento (segmentos vacíos).
 
+## Motor de Estadísticas y Rendimiento
+- [x] Optimización del Motor de Estadísticas: Migración de agregación en memoria a función RPC de Postgres (`get_user_topic_stats`) para manejo eficiente de grandes volúmenes de datos.
+- [x] Refactorización de Capas de Datos: Implementación de tipado estricto en `AnswersRepository` y eliminación de tipos `any` en la comunicación con Supabase.
+
 ## Dominio de Puntaje (Motor de Calificación)
 - [x] Creación del modelo de dominio `QuizScore`: Centralización de la lógica de negocio y reglas de calificación.
 - [x] Implementación de Penalización Prorrateada: Lógica de puntos parciales y penalización máxima de -0.20 por pregunta.
@@ -44,3 +48,4 @@
 - [x] Reparación del Motor de Selección: Garantía de cumplimiento de cuota (50/100 preguntas) mediante priorización de pools y corrección de persistencia en `QuizService`.
 - [x] Refactorización del Dominio de Puntaje: Diferenciación de penalizaciones entre preguntas 'simple' (fijo -0.20) y 'multiple' (prorrateado) para fidelidad reglamentaria.
 - [x] Expansión Masiva ITC-BT-11: Creación de 100 preguntas situacionales integrando requisitos de ITC-BT-06 (Redes Aéreas) e ITC-BT-07 (Redes Subterráneas) aplicados a acometidas.
+- [x] Remediación técnica y pedagógica FINAL de ITC-BT-12: Alineación estricta con los 4 esquemas de enlace y los 18 componentes normalizados de la 9ª Edición del REBT (140 preguntas: 100 simples, 40 múltiples).
