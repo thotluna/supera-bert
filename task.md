@@ -32,3 +32,10 @@
 - [x] Refactorización del RadarChart: Implementación del modelo de Cobertura vs Maestría (Universo Dataset).
 - [x] Optimización de Estadísticas: Eliminación del castigo de la media y transición al modelo de "Estado de Conocimiento" (último intento único).
 - [x] Dinamización de Resultados: Zoom automático sobre temas preguntados y visibilidad de brechas de conocimiento (segmentos vacíos).
+
+## Dominio de Puntaje (Motor de Calificación)
+- [x] Creación del modelo de dominio `QuizScore`: Centralización de la lógica de negocio y reglas de calificación.
+- [x] Implementación de Penalización Prorrateada: Lógica de puntos parciales y penalización máxima de -0.20 por pregunta.
+- [x] Unificación de Umbrales: Establecimiento del límite de aprobación en >80% de los puntos totales del quiz.
+- [x] Refactorización de Servicios: Migración de `QuizService` y `StatsService` al nuevo modelo de dominio.
+- [x] Sincronización de UI/Store: Actualización de `quiz-store` y componentes de resultados para reflejar las nuevas reglas de éxito.

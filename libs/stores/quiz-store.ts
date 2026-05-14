@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import { Question, ResponseQuestion, ConfigQuiz, Option } from '../quiz/models';
 import { saveAndRedirect } from '../quiz/actions/save-and-redirect';
 import { shuffle } from '../quiz/utils/shuffle';
+import { QuizScore } from '../quiz/domain/score';
 import { PauseReason } from '../quiz/models';
 
 interface QuizState {
@@ -192,20 +193,21 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
         // Local Validation Logic
         const totalCorrectInQuestion = currentQuestion.options.filter(o => o.isCorrect).length;
+        const totalIncorrectInQuestion = currentQuestion.options.length - totalCorrectInQuestion;
         const selectedIds = currentSelection.map(o => o.id);
         const validatedOptions = currentQuestion.options.filter(opt => selectedIds.includes(opt.id));
 
-        let points = 0;
         const correctSelected = validatedOptions.filter(o => o.isCorrect).length;
         const incorrectSelected = validatedOptions.filter(o => !o.isCorrect).length;
 
-        if (totalCorrectInQuestion > 0) {
-          points += (correctSelected * (1 / totalCorrectInQuestion));
-        }
-        points -= (incorrectSelected * 0.20);
+        const finalPoints = QuizScore.calculateQuestionPoints(
+          totalCorrectInQuestion,
+          totalIncorrectInQuestion,
+          correctSelected,
+          incorrectSelected
+        );
 
         const isCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;
-        const finalPoints = Number(points.toFixed(2));
 
         const timeTaken = Date.now() - startTime;
 

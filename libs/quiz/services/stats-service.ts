@@ -3,6 +3,7 @@ import { UserStats, TopicStats, DailyEvolution, RecommendedTopic } from "../doma
 import { QuizzesRepository } from "../repository/quizzes-repository";
 import { AnswersRepository } from "../repository/answers-repository";
 import { QuestionRepository } from "../repository/question-repository";
+import { QuizScore } from "../domain/score";
 
 export class StatsService {
   constructor(
@@ -114,7 +115,7 @@ export class StatsService {
       .map((t) => ({
         itcCode: t.itcCode,
         questionsAnswered: t.totalQuestions,
-        status: t.accuracyScore < 40 ? 'critical' : 'ignored',
+        status: QuizScore.getTopicStatus(t.accuracyScore),
       }));
 
     return {
