@@ -3074,7 +3074,7 @@
       },
       {
         "id": "REE-GENERAL-100",
-        "question": "¿Quién es el responsable legal de garantizar la ejecución del plan de mantenimiento?",
+        "question": "¿Quién es el responsable legal de garantizar la ejecución del plan de mantenimiento de las instalaciones de alumbrado exterior?",
         "options": [
           {
             "id": 1,
@@ -3099,6 +3099,998 @@
             "answer": "El Ministerio de Industria",
             "isCorrect": false,
             "explanation": "Esta opción no es correcta según los criterios técnicos del REE."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-101",
+        "question": "¿Cómo se define el flujo luminoso?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Potencia emitida por una fuente en forma de luz visible",
+            "isCorrect": true,
+            "explanation": "El flujo luminoso representa la potencia de luz que una fuente emite en todas las direcciones, evaluada por el ojo humano."
+          },
+          {
+            "id": 2,
+            "answer": "Cantidad de luz que incide sobre una superficie",
+            "isCorrect": false,
+            "explanation": "Esta es la definición de iluminancia."
+          },
+          {
+            "id": 3,
+            "answer": "Luz que refleja una superficie y llega al observador",
+            "isCorrect": false,
+            "explanation": "Esta es la definición de luminancia."
+          },
+          {
+            "id": 4,
+            "answer": "Flujo luminoso emitido en una dirección angular concreta",
+            "isCorrect": false,
+            "explanation": "Esta es la definición de intensidad luminosa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-102",
+        "question": "¿En qué unidad se mide el flujo luminoso?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Candela (cd)",
+            "isCorrect": false,
+            "explanation": "La candela es la unidad de intensidad luminosa."
+          },
+          {
+            "id": 2,
+            "answer": "Lux (lx)",
+            "isCorrect": false,
+            "explanation": "El lux es la unidad de iluminancia."
+          },
+          {
+            "id": 3,
+            "answer": "Lumen (lm)",
+            "isCorrect": true,
+            "explanation": "El lumen es la unidad del Sistema Internacional para el flujo luminoso."
+          },
+          {
+            "id": 4,
+            "answer": "Vatio (W)",
+            "isCorrect": false,
+            "explanation": "El vatio mide potencia eléctrica o radiante, no flujo luminoso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-103",
+        "question": "¿Qué concepto define el flujo luminoso emitido en una dirección angular concreta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Luminancia",
+            "isCorrect": false,
+            "explanation": "La luminancia depende de la superficie y el observador."
+          },
+          {
+            "id": 2,
+            "answer": "Iluminancia",
+            "isCorrect": false,
+            "explanation": "La iluminancia es flujo por unidad de superficie."
+          },
+          {
+            "id": 3,
+            "answer": "Intensidad luminosa",
+            "isCorrect": true,
+            "explanation": "La intensidad luminosa cuantifica la luz emitida por una fuente puntual en una dirección determinada."
+          },
+          {
+            "id": 4,
+            "answer": "Eficacia luminosa",
+            "isCorrect": false,
+            "explanation": "La eficacia es la relación lm/W."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-104",
+        "question": "¿Cuál es la unidad de medida de la intensidad luminosa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Candela (cd)",
+            "isCorrect": true,
+            "explanation": "La candela es la unidad base del SI para la intensidad luminosa."
+          },
+          {
+            "id": 2,
+            "answer": "Lumen (lm)",
+            "isCorrect": false,
+            "explanation": "El lumen mide el flujo total."
+          },
+          {
+            "id": 3,
+            "answer": "Candela por metro cuadrado (cd/m²)",
+            "isCorrect": false,
+            "explanation": "Esta es la unidad de luminancia."
+          },
+          {
+            "id": 4,
+            "answer": "Lux (lx)",
+            "isCorrect": false,
+            "explanation": "El lux mide la iluminancia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-105",
+        "question": "¿Cómo se define la iluminancia (E)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cantidad de luz que incide sobre una superficie",
+            "isCorrect": true,
+            "explanation": "La iluminancia puede ser horizontal o vertical y se evalúa como media o mínima sobre el plano de trabajo."
+          },
+          {
+            "id": 2,
+            "answer": "Luz que refleja una superficie y llega al ojo",
+            "isCorrect": false,
+            "explanation": "Esto es luminancia."
+          },
+          {
+            "id": 3,
+            "answer": "Potencia emitida por la lámpara",
+            "isCorrect": false,
+            "explanation": "Esto es flujo luminoso."
+          },
+          {
+            "id": 4,
+            "answer": "Relación entre flujo y potencia eléctrica",
+            "isCorrect": false,
+            "explanation": "Esto es eficacia luminosa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-106",
+        "question": "¿En qué unidades se mide la iluminancia (E)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lúmenes (lm)",
+            "isCorrect": false,
+            "explanation": "El lumen mide el flujo luminoso."
+          },
+          {
+            "id": 2,
+            "answer": "Lux (lx)",
+            "isCorrect": true,
+            "explanation": "Un lux equivale a un lumen por metro cuadrado (lm/m²)."
+          },
+          {
+            "id": 3,
+            "answer": "Candelas (cd)",
+            "isCorrect": false,
+            "explanation": "La candela mide intensidad."
+          },
+          {
+            "id": 4,
+            "answer": "Candelas por metro cuadrado (cd/m²)",
+            "isCorrect": false,
+            "explanation": "Esto mide luminancia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-107",
+        "question": "¿Qué concepto define la luz que refleja una superficie y llega al ojo del observador?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Iluminancia",
+            "isCorrect": false,
+            "explanation": "La iluminancia es la luz incidente, no la reflejada."
+          },
+          {
+            "id": 2,
+            "answer": "Luminancia (L)",
+            "isCorrect": true,
+            "explanation": "La luminancia es el concepto clave para definir cómo de brillante vemos, por ejemplo, el asfalto de una calzada."
+          },
+          {
+            "id": 3,
+            "answer": "Intensidad luminosa",
+            "isCorrect": false,
+            "explanation": "La intensidad es propia de la fuente."
+          },
+          {
+            "id": 4,
+            "answer": "Contraste",
+            "isCorrect": false,
+            "explanation": "El contraste es una relación entre luminancias."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-108",
+        "question": "¿Cuál es la unidad de medida de la luminancia (L)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lux (lx)",
+            "isCorrect": false,
+            "explanation": "Mide iluminancia."
+          },
+          {
+            "id": 2,
+            "answer": "Lúmenes por metro cuadrado",
+            "isCorrect": false,
+            "explanation": "Esto es equivalente al lux (iluminancia)."
+          },
+          {
+            "id": 3,
+            "answer": "Candelas por metro cuadrado (cd/m²)",
+            "isCorrect": true,
+            "explanation": "Es la intensidad luminosa por unidad de superficie proyectada."
+          },
+          {
+            "id": 4,
+            "answer": "Candelas (cd)",
+            "isCorrect": false,
+            "explanation": "Mide intensidad luminosa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-109",
+        "question": "¿Qué define la eficacia luminosa de una lámpara?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La relación entre la luz que emite una lámpara y la potencia eléctrica que consume",
+            "isCorrect": true,
+            "explanation": "La eficacia mide el rendimiento de la transformación de energía eléctrica en luz visible."
+          },
+          {
+            "id": 2,
+            "answer": "El porcentaje de flujo que sale de la luminaria",
+            "isCorrect": false,
+            "explanation": "Eso corresponde al rendimiento de la luminaria."
+          },
+          {
+            "id": 3,
+            "answer": "La cantidad de luz que llega a la superficie",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la iluminancia."
+          },
+          {
+            "id": 4,
+            "answer": "El brillo que percibe el ojo humano",
+            "isCorrect": false,
+            "explanation": "Eso corresponde a la luminancia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-110",
+        "question": "¿En qué unidad se expresa la eficacia luminosa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lúmenes por metro cuadrado (lm/m²)",
+            "isCorrect": false,
+            "explanation": "Esta unidad equivale al lux."
+          },
+          {
+            "id": 2,
+            "answer": "Vatios por lumen (W/lm)",
+            "isCorrect": false,
+            "explanation": "La eficacia es flujo por unidad de potencia, no al revés."
+          },
+          {
+            "id": 3,
+            "answer": "Lúmenes por vatio (lm/W)",
+            "isCorrect": true,
+            "explanation": "Cuanto mayor sea este valor, más eficiente es la fuente de luz."
+          },
+          {
+            "id": 4,
+            "answer": "Lúmenes totales (lm)",
+            "isCorrect": false,
+            "explanation": "El lumen solo mide el flujo total."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-111",
+        "question": "¿Qué se entiende por rendimiento de la luminaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La relación lm/W del conjunto",
+            "isCorrect": false,
+            "explanation": "Eso es la eficacia del sistema."
+          },
+          {
+            "id": 2,
+            "answer": "El porcentaje del flujo luminoso de la lámpara que realmente logra salir del equipo",
+            "isCorrect": true,
+            "explanation": "Una parte del flujo se pierde por reflexiones y absorciones dentro de la propia luminaria."
+          },
+          {
+            "id": 3,
+            "answer": "La duración de la lámpara en horas",
+            "isCorrect": false,
+            "explanation": "Eso es la vida útil."
+          },
+          {
+            "id": 4,
+            "answer": "La luz emitida hacia el cielo",
+            "isCorrect": false,
+            "explanation": "Eso es el flujo hemisférico superior."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-112",
+        "question": "¿Cómo se expresa habitualmente el valor del rendimiento de una luminaria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En lúmenes",
+            "isCorrect": false,
+            "explanation": "El rendimiento es una relación adimensional."
+          },
+          {
+            "id": 2,
+            "answer": "En porcentaje (%)",
+            "isCorrect": true,
+            "explanation": "Representa la fracción de flujo útil que sale del equipo respecto al total emitido por la lámpara."
+          },
+          {
+            "id": 3,
+            "answer": "En candelas por vatio",
+            "isCorrect": false,
+            "explanation": "No es una unidad de rendimiento."
+          },
+          {
+            "id": 4,
+            "answer": "En factor de mantenimiento",
+            "isCorrect": false,
+            "explanation": "El factor de mantenimiento es otro parámetro distinto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-113",
+        "question": "¿Qué representa el Flujo Hemisférico Superior instalado (FHSinst)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La proporción de luz que la luminaria emite hacia arriba (hacia el cielo)",
+            "isCorrect": true,
+            "explanation": "Es un parámetro crítico para el control de la contaminación lumínica."
+          },
+          {
+            "id": 2,
+            "answer": "La luz que llega al suelo",
+            "isCorrect": false,
+            "explanation": "Eso es el flujo hemisférico inferior o luz útil."
+          },
+          {
+            "id": 3,
+            "answer": "La luz reflejada por las nubes",
+            "isCorrect": false,
+            "explanation": "El FHSinst mide la emisión directa del equipo, no la reflexión atmosférica."
+          },
+          {
+            "id": 4,
+            "answer": "El ángulo de apertura de la luminaria",
+            "isCorrect": false,
+            "explanation": "No mide ángulos, sino flujo relativo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-114",
+        "question": "¿Qué indica el parámetro Flujo Hemisférico Inferior (FHI)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La luz que se pierde por los laterales",
+            "isCorrect": false,
+            "explanation": "La luz lateral sigue considerándose hemisferio inferior si está por debajo de la horizontal."
+          },
+          {
+            "id": 2,
+            "answer": "La proporción de luz que la luminaria emite hacia abajo",
+            "isCorrect": true,
+            "explanation": "Es el flujo destinado a iluminar la calzada o el área objetivo."
+          },
+          {
+            "id": 3,
+            "answer": "El flujo que absorbe el pavimento",
+            "isCorrect": false,
+            "explanation": "El FHI es el flujo que sale de la luminaria hacia abajo."
+          },
+          {
+            "id": 4,
+            "answer": "La luz que llega a las fachadas de los edificios",
+            "isCorrect": false,
+            "explanation": "Esto se denomina luz intrusa o dispersa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-115",
+        "question": "¿Qué define el concepto de temperatura de color en una fuente de luz?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El calor que desprende la lámpara en funcionamiento",
+            "isCorrect": false,
+            "explanation": "La temperatura de color es una percepción visual, no térmica."
+          },
+          {
+            "id": 2,
+            "answer": "Si el tono de la luz es cálido, neutro o frío (luz día)",
+            "isCorrect": true,
+            "explanation": "Se basa en el color que emitiría un cuerpo negro calentado a una temperatura determinada."
+          },
+          {
+            "id": 3,
+            "answer": "La capacidad de la luz para reproducir los colores fielmente",
+            "isCorrect": false,
+            "explanation": "Eso corresponde al índice de reproducción cromática (IRC/Ra)."
+          },
+          {
+            "id": 4,
+            "answer": "La velocidad de encendido de la lámpara",
+            "isCorrect": false,
+            "explanation": "No tiene relación con el tiempo de arranque."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-116",
+        "question": "¿En qué unidad se mide la temperatura de color?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grados Celsius (°C)",
+            "isCorrect": false,
+            "explanation": "Los grados Celsius miden temperatura física, no de color."
+          },
+          {
+            "id": 2,
+            "answer": "Grados Kelvin (K)",
+            "isCorrect": true,
+            "explanation": "Un valor bajo (3000 K) indica luz cálida y uno alto (6000 K) indica luz fría."
+          },
+          {
+            "id": 3,
+            "answer": "Lúmenes por grado",
+            "isCorrect": false,
+            "explanation": "No es una unidad de medida luminotécnica."
+          },
+          {
+            "id": 4,
+            "answer": "Porcentaje de luz blanca",
+            "isCorrect": false,
+            "explanation": "La temperatura de color no se expresa en porcentaje."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-117",
+        "question": "¿Qué mide el índice de Rendimiento de Color (Ra)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La capacidad de la luz para reproducir fielmente los colores reales de los objetos",
+            "isCorrect": true,
+            "explanation": "Un Ra alto garantiza que los colores se perciban de forma natural bajo esa iluminación."
+          },
+          {
+            "id": 2,
+            "answer": "La intensidad de la luz blanca",
+            "isCorrect": false,
+            "explanation": "Eso se relaciona con el flujo o la temperatura de color."
+          },
+          {
+            "id": 3,
+            "answer": "La cantidad de sombras que proyecta la luminaria",
+            "isCorrect": false,
+            "explanation": "No tiene relación con la formación de sombras."
+          },
+          {
+            "id": 4,
+            "answer": "La potencia eléctrica de la lámpara",
+            "isCorrect": false,
+            "explanation": "Eso es potencia en vatios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-118",
+        "question": "¿Cuál es el valor máximo teórico del índice de Rendimiento de Color (Ra)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50",
+            "isCorrect": false,
+            "explanation": "Representa un rendimiento pobre de color."
+          },
+          {
+            "id": 2,
+            "answer": "100",
+            "isCorrect": true,
+            "explanation": "El valor 100 corresponde a una reproducción perfecta, similar a la luz natural o a un cuerpo negro."
+          },
+          {
+            "id": 3,
+            "answer": "500",
+            "isCorrect": false,
+            "explanation": "La escala del Ra es de 0 a 100."
+          },
+          {
+            "id": 4,
+            "answer": "0",
+            "isCorrect": false,
+            "explanation": "0 sería la ausencia total de capacidad de distinguir colores (monocromático)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-119",
+        "question": "¿Cómo se define el deslumbramiento perturbador o de velo en el ojo humano?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Luz que crea un 'velo' en la retina reduciendo la capacidad de ver contrastes",
+            "isCorrect": true,
+            "explanation": "Se produce por luz excesiva o mal dirigida que incide directamente en el ojo, dificultando la visión."
+          },
+          {
+            "id": 2,
+            "answer": "Aumento de la agudeza visual por exceso de luz",
+            "isCorrect": false,
+            "explanation": "El deslumbramiento siempre reduce la capacidad visual."
+          },
+          {
+            "id": 3,
+            "answer": "Luz que rebota en el asfalto mojado",
+            "isCorrect": false,
+            "explanation": "Eso es una causa posible, pero no la definición del efecto en el ojo."
+          },
+          {
+            "id": 4,
+            "answer": "Efecto de parpadeo de las lámparas",
+            "isCorrect": false,
+            "explanation": "Eso es flicker o parpadeo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-120",
+        "question": "¿Qué índices se utilizan habitualmente para evaluar el deslumbramiento en alumbrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ra y K",
+            "isCorrect": false,
+            "explanation": "Son color y temperatura."
+          },
+          {
+            "id": 2,
+            "answer": "TI (Incremento del Umbral) y GR (Índice de Deslumbramiento)",
+            "isCorrect": true,
+            "explanation": "El TI se usa en viales y el GR es común en áreas de trabajo o deportivas."
+          },
+          {
+            "id": 3,
+            "answer": "lx y cd/m²",
+            "isCorrect": false,
+            "explanation": "Son unidades de iluminancia y luminancia."
+          },
+          {
+            "id": 4,
+            "answer": "W y lm",
+            "isCorrect": false,
+            "explanation": "Son vatios y lúmenes."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-121",
+        "question": "¿Qué concepto define la diferencia de luminancia entre un objeto y el fondo sobre el que se recorta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uniformidad",
+            "isCorrect": false,
+            "explanation": "La uniformidad mide la igualdad de la luz en el área."
+          },
+          {
+            "id": 2,
+            "answer": "Contraste",
+            "isCorrect": true,
+            "explanation": "El contraste es lo que permite al ojo distinguir los objetos de su entorno."
+          },
+          {
+            "id": 3,
+            "answer": "Resplandor",
+            "isCorrect": false,
+            "explanation": "El resplandor es contaminación hacia el cielo."
+          },
+          {
+            "id": 4,
+            "answer": "Brillo absoluto",
+            "isCorrect": false,
+            "explanation": "El brillo es una percepción subjetiva ligada a la luminancia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-122",
+        "question": "¿Por qué es crítico el contraste en el diseño del alumbrado público?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para ahorrar energía eléctrica",
+            "isCorrect": false,
+            "explanation": "El contraste no ahorra energía directamente."
+          },
+          {
+            "id": 2,
+            "answer": "Porque permite distinguir los obstáculos sobre la calzada",
+            "isCorrect": true,
+            "explanation": "Sin contraste suficiente, el conductor no puede identificar peligros a tiempo."
+          },
+          {
+            "id": 3,
+            "answer": "Para que las señales luzcan más brillantes",
+            "isCorrect": false,
+            "explanation": "Eso se logra con materiales retrorreflectantes."
+          },
+          {
+            "id": 4,
+            "answer": "Para evitar la luz intrusa",
+            "isCorrect": false,
+            "explanation": "No tiene relación directa con la luz intrusa."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-123",
+        "question": "¿Qué garantiza una buena uniformidad en una calzada iluminada?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la iluminación sea pareja, sin manchas oscuras peligrosas",
+            "isCorrect": true,
+            "explanation": "Evita el efecto 'cebra' que puede ocultar peatones u objetos."
+          },
+          {
+            "id": 2,
+            "answer": "Que la luz sea de color blanco puro",
+            "isCorrect": false,
+            "explanation": "La uniformidad es independiente del color."
+          },
+          {
+            "id": 3,
+            "answer": "Que las lámparas duren más tiempo",
+            "isCorrect": false,
+            "explanation": "No influye en la vida útil de las lámparas."
+          },
+          {
+            "id": 4,
+            "answer": "Que no haya contaminación lumínica",
+            "isCorrect": false,
+            "explanation": "Se puede tener gran uniformidad y mucha contaminación a la vez."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-124",
+        "question": "¿En qué dos tipos se suele dividir el estudio de la uniformidad en viales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Uniformidad estática y dinámica",
+            "isCorrect": false,
+            "explanation": "No son términos normalizados en este contexto."
+          },
+          {
+            "id": 2,
+            "answer": "Uniformidad global y longitudinal",
+            "isCorrect": true,
+            "explanation": "La global relaciona mínima y media; la longitudinal evalúa la uniformidad a lo largo de cada carril."
+          },
+          {
+            "id": 3,
+            "answer": "Uniformidad alta y baja",
+            "isCorrect": false,
+            "explanation": "Son calificativos, no clasificaciones técnicas."
+          },
+          {
+            "id": 4,
+            "answer": "Uniformidad vertical y horizontal",
+            "isCorrect": false,
+            "explanation": "Se habla de iluminancia vertical/horizontal, pero la uniformidad reglamentaria suele ser global y longitudinal."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-125",
+        "question": "¿Qué es el resplandor luminoso nocturno?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El brillo del filamento de una lámpara",
+            "isCorrect": false,
+            "explanation": "Eso es incandescencia."
+          },
+          {
+            "id": 2,
+            "answer": "Contaminación lumínica que da brillo al cielo nocturno por luz enviada hacia arriba",
+            "isCorrect": true,
+            "explanation": "Se debe a la luz directa (FHS) y al reflejo en el suelo que se dispersa en la atmósfera."
+          },
+          {
+            "id": 3,
+            "answer": "La luz de la luna llena",
+            "isCorrect": false,
+            "explanation": "Es un fenómeno natural, no contaminación lumínica."
+          },
+          {
+            "id": 4,
+            "answer": "El efecto de las auroras boreales",
+            "isCorrect": false,
+            "explanation": "Es un fenómeno atmosférico natural."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-126",
+        "question": "¿Qué se entiende por luz intrusa o molesta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La luz que invade zonas no deseadas como ventanas de viviendas",
+            "isCorrect": true,
+            "explanation": "Causa distracción, incomodidad o afecta al descanso de las personas."
+          },
+          {
+            "id": 2,
+            "answer": "La luz que emite un coche en sentido contrario",
+            "isCorrect": false,
+            "explanation": "Eso se considera deslumbramiento en el tráfico."
+          },
+          {
+            "id": 3,
+            "answer": "La luz solar que entra por una claraboya",
+            "isCorrect": false,
+            "explanation": "Es iluminación natural."
+          },
+          {
+            "id": 4,
+            "answer": "La luz de una linterna en una zona oscura",
+            "isCorrect": false,
+            "explanation": "No es una invasión sistemática de una instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-127",
+        "question": "¿Qué valora positivamente el concepto de eficiencia energética en una instalación de alumbrado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que use lámparas de gran potencia",
+            "isCorrect": false,
+            "explanation": "El uso de mucha potencia suele ser ineficiente."
+          },
+          {
+            "id": 2,
+            "answer": "Lograr iluminar la mayor superficie con el nivel exigido usando la menor potencia posible",
+            "isCorrect": true,
+            "explanation": "Se busca el máximo aprovechamiento del flujo con el mínimo consumo eléctrico (W)."
+          },
+          {
+            "id": 3,
+            "answer": "Que las lámparas sean muy baratas",
+            "isCorrect": false,
+            "explanation": "El coste de adquisición no define la eficiencia energética."
+          },
+          {
+            "id": 4,
+            "answer": "Que la instalación sea estética y decorativa",
+            "isCorrect": false,
+            "explanation": "La estética no garantiza la eficiencia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-128",
+        "question": "¿Cuál es la unidad o factor principal para medir la eficiencia energética de una instalación (ε)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Lux por vatio",
+            "isCorrect": false,
+            "explanation": "No es la unidad reglamentaria."
+          },
+          {
+            "id": 2,
+            "answer": "Superficie iluminada por lux dividida entre la potencia (m²·lx / W)",
+            "isCorrect": true,
+            "explanation": "Es la fórmula que define el índice de eficiencia energética en el reglamento."
+          },
+          {
+            "id": 3,
+            "answer": "Lúmenes por metro cuadrado",
+            "isCorrect": false,
+            "explanation": "Esto es iluminancia."
+          },
+          {
+            "id": 4,
+            "answer": "Kilovatios-hora (kWh)",
+            "isCorrect": false,
+            "explanation": "Mide consumo de energía acumulada, no eficiencia de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-129",
+        "question": "¿Qué cuantifica el factor de utilización en un estudio luminotécnico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El porcentaje exacto de luz emitida por la lámpara que llegará al suelo",
+            "isCorrect": true,
+            "explanation": "Depende de la geometría de la vía y del diseño óptico de la luminaria."
+          },
+          {
+            "id": 2,
+            "answer": "Las horas que la lámpara está encendida al día",
+            "isCorrect": false,
+            "explanation": "Eso es tiempo de funcionamiento."
+          },
+          {
+            "id": 3,
+            "answer": "La cantidad de lámparas que fallan al año",
+            "isCorrect": false,
+            "explanation": "Eso se relaciona con el factor de supervivencia."
+          },
+          {
+            "id": 4,
+            "answer": "El aprovechamiento de la luz solar",
+            "isCorrect": false,
+            "explanation": "No aplica en alumbrado público nocturno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-130",
+        "question": "¿Para qué sirve calcular el factor de mantenimiento en una instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para saber cuánto costará la limpieza de las luminarias",
+            "isCorrect": false,
+            "explanation": "Mide pérdida de luz, no costes económicos directamente."
+          },
+          {
+            "id": 2,
+            "answer": "Para prever la luz que se perderá por suciedad o envejecimiento de los equipos",
+            "isCorrect": true,
+            "explanation": "Asegura que al final del periodo de mantenimiento se sigan cumpliendo los niveles mínimos."
+          },
+          {
+            "id": 3,
+            "answer": "Para determinar el tipo de cableado necesario",
+            "isCorrect": false,
+            "explanation": "El cableado depende de la carga eléctrica."
+          },
+          {
+            "id": 4,
+            "answer": "Para elegir el color de las columnas de alumbrado",
+            "isCorrect": false,
+            "explanation": "Es un parámetro técnico de flujo luminoso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-131",
+        "question": "¿Cómo afecta el envejecimiento de la lámpara al flujo luminoso con el paso del tiempo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El flujo aumenta gradualmente",
+            "isCorrect": false,
+            "explanation": "El flujo siempre disminuye con el uso."
+          },
+          {
+            "id": 2,
+            "answer": "El flujo disminuye (depreciación luminosa)",
+            "isCorrect": true,
+            "explanation": "Es uno de los componentes clave que integran el factor de mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "Se mantiene constante hasta que se funde",
+            "isCorrect": false,
+            "explanation": "Todas las fuentes de luz sufren depreciación."
+          },
+          {
+            "id": 4,
+            "answer": "Cambia de color pero mantiene el flujo",
+            "isCorrect": false,
+            "explanation": "Suelen ocurrir ambos efectos, pero el flujo siempre cae."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "REE-GENERAL-132",
+        "question": "¿Qué factor de mantenimiento (fm) se suele utilizar en proyectos si no se especifica otro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1,00 (sin pérdidas)",
+            "isCorrect": false,
+            "explanation": "Es irreal, siempre hay pérdidas."
+          },
+          {
+            "id": 2,
+            "answer": "0,80",
+            "isCorrect": true,
+            "explanation": "Es un valor típico de referencia para prever un 20% de pérdidas por mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "0,50",
+            "isCorrect": false,
+            "explanation": "Es un valor extremadamente bajo, implicaría un mantenimiento nulo."
+          },
+          {
+            "id": 4,
+            "answer": "2,00",
+            "isCorrect": false,
+            "explanation": "El factor de mantenimiento siempre es menor o igual a 1."
           }
         ],
         "type": "simple"
