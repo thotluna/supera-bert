@@ -28,3 +28,7 @@
 - [x] Recreación integral y auditoría pedagógica de `itc-bt-34.json` a `itc-bt-38.json` (50 preguntas situacionales, tipos simple/multiple, estructura normalizada)
 - [x] Recreación integral y auditoría pedagógica de `itc-bt-39.json` a `itc-bt-47.json` (50 preguntas situacionales, tipos simple/multiple, estructura normalizada)
 - [x] Aplicación sistemática en el resto de datasets: `itc-bt-48.json` a `itc-bt-52.json` (REMEDIACIÓN FINALIZADA)
+## Auditoría Pedagógica del Radar (Modelo de Conquista)
+- [x] Refactorización del RadarChart: Implementación del modelo de Cobertura vs Maestría (Universo Dataset).
+- [x] Optimización de Estadísticas: Eliminación del castigo de la media y transición al modelo de "Estado de Conocimiento" (último intento único).
+- [x] Dinamización de Resultados: Zoom automático sobre temas preguntados y visibilidad de brechas de conocimiento (segmentos vacíos).
