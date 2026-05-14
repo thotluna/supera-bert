@@ -11,15 +11,21 @@ export class QuizScore {
     totalCorrectOptions: number,
     totalIncorrectOptions: number,
     selectedCorrectCount: number,
-    selectedIncorrectCount: number
+    selectedIncorrectCount: number,
+    questionType: 'simple' | 'multiple' = 'multiple'
   ): number {
     const gain = totalCorrectOptions > 0 
       ? (selectedCorrectCount / totalCorrectOptions) * this.MAX_QUESTION_POINTS 
       : 0;
 
-    const loss = totalIncorrectOptions > 0 
-      ? (selectedIncorrectCount / totalIncorrectOptions) * this.MAX_PENALTY 
-      : 0;
+    let loss = 0;
+    if (totalIncorrectOptions > 0) {
+      if (questionType === 'simple' && selectedIncorrectCount > 0) {
+        loss = this.MAX_PENALTY;
+      } else {
+        loss = (selectedIncorrectCount / totalIncorrectOptions) * this.MAX_PENALTY;
+      }
+    }
 
     const result = gain - loss;
     

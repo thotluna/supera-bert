@@ -18,45 +18,29 @@ export class JSONDataSource implements QuestionRepository {
   async getAll(itcs?: ITCTopic[], count?: number, excludeIds?: string[]): Promise<Question[]> {
     const totalDesired = count || 20;
     const itcList = itcs || [];
-    const topicTarget = totalDesired;
-
     const allTopicData = await this.loadFromImports(itcList);
-    const finalQuestions: Question[] = [];
-
+    
     const effectiveITCs = itcList.length > 0 
       ? itcList 
       : (await this.getTopicsAvailability()).map(t => t.name);
 
-    const perTopicQuota = Math.floor(topicTarget / effectiveITCs.length);
-    const remainder = topicTarget % effectiveITCs.length;
-    const shuffledITCs = this.shuffle([...effectiveITCs]);
+    // 1. Obtener el universo completo de preguntas de los ITCs seleccionados
+    const allAvailableQuestions: Question[] = effectiveITCs.flatMap(itc => allTopicData[itc] || []);
+    
+    // 2. Separar en Prioritarias (Nuevas) y Secundarias (Ya acertadas/vistas)
+    const newQuestions = this.shuffle(
+      allAvailableQuestions.filter(q => !excludeIds?.includes(q.id))
+    );
+    
+    const secondaryQuestions = this.shuffle(
+      allAvailableQuestions.filter(q => excludeIds?.includes(q.id))
+    );
 
-    shuffledITCs.forEach((itc, index) => {
-      let questions = allTopicData[itc] || [];
-      if (excludeIds) {
-        questions = questions.filter(q => !excludeIds.includes(q.id));
-      }
-      
-      const quota = perTopicQuota + (index < remainder ? 1 : 0);
-      if (quota > 0) {
-        const selected = this.shuffle(questions).slice(0, quota);
-        finalQuestions.push(...selected);
-      }
-    });
+    // 3. Unir ambos mundos manteniendo la prioridad de las nuevas
+    const combinedPool = [...newQuestions, ...secondaryQuestions];
 
-    if (finalQuestions.length < totalDesired) {
-       const allAvailable = Object.values(allTopicData).flat()
-         .filter(q => !finalQuestions.find(fq => fq.id === q.id));
-       
-       if (excludeIds) {
-         const filtered = allAvailable.filter(q => !excludeIds.includes(q.id));
-         finalQuestions.push(...this.shuffle(filtered).slice(0, totalDesired - finalQuestions.length));
-       } else {
-         finalQuestions.push(...this.shuffle(allAvailable).slice(0, totalDesired - finalQuestions.length));
-       }
-    }
-
-    return this.shuffle(finalQuestions);
+    // 4. Tomar el total solicitado
+    return combinedPool.slice(0, totalDesired);
   }
 
   async checkAnswer(questionId: string, answerId: number): Promise<boolean> {

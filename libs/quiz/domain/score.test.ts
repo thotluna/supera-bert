@@ -39,6 +39,13 @@ describe('QuizScore', () => {
       const points = QuizScore.calculateQuestionPoints(2, 2, 2, 2);
       expect(points).toBe(0.80);
     });
+
+    it('should apply full -0.20 penalty for ANY incorrect answer in a SIMPLE question (Regression #1)', () => {
+      // En una pregunta simple (1 correcta, N incorrectas), 
+      // si se marca una incorrecta, la penalización debe ser el máximo (-0.20).
+      const points = QuizScore.calculateQuestionPoints(1, 3, 0, 1, 'simple');
+      expect(points).toBe(-0.20);
+    });
   });
 
   describe('isPassed', () => {

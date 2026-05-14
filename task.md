@@ -39,3 +39,8 @@
 - [x] Unificación de Umbrales: Establecimiento del límite de aprobación en >80% de los puntos totales del quiz.
 - [x] Refactorización de Servicios: Migración de `QuizService` y `StatsService` al nuevo modelo de dominio.
 - [x] Sincronización de UI/Store: Actualización de `quiz-store` y componentes de resultados para reflejar las nuevas reglas de éxito.
+
+## Optimización de Cuotas y Dataset ITC-BT-11
+- [x] Reparación del Motor de Selección: Garantía de cumplimiento de cuota (50/100 preguntas) mediante priorización de pools y corrección de persistencia en `QuizService`.
+- [x] Refactorización del Dominio de Puntaje: Diferenciación de penalizaciones entre preguntas 'simple' (fijo -0.20) y 'multiple' (prorrateado) para fidelidad reglamentaria.
+- [x] Expansión Masiva ITC-BT-11: Creación de 100 preguntas situacionales integrando requisitos de ITC-BT-06 (Redes Aéreas) e ITC-BT-07 (Redes Subterráneas) aplicados a acometidas.
