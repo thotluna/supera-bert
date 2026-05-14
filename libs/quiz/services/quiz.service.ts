@@ -4,6 +4,7 @@ import { QuizzesRepository } from "../repository/quizzes-repository";
 import { QuestionRepository } from "../repository/question-repository";
 import { ConfigQuiz, ITCTopic, Option, Question, ResponseQuestion, TopicOption } from "../models";
 import { AnswersRepository } from "../repository/answers-repository";
+import { QuizScore } from "../domain/score";
 
 export class QuizService {
   constructor(
@@ -99,17 +100,19 @@ export class QuizService {
 
       if (originalQuestion) {
         const totalCorrectInQuestion = originalQuestion.options.filter(o => o.isCorrect).length;
+        const totalIncorrectInQuestion = originalQuestion.options.length - totalCorrectInQuestion;
+        
         const selectedIds = ans.selectedOptions.map(o => o.id);
         const correctSelected = originalQuestion.options.filter(o => o.isCorrect && selectedIds.includes(o.id)).length;
         const incorrectSelected = originalQuestion.options.filter(o => !o.isCorrect && selectedIds.includes(o.id)).length;
 
-        let points = 0;
-        if (totalCorrectInQuestion > 0) {
-          points += (correctSelected * (1 / totalCorrectInQuestion));
-        }
-        points -= (incorrectSelected * 0.20);
-        
-        finalPoints = Number(points.toFixed(2));
+        finalPoints = QuizScore.calculateQuestionPoints(
+          totalCorrectInQuestion,
+          totalIncorrectInQuestion,
+          correctSelected,
+          incorrectSelected
+        );
+
         finalIsCorrect = correctSelected === totalCorrectInQuestion && incorrectSelected === 0;
         totalRecalculatedScore += finalPoints;
       }

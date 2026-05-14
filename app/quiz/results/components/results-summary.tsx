@@ -9,15 +9,10 @@ interface ResultsSummaryProps {
   percentage: number;
 }
 
-export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage }: ResultsSummaryProps): JSX.Element {
-  const getFeedbackMessage = () => {
-    if (percentage >= 90) return { title: "¡Excelencia Pura!", sub: "Estás más que listo para el examen oficial.", color: "text-success", shadow: "shadow-success/20" };
-    if (percentage >= 70) return { title: "¡Buen Trabajo!", sub: "Tienes los conceptos claros, pero no bajes la guardia.", color: "text-blue-400", shadow: "shadow-blue-400/20" };
-    if (percentage >= 50) return { title: "Aprobado Justo", sub: "Necesitas reforzar algunos tópicos para asegurar el éxito.", color: "text-yellow-400", shadow: "shadow-yellow-400/20" };
-    return { title: "Sigue Practicando", sub: "No te rindas, el REBT requiere constancia y estudio.", color: "text-error", shadow: "shadow-error/20" };
-  };
+import { QuizScore } from "@/libs/quiz/domain/score";
 
-  const feedback = getFeedbackMessage();
+export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage }: ResultsSummaryProps): JSX.Element {
+  const feedback = QuizScore.getFeedback(percentage);
   const strokeDasharray = 553;
   const strokeDashoffset = strokeDasharray - (strokeDasharray * percentage) / 100;
 
@@ -48,7 +43,7 @@ export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage 
               fill="transparent"
               strokeDasharray={strokeDasharray}
               strokeDashoffset={strokeDashoffset}
-              className={`transition-all duration-[1.5s] ease-out ${percentage >= 70 ? 'text-accent' : percentage >= 50 ? 'text-yellow-400' : 'text-error'}`}
+              className={`transition-all duration-[1.5s] ease-out ${percentage > 80 ? 'text-accent' : percentage === 80 ? 'text-yellow-400' : 'text-error'}`}
               strokeLinecap="round"
             />
           </svg>
