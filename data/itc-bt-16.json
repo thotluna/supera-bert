@@ -2,1860 +2,3380 @@
   {
     "id": "ITC-BT-16-01",
     "type": "simple",
-    "question": "¿En qué elementos pueden estar ubicados los contadores?",
+    "question": "¿En qué tipo de envolventes se pueden instalar los equipos de medida de energía eléctrica?",
     "options": [
       {
         "id": 1,
-        "answer": "Únicamente en armarios metálicos.",
+        "answer": "Únicamente en armarios empotrados de obra.",
         "isCorrect": false,
-        "explanation": "La norma no restringe la ubicación únicamente a armarios metálicos."
+        "explanation": "La normativa permite diversos sistemas de envolvente, no limitándose solo a la obra civil."
       },
       {
         "id": 2,
         "answer": "En módulos, paneles o armarios.",
         "isCorrect": true,
-        "explanation": "Según la ITC-BT-16, el apartado 1 de 'Generalidades' indica textualmente que podrán estar ubicados en módulos (cajas con tapas precintables), paneles o armarios."
+        "explanation": "El apartado 1 de la ITC-BT-16 establece que los contadores pueden ubicarse en módulos (cajas con tapas precintables), paneles o armarios."
       },
       {
         "id": 3,
-        "answer": "Directamente atornillados a la pared sin envolvente.",
+        "answer": "En bandejas abiertas con protección IP2X.",
         "isCorrect": false,
-        "explanation": "Requieren conjuntos que cumplan normativas UNE específicas y no pueden ir sin envolvente."
+        "explanation": "Los equipos de medida requieren envolventes cerradas que cumplan con grados de protección específicos contra contactos y agentes externos."
       },
       {
         "id": 4,
-        "answer": "En bandejas de cables colgantes.",
+        "answer": "En cajas de derivación estándar de superficie.",
         "isCorrect": false,
-        "explanation": "Las bandejas no son envolventes válidas para albergar equipos de medida según la norma."
+        "explanation": "Deben ser conjuntos que cumplan con la normativa específica de cuadros de baja tensión (UNE-EN 61.439)."
       }
     ]
   },
   {
     "id": "ITC-BT-16-02",
     "type": "simple",
-    "question": "¿Qué norma UNE deben cumplir los conjuntos de módulos o armarios para contadores?",
+    "question": "Al proyectar un conjunto de medida en el interior de un edificio, ¿cuál es el grado de protección IP mínimo exigido?",
     "options": [
       {
         "id": 1,
-        "answer": "UNE-EN 60.439 partes 1, 2 y 3.",
-        "isCorrect": true,
-        "explanation": "El apartado 1 especifica que constituirán conjuntos que deberán cumplir la norma UNE-EN 60.439 partes 1, 2 y 3."
+        "answer": "IP30",
+        "isCorrect": false,
+        "explanation": "Este grado es insuficiente para garantizar la seguridad en el acceso a equipos de medida en interiores."
       },
       {
         "id": 2,
-        "answer": "UNE 20.324.",
-        "isCorrect": false,
-        "explanation": "Esta es la norma que rige los grados de protección IP."
+        "answer": "IP40",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1 de la ITC-BT-16, las instalaciones de tipo interior deben cumplir como mínimo un grado de protección IP40."
       },
       {
         "id": 3,
-        "answer": "UNE-EN 50.102.",
+        "answer": "IP43",
         "isCorrect": false,
-        "explanation": "Esta es la norma que rige los grados de protección contra impactos (IK)."
+        "explanation": "Este grado de protección es el mínimo exigido para instalaciones de tipo exterior, no para interiores."
       },
       {
         "id": 4,
-        "answer": "NBE-CPI-96.",
+        "answer": "IP55",
         "isCorrect": false,
-        "explanation": "Esta norma rige la protección contra incendios de los locales, no de los conjuntos eléctricos."
+        "explanation": "Aunque es un grado superior y válido, el mínimo reglamentario para interiores es IP40."
       }
     ]
   },
   {
     "id": "ITC-BT-16-03",
     "type": "simple",
-    "question": "Para instalaciones de tipo INTERIOR, ¿cuál es el grado IP mínimo exigido?",
+    "question": "Para un armario de contadores situado a la intemperie, ¿qué protección contra impactos mecánicos (IK) debe garantizarse?",
     "options": [
       {
         "id": 1,
-        "answer": "IP30",
+        "answer": "IK 07",
         "isCorrect": false,
-        "explanation": "Este valor no alcanza el grado de protección mínimo exigido para interiores."
+        "explanation": "Nivel de resistencia mecánica insuficiente para equipos situados en zonas de posible tránsito o exposición."
       },
       {
         "id": 2,
-        "answer": "IP40",
-        "isCorrect": true,
-        "explanation": "El apartado 1 establece textualmente para instalaciones de tipo interior el grado IP40."
+        "answer": "IK 08",
+        "isCorrect": false,
+        "explanation": "Este valor es típico de las CGP, pero los conjuntos de medida tienen un requisito superior."
       },
       {
         "id": 3,
-        "answer": "IP43",
-        "isCorrect": false,
-        "explanation": "Este es el grado de protección mínimo exigido para instalaciones de tipo exterior."
+        "answer": "IK 09",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 exige un grado IK 09 tanto para instalaciones interiores como exteriores."
       },
       {
         "id": 4,
-        "answer": "IP55",
+        "answer": "IK 10",
         "isCorrect": false,
-        "explanation": "Aunque es un grado superior, el mínimo reglamentario para interiores es IP40."
+        "explanation": "Representa la máxima resistencia, pero el requerimiento mínimo legal se sitúa en IK 09."
       }
     ]
   },
   {
     "id": "ITC-BT-16-04",
     "type": "simple",
-    "question": "¿Cuál es el grado IK mínimo exigido para los conjuntos de medida?",
+    "question": "¿Qué característica deben cumplir las ventanas transparentes destinadas a la lectura de los contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "IK 07",
+        "answer": "Ser de cristal de seguridad de al menos 5 mm.",
         "isCorrect": false,
-        "explanation": "Grado de protección insuficiente según las especificaciones de la norma."
+        "explanation": "No se especifica el uso de cristal, sino la resistencia a factores ambientales."
       },
       {
         "id": 2,
-        "answer": "IK 08",
-        "isCorrect": false,
-        "explanation": "Este es el valor para las CGP, pero no alcanza el mínimo exigido para conjuntos de medida."
+        "answer": "Ser resistentes a los rayos ultravioleta.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 indica que las partes transparentes para lectura directa deben ser resistentes a los rayos ultravioleta."
       },
       {
         "id": 3,
-        "answer": "IK 09",
-        "isCorrect": true,
-        "explanation": "El apartado 1 exige el grado IK 09 tanto para instalaciones de tipo interior como exterior."
+        "answer": "Disponer de un acabado translúcido anti-reflejos.",
+        "isCorrect": false,
+        "explanation": "La norma exige lectura directa y clara, por lo que deben ser transparentes, no translúcidas."
       },
       {
         "id": 4,
-        "answer": "IK 10",
+        "answer": "Contar con un sistema de limpieza automática.",
         "isCorrect": false,
-        "explanation": "Aunque ofrece mayor seguridad, el límite legal mínimo establecido es IK 09."
+        "explanation": "No existe tal requerimiento en el reglamento técnico."
       }
     ]
   },
   {
     "id": "ITC-BT-16-05",
     "type": "simple",
-    "question": "Para instalaciones de tipo EXTERIOR, ¿cuál es el grado IP mínimo exigido?",
+    "question": "¿Cómo se deben prevenir las condensaciones en el interior de los módulos o armarios de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "IP40",
+        "answer": "Mediante el sellado hermético total de la envolvente.",
         "isCorrect": false,
-        "explanation": "Este es el grado exigido para interiores, insuficiente para la intemperie."
+        "explanation": "El sellado total favorecería la condensación por falta de renovación de aire."
       },
       {
         "id": 2,
-        "answer": "IP43",
+        "answer": "Mediante ventilación interna sin disminuir el grado de protección.",
         "isCorrect": true,
-        "explanation": "El apartado 1 exige específicamente para instalaciones de tipo exterior el grado IP43."
+        "explanation": "El apartado 1 de la ITC-BT-16 obliga a disponer de ventilación interna para evitar condensaciones manteniendo el grado IP."
       },
       {
         "id": 3,
-        "answer": "IP54",
+        "answer": "Instalando obligatoriamente resistencias calefactoras.",
         "isCorrect": false,
-        "explanation": "Valor que supera el requerimiento mínimo normativo."
+        "explanation": "La calefacción no es un método exigido; se prioriza el diseño pasivo mediante ventilación."
       },
       {
         "id": 4,
-        "answer": "IP65",
+        "answer": "Aplicando barnices hidrófugos en los bornes.",
         "isCorrect": false,
-        "explanation": "Valor que excede significativamente el requerimiento reglamentario mínimo."
+        "explanation": "Los barnices no evitan la condensación ambiental en el volumen del armario."
       }
     ]
   },
   {
     "id": "ITC-BT-16-06",
     "type": "simple",
-    "question": "¿Qué característica deben tener las partes transparentes para lectura directa?",
+    "question": "¿Dónde se deben situar los fusibles de seguridad en relación con el equipo de medida?",
     "options": [
       {
         "id": 1,
-        "answer": "Deben ser de cristal templado obligatoriamente.",
+        "answer": "Inmediatamente después del contador (aguas abajo).",
         "isCorrect": false,
-        "explanation": "La norma permite materiales plásticos, no obliga al cristal templado."
+        "explanation": "Su función es proteger la derivación desde su origen, por lo que deben ir antes de la medida."
       },
       {
         "id": 2,
-        "answer": "Deben tener efecto lupa.",
-        "isCorrect": false,
-        "explanation": "No existe un requerimiento de aumento óptico en el reglamento."
+        "answer": "Antes del contador, en cada uno de los hilos de fase.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1 de la ITC-BT-16, los fusibles se instalarán antes del contador y en cada uno de los hilos de fase que van al mismo."
       },
       {
         "id": 3,
-        "answer": "Deben ser resistentes a los rayos ultravioleta.",
-        "isCorrect": true,
-        "explanation": "El apartado 1 indica que las partes transparentes de lectura directa deben ser resistentes a los rayos ultravioleta."
+        "answer": "Integrados en el borne de salida del neutro.",
+        "isCorrect": false,
+        "explanation": "El neutro no debe protegerse con fusibles que puedan interrumpir su continuidad de forma independiente a las fases."
       },
       {
         "id": 4,
-        "answer": "Deben ser oscurecidas.",
+        "answer": "Únicamente en la Caja General de Protección del edificio.",
         "isCorrect": false,
-        "explanation": "Oscurecerlas dificultaría la función de lectura directa exigida por la norma."
+        "explanation": "La centralización requiere sus propios fusibles de seguridad independientes para cada usuario."
       }
     ]
   },
   {
     "id": "ITC-BT-16-07",
     "type": "simple",
-    "question": "¿Qué disposición deben tener los armarios para evitar condensaciones internas?",
+    "question": "¿Qué entidad tiene la potestad de colocar los precintos en los fusibles de seguridad de la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "Resistencias calefactoras internas.",
+        "answer": "El instalador autorizado tras finalizar la obra.",
         "isCorrect": false,
-        "explanation": "La normativa técnica no exige el uso de calefacción eléctrica para este fin."
+        "explanation": "El instalador monta el equipo, pero el precinto oficial es competencia del gestor de la red."
       },
       {
         "id": 2,
-        "answer": "Ventilación interna sin disminuir su grado de protección.",
+        "answer": "La empresa distribuidora de energía.",
         "isCorrect": true,
-        "explanation": "El apartado 1 establece que deberán disponer de ventilación interna para evitar condensaciones."
+        "explanation": "El apartado 1 de la ITC-BT-16 especifica que los fusibles de seguridad estarán precintados por la empresa distribuidora."
       },
       {
         "id": 3,
-        "answer": "Gel de sílice en el interior.",
+        "answer": "El administrador de la finca o propiedad.",
         "isCorrect": false,
-        "explanation": "El reglamento no contempla el uso de desecantes químicos como método de prevención."
+        "explanation": "La propiedad no tiene competencias sobre los sistemas de tarificación y control de fraude."
       },
       {
         "id": 4,
-        "answer": "Cierre al vacío.",
+        "answer": "El ayuntamiento del municipio correspondiente.",
         "isCorrect": false,
-        "explanation": "Estos conjuntos de medida no se diseñan ni se instalan sellados al vacío."
+        "explanation": "Es una gestión técnica privada supervisada por la compañía suministradora."
       }
     ]
   },
   {
     "id": "ITC-BT-16-08",
     "type": "simple",
-    "question": "¿Dónde se ubican los fusibles de seguridad respecto al contador?",
+    "question": "Como norma general, ¿qué sección mínima deben tener los cables que unen el embarrado con los contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Después del contador (aguas abajo).",
+        "answer": "4 mm2",
         "isCorrect": false,
-        "explanation": "Si estuvieran después, el contador quedaría desprotegido ante fallos internos."
+        "explanation": "Sección insuficiente para la previsión de carga estándar en puntos de medida colectiva."
       },
       {
         "id": 2,
-        "answer": "Dentro de la vivienda del abonado.",
-        "isCorrect": false,
-        "explanation": "Los fusibles de seguridad protegen el inicio de la derivación individual, no el interior del local."
+        "answer": "6 mm2",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 establece que los cables serán de 6 mm2 de sección como norma general."
       },
       {
         "id": 3,
-        "answer": "En el Centro de Transformación.",
+        "answer": "10 mm2",
         "isCorrect": false,
-        "explanation": "En el CT se ubican las protecciones de la red de distribución pública."
+        "explanation": "Aunque es una sección recomendada en ciertos casos, el mínimo general reglamentario es 6 mm2."
       },
       {
         "id": 4,
-        "answer": "Antes del contador y en cada hilo de fase o polar.",
-        "isCorrect": true,
-        "explanation": "La norma indica que se instalarán antes del contador y en cada uno de los hilos de fase que van al mismo."
+        "answer": "16 mm2",
+        "isCorrect": false,
+        "explanation": "Se utiliza para potencias elevadas, pero no es la sección base de diseño general."
       }
     ]
   },
   {
     "id": "ITC-BT-16-09",
     "type": "simple",
-    "question": "¿Quién es el responsable de colocar los precintos en los fusibles de seguridad?",
+    "question": "En una centralización para viviendas de grado de electrificación básico, ¿qué sección de cable se recomienda si la longitud es superior a 14 metros?",
     "options": [
       {
         "id": 1,
-        "answer": "El instalador electricista.",
+        "answer": "6 mm2",
         "isCorrect": false,
-        "explanation": "El instalador realiza la obra, pero el precinto de control de fraude es de la distribuidora."
+        "explanation": "Para longitudes superiores a 14 metros, la caída de tensión suele obligar a superar este mínimo."
       },
       {
         "id": 2,
-        "answer": "La empresa distribuidora.",
+        "answer": "10 mm2",
         "isCorrect": true,
-        "explanation": "El apartado 1 dictamina que los fusibles de seguridad estarán precintados por la empresa distribuidora."
+        "explanation": "El apartado 1 de la ITC-BT-16 recomienda 10 mm2 para electrificación básica si el trazado supera los 14 metros."
       },
       {
         "id": 3,
-        "answer": "El usuario.",
+        "answer": "16 mm2",
         "isCorrect": false,
-        "explanation": "El usuario no tiene potestad legal para colocar precintos oficiales de medida."
+        "explanation": "Este valor se recomienda para electrificación elevada, siendo excesivo para básica a esa distancia."
       },
       {
         "id": 4,
-        "answer": "El Ministerio de Industria.",
+        "answer": "25 mm2",
         "isCorrect": false,
-        "explanation": "El Ministerio legisla, pero la ejecución del precinto recae en la distribuidora."
+        "explanation": "Sección propia de líneas generales o suministros industriales de gran potencia."
       }
     ]
   },
   {
     "id": "ITC-BT-16-10",
     "type": "simple",
-    "question": "Como norma general, ¿cuál es la sección de los cables que unen embarrado y contadores?",
+    "question": "¿Cuál es la tensión asignada mínima exigida para los conductores de la centralización de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "1,5 mm2",
+        "answer": "300/500 V",
         "isCorrect": false,
-        "explanation": "Es una sección demasiado baja, reservada habitualmente para el hilo de mando."
+        "explanation": "Nivel de aislamiento insuficiente para el cableado de potencia en centralizaciones."
       },
       {
         "id": 2,
-        "answer": "2,5 mm2",
-        "isCorrect": false,
-        "explanation": "Valor inferior al estándar mínimo de seguridad para estas conexiones."
+        "answer": "450/750 V",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 prescribe que los cables serán de una tensión asignada de 450/750 V."
       },
       {
         "id": 3,
-        "answer": "4 mm2",
+        "answer": "0,6/1 kV",
         "isCorrect": false,
-        "explanation": "No es la sección mínima reglamentada para este tramo de la centralización."
+        "explanation": "Este aislamiento se exige para cables enterrados o LGA, pero no es el mínimo para el interior de centralizaciones."
       },
       {
         "id": 4,
-        "answer": "6 mm2",
-        "isCorrect": true,
-        "explanation": "El apartado 1 señala que los cables serán de 6 mm2 de sección como norma general."
+        "answer": "1000/1500 V",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento fuera del estándar requerido para estas instalaciones de baja tensión."
       }
     ]
   },
   {
     "id": "ITC-BT-16-11",
     "type": "simple",
-    "question": "¿Qué tensión asignada deben tener los cables de alimentación del conjunto de medida?",
+    "question": "¿Qué clase de conductor de cobre se exige para el cableado de los conjuntos de medida?",
     "options": [
       {
         "id": 1,
-        "answer": "300/500 V",
+        "answer": "Clase 1 (conductor rígido macizo).",
         "isCorrect": false,
-        "explanation": "Nivel de aislamiento insuficiente para esta parte crítica de la instalación."
+        "explanation": "La rigidez excesiva del monofilamento dificulta el conexionado en espacios reducidos."
       },
       {
         "id": 2,
-        "answer": "450/750 V",
+        "answer": "Clase 2 (varios alambres cableados formando un conductor rígido).",
         "isCorrect": true,
-        "explanation": "El apartado 1 establece que los cables serán de una tensión asignada de 450/750 V."
+        "explanation": "El apartado 1 de la ITC-BT-16 especifica conductores de cobre de clase 2 según norma UNE-EN 60.228."
       },
       {
         "id": 3,
-        "answer": "0,6/1 kV",
+        "answer": "Clase 5 (conductor flexible multihilo).",
         "isCorrect": false,
-        "explanation": "Este nivel de aislamiento se exige para tramos de red externa como la LGA."
+        "explanation": "Aunque es común su uso, la norma base para el diseño estático de estas unidades refiere a la clase 2."
       },
       {
         "id": 4,
-        "answer": "12/20 kV",
+        "answer": "Cualquier clase es válida si se usan terminales.",
         "isCorrect": false,
-        "explanation": "Nivel de aislamiento propio de redes de media tensión."
+        "explanation": "La normativa técnica del REBT impone clases específicas para garantizar la durabilidad de las conexiones."
       }
     ]
   },
   {
     "id": "ITC-BT-16-12",
     "type": "simple",
-    "question": "¿Cómo deben ser físicamente los conductores de cobre?",
+    "question": "¿Qué requisito de seguridad contra incendios deben cumplir los cables de la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "Clase 2 según norma UNE 21.022.",
-        "isCorrect": true,
-        "explanation": "Según la ITC-BT-16, el texto especifica el uso de conductores de cobre de clase 2 según UNE 21.022."
+        "answer": "Deben mantener el servicio durante 90 minutos (AS+).",
+        "isCorrect": false,
+        "explanation": "No se requiere mantenimiento de servicio, sino que el cable no sea combustible o propagador."
       },
       {
         "id": 2,
-        "answer": "Rígidos macizos de clase 1.",
-        "isCorrect": false,
-        "explanation": "La norma exige clase 2, que corresponde a conductores cableados, no macizos."
+        "answer": "Clase de reacción al fuego mínima Cca-s1b,d1,a1.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 exige esta clasificación mínima de seguridad frente al fuego (baja emisión de humos y no propagación)."
       },
       {
         "id": 3,
-        "answer": "Trenzados y desnudos.",
+        "answer": "Recubrimiento exterior intumescente de color verde.",
         "isCorrect": false,
-        "explanation": "Deben ser conductores aislados mediante procesos de extrusión."
+        "explanation": "El color no determina la propiedad al fuego y la intumescencia no es el requisito reglamentario."
       },
       {
         "id": 4,
-        "answer": "Flexibles clase 5 exclusivamente.",
+        "answer": "Protección mediante amianto en las zonas de bornes.",
         "isCorrect": false,
-        "explanation": "No se requiere el uso de conductores de clase 5 de alta flexibilidad."
+        "explanation": "El uso de amianto está prohibido por motivos de salud y seguridad ambiental."
       }
     ]
   },
   {
     "id": "ITC-BT-16-13",
     "type": "simple",
-    "question": "¿Qué característica al fuego deben tener los cables de la centralización?",
+    "question": "¿Cuál es el color y sección reglamentaria para el cableado de mando y control en la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "Resistentes al fuego 120 minutos.",
+        "answer": "Color negro y sección de 1,5 mm2.",
         "isCorrect": false,
-        "explanation": "No se exige la propiedad de mantener el servicio (RF) a estos cables."
+        "explanation": "El negro se utiliza para fases; el mando tiene su propio código de colores."
       },
       {
         "id": 2,
-        "answer": "No propagadores del incendio y con opacidad reducida de humos.",
+        "answer": "Color rojo y sección de 1,5 mm2.",
         "isCorrect": true,
-        "explanation": "El apartado 1 indica que serán no propagadores con emisión de humos y opacidad reducida."
+        "explanation": "Según el apartado 1 de la ITC-BT-16, el cable de mando será de color rojo y de 1,5 mm2 de sección."
       },
       {
         "id": 3,
-        "answer": "Deben estar envueltos en amianto.",
+        "answer": "Color azul y sección de 2,5 mm2.",
         "isCorrect": false,
-        "explanation": "El amianto está prohibido y no forma parte de los requisitos del REBT."
+        "explanation": "El azul es exclusivo para el neutro y la sección de mando es de 1,5 mm2."
       },
       {
         "id": 4,
-        "answer": "Intumescentes.",
+        "answer": "Color marrón y sección de 6 mm2.",
         "isCorrect": false,
-        "explanation": "La intumescencia no es una propiedad exigida para el aislamiento de estos conductores."
+        "explanation": "El marrón es fase de potencia y 6 mm2 es demasiado grueso para señales de mando."
       }
     ]
   },
   {
     "id": "ITC-BT-16-14",
     "type": "simple",
-    "question": "¿Cuál es la sección y color obligatorios para el cable de mando y control?",
+    "question": "En un suministro donde el contador se instala en el interior de un local comercial, ¿quién es el responsable legal de la custodia de los precintos?",
     "options": [
       {
         "id": 1,
-        "answer": "1,5 mm2 y color azul.",
+        "answer": "La comunidad de propietarios del edificio.",
         "isCorrect": false,
-        "explanation": "El color azul se reserva exclusivamente para la identificación del neutro."
+        "explanation": "La responsabilidad de elementos en áreas privadas recae sobre el titular de dicho espacio."
       },
       {
         "id": 2,
-        "answer": "2,5 mm2 y color verde.",
-        "isCorrect": false,
-        "explanation": "No cumple con los requisitos de sección ni con el código de color de mando."
+        "answer": "El usuario o titular del suministro.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 de la ITC-BT-16 indica que el usuario responde del precinto si el contador está dentro de su local."
       },
       {
         "id": 3,
-        "answer": "1,5 mm2 y color rojo.",
-        "isCorrect": true,
-        "explanation": "La norma dicta que su color será rojo y con una sección de 1,5 mm2."
+        "answer": "La empresa distribuidora en todo momento.",
+        "isCorrect": false,
+        "explanation": "La distribuidora los coloca, pero la custodia física depende de la ubicación."
       },
       {
         "id": 4,
-        "answer": "6 mm2 y color rojo.",
+        "answer": "El técnico que realiza la lectura mensual.",
         "isCorrect": false,
-        "explanation": "La sección de 6 mm2 se aplica a potencia; el mando utiliza 1,5 mm2."
+        "explanation": "El personal de lectura no tiene funciones de custodia o vigilancia de la instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-16-15",
     "type": "simple",
-    "question": "¿Se requiere usar terminales especiales en los bornes de la centralización?",
+    "question": "Si los equipos de medida se encuentran en una zona común exterior, ¿quién responde de la integridad de los elementos de la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, siempre punteras preaisladas.",
+        "answer": "Cada inquilino de forma proporcional.",
         "isCorrect": false,
-        "explanation": "El reglamento exime explícitamente de la preparación especial de conductores."
+        "explanation": "La responsabilidad en zonas comunes está centralizada en la propiedad o comunidad."
       },
       {
         "id": 2,
-        "answer": "No requerirán preparación especial o terminales.",
+        "answer": "El propietario del edificio.",
         "isCorrect": true,
-        "explanation": "El apartado 1 indica que las conexiones serán directas sin preparación especial o terminales."
+        "explanation": "Según el apartado 2.1 de la ITC-BT-16, si el contador se instala fuera de la vivienda, el responsable es el propietario del edificio."
       },
       {
         "id": 3,
-        "answer": "Sí, deben soldarse obligatoriamente.",
+        "answer": "El seguro multirriesgo de la compañía eléctrica.",
         "isCorrect": false,
-        "explanation": "La soldadura de estos conductores está descartada por los requisitos técnicos del texto."
+        "explanation": "No es una cobertura automática del gestor de red, sino una obligación del dueño del inmueble."
       },
       {
         "id": 4,
-        "answer": "Sí, requieren terminales de ojal.",
+        "answer": "La guardia civil o policía local.",
         "isCorrect": false,
-        "explanation": "No se requiere el uso de terminales de ojal para realizar estas conexiones."
+        "explanation": "La vigilancia de una propiedad privada no es competencia directa de las fuerzas de seguridad pública de forma permanente."
       }
     ]
   },
   {
     "id": "ITC-BT-16-16",
     "type": "simple",
-    "question": "¿Cuándo es aplicable la disposición de 'Colocación en forma individual'?",
+    "question": "¿En qué caso es obligatorio ubicar la concentración de contadores en un local específico?",
     "options": [
       {
         "id": 1,
-        "answer": "Suministro a uno o dos usuarios alimentados desde un mismo lugar.",
-        "isCorrect": true,
-        "explanation": "Se utilizará sólo para suministros a un usuario independiente o a dos desde un mismo lugar."
+        "answer": "Cuando el número de contadores es superior a 12.",
+        "isCorrect": false,
+        "explanation": "Hasta 16 contadores se permite el uso de armarios sin necesidad de local."
       },
       {
         "id": 2,
-        "answer": "Un edificio con máximo 4 viviendas.",
-        "isCorrect": false,
-        "explanation": "Para más de dos usuarios se utiliza habitualmente la colocación concentrada."
+        "answer": "Cuando el número de contadores es superior a 16.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-16 establece que para más de 16 contadores es obligatoria su ubicación en local."
       },
       {
         "id": 3,
-        "answer": "Exclusivamente a chalets adosados.",
+        "answer": "Cuando el edificio tiene más de 4 plantas.",
         "isCorrect": false,
-        "explanation": "La norma no restringe el tipo de edificación para esta topología."
+        "explanation": "El criterio para exigir local se basa en el número de usuarios, no en la altura del edificio."
       },
       {
         "id": 4,
-        "answer": "Una industria con más de 100 kW.",
+        "answer": "Cuando la potencia total supera los 50 kW.",
         "isCorrect": false,
-        "explanation": "El criterio definitorio es el número de usuarios, no la potencia en baja tensión."
+        "explanation": "La potencia no determina la obligación de local, sino el volumen de equipos de medida."
       }
     ]
   },
   {
     "id": "ITC-BT-16-17",
     "type": "simple",
-    "question": "En colocación individual, ¿qué elemento agrupa fusibles, contador y mando?",
+    "question": "En un edificio de 20 plantas, ¿cómo permite el reglamento agrupar los contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "La Caja General de Protección (CGP).",
+        "answer": "Concentración única obligatoria en la planta baja.",
         "isCorrect": false,
-        "explanation": "La CGP aloja únicamente fusibles de protección, no equipos de medida."
+        "explanation": "Para grandes alturas se permite la descentralización para evitar caídas de tensión excesivas."
       },
       {
         "id": 2,
-        "answer": "La Caja de Protección y Medida (CPM).",
+        "answer": "Concentraciones por plantas intermedias que abarquen cada una 6 o más plantas.",
         "isCorrect": true,
-        "explanation": "La CPM reúne bajo una misma envolvente los fusibles, el contador y el mando."
+        "explanation": "El apartado 2.2 indica que en edificios de más de 12 plantas se puede concentrar por plantas intermedias (bloques de 6+ plantas)."
       },
       {
         "id": 3,
-        "answer": "El Cuadro General de Mando y Protección.",
+        "answer": "Un contador individual en el rellano de cada vivienda.",
         "isCorrect": false,
-        "explanation": "Este dispositivo se ubica en el interior de la propiedad del usuario."
+        "explanation": "Esta configuración no se considera 'concentrada' y no es la directriz general para edificios de altura."
       },
       {
         "id": 4,
-        "answer": "El Interruptor General de Maniobra.",
+        "answer": "En la azotea para facilitar la lectura vía radio.",
         "isCorrect": false,
-        "explanation": "Se trata de un elemento de corte utilizado en centralizaciones colectivas."
+        "explanation": "La ubicación debe ser en zonas de fácil acceso y no en puntos extremos que alarguen las líneas."
       }
     ]
   },
   {
     "id": "ITC-BT-16-18",
     "type": "simple",
-    "question": "En las CPM de colocación individual, ¿qué ocurre con los fusibles?",
+    "question": "¿Qué servicios AJENOS a la electricidad está prohibido que compartan el local de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Se instalan duplicados en serie.",
+        "answer": "El cuadro de servicios comunes del edificio.",
         "isCorrect": false,
-        "explanation": "Instalación redundante no contemplada ni necesaria en la normativa."
+        "explanation": "La norma permite expresamente que el cuadro de servicios comunes esté en este local."
       },
       {
         "id": 2,
-        "answer": "No existen.",
-        "isCorrect": false,
-        "explanation": "Las protecciones mediante fusibles son obligatorias en este punto."
+        "answer": "Calderas, contadores de agua o maquinaria de ascensores.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 prohíbe que el local coincida con calderas, agua, gas, ascensores, basuras, etc."
       },
       {
         "id": 3,
-        "answer": "Los de seguridad coinciden con los generales de protección.",
-        "isCorrect": true,
-        "explanation": "El apartado 2.1 especifica que en este caso ambos fusibles coinciden."
+        "answer": "Equipos de telecomunicación de la compañía eléctrica.",
+        "isCorrect": false,
+        "explanation": "Se permite la instalación de equipos para la gestión de suministros por parte de la distribuidora."
       },
       {
         "id": 4,
-        "answer": "Se ubican en el interior de la vivienda.",
+        "answer": "Luminarias de emergencia autónomas.",
         "isCorrect": false,
-        "explanation": "Deben situarse en la CPM exterior para proteger el enlace completo."
+        "explanation": "Estas son obligatorias para garantizar la operatividad del local en caso de fallo eléctrico."
       }
     ]
   },
   {
     "id": "ITC-BT-16-19",
     "type": "simple",
-    "question": "Para suministros de medida indirecta, ¿quién define la solución a adoptar?",
+    "question": "En un local de contadores, ¿cuál es el requisito de resistencia al fuego para las paredes?",
     "options": [
       {
         "id": 1,
-        "answer": "El Ministerio de Industria.",
+        "answer": "Construidas con materiales de clase M2.",
         "isCorrect": false,
-        "explanation": "El REBT delega esta decisión debido a la variabilidad técnica de los casos."
+        "explanation": "La clasificación M2 es combustible, lo cual es inaceptable para un recinto de riesgo eléctrico."
       },
       {
         "id": 2,
-        "answer": "Los requisitos particulares de la empresa suministradora.",
+        "answer": "Construidas con paredes de clase M0.",
         "isCorrect": true,
-        "explanation": "La solución será la que especifiquen los requisitos particulares de la distribuidora."
+        "explanation": "El apartado 2.2.1 de la ITC-BT-16 exige que las paredes del local sean de clase M0 (no combustibles)."
       },
       {
         "id": 3,
-        "answer": "Exclusivamente el propietario del negocio.",
+        "answer": "Tabiquería ligera de yeso laminado sin clasificar.",
         "isCorrect": false,
-        "explanation": "El usuario no tiene potestad para diseñar los equipos de tarificación de la red."
+        "explanation": "Se requiere una resistencia estructural mínima equivalente a medio pie de ladrillo hueco."
       },
       {
         "id": 4,
-        "answer": "El ayuntamiento correspondiente.",
+        "answer": "Revestimiento de corcho para aislamiento acústico.",
         "isCorrect": false,
-        "explanation": "La competencia técnica sobre la medida recae en la empresa distribuidora."
+        "explanation": "El corcho es altamente inflamable y violaría los principios de seguridad contra incendios del REBT."
       }
     ]
   },
   {
     "id": "ITC-BT-16-20",
     "type": "simple",
-    "question": "Si el contador está DENTRO de la vivienda, ¿quién responde del precinto?",
+    "question": "¿Cuál es la altura mínima reglamentaria que debe tener el local destinado a los contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "El presidente de la comunidad.",
+        "answer": "2,00 metros.",
         "isCorrect": false,
-        "explanation": "Al estar en un área privada, la responsabilidad no es comunitaria."
+        "explanation": "Altura insuficiente que dificulta las operaciones de mantenimiento y montaje."
       },
       {
         "id": 2,
-        "answer": "El instalador eléctrico original.",
-        "isCorrect": false,
-        "explanation": "Su responsabilidad sobre la custodia termina tras la entrega de la obra."
+        "answer": "2,30 metros.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 de la ITC-BT-16 establece una altura mínima de 2,30 metros para el local."
       },
       {
         "id": 3,
-        "answer": "El usuario.",
-        "isCorrect": true,
-        "explanation": "El apartado 2.1 indica que el usuario será responsable si el contador está dentro de su local."
+        "answer": "2,50 metros.",
+        "isCorrect": false,
+        "explanation": "Aunque es una altura estándar en edificación, el mínimo legal se sitúa en 2,30 m."
       },
       {
         "id": 4,
-        "answer": "El lector de contadores.",
+        "answer": "3,00 metros.",
         "isCorrect": false,
-        "explanation": "Su función se limita a la lectura de datos, no a la custodia física."
+        "explanation": "No existe un requerimiento de altura tan elevado para este tipo de recintos técnicos."
       }
     ]
   },
   {
     "id": "ITC-BT-16-21",
     "type": "simple",
-    "question": "Si el contador está FUERA de la vivienda, ¿quién responde del precinto?",
+    "question": "Al situarse frente a la concentración de contadores en el local, ¿qué espacio libre mínimo debe existir hasta el primer obstáculo?",
     "options": [
       {
         "id": 1,
-        "answer": "La compañía suministradora de energía.",
+        "answer": "0,80 metros.",
         "isCorrect": false,
-        "explanation": "La distribuidora realiza el precinto pero no custodia físicamente el edificio."
+        "explanation": "No permitiría una evacuación segura ni el manejo cómodo de los paneles."
       },
       {
         "id": 2,
-        "answer": "El propietario del edificio.",
+        "answer": "1,10 metros.",
         "isCorrect": true,
-        "explanation": "La norma indica que si el contador se instala fuera, el responsable es el propietario del edificio."
+        "explanation": "El apartado 2.2.1 exige una distancia mínima de 1,10 metros desde la pared de los contadores hasta el obstáculo enfrente."
       },
       {
         "id": 3,
-        "answer": "El inquilino de la vivienda afectada.",
+        "answer": "1,50 metros.",
         "isCorrect": false,
-        "explanation": "La responsabilidad de los elementos comunes recae sobre la propiedad/comunidad."
+        "explanation": "Este valor es el requerido para pasillos frente a armarios, no para el interior del local específico."
       },
       {
         "id": 4,
-        "answer": "El ayuntamiento.",
+        "answer": "2,00 metros.",
         "isCorrect": false,
-        "explanation": "Se trata de una instalación privada de carácter comunitario ajena al municipio."
+        "explanation": "Supera ampliamente el requisito mínimo reglamentario de maniobrabilidad."
       }
     ]
   },
   {
     "id": "ITC-BT-16-22",
     "type": "simple",
-    "question": "¿A partir de cuántos contadores es OBLIGATORIO su ubicación en local?",
+    "question": "¿Qué distancia mínima debe dejarse entre los laterales de la concentración y las paredes colindantes del local?",
     "options": [
       {
         "id": 1,
-        "answer": "Superior a 4",
+        "answer": "5 cm",
         "isCorrect": false,
-        "explanation": "Con esta cantidad se permite el uso de armarios o CPM colectivas."
+        "explanation": "Espacio crítico insuficiente para el giro de tapas o acceso a cableados laterales."
       },
       {
         "id": 2,
-        "answer": "Superior a 10",
-        "isCorrect": false,
-        "explanation": "Este número aún entra dentro del margen permitido para la ubicación en armarios."
+        "answer": "20 cm",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 especifica que la distancia entre los laterales de la concentración y sus paredes será de 20 cm."
       },
       {
         "id": 3,
-        "answer": "Superior a 16",
-        "isCorrect": true,
-        "explanation": "El apartado 2.2 determina que si el número de contadores es superior a 16, la ubicación en local es obligatoria."
+        "answer": "40 cm",
+        "isCorrect": false,
+        "explanation": "No es necesario dejar tanto margen lateral según las prescripciones técnicas de la instrucción."
       },
       {
         "id": 4,
-        "answer": "Superior a 24",
+        "answer": "No hay distancia mínima si la pared es incombustible.",
         "isCorrect": false,
-        "explanation": "La obligación legal de habilitar un local se activa a partir de superar los 16 contadores."
+        "explanation": "Incluso con paredes incombustibles, el espacio es necesario por operatividad y montaje."
       }
     ]
   },
   {
     "id": "ITC-BT-16-23",
     "type": "simple",
-    "question": "En edificios de hasta 12 plantas, ¿dónde se sitúa la concentración?",
+    "question": "¿Hacia dónde debe abrir la puerta de acceso al local de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Repartida en cada planta.",
+        "answer": "Hacia el interior del local para no golpear a personas en el pasillo.",
         "isCorrect": false,
-        "explanation": "Para edificios de esta altura se requiere la unificación en las zonas inferiores."
+        "explanation": "En caso de emergencia, una puerta que abre hacia adentro puede quedar bloqueada por el personal."
       },
       {
         "id": 2,
-        "answer": "En la azotea del edificio.",
-        "isCorrect": false,
-        "explanation": "Dificultaría el acceso técnico y aumentaría las longitudes de las líneas de enlace."
+        "answer": "Hacia el exterior.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 dicta que la puerta de acceso abrirá siempre hacia el exterior."
       },
       {
         "id": 3,
-        "answer": "En planta baja, entresuelo o primer sótano.",
-        "isCorrect": true,
-        "explanation": "En edificios de hasta 12 plantas se colocarán en planta baja, entresuelo o primer sótano."
+        "answer": "Puede ser corredera si el pasillo es estrecho.",
+        "isCorrect": false,
+        "explanation": "La normativa de seguridad contra incendios y acceso técnico requiere apertura batiente hacia el exterior."
       },
       {
         "id": 4,
-        "answer": "En el rellano de la planta 6.",
+        "answer": "Hacia arriba mediante persiana metálica.",
         "isCorrect": false,
-        "explanation": "No se ajusta a la ubicación reglamentaria para edificios de esta categoría de altura."
+        "explanation": "Este sistema no garantiza una evacuación rápida ni cumple con la estanqueidad al fuego requerida."
       }
     ]
   },
   {
     "id": "ITC-BT-16-24",
     "type": "simple",
-    "question": "En edificios > 12 plantas, ¿cómo permite el reglamento agrupar contadores?",
+    "question": "¿Cuál es el nivel mínimo de iluminación de emergencia exigido dentro del local de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Obliga a un solo local inmenso en el sótano.",
+        "answer": "1 lux",
         "isCorrect": false,
-        "explanation": "La norma ofrece alternativas para optimizar las longitudes de las derivaciones."
+        "explanation": "Nivel insuficiente para realizar tareas de rearmado o comprobación en caso de fallo."
       },
       {
         "id": 2,
-        "answer": "Por plantas intermedias que comprendan 6 o más plantas.",
+        "answer": "5 lux",
         "isCorrect": true,
-        "explanation": "Se podrá concentrar por plantas intermedias, abarcando cada una 6 o más plantas."
+        "explanation": "El apartado 2.2.1 exige un alumbrado de emergencia que proporcione un nivel mínimo de 5 lux."
       },
       {
         "id": 3,
-        "answer": "Un contador por cada puerta de vivienda obligatoriamente.",
+        "answer": "10 lux",
         "isCorrect": false,
-        "explanation": "Es una configuración descentralizada que requiere justificación técnica adicional."
+        "explanation": "Valor superior al mínimo exigido, propio de locales de pública concurrencia."
       },
       {
         "id": 4,
-        "answer": "Se instalarán en la cubierta exterior.",
+        "answer": "50 lux",
         "isCorrect": false,
-        "explanation": "No es la directriz técnica establecida para la centralización en grandes alturas."
+        "explanation": "Nivel excesivo para un sistema de emergencia autónomo de un recinto técnico."
       }
     ]
   },
   {
     "id": "ITC-BT-16-25",
     "type": "simple",
-    "question": "¿Cuándo se pueden colocar concentraciones por plantas individualmente?",
+    "question": "¿Qué elemento de extinción de incendios es obligatorio disponer cerca de la entrada del local o armario de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Siempre que lo pida la comunidad.",
+        "answer": "Un BIE (Boca de Incendio Equipada).",
         "isCorrect": false,
-        "explanation": "La decisión técnica debe basarse en los requisitos normativos, no solo en peticiones."
+        "explanation": "El agua no es el agente extintor adecuado ni obligatorio para el origen de la centralización."
       },
       {
         "id": 2,
-        "answer": "Si la escalera es en espiral.",
-        "isCorrect": false,
-        "explanation": "La morfología de la escalera no condiciona este parámetro de centralización."
+        "answer": "Un extintor móvil de eficacia mínima 21B.",
+        "isCorrect": true,
+        "explanation": "Los apartados 2.2.1 y 2.2.2 exigen un extintor de eficacia mínima 21B situado en el exterior e inmediato a la entrada."
       },
       {
         "id": 3,
-        "answer": "Cuando haya más de 16 contadores en cada concentración.",
-        "isCorrect": true,
-        "explanation": "Podrán disponerse concentraciones por plantas cuando cada una tenga más de 16 contadores."
+        "answer": "Un sistema automático de extinción por gas CO2.",
+        "isCorrect": false,
+        "explanation": "Es una medida opcional y costosa, no exigida de forma general por el REBT."
       },
       {
         "id": 4,
-        "answer": "Solo si la instalación es trifásica.",
+        "answer": "Un cubo de arena de 20 kg.",
         "isCorrect": false,
-        "explanation": "La arquitectura de fases no influye en la topología de la centralización."
+        "explanation": "Método arcaico no contemplado en la normativa actual de protección contra incendios en edificios."
       }
     ]
   },
   {
     "id": "ITC-BT-16-26",
     "type": "simple",
-    "question": "¿Qué otros equipos se pueden instalar en el local de contadores?",
+    "question": "En caso de ubicar la concentración en un armario, ¿qué distancia libre mínima debe respetarse hasta la pared opuesta?",
     "options": [
       {
         "id": 1,
-        "answer": "Calderas de gas comunitarias.",
+        "answer": "1,10 metros.",
         "isCorrect": false,
-        "explanation": "Mezclar instalaciones de gas y electricidad centralizada está prohibido por seguridad."
+        "explanation": "Este es el valor para el interior de locales; los armarios en pasillos requieren más espacio."
       },
       {
         "id": 2,
-        "answer": "Equipos de telecom de la compañía y el cuadro de servicios comunes.",
+        "answer": "1,50 metros.",
         "isCorrect": true,
-        "explanation": "Se permite albergar equipos de comunicación de datos y el cuadro de servicios comunes."
+        "explanation": "El apartado 2.2.2 especifica que desde la parte más saliente del armario hasta la pared opuesta debe haber 1,5 m."
       },
       {
         "id": 3,
-        "answer": "Maquinaria de ascensores.",
+        "answer": "2,00 metros.",
         "isCorrect": false,
-        "explanation": "Los elementos motrices y de control de elevación requieren su propio recinto específico."
+        "explanation": "Espacio excesivo que no se exige reglamentariamente para la maniobra en armarios."
       },
       {
         "id": 4,
-        "answer": "Contadores de agua y gas.",
+        "answer": "No hay distancia mínima si la zona es de poco paso.",
         "isCorrect": false,
-        "explanation": "El agua y el gas están expresamente excluidos de los locales de contadores eléctricos."
+        "explanation": "La distancia es imperativa para garantizar la seguridad en caso de arco eléctrico o evacuación."
       }
     ]
   },
   {
     "id": "ITC-BT-16-27",
     "type": "simple",
-    "question": "¿Qué nivel de riesgo de incendio tiene el local de contadores?",
+    "question": "¿Qué característica de resistencia al fuego deben tener las puertas de los armarios de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Riesgo especial bajo.",
-        "isCorrect": true,
-        "explanation": "El apartado 2.2.1 lo califica para cumplir las condiciones de riesgo especial bajo según NBE-CPI-96."
+        "answer": "Resistencia RF 120.",
+        "isCorrect": false,
+        "explanation": "Nivel de resistencia propio de muros de carga o sectores de incendio principales."
       },
       {
         "id": 2,
-        "answer": "Riesgo especial medio.",
-        "isCorrect": false,
-        "explanation": "No alcanza esta categoría según la carga térmica promedio del local."
+        "answer": "Característica parallamas mínima PF 30.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.2 indica que las puertas de los armarios tendrán una característica parallamas mínima PF 30."
       },
       {
         "id": 3,
-        "answer": "Riesgo especial alto.",
+        "answer": "Sin requisito si el armario es metálico.",
         "isCorrect": false,
-        "explanation": "Un cuarto de contadores de baja tensión no se clasifica como riesgo alto."
+        "explanation": "La naturaleza metálica no garantiza por sí sola la estanqueidad a las llamas requerida."
       },
       {
         "id": 4,
-        "answer": "Nulo riesgo de incendio.",
+        "answer": "Resistencia EI 90.",
         "isCorrect": false,
-        "explanation": "La presencia de tensión eléctrica implica intrínsecamente un riesgo de incendio."
+        "explanation": "Valor superior al mínimo exigido para este tipo de envolventes técnicas en pasillos."
       }
     ]
   },
   {
     "id": "ITC-BT-16-28",
     "type": "simple",
-    "question": "¿Qué prohíbe el reglamento respecto al uso del local de contadores?",
+    "question": "Al realizar labores de mantenimiento en un armario de contadores, ¿qué elemento auxiliar es obligatorio encontrar en sus inmediaciones?",
     "options": [
       {
         "id": 1,
-        "answer": "Que tenga puerta de cierre.",
+        "answer": "Una escalera de madera aislante.",
         "isCorrect": false,
-        "explanation": "Al contrario, es obligatorio que el local cuente con una puerta de acceso segura."
+        "explanation": "Aunque es recomendable, no es un equipo de instalación fija obligatoria por norma."
       },
       {
         "id": 2,
-        "answer": "Que no servirá nunca de paso ni de acceso a otros locales.",
+        "answer": "Una base de enchufe con toma de tierra de 16 A.",
         "isCorrect": true,
-        "explanation": "El apartado 2.2.1 establece la prohibición de que sirva de paso o acceso a otros recintos."
+        "explanation": "El apartado 2.2.2 obliga a instalar una base de enchufe de 16 A para servicios de mantenimiento."
       },
       {
         "id": 3,
-        "answer": "Que esté cerca de la entrada.",
+        "answer": "Un terminal informático con acceso a la red de la compañía.",
         "isCorrect": false,
-        "explanation": "Debe situarse lo más próximo posible a la entrada para facilitar el acceso técnico."
+        "explanation": "No es un requisito del REBT, aunque la compañía pueda instalar sus propios equipos."
       },
       {
         "id": 4,
-        "answer": "Que sea pintado de blanco.",
+        "answer": "Un kit de primeros auxilios para quemaduras.",
         "isCorrect": false,
-        "explanation": "La normativa de baja tensión no impone restricciones sobre el acabado estético cromático."
+        "explanation": "Forma parte del plan de riesgos laborales, pero no de la dotación fija del armario de contadores."
       }
     ]
   },
   {
     "id": "ITC-BT-16-29",
     "type": "simple",
-    "question": "Las paredes y el suelo del local deben ser de clases:",
+    "question": "¿Cuál es la altura máxima permitida para el cuadrante de lectura del aparato de medida situado más alto?",
     "options": [
       {
         "id": 1,
-        "answer": "Paredes clase M1 y suelos clase M2.",
+        "answer": "1,50 metros.",
         "isCorrect": false,
-        "explanation": "Estas clasificaciones no cumplen con los niveles de seguridad al fuego exigidos."
+        "explanation": "Altura demasiado baja que limitaría la capacidad de la centralización."
       },
       {
         "id": 2,
-        "answer": "Paredes clase M0 y suelos clase M1.",
+        "answer": "1,80 metros.",
         "isCorrect": true,
-        "explanation": "El local estará construido con paredes de clase M0 y suelos de clase M1."
+        "explanation": "Según el apartado 3 de la ITC-BT-16, el cuadrante de lectura más alto no superará el 1,80 m."
       },
       {
         "id": 3,
-        "answer": "Paredes clase M2 y suelos clase M0.",
+        "answer": "2,10 metros.",
         "isCorrect": false,
-        "explanation": "Esta configuración invierte erróneamente los grados de reacción al fuego requeridos."
+        "explanation": "Dificultaría la lectura directa sin el uso de medios auxiliares, incumpliendo la norma."
       },
       {
         "id": 4,
-        "answer": "Ambas de clase M0.",
+        "answer": "2,30 metros.",
         "isCorrect": false,
-        "explanation": "La norma permite que el suelo sea de clase M1 (no propagador aunque sea combustible)."
+        "explanation": "Coincidiría con el techo del local, siendo imposible la lectura y manipulación."
       }
     ]
   },
   {
     "id": "ITC-BT-16-30",
     "type": "simple",
-    "question": "¿Cuándo es OBLIGATORIO disponer sumideros en el local?",
+    "question": "¿A qué temperatura debe realizarse el ensayo del hilo incandescente para los materiales aislantes en contacto con partes bajo tensión?",
     "options": [
       {
         "id": 1,
-        "answer": "Siempre, en todos los locales.",
+        "answer": "650 °C",
         "isCorrect": false,
-        "explanation": "Solo es obligatorio bajo condiciones topográficas específicas del inmueble."
+        "explanation": "Temperatura estándar para envolventes, pero insuficiente para piezas en contacto directo con corriente."
       },
       {
         "id": 2,
-        "answer": "Nunca.",
-        "isCorrect": false,
-        "explanation": "Deben instalarse si existe riesgo de inundación exterior para proteger la red."
+        "answer": "960 °C",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-16 exige 960 °C para materiales aislantes en contacto con partes que transportan corriente."
       },
       {
         "id": 3,
-        "answer": "Cuando la cota del suelo sea inferior o igual a locales colindantes.",
-        "isCorrect": true,
-        "explanation": "Deben disponerse sumideros si la cota es inferior o igual a pasillos o locales colindantes."
+        "answer": "1200 °C",
+        "isCorrect": false,
+        "explanation": "Valor por encima de los estándares de ensayo reglamentados para estos componentes."
       },
       {
         "id": 4,
-        "answer": "Cuando el edificio tenga piscina.",
+        "answer": "850 °C",
         "isCorrect": false,
-        "explanation": "El requisito depende del nivel del suelo del local, no de los servicios del edificio."
+        "explanation": "Este es el valor exigido para el resto de materiales (tapas, envolventes), no para los que portan corriente."
       }
     ]
   },
   {
     "id": "ITC-BT-16-31",
     "type": "simple",
-    "question": "¿Qué resistencia mecánica mínima deben tener las paredes de fijación?",
+    "question": "¿Cuál es la misión principal del Interruptor General de Maniobra (IGM) en la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "De tabique de cartón yeso.",
+        "answer": "Proteger contra sobrecargas a cada usuario individualmente.",
         "isCorrect": false,
-        "explanation": "Este material no ofrece el soporte mecánico necesario para el peso del conjunto."
+        "explanation": "Esa es la función de los fusibles de seguridad y los automáticos de cada vivienda."
       },
       {
         "id": 2,
-        "answer": "De bloque de hormigón de 50 cm.",
-        "isCorrect": false,
-        "explanation": "Es una resistencia muy superior al mínimo legal establecido."
+        "answer": "Dejar fuera de servicio toda la concentración de contadores.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 3, la misión del IGM es dejar fuera de servicio toda la concentración en caso de necesidad."
       },
       {
         "id": 3,
-        "answer": "No inferior a la del tabicón de medio pie de ladrillo hueco.",
-        "isCorrect": true,
-        "explanation": "Tendrán una resistencia no inferior a la del tabicón de medio pie de ladrillo hueco."
+        "answer": "Controlar el fraude eléctrico mediante limitación de potencia.",
+        "isCorrect": false,
+        "explanation": "El control de potencia se realiza mediante el ICP o la gestión del contador inteligente."
       },
       {
         "id": 4,
-        "answer": "Solo a pilares maestros.",
+        "answer": "Conectar el neutro a tierra en el punto de medida.",
         "isCorrect": false,
-        "explanation": "No se requiere anclaje exclusivo a elementos de soporte estructural primario."
+        "explanation": "El IGM es un elemento de corte, no un punto de puesta a tierra de la instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-16-32",
     "type": "simple",
-    "question": "¿Dimensiones mínimas de altura y anchura en paredes ocupadas?",
+    "question": "¿A partir de cuántos usuarios es obligatorio instalar un Interruptor General de Maniobra?",
     "options": [
       {
         "id": 1,
-        "answer": "Altura 2,00 m y Anchura 1,00 m.",
+        "answer": "Para cualquier número de usuarios.",
         "isCorrect": false,
-        "explanation": "Estas medidas impedirían la ergonomía de trabajo y el alojamiento de los equipos."
+        "explanation": "En suministros individuales o dobles, la propia protección de la CPM puede hacer esta función."
       },
       {
         "id": 2,
-        "answer": "Altura 2,30 m y Anchura 1,50 m.",
+        "answer": "Para concentraciones de más de dos usuarios.",
         "isCorrect": true,
-        "explanation": "El local tendrá una altura mínima de 2,30 m y una anchura mínima ocupada de 1,50 m."
+        "explanation": "El apartado 3 de la ITC-BT-16 indica que el IGM será obligatorio para concentraciones de más de dos usuarios."
       },
       {
         "id": 3,
-        "answer": "Altura 2,50 m y Anchura 2,00 m.",
+        "answer": "Solo si se superan los 16 contadores.",
         "isCorrect": false,
-        "explanation": "Medidas superiores al requerimiento mínimo normativo establecido."
+        "explanation": "El IGM es necesario incluso en pequeñas centralizaciones de 3 o más abonados."
       },
       {
         "id": 4,
-        "answer": "Altura 3,00 m y Anchura 1,50 m.",
+        "answer": "Solo en edificios de oficinas de gran consumo.",
         "isCorrect": false,
-        "explanation": "La altura de 3 metros no es una exigencia mínima de la normativa de enlace."
+        "explanation": "Es un requerimiento de seguridad general para cualquier centralización colectiva."
       }
     ]
   },
   {
     "id": "ITC-BT-16-33",
     "type": "simple",
-    "question": "¿Qué pasillo de operación debe respetarse frente a la concentración?",
+    "question": "Al elegir un Interruptor General de Maniobra para una carga prevista de 80 kW, ¿cuál debe ser su intensidad mínima?",
     "options": [
       {
         "id": 1,
-        "answer": "0,50 m",
+        "answer": "63 A",
         "isCorrect": false,
-        "explanation": "Espacio insuficiente para realizar labores de mantenimiento de forma segura."
+        "explanation": "Valor claramente insuficiente para soportar la carga total de la centralización."
       },
       {
         "id": 2,
-        "answer": "0,80 m",
-        "isCorrect": false,
-        "explanation": "Valor que no cumple con el estándar de seguridad del reglamento de baja tensión."
+        "answer": "160 A",
+        "isCorrect": true,
+        "explanation": "El apartado 3 establece que el IGM será de al menos 160 A para previsiones de carga hasta 90 kW."
       },
       {
         "id": 3,
-        "answer": "1,10 m",
-        "isCorrect": true,
-        "explanation": "La distancia hasta el primer obstáculo que tenga enfrente será de 1,10 m."
+        "answer": "250 A",
+        "isCorrect": false,
+        "explanation": "Este valor se exige cuando la carga es superior a 90 kW (hasta 150 kW)."
       },
       {
         "id": 4,
-        "answer": "1,50 m",
+        "answer": "400 A",
         "isCorrect": false,
-        "explanation": "Este es el pasillo requerido para armarios en zonas comunes, no en locales."
+        "explanation": "Valor excesivo para el tramo de potencia indicado por la normativa base."
       }
     ]
   },
   {
     "id": "ITC-BT-16-34",
     "type": "simple",
-    "question": "¿Distancia lateral mínima entre la concentración y las paredes?",
+    "question": "¿Qué requisito técnico debe cumplir el Interruptor General de Maniobra respecto al hilo neutro?",
     "options": [
       {
         "id": 1,
-        "answer": "0 cm (pegado).",
+        "answer": "El neutro no debe pasar por el interruptor.",
         "isCorrect": false,
-        "explanation": "No permitiría la ventilación necesaria ni el acceso para mantenimiento técnico."
+        "explanation": "El corte debe ser omnipolar para garantizar la seguridad total del conjunto."
       },
       {
         "id": 2,
-        "answer": "10 cm",
-        "isCorrect": false,
-        "explanation": "Separación inferior a la estipulada por la instrucción técnica."
+        "answer": "Garantizar que el neutro no sea cortado antes que los otros polos.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige un interruptor que garantice que el neutro no sea cortado antes que las fases."
       },
       {
         "id": 3,
-        "answer": "20 cm",
-        "isCorrect": true,
-        "explanation": "La distancia entre los laterales de la concentración y sus paredes será de 20 cm."
+        "answer": "Debe tener un fusible independiente en el polo del neutro.",
+        "isCorrect": false,
+        "explanation": "Está prohibido instalar fusibles en el neutro por el riesgo de sobretensiones si se fundiera."
       },
       {
         "id": 4,
-        "answer": "50 cm",
+        "answer": "El neutro debe ser el primer polo en desconectarse.",
         "isCorrect": false,
-        "explanation": "Sobredimensionaría el recinto sin una justificación técnica o normativa clara."
+        "explanation": "Esto provocaría desequilibrios peligrosos en las tensiones de los receptores monofásicos."
       }
     ]
   },
   {
     "id": "ITC-BT-16-35",
     "type": "simple",
-    "question": "¿Dimensiones y sentido de apertura mínimos de la puerta del local?",
+    "question": "¿Cuál es el grado de protección mínimo exigido para la protección aislante adicional del embarrado general?",
     "options": [
       {
         "id": 1,
-        "answer": "0,60 x 1,80 m y hacia el interior.",
+        "answer": "IP20",
         "isCorrect": false,
-        "explanation": "Medida pequeña y apertura hacia el interior prohibida por seguridad."
+        "explanation": "No especifica el nivel contra la penetración de objetos de forma tan genérica como el IPXXB."
       },
       {
         "id": 2,
-        "answer": "0,70 x 2,00 m y hacia el exterior.",
+        "answer": "IPXXB",
         "isCorrect": true,
-        "explanation": "La puerta abrirá hacia el exterior y tendrá una dimensión mínima de 0,70 x 2 m."
+        "explanation": "El apartado 3 de la ITC-BT-16 especifica que la protección aislante del embarrado tendrá un grado mínimo IPXXB."
       },
       {
         "id": 3,
-        "answer": "0,80 x 2,10 m y corredera.",
+        "answer": "IP44",
         "isCorrect": false,
-        "explanation": "Una puerta corredera no facilita la evacuación rápida por empuje en caso de emergencia."
+        "explanation": "Nivel de protección contra agua y polvo no requerido para el aislamiento interno de bornes."
       },
       {
         "id": 4,
-        "answer": "1,00 x 2,00 m y hacia el interior.",
+        "answer": "Sin protección si el armario ya tiene IP40.",
         "isCorrect": false,
-        "explanation": "La apertura hacia el interior está prohibida en recintos de riesgo eléctrico."
+        "explanation": "Se requiere una protección 'adicional' para evitar contactos accidentales al manipular fusibles."
       }
     ]
   },
   {
     "id": "ITC-BT-16-36",
     "type": "simple",
-    "question": "¿Qué equipo de emergencia se exige dentro del local?",
+    "question": "En una centralización con contadores inteligentes de telegestión, ¿es obligatorio instalar el hilo rojo de mando?",
     "options": [
       {
         "id": 1,
-        "answer": "Autónomo de emergencia, 1 hora y 5 lux.",
-        "isCorrect": true,
-        "explanation": "Se instalará un equipo autónomo con autonomía de 1 hora y nivel mínimo de 5 lux."
+        "answer": "Sí, siempre es obligatorio para futuras ampliaciones.",
+        "isCorrect": false,
+        "explanation": "La tecnología digital permite la gestión remota sin cables adicionales de señal."
       },
       {
         "id": 2,
-        "answer": "Una linterna manual.",
-        "isCorrect": false,
-        "explanation": "Se requiere un sistema fijo y automático de iluminación ante fallos de red."
+        "answer": "No requerirán del hilo de mando.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 aclara que con contadores de telegestión no se requiere el hilo de mando especificado en la ITC-BT-15."
       },
       {
         "id": 3,
-        "answer": "Un tragaluz obligatorio.",
+        "answer": "Solo si la vivienda tiene aire acondicionado.",
         "isCorrect": false,
-        "explanation": "No sustituye a la iluminación de emergencia y no es una exigencia de la norma."
+        "explanation": "El tipo de receptores no condiciona el sistema de tarificación telemática."
       },
       {
         "id": 4,
-        "answer": "Señales fotoluminiscentes.",
+        "answer": "Solo si la potencia contratada es superior a 15 kW.",
         "isCorrect": false,
-        "explanation": "La señalética no aporta el nivel de iluminación necesario para la maniobra de cuadros."
+        "explanation": "La exención del hilo de mando depende del tipo de contador instalado, no de la potencia."
       }
     ]
   },
   {
     "id": "ITC-BT-16-37",
     "type": "simple",
-    "question": "¿Cuál es la eficacia mínima del extintor exigido y quién lo mantiene?",
+    "question": "¿Qué unidad funcional de la centralización contiene el borne para conectar las puestas a tierra de las derivaciones individuales?",
     "options": [
       {
         "id": 1,
-        "answer": "Eficacia 13A, por el instalador.",
+        "answer": "La unidad funcional de medida.",
         "isCorrect": false,
-        "explanation": "La clase A no es la adecuada y el mantenimiento corresponde a la propiedad."
+        "explanation": "Esta unidad se centra en los equipos de conteo y tarificación."
       },
       {
         "id": 2,
-        "answer": "Eficacia 21B, por la empresa.",
-        "isCorrect": false,
-        "explanation": "La distribuidora eléctrica no asume el mantenimiento del PCI privado del edificio."
+        "answer": "La unidad funcional de embarrado de protección y bornes de salida.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 3, esta unidad contiene el embarrado de protección donde se conectan los cables de protección de cada DI."
       },
       {
         "id": 3,
-        "answer": "Eficacia 21B, por la propiedad del edificio.",
-        "isCorrect": true,
-        "explanation": "Existirá un extintor de eficacia 21B cuyo mantenimiento será a cargo de la propiedad."
+        "answer": "La unidad funcional de mando y control.",
+        "isCorrect": false,
+        "explanation": "Su función es albergar dispositivos de cambio de tarifa, no de protección de tierra."
       },
       {
         "id": 4,
-        "answer": "Eficacia 34B, por el ayuntamiento.",
+        "answer": "El Interruptor General de Maniobra.",
         "isCorrect": false,
-        "explanation": "El mantenimiento de equipos de protección contra incendios privados no es municipal."
+        "explanation": "El IGM corta fases y neutro, pero no el conductor de protección."
       }
     ]
   },
   {
     "id": "ITC-BT-16-38",
     "type": "simple",
-    "question": "¿Cuál es el número MÁXIMO de contadores permitidos en un armario?",
+    "question": "¿Cómo se deben identificar los cables que salen de la centralización hacia cada abonado?",
     "options": [
       {
         "id": 1,
-        "answer": "4 contadores.",
+        "answer": "Mediante el color del aislamiento exclusivamente.",
         "isCorrect": false,
-        "explanation": "El reglamento permite centralizar una cantidad superior de contadores en armario."
+        "explanation": "El color identifica la función (fase, neutro), pero no a qué usuario pertenece cada cable."
       },
       {
         "id": 2,
-        "answer": "12 contadores.",
-        "isCorrect": false,
-        "explanation": "Cantidad por debajo del límite máximo reglamentario para el uso de armarios."
+        "answer": "Estarán marcados de forma visible para permitir una fácil identificación del suministro.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige que los elementos que lo precisen estén marcados de forma visible para identificar el suministro correspondiente."
       },
       {
         "id": 3,
-        "answer": "16 contadores.",
-        "isCorrect": true,
-        "explanation": "Si el número de contadores es igual o inferior a 16, podrán ubicarse en armario."
+        "answer": "Mediante chips de radiofrecuencia (RFID).",
+        "isCorrect": false,
+        "explanation": "No es un requerimiento normativo, se prefiere el marcado físico legible."
       },
       {
         "id": 4,
-        "answer": "24 contadores.",
+        "answer": "No es necesario si los tubos están numerados.",
         "isCorrect": false,
-        "explanation": "Con esta cantidad de suministros es obligatoria la habilitación de un local técnico."
+        "explanation": "La identificación debe ser clara en el punto de conexión (bornes) para evitar errores en el mantenimiento."
       }
     ]
   },
   {
     "id": "ITC-BT-16-39",
     "type": "simple",
-    "question": "¿Qué prohibición de diseño estructural tiene el armario de contadores?",
+    "question": "En edificios de hasta 12 plantas, ¿cuál es la ubicación preferente para la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "No tendrá cerradura.",
+        "answer": "En cualquier rellano de planta intermedia.",
         "isCorrect": false,
-        "explanation": "Es requisito indispensable que cuente con cerradura normalizada."
+        "explanation": "Dificultaría el acceso general y la gestión de la LGA del edificio."
       },
       {
         "id": 2,
-        "answer": "No tendrá bastidores intermedios que dificulten la lectura.",
+        "answer": "Planta baja, entresuelo o primer sótano.",
         "isCorrect": true,
-        "explanation": "No tendrá bastidores intermedios que dificulten la instalación o lectura."
+        "explanation": "El apartado 2.2 de la ITC-BT-16 prescribe estas ubicaciones para edificios de hasta 12 plantas."
       },
       {
         "id": 3,
-        "answer": "No tendrá toma de tierra.",
+        "answer": "Únicamente en el cuarto de máquinas del ascensor.",
         "isCorrect": false,
-        "explanation": "La conexión a tierra es obligatoria en todos los elementos metálicos del conjunto."
+        "explanation": "Mezclar servicios de elevación con centralización eléctrica está expresamente prohibido."
       },
       {
         "id": 4,
-        "answer": "No podrá ser metálico.",
+        "answer": "En un recinto cerrado en la zona de garajes del segundo sótano.",
         "isCorrect": false,
-        "explanation": "Los armarios metálicos son válidos siempre que cumplan con la seguridad eléctrica."
+        "explanation": "El reglamento limita la profundidad al primer sótano para garantizar accesibilidad y seguridad."
       }
     ]
   },
   {
     "id": "ITC-BT-16-40",
     "type": "simple",
-    "question": "¿Qué pasillo mínimo debe haber desde el armario hasta la pared opuesta?",
+    "question": "¿Qué requerimiento de suelo debe cumplir el local de contadores si se encuentra bajo el nivel del terreno?",
     "options": [
       {
         "id": 1,
-        "answer": "0,80 m",
+        "answer": "Debe estar impermeabilizado con láminas de plomo.",
         "isCorrect": false,
-        "explanation": "Distancia insuficiente para la apertura total de puertas y el tránsito de personas."
+        "explanation": "No es el material exigido por la norma técnica de instalaciones de enlace."
       },
       {
         "id": 2,
-        "answer": "1,10 m",
-        "isCorrect": false,
-        "explanation": "Este es el valor para armarios dentro de locales, no en pasillos comunes."
+        "answer": "Disponer de sumideros de desagüe para evitar inundaciones.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 obliga al uso de sumideros si la cota es inferior o igual a la de locales colindantes."
       },
       {
         "id": 3,
-        "answer": "1,50 m",
-        "isCorrect": true,
-        "explanation": "Desde la parte más saliente hasta la pared opuesta habrá un pasillo de 1,5 m como mínimo."
+        "answer": "Tener una pendiente del 5% hacia la puerta.",
+        "isCorrect": false,
+        "explanation": "La pendiente no sustituye la necesidad de un sistema de evacuación de agua (sumidero)."
       },
       {
         "id": 4,
-        "answer": "2,00 m",
+        "answer": "Estar revestido de material aislante de clase M0.",
         "isCorrect": false,
-        "explanation": "Espacio que excede el requerimiento reglamentario mínimo de seguridad."
+        "explanation": "El suelo debe ser de clase M1; el revestimiento M0 se exige para paredes."
       }
     ]
   },
   {
     "id": "ITC-BT-16-41",
     "type": "simple",
-    "question": "¿Qué característica contra incendios deben tener los armarios?",
+    "question": "¿Cuál es la dimensión mínima de la puerta de acceso al local de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Parallamas mínima PF 30.",
-        "isCorrect": true,
-        "explanation": "La instrucción establece que los armarios tendrán una característica parallamas PF 30."
+        "answer": "0,60 x 1,80 metros.",
+        "isCorrect": false,
+        "explanation": "Medidas insuficientes que no garantizan el paso de componentes o la evacuación rápida."
       },
       {
         "id": 2,
-        "answer": "Resistente al fuego RF 60.",
-        "isCorrect": false,
-        "explanation": "Se exige característica parallamas (PF), no resistencia total al fuego (RF)."
+        "answer": "0,70 x 2,00 metros.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 de la ITC-BT-16 establece una dimensión mínima de la puerta de 0,70 x 2 m."
       },
       {
         "id": 3,
-        "answer": "Incombustible M0 absoluto.",
+        "answer": "0,85 x 2,10 metros.",
         "isCorrect": false,
-        "explanation": "Existen materiales que cumplen la norma sin ser necesariamente incombustibles M0."
+        "explanation": "Es la medida estándar para accesibilidad universal, pero el mínimo legal del local es menor."
       },
       {
         "id": 4,
-        "answer": "Intumescentes de doble capa.",
+        "answer": "No hay medida mínima si el local es pequeño.",
         "isCorrect": false,
-        "explanation": "No se especifica este requerimiento material en las instrucciones técnicas."
+        "explanation": "Las dimensiones son obligatorias independientemente del tamaño total del recinto."
       }
     ]
   },
   {
     "id": "ITC-BT-16-42",
     "type": "simple",
-    "question": "¿Qué elemento auxiliar de mantenimiento debe instalarse junto al armario?",
+    "question": "En el exterior del local de contadores, ¿qué debe instalarse para combatir fuegos de clase B?",
     "options": [
       {
         "id": 1,
-        "answer": "Un grifo de agua.",
+        "answer": "Un rociador automático de agua.",
         "isCorrect": false,
-        "explanation": "El agua es incompatible con la seguridad de los cuadros eléctricos en este entorno."
+        "explanation": "El agua no es apta para cuadros eléctricos bajo tensión (clase E) o líquidos inflamables (B)."
       },
       {
         "id": 2,
-        "answer": "Una toma de corriente con tierra de 16 A.",
+        "answer": "Un extintor de eficacia mínima 21B.",
         "isCorrect": true,
-        "explanation": "Se colocará una base de enchufe con toma de tierra de 16 A para mantenimiento."
+        "explanation": "El apartado 2.2.1 exige un extintor móvil de eficacia mínima 21B en el exterior e inmediato a la puerta."
       },
       {
         "id": 3,
-        "answer": "Un teléfono de emergencia.",
+        "answer": "Una manta ignífuga de fibra de vidrio.",
         "isCorrect": false,
-        "explanation": "No es un requerimiento exigido por la normativa de baja tensión."
+        "explanation": "No es el medio de extinción exigido para este tipo de riesgos industriales."
       },
       {
         "id": 4,
-        "answer": "Una banqueta dieléctrica.",
+        "answer": "Una alarma sonora conectada a bomberos.",
         "isCorrect": false,
-        "explanation": "Los elementos de seguridad personales los aporta el técnico especializado."
+        "explanation": "Es una medida de detección, no de extinción directa."
       }
     ]
   },
   {
     "id": "ITC-BT-16-43",
     "type": "simple",
-    "question": "Temperatura del ensayo de hilo incandescente para partes activas:",
+    "question": "¿Qué grado de protección contra impactos (IK) deben tener las envolventes metálicas de los armarios de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "650 °C",
+        "answer": "IK 05",
         "isCorrect": false,
-        "explanation": "Temperatura insuficiente para el ensayo de partes en contacto con corriente."
+        "explanation": "Resistencia mínima equivalente a un golpe accidental leve, insuficiente para el reglamento."
       },
       {
         "id": 2,
-        "answer": "850 °C",
-        "isCorrect": false,
-        "explanation": "Esta es la temperatura para envolventes que no transportan corriente."
+        "answer": "IK 09",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 exige IK 09 para todos los conjuntos de medida."
       },
       {
         "id": 3,
-        "answer": "960 °C",
-        "isCorrect": true,
-        "explanation": "Se exige el ensayo a 960°C para materiales en contacto con partes que transportan corriente."
+        "answer": "Depende de si el armario es de superficie o empotrado.",
+        "isCorrect": false,
+        "explanation": "El grado IK exigido es independiente del modo de instalación de la envolvente."
       },
       {
         "id": 4,
-        "answer": "1200 °C",
+        "answer": "IK 10, solo si está en vía pública.",
         "isCorrect": false,
-        "explanation": "Valor superior al estándar de ensayo marcado por la norma UNE-EN 60.695-2-1."
+        "explanation": "IK 09 es el estándar mínimo general incluso en interiores de edificios."
       }
     ]
   },
   {
     "id": "ITC-BT-16-44",
     "type": "simple",
-    "question": "¿A qué temperatura se ensayan envolventes y tapas de la concentración?",
+    "question": "Al realizar la conexión en los bornes de la centralización, ¿qué tipo de preparación especial del cable se requiere?",
     "options": [
       {
         "id": 1,
-        "answer": "650 °C",
+        "answer": "Uso obligatorio de terminales de presión.",
         "isCorrect": false,
-        "explanation": "Valor no contemplado en los escalones térmicos de este ensayo."
+        "explanation": "Aunque permitidos, la norma contempla la conexión directa sin accesorios."
       },
       {
         "id": 2,
-        "answer": "750 °C",
-        "isCorrect": false,
-        "explanation": "Valor que no se corresponde con la exigencia técnica de la instrucción."
+        "answer": "No requerirán preparación especial o terminales.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 especifica que las conexiones se harán directamente sin preparación especial."
       },
       {
         "id": 3,
-        "answer": "850 °C",
-        "isCorrect": true,
-        "explanation": "El ensayo será de 850°C para el resto de materiales como envolventes y tapas."
+        "answer": "Estañado previo de las puntas del conductor.",
+        "isCorrect": false,
+        "explanation": "El estañado está desaconsejado en bornes de presión por la fluencia del material bajo carga."
       },
       {
         "id": 4,
-        "answer": "960 °C",
+        "answer": "Trenzado inverso de los hilos de cobre.",
         "isCorrect": false,
-        "explanation": "Esta temperatura se reserva exclusivamente para materiales en contacto con la corriente."
+        "explanation": "No existe tal requerimiento técnico en la normativa de instalaciones de enlace."
       }
     ]
   },
   {
     "id": "ITC-BT-16-45",
     "type": "simple",
-    "question": "¿Qué identificación deben incluir los elementos de la concentración?",
+    "question": "¿Cuál es la distancia libre mínima desde los laterales de la concentración de contadores hasta las paredes del local?",
     "options": [
       {
         "id": 1,
-        "answer": "Marcado visible que identifique el suministro correspondiente.",
-        "isCorrect": true,
-        "explanation": "Estarán marcados visiblemente para permitir identificar el suministro a que corresponde."
+        "answer": "10 cm",
+        "isCorrect": false,
+        "explanation": "Distancia que no garantiza el espacio necesario para operaciones técnicas laterales."
       },
       {
         "id": 2,
-        "answer": "Un código QR con el DNI.",
-        "isCorrect": false,
-        "explanation": "La normativa original del REBT no exige el uso de tecnologías QR ni datos privados."
+        "answer": "20 cm",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 establece una distancia mínima de 20 cm entre los laterales y las paredes colindantes."
       },
       {
         "id": 3,
-        "answer": "Logotipo de la distribuidora grabado.",
+        "answer": "50 cm",
         "isCorrect": false,
-        "explanation": "Los conjuntos son universales y no requieren grabados de marca específicos."
+        "explanation": "Valor excesivo que reduciría inútilmente la capacidad útil del local."
       },
       {
         "id": 4,
-        "answer": "Pintura de colores por usuario.",
+        "answer": "No hay límite si el local tiene ventilación forzada.",
         "isCorrect": false,
-        "explanation": "La identificación es por marcado, no por códigos de colores cromáticos estructurales."
+        "explanation": "La ventilación no sustituye la necesidad de espacio físico para el mantenimiento."
       }
     ]
   },
   {
     "id": "ITC-BT-16-46",
     "type": "simple",
-    "question": "¿Cuál es la altura mínima al suelo desde la base de la concentración?",
+    "question": "¿En qué condiciones se permite que el Interruptor General de Maniobra sea de 250 A?",
     "options": [
       {
         "id": 1,
-        "answer": "0,10 m",
+        "answer": "Para cualquier previsión de carga superior a 50 kW.",
         "isCorrect": false,
-        "explanation": "Cota demasiado baja que dificultaría las conexiones eléctricas inferiores."
+        "explanation": "Hasta 90 kW el valor estándar es inferior (160 A)."
       },
       {
         "id": 2,
-        "answer": "0,25 m",
+        "answer": "Para previsiones de carga superiores a 90 kW y hasta 150 kW.",
         "isCorrect": true,
-        "explanation": "Desde la parte inferior de la misma al suelo habrá como mínimo una altura de 0,25 m."
+        "explanation": "El apartado 3 especifica el uso de IGM de 250 A para el rango de 90 a 150 kW."
       },
       {
         "id": 3,
-        "answer": "0,50 m",
+        "answer": "Solo si la centralización tiene más de 50 contadores.",
         "isCorrect": false,
-        "explanation": "Excedería la cota mínima requerida reglamentariamente para la instalación."
+        "explanation": "El calibre se basa en la potencia total prevista, no en el número de abonados."
       },
       {
         "id": 4,
-        "answer": "1,00 m",
+        "answer": "Cuando se instalen puntos de recarga de vehículos eléctricos en el local.",
         "isCorrect": false,
-        "explanation": "Altura que desaprovecharía el espacio útil vertical del local técnico."
+        "explanation": "La carga de VE se suma a la previsión total, pero el calibre sigue los umbrales de potencia definidos."
       }
     ]
   },
   {
     "id": "ITC-BT-16-47",
     "type": "simple",
-    "question": "¿Qué altura máxima no debe superar el cuadrante del contador más alto?",
+    "question": "¿Qué unidad funcional es opcional en la configuración de una centralización de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "1,50 m",
+        "answer": "Unidad funcional de medida.",
         "isCorrect": false,
-        "explanation": "Límite que desaprovecharía el espacio superior del panel de contadores."
+        "explanation": "Es la base de la centralización; sin ella no hay sistema de facturación."
       },
       {
         "id": 2,
-        "answer": "1,80 m",
+        "answer": "Unidad funcional de mando para el cambio de tarifa.",
         "isCorrect": true,
-        "explanation": "El cuadrante de lectura del aparato situado más alto no superará el 1,80 m."
+        "explanation": "El apartado 3 indica que la unidad funcional de mando es opcional."
       },
       {
         "id": 3,
-        "answer": "2,00 m",
+        "answer": "Unidad funcional de interruptor general de maniobra.",
         "isCorrect": false,
-        "explanation": "Dificultaría la lectura visual a personas de estatura media sin medios auxiliares."
+        "explanation": "Obligatoria para más de dos usuarios por motivos de seguridad industrial."
       },
       {
         "id": 4,
-        "answer": "2,30 m",
+        "answer": "Unidad funcional de embarrado general y fusibles.",
         "isCorrect": false,
-        "explanation": "Esta es la altura mínima del techo del local, no la del equipo de medida."
+        "explanation": "Indispensable para el reparto de energía y la protección de las derivaciones."
       }
     ]
   },
   {
     "id": "ITC-BT-16-48",
     "type": "simple",
-    "question": "¿Dónde debe instalarse el Interruptor General de Maniobra (IGM)?",
+    "question": "¿Qué símbolo debe estar presente y señalizado en el embarrado de protección de la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "En el mismo cajón de los contadores.",
+        "answer": "Riesgo eléctrico de alta tensión.",
         "isCorrect": false,
-        "explanation": "La norma prohíbe mezclar el corte general con la medida sin separación física."
+        "explanation": "La centralización opera en baja tensión y el embarrado de protección no porta potencial peligroso en régimen normal."
       },
       {
         "id": 2,
-        "answer": "En una envolvente de doble aislamiento independiente.",
+        "answer": "Símbolo normalizado de puesta a tierra.",
         "isCorrect": true,
-        "explanation": "Esta unidad se instalará en una envolvente de doble aislamiento independiente."
+        "explanation": "El apartado 3 exige que el embarrado de protección esté señalizado con el símbolo de puesta a tierra."
       },
       {
         "id": 3,
-        "answer": "Al exterior del edificio.",
+        "answer": "Símbolo de prohibido el paso a personal no autorizado.",
         "isCorrect": false,
-        "explanation": "El IGM se sitúa en el interior, formando parte de la centralización."
+        "explanation": "Este aviso suele estar en la puerta del local, no específicamente en el borne de tierra."
       },
       {
         "id": 4,
-        "answer": "Oculto tras un panel ciego.",
+        "answer": "Cráneo y tibias cruzadas por riesgo de muerte.",
         "isCorrect": false,
-        "explanation": "Su función requiere accesibilidad para realizar maniobras de corte de carga."
+        "explanation": "Señalética no reglamentada para la identificación de circuitos de protección eléctrica."
       }
     ]
   },
   {
     "id": "ITC-BT-16-49",
     "type": "simple",
-    "question": "¿Cuál es el requisito del neutro en la maniobra del IGM?",
+    "question": "En edificios de más de 12 plantas, ¿a partir de cuántas plantas debe agruparse cada concentración intermedia?",
     "options": [
       {
         "id": 1,
-        "answer": "Cortarse antes que las fases.",
+        "answer": "Cada 2 plantas para reducir la longitud de los tubos.",
         "isCorrect": false,
-        "explanation": "Dejaría fases activas causando desequilibrios de tensión peligrosos."
+        "explanation": "No sería eficiente desde el punto de vista de la infraestructura de la LGA."
       },
       {
         "id": 2,
-        "answer": "No será cortado nunca.",
-        "isCorrect": false,
-        "explanation": "La normativa exige un corte omnipolar que incluya obligatoriamente al neutro."
+        "answer": "Cada concentración comprenderá contadores de 6 o más plantas.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 prescribe que cada concentración intermedia abarque al menos 6 plantas."
       },
       {
         "id": 3,
-        "answer": "Que el neutro no sea cortado antes que los otros polos.",
-        "isCorrect": true,
-        "explanation": "Debe garantizar que el neutro no sea cortado antes que los otros polos."
+        "answer": "Cada 10 plantas obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "El mínimo es de 6 plantas, permitiendo flexibilidad según el diseño del edificio."
       },
       {
         "id": 4,
-        "answer": "Corta primero la tierra.",
+        "answer": "No hay mínimo, depende de la caída de tensión calculada.",
         "isCorrect": false,
-        "explanation": "El conductor de protección (tierra) nunca debe ser seccionado en el enlace."
+        "explanation": "Existe un requisito estructural de agrupación mínima para optimizar los recintos técnicos."
       }
     ]
   },
   {
     "id": "ITC-BT-16-50",
     "type": "simple",
-    "question": "¿A partir de cuántos usuarios es OBLIGATORIO instalar el IGM?",
+    "question": "¿Qué característica debe tener el Interruptor General de Maniobra para garantizar la seguridad durante su apertura?",
     "options": [
       {
         "id": 1,
-        "answer": "Siempre que haya más de un usuario.",
+        "answer": "Ser un interruptor de apertura lenta por pasos.",
         "isCorrect": false,
-        "explanation": "Para concentraciones de solo dos usuarios no es una exigencia obligatoria."
+        "explanation": "La lentitud favorecería el arco eléctrico, dañando los contactos."
       },
       {
         "id": 2,
-        "answer": "Para concentraciones de más de dos usuarios.",
+        "answer": "Ser un interruptor de corte omnipolar y apertura en carga.",
         "isCorrect": true,
-        "explanation": "Será obligatoria la unidad de interruptor general de maniobra para más de dos usuarios."
+        "explanation": "El apartado 3 exige un interruptor omnipolar y capaz de abrir con carga conectada."
       },
       {
         "id": 3,
-        "answer": "Solo si hay más de 16 usuarios.",
+        "answer": "Tener contactos de plata pura para evitar el desgaste.",
         "isCorrect": false,
-        "explanation": "Este umbral rige para el uso de local o armario, no para la presencia del IGM."
+        "explanation": "No es un requerimiento del REBT, aunque la calidad de materiales dependa del fabricante."
       },
       {
         "id": 4,
-        "answer": "Es completamente opcional.",
+        "answer": "Ser de accionamiento remoto mediante mando a distancia.",
         "isCorrect": false,
-        "explanation": "Se trata de un elemento imperativo superado el límite de dos usuarios."
+        "explanation": "Debe permitir el accionamiento manual directo para emergencias en el propio local."
       }
     ]
   },
   {
     "id": "ITC-BT-16-51",
     "type": "simple",
-    "question": "¿Qué calibre mínimo de IGM se exige para una carga de 80 kW?",
+    "question": "¿Cuál es la distancia mínima permitida desde la parte inferior de la concentración de contadores hasta el suelo?",
     "options": [
       {
         "id": 1,
-        "answer": "63 A",
+        "answer": "0,10 metros.",
         "isCorrect": false,
-        "explanation": "Calibre insuficiente para soportar la potencia indicada en trifásica."
+        "explanation": "Demasiado cerca del suelo, con riesgo de humedad o impactos accidentales durante la limpieza."
       },
       {
         "id": 2,
-        "answer": "100 A",
-        "isCorrect": false,
-        "explanation": "Valor inferior al umbral de protección mínima exigido por el reglamento."
+        "answer": "0,25 metros.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-16 establece una altura mínima de 0,25 m desde el suelo."
       },
       {
         "id": 3,
-        "answer": "160 A",
-        "isCorrect": true,
-        "explanation": "El interruptor será como mínimo de 160 A para previsiones de carga hasta 90 kW."
+        "answer": "0,50 metros.",
+        "isCorrect": false,
+        "explanation": "Aunque es una altura cómoda, el mínimo reglamentario es de 0,25 m."
       },
       {
         "id": 4,
-        "answer": "250 A",
+        "answer": "1,00 metro.",
         "isCorrect": false,
-        "explanation": "Calibre reservado reglamentariamente para el siguiente escalón de potencia."
+        "explanation": "Limitaría excesivamente el espacio disponible para montar múltiples filas de contadores."
       }
     ]
   },
   {
     "id": "ITC-BT-16-52",
     "type": "simple",
-    "question": "¿Qué calibre de IGM exige la norma para una carga de 130 kW?",
+    "question": "Al diseñar un local de contadores con una única fila de centralización, ¿cuál es la anchura mínima de la pared ocupada?",
     "options": [
       {
         "id": 1,
-        "answer": "160 A",
+        "answer": "1,00 metro.",
         "isCorrect": false,
-        "explanation": "Este calibre tiene un límite legal de carga de hasta 90 kW."
+        "explanation": "Anchura insuficiente para albergar las unidades funcionales obligatorias y sus márgenes."
       },
       {
         "id": 2,
-        "answer": "250 A",
+        "answer": "1,50 metros.",
         "isCorrect": true,
-        "explanation": "Se exige 250 A para previsiones superiores a 90 kW y hasta 150 kW."
+        "explanation": "El apartado 2.2.1 exige una anchura mínima en paredes ocupadas por contadores de 1,50 m."
       },
       {
         "id": 3,
-        "answer": "400 A",
+        "answer": "2,00 metros.",
         "isCorrect": false,
-        "explanation": "Valor que excede el requerimiento mínimo para el rango de potencia indicado."
+        "explanation": "No es el mínimo legal, aunque sea común en edificios con muchos abonados."
       },
       {
         "id": 4,
-        "answer": "630 A",
+        "answer": "Depende del tamaño de los contadores instalados.",
         "isCorrect": false,
-        "explanation": "Corresponde a instalaciones de potencia muy superior a los 150 kW."
+        "explanation": "La norma impone una dimensión mínima estructural del recinto independientemente del equipo."
       }
     ]
   },
   {
     "id": "ITC-BT-16-53",
     "type": "simple",
-    "question": "¿Qué seguridad se exige para acceder a los fusibles en el embarrado?",
+    "question": "¿Qué normativa de edificación rige las condiciones de protección contra incendios del local de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Uso de guantes de clase 4.",
+        "answer": "Reglamento General de Policía y Espectáculos.",
         "isCorrect": false,
-        "explanation": "La norma impone protecciones físicas integradas, no solo equipos personales."
+        "explanation": "No es la norma técnica aplicable a la seguridad estructural de locales técnicos en edificios."
       },
       {
         "id": 2,
-        "answer": "Protección aislante que evite contactos accidentales con embarrado.",
+        "answer": "Código Técnico de la Edificación (CTE-DB-SI).",
         "isCorrect": true,
-        "explanation": "Dispondrá de protección aislante que evite contactos accidentales con el embarrado general."
+        "explanation": "El apartado 2.2.1 refiere al CTE-DB-SI para definir el local como de riesgo especial bajo."
       },
       {
         "id": 3,
-        "answer": "Apagar desde la CGP exterior.",
+        "answer": "Reglamento de Seguridad contra Incendios en Establecimientos Industriales.",
         "isCorrect": false,
-        "explanation": "La protección integrada permite operar sin desconectar todo el edificio."
+        "explanation": "Esta norma aplica a industrias, no específicamente a locales de contadores en edificios de viviendas."
       },
       {
         "id": 4,
-        "answer": "Corte de red en vía pública.",
+        "answer": "Normas UNE de fabricación de extintores.",
         "isCorrect": false,
-        "explanation": "Medida desproporcionada para la operación de mantenimiento de fusibles."
+        "explanation": "Rigen el producto (extintor), pero no las condiciones de diseño del local."
       }
     ]
   },
   {
     "id": "ITC-BT-16-54",
     "type": "simple",
-    "question": "¿Qué función tiene la 'Unidad funcional de mando'?",
+    "question": "En un armario de contadores, ¿qué característica debe tener el pasillo de maniobra?",
     "options": [
       {
         "id": 1,
-        "answer": "Registrar los cortes de luz diarios.",
+        "answer": "Estar iluminado únicamente con luz natural.",
         "isCorrect": false,
-        "explanation": "Esta no es una función asignada reglamentariamente a esta unidad."
+        "explanation": "La iluminación debe ser suficiente y garantizada en todo momento para inspecciones."
       },
       {
         "id": 2,
-        "answer": "Contener el autómata de escalera.",
-        "isCorrect": false,
-        "explanation": "Los controles de servicios comunes van en cuadros auxiliares separados."
+        "answer": "Respetar un pasillo de 1,5 metros como mínimo.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.2 exige un pasillo de 1,5 m desde la parte saliente del armario a la pared opuesta."
       },
       {
         "id": 3,
-        "answer": "Dispositivos de mando para el cambio de tarifa.",
-        "isCorrect": true,
-        "explanation": "Según la ITC-BT-16, contiene los dispositivos de mando para el cambio de tarifa de cada suministro."
+        "answer": "Tener suelo de moqueta para evitar resbalones.",
+        "isCorrect": false,
+        "explanation": "La moqueta es combustible y favorece la carga electrostática, prohibida en estos recintos."
       },
       {
         "id": 4,
-        "answer": "Gestión de extinción de incendios.",
+        "answer": "Disponer de una barandilla de seguridad a 90 cm.",
         "isCorrect": false,
-        "explanation": "Función ajena a la centralización de equipos de medida de energía."
+        "explanation": "No es un requerimiento para pasillos técnicos interiores de edificios."
       }
     ]
   },
   {
     "id": "ITC-BT-16-55",
     "type": "simple",
-    "question": "¿Cómo se señaliza el embarrado de protección en las concentraciones?",
+    "question": "¿Qué unidad funcional permite la integración de equipos de recarga de vehículos eléctricos en la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "No requiere señalización.",
+        "answer": "Unidad funcional de mando y control general.",
         "isCorrect": false,
-        "explanation": "Toda toma de protección debe identificarse visualmente por seguridad."
+        "explanation": "Esta unidad es para tarifas de abonado, no para la infraestructura específica de recarga."
       },
       {
         "id": 2,
-        "answer": "Símbolo normalizado de puesta a tierra y conectada a tierra.",
+        "answer": "Unidad funcional de medida destinada a la recarga del vehículo eléctrico.",
         "isCorrect": true,
-        "explanation": "Deberá estar señalizada con el símbolo normalizado de puesta a tierra y conectada a tierra."
+        "explanation": "El apartado 3 contempla unidades específicas para medida, mando y protección de VE según la ITC-BT-52."
       },
       {
         "id": 3,
-        "answer": "Rayas negras y rojas.",
+        "answer": "La unidad funcional de telecomunicaciones.",
         "isCorrect": false,
-        "explanation": "Este código visual no corresponde a la señalización normativa de tierra."
+        "explanation": "Se limita a la adquisición de datos, no al suministro de potencia para vehículos."
       },
       {
         "id": 4,
-        "answer": "Aislada galvánicamente del suelo.",
+        "answer": "Directamente desde el Interruptor General de Maniobra.",
         "isCorrect": false,
-        "explanation": "Debe estar vinculada sólidamente a la tierra del edificio, nunca aislada."
+        "explanation": "El IGM es un interruptor de cabecera; no está diseñado para el conexionado directo de cargas finales."
       }
     ]
   },
   {
     "id": "ITC-BT-16-56",
     "type": "simple",
-    "question": "¿Para qué sirve la 'Unidad funcional de telecomunicaciones'?",
+    "question": "¿Cuál es la temperatura de ensayo del hilo incandescente para envolventes y tapas de la centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "Instalar fibra óptica vecinal.",
+        "answer": "650 °C",
         "isCorrect": false,
-        "explanation": "La fibra para usuarios pertenece al RITI del edificio, no al cuadro eléctrico."
+        "explanation": "Valor estándar para envolventes residenciales, pero inferior al requerido en instalaciones de enlace."
       },
       {
         "id": 2,
-        "answer": "Alojar las antenas de TDT.",
-        "isCorrect": false,
-        "explanation": "La infraestructura de captación de TV se ubica habitualmente en cubierta."
+        "answer": "850 °C",
+        "isCorrect": true,
+        "explanation": "El apartado 3 especifica 850 °C para materiales aislantes que no estén en contacto con partes que transportan corriente."
       },
       {
         "id": 3,
-        "answer": "Equipo de comunicación y adquisición de datos de contadores.",
-        "isCorrect": true,
-        "explanation": "Contiene el espacio para el equipo de comunicación y adquisición de datos."
+        "answer": "960 °C",
+        "isCorrect": false,
+        "explanation": "Este valor se aplica exclusivamente a materiales en contacto directo con conductores activos."
       },
       {
         "id": 4,
-        "answer": "Centralita del portero automático.",
+        "answer": "1100 °C",
         "isCorrect": false,
-        "explanation": "Equipo ajeno a las funciones de suministro y facturación de energía."
+        "explanation": "Valor que excede los parámetros habituales de seguridad frente a ignición en el REBT."
       }
     ]
   },
   {
     "id": "ITC-BT-16-57",
     "type": "simple",
-    "question": "¿Quiénes deben elegir el sistema final a aplicar?",
+    "question": "En una centralización, ¿cómo debe protegerse el embarrado general frente a contactos accidentales durante el cambio de fusibles?",
     "options": [
       {
         "id": 1,
-        "answer": "Arquitecto y constructor.",
+        "answer": "Mediante el uso obligatorio de guantes dieléctricos.",
         "isCorrect": false,
-        "explanation": "Ellos ejecutan, pero el diseño del enlace depende de la distribuidora."
+        "explanation": "Los EPIs son necesarios, pero la instalación debe tener protecciones pasivas integradas."
       },
       {
         "id": 2,
-        "answer": "Empresa Suministradora y propiedad.",
+        "answer": "Mediante una protección aislante con grado mínimo IPXXB.",
         "isCorrect": true,
-        "explanation": "La Empresa Suministradora, de común acuerdo con la propiedad, elegirá la solución."
+        "explanation": "El apartado 3 exige una protección aislante adicional IPXXB que evite contactos con el embarrado general."
       },
       {
         "id": 3,
-        "answer": "Alcalde y comunidad.",
+        "answer": "Desconectando toda la centralización mediante el IGM.",
         "isCorrect": false,
-        "explanation": "El municipio no regula diseños eléctricos privados que cumplan el REBT."
+        "explanation": "No es práctico ni exigido para el cambio de un fusible individual bajo tensión."
       },
       {
         "id": 4,
-        "answer": "Instalador y fabricante.",
+        "answer": "Cubriendo el embarrado con cinta aislante de alta visibilidad.",
         "isCorrect": false,
-        "explanation": "No tienen potestad para decidir sobre los criterios de la distribuidora."
+        "explanation": "La cinta no garantiza un grado de protección normalizado ni duradero en el tiempo."
       }
     ]
   },
   {
     "id": "ITC-BT-16-58",
     "type": "simple",
-    "question": "¿Quién resuelve en caso de discrepancia sobre el sistema elegido?",
+    "question": "¿Qué tipo de cerradura deben tener las puertas de los locales y armarios de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "El juzgado de lo civil.",
+        "answer": "Cerradura de alta seguridad con llave incopiable.",
         "isCorrect": false,
-        "explanation": "Se debe agotar la vía administrativa de Industria antes de procesos judiciales."
+        "explanation": "Dificultaría el acceso rápido de los técnicos de la empresa distribuidora."
       },
       {
         "id": 2,
-        "answer": "La asociación de instaladores.",
-        "isCorrect": false,
-        "explanation": "Las asociaciones profesionales no poseen potestad legal resolutiva en este punto."
+        "answer": "Cerradura normalizada por la empresa distribuidora.",
+        "isCorrect": true,
+        "explanation": "Los apartados 2.2.1 y 2.2.2 establecen que la cerradura será la normalizada por la distribuidora."
       },
       {
         "id": 3,
-        "answer": "El Organismo Competente de la Administración.",
-        "isCorrect": true,
-        "explanation": "En caso de discrepancia resolverá el Organismo Competente de la Administración."
+        "answer": "Cierre electrónico mediante código numérico.",
+        "isCorrect": false,
+        "explanation": "No se contempla este sistema por el riesgo de fallo ante cortes de suministro."
       },
       {
         "id": 4,
-        "answer": "El defensor del consumidor.",
+        "answer": "Simple picaporte sin bloqueo por seguridad contra atrapamientos.",
         "isCorrect": false,
-        "explanation": "Carece de competencias técnicas ejecutivas sobre la aplicación del REBT."
+        "explanation": "Debe estar bloqueada para evitar manipulaciones de personal no autorizado o vandalismo."
       }
     ]
   },
   {
     "id": "ITC-BT-16-59",
     "type": "simple",
-    "question": "¿Bajo qué pretexto se admiten contadores individuales descentralizados?",
+    "question": "En un local de contadores, ¿a qué distancia máxima del techo debe quedar la parte superior de la tapa de registro?",
     "options": [
       {
         "id": 1,
-        "answer": "Por estética de la propiedad.",
+        "answer": "10 cm",
         "isCorrect": false,
-        "explanation": "Criterios estéticos no eximen del cumplimiento de normas de enlace."
+        "explanation": "Dificultaría la maniobra de apertura y el sellado de la misma."
       },
       {
         "id": 2,
-        "answer": "Por falta de espacio para un local.",
-        "isCorrect": false,
-        "explanation": "La falta de previsión arquitectónica no justifica incumplir la norma base."
+        "answer": "20 cm",
+        "isCorrect": true,
+        "explanation": "Según la normativa técnica (referida en ITC-BT-15 pero aplicable al trazado de DI), se sitúa a 20 cm del techo."
       },
       {
         "id": 3,
-        "answer": "Cuando se incorporen nuevas técnicas de telegestión.",
-        "isCorrect": true,
-        "explanation": "Se admitirán contadores individuales cuando se incorporen nuevas técnicas de telegestión."
+        "answer": "50 cm",
+        "isCorrect": false,
+        "explanation": "Distancia excesiva que desaprovecharía el espacio vertical del local."
       },
       {
         "id": 4,
-        "answer": "Si el cobre sale más barato.",
+        "answer": "No hay límite si el local tiene 3 metros de altura.",
         "isCorrect": false,
-        "explanation": "El ahorro económico del instalador no es un criterio de exención técnica."
+        "explanation": "La ergonomía de inspección requiere distancias estándar para garantizar la visibilidad."
       }
     ]
   },
   {
     "id": "ITC-BT-16-60",
     "type": "simple",
-    "question": "(Caso Práctico) Bloque de 8 plantas con 24 viviendas. ¿Solución obligatoria?",
+    "question": "¿Cuál es la función de la unidad funcional de telecomunicaciones en una centralización?",
     "options": [
       {
         "id": 1,
-        "answer": "CPM individual en cada puerta.",
+        "answer": "Permitir que los vecinos tengan conexión a Internet de alta velocidad.",
         "isCorrect": false,
-        "explanation": "Las CPM se utilizan para suministros de uno o dos usuarios."
+        "explanation": "No es una infraestructura para el servicio de datos privado de los abonados."
       },
       {
         "id": 2,
-        "answer": "Concentración en ARMARIO en planta baja.",
-        "isCorrect": false,
-        "explanation": "Al superar los 16 suministros, el uso de armario está prohibido."
+        "answer": "Albergar el equipo de comunicación y adquisición de datos de la compañía.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 indica que esta unidad opcional contiene espacio para equipos de gestión de la distribuidora."
       },
       {
         "id": 3,
-        "answer": "Concentración en LOCAL en planta baja o sótano.",
-        "isCorrect": true,
-        "explanation": "Al superar 16 contadores y tener hasta 12 plantas, la ubicación en local es obligatoria."
+        "answer": "Emitir una señal de radio para la lectura desde la vía pública.",
+        "isCorrect": false,
+        "explanation": "La unidad solo alberga el espacio físico; la tecnología de lectura depende del contador."
       },
       {
         "id": 4,
-        "answer": "Concentraciones por plantas.",
+        "answer": "Monitorizar la temperatura del local y activar la ventilación.",
         "isCorrect": false,
-        "explanation": "Requeriría más de 16 contadores por planta o superar las 12 plantas."
+        "explanation": "La ventilación es pasiva por diseño; no se requiere gestión telemática para ello."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-61",
+    "type": "multiple",
+    "question": "¿Qué elementos se integran dentro de una Caja de Protección y Medida (CPM) para suministros individuales?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los fusibles generales de protección.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "El equipo de medida (contador).",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "El interruptor automático de la vivienda.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "El dispositivo para discriminación horaria.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Según el apartado 2.1 de la ITC-BT-16, la CPM reúne bajo una misma envolvente los fusibles generales, el contador y el dispositivo de discriminación horaria."
+  },
+  {
+    "id": "ITC-BT-16-62",
+    "type": "multiple",
+    "question": "¿En qué lugares está permitido situar la concentración de contadores en un edificio de hasta 12 plantas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Planta baja.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Entresuelo.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Primer sótano.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Segundo sótano.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 2.2 de la ITC-BT-16 limita la ubicación en edificios de hasta 12 plantas a la planta baja, entresuelo o primer sótano."
+  },
+  {
+    "id": "ITC-BT-16-63",
+    "type": "multiple",
+    "question": "¿Qué locales o recintos NO pueden coincidir con el local destinado a contadores eléctricos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cuarto de calderas.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Recinto de telecomunicaciones (RITI).",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Maquinaria de ascensores.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Portal de entrada al edificio.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 2.2.1 prohíbe taxativamente que el local coincida con calderas, gas, agua, telecomunicaciones o maquinaria de ascensores."
+  },
+  {
+    "id": "ITC-BT-16-64",
+    "type": "multiple",
+    "question": "¿Qué condiciones mínimas de habitabilidad y construcción debe cumplir el local de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Altura mínima de 2,30 m.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Estar libre de vibraciones y humedades.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Disponer de aire acondicionado.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Contar con ventilación suficiente.",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "El apartado 2.2.1 establece requisitos de altura, ausencia de vibraciones/humedad y necesidad de ventilación adecuada."
+  },
+  {
+    "id": "ITC-BT-16-65",
+    "type": "multiple",
+    "question": "¿Qué requisitos debe cumplir el Interruptor General de Maniobra (IGM)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ser de corte omnipolar.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Ser de apertura en carga.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Debe cortar el neutro después que las fases.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Debe tener protección térmica ajustable.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 3 de la ITC-BT-16 exige un interruptor omnipolar, de apertura en carga y que el neutro no se corte antes que los otros polos."
+  },
+  {
+    "id": "ITC-BT-16-66",
+    "type": "multiple",
+    "question": "¿Qué unidades funcionales componen eléctricamente una concentración de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Unidad de Interruptor General de Maniobra.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Unidad de embarrado general y fusibles de seguridad.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Unidad de medida.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Unidad de transformación de tensión.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 3 detalla las unidades de IGM, embarrado/fusibles y medida como componentes fundamentales de la centralización."
+  },
+  {
+    "id": "ITC-BT-16-67",
+    "type": "multiple",
+    "question": "¿Qué características deben tener los conductores de cobre utilizados en la centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Clase 2 de flexibilidad.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Aislamiento seco extruido.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Identificación por colores según norma.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Recubrimiento de plomo para protección química.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 1 especifica conductores de clase 2 con aislamiento extruido y código de colores normalizado."
+  },
+  {
+    "id": "ITC-BT-16-68",
+    "type": "multiple",
+    "question": "¿Bajo qué circunstancias se permite NO instalar el hilo de mando en las derivaciones individuales?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uso de contadores inteligentes con telegestión.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Previa consulta a la empresa suministradora.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Si el usuario no contrata discriminación horaria.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Si la longitud de la derivación es inferior a 5 m.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 1 de la ITC-BT-16 exime del hilo de mando al usar contadores con telegestión, previa consulta a la compañía."
+  },
+  {
+    "id": "ITC-BT-16-69",
+    "type": "multiple",
+    "question": "¿Qué dotación de equipos de emergencia y seguridad debe tener el local de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Alumbrado de emergencia de al menos 1 hora de autonomía.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Iluminación mínima de 5 lux en emergencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Extintor móvil 21B en el exterior.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Sistema de megafonía para avisos de evacuación.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 2.2.1 especifica las características del alumbrado de emergencia (1h/5 lux) y la necesidad del extintor 21B exterior."
+  },
+  {
+    "id": "ITC-BT-16-70",
+    "type": "multiple",
+    "question": "¿Qué tipos de instalaciones se consideran 'Colocación en forma individual'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Suministro a un único usuario independiente.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Suministro a dos usuarios desde un mismo lugar.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Suministro a tres usuarios en el mismo rellano.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Suministro a locales comerciales en régimen de alquiler.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "El apartado 2.1 limita la colocación individual a uno o dos usuarios alimentados desde el mismo punto."
+  },
+  {
+    "id": "ITC-BT-16-71",
+    "type": "simple",
+    "question": "En un edificio con centralizaciones parciales por plantas, ¿cuál es el número mínimo de contadores por cada concentración?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Más de 4 contadores.",
+        "isCorrect": false,
+        "explanation": "Cifra baja que no justificaría la reserva de un recinto técnico por planta."
+      },
+      {
+        "id": 2,
+        "answer": "Más de 16 contadores.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 permite concentraciones por plantas solo cuando cada una tenga más de 16 contadores."
+      },
+      {
+        "id": 3,
+        "answer": "Al menos un contador por cada puerta.",
+        "isCorrect": false,
+        "explanation": "No es el criterio técnico para definir una centralización parcial reglamentada."
+      },
+      {
+        "id": 4,
+        "answer": "Exactamente 10 contadores.",
+        "isCorrect": false,
+        "explanation": "La norma no fija un número exacto, sino un umbral mínimo de rentabilidad de espacio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-72",
+    "type": "simple",
+    "question": "Al realizar una ampliación en un edificio antiguo, se detecta un local de contadores que sirve de paso hacia el cuarto de calderas. ¿Es legal esta configuración?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, siempre que las calderas sean eléctricas.",
+        "isCorrect": false,
+        "explanation": "Incluso siendo eléctricas, el local de contadores no debe servir de paso a otros servicios."
+      },
+      {
+        "id": 2,
+        "answer": "No, el local no servirá nunca de paso ni de acceso a otros locales.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 de la ITC-BT-16 prohíbe que el local de contadores sirva de paso o acceso a otros recintos."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, si la puerta de las calderas es RF 120.",
+        "isCorrect": false,
+        "explanation": "La prohibición de paso es absoluta independientemente de la protección de la puerta colindante."
+      },
+      {
+        "id": 4,
+        "answer": "Solo si el edificio fue construido antes del año 2002.",
+        "isCorrect": false,
+        "explanation": "Toda reforma o ampliación actual debe adaptarse a las condiciones de seguridad del REBT vigente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-73",
+    "type": "simple",
+    "question": "¿Cuál es la resistencia mecánica mínima exigida para las paredes donde se fija la concentración de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Equivalente a una placa de cartón-yeso estándar.",
+        "isCorrect": false,
+        "explanation": "Soporte insuficiente para el peso y las vibraciones de una centralización colectiva."
+      },
+      {
+        "id": 2,
+        "answer": "No inferior a la de tabicón de medio pie de ladrillo hueco.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 exige una resistencia mínima equivalente a medio pie de ladrillo hueco."
+      },
+      {
+        "id": 3,
+        "answer": "Hormigón armado de 20 cm de espesor.",
+        "isCorrect": false,
+        "explanation": "Requisito estructural excesivo para la carga que supone un conjunto de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Cualquier paramento que soporte 50 kg/m2.",
+        "isCorrect": false,
+        "explanation": "La norma define la resistencia basándose en una solución constructiva de referencia, no en kg."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-74",
+    "type": "simple",
+    "question": "¿Qué elemento de ventilación es obligatorio instalar en la puerta o paredes del local de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un extractor eléctrico conectado a la iluminación.",
+        "isCorrect": false,
+        "explanation": "La ventilación forzada no es el requisito base si se garantiza la natural."
+      },
+      {
+        "id": 2,
+        "answer": "Rejillas intumescentes de ventilación.",
+        "isCorrect": true,
+        "explanation": "El diseño reglamentario del local (Figuras 1 y 2) prevé el uso de rejillas para ventilación natural."
+      },
+      {
+        "id": 3,
+        "answer": "Un sistema de climatización de precisión.",
+        "isCorrect": false,
+        "explanation": "No se requiere control de temperatura exacto, solo renovación de aire para evitar condensación."
+      },
+      {
+        "id": 4,
+        "answer": "Un filtro HEPA para evitar la entrada de polvo.",
+        "isCorrect": false,
+        "explanation": "No es una exigencia para locales técnicos de baja tensión en edificios residenciales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-75",
+    "type": "simple",
+    "question": "En un local de contadores, ¿a qué altura se sitúa el equipo autónomo de alumbrado de emergencia?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A nivel del suelo para iluminar el paso.",
+        "isCorrect": false,
+        "explanation": "La iluminación de emergencia debe situarse en puntos elevados para una mejor difusión."
+      },
+      {
+        "id": 2,
+        "answer": "Inmediato a la entrada y en el interior del local.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 especifica que el equipo de emergencia se instalará dentro e inmediato a la entrada."
+      },
+      {
+        "id": 3,
+        "answer": "Únicamente en el exterior, sobre la puerta.",
+        "isCorrect": false,
+        "explanation": "Es necesario tener visibilidad dentro del local para operar los cuadros en caso de apagón."
+      },
+      {
+        "id": 4,
+        "answer": "A media altura (1,50 m) para facilitar su testeo.",
+        "isCorrect": false,
+        "explanation": "Suele colocarse sobre el dintel de la puerta o en el techo para evitar sombras."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-76",
+    "type": "simple",
+    "question": "¿Qué unidad funcional de la centralización garantiza que la desconexión del neutro sea posterior a la de las fases?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La unidad de fusibles de seguridad.",
+        "isCorrect": false,
+        "explanation": "Los fusibles no garantizan un orden de corte, por ello el neutro no lleva fusible."
+      },
+      {
+        "id": 2,
+        "answer": "La unidad funcional de interruptor general de maniobra (IGM).",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige que el IGM garantice que el neutro no sea cortado antes que los otros polos."
+      },
+      {
+        "id": 3,
+        "answer": "La unidad funcional de medida.",
+        "isCorrect": false,
+        "explanation": "El contador mide pero no tiene funciones de maniobra de cabecera sincronizada."
+      },
+      {
+        "id": 4,
+        "answer": "El borne de salida de la derivación individual.",
+        "isCorrect": false,
+        "explanation": "Es un punto de conexión estático, sin mecanismos de interrupción."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-77",
+    "type": "simple",
+    "question": "Para una centralización de 100 kW de potencia prevista, ¿cuál es el calibre del Interruptor General de Maniobra?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "160 A",
+        "isCorrect": false,
+        "explanation": "Este calibre solo es válido para potencias de hasta 90 kW."
+      },
+      {
+        "id": 2,
+        "answer": "250 A",
+        "isCorrect": true,
+        "explanation": "El apartado 3 especifica 250 A para previsiones superiores a 90 kW y hasta 150 kW."
+      },
+      {
+        "id": 3,
+        "answer": "400 A",
+        "isCorrect": false,
+        "explanation": "Supera el requisito reglamentario para este rango de potencia."
+      },
+      {
+        "id": 4,
+        "answer": "100 A",
+        "isCorrect": false,
+        "explanation": "Calibre insuficiente que provocaría disparos por sobrecarga del interruptor general."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-78",
+    "type": "simple",
+    "question": "¿Dónde se conecta el conductor de protección de cada derivación individual en la centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Directamente al chasis metálico del contador.",
+        "isCorrect": false,
+        "explanation": "Los contadores modernos son aislantes y la tierra requiere un embarrado común identificado."
+      },
+      {
+        "id": 2,
+        "answer": "En la unidad funcional de embarrado de protección y bornes de salida.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 indica que los cables de protección de cada DI se conectan al embarrado de protección."
+      },
+      {
+        "id": 3,
+        "answer": "Al borne del neutro en el origen de la línea.",
+        "isCorrect": false,
+        "explanation": "Mezclar tierra y neutro en la centralización violaría el sistema de protección (TN-S/TT)."
+      },
+      {
+        "id": 4,
+        "answer": "No se conectan en la centralización, van directos a la CGP.",
+        "isCorrect": false,
+        "explanation": "Deben acompañar a la derivación y centralizarse en el punto de reparto para facilitar pruebas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-79",
+    "type": "simple",
+    "question": "¿Cuál es la misión de la unidad funcional de embarrado general y fusibles de seguridad?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Permitir la medida de la intensidad por cada fase.",
+        "isCorrect": false,
+        "explanation": "Esa es la función de los transformadores de intensidad o del propio contador."
+      },
+      {
+        "id": 2,
+        "answer": "Alojar el reparto principal y la protección de cada suministro.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 especifica que contiene el embarrado general y los fusibles de cada suministro."
+      },
+      {
+        "id": 3,
+        "answer": "Actuar como limitador de potencia comunitario.",
+        "isCorrect": false,
+        "explanation": "No existe un limitador comunitario por fusibles; la limitación es individual."
+      },
+      {
+        "id": 4,
+        "answer": "Identificar los errores de facturación mediante testigos luminosos.",
+        "isCorrect": false,
+        "explanation": "Es una unidad de potencia y protección pasiva, sin funciones de diagnóstico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-80",
+    "type": "simple",
+    "question": "En una centralización, ¿qué unidad funcional es la encargada de albergar los interruptores horarios?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La unidad funcional de mando.",
+        "isCorrect": false,
+        "explanation": "Esta unidad contiene los dispositivos de cambio, no necesariamente los de medida/tiempo."
+      },
+      {
+        "id": 2,
+        "answer": "La unidad funcional de medida.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 indica que la unidad de medida contiene contadores, interruptores horarios y dispositivos de medida."
+      },
+      {
+        "id": 3,
+        "answer": "La unidad funcional de telecomunicaciones.",
+        "isCorrect": false,
+        "explanation": "Se limita a la transmisión de datos, no a la gestión del tiempo de facturación."
+      },
+      {
+        "id": 4,
+        "answer": "El propio Interruptor General de Maniobra.",
+        "isCorrect": false,
+        "explanation": "El IGM es un elemento de corte de potencia manual, sin funciones de reloj."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-81",
+    "type": "simple",
+    "question": "¿Qué material debe utilizarse para las paredes de obra del conducto de derivaciones que pasa por zonas comunes?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Paredes de clase M1.",
+        "isCorrect": false,
+        "explanation": "M1 es combustible, lo cual es inaceptable para un conducto de fuego (RF)."
+      },
+      {
+        "id": 2,
+        "answer": "Paredes con resistencia al fuego RF 120 (EI 120).",
+        "isCorrect": true,
+        "explanation": "La normativa técnica exige paredes de resistencia al fuego RF 120 para los conductos de derivaciones."
+      },
+      {
+        "id": 3,
+        "answer": "Hormigón ligero con virutas de madera.",
+        "isCorrect": false,
+        "explanation": "La madera aumenta la carga de fuego y está prohibida en estos conductos."
+      },
+      {
+        "id": 4,
+        "answer": "Cualquier material si se forra con lana de roca.",
+        "isCorrect": false,
+        "explanation": "La resistencia debe ser intrínseca de la pared del conducto según el estándar constructivo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-82",
+    "type": "simple",
+    "question": "Al proyectar un edificio de 15 plantas, se decide concentrar los contadores por plantas intermedias. ¿Cuál es el mínimo de plantas por grupo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cada 3 plantas.",
+        "isCorrect": false,
+        "explanation": "Agrupación demasiado pequeña que encarece innecesariamente la instalación."
+      },
+      {
+        "id": 2,
+        "answer": "Cada concentración comprenderá 6 o más plantas.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 especifica que en edificios superiores a 12 plantas se agrupan bloques de 6 o más plantas."
+      },
+      {
+        "id": 3,
+        "answer": "Exactamente cada 10 plantas.",
+        "isCorrect": false,
+        "explanation": "No es una cifra fija, el reglamento solo impone un mínimo de 6."
+      },
+      {
+        "id": 4,
+        "answer": "Toda la centralización debe ir en la planta 1.",
+        "isCorrect": false,
+        "explanation": "En edificios de gran altura se permiten grupos intermedios para optimizar secciones de cable."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-83",
+    "type": "simple",
+    "question": "¿Cuál es la sección recomendada para el conexionado de contadores en viviendas de grado de electrificación elevada?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "6 mm2",
+        "isCorrect": false,
+        "explanation": "Sección mínima general, pero insuficiente para la demanda de una electrificación elevada."
+      },
+      {
+        "id": 2,
+        "answer": "16 mm2",
+        "isCorrect": true,
+        "explanation": "El apartado 1 recomienda 16 mm2 para viviendas de grado de electrificación elevada."
+      },
+      {
+        "id": 3,
+        "answer": "10 mm2",
+        "isCorrect": false,
+        "explanation": "Este valor se recomienda para electrificación básica."
+      },
+      {
+        "id": 4,
+        "answer": "25 mm2",
+        "isCorrect": false,
+        "explanation": "Sección sobredimensionada para un suministro doméstico estándar de electrificación elevada."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-84",
+    "type": "simple",
+    "question": "¿Qué ocurre si el trazado entre el embarrado y el contador en electrificación elevada es inferior a 8 metros?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe usarse obligatoriamente 16 mm2.",
+        "isCorrect": false,
+        "explanation": "A distancias muy cortas, la caída de tensión es despreciable y permite secciones menores."
+      },
+      {
+        "id": 2,
+        "answer": "Se puede utilizar la sección mínima de 6 mm2.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 exime de la recomendación de 16 mm2 si el trazado es menor de 8 metros en elevada."
+      },
+      {
+        "id": 3,
+        "answer": "Está prohibido un trazado tan corto.",
+        "isCorrect": false,
+        "explanation": "No existe una distancia mínima obligatoria entre embarrado y equipo de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Debe usarse cable flexible exclusivamente.",
+        "isCorrect": false,
+        "explanation": "La longitud no condiciona la clase de flexibilidad del conductor según la norma."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-85",
+    "type": "simple",
+    "question": "¿Qué identificación debe tener el borne del embarrado de protección en la centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Letra N en color azul.",
+        "isCorrect": false,
+        "explanation": "Identificación exclusiva para el neutro, no para la protección."
+      },
+      {
+        "id": 2,
+        "answer": "Símbolo normalizado de puesta a tierra.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige que el embarrado de protección esté señalizado con el símbolo de puesta a tierra."
+      },
+      {
+        "id": 3,
+        "answer": "Letra F en color marrón.",
+        "isCorrect": false,
+        "explanation": "Identificación para una fase, incompatible con el circuito de protección."
+      },
+      {
+        "id": 4,
+        "answer": "Sin identificación si es de color cobre desnudo.",
+        "isCorrect": false,
+        "explanation": "Toda parte activa o de protección en un cuadro debe estar debidamente señalizada."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-86",
+    "type": "simple",
+    "question": "En un local de contadores, ¿cuál es el requerimiento de ventilación para evitar condensaciones?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uso de deshumidificadores químicos portátiles.",
+        "isCorrect": false,
+        "explanation": "No es un sistema de ventilación reglamentario ni permanente."
+      },
+      {
+        "id": 2,
+        "answer": "Ventilación suficiente para comprobar el buen funcionamiento.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 exige ventilación y luz suficiente para supervisar los componentes."
+      },
+      {
+        "id": 3,
+        "answer": "Presurización del local con nitrógeno seco.",
+        "isCorrect": false,
+        "explanation": "Medida extrema innecesaria para instalaciones de enlace en baja tensión."
+      },
+      {
+        "id": 4,
+        "answer": "Mantener la puerta abierta permanentemente.",
+        "isCorrect": false,
+        "explanation": "La puerta debe estar cerrada y bajo llave por seguridad y custodia de precintos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-87",
+    "type": "simple",
+    "question": "¿Qué característica debe tener el Interruptor General de Maniobra para evitar cortes accidentales del neutro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El neutro no debe ser cortado nunca.",
+        "isCorrect": false,
+        "explanation": "El corte debe ser omnipolar por seguridad, pero con un orden específico."
+      },
+      {
+        "id": 2,
+        "answer": "Garantizar que el neutro no sea cortado antes que los otros polos.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige esta sincronización para evitar sobretensiones por neutro flotante."
+      },
+      {
+        "id": 3,
+        "answer": "Uso de un polo de neutro con mayor sección que las fases.",
+        "isCorrect": false,
+        "explanation": "La sección no evita el orden de corte mecánico del interruptor."
+      },
+      {
+        "id": 4,
+        "answer": "Mecanismo de enclavamiento con la puerta del armario.",
+        "isCorrect": false,
+        "explanation": "No es un requisito exigido para los IGM de centralizaciones de contadores."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-88",
+    "type": "simple",
+    "question": "¿Qué unidad funcional de la centralización permite la comunicación remota de los datos de consumo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Unidad de medida general.",
+        "isCorrect": false,
+        "explanation": "Mide el consumo localmente; la comunicación requiere una unidad o equipo específico."
+      },
+      {
+        "id": 2,
+        "answer": "Unidad funcional de telecomunicaciones (opcional).",
+        "isCorrect": true,
+        "explanation": "El apartado 3 contempla esta unidad para equipos de comunicación y adquisición de datos."
+      },
+      {
+        "id": 3,
+        "answer": "Unidad de mando para cambio de tarifa.",
+        "isCorrect": false,
+        "explanation": "Esta unidad envía órdenes de cambio, no recopila datos de consumo masivos."
+      },
+      {
+        "id": 4,
+        "answer": "Directamente a través de los bornes de protección.",
+        "isCorrect": false,
+        "explanation": "El circuito de protección (tierra) no es el canal para la transmisión de datos tarifarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-89",
+    "type": "simple",
+    "question": "¿Cuál es la autonomía mínima exigida para el sistema de alumbrado de emergencia del local de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "30 minutos.",
+        "isCorrect": false,
+        "explanation": "Tiempo insuficiente para operaciones técnicas de envergadura en caso de fallo general."
+      },
+      {
+        "id": 2,
+        "answer": "1 hora.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 exige una autonomía no inferior a 1 hora para el alumbrado de emergencia."
+      },
+      {
+        "id": 3,
+        "answer": "3 horas.",
+        "isCorrect": false,
+        "explanation": "Valor superior al estándar exigido para estos recintos técnicos según el REBT."
+      },
+      {
+        "id": 4,
+        "answer": "No se exige autonomía si hay ventanas al exterior.",
+        "isCorrect": false,
+        "explanation": "La iluminación de emergencia es obligatoria incluso con luz natural diurna."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-90",
+    "type": "simple",
+    "question": "En un armario de contadores, ¿quién es el responsable del mantenimiento del extintor móvil?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La empresa suministradora de electricidad.",
+        "isCorrect": false,
+        "explanation": "La distribuidora gestiona la energía, no el equipo contraincendios del edificio."
+      },
+      {
+        "id": 2,
+        "answer": "La propiedad del edificio.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.2 indica que el mantenimiento del extintor será a cargo de la propiedad del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "El ayuntamiento mediante el servicio de bomberos.",
+        "isCorrect": false,
+        "explanation": "Bomberos supervisan, pero el mantenimiento privado es responsabilidad del dueño."
+      },
+      {
+        "id": 4,
+        "answer": "El instalador eléctrico durante los primeros 10 años.",
+        "isCorrect": false,
+        "explanation": "La garantía de obra no incluye el mantenimiento operativo de los equipos de extinción."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-91",
+    "type": "simple",
+    "question": "¿Qué elemento separa físicamente la Línea General de Alimentación del embarrado de la centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "La CGP separa la red de distribución de la LGA, no la LGA de la centralización."
+      },
+      {
+        "id": 2,
+        "answer": "El Interruptor General de Maniobra (IGM).",
+        "isCorrect": true,
+        "explanation": "El apartado 3 indica que el IGM se instalará entre la LGA y el embarrado general de la centralización."
+      },
+      {
+        "id": 3,
+        "answer": "El borne del contador principal de servicios comunes.",
+        "isCorrect": false,
+        "explanation": "Es un elemento de consumo más, no el punto de interconexión de cabecera."
+      },
+      {
+        "id": 4,
+        "answer": "Un transformador de aislamiento 1:1.",
+        "isCorrect": false,
+        "explanation": "No se utilizan transformadores en este punto de la instalación de enlace."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-92",
+    "type": "simple",
+    "question": "¿Cómo deben ser las uniones de los cables en los bornes de salida de la centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Mediante soldadura blanda de estaño.",
+        "isCorrect": false,
+        "explanation": "Prohibido por el riesgo de desprendimiento ante calentamientos o cortocircuitos."
+      },
+      {
+        "id": 2,
+        "answer": "Directamente sin preparación especial o terminales.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 especifica que las conexiones se efectuarán directamente sin requerir terminales."
+      },
+      {
+        "id": 3,
+        "answer": "Atornilladas mediante orejetas de cobre.",
+        "isCorrect": false,
+        "explanation": "Sistema propio de grandes potencias, pero no exigido para derivaciones individuales estándar."
+      },
+      {
+        "id": 4,
+        "answer": "Mediante conectores rápidos de bayoneta.",
+        "isCorrect": false,
+        "explanation": "No es un sistema normalizado por el REBT para conexiones en centralizaciones."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-93",
+    "type": "simple",
+    "question": "En un local de contadores con riesgo de inundación, ¿qué debe instalarse si el suelo está bajo cota?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una bomba de achique automática de gran caudal.",
+        "isCorrect": false,
+        "explanation": "Esa es una medida activa; la norma exige primero una solución pasiva de evacuación."
+      },
+      {
+        "id": 2,
+        "answer": "Sumideros de desagüe.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 exige sumideros si la cota es inferior o igual a locales colindantes."
+      },
+      {
+        "id": 3,
+        "answer": "Un escalón de entrada de al menos 50 cm.",
+        "isCorrect": false,
+        "explanation": "Dificultaría el acceso y no resolvería las filtraciones internas del propio local."
+      },
+      {
+        "id": 4,
+        "answer": "Pintura bituminosa en toda la superficie del suelo.",
+        "isCorrect": false,
+        "explanation": "La pintura no evacúa el agua acumulada por averías o inundación externa."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-94",
+    "type": "simple",
+    "question": "¿Cuál es la anchura mínima de pasillo exigida frente a una centralización instalada en un local?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "0,90 metros.",
+        "isCorrect": false,
+        "explanation": "Anchura por debajo del mínimo reglamentario para maniobras de seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "1,10 metros.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 fija en 1,10 metros la distancia mínima hasta el primer obstáculo frente a los contadores."
+      },
+      {
+        "id": 3,
+        "answer": "1,50 metros.",
+        "isCorrect": false,
+        "explanation": "Valor exigido para pasillos frente a armarios, pero no el mínimo estricto dentro del local."
+      },
+      {
+        "id": 4,
+        "answer": "2,00 metros.",
+        "isCorrect": false,
+        "explanation": "Espacio que no se requiere por normativa para este tipo de recintos técnicos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-95",
+    "type": "simple",
+    "question": "Al elegir los materiales de construcción del local de contadores, ¿qué clase se exige para el suelo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Suelo de clase M0.",
+        "isCorrect": false,
+        "explanation": "Esta clase se reserva para paredes; para el suelo el requisito es ligeramente distinto."
+      },
+      {
+        "id": 2,
+        "answer": "Suelo de clase M1.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 exige que los suelos del local sean de clase M1."
+      },
+      {
+        "id": 3,
+        "answer": "Suelo de clase M3.",
+        "isCorrect": false,
+        "explanation": "Clasificación de alta inflamabilidad, prohibida en zonas de riesgo eléctrico."
+      },
+      {
+        "id": 4,
+        "answer": "Madera tratada con sales ignífugas.",
+        "isCorrect": false,
+        "explanation": "La madera, incluso tratada, no cumple con la estabilidad necesaria para este local."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-96",
+    "type": "simple",
+    "question": "¿Qué elemento de señalización es obligatorio en el local para identificar el destino de cada contador?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un plano general del edificio plastificado.",
+        "isCorrect": false,
+        "explanation": "No sustituye la necesidad de identificación individual en el propio cuadro."
+      },
+      {
+        "id": 2,
+        "answer": "Marcado visible que permita la correcta identificación del suministro.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 obliga a marcar de forma visible el suministro al que corresponde cada elemento."
+      },
+      {
+        "id": 3,
+        "answer": "Código de barras para lectura con escáner.",
+        "isCorrect": false,
+        "explanation": "La identificación debe ser legible por humanos sin necesidad de dispositivos electrónicos."
+      },
+      {
+        "id": 4,
+        "answer": "Luz LED parpadeante en el contador activo.",
+        "isCorrect": false,
+        "explanation": "Es un indicador de funcionamiento, no un sistema de identificación de abonado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-97",
+    "type": "simple",
+    "question": "¿Qué temperatura de ensayo debe superar la envolvente plástica de un contador?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "650 °C",
+        "isCorrect": false,
+        "explanation": "Valor general para cajas de empalme, pero insuficiente para envolventes de medida."
+      },
+      {
+        "id": 2,
+        "answer": "850 °C",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige 850 °C para envolventes, tapas y materiales que no porten corriente."
+      },
+      {
+        "id": 3,
+        "answer": "960 °C",
+        "isCorrect": false,
+        "explanation": "Temperatura reservada para piezas aislantes en contacto directo con bornes activos."
+      },
+      {
+        "id": 4,
+        "answer": "1000 °C",
+        "isCorrect": false,
+        "explanation": "Supera el límite de ensayo estándar definido en la norma de inflamabilidad."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-98",
+    "type": "simple",
+    "question": "En un edificio con dos suministros desde el mismo punto, ¿se puede usar una Caja de Protección y Medida?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "No, las CPM son exclusivamente para un solo usuario.",
+        "isCorrect": false,
+        "explanation": "La normativa permite agrupar hasta dos suministros bajo esta modalidad."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, para suministros a un usuario independiente o a dos desde un mismo lugar.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 permite la colocación individual (CPM) para uno o dos usuarios."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si se trata de una vivienda y un local del mismo dueño.",
+        "isCorrect": false,
+        "explanation": "La titularidad no es el factor determinante, sino el número de puntos de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Solo si el edificio no supera las 2 plantas.",
+        "isCorrect": false,
+        "explanation": "La altura del edificio no limita el uso de CPM para dos usuarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-99",
+    "type": "simple",
+    "question": "¿Qué ocurre con los fusibles de seguridad en el caso de colocación individual (CPM)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Deben instalarse por duplicado para mayor seguridad.",
+        "isCorrect": false,
+        "explanation": "No se requiere redundancia de protecciones de cabecera en suministros individuales."
+      },
+      {
+        "id": 2,
+        "answer": "Los fusibles de seguridad coinciden con los generales de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 especifica que en colocación individual ambos fusibles coinciden."
+      },
+      {
+        "id": 3,
+        "answer": "Se eliminan para simplificar el montaje.",
+        "isCorrect": false,
+        "explanation": "Toda instalación de enlace debe contar con fusibles de protección en su origen."
+      },
+      {
+        "id": 4,
+        "answer": "Se sitúan obligatoriamente en el interior de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Deben estar en la CPM para proteger toda la línea de derivación individual."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-100",
+    "type": "simple",
+    "question": "¿Quién especifica la solución a adoptar para suministros con medida indirecta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El instalador basándose en su experiencia profesional.",
+        "isCorrect": false,
+        "explanation": "La complejidad de la medida indirecta requiere el acuerdo con el gestor de la red."
+      },
+      {
+        "id": 2,
+        "answer": "Los requisitos particulares de la empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.1 deriva la solución a los requisitos particulares de la distribuidora."
+      },
+      {
+        "id": 3,
+        "answer": "El fabricante del equipo de medida seleccionado.",
+        "isCorrect": false,
+        "explanation": "El fabricante ofrece el producto, pero la configuración de red la dicta la compañía."
+      },
+      {
+        "id": 4,
+        "answer": "El consejo de industria de la comunidad autónoma.",
+        "isCorrect": false,
+        "explanation": "Industria legisla de forma general, pero no entra en el diseño técnico de cada suministro."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-101",
+    "type": "simple",
+    "question": "En un local de contadores, ¿cuál es el requisito de iluminación para que se considere 'suficiente'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Permitir leer periódicos en cualquier punto del local.",
+        "isCorrect": false,
+        "explanation": "Criterio subjetivo no definido técnicamente en el reglamento."
+      },
+      {
+        "id": 2,
+        "answer": "Suficiente para comprobar el buen funcionamiento de los componentes.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.1 vincula la iluminación a la capacidad de supervisión técnica de la centralización."
+      },
+      {
+        "id": 3,
+        "answer": "Un mínimo de 500 lux mediante pantallas fluorescentes.",
+        "isCorrect": false,
+        "explanation": "Este nivel es de oficinas o talleres, excesivo para la iluminación base de un local técnico."
+      },
+      {
+        "id": 4,
+        "answer": "Solo se requiere iluminación si el local no tiene claraboyas.",
+        "isCorrect": false,
+        "explanation": "La iluminación artificial es obligatoria independientemente de la luz natural existente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-102",
+    "type": "simple",
+    "question": "Para suministros industriales concentrados, ¿qué característica debe tener el Interruptor General de Maniobra para potencias > 150 kW?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de 250 A obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "250 A es el límite para 150 kW; potencias superiores requieren otras soluciones."
+      },
+      {
+        "id": 2,
+        "answer": "No se contempla en la tabla estándar, requiere estudio específico.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 solo tabla calibres hasta 150 kW (250 A); valores superiores se rigen por potencias de diseño."
+      },
+      {
+        "id": 3,
+        "answer": "Se deben instalar dos interruptores de 160 A en paralelo.",
+        "isCorrect": false,
+        "explanation": "La conexión de interruptores en paralelo está prohibida por la dificultad de asegurar el disparo simultáneo."
+      },
+      {
+        "id": 4,
+        "answer": "Debe ser un interruptor de corte en aire con protección electrónica.",
+        "isCorrect": false,
+        "explanation": "A partir de ciertas potencias es común, pero el reglamento no lo impone para centralizaciones estándar."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-103",
+    "type": "simple",
+    "question": "¿Qué unidad funcional es responsable de la protección contra cortocircuitos de las derivaciones individuales?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La unidad de interruptor general de maniobra.",
+        "isCorrect": false,
+        "explanation": "El IGM no tiene función de protección ante cortocircuitos, solo de maniobra manual."
+      },
+      {
+        "id": 2,
+        "answer": "La unidad de embarrado general y fusibles de seguridad.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 especifica que esta unidad contiene los fusibles de seguridad para todos los suministros."
+      },
+      {
+        "id": 3,
+        "answer": "La unidad de bornes de salida.",
+        "isCorrect": false,
+        "explanation": "Es un elemento pasivo de conexión, sin capacidad de interrupción automática."
+      },
+      {
+        "id": 4,
+        "answer": "El propio contador inteligente.",
+        "isCorrect": false,
+        "explanation": "El contador mide la energía y puede cortar por potencia, pero no protege ante cortocircuitos severos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-104",
+    "type": "simple",
+    "question": "En un local de contadores, ¿qué elemento garantiza que se pueda trabajar con seguridad sin tensión en todo el conjunto?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La desconexión de los fusibles de la CGP.",
+        "isCorrect": false,
+        "explanation": "Esa maniobra requiere acceso a la red de distribución; el local debe tener su propio corte."
+      },
+      {
+        "id": 2,
+        "answer": "El accionamiento del Interruptor General de Maniobra.",
+        "isCorrect": true,
+        "explanation": "Su misión reglamentaria es dejar fuera de servicio toda la concentración de contadores."
+      },
+      {
+        "id": 3,
+        "answer": "La retirada manual de todos los contadores de sus bases.",
+        "isCorrect": false,
+        "explanation": "Maniobra peligrosa y no reglamentada como método de corte de cabecera."
+      },
+      {
+        "id": 4,
+        "answer": "El corte del suministro desde el centro de transformación.",
+        "isCorrect": false,
+        "explanation": "Afectaría a múltiples edificios y no es una medida operativa para el mantenimiento interno."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-105",
+    "type": "simple",
+    "question": "¿Qué identificación debe llevar el cable de 1,5 mm2 destinado a los servicios de mando?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Color gris con rayas negras.",
+        "isCorrect": false,
+        "explanation": "Código de color no reconocido para circuitos de mando en el REBT."
+      },
+      {
+        "id": 2,
+        "answer": "Color rojo.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-16 establece el color rojo para el cableado de mando y control."
+      },
+      {
+        "id": 3,
+        "answer": "Color violeta para diferenciarlo de las fases.",
+        "isCorrect": false,
+        "explanation": "El color reglamentario para el mando en instalaciones de enlace es el rojo."
+      },
+      {
+        "id": 4,
+        "answer": "Sin color específico si va marcado con números.",
+        "isCorrect": false,
+        "explanation": "El código de colores es obligatorio para facilitar la identificación visual rápida y segura."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-106",
+    "type": "simple",
+    "question": "¿Cuál es la tensión asignada para los cables multiconductores en centralizaciones de contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "450/750 V",
+        "isCorrect": false,
+        "explanation": "Este valor es para cables unipolares estándar, no para multiconductores."
+      },
+      {
+        "id": 2,
+        "answer": "0,6/1 kV",
+        "isCorrect": true,
+        "explanation": "Según la normativa de enlace (ITC-BT-15 referenciada), los multiconductores requieren aislamiento de 0,6/1 kV."
+      },
+      {
+        "id": 3,
+        "answer": "300/300 V",
+        "isCorrect": false,
+        "explanation": "Nivel de aislamiento muy bajo, reservado para pequeños electrodomésticos portátiles."
+      },
+      {
+        "id": 4,
+        "answer": "No se permiten cables multiconductores en la centralización.",
+        "isCorrect": false,
+        "explanation": "Están permitidos siempre que cumplan con los niveles de aislamiento y reacción al fuego exigidos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-107",
+    "type": "simple",
+    "question": "En un armario de contadores, ¿dónde debe situarse el extintor móvil respecto a la puerta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Dentro del armario, colgado de una de las puertas.",
+        "isCorrect": false,
+        "explanation": "Si hay un incendio interno, el acceso al extintor sería imposible por el humo o calor."
+      },
+      {
+        "id": 2,
+        "answer": "En sus inmediaciones, fuera del armario.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2.2 indica que se instalará un extintor en sus inmediaciones, cargado por la propiedad."
+      },
+      {
+        "id": 3,
+        "answer": "A una distancia máxima de 15 metros en el pasillo común.",
+        "isCorrect": false,
+        "explanation": "La norma exige proximidad inmediata para actuar rápidamente sobre el foco eléctrico."
+      },
+      {
+        "id": 4,
+        "answer": "Escondido tras una placa decorativa por estética.",
+        "isCorrect": false,
+        "explanation": "Los elementos de extinción deben estar visibles, señalizados y libres de obstáculos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-108",
+    "type": "simple",
+    "question": "¿Qué unidad funcional de la centralización se encarga de proteger al embarrado general de contactos indirectos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La unidad de fusibles de seguridad.",
+        "isCorrect": false,
+        "explanation": "Los fusibles protegen contra sobreintensidades, no contra contactos indirectos por defecto de aislamiento."
+      },
+      {
+        "id": 2,
+        "answer": "La envolvente de doble aislamiento del IGM y de las unidades funcionales.",
+        "isCorrect": true,
+        "explanation": "El uso de envolventes aislantes y la protección IPXXB garantizan la seguridad frente a contactos."
+      },
+      {
+        "id": 3,
+        "answer": "El diferencial de cabecera de la centralización.",
+        "isCorrect": false,
+        "explanation": "No existe un interruptor diferencial general para toda la centralización de abonados."
+      },
+      {
+        "id": 4,
+        "answer": "El borne de tierra del local.",
+        "isCorrect": false,
+        "explanation": "El borne facilita la conexión, pero la protección depende del diseño aislante de las unidades."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-109",
+    "type": "simple",
+    "question": "¿Cuál es el requisito de inflamabilidad para los bornes de salida de las derivaciones individuales?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Soportar una temperatura de 650 °C durante 30 s.",
+        "isCorrect": false,
+        "explanation": "Valor por debajo del estándar exigido para piezas que soportan conductores activos."
+      },
+      {
+        "id": 2,
+        "answer": "Superar el ensayo del hilo incandescente a 960 °C.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 exige 960 °C para materiales aislantes en contacto con partes que transportan corriente."
+      },
+      {
+        "id": 3,
+        "answer": "Ser de material cerámico vitrificado.",
+        "isCorrect": false,
+        "explanation": "Aunque es excelente, no es el único material permitido si el plástico supera el ensayo de 960 °C."
+      },
+      {
+        "id": 4,
+        "answer": "No se exige ensayo si los bornes son metálicos.",
+        "isCorrect": false,
+        "explanation": "El metal no arde, pero el soporte aislante de los bornes sí debe ser ensayado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-16-110",
+    "type": "simple",
+    "question": "En una centralización con previsión de carga de 120 kW, ¿qué calibre de Interruptor General de Maniobra debe elegirse?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "160 A",
+        "isCorrect": false,
+        "explanation": "Válido solo para cargas de hasta 90 kW; para 120 kW se fundiría o dispararía."
+      },
+      {
+        "id": 2,
+        "answer": "250 A",
+        "isCorrect": true,
+        "explanation": "El apartado 3 prescribe 250 A para el rango de potencias superiores a 90 kW y hasta 150 kW."
+      },
+      {
+        "id": 3,
+        "answer": "400 A",
+        "isCorrect": false,
+        "explanation": "Calibre superior al requerido para esta potencia según la tabla normativa."
+      },
+      {
+        "id": 4,
+        "answer": "Depende del número de fases suministradas.",
+        "isCorrect": false,
+        "explanation": "El calibre se basa en la potencia total prevista, no en el número de fases individuales."
       }
     ]
   }

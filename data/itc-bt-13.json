@@ -2,775 +2,3100 @@
   {
     "id": "ITC-BT-13-01",
     "type": "simple",
-    "question": "¿Cuál es la función principal que define a las Cajas Generales de Protección (CGP)?",
+    "question": "En una nueva construcción, se decide colocar la Caja General de Protección. ¿Cuál es la ubicación preferente según la normativa?",
     "options": [
       {
         "id": 1,
-        "answer": "Alojamiento de los contadores de energía para su lectura por la compañía.",
+        "answer": "En el interior del portal, protegida de la intemperie.",
         "isCorrect": false,
-        "explanation": "El alojamiento de contadores corresponde a las centralizaciones o cajas de protección y medida, no estrictamente a la CGP estándar aislada."
+        "explanation": "El acceso debe ser libre y permanente desde el exterior."
       },
       {
         "id": 2,
-        "answer": "Son las cajas que alojan los elementos de protección de las líneas generales de alimentación.",
+        "answer": "Sobre las fachadas exteriores, en lugares de libre y permanente acceso.",
         "isCorrect": true,
-        "explanation": "Según la ITC-BT-13, el apartado 1 establece textualmente: 'Son las cajas que alojan los elementos de protección de las líneas generales de alimentación'."
+        "explanation": "La ITC-BT-13, en su apartado 1.1, establece que las CGP se instalarán preferentemente sobre las fachadas exteriores de los edificios en lugares de libre y permanente acceso."
       },
       {
         "id": 3,
-        "answer": "Servir de punto de empalme exclusivo entre la red de alta tensión y el centro de transformación.",
+        "answer": "En un local técnico junto al centro de transformación.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-13 regula instalaciones de baja tensión, no la conexión en alta tensión."
+        "explanation": "Aunque es posible en ciertos casos, la fachada es la ubicación preferente general."
       },
       {
         "id": 4,
-        "answer": "Alojar el interruptor de control de potencia (ICP) de la instalación interior.",
+        "answer": "En el límite de la propiedad, siempre enterrada.",
         "isCorrect": false,
-        "explanation": "El ICP se ubica en el interior del local o vivienda del usuario, no en la CGP exterior."
+        "explanation": "La normativa permite montaje superficial o en nicho según el tipo de acometida."
       }
     ]
   },
   {
     "id": "ITC-BT-13-02",
     "type": "simple",
-    "question": "¿Cuál es el emplazamiento preferente establecido por la norma para las Cajas Generales de Protección?",
+    "question": "Al realizar una acometida aérea en una vivienda unifamiliar, ¿a qué altura se puede realizar el montaje superficial de la CGP?",
     "options": [
       {
         "id": 1,
-        "answer": "Sobre las fachadas exteriores de los edificios, en lugares de libre y permanente acceso.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 indica: 'Se instalarán preferentemente sobre las fachadas exteriores de los edificios, en lugares de libre y permanente acceso'."
+        "answer": "Entre 0,7 m y 1,8 m.",
+        "isCorrect": false,
+        "explanation": "Esa es la altura reglamentaria para los dispositivos de lectura de equipos de medida."
       },
       {
         "id": 2,
-        "answer": "En el interior del garaje, para protegerlas del vandalismo.",
+        "answer": "A una altura mínima de 2,5 m.",
         "isCorrect": false,
-        "explanation": "El garaje no suele ofrecer libre y permanente acceso desde el exterior a la compañía suministradora."
+        "explanation": "La altura mínima de 2,5 m es para la protección de cables en fachada, no para la CGP."
       },
       {
         "id": 3,
-        "answer": "En el cuarto de contadores obligatoriamente.",
-        "isCorrect": false,
-        "explanation": "La CGP precede a la LGA, por lo que suele ir en la frontera del edificio, no en el cuarto de contadores interior."
+        "answer": "Entre 3 m y 4 m sobre el nivel del suelo.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1.1 de la ITC-BT-13, cuando la acometida sea aérea las CGP podrán instalarse en montaje superficial a una altura comprendida entre 3 m y 4 m."
       },
       {
         "id": 4,
-        "answer": "En la azotea del edificio, cerca de la antena comunitaria.",
+        "answer": "A una altura máxima de 2 m para facilitar el acceso.",
         "isCorrect": false,
-        "explanation": "Dificultaría el acceso y alejaría la caja de la red de distribución pública."
+        "explanation": "Para acometidas aéreas se exige una altura mayor por seguridad y trazado de la red."
       }
     ]
   },
   {
     "id": "ITC-BT-13-03",
     "type": "simple",
-    "question": "En edificios con Centro de Transformación (CT) interior, ¿qué elemento puede desempeñar la función de CGP?",
+    "question": "Se proyecta una acometida subterránea para un edificio. ¿Qué requisito debe cumplir la puerta del nicho donde se alojará la CGP?",
     "options": [
       {
         "id": 1,
-        "answer": "Se debe instalar siempre una CGP externa adicional en la fachada.",
+        "answer": "Debe ser de material plástico transparente.",
         "isCorrect": false,
-        "explanation": "La norma permite explícitamente aprovechar los elementos del centro de transformación interior."
+        "explanation": "El material transparente se reserva para visores de medida, no para la puerta del nicho de la CGP."
       },
       {
         "id": 2,
-        "answer": "Los fusibles del cuadro de baja tensión de dicho centro de transformación.",
+        "answer": "Debe tener un grado de protección contra impactos IK10.",
         "isCorrect": true,
-        "explanation": "El apartado 1.1 establece que los fusibles del cuadro de BT de dicho centro podrán utilizarse desempeñando la función de CGP."
+        "explanation": "El apartado 1.1 de la ITC-BT-13 exige que el nicho se cierre con una puerta (preferentemente metálica) con grado de protección IK10 según UNE-EN 62.262."
       },
       {
         "id": 3,
-        "answer": "El seccionador de alta tensión del transformador.",
+        "answer": "No requiere cerradura si está en el límite de la propiedad.",
         "isCorrect": false,
-        "explanation": "Los elementos de alta tensión no protegen la línea general de alimentación de baja tensión."
+        "explanation": "Se exige obligatoriamente cerradura o candado normalizado por la empresa suministradora."
       },
       {
         "id": 4,
-        "answer": "No existe CGP en edificios con transformador propio.",
+        "answer": "Debe situarse a ras de suelo para facilitar la entrada de cables.",
         "isCorrect": false,
-        "explanation": "La función de protección sigue existiendo, asimilada por los fusibles del cuadro de BT del CT."
+        "explanation": "La parte inferior de la puerta debe estar a un mínimo de 30 cm del suelo."
       }
     ]
   },
   {
     "id": "ITC-BT-13-04",
     "type": "simple",
-    "question": "Si los fusibles del CT hacen de CGP, ¿de quién será la propiedad y el mantenimiento de esta protección?",
+    "question": "¿Cuál es la distancia mínima que debe respetarse entre el suelo y la parte inferior de la puerta del nicho de una CGP con acometida subterránea?",
     "options": [
       {
         "id": 1,
-        "answer": "De la comunidad de propietarios del edificio.",
+        "answer": "50 cm.",
         "isCorrect": false,
-        "explanation": "Al estar integrados en el cuadro del transformador de la red pública, no se transfieren al usuario privado."
+        "explanation": "La distancia mínima reglamentaria es inferior a 50 cm."
       },
       {
         "id": 2,
-        "answer": "De la empresa suministradora.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 especifica: 'En este caso, la propiedad y el mantenimiento de la protección serán de la empresa suministradora'."
+        "answer": "10 cm.",
+        "isCorrect": false,
+        "explanation": "Esta distancia es insuficiente para proteger la envolvente de la humedad y suciedad del suelo."
       },
       {
         "id": 3,
-        "answer": "Del Ayuntamiento.",
-        "isCorrect": false,
-        "explanation": "Los ayuntamientos no mantienen las redes de distribución eléctricas."
+        "answer": "30 cm.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 en su apartado 1.1 especifica que la parte inferior de la puerta del nicho se encontrará a un mínimo de 30 cm del suelo."
       },
       {
         "id": 4,
-        "answer": "Compartido al 50% entre usuario y distribuidora.",
+        "answer": "2,5 m.",
         "isCorrect": false,
-        "explanation": "La norma asigna la titularidad y responsabilidad íntegra a la empresa suministradora."
+        "explanation": "Esa altura corresponde a protecciones mecánicas de cables en fachada, no a la base del nicho."
       }
     ]
   },
   {
     "id": "ITC-BT-13-05",
     "type": "simple",
-    "question": "Con acometida AÉREA, ¿a qué altura debe instalarse la CGP en montaje superficial?",
+    "question": "En una fachada que no linde directamente con la vía pública, ¿dónde se debe situar la CGP?",
     "options": [
       {
         "id": 1,
-        "answer": "Entre 0,5 m y 1,5 m.",
+        "answer": "En el centro del jardín privado del usuario.",
         "isCorrect": false,
-        "explanation": "Esta altura expondría una línea aérea de bajada a contactos directos y vandalismo."
+        "explanation": "Debe garantizarse el acceso permanente de la empresa suministradora."
       },
       {
         "id": 2,
-        "answer": "Entre 1,5 m y 2,5 m.",
-        "isCorrect": false,
-        "explanation": "No cumple el rango de seguridad estipulado en la ITC-BT-13."
+        "answer": "En el límite entre la propiedad pública y la privada.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 establece que cuando la fachada no linde con la vía pública, la CGP se situará en el límite entre las propiedades públicas y privadas."
       },
       {
         "id": 3,
-        "answer": "Entre 3 m y 4 m.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 dicta: 'podrán instalarse en montaje superficial a una altura sobre el suelo comprendida entre 3 m y 4 m'."
+        "answer": "Empotrada en el primer muro de carga interior.",
+        "isCorrect": false,
+        "explanation": "La ubicación debe ser exterior para permitir el libre acceso sin entrar en la vivienda."
       },
       {
         "id": 4,
-        "answer": "A más de 5 m de altura.",
+        "answer": "Oculta tras elementos ornamentales de la propiedad.",
         "isCorrect": false,
-        "explanation": "A más de 5 m se imposibilitarían las labores de mantenimiento o sustitución de fusibles de forma segura."
+        "explanation": "La situación debe permitir la manipulación y lectura sin obstáculos."
       }
     ]
   },
   {
     "id": "ITC-BT-13-06",
     "type": "simple",
-    "question": "(Caso práctico) Se instala una CGP aérea donde se prevé paso a red subterránea a corto plazo. ¿Cómo se debe preparar?",
+    "question": "¿Cuántas Cajas Generales de Protección se permite alojar como máximo en el interior de un mismo nicho?",
     "options": [
       {
         "id": 1,
-        "answer": "Se situará como si se tratase de una acometida subterránea desde el principio.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 indica que en estos casos la CGP se situará como si se tratase de una acometida subterránea."
+        "answer": "Una sola caja por cada portal del edificio.",
+        "isCorrect": false,
+        "explanation": "La limitación es por nicho físico, no por portal."
       },
       {
         "id": 2,
-        "answer": "Se pondrá en montaje superficial a 4 metros y se cambiará después.",
-        "isCorrect": false,
-        "explanation": "Implicaría un doble coste de obra civil innecesario y contraviene la directriz de previsión."
+        "answer": "No se permite alojar más de dos cajas.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1.1 de la ITC-BT-13, no se alojarán más de dos cajas generales de protección en el interior del mismo nicho."
       },
       {
         "id": 3,
-        "answer": "Se instalará en el tejado para facilitar la conexión aérea actual.",
+        "answer": "Hasta cuatro, si el espacio es suficiente.",
         "isCorrect": false,
-        "explanation": "El tejado no es el lugar indicado normativamente; se priorizan fachadas a nivel de calle."
+        "explanation": "El reglamento limita expresamente a dos unidades por nicho."
       },
       {
         "id": 4,
-        "answer": "No se instalará CGP hasta que el soterramiento finalice.",
+        "answer": "Tantas como líneas generales de alimentación existan.",
         "isCorrect": false,
-        "explanation": "El edificio necesita suministro eléctrico inmediato con sus protecciones normativas."
+        "explanation": "Se dispone una caja por cada LGA, pero el número de cajas por nicho está limitado a dos."
       }
     ]
   },
   {
     "id": "ITC-BT-13-07",
     "type": "simple",
-    "question": "Cuando la acometida sea SUBTERRÁNEA, ¿qué exige la normativa para la colocación de la CGP?",
+    "question": "Al inspeccionar una CGP instalada, ¿qué grado de protección IP mínimo debe presentar una vez montada?",
     "options": [
       {
         "id": 1,
-        "answer": "Se instalará siempre en montaje superficial.",
+        "answer": "IP20.",
         "isCorrect": false,
-        "explanation": "Para acometidas subterráneas se busca que el conjunto quede enrasado y protegido."
+        "explanation": "Este grado es para interiores y no protege contra la penetración de agua."
       },
       {
         "id": 2,
-        "answer": "Se instalará siempre en un nicho en pared.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 obliga: 'Cuando la acometida sea subterránea se instalará siempre en un nicho en pared'."
+        "answer": "IP65.",
+        "isCorrect": false,
+        "explanation": "Aunque es superior, el reglamento exige un mínimo específico para CGP."
       },
       {
         "id": 3,
-        "answer": "Se enterrará bajo la acera junto a la cimentación.",
-        "isCorrect": false,
-        "explanation": "Requiere acceso permanente mediante puerta para manipular fusibles."
+        "answer": "IP43.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13, apartado 1.2, establece que las cajas generales de protección, una vez instaladas, tendrán un grado de protección IP43 según UNE-EN 60.529."
       },
       {
         "id": 4,
-        "answer": "Puede instalarse colgada de la acometida.",
+        "answer": "IP54.",
         "isCorrect": false,
-        "explanation": "La CGP debe estar firmemente sujeta a la obra civil."
+        "explanation": "El valor normativo mínimo requerido para el servicio es IP43."
       }
     ]
   },
   {
     "id": "ITC-BT-13-08",
     "type": "simple",
-    "question": "¿Cuál es el grado IK exigido para la puerta del nicho de la CGP subterránea?",
+    "question": "En el interior de una CGP, ¿dónde debe situarse la conexión amovible del neutro?",
     "options": [
       {
         "id": 1,
-        "answer": "IK 07",
+        "answer": "A la derecha de las fases.",
         "isCorrect": false,
-        "explanation": "No ofrece la resistencia exigida a impactos en vía pública."
+        "explanation": "La posición estándar es a la izquierda."
       },
       {
         "id": 2,
-        "answer": "IK 08",
+        "answer": "Entre la segunda y la tercera fase.",
         "isCorrect": false,
-        "explanation": "IK 08 es exigible a la envolvente interna de la caja, pero no a la puerta del nicho."
+        "explanation": "El neutro no debe interrumpir la secuencia de fases."
       },
       {
         "id": 3,
-        "answer": "IK 09",
-        "isCorrect": false,
-        "explanation": "Grado aplicable a las Cajas de Protección y Medida (CPM), no a la puerta del nicho."
+        "answer": "A la izquierda de las fases, en posición de servicio.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 especifica que el neutro estará constituido por una conexión amovible situada a la izquierda de las fases, colocada la caja en posición de servicio."
       },
       {
         "id": 4,
-        "answer": "IK 10",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 especifica para la puerta del nicho: 'grado de protección IK 10 según UNE-EN 50.102'."
+        "answer": "En un borne independiente en la base de la caja.",
+        "isCorrect": false,
+        "explanation": "Debe estar integrado en la secuencia de bornes de potencia."
       }
     ]
   },
   {
     "id": "ITC-BT-13-09",
     "type": "simple",
-    "question": "¿A qué distancia mínima del suelo debe estar la parte inferior de la puerta del nicho?",
+    "question": "¿Qué aislamiento se recomienda para las Cajas Generales de Protección según la normativa?",
     "options": [
       {
         "id": 1,
-        "answer": "Al ras del suelo (0 cm).",
+        "answer": "Clase I (aislamiento básico con toma de tierra).",
         "isCorrect": false,
-        "explanation": "Propiciaría la entrada de agua por charcos y lluvia directa al nicho."
+        "explanation": "Para estos elementos de envolvente se prefiere el aislamiento reforzado."
       },
       {
         "id": 2,
-        "answer": "A un mínimo de 15 cm.",
-        "isCorrect": false,
-        "explanation": "No alcanza el margen de seguridad mínimo estipulado."
+        "answer": "Clase II (doble aislamiento o aislamiento reforzado).",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 indica que se recomienda que las cajas generales de protección sean de clase II (doble aislamiento o aislamiento reforzado)."
       },
       {
         "id": 3,
-        "answer": "A un mínimo de 30 cm.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 indica textualmente: 'La parte inferior de la puerta se encontrará a un mínimo de 30 cm del suelo'."
+        "answer": "Clase 0.",
+        "isCorrect": false,
+        "explanation": "El equipo de clase 0 no está permitido en instalaciones de enlace."
       },
       {
         "id": 4,
-        "answer": "A un mínimo de 100 cm.",
+        "answer": "Cualquier envolvente metálica sin aislamiento adicional.",
         "isCorrect": false,
-        "explanation": "Aunque es válido por ser mayor, el límite mínimo normativo es 30 cm."
+        "explanation": "Se prioriza la seguridad contra contactos indirectos mediante aislamiento."
       }
     ]
   },
   {
     "id": "ITC-BT-13-10",
     "type": "simple",
-    "question": "(Caso práctico) Si la fachada NO linda con la vía pública, ¿dónde se sitúa la CGP?",
+    "question": "Para un suministro a un único usuario, se decide instalar una Caja de Protección y Medida (CPM). ¿Qué restricción de montaje tiene respecto a una CGP común?",
     "options": [
       {
         "id": 1,
-        "answer": "En la fachada de la vivienda, atravesando el jardín privado.",
+        "answer": "No puede ser de clase II.",
         "isCorrect": false,
-        "explanation": "La distribuidora no debe mantener su red atravesando terrenos privados."
+        "explanation": "Al contrario, para las CPM el aislamiento de clase II es obligatorio."
       },
       {
         "id": 2,
-        "answer": "En el límite entre las propiedades públicas y privadas.",
+        "answer": "No se admitirá su montaje superficial.",
         "isCorrect": true,
-        "explanation": "El apartado 1.1 dicta: 'la caja general de protección se situará en el límite entre las propiedades públicas y privadas'."
+        "explanation": "La ITC-BT-13, en su apartado 2.1, establece para las CPM que es aplicable lo indicado para las CGP salvo que 'no se admitirá el montaje superficial'."
       },
       {
         "id": 3,
-        "answer": "En el poste de luz de la calle más lejana.",
+        "answer": "Debe estar siempre en el interior de la vivienda.",
         "isCorrect": false,
-        "explanation": "Debe estar lo más próxima posible sirviendo de frontera a la propiedad."
+        "explanation": "Debe ser accesible desde el exterior para la lectura del contador."
       },
       {
         "id": 4,
-        "answer": "Se exime al propietario de colocar CGP.",
+        "answer": "No requiere ventilación interna.",
         "isCorrect": false,
-        "explanation": "La CGP es un elemento obligatorio en toda instalación de enlace."
+        "explanation": "La envolvente debe disponer de ventilación interna para evitar condensaciones."
       }
     ]
   },
   {
     "id": "ITC-BT-13-11",
     "type": "simple",
-    "question": "¿Cuántas CGP permite la normativa alojar como máximo en un mismo nicho?",
+    "question": "¿A qué altura deben instalarse los dispositivos de lectura de los equipos de medida en una CPM?",
     "options": [
       {
         "id": 1,
-        "answer": "Solo una en cualquier circunstancia.",
+        "answer": "A 2 metros para evitar actos vandálicos.",
         "isCorrect": false,
-        "explanation": "La norma permite alojar hasta dos en un mismo nicho."
+        "explanation": "La altura debe permitir la lectura cómoda sin medios auxiliares."
       },
       {
         "id": 2,
-        "answer": "No se alojarán más de dos cajas generales de protección.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.1 limita: 'No se alojarán más de dos cajas generales de protección en el interior del mismo nicho'."
+        "answer": "A menos de 50 cm del suelo.",
+        "isCorrect": false,
+        "explanation": "Es demasiado bajo y dificultaría la lectura y mantenimiento."
       },
       {
         "id": 3,
-        "answer": "Hasta un máximo de cuatro cajas.",
-        "isCorrect": false,
-        "explanation": "El límite explícito es dos; para más se requieren otras soluciones técnicas."
+        "answer": "A una altura comprendida entre 0,7 m y 1,80 m.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 2.1 de la ITC-BT-13, los dispositivos de lectura de los equipos de medida deberán estar instalados a una altura comprendida entre 0,7 m y 1,80 m."
       },
       {
         "id": 4,
-        "answer": "No hay límite.",
+        "answer": "Exactamente a 1,5 metros del suelo.",
         "isCorrect": false,
-        "explanation": "El reglamento impone una restricción numérica explícita de dos."
+        "explanation": "El reglamento ofrece un rango flexible, no un valor fijo."
       }
     ]
   },
   {
     "id": "ITC-BT-13-12",
     "type": "simple",
-    "question": "¿Qué acceso tienen los usuarios o el instalador autorizado al interior de la CGP?",
+    "question": "En cuanto a la protección contra impactos mecánicos, ¿qué grado IK se exige para una CPM?",
     "options": [
       {
         "id": 1,
-        "answer": "Acceso total para modificar la acometida libremente.",
+        "answer": "IK07.",
         "isCorrect": false,
-        "explanation": "La parte de la acometida es competencia exclusiva de la distribuidora."
+        "explanation": "Este valor es inferior al requerido para equipos instalados en fachadas."
       },
       {
         "id": 2,
-        "answer": "Ninguno, solo personal de la compañía.",
+        "answer": "IK08.",
         "isCorrect": false,
-        "explanation": "El instalador necesita conectar la LGA, por lo que se le permite acceso condicionado."
+        "explanation": "IK08 es el grado exigido para las CGP, pero las CPM tienen un requisito superior."
       },
       {
         "id": 3,
-        "answer": "Acceso a las conexiones con la LGA, previa comunicación a la empresa.",
+        "answer": "IK09.",
         "isCorrect": true,
-        "explanation": "Tendrán acceso y podrán actuar sobre las conexiones con la LGA, previa comunicación a la empresa."
+        "explanation": "La ITC-BT-13, apartado 2.2, especifica que las cajas de protección y medida tendrán un grado de protección IK09 según UNE-EN 62.262."
       },
       {
         "id": 4,
-        "answer": "Pueden cambiar fusibles sin avisar.",
+        "answer": "IK10.",
         "isCorrect": false,
-        "explanation": "Siempre se exige comunicación previa dado que la caja está precintada."
+        "explanation": "IK10 se exige para la puerta del nicho, pero la caja interna requiere IK09."
       }
     ]
   },
   {
     "id": "ITC-BT-13-13",
     "type": "simple",
-    "question": "¿En qué conductores deben instalarse los fusibles de la CGP?",
+    "question": "¿Qué característica debe tener el material transparente de una CPM destinado a la lectura de contadores?",
     "options": [
       {
         "id": 1,
-        "answer": "Solamente en el conductor neutro.",
+        "answer": "Debe ser de cristal templado.",
         "isCorrect": false,
-        "explanation": "Dejaría las fases en tensión ante un cortocircuito, riesgo crítico."
+        "explanation": "No se especifica el tipo de material, sino su resistencia ambiental."
       },
       {
         "id": 2,
-        "answer": "En todos los conductores de fase y en el neutro.",
-        "isCorrect": false,
-        "explanation": "Cortar el neutro con fusibles puede provocar sobretensiones peligrosas."
+        "answer": "Debe ser resistente a la acción de los rayos ultravioleta.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 indica que el material transparente para la lectura será resistente a la acción de los rayos ultravioleta."
       },
       {
         "id": 3,
-        "answer": "En todos los conductores de fase o polares.",
-        "isCorrect": true,
-        "explanation": "El apartado 1.2 especifica: 'se instalarán cortacircuitos fusibles en todos los conductores de fase o polares'."
+        "answer": "Debe ser opaco cuando no se esté utilizando.",
+        "isCorrect": false,
+        "explanation": "Debe permitir la lectura permanente sin intervención manual."
       },
       {
         "id": 4,
-        "answer": "En la fase principal y en el hilo de tierra.",
+        "answer": "Debe tener un espesor mínimo de 10 mm.",
         "isCorrect": false,
-        "explanation": "La tierra es protección y nunca debe ser seccionada mediante un fusible."
+        "explanation": "El reglamento no fija un espesor, sino la resistencia IK del conjunto."
       }
     ]
   },
   {
     "id": "ITC-BT-13-14",
     "type": "simple",
-    "question": "¿Cómo debe constituirse y situarse el conductor Neutro en la CGP?",
+    "question": "Se instala una CPM para un suministro trifásico en punta con un solo contador. ¿Qué tipo de CPM corresponde a esta configuración?",
     "options": [
       {
         "id": 1,
-        "answer": "Por un fusible idéntico al de fase, a la derecha.",
+        "answer": "CPM-1.",
         "isCorrect": false,
-        "explanation": "El neutro no lleva fusible y su posición normativa no es la derecha."
+        "explanation": "La CPM-1 es para suministros monofásicos y se encuentra en desuso."
       },
       {
         "id": 2,
-        "answer": "Por una conexión amovible situada a la izquierda de las fases.",
+        "answer": "CPM-2.",
         "isCorrect": true,
-        "explanation": "El neutro estará constituido por una conexión amovible situada a la izquierda de las fases."
+        "explanation": "Según la tabla de Tipos de CPM en la ITC-BT-13, la CPM-2 es la caja para suministros trifásicos alimentados en punta y puede albergar un contador trifásico."
       },
       {
         "id": 3,
-        "answer": "Por una bornera fija no desmontable en el centro.",
+        "answer": "CPM-3.",
         "isCorrect": false,
-        "explanation": "Debe ser amovible para comprobaciones de aislamiento."
+        "explanation": "La CPM-3 es para alimentación en derivación y puede albergar hasta dos contadores."
       },
       {
         "id": 4,
-        "answer": "Por una conexión amovible situada a la derecha.",
+        "answer": "CPM-T.",
         "isCorrect": false,
-        "explanation": "La posición reglamentaria exigida es la izquierda."
+        "explanation": "La CPM-T se utiliza para suministros de gran potencia con medida indirecta."
       }
     ]
   },
   {
     "id": "ITC-BT-13-15",
     "type": "simple",
-    "question": "¿Qué poder de corte deben tener los fusibles de la CGP?",
+    "question": "¿Cuál es el propósito de la ventilación interna en la envolvente de una CPM?",
     "options": [
       {
         "id": 1,
-        "answer": "Debe ser siempre fijo e igual a 50 kA.",
+        "answer": "Refrigerar los fusibles por el calor generado.",
         "isCorrect": false,
-        "explanation": "El valor de cortocircuito varía según el punto de la instalación."
+        "explanation": "Aunque ayuda a disipar calor, el objetivo normativo es otro."
       },
       {
         "id": 2,
-        "answer": "Al menos igual a la corriente de cortocircuito prevista en el punto.",
+        "answer": "Garantizar la no formación de condensaciones.",
         "isCorrect": true,
-        "explanation": "Debe ser al menos igual a la corriente de cortocircuito prevista en el punto de su instalación."
+        "explanation": "El apartado 2.2 de la ITC-BT-13 especifica que la envolvente deberá disponer de la ventilación interna necesaria que garantice la no formación de condensaciones."
       },
       {
         "id": 3,
-        "answer": "Igual a la corriente nominal de la vivienda por dos.",
+        "answer": "Permitir la salida de gases en caso de cortocircuito.",
         "isCorrect": false,
-        "explanation": "El poder de corte depende de la red exterior, no de la carga nominal."
+        "explanation": "Los fusibles ya están diseñados para operar de forma segura en envolventes cerradas."
       },
       {
         "id": 4,
-        "answer": "No se exige poder de corte.",
+        "answer": "Evitar la acumulación de polvo en los bornes.",
         "isCorrect": false,
-        "explanation": "Sin poder de corte adecuado, el fusible estallaría sin extinguir el arco."
+        "explanation": "La ventilación suele ser un punto de entrada de polvo; su función es el control de humedad."
       }
     ]
   },
   {
     "id": "ITC-BT-13-16",
     "type": "simple",
-    "question": "¿Qué grados IP e IK debe tener la envolvente de la CGP?",
+    "question": "En un edificio con centro de transformación propio, ¿qué elemento puede realizar las funciones de Caja General de Protección?",
     "options": [
       {
         "id": 1,
-        "answer": "IP 30 e IK 07",
+        "answer": "El cuadro de mando y protección del usuario.",
         "isCorrect": false,
-        "explanation": "Grados insuficientes para equipos en exteriores."
+        "explanation": "Este cuadro protege la instalación interior, no la línea general."
       },
       {
         "id": 2,
-        "answer": "IP 43 e IK 08",
+        "answer": "Los fusibles del cuadro de baja tensión del centro de transformación.",
         "isCorrect": true,
-        "explanation": "Tendrán un grado de protección IP43 e IK 08 y serán precintables."
+        "explanation": "El apartado 1.1 de la ITC-BT-13 permite que los fusibles del cuadro de baja tensión del centro de transformación desempeñen la función de CGP en edificios con CT interior."
       },
       {
         "id": 3,
-        "answer": "IP 55 e IK 09",
+        "answer": "Cualquier interruptor automático de gran potencia.",
         "isCorrect": false,
-        "explanation": "El IK 09 es para las CPM, no para las CGP estándar."
+        "explanation": "Se especifica concretamente el uso de fusibles del cuadro de BT del centro."
       },
       {
         "id": 4,
-        "answer": "IP 65 e IK 10",
+        "answer": "No se permite suprimir la CGP física bajo ningún concepto.",
         "isCorrect": false,
-        "explanation": "IK 10 aplica a la puerta del nicho, no a la envolvente de la caja."
+        "explanation": "El reglamento contempla esta excepción para optimizar la instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-13-17",
     "type": "simple",
-    "question": "¿Cuándo se permite utilizar 'Cajas de Protección y Medida' (CPM)?",
+    "question": "¿Qué se exige respecto a la capacidad de corte de los fusibles instalados en la CGP?",
     "options": [
       {
         "id": 1,
-        "answer": "En todos los edificios de viviendas.",
+        "answer": "Debe ser de al menos 6 kA en todos los casos.",
         "isCorrect": false,
-        "explanation": "En edificios de muchos usuarios se necesita LGA y centralización."
+        "explanation": "El valor depende del punto de instalación, no es un fijo genérico."
       },
       {
         "id": 2,
-        "answer": "Solo en locales comerciales de gran potencia.",
-        "isCorrect": false,
-        "explanation": "Depende del número de usuarios, no solo de la potencia."
+        "answer": "Al menos igual a la corriente de cortocircuito prevista en ese punto.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 en su apartado 1.2 exige que el poder de corte de los fusibles sea al menos igual a la corriente de cortocircuito prevista en el punto de su instalación."
       },
       {
         "id": 3,
-        "answer": "Para suministros de uno o dos usuarios desde el mismo lugar.",
-        "isCorrect": true,
-        "explanation": "Se permite cuando no existe LGA al alimentar a uno o dos usuarios."
+        "answer": "Superior a la carga máxima del edificio.",
+        "isCorrect": false,
+        "explanation": "Se confunde la corriente nominal de servicio con el poder de corte ante fallos."
       },
       {
         "id": 4,
-        "answer": "Exclusivamente en instalaciones generadoras.",
+        "answer": "No se exige un poder de corte específico si la acometida es protegida.",
         "isCorrect": false,
-        "explanation": "No está restringido únicamente a ese uso."
+        "explanation": "Es un requisito de seguridad crítico independientemente del tipo de acometida."
       }
     ]
   },
   {
     "id": "ITC-BT-13-18",
     "type": "simple",
-    "question": "¿Qué prohibición de montaje tienen las CPM respecto a las CGP?",
+    "question": "Se proyecta un suministro para un edificio de 20 viviendas. ¿Quién determina el esquema de CGP a utilizar?",
     "options": [
       {
         "id": 1,
-        "answer": "No se admitirá su montaje en nicho.",
+        "answer": "El instalador autorizado.",
         "isCorrect": false,
-        "explanation": "El montaje en nicho es el estándar promovido."
+        "explanation": "El instalador ejecuta, pero no decide el esquema de conexión a red."
       },
       {
         "id": 2,
-        "answer": "No se admitirá el montaje superficial.",
+        "answer": "La empresa suministradora.",
         "isCorrect": true,
-        "explanation": "El apartado 2.1 establece que no se admitirá el montaje superficial para las CPM."
+        "explanation": "Según el apartado 1.2 de la ITC-BT-13, el esquema de CGP a utilizar estará en función de las necesidades y lo determinará la empresa suministradora."
       },
       {
         "id": 3,
-        "answer": "No se permite en la fachada del límite de propiedad.",
+        "answer": "La comunidad de propietarios.",
         "isCorrect": false,
-        "explanation": "La fachada sigue siendo el lugar preferente."
+        "explanation": "La propiedad puede opinar sobre la ubicación, pero no sobre el esquema técnico."
       },
       {
         "id": 4,
-        "answer": "No se permite alojarlas en recintos sin techo.",
+        "answer": "El arquitecto del edificio.",
         "isCorrect": false,
-        "explanation": "La limitación explícita es el montaje superficial."
+        "explanation": "El diseño técnico debe seguir las especificaciones de la red de distribución."
       }
     ]
   },
   {
     "id": "ITC-BT-13-19",
     "type": "simple",
-    "question": "¿A qué altura deben situarse los dispositivos de lectura de las CPM?",
+    "question": "En una CGP trifásica, ¿en qué conductores es obligatorio instalar cortacircuitos fusibles?",
     "options": [
       {
         "id": 1,
-        "answer": "A un mínimo de 30 cm del suelo.",
+        "answer": "Únicamente en el conductor neutro.",
         "isCorrect": false,
-        "explanation": "30 cm es el mínimo para la puerta del nicho, no para la lectura visual."
+        "explanation": "El neutro nunca debe llevar fusibles en estos esquemas."
       },
       {
         "id": 2,
-        "answer": "Entre 0,5 m y 1,5 m.",
-        "isCorrect": false,
-        "explanation": "No se ajusta al margen normativo de ergonomía visual."
+        "answer": "En todos los conductores de fase o polares.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 indica que se instalarán cortacircuitos fusibles en todos los conductores de fase o polares."
       },
       {
         "id": 3,
-        "answer": "Entre 0,7 m e 1,80 m.",
-        "isCorrect": true,
-        "explanation": "Los dispositivos de lectura de medida deberán estar a una altura entre 0,7 m y 1,80 m."
+        "answer": "Solo en la fase con mayor carga prevista.",
+        "isCorrect": false,
+        "explanation": "Todas las fases deben estar protegidas contra sobreintensidades."
       },
       {
         "id": 4,
-        "answer": "Entre 1,0 m y 2,5 m.",
+        "answer": "En las tres fases y también en el neutro.",
         "isCorrect": false,
-        "explanation": "A 2,5 m la lectura del contador sería inaccesible sin medios auxiliares."
+        "explanation": "El neutro debe ser continuo o amovible, pero no protegido por fusible."
       }
     ]
   },
   {
     "id": "ITC-BT-13-20",
     "type": "simple",
-    "question": "¿Qué grado IK exige la norma específicamente para la CPM?",
+    "question": "Se instala una CPM-3. ¿Para qué tipo de suministro está diseñada esta envolvente?",
     "options": [
       {
         "id": 1,
-        "answer": "IK 08",
+        "answer": "Trifásico de gran potencia con medida indirecta.",
         "isCorrect": false,
-        "explanation": "Este es el valor para la CGP estándar; la CPM requiere más protección."
+        "explanation": "Esa descripción corresponde al tipo CPM-T."
       },
       {
         "id": 2,
-        "answer": "IK 09",
+        "answer": "Trifásico en derivación, para hasta dos contadores.",
         "isCorrect": true,
-        "explanation": "Las CPM una vez instaladas tendrán un grado de protección IP43 e IK09."
+        "explanation": "La tabla de Tipos de CPM de la ITC-BT-13 define la CPM-3 como caja para suministros trifásicos alimentados en derivación, con capacidad para hasta dos contadores."
       },
       {
         "id": 3,
-        "answer": "IK 10",
+        "answer": "Monofásico en punta, con un solo contador.",
         "isCorrect": false,
-        "explanation": "Es el grado de la puerta metálica externa del nicho de obra."
+        "explanation": "La CPM-3 es específicamente para sistemas trifásicos."
       },
       {
         "id": 4,
-        "answer": "IK 07",
+        "answer": "Cualquier suministro que requiera más de 100 kW.",
         "isCorrect": false,
-        "explanation": "Protección demasiado débil para equipos en vía pública."
+        "explanation": "Potencias muy elevadas requieren soluciones de medida indirecta tipo CPM-T."
       }
     ]
   },
   {
     "id": "ITC-BT-13-21",
     "type": "simple",
-    "question": "¿Qué indica el término 'LGA' en el contexto de la CGP?",
+    "question": "Al elegir una CGP, ¿qué grado de protección contra impactos mecánicos IK debe cumplir la envolvente?",
     "options": [
       {
         "id": 1,
-        "answer": "Línea General de Acometida.",
+        "answer": "IK05.",
         "isCorrect": false,
-        "explanation": "No es un acrónimo estándar del reglamento."
+        "explanation": "Es un grado muy bajo para una instalación expuesta en fachada."
       },
       {
         "id": 2,
-        "answer": "Lugar de Gestión de Aperturas.",
-        "isCorrect": false,
-        "explanation": "No es la designación técnica correcta."
+        "answer": "IK08.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 establece que las CGP tendrán un grado de protección IK08 según UNE-EN 62.262."
       },
       {
         "id": 3,
-        "answer": "Línea General de Acometida.",
-        "isCorrect": true,
-        "explanation": "LGA es el acrónimo normalizado para Línea General de Acometida."
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "IK10 es para la puerta del nicho, no necesariamente para la caja interna."
       },
       {
         "id": 4,
-        "answer": "Local General de Acompañamiento.",
+        "answer": "IK09.",
         "isCorrect": false,
-        "explanation": "La LGA es una línea, no un local."
+        "explanation": "IK09 es el requisito para las CPM, superior al de las CGP estándar."
       }
     ]
   },
   {
     "id": "ITC-BT-13-22",
     "type": "simple",
-    "question": "¿Cuál es la función principal de la LGA?",
+    "question": "¿Qué inflamabilidad se exige a las partes de una CGP que soportan partes activas?",
     "options": [
       {
         "id": 1,
-        "answer": "Conectar el contador con el Interruptor General del usuario.",
+        "answer": "650 ºC.",
         "isCorrect": false,
-        "explanation": "Esa es la función de la derivación individual."
+        "explanation": "Ese es el valor para las partes que no soportan elementos bajo tensión."
       },
       {
         "id": 2,
-        "answer": "Alimentar a todos los usuarios desde un único punto de medida.",
-        "isCorrect": false,
-        "explanation": "La LGA alimenta a todos los usuarios, pero cada uno tiene su CGP."
+        "answer": "960 ºC.",
+        "isCorrect": true,
+        "explanation": "La Nota 2 del apartado 1.2 de la ITC-BT-13 especifica un grado de inflamabilidad de (960 ± 10) ºC para las partes que soportan partes activas."
       },
       {
         "id": 3,
-        "answer": "Conducir la energía desde la Red de Distribución hasta la CGP o CPM.",
-        "isCorrect": true,
-        "explanation": "Según la ITC-BT-13, la LGA constituye el tramo que conduce la energía desde el punto de conexión con la red hasta la CGP o CPM."
+        "answer": "450 ºC.",
+        "isCorrect": false,
+        "explanation": "Valor insuficiente para la seguridad contra incendios en cuadros eléctricos."
       },
       {
         "id": 4,
-        "answer": "Llevar la señal de telemedida a la distribuidora.",
+        "answer": "1200 ºC.",
         "isCorrect": false,
-        "explanation": "La telemedida es una función específica posterior, no la función de la LGA."
+        "explanation": "Es un valor extremo no requerido por la normativa de producto estándar."
       }
     ]
   },
   {
     "id": "ITC-BT-13-23",
     "type": "simple",
-    "question": "En edificios de viviendas, ¿qué se exige reglamentariamente respecto al número de acometidas?",
+    "question": "En un edificio con acometida subterránea, ¿cómo se deben prever los orificios del nicho de la CGP?",
     "options": [
       {
         "id": 1,
-        "answer": "Mínimo una acometida por piso.",
+        "answer": "Deben ser sellados con hormigón tras el paso del cable.",
         "isCorrect": false,
-        "explanation": "El criterio es por usuario, no por piso."
+        "explanation": "Se debe permitir el mantenimiento y sustitución de cables."
       },
       {
         "id": 2,
-        "answer": "Una por cada fase de la red de baja tensión.",
-        "isCorrect": false,
-        "explanation": "Se refiere al número de acometidas para usuarios, no al número de fases."
+        "answer": "Alojando conductos conforme a la ITC-BT 21.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 indica que en el nicho se dejarán previstos los orificios para alojar conductos de entrada conforme a lo establecido en la ITC-BT 21."
       },
       {
         "id": 3,
-        "answer": "Una por usuario, salvo que se justifique lo contrario.",
+        "answer": "Deben estar situados en la parte superior del nicho.",
         "isCorrect": false,
-        "explanation": "La norma exige una por usuario, pero luego matiza que si hay más usuarios..."
+        "explanation": "Para acometidas subterráneas, los conductos entran por la base o laterales inferiores."
       },
       {
         "id": 4,
-        "answer": "Como mínimo, una para todos los usuarios del edificio.",
-        "isCorrect": true,
-        "explanation": "Salvo que por disposición de la empresa suministradora se requiera para cada usuario una acometida, debe existir como mínimo una acometida para todos los usuarios del edificio."
+        "answer": "No se permiten orificios previos; deben taladrarse en obra.",
+        "isCorrect": false,
+        "explanation": "La normativa exige que se dejen previstos para asegurar la estanqueidad y dimensiones."
       }
     ]
   },
   {
     "id": "ITC-BT-13-24",
     "type": "simple",
-    "question": "¿Cuándo se permite conectar dos usuarios distintos a una única LGA?",
+    "question": "¿Quién tiene derecho a manipular las conexiones de la CGP con la línea general de alimentación?",
     "options": [
       {
         "id": 1,
-        "answer": "Cuando ambos usuarios comparten la misma puerta de entrada.",
+        "answer": "Cualquier usuario en caso de emergencia.",
         "isCorrect": false,
-        "explanation": "El criterio no es compartido físico, sino técnico/normativo."
+        "explanation": "La manipulación por personal no autorizado es peligrosa y está prohibida."
       },
       {
         "id": 2,
-        "answer": "Siempre que la LGA tenga capacidad para ambos.",
-        "isCorrect": false,
-        "explanation": "La capacidad es una condición necesaria, pero no suficiente."
+        "answer": "Instaladores autorizados tras comunicar a la empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1.1 de la ITC-BT-13, los usuarios o la empresa instaladora solo actuarán sobre las conexiones previa comunicación a la empresa suministradora."
       },
       {
         "id": 3,
-        "answer": "Cuando ambos usuarios se encuentren en un único emplazamiento.",
-        "isCorrect": true,
-        "explanation": "Cuando dos usuarios se encuentran en un único emplazamiento, se permite el uso de una única LGA (con sus CGP o CPM correspondientes)."
+        "answer": "Exclusivamente el personal de la compañía eléctrica.",
+        "isCorrect": false,
+        "explanation": "La normativa permite que instaladores autorizados actúen bajo condiciones de comunicación previa."
       },
       {
         "id": 4,
-        "answer": "Cuando la compañía suministradora lo autorice explícitamente.",
+        "answer": "El presidente de la comunidad de propietarios.",
         "isCorrect": false,
-        "explanation": "Es una condición necesaria, pero la pregunta busca la razón técnica principal recogida en el reglamento."
+        "explanation": "No tiene la competencia técnica ni legal para manipular elementos de la instalación de enlace."
       }
     ]
   },
   {
     "id": "ITC-BT-13-25",
     "type": "simple",
-    "question": "En caso de varios usuarios, ¿dónde debe ubicarse la LGA?",
+    "question": "Se instala una CGP con alimentación en punta, entrada inferior y salida superior. ¿Qué esquema de conexión corresponde?",
     "options": [
       {
         "id": 1,
-        "answer": "En el límite de la propiedad.",
-        "isCorrect": true,
-        "explanation": "La LGA estará situada en el límite de la propiedad o, en su defecto, lo más próximo posible a él."
+        "answer": "Esquema 7.",
+        "isCorrect": false,
+        "explanation": "El esquema 7 es para suministros trifásicos con entrada y salida inferior."
       },
       {
         "id": 2,
-        "answer": "En el interior del portal.",
-        "isCorrect": false,
-        "explanation": "El interior del portal puede estar a una gran distancia del límite."
+        "answer": "Esquema 10.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 define el Esquema 10 como caja para suministros trifásicos de alimentación en punta con entrada por su parte inferior y salida por la parte superior."
       },
       {
         "id": 3,
-        "answer": "En el subsuelo de la acera.",
+        "answer": "Esquema 11.",
         "isCorrect": false,
-        "explanation": "El subsuelo es una opción para canalizaciones, pero la norma exige ubicación en el límite o próximo."
+        "explanation": "El esquema 11 es similar al 10 pero con entrada y salida ambas por la parte inferior."
       },
       {
         "id": 4,
-        "answer": "En la caja de contadores centralizada.",
+        "answer": "Esquema 1.",
         "isCorrect": false,
-        "explanation": "La caja de contadores está al final de la LGA, no en su ubicación general."
+        "explanation": "El esquema 1 es para suministros monofásicos y se encuentra en desuso."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-26",
+    "type": "simple",
+    "question": "¿Qué requisito se exige para el borne de conexión del neutro en una CGP si procede su puesta a tierra?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de mayor sección que los de fase.",
+        "isCorrect": false,
+        "explanation": "No se especifica mayor sección, sino la presencia de un borne específico."
+      },
+      {
+        "id": 2,
+        "answer": "Debe disponer de un borne de conexión para su puesta a tierra.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 establece que el neutro dispondrá también de un borne de conexión para su puesta a tierra si procede."
+      },
+      {
+        "id": 3,
+        "answer": "Debe estar aislado galvánicamente de la caja.",
+        "isCorrect": false,
+        "explanation": "La caja de clase II ya proporciona el aislamiento necesario."
+      },
+      {
+        "id": 4,
+        "answer": "Debe ser siempre de color verde-amarillo.",
+        "isCorrect": false,
+        "explanation": "El color identifica al conductor, pero el borne debe cumplir su función mecánica de conexión."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-27",
+    "type": "simple",
+    "question": "En el caso de suministros para dos usuarios alimentados desde el mismo lugar, ¿qué simplificación se permite?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Eliminar los fusibles de protección.",
+        "isCorrect": false,
+        "explanation": "La protección es siempre obligatoria."
+      },
+      {
+        "id": 2,
+        "answer": "Colocar en un único elemento la CGP y el equipo de medida.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 2 de la ITC-BT-13, para dos usuarios alimentados desde el mismo lugar podrá simplificarse la instalación colocando en un único elemento la CGP y el equipo de medida (CPM)."
+      },
+      {
+        "id": 3,
+        "answer": "Utilizar una única derivación individual para ambos.",
+        "isCorrect": false,
+        "explanation": "Cada usuario debe tener su propia derivación individual tras el equipo de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Compartir el mismo contador para reducir costes.",
+        "isCorrect": false,
+        "explanation": "Cada suministro independiente requiere su propio equipo de medida."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-28",
+    "type": "simple",
+    "question": "¿Qué grado de protección IK mínimo se exige a las CGP una vez instaladas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IK09.",
+        "isCorrect": false,
+        "explanation": "IK09 es para CPM, un grado superior al de las CGP."
+      },
+      {
+        "id": 2,
+        "answer": "IK08.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 establece que las CGP una vez instaladas tendrán un grado de protección IK08 según UNE-EN 62.262."
+      },
+      {
+        "id": 3,
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "IK10 es para la puerta del nicho, no para la envolvente de la caja."
+      },
+      {
+        "id": 4,
+        "answer": "IK07.",
+        "isCorrect": false,
+        "explanation": "Grado insuficiente para la protección mecánica requerida en estas instalaciones."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-29",
+    "type": "simple",
+    "question": "Para suministros trifásicos alimentados en derivación con entrada y salida inferior y dos salidas, ¿qué esquema de CGP se utiliza?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 11.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 define el Esquema 11 para suministros trifásicos con dos salidas y alimentación en derivación con entrada y salida inferior."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 9.",
+        "isCorrect": false,
+        "explanation": "El esquema 9 es monofásico y está en desuso."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 10.",
+        "isCorrect": false,
+        "explanation": "El esquema 10 tiene una sola salida LGA."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema 7.",
+        "isCorrect": false,
+        "explanation": "El esquema 7 es de alimentación en punta."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-30",
+    "type": "simple",
+    "question": "¿Qué función cumple la CPM-T en las instalaciones de enlace?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Protección de suministros monofásicos rurales.",
+        "isCorrect": false,
+        "explanation": "Es para grandes potencias trifásicas."
+      },
+      {
+        "id": 2,
+        "answer": "Suministros trifásicos de gran potencia con medida indirecta.",
+        "isCorrect": true,
+        "explanation": "Según la tabla de Tipos de CPM en la ITC-BT-13, la CPM-T se utiliza para suministros trifásicos de gran potencia donde la medida se realiza de forma indirecta."
+      },
+      {
+        "id": 3,
+        "answer": "Control temporal de obras de construcción.",
+        "isCorrect": false,
+        "explanation": "No es una caja específica de obra, sino de potencia elevada permanente."
+      },
+      {
+        "id": 4,
+        "answer": "Centralización de más de 10 contadores monofásicos.",
+        "isCorrect": false,
+        "explanation": "Para centralizaciones de ese tipo se usan otros sistemas (ITC-BT-16)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-31",
+    "type": "simple",
+    "question": "En una CGP instalada en nicho, ¿cómo debe ser la disposición de las cajas respecto a las líneas generales de alimentación (LGA)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una caja común para todas las LGA del edificio.",
+        "isCorrect": false,
+        "explanation": "Cada LGA requiere su propia protección independiente."
+      },
+      {
+        "id": 2,
+        "answer": "Disponiéndose una caja por cada línea general de alimentación.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 establece que se dispondrá una caja por cada línea general de alimentación."
+      },
+      {
+        "id": 3,
+        "answer": "Dos cajas por cada LGA para asegurar el suministro.",
+        "isCorrect": false,
+        "explanation": "No se duplican las cajas por línea."
+      },
+      {
+        "id": 4,
+        "answer": "Una caja para cada dos líneas generales de alimentación.",
+        "isCorrect": false,
+        "explanation": "Es obligatorio que cada línea tenga su propia caja de protección."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-32",
+    "type": "simple",
+    "question": "¿Qué normativa debe cumplir el conjunto de aparamenta cuando se comercializa montada como CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.529.",
+        "isCorrect": false,
+        "explanation": "Esta norma es para grados de protección (IP), no de producto completo."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.439-1.",
+        "isCorrect": true,
+        "explanation": "La Nota 1 del apartado 1.2 de la ITC-BT-13 especifica que cuando se comercializan montados, todos los elementos constituyen el conjunto de aparamenta y deberán cumplir con la norma UNE-EN 60.439-1."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.269.",
+        "isCorrect": false,
+        "explanation": "Esta norma aplica específicamente a los fusibles."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 62.262.",
+        "isCorrect": false,
+        "explanation": "Esta norma es para grados de protección contra impactos (IK)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-33",
+    "type": "simple",
+    "question": "¿Qué requisito de inflamabilidad se aplica a las partes de una CGP que NO soportan partes activas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "960 ºC.",
+        "isCorrect": false,
+        "explanation": "Ese valor es para las partes que sí soportan elementos bajo tensión."
+      },
+      {
+        "id": 2,
+        "answer": "650 ºC.",
+        "isCorrect": true,
+        "explanation": "La Nota 2 del apartado 1.2 de la ITC-BT-13 especifica un grado de inflamabilidad de (650 ± 10) ºC para todas las demás partes que no soportan partes activas."
+      },
+      {
+        "id": 3,
+        "answer": "No se les exige grado de inflamabilidad específico.",
+        "isCorrect": false,
+        "explanation": "Toda la envolvente debe cumplir criterios de seguridad contra el fuego."
+      },
+      {
+        "id": 4,
+        "answer": "750 ºC.",
+        "isCorrect": false,
+        "explanation": "Valor no contemplado en las notas técnicas de la ITC-BT-13."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-34",
+    "type": "simple",
+    "question": "En el caso de alimentación subterránea, ¿qué posibilidad técnica pueden prever las CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Conversión automática a corriente continua.",
+        "isCorrect": false,
+        "explanation": "La red de distribución es de corriente alterna."
+      },
+      {
+        "id": 2,
+        "answer": "La entrada y salida de la línea de distribución.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 indica que en el caso de alimentación subterránea, las CGP podrán tener prevista la entrada y salida de la línea de distribución."
+      },
+      {
+        "id": 3,
+        "answer": "Uso como soporte para alumbrado público.",
+        "isCorrect": false,
+        "explanation": "Son elementos de la instalación de enlace, no soportes mecánicos de red."
+      },
+      {
+        "id": 4,
+        "answer": "Interconexión con redes de telecomunicaciones.",
+        "isCorrect": false,
+        "explanation": "Debe mantenerse la separación reglamentaria de otras instalaciones."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-35",
+    "type": "simple",
+    "question": "Al realizar el montaje de una CPM, ¿qué requisito debe cumplir la envolvente para evitar problemas de humedad?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser totalmente estanca (IP68).",
+        "isCorrect": false,
+        "explanation": "La estanqueidad total impediría la ventilación necesaria."
+      },
+      {
+        "id": 2,
+        "answer": "Disponer de ventilación interna para evitar condensaciones.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 exige que la envolvente disponga de la ventilación interna necesaria que garantice la no formación de condensaciones."
+      },
+      {
+        "id": 3,
+        "answer": "Estar rellena de gel aislante.",
+        "isCorrect": false,
+        "explanation": "Dificultaría el mantenimiento y la lectura de los equipos."
+      },
+      {
+        "id": 4,
+        "answer": "No requiere medidas especiales si el IP es 43.",
+        "isCorrect": false,
+        "explanation": "El IP43 protege contra lluvia, pero no contra la condensación interna por cambios de temperatura."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-36",
+    "type": "simple",
+    "question": "¿Qué se recomienda respecto a la situación de la CGP en relación con otras instalaciones como agua o gas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que compartan el mismo nicho para ahorrar espacio.",
+        "isCorrect": false,
+        "explanation": "Las instalaciones deben estar separadas para evitar riesgos cruzados."
+      },
+      {
+        "id": 2,
+        "answer": "Que quede alejada o protegida adecuadamente de ellas.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 establece que la situación elegida quede alejada o protegida adecuadamente de otras instalaciones (agua, gas, teléfono, etc.)."
+      },
+      {
+        "id": 3,
+        "answer": "Que se sitúe siempre por debajo de las tuberías de agua.",
+        "isCorrect": false,
+        "explanation": "La normativa de seguridad suele recomendar lo contrario para evitar daños por fugas."
+      },
+      {
+        "id": 4,
+        "answer": "No existe ninguna recomendación sobre distancias mínimas.",
+        "isCorrect": false,
+        "explanation": "El reglamento remite a las ITC-BT 06 y 07 para asegurar la separación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-37",
+    "type": "simple",
+    "question": "En un edificio, se deben instalar más de dos cajas generales de protección. ¿Cómo se debe proceder según el reglamento?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se deben repartir por diferentes fachadas obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "No es una obligación técnica; se busca una solución acordada."
+      },
+      {
+        "id": 2,
+        "answer": "Se utilizarán soluciones técnicas previo acuerdo con la suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 indica que cuando se precisen más de dos cajas, podrán utilizarse otras soluciones técnicas previo acuerdo entre la propiedad y la empresa suministradora."
+      },
+      {
+        "id": 3,
+        "answer": "Se pueden alojar hasta 5 cajas en un nicho doble de gran tamaño.",
+        "isCorrect": false,
+        "explanation": "El límite estándar es de dos cajas por nicho."
+      },
+      {
+        "id": 4,
+        "answer": "Está prohibido instalar más de dos cajas por edificio.",
+        "isCorrect": false,
+        "explanation": "Se pueden instalar más, pero requieren un diseño técnico específico y acordado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-38",
+    "type": "simple",
+    "question": "¿Qué elemento de la CGP permite asegurar que no sea manipulada sin autorización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una cerradura electrónica con registro de eventos.",
+        "isCorrect": false,
+        "explanation": "No es un requisito estándar del reglamento."
+      },
+      {
+        "id": 2,
+        "answer": "Debe ser precintable.",
+        "isCorrect": true,
+        "explanation": "Tanto el apartado 1.2 para las CGP como el 2.2 para las CPM exigen que las envolventes sean precintables."
+      },
+      {
+        "id": 3,
+        "answer": "Estar situada a más de 5 metros de altura.",
+        "isCorrect": false,
+        "explanation": "La altura máxima para aérea es de 4 metros por motivos técnicos."
+      },
+      {
+        "id": 4,
+        "answer": "Soldadura de los tornillos de la tapa.",
+        "isCorrect": false,
+        "explanation": "Debe ser accesible para mantenimiento por personal autorizado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-39",
+    "type": "simple",
+    "question": "En una CPM, ¿qué requisito se aplica a la envolvente en cuanto a su clase de aislamiento?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Clase I es suficiente si se conecta a tierra.",
+        "isCorrect": false,
+        "explanation": "Para las CPM se exige obligatoriamente un nivel superior de protección."
+      },
+      {
+        "id": 2,
+        "answer": "Deben ser obligatoriamente de clase II.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 establece taxativamente que las cajas de protección y medida deberán ser de clase II."
+      },
+      {
+        "id": 3,
+        "answer": "Clase III si la tensión es inferior a 50V.",
+        "isCorrect": false,
+        "explanation": "Las instalaciones de enlace trabajan a tensiones de red de baja tensión estándar."
+      },
+      {
+        "id": 4,
+        "answer": "Clase 0 si el material es aislante por naturaleza.",
+        "isCorrect": false,
+        "explanation": "La denominación correcta para envolventes seguras ante contactos es Clase II."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-40",
+    "type": "simple",
+    "question": "Para un suministro trifásico alimentado en punta, ¿qué esquema de CGP tiene la entrada y la salida por su parte inferior?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 10.",
+        "isCorrect": false,
+        "explanation": "El esquema 10 es para alimentación en derivación con salida superior."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 11.",
+        "isCorrect": false,
+        "explanation": "El esquema 11 es para alimentación en derivación."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 7.",
+        "isCorrect": true,
+        "explanation": "Según la descripción de Esquemas en la ITC-BT-13, el Esquema 7 corresponde a suministros trifásicos en punta con entrada y salida por su parte inferior."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema 9.",
+        "isCorrect": false,
+        "explanation": "El esquema 9 es monofásico y está en desuso."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-41",
+    "type": "simple",
+    "question": "¿Qué componentes básicos conforman internamente una Caja de Protección y Medida (CPM)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Solo el contador y un interruptor automático.",
+        "isCorrect": false,
+        "explanation": "Faltan los elementos de protección de la línea de enlace (fusibles)."
+      },
+      {
+        "id": 2,
+        "answer": "Contadores y dispositivos de protección (fusibles).",
+        "isCorrect": true,
+        "explanation": "La Figura B de la ITC-BT-13 muestra que la CPM integra los contadores y los dispositivos de protección (fusibles) en un único elemento."
+      },
+      {
+        "id": 3,
+        "answer": "Transformadores de intensidad y bornes de salida.",
+        "isCorrect": false,
+        "explanation": "Los transformadores solo están presentes en el tipo específico CPM-T."
+      },
+      {
+        "id": 4,
+        "answer": "Diferenciales y limitadores de sobretensión.",
+        "isCorrect": false,
+        "explanation": "Estos elementos se sitúan en el cuadro general de mando y protección del usuario."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-42",
+    "type": "simple",
+    "question": "En la instalación de una CGP en nicho, ¿qué característica debe tener el acabado exterior de la puerta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Siempre pintada de color naranja de seguridad.",
+        "isCorrect": false,
+        "explanation": "No se exige un color de seguridad específico, sino integración estética."
+      },
+      {
+        "id": 2,
+        "answer": "Revestida exteriormente de acuerdo con el entorno.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 exige que la puerta del nicho esté revestida exteriormente de acuerdo con las características del entorno."
+      },
+      {
+        "id": 3,
+        "answer": "Totalmente lisa para evitar la acumulación de suciedad.",
+        "isCorrect": false,
+        "explanation": "La prioridad es la integración y la protección contra la corrosión."
+      },
+      {
+        "id": 4,
+        "answer": "Reflejante para ser vista fácilmente por la noche.",
+        "isCorrect": false,
+        "explanation": "Debe estar protegida contra la corrosión, pero no se exige que sea reflectante."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-43",
+    "type": "simple",
+    "question": "¿Qué tipo de bornes de conexión deben cumplir con la norma UNE-EN 60.947-7 cuando se instalan en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los bornes domésticos o análogos.",
+        "isCorrect": false,
+        "explanation": "Los bornes domésticos siguen otra normativa (UNE-EN 60.998)."
+      },
+      {
+        "id": 2,
+        "answer": "Los bornes de conexión industriales.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos para CPM en la ITC-BT-13 asocia los bornes de conexión industriales con la norma UNE-EN 60.947-7."
+      },
+      {
+        "id": 3,
+        "answer": "Cualquier borne de cobre sin aleación.",
+        "isCorrect": false,
+        "explanation": "Deben cumplir normas de producto específicas de seguridad eléctrica."
+      },
+      {
+        "id": 4,
+        "answer": "Solo los bornes destinados a la toma de tierra.",
+        "isCorrect": false,
+        "explanation": "Todos los bornes de potencia deben estar normalizados."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-44",
+    "type": "simple",
+    "question": "En el contexto de una CGP, ¿qué significa que la conexión del neutro sea 'amovible'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que se puede cambiar por un cable de mayor sección fácilmente.",
+        "isCorrect": false,
+        "explanation": "Se refiere a la capacidad de desconexión física para pruebas."
+      },
+      {
+        "id": 2,
+        "answer": "Que permite la interrupción del circuito sin herramientas.",
+        "isCorrect": false,
+        "explanation": "Requiere manipulación técnica y no debe hacerse bajo carga."
+      },
+      {
+        "id": 3,
+        "answer": "Que permite desconectar el neutro para realizar medidas y pruebas.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 especifica que el neutro será una conexión amovible para facilitar las labores de mantenimiento y verificación de la instalación."
+      },
+      {
+        "id": 4,
+        "answer": "Que el borne se desplaza lateralmente para dejar espacio a las fases.",
+        "isCorrect": false,
+        "explanation": "La posición debe ser fija (a la izquierda) durante el servicio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-45",
+    "type": "simple",
+    "question": "Se proyecta una CPM para un suministro trifásico en derivación que albergará dos contadores trifásicos. ¿Cuál es el código de este tipo de envolvente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CPM-2.",
+        "isCorrect": false,
+        "explanation": "La CPM-2 es para alimentación en punta y un solo contador."
+      },
+      {
+        "id": 2,
+        "answer": "CPM-3.",
+        "isCorrect": true,
+        "explanation": "Según la tabla de Tipos de CPM de la ITC-BT-13, la CPM-3 permite hasta dos contadores trifásicos en alimentación en derivación."
+      },
+      {
+        "id": 3,
+        "answer": "CPM-M.",
+        "isCorrect": false,
+        "explanation": "Este código no existe en la clasificación oficial de la ITC-BT-13."
+      },
+      {
+        "id": 4,
+        "answer": "CPM-T.",
+        "isCorrect": false,
+        "explanation": "La CPM-T es para medida indirecta de gran potencia."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-46",
+    "type": "simple",
+    "question": "Al realizar la instalación de enlace, ¿por qué se sitúa la CGP lo más próxima posible a la red de distribución pública?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para que la empresa suministradora use menos cable.",
+        "isCorrect": false,
+        "explanation": "No es una cuestión de ahorro de material, sino de seguridad y trazado."
+      },
+      {
+        "id": 2,
+        "answer": "Para minimizar el tramo de acometida y facilitar el mantenimiento.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 indica que se procurará que la situación sea lo más próxima a la red para optimizar el diseño y la seguridad del punto de conexión."
+      },
+      {
+        "id": 3,
+        "answer": "Porque los fusibles de la CGP protegen también la red pública.",
+        "isCorrect": false,
+        "explanation": "Los fusibles de la CGP protegen la instalación del usuario (LGA), no la red de la compañía."
+      },
+      {
+        "id": 4,
+        "answer": "Para evitar caídas de tensión en el tramo de salida.",
+        "isCorrect": false,
+        "explanation": "La caída de tensión se gestiona principalmente en la LGA y derivaciones individuales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-47",
+    "type": "simple",
+    "question": "¿Qué requisito se exige a las uniones amovibles en una CGP si se desea garantizar una buena conexión de tierra?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Deben estar bañadas en oro.",
+        "isCorrect": false,
+        "explanation": "Requisito innecesario y desproporcionado para instalaciones de baja tensión."
+      },
+      {
+        "id": 2,
+        "answer": "Deben disponer de un borne de conexión para su puesta a tierra.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 indica que la conexión amovible del neutro dispondrá de un borne de conexión para su puesta a tierra si procede."
+      },
+      {
+        "id": 3,
+        "answer": "Deben ser soldadas tras el primer apriete.",
+        "isCorrect": false,
+        "explanation": "Si se sueldan, dejan de ser amovibles, incumpliendo el reglamento."
+      },
+      {
+        "id": 4,
+        "answer": "Deben situarse siempre en la tapa de la caja.",
+        "isCorrect": false,
+        "explanation": "Deben estar situadas en el interior, sobre la placa de bornes."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-48",
+    "type": "simple",
+    "question": "En el caso de un suministro trifásico de alimentación en derivación con entrada y salida inferior y una única salida, ¿qué esquema se utiliza?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 11.",
+        "isCorrect": false,
+        "explanation": "Es para suministros con dos salidas."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 7.",
+        "isCorrect": false,
+        "explanation": "El Esquema 7 es para alimentación en punta."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 9.",
+        "isCorrect": false,
+        "explanation": "El esquema 9 es monofásico."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema 10.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 describe el Esquema 10 como caja para suministros trifásicos de alimentación en derivación con entrada y salida inferior y una salida LGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-49",
+    "type": "simple",
+    "question": "Al realizar el mantenimiento de una CPM, se observa que el visor transparente está amarillento y quebradizo. ¿Qué requisito normativo se ha incumplido?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El espesor mínimo del visor.",
+        "isCorrect": false,
+        "explanation": "La normativa no fija un espesor, sino la resistencia del material."
+      },
+      {
+        "id": 2,
+        "answer": "La resistencia a la acción de los rayos ultravioleta.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 exige explícitamente que el material transparente para la lectura sea resistente a los rayos UV para evitar su degradación."
+      },
+      {
+        "id": 3,
+        "answer": "El grado de protección IP43.",
+        "isCorrect": false,
+        "explanation": "El amarilleo es una degradación del material, no necesariamente una pérdida de estanqueidad inmediata."
+      },
+      {
+        "id": 4,
+        "answer": "La ventilación interna de la caja.",
+        "isCorrect": false,
+        "explanation": "La ventilación evita condensaciones, pero no protege al material de la radiación solar."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-50",
+    "type": "simple",
+    "question": "¿Para qué sirve el Esquema 1 descrito en la ITC-BT-13?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para suministros de gran potencia industriales.",
+        "isCorrect": false,
+        "explanation": "Es un esquema para baja potencia monofásica."
+      },
+      {
+        "id": 2,
+        "answer": "Para suministros monofásicos en punta (en desuso).",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 clasifica el Esquema 1 como caja para suministros monofásicos de alimentación en punta, indicando que está en desuso."
+      },
+      {
+        "id": 3,
+        "answer": "Para interconexión de dos edificios contiguos.",
+        "isCorrect": false,
+        "explanation": "Cada edificio debe tener su propio sistema de protección de enlace."
+      },
+      {
+        "id": 4,
+        "answer": "Para centralizaciones de contadores en vertical.",
+        "isCorrect": false,
+        "explanation": "El esquema 1 se refiere a la CGP, no a la centralización."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-51",
+    "type": "multiple",
+    "question": "¿Cuáles de estos grados de protección son requisitos reglamentarios para una CGP instalada?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Grado IP43 una vez instalada.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 exige IP43 para las CGP instaladas."
+      },
+      {
+        "id": 2,
+        "answer": "Grado IK08 contra impactos mecánicos.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 exige IK08 para las envolventes de las CGP."
+      },
+      {
+        "id": 3,
+        "answer": "Grado IK10 contra impactos mecánicos.",
+        "isCorrect": false,
+        "explanation": "IK10 es para la puerta del nicho, no para la CGP interna."
+      },
+      {
+        "id": 4,
+        "answer": "Grado IP54 contra la penetración de polvo.",
+        "isCorrect": false,
+        "explanation": "El mínimo requerido es IP43, el IP54 es superior pero no el estándar base."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-52",
+    "type": "simple",
+    "question": "En un edificio residencial, ¿quién es el responsable del mantenimiento de la protección si los fusibles del centro de transformación actúan como CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La comunidad de propietarios.",
+        "isCorrect": false,
+        "explanation": "En este caso excepcional, la responsabilidad recae en el suministrador."
+      },
+      {
+        "id": 2,
+        "answer": "La empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 1.1 de la ITC-BT-13, cuando los fusibles del CT se usan como CGP, la propiedad y mantenimiento de la protección serán de la empresa suministradora."
+      },
+      {
+        "id": 3,
+        "answer": "El instalador mantenedor del edificio.",
+        "isCorrect": false,
+        "explanation": "Solo tiene competencia sobre la instalación interior de enlace y privada."
+      },
+      {
+        "id": 4,
+        "answer": "El Ministerio de Industria.",
+        "isCorrect": false,
+        "explanation": "La administración supervisa, pero no mantiene instalaciones privadas ni de red."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-53",
+    "type": "simple",
+    "question": "Al realizar una acometida subterránea, ¿qué norma deben cumplir los conductos que se alojen en el nicho de la CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.439-1.",
+        "isCorrect": false,
+        "explanation": "Esa es la norma para conjuntos de aparamenta de baja tensión."
+      },
+      {
+        "id": 2,
+        "answer": "ITC-BT 21.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 remite expresamente a la ITC-BT 21 para los conductos de canalizaciones empotradas en el nicho."
+      },
+      {
+        "id": 3,
+        "answer": "ITC-BT 07.",
+        "isCorrect": false,
+        "explanation": "Aplica a redes de distribución enterradas, pero el detalle del nicho remite a la 21."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 62.262.",
+        "isCorrect": false,
+        "explanation": "Esta norma aplica a la resistencia IK de la puerta, no a los conductos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-54",
+    "type": "simple",
+    "question": "¿A qué normativa deben ajustarse los cortacircuitos fusibles instalados en una CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.529.",
+        "isCorrect": false,
+        "explanation": "Es la norma de grados de protección IP."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.269.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos de la ITC-BT-13 asocia los fusibles y bases con la serie de normas UNE-EN 60.269."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.947-3.",
+        "isCorrect": false,
+        "explanation": "Es la norma para interruptores-seccionadores, no específicamente para fusibles."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 60.439-3.",
+        "isCorrect": false,
+        "explanation": "Aplica a los grados de inflamabilidad de los conjuntos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-55",
+    "type": "simple",
+    "question": "En una CPM, ¿qué se exige para que la envolvente sea considerada apta para evitar condensaciones?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un recubrimiento interno de pintura bituminosa.",
+        "isCorrect": false,
+        "explanation": "No es una solución reglamentaria para la condensación."
+      },
+      {
+        "id": 2,
+        "answer": "Ventilación interna necesaria que garantice la no formación de las mismas.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 exige ventilación interna para garantizar que no se formen condensaciones en la CPM."
+      },
+      {
+        "id": 3,
+        "answer": "Calefactores de resistencia autorregulados.",
+        "isCorrect": false,
+        "explanation": "Sería un consumo energético innecesario; se prioriza la ventilación pasiva."
+      },
+      {
+        "id": 4,
+        "answer": "Rellenar los huecos con espuma de poliuretano.",
+        "isCorrect": false,
+        "explanation": "Impediría la circulación de aire y el mantenimiento, empeorando el problema."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-56",
+    "type": "simple",
+    "question": "¿Cuál es la función del borne de conexión adicional en el neutro amovible de la CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Permitir la conexión de un segundo neutro de reserva.",
+        "isCorrect": false,
+        "explanation": "No se contempla un neutro de reserva en estos esquemas."
+      },
+      {
+        "id": 2,
+        "answer": "Puesta a tierra del neutro si procede.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 de la ITC-BT-13 especifica que el neutro dispondrá de un borne de conexión para su puesta a tierra si procede."
+      },
+      {
+        "id": 3,
+        "answer": "Conexión del hilo de mando para tarifas nocturnas.",
+        "isCorrect": false,
+        "explanation": "El hilo de mando tiene su propio borne separado en los equipos de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Conexión de la pantalla metálica de los cables de fase.",
+        "isCorrect": false,
+        "explanation": "Las pantallas se conectan a tierra de forma independiente al neutro del sistema."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-57",
+    "type": "simple",
+    "question": "Según la tabla de esquemas de CGP, ¿cuál es el estado normativo indicado para el Esquema 1?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Obligatorio para suministros de gran potencia.",
+        "isCorrect": false,
+        "explanation": "No es obligatorio para gran potencia."
+      },
+      {
+        "id": 2,
+        "answer": "En desuso.",
+        "isCorrect": true,
+        "explanation": "La fuente técnica de referencia en la ITC-BT-13 marca explícitamente el Esquema 1 como 'en desuso'."
+      },
+      {
+        "id": 3,
+        "answer": "Porque no permite la instalación de fusibles de cuchilla.",
+        "isCorrect": false,
+        "explanation": "El motivo es organizativo y de estandarización de red, no solo por un tipo de borne."
+      },
+      {
+        "id": 4,
+        "answer": "Debido a que su grado IK es inferior a IK05.",
+        "isCorrect": false,
+        "explanation": "Todas las CGP deben cumplir al menos IK08, incluido el esquema 1."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-58",
+    "type": "simple",
+    "question": "¿Qué grado IK se exige específicamente para la puerta del nicho de una CGP con acometida subterránea?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IK08.",
+        "isCorrect": false,
+        "explanation": "Este es el grado de la caja interna, pero la puerta exterior requiere más resistencia."
+      },
+      {
+        "id": 2,
+        "answer": "IK10.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 de la ITC-BT-13 exige grado IK10 para la puerta metálica que cierra el nicho de la CGP."
+      },
+      {
+        "id": 3,
+        "answer": "IK09.",
+        "isCorrect": false,
+        "explanation": "Grado exigido para las envolventes de las CPM, no para las puertas de nicho de CGP."
+      },
+      {
+        "id": 4,
+        "answer": "IK05.",
+        "isCorrect": false,
+        "explanation": "Grado insuficiente para una puerta situada en la vía pública o fachada."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-59",
+    "type": "simple",
+    "question": "Al proyectar una instalación, ¿qué criterio debe primar para elegir el tipo de CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El precio de mercado de la envolvente.",
+        "isCorrect": false,
+        "explanation": "El criterio debe ser técnico y normativo, no puramente comercial."
+      },
+      {
+        "id": 2,
+        "answer": "El número y naturaleza del suministro.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 de la ITC-BT-13 indica que las CPM corresponderán a los tipos aprobados en función del número y naturaleza del suministro."
+      },
+      {
+        "id": 3,
+        "answer": "El color de la fachada donde se va a empotrar.",
+        "isCorrect": false,
+        "explanation": "La estética es secundaria al cumplimiento de la configuración eléctrica (fases, potencia)."
+      },
+      {
+        "id": 4,
+        "answer": "La disponibilidad de espacio en el cuarto de contadores.",
+        "isCorrect": false,
+        "explanation": "Las CPM se instalan en fachada para suministros de 1 o 2 usuarios, no en cuartos de contadores."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-60",
+    "type": "simple",
+    "question": "En el caso de edificios con CT interior, ¿por qué la empresa suministradora se encarga del mantenimiento de la protección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Porque es la dueña legal de todo el edificio.",
+        "isCorrect": false,
+        "explanation": "La empresa solo es dueña y responsable de la red y elementos de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Porque los fusibles del CT forman parte de su red de distribución.",
+        "isCorrect": true,
+        "explanation": "Al usar elementos del CT como CGP (apartado 1.1), estos forman parte del sistema de distribución y su mantenimiento le corresponde legalmente."
+      },
+      {
+        "id": 3,
+        "answer": "Para evitar que los usuarios sufran accidentes eléctricos.",
+        "isCorrect": false,
+        "explanation": "Es la consecuencia positiva, pero la razón es el límite de propiedad y responsabilidad técnica."
+      },
+      {
+        "id": 4,
+        "answer": "Porque no existe otra opción técnica viable.",
+        "isCorrect": false,
+        "explanation": "Es una opción simplificada que el reglamento permite para estos casos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-61",
+    "type": "multiple",
+    "question": "¿Cuáles de estos elementos son obligatorios para una CGP instalada en nicho según la ITC-BT-13?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Puerta con grado de protección IK10.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.1: El nicho se cerrará con una puerta... IK10."
+      },
+      {
+        "id": 2,
+        "answer": "Cerradura o candado normalizado por la suministradora.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.1: Disponiendo de una cerradura o candado normalizado por la empresa suministradora."
+      },
+      {
+        "id": 3,
+        "answer": "Iluminación interior automática al abrir la puerta.",
+        "isCorrect": false,
+        "explanation": "No es un requisito reglamentario para nichos de CGP."
+      },
+      {
+        "id": 4,
+        "answer": "Alarma de apertura conectada a la policía.",
+        "isCorrect": false,
+        "explanation": "No se exige este tipo de seguridad electrónica en instalaciones de enlace estándar."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-62",
+    "type": "simple",
+    "question": "¿Qué temperatura de ensayo del hilo incandescente se aplica a las envolventes de clase II para conjuntos de aparamenta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "850 ºC.",
+        "isCorrect": false,
+        "explanation": "Valor no estándar en las notas de la ITC-BT-13."
+      },
+      {
+        "id": 2,
+        "answer": "960 ºC para partes que soportan partes activas.",
+        "isCorrect": true,
+        "explanation": "La Nota 2 del apartado 1.2 especifica (960 ± 10) ºC para las partes que soportan elementos bajo tensión."
+      },
+      {
+        "id": 3,
+        "answer": "1000 ºC para la puerta del nicho.",
+        "isCorrect": false,
+        "explanation": "La inflamabilidad se ensaya sobre los materiales plásticos/aislantes, no sobre puertas metálicas."
+      },
+      {
+        "id": 4,
+        "answer": "500 ºC para el visor transparente.",
+        "isCorrect": false,
+        "explanation": "El visor, como parte que no soporta elementos activos, debería cumplir al menos 650 ºC."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-63",
+    "type": "simple",
+    "question": "En una CGP, ¿dónde se deben instalar los cortacircuitos fusibles en relación con el orden de las fases?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Solo en la fase R para ahorrar espacio.",
+        "isCorrect": false,
+        "explanation": "Deben protegerse todas las fases de potencia."
+      },
+      {
+        "id": 2,
+        "answer": "En todos los conductores de fase o polares.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 exige fusibles en todos los conductores de fase o polares del suministro."
+      },
+      {
+        "id": 3,
+        "answer": "A la izquierda del neutro.",
+        "isCorrect": false,
+        "explanation": "El neutro se sitúa a la izquierda de las fases/fusibles."
+      },
+      {
+        "id": 4,
+        "answer": "Inmediatamente después de la puesta a tierra.",
+        "isCorrect": false,
+        "explanation": "Deben estar situados en el camino principal de la energía hacia la LGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-64",
+    "type": "simple",
+    "question": "¿Qué normativa aplica a los tubos rígidos utilizados para alojar la LGA en la salida de una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 50.086-2-1.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos para CPM en la ITC-BT-13 especifica la norma UNE-EN 50.086-2-1 para tubos rígidos."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.269.",
+        "isCorrect": false,
+        "explanation": "Esta es la norma para fusibles."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 61.036.",
+        "isCorrect": false,
+        "explanation": "Esta norma es para contadores electrónicos de energía activa."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 60.521.",
+        "isCorrect": false,
+        "explanation": "Norma para contadores de inducción."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-65",
+    "type": "simple",
+    "question": "Se proyecta una CPM para un suministro trifásico en punta con un contador trifásico. ¿Cuál es su denominación comercial según la ITC?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CPM-1.",
+        "isCorrect": false,
+        "explanation": "Es monofásica."
+      },
+      {
+        "id": 2,
+        "answer": "CPM-2.",
+        "isCorrect": true,
+        "explanation": "La tabla de tipos de CPM define la CPM-2 como la apta para suministros trifásicos en punta con un contador."
+      },
+      {
+        "id": 3,
+        "answer": "CPM-3.",
+        "isCorrect": false,
+        "explanation": "Es para alimentación en derivación."
+      },
+      {
+        "id": 4,
+        "answer": "CPM-T.",
+        "isCorrect": false,
+        "explanation": "Es para medida indirecta."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-66",
+    "type": "simple",
+    "question": "¿Qué se pretende evitar con la ventilación interna obligatoria en las envolventes de las CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El exceso de temperatura ambiente.",
+        "isCorrect": false,
+        "explanation": "Aunque ayuda, el objetivo principal es el control de humedad."
+      },
+      {
+        "id": 2,
+        "answer": "La formación de condensaciones.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 indica que la ventilación debe garantizar la no formación de condensaciones internas."
+      },
+      {
+        "id": 3,
+        "answer": "La entrada de insectos en el equipo.",
+        "isCorrect": false,
+        "explanation": "La ventilación debe estar protegida para evitar la entrada de cuerpos extraños, no es su fin principal."
+      },
+      {
+        "id": 4,
+        "answer": "Ruidos por vibraciones electromagnéticas.",
+        "isCorrect": false,
+        "explanation": "No tiene relación con la mitigación de ruidos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-67",
+    "type": "simple",
+    "question": "En una CGP, ¿qué indica el reglamento sobre el acceso de los usuarios a las conexiones de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Está terminantemente prohibido bajo sanción penal.",
+        "isCorrect": false,
+        "explanation": "Se permite bajo condiciones específicas de seguridad y comunicación."
+      },
+      {
+        "id": 2,
+        "answer": "Solo tras comunicación previa a la empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 especifica que usuarios o instaladores solo actuarán previa comunicación a la empresa suministradora."
+      },
+      {
+        "id": 3,
+        "answer": "Es de libre acceso para cualquier vecino del inmueble.",
+        "isCorrect": false,
+        "explanation": "El acceso debe estar controlado y limitado a personal cualificado o propietarios identificados."
+      },
+      {
+        "id": 4,
+        "answer": "Solo se permite en presencia de un notario público.",
+        "isCorrect": false,
+        "explanation": "La comunicación a la suministradora es el requisito administrativo-técnico suficiente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-68",
+    "type": "simple",
+    "question": "¿Qué valor mínimo de resistencia a impactos IK deben cumplir las CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IK07.",
+        "isCorrect": false,
+        "explanation": "Insuficiente para la norma."
+      },
+      {
+        "id": 2,
+        "answer": "IK08.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.2: una vez instaladas tendrán un grado IK08 según UNE-EN 62.262."
+      },
+      {
+        "id": 3,
+        "answer": "IK09.",
+        "isCorrect": false,
+        "explanation": "Valor para CPM."
+      },
+      {
+        "id": 4,
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "Valor para puertas de nicho."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-69",
+    "type": "simple",
+    "question": "En el Esquema 7 de CGP, ¿cuál es la configuración de la alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Alimentación en punta.",
+        "isCorrect": false,
+        "explanation": "El esquema 7 es de alimentación en derivación."
+      },
+      {
+        "id": 2,
+        "answer": "Alimentación en derivación con entrada y salida inferior.",
+        "isCorrect": true,
+        "explanation": "Según la descripción técnica de la ITC, el esquema 7 tiene entrada y salida por su parte inferior en derivación."
+      },
+      {
+        "id": 3,
+        "answer": "Entrada superior y salida lateral.",
+        "isCorrect": false,
+        "explanation": "Las conexiones se realizan por la parte inferior para evitar entrada de agua."
+      },
+      {
+        "id": 4,
+        "answer": "Alimentación mediante cables trenzados aéreos.",
+        "isCorrect": false,
+        "explanation": "El esquema describe la configuración eléctrica de bornes, no el tipo de cable de red."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-70",
+    "type": "simple",
+    "question": "¿Qué normativa aplica a los bornes de conexión domésticos o análogos en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.998.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos para CPM en la ITC-BT-13 asocia estos bornes con la norma UNE-EN 60.998."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.947-7.",
+        "isCorrect": false,
+        "explanation": "Esta es para bornes industriales."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.439-1.",
+        "isCorrect": false,
+        "explanation": "Norma general para conjuntos, no específica de bornes."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 60.529.",
+        "isCorrect": false,
+        "explanation": "Norma de grados IP."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-71",
+    "type": "multiple",
+    "question": "¿Qué características debe cumplir el neutro en el interior de una CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ser una conexión amovible.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.2: El neutro estará constituido por una conexión amovible."
+      },
+      {
+        "id": 2,
+        "answer": "Situarse a la izquierda de las fases.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.2: Situada a la izquierda de las fases, colocada la caja en posición de servicio."
+      },
+      {
+        "id": 3,
+        "answer": "Estar protegido por un fusible de menor calibre.",
+        "isCorrect": false,
+        "explanation": "El neutro no debe llevar fusibles."
+      },
+      {
+        "id": 4,
+        "answer": "Ser de color azul en toda su superficie de contacto.",
+        "isCorrect": false,
+        "explanation": "El borne suele ser metálico sin recubrimientos de color; el color azul aplica al aislamiento del cable."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-72",
+    "type": "simple",
+    "question": "En el Esquema 10 de CGP, ¿por dónde se realiza la salida hacia la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Por la parte inferior, junto a la entrada.",
+        "isCorrect": false,
+        "explanation": "Ese sería el esquema 11."
+      },
+      {
+        "id": 2,
+        "answer": "Por la parte superior.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 define el Esquema 10 con entrada por la parte inferior y salida por la parte superior."
+      },
+      {
+        "id": 3,
+        "answer": "Por la parte trasera de la caja hacia el muro.",
+        "isCorrect": false,
+        "explanation": "Las salidas suelen ser verticales para respetar el trazado de canalizaciones."
+      },
+      {
+        "id": 4,
+        "answer": "A través de un borne lateral específico.",
+        "isCorrect": false,
+        "explanation": "La configuración es vertical (inferior-superior)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-73",
+    "type": "simple",
+    "question": "¿Qué grado de protección IK mínimo deben cumplir las CPM una vez instaladas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IK08.",
+        "isCorrect": false,
+        "explanation": "Valor para CGP, insuficiente para CPM."
+      },
+      {
+        "id": 2,
+        "answer": "IK09.",
+        "isCorrect": true,
+        "explanation": "Apartado 2.2: una vez instaladas tendrán un grado IK09 según UNE-EN 62.262."
+      },
+      {
+        "id": 3,
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "Valor para puertas de nicho."
+      },
+      {
+        "id": 4,
+        "answer": "IK07.",
+        "isCorrect": false,
+        "explanation": "Insuficiente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-74",
+    "type": "simple",
+    "question": "Para un suministro trifásico con alimentación en derivación con entrada y salida inferior y una salida, ¿qué código de esquema se asigna?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 11.",
+        "isCorrect": false,
+        "explanation": "Es para suministros con dos salidas LGA."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 7.",
+        "isCorrect": false,
+        "explanation": "El Esquema 7 es para alimentación en punta."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 9.",
+        "isCorrect": false,
+        "explanation": "El esquema 9 es monofásico."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema 10.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 asigna el Esquema 10 para suministros en derivación con una sola salida."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-75",
+    "type": "simple",
+    "question": "¿Qué requisito se exige a la envolvente de una CPM respecto a los rayos ultravioleta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de color negro para absorberlos.",
+        "isCorrect": false,
+        "explanation": "El color no garantiza la resistencia estructural del material."
+      },
+      {
+        "id": 2,
+        "answer": "El material transparente debe ser resistente a su acción.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 exige que el material transparente para la lectura sea resistente a los rayos UV."
+      },
+      {
+        "id": 3,
+        "answer": "No debe recibir luz solar directa en ningún caso.",
+        "isCorrect": false,
+        "explanation": "Al instalarse en fachada, es inevitable que reciba radiación; por ello el material debe ser resistente."
+      },
+      {
+        "id": 4,
+        "answer": "Debe cubrirse con una chapa metálica opaca.",
+        "isCorrect": false,
+        "explanation": "Debe permitir la lectura sin necesidad de abrir la envolvente o retirar tapas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-76",
+    "type": "simple",
+    "question": "En el Esquema 11 de CGP, ¿cuántas salidas hacia líneas generales de alimentación (LGA) se contemplan?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una sola salida.",
+        "isCorrect": false,
+        "explanation": "El Esquema 11 se caracteriza por permitir derivar la energía hacia dos líneas distintas."
+      },
+      {
+        "id": 2,
+        "answer": "Dos salidas.",
+        "isCorrect": true,
+        "explanation": "La descripción técnica del Esquema 11 en la ITC-BT-13 especifica 'con dos salidas' para instalaciones en derivación."
+      },
+      {
+        "id": 3,
+        "answer": "Tres salidas, una por fase.",
+        "isCorrect": false,
+        "explanation": "Las salidas se cuentan por líneas completas (LGA), no por conductores individuales."
+      },
+      {
+        "id": 4,
+        "answer": "Salidas ilimitadas mediante bornes de puenteado.",
+        "isCorrect": false,
+        "explanation": "El diseño de la caja está limitado físicamente a las salidas normalizadas en su esquema."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-77",
+    "type": "simple",
+    "question": "¿Cuál es el código para una CPM monofásica que puede albergar hasta dos contadores?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CPM-M2.",
+        "isCorrect": false,
+        "explanation": "Este código no es normativo."
+      },
+      {
+        "id": 2,
+        "answer": "CPM-1.",
+        "isCorrect": true,
+        "explanation": "Según la tabla de Tipos de CPM, la CPM-1 es la diseñada para suministros monofásicos con hasta dos contadores (marcada como en desuso)."
+      },
+      {
+        "id": 3,
+        "answer": "CPM-2.",
+        "isCorrect": false,
+        "explanation": "Es para suministros trifásicos."
+      },
+      {
+        "id": 4,
+        "answer": "CPM-T.",
+        "isCorrect": false,
+        "explanation": "Es para grandes potencias trifásicas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-78",
+    "type": "simple",
+    "question": "En un edificio, se decide instalar una CGP en montaje superficial para una acometida aérea. ¿Qué altura máxima se permite?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "3 metros.",
+        "isCorrect": false,
+        "explanation": "3 metros es la altura mínima permitida en este caso."
+      },
+      {
+        "id": 2,
+        "answer": "4 metros.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 establece un rango entre 3 m y 4 m de altura para montaje superficial con acometida aérea."
+      },
+      {
+        "id": 3,
+        "answer": "2,5 metros.",
+        "isCorrect": false,
+        "explanation": "Altura insuficiente según la normativa para este tipo de montaje."
+      },
+      {
+        "id": 4,
+        "answer": "5 metros.",
+        "isCorrect": false,
+        "explanation": "Supera la altura máxima recomendada para facilitar labores técnicas de mantenimiento."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-79",
+    "type": "simple",
+    "question": "¿Qué normativa deben cumplir los contadores de inducción cuando se instalan en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 61.036.",
+        "isCorrect": false,
+        "explanation": "Aplica a contadores electrónicos."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 60.521.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos para CPM en la ITC-BT-13 asocia los contadores de inducción con la norma UNE-EN 60.521."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.439-1.",
+        "isCorrect": false,
+        "explanation": "Norma de conjuntos de aparamenta."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 61.038.",
+        "isCorrect": false,
+        "explanation": "Aplica a interruptores horarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-80",
+    "type": "simple",
+    "question": "Al realizar la conexión del neutro en una CGP, ¿cómo se debe fijar para que cumpla el requisito de ser 'amovible'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Mediante soldadura de plata.",
+        "isCorrect": false,
+        "explanation": "La soldadura impide la desconexión fácil."
+      },
+      {
+        "id": 2,
+        "answer": "Mediante una conexión amovible situada a la izquierda de las fases.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 exige expresamente que el neutro sea una conexión amovible y esté a la izquierda."
+      },
+      {
+        "id": 3,
+        "answer": "Usando un borne de presión rápida sin tornillos.",
+        "isCorrect": false,
+        "explanation": "Aunque puede ser amovible, el reglamento especifica su posición y naturaleza técnica amovible de forma general."
+      },
+      {
+        "id": 4,
+        "answer": "Encintando el cable directamente a la pletina.",
+        "isCorrect": false,
+        "explanation": "Práctica prohibida; requiere bornes normalizados."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-81",
+    "type": "multiple",
+    "question": "¿Qué tipos de suministros trifásicos están contemplados para ser alojados en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Suministros trifásicos alimentados en punta (CPM-2).",
+        "isCorrect": true,
+        "explanation": "La CPM-2 está diseñada para suministros trifásicos en punta."
+      },
+      {
+        "id": 2,
+        "answer": "Suministros trifásicos alimentados en derivación (CPM-3).",
+        "isCorrect": true,
+        "explanation": "La CPM-3 está diseñada para suministros trifásicos en derivación."
+      },
+      {
+        "id": 3,
+        "answer": "Suministros trifásicos de gran potencia con medida indirecta (CPM-T).",
+        "isCorrect": true,
+        "explanation": "La CPM-T cubre los suministros de gran potencia trifásicos."
+      },
+      {
+        "id": 4,
+        "answer": "Suministros trifásicos con retorno por tierra exclusivo.",
+        "isCorrect": false,
+        "explanation": "Este tipo de suministro no es estándar ni está contemplado en la ITC-BT-13."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-82",
+    "type": "simple",
+    "question": "En el caso de una acometida subterránea, ¿cómo debe protegerse la puerta del nicho contra la degradación ambiental?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Mediante una capa de grasa siliconada permanente.",
+        "isCorrect": false,
+        "explanation": "No es un método de protección reglamentario."
+      },
+      {
+        "id": 2,
+        "answer": "Estará protegida contra la corrosión.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 exige que la puerta del nicho esté protegida contra la corrosión."
+      },
+      {
+        "id": 3,
+        "answer": "Debe ser de acero inoxidable de grado quirúrgico obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "Se prefiere metálica y protegida, pero no se especifica ese grado de acero."
+      },
+      {
+        "id": 4,
+        "answer": "Sustituyéndola cada 2 años por una nueva.",
+        "isCorrect": false,
+        "explanation": "El diseño debe ser duradero con el mantenimiento adecuado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-83",
+    "type": "simple",
+    "question": "¿Qué normativa deben cumplir los interruptores horarios instalados en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 61.036.",
+        "isCorrect": false,
+        "explanation": "Es para contadores."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 61.038.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos de la ITC-BT-13 asocia los interruptores horarios con la norma UNE-EN 61.038."
+      },
+      {
+        "id": 3,
+        "answer": "UNE-EN 60.521.",
+        "isCorrect": false,
+        "explanation": "Es para contadores de inducción."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 60.439-1.",
+        "isCorrect": false,
+        "explanation": "Es para conjuntos de aparamenta."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-84",
+    "type": "simple",
+    "question": "En una CGP, ¿qué se exige respecto al poder de corte de los fusibles en relación con la corriente de cortocircuito?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser inferior para que actúen antes los de la red.",
+        "isCorrect": false,
+        "explanation": "Si es inferior, el fusible podría explotar o no interrumpir el arco al fundirse."
+      },
+      {
+        "id": 2,
+        "answer": "Al menos igual a la corriente de cortocircuito prevista en el punto.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 exige que el poder de corte sea al menos igual a la corriente de cortocircuito prevista para garantizar una apertura segura."
+      },
+      {
+        "id": 3,
+        "answer": "Exactamente la mitad para permitir selectividad.",
+        "isCorrect": false,
+        "explanation": "La selectividad se basa en curvas de tiempo-corriente, no en el poder de corte."
+      },
+      {
+        "id": 4,
+        "answer": "No se tiene en cuenta este valor en instalaciones domésticas.",
+        "isCorrect": false,
+        "explanation": "Es un parámetro crítico de seguridad en cualquier instalación eléctrica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-85",
+    "type": "simple",
+    "question": "¿Qué tipo de CPM permite albergar solamente un contador trifásico en alimentación en punta?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CPM-1.",
+        "isCorrect": false,
+        "explanation": "Es para monofásica."
+      },
+      {
+        "id": 2,
+        "answer": "CPM-2.",
+        "isCorrect": true,
+        "explanation": "Según la tabla de tipos de CPM, la CPM-2 está diseñada para un solo contador trifásico en punta."
+      },
+      {
+        "id": 3,
+        "answer": "CPM-3.",
+        "isCorrect": false,
+        "explanation": "Es para derivación."
+      },
+      {
+        "id": 4,
+        "answer": "CPM-T.",
+        "isCorrect": false,
+        "explanation": "Es para medida indirecta."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-86",
+    "type": "simple",
+    "question": "Al realizar la instalación de enlace, ¿qué se debe hacer si para un suministro se precisan más de dos cajas generales de protección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Instalarlas todas en el mismo nicho forzando el espacio.",
+        "isCorrect": false,
+        "explanation": "Está prohibido superar las dos cajas por nicho estándar."
+      },
+      {
+        "id": 2,
+        "answer": "Acordar otras soluciones técnicas con la suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 prevé el uso de soluciones técnicas acordadas cuando se precisen más de dos cajas."
+      },
+      {
+        "id": 3,
+        "answer": "Dividir el edificio en dos fincas registrales diferentes.",
+        "isCorrect": false,
+        "explanation": "Es una medida administrativa ajena al diseño técnico reglamentario."
+      },
+      {
+        "id": 4,
+        "answer": "Renunciar al suministro y usar generadores propios.",
+        "isCorrect": false,
+        "explanation": "Existen soluciones técnicas reglamentadas para este tipo de demandas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-87",
+    "type": "simple",
+    "question": "En cuanto a los esquemas de CGP, ¿cuál es la diferencia principal entre el esquema 10 y el 11?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El 10 es monofásico y el 11 trifásico.",
+        "isCorrect": false,
+        "explanation": "Ambos son trifásicos."
+      },
+      {
+        "id": 2,
+        "answer": "La ubicación de la salida hacia la LGA.",
+        "isCorrect": true,
+        "explanation": "El esquema 10 tiene salida superior y el esquema 11 tiene salida inferior."
+      },
+      {
+        "id": 3,
+        "answer": "El tipo de fusibles (cuchilla vs cilíndricos).",
+        "isCorrect": false,
+        "explanation": "El esquema define la configuración de entrada/salida, no el formato de fusible."
+      },
+      {
+        "id": 4,
+        "answer": "El grado IP requerido.",
+        "isCorrect": false,
+        "explanation": "Ambos deben cumplir IP43 una vez instalados."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-88",
+    "type": "simple",
+    "question": "¿Qué requisito de material se aplica a la envolvente de la CPM respecto a la condensación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de material poroso para que 'respire'.",
+        "isCorrect": false,
+        "explanation": "El material debe ser aislante y resistente, no poroso."
+      },
+      {
+        "id": 2,
+        "answer": "Disponer de ventilación interna necesaria.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 exige ventilación interna para garantizar que no se formen condensaciones."
+      },
+      {
+        "id": 3,
+        "answer": "Llevar una capa de aislante térmico de 5 cm.",
+        "isCorrect": false,
+        "explanation": "No es un requisito del reglamento para estas envolventes."
+      },
+      {
+        "id": 4,
+        "answer": "Estar sellada herméticamente al vacío.",
+        "isCorrect": false,
+        "explanation": "Imposible de mantener y contraproducente para el funcionamiento térmico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-89",
+    "type": "simple",
+    "question": "Al realizar la instalación de una CGP, ¿quién determina finalmente el tipo de esquema de red (punta o derivación) a utilizar?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El promotor del edificio.",
+        "isCorrect": false,
+        "explanation": "No tiene la competencia técnica sobre la red de distribución."
+      },
+      {
+        "id": 2,
+        "answer": "La empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.2 indica que el esquema a utilizar lo determinará la empresa suministradora."
+      },
+      {
+        "id": 3,
+        "answer": "La Delegación de Industria.",
+        "isCorrect": false,
+        "explanation": "Industria aprueba las normas de la suministradora, pero el tipo de esquema lo fija esta última según la red."
+      },
+      {
+        "id": 4,
+        "answer": "El fabricante de la caja.",
+        "isCorrect": false,
+        "explanation": "El fabricante ofrece cajas normalizadas para los esquemas que la suministradora requiere."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-90",
+    "type": "simple",
+    "question": "¿Qué grado de protección IK se exige para las envolventes de las cajas de protección y medida (CPM)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IK08.",
+        "isCorrect": false,
+        "explanation": "Es para CGP."
+      },
+      {
+        "id": 2,
+        "answer": "IK09.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 exige un grado IK09 para las envolventes de las CPM."
+      },
+      {
+        "id": 3,
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "Es para puertas de nichos."
+      },
+      {
+        "id": 4,
+        "answer": "IK07.",
+        "isCorrect": false,
+        "explanation": "Valor insuficiente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-91",
+    "type": "multiple",
+    "question": "¿En qué condiciones se permite que los usuarios actúen sobre las conexiones de la LGA en una CGP?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Previa comunicación a la empresa suministradora.",
+        "isCorrect": true,
+        "explanation": "Apartado 1.1: previa comunicación a la empresa suministradora."
+      },
+      {
+        "id": 2,
+        "answer": "Solo si son instaladores autorizados o el propio usuario con conocimiento.",
+        "isCorrect": true,
+        "explanation": "El reglamento cita a 'los usuarios o la empresa instaladora' bajo la condición de comunicación previa."
+      },
+      {
+        "id": 3,
+        "answer": "Libremente si la caja no tiene precintos.",
+        "isCorrect": false,
+        "explanation": "La ausencia de precinto no autoriza la manipulación; siempre requiere comunicación."
+      },
+      {
+        "id": 4,
+        "answer": "Bajo supervisión directa de un agente de la autoridad.",
+        "isCorrect": false,
+        "explanation": "La autoridad competente es la suministradora y/o el instalador autorizado en este ámbito."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-92",
+    "type": "simple",
+    "question": "En el caso de suministros trifásicos de alimentación en derivación con entrada y salida inferior y dos salidas, ¿cuál es el esquema reglamentario?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Esquema 7.",
+        "isCorrect": false,
+        "explanation": "El esquema 7 es de alimentación en punta."
+      },
+      {
+        "id": 2,
+        "answer": "Esquema 9.",
+        "isCorrect": false,
+        "explanation": "El esquema 9 es monofásico y está indicado como en desuso."
+      },
+      {
+        "id": 3,
+        "answer": "Esquema 10.",
+        "isCorrect": false,
+        "explanation": "El esquema 10 es para una sola salida LGA."
+      },
+      {
+        "id": 4,
+        "answer": "Esquema 11.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-13 (según material técnico de referencia) establece el Esquema 11 para suministros trifásicos en derivación con dos salidas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-93",
+    "type": "simple",
+    "question": "¿Qué requisito de inflamabilidad deben cumplir las partes de una CPM que soportan elementos bajo tensión?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "650 ºC.",
+        "isCorrect": false,
+        "explanation": "Valor para partes que no soportan elementos activos."
+      },
+      {
+        "id": 2,
+        "answer": "960 ºC.",
+        "isCorrect": true,
+        "explanation": "La Nota 2 del apartado 2.2 especifica un grado de inflamabilidad de (960 ± 10) ºC para las partes que soportan partes activas en las CPM."
+      },
+      {
+        "id": 3,
+        "answer": "750 ºC.",
+        "isCorrect": false,
+        "explanation": "No es un valor contemplado en las notas de la ITC."
+      },
+      {
+        "id": 4,
+        "answer": "No se les exige ensayo de inflamabilidad.",
+        "isCorrect": false,
+        "explanation": "Al ser equipos de clase II y estar en el exterior, la seguridad contra incendios es obligatoria."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-94",
+    "type": "simple",
+    "question": "Al elegir una puerta metálica para un nicho de CGP, ¿qué se exige respecto a su cierre?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cierre mediante electroimán de alta potencia.",
+        "isCorrect": false,
+        "explanation": "No es un requisito estándar."
+      },
+      {
+        "id": 2,
+        "answer": "Cerradura o candado normalizado por la suministradora.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 exige cerradura o candado normalizado para asegurar el acceso controlado."
+      },
+      {
+        "id": 3,
+        "answer": "Cierre hermético con junta de goma tórica.",
+        "isCorrect": false,
+        "explanation": "Debe permitir la ventilación del nicho, por lo que no es hermética al vacío."
+      },
+      {
+        "id": 4,
+        "answer": "No se exige cierre si está a más de 3 metros de altura.",
+        "isCorrect": false,
+        "explanation": "En altura se permite montaje superficial (sin nicho/puerta), pero si hay nicho, siempre lleva puerta y cierre."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-95",
+    "type": "simple",
+    "question": "¿Para qué tipo de suministro se utiliza la envolvente CPM-1?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Suministros trifásicos industriales.",
+        "isCorrect": false,
+        "explanation": "Es para suministros monofásicos."
+      },
+      {
+        "id": 2,
+        "answer": "Suministros monofásicos, con hasta dos contadores (en desuso).",
+        "isCorrect": true,
+        "explanation": "La tabla de tipos de CPM define la CPM-1 para suministros monofásicos con hasta dos contadores."
+      },
+      {
+        "id": 3,
+        "answer": "Suministros de emergencia para hospitales.",
+        "isCorrect": false,
+        "explanation": "No es una caja específica de seguridad o emergencia."
+      },
+      {
+        "id": 4,
+        "answer": "Suministros con medida en media tensión.",
+        "isCorrect": false,
+        "explanation": "Aplica solo a instalaciones de enlace de baja tensión."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-96",
+    "type": "simple",
+    "question": "En una CGP, ¿cuál es la función de los fusibles respecto a la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Medir el consumo de energía de la línea.",
+        "isCorrect": false,
+        "explanation": "La medida es función del contador, no del fusible."
+      },
+      {
+        "id": 2,
+        "answer": "Alojarlos como elementos de protección de la misma.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-13 indica que las CGP alojan los elementos de protección de las líneas generales de alimentación."
+      },
+      {
+        "id": 3,
+        "answer": "Filtrar armónicos provenientes de la red.",
+        "isCorrect": false,
+        "explanation": "Los fusibles solo protegen contra sobreintensidades."
+      },
+      {
+        "id": 4,
+        "answer": "Estabilizar la tensión de salida a 230V.",
+        "isCorrect": false,
+        "explanation": "No tienen funciones de regulación de tensión."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-97",
+    "type": "simple",
+    "question": "¿Qué se exige al material de la envolvente de una CPM respecto a la acción del sol?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe estar pintada de blanco para reflejar el calor.",
+        "isCorrect": false,
+        "explanation": "El color es secundario a la composición química del material."
+      },
+      {
+        "id": 2,
+        "answer": "El material transparente debe ser resistente a los rayos UV.",
+        "isCorrect": true,
+        "explanation": "El apartado 2.2 exige resistencia a los UV para el material transparente de lectura."
+      },
+      {
+        "id": 3,
+        "answer": "Debe estar fabricada en metal para no degradarse.",
+        "isCorrect": false,
+        "explanation": "Las CPM suelen ser de materiales aislantes para cumplir con la Clase II."
+      },
+      {
+        "id": 4,
+        "answer": "No debe superar los 40ºC al sol.",
+        "isCorrect": false,
+        "explanation": "No se fija un límite de temperatura superficial, sino de resistencia de materiales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-98",
+    "type": "simple",
+    "question": "En el Esquema 11 de CGP, ¿cuál es la dirección de los cables de entrada y salida?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Entrada inferior y salida superior.",
+        "isCorrect": false,
+        "explanation": "Este es el esquema 10."
+      },
+      {
+        "id": 2,
+        "answer": "Entrada y salida por su parte inferior.",
+        "isCorrect": true,
+        "explanation": "La descripción del Esquema 11 indica entrada y salida por la parte inferior."
+      },
+      {
+        "id": 3,
+        "answer": "Ambas por la parte trasera.",
+        "isCorrect": false,
+        "explanation": "Las canalizaciones suelen ser verticales exteriores o empotradas."
+      },
+      {
+        "id": 4,
+        "answer": "Entrada lateral y salida inferior.",
+        "isCorrect": false,
+        "explanation": "Configuración no contemplada en los esquemas tipo de la ITC."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-99",
+    "type": "simple",
+    "question": "¿Qué tipo de bornes se asocian a la norma UNE-EN 60.998 en una CPM?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Bornes de conexión industriales.",
+        "isCorrect": false,
+        "explanation": "Siguen la norma UNE-EN 60.947-7."
+      },
+      {
+        "id": 2,
+        "answer": "Bornes de conexión domésticos o análogos.",
+        "isCorrect": true,
+        "explanation": "La tabla de productos de la ITC asocia estos bornes con la norma UNE-EN 60.998."
+      },
+      {
+        "id": 3,
+        "answer": "Solo los bornes de salida del contador.",
+        "isCorrect": false,
+        "explanation": "Los bornes internos de la envolvente para conexión de cables deben estar normalizados."
+      },
+      {
+        "id": 4,
+        "answer": "Bornes de conexión de telecomunicaciones.",
+        "isCorrect": false,
+        "explanation": "No forman parte de la CPM estándar de energía."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-13-100",
+    "type": "simple",
+    "question": "Al realizar la instalación de una CGP, ¿qué se debe procurar respecto a la red de distribución pública?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que la caja esté lo más alejada posible para evitar ruidos.",
+        "isCorrect": false,
+        "explanation": "La proximidad es clave para la seguridad y el diseño de enlace."
+      },
+      {
+        "id": 2,
+        "answer": "Que la situación elegida esté lo más próxima posible a la red.",
+        "isCorrect": true,
+        "explanation": "El apartado 1.1 exige que se procure la máxima proximidad a la red de distribución pública."
+      },
+      {
+        "id": 3,
+        "answer": "Que se conecte siempre en el punto de mayor tensión.",
+        "isCorrect": false,
+        "explanation": "Se conecta en el punto de suministro acordado con la empresa."
+      },
+      {
+        "id": 4,
+        "answer": "No existe ninguna recomendación de proximidad.",
+        "isCorrect": false,
+        "explanation": "Es un requisito reglamentario para optimizar la acometida."
       }
     ]
   }

@@ -2,1085 +2,3410 @@
   {
     "id": "ITC-BT-17-01",
     "type": "simple",
-    "question": "¿Dónde deben situarse los dispositivos generales de mando y protección?",
+    "question": "En el diseño de una vivienda unifamiliar, ¿dónde se deben situar preferentemente los dispositivos generales de mando y protección?",
     "options": [
       {
         "id": 1,
-        "answer": "En la fachada exterior del edificio.",
+        "answer": "En el garaje, siempre que esté a menos de 10 metros del contador.",
         "isCorrect": false,
-        "explanation": "El reglamento no indica que estos dispositivos deban situarse en el exterior del inmueble."
+        "explanation": "La ubicación reglamentaria es lo más cerca posible del punto de entrada de la derivación individual, independientemente de la distancia al contador."
       },
       {
         "id": 2,
-        "answer": "En el cuarto de contadores junto a la centralización.",
-        "isCorrect": false,
-        "explanation": "Deben estar ubicados en la propia vivienda o local del usuario, no en las zonas comunes de medida."
+        "answer": "Lo más cerca posible del punto de entrada de la derivación individual.",
+        "isCorrect": true,
+        "explanation": "Los dispositivos deben situarse lo más cerca posible del punto de entrada de la derivación individual a la vivienda o local, según establece la ITC-BT-17."
       },
       {
         "id": 3,
-        "answer": "Lo más cerca posible del punto de entrada de la derivación individual.",
-        "isCorrect": true,
-        "explanation": "Según la ITC-BT-17, la norma exige literalmente que se sitúen lo más cerca posible del punto de entrada de la derivación individual en el local o vivienda."
+        "answer": "En el centro geométrico de la planta principal para equilibrar circuitos.",
+        "isCorrect": false,
+        "explanation": "Aunque es bueno para la caída de tensión, la seguridad exige proximidad al punto de entrada para minimizar tramos sin protección general."
       },
       {
         "id": 4,
-        "answer": "En el centro geométrico de la vivienda.",
+        "answer": "En un armario metálico empotrado en la fachada exterior.",
         "isCorrect": false,
-        "explanation": "Su ubicación viene dictada por el punto de entrada de la derivación, no por la geometría de la vivienda."
+        "explanation": "Deben situarse en el interior, en una zona que permita el acceso y maniobra inmediata del usuario."
       }
     ]
   },
   {
     "id": "ITC-BT-17-02",
     "type": "simple",
-    "question": "¿Dónde y cómo debe colocarse la caja destinada al Interruptor de Control de Potencia (ICP)?",
+    "question": "Se está instalando el cuadro de distribución en una reforma. ¿Qué requisitos debe cumplir el compartimento destinado al Interruptor de Control de Potencia (ICP)?",
     "options": [
       {
         "id": 1,
-        "answer": "Al final del cuadro, en el mismo compartimento que los magnetotérmicos.",
+        "answer": "Debe ser de material transparente para lectura desde el exterior del cuadro.",
         "isCorrect": false,
-        "explanation": "Debe ir antes de los demás dispositivos y en un compartimento independiente."
+        "explanation": "La transparencia no es obligatoria; lo fundamental es la independencia física y la capacidad de precintado."
       },
       {
         "id": 2,
-        "answer": "Inmediatamente antes de los demás dispositivos, en compartimento independiente y precintable.",
-        "isCorrect": true,
-        "explanation": "Se debe colocar inmediatamente antes de los demás dispositivos, en compartimento independiente y precintable."
+        "answer": "Debe estar integrado tras el interruptor diferencial para protección del operario.",
+        "isCorrect": false,
+        "explanation": "El ICP debe ser el primer elemento de la instalación, situándose antes que cualquier otro dispositivo de mando o protección."
       },
       {
         "id": 3,
-        "answer": "En el exterior de la vivienda, obligatoriamente separada.",
-        "isCorrect": false,
-        "explanation": "Se ubica en la vivienda o local, y se permite su integración en el mismo cuadro general."
+        "answer": "Debe ser independiente, precintable y situarse antes de los demás dispositivos.",
+        "isCorrect": true,
+        "explanation": "La caja para el ICP debe ser independiente, permitir el precintado por la distribuidora y estar antes de los dispositivos de mando y protección."
       },
       {
         "id": 4,
-        "answer": "Justo después del interruptor diferencial general.",
+        "answer": "Debe tener una rejilla de ventilación si la potencia supera los 5,75 kW.",
         "isCorrect": false,
-        "explanation": "Debe ubicarse reglamentariamente antes de todos los demás dispositivos de mando y protección."
+        "explanation": "No se exige ventilación específica para el compartimento del ICP en cuadros domésticos."
       }
     ]
   },
   {
     "id": "ITC-BT-17-03",
     "type": "simple",
-    "question": "¿Permite el reglamento que la caja del ICP se integre en el mismo cuadro que el resto?",
+    "question": "Un cliente solicita instalar el cuadro general en el interior de un armario empotrado en el pasillo de entrada. ¿Es admisible esta configuración?",
     "options": [
       {
         "id": 1,
-        "answer": "No, debe haber una separación física de al menos un metro.",
-        "isCorrect": false,
-        "explanation": "No existe un requerimiento de distancia mínima de separación física entre ambos elementos."
+        "answer": "Sí, siempre que se respeten las distancias de maniobra y no se almacenen productos inflamables.",
+        "isCorrect": true,
+        "explanation": "Se permite la instalación en armarios si se garantiza el acceso y la seguridad contra incendios del entorno."
       },
       {
         "id": 2,
-        "answer": "Sí, se podrá colocar en el mismo cuadro donde se coloquen los demás dispositivos.",
-        "isCorrect": true,
-        "explanation": "El texto especifica que dicha caja se podrá colocar en el mismo cuadro que los dispositivos generales de mando y protección."
+        "answer": "No, el cuadro debe estar visto y sin puertas decorativas.",
+        "isCorrect": false,
+        "explanation": "Se puede ocultar tras puertas de carpintería siempre que no se obstaculice el acceso rápido en emergencia."
       },
       {
         "id": 3,
-        "answer": "Solo si el cuadro es de envolvente metálica.",
+        "answer": "Solo si el armario dispone de un extintor de CO2 en su interior.",
         "isCorrect": false,
-        "explanation": "La norma no condiciona esta posibilidad de integración al material de la envolvente del cuadro."
+        "explanation": "No es un requisito para instalaciones domésticas estándar; basta con cumplir las normas de materiales de la envolvente."
       },
       {
         "id": 4,
-        "answer": "Solo para locales comerciales, pero no en viviendas.",
+        "answer": "Sí, pero solo si la puerta del armario es de cristal templado.",
         "isCorrect": false,
-        "explanation": "Esta regla de instalación aplica de manera general a todos los suministros, incluyendo viviendas."
+        "explanation": "El material de la puerta del armario no está restringido al cristal, siempre que permita el acceso."
       }
     ]
   },
   {
     "id": "ITC-BT-17-04",
     "type": "simple",
-    "question": "En viviendas, ¿qué ubicaciones están terminantemente prohibidas para estos dispositivos?",
+    "question": "Durante la inspección de una vivienda nueva, se observa el cuadro de mando ubicado en un dormitorio secundario. ¿Qué dictamen técnico corresponde?",
     "options": [
       {
         "id": 1,
-        "answer": "Junto a la puerta de entrada.",
+        "answer": "Favorable, si el dormitorio tiene ventilación directa al exterior.",
         "isCorrect": false,
-        "explanation": "Es precisamente el lugar preferente donde debe preverse su situación según el reglamento."
+        "explanation": "La ubicación en dormitorios está prohibida independientemente de la ventilación de la estancia."
       },
       {
         "id": 2,
-        "answer": "En los pasillos.",
-        "isCorrect": false,
-        "explanation": "Los pasillos de distribución no figuran en la lista de prohibiciones de la instrucción."
+        "answer": "Desfavorable, está prohibido situar el cuadro en dormitorios, baños o aseos.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-17 prohíbe explícitamente la ubicación de los dispositivos generales de mando y protección en dormitorios, baños, aseos o lugares similares."
       },
       {
         "id": 3,
-        "answer": "En dormitorios, baños, aseos, etc.",
-        "isCorrect": true,
-        "explanation": "El texto prohíbe explícitamente que se coloquen en dormitorios, baños, aseos o lugares similares."
+        "answer": "Favorable, siempre que el cuadro tenga un grado de protección IP55.",
+        "isCorrect": false,
+        "explanation": "El grado de protección no anula la prohibición de ubicación en estancias de descanso o húmedas."
       },
       {
         "id": 4,
-        "answer": "En los salones y comedores.",
+        "answer": "Condicionado a que la puerta del dormitorio no tenga cerradura.",
         "isCorrect": false,
-        "explanation": "Estas estancias no están incluidas en las prohibiciones normativas de ubicación."
+        "explanation": "Incluso sin cerradura, un dormitorio no es un lugar apto para la centralización de protecciones generales."
       }
     ]
   },
   {
     "id": "ITC-BT-17-05",
     "type": "simple",
-    "question": "En locales industriales o comerciales, ¿dónde deberán situarse los dispositivos generales?",
+    "question": "En un local comercial con varias puertas de acceso a distintas calles, ¿dónde se deben centralizar los dispositivos de mando?",
     "options": [
       {
         "id": 1,
-        "answer": "En el almacén o trastienda.",
+        "answer": "En la puerta más alejada de la zona de público por seguridad.",
         "isCorrect": false,
-        "explanation": "Deben estar próximos a la entrada principal, no necesariamente en zonas de almacenamiento."
+        "explanation": "Se debe priorizar la accesibilidad desde la entrada principal o de servicio más lógica para el personal."
       },
       {
         "id": 2,
-        "answer": "Lo más próximo posible a una puerta de entrada de éstos.",
+        "answer": "Lo más próximo posible a una de las puertas de entrada.",
         "isCorrect": true,
-        "explanation": "La instrucción establece que deberán situarse lo más próximo posible a una puerta de entrada del establecimiento."
+        "explanation": "En locales comerciales o industriales, los dispositivos deben situarse lo más cerca posible de una de las puertas de entrada para facilitar el seccionamiento."
       },
       {
         "id": 3,
-        "answer": "En la oficina del encargado.",
+        "answer": "En el sótano técnico, bajo llave maestra de la propiedad.",
         "isCorrect": false,
-        "explanation": "La ubicación de oficina no garantiza la proximidad requerida al punto de entrada de la línea."
+        "explanation": "Dificultaría el acceso rápido en caso de avería o emergencia eléctrica."
       },
       {
         "id": 4,
-        "answer": "En el exterior del establecimiento.",
+        "answer": "Repartidos proporcionalmente junto a cada una de las puertas.",
         "isCorrect": false,
-        "explanation": "Los dispositivos generales de mando y protección de la instalación interior deben ir dentro del local."
+        "explanation": "La protección general debe estar centralizada en un punto de entrada definido para evitar confusiones en el corte."
       }
     ]
   },
   {
     "id": "ITC-BT-17-06",
     "type": "simple",
-    "question": "¿Qué elementos se consideran el 'origen de la instalación interior'?",
+    "question": "¿Qué hito técnico marca exactamente el origen de la instalación interior del usuario?",
     "options": [
       {
         "id": 1,
-        "answer": "La derivación individual.",
+        "answer": "La salida de los bornes del contador de energía.",
         "isCorrect": false,
-        "explanation": "Es parte de la instalación de enlace, tramo previo a la instalación interior del usuario."
+        "explanation": "El contador es parte de la instalación de enlace; la instalación interior empieza en los dispositivos de protección."
       },
       {
         "id": 2,
-        "answer": "El contador eléctrico.",
-        "isCorrect": false,
-        "explanation": "El equipo de medida precede al cuadro de mando y protección del usuario."
+        "answer": "Los dispositivos individuales de mando y protección de cada uno de los circuitos.",
+        "isCorrect": true,
+        "explanation": "Técnicamente, el origen de la instalación interior se sitúa en los dispositivos de protección de cada circuito derivado."
       },
       {
         "id": 3,
-        "answer": "Los dispositivos individuales de mando y protección de cada circuito.",
-        "isCorrect": true,
-        "explanation": "Según la ITC-BT-17, el texto define a estos dispositivos como el origen técnico de la instalación interior."
+        "answer": "El puente de unión entre la LGA y la derivación individual.",
+        "isCorrect": false,
+        "explanation": "Ese punto es interno a la centralización de contadores."
       },
       {
         "id": 4,
-        "answer": "La Caja General de Protección (CGP).",
+        "answer": "La entrada de la línea de acometida al edificio.",
         "isCorrect": false,
-        "explanation": "La CGP marca el límite de la red de distribución con el edificio, no el inicio de la instalación interior."
+        "explanation": "La acometida es propiedad de la distribuidora y ajena a la instalación interior."
       }
     ]
   },
   {
     "id": "ITC-BT-17-07",
     "type": "simple",
-    "question": "¿Es obligatorio centralizar todas las protecciones en un único cuadro a la entrada?",
+    "question": "En una vivienda de 3 plantas, ¿es obligatorio instalar todas las protecciones de todos los circuitos en un único cuadro?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, la norma prohíbe la instalación de subcuadros.",
+        "answer": "Sí, para garantizar el corte omnipolar único de la vivienda.",
         "isCorrect": false,
-        "explanation": "La normativa permite explícitamente la instalación descentralizada en varios cuadros."
+        "explanation": "Se puede tener un corte general único y luego subcuadros repartidos por plantas."
       },
       {
         "id": 2,
-        "answer": "No, podrán instalarse en cuadros separados y en otros lugares.",
+        "answer": "No, se pueden instalar en cuadros separados en distintos lugares.",
         "isCorrect": true,
-        "explanation": "Se indica que dichos dispositivos podrán instalarse en cuadros separados y en otros lugares."
+        "explanation": "La ITC-BT-17 permite que los dispositivos se instalen en cuadros separados si la configuración de la vivienda lo requiere."
       },
       {
         "id": 3,
-        "answer": "Sí, salvo que la potencia contratada supere los 10 kW.",
+        "answer": "Solo si la distancia entre cuadros es inferior a 5 metros de cable.",
         "isCorrect": false,
-        "explanation": "Esta flexibilidad de diseño no está sujeta a límites específicos de potencia contratada."
+        "explanation": "No existe tal restricción de distancia, siempre que se respeten las caídas de tensión."
       },
       {
         "id": 4,
-        "answer": "Solo es obligatorio en viviendas.",
+        "answer": "Solo en instalaciones industriales, en viviendas es obligatorio un cuadro único.",
         "isCorrect": false,
-        "explanation": "La norma permite instalar cuadros separados independientemente del tipo de uso del inmueble."
+        "explanation": "La flexibilidad de distribución aplica a cualquier tipo de instalación receptora."
       }
     ]
   },
   {
     "id": "ITC-BT-17-08",
     "type": "simple",
-    "question": "En locales de pública concurrencia, ¿qué precaución exige la norma sobre los cuadros?",
+    "question": "En un local de pública concurrencia, ¿qué medida de seguridad física debe tener el cuadro general?",
     "options": [
       {
         "id": 1,
-        "answer": "Que estén pintados con franjas amarillas y negras.",
+        "answer": "Debe estar fabricado en acero inoxidable de 2 mm de espesor.",
         "isCorrect": false,
-        "explanation": "El reglamento no establece requerimientos de señalización por colores para los cuadros."
+        "explanation": "El material puede ser aislante; lo importante es la restricción de acceso y el grado IK."
       },
       {
         "id": 2,
-        "answer": "Que dispongan de doble envolvente ignífuga.",
-        "isCorrect": false,
-        "explanation": "Aunque tienen requisitos de protección, la doble envolvente ignífuga no se cita en este apartado."
+        "answer": "Debe tomarse precauciones para que no sea accesible al público en general.",
+        "isCorrect": true,
+        "explanation": "Es obligatorio asegurar que el público no pueda manipular los dispositivos de mando y protección."
       },
       {
         "id": 3,
-        "answer": "Que se tomen precauciones para que no sean accesibles al público.",
-        "isCorrect": true,
-        "explanation": "Se exige tomar las precauciones necesarias para que los dispositivos no sean accesibles al público en general."
+        "answer": "Debe situarse a una altura mínima de 2,5 metros fuera del alcance de la mano.",
+        "isCorrect": false,
+        "explanation": "La altura máxima de operación es de 2 metros; si es inaccesible, el personal autorizado no podrá operar con rapidez."
       },
       {
         "id": 4,
-        "answer": "Que estén vigilados permanentemente por personal.",
+        "answer": "Debe disponer de una alarma sonora de apertura conectada a la central de incendios.",
         "isCorrect": false,
-        "explanation": "Es suficiente con que sean físicamente inaccesibles sin requerir vigilancia humana constante."
+        "explanation": "No es un requisito reglamentario para los cuadros eléctricos estándar."
       }
     ]
   },
   {
     "id": "ITC-BT-17-09",
     "type": "simple",
-    "question": "¿A qué altura deben situarse los dispositivos en viviendas desde el suelo?",
+    "question": "¿Cuál es el rango de altura reglamentario para situar los dispositivos de mando y protección en una vivienda?",
     "options": [
       {
         "id": 1,
-        "answer": "Entre 1 m y 1,5 m.",
+        "answer": "Entre 1 metro y 1,8 metros desde el suelo.",
         "isCorrect": false,
-        "explanation": "1 metro es el límite inferior aplicado a locales comerciales, no a viviendas."
+        "explanation": "El límite inferior para viviendas es de 1,4 metros."
       },
       {
         "id": 2,
-        "answer": "Entre 1,4 m y 2 m.",
+        "answer": "Entre 1,4 y 2 metros desde el nivel del suelo.",
         "isCorrect": true,
-        "explanation": "La altura estará comprendida entre 1,4 y 2 m para el caso de viviendas."
+        "explanation": "Para viviendas, las manetas de mando deben situarse en un rango de 1,4 a 2 metros de altura."
       },
       {
         "id": 3,
-        "answer": "Entre 1,8 m y 2,5 m.",
+        "answer": "Cualquier altura siempre que sea visible por un adulto de estatura media.",
         "isCorrect": false,
-        "explanation": "Este rango supera la altura máxima permitida ergonómicamente por la norma."
+        "explanation": "Las cotas están estrictamente normalizadas para garantizar seguridad y accesibilidad."
       },
       {
         "id": 4,
-        "answer": "A más de 2 m por seguridad infantil.",
+        "answer": "A 0,7 metros si la vivienda es para personas con movilidad reducida.",
         "isCorrect": false,
-        "explanation": "2 metros es el límite superior máximo permitido por el reglamento."
+        "explanation": "Aunque existen recomendaciones de accesibilidad, el rango base de la ITC es 1,4-2m, permitiendo 0,7-1m solo en casos específicos de locales comerciales o movilidad reducida bajo proyecto."
       }
     ]
   },
   {
     "id": "ITC-BT-17-10",
     "type": "simple",
-    "question": "En locales comerciales, ¿cuál es la altura mínima permitida desde el suelo?",
+    "question": "En un local comercial, ¿cuál es el límite inferior de altura permitido para la instalación del cuadro de mando?",
     "options": [
       {
         "id": 1,
-        "answer": "0,5 m",
+        "answer": "0,7 metros desde el suelo.",
         "isCorrect": false,
-        "explanation": "Este valor se encuentra por debajo del límite mínimo normativo exigido."
+        "explanation": "El límite para locales comerciales se sitúa en 1 metro."
       },
       {
         "id": 2,
-        "answer": "1 m",
+        "answer": "1 metro desde el nivel del suelo.",
         "isCorrect": true,
-        "explanation": "El reglamento detalla que en locales comerciales la altura mínima será de 1 m desde el nivel del suelo."
+        "explanation": "En locales comerciales o industriales, se permite situar los dispositivos a una altura mínima de 1 metro."
       },
       {
         "id": 3,
-        "answer": "1,4 m",
+        "answer": "1,4 metros, igual que en las viviendas.",
         "isCorrect": false,
-        "explanation": "Este es el valor de altura mínima aplicable exclusivamente a viviendas."
+        "explanation": "La norma es más flexible en locales que en viviendas en cuanto al límite inferior."
       },
       {
         "id": 4,
-        "answer": "2 m",
+        "answer": "Indiferente, si el cuadro tiene cerradura con llave.",
         "isCorrect": false,
-        "explanation": "Representa la altura máxima en viviendas, no el límite mínimo para comercios."
+        "explanation": "La presencia de llave no exime de cumplir las cotas ergonómicas de instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-17-11",
     "type": "simple",
-    "question": "¿Cuál debe ser la posición de servicio física de los dispositivos en el cuadro?",
+    "question": "¿Cuál es la orientación de montaje obligatoria para los dispositivos de mando y protección dentro del cuadro?",
     "options": [
       {
         "id": 1,
-        "answer": "Horizontal.",
+        "answer": "Horizontal, para optimizar el cableado lateral.",
         "isCorrect": false,
-        "explanation": "La normativa exige una orientación distinta para garantizar el correcto funcionamiento."
+        "explanation": "La posición horizontal contraviene la norma de servicio de estos mecanismos."
       },
       {
         "id": 2,
-        "answer": "Vertical.",
+        "answer": "Vertical, garantizando la correcta refrigeración y ergonomía de maniobra.",
         "isCorrect": true,
-        "explanation": "El apartado indica textualmente que la posición de servicio de los dispositivos será vertical."
+        "explanation": "La ITC-BT-17 exige que la posición de servicio de los dispositivos sea vertical."
       },
       {
         "id": 3,
-        "answer": "Inclinada a 45 grados.",
+        "answer": "Indiferente, si los dispositivos están certificados para montaje en 360 grados.",
         "isCorrect": false,
-        "explanation": "La posición inclinada de los dispositivos no está permitida por el reglamento."
+        "explanation": "Aunque el dispositivo lo permita, el diseño del cuadro debe seguir el estándar vertical reglamentario."
       },
       {
         "id": 4,
-        "answer": "Indistinta.",
+        "answer": "Inclinada 45 grados para facilitar la lectura de las etiquetas.",
         "isCorrect": false,
-        "explanation": "La orientación física de servicio está estrictamente regulada en el REBT."
+        "explanation": "No es una práctica normalizada ni segura para la operación mecánica."
       }
     ]
   },
   {
     "id": "ITC-BT-17-12",
     "type": "simple",
-    "question": "¿A qué normas UNE deben ajustarse las envolventes de los cuadros?",
+    "question": "¿Qué grado de protección IK mínima debe ofrecer la envolvente del cuadro general contra impactos mecánicos?",
     "options": [
       {
         "id": 1,
-        "answer": "UNE 20.324 y UNE-EN 50.102.",
+        "answer": "IK02, protección básica para interiores.",
         "isCorrect": false,
-        "explanation": "Estas normas definen los grados IP e IK, no la fabricación general de la envolvente."
+        "explanation": "IK02 es insuficiente para la robustez exigida en cuadros de mando."
       },
       {
         "id": 2,
-        "answer": "UNE 21.123 y UNE 20.460.",
-        "isCorrect": false,
-        "explanation": "No corresponden a las normas de cuadros mencionadas específicamente en esta instrucción."
+        "answer": "IK07.",
+        "isCorrect": true,
+        "explanation": "La envolvente de los cuadros de mando y protección debe tener un grado de resistencia IK07."
       },
       {
         "id": 3,
-        "answer": "UNE 20.451 y UNE-EN 60.439-3.",
-        "isCorrect": true,
-        "explanation": "Las envolventes se ajustarán a las normas UNE 20.451 y UNE-EN 60.439-3."
+        "answer": "IK10, resistencia máxima antivandálica.",
+        "isCorrect": false,
+        "explanation": "IK10 es habitual en exteriores o zonas industriales pesadas, pero el mínimo técnico es IK07."
       },
       {
         "id": 4,
-        "answer": "NBE-CPI-96 y UNE 20.451.",
+        "answer": "No se requiere grado IK si el cuadro está oculto tras un armario.",
         "isCorrect": false,
-        "explanation": "La NBE-CPI-96 es de protección contra incendios de edificios, no de envolventes eléctricas."
+        "explanation": "El requisito de la envolvente del cuadro es independiente de su ubicación secundaria."
       }
     ]
   },
   {
     "id": "ITC-BT-17-13",
     "type": "simple",
-    "question": "¿Cuál es el grado de protección IP mínimo exigido para el cuadro eléctrico?",
+    "question": "En el interior de una vivienda, ¿qué grado IP mínimo debe cumplir la envolvente del cuadro?",
     "options": [
       {
         "id": 1,
-        "answer": "IP 20",
+        "answer": "IP20, para evitar la entrada de dedos.",
         "isCorrect": false,
-        "explanation": "Es un grado de protección inferior al mínimo requerido por seguridad."
+        "explanation": "IP20 es el mínimo para mecanismos, pero para cuadros de mando se exige IP30."
       },
       {
         "id": 2,
-        "answer": "IP 30",
+        "answer": "IP30.",
         "isCorrect": true,
-        "explanation": "Se exige un grado de protección mínimo IP 30 según UNE 20.324."
+        "explanation": "Se establece un grado de protección mínimo IP30 para las envolventes de los cuadros de mando y protección."
       },
       {
         "id": 3,
-        "answer": "IP 44",
+        "answer": "IP44, para protección contra salpicaduras.",
         "isCorrect": false,
-        "explanation": "Es superior al mínimo exigido genéricamente para instalaciones interiores."
+        "explanation": "IP44 se requiere en locales húmedos o mojados, pero no es el mínimo genérico para interiores secos."
       },
       {
         "id": 4,
-        "answer": "IP 55",
+        "answer": "IP55, estanqueidad total al chorro de agua.",
         "isCorrect": false,
-        "explanation": "Este grado de protección es propio de instalaciones a la intemperie o industriales húmedas."
+        "explanation": "Excesivo para un cuadro doméstico estándar en zona seca."
       }
     ]
   },
   {
     "id": "ITC-BT-17-14",
     "type": "simple",
-    "question": "¿Qué norma UNE determina el ensayo para el grado IP 30?",
+    "question": "¿Cuál es la función técnica primordial del Interruptor General Automático (IGA) en la cabecera del cuadro?",
     "options": [
       {
         "id": 1,
-        "answer": "UNE-EN 50.102",
+        "answer": "Limitar la potencia consumida para facturar al usuario.",
         "isCorrect": false,
-        "explanation": "Esta norma determina el grado de protección contra impactos (IK)."
+        "explanation": "Esa es la función del ICP o del contador inteligente, no del IGA."
       },
       {
         "id": 2,
-        "answer": "UNE-EN 60.439-3",
-        "isCorrect": false,
-        "explanation": "Esta es la norma referida a la construcción física del cuadro."
+        "answer": "Proteger la derivación individual contra sobrecargas y cortocircuitos.",
+        "isCorrect": true,
+        "explanation": "El IGA protege los conductores de la derivación individual y permite el mando general de la instalación."
       },
       {
         "id": 3,
-        "answer": "UNE 20.324",
-        "isCorrect": true,
-        "explanation": "El texto precisa explícitamente que el grado IP 30 es según UNE 20.324."
+        "answer": "Detectar fugas a tierra superiores a 30 mA.",
+        "isCorrect": false,
+        "explanation": "Esta es la función del interruptor diferencial."
       },
       {
         "id": 4,
-        "answer": "UNE 20.451",
+        "answer": "Estabilizar la frecuencia de la red a 50 Hz.",
         "isCorrect": false,
-        "explanation": "Es una norma referida a envolventes generales, no específicamente al ensayo IP."
+        "explanation": "La frecuencia es un parámetro de generación y no se controla en el cuadro del usuario."
       }
     ]
   },
   {
     "id": "ITC-BT-17-15",
     "type": "simple",
-    "question": "¿Cuál es el grado de protección IK mínimo exigido para el cuadro?",
+    "question": "¿Qué tipo de maniobra de corte debe realizar obligatoriamente el IGA?",
     "options": [
       {
         "id": 1,
-        "answer": "IK05",
+        "answer": "Corte unipolar en la fase principal.",
         "isCorrect": false,
-        "explanation": "Este valor no cumple con la resistencia mínima a impactos exigida."
+        "explanation": "El corte unipolar no garantiza la seguridad total de la instalación interior."
       },
       {
         "id": 2,
-        "answer": "IK07",
+        "answer": "Corte omnipolar simultáneo.",
         "isCorrect": true,
-        "explanation": "Se requiere un mínimo de protección IK 07 según UNE-EN 50.102."
+        "explanation": "El IGA debe ser de corte omnipolar para garantizar el seccionamiento total de todos los conductores activos."
       },
       {
         "id": 3,
-        "answer": "IK08",
+        "answer": "Corte automático sin posibilidad de accionamiento manual.",
         "isCorrect": false,
-        "explanation": "Este valor supera el requisito mínimo de resistencia exigido por la normativa."
+        "explanation": "Debe permitir obligatoriamente su accionamiento manual por el usuario para mantenimiento o emergencia."
       },
       {
         "id": 4,
-        "answer": "IK10",
+        "answer": "Corte exclusivo del neutro en caso de falta.",
         "isCorrect": false,
-        "explanation": "Se trata de una protección antivandálica superior a la necesaria para este uso."
+        "explanation": "El corte del neutro sin las fases es extremadamente peligroso por desequilibrio de tensiones."
       }
     ]
   },
   {
     "id": "ITC-BT-17-16",
     "type": "simple",
-    "question": "¿Cuáles son los dos requisitos fundamentales de la envolvente del ICP?",
+    "question": "¿Cuál es el poder de corte mínimo exigido para un IGA en una instalación de baja tensión estándar?",
     "options": [
       {
         "id": 1,
-        "answer": "Transparente y con ventilación mecánica.",
+        "answer": "3.000 A.",
         "isCorrect": false,
-        "explanation": "La transparencia no figura como un requisito listado en la instrucción."
+        "explanation": "Es un valor inferior al mínimo reglamentario de seguridad."
       },
       {
         "id": 2,
-        "answer": "Metálica y con toma de tierra.",
-        "isCorrect": false,
-        "explanation": "Pueden ser envolventes plásticas que proporcionen doble aislamiento."
+        "answer": "4.500 A.",
+        "isCorrect": true,
+        "explanation": "El reglamento establece un poder de corte mínimo de 4.500 A para los interruptores generales de mando y protección."
       },
       {
         "id": 3,
-        "answer": "Precintable y corresponder a un modelo aprobado.",
-        "isCorrect": true,
-        "explanation": "La envolvente del ICP será precintable y corresponderá a un modelo oficialmente aprobado."
+        "answer": "10.000 A.",
+        "isCorrect": false,
+        "explanation": "Es un valor de alta seguridad habitual en industria, pero no el mínimo legal estipulado."
       },
       {
         "id": 4,
-        "answer": "Ignífuga clase M0 y dimensiones universales.",
+        "answer": "Depende de la sección del cable de tierra.",
         "isCorrect": false,
-        "explanation": "Las dimensiones dependen del tipo de suministro y tarifa, no son universales."
+        "explanation": "El poder de corte depende de la energía del cortocircuito de red, no del cable de tierra."
       }
     ]
   },
   {
     "id": "ITC-BT-17-17",
     "type": "simple",
-    "question": "¿Qué características debe cumplir el Interruptor General Automático (IGA)?",
+    "question": "¿Puede el Interruptor de Control de Potencia (ICP) actuar como sustituto del IGA en funciones de protección?",
     "options": [
       {
         "id": 1,
-        "answer": "Corte unipolar y rearmado automático.",
+        "answer": "Sí, si el ICP tiene un poder de corte de 6.000 A.",
         "isCorrect": false,
-        "explanation": "Debe ser de corte omnipolar y permitir accionamiento manual."
+        "explanation": "El ICP tiene fines contractuales y no se considera protección técnica de la instalación."
       },
       {
         "id": 2,
-        "answer": "Corte omnipolar, accionamiento manual y protección termo-magnética.",
+        "answer": "No, el ICP nunca se considera elemento de protección de la instalación interior.",
         "isCorrect": true,
-        "explanation": "Es un interruptor de corte omnipolar, manual y con protección contra sobrecarga y cortocircuitos."
+        "explanation": "El ICP no puede considerarse como sustituto del IGA ni como elemento de protección técnica legal."
       },
       {
         "id": 3,
-        "answer": "Ser idéntico mecánicamente al ICP.",
+        "answer": "Solo en instalaciones temporales de ferias y exposiciones.",
         "isCorrect": false,
-        "explanation": "El IGA debe ser independiente del interruptor de control de potencia."
+        "explanation": "Incluso en instalaciones temporales se requiere protección magnetotérmica independiente."
       },
       {
         "id": 4,
-        "answer": "Proteger contra contactos indirectos.",
+        "answer": "Sí, si la distribuidora lo autoriza por escrito.",
         "isCorrect": false,
-        "explanation": "Esa función de seguridad corresponde específicamente al interruptor diferencial."
+        "explanation": "El REBT prevalece sobre acuerdos particulares; el IGA es obligatorio por seguridad."
       }
     ]
   },
   {
     "id": "ITC-BT-17-18",
     "type": "simple",
-    "question": "¿Cuál es el propósito del Interruptor Diferencial General (IDG)?",
+    "question": "¿Cuál es la función del interruptor diferencial general en el cuadro?",
     "options": [
       {
         "id": 1,
-        "answer": "Proteger contra sobrecargas.",
+        "answer": "Proteger los electrodomésticos contra picos de tensión.",
         "isCorrect": false,
-        "explanation": "Para la protección contra sobrecargas se utilizan dispositivos magnetotérmicos como el IGA."
+        "explanation": "Esta es la función del protector de sobretensiones."
       },
       {
         "id": 2,
-        "answer": "Medir la intensidad de cortocircuito.",
-        "isCorrect": false,
-        "explanation": "El diferencial mide corrientes de fuga a tierra, no intensidades de cortocircuito."
+        "answer": "Garantizar la protección de las personas contra contactos indirectos.",
+        "isCorrect": true,
+        "explanation": "El diferencial detecta fugas de corriente a tierra, evitando el paso de corriente peligrosa a través del cuerpo humano."
       },
       {
         "id": 3,
-        "answer": "Protección contra contactos indirectos de todos los circuitos.",
-        "isCorrect": true,
-        "explanation": "Está destinado a la protección contra contactos indirectos de todos los circuitos."
+        "answer": "Desconectar la instalación si se supera la potencia contratada.",
+        "isCorrect": false,
+        "explanation": "Esta función corresponde al control de potencia (ICP)."
       },
       {
         "id": 4,
-        "answer": "Limitar la potencia consumida.",
+        "answer": "Mejorar el factor de potencia de la vivienda.",
         "isCorrect": false,
-        "explanation": "Limitar la potencia de utilización es función exclusiva del ICP."
+        "explanation": "La corrección del factor de potencia se hace con baterías de condensadores, no con diferenciales."
       }
     ]
   },
   {
     "id": "ITC-BT-17-19",
     "type": "simple",
-    "question": "¿De qué tipo de corte deben ser las protecciones de los circuitos interiores?",
+    "question": "Un instalador propone prescindir del diferencial general y usar diferenciales por circuitos. ¿Es técnicamente aceptable?",
     "options": [
       {
         "id": 1,
-        "answer": "De corte unipolar.",
+        "answer": "No, es obligatorio un único diferencial para toda la instalación.",
         "isCorrect": false,
-        "explanation": "Cortar solo una vía del circuito no cumple con los requisitos de la norma."
+        "explanation": "Se permite el uso de múltiples diferenciales para mejorar la selectividad y disponibilidad."
       },
       {
         "id": 2,
-        "answer": "De corte en fase exclusivamente.",
-        "isCorrect": false,
-        "explanation": "Esta disposición dejaría el neutro conectado sin seccionamiento."
+        "answer": "Sí, siempre que se mantenga un interruptor general automático (IGA) de cabecera.",
+        "isCorrect": true,
+        "explanation": "La sustitución del diferencial general por parciales es válida siempre que exista un IGA que garantice el corte general."
       },
       {
         "id": 3,
-        "answer": "De corte omnipolar.",
-        "isCorrect": true,
-        "explanation": "Se exigen dispositivos de corte omnipolar para la protección de cada circuito interior."
+        "answer": "Solo si se instala un relé de disparo asociado al contador.",
+        "isCorrect": false,
+        "explanation": "No tiene relación con la protección diferencial interna."
       },
       {
         "id": 4,
-        "answer": "De corte en el neutro.",
+        "answer": "Sí, pero solo en locales industriales con personal cualificado.",
         "isCorrect": false,
-        "explanation": "Seccionar únicamente el conductor neutro es una práctica extremadamente peligrosa."
+        "explanation": "La configuración de diferenciales repartidos es una opción de diseño para cualquier instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-17-20",
     "type": "simple",
-    "question": "¿Qué ITC rige el dispositivo de protección contra sobretensiones?",
+    "question": "En una instalación con diferenciales en cascada, ¿qué característica debe tener el situado aguas arriba para asegurar la selectividad?",
     "options": [
       {
         "id": 1,
-        "answer": "ITC-BT-17",
+        "answer": "Debe ser de disparo instantáneo ultrarrápido.",
         "isCorrect": false,
-        "explanation": "La 17 es la instrucción general de cuadros, pero delega este caso específico en otra."
+        "explanation": "Provocaría disparos ante cualquier mínima fuga en los circuitos secundarios."
       },
       {
         "id": 2,
-        "answer": "ITC-BT-23",
+        "answer": "Debe ser de tipo selectivo (marcado con 'S') o retardado.",
         "isCorrect": true,
-        "explanation": "Se enumera el dispositivo de protección contra sobretensiones según la ITC-BT-23."
+        "explanation": "La selectividad cronométrica requiere que el dispositivo superior tenga un tiempo de no actuación retardado."
       },
       {
         "id": 3,
-        "answer": "ITC-BT-24",
+        "answer": "Debe ser monofásico independientemente de la red.",
         "isCorrect": false,
-        "explanation": "Esta instrucción trata sobre la protección contra contactos indirectos."
+        "explanation": "Debe adaptarse al tipo de suministro (mono o trifásico)."
       },
       {
         "id": 4,
-        "answer": "ITC-BT-15",
+        "answer": "Debe tener un botón de test de color rojo.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-15 regula las instalaciones de derivaciones individuales."
+        "explanation": "El color del botón de test no determina las características técnicas de disparo."
       }
     ]
   },
   {
     "id": "ITC-BT-17-21",
     "type": "simple",
-    "question": "¿Cuándo permite la norma prescindir del diferencial GENERAL?",
+    "question": "Para garantizar selectividad amperimétrica entre dos diferenciales, ¿qué relación de sensibilidad debe existir?",
     "options": [
       {
         "id": 1,
-        "answer": "En viviendas menores de 50 m2.",
+        "answer": "La del superior debe ser igual a la del inferior.",
         "isCorrect": false,
-        "explanation": "El tamaño de la superficie no exime de la seguridad contra fugas a tierra."
+        "explanation": "Dará lugar a disparos aleatorios de cualquiera de los dos."
       },
       {
         "id": 2,
-        "answer": "Si la potencia instalada es < 5 kW.",
-        "isCorrect": false,
-        "explanation": "El nivel de potencia no anula el riesgo eléctrico por contactos indirectos."
+        "answer": "La del superior debe ser al menos el triple que la del inferior.",
+        "isCorrect": true,
+        "explanation": "Se recomienda una relación de 3:1 en la sensibilidad (mA) para coordinar el disparo amperimétrico."
       },
       {
         "id": 3,
-        "answer": "Si se instala un diferencial por cada circuito o grupo.",
-        "isCorrect": true,
-        "explanation": "Se podría prescindir del IDG siempre que queden protegidos todos los circuitos individualmente."
+        "answer": "La del superior debe ser inferior a la del inferior.",
+        "isCorrect": false,
+        "explanation": "Es técnicamente imposible de coordinar para selectividad."
       },
       {
         "id": 4,
-        "answer": "Cuando el IGA sea de muy alta sensibilidad.",
+        "answer": "No existe relación técnica entre sensibilidades para la selectividad.",
         "isCorrect": false,
-        "explanation": "El IGA es una protección contra sobreintensidades, no cumple la función diferencial."
+        "explanation": "La sensibilidad es uno de los dos pilares de la selectividad diferencial junto con el tiempo."
       }
     ]
   },
   {
     "id": "ITC-BT-17-22",
     "type": "simple",
-    "question": "¿Qué requisito técnico debe haber entre diferenciales en serie?",
+    "question": "Al realizar el cálculo simplificado de la intensidad de cortocircuito (Icc) en un cuadro, ¿qué factor reductor se aplica a la tensión nominal?",
     "options": [
       {
         "id": 1,
-        "answer": "Deben tener exactamente el mismo amperaje.",
+        "answer": "No se aplica factor, se usa 230 V directamente.",
         "isCorrect": false,
-        "explanation": "Tener características idénticas anularía la necesaria coordinación entre ellos."
+        "explanation": "El cálculo debe considerar las impedancias de red aguas arriba mediante un factor de tensión."
       },
       {
         "id": 2,
-        "answer": "Existirá una selectividad entre ellos.",
+        "answer": "Un factor de 0,8.",
         "isCorrect": true,
-        "explanation": "En el caso de instalar más de un diferencial en serie, existirá selectividad entre ellos."
+        "explanation": "La ITC-BT-17 admite calcular la Icc considerando 0,8 veces la tensión nominal en el origen de la instalación interior."
       },
       {
         "id": 3,
-        "answer": "Deben ser de marcas diferentes.",
+        "answer": "Un factor de 1,1.",
         "isCorrect": false,
-        "explanation": "La normativa técnica no exige el uso de marcas comerciales distintas."
+        "explanation": "Se usaría para Icc máxima teórica de red, no para el cálculo simplificado de protección de abonado."
       },
       {
         "id": 4,
-        "answer": "El de aguas abajo debe ser de 300 mA.",
+        "answer": "Un factor de 0,5 en suministros trifásicos.",
         "isCorrect": false,
-        "explanation": "El de mayor sensibilidad suele ser el de aguas abajo, no al revés."
+        "explanation": "El factor 0,8 es el estándar simplificado para el cálculo de Icc en cuadros de mando."
       }
     ]
   },
   {
     "id": "ITC-BT-17-23",
     "type": "simple",
-    "question": "Si la tarifa requiere discriminación horaria, ¿qué debe prever el cuadro?",
+    "question": "¿A qué temperatura de referencia se calculan las resistencias de los conductores para obtener la Icc máxima previsible?",
     "options": [
       {
         "id": 1,
-        "answer": "Un doble cableado de acometida.",
+        "answer": "A 70 ºC (temperatura de servicio del PVC).",
         "isCorrect": false,
-        "explanation": "La acometida no se duplica por requerimientos tarifarios de facturación."
+        "explanation": "A mayor temperatura, mayor resistencia y menor Icc; se busca el valor máximo, por lo que se usa una temperatura menor."
       },
       {
         "id": 2,
-        "answer": "Un medidor auxiliar junto al IGA.",
-        "isCorrect": false,
-        "explanation": "La medida oficial se realiza en la centralización exterior del edificio."
+        "answer": "A 20 ºC.",
+        "isCorrect": true,
+        "explanation": "Para el dimensionado del poder de corte, se busca la Icc máxima, calculada a 20 ºC."
       },
       {
         "id": 3,
-        "answer": "La instalación de los mecanismos de control necesarios.",
-        "isCorrect": true,
-        "explanation": "El cuadro deberá prever la instalación de los mecanismos de control necesarios por la tarifa."
+        "answer": "A 90 ºC (temperatura máxima del XLPE).",
+        "isCorrect": false,
+        "explanation": "Este valor se usaría para verificar la Icc mínima en circuitos largos, no la máxima en cabecera."
       },
       {
         "id": 4,
-        "answer": "Nada.",
+        "answer": "A 0 ºC, simulando condiciones invernales extremas.",
         "isCorrect": false,
-        "explanation": "El cuadro interior debe poder alojar los mecanismos requeridos por el tipo de contrato."
+        "explanation": "20 ºC es el estándar de referencia establecido en la normativa técnica."
       }
     ]
   },
   {
     "id": "ITC-BT-17-24",
     "type": "simple",
-    "question": "¿Cuál es el valor MÍNIMO de poder de corte para el IGA?",
+    "question": "En el ensayo de hilo incandescente de un cuadro, ¿qué temperatura debe soportar el material que NO está en contacto con partes activas?",
     "options": [
       {
         "id": 1,
-        "answer": "1.500 A",
+        "answer": "450 ºC.",
         "isCorrect": false,
-        "explanation": "Valor insuficiente para la protección de cabecera en una instalación moderna."
+        "explanation": "Valor demasiado bajo para garantizar seguridad contra incendios."
       },
       {
         "id": 2,
-        "answer": "3.000 A",
-        "isCorrect": false,
-        "explanation": "Este valor se sitúa por debajo del estándar mínimo de seguridad normativo."
+        "answer": "650 ºC.",
+        "isCorrect": true,
+        "explanation": "Las partes de la envolvente que no soportan partes activas deben superar el ensayo a 650 ºC."
       },
       {
         "id": 3,
-        "answer": "4.500 A",
-        "isCorrect": true,
-        "explanation": "El reglamento exige para el IGA un poder de corte de 4.500 A como mínimo."
+        "answer": "850 ºC.",
+        "isCorrect": false,
+        "explanation": "Esta temperatura se reserva para los materiales que soportan directamente conductores o bornes bajo tensión."
       },
       {
         "id": 4,
-        "answer": "6.000 A",
+        "answer": "960 ºC.",
         "isCorrect": false,
-        "explanation": "Aunque es superior y válido, el requerimiento mínimo textual de la ITC es 4.500 A."
+        "explanation": "Es el nivel máximo para aparamenta en conjuntos industriales montados."
       }
     ]
   },
   {
     "id": "ITC-BT-17-25",
     "type": "simple",
-    "question": "¿Qué exigencia de cortocircuito tienen los PIAs y diferenciales?",
+    "question": "¿Qué requisito de inflamabilidad deben cumplir las partes de la envolvente que soportan directamente partes bajo tensión?",
     "options": [
       {
         "id": 1,
-        "answer": "Siempre 6.000 A de poder de corte.",
+        "answer": "Ensayo de hilo incandescente a 750 ºC.",
         "isCorrect": false,
-        "explanation": "La norma no impone un valor fijo universal sino uno calculado según el emplazamiento."
+        "explanation": "El valor normativo es superior para asegurar la no propagación."
       },
       {
         "id": 2,
-        "answer": "Resistir las corrientes de cortocircuito previsibles en su punto.",
+        "answer": "Ensayo de hilo incandescente a 850 ºC.",
         "isCorrect": true,
-        "explanation": "Deben resistir las corrientes de cortocircuito que puedan presentarse en el punto de su instalación."
+        "explanation": "Los materiales aislantes que soportan partes activas deben resistir un hilo incandescente a 850 ºC según UNE 20.451."
       },
       {
         "id": 3,
-        "answer": "No requieren poder de corte.",
+        "answer": "Deben ser metálicas obligatoriamente.",
         "isCorrect": false,
-        "explanation": "Deben contar con un diseño mecánico que soporte la energía pasante de un fallo."
+        "explanation": "Se permiten materiales plásticos siempre que superen los ensayos térmicos correspondientes."
       },
       {
         "id": 4,
-        "answer": "Tienen que ser fusibles.",
+        "answer": "Deben estar recubiertas de amianto para mayor seguridad.",
         "isCorrect": false,
-        "explanation": "Se especifican como interruptores automáticos o diferenciales para el cuadro de distribución."
+        "explanation": "El amianto está prohibido por motivos de salud pública."
       }
     ]
   },
   {
     "id": "ITC-BT-17-26",
     "type": "simple",
-    "question": "¿Qué ITC determina la sensibilidad de los diferenciales del cuadro?",
+    "question": "En un suministro monofásico doméstico, ¿cómo debe ser el seccionamiento realizado por el interruptor general?",
     "options": [
       {
         "id": 1,
-        "answer": "ITC-BT-17",
+        "answer": "Mediante un interruptor de un solo polo que corte la fase.",
         "isCorrect": false,
-        "explanation": "La instrucción general de cuadros delega este valor técnico en otra instrucción específica."
+        "explanation": "El corte unipolar está prohibido para el mando general."
       },
       {
         "id": 2,
-        "answer": "UNE 20.324",
-        "isCorrect": false,
-        "explanation": "Esta norma está dedicada a la definición de los grados de protección IP."
+        "answer": "Mediante un interruptor bipolar de corte omnipolar (fase y neutro).",
+        "isCorrect": true,
+        "explanation": "El IGA debe garantizar el corte de todos los conductores activos de alimentación simultáneamente."
       },
       {
         "id": 3,
-        "answer": "ITC-BT-23",
+        "answer": "Mediante dos interruptores independientes, uno para fase y otro para neutro.",
         "isCorrect": false,
-        "explanation": "Esta instrucción regula la protección contra sobretensiones."
+        "explanation": "El corte debe ser simultáneo y realizado por un único dispositivo de maniobra."
       },
       {
         "id": 4,
-        "answer": "ITC-BT-24",
-        "isCorrect": true,
-        "explanation": "La sensibilidad de los diferenciales responderá a lo señalado en la ITC-BT-24."
+        "answer": "Cortando únicamente el neutro para evitar el arco eléctrico.",
+        "isCorrect": false,
+        "explanation": "Cortar solo el neutro es extremadamente peligroso y contraviene toda norma de seguridad."
       }
     ]
   },
   {
     "id": "ITC-BT-17-27",
     "type": "simple",
-    "question": "¿De qué depende el número de polos protegidos de los PIAs?",
+    "question": "Al elegir un interruptor magnetotérmico para un cuadro, ¿qué significa la letra 'B', 'C' o 'D' que acompaña a la intensidad?",
     "options": [
       {
         "id": 1,
-        "answer": "Del número de mecanismos del circuito.",
+        "answer": "La clase de aislamiento térmico de la carcasa.",
         "isCorrect": false,
-        "explanation": "La cantidad de tomas no afecta al diseño del número de polos del automático."
+        "explanation": "No tiene relación con el aislamiento físico externo."
       },
       {
         "id": 2,
-        "answer": "Del grosor del cable.",
-        "isCorrect": false,
-        "explanation": "La sección dicta la intensidad nominal, pero no el número de fases o polos."
+        "answer": "La curva de disparo magnético o sensibilidad ante cortocircuitos.",
+        "isCorrect": true,
+        "explanation": "La letra define el umbral de disparo instantáneo ante corrientes elevadas de falta."
       },
       {
         "id": 3,
-        "answer": "Corresponde al número de fases del circuito que protegen.",
-        "isCorrect": true,
-        "explanation": "Tendrán los polos protegidos que correspondan al número de fases del circuito."
+        "answer": "El grado de eficiencia energética del dispositivo.",
+        "isCorrect": false,
+        "explanation": "Los magnetotérmicos no se clasifican por eficiencia de consumo interno."
       },
       {
         "id": 4,
-        "answer": "Siempre deben ser 4 polos.",
+        "answer": "El número de polos protegidos contra sobrecargas.",
         "isCorrect": false,
-        "explanation": "Para un circuito monofásico estándar no se requiere un dispositivo de 4 polos."
+        "explanation": "Dicha información se da por el número de módulos o polos (1P, 2P, etc.)."
       }
     ]
   },
   {
     "id": "ITC-BT-17-28",
     "type": "simple",
-    "question": "¿Con qué parámetro se coordina el amperaje de disparo de los PIAs?",
+    "question": "¿Cuál es la función del dispositivo de protección contra sobretensiones permanentes?",
     "options": [
       {
         "id": 1,
-        "answer": "Con la tarifa contratada.",
+        "answer": "Derivar a tierra los rayos que caen en la línea de media tensión.",
         "isCorrect": false,
-        "explanation": "El límite de contrato lo controla el ICP, no los automáticos individuales de circuito."
+        "explanation": "Esa es la función de los protectores transitorios (Tipo 1 o 2)."
       },
       {
         "id": 2,
-        "answer": "Con el consumo del electrodoméstico más potente.",
-        "isCorrect": false,
-        "explanation": "Protegen la instalación fija y no dependen del aparato que se enchufe puntualmente."
+        "answer": "Desconectar la instalación ante subidas de tensión sostenidas (ej: rotura del neutro).",
+        "isCorrect": true,
+        "explanation": "Protege los equipos del usuario frente a anomalías de la red que duran varios segundos o minutos."
       },
       {
         "id": 3,
-        "answer": "Con las corrientes admisibles de los conductores que protegen.",
-        "isCorrect": true,
-        "explanation": "Estarán de acuerdo con las corrientes admisibles de los conductores del circuito."
+        "answer": "Filtrar el ruido eléctrico de los motores cercanos.",
+        "isCorrect": false,
+        "explanation": "Esa función corresponde a filtros EMI/RFI específicos."
       },
       {
         "id": 4,
-        "answer": "Con la potencia del diferencial previo.",
+        "answer": "Mantener la tensión estable a 230 V de forma constante.",
         "isCorrect": false,
-        "explanation": "Ambos dispositivos tienen funciones y principios de disparo totalmente distintos."
+        "explanation": "El protector solo desconecta en caso de fallo, no es un regulador o estabilizador de tensión."
       }
     ]
   },
   {
     "id": "ITC-BT-17-29",
     "type": "simple",
-    "question": "¿A quién protege fundamentalmente el Interruptor Diferencial General?",
+    "question": "En la señalización de un cuadro, ¿qué información es obligatorio proporcionar al usuario en el frontal?",
     "options": [
       {
         "id": 1,
-        "answer": "A los cables frente a incendios por sobrecarga.",
+        "answer": "El nombre y teléfono del instalador de guardia.",
         "isCorrect": false,
-        "explanation": "Esa es la función específica de los interruptores magnetotérmicos."
+        "explanation": "Es recomendable pero no una obligación técnica de marcado del cuadro."
       },
       {
         "id": 2,
-        "answer": "A las personas contra contactos indirectos.",
+        "answer": "La identificación inequívoca de cada uno de los circuitos y su función.",
         "isCorrect": true,
-        "explanation": "Se define como un dispositivo destinado a la protección contra contactos indirectos."
+        "explanation": "Permite al usuario operar con seguridad y conocer qué zonas o aparatos controla cada interruptor."
       },
       {
         "id": 3,
-        "answer": "A los electrodomésticos frente a sobretensiones.",
+        "answer": "El histórico de disparos de los últimos 12 meses.",
         "isCorrect": false,
-        "explanation": "Las subidas de tensión son bloqueadas por el dispositivo específico de la ITC-BT-23."
+        "explanation": "No se exige registro de eventos físico en cuadros estándar."
       },
       {
         "id": 4,
-        "answer": "A la derivación individual.",
+        "answer": "El precio estimado del kilovatio-hora vigente.",
         "isCorrect": false,
-        "explanation": "Se ubica aguas abajo de la derivación y no realiza su protección."
+        "explanation": "Información comercial ajena a la seguridad de la instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-17-30",
     "type": "simple",
-    "question": "Si el ICP se integra en el cuadro, ¿qué atributo constructivo esencial mantiene?",
+    "question": "Al realizar puentes entre magnetotérmicos, ¿qué accesorio se recomienda para garantizar un contacto óptimo y seguro?",
     "options": [
       {
         "id": 1,
-        "answer": "Ser de color rojo.",
+        "answer": "Trocear cables de 1,5 mm2 y retorcerlos entre sí.",
         "isCorrect": false,
-        "explanation": "El color no es un requisito de seguridad descrito en la normativa técnica."
+        "explanation": "Práctica peligrosa que provoca puntos calientes e incendios."
       },
       {
         "id": 2,
-        "answer": "Debe ser precintable.",
+        "answer": "Peines de conexión (repartidores) de cobre aislados.",
         "isCorrect": true,
-        "explanation": "Aunque se coloque en el mismo cuadro, la envolvente para el ICP será precintable."
+        "explanation": "Los peines garantizan una distribución de corriente uniforme y reducen el riesgo de contactos flojos."
       },
       {
         "id": 3,
-        "answer": "Conexión a internet.",
+        "answer": "Cinta aislante reforzada con bridas de nylon.",
         "isCorrect": false,
-        "explanation": "Se trata de un dispositivo mecánico estándar y no de un equipo telemático."
+        "explanation": "No es un sistema de conexión eléctrica, sino de sujeción mecánica auxiliar."
       },
       {
         "id": 4,
-        "answer": "Contador numérico de saltos.",
+        "answer": "Soldadura de estaño directamente sobre los bornes.",
         "isCorrect": false,
-        "explanation": "No se exige reglamentariamente el registro del número de disparos del dispositivo."
+        "explanation": "La soldadura no es apta para bornes de presión en cuadros de potencia por riesgo de fisuras térmicas."
       }
     ]
   },
   {
     "id": "ITC-BT-17-31",
     "type": "simple",
-    "question": "¿Qué busca el límite mínimo de altura de 1,4 m en viviendas?",
+    "question": "¿Cuál es la función del borne de tierra centralizado en el cuadro de mando?",
     "options": [
       {
         "id": 1,
-        "answer": "Que se mojen en caso de inundación.",
+        "answer": "Servir de retorno para la corriente de neutro en sistemas TN.",
         "isCorrect": false,
-        "explanation": "Es lo contrario: elevarlos ayuda a alejarlos del agua en caso de siniestro."
+        "explanation": "El neutro y la tierra son conductores con funciones distintas en la instalación interior."
       },
       {
         "id": 2,
-        "answer": "Que la compañía no pueda leerlos.",
-        "isCorrect": false,
-        "explanation": "Estos dispositivos son para manejo del usuario, no para lectura de la distribuidora."
+        "answer": "Unir todos los conductores de protección de los circuitos a la toma de tierra del edificio.",
+        "isCorrect": true,
+        "explanation": "Asegura que cualquier fuga a masa sea derivada a tierra de forma segura para permitir el disparo del diferencial."
       },
       {
         "id": 3,
-        "answer": "Alejar los mandos de niños y facilitar el uso ergonómico.",
-        "isCorrect": true,
-        "explanation": "Ubicarlos entre 1,4 y 2 m busca la seguridad infantil y la ergonomía para adultos."
+        "answer": "Eliminar la electricidad estática de la ropa del usuario.",
+        "isCorrect": false,
+        "explanation": "No es el fin técnico del sistema de protección del cuadro."
       },
       {
         "id": 4,
-        "answer": "Dejar espacio para lavadoras.",
+        "answer": "Conectar el pararrayos del edificio directamente al cuadro de la vivienda.",
         "isCorrect": false,
-        "explanation": "La ubicación habitual junto a la entrada no prevé el uso de electrodomésticos debajo."
+        "explanation": "El pararrayos tiene su propia bajante independiente y no debe pasar por el cuadro del usuario."
       }
     ]
   },
   {
     "id": "ITC-BT-17-32",
     "type": "simple",
-    "question": "¿Qué dispositivos mínimos se exigen si se usa un solo diferencial?",
+    "question": "Se observa un cuadro con un diferencial de 300 mA como protección general única en una vivienda. ¿Qué dictamen corresponde?",
     "options": [
       {
         "id": 1,
-        "answer": "Únicamente el IGA.",
+        "answer": "Favorable, es un valor de seguridad industrial aceptable.",
         "isCorrect": false,
-        "explanation": "Faltaría la necesaria protección diferencial y la individual de cada circuito."
+        "explanation": "300 mA no protege la vida humana ante contactos directos accidentales."
       },
       {
         "id": 2,
-        "answer": "El IGA y el IDG.",
-        "isCorrect": false,
-        "explanation": "Faltarían los dispositivos de corte para cada una de las líneas interiores."
+        "answer": "Desfavorable, se exige una sensibilidad máxima de 30 mA para protección de personas.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-17 y la ITC-BT-24 exigen alta sensibilidad (30 mA) para la protección de personas en viviendas y locales."
       },
       {
         "id": 3,
-        "answer": "IGA, IDG y dispositivos de corte de cada circuito.",
-        "isCorrect": true,
-        "explanation": "La composición mínima incluye el IGA, el diferencial y los cortes de cada circuito."
+        "answer": "Condicionado a que no existan tomas de corriente en el baño.",
+        "isCorrect": false,
+        "explanation": "La exigencia de 30 mA es general para toda la vivienda, no solo para zonas húmedas."
       },
       {
         "id": 4,
-        "answer": "Solo los dispositivos de cada circuito.",
+        "answer": "Favorable, si el edificio tiene una resistencia de tierra inferior a 5 ohmios.",
         "isCorrect": false,
-        "explanation": "Se exigen obligatoriamente protecciones generales en la cabecera de la instalación."
+        "explanation": "Una buena tierra no compensa la baja sensibilidad del diferencial para la seguridad personal."
       }
     ]
   },
   {
     "id": "ITC-BT-17-33",
     "type": "simple",
-    "question": "¿Qué función asegura el accionamiento manual de los protectores?",
+    "question": "En un bloque de oficinas, el cuadro general está ubicado en un pasillo común. ¿Qué precaución de acceso debe tomarse?",
     "options": [
       {
         "id": 1,
-        "answer": "Encender la luz de escalera.",
+        "answer": "Debe estar abierto permanentemente para emergencias.",
         "isCorrect": false,
-        "explanation": "Estos dispositivos controlan la instalación privada, no los servicios comunes."
+        "explanation": "Daría lugar a manipulaciones malintencionadas o accidentales."
       },
       {
         "id": 2,
-        "answer": "Cortar la corriente voluntariamente de forma segura.",
+        "answer": "Debe estar bajo llave o medios que restrinjan el acceso al público.",
         "isCorrect": true,
-        "explanation": "Permiten al usuario aislar circuitos para mantenimiento o tras un fallo de forma manual."
+        "explanation": "En zonas comunes, los cuadros deben estar protegidos contra el acceso de personas no autorizadas."
       },
       {
         "id": 3,
-        "answer": "Ajustar la tarifa en tiempo real.",
+        "answer": "Debe tener una cámara de vigilancia dedicada exclusivamente al cuadro.",
         "isCorrect": false,
-        "explanation": "La gestión de tarifas no se realiza a través de los mandos del IGA."
+        "explanation": "No es un requisito reglamentario; la protección física mediante cerradura es suficiente."
       },
       {
         "id": 4,
-        "answer": "Cambiar la sensibilidad del ICP.",
+        "answer": "Debe estar señalizado con luces LED de colores para facilitar su localización.",
         "isCorrect": false,
-        "explanation": "El ICP está precintado y sus parámetros no son ajustables por el usuario."
+        "explanation": "La señalización mediante alumbrado de emergencia es lo obligatorio, no la iluminación decorativa."
       }
     ]
   },
   {
     "id": "ITC-BT-17-34",
     "type": "simple",
-    "question": "¿Para quién se garantiza la seguridad según la norma UNE-EN 60.439-3?",
+    "question": "Al realizar la conexión de los conductores en los bornes del IGA, el instalador detecta que un cable no aprieta bien por ser de sección inferior. ¿Cuál es la solución correcta?",
     "options": [
       {
         "id": 1,
-        "answer": "Personal de Alta Tensión.",
+        "answer": "Doblar la punta del cable varias veces para aumentar el grosor.",
         "isCorrect": false,
-        "explanation": "Son equipos destinados a la Baja Tensión y uso residencial o comercial."
+        "explanation": "Práctica incorrecta que no garantiza la presión de contacto uniforme."
       },
       {
         "id": 2,
-        "answer": "Inspectores del Ministerio.",
-        "isCorrect": false,
-        "explanation": "El usuario final debe poder operar el cuadro de forma segura diariamente."
+        "answer": "Utilizar una puntera (terminal) adecuada a la sección del cable y al borne.",
+        "isCorrect": true,
+        "explanation": "Los terminales aseguran una conexión mecánica y eléctrica fiable, evitando calentamientos por falsos contactos."
       },
       {
         "id": 3,
-        "answer": "Personas no instruidas (usuarios domésticos).",
-        "isCorrect": true,
-        "explanation": "Se garantiza que personas sin conocimientos técnicos puedan accionarlos sin riesgo."
+        "answer": "Rellenar el hueco del borne con hilos sueltos de cobre.",
+        "isCorrect": false,
+        "explanation": "Peligro extremo de arco eléctrico e incendio por mala conexión."
       },
       {
         "id": 4,
-        "answer": "Únicamente el instalador.",
+        "answer": "Apretar el tornillo con una llave de impacto para forzar el contacto.",
         "isCorrect": false,
-        "explanation": "Cualquier habitante de la vivienda requiere acceso seguro a los mandos manuales."
+        "explanation": "Dañaría irreversiblemente el mecanismo del interruptor y el conductor."
       }
     ]
   },
   {
     "id": "ITC-BT-17-35",
     "type": "simple",
-    "question": "¿Dónde acaba reglamentariamente la instalación de enlace según esta ITC?",
+    "question": "¿Qué característica define a un interruptor diferencial de 'Tipo A' o superinmunizado?",
     "options": [
       {
         "id": 1,
-        "answer": "En los enchufes de las habitaciones.",
+        "answer": "Que es apto para instalaciones de alumbrado exterior únicamente.",
         "isCorrect": false,
-        "explanation": "Estos elementos finales pertenecen íntegramente a la instalación interior receptora."
+        "explanation": "No se limita a exteriores; su uso es para proteger frente a componentes electrónicas."
       },
       {
         "id": 2,
-        "answer": "En los dispositivos de mando y protección de los circuitos.",
+        "answer": "Que detecta corrientes de defecto con componente continua pulsante.",
         "isCorrect": true,
-        "explanation": "Estos dispositivos constituyen legalmente el origen de la instalación interior."
+        "explanation": "Los diferenciales Tipo A son necesarios en instalaciones con electrónica (ordenadores, variadores) que pueden 'cegar' a un diferencial Tipo AC estándar."
       },
       {
         "id": 3,
-        "answer": "En el transformador de barrio.",
+        "answer": "Que no salta nunca ante tormentas eléctricas.",
         "isCorrect": false,
-        "explanation": "El transformador se sitúa aguas arriba en la red de distribución general."
+        "explanation": "Ningún diferencial es inmune al 100% al rayo, aunque los Tipo A tienen mayor inmunidad que los AC."
       },
       {
         "id": 4,
-        "answer": "En la antena de telecomunicaciones.",
+        "answer": "Que tiene una carcasa blindada contra interferencias de radio.",
         "isCorrect": false,
-        "explanation": "No pertenece al ámbito del reglamento de baja tensión de energía eléctrica."
+        "explanation": "La 'superinmunización' se refiere a la lógica de detección del transformador toroidal interno, no al blindaje externo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-36",
+    "type": "simple",
+    "question": "En un suministro monofásico, ¿por qué es crítico que el IGA corte también el conductor neutro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para ahorrar energía cuando el cuadro está apagado.",
+        "isCorrect": false,
+        "explanation": "El ahorro de energía es nulo por seccionar el neutro."
+      },
+      {
+        "id": 2,
+        "answer": "Para garantizar que no exista tensión peligrosa en ningún cable durante el mantenimiento.",
+        "isCorrect": true,
+        "explanation": "El neutro puede tener tensión respecto a tierra por desequilibrios de red; su corte asegura el seccionamiento total."
+      },
+      {
+        "id": 3,
+        "answer": "Porque el neutro atrae los rayos de la zona.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de base científica y técnica."
+      },
+      {
+        "id": 4,
+        "answer": "Para evitar que el contador siga sumando por el retorno.",
+        "isCorrect": false,
+        "explanation": "El contador solo suma si hay paso de corriente entre fase y neutro a través de una carga."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-37",
+    "type": "simple",
+    "question": "¿Qué información técnica debe figurar obligatoriamente en el marcado de un interruptor magnetotérmico para ser reglamentario?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La fecha de caducidad del gas extintor de arco.",
+        "isCorrect": false,
+        "explanation": "Los interruptores de carril DIN no llevan gas extintor caducable."
+      },
+      {
+        "id": 2,
+        "answer": "La intensidad nominal (In), la tensión (Un) y el poder de corte (Icn).",
+        "isCorrect": true,
+        "explanation": "Estos parámetros definen la capacidad de trabajo y seguridad del dispositivo bajo falta."
+      },
+      {
+        "id": 3,
+        "answer": "El peso exacto en gramos para calcular la carga del carril.",
+        "isCorrect": false,
+        "explanation": "El peso no es un parámetro de seguridad eléctrica de marcado obligatorio."
+      },
+      {
+        "id": 4,
+        "answer": "El nombre del operario que realizó el montaje en fábrica.",
+        "isCorrect": false,
+        "explanation": "No es un requisito de las normas UNE-EN de producto."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-38",
+    "type": "simple",
+    "question": "Se instala un cuadro de distribución en un desván con vigas de madera. ¿Qué requisito debe cumplir la envolvente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de material no inflamable y montarse sobre un panel aislante certificado.",
+        "isCorrect": true,
+        "explanation": "En entornos combustibles, la envolvente debe asegurar que un arco interno no propague el fuego al edificio."
+      },
+      {
+        "id": 2,
+        "answer": "Basta con que el cuadro sea de color marrón para mimetizarse.",
+        "isCorrect": false,
+        "explanation": "La estética no sustituye a las propiedades de resistencia al fuego exigidas."
+      },
+      {
+        "id": 3,
+        "answer": "Se debe instalar un detector de humos dentro del cuadro.",
+        "isCorrect": false,
+        "explanation": "La prevención pasiva es prioritaria sobre la detección activa en cuadros pequeños."
+      },
+      {
+        "id": 4,
+        "answer": "Está prohibido instalar cuadros en desvanes.",
+        "isCorrect": false,
+        "explanation": "No está prohibido, siempre que sea accesible y cumpla con las distancias y materiales reglamentarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-39",
+    "type": "simple",
+    "question": "¿A qué se refiere el término 'Poder de Cierre' de un interruptor automático?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A la fuerza necesaria para subir la palanca con la mano.",
+        "isCorrect": false,
+        "explanation": "Confusión entre fuerza mecánica y capacidad eléctrica."
+      },
+      {
+        "id": 2,
+        "answer": "A la capacidad de cerrar el circuito con seguridad sobre un cortocircuito preexistente.",
+        "isCorrect": true,
+        "explanation": "Es vital que el interruptor no explote si el usuario intenta rearmarlo mientras el fallo persiste."
+      },
+      {
+        "id": 3,
+        "answer": "A la presión que ejercen los bornes sobre el cable de cobre.",
+        "isCorrect": false,
+        "explanation": "Dicha característica se denomina par de apriete."
+      },
+      {
+        "id": 4,
+        "answer": "Al tiempo que tarda en enfriarse tras un disparo térmico.",
+        "isCorrect": false,
+        "explanation": "Es el tiempo de recuperación térmica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-40",
+    "type": "simple",
+    "question": "En un cuadro con suministro trifásico, ¿cómo debe actuar el IGA sobre el conductor neutro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El neutro no debe seccionarse nunca para evitar sobretensiones.",
+        "isCorrect": false,
+        "explanation": "El neutro debe seccionarse en la instalación interior por seguridad de mantenimiento."
+      },
+      {
+        "id": 2,
+        "answer": "Debe seccionarse simultáneamente con las fases mediante un dispositivo tetrapolar.",
+        "isCorrect": true,
+        "explanation": "El IGA trifásico debe ser de 4 polos (o 3+N) para garantizar el corte total de todos los conductores activos."
+      },
+      {
+        "id": 3,
+        "answer": "Debe tener un interruptor independiente para el neutro.",
+        "isCorrect": false,
+        "explanation": "El corte de fases y neutro debe estar mecánicamente unido para asegurar la simultaneidad."
+      },
+      {
+        "id": 4,
+        "answer": "Solo se corta el neutro si la intensidad de desequilibrio supera los 10 A.",
+        "isCorrect": false,
+        "explanation": "El seccionamiento es una función de mando general, no una protección por desequilibrio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-41",
+    "type": "simple",
+    "question": "¿Cuál es la función del botón de prueba (test) del interruptor diferencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Resetear el contador de energía de la vivienda.",
+        "isCorrect": false,
+        "explanation": "No tiene vinculación con el sistema de medida de facturación."
+      },
+      {
+        "id": 2,
+        "answer": "Verificar el correcto funcionamiento mecánico y eléctrico del disparo interno.",
+        "isCorrect": true,
+        "explanation": "Simula una fuga interna para asegurar que el dispositivo abrirá el circuito ante un defecto real."
+      },
+      {
+        "id": 3,
+        "answer": "Medir la resistencia de puesta a tierra del edificio.",
+        "isCorrect": false,
+        "explanation": "El botón de test solo prueba el aparato, no la instalación de tierra externa."
+      },
+      {
+        "id": 4,
+        "answer": "Descargar los condensadores de los equipos electrónicos del usuario.",
+        "isCorrect": false,
+        "explanation": "No es una función de descarga, sino de validación de seguridad diferencial."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-42",
+    "type": "simple",
+    "question": "Se instala un subcuadro para una piscina. ¿Qué sensibilidad diferencial se exige reglamentariamente para los circuitos de iluminación sumergida?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "300 mA por ser instalaciones de exterior.",
+        "isCorrect": false,
+        "explanation": "300 mA es demasiado peligroso para entornos con personas sumergidas."
+      },
+      {
+        "id": 2,
+        "answer": "30 mA o inferior (típicamente 10 mA para máxima seguridad).",
+        "isCorrect": true,
+        "explanation": "En volúmenes de especial riesgo (piscinas), se extrema la sensibilidad para evitar accidentes mortales por fugas mínimas."
+      },
+      {
+        "id": 3,
+        "answer": "No se requiere diferencial si las lámparas son de 12 V.",
+        "isCorrect": false,
+        "explanation": "Incluso en MBTS (Muy Baja Tensión de Seguridad), la protección diferencial del circuito primario del transformador es obligatoria."
+      },
+      {
+        "id": 4,
+        "answer": "30 mA, igual que para el resto de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Aunque 30 mA es el estándar, en zonas de inmersión se suele requerir mayor sensibilidad o medidas adicionales de separación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-43",
+    "type": "simple",
+    "question": "¿Qué significa el marcado de un rectángulo con el número '4500' en el frontal de un interruptor automático?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Indica el número de maniobras mecánicas garantizadas.",
+        "isCorrect": false,
+        "explanation": "Las maniobras mecánicas suelen ser 20.000 o más y no se marcan así."
+      },
+      {
+        "id": 2,
+        "answer": "Indica el poder de corte nominal en Amperios (4.500 A).",
+        "isCorrect": true,
+        "explanation": "Representa la máxima intensidad de cortocircuito que el aparato puede interrumpir sin destruirse."
+      },
+      {
+        "id": 3,
+        "answer": "Es la tensión máxima de aislamiento del dispositivo (4,5 kV).",
+        "isCorrect": false,
+        "explanation": "La tensión de aislamiento suele ser de 500V o 1000V en estos equipos."
+      },
+      {
+        "id": 4,
+        "answer": "Es el código de homologación de la distribuidora local.",
+        "isCorrect": false,
+        "explanation": "Es un parámetro técnico universal definido por normas internacionales de producto."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-44",
+    "type": "simple",
+    "question": "En un cuadro de mando y protección, ¿qué disposición deben tener los cables de interconexión (puentes)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Formando una madeja compacta para evitar vibraciones.",
+        "isCorrect": false,
+        "explanation": "Provoca excesos de temperatura y dificultad de mantenimiento."
+      },
+      {
+        "id": 2,
+        "answer": "Peinados, ordenados y preferiblemente alojados en canaletas interiores.",
+        "isCorrect": true,
+        "explanation": "El orden facilita la identificación de circuitos, la disipación térmica y la seguridad del operario."
+      },
+      {
+        "id": 3,
+        "answer": "Mezclados aleatoriamente para compensar los campos magnéticos.",
+        "isCorrect": false,
+        "explanation": "Argumento pseudotécnico que compromete la claridad de la instalación."
+      },
+      {
+        "id": 4,
+        "answer": "Unidos con bridas metálicas al carril DIN.",
+        "isCorrect": false,
+        "explanation": "Las bridas metálicas pueden dañar el aislamiento de los cables y provocar derivaciones."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-45",
+    "type": "simple",
+    "question": "Se instala un cuadro de distribución en un garaje comercial. ¿Qué altura mínima de instalación se permite para los mecanismos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "0,7 metros.",
+        "isCorrect": false,
+        "explanation": "Demasiado bajo, riesgo de golpes y fuera de cota ergonómica comercial."
+      },
+      {
+        "id": 2,
+        "answer": "1 metro.",
+        "isCorrect": true,
+        "explanation": "En locales industriales y comerciales, el límite inferior de altura para los dispositivos de mando es de 1 metro."
+      },
+      {
+        "id": 3,
+        "answer": "1,4 metros, igual que en viviendas.",
+        "isCorrect": false,
+        "explanation": "En locales comerciales existe mayor flexibilidad en el límite inferior."
+      },
+      {
+        "id": 4,
+        "answer": "2 metros.",
+        "isCorrect": false,
+        "explanation": "2 metros es el límite superior, no el inferior permitido."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-46",
+    "type": "simple",
+    "question": "¿Cuál es el propósito del espacio de reserva (módulos libres) en un cuadro de distribución?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Servir de almacén para fusibles de repuesto.",
+        "isCorrect": false,
+        "explanation": "No es un almacén; los fusibles deben estar en sus portafusibles si se usan."
+      },
+      {
+        "id": 2,
+        "answer": "Permitir futuras ampliaciones de la instalación sin cambiar la envolvente.",
+        "isCorrect": true,
+        "explanation": "Se recomienda dejar un 20% de reserva para añadir nuevos circuitos o protecciones en el futuro."
+      },
+      {
+        "id": 3,
+        "answer": "Mejorar la flotabilidad del cuadro en caso de inundación.",
+        "isCorrect": false,
+        "explanation": "Afirmación sin sentido técnico."
+      },
+      {
+        "id": 4,
+        "answer": "Reducir el peso total del conjunto para no dañar el tabique.",
+        "isCorrect": false,
+        "explanation": "El peso de los magnetotérmicos es despreciable para la estructura de la vivienda."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-47",
+    "type": "simple",
+    "question": "En un bloque de viviendas, ¿quién es el responsable de mantener en buen estado el cuadro general de mando y protección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La empresa distribuidora de energía.",
+        "isCorrect": false,
+        "explanation": "La distribuidora solo llega hasta la CGP; el resto es propiedad del usuario."
+      },
+      {
+        "id": 2,
+        "answer": "El usuario o propietario de la vivienda.",
+        "isCorrect": true,
+        "explanation": "La instalación interior es responsabilidad del titular del suministro, quien debe velar por su correcto mantenimiento."
+      },
+      {
+        "id": 3,
+        "answer": "La comunidad de propietarios en todos los casos.",
+        "isCorrect": false,
+        "explanation": "La comunidad responde de las zonas comunes; el cuadro interior es privativo."
+      },
+      {
+        "id": 4,
+        "answer": "El fabricante de la envolvente del cuadro.",
+        "isCorrect": false,
+        "explanation": "El fabricante responde de la garantía del producto, no de su mantenimiento preventivo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-48",
+    "type": "simple",
+    "question": "Durante una reforma, se sustituyen los cables de la derivación individual por unos de mayor sección. ¿Qué cambio debe realizarse obligatoriamente en el cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cambiar el color de la envolvente por uno más oscuro.",
+        "isCorrect": false,
+        "explanation": "El color no tiene relevancia técnica reglamentaria."
+      },
+      {
+        "id": 2,
+        "answer": "Adecuar la intensidad nominal del IGA a la nueva capacidad de los conductores.",
+        "isCorrect": true,
+        "explanation": "El IGA debe proteger el cable de la derivación; si este cambia, la protección debe reajustarse."
+      },
+      {
+        "id": 3,
+        "answer": "Instalar un segundo diferencial en paralelo al primero.",
+        "isCorrect": false,
+        "explanation": "El cambio de sección de entrada no obliga a duplicar diferenciales."
+      },
+      {
+        "id": 4,
+        "answer": "Aumentar el número de circuitos de alumbrado automáticamente.",
+        "isCorrect": false,
+        "explanation": "El número de circuitos depende de las necesidades de uso, no directamente de la sección de entrada."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-49",
+    "type": "simple",
+    "question": "¿Qué riesgo se asume si se instala un magnetotérmico de 25 A para proteger un circuito de cables de 1,5 mm2?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ninguno, el magnetotérmico es más potente y seguro.",
+        "isCorrect": false,
+        "explanation": "Error grave; el cable se quemará antes de que la protección actúe."
+      },
+      {
+        "id": 2,
+        "answer": "Riesgo de incendio por sobrecarga prolongada del conductor.",
+        "isCorrect": true,
+        "explanation": "La protección debe ser siempre inferior o igual a la intensidad admisible del cable que protege."
+      },
+      {
+        "id": 3,
+        "answer": "Que la luz parpadee constantemente.",
+        "isCorrect": false,
+        "explanation": "El parpadeo suele ser por malos contactos o fluctuaciones de red, no por sobredimensionado de protección."
+      },
+      {
+        "id": 4,
+        "answer": "Que el interruptor diferencial salte por simpatía.",
+        "isCorrect": false,
+        "explanation": "No existe relación directa entre la sobrecarga térmica y el disparo diferencial por fuga."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-50",
+    "type": "simple",
+    "question": "En un cuadro con varios diferenciales, ¿cuál es la mejor práctica para evitar que un fallo en un circuito deje a oscuras toda la vivienda?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Poner puentes de cobre más gruesos en el alumbrado.",
+        "isCorrect": false,
+        "explanation": "No influye en el disparo diferencial."
+      },
+      {
+        "id": 2,
+        "answer": "Repartir los circuitos en varios grupos protegidos por diferenciales independientes.",
+        "isCorrect": true,
+        "explanation": "La selectividad horizontal garantiza que una fuga en un circuito solo afecte a su grupo, manteniendo el resto con servicio."
+      },
+      {
+        "id": 3,
+        "answer": "Anular la toma de tierra de las lámparas del techo.",
+        "isCorrect": false,
+        "explanation": "Práctica prohibida que pone en grave riesgo la vida de los usuarios."
+      },
+      {
+        "id": 4,
+        "answer": "Instalar diferenciales de 300 mA en los circuitos de fuerza.",
+        "isCorrect": false,
+        "explanation": "Comprometería la seguridad personal en tomas de corriente accesibles."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-51",
+    "type": "simple",
+    "question": "¿Cuál es la función de la 'Cámara de Extinción de Arco' en un interruptor magnetotérmico?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Mantener el dispositivo fresco durante el verano.",
+        "isCorrect": false,
+        "explanation": "No es un sistema de refrigeración ambiental."
+      },
+      {
+        "id": 2,
+        "answer": "Fragmentar y enfriar el plasma generado durante la apertura de un cortocircuito.",
+        "isCorrect": true,
+        "explanation": "Permite interrumpir corrientes elevadas de forma segura sin que el arco destruya el aparato."
+      },
+      {
+        "id": 3,
+        "answer": "Alojar el muelle que permite el rearme manual.",
+        "isCorrect": false,
+        "explanation": "El mecanismo de disparo es independiente de la cámara de extinción."
+      },
+      {
+        "id": 4,
+        "answer": "Recoger el polvo de cobre que se desprende con el uso.",
+        "isCorrect": false,
+        "explanation": "No es un depósito de residuos mecánicos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-52",
+    "type": "simple",
+    "question": "Se instala un cuadro de mando en un pasillo de evacuación de un hotel. ¿Qué requisito adicional de inflamabilidad debe cumplir?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe estar fabricado en madera ignífuga para no desentonar.",
+        "isCorrect": false,
+        "explanation": "La madera, aunque sea ignífuga, no es el material preferente para envolventes de cuadros en rutas de evacuación."
+      },
+      {
+        "id": 2,
+        "answer": "Debe ser de material no propagador del incendio y baja emisión de humos tóxicos.",
+        "isCorrect": true,
+        "explanation": "En zonas de evacuación, la seguridad contra incendios de los materiales eléctricos es crítica para evitar el pánico y la asfixia."
+      },
+      {
+        "id": 3,
+        "answer": "Debe estar sumergido en un gel extintor permanente.",
+        "isCorrect": false,
+        "explanation": "No existe tal tecnología para cuadros eléctricos convencionales."
+      },
+      {
+        "id": 4,
+        "answer": "Debe situarse a una altura mínima de 2,5 metros para evitar actos vandálicos.",
+        "isCorrect": false,
+        "explanation": "Las cotas de altura máxima (2m) se mantienen por seguridad de operación rápida."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-53",
+    "type": "simple",
+    "question": "¿Qué significa el marcado 'Tipo AC' en un interruptor diferencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que solo es apto para corriente continua (AC = Always Continuous).",
+        "isCorrect": false,
+        "explanation": "AC significa Corriente Alterna (Alternating Current) en nomenclatura técnica."
+      },
+      {
+        "id": 2,
+        "answer": "Que solo garantiza el disparo ante corrientes de defecto senoidales puras.",
+        "isCorrect": true,
+        "explanation": "Es el tipo básico de diferencial, cada vez menos recomendado por la presencia masiva de electrónica."
+      },
+      {
+        "id": 3,
+        "answer": "Que dispone de Aire Acondicionado interno para climas cálidos.",
+        "isCorrect": false,
+        "explanation": "Interpretación errónea de las siglas técnicas."
+      },
+      {
+        "id": 4,
+        "answer": "Que es resistente a la Corrosión Atmosférica extrema.",
+        "isCorrect": false,
+        "explanation": "Las siglas se refieren a las características de detección eléctrica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-54",
+    "type": "simple",
+    "question": "En un suministro trifásico, ¿por qué se recomienda que el neutro cierre antes que las fases durante la maniobra?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para que el contador se encienda primero.",
+        "isCorrect": false,
+        "explanation": "No es una razón técnica de seguridad para la instalación interior."
+      },
+      {
+        "id": 2,
+        "answer": "Para evitar que las cargas monofásicas reciban sobretensiones peligrosas por falta de neutro.",
+        "isCorrect": true,
+        "explanation": "Sin neutro conectado, las tensiones se reparten según las cargas, pudiendo llegar 400V a equipos de 230V."
+      },
+      {
+        "id": 3,
+        "answer": "Para que el cable de tierra no sufra tirones eléctricos.",
+        "isCorrect": false,
+        "explanation": "Argumento carente de base física."
+      },
+      {
+        "id": 4,
+        "answer": "Porque el neutro es el conductor que más pesa y llega antes por gravedad.",
+        "isCorrect": false,
+        "explanation": "La simultaneidad se basa en el diseño mecánico del mecanismo de contacto, no en la gravedad."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-55",
+    "type": "simple",
+    "question": "Al realizar la inspección del cuadro, se observa que no hay identificación de los circuitos. ¿Qué tipo de defecto se debe anotar?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Defecto leve, es un tema puramente estético.",
+        "isCorrect": false,
+        "explanation": "Afecta a la seguridad y explotación correcta, siendo un incumplimiento normativo."
+      },
+      {
+        "id": 2,
+        "answer": "Defecto grave, impide la identificación correcta de las protecciones en caso de emergencia.",
+        "isCorrect": true,
+        "explanation": "La falta de señalización dificulta la maniobra segura del usuario y personal técnico."
+      },
+      {
+        "id": 3,
+        "answer": "No es defecto si el propietario sabe qué es cada cosa.",
+        "isCorrect": false,
+        "explanation": "La instalación debe ser comprensible para cualquier persona, no solo para el titular actual."
+      },
+      {
+        "id": 4,
+        "answer": "Defecto muy grave con corte inmediato de suministro.",
+        "isCorrect": false,
+        "explanation": "Suele calificarse como grave, pero no implica corte inmediato si el resto de protecciones funcionan."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-56",
+    "type": "simple",
+    "question": "¿Cuál es la función técnica de los bornes de salida en un cuadro de mando?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Limitar la corriente que sale de la vivienda.",
+        "isCorrect": false,
+        "explanation": "La limitación la hacen las protecciones, no los bornes de conexión."
+      },
+      {
+        "id": 2,
+        "answer": "Facilitar la conexión ordenada y segura de los circuitos interiores con las protecciones.",
+        "isCorrect": true,
+        "explanation": "El uso de regleteros de salida mejora la fiabilidad mecánica y la organización del cuadro."
+      },
+      {
+        "id": 3,
+        "answer": "Transformar la corriente alterna en continua para los LEDs.",
+        "isCorrect": false,
+        "explanation": "Los bornes son elementos de conexión pasivos, no transformadores o rectificadores."
+      },
+      {
+        "id": 4,
+        "answer": "Servir de punto de anclaje para colgar las llaves de casa.",
+        "isCorrect": false,
+        "explanation": "Uso inadecuado y peligroso del interior del cuadro eléctrico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-57",
+    "type": "simple",
+    "question": "Se instala un cuadro de mando en una carpintería metálica. ¿Es obligatorio conectar la envolvente metálica a tierra?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "No, si el cuadro tiene doble aislamiento.",
+        "isCorrect": false,
+        "explanation": "Si la envolvente es metálica (Clase I), la conexión a tierra es imperativa por seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, todas las partes metálicas accesibles del cuadro deben estar puestas a tierra.",
+        "isCorrect": true,
+        "explanation": "La conexión equipotencial de masas metálicas es fundamental para que el diferencial actúe ante un fallo de aislamiento."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si la tensión de suministro es superior a 400 V.",
+        "isCorrect": false,
+        "explanation": "La seguridad contra contactos indirectos aplica a cualquier tensión de baja tensión (230V incluida)."
+      },
+      {
+        "id": 4,
+        "answer": "Solo si el local tiene suelo de cemento húmedo.",
+        "isCorrect": false,
+        "explanation": "La puesta a tierra es un requisito estructural de la instalación Clase I, independientemente del suelo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-58",
+    "type": "simple",
+    "question": "¿Qué ocurre si se instala un IGA con un poder de corte de 3.000 A en un punto donde la Icc es de 4.000 A?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El interruptor durará menos años por el esfuerzo.",
+        "isCorrect": false,
+        "explanation": "No es un tema de vida útil, sino de capacidad de interrupción ante una falta única."
+      },
+      {
+        "id": 2,
+        "answer": "El interruptor puede explotar o soldarse ante un cortocircuito, no cortando la corriente.",
+        "isCorrect": true,
+        "explanation": "Si la energía de falta supera la capacidad del dispositivo, el arco no se extingue y se produce la destrucción térmica."
+      },
+      {
+        "id": 3,
+        "answer": "El diferencial saltará para ayudar al IGA.",
+        "isCorrect": false,
+        "explanation": "El diferencial no tiene capacidad de interrupción de cortocircuito y podría destruirse también."
+      },
+      {
+        "id": 4,
+        "answer": "Nada, el margen de seguridad de los fabricantes es del 50%.",
+        "isCorrect": false,
+        "explanation": "No se debe confiar en márgenes no certificados; se debe cumplir el valor nominal exigido."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-59",
+    "type": "simple",
+    "question": "En un cuadro de electrificación elevada con 12 circuitos, ¿cuántos interruptores diferenciales se recomiendan como mínimo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uno solo de 63 A para toda la vivienda.",
+        "isCorrect": false,
+        "explanation": "Provocaría disparos constantes por fugas naturales y falta de selectividad horizontal."
+      },
+      {
+        "id": 2,
+        "answer": "Al menos tres, siguiendo la regla de un diferencial por cada 5 circuitos.",
+        "isCorrect": true,
+        "explanation": "Repartir la protección mejora la continuidad del suministro y la seguridad operativa."
+      },
+      {
+        "id": 3,
+        "answer": "Doce, uno por cada circuito individual.",
+        "isCorrect": false,
+        "explanation": "Sería la solución ideal pero excesivamente costosa y voluminosa para un cuadro doméstico estándar."
+      },
+      {
+        "id": 4,
+        "answer": "Dos, uno para alumbrado y otro para fuerza.",
+        "isCorrect": false,
+        "explanation": "Con 12 circuitos, dos diferenciales estarían sobrecargados de 'ruido' eléctrico y fugas acumuladas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-60",
+    "type": "simple",
+    "question": "Al realizar el montaje, el operario deja bornes de magnetotérmicos sin apretar. ¿Qué consecuencia física es la más probable?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que la tensión baje a 110 V por la resistencia extra.",
+        "isCorrect": false,
+        "explanation": "La caída de tensión sería errática y peligrosa, no un valor fijo estable."
+      },
+      {
+        "id": 2,
+        "answer": "Sobrecalentamiento del borne por efecto Joule, pudiendo provocar un incendio.",
+        "isCorrect": true,
+        "explanation": "Un mal contacto eléctrico genera calor intenso en un punto localizado, destruyendo el aislamiento y los mecanismos."
+      },
+      {
+        "id": 3,
+        "answer": "Que el contador de energía gire al revés por inducción.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de base física técnica."
+      },
+      {
+        "id": 4,
+        "answer": "Que los cables vibren y emitan un sonido musical.",
+        "isCorrect": false,
+        "explanation": "Aunque puede haber zumbido por arco, no es un fenómeno deseable ni 'musical'."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-61",
+    "type": "simple",
+    "question": "¿Qué requisito debe cumplir el conductor de protección (tierra) al pasar por el cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe estar seccionado por un interruptor bipolar independiente.",
+        "isCorrect": false,
+        "explanation": "El conductor de tierra nunca debe ser seccionado ni llevar fusibles."
+      },
+      {
+        "id": 2,
+        "answer": "Debe estar conectado a un regletero o borne de tierra centralizado sin interrupciones.",
+        "isCorrect": true,
+        "explanation": "Asegura la continuidad del camino de fuga hacia el electrodo de tierra del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "Debe estar pintado de rojo para indicar peligro.",
+        "isCorrect": false,
+        "explanation": "El color normativo innegociable es verde-amarillo."
+      },
+      {
+        "id": 4,
+        "answer": "Debe ser de sección inferior a los cables de fase para ahorrar cobre.",
+        "isCorrect": false,
+        "explanation": "Su sección está normalizada en función de los conductores activos para garantizar que soporte la corriente de falta."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-62",
+    "type": "simple",
+    "question": "En un local húmedo, se instala el cuadro de mando. ¿Qué precaución de estanqueidad es obligatoria?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP30, igual que en zonas secas.",
+        "isCorrect": false,
+        "explanation": "El IP30 no protege contra la humedad o el goteo."
+      },
+      {
+        "id": 2,
+        "answer": "Grado de protección adecuado al local (ej: IP44 o superior).",
+        "isCorrect": true,
+        "explanation": "La envolvente debe adaptarse a las influencias externas del local según la ITC-BT-30."
+      },
+      {
+        "id": 3,
+        "answer": "Ninguna, los interruptores ya son estancos internamente.",
+        "isCorrect": false,
+        "explanation": "Los dispositivos de carril DIN estándar no son estancos y requieren una envolvente protectora."
+      },
+      {
+        "id": 4,
+        "answer": "Sumergir el cuadro en aceite aislante mineral.",
+        "isCorrect": false,
+        "explanation": "Técnica industrial de alta tensión no aplicable a cuadros domésticos o comerciales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-63",
+    "type": "simple",
+    "question": "¿Cuál es la función del dispositivo de protección contra sobretensiones transitorias?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cortar la corriente si el vecino conecta una máquina de soldar.",
+        "isCorrect": false,
+        "explanation": "Las perturbaciones de carga no son el objeto de los protectores transitorios."
+      },
+      {
+        "id": 2,
+        "answer": "Derivar a tierra picos de tensión de muy corta duración causados por rayos o maniobras de red.",
+        "isCorrect": true,
+        "explanation": "Evita que el exceso de energía de un pico llegue a los equipos electrónicos del usuario."
+      },
+      {
+        "id": 3,
+        "answer": "Asegurar que la tensión no baje de 200 V.",
+        "isCorrect": false,
+        "explanation": "No protege contra subtensiones, sino contra picos elevados de sobretensión."
+      },
+      {
+        "id": 4,
+        "answer": "Sustituir a la toma de tierra del edificio si esta falla.",
+        "isCorrect": false,
+        "explanation": "El protector requiere una tierra eficiente para funcionar; no la sustituye."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-64",
+    "type": "simple",
+    "question": "Al realizar la conexión de un cuadro trifásico, el operario intercambia por error el neutro con una fase. ¿Qué ocurrirá al dar tensión?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los equipos funcionarán con mayor potencia.",
+        "isCorrect": false,
+        "explanation": "Los equipos de 230V recibirán 400V, sufriendo daños irreversibles inmediatos."
+      },
+      {
+        "id": 2,
+        "answer": "Destrucción inmediata de los equipos monofásicos conectados.",
+        "isCorrect": true,
+        "explanation": "La falta de referencia de neutro correcta provoca que la tensión fase-fase se aplique a cargas fase-neutro."
+      },
+      {
+        "id": 3,
+        "answer": "El diferencial saltará por desequilibrio magnético.",
+        "isCorrect": false,
+        "explanation": "Si no hay fuga a tierra, el diferencial no detectará el error de cableado de fases."
+      },
+      {
+        "id": 4,
+        "answer": "La frecuencia bajará a 25 Hz.",
+        "isCorrect": false,
+        "explanation": "La frecuencia es independiente del orden de cableado de los conductores."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-65",
+    "type": "simple",
+    "question": "¿Qué significa el símbolo de una onda senoidal y una componente continua (un semiciclo) en un interruptor diferencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que es apto para cargar coches eléctricos en modo 1.",
+        "isCorrect": false,
+        "explanation": "Aunque se usa para VE, el símbolo define el tipo de detección de corriente (Tipo A)."
+      },
+      {
+        "id": 2,
+        "answer": "Indica que es un diferencial de Tipo A (Superinmunizado).",
+        "isCorrect": true,
+        "explanation": "Significa que el dispositivo es capaz de detectar fugas tanto en alterna pura como en continua pulsante."
+      },
+      {
+        "id": 3,
+        "answer": "Que puede usarse en barcos y zonas marítimas.",
+        "isCorrect": false,
+        "explanation": "No tiene relación con la resistencia salina o marina."
+      },
+      {
+        "id": 4,
+        "answer": "Que tiene un cargador de batería solar integrado.",
+        "isCorrect": false,
+        "explanation": "Es un símbolo estrictamente eléctrico de características de disparo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-66",
+    "type": "simple",
+    "question": "En un bloque de oficinas con mantenimiento centralizado, ¿es necesario que el cuadro de cada local tenga un IGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "No, si el mantenimiento tiene una llave maestra del edificio.",
+        "isCorrect": false,
+        "explanation": "La seguridad local de cada abonado es independiente del mantenimiento central."
+      },
+      {
+        "id": 2,
+        "answer": "Sí, cada local o vivienda debe disponer de su propio interruptor general de mando y protección.",
+        "isCorrect": true,
+        "explanation": "Es una exigencia estructural para garantizar que cada usuario pueda aislar su instalación interior con seguridad."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si la potencia contratada es superior a 15 kW.",
+        "isCorrect": false,
+        "explanation": "La obligatoriedad del IGA es para cualquier suministro de abonado, sin umbral mínimo de potencia."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, pero puede ser sustituido por un fusible de 63 A.",
+        "isCorrect": false,
+        "explanation": "El seccionamiento general debe ser mediante interruptor automático rearmable, no mediante fusibles de abonado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-67",
+    "type": "simple",
+    "question": "¿Cuál es el criterio técnico para elegir la sección de los puentes de unión entre el diferencial y los magnetotérmicos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Usar siempre 1,5 mm2 por facilidad de doblado.",
+        "isCorrect": false,
+        "explanation": "Sección insuficiente que se quemará por la carga total del cuadro."
+      },
+      {
+        "id": 2,
+        "answer": "Sección coherente con la intensidad nominal de la protección aguas arriba (IGA/Diferencial).",
+        "isCorrect": true,
+        "explanation": "Los conductores de interconexión deben soportar la intensidad total que puede circular por el cuadro sin degradarse."
+      },
+      {
+        "id": 3,
+        "answer": "Depende del color de la fase predominante.",
+        "isCorrect": false,
+        "explanation": "El color no influye en la capacidad de conducción térmica del metal."
+      },
+      {
+        "id": 4,
+        "answer": "Usar cable rígido de 50 mm2 para minimizar pérdidas.",
+        "isCorrect": false,
+        "explanation": "Excesivo y técnicamente imposible de montar en los bornes estándar de los dispositivos de carril."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-68",
+    "type": "simple",
+    "question": "Se instala un cuadro de distribución general en una zona con mucho polvo industrial. ¿Qué grado IP es recomendable elegir?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP30, igual que para viviendas.",
+        "isCorrect": false,
+        "explanation": "El polvo fino penetraría en los mecanismos, provocando fallos y posibles incendios."
+      },
+      {
+        "id": 2,
+        "answer": "IP5X o superior (estanqueidad al polvo).",
+        "isCorrect": true,
+        "explanation": "Se debe adecuar el grado de protección de la envolvente a las condiciones de contaminación ambiental del local."
+      },
+      {
+        "id": 3,
+        "answer": "IPX8 (protección contra inmersión).",
+        "isCorrect": false,
+        "explanation": "No es necesario proteger contra agua si el problema es el polvo seco."
+      },
+      {
+        "id": 4,
+        "answer": "IP00 con un aspirador industrial funcionando al lado.",
+        "isCorrect": false,
+        "explanation": "La protección debe ser pasiva y propia de la envolvente, no depender de equipos externos activos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-69",
+    "type": "simple",
+    "question": "En un suministro trifásico, ¿qué hito marca el final de la instalación de enlace y el inicio de la instalación interior?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La salida de los bornes del contador trifásico.",
+        "isCorrect": false,
+        "explanation": "Ese punto es todavía parte de la centralización (enlace)."
+      },
+      {
+        "id": 2,
+        "answer": "Los dispositivos generales de mando y protección situados en el cuadro del usuario.",
+        "isCorrect": true,
+        "explanation": "El cuadro general marca el origen de la explotación y seguridad privativa del abonado."
+      },
+      {
+        "id": 3,
+        "answer": "La entrada de la derivación individual al edificio.",
+        "isCorrect": false,
+        "explanation": "Punto inicial de la instalación de enlace, no de la interior."
+      },
+      {
+        "id": 4,
+        "answer": "El puente de unión en la Caja General de Protección.",
+        "isCorrect": false,
+        "explanation": "Marca el inicio de la LGA, lejos de la instalación interior del usuario."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-70",
+    "type": "simple",
+    "question": "¿Cuál es la función del dispositivo de protección contra cortocircuitos en un pequeño interruptor automático (PIA)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Medir la energía consumida en vatios.",
+        "isCorrect": false,
+        "explanation": "Función del contador, no de la protección magnética."
+      },
+      {
+        "id": 2,
+        "answer": "Interrumpir la corriente de forma instantánea ante un contacto franco entre conductores activos.",
+        "isCorrect": true,
+        "explanation": "El elemento magnético dispara en milisegundos para evitar que la energía del cortocircuito destruya la instalación."
+      },
+      {
+        "id": 3,
+        "answer": "Calentar el bimetal para que salte tras varios minutos.",
+        "isCorrect": false,
+        "explanation": "Esa es la función de la protección contra sobrecargas, no contra cortocircuitos."
+      },
+      {
+        "id": 4,
+        "answer": "Actuar como pararrayos local para el enchufe de la televisión.",
+        "isCorrect": false,
+        "explanation": "No tiene capacidad de derivación de alta energía transitoria de rayo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-71",
+    "type": "simple",
+    "question": "Se observa un cuadro eléctrico con la tapa rota, dejando cables a la vista. ¿Qué grado IP se está incumpliendo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP30.",
+        "isCorrect": true,
+        "explanation": "Al dejar partes activas accesibles a herramientas o dedos, se incumple el grado de protección mínimo exigido por la ITC-BT-17."
+      },
+      {
+        "id": 2,
+        "answer": "IP68.",
+        "isCorrect": false,
+        "explanation": "IP68 es para sumergibles; no aplica al caso de una envolvente doméstica rota."
+      },
+      {
+        "id": 3,
+        "answer": "IK10.",
+        "isCorrect": false,
+        "explanation": "El grado IK mide la resistencia al golpe; la rotura ya se ha producido, el incumplimiento actual es de seguridad IP."
+      },
+      {
+        "id": 4,
+        "answer": "IP00.",
+        "isCorrect": false,
+        "explanation": "IP00 significa 'sin protección'; es el estado actual, pero el incumplimiento es sobre el IP30 reglamentario."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-72",
+    "type": "simple",
+    "question": "En un cuadro trifásico con neutro común, ¿qué precaución se debe tomar al instalar magnetotérmicos para circuitos monofásicos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Instalar unipolares para ahorrar espacio en el carril.",
+        "isCorrect": false,
+        "explanation": "Prohibido por la norma de seccionamiento omnipolar de los circuitos interiores."
+      },
+      {
+        "id": 2,
+        "answer": "Usar interruptores de dos polos (fase + neutro) por cada circuito derivado.",
+        "isCorrect": true,
+        "explanation": "Cada circuito debe poder ser aislado totalmente de la red para mantenimiento seguro."
+      },
+      {
+        "id": 3,
+        "answer": "Conectar todos los neutros directamente al borne de tierra.",
+        "isCorrect": false,
+        "explanation": "Error grave de concepto que provocaría disparos inmediatos del diferencial."
+      },
+      {
+        "id": 4,
+        "answer": "Instalar un único interruptor unipolar para las tres fases simultáneamente.",
+        "isCorrect": false,
+        "explanation": "Contradicción técnica; el seccionamiento fase-neutro es individual por cada circuito monofásico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-73",
+    "type": "simple",
+    "question": "¿Cuál es la función de la bobina de disparo asociada a un protector de sobretensiones permanentes?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aumentar la potencia del IGA de forma puntual.",
+        "isCorrect": false,
+        "explanation": "No tiene vinculación con el aumento de potencia de carga."
+      },
+      {
+        "id": 2,
+        "answer": "Provocar la apertura mecánica del IGA al detectar una tensión anómala de red.",
+        "isCorrect": true,
+        "explanation": "Es el brazo ejecutor de la protección que desconecta físicamente la instalación ante el peligro de sobretensión persistente."
+      },
+      {
+        "id": 3,
+        "answer": "Calentar el cuadro para evitar la condensación de humedad.",
+        "isCorrect": false,
+        "explanation": "Uso inadecuado de la bobina, cuya función es puramente de seguridad."
+      },
+      {
+        "id": 4,
+        "answer": "Generar un campo magnético que atraiga los rayos lejos de la casa.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de base técnica científica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-74",
+    "type": "simple",
+    "question": "Se instala un cuadro en un pasillo estrecho de 80 cm de ancho. ¿Es reglamentaria esta ubicación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, si el cuadro es extraplano.",
+        "isCorrect": false,
+        "explanation": "Se requiere un espacio de maniobra mínimo frente al cuadro para garantizar la seguridad del operario."
+      },
+      {
+        "id": 2,
+        "answer": "No, se recomienda mantener al menos 1 metro de espacio libre frente al cuadro abierto.",
+        "isCorrect": true,
+        "explanation": "Un espacio reducido dificulta la evacuación rápida y la maniobra segura en caso de arco eléctrico o pánico."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si se instala un espejo enfrente para ver los mecanismos.",
+        "isCorrect": false,
+        "explanation": "La visibilidad indirecta no sustituye al espacio físico de maniobra."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, en viviendas es habitual y está permitido sin restricciones de ancho.",
+        "isCorrect": false,
+        "explanation": "Aunque es común, las recomendaciones técnicas y de seguridad desaconsejan pasillos excesivamente angostos para cuadros generales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-75",
+    "type": "simple",
+    "question": "¿Por qué no se debe instalar un cuadro eléctrico en un cuarto de baño?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Porque el vapor de agua empaña los cristales del cuadro.",
+        "isCorrect": false,
+        "explanation": "Es un tema de seguridad eléctrica, no de visibilidad estética."
+      },
+      {
+        "id": 2,
+        "answer": "Por el elevado riesgo de contactos indirectos y corrosión de los mecanismos en zonas húmedas.",
+        "isCorrect": true,
+        "explanation": "La humedad ambiental y la presencia de agua líquida comprometen la seguridad de la instalación y la durabilidad de los equipos."
+      },
+      {
+        "id": 3,
+        "answer": "Porque el ruido del zumbido eléctrico molesta a quien se ducha.",
+        "isCorrect": false,
+        "explanation": "Un cuadro bien instalado no debe emitir zumbidos audibles ni molestos."
+      },
+      {
+        "id": 4,
+        "answer": "Porque las tuberías de agua caliente funden el plástico de la envolvente.",
+        "isCorrect": false,
+        "explanation": "El riesgo principal es la conductividad eléctrica del agua y la piel húmeda, no el calor de las tuberías."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-76",
+    "type": "simple",
+    "question": "En un bloque de viviendas de 20 plantas, ¿se permite instalar los cuadros de mando en el rellano de cada planta fuera de las viviendas?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, es obligatorio para facilitar el corte a los vecinos en caso de incendio.",
+        "isCorrect": false,
+        "explanation": "El cuadro general debe estar dentro de la propiedad privada del usuario por razones de seguridad jurídica y técnica."
+      },
+      {
+        "id": 2,
+        "answer": "No, deben situarse dentro de cada local o vivienda del abonado.",
+        "isCorrect": true,
+        "explanation": "Se exige que los dispositivos generales de mando se ubiquen en el interior del inmueble del usuario."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si el rellano tiene ventilación natural permanente.",
+        "isCorrect": false,
+        "explanation": "La ventilación no anula el requisito de ubicación interna."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, si se instalan dentro de armarios RF-120 resistentes al fuego.",
+        "isCorrect": false,
+        "explanation": "Dicha protección es para las líneas generales (LGA) en zonas comunes, no para los cuadros de abonado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-77",
+    "type": "simple",
+    "question": "¿Cuál es la sección mínima obligatoria para el cable que une el IGA con el diferencial en una electrificación básica?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "2,5 mm2.",
+        "isCorrect": false,
+        "explanation": "Sección insuficiente para la intensidad mínima de cabecera de 25A."
+      },
+      {
+        "id": 2,
+        "answer": "6 mm2.",
+        "isCorrect": true,
+        "explanation": "La interconexión interna debe ser coherente con la potencia de entrada, siendo 6 mm2 el estándar para electrificación básica (hasta 5,75 kW)."
+      },
+      {
+        "id": 3,
+        "answer": "1,5 mm2.",
+        "isCorrect": false,
+        "explanation": "Riesgo extremo de incendio por sobrecarga inmediata."
+      },
+      {
+        "id": 4,
+        "answer": "16 mm2 obligatoriamente por norma de derivaciones.",
+        "isCorrect": false,
+        "explanation": "16 mm2 se exige para la derivación individual, pero dentro del cuadro se dimensiona por la intensidad del IGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-78",
+    "type": "simple",
+    "question": "Un instalador detecta que un interruptor automático se dispara por temperatura sin que exista sobrecarga. ¿Qué causa técnica es la más probable?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que el cable de fase sea de color azul por error.",
+        "isCorrect": false,
+        "explanation": "El color no influye en la física del calor del borne."
+      },
+      {
+        "id": 2,
+        "answer": "Un borne mal apretado que genera calor localizado (punto caliente).",
+        "isCorrect": true,
+        "explanation": "La resistencia de contacto elevada produce calor intenso que hace saltar la protección térmica del dispositivo."
+      },
+      {
+        "id": 3,
+        "answer": "Que la tensión de red sea de 240 V en lugar de 230 V.",
+        "isCorrect": false,
+        "explanation": "Las protecciones soportan variaciones nominales del ±10% sin disparos térmicos injustificados."
+      },
+      {
+        "id": 4,
+        "answer": "Que el campo magnético terrestre haya invertido sus polos.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de sentido técnico para fallos domésticos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-79",
+    "type": "simple",
+    "question": "¿Qué ocurre si instalamos un diferencial de 30 mA aguas arriba de otro de 30 mA sin ningún retardo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aumentamos la seguridad personal al doble de protección.",
+        "isCorrect": false,
+        "explanation": "No aumenta la seguridad, solo la probabilidad de cortes accidentales innecesarios."
+      },
+      {
+        "id": 2,
+        "answer": "Ante una fuga, el disparo es aleatorio y puede saltar cualquiera de los dos o ambos.",
+        "isCorrect": true,
+        "explanation": "La falta de selectividad (cronométrica o amperimétrica) hace que la instalación sea poco fiable operativamente."
+      },
+      {
+        "id": 3,
+        "answer": "La instalación no funcionará porque se anulan las sensibilidades.",
+        "isCorrect": false,
+        "explanation": "Funcionará, pero el comportamiento ante fallos será imprevisible."
+      },
+      {
+        "id": 4,
+        "answer": "Es una práctica recomendada en locales de pública concurrencia.",
+        "isCorrect": false,
+        "explanation": "En pública concurrencia se exige selectividad para no dejar a oscuras zonas no afectadas por el fallo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-80",
+    "type": "simple",
+    "question": "¿Cuál es la función del cable verde-amarillo que se conecta al chasis metálico del cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Llevar la corriente sobrante de vuelta a la planta generadora.",
+        "isCorrect": false,
+        "explanation": "No existe tal 'corriente sobrante' que viaje por la tierra."
+      },
+      {
+        "id": 2,
+        "answer": "Garantizar que cualquier fallo de aislamiento de la carcasa sea derivado a tierra de forma inmediata.",
+        "isCorrect": true,
+        "explanation": "Permite que la tensión de defecto sea segura y que el diferencial actúe para proteger al usuario."
+      },
+      {
+        "id": 3,
+        "answer": "Servir de antena para mejorar la cobertura WiFi de la vivienda.",
+        "isCorrect": false,
+        "explanation": "Uso inadecuado y peligroso del sistema de protección."
+      },
+      {
+        "id": 4,
+        "answer": "Actuar como calefactor interno para evitar la escarcha.",
+        "isCorrect": false,
+        "explanation": "No es un conductor portador de carga con fines térmicos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-81",
+    "type": "simple",
+    "question": "En un cuadro con electrificación básica (5 circuitos), ¿cuántos diferenciales de 30 mA son obligatorios como mínimo?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uno por cada circuito individual (5 en total).",
+        "isCorrect": false,
+        "explanation": "Es una opción de diseño superior, pero no el mínimo legal."
+      },
+      {
+        "id": 2,
+        "answer": "Uno solo de 30 mA que proteja a todos los circuitos.",
+        "isCorrect": true,
+        "explanation": "Para electrificación básica se permite un único diferencial general, aunque se recomiende repartirlos por continuidad."
+      },
+      {
+        "id": 3,
+        "answer": "Dos, uno para alumbrado y otro para el resto.",
+        "isCorrect": false,
+        "explanation": "Es lo recomendable, pero el reglamento fija el mínimo en uno para básica."
+      },
+      {
+        "id": 4,
+        "answer": "Ninguno, si la toma de tierra tiene menos de 10 ohmios.",
+        "isCorrect": false,
+        "explanation": "La protección diferencial es obligatoria independientemente de la calidad de la tierra."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-82",
+    "type": "simple",
+    "question": "Al realizar una medida con un telurómetro, se comprueba la tierra del edificio. ¿Qué relación tiene este valor con el diferencial del cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ninguna, son sistemas de seguridad independientes.",
+        "isCorrect": false,
+        "explanation": "Son sistemas complementarios; el diferencial necesita la tierra para detectar la fuga."
+      },
+      {
+        "id": 2,
+        "answer": "La resistencia de tierra debe ser baja para que el diferencial actúe antes de que la tensión de masa sea peligrosa.",
+        "isCorrect": true,
+        "explanation": "La coordinación entre tierra y diferencial es la base de la protección contra contactos indirectos."
+      },
+      {
+        "id": 3,
+        "answer": "Si la tierra es muy buena (0 ohmios), el diferencial ya no es necesario.",
+        "isCorrect": false,
+        "explanation": "El diferencial sigue siendo vital para detectar defectos mínimos y proteger ante contactos directos accidentales."
+      },
+      {
+        "id": 4,
+        "answer": "El diferencial compensa automáticamente una mala toma de tierra.",
+        "isCorrect": false,
+        "explanation": "Un diferencial no puede actuar si la corriente de fuga es insuficiente por culpa de una resistencia de tierra infinita."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-83",
+    "type": "simple",
+    "question": "Se instala un cuadro de mando en el exterior de un local comercial, bajo un soportal. ¿Qué grado IP debe tener la envolvente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP30, igual que en interiores.",
+        "isCorrect": false,
+        "explanation": "No protege contra lluvia lateral o humedad ambiental exterior."
+      },
+      {
+        "id": 2,
+        "answer": "IP55 o superior para garantizar estanqueidad a la intemperie.",
+        "isCorrect": true,
+        "explanation": "En exteriores se debe elevar el grado de protección para evitar la entrada de agua y polvo."
+      },
+      {
+        "id": 3,
+        "answer": "IPX8 (sumergible).",
+        "isCorrect": false,
+        "explanation": "No se prevé que el cuadro trabaje bajo el agua."
+      },
+      {
+        "id": 4,
+        "answer": "IP00 dentro de una caja de cartón prensado.",
+        "isCorrect": false,
+        "explanation": "El cartón no es un material apto para envolventes eléctricas reglamentarias."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-84",
+    "type": "simple",
+    "question": "¿Cuál es la función del 'Elemento Térmico' (bimetal) de un interruptor magnetotérmico?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Detectar cortocircuitos de alta energía.",
+        "isCorrect": false,
+        "explanation": "Función del elemento magnético, no térmico."
+      },
+      {
+        "id": 2,
+        "answer": "Proteger contra sobrecargas lentas y prolongadas deformándose por calor.",
+        "isCorrect": true,
+        "explanation": "El bimetal se curva al calentarse por exceso de intensidad, provocando el disparo diferido."
+      },
+      {
+        "id": 3,
+        "answer": "Medir la temperatura ambiente para ajustar la factura.",
+        "isCorrect": false,
+        "explanation": "No tiene fines de medida comercial ni compensación climática de facturación."
+      },
+      {
+        "id": 4,
+        "answer": "Actuar como fusible de un solo uso que se funde con el calor.",
+        "isCorrect": false,
+        "explanation": "Es un mecanismo rearmable, no un elemento de sacrificio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-85",
+    "type": "simple",
+    "question": "Al realizar el cableado de un cuadro, ¿es aceptable conectar dos cables de distinta sección en el mismo borne de un automático?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, si se aprieta el tornillo con mucha fuerza.",
+        "isCorrect": false,
+        "explanation": "Dañaría el cable más fino o dejaría flojo el más grueso."
+      },
+      {
+        "id": 2,
+        "answer": "No, se deben usar terminales (punteras) dobles homologados o bornes de reparto.",
+        "isCorrect": true,
+        "explanation": "Garantiza que ambos conductores tengan la misma presión de contacto y seguridad eléctrica."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, si se rellena el hueco con soldadura líquida.",
+        "isCorrect": false,
+        "explanation": "Práctica prohibida en instalaciones de baja tensión."
+      },
+      {
+        "id": 4,
+        "answer": "Solo si la diferencia de sección es menor de 1 mm2.",
+        "isCorrect": false,
+        "explanation": "La prohibición de mezclar secciones en un solo borne sin accesorios específicos es general."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-86",
+    "type": "simple",
+    "question": "En un bloque de viviendas, el propietario quiere cambiar su IGA de 25 A por uno de 40 A para que no 'salten los plomos'. ¿Qué debe verificarse primero?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que el nuevo IGA sea de la misma marca que los anteriores.",
+        "isCorrect": false,
+        "explanation": "La marca es irrelevante frente a la seguridad técnica."
+      },
+      {
+        "id": 2,
+        "answer": "Que la sección de los cables de la derivación individual soporte 40 A con seguridad.",
+        "isCorrect": true,
+        "explanation": "No se puede aumentar la protección sin asegurar que el conductor protegido no se quemará."
+      },
+      {
+        "id": 3,
+        "answer": "Que el vecino de arriba esté de acuerdo con el cambio.",
+        "isCorrect": false,
+        "explanation": "Es una decisión técnica privativa de la instalación del abonado."
+      },
+      {
+        "id": 4,
+        "answer": "Que la envolvente del cuadro sea de color blanco.",
+        "isCorrect": false,
+        "explanation": "El color no influye en la capacidad de carga del sistema."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-87",
+    "type": "simple",
+    "question": "¿Cuál es el propósito del marcado 'S' en un interruptor diferencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Indica que es apto para instalaciones de Seguridad Ciudadana.",
+        "isCorrect": false,
+        "explanation": "Interpretación errónea de las siglas técnicas."
+      },
+      {
+        "id": 2,
+        "answer": "Indica que es Selectivo, con un tiempo de no actuación retardado.",
+        "isCorrect": true,
+        "explanation": "Permite que actúe el diferencial de aguas abajo ante un fallo, evitando cortes totales."
+      },
+      {
+        "id": 3,
+        "answer": "Indica que es Súper-sensible (10 mA).",
+        "isCorrect": false,
+        "explanation": "La sensibilidad se marca en Amperios (ej: 0,01A), no con una 'S'."
+      },
+      {
+        "id": 4,
+        "answer": "Significa que solo funciona en Silencio absoluto.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de base técnica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-88",
+    "type": "simple",
+    "question": "En un suministro trifásico, ¿qué hito técnico marca el origen de la explotación privada del abonado?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los bornes de salida del transformador de barrio.",
+        "isCorrect": false,
+        "explanation": "Zona de distribución pública, no privada."
+      },
+      {
+        "id": 2,
+        "answer": "El cuadro general de mando y protección situado en su local o vivienda.",
+        "isCorrect": true,
+        "explanation": "Es el punto donde el usuario tiene el control total sobre la seguridad de su instalación."
+      },
+      {
+        "id": 3,
+        "answer": "La entrada de la acometida al solar de la edificación.",
+        "isCorrect": false,
+        "explanation": "Zona de enlace de la compañía distribuidora."
+      },
+      {
+        "id": 4,
+        "answer": "El borne de tierra enterrado bajo el edificio.",
+        "isCorrect": false,
+        "explanation": "Componente pasivo de seguridad, no punto de mando de la explotación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-89",
+    "type": "simple",
+    "question": "¿Qué ocurre si un operario instala un IGA de 3 polos en un suministro trifásico con neutro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Nada, el neutro no necesita protección por ser tierra.",
+        "isCorrect": false,
+        "explanation": "El neutro es un conductor activo y debe seccionarse obligatoriamente."
+      },
+      {
+        "id": 2,
+        "answer": "Estaría incumpliendo la norma de corte omnipolar del mando general.",
+        "isCorrect": true,
+        "explanation": "Se exige el corte simultáneo de todos los conductores de alimentación, incluido el neutro."
+      },
+      {
+        "id": 3,
+        "answer": "Aumentaría la potencia disponible al no tener pérdidas en el cuarto polo.",
+        "isCorrect": false,
+        "explanation": "Afirmación técnica errónea."
+      },
+      {
+        "id": 4,
+        "answer": "El diferencial saltaría por falta de fase magnética.",
+        "isCorrect": false,
+        "explanation": "Si el neutro está conectado pero no seccionado, el diferencial funcionará, pero el cuadro no será seguro en mantenimiento."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-90",
+    "type": "simple",
+    "question": "Se observa un cuadro con una maneta a 2,10 metros del suelo en un local comercial. ¿Qué dictamen corresponde?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Favorable, hay una tolerancia de 15 cm en locales públicos.",
+        "isCorrect": false,
+        "explanation": "No existen tolerancias reglamentarias para la altura máxima de 2 metros."
+      },
+      {
+        "id": 2,
+        "answer": "Desfavorable, supera el límite máximo técnico de 2 metros.",
+        "isCorrect": true,
+        "explanation": "La altura máxima de 2 metros garantiza que cualquier operario pueda accionar el corte general rápidamente."
+      },
+      {
+        "id": 3,
+        "answer": "Favorable, si se entrega un bastón de maniobra al local.",
+        "isCorrect": false,
+        "explanation": "La maniobra debe ser directa y manual, sin herramientas auxiliares."
+      },
+      {
+        "id": 4,
+        "answer": "Condicionado a que el dueño mida más de 1,90 metros.",
+        "isCorrect": false,
+        "explanation": "La norma contempla la estatura media general de la población."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-91",
+    "type": "simple",
+    "question": "¿Cuál es la función del dispositivo de protección contra cortocircuitos en un IGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Asegurar que el cable de entrada no se caliente por exceso de consumo.",
+        "isCorrect": false,
+        "explanation": "Esa es la función térmica contra sobrecargas."
+      },
+      {
+        "id": 2,
+        "answer": "Interrumpir la corriente ante un fallo masivo de aislamiento de muy alta intensidad.",
+        "isCorrect": true,
+        "explanation": "El disparo magnético actúa en milisegundos para evitar daños destructivos por cortocircuito."
+      },
+      {
+        "id": 3,
+        "answer": "Medir la fuga de corriente a masa de forma digital.",
+        "isCorrect": false,
+        "explanation": "Función propia de los diferenciales electrónicos modernos, no del IGA estándar."
+      },
+      {
+        "id": 4,
+        "answer": "Actuar como interruptor horario para la iluminación del jardín.",
+        "isCorrect": false,
+        "explanation": "Un IGA es un dispositivo de protección, no de programación horaria."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-92",
+    "type": "simple",
+    "question": "En un cuadro eléctrico con los mecanismos tapados por una placa frontal, ¿qué grado IP se garantiza si no hay huecos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP00, sin protección.",
+        "isCorrect": false,
+        "explanation": "Si hay placa frontal, ya existe un nivel de protección contra contactos."
+      },
+      {
+        "id": 2,
+        "answer": "Al menos IP30.",
+        "isCorrect": true,
+        "explanation": "La envolvente completa con su placa frontal debe garantizar que no entren objetos de más de 2,5 mm (IP30)."
+      },
+      {
+        "id": 3,
+        "answer": "IP68, estanco al agua.",
+        "isCorrect": false,
+        "explanation": "Una placa de cuadro estándar no ofrece estanqueidad a la inmersión."
+      },
+      {
+        "id": 4,
+        "answer": "Depende del número de circuitos instalados.",
+        "isCorrect": false,
+        "explanation": "El grado IP es una característica de diseño de la envolvente, no del contenido eléctrico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-93",
+    "type": "simple",
+    "question": "¿Qué material es el preferente para la fabricación de las envolventes de cuadros domésticos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Madera de roble tratada con barniz ignífugo.",
+        "isCorrect": false,
+        "explanation": "Material no apto por riesgo de propagación interna de incendios."
+      },
+      {
+        "id": 2,
+        "answer": "Materiales aislantes que superen el ensayo de hilo incandescente.",
+        "isCorrect": true,
+        "explanation": "Los termoplásticos certificados aseguran aislamiento eléctrico y seguridad contra incendios."
+      },
+      {
+        "id": 3,
+        "answer": "Plomo puro para blindar contra radiaciones.",
+        "isCorrect": false,
+        "explanation": "Material tóxico, pesado y conductor innecesario para un cuadro doméstico."
+      },
+      {
+        "id": 4,
+        "answer": "Papel prensado con resina de pino.",
+        "isCorrect": false,
+        "explanation": "Material inflamable prohibido para envolventes eléctricas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-94",
+    "type": "simple",
+    "question": "Se instala un diferencial de rearme automático en una vivienda vacacional. ¿Qué precaución debe tomarse?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ninguna, son dispositivos inteligentes que piensan por sí mismos.",
+        "isCorrect": false,
+        "explanation": "Requieren una instalación segura y conocimiento de sus límites operativos."
+      },
+      {
+        "id": 2,
+        "answer": "Asegurar que el rearme no suponga un riesgo para personas o bienes en ausencia del dueño.",
+        "isCorrect": true,
+        "explanation": "Se debe verificar que el sistema no intente rearmar si persiste un fallo peligroso."
+      },
+      {
+        "id": 3,
+        "answer": "Poner una pegatina que diga 'Cuidado, este cuadro se mueve solo'.",
+        "isCorrect": false,
+        "explanation": "No es un requisito reglamentario técnico."
+      },
+      {
+        "id": 4,
+        "answer": "Desconectarlo cada vez que se salga de casa.",
+        "isCorrect": false,
+        "explanation": "Anularía el propósito de tener un dispositivo de rearme automático."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-95",
+    "type": "simple",
+    "question": "¿Cuál es la función del conductor de protección que sale del cuadro hacia los enchufes?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ahorrar consumo de luz al derivar el exceso a tierra.",
+        "isCorrect": false,
+        "explanation": "Idea falsa muy extendida; no ahorra energía."
+      },
+      {
+        "id": 2,
+        "answer": "Garantizar un camino de baja impedancia para las corrientes de fuga.",
+        "isCorrect": true,
+        "explanation": "Permite que el diferencial actúe rápidamente ante un fallo de aislamiento en un aparato."
+      },
+      {
+        "id": 3,
+        "answer": "Servir de refuerzo mecánico para los cables de fase.",
+        "isCorrect": false,
+        "explanation": "Es un conductor eléctrico activo con funciones de seguridad."
+      },
+      {
+        "id": 4,
+        "answer": "Llevar la señal de televisión por cable.",
+        "isCorrect": false,
+        "explanation": "Uso inadecuado y peligroso del cableado eléctrico de protección."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-96",
+    "type": "simple",
+    "question": "En un cuadro con electrificación elevada (12 circuitos), ¿por qué no es recomendable un solo diferencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Porque el diferencial se quemaría por exceso de peso magnético.",
+        "isCorrect": false,
+        "explanation": "No es un tema de peso magnético, sino de capacidad de seccionamiento y ruido eléctrico."
+      },
+      {
+        "id": 2,
+        "answer": "Por la suma de pequeñas fugas naturales que provocarían disparos intempestivos.",
+        "isCorrect": true,
+        "explanation": "Muchos circuitos electrónicos sumados pueden alcanzar el umbral de disparo de 30 mA sin que exista un fallo real."
+      },
+      {
+        "id": 3,
+        "answer": "Porque el reglamento obliga a poner un diferencial por cada habitación.",
+        "isCorrect": false,
+        "explanation": "No existe tal obligación; se basa en el número de circuitos por diferencial (máx 5)."
+      },
+      {
+        "id": 4,
+        "answer": "Porque se gastaría antes el bimetal interno del diferencial.",
+        "isCorrect": false,
+        "explanation": "El diferencial no tiene bimetal de protección por sobrecarga; es un relé magnético de defecto."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-97",
+    "type": "simple",
+    "question": "Se observa un cuadro con los bornes de salida quemados. ¿Cuál es la causa más probable?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uso de cables de colores no reglamentarios.",
+        "isCorrect": false,
+        "explanation": "El color no afecta al calentamiento por contacto."
+      },
+      {
+        "id": 2,
+        "answer": "Bornes mal apretados o sobrecarga persistente del circuito.",
+        "isCorrect": true,
+        "explanation": "Un mal apriete aumenta la resistencia de contacto, disipando calor por efecto Joule hasta fundir el material."
+      },
+      {
+        "id": 3,
+        "answer": "Humedad ambiente superior al 90%.",
+        "isCorrect": false,
+        "explanation": "La humedad puede provocar arcos, pero la causa raíz de quemaduras lentas es el mal contacto o sobrecarga."
+      },
+      {
+        "id": 4,
+        "answer": "Paso de hormigas por el interior del regletero.",
+        "isCorrect": false,
+        "explanation": "Causa anecdótica muy improbable frente a los fallos técnicos de montaje."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-98",
+    "type": "simple",
+    "question": "¿Qué hito marca el final de la responsabilidad de la compañía eléctrica en la instalación de un abonado?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La entrada de la línea al cuadro general de mando.",
+        "isCorrect": false,
+        "explanation": "La responsabilidad de la compañía termina mucho antes, en la CGP."
+      },
+      {
+        "id": 2,
+        "answer": "La Caja General de Protección (CGP).",
+        "isCorrect": true,
+        "explanation": "Es el punto de frontera entre la red de distribución pública y la instalación privada del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "El borne del interruptor diferencial.",
+        "isCorrect": false,
+        "explanation": "Zona privativa del usuario, gestionada por él mismo."
+      },
+      {
+        "id": 4,
+        "answer": "La toma de corriente de la cocina.",
+        "isCorrect": false,
+        "explanation": "Punto final de consumo, totalmente ajeno a la distribuidora."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-99",
+    "type": "simple",
+    "question": "¿Cuál es la función del dispositivo de protección contra sobretensiones transitorias en un entorno industrial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Evitar que la factura de la luz suba por picos de consumo.",
+        "isCorrect": false,
+        "explanation": "No tiene vinculación con el ahorro o facturación."
+      },
+      {
+        "id": 2,
+        "answer": "Proteger la electrónica de control y autómatas frente a perturbaciones de red masivas.",
+        "isCorrect": true,
+        "explanation": "En industria, los picos por maniobras de motores grandes son comunes y pueden destruir circuitos electrónicos sensibles."
+      },
+      {
+        "id": 3,
+        "answer": "Aumentar la vida útil de las bombillas de incandescencia.",
+        "isCorrect": false,
+        "explanation": "Aunque ayuda, su fin principal es la seguridad de los equipos de alto valor."
+      },
+      {
+        "id": 4,
+        "answer": "Sustituir al sistema de pararrayos externo del edificio.",
+        "isCorrect": false,
+        "explanation": "Son sistemas complementarios; el protector interior es la última línea de defensa."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-100",
+    "type": "simple",
+    "question": "En un cuadro con suministro trifásico equilibrado, ¿qué intensidad circula por el conductor neutro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La suma de las intensidades de las tres fases.",
+        "isCorrect": false,
+        "explanation": "En equilibrio, las corrientes se cancelan vectorialmente en el neutro."
+      },
+      {
+        "id": 2,
+        "answer": "Cero Amperios o una intensidad muy cercana a cero.",
+        "isCorrect": true,
+        "explanation": "En un sistema trifásico perfectamente equilibrado, la suma vectorial de las corrientes es nula."
+      },
+      {
+        "id": 3,
+        "answer": "La misma intensidad que la fase más cargada.",
+        "isCorrect": false,
+        "explanation": "Esto solo ocurriría en un sistema desequilibrado con solo una fase consumiendo."
+      },
+      {
+        "id": 4,
+        "answer": "Infinitos Amperios por inducción magnética.",
+        "isCorrect": false,
+        "explanation": "Afirmación carente de base física técnica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-101",
+    "type": "multiple",
+    "question": "En el diseño de un cuadro de mando y protección para una vivienda, ¿qué elementos deben integrarse obligatoriamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Interruptor General Automático (IGA) de corte omnipolar.",
+        "isCorrect": true,
+        "explanation": "Elemento de cabecera obligatorio para la protección contra sobreintensidades."
+      },
+      {
+        "id": 2,
+        "answer": "Uno o varios interruptores diferenciales de alta sensibilidad.",
+        "isCorrect": true,
+        "explanation": "Fundamentales para la seguridad de las personas contra contactos indirectos."
+      },
+      {
+        "id": 3,
+        "answer": "Dispositivos de protección contra cortocircuitos de cada circuito interior (PIAs).",
+        "isCorrect": true,
+        "explanation": "Cada circuito derivado debe tener su propia protección magnetotérmica independiente."
+      },
+      {
+        "id": 4,
+        "answer": "Analizador de redes con conexión Bluetooth a la nube.",
+        "isCorrect": false,
+        "explanation": "La monitorización avanzada no es un requisito de seguridad básica obligatorio por el REBT."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-102",
+    "type": "multiple",
+    "question": "¿Cuáles son los requisitos de ubicación para el cuadro de mando según la normativa técnica?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Situado lo más cerca posible del punto de entrada de la derivación individual.",
+        "isCorrect": true,
+        "explanation": "Minimiza la longitud de cable interno sin protección de cabecera."
+      },
+      {
+        "id": 2,
+        "answer": "Prohibición absoluta de situarlo en dormitorios, baños o aseos.",
+        "isCorrect": true,
+        "explanation": "Zonas de descanso o húmedas están restringidas por seguridad y accesibilidad."
+      },
+      {
+        "id": 3,
+        "answer": "Altura de los dispositivos de mando entre 1,4 y 2 metros desde el suelo.",
+        "isCorrect": true,
+        "explanation": "Cota ergonómica normalizada para garantizar la maniobra rápida y segura."
+      },
+      {
+        "id": 4,
+        "answer": "Obligatoriedad de situarlo en el garaje si la vivienda dispone de él.",
+        "isCorrect": false,
+        "explanation": "El garaje no es el punto de entrada preferente para la centralización de protecciones de vivienda."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-103",
+    "type": "multiple",
+    "question": "Para garantizar una selectividad total entre diferenciales en serie, ¿qué condiciones deben cumplirse simultáneamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Diferencial de aguas arriba de tipo selectivo (marcado con 'S') o retardado.",
+        "isCorrect": true,
+        "explanation": "Coordina los tiempos de disparo para que actúe primero el más cercano al fallo."
+      },
+      {
+        "id": 2,
+        "answer": "Sensibilidad del diferencial superior al menos el triple que la del inferior.",
+        "isCorrect": true,
+        "explanation": "Coordina los umbrales de intensidad de fuga (selectividad amperimétrica)."
+      },
+      {
+        "id": 3,
+        "answer": "Ambos diferenciales deben ser de disparo instantáneo ultrarrápido.",
+        "isCorrect": false,
+        "explanation": "Si ambos son instantáneos, no hay garantía de qué dispositivo abrirá primero."
+      },
+      {
+        "id": 4,
+        "answer": "Uso de diferenciales de marcas distintas para evitar resonancias.",
+        "isCorrect": false,
+        "explanation": "La marca no influye en la física de la selectividad, que se basa en parámetros de tiempo e intensidad."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-104",
+    "type": "multiple",
+    "question": "¿Qué funciones críticas desempeña el Interruptor General Automático (IGA) en una instalación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Protección de los conductores de la derivación individual contra sobrecargas.",
+        "isCorrect": true,
+        "explanation": "Evita que un exceso de consumo constante degrade el aislamiento del cable de entrada."
+      },
+      {
+        "id": 2,
+        "answer": "Protección contra cortocircuitos masivos en el origen de la instalación.",
+        "isCorrect": true,
+        "explanation": "Interrumpe corrientes de alta energía en milisegundos mediante su disparo magnético."
+      },
+      {
+        "id": 3,
+        "answer": "Permitir el mando y desconexión total de la instalación por parte del usuario.",
+        "isCorrect": true,
+        "explanation": "Funciona como el interruptor principal de emergencia para el abonado."
+      },
+      {
+        "id": 4,
+        "answer": "Medida de la potencia reactiva para su compensación automática.",
+        "isCorrect": false,
+        "explanation": "Función propia de analizadores y equipos de compensación, no del IGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-105",
+    "type": "multiple",
+    "question": "¿Cuáles son los requisitos de diseño y materiales para la envolvente de un cuadro eléctrico?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Grado de protección mínima IP30 para evitar contactos directos con herramientas.",
+        "isCorrect": true,
+        "explanation": "Impide la entrada de objetos sólidos superiores a 2,5 mm."
+      },
+      {
+        "id": 2,
+        "answer": "Resistencia a impactos mecánicos externos mínima IK07.",
+        "isCorrect": true,
+        "explanation": "Asegura la integridad física frente a golpes accidentales del usuario."
+      },
+      {
+        "id": 3,
+        "answer": "Autoextinguibilidad y resistencia al hilo incandescente (650°C/850°C).",
+        "isCorrect": true,
+        "explanation": "Evita que un arco eléctrico interno propague un incendio al edificio."
+      },
+      {
+        "id": 4,
+        "answer": "Uso exclusivo de materiales metálicos para evitar campos magnéticos.",
+        "isCorrect": false,
+        "explanation": "Se permiten plásticos aislantes siempre que cumplan las normas de inflamabilidad certificadas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-106",
+    "type": "multiple",
+    "question": "En un entorno con alta presencia de equipos electrónicos, ¿qué ventajas aporta el uso de diferenciales Tipo A?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Detección de corrientes de fuga con componente continua pulsante.",
+        "isCorrect": true,
+        "explanation": "La electrónica rectifica fallos que un diferencial Tipo AC estándar no vería."
+      },
+      {
+        "id": 2,
+        "answer": "Mayor inmunidad frente a disparos intempestivos provocados por filtros de red.",
+        "isCorrect": true,
+        "explanation": "Reduce los cortes injustificados por 'ruido' eléctrico de fuentes conmutadas."
+      },
+      {
+        "id": 3,
+        "answer": "Seguridad ante defectos de aislamiento en cargadores de vehículos eléctricos.",
+        "isCorrect": true,
+        "explanation": "Recomendado para proteger infraestructuras de recarga que generan armónicos."
+      },
+      {
+        "id": 4,
+        "answer": "Aumento del factor de potencia de la instalación mediante filtros internos.",
+        "isCorrect": false,
+        "explanation": "El diferencial no corrige el factor de potencia; es un dispositivo de seguridad de fuga."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-107",
+    "type": "multiple",
+    "question": "¿Qué comprobaciones ineludibles debe realizar un instalador antes de entregar un cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Verificación del apriete mecánico de todos los bornes bajo carga.",
+        "isCorrect": true,
+        "explanation": "Previene incendios por efecto Joule en conexiones flojas."
+      },
+      {
+        "id": 2,
+        "answer": "Ensayo de disparo real mediante el botón de prueba de los diferenciales.",
+        "isCorrect": true,
+        "explanation": "Garantiza que la protección personal está operativa mecánicamente."
+      },
+      {
+        "id": 3,
+        "answer": "Identificación y etiquetado duradero de cada uno de los circuitos.",
+        "isCorrect": true,
+        "explanation": "Requisito de seguridad para que el usuario opere el cuadro correctamente."
+      },
+      {
+        "id": 4,
+        "answer": "Pesaje del cuadro para certificar su resistencia sísmica.",
+        "isCorrect": false,
+        "explanation": "El peso no forma parte de las pruebas de seguridad eléctrica del REBT para cuadros estándar."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-108",
+    "type": "multiple",
+    "question": "¿Qué riesgos técnicos se minimizan al dimensionar correctamente el poder de corte del IGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Riesgo de explosión o rotura mecánica de la envolvente ante un fallo grave.",
+        "isCorrect": true,
+        "explanation": "La energía de un cortocircuito mal interrumpido puede destruir físicamente el aparato."
+      },
+      {
+        "id": 2,
+        "answer": "Riesgo de soldadura de contactos que impida la apertura del circuito.",
+        "isCorrect": true,
+        "explanation": "El exceso de calor del arco funde los metales si el dispositivo no es capaz de extinguirlo."
+      },
+      {
+        "id": 3,
+        "answer": "Riesgo de propagación del cortocircuito hacia la red de distribución.",
+        "isCorrect": true,
+        "explanation": "Una interrupción lenta puede dañar componentes de enlace y otros abonados cercanos."
+      },
+      {
+        "id": 4,
+        "answer": "Riesgo de pagar excesos de potencia reactiva a la distribuidora.",
+        "isCorrect": false,
+        "explanation": "La potencia reactiva es un problema de calidad de carga, no de poder de corte de cortocircuito."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-109",
+    "type": "multiple",
+    "question": "En el contexto de la protección contra sobretensiones, ¿qué funciones deben coordinarse en un cuadro?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Protección transitoria contra rayos (descargadores en paralelo).",
+        "isCorrect": true,
+        "explanation": "Derivan a tierra picos masivos de tensión de microsegundos."
+      },
+      {
+        "id": 2,
+        "answer": "Protección permanente contra desequilibrios de red (bobinas de disparo).",
+        "isCorrect": true,
+        "explanation": "Desconectan el IGA ante subidas de tensión lentas y destructivas para equipos."
+      },
+      {
+        "id": 3,
+        "answer": "Coordinación de aislamiento con la categoría de los equipos a proteger.",
+        "isCorrect": true,
+        "explanation": "El nivel de protección (Up) debe ser inferior a la tensión impulsional que soporta el equipo."
+      },
+      {
+        "id": 4,
+        "answer": "Sincronización horaria de los magnetotérmicos para disparos en valle.",
+        "isCorrect": false,
+        "explanation": "Los magnetotérmicos no se sincronizan con periodos de tarificación horaria."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-17-110",
+    "type": "multiple",
+    "question": "¿Qué condiciones deben cumplir los puentes de interconexión interna de un cuadro para ser seguros?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sección de cable adecuada a la intensidad máxima de cabecera del cuadro.",
+        "isCorrect": true,
+        "explanation": "Evita calentamientos por ser el 'cuello de botella' de la instalación."
+      },
+      {
+        "id": 2,
+        "answer": "Uso de conductores no propagadores de la llama y baja emisión de humos.",
+        "isCorrect": true,
+        "explanation": "Seguridad pasiva contra incendios coherente con el resto del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "Identificación de colores reglamentaria (Azul para neutro, Negro/Marrón/Gris para fases).",
+        "isCorrect": true,
+        "explanation": "Vital para evitar errores de conexión y peligros durante el mantenimiento."
+      },
+      {
+        "id": 4,
+        "answer": "Longitud máxima de 10 cm por puente para minimizar la resistencia.",
+        "isCorrect": false,
+        "explanation": "La longitud viene dada por la geometría del cuadro; lo crítico es la sección, no una medida fija corta."
       }
     ]
   }

@@ -5,1274 +5,3423 @@
     "questions": [
       {
         "id": "ITC-BT-18-01",
-        "question": "¿Cuál es el objetivo principal de las puestas a tierra?",
+        "question": "Durante la inspección de una nave industrial, se observa que la estructura metálica está conectada a tierra. ¿Cuál es el propósito fundamental de esta conexión según los criterios de seguridad?",
         "options": [
           {
             "id": 1,
-            "answer": "Limitar la tensión que puedan presentar las masas metálicas, asegurar la actuación de las protecciones y eliminar o disminuir el riesgo por avería.",
+            "answer": "Limitar la tensión de las masas respecto a tierra y asegurar la actuación de las protecciones ante averías.",
             "isCorrect": true,
-            "explanation": "Según la ITC-BT-18, el apartado 1 (Objeto) establece textualmente que las puestas a tierra se establecen principalmente con esos fines."
+            "explanation": "La puesta a tierra busca principalmente limitar la tensión que puedan presentar las masas metálicas, asegurar que los dispositivos de protección actúen correctamente y reducir el riesgo en caso de avería eléctrica."
           },
           {
             "id": 2,
-            "answer": "Proporcionar un camino de retorno para la corriente de servicio normal.",
+            "answer": "Evitar la entrada de humedad en los circuitos de potencia del edificio.",
             "isCorrect": false,
-            "explanation": "El retorno de la corriente de servicio se realiza por el neutro, no por la puesta a tierra. La tierra solo lleva corriente en condiciones de defecto."
+            "explanation": "La puesta a tierra es una protección eléctrica; no tiene relación con el control de humedad ambiental o de los materiales."
           },
           {
             "id": 3,
-            "answer": "Evitar cualquier tipo de sobretensión en la red eléctrica.",
+            "answer": "Eliminar la necesidad de instalar interruptores automáticos en los cuadros secundarios.",
             "isCorrect": false,
-            "explanation": "Las sobretensiones se limitan con otros dispositivos (descargadores). La puesta a tierra ayuda pero no es su objetivo principal."
+            "explanation": "La puesta a tierra es complementaria a los dispositivos de protección (como diferenciales), no los sustituye."
           },
           {
             "id": 4,
-            "answer": "Aumentar la resistencia del terreno para mejorar el aislamiento.",
+            "answer": "Garantizar que la resistencia del aislamiento de los conductores sea siempre infinita.",
             "isCorrect": false,
-            "explanation": "La puesta a tierra busca una resistencia baja, no alta, para facilitar el paso de corrientes de defecto."
+            "explanation": "El aislamiento depende de la calidad del material conductor, no de la conexión a tierra de las masas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-02",
-        "question": "¿Cómo se define la puesta o conexión a tierra?",
+        "question": "Un instalador está realizando una conexión a tierra y se le pregunta qué elemento es indispensable para que esta sea reglamentaria. ¿Qué debe responder?",
         "options": [
           {
             "id": 1,
-            "answer": "Unión eléctrica directa, sin fusibles ni protección, de una parte del circuito o de una parte conductora no perteneciente al mismo, mediante una toma de tierra con un electrodo enterrado.",
+            "answer": "Una unión eléctrica directa, sin fusibles ni protecciones, mediante un electrodo enterrado.",
             "isCorrect": true,
-            "explanation": "Según ITC-BT-18, definición textual del apartado 2: unión eléctrica directa, sin fusibles ni protección alguna, de una parte del circuito eléctrico o de una parte conductora no perteneciente al mismo mediante una toma de tierra con un electrodo o grupos de electrodos enterrados en el suelo."
+            "explanation": "Por definición, la puesta a tierra es una unión eléctrica directa, sin elementos de corte ni protección intercalados, conectando el circuito o masa con un electrodo en el suelo."
           },
           {
             "id": 2,
-            "answer": "Conexión de todas las masas metálicas entre sí mediante un conductor de cobre.",
+            "answer": "Un interruptor diferencial de alta sensibilidad intercalado en el cable de tierra.",
             "isCorrect": false,
-            "explanation": "Eso sería una unión equipotencial, no la definición completa de puesta a tierra que incluye el electrodo enterrado."
+            "explanation": "El conductor de tierra no debe llevar nunca dispositivos de protección o corte como fusibles o diferenciales."
           },
           {
             "id": 3,
-            "answer": "Paso de corriente a través del neutro hacia el transformador.",
+            "answer": "Un limitador de corriente que impida que la descarga a tierra supere los 10 amperios.",
             "isCorrect": false,
-            "explanation": "No es la definición reglamentaria; confunde el neutro con la tierra."
+            "explanation": "No se deben limitar las corrientes de defecto en el camino a tierra; al contrario, se busca que fluyan para activar las protecciones."
           },
           {
             "id": 4,
-            "answer": "Protección mediante interruptores diferenciales en todos los circuitos.",
+            "answer": "Una conexión en serie que pase por todos los equipos de la oficina antes de salir al terreno.",
             "isCorrect": false,
-            "explanation": "Los diferenciales son dispositivos de protección, no la definición de puesta a tierra."
+            "explanation": "Las masas no deben conectarse en serie en un circuito de protección."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-03",
-        "question": "¿Cuáles de los siguientes elementos pueden ser utilizados como tomas de tierra (electrodos)?",
+        "question": "En el diseño de la cimentación de un edificio de viviendas, se planea utilizar las armaduras de hormigón como toma de tierra. ¿Bajo qué condición es esto aceptable?",
         "options": [
           {
             "id": 1,
-            "answer": "Picas o tubos verticales.",
+            "answer": "Siempre que no se trate de armaduras pretensadas.",
             "isCorrect": true,
-            "explanation": "El apartado 3.1 enumera como electrodos: picas o tubos verticales, placas enterradas, anillos o mallas metálicas, armaduras de hormigón (excepto pretensadas) y otras estructuras enterradas apropiadas."
+            "explanation": "El reglamento permite el uso de armaduras de hormigón enterradas como electrodos, con la excepción expresa de las armaduras pretensadas."
           },
           {
             "id": 2,
-            "answer": "Canalizaciones metálicas de agua o gas.",
+            "answer": "Únicamente si el hormigón tiene un espesor superior a 50 centímetros.",
             "isCorrect": false,
-            "explanation": "El apartado 3.1 prohíbe expresamente utilizar canalizaciones metálicas de otros servicios (agua, gas, líquidos o gases inflamables) como tomas de tierra por razones de seguridad."
+            "explanation": "El reglamento no impone un espesor mínimo de hormigón para validar la armadura como electrodo."
           },
           {
             "id": 3,
-            "answer": "Placas enterradas.",
-            "isCorrect": true,
-            "explanation": "Sí, las placas enterradas son uno de los tipos de electrodos permitidos según el apartado 3.1."
+            "answer": "Solo si se recubren las armaduras con una capa de pintura bituminosa previa al vertido.",
+            "isCorrect": false,
+            "explanation": "La pintura bituminosa es aislante; su uso impediría el contacto eléctrico necesario para la puesta a tierra."
           },
           {
             "id": 4,
-            "answer": "Armaduras de hormigón pretensado.",
+            "answer": "Si la resistencia de las armaduras es medida antes de verter el hormigón y es nula.",
             "isCorrect": false,
-            "explanation": "El apartado 3.1 excluye expresamente las armaduras pretensadas, aunque permite las armaduras de hormigón ordinarias."
+            "explanation": "La resistencia nula es físicamente imposible y el criterio determinante es que no sea pretensada."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-04",
-        "question": "¿Cuál es la profundidad mínima de enterramiento para las tomas de tierra?",
+        "question": "Se está instalando una pica vertical en un terreno arenoso. ¿Cuál es la profundidad mínima reglamentaria a la que debe quedar enterrado el extremo superior del electrodo?",
         "options": [
           {
             "id": 1,
-            "answer": "0,30 m.",
-            "isCorrect": false,
-            "explanation": "El apartado 3.1 establece que la profundidad nunca será inferior a 0,50 m, no 0,30 m."
+            "answer": "0,50 metros.",
+            "isCorrect": true,
+            "explanation": "La normativa establece que la profundidad de enterramiento de los electrodos nunca será inferior a 0,50 metros."
           },
           {
             "id": 2,
-            "answer": "0,50 m.",
-            "isCorrect": true,
-            "explanation": "Según ITC-BT-18, el apartado 3.1 indica textualmente: 'La profundidad nunca será inferior a 0,50 m'."
+            "answer": "0,25 metros, siempre que el terreno esté húmedo.",
+            "isCorrect": false,
+            "explanation": "La profundidad mínima de 0,50 m es obligatoria independientemente de la humedad del terreno."
           },
           {
             "id": 3,
-            "answer": "1,00 m.",
+            "answer": "1,00 metro para evitar tensiones de paso.",
             "isCorrect": false,
-            "explanation": "Aunque puede ser mayor, el mínimo exigido es 0,50 m, no 1,00 m."
+            "explanation": "Aunque una mayor profundidad es beneficiosa, el mínimo legal es 0,50 m."
           },
           {
             "id": 4,
-            "answer": "Depende de la resistividad del terreno.",
+            "answer": "0,30 metros si se utiliza un pozo de registro.",
             "isCorrect": false,
-            "explanation": "La norma fija un mínimo absoluto de 0,50 m independientemente de la resistividad."
+            "explanation": "Incluso con pozo de registro, la profundidad mínima del electrodo enterrado debe ser 0,50 m."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-05",
-        "question": "¿Qué sección mínima debe tener un conductor de tierra enterrado de cobre que NO está protegido mecánicamente pero SÍ protegido contra la corrosión?",
+        "question": "En una zona de montaña con riesgo frecuente de heladas, se va a instalar un anillo de tierra. ¿Qué profundidad mínima de enterramiento se recomienda para asegurar la estabilidad de la resistencia?",
         "options": [
           {
             "id": 1,
-            "answer": "16 mm².",
+            "answer": "0,80 metros.",
             "isCorrect": true,
-            "explanation": "Según la tabla 1 del apartado 3.2, la tabla 1 indica que para cobre con protección contra la corrosión (aunque no esté protegido mecánicamente) la sección mínima es 16 mm²."
+            "explanation": "En lugares con riesgo continuado de heladas, se recomienda una profundidad mínima de 0,80 m para la parte superior del electrodo."
           },
           {
             "id": 2,
-            "answer": "25 mm².",
+            "answer": "0,50 metros, igual que en el resto de zonas.",
             "isCorrect": false,
-            "explanation": "Esa sección corresponde a cobre no protegido contra la corrosión ni mecánicamente."
+            "explanation": "0,50 m es el mínimo general, pero para zonas con heladas la recomendación específica es de 0,80 m."
           },
           {
             "id": 3,
-            "answer": "50 mm².",
+            "answer": "1,50 metros para superar la capa freática.",
             "isCorrect": false,
-            "explanation": "Esa sección corresponde a hierro no protegido contra la corrosión."
+            "explanation": "No es necesario alcanzar la capa freática; el criterio es superar el nivel de congelación del suelo."
           },
           {
             "id": 4,
-            "answer": "10 mm².",
+            "answer": "0,30 metros si se añade sal al terreno.",
             "isCorrect": false,
-            "explanation": "No es un valor contemplado en la tabla 1 para conductores de tierra enterrados."
+            "explanation": "La adición de sales no exime de cumplir con las profundidades mínimas recomendadas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-06",
-        "question": "¿Qué elementos deben unirse al borne principal de tierra?",
+        "question": "Un técnico propone utilizar la tubería metálica de entrada de agua de la calle como electrodo de tierra para una reforma. ¿Es reglamentaria esta propuesta?",
         "options": [
           {
             "id": 1,
-            "answer": "Los conductores de tierra.",
+            "answer": "No, las canalizaciones de agua o gas no deben utilizarse como tomas de tierra.",
             "isCorrect": true,
-            "explanation": "El apartado 3.3 lista: conductores de tierra, conductores de protección, conductores de unión equipotencial principal y conductores de puesta a tierra funcional (si son necesarios)."
+            "explanation": "Por razones de seguridad, se prohíbe el uso de canalizaciones metálicas de otros servicios (agua, gas, calefacción, etc.) como tomas de tierra."
           },
           {
             "id": 2,
-            "answer": "Los conductores de protección.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 3.3, correcto, los conductores de protección deben unirse al borne principal de tierra."
+            "answer": "Sí, siempre que la tubería sea de cobre y no de plomo.",
+            "isCorrect": false,
+            "explanation": "La prohibición es general para canalizaciones de servicios ajenos, independientemente del metal."
           },
           {
             "id": 3,
-            "answer": "Los conductores de fase.",
+            "answer": "Sí, si se asegura que la conexión sea previa al contador de agua.",
             "isCorrect": false,
-            "explanation": "Los conductores de fase son partes activas y no se conectan al borne de tierra (salvo en esquemas TN con conductor PEN, pero eso es otro caso)."
+            "explanation": "Sigue estando prohibido por el riesgo que supone para los trabajadores de otros servicios."
           },
           {
             "id": 4,
-            "answer": "Los conductores de unión equipotencial principal.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 3.3, correcto, también se unen al borne principal de tierra."
+            "answer": "Solo si se trata de un edificio antiguo donde ya se usaba ese sistema.",
+            "isCorrect": false,
+            "explanation": "La normativa actual prohíbe este uso en nuevas instalaciones y reformas."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-07",
-        "question": "¿Cuál es la sección mínima del conductor de protección (mismo material)?",
+        "question": "En una obra se decide utilizar una pica de acero galvanizado como electrodo. ¿Qué diámetro mínimo debe tener para cumplir con las dimensiones recomendadas?",
         "options": [
           {
             "id": 1,
-            "answer": "16 mm².",
+            "answer": "20 milímetros.",
             "isCorrect": true,
-            "explanation": "Según la tabla 2 del apartado 3.4, si los conductores de fase de una instalación tienen una sección S = 25 mm², la tabla 2 indica que para 16 < S ≤ 35, la sección mínima del conductor de protección Sp = 16 mm²."
+            "explanation": "Para picas de acero galvanizado con un recubrimiento de 78 µm, el diámetro mínimo recomendado es de 20 mm."
           },
           {
             "id": 2,
-            "answer": "25 mm².",
+            "answer": "14,2 milímetros.",
             "isCorrect": false,
-            "explanation": "Esa sería la sección del conductor de fase, pero la tabla exige 16 mm² para el de protección."
+            "explanation": "14,2 mm es el diámetro mínimo para picas de acero-cobre (con 250 µm de cobre), no para acero galvanizado."
           },
           {
             "id": 3,
-            "answer": "10 mm².",
+            "answer": "10 milímetros.",
             "isCorrect": false,
-            "explanation": "No corresponde según la tabla; para S=25, Sp debe ser 16."
+            "explanation": "Es insuficiente para garantizar la resistencia mecánica y durabilidad frente a la corrosión."
           },
           {
             "id": 4,
-            "answer": "35 mm².",
+            "answer": "25 milímetros.",
             "isCorrect": false,
-            "explanation": "Excesivo; no es lo que indica la tabla."
+            "explanation": "Aunque superior, el mínimo recomendado por norma es 20 mm para acero galvanizado."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-08",
-        "question": "En los casos en que los conductores de protección no forman parte de la canalización de alimentación y son de cobre, ¿qué secciones mínimas se exigen reglamentariamente?",
+        "question": "Se va a instalar una placa de cobre rectangular como toma de tierra. ¿Qué dimensiones y espesor mínimo debería tener?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5 mm² si disponen de protección mecánica.",
+            "answer": "1 m x 0,5 m con un espesor de 2 mm.",
             "isCorrect": true,
-            "explanation": "El apartado 3.4 indica: 2,5 mm² si disponen de protección mecánica, y 4 mm² si no disponen de protección mecánica."
+            "explanation": "Las dimensiones mínimas recomendadas para placas de cobre son de 1 x 0,5 m (o 1 x 1 m) con un espesor mínimo de 2 mm."
           },
           {
             "id": 2,
-            "answer": "4 mm² si disponen de protección mecánica.",
+            "answer": "0,5 m x 0,5 m con un espesor de 5 mm.",
             "isCorrect": false,
-            "explanation": "Al revés: con protección es 2,5 mm²; sin protección es 4 mm²."
+            "explanation": "Las dimensiones son insuficientes según la tabla de recomendaciones mínimas."
           },
           {
             "id": 3,
-            "answer": "6 mm² en todos los casos.",
+            "answer": "2 m x 1 m con un espesor de 1 mm.",
             "isCorrect": false,
-            "explanation": "No es correcto; las secciones dependen de la protección mecánica."
+            "explanation": "Aunque el área es mayor, el espesor de 1 mm es inferior al mínimo de 2 mm exigido para cobre."
           },
           {
             "id": 4,
-            "answer": "1,5 mm² si van bajo tubo.",
+            "answer": "1 m x 0,5 m con un espesor de 3 mm solo si es de acero.",
             "isCorrect": false,
-            "explanation": "El mínimo es 2,5 mm² con protección, no 1,5 mm²."
+            "explanation": "Para acero galvanizado el espesor mínimo es 3 mm, pero la pregunta especifica cobre (2 mm)."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-09",
-        "question": "¿Pueden utilizarse las canalizaciones metálicas de agua o gas como conductores de protección?",
+        "question": "Un conductor de tierra enterrado de cobre no tiene protección mecánica ni está protegido contra la corrosión. ¿Qué sección mínima debe emplearse reglamentariamente?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, siempre que sean de cobre.",
-            "isCorrect": false,
-            "explanation": "El apartado 3.4 establece explícitamente: 'Otros conductos (agua, gas u otros tipos) o estructuras metálicas, no pueden utilizarse como conductores de protección (CP ó CPN)'."
+            "answer": "25 mm².",
+            "isCorrect": true,
+            "explanation": "Según la Tabla 1 de la ITC-BT-18, un conductor de cobre enterrado sin protección mecánica ni contra la corrosión debe tener una sección mínima de 25 mm²."
           },
           {
             "id": 2,
-            "answer": "No, está prohibido.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 3.4, correcto, el reglamento lo prohíbe por razones de seguridad."
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "16 mm² sería suficiente si estuviera protegido contra la corrosión (por ejemplo, con una envolvente)."
           },
           {
             "id": 3,
-            "answer": "Sí, si se pone una derivación a tierra adicional.",
+            "answer": "35 mm².",
             "isCorrect": false,
-            "explanation": "La prohibición es absoluta según el texto de la ITC-BT-18."
+            "explanation": "35 mm² es una recomendación general para cobre desnudo enterrado, pero el mínimo obligatorio en este caso es 25 mm²."
           },
           {
             "id": 4,
-            "answer": "Solo en instalaciones temporales.",
+            "answer": "50 mm².",
             "isCorrect": false,
-            "explanation": "No hay excepción para instalaciones temporales en este punto."
+            "explanation": "50 mm² es el mínimo para hierro/acero en esas condiciones, no para cobre."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-10",
-        "question": "¿Cómo debe instalarse el conductor de protección?",
+        "question": "Al realizar la conexión entre el conductor de tierra y una pica, ¿qué precaución especial debe tomarse?",
         "options": [
           {
             "id": 1,
-            "answer": "En la misma canalización que los conductores activos o en su proximidad inmediata.",
+            "answer": "Asegurar que la conexión no dañe mecánicamente ni al conductor ni al electrodo.",
             "isCorrect": true,
-            "explanation": "Según el apartado 4, cuando se utilizan dispositivos de protección contra sobreintensidades para protección contra choque eléctrico, el apartado 4 dice textualmente: 'será preceptiva la incorporación del conductor de protección en la misma canalización que los conductores activos o en su proximidad inmediata'."
+            "explanation": "La normativa exige extremar el cuidado en las uniones para que sean eléctricamente correctas y no causen daños mecánicos a los elementos conectados."
           },
           {
             "id": 2,
-            "answer": "Por un recorrido independiente y separado al menos 50 cm.",
+            "answer": "Recubrir la unión con cinta aislante de alta tensión para evitar fugas.",
             "isCorrect": false,
-            "explanation": "No es correcto; la norma exige proximidad, no separación."
+            "explanation": "La unión debe estar en contacto con el terreno o ser accesible en registro, no se debe aislar de forma que impida la dispersión."
           },
           {
             "id": 3,
-            "answer": "No es necesario instalar conductor de protección.",
+            "answer": "Utilizar exclusivamente bridas de plástico reforzadas.",
             "isCorrect": false,
-            "explanation": "Falso, es preceptivo para la protección contra choques."
+            "explanation": "Las bridas de plástico no garantizan la continuidad eléctrica ni la durabilidad requerida."
           },
           {
             "id": 4,
-            "answer": "Solo en instalaciones TT, no en TN.",
+            "answer": "Sumergir la conexión en grasa de litio antes del enterramiento.",
             "isCorrect": false,
-            "explanation": "Es aplicable a todos los esquemas según la ITC-BT-24 a la que remite."
+            "explanation": "No es una práctica regulada ni recomendada para este tipo de conexiones permanentes."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-11",
-        "question": "En el caso de dispositivos de control de tensión de defecto (apartado 4.1), ¿qué condición debe cumplir la toma de tierra auxiliar respecto a la principal?",
+        "question": "En el borne principal de tierra de un edificio, ¿cuál de los siguientes conductores NO debe estar conectado?",
         "options": [
           {
             "id": 1,
-            "answer": "Debe estar unida a la principal mediante un cable de gran sección.",
-            "isCorrect": false,
-            "explanation": "Todo lo contrario: debe ser eléctricamente independiente."
+            "answer": "El conductor neutro de la acometida directamente.",
+            "isCorrect": true,
+            "explanation": "El neutro no se une al borne principal de tierra en la instalación interior de forma directa (salvo en el punto de separación de un esquema TN, pero la pregunta se refiere a los elementos generales del borne)."
           },
           {
             "id": 2,
-            "answer": "Debe ser eléctricamente independiente de todos los elementos metálicos puestos a tierra.",
-            "isCorrect": true,
-            "explanation": "El apartado 4.1 establece que la toma de tierra auxiliar debe ser eléctricamente independiente de todos los elementos metálicos puestos a tierra."
+            "answer": "Los conductores de protección de los circuitos.",
+            "isCorrect": false,
+            "explanation": "Los conductores de protección deben unirse obligatoriamente al borne principal de tierra."
           },
           {
             "id": 3,
-            "answer": "Puede ser la misma que la principal si su resistencia es muy baja.",
+            "answer": "Los conductores de unión equipotencial principal.",
             "isCorrect": false,
-            "explanation": "No, se exige independencia para garantizar el correcto funcionamiento del dispositivo."
+            "explanation": "Es obligatorio que las uniones equipotenciales principales se conecten al borne principal de tierra."
           },
           {
             "id": 4,
-            "answer": "Debe instalarse a una distancia inferior a 1 metro de la principal.",
+            "answer": "Los conductores de tierra que van hacia los electrodos.",
             "isCorrect": false,
-            "explanation": "La condición es estar fuera de la zona de influencia, no a corta distancia."
+            "explanation": "El conductor de tierra es el que une el borne principal con los electrodos, por lo que su conexión es fundamental."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-12",
-        "question": "¿Qué prevalece?",
+        "question": "Para poder realizar mediciones periódicas de la resistencia de tierra, ¿qué elemento es obligatorio prever en la instalación?",
         "options": [
           {
             "id": 1,
-            "answer": "Las prescripciones de las medidas de protección.",
+            "answer": "Un dispositivo seccionador o borne desmontable mediante un útil.",
             "isCorrect": true,
-            "explanation": "Según el apartado 6, si una puesta a tierra es necesaria simultáneamente por razones de protección y funcionales, el apartado 6 indica claramente: 'prevalecerán las prescripciones de las medidas de protección'."
+            "explanation": "Debe preverse un dispositivo que permita medir la resistencia de tierra, el cual debe ser desmontable solo mediante el uso de una herramienta."
           },
           {
             "id": 2,
-            "answer": "Las prescripciones funcionales.",
+            "answer": "Un amperímetro fijo conectado en serie con el electrodo.",
             "isCorrect": false,
-            "explanation": "La seguridad está por encima de la funcionalidad."
+            "explanation": "No se requiere instrumentación fija, sino un punto de desconexión para usar equipos de medida externos (telurómetros)."
           },
           {
             "id": 3,
-            "answer": "Se aplica la más restrictiva de las dos.",
+            "answer": "Un interruptor automático de 10A para desconectar la tierra en caso de prueba.",
             "isCorrect": false,
-            "explanation": "La norma no dice eso, dice que prevalecen las de protección."
+            "explanation": "No se permiten interruptores automáticos en el circuito de tierra; el punto de medida debe ser un borne o puente seccionable."
           },
           {
             "id": 4,
-            "answer": "Se pueden elegir según el proyectista.",
+            "answer": "Una mirilla de cristal sobre el electrodo enterrado.",
             "isCorrect": false,
-            "explanation": "No es una opción, el reglamento es imperativo."
+            "explanation": "La mirilla no permite realizar medidas eléctricas, solo inspección visual."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-13",
-        "question": "En el esquema TN, cuando se utiliza un conductor CPN (PEN), ¿qué condiciones debe cumplir?",
+        "question": "Se está dimensionando el conductor de protección (Sp) para una línea cuyos conductores de fase tienen una sección de 25 mm². Si ambos son del mismo material, ¿qué sección mínima debe tener el conductor de protección?",
         "options": [
           {
             "id": 1,
-            "answer": "La sección mínima en cobre o aluminio para instalaciones fijas es de 10 mm².",
+            "answer": "16 mm².",
             "isCorrect": true,
-            "explanation": "El apartado 7 indica que para que las funciones de protección y neutro se combinen, el conductor debe tener una sección al menos igual a 10 mm² en cobre o aluminio."
+            "explanation": "Según la Tabla 2, para secciones de fase entre 16 y 35 mm², la sección del conductor de protección Sp debe ser de 16 mm²."
           },
           {
             "id": 2,
-            "answer": "Puede utilizarse incluso si la instalación está protegida por un dispositivo diferencial residual.",
+            "answer": "25 mm².",
             "isCorrect": false,
-            "explanation": "El apartado 7 prohíbe el conductor PEN en la parte de la instalación protegida por un diferencial residual."
+            "explanation": "Esa sería la sección si la fase fuera ≤ 16 mm²; para 25 mm² la norma permite reducir a 16 mm²."
           },
           {
             "id": 3,
-            "answer": "El conductor CPN concéntrico de cobre puede tener sección de 4 mm² si las conexiones están duplicadas.",
-            "isCorrect": true,
-            "explanation": "El apartado 7 permite excepcionalmente 4 mm² para cobre concéntrico con conexiones duplicadas."
+            "answer": "12,5 mm².",
+            "isCorrect": false,
+            "explanation": "La reducción a la mitad (S/2) solo se permite para secciones de fase superiores a 35 mm²."
           },
           {
             "id": 4,
-            "answer": "En el punto de separación de neutro y protección, ambos se conectan al mismo borne.",
+            "answer": "10 mm².",
             "isCorrect": false,
-            "explanation": "Deben preverse bornes separados para el conductor de protección y para el neutro."
+            "explanation": "Es inferior al mínimo exigido por la tabla para una fase de 25 mm²."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-14",
-        "question": "¿Cuál es la sección mínima del conductor principal de equipotencialidad?",
+        "question": "En una instalación industrial con cables de gran sección, los conductores de fase son de 95 mm². ¿Qué sección mínima debe tener el conductor de protección de cobre asociado?",
         "options": [
           {
             "id": 1,
-            "answer": "No inferior a la mitad del conductor de protección de mayor sección, con un mínimo de 6 mm².",
+            "answer": "50 mm² (o la normalizada inmediatamente superior).",
             "isCorrect": true,
-            "explanation": "El apartado 8 establece: 'no inferior a la mitad de la del conductor de protección de sección mayor de la instalación, con un mínimo de 6 mm²'."
+            "explanation": "Para secciones de fase S > 35 mm², la sección del conductor de protección Sp debe ser al menos S/2. En este caso 95/2 = 47,5 mm², por lo que se usa la normalizada de 50 mm²."
           },
           {
             "id": 2,
-            "answer": "Fija de 10 mm² independientemente de la instalación.",
+            "answer": "16 mm².",
             "isCorrect": false,
-            "explanation": "No es un valor fijo, depende de la sección del conductor de protección."
+            "explanation": "Este valor es un mínimo fijo solo para fases entre 16 y 35 mm²."
           },
           {
             "id": 3,
-            "answer": "Puede reducirse a 2,5 mm² si es de cobre.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 8, el mismo apartado indica: 'Sin embargo, su sección puede ser reducida a 2,5 mm², si es de cobre'."
+            "answer": "95 mm².",
+            "isCorrect": false,
+            "explanation": "No es obligatorio que sea de la misma sección que la fase cuando esta supera los 16 mm²."
           },
           {
             "id": 4,
-            "answer": "Debe ser como mínimo de 16 mm² en todos los casos.",
+            "answer": "35 mm².",
             "isCorrect": false,
-            "explanation": "No es correcto; el mínimo es 6 mm² o 2,5 mm² si es de cobre."
+            "explanation": "Es inferior a la mitad de 95 mm², incumpliendo la regla Sp = S/2."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-15",
-        "question": "¿Cuáles son los valores máximos de tensión de contacto admisibles?",
+        "question": "Un conductor de protección se instala de forma independiente (no forma parte del cable de alimentación) y no tiene protección mecánica. ¿Cuál es la sección mínima de cobre permitida?",
         "options": [
           {
             "id": 1,
-            "answer": "24 V en locales o emplazamientos conductores.",
+            "answer": "4 mm².",
             "isCorrect": true,
-            "explanation": "El apartado 9 establece que la tensión de contacto no debe superar 24 V en local o emplazamiento conductor."
+            "explanation": "Los conductores de protección de cobre que no forman parte de la canalización de alimentación deben tener una sección mínima de 4 mm² si no disponen de protección mecánica."
           },
           {
             "id": 2,
-            "answer": "50 V en los demás casos.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 9, el mismo apartado indica 50 V para el resto de casos."
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "2,5 mm² solo se permite si el conductor dispone de protección mecánica."
           },
           {
             "id": 3,
-            "answer": "110 V en instalaciones industriales.",
+            "answer": "6 mm².",
             "isCorrect": false,
-            "explanation": "No es un valor recogido en este apartado; los límites son 24V y 50V."
+            "explanation": "Aunque superior al mínimo, la normativa fija el límite inferior en 4 mm² para este caso."
           },
           {
             "id": 4,
-            "answer": "12 V en locales húmedos.",
+            "answer": "1,5 mm².",
             "isCorrect": false,
-            "explanation": "Ese valor no aparece en el apartado 9 de ITC-BT-18."
+            "explanation": "Es insuficiente según las prescripciones mínimas para conductores de protección independientes."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-16",
-        "question": "¿Qué valor de resistividad aproximado corresponde a 'Arcilla plástica'?",
+        "question": "¿Está permitido utilizar la envolvente metálica de una canalización prefabricada como conductor de protección de la propia línea?",
         "options": [
           {
             "id": 1,
-            "answer": "50 ohmios·m.",
+            "answer": "Sí, si se asegura su continuidad eléctrica y permite la conexión de otros conductores en las derivaciones.",
             "isCorrect": true,
-            "explanation": "Según la tabla 3 del apartado 9, la tabla 3 asigna a 'Arcilla plástica' un valor de resistividad de 50 ohmios·m (en la horquilla de 20 a 100, tomando el valor medio orientativo)."
+            "explanation": "Las envolventes de canalizaciones prefabricadas pueden usarse como conductor de protección si cumplen con los requisitos de continuidad, conductividad y facilidad de conexión."
           },
           {
             "id": 2,
-            "answer": "500 ohmios·m.",
+            "answer": "No, el conductor de protección debe ser siempre un cable de cobre aislado.",
             "isCorrect": false,
-            "explanation": "Ese valor corresponde a 'Arena arcillosa' o 'Suelo pedregoso'."
+            "explanation": "La normativa permite el uso de estructuras metálicas de conjuntos o canalizaciones prefabricadas bajo condiciones específicas."
           },
           {
             "id": 3,
-            "answer": "3000 ohmios·m.",
+            "answer": "Solo si la canalización es de aluminio de alta pureza.",
             "isCorrect": false,
-            "explanation": "Corresponde a 'Granitos y gres procedente de alteración'."
+            "explanation": "El material no es la única condición; se requiere cumplir criterios de conductividad equivalente y seguridad mecánica."
           },
           {
             "id": 4,
-            "answer": "10 ohmios·m.",
+            "answer": "Sí, pero solo para corrientes de fuga menores de 30 mA.",
             "isCorrect": false,
-            "explanation": "Ese valor es más propio de terrenos pantanosos o turba húmeda."
+            "explanation": "Debe ser capaz de soportar las corrientes de defecto previstas para activar las protecciones, no solo fugas pequeñas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-17",
-        "question": "¿Qué fórmula se utiliza para estimar la resistencia de tierra de una pica vertical?",
+        "question": "En un esquema TN, se desea utilizar un conductor CPN (PEN) para combinar las funciones de neutro y protección. ¿Qué sección mínima de cobre se exige para instalaciones fijas?",
         "options": [
           {
             "id": 1,
-            "answer": "R = 0,8 ρ / P (con P perímetro).",
-            "isCorrect": false,
-            "explanation": "Esa fórmula corresponde a una placa enterrada, no a una pica."
+            "answer": "10 mm².",
+            "isCorrect": true,
+            "explanation": "Para poder combinar las funciones de neutro y protección en un conductor CPN, este debe tener una sección mínima de 10 mm² en cobre (o aluminio)."
           },
           {
             "id": 2,
-            "answer": "R = ρ / L (con L longitud de la pica).",
-            "isCorrect": true,
-            "explanation": "Según la tabla 5 del apartado 9, la tabla 5 indica para pica vertical: R = ρ / L, donde L es la longitud de la pica en metros."
+            "answer": "6 mm².",
+            "isCorrect": false,
+            "explanation": "Es insuficiente; el mínimo normativo para conductores PEN/CPN es 10 mm²."
           },
           {
             "id": 3,
-            "answer": "R = 2ρ / L.",
+            "answer": "16 mm².",
             "isCorrect": false,
-            "explanation": "Esa fórmula corresponde a un conductor enterrado horizontalmente."
+            "explanation": "Aunque es una sección común, el mínimo legal empieza en 10 mm²."
           },
           {
             "id": 4,
-            "answer": "R = ρ / (2πL).",
+            "answer": "4 mm².",
             "isCorrect": false,
-            "explanation": "No es la fórmula simplificada que proporciona la tabla 5 de la ITC-BT-18."
+            "explanation": "4 mm² solo se permite bajo condiciones excepcionales muy específicas (tipo concéntrico con conexiones duplicadas)."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-18",
-        "question": "¿Cuándo se considera que una toma de tierra es independiente de otra?",
+        "question": "Un instalador ha separado el conductor neutro y el de protección en un punto de la instalación. ¿Qué prohíbe el reglamento a partir de ese punto aguas abajo?",
         "options": [
           {
             "id": 1,
-            "answer": "Cuando la distancia entre ellas es superior a 20 metros.",
-            "isCorrect": false,
-            "explanation": "La definición no se basa en una distancia fija sino en un criterio de tensión."
+            "answer": "Volver a conectarlos entre sí en cualquier punto posterior.",
+            "isCorrect": true,
+            "explanation": "Una vez que el neutro y el conductor de protección se separan, está prohibido volver a unirlos en la continuación del circuito."
           },
           {
             "id": 2,
-            "answer": "Cuando una de ellas, respecto a un punto de potencial cero, no alcanza una tensión superior a 50 V mientras por la otra circula la máxima corriente de defecto a tierra prevista.",
-            "isCorrect": true,
-            "explanation": "El apartado 10 define así la independencia: no se superan 50 V en una cuando por la otra circula la máxima corriente de defecto."
+            "answer": "Utilizar conductores de color diferente al azul para el neutro.",
+            "isCorrect": false,
+            "explanation": "La prohibición de re-unión es de seguridad eléctrica, el color es una norma de identificación general."
           },
           {
             "id": 3,
-            "answer": "Cuando están conectadas a diferentes cuadros de distribución.",
+            "answer": "Instalar interruptores diferenciales en esa línea.",
             "isCorrect": false,
-            "explanation": "Eso no garantiza independencia eléctrica."
+            "explanation": "Al contrario, la separación es necesaria para que el diferencial pueda funcionar correctamente."
           },
           {
             "id": 4,
-            "answer": "Cuando sus resistencias individuales son inferiores a 10 ohmios.",
+            "answer": "Que el conductor de protección sea de mayor sección que el neutro.",
             "isCorrect": false,
-            "explanation": "No es el criterio de independencia según la norma."
+            "explanation": "No existe tal prohibición; las secciones dependen de los criterios de cálculo de cada conductor."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-19",
-        "question": "¿Cuál es la distancia mínima entre las tomas de tierra de un centro de transformación y las de los locales de utilización?",
+        "question": "En un edificio de oficinas, el conductor de protección de mayor sección es de 35 mm². ¿Qué sección mínima debe tener el conductor principal de equipotencialidad?",
         "options": [
           {
             "id": 1,
-            "answer": "10 metros.",
-            "isCorrect": false,
-            "explanation": "No es la distancia que exige la norma para ese caso."
+            "answer": "17,5 mm² (se usaría la normalizada de 16 mm² o superior según el caso, pero el reglamento dice mínimo 6 mm² o la mitad de Sp).",
+            "isCorrect": true,
+            "explanation": "La sección del conductor principal de equipotencialidad no será inferior a la mitad de la del conductor de protección de mayor sección, con un mínimo de 6 mm². La mitad de 35 es 17,5 mm²."
           },
           {
             "id": 2,
-            "answer": "15 metros.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 11, para terrenos con resistividad no elevada (<100 ohmios·m), el apartado 11 indica: 'al menos igual a 15 metros para terrenos cuya resistividad no sea elevada (<100 ohmios.m)'."
+            "answer": "6 mm².",
+            "isCorrect": false,
+            "explanation": "6 mm² es el mínimo absoluto, pero al ser Sp de 35 mm², la mitad (17,5 mm²) prevalece sobre el mínimo de 6."
           },
           {
             "id": 3,
-            "answer": "20 metros.",
+            "answer": "35 mm².",
             "isCorrect": false,
-            "explanation": "Supera lo exigido, pero no es el mínimo reglamentario."
+            "explanation": "No es necesario que tenga la misma sección que el conductor de protección mayor, solo la mitad."
           },
           {
             "id": 4,
-            "answer": "5 metros.",
+            "answer": "2,5 mm².",
             "isCorrect": false,
-            "explanation": "Insuficiente según el reglamento."
+            "explanation": "2,5 mm² solo es admisible bajo condiciones muy restringidas de material y aplicación, no como regla general para esta sección de Sp."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-20",
-        "question": "Cuando el terreno es muy mal conductor, la distancia entre tomas de tierra del centro de transformación y las de los locales de utilización se calcula con una fórmula.?",
+        "question": "Durante una auditoría en un local de pública concurrencia (considerado emplazamiento conductor), ¿cuál es el valor máximo de tensión de contacto admisible?",
         "options": [
           {
             "id": 1,
-            "answer": "250 V.",
-            "isCorrect": false,
-            "explanation": "250 V se aplica si el tiempo de eliminación del defecto es mayor de 5 segundos."
+            "answer": "24 V.",
+            "isCorrect": true,
+            "explanation": "El reglamento establece que la resistencia de la toma de tierra debe ser tal que la tensión de contacto no supere los 24 V en locales o emplazamientos conductores."
           },
           {
             "id": 2,
-            "answer": "1200 V.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 11, para sistemas de distribución TT con tiempo de eliminación de defecto ≤ 5 segundos, ¿qué valor se toma para U, el apartado 11 indica: 'U : 1200 V para sistemas de distribución TT, siempre que el tiempo de eliminación del defecto en la instalación de alta tensión sea menor o igual a 5 segundos'."
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "50 V es el límite para emplazamientos no conductores (casos generales)."
           },
           {
             "id": 3,
-            "answer": "400 V.",
+            "answer": "12 V.",
             "isCorrect": false,
-            "explanation": "No es el valor contemplado en la fórmula para este caso."
+            "explanation": "Aunque es más seguro, el límite reglamentario establecido en la ITC-BT-18 es de 24 V."
           },
           {
             "id": 4,
-            "answer": "230 V.",
+            "answer": "110 V.",
             "isCorrect": false,
-            "explanation": "Ese es el valor de tensión de fase típico, no el U de la fórmula."
+            "explanation": "Es un valor muy superior al umbral de seguridad para contactos indirectos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-21",
-        "question": "¿Cada cuánto tiempo deben revisarse las tomas de tierra en lugares donde el terreno no sea favorable a la buena conservación de los electrodos?",
+        "question": "Se desea estimar la resistencia de tierra de un conductor enterrado horizontalmente de 20 metros de longitud en un terreno de arcilla plástica (resistividad media 50 Ω·m). Usando la fórmula simplificada, ¿cuál sería el valor aproximado?",
         "options": [
           {
             "id": 1,
-            "answer": "Cada año.",
-            "isCorrect": false,
-            "explanation": "No es el plazo establecido en el reglamento."
+            "answer": "5 ohmios.",
+            "isCorrect": true,
+            "explanation": "La fórmula para conductor enterrado es R = 2ρ / L. Con ρ = 50 y L = 20: R = (2 * 50) / 20 = 100 / 20 = 5 ohmios."
           },
           {
             "id": 2,
-            "answer": "Cada dos años.",
+            "answer": "2,5 ohmios.",
             "isCorrect": false,
-            "explanation": "No es el plazo indicado."
+            "explanation": "Este valor resultaría de aplicar la fórmula de la pica (ρ/L) por error."
           },
           {
             "id": 3,
-            "answer": "Cada cinco años.",
-            "isCorrect": true,
-            "explanation": "El apartado 12 dice: 'se pondrán al descubierto para su examen, al menos una vez cada cinco años'."
+            "answer": "50 ohmios.",
+            "isCorrect": false,
+            "explanation": "Es un valor demasiado alto que no corresponde a la aplicación de la fórmula reglamentaria."
           },
           {
             "id": 4,
-            "answer": "Cada diez años.",
+            "answer": "20 ohmios.",
             "isCorrect": false,
-            "explanation": "El plazo máximo es cinco años, no diez."
+            "explanation": "No coincide con el cálculo basado en R = 2ρ / L."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-22",
-        "question": "¿Qué tipo de armaduras de hormigón NO pueden ser utilizadas como tomas de tierra?",
+        "question": "¿Qué condición técnica define que una toma de tierra es eléctricamente independiente de otra?",
         "options": [
           {
             "id": 1,
-            "answer": "Armaduras de hormigón pretensado.",
+            "answer": "Que una no alcance una tensión > 50V mientras por la otra circula la máxima corriente de defecto prevista.",
             "isCorrect": true,
-            "explanation": "El apartado 3.1 establece: 'armaduras de hormigón enterradas; con excepción de las armaduras pretensadas', por lo que estas últimas no están permitidas."
+            "explanation": "La independencia se garantiza si, al circular la máxima intensidad de defecto por una, la otra no eleva su potencial por encima de 50 V respecto a un punto de potencial cero."
           },
           {
             "id": 2,
-            "answer": "Armaduras de hormigón armado ordinario.",
+            "answer": "Que estén separadas por una distancia física mínima de 3 metros.",
             "isCorrect": false,
-            "explanation": "Estas sí están permitidas como electrodos, siempre que no sean pretensadas."
+            "explanation": "La distancia física no es el único factor; depende de la resistividad y la intensidad de defecto."
           },
           {
             "id": 3,
-            "answer": "Armaduras de hormigón con aditivos conductores.",
+            "answer": "Que cada una tenga su propio puente de comprobación independiente.",
             "isCorrect": false,
-            "explanation": "La excepción es solo para pretensadas, no se mencionan aditivos."
+            "explanation": "Tener bornes separados no implica que las tomas de tierra (electrodos) sean eléctricamente independientes en el terreno."
           },
           {
             "id": 4,
-            "answer": "Armaduras de hormigón celular.",
+            "answer": "Que una sea de picas y la otra sea de anillo.",
             "isCorrect": false,
-            "explanation": "No es un tipo contemplado en la excepción; la única exclusión es pretensado."
+            "explanation": "La forma de los electrodos no determina la independencia eléctrica de los sistemas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-23",
-        "question": "¿Qué precaución se debe tomar al utilizar envolventes de plomo de cables como toma de tierra?",
+        "question": "En un centro de transformación, las tomas de tierra de las masas de AT y BT están separadas. ¿Qué distancia mínima se exige generalmente para terrenos de resistividad normal (< 100 Ω·m)?",
         "options": [
           {
             "id": 1,
-            "answer": "No requieren ninguna autorización especial.",
-            "isCorrect": false,
-            "explanation": "Se requiere previa autorización del propietario, según el apartado 3.1."
+            "answer": "15 metros.",
+            "isCorrect": true,
+            "explanation": "Para terrenos de resistividad no elevada (<100 Ω·m), la distancia mínima de separación entre las tomas de tierra del centro de transformación y las de los locales de utilización debe ser de al menos 15 metros."
           },
           {
             "id": 2,
-            "answer": "Se necesita autorización del propietario y advertir al usuario de posibles cambios que afecten a la puesta a tierra.",
-            "isCorrect": true,
-            "explanation": "El apartado 3.1 indica: 'previa autorización del propietario, tomando las precauciones debidas para que el usuario de la instalación eléctrica sea advertido de los cambios del cable que podría afectar a sus características de puesta a tierra'."
+            "answer": "20 metros.",
+            "isCorrect": false,
+            "explanation": "Aunque es una distancia segura, el mínimo reglamentario para esa resistividad es 15 metros."
           },
           {
             "id": 3,
-            "answer": "Solo se pueden usar si el cable es de alta tensión.",
+            "answer": "5 metros.",
             "isCorrect": false,
-            "explanation": "No se especifica esa restricción; lo importante es la corrosión y la autorización."
+            "explanation": "Es insuficiente para garantizar que las masas de utilización no se pongan a potenciales peligrosos ante un defecto en AT."
           },
           {
             "id": 4,
-            "answer": "Siempre que el plomo esté pintado para evitar la corrosión.",
+            "answer": "10 metros.",
             "isCorrect": false,
-            "explanation": "La pintura aislaría eléctricamente, impidiendo la función de toma de tierra."
+            "explanation": "No alcanza el mínimo de 15 metros exigido por la normativa para terrenos normales."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-24",
-        "question": "¿Qué sección mínima debe tener un conductor de tierra de cobre enterrado que NO está protegido mecánicamente NI protegido contra la corrosión?",
+        "question": "Un propietario de una instalación antigua no ha revisado su toma de tierra en décadas. ¿Cuál es el plazo máximo obligatorio para realizar una revisión y poner los electrodos al descubierto si el terreno es desfavorable?",
         "options": [
           {
             "id": 1,
-            "answer": "16 mm².",
-            "isCorrect": false,
-            "explanation": "Esa es la sección para cobre con protección contra la corrosión, aunque no tenga protección mecánica."
+            "answer": "Al menos una vez cada cinco años.",
+            "isCorrect": true,
+            "explanation": "En terrenos que no favorezcan la buena conservación, los electrodos deben ponerse al descubierto para examen al menos una vez cada cinco años."
           },
           {
             "id": 2,
-            "answer": "25 mm².",
-            "isCorrect": true,
-            "explanation": "Según la tabla 1 del apartado 3.2, la tabla 1 indica: para 'No protegido mecánicamente' y 'No protegido contra la corrosión', la sección mínima es 25 mm² para cobre (y 50 mm² para hierro)."
+            "answer": "Anualmente, coincidiendo con la inspección de la comunidad.",
+            "isCorrect": false,
+            "explanation": "La revisión de la toma de tierra tiene un ciclo específico de 5 años, no es necesariamente anual."
           },
           {
             "id": 3,
-            "answer": "35 mm².",
+            "answer": "Cada diez años.",
             "isCorrect": false,
-            "explanation": "No es un valor que aparezca en la tabla 1 para esta combinación."
+            "explanation": "El plazo de diez años es excesivo y contraviene el límite de cinco años fijado por el reglamento."
           },
           {
             "id": 4,
-            "answer": "50 mm².",
+            "answer": "Solo cuando se detecte un fallo en el interruptor diferencial.",
             "isCorrect": false,
-            "explanation": "Esa es la sección para hierro en las mismas condiciones, no para cobre."
+            "explanation": "El mantenimiento debe ser preventivo y periódico, no reactivo ante fallos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-25",
-        "question": "¿Qué cuidado especial debe tenerse durante la ejecución de las uniones entre conductores de tierra y electrodos?",
+        "question": "Se instala un dispositivo de control de tensión de defecto. ¿Qué requisito debe cumplir su toma de tierra auxiliar?",
         "options": [
           {
             "id": 1,
-            "answer": "Usar siempre soldadura fuerte.",
-            "isCorrect": false,
-            "explanation": "No se especifica un método concreto, solo que se extremen los cuidados para que sean eléctricamente correctas y no dañen los elementos."
+            "answer": "Ser eléctricamente independiente de todos los demás elementos metálicos puestos a tierra.",
+            "isCorrect": true,
+            "explanation": "La toma de tierra auxiliar de estos dispositivos debe estar fuera de la zona de influencia de cualquier otro elemento puesto a tierra para funcionar correctamente."
           },
           {
             "id": 2,
-            "answer": "Que las conexiones no dañen ni a los conductores ni a los electrodos.",
-            "isCorrect": true,
-            "explanation": "El apartado 3.2 dice textualmente: 'Debe cuidarse, en especial, que las conexiones, no dañen ni a los conductores ni a los electrodos de tierra'."
+            "answer": "Estar conectada al mismo electrodo que el pararrayos para derivar sobretensiones.",
+            "isCorrect": false,
+            "explanation": "La independencia eléctrica es crítica; conectarla a otros sistemas invalidaría su función de control de tensión de defecto."
           },
           {
             "id": 3,
-            "answer": "Que la resistencia de la unión sea inferior a 0,1 ohmios.",
+            "answer": "Tener una resistencia inferior a 1 ohmio obligatoriamente.",
             "isCorrect": false,
-            "explanation": "La norma no da un valor numérico para la resistencia de la unión."
+            "explanation": "El reglamento exige independencia, no un valor de resistencia tan extremadamente bajo para el auxiliar."
           },
           {
             "id": 4,
-            "answer": "Utilizar conectores de latón obligatoriamente.",
+            "answer": "Estar situada a menos de 50 cm del cuadro de mando.",
             "isCorrect": false,
-            "explanation": "No se especifica un material obligatorio para los conectores."
+            "explanation": "La ubicación debe ser tal que esté fuera de la zona de influencia de la tierra principal, lo cual suele implicar distancias mayores."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-26",
-        "question": "¿Cómo debe ser el dispositivo que permite medir la resistencia de la toma de tierra?",
+        "question": "¿Qué material está prohibido para ser utilizado como electrodo de puesta a tierra debido al riesgo de corrosión y falta de fiabilidad mecánica?",
         "options": [
           {
             "id": 1,
-            "answer": "Debe ser fijo y no desmontable.",
-            "isCorrect": false,
-            "explanation": "Debe ser desmontable necesariamente por medio de un útil, según el apartado 3.3."
+            "answer": "Canalizaciones de líquidos o gases inflamables.",
+            "isCorrect": true,
+            "explanation": "Por razones obvias de seguridad y riesgo de explosión/incendio, estas canalizaciones nunca deben usarse como toma de tierra."
           },
           {
             "id": 2,
-            "answer": "Debe ser desmontable mediante un útil, mecánicamente seguro y asegurar la continuidad eléctrica.",
-            "isCorrect": true,
-            "explanation": "El apartado 3.3 indica: 'debe ser desmontable necesariamente por medio de un útil, tiene que ser mecánicamente seguro y debe asegurar la continuidad eléctrica'."
+            "answer": "Picas de acero con recubrimiento de cobre.",
+            "isCorrect": false,
+            "explanation": "Es un material estándar y recomendado (picas acero-cobre)."
           },
           {
             "id": 3,
-            "answer": "Puede ser un simple interruptor manual.",
+            "answer": "Placas de acero galvanizado.",
             "isCorrect": false,
-            "explanation": "No cumple con los requisitos de seguridad y continuidad."
+            "explanation": "Son electrodos permitidos siempre que cumplan con los espesores mínimos."
           },
           {
             "id": 4,
-            "answer": "Debe estar en un lugar no accesible para evitar manipulaciones.",
+            "answer": "Conductores de cobre desnudo de 35 mm².",
             "isCorrect": false,
-            "explanation": "Debe preverse 'en lugar accesible', según el mismo apartado."
+            "explanation": "Es el material y sección recomendado para anillos de tierra."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-27",
-        "question": "¿Qué sección mínima deben tener los conductores de protección de cobre que no forman parte de la canalización de alimentación y que NO disponen de protección mecánica?",
+        "question": "En el caso de que una instalación requiera puesta a tierra por razones de protección y, simultáneamente, por razones funcionales, ¿qué criterios deben prevalecer?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Esa es la sección si disponen de protección mecánica."
+            "answer": "Las prescripciones de las medidas de protección.",
+            "isCorrect": true,
+            "explanation": "Cuando coinciden ambos requisitos, el reglamento establece taxativamente que prevalecerán las medidas de seguridad y protección."
           },
           {
             "id": 2,
-            "answer": "4 mm².",
-            "isCorrect": true,
-            "explanation": "El apartado 3.4 establece: '4 mm², si los conductores de protección no disponen de una protección mecánica'."
+            "answer": "Las prescripciones de funcionamiento para evitar averías en los equipos.",
+            "isCorrect": false,
+            "explanation": "La seguridad de las personas (protección) siempre está por encima de la funcionalidad de la maquinaria."
           },
           {
             "id": 3,
-            "answer": "6 mm².",
+            "answer": "Un promedio ponderado de ambos requerimientos técnicos.",
             "isCorrect": false,
-            "explanation": "No es el valor indicado; sería superior al mínimo exigido."
+            "explanation": "No se admite un término medio; la norma es jerárquica a favor de la protección."
           },
           {
             "id": 4,
-            "answer": "10 mm².",
+            "answer": "Se debe instalar un electrodo diferente para cada propósito sin unirlos.",
             "isCorrect": false,
-            "explanation": "Ese valor aparece para conductores PEN, no para estos casos."
+            "explanation": "Aunque pueden separarse, si se combinan, las reglas de protección son las dominantes."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-28",
-        "question": "¿Qué condiciones debe cumplir una envolvente metálica de un conjunto montado en fábrica para ser utilizada como conductor de protección?",
+        "question": "Un técnico encuentra un cable de acero galvanizado enterrado que sirve de conductor de tierra. No tiene protección mecánica pero sí contra la corrosión. ¿Qué sección mínima debe tener?",
         "options": [
           {
             "id": 1,
-            "answer": "Su continuidad eléctrica no debe afectarse por deterioros mecánicos, químicos o electroquímicos.",
+            "answer": "16 mm².",
             "isCorrect": true,
-            "explanation": "Es la condición a) del apartado 3.4: 'Su continuidad eléctrica debe ser tal que no resulte afectada por deterioros mecánicos, químicos o electroquímicos'."
+            "explanation": "Según la Tabla 1, para acero galvanizado protegido contra la corrosión (aunque no mecánicamente), la sección mínima es de 16 mm²."
           },
           {
             "id": 2,
-            "answer": "Su conductibilidad debe ser al menos la mitad de la de los conductores de fase.",
+            "answer": "50 mm².",
             "isCorrect": false,
-            "explanation": "La condición b) exige que sea como mínimo igual a la que resulta por la aplicación del apartado (tabla 2 o cálculo), no la mitad."
+            "explanation": "50 mm² sería necesario si no estuviera protegido contra la corrosión."
           },
           {
             "id": 3,
-            "answer": "Debe permitir la conexión de otros conductores de protección en toda derivación predeterminada.",
-            "isCorrect": true,
-            "explanation": "Es la condición c) del apartado 3.4."
+            "answer": "25 mm².",
+            "isCorrect": false,
+            "explanation": "Es el valor para cobre sin protección, no para acero galvanizado protegido."
           },
           {
             "id": 4,
-            "answer": "Debe estar pintada de color verde-amarillo.",
+            "answer": "10 mm².",
             "isCorrect": false,
-            "explanation": "El color no es una condición para este uso, aunque es recomendable para identificación."
+            "explanation": "Es inferior al mínimo de 16 mm² permitido para acero con protección contra corrosión."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-18-29",
-        "question": "¿Puede intercalarse un aparato (como un interruptor o un fusible) en el conductor de protección?",
+        "question": "Se instala un pararrayos en un edificio. ¿Cómo debe ser su conexión con la red de tierra general de la instalación eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, si es un interruptor diferencial.",
-            "isCorrect": false,
-            "explanation": "El apartado 3.4 dice: 'Ningún aparato deberá ser intercalado en el conductor de protección', sin excepciones para diferenciales."
+            "answer": "Debe estar unida a la red de tierra general para asegurar la equipotencialidad.",
+            "isCorrect": true,
+            "explanation": "Por seguridad y para evitar diferencias de potencial peligrosas (arcos), todas las tomas de tierra de un edificio (eléctrica, pararrayos, telecomunicaciones) deben estar interconectadas."
           },
           {
             "id": 2,
-            "answer": "Sí, si es un fusible para protegerlo.",
+            "answer": "Debe ser totalmente independiente y estar separada al menos 20 metros.",
             "isCorrect": false,
-            "explanation": "Está prohibido; la continuidad del conductor de protección debe ser ininterrumpida."
+            "explanation": "La independencia total en un mismo edificio es peligrosa y difícil de conseguir; se prefiere la unión equipotencial."
           },
           {
             "id": 3,
-            "answer": "No, está prohibido intercalar ningún aparato.",
-            "isCorrect": true,
-            "explanation": "El apartado 3.4 establece categóricamente: 'Ningún aparato deberá ser intercalado en el conductor de protección'."
+            "answer": "Solo se unen si la resistencia de la tierra del pararrayos es superior a 100 ohmios.",
+            "isCorrect": false,
+            "explanation": "La unión es obligatoria por criterios de equipotencialidad, independientemente de los valores individuales de resistencia."
           },
           {
             "id": 4,
-            "answer": "Solo se permiten conexiones desmontables para ensayos.",
+            "answer": "Se prohíbe su unión para evitar que el rayo entre en los enchufes de la vivienda.",
             "isCorrect": false,
-            "explanation": "Eso es cierto, pero se refiere a conexiones desmontables, no a aparatos intercalados permanentemente. La afirmación es correcta, pero no responde a la pregunta sobre 'intercalar un aparato'."
+            "explanation": "La falta de unión provocaría arcos eléctricos internos mucho más peligrosos que la corriente de rayo circulando por una red equipotencial."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-30",
-        "question": "¿Cómo deben conectarse las masas de los equipos a los conductores de protección?",
+        "question": "Se requiere instalar una toma de tierra en un terreno con una resistividad muy elevada (> 3000 Ω·m). ¿Qué tipo de electrodo es más recomendable según las guías técnicas del reglamento?",
         "options": [
           {
             "id": 1,
-            "answer": "En serie en un circuito de protección.",
-            "isCorrect": false,
-            "explanation": "El apartado 3.4 prohíbe la conexión en serie, excepto para envolventes montadas en fábrica o canalizaciones prefabricadas."
+            "answer": "Picas profundas o electrodos que alcancen terrenos más húmedos y profundos.",
+            "isCorrect": true,
+            "explanation": "En terrenos de alta resistividad, se recomienda el uso de picas de gran longitud para buscar estratos con mejor conductividad."
           },
           {
             "id": 2,
-            "answer": "En paralelo o derivación individual, no en serie.",
-            "isCorrect": true,
-            "explanation": "El apartado 3.4 indica: 'Las masas de los equipos a unir con los conductores de protección no deben ser conectadas en serie en un circuito de protección', salvo la excepción mencionada."
+            "answer": "Un conductor horizontal muy corto (menos de 2 metros).",
+            "isCorrect": false,
+            "explanation": "En terrenos malos, un conductor corto daría una resistencia extremadamente alta."
           },
           {
             "id": 3,
-            "answer": "Indistintamente en serie o paralelo.",
+            "answer": "Sustituir el electrodo por una conexión al neutro de la compañía.",
             "isCorrect": false,
-            "explanation": "La norma prohíbe explícitamente la conexión en serie."
+            "explanation": "No se puede omitir la toma de tierra local por las dificultades del terreno; es una protección fundamental."
           },
           {
             "id": 4,
-            "answer": "Siempre a través de un interruptor diferencial.",
+            "answer": "Aislar todas las masas con pintura plástica y no poner tierra.",
             "isCorrect": false,
-            "explanation": "No es un requisito; el diferencial va en los conductores activos, no en el de protección."
+            "explanation": "La pintura no sustituye a la puesta a tierra ni garantiza la seguridad ante contactos indirectos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-31",
-        "question": "¿Cómo debe instalarse el conductor de protección en relación con la toma de tierra auxiliar de un dispositivo de control de tensión de defecto?",
+        "question": "¿Cuál es la función del puente de comprobación en una instalación de puesta a tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Debe unirse a la toma de tierra auxiliar sin aislamiento adicional.",
-            "isCorrect": false,
-            "explanation": "El apartado 4.1 indica que la unión a esta toma de tierra 'debe estar aislada, con el fin de evitar todo contacto con el conductor de protección o cualquier elemento que pueda estar conectado a él'."
+            "answer": "Permitir la desconexión del electrodo para medir su resistencia individual sin influencias del resto de la instalación.",
+            "isCorrect": true,
+            "explanation": "El puente permite separar la parte enterrada del resto del circuito para realizar las pruebas de resistencia de tierra de forma fiable."
           },
           {
             "id": 2,
-            "answer": "Debe estar aislado para evitar contacto con el conductor de protección u otros elementos conectados a él.",
-            "isCorrect": true,
-            "explanation": "Correcto según el texto del apartado 4.1."
+            "answer": "Actuar como fusible en caso de una descarga de rayo excesiva.",
+            "isCorrect": false,
+            "explanation": "El circuito de tierra nunca debe tener elementos que se fundan o corten la continuidad ante una sobreintensidad."
           },
           {
             "id": 3,
-            "answer": "Debe ser el mismo conductor de protección de la instalación.",
+            "answer": "Regular la corriente de fuga para que no salte el diferencial.",
             "isCorrect": false,
-            "explanation": "No, la toma de tierra auxiliar debe ser independiente."
+            "explanation": "Un puente no regula corriente, es simplemente un punto de conexión/desconexión mecánica."
           },
           {
             "id": 4,
-            "answer": "Debe ir desnudo y enterrado directamente.",
+            "answer": "Servir de punto de entrada para el conductor neutro en instalaciones trifásicas.",
             "isCorrect": false,
-            "explanation": "No se especifica eso; lo importante es que esté aislado."
+            "explanation": "El borne de tierra es para protección; el neutro tiene su propio borne separado."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-32",
-        "question": "¿A qué masas debe unirse el conductor de protección cuando se utiliza un dispositivo de control de tensión de defecto?",
+        "question": "Un instalador debe elegir el material para un conductor de tierra enterrado. ¿Qué material se recomienda por su mejor comportamiento frente a la corrosión y conductividad?",
         "options": [
           {
             "id": 1,
-            "answer": "A todas las masas de la instalación, sin excepción.",
-            "isCorrect": false,
-            "explanation": "El apartado 4.1 restringe la unión: 'El conductor de protección no debe estar unido más que a las masas de aquellos equipos eléctricos cuya alimentación pueda ser interrumpida cuando el dispositivo de protección funcione en las condiciones de defecto'."
+            "answer": "Cobre.",
+            "isCorrect": true,
+            "explanation": "El cobre es el material preferido por su alta conductividad y excelente resistencia a la corrosión en la mayoría de los suelos."
           },
           {
             "id": 2,
-            "answer": "Solo a las masas de los equipos cuya alimentación pueda ser interrumpida por el dispositivo.",
-            "isCorrect": true,
-            "explanation": "Correcto según el apartado 4.1."
+            "answer": "Aluminio desnudo.",
+            "isCorrect": false,
+            "explanation": "El aluminio desnudo está prohibido en contacto directo con el suelo debido a su rápida corrosión electrolítica."
           },
           {
             "id": 3,
-            "answer": "A ninguna masa, solo al electrodo auxiliar.",
+            "answer": "Plomo.",
             "isCorrect": false,
-            "explanation": "El conductor de protección debe unir las masas de esos equipos."
+            "explanation": "El plomo no se usa como conductor de tierra, aunque sí puede ser la envolvente de algunos cables que actúan como tales."
           },
           {
             "id": 4,
-            "answer": "A todas las masas del centro de transformación.",
+            "answer": "Hierro negro sin tratar.",
             "isCorrect": false,
-            "explanation": "No es aplicable a este caso específico."
+            "explanation": "El hierro sin galvanizar se oxida rápidamente, perdiendo sección y contacto eléctrico con el terreno."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-33",
-        "question": "¿Cuándo está permitido utilizar un conductor CPN (PEN) en una instalación fija con sección de 4 mm² de cobre concéntrico?",
+        "question": "Al dimensionar el conductor de protección (Sp) para una línea de 50 mm² de sección de fase, ¿qué resultado se obtiene si se aplica el cálculo simplificado de la tabla?",
         "options": [
           {
             "id": 1,
-            "answer": "En cualquier instalación TN, independientemente de la protección diferencial.",
-            "isCorrect": false,
-            "explanation": "No, la sección de 4 mm² solo es admisible para cobre concéntrico y con conexiones duplicadas, y además la parte común no debe estar protegida por diferencial residual."
+            "answer": "25 mm².",
+            "isCorrect": true,
+            "explanation": "Para secciones de fase S > 35 mm², la tabla indica Sp = S / 2. En este caso 50 / 2 = 25 mm²."
           },
           {
             "id": 2,
-            "answer": "Siempre que el cable sea de cobre concéntrico, las conexiones estén duplicadas y se utilice a partir del transformador con accesorios concebidos para ello.",
-            "isCorrect": true,
-            "explanation": "El apartado 7 indica: 'puede ser de 4 mm², a condición de que el cable sea de cobre y del tipo concéntrico y que las conexiones que aseguran la continuidad estén duplicadas en todos los puntos de conexión sobre el conductor externo. El conductor CPN concéntrico debe utilizarse a partir del transformador y debe limitarse a aquellas instalaciones en las que se utilicen accesorios concebidos para este fin'."
+            "answer": "50 mm².",
+            "isCorrect": false,
+            "explanation": "No es necesario igualar la sección cuando la fase supera los 16 mm²."
           },
           {
             "id": 3,
-            "answer": "Solo en instalaciones temporales.",
+            "answer": "16 mm².",
             "isCorrect": false,
-            "explanation": "No se menciona esa restricción."
+            "explanation": "16 mm² solo se aplica para fases entre 16 y 35 mm²."
           },
           {
             "id": 4,
-            "answer": "Nunca, la sección mínima para CPN es 10 mm².",
+            "answer": "35 mm².",
             "isCorrect": false,
-            "explanation": "La excepción de 4 mm² existe bajo las condiciones citadas."
+            "explanation": "Es superior a lo exigido (25 mm²), por lo que aunque seguro, no es el mínimo que resulta de la aplicación de la tabla."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-34",
-        "question": "¿Qué debe hacerse en el punto de separación entre el conductor neutro y el conductor de protección en un esquema TN?",
+        "question": "¿Qué se entiende por 'conductor de tierra' (Línea de Enlace con Tierra - LET)?",
         "options": [
           {
             "id": 1,
-            "answer": "Unir ambos conductores al mismo borne.",
-            "isCorrect": false,
-            "explanation": "El apartado 7 indica: 'En el punto de separación, deben preverse bornes o barras separadas para el conductor de protección y para el conductor neutro'."
+            "answer": "El conductor que une el electrodo o toma de tierra con el borne principal de tierra.",
+            "isCorrect": true,
+            "explanation": "Esta es la definición técnica: el tramo que conecta físicamente los electrodos enterrados con el punto de distribución de tierra del edificio."
           },
           {
             "id": 2,
-            "answer": "Prever bornes o barras separadas para cada uno, y el conductor CPN debe unirse al borne del conductor de protección.",
-            "isCorrect": true,
-            "explanation": "Correcto según el apartado 7: 'El conductor CPN debe estar unido al borne o a la barra prevista para el conductor de protección'."
+            "answer": "El cable verde-amarillo que va desde el enchufe hasta el aparato eléctrico.",
+            "isCorrect": false,
+            "explanation": "Ese es un conductor de protección (Sp), no el conductor de tierra principal."
           },
           {
             "id": 3,
-            "answer": "No está permitido separarlos una vez unidos.",
+            "answer": "La pica de acero-cobre clavada en el suelo.",
             "isCorrect": false,
-            "explanation": "Sí está permitido, pero no se pueden volver a conectar detrás del punto de separación."
+            "explanation": "La pica es el electrodo o toma de tierra; el conductor de tierra es el cable que la conecta al borne."
           },
           {
             "id": 4,
-            "answer": "Deben soldarse entre sí.",
+            "answer": "La barra de cobre situada dentro del cuadro general de mando y protección.",
             "isCorrect": false,
-            "explanation": "No se especifica soldadura, se usan bornes."
+            "explanation": "Esa barra suele ser el borne principal de tierra o un repartidor de protección."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-35",
-        "question": "¿Cuál es la sección mínima de un conductor suplementario de equipotencialidad que une una masa a un elemento conductor?",
+        "question": "En una vivienda, se deben unir a la toma de tierra todas las masas metálicas accesibles. ¿Cómo se denomina esta unión específica?",
         "options": [
           {
             "id": 1,
-            "answer": "No inferior a la mitad de la sección del conductor de protección unido a esa masa.",
+            "answer": "Unión equipotencial.",
             "isCorrect": true,
-            "explanation": "El apartado 8 establece: 'su sección no será inferior a la mitad de la del conductor de protección unido a esta masa'."
+            "explanation": "La unión de masas metálicas para que tengan el mismo potencial eléctrico se denomina unión equipotencial."
           },
           {
             "id": 2,
-            "answer": "Fija de 2,5 mm² si es de cobre.",
+            "answer": "Derivación de neutro.",
             "isCorrect": false,
-            "explanation": "Ese es el mínimo para el conductor principal de equipotencialidad, no para el suplementario."
+            "explanation": "El neutro es un conductor activo; su derivación no tiene como fin la equipotencialidad de masas metálicas."
           },
           {
             "id": 3,
-            "answer": "6 mm² como mínimo.",
+            "answer": "Puesta a neutro.",
             "isCorrect": false,
-            "explanation": "Ese es el mínimo para el conductor principal, no para el suplementario."
+            "explanation": "Es una técnica de protección específica (esquema TN), pero no es el nombre general de la unión de masas metálicas."
           },
           {
             "id": 4,
-            "answer": "La misma que la del conductor de fase más grueso.",
+            "answer": "Aislamiento funcional.",
             "isCorrect": false,
-            "explanation": "No es lo que indica el apartado."
+            "explanation": "Es lo opuesto: el aislamiento busca separar eléctricamente; la unión equipotencial busca conectar."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-36",
-        "question": "¿Qué valor de resistividad aproximado corresponde a 'Granitos y gres procedente de alteración'?",
+        "question": "Se observa un cable de protección común para varios circuitos de diferentes secciones. ¿Cómo debe dimensionarse reglamentariamente este conductor común?",
         "options": [
           {
             "id": 1,
-            "answer": "100 a 300 ohmios·m.",
-            "isCorrect": false,
-            "explanation": "Ese rango corresponde a 'Calizas blandas'."
+            "answer": "En función de la mayor sección de los conductores de fase de esos circuitos.",
+            "isCorrect": true,
+            "explanation": "El reglamento exige que, si el conductor de protección es común, se dimensione según el circuito que tenga la fase más grande."
           },
           {
             "id": 2,
-            "answer": "1.500 a 10.000 ohmios·m.",
-            "isCorrect": true,
-            "explanation": "Según la tabla 3 del apartado 9, la tabla 3 indica para 'Granitos y gres procedente de alteración' un rango de 1.500 a 10.000 ohmios·m."
+            "answer": "Sumando todas las secciones de fase y dividiendo por el número de circuitos.",
+            "isCorrect": false,
+            "explanation": "No se permiten promedios; la seguridad exige basarse en el peor caso (mayor sección)."
           },
           {
             "id": 3,
-            "answer": "100 a 600 ohmios·m.",
+            "answer": "Utilizando siempre una sección fija de 16 mm² por precaución.",
             "isCorrect": false,
-            "explanation": "Ese rango corresponde a 'Granito y gres muy alterado'."
+            "explanation": "Debe calcularse según la tabla de secciones Sp basándose en la fase mayor, no es un valor fijo."
           },
           {
             "id": 4,
-            "answer": "50 a 500 ohmios·m.",
+            "answer": "En función de la sección del conductor neutro común.",
             "isCorrect": false,
-            "explanation": "Corresponde a 'Arena arcillosa'."
+            "explanation": "El conductor de protección se dimensiona respecto a las fases, no al neutro."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-37",
-        "question": "¿Qué valor medio de resistividad se asigna a 'Terrenos cultivables y fértiles, terraplenes compactos y húmedos'?",
+        "question": "Un técnico quiere instalar el conductor de protección por una canalización distinta a la de los conductores activos para ahorrar espacio. ¿Es esto correcto?",
         "options": [
           {
             "id": 1,
-            "answer": "50 ohmios·m.",
+            "answer": "No, debe ir en la misma canalización o en proximidad inmediata.",
             "isCorrect": true,
-            "explanation": "Según la tabla 4 del apartado 9, la tabla 4 indica para esa naturaleza del terreno un valor medio de 50 ohmios·m."
+            "explanation": "Para garantizar la baja impedancia del bucle de defecto y la protección contra choques, el conductor de protección debe acompañar a los activos."
           },
           {
             "id": 2,
-            "answer": "500 ohmios·m.",
+            "answer": "Sí, siempre que esté señalizado con cinta verde-amarilla en todo su recorrido.",
             "isCorrect": false,
-            "explanation": "Ese es el valor para 'Terraplenes cultivables poco fértiles y otros terraplenes'."
+            "explanation": "La señalización no sustituye al requisito de proximidad física por razones de reactancia e impedancia del bucle."
           },
           {
             "id": 3,
-            "answer": "3.000 ohmios·m.",
+            "answer": "Solo si se trata de instalaciones industriales de gran superficie.",
             "isCorrect": false,
-            "explanation": "Corresponde a 'Suelos pedregosos desnudos, arenas secas permeables'."
+            "explanation": "La regla de proximidad es general para todas las instalaciones de baja tensión."
           },
           {
             "id": 4,
-            "answer": "100 ohmios·m.",
+            "answer": "Sí, si se utiliza un conductor de sección doble a la calculada.",
             "isCorrect": false,
-            "explanation": "No es un valor que aparezca en la tabla 4."
+            "explanation": "Aumentar la sección no compensa los problemas de inductancia de un bucle abierto por separación física."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-38",
-        "question": "¿Qué resistencia de tierra aproximada tendría un conductor enterrado horizontalmente de 20 metros de longitud en un terreno con resistividad de 300 ohmios·m?",
+        "question": "En el caso excepcional de usar un conductor CPN (PEN) de 4 mm² de cobre, ¿qué condición constructiva es obligatoria para el cable?",
         "options": [
           {
             "id": 1,
-            "answer": "30 ohmios.",
+            "answer": "Que sea de tipo concéntrico y con conexiones duplicadas.",
             "isCorrect": true,
-            "explanation": "Según la tabla 5 del apartado 9, la fórmula para conductor enterrado horizontalmente es R = 2ρ/L. Sustituyendo: 2 * 300 / 20 = 600/20 = 30 ohmios."
+            "explanation": "Excepcionalmente se permiten 4 mm² de cobre si el cable es concéntrico y las conexiones de continuidad están duplicadas."
           },
           {
             "id": 2,
-            "answer": "15 ohmios.",
+            "answer": "Que esté instalado dentro de un tubo de acero de pared gruesa.",
             "isCorrect": false,
-            "explanation": "Ese sería el resultado si se usara la fórmula de pica (ρ/L) sin el factor 2."
+            "explanation": "El tubo no es la condición que permite reducir la sección a 4 mm²; es el diseño del cable (concéntrico)."
           },
           {
             "id": 3,
-            "answer": "60 ohmios.",
+            "answer": "Que la longitud total de la línea sea inferior a 5 metros.",
             "isCorrect": false,
-            "explanation": "Correspondería a 2ρ/L con L=10 m, o a 4ρ/L con L=20 m, no es correcto."
+            "explanation": "No se especifica una limitación de longitud, sino criterios de construcción y conexión."
           },
           {
             "id": 4,
-            "answer": "7,5 ohmios.",
+            "answer": "Que alimente exclusivamente a receptores de Clase II.",
             "isCorrect": false,
-            "explanation": "No se obtiene de ninguna fórmula de la tabla 5 con esos valores."
+            "explanation": "Los receptores de Clase II no requieren conductor de protección; el conductor PEN se usa para alimentar cuadros o equipos que sí lo necesitan."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-39",
-        "question": "¿En qué caso se permite unir la puesta a tierra de la instalación de utilización (edificio) y la puesta a tierra de protección del centro de transformación?",
+        "question": "Se va a realizar una unión equipotencial suplementaria uniendo una masa con una estructura metálica. ¿Qué sección mínima debe tener el conductor de unión?",
         "options": [
           {
             "id": 1,
-            "answer": "Siempre que la distancia entre ellas sea superior a 15 metros.",
-            "isCorrect": false,
-            "explanation": "La distancia no es el criterio; se permite si la resistencia única es suficientemente baja para que la tensión de defecto sea menor que la tensión de contacto máxima aplicada."
+            "answer": "Al menos la mitad de la sección del conductor de protección unido a esa masa.",
+            "isCorrect": true,
+            "explanation": "El reglamento establece que la sección no será inferior a la mitad de la del conductor de protección que ya tiene esa masa."
           },
           {
             "id": 2,
-            "answer": "Cuando el valor de la resistencia de puesta a tierra única sea lo bastante baja para que Vd = Id * Rt sea menor que la tensión de contacto máxima admisible.",
-            "isCorrect": true,
-            "explanation": "El apartado 11 indica: 'Sólo se podrán unir... si el valor de la resistencia de puesta a tierra única es lo suficientemente baja para que se cumpla que... el valor de la tensión de defecto (Vd = Id * Rt) sea menor que la tensión de contacto máximo aplicada'."
+            "answer": "Igual a la sección de la fase del circuito.",
+            "isCorrect": false,
+            "explanation": "Es excesivo; el criterio se basa en el conductor de protección existente, no en la fase."
           },
           {
             "id": 3,
-            "answer": "Nunca se permite la unión.",
+            "answer": "Siempre 2,5 mm² independientemente de la masa.",
             "isCorrect": false,
-            "explanation": "Sí se permite bajo condiciones de seguridad estrictas."
+            "explanation": "2,5 mm² puede ser un valor, pero el criterio general es la proporción (mitad de Sp)."
           },
           {
             "id": 4,
-            "answer": "Solo si el centro de transformación está en el mismo edificio.",
+            "answer": "Debe ser de 6 mm² como mínimo si es de aluminio.",
             "isCorrect": false,
-            "explanation": "No es la condición principal; incluso estando en el mismo edificio puede ser peligroso si no se cumple la condición de tensión."
+            "explanation": "No es la regla general de dimensionamiento para uniones suplementarias."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-40",
-        "question": "¿Qué condición debe cumplirse para no unir las tomas de tierra?",
+        "question": "Al medir la resistividad de un terreno, se obtiene un valor muy variable con la profundidad. ¿Qué factor climático puede estar afectando más a los estratos superficiales?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el centro esté en un recinto aislado y sus elementos metálicos no estén unidos eléctricamente a los constructivos de los locales de utilización.",
+            "answer": "La humedad y la temperatura (heladas/sequedad).",
             "isCorrect": true,
-            "explanation": "Según el apartado 11, cuando un centro de transformación está contiguo a locales de utilización, el apartado 11 establece: 'El centro de transformación está situado en un recinto aislado de los locales de utilización o bien, si esta contiguo... está establecido de tal manera que sus elementos metálicos no están unidos eléctricamente a los elementos metálicos constructivos de los locales de utilización'."
+            "explanation": "La resistividad del terreno depende críticamente de la humedad y la temperatura, variando con las estaciones y efectos climáticos."
           },
           {
             "id": 2,
-            "answer": "Que la distancia sea al menos 20 metros.",
+            "answer": "La presión atmosférica y el viento superficial.",
             "isCorrect": false,
-            "explanation": "No es la condición; se permite la contigüidad si hay aislamiento eléctrico."
+            "explanation": "Estos factores no influyen significativamente en la conductividad eléctrica del subsuelo."
           },
           {
             "id": 3,
-            "answer": "Que la resistividad del terreno sea superior a 1000 ohmios·m.",
+            "answer": "El nivel de ruido ambiental en zonas industriales.",
             "isCorrect": false,
-            "explanation": "No se menciona ese valor en este contexto."
+            "explanation": "No tiene ninguna relación con la resistividad eléctrica del terreno."
           },
           {
             "id": 4,
-            "answer": "Que se instale una barrera física de hormigón armado.",
+            "answer": "La fase lunar y las mareas en terrenos de interior.",
             "isCorrect": false,
-            "explanation": "No es un requisito del reglamento."
+            "explanation": "No son factores contemplados ni relevantes para la puesta a tierra en baja tensión."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-18-41",
-        "question": "¿Qué otra obligación general existe sobre la conservación de electrodos en terrenos desfavorables?",
+        "question": "¿Cuál es la fórmula recomendada para estimar la resistencia de tierra de una sola pica vertical clavada en el suelo?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben recubrirse con pintura anticorrosiva cada año.",
-            "isCorrect": false,
-            "explanation": "No se menciona esa obligación."
+            "answer": "R = ρ / L.",
+            "isCorrect": true,
+            "explanation": "Para una pica vertical, la resistencia estimada se calcula dividiendo la resistividad del terreno (ρ) por la longitud de la pica (L)."
           },
           {
             "id": 2,
-            "answer": "Deben ponerse al descubierto para su examen.",
-            "isCorrect": true,
-            "explanation": "Según el apartado 12, además de la revisión cada cinco años, el apartado 12 dice: 'se pondrán al descubierto para su examen, al menos una vez cada cinco años'."
+            "answer": "R = 2ρ / L.",
+            "isCorrect": false,
+            "explanation": "Esta es la fórmula para un conductor enterrado horizontalmente."
           },
           {
             "id": 3,
-            "answer": "Deben cambiarse por otros nuevos cada cinco años.",
+            "answer": "R = ρ / (2 * π * r).",
             "isCorrect": false,
-            "explanation": "No se exige cambio, solo examen."
+            "explanation": "No es la fórmula simplificada que proporciona el reglamento para picas."
           },
           {
             "id": 4,
-            "answer": "Deben conectarse a una red de sacrificio de corriente continua.",
+            "answer": "R = 0,8 * ρ / P.",
             "isCorrect": false,
-            "explanation": "No es un requisito de la ITC-BT-18."
+            "explanation": "Esta es la fórmula para placas enterradas (siendo P el perímetro)."
           }
         ],
         "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-42",
+        "question": "Se instala una placa enterrada cuadrada de 1 metro de lado en un terreno de 100 Ω·m. ¿Cuál es su resistencia de tierra estimada?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "20 ohmios.",
+            "isCorrect": true,
+            "explanation": "Usando R = 0,8ρ / P. El perímetro P de una placa cuadrada de 1m es 4m. R = (0,8 * 100) / 4 = 80 / 4 = 20 ohmios."
+          },
+          {
+            "id": 2,
+            "answer": "80 ohmios.",
+            "isCorrect": false,
+            "explanation": "Este valor ignora la división por el perímetro en la fórmula."
+          },
+          {
+            "id": 3,
+            "answer": "100 ohmios.",
+            "isCorrect": false,
+            "explanation": "No aplica el factor de forma (0,8/P) característico de las placas."
+          },
+          {
+            "id": 4,
+            "answer": "4 ohmios.",
+            "isCorrect": false,
+            "explanation": "Resultado de un cálculo erróneo de la relación ρ y el perímetro."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-43",
+        "question": "Si el tiempo de eliminación de un defecto en una instalación de AT es inferior a 5 segundos, ¿qué valor de tensión (U) se toma para calcular la separación de tierras en un sistema TT?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "1200 V.",
+            "isCorrect": true,
+            "explanation": "La normativa especifica que para tiempos de eliminación ≤ 5s en sistemas TT, se toma U = 1200 V para el cálculo de distancias."
+          },
+          {
+            "id": 2,
+            "answer": "250 V.",
+            "isCorrect": false,
+            "explanation": "250 V se usaría si el tiempo de eliminación fuera superior a 5 segundos."
+          },
+          {
+            "id": 3,
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "Es el límite de tensión de contacto, no el valor U de la fórmula de separación de tierras."
+          },
+          {
+            "id": 4,
+            "answer": "1000 V.",
+            "isCorrect": false,
+            "explanation": "Aunque es un valor de referencia en baja tensión, para esta fórmula el valor exacto es 1200 V."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-44",
+        "question": "En un terreno pantanoso, la resistividad media suele estar entre 10 y 30 Ω·m. ¿Qué valor de resistencia daría una pica de 2 metros en este suelo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Entre 5 y 15 ohmios.",
+            "isCorrect": true,
+            "explanation": "Usando R = ρ / L. Si ρ = 10, R = 10/2 = 5. Si ρ = 30, R = 30/2 = 15. Por tanto, entre 5 y 15 ohmios."
+          },
+          {
+            "id": 2,
+            "answer": "Más de 50 ohmios.",
+            "isCorrect": false,
+            "explanation": "Es un valor demasiado alto para un terreno pantanoso con una pica de 2m."
+          },
+          {
+            "id": 3,
+            "answer": "Aproximadamente 1 ohmio.",
+            "isCorrect": false,
+            "explanation": "Requeriría una resistividad mucho menor o una pica muchísimo más larga."
+          },
+          {
+            "id": 4,
+            "answer": "Cero ohmios, al estar inmersa en agua.",
+            "isCorrect": false,
+            "explanation": "Físicamente la resistencia nunca es cero y los electrodos no deben estar inmersos en agua libre."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-45",
+        "question": "¿Por qué el reglamento prohíbe instalar electrodos total o parcialmente inmersos en agua de ríos o estanques?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Por el riesgo de corrosión acelerada y la variabilidad de la conductividad del agua.",
+            "isCorrect": true,
+            "explanation": "El contacto directo con agua libre puede causar corrosión rápida y la resistencia no sería fiable a largo plazo."
+          },
+          {
+            "id": 2,
+            "answer": "Porque el agua es un aislante perfecto y no funcionaría la tierra.",
+            "isCorrect": false,
+            "explanation": "Al contrario, el agua es conductora, pero el problema es la durabilidad y estabilidad del electrodo."
+          },
+          {
+            "id": 3,
+            "answer": "Para evitar que los peces sufran descargas eléctricas en caso de defecto.",
+            "isCorrect": false,
+            "explanation": "Aunque es una consecuencia, la razón normativa principal es la integridad de la instalación eléctrica (corrosión)."
+          },
+          {
+            "id": 4,
+            "answer": "Porque el reglamento de aguas prohíbe cualquier elemento metálico en cauces públicos.",
+            "isCorrect": false,
+            "explanation": "Es una prohibición específica del REBT por criterios técnicos eléctricos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-46",
+        "question": "En la ejecución de una unión entre conductor de tierra y electrodo, se propone el uso de soldadura aluminotérmica. ¿Es aceptable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, se considera una conexión eléctricamente correcta y duradera.",
+            "isCorrect": true,
+            "explanation": "La soldadura aluminotérmica es uno de los ejemplos que da el reglamento para realizar uniones fiables."
+          },
+          {
+            "id": 2,
+            "answer": "No, solo se permiten grapas de presión mecánicas.",
+            "isCorrect": false,
+            "explanation": "El reglamento permite tanto grapas como soldaduras (aluminotérmica o autógena)."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se realiza por un soldador homologado en estructuras navales.",
+            "isCorrect": false,
+            "explanation": "No se requiere esa homologación específica, sino que la ejecución sea correcta técnicamente."
+          },
+          {
+            "id": 4,
+            "answer": "Solo en instalaciones de alta tensión, no en baja tensión.",
+            "isCorrect": false,
+            "explanation": "Es perfectamente válida y muy común en instalaciones de baja tensión de calidad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-47",
+        "question": "¿Qué ocurre si al calcular la sección del conductor de protección Sp por tabla se obtiene un valor que no existe comercialmente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se debe elegir la sección normalizada superior más próxima.",
+            "isCorrect": true,
+            "explanation": "Como regla general en electricidad, ante valores no normalizados, se opta siempre por el inmediato superior comercial."
+          },
+          {
+            "id": 2,
+            "answer": "Se permite redondear a la sección inferior para ahorrar cobre.",
+            "isCorrect": false,
+            "explanation": "Nunca se debe reducir la sección por debajo del mínimo calculado por seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Se deben poner dos conductores en paralelo de sección mitad.",
+            "isCorrect": false,
+            "explanation": "Aunque técnicamente posible bajo ciertas reglas, la instrucción pide elegir la superior normalizada."
+          },
+          {
+            "id": 4,
+            "answer": "Es obligatorio cambiar la sección de los conductores de fase para que coincidan.",
+            "isCorrect": false,
+            "explanation": "No es necesario modificar las fases; simplemente se ajusta el conductor de protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-48",
+        "question": "Se utiliza un cable con aislamiento mineral en una instalación. ¿Puede su cubierta metálica servir de conductor de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si se garantiza su continuidad y su conductividad es suficiente.",
+            "isCorrect": true,
+            "explanation": "La cubierta de los cables con aislamiento mineral puede usarse como CP si cumple los requisitos de seguridad y conductividad."
+          },
+          {
+            "id": 2,
+            "answer": "No, está prohibido usar cualquier tipo de cubierta como protección.",
+            "isCorrect": false,
+            "explanation": "Existe una excepción específica para cables de aislamiento mineral en la normativa."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el cable es de un solo núcleo (monopolar).",
+            "isCorrect": false,
+            "explanation": "La norma no restringe esta posibilidad a cables monopolares."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, pero se debe pintar de verde-amarillo en toda su longitud.",
+            "isCorrect": false,
+            "explanation": "Se debe identificar en los extremos, no necesariamente pintarlo en todo su recorrido si es una cubierta metálica desnuda."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-49",
+        "question": "En un sistema de tierra funcional (no de protección), ¿qué color se recomienda para los conductores si se desea distinguirlos de los de protección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No existe un color específico obligatorio en esta ITC, pero no deben confundirse con el verde-amarillo.",
+            "isCorrect": true,
+            "explanation": "El verde-amarillo es exclusivo para protección. Las tierras funcionales deben identificarse de forma que no induzcan a error."
+          },
+          {
+            "id": 2,
+            "answer": "Siempre color rojo.",
+            "isCorrect": false,
+            "explanation": "El rojo se usa en otros contextos (CC o mando), no es la norma para tierras funcionales."
+          },
+          {
+            "id": 3,
+            "answer": "Obligatoriamente color blanco.",
+            "isCorrect": false,
+            "explanation": "No hay una obligación de usar blanco para tierras funcionales."
+          },
+          {
+            "id": 4,
+            "answer": "Color azul claro como el neutro.",
+            "isCorrect": false,
+            "explanation": "Sería peligroso, ya que el azul claro identifica exclusivamente al neutro."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-50",
+        "question": "¿Qué borne de la instalación sirve como punto de interconexión para los conductores de tierra, de protección y de equipotencialidad?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El borne principal de tierra.",
+            "isCorrect": true,
+            "explanation": "El borne principal de tierra es el nudo central donde convergen todos los sistemas de puesta a tierra y equipotencialidad del edificio."
+          },
+          {
+            "id": 2,
+            "answer": "El borne de neutro del contador.",
+            "isCorrect": false,
+            "explanation": "El borne de neutro es para conductores activos; no debe mezclarse con las tierras de protección en este punto."
+          },
+          {
+            "id": 3,
+            "answer": "La carcasa metálica del transformador más próximo.",
+            "isCorrect": false,
+            "explanation": "Ese elemento pertenece a la red de distribución o al centro de transformación, no es el borne de la instalación de utilización."
+          },
+          {
+            "id": 4,
+            "answer": "El borne de salida del interruptor diferencial.",
+            "isCorrect": false,
+            "explanation": "El diferencial no tiene bornes para conectar la red de tierras del edificio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-51",
+        "question": "Un técnico encuentra que la toma de tierra de un local está unida al neutro en el propio cuadro de distribución. ¿En qué esquema de conexión esto sería reglamentario?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En el esquema TN-C.",
+            "isCorrect": true,
+            "explanation": "En el esquema TN-C, las funciones de neutro y protección se combinan en un solo conductor (PEN), que se conecta a tierra en la fuente y en la instalación."
+          },
+          {
+            "id": 2,
+            "answer": "En el esquema TT.",
+            "isCorrect": false,
+            "explanation": "En el esquema TT, el neutro de la red y las masas de la instalación están puestos a tierra de forma independiente; su unión en el cuadro está prohibida."
+          },
+          {
+            "id": 3,
+            "answer": "En el esquema IT.",
+            "isCorrect": false,
+            "explanation": "En el esquema IT, el neutro está aislado de tierra o conectado a través de una impedancia alta; no se une a las masas."
+          },
+          {
+            "id": 4,
+            "answer": "En ningún caso, es una falta grave siempre.",
+            "isCorrect": false,
+            "explanation": "Es la base del funcionamiento del esquema TN, aunque requiere condiciones de seguridad muy estrictas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-52",
+        "question": "Se va a instalar una red de tierra en un terreno de 'Suelo pedregoso cubierto de césped'. ¿Qué resistividad media (ρ) se suele asignar a este terreno según las tablas orientativas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Entre 300 y 500 Ω·m.",
+            "isCorrect": true,
+            "explanation": "Según la Tabla 3, el suelo pedregoso cubierto de césped tiene una resistividad orientativa de 300 a 500 Ω·m."
+          },
+          {
+            "id": 2,
+            "answer": "50 Ω·m.",
+            "isCorrect": false,
+            "explanation": "50 Ω·m corresponde a la arcilla plástica, un suelo mucho más conductor."
+          },
+          {
+            "id": 3,
+            "answer": "1500 a 3000 Ω·m.",
+            "isCorrect": false,
+            "explanation": "Esos valores corresponden a suelo pedregoso desnudo o granitos."
+          },
+          {
+            "id": 4,
+            "answer": "10 Ω·m.",
+            "isCorrect": false,
+            "explanation": "Corresponde a terrenos pantanosos o turba húmeda."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-53",
+        "question": "Al realizar la revisión quinquenal, se descubre que la resistencia de la toma de tierra ha subido de 15 a 120 ohmios. ¿Cuál es el primer paso recomendado?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Investigar la causa (sequedad, corrosión) y añadir electrodos si es necesario para recuperar el valor de diseño.",
+            "isCorrect": true,
+            "explanation": "Ante una degradación del valor de resistencia, se debe actuar para garantizar que la tensión de contacto siga siendo segura."
+          },
+          {
+            "id": 2,
+            "answer": "Cambiar el interruptor diferencial por uno de menor sensibilidad (ej. 300 mA).",
+            "isCorrect": false,
+            "explanation": "Bajar la sensibilidad empeora la seguridad si la resistencia de tierra es alta; se debe mejorar la tierra, no empeorar la protección."
+          },
+          {
+            "id": 3,
+            "answer": "Ignorar el valor si el edificio no tiene pararrayos.",
+            "isCorrect": false,
+            "explanation": "La toma de tierra es vital para la protección contra contactos indirectos, haya o no pararrayos."
+          },
+          {
+            "id": 4,
+            "answer": "Pintar las picas de color plata para mejorar la conductividad superficial.",
+            "isCorrect": false,
+            "explanation": "La pintura es aislante y no mejora la conductividad del terreno ni el contacto eléctrico."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-54",
+        "question": "En la instalación de unborne principal de tierra, ¿qué característica debe cumplir para ser considerado reglamentario?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ser fácilmente accesible y permitir la conexión individual de los conductores.",
+            "isCorrect": true,
+            "explanation": "La accesibilidad y la capacidad de conectar/desconectar conductores para pruebas son requisitos básicos del borne principal."
+          },
+          {
+            "id": 2,
+            "answer": "Debe estar enterrado al menos a 1 metro de profundidad cerca de la entrada.",
+            "isCorrect": false,
+            "explanation": "El borne principal suele estar en el interior del edificio o en un armario accesible, no enterrado."
+          },
+          {
+            "id": 3,
+            "answer": "Debe estar fabricado en aluminio fundido para evitar el robo de cobre.",
+            "isCorrect": false,
+            "explanation": "El aluminio no es el material preferido para bornes de tierra por problemas de corrosión galvánica y contactos."
+          },
+          {
+            "id": 4,
+            "answer": "Debe estar sellado con resina epoxi para que nadie lo manipule.",
+            "isCorrect": false,
+            "explanation": "No debe estar sellado, ya que debe permitir las mediciones periódicas obligatorias."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-55",
+        "question": "Se instala un conductor de equipotencialidad suplementaria entre dos masas metálicas. ¿Qué color debe tener su aislamiento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Verde-amarillo.",
+            "isCorrect": true,
+            "explanation": "Todos los conductores que forman parte del sistema de protección y puesta a tierra deben identificarse con el código de colores verde-amarillo."
+          },
+          {
+            "id": 2,
+            "answer": "Gris oscuro.",
+            "isCorrect": false,
+            "explanation": "El gris es un color para conductores activos (fases), no para protección."
+          },
+          {
+            "id": 3,
+            "answer": "Azul oscuro.",
+            "isCorrect": false,
+            "explanation": "El azul se reserva para el neutro o polos negativos en CC."
+          },
+          {
+            "id": 4,
+            "answer": "Marrón.",
+            "isCorrect": false,
+            "explanation": "El marrón es un color para conductores activos de fase."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-56",
+        "question": "Un edificio tiene una red de tierra mediante anillo de cobre desnudo. ¿Cuál es la sección mínima recomendada por la norma para este tipo de electrodo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "35 mm².",
+            "isCorrect": true,
+            "explanation": "Aunque la tabla da mínimos obligatorios menores, la recomendación técnica para conductores desnudos enterrados de cobre es de 35 mm²."
+          },
+          {
+            "id": 2,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Es un mínimo para conductores protegidos contra corrosión, pero por debajo de la recomendación para anillos desnudos."
+          },
+          {
+            "id": 3,
+            "answer": "25 mm².",
+            "isCorrect": false,
+            "explanation": "Es el mínimo obligatorio para cobre no protegido, pero la recomendación de diseño es 35 mm²."
+          },
+          {
+            "id": 4,
+            "answer": "50 mm².",
+            "isCorrect": false,
+            "explanation": "Es superior a lo recomendado; se suele usar para hierro/acero o casos de muy alta intensidad de defecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-57",
+        "question": "¿Cómo afecta la temperatura de congelación a la resistencia de una toma de tierra?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumenta considerablemente la resistencia del terreno helado.",
+            "isCorrect": true,
+            "explanation": "El hielo es mucho menos conductor que el agua líquida, por lo que la resistividad del suelo aumenta drásticamente cuando se congela."
+          },
+          {
+            "id": 2,
+            "answer": "Mejora la conductividad al solidificar los minerales del suelo.",
+            "isCorrect": false,
+            "explanation": "Al contrario, la congelación impide el movimiento de iones, dificultando el paso de corriente."
+          },
+          {
+            "id": 3,
+            "answer": "No afecta, ya que la tierra es un sólido independientemente de la temperatura.",
+            "isCorrect": false,
+            "explanation": "La temperatura es un factor clave en la resistividad del terreno según el reglamento."
+          },
+          {
+            "id": 4,
+            "answer": "Solo afecta si el terreno es metálico.",
+            "isCorrect": false,
+            "explanation": "El terreno no es metálico y la temperatura afecta a cualquier tipo de suelo con humedad."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-58",
+        "question": "En el diseño de un borne principal de tierra, se decide incluir un puente de unión entre el neutro y la tierra. ¿En qué condiciones generales se permite esto dentro del edificio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Solo en el punto de origen de la instalación en un esquema TN.",
+            "isCorrect": true,
+            "explanation": "La unión neutro-tierra solo se realiza en el punto de formación del esquema TN (separación del PEN); en el resto de la instalación deben estar separados."
+          },
+          {
+            "id": 2,
+            "answer": "En cualquier cuadro secundario para equilibrar las fases.",
+            "isCorrect": false,
+            "explanation": "Unir neutro y tierra en cuadros secundarios provocaría que corrientes de servicio circulen por la red de protección, creando riesgos."
+          },
+          {
+            "id": 3,
+            "answer": "Siempre que se use un conductor de menos de 10 metros.",
+            "isCorrect": false,
+            "explanation": "La longitud no es el criterio; es el esquema de conexión de red adoptado."
+          },
+          {
+            "id": 4,
+            "answer": "Si el interruptor diferencial es de tipo industrial (clase B).",
+            "isCorrect": false,
+            "explanation": "El tipo de diferencial no autoriza la unión neutro-tierra fuera de las reglas del esquema TN."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-59",
+        "question": "¿Cuál es el propósito de realizar una unión equipotencial principal en la entrada del edificio?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Garantizar que todos los servicios metálicos (agua, gas) estén al mismo potencial que la red eléctrica de tierra.",
+            "isCorrect": true,
+            "explanation": "Se busca evitar diferencias de potencial peligrosas entre las tuberías metálicas de otros servicios y la red eléctrica del edificio."
+          },
+          {
+            "id": 2,
+            "answer": "Permitir que el agua de las tuberías actúe como conductor de retorno del neutro.",
+            "isCorrect": false,
+            "explanation": "Está prohibido usar tuberías de agua para el retorno de corrientes de servicio."
+          },
+          {
+            "id": 3,
+            "answer": "Aumentar la resistencia total de la instalación para limitar cortocircuitos.",
+            "isCorrect": false,
+            "explanation": "La unión equipotencial no busca aumentar la resistencia, sino igualar potenciales."
+          },
+          {
+            "id": 4,
+            "answer": "Servir de antena para mejorar la recepción de señales de radiofrecuencia.",
+            "isCorrect": false,
+            "explanation": "Es una medida de seguridad eléctrica, no de telecomunicaciones."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-60",
+        "question": "Un técnico propone instalar una pica de tierra dentro de un sótano inundado permanentemente. ¿Es esta una práctica recomendada?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, los electrodos no deben instalarse inmersos en agua libre.",
+            "isCorrect": true,
+            "explanation": "El reglamento prohíbe explícitamente la instalación de electrodos inmersos en agua por problemas de corrosión y falta de estabilidad de la medida."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, el agua es un excelente conductor y bajará mucho la resistencia.",
+            "isCorrect": false,
+            "explanation": "Aunque baja la resistencia inicialmente, no es una solución duradera ni reglamentaria por el riesgo de corrosión."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se trata de agua destilada.",
+            "isCorrect": false,
+            "explanation": "El agua destilada es aislante, pero en un sótano nunca lo sería; además, la prohibición es general."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que se use una pica de acero inoxidable grado marino.",
+            "isCorrect": false,
+            "explanation": "La prohibición de inmersión en agua libre no depende del material del electrodo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-61",
+        "question": "Se está instalando un conductor de tierra enterrado de hierro. Si no tiene protección contra la corrosión ni mecánica, ¿qué sección mínima es obligatoria?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50 mm².",
+            "isCorrect": true,
+            "explanation": "Según la Tabla 1 de la ITC-BT-18, para hierro/acero sin protección mecánica ni contra la corrosión, la sección mínima es de 50 mm²."
+          },
+          {
+            "id": 2,
+            "answer": "25 mm².",
+            "isCorrect": false,
+            "explanation": "25 mm² es el valor para cobre en esas mismas condiciones."
+          },
+          {
+            "id": 3,
+            "answer": "100 mm².",
+            "isCorrect": false,
+            "explanation": "Aunque es una sección muy segura, el mínimo legal requerido es de 50 mm²."
+          },
+          {
+            "id": 4,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Es insuficiente para hierro enterrado sin protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-62",
+        "question": "En un edificio de 20 plantas, los conductores de fase del cuadro general son de 150 mm². ¿De qué sección mínima debe ser el conductor de protección de cobre (Sp)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "75 mm² (o la normalizada inmediatamente superior).",
+            "isCorrect": true,
+            "explanation": "Para fases S > 35 mm², Sp = S / 2. En este caso 150 / 2 = 75 mm². Se usaría la sección comercial de 70 o 95 mm² dependiendo de la interpretación de 'superior más próxima' o cálculo exacto, pero la base es la mitad."
+          },
+          {
+            "id": 2,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Totalmente insuficiente para una fase de 150 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "150 mm².",
+            "isCorrect": false,
+            "explanation": "No es necesario igualar la sección de fase una vez superados los 16 mm²."
+          },
+          {
+            "id": 4,
+            "answer": "35 mm².",
+            "isCorrect": false,
+            "explanation": "Muy por debajo de la mitad requerida (75 mm²)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-63",
+        "question": "Un técnico observa que se ha intercalado un interruptor de cuchilla en el conductor de tierra para facilitar las pruebas. ¿Es reglamentaria esta instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, el conductor de tierra debe ser continuo y no tener dispositivos de corte intercalados.",
+            "isCorrect": true,
+            "explanation": "La unión a tierra debe ser directa y sin fusibles ni protección alguna. Para medidas se usan bornes o puentes desmontables con útil."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, siempre que esté bajo llave en un armario de seguridad.",
+            "isCorrect": false,
+            "explanation": "Incluso bajo llave, un interruptor de cuchilla supone un riesgo de desconexión accidental que invalida la seguridad del sistema."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el interruptor tiene contactos de plata de alta conductividad.",
+            "isCorrect": false,
+            "explanation": "El material de los contactos no autoriza el uso de elementos de corte en el circuito de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, si se trata de un punto de medida señalizado.",
+            "isCorrect": false,
+            "explanation": "Un punto de medida debe ser un puente desmontable mediante herramienta, no un interruptor manual."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-64",
+        "question": "Para una pica de acero-cobre (con recubrimiento de 250 µm), ¿cuál es el diámetro mínimo recomendado para garantizar su durabilidad?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "14,2 milímetros.",
+            "isCorrect": true,
+            "explanation": "Para picas de acero-cobre de 250 µm de recubrimiento, el diámetro mínimo recomendado por la normativa es de 14,2 mm."
+          },
+          {
+            "id": 2,
+            "answer": "20 milímetros.",
+            "isCorrect": false,
+            "explanation": "20 mm es el mínimo para acero galvanizado; las de acero-cobre permiten un diámetro menor debido a la mejor resistencia a la corrosión del cobre."
+          },
+          {
+            "id": 3,
+            "answer": "10 milímetros.",
+            "isCorrect": false,
+            "explanation": "Es insuficiente para garantizar la robustez mecánica durante el hincado en el terreno."
+          },
+          {
+            "id": 4,
+            "answer": "30 milímetros.",
+            "isCorrect": false,
+            "explanation": "Es una dimensión de tubo, no el mínimo recomendado para picas macizas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-65",
+        "question": "En un esquema TN, ¿cuál es la principal ventaja de utilizar conductores de protección en la misma canalización que los activos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Reducir la reactancia del bucle de defecto para asegurar una corriente de cortocircuito elevada.",
+            "isCorrect": true,
+            "explanation": "La proximidad física minimiza la inductancia del lazo, facilitando que la corriente de defecto sea lo suficientemente alta para activar rápidamente los magnetotérmicos."
+          },
+          {
+            "id": 2,
+            "answer": "Ahorrar en costes de material al usar menos metros de cable.",
+            "isCorrect": false,
+            "explanation": "Aunque ahorra cable, la razón fundamental es técnica y de seguridad (impedancia del bucle)."
+          },
+          {
+            "id": 3,
+            "answer": "Evitar que los roedores muerdan el cable de tierra al estar protegido por los de fase.",
+            "isCorrect": false,
+            "explanation": "No es una razón técnica de diseño eléctrico."
+          },
+          {
+            "id": 4,
+            "answer": "Permitir que el calor de las fases mantenga seco el conductor de protección.",
+            "isCorrect": false,
+            "explanation": "La temperatura alta suele ser negativa para la resistencia de los conductores."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-66",
+        "question": "¿Qué se entiende por 'conductor de equipotencialidad suplementaria'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Un conductor que une masas metálicas accesibles simultáneamente que no han quedado suficientemente unidas por la equipotencialidad principal.",
+            "isCorrect": true,
+            "explanation": "Se instala para reforzar la seguridad en zonas específicas (como baños o quirófanos) asegurando que no haya tensión entre dos masas cercanas."
+          },
+          {
+            "id": 2,
+            "answer": "Un cable de reserva que se deja en la zanja por si falla el principal.",
+            "isCorrect": false,
+            "explanation": "No es un cable de repuesto, es una unión activa de seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "El conductor que une el pararrayos con la red de tierra.",
+            "isCorrect": false,
+            "explanation": "Ese es un conductor de bajada o unión de pararrayos, no se denomina suplementario por definición."
+          },
+          {
+            "id": 4,
+            "answer": "Un conductor que solo lleva corriente en caso de tormenta solar.",
+            "isCorrect": false,
+            "explanation": "No tiene ninguna relación con fenómenos espaciales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-67",
+        "question": "Se instala un puente seccionador de tierra. ¿Qué sección debe tener este componente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La misma que la del conductor de tierra al que se asocia.",
+            "isCorrect": true,
+            "explanation": "Para no crear un cuello de botella o punto de debilidad térmica, el puente debe tener al menos la misma sección que el cable de tierra."
+          },
+          {
+            "id": 2,
+            "answer": "Siempre 35 mm² por ser el estándar de inspección.",
+            "isCorrect": false,
+            "explanation": "Debe adaptarse a la sección del conductor real de la instalación, que puede ser mayor o menor."
+          },
+          {
+            "id": 3,
+            "answer": "La mitad de la sección del conductor de tierra.",
+            "isCorrect": false,
+            "explanation": "Sería un punto de riesgo por calentamiento ante una descarga de defecto."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquiera, ya que es un elemento macizo de gran resistencia.",
+            "isCorrect": false,
+            "explanation": "La sección eléctrica es fundamental para soportar las densidades de corriente de defecto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-68",
+        "question": "En un terreno de granitos y gres muy alterado, la resistividad media es de 500 Ω·m. ¿Qué resistencia daría aproximadamente un anillo de 50 metros de perímetro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "20 ohmios.",
+            "isCorrect": true,
+            "explanation": "Usando la fórmula de conductor horizontal (anillo) R = 2ρ / L. R = (2 * 500) / 50 = 1000 / 50 = 20 ohmios."
+          },
+          {
+            "id": 2,
+            "answer": "10 ohmios.",
+            "isCorrect": false,
+            "explanation": "Resultado de olvidar el factor '2' de la fórmula para conductores horizontales."
+          },
+          {
+            "id": 3,
+            "answer": "50 ohmios.",
+            "isCorrect": false,
+            "explanation": "No se corresponde con el cálculo basado en los datos proporcionados."
+          },
+          {
+            "id": 4,
+            "answer": "5 ohmios.",
+            "isCorrect": false,
+            "explanation": "Requeriría un terreno mucho más conductor o un anillo mucho más largo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-69",
+        "question": "Se pretende utilizar la armadura de un pilote de cimentación como electrodo de tierra. ¿Cuál es el requisito para su conexión con el resto de la red?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Asegurar la continuidad eléctrica entre los diferentes tramos de armadura.",
+            "isCorrect": true,
+            "explanation": "Para que la estructura actúe como electrodo, todas sus partes metálicas deben estar eléctricamente unidas (soldadas o con puentes fiables)."
+          },
+          {
+            "id": 2,
+            "answer": "Que el pilote esté recubierto de una lámina de plástico aislante.",
+            "isCorrect": false,
+            "explanation": "Aislar el pilote impediría el contacto eléctrico con el terreno, anulando su función como toma de tierra."
+          },
+          {
+            "id": 3,
+            "answer": "Que la profundidad del pilote no supere los 2 metros.",
+            "isCorrect": false,
+            "explanation": "Generalmente, cuanta más profundidad tenga el pilote, mejor será la toma de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Solo se puede usar si el edificio tiene menos de 3 plantas.",
+            "isCorrect": false,
+            "explanation": "No hay restricciones de altura del edificio para el uso de armaduras como tierra."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-70",
+        "question": "Un instalador conecta dos picas en paralelo. ¿Qué regla de distancia se recomienda para que su eficacia sea máxima?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Separarlas una distancia al menos igual a su longitud.",
+            "isCorrect": true,
+            "explanation": "Para evitar que los conos de influencia se solapen excesivamente y se reduzca la eficacia de dispersión, se recomienda una separación igual o superior a la longitud de las picas."
+          },
+          {
+            "id": 2,
+            "answer": "Instalarlas lo más cerca posible una de otra.",
+            "isCorrect": false,
+            "explanation": "La proximidad excesiva provoca interferencia entre ellas y no reduce la resistencia tanto como si estuvieran separadas."
+          },
+          {
+            "id": 3,
+            "answer": "Ponerlas siempre en línea recta orientadas al norte magnético.",
+            "isCorrect": false,
+            "explanation": "La orientación magnética no influye en la resistencia de puesta a tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Separarlas exactamente 50 centímetros independientemente de su largo.",
+            "isCorrect": false,
+            "explanation": "La distancia óptima depende de la profundidad a la que penetran en el suelo (su longitud)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-71",
+        "question": "¿Cuál es la sección mínima recomendada para un conductor de protección Sp de cobre si la sección de fase S es de 10 mm² y ambos son del mismo material?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 mm².",
+            "isCorrect": true,
+            "explanation": "Según la Tabla 2, para secciones de fase S ≤ 16 mm², la sección del conductor de protección Sp debe ser igual a la de fase (Sp = S)."
+          },
+          {
+            "id": 2,
+            "answer": "6 mm².",
+            "isCorrect": false,
+            "explanation": "Es insuficiente según la tabla de dimensionamiento Sp = S."
+          },
+          {
+            "id": 3,
+            "answer": "16 mm².",
+            "isCorrect": false,
+            "explanation": "Aunque seguro, no es el mínimo exigido (que es 10 mm²)."
+          },
+          {
+            "id": 4,
+            "answer": "2,5 mm².",
+            "isCorrect": false,
+            "explanation": "Este valor solo se aplica para conductores independientes con protección mecánica, no para conductores asociados a una fase de 10 mm²."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-72",
+        "question": "En una inspección se detecta que las conexiones de tierra están hechas con soldadura de estaño. ¿Es este un método aceptable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, se deben utilizar soldaduras de alto punto de fusión como la aluminotérmica o autógena.",
+            "isCorrect": true,
+            "explanation": "El estaño tiene un punto de fusión bajo y poca resistencia mecánica/eléctrica ante corrientes de defecto intensas. Se exigen soldaduras fuertes o grapas."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, siempre que se use decapante sin ácidos.",
+            "isCorrect": false,
+            "explanation": "El problema no es el decapante, sino las propiedades físicas del estaño para este fin."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si la unión se refuerza con cinta aislante vulcanizada.",
+            "isCorrect": false,
+            "explanation": "La cinta no mejora la calidad eléctrica ni mecánica de una soldadura de estaño inapropiada."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, es el método preferido por su facilidad de ejecución.",
+            "isCorrect": false,
+            "explanation": "Al contrario, es un método desaconsejado y generalmente no aceptado por las compañías e inspecciones."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-73",
+        "question": "Un conductor principal de equipotencialidad es de aluminio. Si la sección mayor de protección es de 50 mm² de cobre, ¿cómo debe calcularse su sección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Determinando una sección de aluminio que presente una conductividad equivalente a la mitad de la de cobre.",
+            "isCorrect": true,
+            "explanation": "Cuando los materiales difieren, se debe garantizar una conductividad equivalente a la que resultaría de aplicar la regla general (mitad de Sp)."
+          },
+          {
+            "id": 2,
+            "answer": "Usando la misma sección de 50 mm² pero en aluminio.",
+            "isCorrect": false,
+            "explanation": "El aluminio tiene menos conductividad que el cobre; la sección debería ser mayor para ser equivalente."
+          },
+          {
+            "id": 3,
+            "answer": "Está prohibido usar aluminio para equipotencialidad.",
+            "isCorrect": false,
+            "explanation": "No está prohibido, pero requiere el cálculo de equivalencia y precauciones contra la corrosión en bornes."
+          },
+          {
+            "id": 4,
+            "answer": "Usando una sección fija de 16 mm² de aluminio.",
+            "isCorrect": false,
+            "explanation": "No es un valor fijo; depende de la sección mayor de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-74",
+        "question": "¿Qué valor de tensión se debe usar para dimensionar la separación de tierras si el tiempo de corte del defecto en AT es superior a 5 segundos?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "250 V.",
+            "isCorrect": true,
+            "explanation": "Para tiempos de eliminación de defecto largos (> 5s), el valor de referencia U para el cálculo de distancias de seguridad es de 250 V."
+          },
+          {
+            "id": 2,
+            "answer": "1200 V.",
+            "isCorrect": false,
+            "explanation": "1200 V se aplica para tiempos de corte rápidos (≤ 5s)."
+          },
+          {
+            "id": 3,
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "Es la tensión de seguridad para contactos, no el valor U de la fórmula de separación."
+          },
+          {
+            "id": 4,
+            "answer": "640 V.",
+            "isCorrect": false,
+            "explanation": "No es un valor estándar contemplado en este apartado de la instrucción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-75",
+        "question": "Al proyectar la toma de tierra de un local mojado, ¿qué límite de tensión de contacto no se debe superar?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "24 V.",
+            "isCorrect": true,
+            "explanation": "En locales o emplazamientos conductores (donde se incluyen mojados por asimilación de riesgo), el límite es 24 V."
+          },
+          {
+            "id": 2,
+            "answer": "50 V.",
+            "isCorrect": false,
+            "explanation": "50 V es para locales secos o no conductores."
+          },
+          {
+            "id": 3,
+            "answer": "12 V.",
+            "isCorrect": false,
+            "explanation": "12 V es para casos muy específicos (piscinas, fuentes) pero la regla general de locales conductores en esta ITC es 24 V."
+          },
+          {
+            "id": 4,
+            "answer": "0 V.",
+            "isCorrect": false,
+            "explanation": "Es ideal pero físicamente inalcanzable ante un defecto; se busca un límite seguro."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-76",
+        "question": "Se instala un anillo de tierra en un edificio nuevo. ¿Es obligatorio conectar este anillo a las armaduras metálicas de la cimentación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, para mejorar la resistencia total y asegurar la equipotencialidad de la estructura.",
+            "isCorrect": true,
+            "explanation": "La interconexión de todos los elementos metálicos enterrados (anillo y armaduras) es una práctica recomendada y exigida para una protección eficaz."
+          },
+          {
+            "id": 2,
+            "answer": "No, deben mantenerse separadas para evitar corrientes erráticas.",
+            "isCorrect": false,
+            "explanation": "La separación crearía riesgos de arcos eléctricos internos ante defectos."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si el edificio tiene más de 10 plantas.",
+            "isCorrect": false,
+            "explanation": "Es una medida de seguridad independiente de la altura del edificio."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se instalan picas en las esquinas del edificio.",
+            "isCorrect": false,
+            "explanation": "La conexión con las armaduras es beneficiosa siempre, con o sin picas adicionales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-77",
+        "question": "¿Cuál es la función del 'conductor de tierra funcional'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Asegurar el correcto funcionamiento de equipos electrónicos o de comunicaciones, sin ser necesariamente para protección de personas.",
+            "isCorrect": true,
+            "explanation": "Se usa para estabilizar potenciales de referencia o eliminar ruidos en equipos sensibles, diferenciándose de la tierra de seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "Sustituir al cable de neutro en caso de avería de la compañía.",
+            "isCorrect": false,
+            "explanation": "La tierra no debe usarse nunca como conductor de servicio permanente de retorno."
+          },
+          {
+            "id": 3,
+            "answer": "Llevar la corriente del rayo desde el tejado al suelo.",
+            "isCorrect": false,
+            "explanation": "Esa es la función del sistema de protección contra el rayo (pararrayos)."
+          },
+          {
+            "id": 4,
+            "answer": "Calentar el suelo mediante efecto Joule en sistemas de calefacción radiante.",
+            "isCorrect": false,
+            "explanation": "Es un conductor de referencia eléctrica, no de calefacción."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-78",
+        "question": "Un conductor de tierra de acero galvanizado enterrado tiene una sección de 25 mm². Está protegido mecánicamente. ¿Es correcta esta sección según la norma?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, si además está protegido contra la corrosión.",
+            "isCorrect": true,
+            "explanation": "Para acero galvanizado con protección contra la corrosión, el mínimo es 16 mm². Si tiene 25 mm² y protección, cumple de sobra."
+          },
+          {
+            "id": 2,
+            "answer": "No, para acero siempre debe ser 50 mm².",
+            "isCorrect": false,
+            "explanation": "50 mm² solo es el mínimo cuando no hay protección contra la corrosión."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, aunque no tuviera ninguna protección.",
+            "isCorrect": false,
+            "explanation": "Si no tuviera protección contra la corrosión, el mínimo para acero sería 50 mm², por lo que 25 mm² sería insuficiente."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se trata de una instalación provisional de menos de un mes.",
+            "isCorrect": false,
+            "explanation": "La norma no establece excepciones por brevedad de la instalación en este punto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-79",
+        "question": "Se va a instalar una red de tierra en un terreno de 'Calizas compactas'. ¿Qué dificultad técnica principal se espera según su resistividad orientativa?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una resistividad muy alta (1000 a 5000 Ω·m), dificultando obtener resistencias bajas.",
+            "isCorrect": true,
+            "explanation": "Las calizas compactas son muy malos conductores, lo que obliga a usar electrodos más extensos o profundos."
+          },
+          {
+            "id": 2,
+            "answer": "Una resistividad extremadamente baja que puede quemar los cables.",
+            "isCorrect": false,
+            "explanation": "Al contrario, su resistividad es alta, lo que significa que conduce mal la electricidad."
+          },
+          {
+            "id": 3,
+            "answer": "Que el terreno sea tan blando que las picas se hundan solas.",
+            "isCorrect": false,
+            "explanation": "Las calizas compactas son terrenos duros y difíciles de perforar."
+          },
+          {
+            "id": 4,
+            "answer": "Gran presencia de agua que obliga a sellar los electrodos.",
+            "isCorrect": false,
+            "explanation": "Las calizas compactas suelen ser secas o con agua solo en grietas (calizas agrietadas)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-80",
+        "question": "En el borne principal de tierra, se observa que todos los cables están unidos mediante un único tornillo que los aprieta a todos juntos. ¿Es esta una ejecución correcta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No, cada conductor debe poder ser desconectado individualmente para pruebas.",
+            "isCorrect": true,
+            "explanation": "La normativa exige que el borne permita la medida y comprobación, lo que implica poder soltar tramos sin desmontar toda la red de tierras."
+          },
+          {
+            "id": 2,
+            "answer": "Sí, siempre que el tornillo sea de acero inoxidable A4.",
+            "isCorrect": false,
+            "explanation": "El material del tornillo no compensa la falta de operatividad para mantenimiento."
+          },
+          {
+            "id": 3,
+            "answer": "Sí, ahorra espacio y garantiza que todos tengan el mismo potencial.",
+            "isCorrect": false,
+            "explanation": "Aunque garantiza potencial, impide el mantenimiento y la inspección periódica obligatoria."
+          },
+          {
+            "id": 4,
+            "answer": "Solo si se aplica grasa conductora entre los terminales.",
+            "isCorrect": false,
+            "explanation": "No es una solución que valide la falta de accesibilidad individual."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-81",
+        "question": "¿Qué se entiende por 'Masa' en el contexto de esta instrucción técnica?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Parte conductora de un equipo eléctrico que puede ser tocada y que normalmente no está en tensión, pero que puede estarlo en caso de fallo.",
+            "isCorrect": true,
+            "explanation": "Esta es la definición clásica de masa: elementos metálicos de envolventes o chasis que requieren ser puestos a tierra por seguridad."
+          },
+          {
+            "id": 2,
+            "answer": "El bloque de hormigón donde se clava la pica.",
+            "isCorrect": false,
+            "explanation": "El hormigón no es la masa a proteger, aunque pueda formar parte del sistema de tierra."
+          },
+          {
+            "id": 3,
+            "answer": "La cantidad total de cobre instalada en la zanja de tierra.",
+            "isCorrect": false,
+            "explanation": "Esa es la masa física del material, no el concepto eléctrico de 'masa'."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier persona que esté cerca de la instalación eléctrica.",
+            "isCorrect": false,
+            "explanation": "Las personas son sujetos a proteger, no 'masas' conductoras de la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-82",
+        "question": "Se planea instalar un electrodo de tierra en un lugar con flujo constante de agua subterránea (cerca de un arroyo). ¿Cuál es la recomendación del reglamento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Evitar esa zona o usar picas de gran longitud para alcanzar terrenos más estables y profundos.",
+            "isCorrect": true,
+            "explanation": "El flujo de agua puede lavar el terreno o variar la resistencia drásticamente; se recomienda profundidad para mayor estabilidad."
+          },
+          {
+            "id": 2,
+            "answer": "Sumergir el cobre directamente en el arroyo para tener resistencia cero.",
+            "isCorrect": false,
+            "explanation": "Prohibido por el reglamento debido a riesgos de corrosión y seguridad."
+          },
+          {
+            "id": 3,
+            "answer": "Usar electrodos de madera tratada para no contaminar el agua.",
+            "isCorrect": false,
+            "explanation": "La madera es aislante; no puede servir como electrodo de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Rodear el electrodo con una capa de arcilla seca e impermeable.",
+            "isCorrect": false,
+            "explanation": "Aislar el electrodo del agua ambiental pero también del contacto eléctrico con el suelo sería contraproducente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-83",
+        "question": "En un conductor de tierra enterrado, ¿cuál es la ventaja de que esté 'protegido mecánicamente' según la Tabla 1?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Permite reducir la sección mínima necesaria (ej. en cobre, de 16 a lo indicado en Sp).",
+            "isCorrect": true,
+            "explanation": "La protección mecánica (tubo, conducto) reduce el riesgo de rotura, permitiendo usar secciones menores que las exigidas para cables directamente enterrados."
+          },
+          {
+            "id": 2,
+            "answer": "Impide que el cable se caliente por el sol.",
+            "isCorrect": false,
+            "explanation": "El cable está enterrado, por lo que el sol no le afecta directamente; la protección es contra excavaciones o movimientos de tierra."
+          },
+          {
+            "id": 3,
+            "answer": "Aumenta la resistencia de la toma de tierra al evitar el contacto con piedras.",
+            "isCorrect": false,
+            "explanation": "Se busca lo contrario: baja resistencia. La protección protege al cable, no mejora el contacto eléctrico con el suelo."
+          },
+          {
+            "id": 4,
+            "answer": "Permite usar conductores de plástico conductor.",
+            "isCorrect": false,
+            "explanation": "No existen tales conductores permitidos por la norma para este fin."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-84",
+        "question": "Un técnico quiere realizar la línea de enlace con tierra (LET) con un conductor de aluminio. ¿Qué precaución debe tomar en el borne principal?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Utilizar terminales bimetálicos para evitar la corrosión galvánica si el borne es de cobre.",
+            "isCorrect": true,
+            "explanation": "La unión directa de aluminio y cobre en presencia de humedad provoca corrosión. Se requieren elementos de transición adecuados."
+          },
+          {
+            "id": 2,
+            "answer": "Pintar la conexión con esmalte de uñas rojo.",
+            "isCorrect": false,
+            "explanation": "No es una solución técnica aceptable ni profesional para prevenir la corrosión galvánica."
+          },
+          {
+            "id": 3,
+            "answer": "No hacer nada, el aluminio y el cobre son compatibles.",
+            "isCorrect": false,
+            "explanation": "Falso; son materiales con potenciales electroquímicos diferentes que reaccionan negativamente al contacto directo."
+          },
+          {
+            "id": 4,
+            "answer": "Usar siempre tornillos de madera para la fijación.",
+            "isCorrect": false,
+            "explanation": "Los tornillos de madera no tienen resistencia mecánica ni eléctrica para bornes industriales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-85",
+        "question": "¿Qué tramo de la instalación de tierra se denomina 'línea principal de tierra' (LPT)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El conductor que recorre el edificio y del que derivan las conexiones a las diferentes masas.",
+            "isCorrect": true,
+            "explanation": "Es la 'columna vertebral' de la red de tierra dentro del edificio."
+          },
+          {
+            "id": 2,
+            "answer": "El cable que va desde la pica hasta el contador.",
+            "isCorrect": false,
+            "explanation": "Ese es el conductor de tierra o línea de enlace con tierra (LET)."
+          },
+          {
+            "id": 3,
+            "answer": "La propia armadura metálica del pararrayos.",
+            "isCorrect": false,
+            "explanation": "No se denomina así en el esquema de la ITC-BT-18."
+          },
+          {
+            "id": 4,
+            "answer": "Cualquier cable verde-amarillo de la vivienda.",
+            "isCorrect": false,
+            "explanation": "Los cables finales son conductores de protección (Sp) o derivaciones, no la línea principal."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-86",
+        "question": "Al inspeccionar un puente de comprobación, se observa que está oxidado y la continuidad es dudosa. ¿Qué riesgo principal supone esto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que en caso de defecto, la corriente no llegue al electrodo, dejando las masas en tensión peligrosa.",
+            "isCorrect": true,
+            "explanation": "Una mala conexión en el camino a tierra invalida toda la protección del edificio."
+          },
+          {
+            "id": 2,
+            "answer": "Que el edificio consuma más energía eléctrica.",
+            "isCorrect": false,
+            "explanation": "La toma de tierra no influye en el consumo de energía activa de los receptores."
+          },
+          {
+            "id": 3,
+            "answer": "Que la compañía eléctrica cobre un recargo por reactiva.",
+            "isCorrect": false,
+            "explanation": "La red de tierras no tiene relación con el factor de potencia de la carga."
+          },
+          {
+            "id": 4,
+            "answer": "Que se produzcan interferencias en la señal de televisión por cable.",
+            "isCorrect": false,
+            "explanation": "Aunque puede haber ruidos, el riesgo crítico es la seguridad ante contactos eléctricos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-87",
+        "question": "Un conductor de protección común atiende a un circuito de alumbrado (1,5 mm²) y a uno de fuerza (6 mm²). ¿Qué sección mínima debe tener el tramo común si es de cobre?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "6 mm².",
+            "isCorrect": true,
+            "explanation": "Debe dimensionarse según la mayor sección de fase, que es 6 mm². Para S ≤ 16, Sp = S."
+          },
+          {
+            "id": 2,
+            "answer": "1,5 mm².",
+            "isCorrect": false,
+            "explanation": "Sería insuficiente para proteger el circuito de fuerza de 6 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "7,5 mm² (suma de ambos).",
+            "isCorrect": false,
+            "explanation": "No se suman las secciones; se toma la mayor de ellas."
+          },
+          {
+            "id": 4,
+            "answer": "4 mm².",
+            "isCorrect": false,
+            "explanation": "Es inferior a la sección de la fase mayor (6 mm²), incumpliendo la regla Sp = S."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-88",
+        "question": "En la instalación de un electrodo tipo 'malla', ¿qué ventaja principal ofrece respecto a una pica única?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Una mayor superficie de contacto y control de las tensiones de paso y contacto.",
+            "isCorrect": true,
+            "explanation": "La malla reparte el potencial de forma más uniforme en la superficie, reduciendo riesgos para las personas que caminan sobre ella."
+          },
+          {
+            "id": 2,
+            "answer": "Que es mucho más barata y rápida de instalar.",
+            "isCorrect": false,
+            "explanation": "Al contrario, requiere más material y excavación que una simple pica hincada."
+          },
+          {
+            "id": 3,
+            "answer": "Que no requiere borne de medida.",
+            "isCorrect": false,
+            "explanation": "Cualquier toma de tierra debe tener un punto de medida reglamentario."
+          },
+          {
+            "id": 4,
+            "answer": "Que puede instalarse sobre el asfalto sin excavar.",
+            "isCorrect": false,
+            "explanation": "Los electrodos deben estar enterrados en contacto con el suelo para ser efectivos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-89",
+        "question": "¿Cuál es la recomendación técnica para el uso de electrodos en zonas con gran presencia de sales corrosivas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aumentar los espesores de los electrodos y usar materiales con recubrimientos protectores adecuados.",
+            "isCorrect": true,
+            "explanation": "La corrosión reduce la sección útil del electrodo; en terrenos agresivos se debe sobredimensionar o usar materiales más resistentes."
+          },
+          {
+            "id": 2,
+            "answer": "Usar electrodos de plástico grafitado.",
+            "isCorrect": false,
+            "explanation": "No son materiales estándar ni validados para esta aplicación según la ITC."
+          },
+          {
+            "id": 3,
+            "answer": "No poner toma de tierra para que no se oxide nada.",
+            "isCorrect": false,
+            "explanation": "La seguridad es obligatoria; se deben buscar soluciones técnicas a la corrosión, no omitir la protección."
+          },
+          {
+            "id": 4,
+            "answer": "Cambiar el terreno por arena de sílice pura.",
+            "isCorrect": false,
+            "explanation": "La arena de sílice es muy mal conductora; se perdería la eficacia de la toma de tierra."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-90",
+        "question": "Se utiliza una envolvente de plomo de un cable de compañía como tierra (previa autorización). ¿Qué precaución adicional exige el reglamento?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Advertir al usuario de que cambios en ese cable pueden anular su puesta a tierra.",
+            "isCorrect": true,
+            "explanation": "Al depender de un elemento ajeno (el cable del propietario/compañía), el usuario debe saber que su seguridad depende de la integridad de ese cable."
+          },
+          {
+            "id": 2,
+            "answer": "Llenar la zanja con agua destilada cada semana.",
+            "isCorrect": false,
+            "explanation": "No es una medida práctica ni exigida por ninguna normativa."
+          },
+          {
+            "id": 3,
+            "answer": "Poner un cartel de 'Peligro Radioactividad' sobre el cable.",
+            "isCorrect": false,
+            "explanation": "El plomo no es radioactivo en este contexto y el cartel sería erróneo."
+          },
+          {
+            "id": 4,
+            "answer": "Instalar un pararrayos exclusivo para ese cable.",
+            "isCorrect": false,
+            "explanation": "No es una medida relacionada con el uso de la envolvente como tierra."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-91",
+        "question": "Un conductor de tierra de cobre enterrado tiene una sección de 16 mm². Está protegido contra la corrosión pero NO tiene protección mecánica. ¿Es reglamentario?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, cumple con el mínimo exigido en la Tabla 1 para esas condiciones.",
+            "isCorrect": true,
+            "explanation": "Para cobre protegido contra la corrosión y sin protección mecánica, el mínimo es 16 mm²."
+          },
+          {
+            "id": 2,
+            "answer": "No, debería ser de 25 mm² al no tener protección mecánica.",
+            "isCorrect": false,
+            "explanation": "25 mm² sería si no tuviera protección contra la corrosión tampoco. Al tenerla, se permite 16 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se instala a más de 2 metros de profundidad.",
+            "isCorrect": false,
+            "explanation": "La profundidad no compensa la falta de sección mínima obligatoria."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que sea de cable flexible de Clase 5.",
+            "isCorrect": false,
+            "explanation": "El tipo de cuerda (clase 2 o 5) no altera el requisito de sección mínima de la tabla."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-92",
+        "question": "En un sistema con conductor PEN (CPN), se decide instalar un interruptor diferencial. ¿Dónde debe conectarse el conductor PEN?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aguas arriba del diferencial, separándose en neutro y tierra antes de entrar al dispositivo.",
+            "isCorrect": true,
+            "explanation": "Un diferencial no puede funcionar si el neutro y la tierra están unidos aguas abajo de él, ya que las fugas no serían detectadas."
+          },
+          {
+            "id": 2,
+            "answer": "Directamente a uno de los bornes de salida del diferencial.",
+            "isCorrect": false,
+            "explanation": "El diferencial saltaría instantáneamente o no protegería nada si el PEN pasa por él como neutro y luego se deriva a masa."
+          },
+          {
+            "id": 3,
+            "answer": "No se pueden instalar diferenciales si existe conductor PEN.",
+            "isCorrect": false,
+            "explanation": "Se pueden y deben instalar, pero la separación PEN -> N + PE debe ser previa al diferencial."
+          },
+          {
+            "id": 4,
+            "answer": "A la carcasa metálica del interruptor diferencial únicamente.",
+            "isCorrect": false,
+            "explanation": "La carcasa no es el punto de conexión eléctrica del circuito de protección."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-93",
+        "question": "¿Qué valor aproximado de resistividad ρ (Ω·m) tiene la arcilla plástica según las tablas orientativas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "50.",
+            "isCorrect": true,
+            "explanation": "La Tabla 3 asigna el valor de 50 Ω·m a la arcilla plástica."
+          },
+          {
+            "id": 2,
+            "answer": "500.",
+            "isCorrect": false,
+            "explanation": "500 Ω·m es más propio de arenas arcillosas o calizas blandas."
+          },
+          {
+            "id": 3,
+            "answer": "10.",
+            "isCorrect": false,
+            "explanation": "Es un valor de terrenos muy húmedos o pantanosos."
+          },
+          {
+            "id": 4,
+            "answer": "3000.",
+            "isCorrect": false,
+            "explanation": "Corresponde a rocas muy resistentes como granitos."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-94",
+        "question": "Se desea instalar una placa de acero galvanizado como electrodo. ¿Qué espesor mínimo debe tener para ser aceptable?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "3 milímetros.",
+            "isCorrect": true,
+            "explanation": "Para acero galvanizado con 78 µm de recubrimiento, el espesor mínimo de la placa debe ser de 3 mm."
+          },
+          {
+            "id": 2,
+            "answer": "2 milímetros.",
+            "isCorrect": false,
+            "explanation": "2 mm es el mínimo para placas de cobre, no de acero."
+          },
+          {
+            "id": 3,
+            "answer": "5 milímetros.",
+            "isCorrect": false,
+            "explanation": "5 mm es el espesor mínimo para perfiles, pero para placas planas es 3 mm."
+          },
+          {
+            "id": 4,
+            "answer": "1 milímetro.",
+            "isCorrect": false,
+            "explanation": "Insuficiente; se corroería con demasiada rapidez en el subsuelo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-95",
+        "question": "¿Cuál es la fórmula para estimar la resistencia de una placa enterrada con perímetro P?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "R = 0,8 ρ / P.",
+            "isCorrect": true,
+            "explanation": "Esta es la fórmula simplificada que relaciona la resistividad y el perímetro para placas enterradas."
+          },
+          {
+            "id": 2,
+            "answer": "R = ρ / P.",
+            "isCorrect": false,
+            "explanation": "Falta el factor 0,8 característico de la geometría de la placa."
+          },
+          {
+            "id": 3,
+            "answer": "R = 2ρ / P.",
+            "isCorrect": false,
+            "explanation": "Esta forma se asemeja a la de conductores horizontales (2ρ/L), no es para placas."
+          },
+          {
+            "id": 4,
+            "answer": "R = ρ * P / 0,8.",
+            "isCorrect": false,
+            "explanation": "La relación matemática es inversa: a mayor perímetro, menor resistencia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-96",
+        "question": "En un terreno muy seco, se recomienda regar la zona de los electrodos antes de una medición crítica. ¿Por qué?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para aumentar temporalmente la conductividad del suelo y verificar el valor en las condiciones más favorables.",
+            "isCorrect": true,
+            "explanation": "La humedad mejora el contacto y baja la resistividad, permitiendo ver el potencial de mejora de la toma de tierra."
+          },
+          {
+            "id": 2,
+            "answer": "Para limpiar el polvo de los bornes de conexión.",
+            "isCorrect": false,
+            "explanation": "La limpieza superficial no es el objetivo de mojar el terreno."
+          },
+          {
+            "id": 3,
+            "answer": "Para que el telurómetro no se recaliente por el sol.",
+            "isCorrect": false,
+            "explanation": "El telurómetro no se ve afectado por la sequedad del terreno en su funcionamiento interno, sino en la precisión de la medida."
+          },
+          {
+            "id": 4,
+            "answer": "Es una práctica prohibida porque el agua destilada es cara.",
+            "isCorrect": false,
+            "explanation": "No está prohibida y no se requiere agua destilada para regar el terreno."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-97",
+        "question": "¿Qué conductores deben ir obligatoriamente identificados con el color verde-amarillo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Los conductores de protección y de equipotencialidad.",
+            "isCorrect": true,
+            "explanation": "Es el código de colores universal y normativo para diferenciar los circuitos de seguridad del resto."
+          },
+          {
+            "id": 2,
+            "answer": "Solo los conductores de fase R (L1).",
+            "isCorrect": false,
+            "explanation": "Las fases usan marrón, negro o gris, nunca verde-amarillo."
+          },
+          {
+            "id": 3,
+            "answer": "Los conductores de retorno del neutro.",
+            "isCorrect": false,
+            "explanation": "El neutro es azul claro."
+          },
+          {
+            "id": 4,
+            "answer": "Todos los cables enterrados independientemente de su función.",
+            "isCorrect": false,
+            "explanation": "La identificación por color depende de la función eléctrica, no de la ubicación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-98",
+        "question": "Al realizar un pozo de registro para una pica, ¿qué elemento debe quedar accesible para la inspección?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La conexión entre el conductor de tierra y el electrodo.",
+            "isCorrect": true,
+            "explanation": "Se debe poder verificar visualmente y probar la integridad de la unión principal en el terreno."
+          },
+          {
+            "id": 2,
+            "answer": "La punta inferior de la pica.",
+            "isCorrect": false,
+            "explanation": "La punta está hincada profundamente y no es necesario ni práctico que sea accesible."
+          },
+          {
+            "id": 3,
+            "answer": "El certificado de homologación del fabricante pegado a la pica.",
+            "isCorrect": false,
+            "explanation": "La documentación se guarda en el expediente técnico, no es necesario que esté físicamente en el pozo."
+          },
+          {
+            "id": 4,
+            "answer": "Una reserva de sal de 5 kg para futuras sequías.",
+            "isCorrect": false,
+            "explanation": "No es un requisito reglamentario."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-99",
+        "question": "Un conductor de tierra de cobre de 25 mm² se instala en una zanja sin protección adicional. ¿Cumple el criterio de sección mínima?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Sí, es la sección mínima para cobre sin protección mecánica ni contra corrosión.",
+            "isCorrect": true,
+            "explanation": "La Tabla 1 indica 25 mm² como mínimo para cobre en las condiciones más desfavorables de protección."
+          },
+          {
+            "id": 2,
+            "answer": "No, el mínimo es siempre 35 mm² para anillos.",
+            "isCorrect": false,
+            "explanation": "35 mm² es una recomendación, pero el mínimo legal obligatorio es 25 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "Solo si se envuelve en papel de aluminio antes de tapar la zanja.",
+            "isCorrect": false,
+            "explanation": "No es una práctica técnica válida ni exigida."
+          },
+          {
+            "id": 4,
+            "answer": "Sí, siempre que la zanja sea de arena de río.",
+            "isCorrect": false,
+            "explanation": "El tipo de relleno no altera el requisito de sección mínima del cable."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-100",
+        "question": "¿Cada cuánto tiempo se debe revisar obligatoriamente la continuidad de las uniones equipotenciales en una instalación industrial?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Al menos una vez cada cinco años.",
+            "isCorrect": true,
+            "explanation": "Es el periodo general de inspección y mantenimiento preventivo para el sistema de tierras fijado por la ITC-BT-18."
+          },
+          {
+            "id": 2,
+            "answer": "Cada vez que se cambie una bombilla.",
+            "isCorrect": false,
+            "explanation": "Es una periodicidad absurda y no técnica."
+          },
+          {
+            "id": 3,
+            "answer": "Anualmente por un organismo de control autorizado (OCA).",
+            "isCorrect": false,
+            "explanation": "Las inspecciones de la OCA tienen sus propios plazos (habitualmente 5 años para muchos locales), pero la ITC-BT-18 marca 5 años para la revisión general de tierras."
+          },
+          {
+            "id": 4,
+            "answer": "Solo cuando se produzca un accidente por contacto indirecto.",
+            "isCorrect": false,
+            "explanation": "El mantenimiento debe ser preventivo para evitar precisamente esos accidentes."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-18-101",
+        "question": "¿Cuáles de los siguientes elementos pueden utilizarse como electrodos de toma de tierra según el reglamento?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Armaduras de hormigón enterradas (excepto pretensadas).",
+            "isCorrect": true,
+            "explanation": "Están permitidas expresamente siempre que no sean pretensadas."
+          },
+          {
+            "id": 2,
+            "answer": "Picas o tubos verticales.",
+            "isCorrect": true,
+            "explanation": "Son uno de los electrodos más comunes y permitidos."
+          },
+          {
+            "id": 3,
+            "answer": "Canalizaciones metálicas de gas ciudad.",
+            "isCorrect": false,
+            "explanation": "Está prohibido su uso por riesgo de explosión e incendio."
+          },
+          {
+            "id": 4,
+            "answer": "Conductores desnudos enterrados.",
+            "isCorrect": true,
+            "explanation": "Pueden usarse formando anillos o mallas metálicas."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-102",
+        "question": "En el borne principal de tierra, ¿qué conductores deben estar interconectados obligatoriamente?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Conductores de tierra (LET).",
+            "isCorrect": true,
+            "explanation": "Unen los electrodos con el borne."
+          },
+          {
+            "id": 2,
+            "answer": "Conductores de protección (Sp).",
+            "isCorrect": true,
+            "explanation": "Unen las masas con el borne."
+          },
+          {
+            "id": 3,
+            "answer": "Conductores de unión equipotencial principal.",
+            "isCorrect": true,
+            "explanation": "Unen los servicios metálicos principales al sistema de tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Conductores activos de fase para equilibrar el potencial.",
+            "isCorrect": false,
+            "explanation": "Las fases nunca se conectan al borne de tierra; provocaría un cortocircuito franco."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-103",
+        "question": "Al dimensionar un conductor de protección Sp del mismo material que las fases, ¿cuáles de estas relaciones son correctas?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Si S ≤ 16 mm², Sp = S.",
+            "isCorrect": true,
+            "explanation": "Es la regla para secciones pequeñas."
+          },
+          {
+            "id": 2,
+            "answer": "Si 16 < S ≤ 35 mm², Sp = 16 mm².",
+            "isCorrect": true,
+            "explanation": "Es la sección mínima fija para este rango intermedio."
+          },
+          {
+            "id": 3,
+            "answer": "Si S > 35 mm², Sp = S / 2.",
+            "isCorrect": true,
+            "explanation": "Permite reducir el Sp a la mitad de la fase en grandes secciones."
+          },
+          {
+            "id": 4,
+            "answer": "Si S > 35 mm², Sp debe ser siempre de 50 mm².",
+            "isCorrect": false,
+            "explanation": "No es un valor fijo; depende de S (S/2)."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-104",
+        "question": "¿Qué requisitos debe cumplir el borne principal de tierra para ser considerado seguro y reglamentario?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ser desmontable necesariamente por medio de un útil.",
+            "isCorrect": true,
+            "explanation": "Evita manipulaciones accidentales sin herramientas."
+          },
+          {
+            "id": 2,
+            "answer": "Asegurar la continuidad eléctrica de todas las conexiones.",
+            "isCorrect": true,
+            "explanation": "Es su función técnica primordial."
+          },
+          {
+            "id": 3,
+            "answer": "Ser mecánicamente seguro.",
+            "isCorrect": true,
+            "explanation": "Debe soportar esfuerzos sin aflojarse ni romperse."
+          },
+          {
+            "id": 4,
+            "answer": "Estar pintado de azul para indicar que no lleva tensión.",
+            "isCorrect": false,
+            "explanation": "El azul es para el neutro; el borne de tierra no requiere pintura azul."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-105",
+        "question": "¿Bajo qué condiciones se permite que un conductor CPN (PEN) tenga una sección de solo 4 mm²?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Si el cable es de cobre.",
+            "isCorrect": true,
+            "explanation": "No se permite esta reducción en aluminio."
+          },
+          {
+            "id": 2,
+            "answer": "Si el cable es de tipo concéntrico.",
+            "isCorrect": true,
+            "explanation": "Es una exigencia constructiva específica."
+          },
+          {
+            "id": 3,
+            "answer": "Si las conexiones de continuidad están duplicadas en todos los puntos.",
+            "isCorrect": true,
+            "explanation": "Garantiza la seguridad ante el fallo de un borne."
+          },
+          {
+            "id": 4,
+            "answer": "Si alimenta una bombilla de menos de 60W.",
+            "isCorrect": false,
+            "explanation": "No depende de la potencia del receptor final, sino de las condiciones mecánicas y eléctricas de la línea."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-106",
+        "question": "¿Cuáles son los valores máximos de tensión de contacto que no deben superarse según el tipo de local?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "24 V en locales conductores.",
+            "isCorrect": true,
+            "explanation": "Es el límite de seguridad para entornos con mayor riesgo de choque."
+          },
+          {
+            "id": 2,
+            "answer": "50 V en locales secos o no conductores.",
+            "isCorrect": true,
+            "explanation": "Límite general para la mayoría de las instalaciones interiores."
+          },
+          {
+            "id": 3,
+            "answer": "230 V si la instalación tiene diferenciales de alta sensibilidad.",
+            "isCorrect": false,
+            "explanation": "Es la tensión de fase, totalmente peligrosa para el contacto directo/indirecto."
+          },
+          {
+            "id": 4,
+            "answer": "120 V en instalaciones industriales aisladas.",
+            "isCorrect": false,
+            "explanation": "No es un valor de tensión de seguridad reconocido en esta ITC."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-107",
+        "question": "¿Qué factores influyen directamente en la resistividad del terreno (ρ)?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "La humedad del suelo.",
+            "isCorrect": true,
+            "explanation": "El agua en el suelo facilita el transporte de iones."
+          },
+          {
+            "id": 2,
+            "answer": "La temperatura (especialmente el riesgo de heladas).",
+            "isCorrect": true,
+            "explanation": "El frío aumenta drásticamente la resistencia."
+          },
+          {
+            "id": 3,
+            "answer": "La naturaleza geológica del terreno (arcilla, arena, roca).",
+            "isCorrect": true,
+            "explanation": "Cada material tiene una conductividad intrínseca diferente."
+          },
+          {
+            "id": 4,
+            "answer": "La altitud sobre el nivel del mar.",
+            "isCorrect": false,
+            "explanation": "La altitud por sí sola no define la resistividad si no va asociada a cambios de temperatura/humedad."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-108",
+        "question": "¿Qué tipos de uniones se consideran 'eléctricamente correctas' para conectar conductores de tierra?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Grapas de conexión mecánicas.",
+            "isCorrect": true,
+            "explanation": "Deben ser específicas para tierras y asegurar presión permanente."
+          },
+          {
+            "id": 2,
+            "answer": "Soldadura aluminotérmica.",
+            "isCorrect": true,
+            "explanation": "Crea una unión molecular de muy baja resistencia."
+          },
+          {
+            "id": 3,
+            "answer": "Soldadura autógena.",
+            "isCorrect": true,
+            "explanation": "Es válida si se realiza correctamente con metales compatibles."
+          },
+          {
+            "id": 4,
+            "answer": "Cinta adhesiva conductora de grafito.",
+            "isCorrect": false,
+            "explanation": "No tiene resistencia mecánica ni fiabilidad eléctrica para corrientes de defecto."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-109",
+        "question": "Al realizar la separación de tierras entre un CT y una instalación de utilización, ¿qué condiciones pueden eximir de mantener la distancia de 15 metros?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que la tensión de defecto en el CT sea inferior a los límites establecidos (U).",
+            "isCorrect": true,
+            "explanation": "Si el potencial no es peligroso, se pueden unir."
+          },
+          {
+            "id": 2,
+            "answer": "Que el centro de transformación esté en un recinto aislado sin elementos metálicos comunes con el local de utilización.",
+            "isCorrect": true,
+            "explanation": "El aislamiento físico y eléctrico entre estructuras evita el riesgo."
+          },
+          {
+            "id": 3,
+            "answer": "Que la resistividad del terreno sea extremadamente baja (ρ < 10 Ω·m).",
+            "isCorrect": false,
+            "explanation": "La baja resistividad facilita la propagación del potencial, lo que podría obligar a distancias mayores si no se unen."
+          },
+          {
+            "id": 4,
+            "answer": "Que se instalen pararrayos en ambos edificios.",
+            "isCorrect": false,
+            "explanation": "La presencia de pararrayos no altera las reglas de separación de tierras de servicio/protección de AT y BT."
+          }
+        ],
+        "type": "multiple"
+      },
+      {
+        "id": "ITC-BT-18-110",
+        "question": "¿Cuáles son las prohibiciones expresas en el uso de conductores de protección?",
+        "multiple-response": true,
+        "options": [
+          {
+            "id": 1,
+            "answer": "Intercalar cualquier aparato o interruptor en su recorrido.",
+            "isCorrect": true,
+            "explanation": "La continuidad debe ser permanente."
+          },
+          {
+            "id": 2,
+            "answer": "Conectar masas en serie en un circuito de protección.",
+            "isCorrect": true,
+            "explanation": "Si un equipo se retira, no debe dejar sin tierra al resto."
+          },
+          {
+            "id": 3,
+            "answer": "Utilizar tuberías de gas como conductor de protección.",
+            "isCorrect": true,
+            "explanation": "Riesgo extremo de explosión ante defectos."
+          },
+          {
+            "id": 4,
+            "answer": "Usar el color azul para identificarlos.",
+            "isCorrect": true,
+            "explanation": "El azul es exclusivo para el neutro; usarlo en tierra induciría a errores fatales."
+          }
+        ],
+        "type": "multiple"
       }
     ]
   }
