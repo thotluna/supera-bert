@@ -2,1457 +2,3100 @@
   {
     "id": "ITC-BT-14-01",
     "type": "simple",
-    "question": "¿Cómo se define la Línea General de Alimentación (LGA)?",
+    "question": "En el diseño de un edificio de viviendas, se debe proyectar el enlace entre la Caja General de Protección y la centralización de contadores. ¿Cómo se denomina técnicamente este tramo de la instalación?",
     "options": [
       {
         "id": 1,
-        "answer": "La línea que une la red de distribución pública con la Caja General de Protección.",
+        "answer": "Acometida principal.",
         "isCorrect": false,
-        "explanation": "Esa es la definición de acometida, no de LGA."
+        "explanation": "La acometida es el tramo que une la red de distribución con la CGP, no el enlace interior."
       },
       {
         "id": 2,
-        "answer": "Aquella que enlaza la Caja General de Protección con la centralización de contadores.",
+        "answer": "Línea General de Alimentación.",
         "isCorrect": true,
-        "explanation": "El apartado 1 de la ITC-BT-14 define textualmente la LGA como la línea que enlaza la CGP con la centralización de contadores."
+        "explanation": "Según el apartado 1 de la ITC-BT-14, la Línea General de Alimentación (LGA) es la que enlaza la CGP con la centralización de contadores."
       },
       {
         "id": 3,
-        "answer": "La línea que va desde el contador hasta el cuadro interior de la vivienda.",
+        "answer": "Derivación individual colectiva.",
         "isCorrect": false,
-        "explanation": "Ese tramo se denomina derivación individual."
+        "explanation": "Este término no existe; las derivaciones individuales son las que parten desde los contadores hacia cada usuario."
       },
       {
         "id": 4,
-        "answer": "El cableado exclusivo de los servicios comunes del edificio.",
+        "answer": "Red de distribución interior.",
         "isCorrect": false,
-        "explanation": "La LGA alimenta los contadores de todo el edificio, no solo los servicios comunes."
+        "explanation": "Aunque es interior, su nombre normativo específico para este tramo de enlace es LGA."
       }
     ]
   },
   {
     "id": "ITC-BT-14-02",
     "type": "simple",
-    "question": "¿Se permite realizar derivaciones de una misma LGA para distintas centralizaciones?",
+    "question": "Un instalador debe alimentar dos centralizaciones de contadores situadas en diferentes zonas de un gran local comercial. ¿Qué permite el reglamento respecto a la Línea General de Alimentación?",
     "options": [
       {
         "id": 1,
-        "answer": "No, debe haber una LGA independiente para cada centralización.",
+        "answer": "Debe instalarse una LGA independiente desde la CGP para cada centralización.",
         "isCorrect": false,
-        "explanation": "El reglamento permite expresamente derivar una misma línea para varias centralizaciones."
+        "explanation": "El reglamento permite optimizar la instalación mediante derivaciones de una misma línea."
       },
       {
         "id": 2,
-        "answer": "Sí, siempre que las centralizaciones estén en la misma planta.",
-        "isCorrect": false,
-        "explanation": "La norma no restringe la derivación a que estén situadas en la misma planta."
+        "answer": "Se pueden realizar derivaciones de una misma línea para distintas centralizaciones.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-14 indica explícitamente que de una misma LGA pueden hacerse derivaciones para distintas centralizaciones."
       },
       {
         "id": 3,
-        "answer": "Sí, de una misma línea pueden hacerse derivaciones para distintas centralizaciones.",
-        "isCorrect": true,
-        "explanation": "El apartado 1 de la ITC-BT-14 establece que de una misma LGA pueden hacerse derivaciones para distintas centralizaciones de contadores."
+        "answer": "Solo se permite una centralización por cada LGA instalada.",
+        "isCorrect": false,
+        "explanation": "La normativa es flexible y permite alimentar varios puntos de medida desde una sola LGA principal."
       },
       {
         "id": 4,
-        "answer": "Solo si la LGA es de aluminio.",
+        "answer": "Las derivaciones solo están permitidas si la longitud total es inferior a 10 metros.",
         "isCorrect": false,
-        "explanation": "La posibilidad de realizar derivaciones aplica independientemente del material del conductor."
+        "explanation": "La ITC-BT-14 no impone una limitación de distancia específica para autorizar el uso de derivaciones."
       }
     ]
   },
   {
     "id": "ITC-BT-14-03",
     "type": "simple",
-    "question": "¿Cuál de los siguientes sistemas de instalación NO está permitido para la LGA?",
+    "question": "Se proyecta el uso de canales protectoras para alojar los conductores de la línea general. ¿Qué requisito de seguridad debe cumplir el sistema de apertura de estas canales?",
     "options": [
       {
         "id": 1,
-        "answer": "Conductores aislados en el interior de tubos empotrados o enterrados.",
+        "answer": "Deben ser de apertura rápida mediante clips manuales.",
         "isCorrect": false,
-        "explanation": "Este sistema está expresamente permitido en la normativa."
+        "explanation": "Los sistemas de apertura manual sin herramientas están prohibidos para la LGA por seguridad."
       },
       {
         "id": 2,
-        "answer": "Conductores aislados en canales protectoras cuya tapa se abra sin herramientas.",
+        "answer": "La tapa solo debe poder abrirse con la ayuda de un útil o herramienta.",
         "isCorrect": true,
-        "explanation": "El apartado 1 de la ITC-BT-14 exige que la tapa de las canales protectoras solo se pueda abrir con la ayuda de un útil."
+        "explanation": "El apartado 1 de la ITC-BT-14 exige que las canales protectoras tengan tapas que requieran un útil para su apertura."
       },
       {
         "id": 3,
-        "answer": "Canalizaciones eléctricas prefabricadas.",
+        "answer": "Deben estar selladas con obra de fábrica permanentemente.",
         "isCorrect": false,
-        "explanation": "Las canalizaciones prefabricadas son un sistema válido y permitido para la LGA."
+        "explanation": "Deben ser accesibles para mantenimiento, por lo que el uso de canales es válido si cumplen el requisito del útil."
       },
       {
         "id": 4,
-        "answer": "Conductores aislados en el interior de conductos cerrados de obra de fábrica.",
+        "answer": "No se permite el uso de canales para la LGA, solo tubos rígidos.",
         "isCorrect": false,
-        "explanation": "Los conductos cerrados de obra están permitidos para el alojamiento de la LGA."
+        "explanation": "Las canales son un sistema de instalación admitido siempre que cumplan las especificaciones de seguridad correspondientes."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-04",
+    "type": "simple",
+    "question": "En un edificio donde se instalan cajas de contadores concentradas por plantas, ¿qué conductor adicional debe incluirse obligatoriamente en la canalización de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un conductor de neutro reforzado.",
+        "isCorrect": false,
+        "explanation": "El neutro ya forma parte de la línea, no es un conductor adicional específico de esta configuración."
+      },
+      {
+        "id": 2,
+        "answer": "El conductor de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-14 establece que en concentraciones por plantas, la LGA incluirá obligatoriamente el conductor de protección."
+      },
+      {
+        "id": 3,
+        "answer": "Un hilo de mando para la discriminación horaria.",
+        "isCorrect": false,
+        "explanation": "El hilo de mando es propio de las derivaciones individuales, no de la LGA principal en este contexto."
+      },
+      {
+        "id": 4,
+        "answer": "Un cable de comunicaciones para la telegestión de los contadores.",
+        "isCorrect": false,
+        "explanation": "Aunque es común, no es una exigencia de la ITC-BT-14 para la constitución de la línea general."
       }
     ]
   },
   {
     "id": "ITC-BT-14-05",
     "type": "simple",
-    "question": "¿Qué elemento debe incluir SIEMPRE cualquier sistema de canalización de la LGA?",
+    "question": "Al planificar el trazado de la LGA en un edificio de nueva construcción, ¿qué criterio de ubicación debe primar según la normativa?",
     "options": [
       {
         "id": 1,
-        "answer": "Un hilo de telecontrol.",
+        "answer": "Debe discurrir por el interior de las viviendas para mayor protección.",
         "isCorrect": false,
-        "explanation": "La normativa no exige hilos de telecontrol en el tramo de la LGA."
+        "explanation": "El trazado por zonas privadas está prohibido; debe ir por zonas de uso común."
       },
       {
         "id": 2,
-        "answer": "El conductor de protección.",
+        "answer": "Será lo más corto y rectilíneo posible, discurriendo por zonas de uso común.",
         "isCorrect": true,
-        "explanation": "El apartado 1 de la ITC-BT-14 señala como norma imperativa que las canalizaciones incluirán en cualquier caso el conductor de protección."
+        "explanation": "El apartado 2 de la ITC-BT-14 obliga a que el trazado sea corto, rectilíneo y por zonas comunes."
       },
       {
         "id": 3,
-        "answer": "Una malla de apantallamiento electromagnético.",
+        "answer": "Debe seguir obligatoriamente el trazado de las tuberías de agua.",
         "isCorrect": false,
-        "explanation": "No se requiere apantallamiento electromagnético para la instalación de la LGA."
+        "explanation": "Se debe evitar la proximidad a otras canalizaciones, especialmente de agua o gas, para evitar riesgos."
       },
       {
         "id": 4,
-        "answer": "Un fusible térmico a lo largo del recorrido.",
+        "answer": "El trazado debe ser perimetral por el exterior del edificio.",
         "isCorrect": false,
-        "explanation": "La protección térmica de la línea se ubica en la CGP, no de forma distribuida en el canal."
+        "explanation": "Priorizar el trazado más corto suele implicar recorridos interiores por zonas comunes protegidas."
       }
     ]
   },
   {
     "id": "ITC-BT-14-06",
     "type": "simple",
-    "question": "¿Cómo debe ser el diseño del trazado de la línea general de alimentación?",
+    "question": "Se decide utilizar una bandeja metálica para la LGA. ¿Qué previsión de espacio debe mantenerse para permitir futuras ampliaciones?",
     "options": [
       {
         "id": 1,
-        "answer": "Discurrirá oculto dentro de las paredes de viviendas particulares.",
+        "answer": "Debe sobrar un 20% del espacio total de la bandeja.",
         "isCorrect": false,
-        "explanation": "Debe discurrir obligatoriamente por zonas de uso común, no privadas."
+        "explanation": "El requisito normativo no se mide en espacio libre total, sino en capacidad de ampliación de sección."
       },
       {
         "id": 2,
-        "answer": "Se diseñará haciendo curvas amplias por los techos.",
-        "isCorrect": false,
-        "explanation": "La norma exige evitar curvas en lo posible y priorizar trazados rectilíneos."
+        "answer": "Debe permitir la ampliación de la sección de los conductores en un 100%.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 exige que las dimensiones de las canalizaciones (salvo tubos) permitan ampliar la sección un 100%."
       },
       {
         "id": 3,
-        "answer": "Será lo más corto y rectilíneo posible, por zonas de uso común.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 indica que el trazado será lo más corto y rectilíneo posible por zonas de uso común."
+        "answer": "Basta con que permita doblar el número de cables de fase.",
+        "isCorrect": false,
+        "explanation": "La norma habla de capacidad de sección total, lo cual incluye también el neutro y la protección."
       },
       {
         "id": 4,
-        "answer": "Deberá bordear todo el perímetro exterior del edificio.",
+        "answer": "No se exige reserva de espacio si los cables actuales son de 50 mm2.",
         "isCorrect": false,
-        "explanation": "Rodear el perímetro exterior contradice la instrucción de realizar el trazado más corto posible."
+        "explanation": "La exigencia de ampliación del 100% es independiente de la sección inicial instalada."
       }
     ]
   },
   {
     "id": "ITC-BT-14-07",
     "type": "simple",
-    "question": "¿Qué margen de ampliación deben permitir las dimensiones de canales o bandejas?",
+    "question": "Durante la instalación de tubos rígidos para la línea general, un operario pregunta por el método de unión. ¿Qué requisitos deben cumplir estas uniones?",
     "options": [
       {
         "id": 1,
-        "answer": "Deben estar ajustadas exactamente al diámetro de los cables actuales.",
+        "answer": "Deben ser pegadas con adhesivo de secado rápido.",
         "isCorrect": false,
-        "explanation": "La norma exige prever holgura geométrica para futuras ampliaciones de carga."
+        "explanation": "El adhesivo no garantiza la imposibilidad de separación mecánica que exige la norma."
       },
       {
         "id": 2,
-        "answer": "Deben permitir la ampliación de la sección de los conductores en un 50%.",
-        "isCorrect": false,
-        "explanation": "El 50% es insuficiente según el requerimiento normativo para este tipo de conductos."
+        "answer": "Serán roscadas o embutidas, de modo que no puedan separarse los extremos.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 especifica que las uniones deben ser roscadas o embutidas para evitar separaciones."
       },
       {
         "id": 3,
-        "answer": "Deben permitir la ampliación de la sección de los conductores en un 100%.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 dicta que las dimensiones deberán permitir la ampliación de la sección en un 100%."
+        "answer": "Basta con que los tubos estén superpuestos 5 centímetros.",
+        "isCorrect": false,
+        "explanation": "La superposición simple sin sistema de fijación (rosca o embutición) es insuficiente para asegurar la canalización."
       },
       {
         "id": 4,
-        "answer": "Deben tener un volumen mínimo de 1 metro cúbico.",
+        "answer": "Deben soldarse térmicamente en todos los codos.",
         "isCorrect": false,
-        "explanation": "El requisito se define en porcentaje de ampliación de sección, no en volumen absoluto."
+        "explanation": "La soldadura no es un requisito; se prefieren sistemas mecánicos normalizados."
       }
     ]
   },
   {
     "id": "ITC-BT-14-08",
     "type": "simple",
-    "question": "¿Qué ITC rige si la LGA se instala en el interior de tubos enterrados?",
+    "question": "En un edificio donde la LGA debe subir verticalmente por varias plantas, ¿qué estructura de obra se requiere para su alojamiento?",
     "options": [
       {
         "id": 1,
-        "answer": "ITC-BT-06",
+        "answer": "Un patinillo compartido con las bajantes de saneamiento.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-06 es específica para redes de distribución aéreas."
+        "explanation": "La LGA debe ir por un conducto exclusivo para evitar riesgos derivados de fugas de agua."
       },
       {
         "id": 2,
-        "answer": "ITC-BT-07",
+        "answer": "Una canaladura o conducto de obra de fábrica empotrado o adosado al hueco de escalera.",
         "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 indica que en tubos enterrados se cumplirá lo especificado en la ITC-BT-07."
+        "explanation": "El apartado 2 de la ITC-BT-14 requiere un conducto de obra exclusivo por zonas de uso común."
       },
       {
         "id": 3,
-        "answer": "ITC-BT-09",
+        "answer": "Basta con que los tubos vayan grapados a la pared de la escalera.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-09 regula las instalaciones de alumbrado exterior."
+        "explanation": "En recorridos verticales por zonas comunes, se exige la protección adicional del conducto de obra."
       },
       {
         "id": 4,
-        "answer": "ITC-BT-19",
+        "answer": "Debe ir obligatoriamente por el hueco del ascensor.",
         "isCorrect": false,
-        "explanation": "La ITC-BT-19 trata sobre prescripciones generales de instalaciones interiores."
+        "explanation": "Está terminantemente prohibido usar el hueco del ascensor para canalizaciones ajenas al propio elevador."
       }
     ]
   },
   {
     "id": "ITC-BT-14-09",
     "type": "simple",
-    "question": "¿Cómo deben ejecutarse las uniones de los tubos rígidos que protegen la LGA?",
+    "question": "Se inspecciona un conducto de obra vertical para la LGA. ¿Qué características deben tener los registros de acceso en cada planta?",
     "options": [
       {
         "id": 1,
-        "answer": "Pegadas exclusivamente con cinta aislante.",
+        "answer": "Deben ser rejillas de ventilación permanente.",
         "isCorrect": false,
-        "explanation": "La cinta aislante no garantiza la integridad ni la resistencia mecánica de la unión."
+        "explanation": "El conducto no debe estar ventilado de forma que facilite la propagación de incendios."
       },
       {
         "id": 2,
-        "answer": "Dejando holgura de 2 mm para dilatación.",
-        "isCorrect": false,
-        "explanation": "La norma exige que las uniones aseguren que los extremos no puedan separarse."
+        "answer": "Deben ser registrables y precintables.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 exige que el conducto sea registrable y precintable en cada planta para inspección."
       },
       {
         "id": 3,
-        "answer": "Serán roscadas o embutidas, de modo que no puedan separarse.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 especifica que las uniones serán roscadas o embutidas para que no se separen los extremos"
+        "answer": "Deben estar tapiados tras el paso de los cables.",
+        "isCorrect": false,
+        "explanation": "Si se tapian, dejan de ser registrables, lo cual incumple la normativa de mantenimiento."
       },
       {
         "id": 4,
-        "answer": "Soldadas con autógena obligatoriamente.",
+        "answer": "Deben tener una cerradura de alta seguridad.",
         "isCorrect": false,
-        "explanation": "No se requiere soldadura; se permiten sistemas de rosca o embutición mecánica."
+        "explanation": "Aunque deben ser cerrados, el requisito específico es que sean precintables por la distribuidora."
       }
     ]
   },
   {
     "id": "ITC-BT-14-10",
     "type": "simple",
-    "question": "Cuando la LGA discurra verticalmente, ¿por dónde debe realizar su recorrido?",
+    "question": "Para prevenir la propagación de incendios en el conducto vertical de la LGA, ¿cada cuánto se deben establecer cortafuegos?",
     "options": [
       {
         "id": 1,
-        "answer": "Por la fachada exterior colgando libremente.",
+        "answer": "En cada planta del edificio.",
         "isCorrect": false,
-        "explanation": "Debe ir protegida y por zonas comunes interiores o canaladuras específicas."
+        "explanation": "Aunque es posible, la exigencia mínima reglamentaria es menos frecuente."
       },
       {
         "id": 2,
-        "answer": "Por el hueco del ascensor obligatoriamente.",
-        "isCorrect": false,
-        "explanation": "Está terminantemente prohibido instalar estas líneas por el hueco del ascensor."
+        "answer": "Se establecerán cortafuegos cada tres plantas, como mínimo.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 obliga a colocar elementos cortafuegos cada tres plantas para evitar el efecto chimenea."
       },
       {
         "id": 3,
-        "answer": "Por conducto de obra de fábrica empotrado o adosado al hueco de escalera.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 señala que verticalmente lo hará por conducto de obra adosado o empotrado al hueco de escalera"
+        "answer": "Solo al principio y al final del conducto.",
+        "isCorrect": false,
+        "explanation": "Sería insuficiente para detener el tiro térmico en caso de incendio en un edificio alto."
       },
       {
         "id": 4,
-        "answer": "A través de los salones de las viviendas superpuestas.",
+        "answer": "Cada 15 metros de recorrido lineal.",
         "isCorrect": false,
-        "explanation": "Los salones son recintos de propiedad privada y el trazado debe ser por zonas comunes."
+        "explanation": "La norma establece la periodicidad en función del número de plantas, no por metros."
       }
     ]
   },
   {
     "id": "ITC-BT-14-11",
     "type": "simple",
-    "question": "¿Cuándo está PROHIBIDO que la LGA vaya adosada al hueco de escalera?",
+    "question": "En la construcción del conducto para la línea general, ¿qué resistencia al fuego (RF) se exige a las paredes del mismo?",
     "options": [
       {
         "id": 1,
-        "answer": "Cuando el edificio tenga más de 10 plantas.",
+        "answer": "RF 30 (IE 30).",
         "isCorrect": false,
-        "explanation": "La altura del edificio no determina esta prohibición de trazado."
+        "explanation": "Este valor es el requerido para las tapas de registro, pero no para las paredes estructurales."
       },
       {
         "id": 2,
-        "answer": "Cuando la escalera sea de caracol.",
-        "isCorrect": false,
-        "explanation": "El diseño arquitectónico de la escalera no es el criterio reglamentario de exclusión."
+        "answer": "RF 120 (IE 120).",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 exige que las paredes del conducto tengan una resistencia al fuego de RF 120."
       },
       {
         "id": 3,
-        "answer": "Cuando los recintos sean protegidos conforme a la NBE-CPI-96.",
-        "isCorrect": true,
-        "explanation": "EN el apartado 2 de la ITC-BT-14 indica que no podrá ir por la escalera si estos recintos son protegidos conforme a la normativa contra incendios."
+        "answer": "RF 60 (IE 60).",
+        "isCorrect": false,
+        "explanation": "Es una resistencia insuficiente para los estándares de seguridad de las instalaciones de enlace."
       },
       {
         "id": 4,
-        "answer": "Nunca está prohibido; siempre debe ir por la escalera.",
+        "answer": "No se exige resistencia específica si los cables son libres de halógenos.",
         "isCorrect": false,
-        "explanation": "La protección contra incendios del recinto es prioritaria y puede prohibir esta disposición."
+        "explanation": "La resistencia de la envolvente de obra es independiente de la calidad del aislamiento del cable."
       }
     ]
   },
   {
     "id": "ITC-BT-14-12",
     "type": "simple",
-    "question": "En el diseño del conducto de obra, ¿qué condiciones se deben evitar?",
+    "question": "Se están fabricando las tapas metálicas para los registros del conducto de la LGA. ¿Qué resistencia al fuego mínima deben garantizar?",
     "options": [
       {
         "id": 1,
-        "answer": "Las curvas, cambios de dirección e influencia térmica de otras redes.",
+        "answer": "RF 30 (IE 30).",
         "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 indica que se deben evitar las curvas, cambios de dirección e influencia térmica de otras canalizaciones."
+        "explanation": "El apartado 2 de la ITC-BT-14 especifica que las tapas de registro deben tener una resistencia mínima de RF 30."
       },
       {
         "id": 2,
-        "answer": "Los tramos rectos superiores a 5 metros.",
+        "answer": "Deben tener la misma que las paredes (RF 120).",
         "isCorrect": false,
-        "explanation": "Se busca precisamente que el trazado sea lo más rectilíneo posible."
+        "explanation": "La normativa permite una resistencia menor en los elementos de registro respecto a la estructura del conducto."
       },
       {
         "id": 3,
-        "answer": "Que la pared esté pintada de color blanco.",
+        "answer": "Basta con que sean metálicas de 2 mm de espesor.",
         "isCorrect": false,
-        "explanation": "El color de la superficie no tiene implicaciones técnicas sobre el funcionamiento de la LGA."
+        "explanation": "El espesor no garantiza por sí solo la clasificación RF (resistencia al fuego) requerida."
       },
       {
         "id": 4,
-        "answer": "La proximidad a ventanas.",
+        "answer": "RF 60 (IE 60).",
         "isCorrect": false,
-        "explanation": "No existe una prohibición normativa específica respecto a la cercanía con ventanas en este punto."
+        "explanation": "Aunque es superior, el mínimo reglamentario para este punto concreto es de 30."
       }
     ]
   },
   {
     "id": "ITC-BT-14-13",
     "type": "simple",
-    "question": "¿Cada cuánto espacio debe tener registros el conducto de obra vertical?",
+    "question": "¿Cuáles son las dimensiones mínimas internas que debe tener el conducto de obra destinado a la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "Un registro cada 10 metros.",
+        "answer": "20 x 20 cm.",
         "isCorrect": false,
-        "explanation": "El requerimiento reglamentario se define por planta del edificio, no por métrica lineal."
+        "explanation": "Es insuficiente para garantizar la ventilación y la maniobrabilidad del cableado."
       },
       {
         "id": 2,
-        "answer": "Solo un registro en la planta baja y otro en la última.",
-        "isCorrect": false,
-        "explanation": "Dificultaría excesivamente las labores de tendido y mantenimiento del cableado."
+        "answer": "30 x 30 cm.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 fija las dimensiones mínimas del conducto en 30 x 30 cm."
       },
       {
         "id": 3,
-        "answer": "Será registrable y precintable en cada planta.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 establece que el conducto vertical será registrable y precintable en cada planta."
+        "answer": "50 x 50 cm.",
+        "isCorrect": false,
+        "explanation": "Supera las dimensiones mínimas; aunque es mejor técnicamente, el mínimo legal es 30x30 cm."
       },
       {
         "id": 4,
-        "answer": "No deben llevar registros para evitar manipulaciones.",
+        "answer": "Basta con que quepan los tubos con una holgura de 5 cm.",
         "isCorrect": false,
-        "explanation": "Los registros son obligatorios para permitir el acceso técnico a la línea."
+        "explanation": "La norma establece una medida geométrica fija para asegurar espacio de trabajo y seguridad."
       }
     ]
   },
   {
     "id": "ITC-BT-14-14",
     "type": "simple",
-    "question": "Para evitar el efecto chimenea en incendios, ¿qué medida exige la norma?",
+    "question": "En el proyecto eléctrico de un edificio, se plantea el uso de conductores de aluminio para la LGA. ¿Qué sección mínima debe proyectarse para cumplir la norma?",
     "options": [
       {
         "id": 1,
-        "answer": "Extractores de humo en el tejado.",
+        "answer": "10 mm2.",
         "isCorrect": false,
-        "explanation": "La normativa exige sistemas de cortafuegos pasivos, no ventilación mecánica forzada."
+        "explanation": "Esta es la sección mínima para conductores de cobre, no de aluminio."
       },
       {
         "id": 2,
-        "answer": "Se establecerán cortafuegos cada tres plantas, como mínimo.",
+        "answer": "16 mm2.",
         "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 ordena establecer cortafuegos cada tres plantas como mínimo para evitar el efecto chimenea."
+        "explanation": "El apartado 3 de la ITC-BT-14 establece que la sección mínima en aluminio será de 16 mm2."
       },
       {
         "id": 3,
-        "answer": "Rellenar todo el conducto con espuma.",
+        "answer": "25 mm2.",
         "isCorrect": false,
-        "explanation": "Anularía la posibilidad de realizar nuevas instalaciones o sustituciones de cables."
+        "explanation": "Aunque es una sección común, el mínimo reglamentario permitido empieza en 16 mm2."
       },
       {
         "id": 4,
-        "answer": "Aspersores de agua dentro del conducto.",
+        "answer": "50 mm2.",
         "isCorrect": false,
-        "explanation": "Está prohibida la coexistencia de redes de agua con canalizaciones eléctricas principales."
+        "explanation": "Es excesivo como requisito mínimo; la norma permite secciones desde 16 mm2."
       }
     ]
   },
   {
     "id": "ITC-BT-14-15",
     "type": "simple",
-    "question": "¿Qué Resistencia al Fuego (RF) deben tener las paredes del conducto de obra?",
+    "question": "¿Qué requisito de reacción al fuego se exige a los cables que forman la Línea General de Alimentación?",
     "options": [
       {
         "id": 1,
-        "answer": "RF 30",
+        "answer": "Cualquier cable con cubierta de PVC es válido.",
         "isCorrect": false,
-        "explanation": "RF 30 es el valor mínimo exigido para las tapas de registro, no para las paredes."
+        "explanation": "El PVC estándar propaga la llama y emite humos tóxicos, lo cual está prohibido en LGA."
       },
       {
         "id": 2,
-        "answer": "RF 60",
-        "isCorrect": false,
-        "explanation": "Grado de resistencia insuficiente según los estándares de seguridad para LGA."
+        "answer": "Deben tener una clase de reacción al fuego mínima Cca-s1b,d1,a1.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 exige la clase Cca-s1b,d1,a1 para garantizar seguridad frente a incendios."
       },
       {
         "id": 3,
-        "answer": "RF 90",
+        "answer": "Solo se exige que sean resistentes al fuego (tipo AS+).",
         "isCorrect": false,
-        "explanation": "Valor por debajo del requerimiento mínimo establecido para la obra civil del conducto."
+        "explanation": "La resistencia al fuego (mantener servicio durante el incendio) es opcional; lo obligatorio es la no propagación (AS)."
       },
       {
         "id": 4,
-        "answer": "RF 120",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 especifica que las paredes tendrán una resistencia al fuego de RF 120."
+        "answer": "Deben ser de clase Eca para instalaciones interiores.",
+        "isCorrect": false,
+        "explanation": "La clase Eca es insuficiente para locales de pública concurrencia o instalaciones de enlace."
       }
     ]
   },
   {
     "id": "ITC-BT-14-16",
     "type": "simple",
-    "question": "¿Qué Resistencia al Fuego (RF) mínima deben tener las tapas de registro del conducto vertical?",
+    "question": "En un suministro donde los contadores están totalmente centralizados, ¿cuál es la caída de tensión máxima permitida en la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "RF 15",
+        "answer": "1,5 %.",
         "isCorrect": false,
-        "explanation": "Valor de resistencia al fuego inferior al mínimo legal exigido por el reglamento."
+        "explanation": "Este valor suele aplicarse a derivaciones individuales, no a LGA centralizadas."
       },
       {
         "id": 2,
-        "answer": "RF 30",
+        "answer": "0,5 %.",
         "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 indica que las tapas de registro tendrán una resistencia al fuego mínima de RF 30."
+        "explanation": "El apartado 3 de la ITC-BT-14 limita la caída de tensión al 0,5% para contadores totalmente centralizados."
       },
       {
         "id": 3,
-        "answer": "RF 60",
+        "answer": "1,0 %.",
         "isCorrect": false,
-        "explanation": "Aunque es superior, el requisito normativo mínimo obligatorio es de 30."
+        "explanation": "El 1% se reserva para centralizaciones parciales, no para la centralización total."
       },
       {
         "id": 4,
-        "answer": "RF 120",
+        "answer": "2,0 %.",
         "isCorrect": false,
-        "explanation": "Este valor aplica a las paredes de obra del conducto, no a las tapas de registro."
+        "explanation": "Es un valor excesivo que afectaría a la calidad del suministro en los puntos de consumo."
       }
     ]
   },
   {
     "id": "ITC-BT-14-17",
     "type": "simple",
-    "question": "¿Cuáles son las dimensiones mínimas libres para el conducto de obra de la LGA?",
+    "question": "Para un edificio con centralizaciones parciales de contadores en distintas plantas, ¿qué caída de tensión máxima se admite para la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "10 x 10 cm.",
+        "answer": "0,5 %.",
         "isCorrect": false,
-        "explanation": "Espacio insuficiente para el alojamiento y manipulación de conductores de gran sección."
+        "explanation": "Este valor es para centralización única, siendo más restrictivo."
       },
       {
         "id": 2,
-        "answer": "15 x 20 cm.",
-        "isCorrect": false,
-        "explanation": "No cumple con el estándar de dimensiones mínimas fijado por el reglamento."
+        "answer": "1,0 %.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 permite hasta un 1% de caída de tensión en centralizaciones parciales."
       },
       {
         "id": 3,
-        "answer": "30 x 30 cm.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 dicta que las dimensiones mínimas del conducto serán de 30 x 30 cm."
+        "answer": "1,5 %.",
+        "isCorrect": false,
+        "explanation": "La norma no contempla este valor para el cálculo de la línea general de alimentación."
       },
       {
         "id": 4,
-        "answer": "50 x 50 cm.",
+        "answer": "No hay límite si se aumenta la sección del cable.",
         "isCorrect": false,
-        "explanation": "Supera las dimensiones mínimas obligatorias marcadas por la normativa."
+        "explanation": "El límite de caída de tensión es imperativo y condiciona precisamente el aumento de sección."
       }
     ]
   },
   {
     "id": "ITC-BT-14-18",
     "type": "simple",
-    "question": "¿Se puede compartir el conducto de la LGA con tuberías de gas o telecomunicaciones?",
+    "question": "Se está dimensionando el conductor neutro de una LGA de 70 mm2 de fase. ¿Qué criterio de sección debe seguirse según la tabla normativa?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, con una separación física de 10 cm.",
+        "answer": "El neutro debe ser siempre de la misma sección que las fases.",
         "isCorrect": false,
-        "explanation": "El conducto de la LGA es de uso completamente exclusivo por motivos de seguridad."
+        "explanation": "En secciones grandes, el neutro puede reducirse a aproximadamente el 50%."
       },
       {
         "id": 2,
-        "answer": "Sí, para ahorrar espacio en la edificación.",
-        "isCorrect": false,
-        "explanation": "El reglamento prohíbe estrictamente compartir este conducto con otros servicios."
+        "answer": "Tendrá una sección aproximada del 50% de la fase, no inferior a los valores de tabla.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 permite que el neutro sea del 50% de la fase bajo ciertas condiciones técnicas."
       },
       {
         "id": 3,
-        "answer": "No, se destinará exclusivamente a alojar la LGA y el conductor de protección.",
-        "isCorrect": true,
-        "explanation": "El apartado 2 de la ITC-BT-14 señala que se destinará única y exclusivamente a alojar la LGA y protección."
+        "answer": "La sección del neutro será siempre de 10 mm2 independientemente de la fase.",
+        "isCorrect": false,
+        "explanation": "El neutro debe guardar una proporción técnica con la fase para soportar desequilibrios."
       },
       {
         "id": 4,
-        "answer": "Solo se permite pasar agua potable.",
+        "answer": "Solo se permite reducir el neutro si los cables son de cobre.",
         "isCorrect": false,
-        "explanation": "La presencia de agua está prohibida y el conducto es de uso exclusivo eléctrico."
+        "explanation": "La reducción proporcional del neutro aplica tanto para cobre como para aluminio según la tabla 1."
       }
     ]
   },
   {
     "id": "ITC-BT-14-19",
     "type": "simple",
-    "question": "¿Cuántos conductores se deben utilizar generalmente en una red trifásica de LGA?",
+    "question": "¿Cuál es la sección mínima permitida para los conductores de una LGA fabricados en cobre?",
     "options": [
       {
         "id": 1,
-        "answer": "Dos de fase y uno de neutro.",
+        "answer": "6 mm2.",
         "isCorrect": false,
-        "explanation": "Dos fases no conforman el estándar de distribución trifásica general."
+        "explanation": "Esta sección es insuficiente para las corrientes de cortocircuito previsibles en una LGA."
       },
       {
         "id": 2,
-        "answer": "Tres de fase y uno de neutro.",
+        "answer": "10 mm2.",
         "isCorrect": true,
-        "explanation": "El apartado 3 de la ITC-BT-14 indica el uso de tres conductores de fase y uno de neutro."
+        "explanation": "El apartado 3 de la ITC-BT-14 establece que la sección mínima en cobre será de 10 mm2."
       },
       {
         "id": 3,
-        "answer": "Tres de fase, un neutro y dos de protección.",
+        "answer": "16 mm2.",
         "isCorrect": false,
-        "explanation": "La LGA incorpora un único conductor de protección según el diseño estándar."
+        "explanation": "Aunque recomendable, el mínimo legal para cobre es de 10 mm2."
       },
       {
         "id": 4,
-        "answer": "Solo tres fases, sin neutro.",
+        "answer": "25 mm2.",
         "isCorrect": false,
-        "explanation": "El neutro es obligatorio para el suministro de 230V a las viviendas."
+        "explanation": "Es una sección habitual, pero el límite inferior reglamentario es menor."
       }
     ]
   },
   {
     "id": "ITC-BT-14-20",
     "type": "simple",
-    "question": "¿De qué materiales permite la instrucción que sean los conductores de la LGA?",
+    "question": "Durante la instalación de una LGA por el hueco de una escalera, se informa que dicho recinto es 'protegido' según el Código Técnico (CTE). ¿Qué restricción aplica?",
     "options": [
       {
         "id": 1,
-        "answer": "Exclusivamente de cobre.",
+        "answer": "Debe usarse cable con doble aislamiento de silicona.",
         "isCorrect": false,
-        "explanation": "El reglamento permite el uso de aluminio como alternativa al cobre."
+        "explanation": "El aislamiento no cambia la restricción de paso por recintos protegidos."
       },
       {
         "id": 2,
-        "answer": "Cobre o aluminio.",
+        "answer": "La LGA no podrá ir adosada o empotrada a la zona de uso común.",
         "isCorrect": true,
-        "explanation": "El apartado 3 de la ITC-BT-14 establece que los conductores serán de cobre o de aluminio."
+        "explanation": "El apartado 2 de la ITC-BT-14 prohíbe el paso por escaleras o zonas comunes si estas son recintos protegidos."
       },
       {
         "id": 3,
-        "answer": "Únicamente de aluminio.",
+        "answer": "Debe aumentarse la resistencia al fuego de las tapas a RF 120.",
         "isCorrect": false,
-        "explanation": "El cobre está permitido y es el material más utilizado habitualmente."
+        "explanation": "La prohibición es sobre el trazado, no se soluciona aumentando la RF de los registros."
       },
       {
         "id": 4,
-        "answer": "Acero galvanizado.",
+        "answer": "Solo puede instalarse si el edificio tiene menos de 3 plantas.",
         "isCorrect": false,
-        "explanation": "El acero no posee la conductividad eléctrica requerida y no está contemplado."
+        "explanation": "La altura no anula la protección del recinto en términos de seguridad contra incendios."
       }
     ]
   },
   {
     "id": "ITC-BT-14-21",
     "type": "simple",
-    "question": "¿Qué formato físico deben tener los cables de la LGA?",
+    "question": "Un instalador propone realizar un empalme en la LGA para facilitar el tendido en un tramo difícil. ¿Es esto reglamentario?",
     "options": [
       {
         "id": 1,
-        "answer": "Serán multipolares.",
+        "answer": "Sí, siempre que se use una caja de bornes precintable.",
         "isCorrect": false,
-        "explanation": "Debido a las grandes secciones empleadas, la norma exige cables unipolares."
+        "explanation": "La norma prohíbe empalmes en el recorrido general para garantizar la integridad de la línea."
       },
       {
         "id": 2,
-        "answer": "Conductores desnudos sobre aisladores.",
-        "isCorrect": false,
-        "explanation": "Se exige obligatoriamente que los conductores de la LGA estén aislados."
+        "answer": "No, la sección de los cables debe ser uniforme y sin empalmes.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 prohíbe los empalmes, exigiendo una sección uniforme en todo el recorrido."
       },
       {
         "id": 3,
-        "answer": "Serán unipolares y aislados.",
-        "isCorrect": true,
-        "explanation": "El apartado 3 de la ITC-BT-14 especifica que serán de cobre o aluminio, unipolares y aislados."
+        "answer": "Solo si la longitud del tramo supera los 25 metros.",
+        "isCorrect": false,
+        "explanation": "La longitud no justifica la realización de empalmes intermedios en la LGA."
       },
       {
         "id": 4,
-        "answer": "Trenzados sin aislamiento.",
+        "answer": "Sí, pero solo en los conductores de fase, no en el neutro.",
         "isCorrect": false,
-        "explanation": "Es requisito indispensable que cuenten con su correspondiente capa de aislamiento."
+        "explanation": "La prohibición de empalmes aplica a todos los conductores que componen la línea general."
       }
     ]
   },
   {
     "id": "ITC-BT-14-22",
     "type": "simple",
-    "question": "¿Cuál debe ser la tensión asignada (aislamiento) de los cables de la LGA?",
+    "question": "¿En qué lugar específico se permite realizar una derivación de la Línea General de Alimentación?",
     "options": [
       {
         "id": 1,
-        "answer": "300/500 V",
+        "answer": "En cualquier caja de registro del hueco de escalera.",
         "isCorrect": false,
-        "explanation": "Nivel de aislamiento insuficiente para los requerimientos técnicos de una LGA."
+        "explanation": "Las cajas de registro de paso no deben usarse para realizar derivaciones de carga."
       },
       {
         "id": 2,
-        "answer": "450/750 V",
-        "isCorrect": false,
-        "explanation": "Este nivel se utiliza para derivaciones individuales y circuitos interiores menores."
+        "answer": "En el interior de cajas para alimentación de centralizaciones de contadores.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 permite derivaciones únicamente dentro de cajas destinadas a alimentar centralizaciones."
       },
       {
         "id": 3,
-        "answer": "0,6/1 kV",
-        "isCorrect": true,
-        "explanation": "El apartado 3 de la ITC-BT-14 especifica que la tensión asignada de los cables será de 0,6/1 kV."
+        "answer": "En el punto de entrada al edificio desde la vía pública.",
+        "isCorrect": false,
+        "explanation": "Ese punto suele ser la CGP, donde nace la línea, no donde se deriva hacia contadores."
       },
       {
         "id": 4,
-        "answer": "12/20 kV",
+        "answer": "Solo en la planta baja del edificio.",
         "isCorrect": false,
-        "explanation": "Corresponde a redes de media tensión, ajenas al ámbito de la baja tensión."
+        "explanation": "Se pueden realizar derivaciones en cualquier planta donde exista una centralización de contadores."
       }
     ]
   },
   {
     "id": "ITC-BT-14-23",
     "type": "simple",
-    "question": "¿Qué características exige la norma respecto al comportamiento del cable frente al fuego?",
+    "question": "Se instala una LGA en montaje superficial. ¿Qué requisito adicional se exige a la canal protectora respecto a su manipulación?",
     "options": [
       {
         "id": 1,
-        "answer": "Resistentes al fuego y de colores brillantes.",
+        "answer": "Debe estar pintada con pintura intumescente.",
         "isCorrect": false,
-        "explanation": "No se exige resistencia al fuego sino características de no propagación."
+        "explanation": "La pintura no sustituye los requisitos mecánicos de seguridad de la canal."
       },
       {
         "id": 2,
-        "answer": "No propagadores del incendio y con emisión de humos reducida.",
+        "answer": "Su tapa solo se podrá abrir con la ayuda de un útil.",
         "isCorrect": true,
-        "explanation": "El apartado 3 de la ITC-BT-14 especifica que los cables deben ser no propagadores con emisión de humos y opacidad reducida."
+        "explanation": "El apartado 1 de la ITC-BT-14 exige que las tapas de las canales no sean de apertura manual simple."
       },
       {
         "id": 3,
-        "answer": "Liberación de gases halógenos.",
+        "answer": "Debe ser transparente para permitir la inspección visual.",
         "isCorrect": false,
-        "explanation": "Se exige lo contrario, ya que los halógenos son tóxicos y corrosivos."
+        "explanation": "No se requiere transparencia; de hecho, suele ser opaca para proteger el aislamiento de los rayos UV."
       },
       {
         "id": 4,
-        "answer": "Que se fundan rápido para cortar la corriente.",
+        "answer": "Debe tener una resistencia al impacto mínima de IK 01.",
         "isCorrect": false,
-        "explanation": "La fusión del cable no es un mecanismo de seguridad válido ni reglamentario."
+        "explanation": "El valor IK 01 es extremadamente bajo; se requieren protecciones mecánicas mucho más robustas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-24",
+    "type": "simple",
+    "question": "En el caso de utilizar canalizaciones prefabricadas para la LGA, ¿qué norma específica de producto deben cumplir?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "UNE-EN 60.529.",
+        "isCorrect": false,
+        "explanation": "Esta norma regula los grados de protección de las envolventes (códigos IP)."
+      },
+      {
+        "id": 2,
+        "answer": "UNE-EN 61.439-6.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-14 especifica que las canalizaciones prefabricadas deben cumplir la norma UNE-EN 61.439-6."
+      },
+      {
+        "id": 3,
+        "answer": "UNE 21.123-4.",
+        "isCorrect": false,
+        "explanation": "Esta norma es para cables eléctricos, no para sistemas de canalización prefabricada (busbars)."
+      },
+      {
+        "id": 4,
+        "answer": "UNE-EN 60.364.",
+        "isCorrect": false,
+        "explanation": "Es una norma general de instalaciones eléctricas, no específica de canalizaciones prefabricadas."
       }
     ]
   },
   {
     "id": "ITC-BT-14-25",
     "type": "simple",
-    "question": "¿Qué característica al fuego deben tener los tubos plásticos de la LGA?",
+    "question": "Para una LGA instalada en el interior de un conducto de obra vertical, ¿qué altura mínima debe tener el borde inferior de la puerta del registro respecto al suelo?",
     "options": [
       {
         "id": 1,
-        "answer": "Intumescentes.",
+        "answer": "Debe estar a nivel del suelo para facilitar el acceso.",
         "isCorrect": false,
-        "explanation": "La normativa técnica no exige que los conductos sean intumescentes."
+        "explanation": "Estar a nivel del suelo aumenta el riesgo de entrada de agua o suciedad al conducto."
       },
       {
         "id": 2,
-        "answer": "Resistentes al fuego 120 minutos.",
-        "isCorrect": false,
-        "explanation": "La RF120 se exige a las paredes de obra, no a los tubos plásticos."
+        "answer": "Un mínimo de 30 cm del suelo.",
+        "isCorrect": true,
+        "explanation": "Aunque la ITC-BT-14 remite a la figura, el estándar de seguridad para registros de enlace se fija en 30 cm para evitar humedades."
       },
       {
         "id": 3,
-        "answer": "No propagadores de la llama.",
-        "isCorrect": true,
-        "explanation": "Los elementos de conducción deben ser no propagadores de la llama según UNE-EN 50085-1 y 50086-1."
+        "answer": "Al menos 1,5 metros para evitar el acceso de niños.",
+        "isCorrect": false,
+        "explanation": "Dificultaría el mantenimiento y no es un requisito de altura fijado por esta instrucción."
       },
       {
         "id": 4,
-        "answer": "No requieren protección al fuego.",
+        "answer": "No hay una altura mínima, depende del diseño arquitectónico.",
         "isCorrect": false,
-        "explanation": "Tanto cables como conducciones deben cumplir estrictas normas de protección."
+        "explanation": "Existen criterios de buena práctica y seguridad que desaconsejan registros a cota cero."
       }
     ]
   },
   {
     "id": "ITC-BT-14-26",
     "type": "simple",
-    "question": "¿Qué precaución se debe tomar si se emplea aluminio en la LGA?",
+    "question": "¿Qué se debe evitar fundamentalmente en el trazado vertical de una Línea General de Alimentación?",
     "options": [
       {
         "id": 1,
-        "answer": "Pintar los extremos de color verde.",
+        "answer": "El uso de conductores de cobre clase 5.",
         "isCorrect": false,
-        "explanation": "La pintura no resuelve los problemas eléctricos de conexión."
+        "explanation": "Los conductores flexibles (clase 5) están permitidos y facilitan la instalación."
       },
       {
         "id": 2,
-        "answer": "Evitar el deterioro por pares galvánicos.",
+        "answer": "La influencia térmica de otras canalizaciones del edificio.",
         "isCorrect": true,
-        "explanation": "Las conexiones de aluminio deben realizarse con técnicas que eviten el deterioro por pares galvánicos."
+        "explanation": "El apartado 2 de la ITC-BT-14 advierte explícitamente que deben evitarse las influencias térmicas ajenas."
       },
       {
         "id": 3,
-        "answer": "Soldarlos con estaño obligatoriamente.",
+        "answer": "Instalar el conductor de neutro en el mismo conducto que las fases.",
         "isCorrect": false,
-        "explanation": "La soldadura convencional de aluminio genera graves problemas de corrosión galvánica."
+        "explanation": "El neutro debe ir obligatoriamente en la misma canalización que los conductores activos."
       },
       {
         "id": 4,
-        "answer": "Usar sección un 500% mayor.",
+        "answer": "Que el conducto tenga más de dos caras de obra de fábrica.",
         "isCorrect": false,
-        "explanation": "La equivalencia técnica no requiere un aumento de sección tan desproporcionado."
+        "explanation": "Un conducto de obra suele estar cerrado por sus cuatro caras para garantizar la RF."
       }
     ]
   },
   {
     "id": "ITC-BT-14-27",
     "type": "simple",
-    "question": "¿Qué establece la normativa sobre los empalmes en la LGA?",
+    "question": "En una inspección, se observa que la LGA comparte el conducto de obra con una línea de fibra óptica. ¿Es esto correcto?",
     "options": [
       {
         "id": 1,
-        "answer": "Sección uniforme y sin empalmes.",
-        "isCorrect": true,
-        "explanation": "En el apartado 3 de la ITC-BT-14 se establece que la sección de los cables deberá ser uniforme en todo su recorrido y sin empalmes."
+        "answer": "Sí, porque la fibra óptica no conduce electricidad y no hay riesgo.",
+        "isCorrect": false,
+        "explanation": "La normativa de exclusividad es tajante: el conducto es solo para la LGA y protección."
       },
       {
         "id": 2,
-        "answer": "Un empalme cada 10 metros.",
-        "isCorrect": false,
-        "explanation": "Los empalmes restan fiabilidad y están prohibidos en el tramo general."
+        "answer": "No, el conducto se destinará única y exclusivamente a la LGA y protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 prohíbe el uso compartido del conducto con cualquier otro servicio."
       },
       {
         "id": 3,
-        "answer": "Empalmes permitidos dentro del conducto de obra.",
+        "answer": "Sí, siempre que los cables de fibra sean ignífugos.",
         "isCorrect": false,
-        "explanation": "Está prohibido realizar empalmes en el interior del recorrido de la línea."
+        "explanation": "La calidad del cable ajeno no anula la prohibición de uso compartido del espacio reservado."
       },
       {
         "id": 4,
-        "answer": "Reducir sección a partir del primer piso.",
+        "answer": "Solo si la separación entre cables es superior a 20 cm.",
         "isCorrect": false,
-        "explanation": "La sección debe mantenerse uniforme durante todo el recorrido reglamentario."
+        "explanation": "No se permite la coexistencia independientemente de la distancia física dentro del conducto."
       }
     ]
   },
   {
     "id": "ITC-BT-14-28",
     "type": "simple",
-    "question": "¿Cuál es la única excepción admitida para realizar empalmes en la LGA?",
+    "question": "¿Cuál es la tensión asignada que deben tener los conductores de la LGA para asegurar su aislamiento?",
     "options": [
       {
         "id": 1,
-        "answer": "Cuando se quede corto el cable.",
+        "answer": "450/750 V.",
         "isCorrect": false,
-        "explanation": "La falta de previsión en el tendido no justifica el incumplimiento de la norma."
+        "explanation": "Este nivel de aislamiento es insuficiente para una LGA según los requerimientos de la instrucción."
       },
       {
         "id": 2,
-        "answer": "En el cambio de enterrado a superficie.",
-        "isCorrect": false,
-        "explanation": "El cambio de sistema de instalación no exime de la obligación de continuidad."
+        "answer": "0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 exige conductores aislados con una tensión asignada de 0,6/1 kV."
       },
       {
         "id": 3,
-        "answer": "Derivaciones en cajas para centralizaciones de contadores.",
-        "isCorrect": true,
-        "explanation": "En el apartado 3 de la ITC-BT-14 se establece que se exceptúan las derivaciones realizadas en cajas para alimentar centralizaciones de contadores."
+        "answer": "1,5/3 kV.",
+        "isCorrect": false,
+        "explanation": "Es un nivel de aislamiento superior al necesario y no es el estándar fijado para baja tensión."
       },
       {
         "id": 4,
-        "answer": "Al pasar por el centro de transformación.",
+        "answer": "No se especifica tensión, solo que sean unipolares.",
         "isCorrect": false,
-        "explanation": "La LGA nace en la CGP y no contempla empalmes en el CT."
+        "explanation": "La tensión asignada es un parámetro crítico de seguridad definido explícitamente en la norma."
       }
     ]
   },
   {
     "id": "ITC-BT-14-29",
     "type": "simple",
-    "question": "¿Cuál es la sección mínima de fase para LGA en COBRE?",
+    "question": "Al conectar una LGA con conductores de aluminio, ¿qué precaución técnica es obligatoria?",
     "options": [
       {
         "id": 1,
-        "answer": "4 mm2",
+        "answer": "Cubrir la conexión con una capa de amianto.",
         "isCorrect": false,
-        "explanation": "Sección insuficiente para los requerimientos de potencia de una LGA."
+        "explanation": "El amianto es un material prohibido y peligroso; no tiene uso en conexiones eléctricas."
       },
       {
         "id": 2,
-        "answer": "6 mm2",
-        "isCorrect": false,
-        "explanation": "Es el mínimo para derivaciones individuales, no para la línea general."
+        "answer": "Usar técnicas que eviten potenciales peligrosos por pares galvánicos.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 advierte sobre los efectos de los pares galvánicos en las conexiones de aluminio."
       },
       {
         "id": 3,
-        "answer": "10 mm2",
-        "isCorrect": true,
-        "explanation": "En el apartado 3 de la ITC-BT-14 se establece que la sección mínima será de 10 mm2 en cobre."
+        "answer": "Soldar el aluminio al cobre directamente con soplete.",
+        "isCorrect": false,
+        "explanation": "La soldadura directa agrava la corrosión galvánica; se requieren terminales bimetálicos o técnicas adecuadas."
       },
       {
         "id": 4,
-        "answer": "16 mm2",
+        "answer": "Sumergir los bornes en aceite dieléctrico.",
         "isCorrect": false,
-        "explanation": "Aunque es válida, el mínimo legal reglamentario exigido es 10 mm2."
+        "explanation": "El uso de aceite no es una práctica normativa ni segura para estas conexiones de enlace."
       }
     ]
   },
   {
     "id": "ITC-BT-14-30",
     "type": "simple",
-    "question": "¿Cuál es la sección mínima de fase para LGA en ALUMINIO?",
+    "question": "¿Qué normativa debe consultarse para determinar la intensidad máxima admisible de los conductores de la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "10 mm2",
+        "answer": "La norma UNE-EN 60.529.",
         "isCorrect": false,
-        "explanation": "Este es el valor mínimo aplicado exclusivamente al conductor de cobre."
+        "explanation": "Esta norma se refiere a grados de protección IP, no a capacidades de corriente."
       },
       {
         "id": 2,
-        "answer": "16 mm2",
+        "answer": "La norma UNE HD 60.364-5-52.",
         "isCorrect": true,
-        "explanation": "En el apartado 3 de la ITC-BT-14 se establece que la sección mínima en aluminio será de 16 mm2."
+        "explanation": "El apartado 3 de la ITC-BT-14 remite a la norma UNE HD 60.364-5-52 para el cálculo de intensidades."
       },
       {
         "id": 3,
-        "answer": "25 mm2",
+        "answer": "La ITC-BT-06 exclusivamente.",
         "isCorrect": false,
-        "explanation": "Sección superior al requerimiento mínimo reglamentario."
+        "explanation": "La ITC-BT-06 es para líneas aéreas; la LGA suele ser interior o enterrada (remitiendo a la 07)."
       },
       {
         "id": 4,
-        "answer": "35 mm2",
+        "answer": "No se calcula, se usa siempre el valor de 400 Amperios.",
         "isCorrect": false,
-        "explanation": "Sección superior al requerimiento mínimo reglamentario."
+        "explanation": "La intensidad debe calcularse específicamente en función de la sección, el material y el tipo de instalación."
       }
     ]
   },
   {
     "id": "ITC-BT-14-31",
     "type": "simple",
-    "question": "¿Qué dos criterios simultáneos definen la sección de la LGA?",
+    "question": "En el cálculo de una LGA para un edificio de 20 plantas, ¿qué factor es prioritario para asegurar la estabilidad del neutro ante armónicos?",
     "options": [
       {
         "id": 1,
-        "answer": "Coste y resistencia a la tracción.",
+        "answer": "Instalar un segundo conductor de neutro en paralelo.",
         "isCorrect": false,
-        "explanation": "No son los parámetros técnicos de dimensionamiento eléctrico exigidos."
+        "explanation": "No se permite el desdoblamiento del neutro sin protecciones especiales; se debe dimensionar correctamente el único existente."
       },
       {
         "id": 2,
-        "answer": "Caída de tensión e intensidad máxima admisible.",
+        "answer": "Considerar las corrientes armónicas y el máximo desequilibrio previsible.",
         "isCorrect": true,
-        "explanation": "Se tendrá en cuenta tanto la máxima caída de tensión como la intensidad máxima admisible."
+        "explanation": "El apartado 3 de la ITC-BT-14 exige explícitamente tener en cuenta armónicos y desequilibrios para la sección del neutro."
       },
       {
         "id": 3,
-        "answer": "Peso de la columna y campo magnético.",
+        "answer": "Eliminar el neutro y usar un sistema de tierra IT.",
         "isCorrect": false,
-        "explanation": "No son factores determinantes en el cálculo de la sección activa."
+        "explanation": "El sistema de enlace en edificios de viviendas es habitualmente TT o TN, requiriendo neutro para los usuarios."
       },
       {
         "id": 4,
-        "answer": "Rigidez dieléctrica y poder de corte.",
+        "answer": "Usar un neutro de sección superior a las fases en un 200%.",
         "isCorrect": false,
-        "explanation": "El poder de corte refiere a protecciones, no a la sección del cable."
+        "explanation": "Aunque los armónicos pueden requerir mayor sección, no es una regla fija del 200% en esta instrucción."
       }
     ]
   },
   {
     "id": "ITC-BT-14-32",
     "type": "simple",
-    "question": "¿Caída de tensión máxima para LGA con contadores totalmente centralizados?",
+    "question": "Se proyecta una LGA enterrada bajo el pavimento de un garaje. ¿Qué instrucción técnica complementaria debe seguirse primordialmente?",
     "options": [
       {
         "id": 1,
-        "answer": "0,5 %",
-        "isCorrect": true,
-        "explanation": "Para LGA destinadas a contadores totalmente centralizados el límite es 0,5%."
+        "answer": "La ITC-BT-15 de derivaciones individuales.",
+        "isCorrect": false,
+        "explanation": "La 15 aplica al tramo posterior a los contadores, no a la línea general."
       },
       {
         "id": 2,
-        "answer": "1,0 %",
-        "isCorrect": false,
-        "explanation": "Este es el límite permitido para centralizaciones parciales."
+        "answer": "La ITC-BT-07 de redes subterráneas de distribución.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 remite a la ITC-BT-07 para instalaciones de cables enterrados."
       },
       {
         "id": 3,
-        "answer": "1,5 %",
+        "answer": "La ITC-BT-20 de instalaciones interiores.",
         "isCorrect": false,
-        "explanation": "Límite aplicable a las derivaciones individuales, no a este tipo de LGA."
+        "explanation": "Aunque es interior al edificio, la tipología constructiva de enterrado se rige por la 07."
       },
       {
         "id": 4,
-        "answer": "3,0 %",
+        "answer": "No requiere ITC específica por ir bajo hormigón.",
         "isCorrect": false,
-        "explanation": "Límite para circuitos finales o alumbrado, excesivo para la LGA."
+        "explanation": "Todas las instalaciones eléctricas deben cumplir las ITCs correspondientes a su tipología."
       }
     ]
   },
   {
     "id": "ITC-BT-14-33",
     "type": "simple",
-    "question": "¿Caída de tensión máxima para LGA con centralizaciones parciales?",
+    "question": "¿Cuál es la función principal de los cortafuegos exigidos en los conductos verticales de la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "0,5 %",
+        "answer": "Sujetar mecánicamente el peso de los cables.",
         "isCorrect": false,
-        "explanation": "Al ser centralizaciones repartidas, se permite una mayor caída en la LGA."
+        "explanation": "Esa es función de las bridas o soportes, no del elemento cortafuegos."
       },
       {
         "id": 2,
-        "answer": "1,0 %",
+        "answer": "Evitar el paso de humos y el 'efecto chimenea' durante un incendio.",
         "isCorrect": true,
-        "explanation": "Para LGA destinadas a centralizaciones parciales el límite es 1,0%."
+        "explanation": "El apartado 2 de la ITC-BT-14 justifica los cortafuegos para evitar la propagación vertical del fuego y humos."
       },
       {
         "id": 3,
-        "answer": "1,5 %",
+        "answer": "Aislar eléctricamente las distintas plantas del edificio.",
         "isCorrect": false,
-        "explanation": "Excede el límite fijado reglamentariamente para este tramo."
+        "explanation": "El aislamiento eléctrico lo proporciona la cubierta del cable; el cortafuegos es seguridad pasiva contra incendios."
       },
       {
         "id": 4,
-        "answer": "4,5 %",
+        "answer": "Servir de soporte para los equipos de medida.",
         "isCorrect": false,
-        "explanation": "Valor que incumple gravemente los límites legales de la instrucción."
+        "explanation": "Los contadores se sitúan en centralizaciones, no dentro de los cortafuegos del conducto LGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-34",
+    "type": "simple",
+    "question": "En un edificio de 4 plantas con centralización parcial de contadores en cada rellano, ¿cuál es el límite de caída de tensión desde la CGP hasta el último contador?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "0,5 %.",
+        "isCorrect": false,
+        "explanation": "Este valor es para centralización única, no aplicable aquí."
+      },
+      {
+        "id": 2,
+        "answer": "1,0 %.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 fija un máximo del 1% para LGA con centralizaciones parciales."
+      },
+      {
+        "id": 3,
+        "answer": "1,5 %.",
+        "isCorrect": false,
+        "explanation": "Es el límite habitual para la derivación individual, pero no para la LGA."
+      },
+      {
+        "id": 4,
+        "answer": "2,5 % si se justifica por cálculo de pérdidas.",
+        "isCorrect": false,
+        "explanation": "La norma no permite superar los límites de caída de tensión mediante justificaciones económicas o de diseño."
       }
     ]
   },
   {
     "id": "ITC-BT-14-35",
     "type": "simple",
-    "question": "¿A partir de qué datos se establece la previsión de potencias?",
+    "question": "Se observa que los cables de una LGA son de color azul, marrón, negro y gris. ¿A qué tipo de instalación se refiere el conductor gris?",
     "options": [
       {
         "id": 1,
-        "answer": "De lo que indique el fabricante.",
+        "answer": "Conductor de neutro.",
         "isCorrect": false,
-        "explanation": "La carga depende del diseño del edificio, no de la marca del cable."
+        "explanation": "El neutro se identifica obligatoriamente con el color azul."
       },
       {
         "id": 2,
-        "answer": "De acuerdo con la previsión establecida en la ITC-BT-10.",
+        "answer": "Una de las fases (L3).",
         "isCorrect": true,
-        "explanation": "La potencia se establece según la previsión de potencias de la ITC-BT-10."
+        "explanation": "Según la normativa de colores (UNE-EN 60445), el gris es uno de los colores estándar para fases en trifásica."
       },
       {
         "id": 3,
-        "answer": "Siempre un valor fijo de 50.000 W.",
+        "answer": "Conductor de protección (tierra).",
         "isCorrect": false,
-        "explanation": "Cada edificio requiere su propio cálculo técnico personalizado."
+        "explanation": "La tierra debe ser obligatoriamente de color verde-amarillo."
       },
       {
         "id": 4,
-        "answer": "De lo que solicite el propietario.",
+        "answer": "Hilo de mando para servicios comunes.",
         "isCorrect": false,
-        "explanation": "La previsión debe estar justificada por un cálculo normativo reglado."
+        "explanation": "El hilo de mando suele ser rojo o de otro color distintivo, no gris en la LGA."
       }
     ]
   },
   {
     "id": "ITC-BT-14-36",
     "type": "simple",
-    "question": "¿Qué fenómenos eléctricos se deben considerar para la sección del neutro?",
+    "question": "¿Qué requisito de montaje deben cumplir los tubos en montaje superficial destinados a la LGA para resistir impactos?",
     "options": [
       {
         "id": 1,
-        "answer": "Desequilibrio, armónicos y comportamiento ante protecciones.",
-        "isCorrect": true,
-        "explanation": "Se tendrán en cuenta desequilibrio, corrientes armónicas y comportamiento ante protecciones."
+        "answer": "Ser siempre de acero inoxidable.",
+        "isCorrect": false,
+        "explanation": "Se permiten tubos de otros materiales siempre que cumplan la resistencia mecánica exigida."
       },
       {
         "id": 2,
-        "answer": "Efecto corona y reactancia inductiva.",
-        "isCorrect": false,
-        "explanation": "El efecto corona es un fenómeno propio de la alta tensión."
+        "answer": "Tener una calidad mínima de impacto medio (grado 3).",
+        "isCorrect": true,
+        "explanation": "La tabla 2 de la ITC-BT-14 exige para montaje superficial una resistencia al impacto media (3) según UNE-EN 61386-1."
       },
       {
         "id": 3,
-        "answer": "Variaciones de frecuencia y humedad.",
+        "answer": "Estar protegidos por una capa de mortero de 5 cm.",
         "isCorrect": false,
-        "explanation": "No son los criterios normativos para el cálculo del neutro en LGA."
+        "explanation": "Si se cubren con mortero pasarían a ser montaje empotrado, no superficial."
       },
       {
         "id": 4,
-        "answer": "Poder electromagnético estático.",
+        "answer": "No requieren resistencia especial si van a más de 2,5 m de altura.",
         "isCorrect": false,
-        "explanation": "Concepto ajeno a los criterios de dimensionamiento de la instrucción."
+        "explanation": "La norma de calidad mínima del tubo es independiente de la altura de instalación en este tramo."
       }
     ]
   },
   {
     "id": "ITC-BT-14-37",
     "type": "simple",
-    "question": "¿Qué proporción aproximada debe tener el neutro respecto a la fase?",
+    "question": "En una LGA de aluminio de 150 mm2 de fase, ¿cuál es la sección mínima del neutro según los estándares de la tabla 1?",
     "options": [
       {
         "id": 1,
-        "answer": "El 10 % de la sección de fase.",
+        "answer": "50 mm2.",
         "isCorrect": false,
-        "explanation": "Sección insuficiente que causaría sobrecalentamiento por desequilibrios."
+        "explanation": "Para una fase de 150 mm2 en aluminio, el neutro correspondiente por tabla es superior."
       },
       {
         "id": 2,
-        "answer": "Aproximadamente el 50 por 100 del conductor de fase.",
+        "answer": "70 mm2.",
         "isCorrect": true,
-        "explanation": "El neutro tendrá una sección de aproximadamente el 50% de la fase, respetando la tabla 1."
+        "explanation": "La tabla 1 de la ITC-BT-14 indica un neutro de 70 mm2 para una fase de 150 mm2 en aluminio."
       },
       {
         "id": 3,
-        "answer": "Siempre el 100 % (igual que la fase).",
+        "answer": "95 mm2.",
         "isCorrect": false,
-        "explanation": "La norma permite la reducción en secciones grandes para optimizar la red."
+        "explanation": "Esta sección sería excesiva según la proporción del 50% y los valores de tabla."
       },
       {
         "id": 4,
-        "answer": "El doble que la fase.",
+        "answer": "150 mm2 (neutro total).",
         "isCorrect": false,
-        "explanation": "Sobredimensionamiento innecesario según los requisitos reglamentarios."
+        "explanation": "Aunque es técnicamente posible, la norma permite la reducción del neutro a 70 mm2 en este caso."
       }
     ]
   },
   {
     "id": "ITC-BT-14-38",
     "type": "simple",
-    "question": "En la LGA, si la fase de cobre es de 10 mm2, ¿qué neutro corresponde?",
+    "question": "Al proyectar una LGA empotrada, ¿qué grado de resistencia a la compresión mínima deben tener los tubos?",
     "options": [
       {
         "id": 1,
-        "answer": "5 mm2 (el 50%).",
+        "answer": "Muy ligera (grado 1).",
         "isCorrect": false,
-        "explanation": "La tabla no permite reducciones de neutro en calibres pequeños."
+        "explanation": "Grado insuficiente para soportar las cargas mecánicas del empotramiento."
       },
       {
         "id": 2,
-        "answer": "10 mm2.",
+        "answer": "Ligera (grado 2).",
         "isCorrect": true,
-        "explanation": "La Tabla 1 de la ITC-BT-14 especifica que para fase 10 (Cu) el neutro debe ser de 10 mm2."
+        "explanation": "La tabla de características mínimas de la ITC-BT-14 exige una compresión ligera (2) para tubos empotrados."
       },
       {
         "id": 3,
-        "answer": "16 mm2.",
+        "answer": "Fuerte (grado 4).",
         "isCorrect": false,
-        "explanation": "No se exige que el neutro supere la sección de fase en este caso."
+        "explanation": "Este grado se reserva habitualmente para instalaciones enterradas o de mayor riesgo mecánico."
       },
       {
         "id": 4,
-        "answer": "25 mm2.",
+        "answer": "No se especifica para empotrados, solo para enterrados.",
         "isCorrect": false,
-        "explanation": "Valor fuera de la correspondencia técnica de la tabla."
+        "explanation": "Todos los tipos de montaje tienen especificados grados mínimos de compresión e impacto."
       }
     ]
   },
   {
     "id": "ITC-BT-14-39",
     "type": "simple",
-    "question": "Para la LGA, ¿Qué diámetro de tubo requiere fase 16 mm2 en COBRE?",
+    "question": "¿Qué tipo de cable de cobre se suele utilizar para la LGA por su flexibilidad en el tendido por conductos?",
     "options": [
       {
         "id": 1,
-        "answer": "63 mm",
+        "answer": "Cable rígido de un solo hilo (Clase 1).",
         "isCorrect": false,
-        "explanation": "Diámetro insuficiente según los valores mínimos de la tabla."
+        "explanation": "Es extremadamente difícil de manejar en las secciones requeridas para la LGA."
       },
       {
         "id": 2,
-        "answer": "75 mm",
+        "answer": "Cable flexible de cobre (Clase 5).",
         "isCorrect": true,
-        "explanation": "La Tabla 1 de la ITC-BT-14 asigna a la Fase 16 (Cu) un diámetro exterior de tubo de 75 mm."
+        "explanation": "La nota 1 de la ITC-BT-14 permite conductores clase 5 (RZ1-K) por su facilidad de instalación."
       },
       {
         "id": 3,
-        "answer": "110 mm",
+        "answer": "Cable de hilos sectoriales rígidos.",
         "isCorrect": false,
-        "explanation": "Este diámetro corresponde a secciones mayores de conductores."
+        "explanation": "Aunque ahorra espacio, su rigidez lo hace poco práctico para tramos con curvas o conductos estrechos."
       },
       {
         "id": 4,
-        "answer": "125 mm",
+        "answer": "Cable desnudo trenzado.",
         "isCorrect": false,
-        "explanation": "Este diámetro corresponde a secciones mayores de conductores."
+        "explanation": "Los conductores de la LGA deben ser obligatoriamente aislados 0,6/1 kV."
       }
     ]
   },
   {
     "id": "ITC-BT-14-40",
     "type": "simple",
-    "question": "Para la LGA, si la fase es 16 mm2 en ALUMINIO, ¿se reduce el neutro?",
+    "question": "En un edificio donde la LGA discurre por un falso techo de una zona común, ¿qué sistema de conducción es obligatorio según la norma?",
     "options": [
       {
         "id": 1,
-        "answer": "Sí, al 50% siempre.",
+        "answer": "Cables tendidos directamente sobre el falso techo.",
         "isCorrect": false,
-        "explanation": "Se debe respetar el límite mínimo de sección para cada material."
+        "explanation": "Los cables deben estar protegidos por tubos, canales o ir en bandejas adecuadas."
       },
       {
         "id": 2,
-        "answer": "Sí, pero se redondea a 10 mm2.",
-        "isCorrect": false,
-        "explanation": "El mínimo para aluminio en esta tabla es superior a 10 mm2."
+        "answer": "Conductores aislados en el interior de tubos o canales protectoras.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-14 especifica que los conductores deben ir siempre protegidos por estos elementos."
       },
       {
         "id": 3,
-        "answer": "No, la Tabla 1 marca neutro de 16 mm2.",
-        "isCorrect": true,
-        "explanation": "Para fase 16 (Al), la Tabla 1 establece un neutro de 16 mm2."
+        "answer": "Basta con que el falso techo sea de material ignífugo.",
+        "isCorrect": false,
+        "explanation": "La ignifugación del techo no exime de la protección mecánica y eléctrica del cableado LGA."
       },
       {
         "id": 4,
-        "answer": "El aluminio no puede tener neutro.",
+        "answer": "Solo se permite el uso de tubos metálicos roscados.",
         "isCorrect": false,
-        "explanation": "El aluminio cuenta con neutro reglado en las tablas de correspondencia."
+        "explanation": "Se permiten tubos plásticos no propagadores de la llama si cumplen los grados IK/IP."
       }
     ]
   },
   {
     "id": "ITC-BT-14-41",
     "type": "simple",
-    "question": "En la LGA, para fases de 50 mm2, ¿qué sección de neutro?",
+    "question": "¿Cuál es la consecuencia técnica de no respetar el radio de curvatura mínimo de los cables en una LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "16 mm2.",
+        "answer": "Mejora la conductividad al acortar la distancia.",
         "isCorrect": false,
-        "explanation": "Valor muy inferior al 50% mínimo de seguridad."
+        "explanation": "No mejora la conductividad; al contrario, genera riesgos estructurales."
       },
       {
         "id": 2,
-        "answer": "25 mm2.",
+        "answer": "Deterioro del aislamiento y riesgo de cortocircuito por fatiga mecánica.",
         "isCorrect": true,
-        "explanation": "La Tabla 1 establece para fase 50 un neutro de 25 mm2."
+        "explanation": "Doblar excesivamente cables de gran sección daña el polietileno o XLPE del aislamiento."
       },
       {
         "id": 3,
-        "answer": "35 mm2.",
+        "answer": "Aumento de la caída de tensión por autoinducción.",
         "isCorrect": false,
-        "explanation": "Esta es la sección correspondiente a fases de 70 mm2."
+        "explanation": "El efecto inductivo es despreciable comparado con el riesgo de fallo del aislamiento."
       },
       {
         "id": 4,
-        "answer": "50 mm2.",
+        "answer": "Ninguna, los cables 0,6/1 kV son inmunes a la curvatura.",
         "isCorrect": false,
-        "explanation": "A partir de 16 mm2 no se exige igualdad de sección."
+        "explanation": "Todos los cables tienen un radio de curvatura especificado por fabricante para evitar daños."
       }
     ]
   },
   {
     "id": "ITC-BT-14-42",
     "type": "simple",
-    "question": "En la LGA, Si la fase es de 50 mm2, ¿qué diámetro de tubo?",
+    "question": "Al realizar una derivación para una centralización parcial, ¿dónde debe situarse la protección contra sobrecargas de dicha derivación?",
     "options": [
       {
         "id": 1,
-        "answer": "75 mm.",
-        "isCorrect": false,
-        "explanation": "El cableado no cabría con seguridad en un tubo de este diámetro."
+        "answer": "En el punto de conexión de la derivación con la LGA.",
+        "isCorrect": true,
+        "explanation": "Para proteger el tramo derivado, la protección debe estar lo más cerca posible del origen de la derivación."
       },
       {
         "id": 2,
-        "answer": "110 mm.",
+        "answer": "En la propia centralización de contadores.",
         "isCorrect": false,
-        "explanation": "Este diámetro corresponde a secciones inferiores (25 y 35 mm2)."
+        "explanation": "Si se pone al final, el cable de la derivación queda desprotegido ante un fallo intermedio."
       },
       {
         "id": 3,
-        "answer": "125 mm.",
-        "isCorrect": true,
-        "explanation": "La Tabla 1 asigna a la Fase 50 un diámetro de tubo de 125 mm."
+        "answer": "No requiere protección si el cable derivado es de la misma sección que la LGA.",
+        "isCorrect": false,
+        "explanation": "Aunque sea de la misma sección, el reglamento exige control y seccionamiento de las derivaciones."
       },
       {
         "id": 4,
-        "answer": "140 mm.",
+        "answer": "En la Caja General de Protección (CGP).",
         "isCorrect": false,
-        "explanation": "Diámetro asignado a secciones superiores de conductores."
+        "explanation": "Los fusibles de la CGP protegen la línea principal, no individualmente cada derivación parcial."
       }
     ]
   },
   {
     "id": "ITC-BT-14-43",
     "type": "simple",
-    "question": "En la LGA, ¿Qué diámetro de tubo se necesita para fase de 95 mm2?",
+    "question": "Se proyecta una LGA para una potencia de 100 kW. Si la caída de tensión calculada es del 0,8% para una centralización única, ¿qué medida debe tomarse?",
     "options": [
       {
         "id": 1,
-        "answer": "110 mm.",
+        "answer": "Ninguna, está dentro del límite permitido.",
         "isCorrect": false,
-        "explanation": "Tubo excesivamente estrecho para cuatro cables de ese calibre."
+        "explanation": "El límite para centralización única es 0,5%, por lo que 0,8% es un incumplimiento."
       },
       {
         "id": 2,
-        "answer": "125 mm.",
-        "isCorrect": false,
-        "explanation": "Corresponde a una sección de conductor de 50 mm2."
+        "answer": "Aumentar la sección de los conductores para reducir la caída de tensión.",
+        "isCorrect": true,
+        "explanation": "Al superar el 0,5% reglamentario, la única solución técnica válida es aumentar la sección."
       },
       {
         "id": 3,
-        "answer": "140 mm.",
-        "isCorrect": true,
-        "explanation": "La Tabla 1 indica para Fase 95 un diámetro de tubo de 140 mm."
+        "answer": "Cambiar los contadores a centralización parcial.",
+        "isCorrect": false,
+        "explanation": "Sería un cambio de diseño estructural del edificio injustificado solo por una mala selección de cable."
       },
       {
         "id": 4,
-        "answer": "160 mm.",
+        "answer": "Instalar un regulador de tensión en el origen de la línea.",
         "isCorrect": false,
-        "explanation": "Corresponde a secciones de conductores de 120 y 150 mm2."
+        "explanation": "No es una solución admitida por el REBT para compensar errores de dimensionamiento de la LGA."
       }
     ]
   },
   {
     "id": "ITC-BT-14-44",
     "type": "simple",
-    "question": "En la LGA, ¿Cuál es la sección máxima de fase listada en la Tabla 1?",
+    "question": "¿Qué grado de protección IP mínimo deben garantizar las canales protectoras instaladas en la LGA?",
     "options": [
       {
         "id": 1,
-        "answer": "Fase 150 mm2, tubo 160 mm.",
+        "answer": "IP44.",
         "isCorrect": false,
-        "explanation": "La tabla contempla calibres superiores a 150 mm2."
+        "explanation": "Es un grado elevado para interiores; la norma exige un mínimo básico de protección contra contactos."
       },
       {
         "id": 2,
-        "answer": "Fase 185 mm2, tubo 180 mm.",
-        "isCorrect": false,
-        "explanation": "Aunque presente, no es el valor máximo tabulado."
+        "answer": "IP2X.",
+        "isCorrect": true,
+        "explanation": "La tabla de características mínimas de la ITC-BT-14 exige un grado IP2X para canales y conductos."
       },
       {
         "id": 3,
-        "answer": "Fase 240 mm2, tubo 200 mm.",
-        "isCorrect": true,
-        "explanation": "La última fila de la Tabla 1 especifica Fase 240 con tubo de 200 mm."
+        "answer": "IP67.",
+        "isCorrect": false,
+        "explanation": "Grado de estanqueidad total, innecesario y desproporcionado para una LGA convencional de interior."
       },
       {
         "id": 4,
-        "answer": "Fase 300 mm2, tubo 250 mm.",
+        "answer": "No se exige grado IP si la canal es de PVC.",
         "isCorrect": false,
-        "explanation": "El calibre de 300 mm2 no figura en la Tabla 1 de esta ITC."
+        "explanation": "El grado IP es independiente del material y obligatorio para garantizar la seguridad frente a contactos accidentales."
       }
     ]
   },
   {
     "id": "ITC-BT-14-45",
     "type": "simple",
-    "question": "Em la LGA, con fase de 150 mm2, ¿de cuánto será el neutro según tabla?",
+    "question": "En un edificio antiguo se quiere renovar la LGA. ¿Se permite usar el mismo tubo de 40 mm de diámetro para meter cables nuevos de 50 mm2?",
     "options": [
       {
         "id": 1,
-        "answer": "50 mm2",
+        "answer": "Sí, si los cables entran con facilidad.",
         "isCorrect": false,
-        "explanation": "Sección de neutro correspondiente a fase de 95 mm2."
+        "explanation": "No solo deben entrar, sino cumplir con los diámetros mínimos de tabla para permitir ventilación."
       },
       {
         "id": 2,
-        "answer": "70 mm2",
+        "answer": "No, según la tabla 1, para cables de 50 mm2 se requiere un tubo de mayor diámetro.",
         "isCorrect": true,
-        "explanation": "La Tabla 1 asigna un neutro de 70 mm2 para la fase de 150 mm2."
+        "explanation": "La tabla 1 de la ITC-BT-14 asigna diámetros mínimos de tubo según la sección del cable para asegurar su integridad."
       },
       {
         "id": 3,
-        "answer": "95 mm2",
+        "answer": "Solo si se lubrican los cables con grasa especial.",
         "isCorrect": false,
-        "explanation": "Sección de neutro correspondiente a fase de 185 mm2."
+        "explanation": "La lubricación facilita el tendido pero no exime de cumplir los diámetros mínimos de seguridad."
       },
       {
         "id": 4,
-        "answer": "150 mm2",
+        "answer": "Sí, si se instala un ventilador al final del tubo.",
         "isCorrect": false,
-        "explanation": "No se exige el 100% de sección en este rango de calibres."
+        "explanation": "La ventilación forzada no es una medida paliativa para el incumplimiento de las dimensiones de canalización."
       }
     ]
   },
   {
     "id": "ITC-BT-14-46",
     "type": "simple",
-    "question": "¿A qué ITC remite la 14 para las reglas generales de tubos?",
+    "question": "¿Cómo afecta la temperatura ambiente de 40 ºC al dimensionamiento de la LGA según la instrucción?",
     "options": [
       {
         "id": 1,
-        "answer": "ITC-BT-21.",
-        "isCorrect": true,
-        "explanation": "El apartado 1 establece que los tubos cumplirán lo indicado en la ITC-BT-21."
+        "answer": "No afecta, los cálculos se hacen siempre a 25 ºC.",
+        "isCorrect": false,
+        "explanation": "Los 25 ºC son para instalaciones enterradas; para el resto se consideran 40 ºC."
       },
       {
         "id": 2,
-        "answer": "ITC-BT-09.",
-        "isCorrect": false,
-        "explanation": "La ITC-BT-09 es específica para alumbrado exterior."
+        "answer": "Es la temperatura de referencia para instalaciones no enterradas.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 indica que los valores de intensidad se refieren a una temperatura ambiente de 40 ºC fuera de tierra."
       },
       {
         "id": 3,
-        "answer": "ITC-BT-10.",
+        "answer": "Obliga a reducir la sección del cable un 10%.",
         "isCorrect": false,
-        "explanation": "Trata sobre previsión de cargas, no sobre la instalación física de tubos."
+        "explanation": "La temperatura elevada suele obligar a aumentar la sección para compensar la pérdida de capacidad de disipación."
       },
       {
         "id": 4,
-        "answer": "A ninguna, todo está en la 14.",
+        "answer": "Solo afecta si el edificio no tiene aire acondicionado.",
         "isCorrect": false,
-        "explanation": "La instrucción remite supletoriamente a la 21 para las reglas generales."
+        "explanation": "La norma establece una temperatura de diseño conservadora independientemente de la climatización."
       }
     ]
   },
   {
     "id": "ITC-BT-14-47",
     "type": "simple",
-    "question": "En la LGA para centralización total. ¿Qué caída de tensión usar?",
+    "question": "Un instalador detecta que la LGA de un centro comercial tiene empalmes realizados con regletas en el medio de un pasillo. ¿Qué debe indicar en su informe?",
     "options": [
       {
         "id": 1,
-        "answer": "0,5%",
-        "isCorrect": true,
-        "explanation": "Para centralizaciones totales, el apartado 3 de la ITC-BT-14 permite una caída del 0,5%."
+        "answer": "Que es correcto si las regletas están bien apretadas.",
+        "isCorrect": false,
+        "explanation": "Los empalmes están terminantemente prohibidos en el recorrido de la línea general."
       },
       {
         "id": 2,
-        "answer": "1,0%",
-        "isCorrect": false,
-        "explanation": "Límite aplicable exclusivamente a centralizaciones parciales."
+        "answer": "Que es un defecto grave, ya que la LGA debe ser continua y sin empalmes.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 prohíbe taxativamente los empalmes en la línea general de alimentación."
       },
       {
         "id": 3,
-        "answer": "1,5%",
+        "answer": "Que debe protegerse el empalme con resina epoxi.",
         "isCorrect": false,
-        "explanation": "Límite de caída aplicado a derivaciones individuales."
+        "explanation": "La protección adicional no legaliza una práctica prohibida por el reglamento de seguridad."
       },
       {
         "id": 4,
-        "answer": "3,0%",
+        "answer": "Que solo es fallo si las fases son de distinto color.",
         "isCorrect": false,
-        "explanation": "Superaría gravemente el límite de eficiencia permitido para LGA."
+        "explanation": "La integridad física de la línea es independiente de la codificación cromática de los conductores."
       }
     ]
   },
   {
     "id": "ITC-BT-14-48",
     "type": "simple",
-    "question": "En la LGA para centralizaciones parciales, ¿Qué caída de tensión usar?",
+    "question": "¿Qué característica mecánica deben tener los tubos destinados a una LGA enterrada bajo calzada?",
     "options": [
       {
         "id": 1,
-        "answer": "0,5%",
+        "answer": "Resistencia a la compresión ligera (grado 2).",
         "isCorrect": false,
-        "explanation": "En centralizaciones parciales se permite un margen mayor del 1,0%."
+        "explanation": "Este grado es para instalaciones empotradas en pared, no para calzadas."
       },
       {
         "id": 2,
-        "answer": "1,0%",
+        "answer": "Resistencia a la compresión fuerte (grado 4).",
         "isCorrect": true,
-        "explanation": "Para centralizaciones parciales el apartado 3 de la ITC-BT-14 fija un límite del 1,0%."
+        "explanation": "Para instalaciones bajo tierra con tráfico o cargas, se exige una resistencia a la compresión elevada (450 N o superior)."
       },
       {
         "id": 3,
-        "answer": "1,5%",
+        "answer": "Basta con que sean tubos de PVC flexible de doble pared.",
         "isCorrect": false,
-        "explanation": "Valor que excede el límite reglamentario para este tramo."
+        "explanation": "El tipo de pared ayuda, pero debe estar certificado el grado de compresión específico."
       },
       {
         "id": 4,
-        "answer": "No necesita calcularse.",
+        "answer": "No requieren resistencia especial si van a 1 metro de profundidad.",
         "isCorrect": false,
-        "explanation": "El cálculo de caída de tensión es obligatorio independientemente del trazado."
+        "explanation": "La profundidad no exime de que el material del tubo cumpla con los estándares mínimos de compresión."
       }
     ]
   },
   {
     "id": "ITC-BT-14-49",
     "type": "simple",
-    "question": "En la instalación de LGA en canaleta, ¿Cómo debe ser la tapa?",
+    "question": "Al proyectar una LGA con canalizaciones prefabricadas, ¿qué ventaja técnica destaca el reglamento sobre el uso de cables?",
     "options": [
       {
         "id": 1,
-        "answer": "Ser transparente.",
+        "answer": "Que no requieren conductor de protección.",
         "isCorrect": false,
-        "explanation": "No se exige visibilidad, priorizándose la opacidad protectora."
+        "explanation": "El conductor de protección es obligatorio en todos los sistemas de LGA."
       },
       {
         "id": 2,
-        "answer": "Solo se pueda abrir con la ayuda de un útil.",
+        "answer": "Facilitan el cumplimiento de la norma de no propagación de la llama.",
         "isCorrect": true,
-        "explanation": "El apartado 1 de la ITC-BT-14 exige que la tapa solo se pueda abrir con la ayuda de un útil."
+        "explanation": "Al ser sistemas cerrados y ensayados bajo UNE-EN 61439-6, ofrecen altas garantías de seguridad contra incendios."
       },
       {
         "id": 3,
-        "answer": "Abrirse fácilmente con los dedos.",
+        "answer": "Que permiten duplicar la tensión de suministro.",
         "isCorrect": false,
-        "explanation": "Está prohibido el acceso manual sin herramientas por seguridad."
+        "explanation": "La tensión de suministro la fija la red de la distribuidora, no el sistema de canalización interna."
       },
       {
         "id": 4,
-        "answer": "Sellada permanentemente.",
+        "answer": "Que son más baratas en todos los casos.",
         "isCorrect": false,
-        "explanation": "Debe permitir el acceso mediante herramienta para mantenimiento, no ser destructivo."
+        "explanation": "La normativa no valora criterios económicos, sino de seguridad y calidad técnica."
       }
     ]
   },
   {
     "id": "ITC-BT-14-50",
     "type": "simple",
-    "question": "Cortafuegos mínimos para LGA en conducto de 10 plantas:",
+    "question": "En el caso de una LGA de aluminio, ¿por qué es crítico evitar los pares galvánicos en las conexiones?",
     "options": [
       {
         "id": 1,
-        "answer": "Ninguno.",
+        "answer": "Porque el aluminio se vuelve magnético.",
         "isCorrect": false,
-        "explanation": "La norma exige cortafuegos intermedios para evitar el efecto chimenea."
+        "explanation": "No tiene relación con el magnetismo; es un proceso puramente electroquímico."
       },
       {
         "id": 2,
-        "answer": "Uno en el 5º piso.",
-        "isCorrect": false,
-        "explanation": "No cumpliría con la frecuencia mínima exigida por planta."
+        "answer": "Para evitar la corrosión del conductor y el aumento de la resistencia de contacto.",
+        "isCorrect": true,
+        "explanation": "El par galvánico entre aluminio y otros metales degrada la conexión, pudiendo provocar incendios por sobrecalentamiento."
       },
       {
         "id": 3,
-        "answer": "Al menos tres.",
-        "isCorrect": true,
-        "explanation": "Como dice la ITC-BT-14 apartado 2: Se deben establecer cortafuegos cada tres plantas como mínimo."
+        "answer": "Porque atrae a los rayos durante las tormentas.",
+        "isCorrect": false,
+        "explanation": "El riesgo de rayos no depende del tipo de conexión galvánica en la LGA interior."
       },
       {
         "id": 4,
-        "answer": "Uno en cada planta.",
+        "answer": "Para que los cables no cambien de color con el tiempo.",
         "isCorrect": false,
-        "explanation": "Aunque seguro, el requerimiento mínimo es cada tres plantas."
+        "explanation": "La estética no es el motivo de la prohibición; es la seguridad y continuidad eléctrica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-51",
+    "type": "simple",
+    "question": "¿Cuál es la tensión de ensayo dieléctrico mínima que deben soportar los cables de una LGA instalada?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "1.000 V durante 1 minuto.",
+        "isCorrect": false,
+        "explanation": "Este es el valor de aislamiento funcional, pero el ensayo de rigidez suele ser superior."
+      },
+      {
+        "id": 2,
+        "answer": "3.500 V en corriente alterna.",
+        "isCorrect": true,
+        "explanation": "Según las normas UNE citadas para cables 0,6/1 kV, el ensayo de rigidez dieléctrica se realiza a este nivel de tensión."
+      },
+      {
+        "id": 3,
+        "answer": "Solo se ensaya a la tensión de red (230/400 V).",
+        "isCorrect": false,
+        "explanation": "Para garantizar la seguridad ante sobretensiones, el cable debe soportar tensiones muy superiores a la de servicio."
+      },
+      {
+        "id": 4,
+        "answer": "500 V en corriente continua.",
+        "isCorrect": false,
+        "explanation": "Este valor corresponde a la medida de resistencia de aislamiento, no al ensayo de rigidez dieléctrica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-52",
+    "type": "simple",
+    "question": "En un edificio de oficinas, se instala la LGA por un patinillo técnico. ¿Qué distancia mínima debe mantenerse con las tuberías de calefacción?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "5 centímetros.",
+        "isCorrect": false,
+        "explanation": "Distancia insuficiente para evitar la influencia térmica negativa sobre el aislamiento del cable."
+      },
+      {
+        "id": 2,
+        "answer": "Se evitará la influencia térmica mediante distancia suficiente o aislamiento térmico.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 exige explícitamente evitar la influencia térmica de otras canalizaciones."
+      },
+      {
+        "id": 3,
+        "answer": "No hay distancia si el patinillo está bien ventilado.",
+        "isCorrect": false,
+        "explanation": "La ventilación ayuda, pero el calor por radiación o conducción requiere una separación física mínima o barrera térmica."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ir en patinillos distintos obligatoriamente.",
+        "isCorrect": false,
+        "explanation": "Pueden compartir patinillo si se garantiza la independencia y la no afección térmica recíproca."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-53",
+    "type": "simple",
+    "question": "¿Qué ocurre si la sección del conductor neutro de la LGA es inferior a la requerida por la carga de armónicos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se reduce el consumo eléctrico del edificio.",
+        "isCorrect": false,
+        "explanation": "No reduce el consumo; al contrario, genera pérdidas por calor e ineficiencia."
+      },
+      {
+        "id": 2,
+        "answer": "Se produce un sobrecalentamiento del neutro con riesgo de incendio.",
+        "isCorrect": true,
+        "explanation": "Los armónicos de tercer orden se suman en el neutro; si este no tiene sección suficiente, arderá por sobrecarga."
+      },
+      {
+        "id": 3,
+        "answer": "Los contadores dejan de medir correctamente.",
+        "isCorrect": false,
+        "explanation": "Los contadores miden potencia; el problema es físico y de seguridad en el conductor, no de medida."
+      },
+      {
+        "id": 4,
+        "answer": "Se activará automáticamente el fusible de la CGP.",
+        "isCorrect": false,
+        "explanation": "Los fusibles de la CGP suelen estar en las fases, no en el neutro, por lo que este podría quemarse sin que fundan los fusibles."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-54",
+    "type": "simple",
+    "question": "Se proyecta una LGA para un edificio industrial. ¿Qué caída de tensión debe considerarse si los contadores están en una centralización única?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "0,5 %.",
+        "isCorrect": true,
+        "explanation": "El límite del 0,5% aplica a cualquier edificio con centralización única, sea residencial o industrial."
+      },
+      {
+        "id": 2,
+        "answer": "1,5 %.",
+        "isCorrect": false,
+        "explanation": "Valor excesivo para una línea general de alimentación según la ITC-BT-14."
+      },
+      {
+        "id": 3,
+        "answer": "3,0 % si el suministro es en alta tensión.",
+        "isCorrect": false,
+        "explanation": "Esta instrucción regula solo el tramo de baja tensión desde la CGP."
+      },
+      {
+        "id": 4,
+        "answer": "No hay límite para industria si se usa transformador propio.",
+        "isCorrect": false,
+        "explanation": "Aun con transformador propio, el tramo LGA debe cumplir los límites de caída de tensión reglamentarios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-55",
+    "type": "simple",
+    "question": "¿Qué documento debe emitir la empresa distribuidora respecto al conducto de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Un certificado de idoneidad acústica.",
+        "isCorrect": false,
+        "explanation": "La acústica no es competencia de la distribuidora eléctrica en este ámbito."
+      },
+      {
+        "id": 2,
+        "answer": "Ninguno, pero tiene el derecho a precintar los registros.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 establece que el conducto debe ser precintable por la empresa distribuidora."
+      },
+      {
+        "id": 3,
+        "answer": "Un permiso de ocupación de vía pública.",
+        "isCorrect": false,
+        "explanation": "Este permiso lo otorga el Ayuntamiento, no la distribuidora eléctrica."
+      },
+      {
+        "id": 4,
+        "answer": "Una garantía de suministro de 10 años.",
+        "isCorrect": false,
+        "explanation": "La distribuidora garantiza la calidad del servicio, pero no emite garantías sobre la obra civil del edificio."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-56",
+    "type": "simple",
+    "question": "En un edificio de 10 plantas, ¿cuántos niveles de cortafuegos como mínimo deben existir en el conducto de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Uno en el sótano.",
+        "isCorrect": false,
+        "explanation": "Insuficiente para un edificio de 10 plantas; la norma exige mayor frecuencia."
+      },
+      {
+        "id": 2,
+        "answer": "Tres (aproximadamente uno cada tres plantas).",
+        "isCorrect": true,
+        "explanation": "Siguiendo la regla de 'cada tres plantas como mínimo', para 10 plantas se requieren al menos 3 niveles de sellado."
+      },
+      {
+        "id": 3,
+        "answer": "Diez (uno en cada planta).",
+        "isCorrect": false,
+        "explanation": "Sería la opción más segura, pero el mínimo reglamentario obligatorio es menor."
+      },
+      {
+        "id": 4,
+        "answer": "Ninguno si el conducto es de hormigón armado.",
+        "isCorrect": false,
+        "explanation": "El material del conducto no anula la necesidad de compartimentar el hueco interior ante incendios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-57",
+    "type": "simple",
+    "question": "Al elegir un tubo para una LGA empotrada en una pared de ladrillo, ¿qué código de resistencia al impacto debe figurar en su ficha técnica?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Grado 1 (muy ligero).",
+        "isCorrect": false,
+        "explanation": "Totalmente prohibido para aplicaciones de potencia por su fragilidad."
+      },
+      {
+        "id": 2,
+        "answer": "Grado 2 (ligero).",
+        "isCorrect": true,
+        "explanation": "La tabla 2 exige una resistencia al impacto ligera (2) para tubos empotrados en la LGA."
+      },
+      {
+        "id": 3,
+        "answer": "Grado 5 (muy fuerte).",
+        "isCorrect": false,
+        "explanation": "Grado industrial no requerido para un empotramiento convencional en edificación residencial."
+      },
+      {
+        "id": 4,
+        "answer": "No se usa código de grados, se usa el color del tubo.",
+        "isCorrect": false,
+        "explanation": "El color no garantiza propiedades mecánicas; se deben seguir los códigos numéricos de la norma UNE-EN 61386."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-58",
+    "type": "simple",
+    "question": "¿Qué material está prohibido utilizar como aislamiento en los cables de la LGA por su toxicidad en incendios?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Polietileno reticulado (XLPE).",
+        "isCorrect": false,
+        "explanation": "Es un material excelente y permitido por su buena resistencia térmica."
+      },
+      {
+        "id": 2,
+        "answer": "Compuestos halógenos como el PVC estándar.",
+        "isCorrect": true,
+        "explanation": "Los cables deben ser de baja emisión de humos y libres de halógenos (clase Cca-s1b,d1,a1)."
+      },
+      {
+        "id": 3,
+        "answer": "Etileno-propileno (EPR).",
+        "isCorrect": false,
+        "explanation": "Material permitido y muy utilizado en cables de tensión asignada 0,6/1 kV."
+      },
+      {
+        "id": 4,
+        "answer": "Caucho natural.",
+        "isCorrect": false,
+        "explanation": "No se usa en estas aplicaciones, pero el riesgo principal normativo se centra en prohibir los halógenos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-59",
+    "type": "simple",
+    "question": "Se instala una LGA superficial por un garaje. ¿Qué altura mínima de seguridad se recomienda si los tubos no son metálicos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "1,5 metros.",
+        "isCorrect": false,
+        "explanation": "Altura insuficiente en zonas de tránsito de vehículos donde hay riesgo de impacto."
+      },
+      {
+        "id": 2,
+        "answer": "2,5 metros o protección mecánica adicional.",
+        "isCorrect": true,
+        "explanation": "Aunque la ITC-BT-14 no da una cifra, remite a la ITC-BT-21 que fija los 2,5 m como cota de seguridad para tubos plásticos."
+      },
+      {
+        "id": 3,
+        "answer": "Basta con que estén por debajo del nivel de las luminarias.",
+        "isCorrect": false,
+        "explanation": "La posición respecto a las luces no garantiza seguridad frente a impactos mecánicos."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ir a ras de suelo para evitar el calor del techo.",
+        "isCorrect": false,
+        "explanation": "A ras de suelo el riesgo de impacto y humedad es máximo; es la peor ubicación posible."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-60",
+    "type": "simple",
+    "question": "En el caso de suministros de gran potencia, ¿por qué se prefiere el uso de canalizaciones prefabricadas frente al cable convencional?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Porque no tienen caída de tensión.",
+        "isCorrect": false,
+        "explanation": "Toda canalización tiene caída de tensión por resistencia óhmica."
+      },
+      {
+        "id": 2,
+        "answer": "Por su mejor disipación térmica y ahorro de espacio.",
+        "isCorrect": true,
+        "explanation": "Los busbars (prefabricadas) gestionan mejor el calor y ocupan mucho menos volumen que mazos de cables gruesos."
+      },
+      {
+        "id": 3,
+        "answer": "Porque permiten usar voltajes superiores a 1.000 V.",
+        "isCorrect": false,
+        "explanation": "El límite de baja tensión (1.000 V) aplica independientemente del sistema de canalización."
+      },
+      {
+        "id": 4,
+        "answer": "Porque no requieren proyecto técnico.",
+        "isCorrect": false,
+        "explanation": "Toda LGA en edificios de viviendas o industriales requiere proyecto técnico de ingeniería."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-61",
+    "type": "simple",
+    "question": "¿Qué dato técnico define si una LGA debe llevar conductor de protección incorporado en su canalización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La potencia total del edificio.",
+        "isCorrect": false,
+        "explanation": "La potencia obliga a secciones mayores, pero no define la presencia de la tierra en la canalización."
+      },
+      {
+        "id": 2,
+        "answer": "El esquema de centralización de contadores (concentración por plantas).",
+        "isCorrect": true,
+        "explanation": "El apartado 1 especifica que es obligatorio incluir protección en esquemas de concentración por plantas (2.2.3)."
+      },
+      {
+        "id": 3,
+        "answer": "Si el cable es de cobre o de aluminio.",
+        "isCorrect": false,
+        "explanation": "La exigencia del conductor de protección es independiente del material de los conductores activos."
+      },
+      {
+        "id": 4,
+        "answer": "La longitud de la línea si supera los 50 metros.",
+        "isCorrect": false,
+        "explanation": "La longitud afecta a la caída de tensión, no a la obligación estructural de incluir la tierra."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-62",
+    "type": "simple",
+    "question": "Al calcular la LGA para un local de pública concurrencia, ¿qué temperatura máxima de servicio se considera para un cable tipo RZ1-K?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "70 ºC.",
+        "isCorrect": false,
+        "explanation": "Esta es la temperatura máxima para cables con aislamiento de PVC."
+      },
+      {
+        "id": 2,
+        "answer": "90 ºC.",
+        "isCorrect": true,
+        "explanation": "El aislamiento de polietileno reticulado (R) del cable RZ1-K soporta hasta 90 ºC en régimen permanente."
+      },
+      {
+        "id": 3,
+        "answer": "160 ºC.",
+        "isCorrect": false,
+        "explanation": "Esta es la temperatura máxima admitida en caso de cortocircuito, no en servicio normal."
+      },
+      {
+        "id": 4,
+        "answer": "120 ºC.",
+        "isCorrect": false,
+        "explanation": "No es un estándar de temperatura de servicio para los materiales de aislamiento comunes en LGA."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-63",
+    "type": "simple",
+    "question": "Un perito observa que la LGA discurre por el rellano de una escalera que es vía de evacuación única. ¿Qué requisito debe cumplir el sistema de conducción?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de color rojo para indicar peligro.",
+        "isCorrect": false,
+        "explanation": "El color no aporta seguridad técnica en este contexto crítico de incendios."
+      },
+      {
+        "id": 2,
+        "answer": "Debe estar alojada en conducto de obra con RF 120.",
+        "isCorrect": true,
+        "explanation": "En zonas comunes y vías de evacuación, se exige la máxima protección mediante conductos de obra resistentes."
+      },
+      {
+        "id": 3,
+        "answer": "No puede haber ninguna instalación eléctrica en esa zona.",
+        "isCorrect": false,
+        "explanation": "Se permiten instalaciones si cumplen las estrictas normas de confinamiento y seguridad contra incendios."
+      },
+      {
+        "id": 4,
+        "answer": "Basta con que los cables sean clase Eca.",
+        "isCorrect": false,
+        "explanation": "La clase Eca está prohibida en LGA; se exige una clase mucho más alta (Cca-s1b,d1,a1)."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-64",
+    "type": "simple",
+    "question": "¿Qué indica el sufijo '(AS)' en la denominación de un cable para la línea general de alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aislamiento Superior.",
+        "isCorrect": false,
+        "explanation": "Significado incorrecto; no se refiere al nivel de aislamiento dieléctrico."
+      },
+      {
+        "id": 2,
+        "answer": "Alta Seguridad (No propagador del incendio, baja opacidad humos).",
+        "isCorrect": true,
+        "explanation": "El sufijo (AS) identifica a los cables con características especiales de seguridad frente al fuego."
+      },
+      {
+        "id": 3,
+        "answer": "Aluminio Sólido.",
+        "isCorrect": false,
+        "explanation": "El material se indica con el símbolo del elemento (Al), no con el sufijo (AS)."
+      },
+      {
+        "id": 4,
+        "answer": "Apto para Sótano.",
+        "isCorrect": false,
+        "explanation": "No es una clasificación de ubicación, sino de comportamiento ante el fuego."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-65",
+    "type": "simple",
+    "question": "Para una LGA de cobre con fases de 120 mm2, ¿qué diámetro exterior mínimo de tubo se requiere para el montaje según la tabla 1?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "110 mm.",
+        "isCorrect": false,
+        "explanation": "Este diámetro es para secciones menores; 120 mm2 requiere un tubo superior."
+      },
+      {
+        "id": 2,
+        "answer": "140 mm.",
+        "isCorrect": false,
+        "explanation": "Este diámetro es aplicable hasta secciones de 95 mm2; para 120 mm2 es insuficiente."
+      },
+      {
+        "id": 3,
+        "answer": "160 mm.",
+        "isCorrect": true,
+        "explanation": "La tabla 1 de la ITC-BT-14 especifica un diámetro exterior mínimo de tubo de 160 mm para conductores de 120 mm2."
+      },
+      {
+        "id": 4,
+        "answer": "90 mm.",
+        "isCorrect": false,
+        "explanation": "Diámetro insuficiente que impediría el tendido correcto y la disipación de calor."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-66",
+    "type": "simple",
+    "question": "Al realizar el cálculo de intensidades, ¿qué factor de corrección debe aplicarse si la LGA comparte tubo con otra línea?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "No se permite que la LGA comparta tubo con ninguna otra línea.",
+        "isCorrect": true,
+        "explanation": "La normativa de LGA exige independencia y exclusividad en sus conducciones para evitar riesgos."
+      },
+      {
+        "id": 2,
+        "answer": "Un factor de 0,8 por agrupamiento.",
+        "isCorrect": false,
+        "explanation": "No aplica factor porque la situación de agrupamiento está prohibida en este tramo."
+      },
+      {
+        "id": 3,
+        "answer": "Un factor de 1,2 por redundancia.",
+        "isCorrect": false,
+        "explanation": "Los factores de agrupamiento siempre son reductores de la capacidad de corriente, nunca aumentadores."
+      },
+      {
+        "id": 4,
+        "answer": "Solo se aplica si las líneas son de distintos abonados.",
+        "isCorrect": false,
+        "explanation": "La prohibición de compartir tubo es absoluta para la línea general de alimentación."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-67",
+    "type": "simple",
+    "question": "En un edificio con un solo usuario (ej: una nave industrial aislada), ¿existe físicamente la Línea General de Alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, siempre existe enlace entre CGP y contador.",
+        "isCorrect": false,
+        "explanation": "Si CGP y contador están en el mismo conjunto, el tramo de LGA no existe como tal."
+      },
+      {
+        "id": 2,
+        "answer": "No, se unifican las funciones y se pasa directamente a la derivación individual.",
+        "isCorrect": true,
+        "explanation": "En suministros para un solo usuario donde CGP y medida están juntos, la LGA queda suprimida técnicamente."
+      },
+      {
+        "id": 3,
+        "answer": "Sí, pero se denomina 'Acometida Interior'.",
+        "isCorrect": false,
+        "explanation": "Ese término no es normativo; la simplificación de la instalación de enlace elimina el concepto de LGA."
+      },
+      {
+        "id": 4,
+        "answer": "Obligatoriamente debe haber un tramo de al menos 1 metro de LGA.",
+        "isCorrect": false,
+        "explanation": "La normativa no obliga a crear tramos físicos de línea si los componentes están integrados."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-68",
+    "type": "simple",
+    "question": "¿Cuál es la principal razón por la que el REBT exige que la LGA discurra por zonas de uso común?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Para que los vecinos puedan vigilar que nadie robe energía.",
+        "isCorrect": false,
+        "explanation": "La vigilancia de fraude no es el objetivo de seguridad industrial de esta norma."
+      },
+      {
+        "id": 2,
+        "answer": "Para garantizar la accesibilidad permanente de la propiedad y la distribuidora.",
+        "isCorrect": true,
+        "explanation": "Al ser una línea de servicio colectivo, debe poder inspeccionarse y repararse sin entrar en propiedades privadas."
+      },
+      {
+        "id": 3,
+        "answer": "Para reducir el ruido de los electrones al pasar por las viviendas.",
+        "isCorrect": false,
+        "explanation": "Las instalaciones de enlace no generan ruidos acústicos que justifiquen esta medida."
+      },
+      {
+        "id": 4,
+        "answer": "Porque es donde el aire es más frío y el cable se calienta menos.",
+        "isCorrect": false,
+        "explanation": "La temperatura ambiente se considera constante (40 ºC) para el diseño, sea zona común o no."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-69",
+    "type": "simple",
+    "question": "Al realizar la previsión de potencia para dimensionar la LGA, ¿qué instrucción técnica complementaria debe consultarse obligatoriamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "ITC-BT-10.",
+        "isCorrect": true,
+        "explanation": "El apartado 3 de la ITC-BT-14 remite a la ITC-BT-10 para los cálculos de previsión de cargas."
+      },
+      {
+        "id": 2,
+        "answer": "ITC-BT-19.",
+        "isCorrect": false,
+        "explanation": "La 19 es sobre instalaciones interiores, no sobre previsión de cargas colectivas."
+      },
+      {
+        "id": 3,
+        "answer": "ITC-BT-52.",
+        "isCorrect": false,
+        "explanation": "La 52 regula la recarga de vehículos eléctricos, que es solo una parte de la previsión total."
+      },
+      {
+        "id": 4,
+        "answer": "Ninguna, la potencia la define el contrato de la distribuidora.",
+        "isCorrect": false,
+        "explanation": "El diseño técnico debe basarse en la previsión reglamentaria de la ITC-BT-10, no solo en contratos comerciales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-70",
+    "type": "simple",
+    "question": "Se detecta que una LGA de aluminio no tiene bornes bimetálicos en su conexión a la CGP de cobre. ¿Qué riesgo técnico existe?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Riesgo de descarga estática en la envolvente.",
+        "isCorrect": false,
+        "explanation": "El problema no es de estática, sino de integridad del contacto galvánico."
+      },
+      {
+        "id": 2,
+        "answer": "Corrosión galvánica que debilita la conexión y genera puntos calientes.",
+        "isCorrect": true,
+        "explanation": "El contacto directo Al-Cu genera corrosión; el calor resultante puede fundir los terminales o iniciar un fuego."
+      },
+      {
+        "id": 3,
+        "answer": "Cambio en la frecuencia de la corriente eléctrica (de 50 a 60 Hz).",
+        "isCorrect": false,
+        "explanation": "La frecuencia la dicta el generador de la red, no los materiales del borne de conexión."
+      },
+      {
+        "id": 4,
+        "answer": "No hay riesgo si los bornes están apretados con llave dinamométrica.",
+        "isCorrect": false,
+        "explanation": "El par de apriete es necesario, pero no evita la reacción química entre metales distintos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-71",
+    "type": "simple",
+    "question": "En la instalación de una LGA mediante canalización prefabricada (busbars), ¿qué grado de protección mínima debe tener frente a la entrada de objetos sólidos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "IP1X.",
+        "isCorrect": false,
+        "explanation": "Permitiría la entrada de objetos grandes; el mínimo exigido es el siguiente nivel."
+      },
+      {
+        "id": 2,
+        "answer": "IP2X.",
+        "isCorrect": true,
+        "explanation": "La ITC-BT-14 exige que cualquier sistema de conducción cerrado para la LGA garantice al menos un IP2X."
+      },
+      {
+        "id": 3,
+        "answer": "IPX4.",
+        "isCorrect": false,
+        "explanation": "Este código se refiere a protección contra líquidos, no contra objetos sólidos."
+      },
+      {
+        "id": 4,
+        "answer": "IP5X.",
+        "isCorrect": false,
+        "explanation": "Grado de protección contra polvo, no es el requisito mínimo general para busbars interiores."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-72",
+    "type": "simple",
+    "question": "¿Qué establece el reglamento sobre el uso de cables armados en una instalación de Línea General de Alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Están terminantemente prohibidos en interiores.",
+        "isCorrect": false,
+        "explanation": "No están prohibidos; de hecho, la norma contempla su uso en casos particulares."
+      },
+      {
+        "id": 2,
+        "answer": "Puede ser conveniente utilizarlos en instalaciones particulares según UNE 21.123.",
+        "isCorrect": true,
+        "explanation": "La nota 2 de la ITC-BT-14 permite variantes de cables armados o apantallados si es necesario por diseño."
+      },
+      {
+        "id": 3,
+        "answer": "Son obligatorios si la línea mide más de 100 metros.",
+        "isCorrect": false,
+        "explanation": "La longitud no impone el uso de armaduras; esta depende del riesgo de daño mecánico."
+      },
+      {
+        "id": 4,
+        "answer": "Solo se permiten si la armadura es de material plástico.",
+        "isCorrect": false,
+        "explanation": "Las armaduras suelen ser metálicas (flejes de acero o hilos) para ofrecer verdadera protección mecánica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-73",
+    "type": "simple",
+    "question": "Al realizar un cambio de dirección en un conducto de obra de la LGA, ¿cuál es la mejor práctica recomendada por la instrucción?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Usar codos de 90 grados cerrados para ahorrar espacio.",
+        "isCorrect": false,
+        "explanation": "Los codos cerrados dificultan el tendido de cables de gran sección y dañan el aislamiento."
+      },
+      {
+        "id": 2,
+        "answer": "Evitar curvas y cambios de dirección en lo posible.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 recomienda explícitamente evitar cambios de dirección para facilitar la instalación."
+      },
+      {
+        "id": 3,
+        "answer": "Rellenar la curva con arena para evitar vibraciones.",
+        "isCorrect": false,
+        "explanation": "La arena en un conducto vertical de obra crearía una carga peligrosa e impediría el mantenimiento."
+      },
+      {
+        "id": 4,
+        "answer": "Hacer la curva fuera del conducto de obra y luego volver a entrar.",
+        "isCorrect": false,
+        "explanation": "La línea debe estar confinada y protegida durante todo su recorrido por el conducto resistente al fuego."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-74",
+    "type": "simple",
+    "question": "En un edificio de 6 plantas, se quiere colocar un registro cada dos plantas en el conducto vertical. ¿Cumple esto la normativa?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, es suficiente para edificios de poca altura.",
+        "isCorrect": false,
+        "explanation": "La norma exige registro en cada planta, independientemente de la altura total."
+      },
+      {
+        "id": 2,
+        "answer": "No, el conducto debe ser registrable y precintable en cada planta.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 de la ITC-BT-14 obliga a disponer de registros en todas las plantas del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "Solo si se instalan cámaras de vigilancia en los rellanos sin registro.",
+        "isCorrect": false,
+        "explanation": "La videovigilancia no sustituye la necesidad técnica de acceso físico a la línea."
+      },
+      {
+        "id": 4,
+        "answer": "Sí, si se compensa poniendo dos cortafuegos por planta.",
+        "isCorrect": false,
+        "explanation": "Los elementos de seguridad pasiva (cortafuegos) y de mantenimiento (registros) son requisitos independientes."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-75",
+    "type": "simple",
+    "question": "¿Qué propiedad del compuesto termoplástico de la cubierta de un cable RZ1-K permite su uso en la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Su alta resistencia a los hidrocarburos.",
+        "isCorrect": false,
+        "explanation": "No es la propiedad principal requerida para una línea general en edificación residencial."
+      },
+      {
+        "id": 2,
+        "answer": "Su baja emisión de humos y ausencia de halógenos (Z1).",
+        "isCorrect": true,
+        "explanation": "La denominación Z1 garantiza que el material no es tóxico ni opaco en caso de combustión."
+      },
+      {
+        "id": 3,
+        "answer": "Su capacidad de auto-reparación ante cortes leves.",
+        "isCorrect": false,
+        "explanation": "Los cables estándar de LGA no poseen propiedades de auto-cicatrización."
+      },
+      {
+        "id": 4,
+        "answer": "Su conductividad térmica superior para enfriar el cobre.",
+        "isCorrect": false,
+        "explanation": "El aislamiento es, por definición, un mal conductor térmico; se busca seguridad, no refrigeración activa."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-76",
+    "type": "simple",
+    "question": "Al tender cables en un conducto de 30x30 cm, ¿cuántas LGA distintas se pueden alojar simultáneamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Hasta tres, si son para el mismo edificio.",
+        "isCorrect": false,
+        "explanation": "El conducto está diseñado y reservado para una única línea general de alimentación."
+      },
+      {
+        "id": 2,
+        "answer": "Única y exclusivamente una LGA y su conductor de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 2 especifica el uso exclusivo del conducto para una sola LGA."
+      },
+      {
+        "id": 3,
+        "answer": "Todas las que quepan respetando el 100% de ampliación de sección.",
+        "isCorrect": false,
+        "explanation": "La reserva de espacio es para ampliar la línea existente, no para añadir líneas independientes adicionales."
+      },
+      {
+        "id": 4,
+        "answer": "Dos, si una de ellas es de reserva sin tensión.",
+        "isCorrect": false,
+        "explanation": "La normativa de exclusividad no distingue entre líneas activas o en reserva."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-77",
+    "type": "simple",
+    "question": "¿Cuál es la consecuencia de utilizar un cable con clase de reacción al fuego Eca en una LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Aumenta la caída de tensión en un 5%.",
+        "isCorrect": false,
+        "explanation": "La reacción al fuego no afecta a la resistencia eléctrica del conductor."
+      },
+      {
+        "id": 2,
+        "answer": "Incumplimiento normativo grave por riesgo de propagación de incendios.",
+        "isCorrect": true,
+        "explanation": "La clase Eca propaga la llama con facilidad, lo cual está prohibido en instalaciones de enlace."
+      },
+      {
+        "id": 3,
+        "answer": "El cable durará menos años debido a la oxidación.",
+        "isCorrect": false,
+        "explanation": "La durabilidad ante oxidación depende de la estanqueidad y el material, no de la clase de fuego."
+      },
+      {
+        "id": 4,
+        "answer": "Ninguna, la clase Eca es el estándar para cables de 1.000 V.",
+        "isCorrect": false,
+        "explanation": "El estándar para LGA es mucho más estricto (Cca-s1b,d1,a1) debido a su ubicación crítica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-78",
+    "type": "simple",
+    "question": "En el proyecto de una LGA de 400 A, se eligen cables unipolares. ¿Cómo deben disponerse para minimizar efectos inductivos?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Separados unos de otros al menos 10 cm.",
+        "isCorrect": false,
+        "explanation": "La separación aumenta la inductancia y las caídas de tensión por reactancia."
+      },
+      {
+        "id": 2,
+        "answer": "Agrupados en trébol o en contacto mutuo.",
+        "isCorrect": true,
+        "explanation": "Según el apartado 3 de la ITC-BT-14, las intensidades se rigen por la norma UNE-HD 60.364-5-52, donde la disposición en trébol o contacto mutuo minimiza la reactancia inductiva y compensa los campos magnéticos."
+      },
+      {
+        "id": 3,
+        "answer": "Trenzados entre sí como una cuerda.",
+        "isCorrect": false,
+        "explanation": "No es práctico para cables de gran sección y dificultaría enormemente el tendido y las conexiones."
+      },
+      {
+        "id": 4,
+        "answer": "En bandejas metálicas distintas para cada fase.",
+        "isCorrect": false,
+        "explanation": "Separar fases en bandejas ferromagnéticas distintas generaría corrientes parásitas y calentamientos peligrosos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-79",
+    "type": "simple",
+    "question": "¿Qué requisito se exige a las canalizaciones de la LGA respecto al conductor de protección?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser de sección doble que las fases.",
+        "isCorrect": false,
+        "explanation": "La sección de tierra se calcula según la ITC-BT-18, no es arbitrariamente el doble."
+      },
+      {
+        "id": 2,
+        "answer": "Incluirán, en su caso, el conductor de protección.",
+        "isCorrect": true,
+        "explanation": "El apartado 1 de la ITC-BT-14 ordena que las canalizaciones deben prever el alojamiento del cable de tierra."
+      },
+      {
+        "id": 3,
+        "answer": "Debe estar soldado a la armadura del edificio en cada planta.",
+        "isCorrect": false,
+        "explanation": "La tierra debe ser continua y conectada solo en los puntos de puesta a tierra previstos, no en cada planta aleatoriamente."
+      },
+      {
+        "id": 4,
+        "answer": "Debe ser de aluminio obligatoriamente para evitar robos.",
+        "isCorrect": false,
+        "explanation": "El material de la tierra suele seguir al de las fases (Cu o Al) por compatibilidad técnica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-80",
+    "type": "simple",
+    "question": "Al dimensionar el diámetro de un tubo enterrado para una LGA, ¿qué ITC es la referencia principal según la instrucción?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "ITC-BT-21.",
+        "isCorrect": false,
+        "explanation": "La 21 es para tubos en instalaciones interiores (superficiales/empotrados)."
+      },
+      {
+        "id": 2,
+        "answer": "ITC-BT-07.",
+        "isCorrect": true,
+        "explanation": "Para el caso específico de tubos enterrados, la ITC-BT-14 remite a las prescripciones de la ITC-BT-07."
+      },
+      {
+        "id": 3,
+        "answer": "ITC-BT-11.",
+        "isCorrect": false,
+        "explanation": "La 11 trata sobre redes de distribución de energía eléctrica, no sobre el enlace del edificio."
+      },
+      {
+        "id": 4,
+        "answer": "No hay ITC de referencia, se usa el catálogo del fabricante.",
+        "isCorrect": false,
+        "explanation": "El reglamento prima sobre cualquier catálogo comercial para asegurar el cumplimiento de mínimos legales."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-81",
+    "type": "multiple",
+    "question": "¿Qué sistemas de instalación son reconocidos explícitamente para la Línea General de Alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Conductores aislados en el interior de tubos empotrados.",
+        "isCorrect": true,
+        "explanation": "Es uno de los métodos estándar descritos en el apartado 1 de la ITC-BT-14."
+      },
+      {
+        "id": 2,
+        "answer": "Canalizaciones eléctricas prefabricadas bajo norma UNE-EN 61.439-6.",
+        "isCorrect": true,
+        "explanation": "El sistema de busbars es una alternativa moderna y reglamentaria recogida en la instrucción."
+      },
+      {
+        "id": 3,
+        "answer": "Conductores desnudos sobre aisladores en fachadas.",
+        "isCorrect": false,
+        "explanation": "Los conductores de la LGA deben ser aislados y protegidos por canalizaciones o conductos de obra."
+      },
+      {
+        "id": 4,
+        "answer": "Conductores aislados en el interior de conductos de obra de fábrica.",
+        "isCorrect": true,
+        "explanation": "El uso de conductos de obra es obligatorio para los trazados verticales en edificios."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-82",
+    "type": "multiple",
+    "question": "¿Qué requisitos deben cumplir las canales protectoras utilizadas en la instalación de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Su tapa solo se podrá abrir con la ayuda de un útil.",
+        "isCorrect": true,
+        "explanation": "Requisito de seguridad indispensable fijado en el apartado 1."
+      },
+      {
+        "id": 2,
+        "answer": "Grado de protección mínima IP2X.",
+        "isCorrect": true,
+        "explanation": "Nivel de seguridad contra contactos accidentales exigido para estos sistemas."
+      },
+      {
+        "id": 3,
+        "answer": "Deben ser de material no propagador de la llama.",
+        "isCorrect": true,
+        "explanation": "Propiedad esencial para todas las canalizaciones eléctricas de enlace."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ser metálicas obligatoriamente para edificios de más de 5 plantas.",
+        "isCorrect": false,
+        "explanation": "Se permiten canales plásticas si cumplen con la clase de fuego y resistencia mecánica requerida."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-83",
+    "type": "multiple",
+    "question": "¿Qué parámetros son determinantes para el cálculo de la sección de los conductores de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La caída de tensión máxima permitida (0,5% o 1%).",
+        "isCorrect": true,
+        "explanation": "Factor crítico para asegurar que la tensión llegue correctamente a los contadores."
+      },
+      {
+        "id": 2,
+        "answer": "La intensidad máxima admisible según el tipo de instalación.",
+        "isCorrect": true,
+        "explanation": "Evita el sobrecalentamiento del cable en condiciones de carga máxima."
+      },
+      {
+        "id": 3,
+        "answer": "La previsión de potencias establecida en la ITC-BT-10.",
+        "isCorrect": true,
+        "explanation": "Base fundamental para dimensionar la línea según la demanda esperada del edificio."
+      },
+      {
+        "id": 4,
+        "answer": "La marca comercial de los fusibles de la CGP.",
+        "isCorrect": false,
+        "explanation": "La marca no influye en el cálculo de la sección, solo importa el calibre técnico del fusible."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-84",
+    "type": "multiple",
+    "question": "¿Qué condiciones debe cumplir el trazado vertical de la línea general en un edificio residencial?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Debe ser registrable y precintable en cada planta.",
+        "isCorrect": true,
+        "explanation": "Obligación de mantenimiento y control de fraude impuesta por la norma."
+      },
+      {
+        "id": 2,
+        "answer": "Discurrirá por el interior de una canaladura o conducto de obra de fábrica.",
+        "isCorrect": true,
+        "explanation": "Requisito constructivo para proteger la línea en su recorrido ascendente."
+      },
+      {
+        "id": 3,
+        "answer": "Debe situarse a menos de 50 cm del hueco del ascensor.",
+        "isCorrect": false,
+        "explanation": "No hay una distancia mínima al ascensor, pero sí la prohibición de ir por su interior."
+      },
+      {
+        "id": 4,
+        "answer": "Se evitarán las curvas y los cambios de dirección.",
+        "isCorrect": true,
+        "explanation": "Medida para facilitar el tendido de cables pesados y evitar daños mecánicos."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-85",
+    "type": "multiple",
+    "question": "¿Qué características de resistencia al fuego se exigen en la obra civil del conducto vertical?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Paredes con resistencia RF 120 (IE 120).",
+        "isCorrect": true,
+        "explanation": "Resistencia mínima exigida para la estructura del conducto de obra."
+      },
+      {
+        "id": 2,
+        "answer": "Tapas de registro con resistencia RF 30 (IE 30).",
+        "isCorrect": true,
+        "explanation": "Valor de seguridad para los accesos al conducto en cada planta."
+      },
+      {
+        "id": 3,
+        "answer": "Cortafuegos cada tres plantas como mínimo.",
+        "isCorrect": true,
+        "explanation": "Medida de sectorización de incendios obligatoria en el conducto vertical."
+      },
+      {
+        "id": 4,
+        "answer": "Escaleras con RF 120 obligatoriamente si pasa la LGA.",
+        "isCorrect": false,
+        "explanation": "La RF de la escalera la fija el CTE; la LGA solo debe confinarse en su conducto específico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-86",
+    "type": "multiple",
+    "question": "¿Qué conductores componen habitualmente una Línea General de Alimentación trifásica?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Tres conductores de fase.",
+        "isCorrect": true,
+        "explanation": "Componentes activos principales para el transporte de energía trifásica."
+      },
+      {
+        "id": 2,
+        "answer": "Un conductor de neutro.",
+        "isCorrect": true,
+        "explanation": "Necesario para equilibrar cargas y suministrar monofásica a los usuarios."
+      },
+      {
+        "id": 3,
+        "answer": "Un conductor de protección (tierra) en ciertos esquemas.",
+        "isCorrect": true,
+        "explanation": "Obligatorio en concentraciones por plantas o cuando la canalización lo requiera."
+      },
+      {
+        "id": 4,
+        "answer": "Un cable de acero para tracción mecánica.",
+        "isCorrect": false,
+        "explanation": "La tracción se realiza durante el tendido, pero no es un conductor que forme parte de la línea eléctrica."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-87",
+    "type": "multiple",
+    "question": "¿Qué materiales están permitidos para los conductores de la línea general?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cobre.",
+        "isCorrect": true,
+        "explanation": "Material estándar por su excelente conductividad y flexibilidad."
+      },
+      {
+        "id": 2,
+        "answer": "Aluminio.",
+        "isCorrect": true,
+        "explanation": "Permitido como alternativa más ligera y económica, con secciones mínimas superiores."
+      },
+      {
+        "id": 3,
+        "answer": "Plata (para suministros de lujo).",
+        "isCorrect": false,
+        "explanation": "No es un material contemplado en la normativa técnica de enlace por su coste prohibitivo."
+      },
+      {
+        "id": 4,
+        "answer": "Acero revestido de cobre (tipo CCS).",
+        "isCorrect": false,
+        "explanation": "Prohibido para líneas de potencia por su elevada resistencia eléctrica interna."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-88",
+    "type": "multiple",
+    "question": "¿Cuáles son los límites de caída de tensión que debe cumplir la LGA según el tipo de centralización?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "0,5 % para contadores totalmente centralizados.",
+        "isCorrect": true,
+        "explanation": "Límite más restrictivo para configuraciones de medida única."
+      },
+      {
+        "id": 2,
+        "answer": "1,0 % para centralizaciones parciales de contadores.",
+        "isCorrect": true,
+        "explanation": "Tolerancia superior permitida cuando hay varios puntos de medida distribuidos."
+      },
+      {
+        "id": 3,
+        "answer": "1,5 % para edificios comerciales de una sola planta.",
+        "isCorrect": false,
+        "explanation": "Este valor no figura en la instrucción técnica para el tramo de la LGA."
+      },
+      {
+        "id": 4,
+        "answer": "3,0 % si el conductor es de aluminio.",
+        "isCorrect": false,
+        "explanation": "El límite de caída de tensión es independiente del material del conductor empleado."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-89",
+    "type": "multiple",
+    "question": "¿Qué requisitos de identificación y uniformidad se exigen a los cables de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La sección debe ser uniforme en todo su recorrido.",
+        "isCorrect": true,
+        "explanation": "Evita cuellos de botella térmicos y facilita la protección contra cortocircuitos."
+      },
+      {
+        "id": 2,
+        "answer": "No se permiten empalmes en el tramo general.",
+        "isCorrect": true,
+        "explanation": "Garantiza la fiabilidad mecánica y eléctrica de la línea de enlace principal."
+      },
+      {
+        "id": 3,
+        "answer": "Los cables deben ser marcados con el nombre del abonado.",
+        "isCorrect": false,
+        "explanation": "La LGA es una línea colectiva; el nombre del abonado no es relevante ni exigido."
+      },
+      {
+        "id": 4,
+        "answer": "Los conductores deben ser unipolares y aislados 0,6/1 kV.",
+        "isCorrect": true,
+        "explanation": "Constitución física obligatoria marcada en el apartado 3 de la instrucción."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-90",
+    "type": "multiple",
+    "question": "¿Qué precauciones deben tomarse en el paso de la LGA por zonas comunes?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Evitar el paso por escaleras que sean recintos protegidos (CTE).",
+        "isCorrect": true,
+        "explanation": "Limitación de seguridad para garantizar la evacuación segura de personas."
+      },
+      {
+        "id": 2,
+        "answer": "Evitar la influencia térmica de otras canalizaciones.",
+        "isCorrect": true,
+        "explanation": "Protege el aislamiento del cable del calor excesivo de redes de agua o calefacción."
+      },
+      {
+        "id": 3,
+        "answer": "Garantizar dimensiones mínimas del conducto de 30 x 30 cm.",
+        "isCorrect": true,
+        "explanation": "Asegura espacio para ventilación, mantenimiento y futuras ampliaciones."
+      },
+      {
+        "id": 4,
+        "answer": "Colocar carteles luminosos cada 2 metros indicando 'Alta Tensión'.",
+        "isCorrect": false,
+        "explanation": "La LGA es de Baja Tensión (hasta 1.000 V); carteles de alta tensión serían incorrectos y alarmistas."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-91",
+    "type": "multiple",
+    "question": "En el cálculo del conductor neutro de la LGA, ¿qué factores deben ser analizados técnicamente?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "El máximo desequilibrio de cargas previsible.",
+        "isCorrect": true,
+        "explanation": "Factor clave para evitar que el neutro transporte más corriente de la nominal."
+      },
+      {
+        "id": 2,
+        "answer": "La presencia de corrientes armónicas (especialmente el tercer orden).",
+        "isCorrect": true,
+        "explanation": "Los armónicos se suman en el neutro y pueden provocar su destrucción térmica."
+      },
+      {
+        "id": 3,
+        "answer": "Su comportamiento ante sobrecargas y cortocircuitos.",
+        "isCorrect": true,
+        "explanation": "El neutro debe ser capaz de soportar el tiempo de disparo de las protecciones de fase."
+      },
+      {
+        "id": 4,
+        "answer": "Si el color azul de la cubierta es resistente a la lejía.",
+        "isCorrect": false,
+        "explanation": "La resistencia a agentes de limpieza domésticos no es un parámetro de diseño eléctrico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-92",
+    "type": "multiple",
+    "question": "¿Qué tipos de cables cumplen con la prescripción de no propagación del incendio para la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cables tipo RZ1-K (AS).",
+        "isCorrect": true,
+        "explanation": "Cumplen con la norma UNE 21.123-4 y son de alta seguridad (AS)."
+      },
+      {
+        "id": 2,
+        "answer": "Cables tipo DZ1-K (AS).",
+        "isCorrect": true,
+        "explanation": "Cables con aislamiento de etileno-propileno que cumplen la norma UNE 21.123-5."
+      },
+      {
+        "id": 3,
+        "answer": "Cables con clase de reacción al fuego Cca-s1b,d1,a1.",
+        "isCorrect": true,
+        "explanation": "Es la clasificación CPR mínima exigida por el reglamento actual."
+      },
+      {
+        "id": 4,
+        "answer": "Cables con aislamiento de papel impregnado en aceite.",
+        "isCorrect": false,
+        "explanation": "Tecnología obsoleta y muy peligrosa en caso de incendio por su inflamabilidad."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-93",
+    "type": "multiple",
+    "question": "¿Qué requisitos se aplican a los tubos en instalaciones enterradas de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cumplir lo especificado en la ITC-BT-07.",
+        "isCorrect": true,
+        "explanation": "Remisión normativa obligatoria para instalaciones bajo tierra."
+      },
+      {
+        "id": 2,
+        "answer": "Resistencia a la compresión fuerte (grado 4).",
+        "isCorrect": true,
+        "explanation": "Necesario para soportar el peso de las tierras y el posible tráfico superior."
+      },
+      {
+        "id": 3,
+        "answer": "Uniones roscadas o embutidas.",
+        "isCorrect": true,
+        "explanation": "Garantiza la continuidad mecánica del conducto bajo tierra."
+      },
+      {
+        "id": 4,
+        "answer": "Deben ser de color rojo flúor por dentro.",
+        "isCorrect": false,
+        "explanation": "El color interno es irrelevante; lo importante es la codificación externa o señalización del tramo."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-94",
+    "type": "multiple",
+    "question": "Al utilizar conductores de aluminio en la LGA, ¿qué secciones mínimas se contemplan en la tabla 1?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Fase de 16 mm2 con neutro de 16 mm2.",
+        "isCorrect": true,
+        "explanation": "Es el punto de partida mínimo para conductores de aluminio en la LGA."
+      },
+      {
+        "id": 2,
+        "answer": "Fase de 95 mm2 con neutro de 50 mm2.",
+        "isCorrect": true,
+        "explanation": "Configuración estándar recogida en la tabla 1 para secciones intermedias."
+      },
+      {
+        "id": 3,
+        "answer": "Fase de 240 mm2 con neutro de 120 mm2.",
+        "isCorrect": true,
+        "explanation": "Máxima sección de aluminio normalizada en la tabla de referencia de la instrucción."
+      },
+      {
+        "id": 4,
+        "answer": "Fase de 1,5 mm2 para el hilo de telecontrol.",
+        "isCorrect": false,
+        "explanation": "La LGA no contempla hilos de telecontrol de esa sección en su estructura principal."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-95",
+    "type": "multiple",
+    "question": "¿Qué prohibiciones absolutas establece el REBT para la ubicación de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Prohibido el paso por el hueco del ascensor.",
+        "isCorrect": true,
+        "explanation": "Regla de seguridad estricta para evitar interferencias mecánicas y riesgos."
+      },
+      {
+        "id": 2,
+        "answer": "Prohibido el trazado por el interior de locales comerciales privados sin protección.",
+        "isCorrect": true,
+        "explanation": "La línea de servicio común no debe ser vulnerable a acciones en recintos privados."
+      },
+      {
+        "id": 3,
+        "answer": "Prohibido el uso de conductos compartidos con tuberías de gas.",
+        "isCorrect": true,
+        "explanation": "Riesgo extremo de explosión en caso de arco eléctrico o fallo de aislamiento."
+      },
+      {
+        "id": 4,
+        "answer": "Prohibido el paso por el portal del edificio.",
+        "isCorrect": false,
+        "explanation": "El portal es zona común y suele ser el lugar preferente de paso si se protege adecuadamente."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-96",
+    "type": "multiple",
+    "question": "En un conducto de obra vertical, ¿qué elementos deben ser 'precintables'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Las tapas de registro de cada planta.",
+        "isCorrect": true,
+        "explanation": "Permite a la distribuidora asegurar que no hay derivaciones ilegales (fraude)."
+      },
+      {
+        "id": 2,
+        "answer": "Los cortafuegos interiores.",
+        "isCorrect": false,
+        "explanation": "Los cortafuegos no requieren precinto, ya que su función es puramente de seguridad pasiva."
+      },
+      {
+        "id": 3,
+        "answer": "Los bornes de conexión en las derivaciones a centralizaciones.",
+        "isCorrect": true,
+        "explanation": "Puntos críticos de acceso a la energía que deben estar bajo control de la compañía."
+      },
+      {
+        "id": 4,
+        "answer": "La pintura exterior del conducto.",
+        "isCorrect": false,
+        "explanation": "La pintura es un acabado arquitectónico sin relevancia para el precinto eléctrico."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-97",
+    "type": "multiple",
+    "question": "¿Qué condiciones deben cumplir las uniones de tubos destinados a la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Deben ser roscadas si el tubo es metálico rígido.",
+        "isCorrect": true,
+        "explanation": "La rosca garantiza la mejor continuidad mecánica y eléctrica (si aplica)."
+      },
+      {
+        "id": 2,
+        "answer": "Deben ser embutidas si se usan tubos plásticos rígidos.",
+        "isCorrect": true,
+        "explanation": "La embutición profunda asegura que los tubos no se separen durante el tendido."
+      },
+      {
+        "id": 3,
+        "answer": "Deben asegurar que no puedan separarse los extremos.",
+        "isCorrect": true,
+        "explanation": "Objetivo fundamental de seguridad para mantener la protección de los cables."
+      },
+      {
+        "id": 4,
+        "answer": "Deben llevar una junta de goma tórica para ser estancos al agua.",
+        "isCorrect": false,
+        "explanation": "La estanqueidad total no es un requisito general para LGA interiores en conducto de obra."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-98",
+    "type": "multiple",
+    "question": "¿Qué factores influyen en la 'intensidad máxima admisible' de un cable de la LGA?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "La temperatura ambiente (40 ºC en aire / 25 ºC en tierra).",
+        "isCorrect": true,
+        "explanation": "El calor exterior limita la capacidad de disipación del conductor."
+      },
+      {
+        "id": 2,
+        "answer": "El tipo de aislamiento (XLPE de 90 ºC o PVC de 70 ºC).",
+        "isCorrect": true,
+        "explanation": "A mayor temperatura de soporte del material, más corriente puede transportar el cable."
+      },
+      {
+        "id": 3,
+        "answer": "El método de instalación (empotrado, enterrado, al aire).",
+        "isCorrect": true,
+        "explanation": "La capacidad de enfriamiento varía drásticamente según cómo esté instalado el cable."
+      },
+      {
+        "id": 4,
+        "answer": "El número de plantas del edificio.",
+        "isCorrect": false,
+        "explanation": "El número de plantas afecta a la caída de tensión por longitud, no a la intensidad máxima admisible local."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-99",
+    "type": "multiple",
+    "question": "¿Qué requisitos se exigen a los cables con conductores de aluminio en instalaciones singulares?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Deben ser tipo RZ1-Al (AS) según UNE 21.123-4.",
+        "isCorrect": true,
+        "explanation": "Denominación técnica correcta para cables de aluminio de alta seguridad."
+      },
+      {
+        "id": 2,
+        "answer": "Utilizar técnicas apropiadas para evitar pares galvánicos.",
+        "isCorrect": true,
+        "explanation": "Medida imperativa para evitar fallos catastróficos en las conexiones."
+      },
+      {
+        "id": 3,
+        "answer": "Sección mínima de fase de 16 mm2.",
+        "isCorrect": true,
+        "explanation": "Límite inferior para garantizar resistencia mecánica y eléctrica en aluminio."
+      },
+      {
+        "id": 4,
+        "answer": "Deben sumergirse en nitrógeno líquido para mejorar su eficiencia.",
+        "isCorrect": false,
+        "explanation": "Propuesta absurda; las instalaciones de enlace operan a temperatura ambiente estándar."
+      }
+    ]
+  },
+  {
+    "id": "ITC-BT-14-100",
+    "type": "multiple",
+    "question": "¿Qué funciones cumple el neutro en la Línea General de Alimentación?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cerrar el circuito para suministros monofásicos.",
+        "isCorrect": true,
+        "explanation": "Permite obtener 230 V entre fase y neutro para las viviendas."
+      },
+      {
+        "id": 2,
+        "answer": "Conducir la corriente de desequilibrio de las fases.",
+        "isCorrect": true,
+        "explanation": "Absorbe la diferencia de carga entre las tres fases del edificio."
+      },
+      {
+        "id": 3,
+        "answer": "Evitar que la tensión de fase suba peligrosamente ante cargas asimétricas.",
+        "isCorrect": true,
+        "explanation": "Un neutro bien dimensionado mantiene la estabilidad del sistema de 400/230 V."
+      },
+      {
+        "id": 4,
+        "answer": "Sustituir al conductor de protección en caso de avería.",
+        "isCorrect": false,
+        "explanation": "El neutro y la tierra tienen funciones distintas y no deben intercambiarse (peligro de electrocución)."
       }
     ]
   }
