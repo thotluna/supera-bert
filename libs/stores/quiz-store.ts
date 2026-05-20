@@ -123,7 +123,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       },
 
       setPaused: (paused) => {
-        const { isPaused, expiresAt, pausedAt } = get();
+        const { isPaused, expiresAt, pausedAt, startTime } = get();
         if (isPaused === paused) return;
 
         const now = Date.now();
@@ -132,9 +132,10 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           set({ isPaused: true, pausedAt: now });
         } else {
           const pauseDuration = now - (pausedAt || now);
-          set({ 
-            isPaused: false, 
+          set({
+            isPaused: false,
             expiresAt: expiresAt ? expiresAt + pauseDuration : null,
+            startTime: startTime ? startTime + pauseDuration : null,
             pausedAt: null
           });
         }
@@ -143,10 +144,10 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       requestPause: (reason) => {
         const { pauseReasons, setPaused } = get();
         if (pauseReasons.includes(reason)) return;
-        
+
         const newReasons = [...pauseReasons, reason];
         set({ pauseReasons: newReasons });
-        
+
         if (newReasons.length === 1) {
           setPaused(true);
         }
@@ -158,7 +159,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
         const newReasons = pauseReasons.filter(r => r !== reason);
         set({ pauseReasons: newReasons });
-        
+
         if (newReasons.length === 0) {
           setPaused(false);
         }

@@ -49,14 +49,14 @@ describe('QuizStore Navigation Logic (Issue #24)', () => {
     // ERROR DEMONSTRATION:
     // En la versión con error, finish() se llama inmediatamente.
     // finish() llama a reset(), por lo que currentQuestion pasa a ser null instantáneamente.
-    
+
     const stateAfterCall = useQuizStore.getState();
-    
+
     // Verificación del bug 11/10 (en este caso 2/1 porque hay 1 pregunta)
-    const progress = stateAfterCall.isFeedbacking 
-      ? stateAfterCall.answers.length 
+    const progress = stateAfterCall.isFeedbacking
+      ? stateAfterCall.answers.length
       : stateAfterCall.answers.length + (stateAfterCall.currentQuestion ? 1 : 0);
-    
+
     expect(progress, 'El progreso excedió el total (Bug 11/10)').toBe(1);
     expect(stateAfterCall.isFeedbacking).toBe(true);
     expect(stateAfterCall.currentQuestion?.id).toBe('q-last');
@@ -64,13 +64,13 @@ describe('QuizStore Navigation Logic (Issue #24)', () => {
 
     // Avanzamos el tiempo 3 segundos
     vi.advanceTimersByTime(3000);
-    
+
     // 6. Verificamos que ahora esté marcado como finalizado pero SIGA VISIBLE
     const stateAfterFeedback = useQuizStore.getState();
     expect(stateAfterFeedback.currentQuestion).not.toBeNull();
     expect(stateAfterFeedback.isFinished).toBe(true);
     expect(stateAfterFeedback.currentQuestion?.id).toBe('q-last');
-    
+
     await nextPromise;
   });
 });

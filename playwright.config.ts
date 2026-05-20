@@ -48,7 +48,14 @@ export default defineConfig({
     command: 'pnpm next dev',
     url: 'http://localhost:3000',
     reuseExistingServer: true,
-    env: {},
+    env: {
+      QUESTIONS_REPO_PATH: 'data-source-json.mock',
+      ANSWERS_REPO_PATH: 'answers-data-source.mock',
+      QUIZZES_REPO_PATH: 'quizzes-data-source.mock',
+      NEXT_PUBLIC_APP_ENV: 'test',
+      NODE_ENV: 'test',
+    },
     timeout: 120000,
   },
 });
+

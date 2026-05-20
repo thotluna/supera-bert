@@ -21,8 +21,23 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
 
   const correctAnswers = answers.filter(a => a.isCorrect).length;
   const incorrectAnswers = answers.length - correctAnswers;
+  const unansweredCount = questions.length - answers.length;
   const percentage = Math.round((quiz.totalScore / (quiz.totalQuestions * 1)) * 100) || 0; 
   const scorePercentage = Math.min(100, Math.max(0, percentage));
+
+  const times = answers.map(a => a.timeMs).filter(t => typeof t === 'number' && t > 0);
+  const avgTimeMs = times.length ? times.reduce((a, b) => a + b, 0) / times.length : 0;
+  const maxTimeMs = times.length ? Math.max(...times) : 0;
+  const minTimeMs = times.length ? Math.min(...times) : 0;
+
+  const formatTime = (ms: number): string => {
+    if (ms === 0) return "0s";
+    const totalSeconds = ms / 1000;
+    if (totalSeconds < 60) return `${totalSeconds.toFixed(1)}s`;
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = Math.floor(totalSeconds % 60);
+    return `${minutes}m ${seconds}s`;
+  };
 
   const topicMap = new Map<string, { total: number; correct: number }>();
   
@@ -53,7 +68,11 @@ export function ResultsContent({ quiz, answers, questions }: ResultsContentProps
             quiz={quiz}
             correctCount={correctAnswers}
             incorrectCount={incorrectAnswers}
+            unansweredCount={unansweredCount}
             percentage={scorePercentage}
+            avgTime={formatTime(avgTimeMs)}
+            maxTime={formatTime(maxTimeMs)}
+            minTime={formatTime(minTimeMs)}
           />
         </div>
         <div className="lg:col-span-1">

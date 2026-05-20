@@ -19,15 +19,18 @@ export function ReviewItem({
   isExpanded,
   onToggle
 }: ReviewItemProps): JSX.Element {
+  const isUnanswered = !answer;
   const isCorrect = answer?.isCorrect ?? false;
 
   return (
     <div
       className={`
         group border rounded-3xl transition-all duration-500 overflow-hidden backdrop-blur-md
-        ${isCorrect
-          ? 'border-success/20 bg-success-bg/5 hover:border-success/40'
-          : 'border-error/20 bg-error-bg/5 hover:border-error/40'
+        ${isUnanswered 
+          ? 'border-zinc-500/20 bg-zinc-500/5 hover:border-zinc-500/40'
+          : isCorrect
+            ? 'border-success/20 bg-success-bg/5 hover:border-success/40'
+            : 'border-error/20 bg-error-bg/5 hover:border-error/40'
         }
         ${isExpanded ? 'ring-2 ring-inset ring-white/5 shadow-2xl' : ''}
       `}
@@ -41,14 +44,25 @@ export function ReviewItem({
         <div className="flex items-center gap-5">
           <span className={`
             shrink-0 w-10 h-10 rounded-2xl flex items-center justify-center text-sm font-black transition-transform duration-500
-            ${isCorrect ? 'bg-success/20 text-success shadow-neon-sm shadow-success/20!' : 'bg-error/20 text-error shadow-neon-sm shadow-error/20!'}
+            ${isUnanswered 
+              ? 'bg-zinc-500/20 text-zinc-400 shadow-neon-sm shadow-zinc-500/20!' 
+              : isCorrect 
+                ? 'bg-success/20 text-success shadow-neon-sm shadow-success/20!' 
+                : 'bg-error/20 text-error shadow-neon-sm shadow-error/20!'}
             ${isExpanded ? 'scale-110' : 'group-hover:scale-105'}
           `}>
             {index + 1}
           </span>
-          <p className="text-base md:text-lg font-bold tracking-tight text-foreground/90 leading-tight">
-            {question.question}
-          </p>
+          <div className="flex flex-col gap-1 items-start text-left">
+            <p className="text-base md:text-lg font-bold tracking-tight text-foreground/90 leading-tight">
+              {question.question}
+            </p>
+            {isUnanswered && (
+              <span className="text-[10px] font-black uppercase tracking-widest text-zinc-400 bg-zinc-500/10 border border-zinc-500/20 px-2 py-0.5 rounded-md mt-1">
+                Sin responder / Reportada
+              </span>
+            )}
+          </div>
         </div>
         <div className={`
           p-2 rounded-xl bg-white/5 text-foreground/20 transition-all duration-300

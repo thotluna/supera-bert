@@ -1,17 +1,21 @@
 import { Quiz } from "@/libs/quiz/domain/quiz";
-import { CheckCircle2, XCircle, Trophy } from "lucide-react";
+import { CheckCircle2, XCircle, Trophy, Timer, ArrowUp, ArrowDown, HelpCircle } from "lucide-react";
 import { JSX } from "react";
 
 interface ResultsSummaryProps {
   quiz: Quiz;
   correctCount: number;
   incorrectCount: number;
+  unansweredCount: number;
   percentage: number;
+  avgTime: string;
+  maxTime: string;
+  minTime: string;
 }
 
 import { QuizScore } from "@/libs/quiz/domain/score";
 
-export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage }: ResultsSummaryProps): JSX.Element {
+export function ResultsSummary({ quiz, correctCount, incorrectCount, unansweredCount, percentage, avgTime, maxTime, minTime }: ResultsSummaryProps): JSX.Element {
   const feedback = QuizScore.getFeedback(percentage);
   const strokeDasharray = 553;
   const strokeDashoffset = strokeDasharray - (strokeDasharray * percentage) / 100;
@@ -63,8 +67,16 @@ export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage 
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
+            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300 col-span-2 sm:col-span-3 flex flex-col items-center sm:items-start">
+              <div className="flex items-center gap-2 text-sky-700 dark:text-accent mb-2">
+                <Trophy size={18} />
+                <span className="text-[10px] font-black uppercase tracking-widest">Puntos</span>
+              </div>
+              <span className="text-3xl font-black italic tabular-nums">{quiz.totalScore.toFixed(2)}</span>
+            </div>
+
             <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
-              <div className="flex items-center gap-2 text-success mb-2">
+              <div className="flex items-center gap-2 text-emerald-700 dark:text-success mb-2">
                 <CheckCircle2 size={18} />
                 <span className="text-[10px] font-black uppercase tracking-widest">Aciertos</span>
               </div>
@@ -72,19 +84,43 @@ export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage 
             </div>
             
             <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
-              <div className="flex items-center gap-2 text-error mb-2">
+              <div className="flex items-center gap-2 text-red-700 dark:text-error mb-2">
                 <XCircle size={18} />
                 <span className="text-[10px] font-black uppercase tracking-widest">Fallos</span>
               </div>
               <span className="text-2xl font-black italic">{incorrectCount}</span>
             </div>
 
-            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300 col-span-2 sm:col-span-1">
-              <div className="flex items-center gap-2 text-accent mb-2">
-                <Trophy size={18} />
-                <span className="text-[10px] font-black uppercase tracking-widest">Puntos</span>
+            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
+              <div className="flex items-center gap-2 text-zinc-600 dark:text-zinc-400 mb-2">
+                <HelpCircle size={18} />
+                <span className="text-[10px] font-black uppercase tracking-widest">Omitidas</span>
               </div>
-              <span className="text-2xl font-black italic tabular-nums">{quiz.totalScore.toFixed(2)}</span>
+              <span className="text-2xl font-black italic">{unansweredCount}</span>
+            </div>
+
+            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
+              <div className="flex items-center gap-2 text-blue-700 dark:text-blue-400 mb-2">
+                <Timer size={18} />
+                <span className="text-[10px] font-black uppercase tracking-widest">T. Medio</span>
+              </div>
+              <span className="text-2xl font-black italic tabular-nums">{avgTime}</span>
+            </div>
+
+            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
+              <div className="flex items-center gap-2 text-rose-700 dark:text-rose-400 mb-2">
+                <ArrowUp size={18} />
+                <span className="text-[10px] font-black uppercase tracking-widest">T. Máx</span>
+              </div>
+              <span className="text-2xl font-black italic tabular-nums">{maxTime}</span>
+            </div>
+
+            <div className="bg-white/5 rounded-3xl p-5 border border-white/10 hover:bg-white/10 transition-colors duration-300">
+              <div className="flex items-center gap-2 text-emerald-700 dark:text-emerald-400 mb-2">
+                <ArrowDown size={18} />
+                <span className="text-[10px] font-black uppercase tracking-widest">T. Mín</span>
+              </div>
+              <span className="text-2xl font-black italic tabular-nums">{minTime}</span>
             </div>
           </div>
         </div>
@@ -92,3 +128,4 @@ export function ResultsSummary({ quiz, correctCount, incorrectCount, percentage 
     </section>
   );
 }
+
