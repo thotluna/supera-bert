@@ -32,7 +32,7 @@ export function Header() {
     if (!expiresAt || isFinished) return;
 
     const updateTimer = () => {
-      if (isFeedbacking || isFinished || isPaused) return; 
+      if (isFeedbacking || isFinished || isPaused) return;
 
       const now = Date.now();
       const diff = Math.max(0, Math.floor((expiresAt - now) / 1000));

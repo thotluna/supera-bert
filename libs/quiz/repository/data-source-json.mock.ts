@@ -54,6 +54,16 @@ export class JSONDataSource implements QuestionRepository {
         { id: 2, answer: "Option 2", isCorrect: false, explanation: "Incorrect" }
       ],
       itc: "ITC-BT-01" as ITCTopic
+    },
+    {
+      id: "q6",
+      question: "Question 6 (ITC-BT-03)",
+      type: "simple",
+      options: [
+        { id: 1, answer: "Option 1", isCorrect: true, explanation: "Correct" },
+        { id: 2, answer: "Option 2", isCorrect: false, explanation: "Incorrect" }
+      ],
+      itc: "ITC-BT-03" as ITCTopic
     }
   ];
 
@@ -81,6 +91,9 @@ export class JSONDataSource implements QuestionRepository {
   }
 
   async getTopicsAvailability(): Promise<TopicOption[]> {
-    return [{ name: "ITC-BT-01" as ITCTopic, available: true, totalQuestions: 50 }];
+    return [
+      { name: "ITC-BT-01" as ITCTopic, available: true, totalQuestions: 50 },
+      { name: "ITC-BT-03" as ITCTopic, available: true, totalQuestions: 30 }
+    ];
   }
 }

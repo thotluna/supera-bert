@@ -43,7 +43,7 @@ export type Database = {
           is_correct: boolean
           itc_code: string
           points: number
-          question_id: number
+          question_id: string
           quiz_id: string
           selected_option_ids: number[]
           time_ms: number
@@ -54,7 +54,7 @@ export type Database = {
           is_correct: boolean
           itc_code: string
           points?: number
-          question_id: number
+          question_id: string
           quiz_id: string
           selected_option_ids: number[]
           time_ms: number
@@ -65,7 +65,7 @@ export type Database = {
           is_correct?: boolean
           itc_code?: string
           points?: number
-          question_id?: number
+          question_id?: string
           quiz_id?: string
           selected_option_ids?: number[]
           time_ms?: number

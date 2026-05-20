@@ -30,7 +30,11 @@ export const HighPerformance: Story = {
     quiz: mockQuiz,
     correctCount: 9,
     incorrectCount: 1,
+    unansweredCount: 0,
     percentage: 90,
+    avgTime: '12.4s',
+    maxTime: '34.2s',
+    minTime: '5.1s',
   },
 };
 
@@ -39,7 +43,11 @@ export const MidPerformance: Story = {
     quiz: { ...mockQuiz, totalScore: 6 },
     correctCount: 6,
     incorrectCount: 4,
+    unansweredCount: 0,
     percentage: 60,
+    avgTime: '18.9s',
+    maxTime: '52.0s',
+    minTime: '6.3s',
   },
 };
 
@@ -47,7 +55,12 @@ export const LowPerformance: Story = {
   args: {
     quiz: { ...mockQuiz, totalScore: 3 },
     correctCount: 3,
-    incorrectCount: 7,
+    incorrectCount: 5,
+    unansweredCount: 2,
     percentage: 30,
+    avgTime: '24.1s',
+    maxTime: '1m 15s',
+    minTime: '8.7s',
   },
 };
+

@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test'
 
 test.describe('Authentication Flow', () => {
+  // Disable global E2E bypass headers for this file to test the redirection flow
+  test.use({ extraHTTPHeaders: {} })
+
   test('should redirect unauthenticated users to login page', async ({ page }) => {
     // Navigate to a protected route (home)
     await page.goto('/')
@@ -8,7 +11,6 @@ test.describe('Authentication Flow', () => {
     // Should be redirected to /login
     await expect(page).toHaveURL(/\/login/)
     
-    // Check if login page content is present
     // Check if login page content is present
     await expect(page.getByRole('heading', { name: 'Bienvenido' })).toBeVisible()
   })
@@ -22,3 +24,4 @@ test.describe('Authentication Flow', () => {
     expect(page.url()).not.toContain('/login')
   })
 })
+

@@ -30,7 +30,7 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
   if (processed.length < 3) {
     return (
       <div className="bg-subface/40 backdrop-blur-xl border border-white/10 p-6 rounded-3xl w-full flex items-center justify-center min-h-[300px]">
-        <p className="text-[10px] font-black text-foreground/30 uppercase tracking-[0.3em] text-center">
+        <p className="text-[10px] font-black text-foreground/60 uppercase tracking-[0.3em] text-center">
           {mode === 'results' 
             ? "Datos insuficientes para el mapa de este quiz"
             : "Se necesitan al menos 3 tópicos con datos para el radar"}
@@ -38,6 +38,7 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
       </div>
     );
   }
+
 
   const size = 400;
   const center = size / 2;
@@ -110,14 +111,15 @@ export function RadarChart({ data, mode = 'dashboard' }: RadarChartProps): JSX.E
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-[#10b981]/20 border border-[#10b981]/50 border-dashed" />
-            <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Cobertura</span>
+            <span className="text-[8px] font-black text-foreground/60 uppercase tracking-widest">Cobertura</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary/40 border border-primary" />
-            <span className="text-[8px] font-black text-foreground/40 uppercase tracking-widest">Maestría</span>
+            <span className="text-[8px] font-black text-foreground/60 uppercase tracking-widest">Maestría</span>
           </div>
         </div>
       </div>
     </div>
   );
 }
+

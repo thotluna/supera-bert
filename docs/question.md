@@ -4,10 +4,10 @@ Este documento establece las reglas estrictas para la creación y revisión de p
 
 ## 1. Fuente de la Verdad
 - **Única Fuente Autorizada:** Toda pregunta, respuesta y explicación debe estar sustentada exclusivamente en el archivo `docs/rebt_full.txt` (Reglamento Electrotécnico de Baja Tensión). 
-- En caso de duda, se consultará la versión PDF oficial (9ª Edición V9.05), pero la base de datos debe reflejar lo contenido en el texto de referencia del proyecto.
+- En caso de duda, se consultará la versión PDF oficial (9ª Edición V9.05) via browser.
 
 ## 2. Estructura y Formato
-- **Contexto Real:** Las preguntas deben tener contexto situacional. No basta con citar la ITC; se debe describir el escenario real donde se aplica la norma.
+- **Formulacion de Preguntas:** Las preguntas no pueden hacer referencia a la estructura del REBT. pero se deben formular de tal manera que la respuesta sea extraida del REBT.
 - **Tipos de Pregunta:** 
     - `multiple-choice`: 1 respuesta correcta.
     - `multiple-response`: varias respuestas correctas.
@@ -23,7 +23,6 @@ Este documento establece las reglas estrictas para la creación y revisión de p
 
 ## Preguntas.
 - ** cortas y directas**
-- ** no preguntar por normas **
 - ** NO nombrar ITC-BT-XX-YY en la pregunta, como tampoco por numero de apartado, esquema tabla o nada referente a la estructura del REBT. las preguntas devem parecer que salen de situaciones reales  **
 - ** no agregar palabras que no apaortan al contexto o la pregunta como (Caso Practico) (Ejercicio) etc.  **
 
@@ -31,7 +30,7 @@ Este documento establece las reglas estrictas para la creación y revisión de p
 - **Equilibrio Estructural:** No puede haber sesgo de longitud. La respuesta correcta no debe ser significativamente más larga o corta que las demás.
 - **Familiaridad Técnica:** Las opciones deben tener sentido y cierta familiaridad entre ellas. 
 - **Calidad del Distractor:** Las opciones incorrectas deben ser técnicamente plausibles (ej: una norma real aplicada al contexto equivocado), evitando distractores triviales o absurdos.
-- ** Explicacion deben tener un contexto real y que aporte valor pedagogico, no  respuesta correcta o respuesta incorrecta. Respuesta incorrecta y correcta estan proibidas en el JSON de explicacion.   **`
+- ** Explicacion deben tener un contexto real y que aporte valor pedagogico, no  respuesta correcta o respuesta incorrecta. Respuesta incorrecta y correcta estan proibidas en el JSON de explicacion. y deben ir acompanadas del numero de ITC-BT-XX y apartado o articulo que le da soporte.   **`
 
 ## 5. Tono y Estilo
 - **Tono Profesional:** Orientado a un examen oficial: formal, claro y preciso.

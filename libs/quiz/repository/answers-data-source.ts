@@ -13,7 +13,7 @@ export class AnswersDataSource implements AnswersRepository {
       .from("quiz_answers")
       .insert({
         quiz_id: answer.quizId,
-        question_id: answer.questionId as unknown as number, // Cast temporal hasta regenerar tipos
+        question_id: answer.questionId,
         itc_code: answer.itcCode,
         selected_option_ids: answer.selectedOptionIds,
         is_correct: answer.isCorrect,
@@ -34,7 +34,7 @@ export class AnswersDataSource implements AnswersRepository {
       .from("quiz_answers")
       .insert(answers.map(answer => ({
         quiz_id: answer.quizId,
-        question_id: answer.questionId as unknown as number, // Cast temporal hasta regenerar tipos
+        question_id: answer.questionId,
         itc_code: answer.itcCode,
         selected_option_ids: answer.selectedOptionIds,
         is_correct: answer.isCorrect,

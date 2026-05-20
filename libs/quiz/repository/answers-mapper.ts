@@ -6,7 +6,7 @@ export class AnswersMapper {
     return {
       id: row.id,
       quizId: row.quiz_id,
-      questionId: row.question_id as unknown as string,
+      questionId: row.question_id,
       itcCode: row.itc_code,
       selectedOptionIds: row.selected_option_ids,
       isCorrect: row.is_correct,

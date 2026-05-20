@@ -28,6 +28,7 @@ interface QuizState {
     score: number;
   }
   pauseReasons: PauseReason[];
+  savedQuizId: string | null;
 }
 
 interface QuizActions {
@@ -69,6 +70,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         score: 0,
       },
       pauseReasons: [],
+      savedQuizId: null,
 
       setQuestions: (questions) => set({ questions }),
       setConfig: (config) => set({ config }),
@@ -95,6 +97,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           score: 0,
           isFinished: false,
           disabledNext: true,
+          savedQuizId: null,
         });
 
         const firstQuestion = {
@@ -119,11 +122,12 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           isFinished: false,
           isPaused: false,
           disabledNext: true,
+          savedQuizId: null,
         });
       },
 
       setPaused: (paused) => {
-        const { isPaused, expiresAt, pausedAt } = get();
+        const { isPaused, expiresAt, pausedAt, startTime } = get();
         if (isPaused === paused) return;
 
         const now = Date.now();
@@ -132,9 +136,10 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           set({ isPaused: true, pausedAt: now });
         } else {
           const pauseDuration = now - (pausedAt || now);
-          set({ 
-            isPaused: false, 
+          set({
+            isPaused: false,
             expiresAt: expiresAt ? expiresAt + pauseDuration : null,
+            startTime: startTime ? startTime + pauseDuration : null,
             pausedAt: null
           });
         }
@@ -143,10 +148,10 @@ export const useQuizStore = create<QuizState & QuizActions>()(
       requestPause: (reason) => {
         const { pauseReasons, setPaused } = get();
         if (pauseReasons.includes(reason)) return;
-        
+
         const newReasons = [...pauseReasons, reason];
         set({ pauseReasons: newReasons });
-        
+
         if (newReasons.length === 1) {
           setPaused(true);
         }
@@ -158,7 +163,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
 
         const newReasons = pauseReasons.filter(r => r !== reason);
         set({ pauseReasons: newReasons });
-        
+
         if (newReasons.length === 0) {
           setPaused(false);
         }
@@ -302,9 +307,13 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           isFinished: true,
           expiresAt: null, // Evitamos que timers huérfanos se activen
           startTime: null,
+          savedQuizId: null,
         });
 
-        await saveAndRedirect(snapshot);
+        const savedId = await saveAndRedirect(snapshot);
+        if (savedId) {
+          set({ savedQuizId: savedId });
+        }
       },
       excludeCurrentQuestion: async () => {
         const { questions, finish } = get();
@@ -337,6 +346,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         score: 0,
         isFinished: false,
         disabledNext: true,
+        savedQuizId: null,
       }),
     }),
     {

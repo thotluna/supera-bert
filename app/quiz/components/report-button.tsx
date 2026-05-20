@@ -52,9 +52,10 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
     <>
       <button
         onClick={() => toggleModal(true)}
-        className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-red-500/10 text-foreground/50 hover:text-red-400 transition-all duration-300 group border border-transparent hover:border-red-500/20"
+        className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-red-500/10 text-foreground/75 hover:text-red-400 transition-all duration-300 group border border-transparent hover:border-red-500/20"
         title="Reportar error en la pregunta"
       >
+
         <Flag size={16} className="group-hover:animate-pulse" />
         {showText && <span className="text-xs font-semibold uppercase tracking-wider">Reportar</span>}
       </button>
@@ -64,10 +65,12 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
           <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-white/10 bg-card p-8 shadow-2xl animate-in zoom-in-95 duration-300">
             <button 
               onClick={() => toggleModal(false)}
+              aria-label="Cerrar modal"
               className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/5 text-foreground/60 hover:text-foreground transition-colors"
             >
               <X size={20} />
             </button>
+
 
             <div className="flex flex-col items-center text-center space-y-4">
               <div className="p-4 rounded-2xl bg-red-500/10 text-red-500">
@@ -108,8 +111,9 @@ export function ReportButton({ questionId, itcCode, showText = true, defaultOpen
                 <button
                   onClick={handleReport}
                   disabled={isPending}
-                  className="relative px-6 py-3 rounded-2xl bg-red-500 hover:bg-red-600 text-white font-bold shadow-lg shadow-red-500/20 transition-all disabled:opacity-50 overflow-hidden"
+                  className="relative px-6 py-3 rounded-2xl bg-red-600 hover:bg-red-700 text-white font-bold shadow-lg shadow-red-600/20 transition-all disabled:opacity-50 overflow-hidden"
                 >
+
                   {isPending ? (
                     <div className="flex items-center justify-center gap-2">
                       <Loader2 size={18} className="animate-spin" />

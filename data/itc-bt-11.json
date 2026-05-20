@@ -1800,31 +1800,31 @@
   {
     "id": "ITC-BT-11-59",
     "type": "simple",
-    "question": "En una CGP, ¿por qué los fusibles van en el lado de la línea?",
+    "question": "¿Por qué los fusibles de protección en una CGP se instalan al inicio de la Línea General de Alimentación (LGA)?",
     "options": [
       {
         "id": 1,
-        "answer": "Para que sean más fáciles de cambiar.",
+        "answer": "Para que sean más fáciles de cambiar desde el exterior.",
         "isCorrect": false,
         "explanation": "La facilidad de cambio no dicta la jerarquía de la protección eléctrica."
       },
       {
         "id": 2,
-        "answer": "Para proteger la línea repartidora de posibles fallos en el edificio.",
+        "answer": "Para proteger la línea (LGA) contra sobrecargas y evitar que un fallo interno afecte a la red pública.",
         "isCorrect": true,
-        "explanation": "La CGP es la frontera de seguridad que evita que un corto en el edificio afecte a la red general."
+        "explanation": "Situarlos aguas arriba (al inicio) actúa como frontera de seguridad aislando el edificio sin perjudicar a la red de distribución."
       },
       {
         "id": 3,
-        "answer": "Porque no caben en el otro lado.",
+        "answer": "Porque normativamente deben estar en el mismo compartimento que el neutro.",
         "isCorrect": false,
-        "explanation": "Es una cuestión de diseño de seguridad, no de espacio físico."
+        "explanation": "El posicionamiento de los fusibles se basa en el principio de selectividad y protección de cabecera."
       },
       {
         "id": 4,
-        "answer": "Para que la compañía corte la luz si no pagas.",
+        "answer": "Para que la compañía eléctrica pueda realizar cortes de suministro por impago.",
         "isCorrect": false,
-        "explanation": "El corte por impago se hace en el contador, no retirando fusibles de la CGP habitualmente."
+        "explanation": "El corte de suministro se gestiona desde el equipo de medida (contador), no es el propósito de los fusibles de la CGP."
       }
     ]
   },
