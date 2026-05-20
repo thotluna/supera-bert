@@ -5,3100 +5,372 @@
     "questions": [
       {
         "id": "ITC-BT-24-01",
-        "question": "¿Cuál es el grado de protección mínimo (IP) exigido para las barreras o envolventes que protegen contra contactos directos en superficies de fácil acceso?",
+        "question": "En el diseño de la protección contra contactos directos mediante barreras o envolventes instaladas en superficies verticales de fácil acceso, ¿qué grado de estanqueidad mínima frente a la penetración de cuerpos sólidos se debe garantizar?",
         "options": [
           {
             "id": 1,
-            "answer": "IP1X.",
+            "answer": "Se debe garantizar como mínimo un grado IP1X para evitar el contacto involuntario de gran superficie.",
             "isCorrect": false,
-            "explanation": "Incorrecto. IP1X protege contra objetos de más de 50mm, insuficiente para dedos."
+            "explanation": "El grado IP1X solo protege contra la penetración de esferas mayores de 50 mm (como el dorso de la mano), permitiendo que un dedo entre en contacto con partes activas, lo cual es inaceptable para la seguridad básica."
           },
           {
             "id": 2,
-            "answer": "IP2X o IPXXB.",
+            "answer": "Es imprescindible que la envolvente alcance, al menos, un grado de protección IP2X o IPXXB.",
             "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.2 de la ITC-BT-24, las barreras o envolventes deben garantizar al menos el grado IP2X o IPXXB para evitar el contacto con partes activas."
+            "explanation": "Este grado garantiza que no pueda penetrar el dedo humano estándar (esfera de 12,5 mm y dedo de prueba de 80 mm). El apartado 3.2 de la ITC-BT-24 lo impone como el umbral básico para evitar que las personas toquen elementos bajo tensión."
           },
           {
             "id": 3,
-            "answer": "IP4X.",
+            "answer": "La normativa requiere que toda envolvente tenga un nivel de protección IP4X para impedir la entrada de herramientas finas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. IP4X es el requisito para superficies horizontales superiores, no el mínimo general."
+            "explanation": "El nivel IP4X (protección contra cuerpos > 1 mm) se exige exclusivamente para las superficies horizontales superiores accesibles de la envolvente, no como mínimo general para toda su superficie."
           },
           {
             "id": 4,
-            "answer": "IP0X.",
+            "answer": "Se exige un nivel IP0X si la instalación cuenta con un diferencial de alta sensibilidad en cabecera.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Significa sin protección."
+            "explanation": "El nivel IP0X significa 'sin protección'. Un diferencial nunca puede sustituir a la protección básica (barreras o aislamientos); solo actúa como protección complementaria."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-02",
-        "question": "¿A qué distancia vertical mínima deben situarse las partes activas con diferentes potenciales para considerarse fuera de alcance por alejamiento?",
+        "question": "En las superficies horizontales superiores de los cuadros eléctricos fácilmente accesibles, ¿por qué la normativa aumenta el nivel de exigencia mecánica respecto a las puertas frontales?",
         "options": [
           {
             "id": 1,
-            "answer": "1,25 metros.",
+            "answer": "Para soportar la carga mecánica en caso de que operarios se suban encima durante el mantenimiento.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 1,25m es la distancia horizontal mínima."
+            "explanation": "Las normas de accesibilidad de envolventes (códigos IK e IP) en este contexto buscan prevenir la entrada de elementos extraños, no certificar la envolvente como estructura de carga para andamiaje."
           },
           {
             "id": 2,
-            "answer": "2,00 metros.",
+            "answer": "Para garantizar la estanqueidad IPX4 frente a la caída de líquidos derramados accidentalmente desde el techo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "El incremento normativo obligatorio atañe a los cuerpos sólidos (primera cifra del IP), no a la caída de agua, salvo que las condiciones del emplazamiento particular lo dictaminen."
           },
           {
             "id": 3,
-            "answer": "2,50 metros.",
+            "answer": "Para impedir que objetos metálicos delgados o herramientas caigan por gravedad a través de las rendijas de ventilación, exigiendo un grado IP4X o IPXXD.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.4 de la ITC-BT-24 establece que el volumen de accesibilidad se limita a 2,50 m en sentido vertical desde la superficie donde se sitúan las personas."
+            "explanation": "El techo de los cuadros es propenso a acumular polvo o a que se depositen destornilladores o cables. El apartado 3.2 de la ITC-BT-24 eleva aquí el requerimiento a IP4X (evita cuerpos mayores a 1 mm) para prevenir cortocircuitos por gravedad."
           },
           {
             "id": 4,
-            "answer": "3,00 metros.",
+            "answer": "Para maximizar la disipación térmica por convección natural a través de un tramado abierto (IP1X).",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "Es justo lo contrario: la norma restringe la apertura superior (exigiendo IP4X) para evitar la caída de objetos, aunque esto dificulte el diseño de la ventilación natural."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-03",
-        "question": "¿Qué medidas se consideran eficaces para la protección contra contactos directos?",
+        "question": "Si se recurre a la protección contra contactos directos por alejamiento (sin aislar las partes activas), situándolas a una altura fuera del alcance de la mano, ¿cuál es el límite vertical del volumen de accesibilidad desde el suelo?",
         "options": [
           {
             "id": 1,
-            "answer": "Protección por aislamiento de las partes activas.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es la medida básica. Fuente: ITC-BT-24, apartado 3.1."
+            "answer": "Se fija en 1,25 metros, considerando la altura de un operador agachado o arrodillado.",
+            "isCorrect": false,
+            "explanation": "Esa dimensión corresponde a la distancia de alejamiento horizontal mínima si la barrera es menor de cierta altura, no al límite vertical que debe salvarse alzando los brazos."
           },
           {
             "id": 2,
-            "answer": "Protección por medio de barreras o envolventes.",
+            "answer": "El volumen abarca hasta los 2,50 metros de altura respecto a la superficie de tránsito.",
             "isCorrect": true,
-            "explanation": "Correcto. Impide el acceso físico. Fuente: ITC-BT-24, apartado 3.2."
+            "explanation": "Se estandariza que una persona alta estirando el brazo puede llegar hasta esa altura. El apartado 3.4 de la ITC-BT-24 determina que cualquier elemento activo desnudo debe colocarse por encima de los 2,50 metros para considerarse seguro por alejamiento."
           },
           {
             "id": 3,
-            "answer": "Protección complementaria por interruptores diferenciales de alta sensibilidad (≤ 30 mA).",
-            "isCorrect": true,
-            "explanation": "Correcto. Actúa en caso de fallo de las otras medidas. Fuente: ITC-BT-24, apartado 3.5."
+            "answer": "Se establecen 3,00 metros como medida de precaución para evitar el contacto usando herramientas manuales habituales.",
+            "isCorrect": false,
+            "explanation": "Aunque pueda parecer más seguro, la norma acota el volumen accesible estricto a 2,50 m. Si se prevé el uso de objetos conductores largos, se debe recurrir a barreras o aislamientos adicionales, no a ampliar el volumen estandarizado."
           },
           {
             "id": 4,
-            "answer": "Puesta a tierra de las masas exclusivamente.",
+            "answer": "Depende exclusivamente del tamaño de las pértigas de maniobra aprobadas para la instalación.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La puesta a tierra es una medida contra contactos indirectos, no directos."
+            "explanation": "El concepto de 'fuera del alcance de la mano' se define por la antropometría humana en situación de tránsito normal, independientemente de los equipos de protección individual usados durante los trabajos de mantenimiento."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-24-04",
-        "question": "En un esquema TT, ¿cuál es la condición de seguridad que debe cumplir la resistencia de tierra de las masas (Ra) y la corriente de disparo (Ia)?",
+        "question": "¿Por qué un interruptor diferencial de muy alta sensibilidad (≤ 30 mA) jamás debe proyectarse como la única medida para proteger a las personas contra contactos directos en una vivienda?",
         "options": [
           {
             "id": 1,
-            "answer": "Ra x Ia ≤ 24 V siempre.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 24V es para locales húmedos."
+            "answer": "Porque si una persona toca simultáneamente la fase y el neutro aislada del suelo, el diferencial interpretará el contacto como un consumo normal y no disparará.",
+            "isCorrect": true,
+            "explanation": "El diferencial mide la suma vectorial de corrientes (lo que entra menos lo que sale). Si la corriente entra por la fase, pasa por el cuerpo humano y vuelve por el neutro, la suma es cero y el equipo no detecta fuga. Por eso el apartado 3.5 de la ITC-BT-24 lo clasifica como protección puramente 'complementaria'."
           },
           {
             "id": 2,
-            "answer": "Ra x Ia ≤ 50 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4.1.1 de la ITC-BT-24 establece esta condición para que la tensión de defecto no supere la tensión de seguridad de 50V."
+            "answer": "Porque su tiempo mecánico de apertura es superior a los 2 segundos, provocando fibrilación ventricular irremediable antes del corte.",
+            "isCorrect": false,
+            "explanation": "Los diferenciales de alta sensibilidad son dispositivos ultrarrápidos, cortando el suministro en escasos milisegundos cuando detectan defecto a tierra; el problema no es su velocidad, sino el tipo de circuito de contacto."
           },
           {
             "id": 3,
-            "answer": "Ra x Ia ≥ 50 V.",
+            "answer": "Porque están calibrados para proteger exclusivamente a los electrodomésticos frente a sobretensiones transitorias cortas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
+            "explanation": "El diferencial no interviene ante sobretensiones transitorias (eso lo hacen los descargadores del tipo 2 o 3); su única misión es detectar corrientes residuales de fuga."
           },
           {
             "id": 4,
-            "answer": "Ra = Ia.",
+            "answer": "Porque 30 mA es una corriente que supera ampliamente el umbral letal para cualquier individuo sano.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El umbral de los 30 mA se fija precisamente porque las curvas de la CEI indican que por debajo de ese valor, y con los tiempos de disparo habituales, no existe riesgo fisiológico grave para las personas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-05",
-        "question": "¿Qué dispositivo es obligatorio en el esquema IT para detectar el primer defecto de aislamiento?",
+        "question": "En el diseño de la protección contra contactos indirectos en un esquema TT ordinario en local seco, ¿qué parámetro se relaciona con la sensibilidad de los diferenciales para garantizar que la tensión en las carcasas metálicas (masas) nunca alcance un umbral peligroso?",
         "options": [
           {
             "id": 1,
-            "answer": "Interruptor diferencial de 300 mA.",
+            "answer": "La suma de las resistencias del conductor de fase y del conductor de neutro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "En un defecto a masa, la corriente de defecto no vuelve por el neutro de la instalación, sino a través de la tierra física hasta el centro de transformación."
           },
           {
             "id": 2,
-            "answer": "Dispositivo de vigilancia del nivel de aislamiento.",
+            "answer": "La resistencia máxima que presenta la pica o red de electrodos de la toma de tierra del edificio.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 4.1.3 de la ITC-BT-24 indica que en el esquema IT se debe prever un dispositivo de control de aislamiento para señalar el primer defecto."
+            "explanation": "En un defecto de fase a carcasa, la tensión que adopta esta es el producto de la corriente de defecto por la resistencia de tierra (Ra). Para que la tensión no supere 50 V, el apartado 4.1.1 de la ITC-BT-24 exige que el producto de Ra por la corriente de actuación del diferencial (Ia) sea inferior o igual a esa tensión límite (Ra × Ia ≤ 50 V)."
           },
           {
             "id": 3,
-            "answer": "Pica de tierra de baja resistencia.",
+            "answer": "La capacidad galvánica de los condensadores instalados en la batería de compensación de reactiva.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La compensación de energía reactiva y sus condensadores afectan al factor de potencia de la red, pero no intervienen en el bucle de cálculo del defecto a tierra y la tensión de contacto resultante."
           },
           {
             "id": 4,
-            "answer": "Fusible tipo gG.",
+            "answer": "El poder de corte último del interruptor magnetotérmico general del cuadro de mando y protección.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El poder de corte define la capacidad para extinguir cortocircuitos francos entre fases o fase-neutro. Para los contactos indirectos de baja corriente en esquema TT, se evalúa la sensibilidad del diferencial y la pica de tierra."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-06",
-        "question": "¿Cuál es la tensión máxima permitida para considerar un circuito como de Muy Baja Tensión de Seguridad (MBTS) en corriente alterna?",
+        "question": "Se desea alimentar unas luminarias sumergidas en una piscina ornamental. ¿Por qué es mandatario utilizar protección por Muy Baja Tensión de Seguridad (MBTS) limitando la tensión de CA por debajo de 12 V?",
         "options": [
           {
             "id": 1,
-            "answer": "24 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 24V es un límite común pero el máximo normativo es superior."
+            "answer": "Porque en un entorno mojado, la resistencia del cuerpo humano se vuelve prácticamente despreciable, permitiendo que un ínfimo voltaje genere corrientes letales.",
+            "isCorrect": true,
+            "explanation": "La tensión de seguridad estándar es 50 V en seco y 24 V en húmedo. Sin embargo, en inmersión, la piel pierde todo su efecto aislante. La ITC-BT-24 en su apartado 4.1 reduce la tensión a menos de 12 V para compensar la caída brutal de la impedancia del cuerpo humano."
           },
           {
             "id": 2,
-            "answer": "50 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. La ITC-BT-24 define MBTS para tensiones nominales ≤ 50 V en AC. Fuente: ITC-BT-24, apartado 4.1."
+            "answer": "Para evitar la corrosión galvánica acelerada de las carcasas metálicas de los focos por efecto de la electrólisis del agua clorada.",
+            "isCorrect": false,
+            "explanation": "Aunque la corrosión es un problema físico real, el sistema MBTS se exige de forma excluyente por el riesgo de electrocución de los bañistas, no para alargar la vida útil de los materiales sumergidos."
           },
           {
             "id": 3,
-            "answer": "120 V.",
+            "answer": "Para permitir que la instalación carezca de transformadores intermedios y reducir el consumo reactivo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 120V es el límite para corriente continua (DC)."
+            "explanation": "Es justamente lo opuesto: la medida MBTS obliga a instalar transformadores de seguridad para separar galvánicamente el circuito respecto a la red de alta tensión."
           },
           {
             "id": 4,
-            "answer": "230 V.",
+            "answer": "Porque el Código Técnico impone el uso de paneles solares fotovoltaicos pequeños para la iluminación decorativa acuática.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
+            "explanation": "No existe tal obligación para luminarias acuáticas. El límite de 12 V se aplica independientemente de la fuente de origen (sea red con transformador o baterías)."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-07",
-        "question": "¿Qué diferencia principal existe entre MBTS (de Seguridad) y MBTP (de Protección)?",
+        "question": "¿Qué distinción fundamental existe a la hora de instalar un sistema MBTS (Seguridad) frente a uno MBTP (Protección), si ambos trabajan con muy baja tensión?",
         "options": [
           {
             "id": 1,
-            "answer": "MBTS no tiene conexión a tierra en sus partes activas ni en las masas.",
+            "answer": "El MBTP requiere una toma de tierra funcional exclusiva en sus masas y en su punto neutro, mientras que el MBTS prohíbe cualquier tipo de conexión a tierra.",
             "isCorrect": true,
-            "explanation": "Correcto. Es un sistema totalmente aislado. Fuente: ITC-BT-24, apartado 4.1."
+            "explanation": "En el MBTS (Safety), la flotabilidad respecto a tierra garantiza que un contacto accidental de la fase con una masa no cierre el circuito a través de una persona. El MBTP (Protective) admite puestas a tierra por necesidades funcionales (ej. electrónica o control). Ver apartado 4.1 de la ITC-BT-24."
           },
           {
             "id": 2,
-            "answer": "MBTP puede tener conexión a tierra por razones funcionales.",
-            "isCorrect": true,
-            "explanation": "Correcto. La 'P' indica protección pero permite referencia a tierra. Fuente: ITC-BT-24, apartado 4.1."
+            "answer": "El MBTS opera exclusivamente en corriente continua pura, mientras que el MBTP permite alimentaciones de corriente alterna hasta 50 V.",
+            "isCorrect": false,
+            "explanation": "Ambos sistemas pueden trabajar tanto en alterna (hasta 50 V) como en continua (hasta 120 V); la diferencia no es el tipo de forma de onda sino la filosofía de aislamiento respecto a tierra."
           },
           {
             "id": 3,
-            "answer": "MBTS requiere obligatoriamente un transformador de seguridad.",
-            "isCorrect": true,
-            "explanation": "Correcto. Para asegurar la separación galvánica. Fuente: ITC-BT-24, apartado 4.1."
+            "answer": "El MBTS emplea transformadores con primario y secundario en la misma bobina (autotransformador), ahorrando espacio en el cuadro.",
+            "isCorrect": false,
+            "explanation": "Si se usara un autotransformador, no habría separación galvánica y un fallo de aislamiento en la bobina transmitiría los 230 V al circuito de baja tensión. El MBTS exige transformadores de seguridad de doble aislamiento."
           },
           {
             "id": 4,
-            "answer": "MBTP se utiliza siempre a 230V.",
+            "answer": "El MBTP se reserva para redes industriales de potencia mientras que el MBTS es exclusivo para el alumbrado en viviendas unifamiliares.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Ambos operan en muy baja tensión (≤ 50V AC)."
+            "explanation": "El uso de uno u otro depende del nivel de seguridad requerido (presencia de agua, locales conductores) o requerimientos funcionales, no del ámbito doméstico o industrial."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-24-08",
-        "question": "¿Es obligatorio conectar a tierra la carcasa de un equipo de Clase II?",
+        "question": "En un entorno hospitalario crítico donde no se puede tolerar la interrupción del servicio, se instala un esquema de conexión a tierra IT. ¿Qué comportamiento presentará el sistema ante el primer contacto directo entre una fase y la carcasa de un equipo médico?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, para mayor seguridad.",
+            "answer": "El interruptor diferencial de cabecera disparará inmediatamente salvaguardando a los pacientes y cortando el suministro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "Precisamente la filosofía del esquema IT es evitar el corte de suministro en el primer fallo. Las protecciones no saltarán de manera inmediata, manteniendo la continuidad del servicio médico."
           },
           {
             "id": 2,
-            "answer": "No, y además está prohibido realizar dicha conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4.2 de la ITC-BT-24 prohíbe la conexión a tierra de equipos de Clase II para no comprometer su aislamiento doble o reforzado."
+            "answer": "Se producirá una derivación franca que hará actuar las protecciones magnetotérmicas, deteniendo los quirófanos.",
+            "isCorrect": false,
+            "explanation": "En el esquema IT el neutro del transformador está aislado. Por tanto, el primer defecto fase-masa genera una corriente de fuga minúscula, insuficiente para hacer saltar un magnetotérmico."
           },
           {
             "id": 3,
-            "answer": "Solo si se instala en un baño.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "La corriente de defecto será ínfima y no provocará el disparo de las protecciones automáticas, limitándose a activar una alarma acústica o visual.",
+            "isCorrect": true,
+            "explanation": "Al no haber retorno directo por el neutro, la corriente capacitiva del primer fallo no representa peligro inminente ni hace saltar protecciones. El dispositivo permanente de control de aislamiento señalizará el evento para que mantenimiento repare el fallo sin apagar el equipo vital, según detalla el apartado 4.1.3 de la ITC-BT-24."
           },
           {
             "id": 4,
-            "answer": "Es opcional a criterio del instalador.",
+            "answer": "La tensión del neutro respecto a tierra caerá a cero bruscamente, invirtiendo la polaridad de todo el instrumental quirúrgico conectado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Esto es físicamente erróneo. En el primer defecto fase-tierra, la fase defectuosa pasa a potencial de tierra y las otras fases elevan su tensión respecto a tierra a valor de tensión de línea, pero la polaridad no se invierte."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-09",
-        "question": "¿Cuál es la limitación principal para usar la protección por separación eléctrica en un circuito?",
+        "question": "¿Por qué la normativa prohíbe taxativamente la conexión a tierra de las partes metálicas accesibles en equipos que incorporan protección por aislamiento de Clase II (doble aislamiento)?",
         "options": [
           {
             "id": 1,
-            "answer": "No se pueden usar transformadores.",
+            "answer": "Porque el conductor de protección (PE) actuaría como antena irradiando los ruidos de conmutación del equipo al resto de la vivienda.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "Aunque pueda haber acoplamientos electromagnéticos, la prohibición se basa puramente en la seguridad eléctrica (riesgos de contacto indirecto y traslado de potenciales peligrosos), no en problemas de compatibilidad electromagnética (EMC)."
           },
           {
             "id": 2,
-            "answer": "El circuito separado debe alimentar, preferiblemente, a un solo receptor.",
+            "answer": "Para evitar que un fallo derivado de otro punto de la instalación ponga en tensión la carcasa a través del propio conductor de tierra.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 4.5 de la ITC-BT-24 recomienda un solo receptor para evitar que un fallo doble en dos receptores anule la protección."
+            "explanation": "La Clase II basa su seguridad en impedir físicamente que la fase toque la masa. Si conectáramos la masa a tierra, un fallo en el conductor neutro o en otra masa conectada a la misma pica podría 'retornar' e inyectar potencial letal en un equipo que por sí mismo era intrínsecamente seguro. Se establece en el apartado 4.2 de la ITC-BT-24."
           },
           {
             "id": 3,
-            "answer": "La tensión debe ser superior a 1.000 V.",
+            "answer": "Porque las carcasas de Clase II suelen estar recubiertas de pinturas epóxicas ignífugas que impiden lograr una baja resistencia de contacto en la bornera.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
+            "explanation": "La calidad del contacto mecánico del borne no justifica la prohibición absoluta normativa; el fundamento es evitar anular la estrategia de protección del doble aislamiento aportando caminos de retorno espurios."
           },
           {
             "id": 4,
-            "answer": "Debe estar conectado directamente al neutro de la compañía.",
+            "answer": "Porque incrementaría la capacidad térmica necesaria del cableado principal debido al retorno permanente de pequeñas corrientes parásitas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
+            "explanation": "Las corrientes de fuga capacitivas a través del conductor de tierra no tienen la magnitud suficiente para afectar la sección térmica del cableado. La prohibición es por seguridad ante derivaciones, no por ampacidad."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-10",
-        "question": "¿Qué requisitos deben cumplir los suelos y paredes en emplazamientos no conductores para considerarse eficaces?",
+        "question": "Se pretende utilizar la 'protección por locales o emplazamientos no conductores' rodeando un equipo con suelos y paredes aislantes. Si en la sala hay una viga metálica estructural conectada a tierra, ¿se consideraría válida esta estrategia de seguridad?",
         "options": [
           {
             "id": 1,
-            "answer": "Resistencia ≥ 50 kΩ si la tensión nominal es ≤ 500 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el valor límite para bajas tensiones comunes. Fuente: ITC-BT-24, apartado 4.3."
+            "answer": "Sí, siempre que la viga metálica esté separada al menos 50 cm del equipo bajo tensión.",
+            "isCorrect": false,
+            "explanation": "Si existe cualquier camino conductor hacia tierra al alcance, la filosofía completa del emplazamiento no conductor queda anulada."
           },
           {
             "id": 2,
-            "answer": "Resistencia ≥ 100 kΩ si la tensión nominal es > 500 V.",
+            "answer": "No, es un requisito absoluto que en dicho local no se disponga de ninguna masa accesible o elemento conductor simultáneamente al alcance.",
             "isCorrect": true,
-            "explanation": "Correcto. Se exige mayor aislamiento a mayor tensión. Fuente: ITC-BT-24, apartado 4.3."
+            "explanation": "La efectividad de esta medida radical recae en la imposibilidad de cerrar un circuito desde la fase hacia la tierra. Si hay una viga aterrada (elemento conductor extraño), el usuario podría tocar el equipo defectuoso con una mano y la viga con la otra, sufriendo la descarga. El apartado 4.3 de la ITC-BT-24 exige su ausencia."
           },
           {
             "id": 3,
-            "answer": "No deben existir masas accesibles simultáneamente conectadas a tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Para evitar el camino de retorno de la corriente. Fuente: ITC-BT-24, apartado 4.3."
+            "answer": "Sí, si se reviste temporalmente la viga con cinta aislante industrial durante la operación del equipo.",
+            "isCorrect": false,
+            "explanation": "Las protecciones deben formar parte estable y constructiva de la instalación. Una cinta adhesiva no ofrece garantías de rigidez dieléctrica permanente ni cumple la resistencia ohmica requerida para paredes (50 kΩ o 100 kΩ)."
           },
           {
             "id": 4,
-            "answer": "Deben ser de material metálico con pintura aislante.",
+            "answer": "No, excepto que se instale un suelo técnico con resistencia superior a 1 Megaohmio en toda su superficie.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Los materiales metálicos son conductores y no aptos para esta medida."
+            "explanation": "Por muy aislante que sea el suelo, si la persona puede tocar simultáneamente la carcasa defectuosa y la viga (o cañería aterrada) con las manos, el circuito se cerrará a través del tronco sin pasar por los pies."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-24-11",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
+        "question": "Para asegurar que el nivel de protección se mantiene en un sistema que usa separación eléctrica de circuitos, ¿por qué es altamente recomendable que el secundario del transformador alimente única y exclusivamente a un único receptor?",
         "options": [
           {
             "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
+            "answer": "Porque si hubiera varios equipos y ocurriera un fallo de aislamiento simultáneo en dos de ellos con fases distintas, se produciría un cortocircuito peligroso a través del suelo o de los conductores de conexión.",
+            "isCorrect": true,
+            "explanation": "La separación eléctrica aísla el circuito respecto a tierra. Si falla un equipo, nada pasa. Pero si hay dos equipos, y el equipo A deriva la fase L1 a su chasis y el equipo B deriva la fase L2 a su chasis, si una persona toca ambas carcasas o si las carcasas están unidas sin tierra, sufrirá una descarga a tensión de línea sin que operen las protecciones. El apartado 4.5 de la ITC-BT-24 alerta sobre esto."
           },
           {
             "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
+            "answer": "Porque los transformadores de aislamiento son equipos muy sensibles magnéticamente y la conexión de cargas en paralelo desequilibraría drásticamente las tensiones del núcleo toroidal.",
+            "isCorrect": false,
+            "explanation": "Los transformadores pueden soportar cargas en paralelo como cualquier máquina eléctrica. La limitación es puramente por topología de riesgo eléctrico ante dobles defectos."
           },
           {
             "id": 3,
-            "answer": "12 V.",
+            "answer": "Para garantizar que el diferencial principal pueda identificar correctamente qué máquina específica es la responsable del salto ante una derivación a tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
+            "explanation": "En un sistema con separación eléctrica perfecta no se instalan diferenciales en el secundario, ya que no hay circuito de retorno de fuga a tierra. Por tanto, el diferencial no discriminaría nada."
           },
           {
             "id": 4,
-            "answer": "110 V.",
+            "answer": "Porque al haber varios receptores se generarían sobrecorrientes en el arranque que saturarían el núcleo magnético, inutilizando la protección.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
+            "explanation": "Este es un problema de dimensionamiento de potencia (sobreequipar la instalación) solucionable eligiendo un transformador mayor, no afecta al principio conceptual de la protección contra contactos eléctricos indirectos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-24-12",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
+        "question": "Dentro de un emplazamiento catalogado como húmedo o mojado (tales como lavanderías comerciales o cocinas industriales), ¿qué restricción drástica experimentan los cálculos de protección diferencial e impedancias de defecto frente a los locales secos tradicionales?",
         "options": [
           {
             "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-13",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-14",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-15",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-16",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-17",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-18",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-19",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-20",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-21",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-22",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-23",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-24",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-25",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-26",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-27",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-28",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-29",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-30",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-31",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-32",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-33",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-34",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-35",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-36",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-37",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-38",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-39",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-40",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-41",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-42",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-43",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-44",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-45",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-46",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-47",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-48",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-49",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-50",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-51",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-52",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-53",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-54",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-55",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-56",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-57",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-58",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-59",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-60",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-61",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-62",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-63",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-64",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-65",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-66",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-67",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-68",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-69",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-70",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-71",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-72",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-73",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-74",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-75",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-76",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-77",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-78",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-79",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-80",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-81",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-82",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-83",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-84",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-85",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-86",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-87",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-88",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-89",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-90",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
-          },
-          {
-            "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-91",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
-          },
-          {
-            "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-92",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
-            "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-93",
-        "question": "¿Qué símbolo identifica a un equipo con protección por Clase II?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un rayo dentro de un círculo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Dos cuadrados concéntricos.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el símbolo universal de doble aislamiento o aislamiento reforzado (Clase II). Fuente: ITC-BT-24."
-          },
-          {
-            "id": 3,
-            "answer": "Un triángulo invertido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Una letra 'T' mayúscula.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-94",
-        "question": "¿Cuál de estas fuentes se considera válida para alimentar un sistema MBTS?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un transformador de seguridad según UNE-EN 61558-2-6.",
-            "isCorrect": true,
-            "explanation": "Correcto. Asegura la separación de protección. Fuente: ITC-BT-24, apartado 4.1.1."
-          },
-          {
-            "id": 2,
-            "answer": "Un autotransformador.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. No hay separación galvánica."
-          },
-          {
-            "id": 3,
-            "answer": "Un potenciómetro conectado a la red.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 4,
-            "answer": "Cualquier cargador de móvil sin certificación.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-95",
-        "question": "¿Cuándo se permite la protección contra contactos directos mediante obstáculos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En cualquier instalación industrial.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Solo en locales accesibles únicamente al personal autorizado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.3 de la ITC-BT-24 limita esta medida a zonas restringidas debido a que no impide el contacto voluntario."
-          },
-          {
-            "id": 3,
-            "answer": "En el exterior de los edificios.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En viviendas de lujo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-96",
-        "question": "¿Qué grado de protección se exige para las superficies horizontales superiores de barreras o envolventes?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "IP2X.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Ese es el mínimo general."
-          },
-          {
-            "id": 2,
-            "answer": "IP4X o IPXXD.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-24 exige IP4X para evitar que objetos pequeños caigan sobre las partes activas."
-          },
-          {
-            "id": 3,
-            "answer": "IP67.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "IP00.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-97",
-        "question": "¿Hasta qué altura se considera el volumen de accesibilidad para evitar contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2,0 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 metros.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 3.4 de la ITC-BT-24, se define como el volumen al alcance de la mano (2,5m en vertical)."
-          },
-          {
-            "id": 3,
-            "answer": "1,25 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es la distancia horizontal."
-          },
-          {
-            "id": 4,
-            "answer": "5 metros.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-98",
-        "question": "¿Se puede usar un interruptor diferencial de 30 mA como única medida de protección contra contactos directos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Sí, es suficiente.",
+            "answer": "Es imperativo utilizar cables con doble cubierta de aislamiento extruido de XLPE para compensar la humedad del aire ambiente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
+            "explanation": "Los aislamientos se escogen en función del medio, pero la restricción para el cálculo de contactos indirectos no pasa por el material de la manguera, sino por el valor del voltaje tolerado."
           },
           {
             "id": 2,
-            "answer": "No, se considera únicamente como medida de protección complementaria.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.5 de la ITC-BT-24 recalca que no sustituye al aislamiento o a las barreras."
-          },
-          {
-            "id": 3,
-            "answer": "Solo en instalaciones provisionales de obra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Solo si el local es de madera.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-24."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-99",
-        "question": "¿Cuál es la tensión de seguridad máxima en locales húmedos para contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "50 V.",
+            "answer": "Se prohíbe terminantemente la instalación de esquemas de conexión tipo TT, siendo obligatorio emplear redes de distribución TN-S.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 50V es para locales secos."
-          },
-          {
-            "id": 2,
-            "answer": "24 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-24 (Manual), en locales húmedos o mojados se reduce la tensión de seguridad a 24V."
+            "explanation": "El esquema TT es perfectamente válido y es el más habitual en la distribución general; lo que cambia es el nivel de exigencia de las protecciones o de la toma de tierra en ese emplazamiento."
           },
           {
             "id": 3,
-            "answer": "12 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 12V es para inmersión (piscinas)."
-          },
-          {
-            "id": 4,
-            "answer": "110 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-24 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-24-100",
-        "question": "¿Qué condición debe cumplirse en el esquema TN para asegurar la protección contra contactos indirectos?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Zs x Ia ≤ Uo.",
+            "answer": "La tensión límite convencional de contacto admisible (tensión de seguridad) se reduce a la mitad, exigiendo que las tensiones de defecto no superen los 24 V.",
             "isCorrect": true,
-            "explanation": "Correcto. Siendo Zs la impedancia del bucle de defecto e Ia la corriente de disparo. Fuente: ITC-BT-24, apartado 4.1.2."
-          },
-          {
-            "id": 2,
-            "answer": "Zs = Ia.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 3,
-            "answer": "Zs / Ia = 50.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El agua reduce radicalmente la impedancia galvánica del cuerpo humano y aumenta la superficie de contacto. Para evitar que la corriente traspase el umbral letal, el reglamento (ITC-BT-24, sección general de protección) obliga a usar 24 V como umbral de seguridad en vez de los 50 V habituales para los cálculos."
           },
           {
             "id": 4,
-            "answer": "Uo x Ia ≤ 50.",
+            "answer": "Obliga a que todos los interruptores automáticos incorporen en sus relés una curva de disparo térmico ultrarrápida (tipo Z o A).",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-24, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Las curvas térmicas (que protegen los cables de sobrecargas continuadas) no tienen impacto directo en la evitación de accidentes por contactos indirectos originados por fugas."
           }
         ],
         "type": "simple"
