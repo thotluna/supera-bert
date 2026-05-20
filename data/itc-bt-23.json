@@ -5,3100 +5,372 @@
     "questions": [
       {
         "id": "ITC-BT-23-01",
-        "question": "¿A qué categoría pertenecen los equipos que forman parte de la instalación fija, como cuadros de distribución e interruptores?",
+        "question": "En el contexto de la coordinación de aislamiento y resistencia a las sobretensiones, ¿qué consideración tienen los equipos y aparamenta que forman parte indisoluble de la instalación fija, como los cuadros de distribución o el cableado estructurado?",
         "options": [
           {
             "id": 1,
-            "answer": "Categoría I.",
+            "answer": "Se clasifican como equipos de muy alta sensibilidad que requieren protección fina dedicada a pie de equipo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La Categoría I es para equipos electrónicos muy sensibles."
+            "explanation": "Los equipos extremadamente sensibles (como ordenadores o circuitería electrónica) pertenecen a una categoría de aislamiento inferior y son los que requieren protección fina a pie de equipo. Los cuadros y cableado fijo tienen mayor robustez dieléctrica."
           },
           {
             "id": 2,
-            "answer": "Categoría II.",
+            "answer": "Pertenecen a una categoría intermedia diseñada para conectarse a la instalación fija, como los electrodomésticos portátiles.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La Categoría II es para receptores y herramientas portátiles."
+            "explanation": "Esa descripción corresponde a los aparatos y receptores de uso común. Los elementos que componen la instalación fija en sí misma deben tener un nivel de aislamiento superior para garantizar la distribución segura de la energía."
           },
           {
             "id": 3,
-            "answer": "Categoría III.",
+            "answer": "Se encuadran en la categoría de equipos de la instalación fija, exigiéndoseles un alto grado de disponibilidad y robustez dieléctrica.",
             "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-23, apartado 2, la Categoría III engloba los equipos de la instalación fija y otros equipos con un alto grado de fiabilidad."
+            "explanation": "La normativa clasifica los elementos en función del nivel de sobretensión a impulsos que pueden soportar. Según el apartado 2 de la ITC-BT-23, los cuadros de distribución e interruptores forman parte de la Categoría III, la cual agrupa a la instalación fija y exige alta fiabilidad."
           },
           {
             "id": 4,
-            "answer": "Categoría IV.",
+            "answer": "Se consideran equipos ubicados en el origen de la instalación, debiendo soportar las mayores tensiones de impulso de toda la red.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La Categoría IV es para el origen de la instalación (contadores)."
+            "explanation": "El origen de la instalación (donde están los contadores y la protección general) está expuesto directamente a la red de distribución y debe soportar el nivel máximo de sobretensiones. Los cuadros secundarios y cableado interior están un escalón por debajo en exigencia dieléctrica."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-02",
-        "question": "¿Cuál es la tensión soportada a impulsos (Up) exigida para un equipo de Categoría II en una instalación de 230/400 V?",
+        "question": "Para un receptor de uso general (como una herramienta portátil o un electrodoméstico) conectado a una red doméstica monofásica, ¿qué tensión máxima de impulso debe ser capaz de soportar su aislamiento interno sin perforarse?",
         "options": [
           {
             "id": 1,
             "answer": "1,5 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 1,5 kV es para Categoría I."
+            "explanation": "Este valor es demasiado bajo para un receptor general; está reservado para equipos electrónicos especialmente protegidos y sensibles (Categoría I)."
           },
           {
             "id": 2,
             "answer": "2,5 kV.",
             "isCorrect": true,
-            "explanation": "Correcto. La tabla del apartado 4 de la ITC-BT-23 establece que los equipos de Categoría II deben soportar una tensión de impulso de 2,5 kV."
+            "explanation": "Los aparatos electrodomésticos y herramientas se engloban en la Categoría II. Para redes de 230 V, la tabla de tensiones soportadas a impulsos del apartado 4 de la ITC-BT-23 determina que el aislamiento de estos equipos debe resistir hasta 2,5 kV."
           },
           {
             "id": 3,
             "answer": "4 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 4 kV es para Categoría III."
+            "explanation": "Este es el valor exigido a la aparamenta de la instalación fija (cuadros, cableado permanente), la cual debe tener una robustez mayor que los receptores conectados a ella."
           },
           {
             "id": 4,
             "answer": "6 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 6 kV es para Categoría IV."
+            "explanation": "Es el nivel máximo exigido en baja tensión para los equipos situados en el origen de la instalación (zona de contadores), que están más expuestos a descargas atmosféricas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-03",
-        "question": "¿En qué casos es obligatoria la protección contra sobretensiones transitorias?",
+        "question": "¿En qué circunstancia de suministro eléctrico se hace técnica y reglamentariamente obligatoria la instalación de dispositivos de protección contra sobretensiones transitorias para preservar la instalación?",
         "options": [
           {
             "id": 1,
-            "answer": "Solo cuando el usuario lo solicite expresamente.",
+            "answer": "Únicamente cuando el usuario declare que conectará equipos informáticos de alto valor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Hay casos de obligatoriedad técnica."
+            "explanation": "La obligatoriedad normativa se basa en la evaluación objetiva del riesgo para las personas y las instalaciones de seguridad pública o servicios esenciales, no en el valor económico de los receptores privados."
           },
           {
             "id": 2,
-            "answer": "Cuando la instalación esté alimentada total o parcialmente por una línea aérea.",
+            "answer": "Cuando la instalación eléctrica está alimentada, ya sea de forma total o parcial, mediante una red de tendido aéreo.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 3.2 de la ITC-BT-23 establece que la protección es obligatoria si la alimentación es aérea, debido al riesgo de descargas atmosféricas."
+            "explanation": "Las redes aéreas están directamente expuestas a la caída de rayos y a acoplamientos electromagnéticos atmosféricos. El apartado 3.2 de la ITC-BT-23 impone la protección obligatoria siempre que el suministro no sea íntegramente subterráneo."
           },
           {
             "id": 3,
-            "answer": "En todas las instalaciones de menos de 5 kW.",
+            "answer": "En toda instalación cuya potencia máxima admisible supere los 5.750 W.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La potencia de la instalación no determina el riesgo de sobretensiones transitorias externas."
+            "explanation": "El nivel de potencia contratada o admisible no influye en la probabilidad de recibir una sobretensión transitoria de origen atmosférico o de maniobra."
           },
           {
             "id": 4,
-            "answer": "Solo en edificios con más de 10 plantas.",
+            "answer": "Solo cuando la edificación supere los 15 metros de altura desde la rasante.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La altura del edificio puede influir en el riesgo, pero la norma obliga por tipo de alimentación (aérea) independientemente de las plantas."
+            "explanation": "Aunque la altura de un edificio influye en la probabilidad de impacto directo de rayo (requiriendo evaluación del Código Técnico de la Edificación), el reglamento eléctrico lo condiciona al tipo de red de alimentación."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-04",
-        "question": "¿Qué situaciones requieren obligatoriamente protección contra sobretensiones para evitar fallos que afecten a terceros?",
+        "question": "Independientemente del tipo de red de alimentación, la protección contra sobretensiones es obligatoria cuando las consecuencias de un fallo por esta causa supongan un riesgo inaceptable. ¿Cuáles de estos escenarios imponen dicha obligatoriedad?",
         "options": [
           {
             "id": 1,
-            "answer": "Instalaciones en hospitales o centros de salud.",
-            "isCorrect": true,
-            "explanation": "Correcto. Afecta a la vida humana. Fuente: ITC-BT-23, apartado 3.2."
+            "answer": "Cualquier bloque de viviendas plurifamiliares con alimentación íntegramente subterránea.",
+            "isCorrect": false,
+            "explanation": "En una vivienda estándar alimentada de forma subterránea, un fallo por sobretensión afecta a bienes materiales pero no supone un riesgo inminente para la vida o para servicios públicos, por lo que la protección se considera 'recomendable' pero no obligatoria."
           },
           {
             "id": 2,
-            "answer": "Locales de pública concurrencia.",
+            "answer": "Instalaciones donde un fallo eléctrico pueda afectar a la seguridad de las personas, como hospitales.",
             "isCorrect": true,
-            "explanation": "Correcto. Según la ITC-BT-23 y la ITC-BT-28, es obligatorio proteger estos locales."
+            "explanation": "La pérdida de suministro o daños en equipos médicos críticos por una sobretensión pone en riesgo la vida humana, situación calificada como de máximo riesgo que exige protección obligatoria según el apartado 3.2 de la ITC-BT-23."
           },
           {
             "id": 3,
-            "answer": "Servicios de telecomunicaciones o centros de datos.",
+            "answer": "Centros de proceso de datos, telecomunicaciones y servicios públicos esenciales.",
             "isCorrect": true,
-            "explanation": "Correcto. Afecta a servicios públicos. Fuente: ITC-BT-23, apartado 3.2."
+            "explanation": "La afectación a la seguridad pública y la interrupción de servicios IT o de comunicaciones son criterios que imponen la obligatoriedad de los protectores, tal y como detalla la ITC-BT-23."
           },
           {
             "id": 4,
-            "answer": "Una vivienda aislada con alimentación totalmente subterránea sin pararrayos cercano.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. En este caso es una 'situación natural' donde la protección es recomendada pero no obligatoria."
+            "answer": "Locales destinados a pública concurrencia y centros comerciales.",
+            "isCorrect": true,
+            "explanation": "La destrucción de los equipos de iluminación de emergencia o de alarmas contra incendios en lugares de alta ocupación supone un riesgo grave, por lo que la normativa los incluye en la obligatoriedad de protección."
           }
         ],
         "type": "multiple"
       },
       {
         "id": "ITC-BT-23-05",
-        "question": "¿Cuál es el valor mínimo de la corriente nominal de descarga (In) para un protector contra sobretensiones?",
+        "question": "Al seleccionar un dispositivo de protección contra sobretensiones instalado en el cuadro general, ¿qué valor mínimo de capacidad para derivar a tierra corrientes de impulso transitorias se exige reglamentariamente?",
         "options": [
           {
             "id": 1,
-            "answer": "1 kA.",
+            "answer": "Una corriente nominal de descarga de al menos 1 kA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Un valor tan bajo provocaría la destrucción inmediata del protector ante la primera onda de sobretensión atmosférica inducida moderada."
           },
           {
             "id": 2,
-            "answer": "5 kA.",
+            "answer": "Una corriente nominal de descarga no inferior a 5 kA.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 especifica que la In mínima debe ser de 5 kA para onda 8/20 µs."
+            "explanation": "Para garantizar una durabilidad y eficacia mínimas frente a fenómenos transitorios habituales (conmutaciones de red y rayos lejanos), el apartado 4 de la ITC-BT-23 fija la In mínima de los dispositivos en 5 kA (evaluada con onda 8/20 µs)."
           },
           {
             "id": 3,
-            "answer": "10 kA.",
+            "answer": "Una capacidad de cortocircuito permanente de 10 kA.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es un valor común pero el mínimo normativo es 5 kA."
+            "explanation": "La capacidad de cortocircuito se aplica a los interruptores automáticos frente a fallos a 50 Hz. Los protectores contra sobretensiones se definen por su corriente de descarga frente a impulsos de microsegundos, no frente a cortocircuitos permanentes."
           },
           {
             "id": 4,
-            "answer": "20 kA.",
+            "answer": "Debe ser capaz de derivar cualquier corriente de defecto sin importar su magnitud.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Ningún dispositivo tiene capacidad infinita. Los protectores se fabrican y certifican para valores de diseño concretos y si se supera su Imax, se degradan o destruyen controladamente."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-06",
-        "question": "¿Qué relación debe existir entre el nivel de protección (Up) del dispositivo y la tensión soportada a impulsos (Uw) del equipo a proteger?",
+        "question": "Para asegurar la coordinación dieléctrica entre un equipo receptor y su protector de sobretensiones asociado, ¿cómo debe calcularse la tensión residual o nivel de protección del dispositivo limitador?",
         "options": [
           {
             "id": 1,
-            "answer": "Up debe ser mayor que Uw.",
+            "answer": "La tensión que el protector deja pasar hacia la instalación debe ser siempre mayor que la tensión máxima que el equipo puede soportar.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El equipo se dañaría antes de que el protector actuara."
+            "explanation": "Si el protector deja pasar más tensión de la que el aislamiento del equipo resiste, el equipo se perforará y destruirá antes de que el dispositivo logre recortar la onda."
           },
           {
             "id": 2,
-            "answer": "Up debe ser menor o igual que Uw.",
+            "answer": "La tensión residual del protector debe ser inferior o, en el límite, igual a la tensión de impulso soportada por los equipos a proteger.",
             "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-23, el nivel de protección Up debe ser compatible con la categoría de sobretensión del equipo (Up ≤ Uw)."
+            "explanation": "El nivel de protección (Up) del descargador debe ser compatible y quedar por debajo de la categoría de sobretensión (Uw) de la aparamenta. El apartado 4 de la ITC-BT-23 exige que Up ≤ Uw."
           },
           {
             "id": 3,
-            "answer": "Up debe ser exactamente el doble que Uw.",
+            "answer": "El dispositivo debe anular por completo cualquier elevación de tensión, manteniendo los 230V exactos en sus bornes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
+            "explanation": "Tecnológicamente es imposible recortar la tensión de una descarga atmosférica hasta los 230V sin afectar al funcionamiento normal de la red. Los protectores derivan la energía dejando pasar un pico residual seguro (ej. 1,5 kV) que los equipos pueden absorber sin daño."
           },
           {
             "id": 4,
-            "answer": "No existe relación entre ambos valores.",
+            "answer": "El nivel de protección depende únicamente del valor óhmico de la toma de tierra del edificio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
+            "explanation": "Aunque la toma de tierra es fundamental para evacuar la energía, el nivel de protección (Up) es una característica intrínseca de los varistores o vías de chispas internos del protector, validada por ensayos normalizados."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-07",
-        "question": "¿Qué tipo de protector es obligatorio instalar si el edificio dispone de un sistema de protección externa contra el rayo (pararrayos)?",
+        "question": "Si una edificación cuenta con un sistema de captación externa de descargas atmosféricas (pararrayos), ¿qué tipo específico de protección contra sobretensiones debe instalarse ineludiblemente en el origen de su red eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Tipo 1.",
+            "answer": "Protectores diseñados para soportar el impacto directo y evacuar altísimas energías.",
             "isCorrect": true,
-            "explanation": "Correcto. El Tipo 1 está diseñado para soportar descargas directas (onda 10/350 µs). Fuente: ITC-BT-23, apartado 4."
+            "explanation": "El pararrayos atrae el impacto directo del rayo, elevando el potencial de la red de tierras y acoplando enorme energía a la instalación. La ITC-BT-23 (apartado 4) hace obligatorio el uso de descargadores ensayados con onda 10/350 µs, que están preparados para estas descargas masivas."
           },
           {
             "id": 2,
-            "answer": "Tipo 2 únicamente.",
+            "answer": "Protectores de uso general diseñados exclusivamente para sobretensiones inducidas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El Tipo 2 es para sobretensiones inducidas, no directas."
+            "explanation": "Los dispositivos de uso general se destruirán instantáneamente ante la inyección de energía de un impacto directo de rayo derivado por el pararrayos hacia la tierra del edificio."
           },
           {
             "id": 3,
-            "answer": "Tipo 3.",
+            "answer": "Protectores de protección fina conectados directamente en los enchufes de los equipos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La protección fina no tiene capacidad de descarga frente al impacto bruto de un rayo; se calcinaría. Se requiere proteger desde la cabecera (origen) con aparatos de máxima robustez."
           },
           {
             "id": 4,
-            "answer": "No es necesario ningún protector si hay pararrayos.",
+            "answer": "La presencia de captadores externos anula la necesidad de protecciones internas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El pararrayos atrae el rayo, lo que aumenta el riesgo de sobretensión en la instalación eléctrica."
+            "explanation": "Ocurre exactamente lo contrario: el pararrayos incrementa dramáticamente el riesgo de entrada de la corriente del rayo en la red eléctrica interna a través de las uniones equipotenciales, haciendo crítica la instalación de protectores en cabecera."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-08",
-        "question": "¿Cuál es la sección mínima del conductor de cobre para la conexión de un protector Tipo 2 a tierra?",
+        "question": "Al realizar el cableado de un dispositivo de protección contra sobretensiones transitorias destinado a derivar ondas inducidas, ¿cuál es la sección mínima de conductor de cobre admitida para su conexión al borne de tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "2,5 mm².",
+            "answer": "Un mínimo de 1,5 mm² para mantener la flexibilidad del conexionado.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
+            "explanation": "Una sección tan pequeña se fundiría ante el paso repentino de kA de corriente de cortocircuito transitorio."
           },
           {
             "id": 2,
-            "answer": "4 mm².",
+            "answer": "Una sección no inferior a 4 mm² de cobre o equivalente.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 5 de la ITC-BT-23 especifica una sección mínima de 4 mm² para protectores de Tipo 2."
+            "explanation": "Para los protectores de uso general destinados a sobretensiones inducidas (onda 8/20 µs), el apartado 5 de la ITC-BT-23 fija un límite constructivo de seguridad de 4 mm² para el conductor que evacúa la corriente hacia la red de tierras."
           },
           {
             "id": 3,
-            "answer": "6 mm².",
+            "answer": "Idéntica a la sección del conductor de fase principal de la instalación, sea cual sea.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
+            "explanation": "Esto sobredimensionaría innecesariamente el cable del descargador en instalaciones industriales grandes, ya que la duración de la descarga es de microsegundos y no requiere grandes secciones térmicas."
           },
           {
             "id": 4,
-            "answer": "16 mm².",
+            "answer": "Una sección mínima de 25 mm² debido a las altas frecuencias involucradas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 16 mm² es para el Tipo 1."
+            "explanation": "Las altas frecuencias recomiendan cables cortos, pero la sección térmica mínima de 25 mm² es excesiva para aparatos estándar y no concuerda con las exigencias reglamentarias de 4 mm² o 16 mm² según el tipo de onda a derivar."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-09",
-        "question": "¿Por qué se recomienda que la longitud total de los cables de conexión del protector sea menor de 0,5 metros?",
+        "question": "Al instalar un protector, la normativa subraya que la longitud total del cableado desde la fase al protector y de este al embarrado de tierra debe ser lo más corta posible, idealmente inferior a 0,5 metros. ¿A qué fenómeno físico se debe esta severa restricción geométrica?",
         "options": [
           {
             "id": 1,
-            "answer": "Para ahorrar material conductor.",
+            "answer": "A que una mayor longitud incrementa la resistencia óhmica pura, provocando el calentamiento del cable.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
+            "explanation": "El pulso del rayo dura unos pocos microsegundos. El calentamiento por efecto Joule (resistencia óhmica) no es el factor dominante limitante en un tiempo tan efímero."
           },
           {
             "id": 2,
-            "answer": "Para minimizar la caída de tensión inductiva generada por la alta frecuencia del impulso.",
+            "answer": "A que la altísima frecuencia de la onda de sobretensión induce una drástica caída de tensión inductiva en los cables.",
             "isCorrect": true,
-            "explanation": "Correcto. Una longitud excesiva añade una caída de tensión extra (ΔU) que se suma a Up, reduciendo la eficacia de la protección. Fuente: ITC-BT-23, apartado 5."
+            "explanation": "El frente de onda del rayo tiene una frecuencia elevadísima. Según la ley V = L·(di/dt), la inductancia parásita (L) de un metro de cable recto genera picos de miles de voltios al paso del rayo. Esta tensión extra se suma a la tensión residual del protector, dejando pasar un impulso letal a los equipos si los cables son largos. Este principio rige el apartado 5 de la ITC-BT-23."
           },
           {
             "id": 3,
-            "answer": "Porque los cables largos se calientan más.",
+            "answer": "A motivos puramente estéticos y de organización espacial dentro de las envolventes eléctricas.",
             "isCorrect": false,
-            "explanation": "Incorrecto en este contexto."
+            "explanation": "La longitud del conexionado es un parámetro electromagnético vital de seguridad y eficacia, no un capricho de organización de cuadro."
           },
           {
             "id": 4,
-            "answer": "Para evitar que los cables actúen como antenas.",
+            "answer": "A que longitudes superiores actúan como antenas que radian la perturbación a equipos cercanos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
+            "explanation": "Aunque puede haber algo de radiación electromagnética (diafonía), el problema crítico y destructivo es la sobretensión inductiva que sufre la propia línea a proteger por no derivar eficientemente la corriente."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-10",
-        "question": "¿Qué parámetros definen la capacidad de un protector de Tipo 1 según la normativa?",
+        "question": "¿Para qué sirve el parámetro técnico de la tensión máxima de servicio permanente de un protector contra sobretensiones y cuál debe ser su valor mínimo en redes domésticas a 230 V?",
         "options": [
           {
             "id": 1,
-            "answer": "Corriente de impulso Iimp (onda 10/350 µs).",
+            "answer": "Asegura que el descargador no actuará intempestivamente ante las variaciones y tolerancias habituales de la red; debe ser al menos un 10% superior a la tensión nominal.",
             "isCorrect": true,
-            "explanation": "Correcto. Es el parámetro principal para el Tipo 1. Fuente: ITC-BT-23."
+            "explanation": "La tensión máxima de régimen permanente (Uc) define cuándo el varistor del protector empieza a conducir de forma natural. El apartado 4 de la ITC-BT-23 exige que Uc sea mayor o igual a 1,1 veces la tensión de red (230 · 1,1 = 253 V) para que el dispositivo no se queme tratando de derivar fluctuaciones lícitas del suministro."
           },
           {
             "id": 2,
-            "answer": "Nivel de protección Up.",
-            "isCorrect": true,
-            "explanation": "Correcto. Define la tensión residual que deja pasar el protector. Fuente: ITC-BT-23."
+            "answer": "Establece el umbral a partir del cual el equipo protegido sufre daños permanentes; debe ser estrictamente de 230 V.",
+            "isCorrect": false,
+            "explanation": "Si un protector condujera al llegar exactamente a 230V, estaría permanentemente en cortocircuito derivando a tierra, ya que la red eléctrica oscila continuamente por encima de ese valor ideal."
           },
           {
             "id": 3,
-            "answer": "Tensión máxima de servicio permanente Uc.",
-            "isCorrect": true,
-            "explanation": "Correcto. Debe ser superior a la tensión de red. Fuente: ITC-BT-23."
+            "answer": "Indica la tensión de ensayo a 50 Hz para la rigidez dieléctrica de la carcasa, siendo obligatoriamente de 400 V.",
+            "isCorrect": false,
+            "explanation": "El parámetro en cuestión se refiere al comportamiento del elemento activo (varistor) y su tensión de inicio de conducción (clipping voltage), no al aislamiento plástico de su carcasa protectora."
           },
           {
             "id": 4,
-            "answer": "La temperatura máxima de la carcasa en régimen permanente.",
+            "answer": "Garantiza que el dispositivo es apto para redes trifásicas, por lo que su valor mínimo son siempre los 1.500 V de aislamiento global.",
             "isCorrect": false,
-            "explanation": "Incorrecto. No es un parámetro de selección normativa del protector."
+            "explanation": "Las tensiones de cientos de voltios son de servicio, los kilovoltios se refieren a las sobretensiones transitorias a soportar, son conceptos técnicos totalmente distintos."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-23-11",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
+        "question": "En el contexto de los laboratorios de prueba para certificar descargadores atmosféricos, ¿qué perfil de onda de intensidad es el normativamente aceptado para simular el impacto brutal de un rayo directo?",
         "options": [
           {
             "id": 1,
-            "answer": "Onda 8/20 µs.",
+            "answer": "Un impulso con un rápido tiempo de subida y un decaimiento corto de 20 microsegundos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
+            "explanation": "Esa es la onda 8/20 µs. Simula sobretensiones indirectas (rayos caídos a distancia o conmutaciones de grandes motores), contiene poca energía integral respecto a un impacto directo."
           },
           {
             "id": 2,
-            "answer": "Onda 10/350 µs.",
+            "answer": "Un frente escarpado de 10 microsegundos seguido de una larguísima cola de energía de 350 microsegundos.",
             "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
+            "explanation": "La onda 10/350 µs inyecta una cantidad colosal de energía térmica y electrodinámica (la integral de la corriente en ese largo tiempo). Según la ITC-BT-23, esta es la onda prescriptiva que deben resistir y certificar los protectores instalados cuando hay un pararrayos en el edificio."
           },
           {
             "id": 3,
-            "answer": "Onda 1/50 µs.",
+            "answer": "Una ráfaga de sobretensiones oscilatorias sostenidas durante 1 milisegundo completo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Los rayos son impulsos unipolares aperiódicos, no ondas oscilatorias resonantes sostenidas."
           },
           {
             "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
+            "answer": "Una onda sinusoidal pura superpuesta a la tensión de red a 10.000 Hz.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El fenómeno físico del rayo es impulsivo y transitorio, modelado por curvas exponenciales, no es una interferencia armónica sinusoidal continua."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-23-12",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
+        "question": "Respecto a las infraestructuras de suministro y recarga de vehículos eléctricos instaladas tanto en garajes comunitarios como en exteriores, ¿cuál es el criterio normativo de protección frente a fenómenos atmosféricos?",
         "options": [
           {
             "id": 1,
-            "answer": "No, es totalmente opcional.",
+            "answer": "Se deja a criterio del instalador evaluar el coste del vehículo y del punto de recarga para ofrecer la protección opcional al cliente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
+            "explanation": "Las normativas de baja tensión no basan las exigencias de seguridad en el valor económico de los bienes conectados. Protegen la integridad de la red y la seguridad inherente del proceso."
           },
           {
             "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
+            "answer": "Resulta de instalación obligada la aparamenta contra sobretensiones para preservar la integridad electrónica del sistema.",
             "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
+            "explanation": "El apartado 3.2 de la ITC-BT-23 vincula directamente su articulado con la normativa específica de vehículo eléctrico, declarando la obligatoriedad innegociable de proteger estos circuitos para evitar averías masivas en la red inteligente de los automóviles."
           },
           {
             "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
+            "answer": "Solo es preceptiva en electrolineras y estaciones de suministro de corriente continua en vía pública.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La obligatoriedad abarca a toda infraestructura de recarga de vehículos eléctricos, incluyendo los clásicos cargadores de pared (wallbox) domésticos en corriente alterna."
           },
           {
             "id": 4,
-            "answer": "Solo en instalaciones industriales.",
+            "answer": "Se exime de esta protección si el circuito de recarga tiene menos de tres metros de longitud desde la caja general.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-13",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-14",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-15",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-16",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-17",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-18",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-19",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-20",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-21",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-22",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-23",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-24",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-25",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-26",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-27",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-28",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-29",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-30",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-31",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-32",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-33",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-34",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-35",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-36",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-37",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-38",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-39",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-40",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-41",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-42",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-43",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-44",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-45",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-46",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-47",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-48",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-49",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-50",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-51",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-52",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-53",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-54",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-55",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-56",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-57",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-58",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-59",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-60",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-61",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-62",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-63",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-64",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-65",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-66",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-67",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-68",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-69",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-70",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-71",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-72",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-73",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-74",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-75",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-76",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-77",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-78",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-79",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-80",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-81",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-82",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-83",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-84",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-85",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-86",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-87",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-88",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-89",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-90",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-91",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-92",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-93",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-94",
-        "question": "¿Qué nivel de protección (Up) debe ofrecer un protector para asegurar la integridad de equipos de Categoría I (electrónica sensible)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Up ≤ 2,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para Categoría II."
-          },
-          {
-            "id": 2,
-            "answer": "Up ≤ 1,5 kV.",
-            "isCorrect": true,
-            "explanation": "Correcto. Los equipos de Categoría I solo soportan hasta 1,5 kV a impulsos. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "Up ≤ 4 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "Up ≤ 6 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-95",
-        "question": "¿Cuál de las siguientes ondas de ensayo representa mejor a un rayo de descarga directa?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Onda 8/20 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Representa sobretensiones inducidas o conmutaciones."
-          },
-          {
-            "id": 2,
-            "answer": "Onda 10/350 µs.",
-            "isCorrect": true,
-            "explanation": "Correcto. Esta onda tiene mucha más energía y un tiempo de cola más largo, simulando el impacto directo. Se usa para ensayar protectores Tipo 1. Fuente: ITC-BT-23."
-          },
-          {
-            "id": 3,
-            "answer": "Onda 1/50 µs.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Onda sinusoidal de 50 Hz.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-96",
-        "question": "¿Es obligatorio proteger contra sobretensiones una instalación de recarga de vehículo eléctrico?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, es totalmente opcional.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, según la ITC-BT-23 y la ITC-BT-52 es obligatorio proteger la infraestructura de recarga.",
-            "isCorrect": true,
-            "explanation": "Correcto. La normativa actual (ref. apartado 3.2 de ITC-BT-23) obliga a proteger estas instalaciones para evitar daños en el vehículo y el cargador."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si el cargador es de carga rápida.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en instalaciones industriales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-97",
-        "question": "¿Dónde se debe instalar preferiblemente un protector de Tipo 3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "En el cuadro general de mando y protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Allí se instala el Tipo 2."
-          },
-          {
-            "id": 2,
-            "answer": "Lo más cerca posible del equipo sensible a proteger (máximo 10 metros).",
-            "isCorrect": true,
-            "explanation": "Correcto. El Tipo 3 es una protección 'fina' que complementa al Tipo 2. Fuente: ITC-BT-23, apartado 4."
-          },
-          {
-            "id": 3,
-            "answer": "En la caja general de protección.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "En la línea de distribución de la calle.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-98",
-        "question": "¿A partir de cuántos días de tormenta al año se considera 'recomendable' la protección en situación natural?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "20 días.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la nota del apartado 3.1 de la ITC-BT-23, con más de 20 días de tormenta al año es recomendable instalar protección."
-          },
-          {
-            "id": 3,
-            "answer": "30 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "50 días.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-23, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-99",
-        "question": "¿Cuál debe ser la tensión máxima de servicio permanente (Uc) mínima para un sistema de 230 V?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Estaría al límite y dispararía con cualquier fluctuación."
-          },
-          {
-            "id": 2,
-            "answer": "253 V.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-23 establece Uc ≥ 1,1 · Un (230 · 1,1 = 253V) para evitar daños por sobretensiones temporales de red."
-          },
-          {
-            "id": 3,
-            "answer": "400 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para sistemas trifásicos."
-          },
-          {
-            "id": 4,
-            "answer": "1,5 kV.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-23 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-23-100",
-        "question": "¿Cuál es la sección mínima recomendada para la conexión a tierra de un protector de Tipo 1?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Debido a la alta energía que manejan los protectores de Tipo 1 (descarga directa), se requiere una sección mínima de 16 mm². Fuente: ITC-BT-23, apartado 5."
-          },
-          {
-            "id": 3,
-            "answer": "25 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
-          },
-          {
-            "id": 4,
-            "answer": "35 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-23."
+            "explanation": "El rayo viajará por la red de distribución urbana y entrará a la caja general. Si no hay protector, destruirá la estación de recarga, sin importar cuán corto sea el cable de derivación interna."
           }
         ],
         "type": "simple"
