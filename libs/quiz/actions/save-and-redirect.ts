@@ -1,4 +1,5 @@
 'use server'
+import { redirect, RedirectType } from "next/navigation"
 import { ConfigQuiz, Question, ResponseQuestion } from "../models"
 import { Factory } from "@/libs/shape/factory"
 
@@ -9,7 +10,7 @@ export async function saveAndRedirect({ answers, config, score }: {
   startTime: number | null
   expiresAt: number | null
   score: number
-}): Promise<string | null> {
+}) {
 
   const service = await Factory.getQuizService();
   
@@ -21,8 +22,8 @@ export async function saveAndRedirect({ answers, config, score }: {
 
   if (result.error || !result.data) {
     console.error("Error saving quiz session:", result.error);
-    return null;
+    return;
   }
 
-  return result.data.id;
+  redirect(`/quiz/results/${result.data.id}`, RedirectType.replace)
 }
