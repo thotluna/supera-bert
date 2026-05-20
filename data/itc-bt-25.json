@@ -5,3100 +5,372 @@
     "questions": [
       {
         "id": "ITC-BT-25-01",
-        "question": "¿Cuál es la potencia mínima prevista para una vivienda con grado de electrificación básico?",
+        "question": "En el diseño eléctrico de una vivienda estándar de nueva construcción que no prevé la instalación de grandes consumos climatizadores ni automatización, ¿cuál es el umbral mínimo de potencia que debe soportar la acometida e instalación de enlace según la carga prevista?",
         "options": [
           {
             "id": 1,
-            "answer": "3.450 W.",
+            "answer": "3.450 W, correspondiente al calibre de un interruptor general de 15 A a 230 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Históricamente existieron escalones tarifarios menores, pero la normativa actual exige una capacidad superior para hacer frente al aumento del equipamiento electrodoméstico moderno."
           },
           {
             "id": 2,
-            "answer": "5.750 W a 230 V.",
+            "answer": "5.750 W, calculado para una intensidad de 25 A a 230 V.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.1 de la ITC-BT-25 establece que la potencia mínima a considerar para electrificación básica es de 5.750 W."
+            "explanation": "Para garantizar un suministro adecuado sin disparos continuos por simultaneidad de uso en una electrificación básica, el apartado 2.1 de la ITC-BT-25 establece que la potencia mínima a prever es de 5.750 W (230 V × 25 A)."
           },
           {
             "id": 3,
-            "answer": "9.200 W.",
+            "answer": "9.200 W, asegurando así un margen térmico para futuras ampliaciones.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 9.200 W es para electrificación elevada."
+            "explanation": "9.200 W (40 A) es el escalón de potencia mínima reservado exclusivamente para instalaciones que requieren un grado de electrificación elevado, no para el básico."
           },
           {
             "id": 4,
-            "answer": "11.500 W.",
+            "answer": "Depende exclusivamente de lo que el promotor de la obra declare en el proyecto de arquitectura.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La potencia a prever no es a libre elección si está por debajo del estándar de seguridad y confort; el reglamento impone un umbral mínimo irrenunciable para garantizar la funcionalidad de la vivienda."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-02",
-        "question": "¿En qué condiciones es obligatorio el grado de electrificación elevado?",
+        "question": "Se proyecta una vivienda unifamiliar de 145 m² útiles sin previsión inicial de aire acondicionado ni domótica, pero con un diseño arquitectónico que requiere la instalación de 35 puntos de luz en toda la casa. ¿Qué grado de electrificación es obligatorio aplicar en este caso?",
         "options": [
           {
             "id": 1,
-            "answer": "Cuando la superficie útil de la vivienda sea superior a 160 m².",
-            "isCorrect": true,
-            "explanation": "Correcto. Es uno de los criterios de superficie. Fuente: ITC-BT-25, apartado 2.2."
+            "answer": "Electrificación básica, ya que la superficie útil no supera los 160 m².",
+            "isCorrect": false,
+            "explanation": "Aunque cumple el criterio de superficie, existen otros factores técnicos que obligan a subir el nivel de exigencia de la instalación."
           },
           {
             "id": 2,
-            "answer": "Cuando se prevea la instalación de aire acondicionado o calefacción eléctrica.",
-            "isCorrect": true,
-            "explanation": "Correcto. Receptores de alta potencia obligan al grado elevado. Fuente: ITC-BT-25, apartado 2.2."
+            "answer": "Electrificación básica, añadiendo un segundo circuito de alumbrado protegido independientemente.",
+            "isCorrect": false,
+            "explanation": "El reglamento no permite simplemente añadir un circuito repetido manteniéndose en electrificación básica; superar los límites máximos obliga a cambiar de categoría."
           },
           {
             "id": 3,
-            "answer": "Cuando el número de puntos de alumbrado sea superior a 30.",
+            "answer": "Electrificación elevada, debido a que se supera la capacidad máxima de un único circuito de alumbrado.",
             "isCorrect": true,
-            "explanation": "Correcto. Superar los límites del circuito C1 obliga al grado elevado. Fuente: ITC-BT-25, apartado 2.2."
+            "explanation": "Un circuito de alumbrado estándar (C1) soporta un máximo de 30 puntos de luz. Al necesitar 35, hay que desdoblar el circuito. El apartado 2.2 de la ITC-BT-25 establece que la necesidad de desdoblar cualquier circuito básico obliga automáticamente a proyectar un grado de electrificación elevado."
           },
           {
             "id": 4,
-            "answer": "En todas las viviendas de nueva construcción.",
+            "answer": "Electrificación especial, requerida para viviendas de alto standing.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Se permite el básico si no se cumplen las condiciones anteriores."
+            "explanation": "La denominación 'especial' no existe en la normativa actual de baja tensión para viviendas; los grados se dividen únicamente en 'básico' y 'elevado'."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-25-03",
-        "question": "¿Cuál es la intensidad asignada del PIA y la sección mínima del conductor para el circuito C1 (Alumbrado)?",
+        "question": "En el cableado de una cocina, se debe instalar un circuito independiente exclusivo para alimentar la cocina eléctrica (vitrocerámica) y el horno. ¿Cuáles son los parámetros reglamentarios de protección magnetotérmica y sección mínima de conductor de cobre para este circuito?",
         "options": [
           {
             "id": 1,
-            "answer": "16 A y 2,5 mm².",
+            "answer": "Interruptor de 16 A con conductor de 2,5 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. Eso es para C2."
+            "explanation": "Esta sección y protección son insuficientes térmicamente; una placa de inducción y un horno encendidos a la vez superan fácilmente los 16 A (3.680 W), provocando el disparo térmico de la protección y el recalentamiento del cable."
           },
           {
             "id": 2,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, el circuito de alumbrado se protege con 10A y usa cable de 1,5 mm²."
+            "answer": "Interruptor de 20 A con conductor de 4 mm².",
+            "isCorrect": false,
+            "explanation": "Este calibre se destina a la agrupación de lavadora, lavavajillas y termo (si no se desdoblan), pero la cocina/horno exige mayor capacidad de corriente debido a su alta potencia simultánea."
           },
           {
             "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "answer": "Interruptor de 25 A con conductor de 6 mm².",
+            "isCorrect": true,
+            "explanation": "Dada la gran demanda de potencia concentrada en cocción, la Tabla 1 de la ITC-BT-25 define este circuito con una protección de 25 A y una sección robusta de 6 mm² para evitar riesgos de incendio y asegurar el servicio."
           },
           {
             "id": 4,
-            "answer": "10 A y 2,5 mm².",
+            "answer": "Interruptor de 32 A con conductor de 10 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Aunque sería más seguro térmicamente, la norma impone 6 mm² como mínimo y 25 A como protección nominal estándar; 10 mm² se reserva habitualmente para derivaciones individuales."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-04",
-        "question": "¿Cuál es el número máximo de puntos de utilización permitidos para el circuito C2 (Tomas de uso general)?",
+        "question": "¿Cuántas bases de toma de corriente (enchufes) de 16 A pueden conectarse, como límite normativo máximo, aguas abajo del interruptor automático destinado a las tomas de uso general en el salón y dormitorios?",
         "options": [
           {
             "id": 1,
-            "answer": "12 puntos.",
+            "answer": "Un máximo de 10 bases para evitar sobrecargas localizadas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El límite es menos restrictivo, ya que el factor de simultaneidad en usos generales es bajo (no se usan todos los enchufes al mismo tiempo con grandes cargas)."
           },
           {
             "id": 2,
-            "answer": "20 puntos.",
+            "answer": "Un máximo de 20 bases de enchufe.",
             "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 20 el número de bases de enchufe para el circuito C2."
+            "explanation": "La Tabla 1 de la ITC-BT-25 establece que el circuito de tomas de uso general y frigorífico (protegido con 16 A y cable de 2,5 mm²) no puede superar los 20 puntos de utilización. Si se necesitan más, deberá preverse un circuito adicional."
           },
           {
             "id": 3,
-            "answer": "30 puntos.",
+            "answer": "Un máximo de 30 bases de enchufe.",
             "isCorrect": false,
-            "explanation": "Incorrecto. 30 es para el circuito C1."
+            "explanation": "30 es el número máximo de puntos de luz permitidos en el circuito de alumbrado, pero no aplica a las tomas de corriente."
           },
           {
             "id": 4,
-            "answer": "6 puntos.",
+            "answer": "No existe límite reglamentario si la sección del cable es de 4 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. 6 es para el circuito C5."
+            "explanation": "La normativa acota el número de receptores o puntos de conexión independientemente de que se sobredimensione la sección, para garantizar un reparto equilibrado de las cargas en el cuadro."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-05",
-        "question": "¿Qué circuito está destinado específicamente a la cocina eléctrica y el horno?",
+        "question": "Para evitar que el defecto de aislamiento de un electrodoméstico deje a oscuras toda la vivienda, el cuadro eléctrico incluye protección diferencial segmentada. ¿Cuál es la regla técnica que limita la cantidad de circuitos agrupados bajo un mismo interruptor diferencial?",
         "options": [
           {
             "id": 1,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Un diferencial de 30 mA no puede proteger más de 5 circuitos magnetotérmicos.",
+            "isCorrect": true,
+            "explanation": "Todos los equipos electrónicos tienen pequeñas fugas de corriente capacitiva naturales. Si se conectan demasiados circuitos a un mismo diferencial, la suma de estas pequeñas fugas normales provocará disparos intempestivos. El apartado 4 de la ITC-BT-25 limita a 5 el número de circuitos por diferencial por este motivo técnico."
           },
           {
             "id": 2,
-            "answer": "Circuito C3.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C3 es el destinado a cocina y horno, con protección de 25A y sección de 6 mm². Fuente: ITC-BT-25."
+            "answer": "Cada circuito magnetotérmico debe llevar invariablemente su propio diferencial independiente.",
+            "isCorrect": false,
+            "explanation": "Aunque disponer de un diferencial por circuito (o interruptores combinados RCBO) maximiza la continuidad de servicio, la normativa marca mínimos de seguridad, no máximos de confort económico."
           },
           {
             "id": 3,
-            "answer": "Circuito C4.",
+            "answer": "Se permite agrupar todos los circuitos de una electrificación básica bajo un único diferencial general.",
             "isCorrect": false,
-            "explanation": "Incorrecto. C4 es para lavadora/lavavajillas."
+            "explanation": "A la luz de los problemas de fugas acumuladas y continuidad de servicio, la normativa actual obliga a subdividir la protección instalando al menos dos diferenciales en la vivienda si los circuitos lo requieren."
           },
           {
             "id": 4,
-            "answer": "Circuito C5.",
+            "answer": "El límite se establece por la suma de las corrientes nominales, no debiendo superar los 40 A por diferencial.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La corriente nominal del diferencial debe ser igual o superior a la del magnetotérmico general que le precede, pero el límite de agrupamiento se da por número de circuitos (máximo 5), no por suma aritmética de intensidades."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-06",
-        "question": "¿A qué se destina el circuito C9 en una vivienda con grado de electrificación elevado?",
+        "question": "En el proyecto de una cocina moderna, el circuito destinado a lavadora, lavavajillas y termo eléctrico genera problemas de diseño por acumulación de potencia. ¿Qué solución reglamentaria se permite aplicar a este circuito sin que ello obligue a subir el grado de electrificación de la vivienda?",
         "options": [
           {
             "id": 1,
-            "answer": "Secadora.",
+            "answer": "Se permite elevar la protección del circuito único a 32 A aumentando la sección a 10 mm².",
             "isCorrect": false,
-            "explanation": "Incorrecto. La secadora es el C10."
+            "explanation": "Sobredimensionar el circuito C4 en sección e intensidad no está contemplado en las tablas normativas para solucionar el problema de potencia de las zonas de agua."
           },
           {
             "id": 2,
-            "answer": "Aire acondicionado.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C9 se reserva para la previsión de aire acondicionado. Fuente: ITC-BT-25, apartado 2.2."
+            "answer": "Se permite omitir la línea de tierra de estos electrodomésticos si están separados al menos 1 metro de las zonas de agua.",
+            "isCorrect": false,
+            "explanation": "La toma de tierra es imperativa en equipos de Clase I, especialmente aquellos que manejan agua y electricidad (lavadoras, termos). Omitirla supondría un riesgo mortal."
           },
           {
             "id": 3,
-            "answer": "Calefacción eléctrica.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La calefacción es el C8."
+            "answer": "Se permite desdoblar el circuito en tres circuitos independientes protegidos con 16 A y cable de 2,5 mm² cada uno.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-25 autoriza excepcionalmente desdoblar el circuito de zonas húmedas en subcircuitos individuales sin que ello se considere un aumento o repetición de circuitos que fuerce a pasar a electrificación elevada. Esto mejora la selectividad y seguridad térmica de las líneas."
           },
           {
             "id": 4,
-            "answer": "Automatización.",
+            "answer": "Se permite agrupar la lavadora en el circuito del horno y mantener el lavavajillas en el circuito original.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La automatización es el C11."
+            "explanation": "El circuito de horno/vitrocerámica está diseñado con tomas de 25 A, incompatibles con las clavijas de 16 A que llevan las lavadoras. Mezclar usos desvirtúa la protección diferencial y magnetotérmica."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-07",
-        "question": "¿Cuál es la sección mínima del conductor para el circuito C13 (Recarga de vehículo eléctrico)?",
+        "question": "Al tender un circuito exclusivo para la recarga de un vehículo eléctrico en el garaje de la vivienda, ¿qué consideraciones de protección e instalación impone la normativa para esta línea específica?",
         "options": [
           {
             "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "answer": "Se proyectará un circuito con sección mínima de 2,5 mm², protegido mediante un interruptor automático de 16 A.",
+            "isCorrect": true,
+            "explanation": "La Tabla 1 de la ITC-BT-25 define las características básicas para el circuito de vehículo eléctrico en vivienda, estableciendo un mínimo de 16 A y 2,5 mm² para garantizar una recarga lenta segura sin recalentar la infraestructura."
           },
           {
             "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la actualización de la Tabla 1 de la ITC-BT-25, el circuito C13 utiliza una sección mínima de 2,5 mm² (aunque puede ser mayor según la potencia del cargador)."
+            "answer": "Puede derivarse de una base de enchufe de 16 A de uso general existente en el garaje para ahorrar costes de canalización.",
+            "isCorrect": false,
+            "explanation": "La carga de un vehículo eléctrico es un consumo sostenido durante muchas horas al 100% de la capacidad nominal. Derivarlo de usos generales provocaría el disparo térmico y desgaste del cableado, por lo que se exige línea dedicada."
           },
           {
             "id": 3,
-            "answer": "4 mm².",
+            "answer": "Se exige el uso de conductores de aluminio de al menos 16 mm² por la distancia del garaje a la vivienda.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "El aluminio no está permitido en instalaciones interiores de viviendas; el reglamento exige cobre y la sección dependerá del cálculo de caída de tensión, partiendo de un mínimo de 2,5 mm²."
           },
           {
             "id": 4,
-            "answer": "6 mm².",
+            "answer": "El circuito carecerá de protección diferencial propia para evitar cortes durante la recarga nocturna.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "El entorno de recarga de vehículos (a menudo a la intemperie o en suelos de hormigón) presenta altísimo riesgo de electrocución indirecta. La protección diferencial no solo es obligatoria, sino que suele requerir clases especiales (Tipo A o B) según la normativa de IRVE."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-08",
-        "question": "¿Cuál es el número máximo de circuitos que pueden colgar de un mismo interruptor diferencial?",
+        "question": "En el proyecto del plano eléctrico para un dormitorio principal de 14 m², el promotor debe definir la cantidad y ubicación de las tomas de corriente. ¿Cuál es la dotación mínima estricta exigida por la normativa para no incurrir en defecto de diseño?",
         "options": [
           {
             "id": 1,
-            "answer": "3 circuitos.",
+            "answer": "Al menos 1 base de toma de corriente junto a la puerta de entrada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
+            "explanation": "Una sola toma resulta insuficiente para la cantidad de dispositivos actuales en un dormitorio, obligando al usuario a usar ladrones o alargadores peligrosos."
           },
           {
             "id": 2,
-            "answer": "5 circuitos.",
+            "answer": "Al menos 3 bases de toma de corriente (16 A 2P+T).",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 limita a 5 el número de circuitos protegidos por un solo interruptor diferencial para evitar disparos intempestivos."
+            "explanation": "Las tablas de dotación mínima del apartado 3 de la ITC-BT-25 establecen que los dormitorios deben contar con 3 bases de enchufe. Esto atiende habitualmente a dos mesillas y una zona de pared libre para TV o calefactores portátiles."
           },
           {
             "id": 3,
-            "answer": "8 circuitos.",
+            "answer": "Al menos 5 bases de toma de corriente, distribuidas equitativamente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
+            "explanation": "Aunque es una cantidad deseable por comodidad, la norma fija mínimos de seguridad, no estándares óptimos de habitabilidad de alta gama."
           },
           {
             "id": 4,
-            "answer": "No hay límite, depende de la potencia total.",
+            "answer": "Se calcula obligatoriamente a razón de 1 base por cada metro perimetral de pared.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Este criterio de perímetro se utiliza en normativas anglosajonas (NEC en EEUU), pero el REBT español se basa en recuentos fijos por tipo de estancia."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-09",
-        "question": "¿Qué circuitos pueden desdoblarse en circuitos independientes (C4.1, C4.2, C4.3) sin obligar a electrificación elevada?",
+        "question": "Para la instalación de canalizaciones empotradas en los tabiques de la vivienda, la normativa exige que los tubos protectores dejen espacio libre para evitar calentamientos y permitir la extracción de los cables. ¿Qué diámetro exterior mínimo prescribe la norma para un circuito de fuerza de usos generales de 2,5 mm² con fase, neutro y tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Lavadora.",
-            "isCorrect": true,
-            "explanation": "Correcto. Forma parte del desdoblamiento de C4. Fuente: ITC-BT-25."
+            "answer": "12 mm, si el trazado es rectilíneo sin curvas.",
+            "isCorrect": false,
+            "explanation": "Un diámetro de 12 mm exterior no dejaría la sección interior libre suficiente para tres cables de 2,5 mm², impidiendo por completo su disipación térmica y maniobra mecánica."
           },
           {
             "id": 2,
-            "answer": "Lavavajillas.",
-            "isCorrect": true,
-            "explanation": "Correcto. Forma parte del desdoblamiento de C4. Fuente: ITC-BT-25."
+            "answer": "16 mm, independientemente de la longitud de la roza.",
+            "isCorrect": false,
+            "explanation": "El tubo de 16 mm está reservado exclusivamente para los tres conductores de 1,5 mm² del circuito de alumbrado."
           },
           {
             "id": 3,
-            "answer": "Termo eléctrico.",
+            "answer": "20 mm, para garantizar el espacio interior libre reglamentario.",
             "isCorrect": true,
-            "explanation": "Correcto. Forma parte del desdoblamiento de C4. Fuente: ITC-BT-25."
+            "explanation": "La Tabla 2 de la ITC-BT-25 detalla explícitamente los diámetros de tubos. Para 3 conductores de sección 2,5 mm² (como es el caso de los usos generales), el tubo debe tener un diámetro exterior mínimo de 20 mm."
           },
           {
             "id": 4,
-            "answer": "Frigorífico.",
+            "answer": "32 mm, exigido para prever ampliaciones futuras a trifásica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El frigorífico pertenece al circuito C2."
+            "explanation": "La previsión de trifásica en viviendas se realiza desde el origen en derivaciones individuales, no instalando macrotubos sobredimensionados para cada circuito final monofásico de enchufe."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-25-10",
-        "question": "¿Cuántas tomas de corriente deben instalarse como mínimo en un dormitorio de 12 m²?",
+        "question": "Si una vivienda de lujo requiere dotarse de un circuito específico para sistemas de automatización (domótica, persianas motorizadas, gestión de energía), ¿qué características debe tener el circuito destinado a este fin particular?",
         "options": [
           {
             "id": 1,
-            "answer": "1 toma.",
+            "answer": "Deberá conectarse sin protección magnetotérmica directa aguas abajo del interruptor general para asegurar su prioridad absoluta.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Todo circuito final debe estar protegido frente a cortocircuitos y sobrecargas mediante su propio Pequeño Interruptor Automático (PIA)."
           },
           {
             "id": 2,
-            "answer": "3 tomas.",
+            "answer": "Se exige el tendido de un circuito dedicado con sección mínima de 1,5 mm² y protección por interruptor automático de 10 A.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 3 (Manual) establece un mínimo de 3 bases para dormitorios (una por cada 6 m² o fracción)."
+            "explanation": "La Tabla 1 de la ITC-BT-25 define que el circuito de automatización (sistemas de control y domótica) debe equiparse como un circuito independiente con cableado de 1,5 mm² y una protección de 10 A, dimensionado para consumos bajos de electrónica de control."
           },
           {
             "id": 3,
-            "answer": "5 tomas.",
+            "answer": "Se empleará un cableado de señal UTP Cat6 en paralelo a las fases de potencia dentro de la misma canalización.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Mezclar cables de muy baja tensión de señal de datos con cables de red de baja tensión en el mismo tubo está terminantemente prohibido por interferencias y riesgos de seguridad, debiendo canalizarse de forma separada."
           },
           {
             "id": 4,
-            "answer": "Ninguna, el reglamento no especifica cantidad.",
+            "answer": "Se alimentará directamente desde los puntos de luz más cercanos, careciendo de circuito propio.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Aunque algunos actuadores locales se montan en paralelo con la luz, el cuadro general de domótica requiere una alimentación directa dedicada y segregada del circuito de alumbrado convencional."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-11",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
+        "question": "¿En qué se diferencia el circuito destinado a tomas de baño y auxiliares de cocina respecto al de usos generales del resto de la vivienda en cuanto a la dotación de bases de enchufe permitidas?",
         "options": [
           {
             "id": 1,
-            "answer": "1 base.",
+            "answer": "No existen diferencias, ambos circuitos comparten la restricción máxima de 20 puntos de utilización.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El circuito de baños/cocina concentra consumos térmicos de resistencia pequeña (secadores de pelo, tostadoras, batidoras) que elevan el riesgo de sobrecarga simultánea respecto a una televisión o lámpara de salón."
           },
           {
             "id": 2,
-            "answer": "2 bases.",
+            "answer": "El circuito de baños y cocina tiene su número de puntos de utilización restringido a un máximo de 6 bases de enchufe.",
             "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
+            "explanation": "Debido a la alta probabilidad de conectar de forma simultánea pequeños electrodomésticos de calor de alta potencia en encimeras y lavabos, la Tabla 1 de la ITC-BT-25 acota drásticamente a 6 el número máximo de enchufes para este circuito independiente, evitando disparos constantes del PIA."
           },
           {
             "id": 3,
-            "answer": "5 bases.",
+            "answer": "El circuito de cuartos húmedos permite bases ilimitadas, siempre y cuando todas incluyan tapa de protección IP44.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La tapa IP44 protege del agua, pero no solventa el problema electrotécnico fundamental del circuito: el riesgo térmico de sobrecarga de los cables si se conectan demasiadas cargas."
           },
           {
             "id": 4,
-            "answer": "Sin límite.",
+            "answer": "En cocinas y baños, se exige la instalación de enchufes dobles obligatoriamente, contabilizándose como un solo punto.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "La norma indica que un enchufe múltiple en la misma envolvente se cuenta como un solo punto, pero no obliga constructivamente a instalarlos dobles por defecto."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-25-12",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
+        "question": "En caso de diseñar el cableado empotrado bajo tubo protector en un tramo que contenga el circuito para aire acondicionado central, ¿qué diámetro exterior de tubo se requerirá asumiendo que los conductores son de cobre de 6 mm²?",
         "options": [
           {
             "id": 1,
-            "answer": "2 bases.",
+            "answer": "16 mm, debido a que solo circularán 3 hilos en un solo sentido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Aislar 3 cables de 6 mm² dentro de un tubo de 16 mm es físicamente imposible; el área útil interior es insuficiente y no cumple los márgenes de holgura obligatorios."
           },
           {
             "id": 2,
-            "answer": "6 bases.",
+            "answer": "25 mm, garantizando la evacuación térmica y facilitando el tendido sin dañar los aislamientos.",
             "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
+            "explanation": "La sección de 6 mm² es gruesa y rígida. La Tabla 2 de la ITC-BT-25 establece empíricamente que para canalizar tres conductores de dicha sección se exige instalar un tubo de al menos 25 mm de diámetro exterior."
           },
           {
             "id": 3,
-            "answer": "20 bases.",
+            "answer": "32 mm, exigido por riesgo especial de calentamiento en compresores.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Aunque es una excelente práctica para facilitar el trabajo, 32 mm no es el límite mínimo normativo exigido por el reglamento para tres cables de esa sección."
           },
           {
             "id": 4,
-            "answer": "30 bases.",
+            "answer": "El diámetro lo determina el técnico del aire acondicionado y no está sujeto al reglamento eléctrico.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-13",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-14",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-15",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-16",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-17",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-18",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-19",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-20",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-21",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-22",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-23",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-24",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-25",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-26",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-27",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-28",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-29",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-30",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-31",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-32",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-33",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-34",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-35",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-36",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-37",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-38",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-39",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-40",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-41",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-42",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-43",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-44",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-45",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-46",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-47",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-48",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-49",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-50",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-51",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-52",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-53",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-54",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-55",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-56",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-57",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-58",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-59",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-60",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-61",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-62",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-63",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-64",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-65",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-66",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-67",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-68",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-69",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-70",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-71",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-72",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-73",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-74",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-75",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-76",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-77",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-78",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-79",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-80",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-81",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-82",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-83",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-84",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-85",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-86",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-87",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-88",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-89",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-90",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-91",
-        "question": "¿Cuántas bases de 25 A (2P+T) admite como máximo el circuito C3?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1 base.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "2 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 limita a 2 el número de puntos de utilización para el circuito C3."
-          },
-          {
-            "id": 3,
-            "answer": "5 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Sin límite.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-92",
-        "question": "¿Cuál es el número máximo de bases permitidas en el circuito C5 (Baños y cocina)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "2 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "6 bases.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C5 permite hasta 6 puntos de utilización. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "20 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "30 bases.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-93",
-        "question": "¿Qué circuito debe añadirse obligatoriamente si la vivienda dispone de sistemas de domótica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C10.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C11.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C11 está destinado a la alimentación de sistemas de automatización y gestión de energía. Fuente: ITC-BT-25, apartado 2.2."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Ninguno, se usa el C1.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-94",
-        "question": "¿Cuál es la sección mínima para el circuito C10 (Secadora)?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "2,5 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. La secadora usa un circuito independiente de 16A con cable de 2,5 mm². Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "4 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-95",
-        "question": "¿Qué protección mínima (PIA) se indica reglamentariamente para el circuito C13?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "16 A.",
-            "isCorrect": true,
-            "explanation": "Correcto. La Tabla 1 de la ITC-BT-25 asigna un valor nominal de 16A para el circuito IRVE básico."
-          },
-          {
-            "id": 3,
-            "answer": "25 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "32 A.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-96",
-        "question": "¿Cuál es la potencia mínima prevista para el grado de electrificación elevado?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "5.750 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es para básico."
-          },
-          {
-            "id": 2,
-            "answer": "9.200 W.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2.2 de la ITC-BT-25 establece 9.200 W como potencia mínima para el grado elevado."
-          },
-          {
-            "id": 3,
-            "answer": "14.490 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "No hay potencia mínima.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-97",
-        "question": "¿Cuál es la sensibilidad máxima permitida para los interruptores diferenciales en viviendas?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "10 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es más sensible pero no el límite general."
-          },
-          {
-            "id": 2,
-            "answer": "30 mA.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-25 exige diferenciales de alta sensibilidad (≤ 30 mA)."
-          },
-          {
-            "id": 3,
-            "answer": "300 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es baja sensibilidad, no apta para viviendas."
-          },
-          {
-            "id": 4,
-            "answer": "500 mA.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-98",
-        "question": "¿Qué circuito está destinado a la calefacción eléctrica?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Circuito C4.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Circuito C8.",
-            "isCorrect": true,
-            "explanation": "Correcto. El circuito C8 se reserva para calefacción eléctrica. Fuente: ITC-BT-25, Tabla 1."
-          },
-          {
-            "id": 3,
-            "answer": "Circuito C12.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Circuito C2.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-25, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-99",
-        "question": "¿Cuál es el diámetro exterior mínimo del tubo para el circuito C1 (Alumbrado) con 3 conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "12 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 2,
-            "answer": "16 mm.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 2 de la ITC-BT-25, para el circuito C1 se prescribe un diámetro mínimo de 16 mm."
-          },
-          {
-            "id": 3,
-            "answer": "20 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. 20 mm es para el circuito C2."
-          },
-          {
-            "id": 4,
-            "answer": "25 mm.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-25-100",
-        "question": "¿Cuál es la protección y sección del circuito C4 (Lavadora, lavavajillas, termo) si se instala como un único circuito?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "16 A y 2,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Eso es si se desdobla."
-          },
-          {
-            "id": 2,
-            "answer": "20 A y 4 mm².",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la Tabla 1 de la ITC-BT-25, para el circuito C4 conjunto se requiere PIA de 20A y cable de 4 mm²."
-          },
-          {
-            "id": 3,
-            "answer": "25 A y 6 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
-          },
-          {
-            "id": 4,
-            "answer": "10 A y 1,5 mm².",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-25."
+            "explanation": "Toda canalización eléctrica en el interior de una vivienda está supeditada al REBT, independientemente de la máquina receptora final a la que preste servicio."
           }
         ],
         "type": "simple"
