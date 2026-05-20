@@ -374,6 +374,1184 @@
           }
         ],
         "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-13",
+        "question": "En caso de instalar múltiples protectores contra sobretensiones en cascada dentro de una misma red (por ejemplo, en el cuadro general y luego otro en un subcuadro), ¿qué precaución ineludible dicta la técnica para su correcto funcionamiento conjunto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben programarse a través de un bus de datos para asegurar el disparo secuencial.",
+            "isCorrect": false,
+            "explanation": "Los descargadores estándar de varistores o vías de chispas son componentes pasivos analógicos; carecen de electrónica inteligente o buses de datos para coordinarse."
+          },
+          {
+            "id": 2,
+            "answer": "Debe garantizarse la correcta coordinación energética entre los protectores, habitualmente requiriendo una impedancia física (metros de cable o bobinas de desacoplo) para que el protector principal derive el grueso del impacto antes de que el secundario intente absorberlo.",
+            "isCorrect": true,
+            "explanation": "Si los protectores están demasiado juntos y sin impedancia de separación, el protector de protección fina (que arranca a menor voltaje) intentará derivar toda la energía bruta del rayo, destruyéndose al instante y anulando la cascada protectora. El apartado 4 de la ITC-BT-23 subraya la obligatoriedad de la coordinación energética."
+          },
+          {
+            "id": 3,
+            "answer": "Todos los protectores deben ser exactamente del mismo fabricante y de la misma categoría de descarga.",
+            "isCorrect": false,
+            "explanation": "No es obligatorio usar la misma marca, y de hecho NO pueden ser de la misma categoría (se usa tipo 1 en cabecera y tipo 2 o 3 aguas abajo para lograr el escalonamiento de tensión residual)."
+          },
+          {
+            "id": 4,
+            "answer": "El segundo protector debe conectarse al neutro general antes que a la red de tierra local.",
+            "isCorrect": false,
+            "explanation": "Las topologías de cableado dependen del esquema TT o TN. Todos los protectores derivan la sobretensión, en última instancia, al embarrado de tierras, independientemente de estar en cascada."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-14",
+        "question": "Para evitar que la destrucción de un varistor en cortocircuito deje inoperativo un centro médico, ¿qué medida adicional prescriben los esquemas de conexión de protectores contra sobretensiones respecto a las líneas de suministro?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El encapsulado obligatorio del protector en resinas epoxi que se fundan y aíslen el varistor chamuscado.",
+            "isCorrect": false,
+            "explanation": "Las resinas no evitan el cortocircuito eléctrico; se limitan a evitar explosiones físicas (chispas al exterior)."
+          },
+          {
+            "id": 2,
+            "answer": "La interposición de fusibles o interruptores automáticos dedicados exclusivamente en la rama de derivación al protector (protección previa), si los dispositivos generales aguas arriba son de calibre excesivo.",
+            "isCorrect": true,
+            "explanation": "Cuando un protector absorbe un pico superior a su aguante, suele fallar derivando a masa (cortocircuito puro). Si el magnetotérmico general de la instalación es muy grande (ej. 250A), no saltará rápido y el protector arderá, y si salta dejará todo a oscuras. La ITC-BT-23 exige instalar fusibles o disyuntores de respaldo en serie con el protector para aislarlo en caso de fallo, salvando el suministro."
+          },
+          {
+            "id": 3,
+            "answer": "El montaje de un sistema de by-pass manual de emergencia que puentee la zona carbonizada.",
+            "isCorrect": false,
+            "explanation": "El protector va en derivación (en paralelo) a las cargas. Si se quema y se puentea el cortocircuito, la instalación sigue fallando de forma franca. Simplemente hay que aislarlo, no puentearlo."
+          },
+          {
+            "id": 4,
+            "answer": "La redundancia triplicada: instalar tres módulos idénticos en paralelo en cada fase.",
+            "isCorrect": false,
+            "explanation": "La redundancia modular en paralelo es muy cara e inútil sin protección de respaldo, pues si un módulo queda en cortocircuito, arrastraría a toda la línea por igual."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-15",
+        "question": "En un entorno industrial catalogado con riesgo extremo de incendio, el instalador debate entre conectar el descargador de sobretensiones aguas arriba (antes) o aguas abajo (después) del interruptor diferencial general. ¿Qué regla de oro rige esta decisión?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Debe ir aguas arriba del diferencial. De lo contrario, cada vez que el protector derive la corriente del rayo a tierra, el diferencial la leerá como una fuga y saltará, dejando la industria a oscuras intempestivamente.",
+            "isCorrect": true,
+            "explanation": "El funcionamiento inherente del protector de sobretensiones es enviar pulsos enormes de corriente por el cable de tierra. Si el protector está debajo del diferencial, esa corriente de descarga (kA) atravesará el toroide sin volver por el neutro, el diferencial interpretará un fallo masivo y cortará la luz, dejando la fábrica parada. El apartado 4 de la ITC-BT-23 impone y diagrama su montaje antes de las protecciones diferenciales."
+          },
+          {
+            "id": 2,
+            "answer": "Debe ir siempre aguas abajo para que el diferencial pueda vigilar y desconectar si el varistor gotea microcorrientes en su fin de vida útil.",
+            "isCorrect": false,
+            "explanation": "Aunque el fin de vida del varistor genera corrientes de fuga, el riesgo de saltos intempestivos continuos ante cada chispa de la red es peor. Los protectores se autovigilan mediante visores de estado (banderitas rojas) o contactos de alarma seca, no a través del diferencial de cabecera."
+          },
+          {
+            "id": 3,
+            "answer": "La posición del descargador frente al diferencial es totalmente indiferente, ya que la duración de microsegundos de la onda del rayo no es detectada por los componentes mecánicos del relé.",
+            "isCorrect": false,
+            "explanation": "Un pulso de miles de amperios (aunque de microsegundos) generará un flujo electromagnético masivo en el toroide diferencial, magnetizándolo y disparando sus mecanismos o destruyendo su electrónica."
+          },
+          {
+            "id": 4,
+            "answer": "Solo se montará aguas abajo si el diferencial es de tipo AC superinmunizado.",
+            "isCorrect": false,
+            "explanation": "Incluso un diferencial inmunizado (tipo A o B [SI]) tiene un límite para ignorar ondas de alta frecuencia y saltará irremisiblemente ante los kiloamperios transitorios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-16",
+        "question": "Con relación a la protección contra sobretensiones temporales (no transitorias), originadas a menudo por el corte accidental del neutro de la compañía, ¿cuál es el mecanismo de salvaguardia obligatorio en las nuevas viviendas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Instalar varistores de mayor diámetro capaces de disipar la sobretensión continua sin sobrecalentarse.",
+            "isCorrect": false,
+            "explanation": "Una sobretensión permanente (ej. de 400V constantes por rotura del neutro) aporta infinita más energía que un rayo de microsegundos. El varistor estallaría o se quemaría en milisegundos tratando de absorberla."
+          },
+          {
+            "id": 2,
+            "answer": "Dotar al Interruptor General Automático (IGA) de una bobina de disparo asociada a un relé de tensión que, al detectar que los 230 V sostenidos se elevan peligrosamente, accione la apertura mecánica de los contactos separando la casa de la red defectuosa.",
+            "isCorrect": true,
+            "explanation": "La única forma de salvar los electrodomésticos ante un aumento permanente del voltaje es la separación física del circuito. La ITC-BT-23, junto con normativas autonómicas, obliga al montaje combinado de protectores transitorios (varistores) y relés permanentes (bobinas de emisión de tensión tipo POP) acopladas al IGA para aislar el hogar ante cortes de neutro."
+          },
+          {
+            "id": 3,
+            "answer": "Integrar un transformador estabilizador de tensión en la centralización de contadores del bloque.",
+            "isCorrect": false,
+            "explanation": "Sería costosísimo y de enormes dimensiones regular de forma activa la tensión permanente de todo el vecindario; la solución normada es el corte por protección de cada usuario."
+          },
+          {
+            "id": 4,
+            "answer": "Obligar a la distribuidora a reforzar sus transformadores para anular la impedancia de neutro.",
+            "isCorrect": false,
+            "explanation": "Por muy robusto que sea el trafo, una retroexcavadora cortando el neutro en la calle provoca desequilibrio instantáneo en las casas. El usuario debe auto-protegerse aguas abajo."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-17",
+        "question": "En el esquema de conexión llamado 3+1 (o conexión tipo CT2) que se utiliza en redes de distribución con esquema TT para proteger contra sobretensiones, ¿cómo se realiza la derivación de energía?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Cada una de las tres fases se conecta a tierra a través de un varistor independiente, y el neutro se deja sin conectar para evitar derivaciones residuales.",
+            "isCorrect": false,
+            "explanation": "Si el neutro se deja aislado, las sobretensiones que se induzcan en ese hilo entrarán directamente a los equipos; en baja tensión, el neutro se comporta como un conductor activo más."
+          },
+          {
+            "id": 2,
+            "answer": "Las tres fases se dirigen a varistores, cuyos extremos comunes se unen al conductor de neutro. A su vez, desde este punto neutro se instala una única vía de chispas o descargador de gas que evacúa la totalidad del fallo hacia el embarrado de tierra.",
+            "isCorrect": true,
+            "explanation": "Este es el modo estipulado (CT2) que exige la ITC-BT-23 para redes TT residenciales. Permite la protección tanto en modo diferencial (fase a neutro) como en modo común (fase/neutro a tierra) y evita que los varistores queden crónicamente degradados y fugando corriente directamente a la pica local del abonado, ya que la vía de chispas en serie con la tierra proporciona aislamiento galvánico absoluto."
+          },
+          {
+            "id": 3,
+            "answer": "Las fases no reciben protección, descargando exclusivamente la tensión residual del cable de tierra hacia el neutro de la compañía.",
+            "isCorrect": false,
+            "explanation": "Absolutamente irracional. Es la fase la que transporta el pico de alta energía que destruirá los chips y aislamientos, requiere protección directa."
+          },
+          {
+            "id": 4,
+            "answer": "Todas las fases y el neutro emplean idénticos varistores de óxido metálico de 5 kA conectados rígidamente y en paralelo al borne de tierra de forma indistinta.",
+            "isCorrect": false,
+            "explanation": "Aunque esa topología (conexión tipo CT1) es legal en redes TN, en esquemas TT suele preferirse evitar las corrientes de fuga continuas a tierra, optando por el esquema 3+1 (varistores a neutro y vía de chispas a tierra)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-18",
+        "question": "Durante el desarrollo de una tormenta eléctrica lejana, un centro de cálculo experimenta continuas degradaciones en la electrónica a pesar de tener protectores en el cuadro general. Al revisar, las distancias superan los 50 metros hasta los ordenadores. ¿Qué principio normativo de la propagación de ondas justifica la avería?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El efecto resonante de la toma de tierra; al ser muy larga, actúa como un altavoz amplificador.",
+            "isCorrect": false,
+            "explanation": "Las tierras largas añaden impedancia e impiden una buena evacuación, pero el fenómeno principal destructivo a 50 metros ocurre en los hilos activos."
+          },
+          {
+            "id": 2,
+            "answer": "A distancias superiores a 10 metros, la reflexión de la onda escarpada de tensión y las inducciones mutuas por acoplamiento dentro del edificio originan que el voltaje residual protector se multiplique al final del recorrido (fenómeno de onda viajera), quemando los equipos distantes.",
+            "isCorrect": true,
+            "explanation": "El apartado 4 de la ITC-BT-23 destaca que la protección local en cabecera es inútil si el equipo final está muy lejos. La onda se refleja al final del cable o se re-induce ruido en el largo trayecto, obligando a disponer de protección escalonada local (ej. protectores tipo 3 integrados en las bases de enchufe de los ordenadores)."
+          },
+          {
+            "id": 3,
+            "answer": "La caída de tensión del cobre amortigua tanto el pulso del rayo que los ordenadores se bloquean por subtensión momentánea extrema.",
+            "isCorrect": false,
+            "explanation": "El pulso del rayo es tan grande (kV y kA) que su energía domina y destruye, no genera averías por 'quedarse sin voltaje' en la caída a lo largo del cable de 50 metros."
+          },
+          {
+            "id": 4,
+            "answer": "Las sobretensiones atmosféricas sufren el efecto peculiar de desdoblar la corriente continua interna en corriente alterna destructiva debido a la lejanía del cuadro principal.",
+            "isCorrect": false,
+            "explanation": "Esa justificación no tiene soporte físico. El fenómeno es de transmisión de líneas e impedancia característica (reflexiones)."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-19",
+        "question": "¿Qué riesgo gravísimo comporta la instalación de un descargador de sobretensiones de tipo 'vía de chispas' pura para descargas directas (Categoría I) sin coordinarlo ni emparejarlo aguas arriba con un interruptor general capaz de cortar corrientes residuales?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Que el chispazo funda el plástico envolvente propagando fuego al techo.",
+            "isCorrect": false,
+            "explanation": "Los dispositivos cerrados y encapsulados están testados al fuego, el riesgo latente es puramente de circuito eléctrico."
+          },
+          {
+            "id": 2,
+            "answer": "Las vías de chispas, tras cebarse por un rayo y derivarlo a tierra, a menudo mantienen el arco establecido alimentado por los 230 V de la propia red de baja tensión (corriente subsiguiente o de seguimiento). Si no hay un fusible o si el protector no autoextingue el arco, provocará un cortocircuito masivo que incendiará la acometida.",
+            "isCorrect": true,
+            "explanation": "El cebado de la chispa ioniza el aire. Cuando el pulso del rayo pasa, el gas sigue ionizado y la red eléctrica 'ordinaria' se cuela por ahí directo a tierra. El apartado 4 de la ITC-BT-23 resalta la necesidad de que los protectores o los fusibles previos tengan capacidad de extinción de esta corriente continuada para evitar catástrofes."
+          },
+          {
+            "id": 3,
+            "answer": "Al ser puras, dejan pasar demasiada poca energía, forzando a los varistores secundarios a asumir picos de hasta 100 kA por su cuenta.",
+            "isCorrect": false,
+            "explanation": "Al contrario, las vías de chispas dejan caer el voltaje a cero y asumen el 90% del trabajo pesado de disipación de la onda."
+          },
+          {
+            "id": 4,
+            "answer": "Que la chispa emita tal nivel de radiación ultravioleta en el cuarto de contadores que ciegue momentáneamente al personal de mantenimiento.",
+            "isCorrect": false,
+            "explanation": "Aunque el arco genere luz, se produce dentro de una cámara de cuarzo o cerámica confinada. El riesgo de ceguera fotónica no es un factor regulado por el REBT."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-20",
+        "question": "En el diseño de la coordinación de aislamiento (tensión soportada a impulsos) para la maquinaria fija (como un motor de ventilación centralizado del edificio), ¿en qué categoría engloba la reglamentación a estos componentes de uso robusto general?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Categoría IV, exigiéndoles la máxima inmunidad al ir instalados permanentemente.",
+            "isCorrect": false,
+            "explanation": "La máxima inmunidad (Categoría IV) solo se requiere para los elementos que están en el inicio de la línea (contadores), expuestos al embate total del exterior."
+          },
+          {
+            "id": 2,
+            "answer": "Categoría III (aparamenta de instalación fija), a los cuales se les confiere un nivel de aislamiento de 4 kV en redes domésticas estándar.",
+            "isCorrect": true,
+            "explanation": "El apartado 2 de la ITC-BT-23 determina que los equipos que forman parte indisoluble e inamovible de la estructura eléctrica del inmueble deben tener mayor fiabilidad. A los equipos fijos se les exige soportar 4.000 V de pulso (Cat III), situándose en robustez por debajo de contadores (Cat IV) pero por encima de los electrodomésticos portátiles."
+          },
+          {
+            "id": 3,
+            "answer": "Categoría II (herramientas portátiles), ya que sus motores se queman fácilmente.",
+            "isCorrect": false,
+            "explanation": "Un motor de un aire acondicionado de azotea es fijo. Sus bobinados y regleteros sufren menor merma y se exige más rigor que a un secador de pelo."
+          },
+          {
+            "id": 4,
+            "answer": "Categoría I, al poseer circuitos electrónicos de conmutación (inverters).",
+            "isCorrect": false,
+            "explanation": "A los inverters industriales se les exige protecciones internas porque el equipo globalmente está clasificado como maquinaria fija y debe afrontar ambientes de Cat III o II según el enchufe, no aislamientos débiles."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-21",
+        "question": "¿De qué manera interfiere el correcto diseño de la red equipotencial (conexión a tierra de cañerías y hierros) en la efectividad real de la protección contra sobretensiones transitorias?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Si no se unifican las tierras en un embarrado común (equipotencialidad), un impacto de rayo en el pararrayos elevará el voltaje de la cimentación mientras las cañerías permanecen a cero voltios, originando descargas internas descontroladas saltando por el aire que los protectores locales de fase no pueden impedir.",
+            "isCorrect": true,
+            "explanation": "La protección es integral. Si el chasis metálico del ordenador sube a 10.000 V (por tierra de rayo) pero el cable de antena o red está sujeto a la tubería sin aterrar (a 0V), saltará un arco gigantesco interno por diferencia de potencial. El apartado 4 de la ITC-BT-23 resalta que el descargador asume y necesita una buena red equipotencial en el edificio."
+          },
+          {
+            "id": 2,
+            "answer": "Las cañerías unidas a tierra consumen la energía de los varistores vaciándolos, dejándolos inútiles antes de la tormenta.",
+            "isCorrect": false,
+            "explanation": "El varistor no se 'vacía' estáticamente. Es un semiconductor semiconductor dependiente del voltaje. Su degradación no viene de las tierras sino del número y dureza de las descargas que procesa."
+          },
+          {
+            "id": 3,
+            "answer": "Obliga a instalar protectores tripolares en lugar de tetrapolares en el cuadro principal de entrada.",
+            "isCorrect": false,
+            "explanation": "El uso de módulos de fase o de neutro (3+1) obedece al esquema TT de la red pública, no a la presencia interior de mallas equipotenciales arquitectónicas."
+          },
+          {
+            "id": 4,
+            "answer": "La malla equipotencial en realidad perjudica la protección por anular las propiedades de reflexión de onda del pulso de rayo en el subsuelo.",
+            "isCorrect": false,
+            "explanation": "Toda red de descargas busca atrapar o nivelar (equipotencializar) y disipar en el terreno masivo, el rebote no deseado ocurre en cables al aire o desparejados."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-22",
+        "question": "En caso de omitirse la protección de respaldo (fusible o automático previo) frente al fallo en cortocircuito de un descargador averiado, ¿cuál será el efecto directo indeseable durante el servicio de la instalación?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Saltará el diferencial general continuamente por detectar fuga térmica.",
+            "isCorrect": false,
+            "explanation": "Si el descargador está montado aguas arriba del diferencial (su posición obligada), el fallo en cortocircuito ocurre sin pasar por el toroide; el diferencial no detectará absolutamente nada y no saltará."
+          },
+          {
+            "id": 2,
+            "answer": "La corriente de cortocircuito directa fase-tierra quemará las pistas internas del descargador y podrá originar el disparo de los fusibles generales de la compañía, dejando sin luz no solo al usuario sino quizás al vecindario si la selectividad falla.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23 estipula la obligatoriedad de la protección para aislar el equipo averiado. Si el bloque de protección se calcina derivando la fase a tierra en corto neto y no hay automático asociado, la altísima intensidad quemará todo hasta que el fusible maestro o trafo de calle salte por avería grave."
+          },
+          {
+            "id": 3,
+            "answer": "El descargador empezará a emitir picos armónicos que distorsionarán la onda de tensión para el resto de equipos electrónicos.",
+            "isCorrect": false,
+            "explanation": "El equipo fundido no emite señales. Se queda como una soldadura o un resistor puramente muerto que genera enorme calor óhmico a tierra."
+          },
+          {
+            "id": 4,
+            "answer": "Los equipos informáticos de la casa sufrirán sobretensiones crónicas de más de 300 voltios constantes.",
+            "isCorrect": false,
+            "explanation": "Con una derivación de fase a tierra de tan baja impedancia, el voltaje del domicilio más bien caería y generaría apagón bruto, no una sobretensión continuada en otras fases."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-23",
+        "question": "Un instalador que diseña el cuadro de un supermercado evalúa incluir sistemas de protección contra picos de maniobra. ¿Qué origen técnico en la red genera masivamente este tipo de sobretensiones, además de las perturbaciones atmosféricas?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Las inducciones mutuas por el cruce de vuelos rasantes de aviones en la zona.",
+            "isCorrect": false,
+            "explanation": "La interferencia aeronáutica no induce sobretensiones de red masivas."
+          },
+          {
+            "id": 2,
+            "answer": "La conmutación o apagado súbito de fuertes cargas inductivas y condensadores en las subestaciones y grandes maquinarias (como arranques masivos de cámaras frigoríficas o bombas) que desestabilizan el flujo eléctrico temporalmente.",
+            "isCorrect": true,
+            "explanation": "La energía almacenada en campos magnéticos de motores o contactores industriales, al ser interrumpida de golpe, se convierte en altos picos de voltaje (sobretensiones de maniobra). La ITC-BT-23 clasifica estos riesgos internos junto a los rayos externos como los generadores principales de ondas transitorias (tipo 8/20 µs) a proteger."
+          },
+          {
+            "id": 3,
+            "answer": "La acumulación de cargas electrostáticas por la fricción continua del cableado con el viento.",
+            "isCorrect": false,
+            "explanation": "La triboelectricidad (estática por frotamiento) no se genera ni transporta significativamente por cables que están referenciados de facto a tierra en la subestación."
+          },
+          {
+            "id": 4,
+            "answer": "Las pérdidas de aislamiento provocadas por roedores y envejecimiento de la resina.",
+            "isCorrect": false,
+            "explanation": "Las pérdidas de aislamiento provocan defectos o cortocircuitos por defecto (baja tensión local), no generan picos transitorios constructivos superiores al voltaje de red."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-24",
+        "question": "En la evaluación de la instalación de protección frente a rayos de un chalet provisto de piscina, se especifica un limitador de sobretensión Tipo 1. ¿Cuál es el rasgo definitorio técnico de este equipamiento según la norma frente a uno de Tipo 2?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Posee la capacidad de seccionar la corriente y sustituir al diferencial general.",
+            "isCorrect": false,
+            "explanation": "El limitador carece de capacidad de relé o corte diferencial frente a las fugas lentas que afectan a humanos. Su función y topología es exclusivamente cortocircuitar y drenar picos masivos."
+          },
+          {
+            "id": 2,
+            "answer": "Está ensayado rigurosamente para soportar el embate térmico y electrodinámico de corrientes de descarga directas con el perfil de onda 10/350 microsegundos.",
+            "isCorrect": true,
+            "explanation": "El Tipo 1 se ubica obligatoriamente cuando hay impacto directo (edificios con pararrayos o acometidas aéreas expuestas). Su ingeniería debe soportar el rayo bruto cuya energía (integral I²t) representada en la curva 10/350 µs supera enormemente a las sobretensiones amortiguadas de Tipo 2. (Ver directrices ITC-BT-23)."
+          },
+          {
+            "id": 3,
+            "answer": "Solo permite el uso de resistencias de cerámica porosas, prohibiéndose los varistores comerciales de Zinc.",
+            "isCorrect": false,
+            "explanation": "Los Tipo 1 se construyen mediante vías de chispas o varistores multicapa de gran espesor (ambas tecnologías son válidas), no están limitados por ley a cerámicas porosas."
+          },
+          {
+            "id": 4,
+            "answer": "No requiere conexión a la línea de tierra si el chalet dispone de transformador de aislamiento integrado.",
+            "isCorrect": false,
+            "explanation": "Un descargador 'descarga' energía. Si no se conecta a la tierra física masiva externa para retornar las nubes tormentosas, explotaría o destrozaría el aislamiento sin tener ruta de evacuación. Todo Tipo 1 requiere tierra directa y potente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-25",
+        "question": "Una industria química necesita salvaguardar su autómata de procesos (PLC) y dispone ya de un protector central en cabecera y uno de Tipo 2 en la subcentral. ¿Por qué el técnico instalador añade además un descargador de sobretensiones finas (Tipo 3) directamente empotrado en el enchufe del autómata?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para apaciguar las inspecciones de la mutua aseguradora aumentando injustificadamente el presupuesto eléctrico.",
+            "isCorrect": false,
+            "explanation": "El diseño escalonado en tres fases es la metodología estándar y necesaria dictada por las normas electrotécnicas para equipos de misión crítica, no un engaño comercial."
+          },
+          {
+            "id": 2,
+            "answer": "Porque el PLC, calificado como equipo de Categoría I (alta sensibilidad), posee un nivel de aislamiento muy frágil (ej. 1,5 kV). El Tipo 3 garantiza una tensión residual de recorte tan baja e inmediata que los protectores Tipo 2 situados lejos no lograrían cumplir por efecto de las inductancias del cableado intermedio.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23 avala el principio de escalonamiento: Cabecera absorbe el gran golpe de energía, y a pie de equipo se coloca el Tipo 3. El Tipo 3 actúa casi como filtro final recortando el último remanente inducido localmente en los cables antes de que los delicados microchips (Cat. I) sufran los 1.500 V que bastan para perforarlos."
+          },
+          {
+            "id": 3,
+            "answer": "Porque el protector Tipo 3 se encarga exclusivamente de convertir la señal de 230 V CA en corriente continua estable de 24 V para la fuente del autómata.",
+            "isCorrect": false,
+            "explanation": "La conversión y estabilización DC es tarea exclusiva de la fuente de alimentación industrial (Power Supply), no del supresor pasivo de impulsos."
+          },
+          {
+            "id": 4,
+            "answer": "Para aumentar artificialmente la impedancia global de la red, evitando que los motores generen reactiva.",
+            "isCorrect": false,
+            "explanation": "La protección transitoria opera en microsegundos y en paralelo a la línea, sin oponer ninguna resistencia activa o reactiva constante frente a motores o al contador."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-26",
+        "question": "Durante la inspección de un cuadro, el verificador se fija que el conductor en forma de V que une la fase con el descargador, y de éste hacia la bornera general, cumple el tamaño reglamentario mínimo. ¿Cuál es el límite impuesto para este tendido que garantiza su operatividad y seguridad de paso sin fusionarse?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "10 milímetros cuadrados innegociables para todas las familias de dispositivos.",
+            "isCorrect": false,
+            "explanation": "Aunque 10 mm² daría robustez, el límite inferior de mínimos legales fluctúa entre 4 mm² y 16 mm² dependiendo de la exposición al rayo directo, no siendo un fijo universal y siendo lícita una sección algo inferior en Tipo 2."
+          },
+          {
+            "id": 2,
+            "answer": "En el caso general de proteger sobretensiones transitorias y de maniobra (descargadores estándar u onda 8/20 µs), la derivación ha de dimensionarse en cobre con una sección que, como cota inferior restrictiva, nunca sea menor de 4 mm².",
+            "isCorrect": true,
+            "explanation": "Las directrices del apartado 5 de la ITC-BT-23 establecen la obligación constructiva de usar cable de 4 mm² mínimo para aguantar la fuerza termomecánica de las conmutaciones intensas a 8/20 µs. Si fuera para impactos directos con pararrayos (Tipo 1) se exigiría un mínimo rotundo de 16 mm²."
+          },
+          {
+            "id": 3,
+            "answer": "Resulta suficiente con hilos rígidos de sección 1.5 mm² si se garantiza que la trayectoria trazada carece de ángulos de noventa grados.",
+            "isCorrect": false,
+            "explanation": "La rectitud geométrica del recorrido (sin dobleces) ayuda frente a la inductancia, pero no suple en absoluto la carencia térmica para sobrevivir a 20 o 40 kA circulantes."
+          },
+          {
+            "id": 4,
+            "answer": "La norma demanda usar varillas de aluminio macizo exclusivas en sustitución del cobre para igualar el potencial de forma paramagnética.",
+            "isCorrect": false,
+            "explanation": "El aluminio macizo para interiores no se receta para puentes tan cortos y precisos, predominando el hilo flexible de cobre estandarizado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-27",
+        "question": "Con relación a la vida útil de los cartuchos intercambiables de óxido de zinc insertos en los módulos de protección, ¿qué obligación visual y prescriptiva estipula la norma para su correcto mantenimiento pasivo en el cuadro del hogar?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben pintarse con esmaltes termocrómicos que cambian de tonalidad azul a amarilla al elevarse el calor latente.",
+            "isCorrect": false,
+            "explanation": "La indicación de daño suele ser optomecánica interna o mediante un testigo predefinido, no confiada a pinturas exteriores de aplicación en campo."
+          },
+          {
+            "id": 2,
+            "answer": "Han de ir inexcusablemente provistos de un dispositivo indicador local que señalice con nitidez la degradación del semiconductor y aconseje su reemplazo inmediato al acabar su ciclo útil.",
+            "isCorrect": true,
+            "explanation": "El usuario o mantenedor debe saber si está protegido. Al degradarse por absorber picos con los años, el varistor colapsa. La ITC-BT-23 establece (habitualmente asumiendo normas UNE) la exigencia de banderolas indicadoras mecánicas (ventanas que viran de verde a rojo) o tele-señalización para evidenciar de forma certera la merma del módulo desgastado."
+          },
+          {
+            "id": 3,
+            "answer": "Requieren el montaje de zumbadores acústicos de más de 80 decibelios activables ante la caída del aislamiento.",
+            "isCorrect": false,
+            "explanation": "La tele-señalización (contactos secos o chicharras) se usa en entornos industriales o remotos, pero la obligatoriedad general de indicación residencial se suple con ventanillas visuales de colores silenciosas."
+          },
+          {
+            "id": 4,
+            "answer": "No caducan ni se degradan jamás al tratarse de componentes sólidos cristalinos inmunes al paso del tiempo.",
+            "isCorrect": false,
+            "explanation": "Los varistores de óxido metálico (MOV) sufren fatiga cristalina acumulativa. Cada pico absorbido altera sus micro-uniones de zinc-bismuto reduciendo su resistencia y elevando fugas, envejeciendo de forma inevitable e irrevocable."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-28",
+        "question": "En un sistema donde se instalan simultáneamente protección permanente (POP) y transitoria en un modelo combinado en el mismo cuadro, el disparo por tensión alta continua provoca el corte del Interruptor General (IGA). ¿Qué rol juega el varistor transitorio en ese instante exacto frente a esta perturbación permanente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Ninguno, ya que ante una tensión permanente (por ejemplo 300 V mantenidos), la onda es lenta y masiva, por lo que el protector transitorio debe permanecer intacto mientras es desconectado por el IGA.",
+            "isCorrect": true,
+            "explanation": "El varistor de transitorias aguanta hasta los ~275V antes de entrar en plena conducción y quemarse. Si hay 300V permanentes (corte de neutro de calle), el POP emite una señal que tira la palanca del magnetotérmico general en escasos milisegundos. El transitorio queda desconectado y salvado sin que haya intervenido frente a una onda para la que no fue diseñado (la ITC-BT-23 separa netamente ambos fenómenos y su protección)."
+          },
+          {
+            "id": 2,
+            "answer": "Se inmola fusionándose deliberadamente, provocando que salte el automático de la distribuidora y aislando por fuerza bruta el vecindario.",
+            "isCorrect": false,
+            "explanation": "La solución del corto franco se descarta si se instala un relé bobinado asociado al disyuntor que ofrezca un disparo mecánico, salvando los módulos y abriendo la línea con elegancia y selectividad."
+          },
+          {
+            "id": 3,
+            "answer": "Transmite un pulso invertido a la línea para cancelar la sinusoide excedente que llega por el cable principal.",
+            "isCorrect": false,
+            "explanation": "Las cancelaciones de fase activas operan en UPS sofisticadas de compensación armónica, un limitador de sobretensiones es estúpido y reactivo, no anula senoidales emitiendo señales."
+          },
+          {
+            "id": 4,
+            "answer": "Inyecta corriente masiva al neutro para forzar la actuación del interruptor diferencial de cabecera.",
+            "isCorrect": false,
+            "explanation": "Un POP no puede confiar su corte al salto del diferencial (que reacciona a miliamperios lentos); la orden se da a la bobina del IGA que rompe 50 Amperios limpios al instante."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-29",
+        "question": "En caso de omitir las exigencias técnicas del tendido y realizar derivaciones 'largas y caóticas' de más de un metro en forma de bucles para conectar un protector modular de sobretensiones al embarrado. ¿Qué magnitud física sabotea drásticamente la capacidad protectora del sistema ante un frente de onda impulsivo?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La susceptancia magnética, que repele físicamente el cobre atrayendo el chispazo a la tapa plástica.",
+            "isCorrect": false,
+            "explanation": "La susceptancia es inversa de reactancia en mallas complejas pero no define una fuerza repulsiva de chispazos ni afecta la tapa plástica."
+          },
+          {
+            "id": 2,
+            "answer": "La inductancia equivalente intrínseca de los propios cables conexionados, que suma su caída de tensión dinámica (L*di/dt) a la tensión residual del varistor, sobrepasando en los bornes finales el aislamiento crítico del equipo.",
+            "isCorrect": true,
+            "explanation": "La longitud es letal. A frecuencias tan inmensamente rápidas (frentes de rayo de nanosegundos), un cable de 1 metro no es un corto; es una bobina pura (1 microhenrio/metro). Si derivamos 10 kA, ese cable recto añade unos 1.000 voltios extra al remanente del protector. Sumando, perforarás la TV. La ITC-BT-23 dicta cablear en 'V' o ultra-corto (menos de 50 cm) para aplastar esta inductancia parásita indeseable."
+          },
+          {
+            "id": 3,
+            "answer": "La dilatación lineal exacerbada del cable enrollado, provocando roturas en la regleta de apriete general del cuadro y dejando la protección floja.",
+            "isCorrect": false,
+            "explanation": "La dilatación requiere tiempo y temperatura prolongada. Los fenómenos de rayo son de microsegundos, donde prima la impedancia en alta frecuencia y no la termodinámica del metal."
+          },
+          {
+            "id": 4,
+            "answer": "El efecto jaula de Faraday provocado por el bucle, que oculta al protector e impide que 'sienta' la llegada de la anomalía eléctrica.",
+            "isCorrect": false,
+            "explanation": "Una bobina larga (bucle) no aísla campos sino que los incrementa inductivamente, la onda de tensión sigue su camino sin importarle jaulas espurias y el protector no queda sordo, sino ineficiente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-30",
+        "question": "Al referenciar el aislamiento mínimo exigible en la norma a la acometida exterior aérea directamente impactada, ésta corresponde a una zona de alto nivel ceráunico. ¿En qué categoría superior agrupa el legislador europeo e ITC a los elementos situados en el origen crudo de estas instalaciones?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Aparatos sujetos a la Categoría IV, lo cual demanda una enorme fortaleza (ej. 6.000 V frente a impulsos) para soportar las inclemencias previas a cualquier filtro protector.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23 define cuatro escalones de resistencia de las máquinas ante frentes de onda, siendo la máxima exposición el contador a pie de calle o la caja general, categorizada como IV. Requiere aislamientos reforzados que resistan 6 kV de impacto al estar ubicados sin red amortiguadora previa (frente a los 4 kV de Cat III o los 2.5 kV de electrodomésticos portátiles Cat II)."
+          },
+          {
+            "id": 2,
+            "answer": "Clasificación de Riesgo Especial 1, obligando a construir tabiques parallamas inyectados en poliuretano perimetral para salvar la fachada del estallido del contador.",
+            "isCorrect": false,
+            "explanation": "La clasificación por riesgo especial (ITC-BT-28 etc) abarca incendios o grandes concurrencias, no se refiere en su génesis al choque por impulsos de sobretensiones que agrupa la ITC-23."
+          },
+          {
+            "id": 3,
+            "answer": "Sistemas de Categoría I, exigiéndoles componentes extremadamente finos y fusibles diminutos para abortar los impactos brutales sin resistencia.",
+            "isCorrect": false,
+            "explanation": "La clasificación (I a IV) en la ITC-23 es jerárquicamente opuesta: la clase I engloba a los más débiles y sensibles, la IV a los mastodontes constructivos como contadores de acometida."
+          },
+          {
+            "id": 4,
+            "answer": "Estándar de Zona Cero, amparado por los descargadores del trafo del barrio sin demandarles rigidez interna extra.",
+            "isCorrect": false,
+            "explanation": "Incluso contando con los descargadores del transformador de media tensión del barrio, el trayecto de calle capta inducciones altísimas. Se exige que el equipo de medida aguante estructuralmente las acometidas brutas."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-31",
+        "question": "Una fábrica requiere mantener el servicio sin importar si el varistor de protección ha saltado por los aires o fallado fatalmente derivando. ¿Cómo permite la norma organizar los fusibles de respaldo del descargador para eludir los apagones forzosos de la producción tras la tormenta?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Intercalando los fusibles recomendados directamente en el cable troncal general, haciendo que la fábrica entera se quede a oscuras en un sacrificio para salvarse de llamas.",
+            "isCorrect": false,
+            "explanation": "Conectarlos en el cable pasante (troncal) prioriza la protección total pero vulnera la exigencia de continuidad del empresario, apagando la fábrica si fallan."
+          },
+          {
+            "id": 2,
+            "answer": "Integrando la protección obligatoria de respaldo exclusivamente en la rama de derivación paralela hacia el módulo averiado. Si el protector falla y provoca un cortocircuito, su fusible específico actuará aislándolo del sistema central y permitiendo que la producción siga con total normalidad (aunque desprotegida).",
+            "isCorrect": true,
+            "explanation": "El esquema prioritario al suministro (ITC-BT-23 en guías de aplicación) demanda disponer la protección previa en las patillas de entrada exclusivas de los protectores, en derivación paralela. Al quemarse el módulo a masa, este fusible salta, 'desconectando' de facto al héroe quemado pero salvaguardando los 230V puros intocables para que los motores de fábrica y el automático general ni se inmuten del incidente ocurrido en paralelo."
+          },
+          {
+            "id": 3,
+            "answer": "Empleando descargadores especiales sin conexión al neutro para que jamás puedan realizar contacto franco y evitar poner la fase general en cortocircuito.",
+            "isCorrect": false,
+            "explanation": "Si omites la referencia a neutro (y tierra), anulas el principio físico de desagüe protector, haciendo el módulo un mero lastre de plástico inútil."
+          },
+          {
+            "id": 4,
+            "answer": "La norma no faculta la discriminación: cualquier avería en protectores debe conllevar irremisiblemente el disparo de los interruptores seccionadores del exterior de la nave bloqueando el acceso.",
+            "isCorrect": false,
+            "explanation": "Las normas estipulan esquemas que primen la continuidad del servicio o la protección inquebrantable a gusto y necesidad del proyecto, dejando siempre la vía de aislar al equipo roto sin tirar toda la instalación."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-32",
+        "question": "En el supuesto de proyectar una edificación con un pararrayos externo, la reglamentación exige el acople de protectores Tipo 1. ¿Cómo resuelve la técnica el severo problema del arco eléctrico descontrolado al derivar cientos de miles de amperios con este tipo de dispositivos 'vía de chispas' que emiten gases ionizados letales en el corto circuito?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Obligando al instalador a montar chimeneas de amianto dedicadas hacia el exterior del inmueble para expulsar los efluvios radiactivos generados en la desionización.",
+            "isCorrect": false,
+            "explanation": "El amianto está prohibido por riesgo cancerígeno, y no existe emisión radiactiva ni necesidad de chimeneas estructurales exteriores en los limitadores modulares del cuadro eléctrico."
+          },
+          {
+            "id": 2,
+            "answer": "La tecnología actual de los protectores emplea un diseño de vía de chispas encapsulada que confina completamente los gases calientes y el plasma expansivo de la explosión del arco dentro de su bloque cerámico, evitando incendiar los cables contiguos del cuadro eléctrico tal como demandan las normas de producto.",
+            "isCorrect": true,
+            "explanation": "Antiguamente las vías de chispas eran 'abiertas', expulsaban lenguas de fuego en el cuadro y había que aislarlas severamente. Hoy, tal y como ampara y recomienda el diseño compacto dictado en las guías técnicas del REBT, los módulos Tipo 1 son herméticos, tragándose la energía del rayo dentro de microcámaras internas selladas a altísima presión de arco sin dañar o requemar sus bornas vecinas."
+          },
+          {
+            "id": 3,
+            "answer": "Empleando potentes ventiladores extractores accionados por baterías de 12V que soplen a máxima potencia al sentir el chispazo transitorio.",
+            "isCorrect": false,
+            "explanation": "Los chispazos duran nanosegundos y los gases se expanden a velocidad supersónica (ondas de choque), los ventiladores mecánicos son estúpidamente lentos para atajarlos."
+          },
+          {
+            "id": 4,
+            "answer": "Diluyendo en nitrógeno líquido la zona de contadores, al estilo de los transformadores, logrando que el chispazo quede congelado y anulado.",
+            "isCorrect": false,
+            "explanation": "Completamente inverosímil en cuadros eléctricos domésticos o industriales estándar."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-33",
+        "question": "Un propietario solicita conectar su carísima computadora de diseño a un enchufe de la casa. Revisa su caja general y no tiene ningún elemento. El instalador le avisa que según la norma ITC-BT-23 le es de obligado cumplimiento la reforma. ¿Qué factor fundamental obliga, sin opción, a montar un sistema de supresión desde el exterior?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El que la calle sufra caídas de tensión frecuentes (picos de bajada o subtensión).",
+            "isCorrect": false,
+            "explanation": "La caída de tensión daña poco comparado con la sobretensión. Se soluciona con SAI (Sistemas de Alimentación Ininterrumpida), no con varistores limitadores de pico (que solo recortan exceso por arriba)."
+          },
+          {
+            "id": 2,
+            "answer": "El suministro eléctrico al vecindario se realiza mediante un tendido de red trenzado grapado aéreo por las fachadas contiguas (red aérea total o parcial).",
+            "isCorrect": true,
+            "explanation": "Si la instalación recibe su alimento de cables que vuelan y están expuestos a inducciones y rayos lejanos, el riesgo es extremo. El apartado 3.2 de la ITC-BT-23 marca su obligatoriedad perentoria al no contar el cable de fachada con la pantalla natural atenuadora del subsuelo (tierra de soterramiento)."
+          },
+          {
+            "id": 3,
+            "answer": "Que el PC cuente con un microprocesador cuyo valor supere los 1.000 euros en el mercado europeo.",
+            "isCorrect": false,
+            "explanation": "La norma no legisla evaluando al céntimo el mercado tecnológico. Salvaguarda en base a riesgos de servicio y condiciones objetivas de la infraestructura."
+          },
+          {
+            "id": 4,
+            "answer": "El hecho de que la vivienda no posea interruptores diferenciales de alta sensibilidad (10 miliamperios).",
+            "isCorrect": false,
+            "explanation": "La presencia o ausencia de alta sensibilidad diferencial es para salvar a los humanos de fugas lentas por contacto, siendo irrelevante para los miles de voltios impulsivos transitorios."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-34",
+        "question": "¿En el diseño del cuadro de una estación de bombeo agrícola aislada, se han dispuesto protectores Tipo 1, Tipo 2 y Tipo 3. ¿Cómo define la teoría y las normas la tensión residual (Up) de toda la cadena si una descarga potente impacta al exterior?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se promedian los valores de tensión y se dividen entre la cantidad de fusibles que tenga cada módulo.",
+            "isCorrect": false,
+            "explanation": "La tensión residual no es un promedio aritmético. Funciona por escalones drásticos donde cada filtro atenúa a su medida."
+          },
+          {
+            "id": 2,
+            "answer": "El Up del conjunto de la protección no es la simple suma de ellos, sino que lo determina y lo rige el escalón final (Tipo 3), entregando a los equipos más frágiles la baja tensión de recorte (por ej. 1,5 kV) que el voluminoso Tipo 1 no habría podido rebajar por sí mismo.",
+            "isCorrect": true,
+            "explanation": "El escalonamiento de protectores busca que el primer y basto bloque (Tipo 1) frene los brutales amperios bajando el pico (quizás a 2.5 kV o 4 kV residual), cediendo el relevo al fino Tipo 2 o 3, que absorben el pico final que resta dejándolo pulido en 1.5 kV inofensivos. Es el principio rector de coordinación energética del apartado 4."
+          },
+          {
+            "id": 3,
+            "answer": "Cada módulo multiplica el voltaje por un factor de seguridad interno que termina por generar tensiones permanentes altísimas al autómata.",
+            "isCorrect": false,
+            "explanation": "Los dispositivos de supresión de ondas reducen y disipan; no existen amplificadores de escalón."
+          },
+          {
+            "id": 4,
+            "answer": "Se toma como Up definitivo la tensión que indique la fase más perjudicada al saltar el disyuntor automático, ignorando la de los neutrales.",
+            "isCorrect": false,
+            "explanation": "El voltaje recortado dependerá del diseño del varistor específico, no del magnetotérmico general o de la fase que más brille antes del salto."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-35",
+        "question": "En el caso de instalar equipos limitadores de uso frecuente (Tipo 2), el instalador duda de su montaje óptimo: ¿los empalma por arriba (aguas arriba) o por debajo (aguas abajo) del IGA (Interruptor General Automático) de su cliente?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Deben conectarse antes de cualquier IGA, directamente a la salida del precinto del contador de la distribuidora para preservar también el IGA del rayo.",
+            "isCorrect": false,
+            "explanation": "Aunque parezca lógico proteger el IGA, la derivación a contadores sin fusible intermedio y saltándose la frontera jurídica y de responsabilidad particular es indebida en el estándar del Cuadro de Mando."
+          },
+          {
+            "id": 2,
+            "answer": "Se montan invariablemente aguas abajo del IGA general, con el fin de que si el usuario requiere sustituir un cartucho quemado pueda desenergizar el circuito y operar con plena garantía sin correr riesgos mortales en la manipulación.",
+            "isCorrect": true,
+            "explanation": "Para poder dar mantenimiento, el primer elemento accesible en el Cuadro de Protección (y que corta toda la casa) es el IGA de corte omnipolar. Conectando aguas abajo, bajamos el IGA y trabajamos a salvo, principio esencial avalado por la ITC-BT-23, los Reglamentos y la lógica más elemental de prevención."
+          },
+          {
+            "id": 3,
+            "answer": "Se colocan en medio del IGA mediante perforadores mecánicos que taladran las platinas interiores del interruptor.",
+            "isCorrect": false,
+            "explanation": "Perforar la cámara de extinción o las platinas de un IGA homologado lo arruina, violando todos los certificados CE y provocando peligro de fuego de cortocircuito."
+          },
+          {
+            "id": 4,
+            "answer": "Es indispensable que la distribuidora los engarce en el exterior de la acometida aérea general para liberar el interior de la casa del polvo y hollín.",
+            "isCorrect": false,
+            "explanation": "La protección privada se sitúa en dominios del cliente, dentro del cuadro y responsabilizando al titular de su presencia. La distribuidora ya usa sus propios autoválvulas exteriores, pero no suplen al equipo interior del abonado."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-36",
+        "question": "Confrontando las ondas transitorias frente a la tensión alterna de 50 Hz, un inspector advierte a un propietario inexperto que si compra un protector transitorio (varistor) para solucionar cortes repetitivos de neutro, no le servirá en absoluto y podría provocar un desastre. ¿Qué fundamento físico lo respalda?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El varistor de transitorias absorbe ondas puramente magnéticas y los cortes de neutro solo generan variaciones capacitivas inofensivas.",
+            "isCorrect": false,
+            "explanation": "Los cortes de neutro desplazan el voltaje neutro virtual subiendo a picos de 400 voltios reales y dañinos, no generan nubes magnéticas."
+          },
+          {
+            "id": 2,
+            "answer": "La sobretensión permanente por falta de neutro entrega una energía inmensa y sostenida en el tiempo (segundos/minutos). El varistor transitorio solo disipa microjulios en millonésimas de segundo; ante este alud energético, se embala térmicamente hasta el punto de estallar en llamas o cortocircuitarse crónicamente.",
+            "isCorrect": true,
+            "explanation": "Un varistor tiene alta resistencia hasta los p.ej 275V y frena el rayo porque el rayo apenas dura microsegundos (poca energía térmica). Si recibe 350V durante 10 segundos ininterrumpidos por avería del transformador (corte neutro), se tragará tanta intensidad RMS que hervirá. La ITC-BT-23 diferencia claramente esta tipología de problema (Transitorias VS Permanentes)."
+          },
+          {
+            "id": 3,
+            "answer": "Porque el transitorio está forzado a operar uncionando a 60 hercios, y el POP (Permanente) en los 50 hercios que usamos en la Unión Europea.",
+            "isCorrect": false,
+            "explanation": "Ambos trabajan adaptados al estándar europeo (50 Hz), la disonancia no viene de la frecuencia fundamental de red, sino de la duración temporal brutal de la sobretensión impuesta."
+          },
+          {
+            "id": 4,
+            "answer": "El transitorio invierte la onda y si se activa con el POP el sistema entraría en retroalimentación perpetua destrozando el alumbrado municipal.",
+            "isCorrect": false,
+            "explanation": "Son componentes simples. No hay magia ni retroalimentaciones en bloque o inversores extraños en aparamenta de carril DIN."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-37",
+        "question": "En el caso de que la longitud combinada del conductor de empalme al protector sumado al de la bajante de tierra exceda irremediablemente el crucial medio metro (0,5m) estipulado. ¿Qué topología de cableado propone la técnica para anular esa enorme reactancia parásita?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Obliga a soldar anillos de ferrita pesada en el medio del cable para que detengan mágicamente las inductancias y el paso de la radiofrecuencia.",
+            "isCorrect": false,
+            "explanation": "Las ferritas (chokes) en modo común no cancelan en absoluto el empuje asimétrico del rayo por las fases."
+          },
+          {
+            "id": 2,
+            "answer": "Implementar el denominado 'montaje o conexionado en V' (conexión serie-paralelo); donde el cable principal llega directo a los bornes del descargador y continúa su camino a la carga, haciendo que el protector no sea un mero ramal colgado de largo alcance.",
+            "isCorrect": true,
+            "explanation": "Cuando el protector 'cuelga' en paralelo, la suma geométrica (ramal superior + ramal inferior) añade voltaje. Si la fase entra directamente por un orificio del descargador y sale inmediatamente hacia el IGA sin tramos colgantes (V connection), toda la onda lo atraviesa ineludiblemente, rebajando drásticamente el pico (se anula el término L·di/dt indeseado del cable extra), práctica recomendada vivamente en guías de aplicación de la ITC-BT-23."
+          },
+          {
+            "id": 3,
+            "answer": "Sustituir el cobre por planchas extrafinas de plomo que no presenten inductancia, estirándolas a lo largo de las canaletas hasta el embarrado de 5 metros.",
+            "isCorrect": false,
+            "explanation": "El plomo posee una conductividad horrible, e incluso aplanado mantendría su naturaleza inductiva global frente al chispazo."
+          },
+          {
+            "id": 4,
+            "answer": "Conexionar al protector al final del circuito de enchufes y no en la caja general.",
+            "isCorrect": false,
+            "explanation": "Protección sin sentido: si está al final, la onda entra primero por el ordenador quemándolo y rebota para apagarse en el protector lejano. La cabecera es inamovible."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-38",
+        "question": "Al referenciar el nivel 'Up' o tensión de protección de un descargador en catálogos, a menudo el cliente se sorprende de que sea más bajo de lo esperado pero advierte de otro parámetro en las especificaciones, el Un (Tensión Nominal). ¿Qué indica estrictamente este concepto en el ecosistema técnico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "La tensión destructiva mínima que funde completamente al dispositivo.",
+            "isCorrect": false,
+            "explanation": "Ese concepto de destrucción encaja mejor con las máximas intensidades de descarga, la tensión es el esfuerzo constante."
+          },
+          {
+            "id": 2,
+            "answer": "La tensión eficaz o voltaje ordinario del sistema que opera a 50 Hz, que el limitador debe estar diseñado para tolerar indefinidamente sin inmutarse ni derivar energía a tierra.",
+            "isCorrect": true,
+            "explanation": "Un limitador para 230 V eficaces tiene su Un a ese nivel, aunque por garantías de seguridad interna, su verdadera tensión máxima permanente (Uc) donde arranca a absorber sea de 275V para no quemarse con la subida del alba. Es el cimiento base de toda la red."
+          },
+          {
+            "id": 3,
+            "answer": "El voltaje medido entre fases durante la prueba de cortocircuito inducido para la homologación de CE.",
+            "isCorrect": false,
+            "explanation": "Pruebas de CE cortocircuito son amperajes, no es la definición primigenia estricta del valor nominal referencial de un varistor."
+          },
+          {
+            "id": 4,
+            "answer": "La tensión umbral en la que el usuario notará calambres inofensivos al palpar la caja.",
+            "isCorrect": false,
+            "explanation": "Un equipo sellado correctamente (aislamiento) jamás expone descargas calambres, siendo de protección clase 2 o similar y plástico ignífugo hermético."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-39",
+        "question": "¿Por qué un técnico instalador desestima drásticamente conectar el polo de retorno o descarga de los protectores transitorios a la red de tuberías de calefacción del bloque en lugar del embarrado del cuadro eléctrico?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque las tuberías de la calefacción, al estar llenas de agua caliente y presurizada, rechazarán el ingreso rápido de electrones.",
+            "isCorrect": false,
+            "explanation": "El agua impura presurizada conduce espléndidamente los amperios; no se opondrían, los electrones fluirían ferozmente."
+          },
+          {
+            "id": 2,
+            "answer": "Porque es una imprudencia flagrante. Esa red carece de sección controlada, posee empalmes de goma (manguitos aislantes) que truncan la continuidad e inyectaría la colosal energía transitoria del rayo en todos los radiadores de las habitaciones, causando muerte y destrucción masiva en un bloque ajeno.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT y toda regla de seguridad mundial prohíbe severamente referenciar y 'usar de red pasante masiva de descargas' a los conductos metálicos de suministro civil. Su función es unirse equipotencialmente para quedar en paz pasiva al chasis general, no para usarlos de autovía de drenaje de cientos de kiloamperios transitorios asimétricos."
+          },
+          {
+            "id": 3,
+            "answer": "Por la mera corrosión estética del esmalte blanco del radiador local del salón.",
+            "isCorrect": false,
+            "explanation": "La pintura dañada es irrelevante frente al inminente riesgo de electrocución masiva global de todos los vecinos que se duchen o acerquen al calentador."
+          },
+          {
+            "id": 4,
+            "answer": "Porque el Reglamento Técnico de Calefacción prohibe tocar el color verde en tuberías, debiendo en todo caso usar el borne de gas metano.",
+            "isCorrect": false,
+            "explanation": "El gas metano es el colofón explosivo y terminal, jamás se derivará rayo por la bombona. Todas van a la pica oficial."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-40",
+        "question": "En el caso de proyectar un cuadro en red TT y utilizar protección común y diferencial simultánea mediante módulos 4 polos y neutro, ¿por qué los protectores modulares presentan a menudo un sistema intercambiable de zócalo base y cartuchos o 'pastillas' extraíbles?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Para despistar a los auditores de fábrica haciéndoles creer que se montaron relés costosos multifunción.",
+            "isCorrect": false,
+            "explanation": "El fin es operativo, nunca engaños de auditoría espuria."
+          },
+          {
+            "id": 2,
+            "answer": "Para que en un final catastrófico, el instalador recicle los cartuchos tostados moliéndolos y usándolos de lastre estático.",
+            "isCorrect": false,
+            "explanation": "No se recicla cerámica oxidada a mano, se tira a puntos limpios."
+          },
+          {
+            "id": 3,
+            "answer": "Por la necesidad operativa de mantener la red encendida (o acortar apagones). Cuando un componente pasivo de protección (el varistor o la pastilla) acusa el fin de su vida útil y fuga por fatiga, el usuario o técnico extrae el cartucho dañado sin desmontar el cableado vivo de la base en el carril DIN, renovando el sistema en segundos con seguridad e inviolabilidad.",
+            "isCorrect": true,
+            "explanation": "La modularidad es clave, dado que las normas (ITC-BT-23 guías, y las buenas prácticas constructivas UNE) conciben al protector de sobretensiones como una armadura que se 'desgasta' o se 'inmola'. Tener que desatornillar enormes terminales con tensión y herramienta provocaría paradas de fábrica continuas; sacar a presión un módulo sin parar la luz es la solución elegante y universal aprobada en el mercado."
+          },
+          {
+            "id": 4,
+            "answer": "Para aumentar el aislamiento por interponer grandes láminas de plástico en el cartucho.",
+            "isCorrect": false,
+            "explanation": "El zócalo no aporta más aislamiento. Añade puntos de paso y fricción (y problemas) que se toleran a cambio de la colosal ventaja del recambio en caliente."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-41",
+        "question": "Si una planta fotovoltaica aislada alimenta directamente mediante un inversor de baterías de cortísimo rango, y la casa está rodeada de campo despejado en la montaña. ¿Qué tipología de perturbación de sobretensión, además del impacto directo puro a paneles, requiere mayor mitigación por probabilidad en todo el tendido exterior expuesto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Picos senoidales provocados por manadas de lobos pisando el barro cercano al neutro aislado.",
+            "isCorrect": false,
+            "explanation": "La fauna local no genera impacto electromagnético pernicioso (aunque a veces un zorro escarbador corta o pela los hilos físicos induciendo cortos estándar)."
+          },
+          {
+            "id": 2,
+            "answer": "Las masivas ondas de inducción (campo magnético captado como antena por los bucles del cableado fotovoltaico DC o de continua) provenientes del rayo lejano o intrafallas a kilómetros de distancia.",
+            "isCorrect": true,
+            "explanation": "Los campos solares aislados son antenas planas enormes. Un rayo cayendo a 1 km emite una onda hertziana que se acopla (inducción electromagnética) inyectando miles de voltios al cuadro aunque no caiga un rayo de impacto directo encima. Las normativas prescriben invariablemente bloqueadores DC e inductancias atenuadoras para aislar la fragilidad del Inverter de este 'ruido de fondo' salvaje. El apartado 3.2 y las guías fotovoltaicas son clarísimos en el amparo al medio ambiente adverso."
+          },
+          {
+            "id": 3,
+            "answer": "Sobretensiones internas procedentes del chisporroteo incontrolable de los fusibles de cristal de 1 amperio fundidos en línea.",
+            "isCorrect": false,
+            "explanation": "Los chispazos de 1A DC no generan suficiente masa energética inversa capaz de levantar el pico por encima de 400 voltios como para destrozar maquinaria pesada inversora."
+          },
+          {
+            "id": 4,
+            "answer": "Interferencias espaciales que desalinean el sincronismo del reloj maestro a 50Hz de las placas solares impidiéndoles encenderse de madrugada.",
+            "isCorrect": false,
+            "explanation": "El reloj se alimenta internamente. Es un factor mínimo alejado del poder abrasivo y perforador que sí esgrime un rayo de 100 kA en las proximidades del recinto montañoso."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-42",
+        "question": "En el caso de instalar un protector en derivación a una instalación de 400/230V con neutro, la longitud total del cable desde la fase a la bornera principal de tierra no debe exceder de 0,5 metros. Si físicamente, por culpa de los embarrados del fabricante del armario, no se logra y mide 1,2 metros, ¿qué dictamina el reglamento al respecto?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Denunciar al montador al ayuntamiento y obligar a clausurar todo el edificio administrativo por negligencia grave irreversible.",
+            "isCorrect": false,
+            "explanation": "Existen soluciones técnicas que no implican destruir administrativamente un bloque u hospital."
+          },
+          {
+            "id": 2,
+            "answer": "Que el sistema es inválido e inoperante por completo, y que el instalador deberá rehacer drásticamente el cuadro reubicando regletas u optando por un modelo de protector más adecuado (como de conexionado serie/V-shape).",
+            "isCorrect": true,
+            "explanation": "No se trata de una norma opcional recomendada; los físicos que idearon la normativa comprobaron en simulaciones de nanosegundos (apartado 5 y anexos guía) que si es mayor a 50cm, la Ldi/dt hace tan nula y ridícula a la instalación del cartucho caro que el equipo final explotará por exceso de pico parásito. Si el cuadro no lo ampara, debe rediseñarse imperativamente el enrutamiento para asegurar el filtro."
+          },
+          {
+            "id": 3,
+            "answer": "Se permite como exención válida siempre y cuando los cables estén marcados con bandas de aviso de alto riesgo pintadas a mano.",
+            "isCorrect": false,
+            "explanation": "A la onda electrónica del rayo no le frena en absoluto una pintura de cebra pintada en el esmalte exterior del aislante polimérico."
+          },
+          {
+            "id": 4,
+            "answer": "La longitud solo resulta relevante cuando los cables de fase están fabricados en plata o aleación superconductora criogénica.",
+            "isCorrect": false,
+            "explanation": "El fenómeno es inductivo, dependiente de la longitud e inducido en cualquier metal de tránsito. La superconductora evitaría resistividad, no inductancia."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-43",
+        "question": "En qué situación, de las evaluadas en la tabla oficial de selección obligatoria del REBT, se permite legalmente calificar como 'no obligatoria' y meramente recomendada a la protección contra las sobretensiones atmosféricas en la nueva acometida?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "En todo centro industrial y parque agropecuario que contenga un nivel freático muy denso.",
+            "isCorrect": false,
+            "explanation": "Tanto granjas, con animales, como factorías tienen procesos ininterrumpibles o riesgo, obligando casi perentoriamente la inserción de mitigación si se usa red aérea. Además la industria tiene IGA altos que exigen atención."
+          },
+          {
+            "id": 2,
+            "answer": "En viviendas de un bloque alimentado íntegramente de manera subterránea (incluyendo su origen lejano), donde la pérdida o quemado de electrodomésticos por un lejano incidente transitorio no afectará un servicio vital del estado, ni amenazará la vida humana, asumiendo su propietario el riesgo patrimonial.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23, en su apartado 3.2 (situaciones de uso), categoriza el riesgo. Si el suministro en ciudad no sobrevuela calles ni tiene chimeneas mastodónticas, y la casa no es un hospital de campaña ni la bolsa, el riesgo material del televisor lo evalúa la aseguradora, permitiéndole a la norma eludir la obligatoriedad estricta coercitiva del cartucho (aunque sí del permanente en autonomías)."
+          },
+          {
+            "id": 3,
+            "answer": "Alimentaciones exclusivas para iluminación navideña temporales ancladas bajo aleros.",
+            "isCorrect": false,
+            "explanation": "Esas instalaciones van a la intemperie total por definición y, si caen, arden fachadas."
+          },
+          {
+            "id": 4,
+            "answer": "Toda subestación hospitalaria si el grupo electrógeno garantiza 48 horas de carburante.",
+            "isCorrect": false,
+            "explanation": "Si una ola quemase las fuentes hospitalarias, el grupo no hallaría regletas donde enchufar, siendo el hospital el mayor exponente de obligación de uso universal e indeclinable."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-44",
+        "question": "En el supuesto de que el fabricante del cuadro de alumbrado urbano especifique que su protector interno (varistor) puede resistir hasta 25 kA de descarga nominal (In 8/20), ¿qué implicación de funcionamiento subyace en este término certificado 'In' que lo diferencia de su límite de rotura 'Imax'?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "In significa que el varistor quedará inservible al superar dicho amperaje por primera vez.",
+            "isCorrect": false,
+            "explanation": "In (corriente nominal) es precisamente la que el aparato soporta 'varias veces' sin dañarse irreversiblemente. La que lo quiebra estrepitosamente de un golpe es la Imax."
+          },
+          {
+            "id": 2,
+            "answer": "La Corriente Nominal de Descarga (In) es el valor de ensayo superado en el que el protector es capaz de derivar al menos 15 impulsos seguidos de ese tipo de onda sin sufrir alteración mayor del 10% en sus parámetros operativos (manteniendo su vida útil ilesa).",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23 asume las normas (UNE-EN 61643-11). In define su robustez de régimen a largo plazo para seguir absorbiendo latigazos medios. El valor Imax (Corriente Máxima) en cambio indica el chispazo final letal, enorme (ej. 50kA), tras el cual, aunque salvó tu televisor in extremis, el varistor acaba 'suicidado' debiendo reciclarlo de inmediato. In marca la operatividad rutinaria."
+          },
+          {
+            "id": 3,
+            "answer": "In define puramente el Inductivo Neto, evaluando qué voltaje frena, pero jamás a qué intensidad resiste en amperios.",
+            "isCorrect": false,
+            "explanation": "In es un valor estandarizado de corriente (I), medido en kA (Amperios), no de caída de voltaje reactivo inductivo (L)."
+          },
+          {
+            "id": 4,
+            "answer": "Es el límite legal que el IGA (Interruptor automático) impone a la compañía para cobrar más reactiva en la factura de final de mes al alumbrado público del alcalde.",
+            "isCorrect": false,
+            "explanation": "Los protectores de sobretensión no facturan, y consumen apenas microamperios durmientes; no alteran la facturación global de los motores del consistorio."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-45",
+        "question": "¿Por qué motivo fundamental físico se exige, en aquellos protectores conectados entre fase y neutro (el primer escalón del conexionado 3+1 en red TT), que soporten una Tensión Máxima de Servicio Permanente (Uc) superior al voltaje convencional esperado de 230 V?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Porque de otro modo chuparían la energía del sistema fotovoltaico bajando el rendimiento diurno.",
+            "isCorrect": false,
+            "explanation": "No actúan por consumos constantes sino por avalanchas de electrones a altos voltajes, la pérdida parásita a 230V es indetectable."
+          },
+          {
+            "id": 2,
+            "answer": "Porque las redes públicas sufren fluctuaciones diarias reglamentarias (+/- 7%), y si un protector arrancase a disipar exactamente al rebasar 231 V, se saturaría térmicamente el primer mediodía soleado al rozar los 240 voltios la subestación más cercana, incendiándose paulatinamente.",
+            "isCorrect": true,
+            "explanation": "El umbral de ceguera (Uc) garantiza que el aparato está callado y frío mientras la distribuidora juguetea con las tensiones lícitas del entorno 230/400 (hasta un 10%). Según normativas de producto avaladas en ITC-23, este Uc se escoge normalmente en 275 o 320 Vca, para asegurar que el componente solo abra compuertas masivas ante picos monstruosos anómalos o inducidos severos, no fluctuaciones barriales lícitas."
+          },
+          {
+            "id": 3,
+            "answer": "Para garantizar que el aparato pase la prueba del CE marcando al menos 1 kV en la etiqueta frontal.",
+            "isCorrect": false,
+            "explanation": "1 kV es aislamiento superficial; Uc es el disparo semiconductor, un valor muy inferior que ronda los 275V y no obedece a marqueting engañoso o de chasis."
+          },
+          {
+            "id": 4,
+            "answer": "Porque a 230 V absolutos los varistores colapsarían su polaridad interna tornándose en condensadores puros que desfasarían a los ascensores.",
+            "isCorrect": false,
+            "explanation": "Un varistor siempre tiene una ínfima capacitancia que apenas estorba un miliamperio reactivo, incapaz de desplazar jamás el coseno Phi de motores de toneladas como los del elevador del rellano."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-46",
+        "question": "En referencia a la capacidad de protección, el REBT exige que al final de la línea que va a las carcasas sensibles, el pulso residual Up sumado sea menor que el aguante del equipo (Uw). ¿Qué error de diseño puede hacer fracasar estrepitosamente esta meta técnica en instalaciones complejas o de enorme recorrido interior?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "No haber usado estaño purificado en los bornes dorados para frenar los armónicos impares generados por las impresoras.",
+            "isCorrect": false,
+            "explanation": "Estaño purificado contra armónicos es un mito de audiófilos y puristas inexistente en física de supresión de redes de baja tensión."
+          },
+          {
+            "id": 2,
+            "answer": "Considerar que el limitador general montado en la puerta y cabecera del edificio a 100 metros de distancia ampara mágicamente el sótano. Si se omite la cascada (es decir, el limitador final a pie de autómata) las resonancias, ecos de alta frecuencia y caídas, anulan la garantía elevando el residual final al doble (fenómeno de onda reflejada o reinducida), superando Uw y perforándolo.",
+            "isCorrect": true,
+            "explanation": "El punto 4 de la ITC BT 23 recalca la distancia efectiva. El 'paraguas' no es infinito geográficamente. Pasados escasos 10 a 20 metros (depende de la línea y cables de control cercanos) la onda re-crea picos por resonancias inductivas mutuas o reflejos en terminales abiertos (Z discordante). Si se deja a más de 30 metros, es capital volver a poner una pequeña cajita (Tipo 3) cortapicos in situ."
+          },
+          {
+            "id": 3,
+            "answer": "Conectar equivocadamente la fase L3 al zócalo del medio, desestabilizando el sistema de secuencia de giros que confunde al chispazo impidiendo su evacuación.",
+            "isCorrect": false,
+            "explanation": "A los varistores independientes les importa cero la secuencia rotacional de 120 grados que exigen los motores. Filtran fase a fase al neutro, de forma unipolar analítica sin enterarse de sus hermanas vecinas ni giros."
+          },
+          {
+            "id": 4,
+            "answer": "Colocar los equipos pesados de Categoría II en armarios blindados cerrados herméticamente creando calor en verano que ablanda el metal.",
+            "isCorrect": false,
+            "explanation": "El blindaje del armario incluso puede ayudar aislando interferencias o rayos, y el derretimiento de metal exige miles de grados no alcanzables por el sol estival europeo. Es falso que ablanden."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-47",
+        "question": "En el hipotético caso de que el instalador verifique un protector tripolar insertado en una red IT (Neutro Aislado) empleada comúnmente en quirófanos o fábricas petroquímicas, ¿qué característica excluyente impone la tipología respecto a la tensión de umbral transitoria frente a tierras (Uc)?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Se obligará a utilizar varistores puros que quiebren la resistencia a los 110 V para salvar rápidamente la tensión inconstante local en caso de temblor telúrico.",
+            "isCorrect": false,
+            "explanation": "Un varistor a 110 V se abrasaría perpetuamente en la industria de 230/400. Y un temblor telúrico no atañe eléctricamente de inicio."
+          },
+          {
+            "id": 2,
+            "answer": "El limitador en esquema IT, a diferencia de los de TT que soportan p.ej 275V, debe resistir en permanencia frente a tierra la tensión nominal total entre fases (al menos 400 a 440 Voltios), dado que el primer fallo a tierra no corta la corriente y la fase sana eleva crónicamente su voltaje referencial respecto a dicha tierra sin fundir las palancas.",
+            "isCorrect": true,
+            "explanation": "Fundamental (ver guías ITC). En un esquema aislado IT, si una fase toca el chasis (tierra), el diferencial general ni se entera ni salta. Las otras dos fases pasan de 230V a tener ~400 voltios respecto a chasis crónicamente. Si el protector colocado allí fuera de 275V (doméstico), explotaría porque creería ver una inmensa perturbación permanente cuando en realidad es el funcionamiento estipulado del modo fallo en IT. La Uc ha de ser 440V mínimo."
+          },
+          {
+            "id": 3,
+            "answer": "No precisan protector, dado que careciendo de unión física a tierra natural las nubes evitan lanzar chispazos magnéticos hacia sus tejados.",
+            "isCorrect": false,
+            "explanation": "El rayo de megavoltios revienta aislamientos buscando camino hacia la humedad de zapata saltando cualquier aire, destruyendo los equipos internos. Los quirófanos precisan la protección suprema."
+          },
+          {
+            "id": 4,
+            "answer": "El módulo debe acoplarse con la red de baja frecuencia en serie a los bornes secundarios del trafo estéril.",
+            "isCorrect": false,
+            "explanation": "Toda sobretensión se atrapa amarrada en paralelo de derivación (shunt), jamás ahogando la corriente vital en montaje serie a un secundario maestro."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-48",
+        "question": "Se inspecciona un local y se halla un protector 'combo' (transitorio y permanente en el mismo carril DIN). ¿Cuál es la única manera técnica, impuesta normativamente o aconsejada para instalaciones complejas, de asegurar que tras la caída catastrófica de neutro o de rayo la casa permanezca inviolable en toda su potencia?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Tirando masilla de relleno epoxi en todos los enchufes vacíos del piso superior previniendo la radiación del enjambre eléctrico remanente.",
+            "isCorrect": false,
+            "explanation": "No existen 'enjambres eléctricos remanentes' volátiles que se cuelen como gas en bases vacías."
+          },
+          {
+            "id": 2,
+            "answer": "El diseño impone que el módulo permanente (POP) no sea un simple derivador bruto a tierra para saltar el diferencial, sino que debe ir enclavado mecánicamente o actuar sobre la bobina magnética lateral de un IGA robusto certificado (de alto poder de corte y aislamiento garantizado), capaz de seccionar mecánicamente y separar los contactos vivos impidiendo los miles de voltios al instante.",
+            "isCorrect": true,
+            "explanation": "Las combinaciones chabacanas que envían 30 mA a tierra para que salte el 'salvavidas' diferencial no salvan la casa, porque un diferencial abierto (chico, sin extinción real) puede saltar chispas entre sus polos a miles de voltios. El REBT/ITC 23 subraya un corte omnipolar firme, un IGA masivo o interruptor de corte en carga homologado impulsado por el módulo limitador."
+          },
+          {
+            "id": 3,
+            "answer": "Montando zumbadores auditivos para que el propietario desconecte pacientemente la estufa antes de que las bobinas se fundan.",
+            "isCorrect": false,
+            "explanation": "En el corte de neutro la tensión pasa a 380-400V. El electrodoméstico revienta o quema capacitadores internos en décimas de segundo; el usuario no tiene tiempo fisiológico de ir al salón a apagar la estufa, requiriéndose la inmediatez robótica pasiva."
+          },
+          {
+            "id": 4,
+            "answer": "Dotándolos de software de IA que negocie amistosamente con la central térmica el envío de picos negativos compensatorios locales al contador.",
+            "isCorrect": false,
+            "explanation": "Despropósito, la red no procesa ni reacciona al instante por peticiones de software remoto para atajar sobretensiones de milisegundos en viviendas individuales."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-49",
+        "question": "Al referirnos a los niveles de resistencia y requerimiento del material de los descargadores y aparamenta ante el envejecimiento, ¿qué norma técnica referida por el reglamento obliga a ensayarlos frente a ciclos térmicos repetitivos simulando lustros de tormentas y variaciones de verano/invierno, para que la resina no resquebraje inútilmente su sello IP20 interior?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "Los estatutos municipales de urbanismo que cuidan el ruido y humos tóxicos.",
+            "isCorrect": false,
+            "explanation": "Los ayuntamientos se ocupan de paisajismo y sonido, el cuadro estanco lo velan las normativas industriales."
+          },
+          {
+            "id": 2,
+            "answer": "Las prescripciones inherentes de producto especificadas en UNE-EN 61643-11, avaladas reglamentariamente y listadas en los anexos, que fijan los tests brutales de envejecimiento acelerado y de impulsos combinados exigibles obligatoriamente para certificar todo módulo apto de insertarse en carril doméstico sin agrietarse o arder.",
+            "isCorrect": true,
+            "explanation": "La ITC-BT-23 (y las instrucciones de ITC-02) asientan la presunción de conformidad no en los instaladores sino en laboratorios estandarizados que rigen sobre UNE 61643. Un módulo no es 'bueno' por simple apariencia, debe aguantar miles de horas de horno, corrientes de fuga, golpes a martillo y simulacro de avalanchas sin expulsar fragmentos calientes."
+          },
+          {
+            "id": 3,
+            "answer": "Los manuales de la Organización Mundial de Meteorología que evalúan los daños producidos por microclimas aéreos.",
+            "isCorrect": false,
+            "explanation": "Meteorología informa probabilidades estadísticas e isoceraunicas, no testea con polímeros y plástico al carril din de subestaciones."
+          },
+          {
+            "id": 4,
+            "answer": "Los dictámenes puros del gremio cristalero y cerámico, ya que el grueso del varistor es únicamente un vaso poroso cocido al vacío mineral.",
+            "isCorrect": false,
+            "explanation": "El varistor es de óxidos compactados semi-conductores, no un cuenco cristalero. Su calidad la exige la norma electrotécnica pura de componentes europeos (UNE/IEC) no la industria alfarera."
+          }
+        ],
+        "type": "simple"
+      },
+      {
+        "id": "ITC-BT-23-50",
+        "question": "¿En el proceso de justificación mediante el índice de nivel ceráunico y el riesgo calculado de edificio (para saber si colocar los limitadores en cabecera es o no un requerimiento coercitivo), qué variable medioambiental pura extraída de mapas climáticos oficiales engarza la ITC en sus logaritmos para decidir el umbral de obligación de protección a una guardería aislada?",
+        "options": [
+          {
+            "id": 1,
+            "answer": "El índice de pluviosidad, ya que el agua es el vehículo primario de acoplamiento del plasma residual del rayo.",
+            "isCorrect": false,
+            "explanation": "La lluvia no define la frecuencia de rayos (puede diluviar en invierno frío sin aparato eléctrico masivo). La magnitud que sirve es la de tormentas documentadas empíricas, no litros por metro de agua."
+          },
+          {
+            "id": 2,
+            "answer": "La variable Nk (Nivel isoceraunico o densidad local anual del impacto de rayos por Km²), que combinada con la zona de influencia exterior, dimensiones del inmueble y el sistema de acometida, evalúa estadísticamente que si el resultado excede del índice límite fijado en los apuntes técnicos, instalar protecciones se torna de innegociable obligado cumplimiento para resguardar la seguridad y vidas en el recinto.",
+            "isCorrect": true,
+            "explanation": "En las guías complementarias de evaluación de riesgo (relativas a la ITC-BT-23) se realiza un cálculo probabilístico objetivo con Nk (cuántos rayos caen por estadística real en esa zona geográfica particular). Un colegio de llanura andaluza grande con red aérea sumará muchos puntos, la fórmula revelará riesgo elevado y forzará administrativamente al perito a disponer protecciones y pararrayos perimetrales. Si Nk es muy bajo y la red subterránea en ciudad, exime al cálculo."
+          },
+          {
+            "id": 3,
+            "answer": "El volumen de presión barométrica constante detectado la noche antes de iniciar el replanteo eléctrico con el ingeniero responsable.",
+            "isCorrect": false,
+            "explanation": "El replanteo dura un día; el edificio se construye para décadas basándose en estadísticas climatológicas consolidadas históricas, no puntuales de manómetro caprichoso."
+          },
+          {
+            "id": 4,
+            "answer": "La salinidad de la costa colindante, que anula de lleno a los varistores obligando al técnico a reemplazarlos irremediablemente por jaulas de malla de cobre densa en todo el tejado.",
+            "isCorrect": false,
+            "explanation": "La salinidad oxida contactos externos y empalmes mal hechos, pero no inhibe las fuerzas de atracción geométrica de las descargas o hace que un limitador en un cuadro hermético se vuelva inútil de facto."
+          }
+        ],
+        "type": "simple"
       }
     ]
   }
