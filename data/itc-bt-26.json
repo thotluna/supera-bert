@@ -5,3100 +5,806 @@
     "questions": [
       {
         "id": "ITC-BT-26-01",
-        "question": "¿De qué color debe ser el aislamiento del conductor de protección?",
+        "question": "En el cableado de los circuitos interiores de una vivienda, el instalador debe asegurar la correcta identificación visual de las fases. ¿Qué color queda terminantemente prohibido para este fin?",
         "options": [
           {
             "id": 1,
-            "answer": "Azul claro.",
+            "answer": "Gris.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El azul claro es para el neutro."
+            "explanation": "El gris es uno de los colores estandarizados internacionalmente para la identificación de las fases activas en redes de baja tensión."
           },
           {
             "id": 2,
-            "answer": "Verde-amarillo.",
+            "answer": "Azul claro.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.2 de la ITC-BT-26 establece que el conductor de protección se identificará siempre por el doble color verde-amarillo."
+            "explanation": "El color azul claro está reservado mundial y reglamentariamente de forma exclusiva para el conductor neutro. El apartado 6.2 de la ITC-BT-26 prohíbe tajantemente usarlo para designar una fase."
           },
           {
             "id": 3,
-            "answer": "Marrón o negro.",
+            "answer": "Marrón.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Estos colores se usan para las fases."
+            "explanation": "El marrón es el color preferente habitual para la primera fase (L1) en las instalaciones de viviendas."
           },
           {
             "id": 4,
-            "answer": "Gris.",
+            "answer": "Negro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El gris es un color permitido para fases."
+            "explanation": "El negro es un color normativo totalmente lícito y muy utilizado para identificar la segunda fase (L2) o fases en instalaciones monofásicas."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-02",
-        "question": "¿Cuál es la tensión asignada mínima exigida para los conductores aislados en instalaciones interiores de viviendas?",
+        "question": "Durante el tendido de la red de tierras, es necesario identificar sin lugar a equívocos el cable que conecta las masas al embarrado principal. ¿Cuál es el código cromático exigido para este elemento?",
         "options": [
           {
             "id": 1,
-            "answer": "300/500 V.",
+            "answer": "Verde oscuro uniforme.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Los colores sólidos únicos, incluyendo el verde, están descartados para el cable de protección porque las normativas internacionales exigen bicolores para prevenir confusiones de daltonismo en la seguridad."
           },
           {
             "id": 2,
-            "answer": "450/750 V.",
+            "answer": "Verde-amarillo.",
             "isCorrect": true,
-            "explanation": "Correcto. Los conductores como el H07V-U o H07V-K deben tener una tensión asignada mínima de 450/750 V según el apartado 6.1 de la ITC-BT-26."
+            "explanation": "Esta combinación bicolor es el estándar de seguridad inequívoco. El apartado 6.2 de la ITC-BT-26 impone el uso del conductor con franjas verde y amarillo para toda línea de protección."
           },
           {
             "id": 3,
-            "answer": "0,6/1 kV.",
+            "answer": "Amarillo sólido con un anillo verde cada 50 cm.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Esa tensión es típica de derivaciones individuales o instalaciones enterradas."
+            "explanation": "La fabricación del cable debe ser bicolor en su extrusión longitudinal en proporciones específicas, no mediante anillados espaciados."
           },
           {
             "id": 4,
-            "answer": "125/250 V.",
+            "answer": "Cable de cobre desnudo sin funda polimérica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "El cable desnudo se emplea en el anillo enterrado de cimentación, pero en las derivaciones interiores bajo tubo el cable debe estar aislado y llevar los colores reglamentarios."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-03",
-        "question": "¿Se permite la unión de conductores mediante retorcimiento o arrollamiento en instalaciones de viviendas?",
+        "question": "A la hora de seleccionar la manguera o los cables unipolares aislados para discurrir por el interior de tubos empotrados en tabiquería, ¿cuál es la rigidez dieléctrica mínima que el fabricante debe certificar en su tensión asignada?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, siempre que se encinte adecuadamente.",
+            "answer": "300/500 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Esta tensión de aislamiento se admite para mangueras flexibles de equipos electrodomésticos portátiles, pero la infraestructura fija bajo tubo exige mayor robustez."
           },
           {
             "id": 2,
-            "answer": "No, las conexiones deben realizarse siempre en cajas de conexión y mediante bornes (regletas).",
+            "answer": "450/750 V.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 prohíbe expresamente el retorcimiento y obliga al uso de bornes de conexión que aseguren una continuidad duradera."
+            "explanation": "El apartado 6.1 de la ITC-BT-26 establece que los conductores empleados (como los tipos H07V-K o H07V-U) deben tener un aislamiento diseñado para una tensión asignada mínima de 450/750 V, garantizando su resistencia frente a sobretensiones puntuales."
           },
           {
             "id": 3,
-            "answer": "Solo en circuitos de alumbrado.",
+            "answer": "0,6/1 kV.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Esta es la tensión mínima requerida para cables enterrados, derivaciones individuales o líneas principales, pero es un exceso no obligatorio para el interior de tubos empotrados en tabiques de viviendas."
           },
           {
             "id": 4,
-            "answer": "Solo si se usa soldadura de estaño.",
+            "answer": "230/400 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Es la tensión nominal de servicio de la red, pero el aislamiento del cable siempre debe estar diseñado para un escalón de tensión muy superior por motivos de seguridad térmica y dieléctrica."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-04",
-        "question": "¿Qué tipos de conductores aislados son comúnmente utilizados en instalaciones de interior?",
+        "question": "En una reforma, un electricista necesita realizar la unión entre dos tramos de cable que resultaron cortos. ¿Qué método de conexionado prohíbe explícitamente el reglamento por su elevado riesgo de fallo y calentamiento?",
         "options": [
           {
             "id": 1,
-            "answer": "H07V-U (Conductor rígido de un solo alambre).",
+            "answer": "El empalme mediante retorcimiento manual de los filamentos y posterior encintado.",
             "isCorrect": true,
-            "explanation": "Correcto. Es un tipo estándar admitido. Fuente: ITC-BT-26, apartado 6.1."
+            "explanation": "Retorcer los hilos no garantiza presión de contacto constante; con los ciclos térmicos se afloja, aumentando la resistencia y provocando incendios. El apartado 6.3 de la ITC-BT-26 exige taxativamente usar bornes o regletas."
           },
           {
             "id": 2,
-            "answer": "H07V-K (Conductor flexible para cableado interior).",
-            "isCorrect": true,
-            "explanation": "Correcto. Es el más común por su facilidad de instalación. Fuente: ITC-BT-26, apartado 6.1."
+            "answer": "El conexionado con clemas (fichas) de material termoplástico.",
+            "isCorrect": false,
+            "explanation": "Las clemas de presión mediante tornillo o muelle son precisamente el método reglamentario universal para asegurar un contacto eléctrico perenne."
           },
           {
             "id": 3,
-            "answer": "H07V-R (Conductor rígido de varios alambres cableados).",
-            "isCorrect": true,
-            "explanation": "Correcto. Se usa habitualmente en secciones mayores. Fuente: ITC-BT-26, apartado 6.1."
+            "answer": "Las uniones realizadas con conectores de palanca sin tornillo.",
+            "isCorrect": false,
+            "explanation": "Estos bornes de conexión rápida a presión por resorte son totalmente legales y de hecho aportan gran seguridad frente a las vibraciones y el aflojamiento."
           },
           {
             "id": 4,
-            "answer": "Mangueras planas de tipo telefónico.",
+            "answer": "La derivación de cables en el interior de cajas de registro homologadas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. No tienen el aislamiento ni la sección requerida para potencia eléctrica."
+            "explanation": "Las cajas de derivación o empalme son el lugar constructivo obligatorio donde deben realizarse las conexiones, nunca deben realizarse dentro del tubo."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-26-05",
-        "question": "¿Qué información debe figurar obligatoriamente en la placa del Cuadro General de Distribución?",
+        "question": "Para asegurar el aislamiento galvánico de la red de una vivienda, el reglamento establece una prueba de rigidez dieléctrica antes de la puesta en servicio. ¿A qué voltaje y durante cuánto tiempo se somete el cableado de baja tensión a este estrés?",
         "options": [
           {
             "id": 1,
-            "answer": "El nombre o marca del instalador.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es un requisito de identificación. Fuente: ITC-BT-26, apartado 4."
+            "answer": "1.000 V de corriente continua durante 1 minuto.",
+            "isCorrect": false,
+            "explanation": "Las pruebas de aislamiento con megóhmetro (500V DC) son diferentes a la prueba destructiva de rigidez dieléctrica que pasan los cables en su certificación o diseño."
           },
           {
             "id": 2,
-            "answer": "La fecha de la instalación.",
+            "answer": "2.500 V durante 15 minutos.",
             "isCorrect": true,
-            "explanation": "Correcto. Debe constar para trazabilidad. Fuente: ITC-BT-26, apartado 4."
+            "explanation": "Para garantizar la estanqueidad dieléctrica extrema del aislamiento de PVC o polietileno, el apartado 6.1 de la ITC-BT-26 (y su normativa de producto asociada) indica que el conductor debe superar un test de 2,5 kV por un cuarto de hora sin perforarse."
           },
           {
             "id": 3,
-            "answer": "La intensidad asignada del Interruptor General Automático (IGA).",
-            "isCorrect": true,
-            "explanation": "Correcto. Define la capacidad máxima de la instalación. Fuente: ITC-BT-26, apartado 4."
+            "answer": "400 V durante 24 horas continuadas.",
+            "isCorrect": false,
+            "explanation": "Ese nivel está dentro de la banda de funcionamiento normal de la red y no supone un estrés dieléctrico capaz de aflorar microporos en el aislamiento."
           },
           {
             "id": 4,
-            "answer": "La clave de Wi-Fi del domicilio.",
+            "answer": "5.000 V mediante impulsos ultrarrápidos de microsegundos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Esta descripción corresponde a los ensayos de tensión a impulsos para calcular coordinaciones de sobretensión (rayos), no para el ensayo de rigidez mantenida del cableado base."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-26-06",
-        "question": "¿Dónde deben situarse los dispositivos de protección (ICP, IGA, Diferenciales)?",
+        "question": "Respecto a la disposición de los componentes en el Cuadro General de Distribución, ¿dónde y cómo deben organizarse las conexiones de la línea de tierra de toda la vivienda?",
         "options": [
           {
             "id": 1,
-            "answer": "En el local de contadores únicamente.",
+            "answer": "Se debe soldar cada conductor de tierra al chasis metálico del propio cuadro si este es de chapa.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Utilizar la envolvente metálica como distribuidor de tierras es una mala práctica. Debe existir un elemento conductor específico e independiente de la carcasa."
           },
           {
             "id": 2,
-            "answer": "En un Cuadro General de Distribución, siguiendo las prescripciones de la ITC-BT-17.",
+            "answer": "Se instalarán bornes o pletinas de conexión que agrupen todos los cables de protección y los vinculen a la línea principal de tierra.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 4 de la ITC-BT-26 remite a la ITC-BT-17 para la ubicación de estos elementos."
+            "explanation": "El cuadro sirve de nodo central. El apartado 4 de la ITC-BT-26 dicta que debe disponerse de una regleta (embarrado de tierras) para garantizar equipotencialidad, inspección y orden en el reparto de los hilos de protección."
           },
           {
             "id": 3,
-            "answer": "Detrás de la puerta de entrada de cada habitación.",
+            "answer": "Cada tubo que salga del cuadro debe tener su cable de tierra atornillado individualmente a una pica de pica independiente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
+            "explanation": "Se prohiben las tierras independientes por generar diferencias de potencial (tensiones de paso y contacto). Todas las tierras deben unirse en el mismo punto equipotencial central."
           },
           {
             "id": 4,
-            "answer": "En el falso techo de la cocina.",
+            "answer": "Es opcional centralizarlas, pudiendo unirse en empalmes volantes dentro del falso techo adyacente.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La sensibilidad de este diferencial es inadecuada para la protección de personas en este emplazamiento."
+            "explanation": "Dejar empalmes sueltos en falsos techos es ilegal. Todas las derivaciones de tierra nacen obligatoriamente del cuadro o de cajas de registro accesibles."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-07",
-        "question": "¿Se puede compartir un mismo conductor neutro para varios circuitos independientes?",
+        "question": "En la ejecución de la cimentación de un edificio de nueva planta destinado a viviendas, ¿qué elemento constructivo obligatorio garantiza la base de la puesta a tierra antes de levantar la estructura?",
         "options": [
           {
             "id": 1,
-            "answer": "Sí, para ahorrar espacio en los tubos.",
+            "answer": "La instalación de mallas electrosoldadas conectadas a las tuberías de la red general de abastecimiento de agua.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Usar la red pública de fontanería como toma de tierra está terminantemente prohibido por los riesgos de electrificación que supone para los operarios del canal."
           },
           {
             "id": 2,
-            "answer": "No, cada circuito debe tener su propio conductor neutro independiente.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 prohíbe el uso de un neutro común para varios circuitos para evitar sobrecargas del neutro y asegurar el correcto funcionamiento de las protecciones."
+            "answer": "Un cable de acero recubierto de zinc embebido en el forjado de la planta baja.",
+            "isCorrect": false,
+            "explanation": "El acero galvanizado se oxida y su conductividad es pobre comparada con el estándar exigido. Además, debe estar en contacto con la tierra del fondo, no en el forjado superior."
           },
           {
             "id": 3,
-            "answer": "Solo si la suma de potencias es menor de 3000 W.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "answer": "Un anillo cerrado de conductor de cobre desnudo, con sección no inferior a 35 mm², dispuesto en el fondo de las zanjas.",
+            "isCorrect": true,
+            "explanation": "Para minimizar la resistencia de paso al terreno y asegurar una disipación uniforme, el apartado 2 de la ITC-BT-26 obliga a disponer un cable desnudo perimetral de al menos 35 milímetros cuadrados bajo el hormigón de limpieza."
           },
           {
             "id": 4,
-            "answer": "Solo en circuitos de alumbrado.",
+            "answer": "Un mínimo de tres jabalinas (picas) de cobre de 2 metros clavadas en los vértices de la parcela.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Las picas son elementos complementarios que se añaden si el anillo perimetral desnudo no alcanza la baja resistividad necesaria, pero el anillo bajo zanja es el requisito primordial e indispensable."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-08",
-        "question": "¿Cómo debe ser la conexión de las tomas de corriente situadas en una misma estancia?",
+        "question": "Con el objetivo de prevenir accidentes por tensiones de paso y contacto en caso de derivación eléctrica, ¿cuál de los siguientes elementos estructurales o funcionales del edificio debe interconectarse de manera forzosa a la red general de tierra?",
         "options": [
           {
             "id": 1,
-            "answer": "Deben conectarse a fases diferentes para equilibrar cargas.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Las canalizaciones principales metálicas de agua fría y de gas.",
+            "isCorrect": true,
+            "explanation": "Cualquier tubería metálica extensa puede trasladar potenciales peligrosos desde un punto averiado hasta el grifo de un usuario. El apartado 2 de la ITC-BT-26 manda equipotencializar a tierra estas masas extrañas."
           },
           {
             "id": 2,
-            "answer": "Deben conectarse preferiblemente a la misma fase.",
+            "answer": "Los marcos y embellecedores metálicos de las puertas y ventanas interiores.",
             "isCorrect": true,
-            "explanation": "Correcto. Según las recomendaciones técnicas derivadas del apartado 6 de la ITC-BT-26 (Manual), esto evita diferencias de potencial peligrosas entre equipos en la misma habitación."
+            "explanation": "Mentira técnica: los elementos decorativos o arquitectónicos aislados que no conforman estructuras continuas no tienen riesgo de traer potenciales lejanos y no se conectan a tierra."
           },
           {
             "id": 3,
-            "answer": "Deben tener interruptores independientes en la puerta.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Las carcasas plásticas de los armarios de telecomunicaciones.",
+            "isCorrect": true,
+            "explanation": "Las piezas poliméricas no son conductoras, carece de sentido físico intentar derivarlas a tierra, no forman parte de la red equipotencial."
           },
           {
             "id": 4,
-            "answer": "No hay ninguna recomendación al respecto.",
+            "answer": "Las guías metálicas de los cajones de la cocina.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Son masas pequeñas aisladas en mobiliario. La normativa solo obliga a derivar masas metálicas estructurales grandes (ascensores, tuberías, estructura del edificio)."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-09",
-        "question": "¿Cuál es el material y sección mínima del anillo de tierra en la cimentación de un edificio de viviendas?",
+        "question": "Para optimizar el espacio interior en los tubos corrugados, un electricista decide utilizar un único cable de neutro común de 6 mm² para los circuitos de alumbrado, enchufes y lavadora. ¿Qué establece la normativa sobre esta práctica?",
         "options": [
           {
             "id": 1,
-            "answer": "Acero galvanizado de 50 mm².",
+            "answer": "Está permitida si la sección del neutro iguala a la suma de las secciones de las fases de los circuitos que atiende.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Matemáticamente soportaría la corriente, pero anularía la capacidad de proteger y seccionar los circuitos de forma individual mediante el cuadro general."
           },
           {
             "id": 2,
-            "answer": "Cobre desnudo de 35 mm² de sección mínima.",
+            "answer": "Queda terminantemente prohibido; cada circuito debe disponer de su propio conductor neutro e independiente.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 (referenciando la puesta a tierra del edificio) prescribe un anillo de cobre desnudo de al menos 35 mm² en el fondo de las zanjas de cimentación."
+            "explanation": "Compartir neutros provoca que los diferenciales no puedan calcular el balance vectorial correcto, saltando continuamente. Además, un fallo en ese neutro afectaría a toda la casa. El apartado 6.3 de la ITC-BT-26 obliga a una independencia total fase-neutro por circuito."
           },
           {
             "id": 3,
-            "answer": "Cobre aislado de 16 mm².",
+            "answer": "Se acepta únicamente en instalaciones monofásicas, estando vetado en sistemas trifásicos por el riesgo de sobrecarga armónica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "La prohibición es absoluta en cualquier instalación interior terminal. Solo se comparte neutro en las líneas generales de distribución o derivaciones trifásicas, no en los circuitos finales."
           },
           {
             "id": 4,
-            "answer": "Aluminio de 25 mm².",
+            "answer": "Es una práctica recomendada en bioconstrucción para disminuir el volumen de plásticos y cobre empleados.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "La ecología de los materiales nunca puede sobreponerse a las normas de protección contra incendios y electrocuciones que estipula el reglamento técnico."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-10",
-        "question": "¿Qué elementos deben conectarse obligatoriamente a la red de tierra del edificio?",
+        "question": "En el cableado de cables flexibles de designación H07V-K muy habituales en viviendas, ¿qué identifica exactamente el código '-K' del final de su nomenclatura técnica?",
         "options": [
           {
             "id": 1,
-            "answer": "Las masas metálicas de los ascensores.",
-            "isCorrect": true,
-            "explanation": "Correcto. Es un punto de conexión obligatorio. Fuente: ITC-BT-26, apartado 2."
+            "answer": "Que el compuesto del aislamiento exterior es un polímero libre de halógenos de alta seguridad.",
+            "isCorrect": false,
+            "explanation": "La letra K no denota propiedades químicas frente al fuego (como harían la Z o la Z1), sino puramente la morfología mecánica del cobre."
           },
           {
             "id": 2,
-            "answer": "La estructura metálica del edificio.",
+            "answer": "Que la morfología del conductor de cobre es flexible, conformado por múltiples alambres finos (Clase 5).",
             "isCorrect": true,
-            "explanation": "Correcto. Forma parte de la equipotencialidad. Fuente: ITC-BT-26, apartado 2."
+            "explanation": "El estándar de designación de cables (CENELEC) especifica que la K se refiere a conductores flexibles especialmente aptos para canalizaciones interiores complicadas o cuadros eléctricos, según se tipifica en la ITC-BT-26."
           },
           {
             "id": 3,
-            "answer": "Las canalizaciones metálicas de agua y gas.",
-            "isCorrect": true,
-            "explanation": "Correcto. Para evitar tensiones de paso y contacto. Fuente: ITC-BT-26, apartado 2."
+            "answer": "Que el conductor tiene una cubierta exterior de protección que le otorga resistencia mecánica contra impactos.",
+            "isCorrect": false,
+            "explanation": "Estos son cables unipolares sin cubierta exterior estanca o armada (solo llevan el aislamiento base de PVC V). No tienen resistencia al impacto directa."
           },
           {
             "id": 4,
-            "answer": "Los muebles de madera de la cocina.",
+            "answer": "Que es apto de forma exclusiva para ser usado como conductor de puesta a tierra.",
             "isCorrect": false,
-            "explanation": "Incorrecto. No son conductores."
+            "explanation": "El uso se define por el color (verde/amarillo), no por la letra K, que determina flexibilidad. Un cable marrón puede ser H07V-K."
           }
         ],
-        "type": "multiple"
+        "type": "simple"
       },
       {
         "id": "ITC-BT-26-11",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
+        "question": "Para asegurar la fiabilidad frente al riesgo de incendios y averías continuadas, ¿en qué punto físico exacto de la topología de red está permitido realizar el corte de conductores para sacar derivaciones hacia varios enchufes?",
         "options": [
           {
             "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Exclusiva y obligatoriamente en el interior de cajas de empalme o registro provistas de tapas.",
+            "isCorrect": true,
+            "explanation": "Para aislar cualquier posible arco eléctrico o sobrecalentamiento térmico del material combustible circundante (madera, papel pintado), el apartado 6.3 de la ITC-BT-26 impone que las regletas de conexión se alojen dentro de cajas plásticas incombustibles."
           },
           {
             "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
+            "answer": "En el interior del propio tubo corrugado, garantizando que el empalme queda prensado y no se desplaza.",
+            "isCorrect": false,
+            "explanation": "Hacer empalmes en el interior de un tubo es una temeridad e ilegalidad, pues impide su revisión, sustitución e incrementa el riesgo de incendio asfixiando el calor."
           },
           {
             "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
+            "answer": "A ras del enlucido de la pared, siempre que se cubra con yeso de alta densidad y baja higrometría.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
+            "explanation": "El yeso no es un aislante eléctrico normativo y las conexiones enterradas de forma ciega en la obra imposibilitan la trazabilidad o reparación en caso de fallo."
           },
           {
             "id": 4,
-            "answer": "Una batería de respaldo.",
+            "answer": "Solo pueden realizarse en el cuadro general, estando prohibido derivar un cable a lo largo de su recorrido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La norma permite, y es la práctica estándar para abaratar tiradas de cobre, realizar derivaciones en cajas de registro intermedias distribuidas por las habitaciones."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-12",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
+        "question": "Aparte de los disyuntores de protección de las líneas, la normativa exige que la tapa o frente del Cuadro General de Distribución muestre información clara para el usuario o técnico. ¿Qué datos mínimos son obligatorios?",
         "options": [
           {
             "id": 1,
-            "answer": "1000 V.",
+            "answer": "Los esquemas unifilares sellados por el Ministerio de Industria y la potencia total reactiva instalada.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Esos documentos técnicos extensos acompañan al boletín o proyecto en formato papel, pero no se graban obligatoriamente en el cuadro plástico."
           },
           {
             "id": 2,
-            "answer": "2500 V durante 15 minutos.",
+            "answer": "La placa de características identificativa con el nombre del instalador y la fecha de ejecución.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
+            "explanation": "El apartado 4 de la ITC-BT-26 exige una trazabilidad de responsabilidad. El cuadro debe identificar a la empresa habilitada que lo cableó y la fecha, para facilitar el mantenimiento futuro y depurar responsabilidades de seguridad."
           },
           {
             "id": 3,
-            "answer": "230 V.",
+            "answer": "Las advertencias de primeros auxilios frente a fibrilación y un número de emergencias sanitarias.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Esa rotulación es típica de estaciones transformadoras o salas de alta tensión industriales, pero no se exige en un domicilio particular."
           },
           {
             "id": 4,
-            "answer": "5000 V.",
+            "answer": "El diagrama de curvas térmicas y magnéticas de los interruptores que contiene en su interior.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Esa información es propia de las fichas técnicas del fabricante de la aparamenta, no forma parte de la etiqueta resumen instalada por el electricista."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-13",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
+        "question": "En caso de usar conductores rígidos macizos de un solo alambre en las conducciones interiores, la normativa usa un sufijo particular en su denominación técnica. ¿Cuál es este sufijo CENELEC?",
         "options": [
           {
             "id": 1,
-            "answer": "No es necesario seccionarlos.",
+            "answer": "La letra -R, que indica resistencia extrema a la tensión mecánica.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La letra R indica conductor rígido pero cableado (formado por varios hilos gruesos trenzados), no macizo de un solo alambre."
           },
           {
             "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
+            "answer": "La letra -U.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
+            "explanation": "El sufijo -U (ejemplo H07V-U) identifica a los conductores de cobre de hilo macizo (un solo alambre sólido), a diferencia de las clases flexibles o semi-rígidas. Así se indica en las clasificaciones del apartado 6 de la ITC-BT-26."
           },
           {
             "id": 3,
-            "answer": "Solo se secciona la fase.",
+            "answer": "La terminación -S, haciendo referencia a 'Solid copper'.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
+            "explanation": "Aunque semánticamente tendría sentido en inglés, la normativa armonizada HD 361 establece la U para la clase 1 maciza."
           },
           {
             "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
+            "answer": "El distintivo -Z, que marca los conductores de nula emisión de humos oscuros.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
+            "explanation": "La Z (o Z1) define la naturaleza del polímero plástico (libre de halógenos), no si el alma metálica es un cable macizo o de múltiples hilos finos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-14",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
+        "question": "Si por necesidades constructivas se requiere que las tomas de corriente del circuito de uso general se deriven unas de otras sin cajas de empalme intermedias, ¿qué condición impone el reglamento sobre la forma de conexionado?",
         "options": [
           {
             "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "answer": "Se debe asegurar que el corte o desconexión física de un enchufe no interrumpa el suministro de tierra ni de neutro a los equipos conectados en las bases situadas aguas abajo.",
+            "isCorrect": true,
+            "explanation": "El apartado 6.3 de la ITC-BT-26 vela por la seguridad: si el cable de tierra se pasa haciendo una 'guirnalda' cortada y se suelta el primer enchufe, toda la cadena pierde la protección. La derivación en los bornes debe garantizar la continuidad permanente."
           },
           {
             "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
+            "answer": "Está terminantemente prohibido; la conexión en cadena o guirnalda es ilegal, debiendo acudir todas de forma radial a una regleta de reparto.",
+            "isCorrect": false,
+            "explanation": "El puenteo entre bases de la misma habitación sí está tolerado normativamente, siempre que las bornas de la base estén preparadas para alojar dos hilos y aseguren continuidad sin depender del mecanismo interno."
           },
           {
             "id": 3,
-            "answer": "Colgado de la pared del garaje.",
+            "answer": "Cada puente entre enchufes debe soldarse obligatoriamente con estaño para reducir la impedancia térmica del recorrido.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La soldadura con estaño está prohibida en redes de potencia porque los ciclos térmicos pueden fundirla, requiriéndose siempre bornes a presión mecánica."
           },
           {
             "id": 4,
-            "answer": "A ras de la acera exterior.",
+            "answer": "Se permite únicamente si se rebaja el magnetotérmico general del circuito a 10 amperios.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La forma en que se mecanizan las bornas de los enchufes no obliga a alterar las características térmicas generales del diseño del circuito, que seguirá con su PIA de 16 A."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-15",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
+        "question": "¿Cuál es la recomendación técnica que promueve la normativa a la hora de cablear las tomas de corriente ubicadas dentro de una misma habitación cerrada?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el cable es para uso universal.",
+            "answer": "Repartirlas alternativamente entre diferentes fases para asegurar un reparto simétrico en la red general del distribuidor.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Las viviendas modernas de perfil estándar se alimentan en su inmensa mayoría de forma monofásica y no requieren complejos equilibrios entre estancias pequeñas."
           },
           {
             "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
+            "answer": "Conectarlas, en la medida de lo posible, a la misma fase para prevenir diferencias de potencial críticas si se tocan simultáneamente dos equipos averiados.",
             "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
+            "explanation": "Si dos enchufes cercanos estuvieran en fases distintas y dos aparatos sufrieran averías a chasis (sin buena tierra), una persona tocando ambos recibiría un choque brutal de 400V entre fases. El apartado 6 (Manual) de la ITC-BT-26 sugiere usar la misma fase por habitación."
           },
           {
             "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
+            "answer": "Separar cada par de tomas mediante un diferencial independiente insertado en cajas de registro locales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Los diferenciales protegen cabeceras de circuitos agrupados en el cuadro general, no se atomizan de a pares por la casa salvo casos muy industriales o exteriores."
           },
           {
             "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
+            "answer": "Cablear cada enchufe con su propio neutro directo al Cuadro General, sin compartir cajas de derivación.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Esta es la topología 'estrella pura', extremadamente costosa en cobre y plásticos, inviable y no obligada. Los circuitos comparten la caja de derivación en pasillo para distribuir la potencia."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-16",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
+        "question": "En el montaje de las canalizaciones en techos suspendidos o falsos suelos, los tubos corrugados y cables alojados sufren diferentes exposiciones. ¿Qué precepto estipula la norma para esta topología de ocultación arquitectónica?",
         "options": [
           {
             "id": 1,
-            "answer": "Marrón.",
+            "answer": "Deberán emplearse únicamente cables acorazados con malla de acero, desechando el uso de tubos protectores plásticos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
+            "explanation": "Los cables acorazados son caros y su uso se restringe a zonas industriales con altísimo impacto mecánico. En viviendas bajo falso techo, el tubo plástico corrugado o liso de PVC o poliolefina es el estándar adecuado."
           },
           {
             "id": 2,
-            "answer": "Azul claro.",
+            "answer": "Todas las cajas de empalme o derivación situadas en esos huecos deben quedar registrables y ser totalmente accesibles sin necesidad de romper estructuras.",
             "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
+            "explanation": "Toda unión eléctrica sufre desgaste térmico y es un punto potencial de fallo. El apartado 6 de la ITC-BT-26 hace innegociable que ninguna caja de registro quede 'enterrada' en obra muerta o placas inamovibles; deben poder abrirse para inspección."
           },
           {
             "id": 3,
-            "answer": "Negro.",
+            "answer": "Los cables irán grapados en tendido libre sobre las placas de escayola para favorecer la máxima disipación de calor por radiación natural.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Las conducciones en falsos techos de viviendas jamás van grapadas en tendido libre sin protección tubular, ya que las estructuras afiladas de los perfiles metálicos rebanarían su aislamiento básico."
           },
           {
             "id": 4,
-            "answer": "Gris.",
+            "answer": "Es imprescindible inyectar espuma de poliuretano en el falso techo tras el tendido para garantizar un sellado ignífugo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Sellar las canalizaciones con espuma rígida impide la movilidad de los cables, anula su disipación térmica y viola el requisito de que los cables deben poder sacarse y sustituirse libremente por los tubos."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-17",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
+        "question": "Al elegir las cajas de empalme que van a ser empotradas dentro de una tabiquería de ladrillo o yeso laminado, ¿cuál es un requisito material y de diseño innegociable para las tapas que las cierran?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Deben contar con cierres enrasados atornillados o engarzados y poseer una alta resistencia a la combustión sin emitir humo opaco.",
+            "isCorrect": true,
+            "explanation": "El interior de la caja puede generar un conato de arco eléctrico. El apartado 6.3 de la ITC-BT-26 exige que sean de material aislante, cerradas con seguridad física para no caer accidentalmente, y estar testadas frente al hilo incandescente para no propagar el fuego a las maderas u otros elementos decorativos de la pared."
           },
           {
             "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
+            "answer": "Deben fabricarse invariablemente en aluminio cepillado para actuar como disipadores pasivos de las altas temperaturas de las regletas.",
+            "isCorrect": false,
+            "explanation": "Utilizar metal para alojar empalmes vivos a 230 V es un riesgo añadido inútil. Deberían conectarse a tierra. La norma ordena material aislante incombustible, no cajas metálicas de diseño."
           },
           {
             "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
+            "answer": "Las tapas deben incluir perforaciones de ventilación natural proporcionales a los vatios gestionados en sus bornes.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "El cuadro eléctrico general lleva índices IP estrictos contra el polvo. Llenar de agujeros las tapas de derivación facilitaría la entrada de humedad e insectos, perdiendo aislamiento."
           },
           {
             "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
+            "answer": "Están exentas de requisitos de fuego siempre que la profundidad de empotrado supere los 3 centímetros en la mampostería.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Ningún material plástico dentro de una red de baja tensión de vivienda queda exento de su ensayo de reacción al fuego (flamabilidad), independientemente de a qué cota de profundidad de la pared queden alojados."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-18",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
+        "question": "¿En qué circunstancias permite la normativa efectuar un cambio de sección de un conductor disminuyendo su calibre en plena instalación de vivienda sin colocar inmediatamente una nueva protección magnetotérmica en ese mismo nudo?",
         "options": [
           {
             "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
+            "answer": "Si el nuevo tramo más delgado suministra corriente a enchufes ubicados a más de 20 metros de distancia y hay mucha caída de tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
+            "explanation": "La caída de tensión justifica aumentar la sección al final de la línea, pero jamás es excusa para disminuir el grosor del cable sin protección frente a los cortocircuitos térmicos."
           },
           {
             "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
+            "answer": "Exclusivamente cuando el calibre del magnetotérmico general ubicado aguas arriba sea capaz de proteger por igual al cable grueso y al tramo nuevo más fino.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
+            "explanation": "Si el disyuntor inicial tiene un amperaje (ej. 10 A) que soporta tanto el primer tramo (ej. 2,5 mm²) como el derivado más estrecho (ej. 1,5 mm²), no hay riesgo de que el cable fino se queme, pues el disyuntor saltará antes. La ITC-BT-26 y las normas de protección admiten este caso de excepcionalidad geométrica."
           },
           {
             "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
+            "answer": "Únicamente en el circuito del cuarto de baño para facilitar la inserción en interruptores estancos pequeños.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Reducir la sección en una zona mojada sin tener garantizada la protección térmica ante el uso intensivo de radiadores de baño crearía el escenario perfecto para un incendio fulminante."
           },
           {
             "id": 4,
-            "answer": "Solo en locales comerciales.",
+            "answer": "Esta práctica es universalmente ilegal en viviendas y conlleva la paralización cautelar inmediata de la instalación y del boletín.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "Tiene restricciones severas, pero no es ilegal en términos absolutos si se demuestra mediante cálculo que la protección en el cuadro cubre toda la integral de Joule del tramo de menor calibre."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-19",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
+        "question": "En el hipotético escenario de un defecto de masa en la carcasa de un horno, la red principal de tierra evacuará la fuga. ¿Qué parámetro de la construcción original del edificio es determinante para que este sistema actúe eficientemente?",
         "options": [
           {
             "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
+            "answer": "La tensión de la línea de acometida general de 400 V.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El voltaje general define el tamaño y diseño del aislamiento de los equipos de distribución pública, pero no influye en cómo la tierra física de la vivienda drena la sobrecorriente hacia el subsuelo."
           },
           {
             "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
+            "answer": "La resistividad propia del terreno donde se asienta la cimentación y la disposición perimetral del anillo desnudo inferior.",
             "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
+            "explanation": "El anillo de cobre de 35 mm² debe 'entregar' la fuga de electrones a la masa terrestre. Si la tierra de la parcela es muy rocosa y seca (alta resistividad), el anillo de cimentación exigido por la ITC-BT-26 por sí solo no bastará y las tensiones de paso superarán los niveles mortales, obligando a hincar picas profundas."
           },
           {
             "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
+            "answer": "La potencia reactiva instalada por los ascensores comunitarios y las bombas de extracción.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
+            "explanation": "Los ascensores afectan al tipo de contrato y al factor de potencia, obligando a poner baterías de condensadores si penalizan; la reactiva no interviene en la magnitud o viabilidad conductiva de un defecto derivado a tierra."
           },
           {
             "id": 4,
-            "answer": "Una batería de respaldo.",
+            "answer": "La longitud de recorrido de los conductores trenzados trenzados en las montantes generales.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El problema principal radica al final de la cadena de fuga (el paso entre el anillo de la cimentación y el sustrato del terreno geológico), no en las pequeñas pérdidas óhmicas de las montantes verticales del bloque."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-20",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
+        "question": "¿De qué manera interviene constructivamente el forjado o armazón de hormigón armado estructural del edificio de viviendas respecto a la instalación electrotécnica?",
         "options": [
           {
             "id": 1,
-            "answer": "1000 V.",
+            "answer": "Aísla magnéticamente cada planta, de forma que un rayo no pueda atravesar los techos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "El hormigón armado no genera aislamiento de campos magnéticos (la jaula de Faraday exigiría enrejados continuos). El rayo atravesaría la estructura si no existe red pararrayos conectada."
           },
           {
             "id": 2,
-            "answer": "2500 V durante 15 minutos.",
+            "answer": "La armadura metálica principal se suelda obligatoriamente a la instalación de tierra formando una estructura equipotencial masiva.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
+            "explanation": "El acero corrugado de pilares y cimentaciones forma una red inmensa. Unir el cable principal de tierra a partes de este armazón dispersa los fallos catastróficos y reduce gradientes de tensión peligrosos, como requiere el esquema general de tierras de la ITC-BT-26."
           },
           {
             "id": 3,
-            "answer": "230 V.",
+            "answer": "Obliga a instalar transformadores galvánicos en cada apartamento para independizar a los vecinos de inducciones en el hierro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Las viviendas se conectan todas directamente en paralelo al secundario del trafo de baja tensión del barrio; no se instalan separaciones galvánicas pesadas piso a piso."
           },
           {
             "id": 4,
-            "answer": "5000 V.",
+            "answer": "No interviene de ningún modo; el reglamento eléctrico excluye cualquier contacto con los elementos arquitectónicos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Precisamente, ignorar el contacto entre la red y los materiales constructivos generó en el pasado graves diferencias de potencial entre el suelo pisado y un grifo, por ello la interconexión con el mallazo estructural hoy es sagrada."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-21",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
+        "question": "En el supuesto de proyectar enchufes en un lavadero independiente, muy estrecho y dominado por las salpicaduras de la lavadora y pila contiguas, ¿qué prescripción básica prima sobre el material de cobertura eléctrica?",
         "options": [
           {
             "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "answer": "Deben incorporarse mecanismos dotados de tapas retráctiles con un grado mínimo de penetración a la humedad y el polvo ajustado a ese riesgo de proyección de gotas.",
+            "isCorrect": true,
+            "explanation": "La norma indica en el desarrollo de sus prescripciones generales y de humedad (ITC-BT-26) que en estancias con salpicaduras directas (sin llegar a ser inmersión), no valen enchufes estándar IP20. Requerirán componentes que cubran al menos IP44 o un índice dictado por el volumen de humedad definido."
           },
           {
             "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
+            "answer": "Es suficiente situarlos por encima del metro ochenta de altura para que eludamos cualquier norma de estanqueidad estricta.",
+            "isCorrect": false,
+            "explanation": "Elevar los enchufes mitiga el riesgo mecánico y el agua derramada, pero las proyecciones y la alta condensación de vapor de lavadoras requieren mecanismos físicamente adecuados en su envolvente, estén a la cota que estén."
           },
           {
             "id": 3,
-            "answer": "Solo se secciona la fase.",
+            "answer": "No se pueden instalar bases estándar a 230 V, se exigirá alimentación por baterías o en tensiones de muy baja seguridad a 12 V de manera obligatoria.",
             "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
+            "explanation": "No es viable ni normativo alimentar grandes electrodomésticos mecánicos (lavadoras, con potencias superiores a 2.000W) con pequeñas tensiones de 12V y transformadores galvánicos inmensos. Se usan los 230V aplicando protecciones IP y diferenciales adecuados."
           },
           {
             "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
+            "answer": "Deberán conectarse íntegramente de forma aérea, eludiendo canalizaciones plásticas internas en la tabiquería de los azulejos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
+            "explanation": "El tendido aéreo superficial (bajo tubo estanco) es una opción, pero la canalización empotrada bajo tubo plástico recubierto por alicatado es perfectamente legal, higiénica y ampliamente usada."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-22",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
+        "question": "Con respecto a la identificación cromática de cables unipolares rígidos macizos ya preinstalados dentro de conductos viejos de una casa de los 90, donde se constata que las tres fases y el neutro son negros, ¿cómo subsana reglamentariamente el instalador la infracción?",
         "options": [
           {
             "id": 1,
-            "answer": "A 10 cm del suelo.",
+            "answer": "Basta con forrar exclusivamente el extremo del cable neutro en azul y añadirle terminales gruesos en el cuadro para evitar confusiones.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "El enfundado puntual extremo no garantiza que durante un corte en una caja ciega en medio del pasillo un albañil no toque por error una de las falsas fases, creyendo que es masa apagada. La prohibición es rotunda."
           },
           {
             "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
+            "answer": "Estará forzado a extraer y retirar todo el recorrido de conductores y entubar cableado de recambio con las codificaciones intrínsecas del fabricante extruidas en colores modernos (azul, marrón, verde-amarillo).",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
+            "explanation": "Para certificar o reformar una instalación legalizada actual, el apartado 6.2 de la ITC-BT-26 no admite apaños con cintas. El color identificador de neutro y tierra ha de acompañar indisolublemente toda la longitud completa de la funda del conductor desde su fabricación."
           },
           {
             "id": 3,
-            "answer": "Colgado de la pared del garaje.",
+            "answer": "No se aplica la retroactividad, pudiendo cerrar la obra sin mayor intervención al ser una instalación preexistente anterior a la normativa actual de baja tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Si se interviene, modifica o realiza el boletín para alta nueva o reforma seria, las partes afectadas de la instalación deben actualizarse a los mínimos de seguridad vital, siendo la identificación del neutro/tierra uno de los pilares intocables de la protección contra accidentes."
           },
           {
             "id": 4,
-            "answer": "A ras de la acera exterior.",
+            "answer": "Puede legalizarlo sustituyendo solo la línea troncal de acometida, dejando invariables los rabillos internos por considerarse 'uso final inofensivo'.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El usuario final que cuelga una lámpara o cambia un interruptor sin conocimientos se expone a electrocución letal si en el techo todos los cables son idénticos y mezcla la fase negra y la tierra negra. El cambio abarca los circuitos terminales."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-23",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
+        "question": "En el marco de la certificación de cables, un técnico de calidad expone conductores a fuertes picos de tensión oscilatoria de origen eléctrico en un corto lapso. ¿Qué busca verificar prioritariamente la tensión mínima asignada de aislación, expresada en escalones como 450/750V?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el cable es para uso universal.",
+            "answer": "Que la radiación de campos electromagnéticos al exterior queda anulada para evitar afectar al WiFi y las radios FM domésticas.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Los blindajes electromagnéticos o apantallamientos se hacen con mallas de cobre estañado concéntricas, la tensión asignada del PVC o XLPE es meramente dieléctrica y no frena interferencias de RF."
           },
           {
             "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
+            "answer": "Asegurar que el revestimiento de cloruro de polivinilo posea el margen dieléctrico de seguridad necesario para no colapsar y perforarse ante oscilaciones, crestas y sobretensiones temporales esperables en redes de 230/400V.",
             "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
+            "explanation": "Un cable trabajando a 230 V nominales no puede tener un aislamiento justito de 250 V. Al arrancar motores potentes y conectarse la red a transformadores se originan ondas temporales de alta energía. El apartado 6.1 exige 450/750 V para dotar al cable de robustez inquebrantable frente a estas anomalías crónicas."
           },
           {
             "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
+            "answer": "Soportar la exposición constante a los rayos solares ultravioletas durante tiradas por techos y terrazas en climas extremadamente calurosos.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "La tensión asignada define la fortaleza eléctrica contra diferencias de potencial entre el cobre interno y la tierra externa. La resistencia solar recae en estabilizantes de carbono en la cubierta exterior o en tipologías de poliuretano, no en la rigidez dieléctrica per se."
           },
           {
             "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
+            "answer": "Frenar la fuga paulatina de amperaje reactivo en los tramos finales que discurren paralelos a conducciones metálicas de la calefacción de la comunidad.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La pérdida capacitiva natural de cualquier cable existe, pero justificar grosores dieléctricos de alta gama de tensión solo para arañar decimales de reactiva en un piso minúsculo carece de sentido ingenieril."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-24",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
+        "question": "Dentro del esquema organizativo del Cuadro General de una vivienda, un operario monta el ICP (Control de Potencia) directamente empotrado y sin ninguna barrera de separación en la misma fila con los interruptores diferenciales. ¿Qué incumplimiento se deduce?",
         "options": [
           {
             "id": 1,
-            "answer": "Marrón.",
+            "answer": "Se obliga a incluir tabiques separadores plásticos entre las diferentes fases para que no se fundan juntas si hay exceso de consumo local.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
+            "explanation": "Las barreras plásticas entre mecanismos las incluye ya la propia fabricación modular estándar en carril DIN de los automáticos, no siendo un requisito añadido post-montaje por el instalador para la misma fila general."
           },
           {
             "id": 2,
-            "answer": "Azul claro.",
+            "answer": "El compartimento del ICP (si es externo al contador inteligente) debe estar mecánicamente independizado, aislado y susceptible de ser precintado independientemente de la aparamenta privada que maneja el cliente.",
             "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
+            "explanation": "Por imposición de la ITC-BT-17 vinculada a las instalaciones de viviendas generales (ITC-BT-26 apartado 4), el interruptor de control de potencia tarifario, al limitar la energía contratada por la distribuidora, no puede estar expuesto a manipulaciones fáciles o puenteos por parte del usuario y debe ir en envolvente propia y precintable."
           },
           {
             "id": 3,
-            "answer": "Negro.",
+            "answer": "Solo es ilícito si se han mezclado elementos unipolares (de 1 polo) con modulares tetrapolares en ese carril superior.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "No existe norma técnica que prohiba alinear en un carril DIN módulos de distinta anchura o polos si las pletinas de conexión están correctamente repartidas y aisladas."
           },
           {
             "id": 4,
-            "answer": "Gris.",
+            "answer": "La ubicación no es defectuosa en absoluto si toda la regleta principal de entrada proviene del neutro del circuito de contadores comunitarios.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Venga del neutro que venga, el problema de fondo es legal y contractual (el ICP pertenece a la esfera de control de acceso a la red), por lo que requiere independización visual y física con cerradura o precinto inviolable."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-25",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
+        "question": "En el caso muy específico de viviendas antiguas sin red de tierra general comunitaria, ¿cuál es la solución admitida por el reglamento para dar seguridad de contactos indirectos a un piso reformado en el 4º nivel?",
         "options": [
           {
             "id": 1,
-            "answer": "Que el conductor es rígido.",
+            "answer": "Obviar la puesta a tierra conectando una pica suelta a la primera cañería de gas o desagües metálicos que bajen al sótano subterráneo más húmedo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "Aparte de ilegal, usar fontanería como red de protección a tierra es la causa directa de accidentes domésticos fulminantes al electrizar la grifería de vecinos ajenos al fallo eléctrico."
           },
           {
             "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
+            "answer": "Instalar obligatoriamente un conductor principal de tierra tirado de manera segura y estanca por el patio de luces u huecos, hincando una toma de picas en el subsuelo base para asegurar equipotencialidad.",
             "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
+            "explanation": "Aunque el resto de la comunidad decida no actualizarse, las renovaciones individuales exigen medidas radicales de seguridad. El apartado 2 de la ITC-BT-26 obliga a la implantación de una red de toma de tierra, lo que fuerza al instalador a crear un recorrido hacia el patio o sótano para disponer de electrodos propios."
           },
           {
             "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
+            "answer": "Configurar toda la casa como un recinto estricto Clase II, utilizando electrodomésticos sin enchufe Schuko.",
             "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
+            "explanation": "En la práctica, asegurar que el 100% de lámparas, metales, grifos y máquinas no contengan nunca derivaciones posibles es irreal y prohibir los electrodomésticos clase I masivos (termos, lavadoras, hornos) no responde a las demandas de confort de una vivienda moderna."
           },
           {
             "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
+            "answer": "Instalar tres diferenciales consecutivos de 10 mA aguas arriba del contador, reemplazando la función del circuito conductor verde-amarillo por corte ultrasensible por desbalance del neutro.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "La suma de elementos de alta sensibilidad incrementa el corte prematuro por fugas lícitas (sin aportar la descarga necesaria para drenar fallos), pero sobre todo, los equipos se quedan sin vía de descarga para derivar la tensión del chasis metálico si no hay pica."
           }
         ],
         "type": "simple"
       },
       {
         "id": "ITC-BT-26-26",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
+        "question": "El instalador plantea conectar seis conductores (dos fases de líneas en paralelo y cuatro de alimentación de lámparas) en una sola unión. ¿Cuál es el requisito sine qua non que aplican las normas y guías técnicas en la envolvente elegida?",
         "options": [
           {
             "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-27",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-28",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-29",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-30",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-31",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-32",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-33",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-34",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-35",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-36",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-37",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-38",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-39",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-40",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-41",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-42",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-43",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-44",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-45",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-46",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-47",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-48",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-49",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-50",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-51",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-52",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-53",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-54",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-55",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-56",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-57",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-58",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-59",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-60",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-61",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-62",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-63",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-64",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-65",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-66",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-67",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-68",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-69",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-70",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-71",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-72",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-73",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-74",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-75",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-76",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-77",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-78",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-79",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-80",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-81",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-82",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-83",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-84",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-85",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-86",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-87",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-88",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-89",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-90",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-91",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-92",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
-          },
-          {
-            "id": 3,
-            "answer": "230 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 4,
-            "answer": "5000 V.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-93",
-        "question": "¿Qué condición de seccionamiento deben cumplir los conductores en las derivaciones?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No es necesario seccionarlos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Deben poder seccionarse en cualquier punto donde se realice una derivación mediante bornes de conexión.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige la posibilidad de separación completa para mantenimiento y seguridad."
-          },
-          {
-            "id": 3,
-            "answer": "Solo se secciona la fase.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El neutro también debe poder desconectarse."
-          },
-          {
-            "id": 4,
-            "answer": "Se deben soldar para que no se suelten.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La soldadura impide el seccionamiento fácil."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-94",
-        "question": "¿A qué profundidad aproximada debe enterrarse el anillo de tierra en la cimentación?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "A 10 cm del suelo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 2,
-            "answer": "En el fondo de las zanjas de cimentación, por debajo de la solera.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 2 de la ITC-BT-26 indica que debe situarse en el fondo de las zanjas para asegurar un buen contacto con el terreno."
-          },
-          {
-            "id": 3,
-            "answer": "Colgado de la pared del garaje.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "A ras de la acera exterior.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-95",
-        "question": "¿Qué identifica el símbolo '-U' en un cable H07V-U?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el cable es para uso universal.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es rígido de un solo alambre (Clase 1).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -U corresponde a conductores rígidos macizos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es de polietileno.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que es apto para instalaciones bajo el agua.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-96",
-        "question": "¿Cuál de los siguientes colores NO está permitido para identificar conductores de fase?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Marrón.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Es un color estándar para fase."
-          },
-          {
-            "id": 2,
-            "answer": "Azul claro.",
-            "isCorrect": true,
-            "explanation": "Correcto. El azul claro está reservado exclusivamente para el conductor neutro según la ITC-BT-26, apartado 6.2."
-          },
-          {
-            "id": 3,
-            "answer": "Negro.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 4,
-            "answer": "Gris.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-97",
-        "question": "¿Qué indica el símbolo '-K' en la designación de un cable H07V-K?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Que el conductor es rígido.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          },
-          {
-            "id": 2,
-            "answer": "Que el conductor es flexible (Clase 5).",
-            "isCorrect": true,
-            "explanation": "Correcto. Según la tabla del apartado 6.1 de la ITC-BT-26, el símbolo -K identifica conductores flexibles de varios alambres finos."
-          },
-          {
-            "id": 3,
-            "answer": "Que el aislamiento es resistente al fuego.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Que el cable es apto para exteriores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-98",
-        "question": "¿Es obligatorio el uso de cajas de conexión para realizar empalmes entre conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "No, se pueden hacer dentro de los tubos.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Prohibido por seguridad."
-          },
-          {
-            "id": 2,
-            "answer": "Sí, los empalmes y derivaciones se realizarán siempre en el interior de cajas de material aislante e incombustible.",
+            "answer": "Las dimensiones y el volumen de la caja de material aislante y a prueba de inflamabilidad deben ajustarse con holgura para impedir que el hacinamiento impida abrochar holgadamente regletas homologadas aisladas.",
             "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.3 de la ITC-BT-26 exige el uso de cajas para garantizar la protección mecánica e incendios."
-          },
-          {
-            "id": 3,
-            "answer": "Solo si hay más de 3 conductores.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          },
-          {
-            "id": 4,
-            "answer": "Solo en locales comerciales.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. La distancia propuesta no garantiza el volumen de seguridad o alejamiento requerido por la ITC-BT-26."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-99",
-        "question": "¿Qué debe incluir obligatoriamente el Cuadro General de Distribución para la gestión de tierras?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "Un borne de tierra para cada estancia por separado.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
+            "explanation": "El sobrecalentamiento por acumulación de nudos en un volumen mínimo funde plásticos y arde la instalación. El apartado 6.3 de la ITC-BT-26 prescribe taxativamente cajas incombustibles con capacidad volumétrica sobredimensionada para no aprisionar los bornes ni provocar cortos a presión constante."
           },
           {
             "id": 2,
-            "answer": "Bornes o pletinas para la conexión de los conductores de protección con la línea principal de tierra.",
-            "isCorrect": true,
-            "explanation": "Correcto. Según el apartado 4 de la ITC-BT-26, el cuadro debe centralizar la conexión de tierras de la vivienda."
-          },
-          {
-            "id": 3,
-            "answer": "Un diferencial exclusivo para el cable de tierra.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. El cable de tierra no lleva diferencial."
-          },
-          {
-            "id": 4,
-            "answer": "Una batería de respaldo.",
-            "isCorrect": false,
-            "explanation": "Incorrecto. Según la ITC-BT-26, esta opción no se ajusta a los requisitos técnicos o medidas de protección reglamentarias."
-          }
-        ],
-        "type": "simple"
-      },
-      {
-        "id": "ITC-BT-26-100",
-        "question": "¿Cuál es la tensión de ensayo de rigidez dieléctrica que deben soportar los conductores?",
-        "options": [
-          {
-            "id": 1,
-            "answer": "1000 V.",
+            "answer": "Es imprescindible verter una resina epóxica aislante dieléctrica de alta temperatura rellenando completamente el cajetín para anular la oxidación de los seis conductores en su apretado contacto mutuo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
-          },
-          {
-            "id": 2,
-            "answer": "2500 V durante 15 minutos.",
-            "isCorrect": true,
-            "explanation": "Correcto. El apartado 6.1 (Manual) indica que los conductores deben superar este ensayo sin perforación del aislamiento."
+            "explanation": "Las resinas se inyectan en derivaciones críticas estancas al exterior o empalmes bajo el suelo para anular la corrosión por inmersión o lluvia. En tabiquería de interiores o estancias de escasa humedad, imposibilitaría la sustitución y la ampliación o revisión obligatorias."
           },
           {
             "id": 3,
-            "answer": "230 V.",
+            "answer": "El empalme unificado requiere invariablemente una cinta termorretráctil con base metálica, dado que las simples bornas plásticas de tornillo se dilatan desprendiendo chispas de falla de alta tensión.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "Existen y es preceptivo usar regletas y clemas o fichas de conexión, atornilladas o de grapa elástica, debidamente calibradas a la ampacidad del cable. Su uso no genera chispas si están apretadas; la cinta y tubos retractables no se exigen."
           },
           {
             "id": 4,
-            "answer": "5000 V.",
+            "answer": "La norma indica que se deben seccionar derivaciones como esta de tal manera que nunca existan más de cuatro conductores conectados en un único punto bajo la misma tapa o registro en el techo.",
             "isCorrect": false,
-            "explanation": "Incorrecto. Este valor de tensión no cumple con los límites de seguridad establecidos en la ITC-BT-26 para este caso específico."
+            "explanation": "El REBT no aplica una limitación dogmática numérica o matemática en el conteo de terminales dentro de la caja si se cuenta con regletas de derivación en peine adecuadas y suficiente volumen cúbico interior. La limitación la marca el espacio y la intensidad agregada."
           }
         ],
         "type": "simple"
