@@ -28,6 +28,7 @@ interface QuizState {
     score: number;
   }
   pauseReasons: PauseReason[];
+  savedQuizId: string | null;
 }
 
 interface QuizActions {
@@ -69,6 +70,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         score: 0,
       },
       pauseReasons: [],
+      savedQuizId: null,
 
       setQuestions: (questions) => set({ questions }),
       setConfig: (config) => set({ config }),
@@ -95,6 +97,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           score: 0,
           isFinished: false,
           disabledNext: true,
+          savedQuizId: null,
         });
 
         const firstQuestion = {
@@ -119,6 +122,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           isFinished: false,
           isPaused: false,
           disabledNext: true,
+          savedQuizId: null,
         });
       },
 
@@ -303,9 +307,13 @@ export const useQuizStore = create<QuizState & QuizActions>()(
           isFinished: true,
           expiresAt: null, // Evitamos que timers huérfanos se activen
           startTime: null,
+          savedQuizId: null,
         });
 
-        await saveAndRedirect(snapshot);
+        const savedId = await saveAndRedirect(snapshot);
+        if (savedId) {
+          set({ savedQuizId: savedId });
+        }
       },
       excludeCurrentQuestion: async () => {
         const { questions, finish } = get();
@@ -338,6 +346,7 @@ export const useQuizStore = create<QuizState & QuizActions>()(
         score: 0,
         isFinished: false,
         disabledNext: true,
+        savedQuizId: null,
       }),
     }),
     {
