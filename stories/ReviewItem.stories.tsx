@@ -79,3 +79,14 @@ export const Collapsed: Story = {
     onToggle: () => {},
   },
 };
+
+export const Unanswered: Story = {
+  args: {
+    question: mockQuestion,
+    answer: undefined,
+    index: 3,
+    isExpanded: true,
+    onToggle: () => {},
+  },
+};
+
